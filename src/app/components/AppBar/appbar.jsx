@@ -12,8 +12,6 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import "../AppBar/appbar.css";
-import logo from "../../assets/logo/logo2.png";
-
 const AppBar = () => {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
@@ -316,7 +314,7 @@ const AppBar = () => {
     <>
       <nav className="appbar">
         {/* Logo */}
-        <Image src={logo} alt="ICLP Logo" className="appbar-logo" width={50} height={50} />
+        <Image src={"/assets/logo/logo2.png"} alt="ICLP Logo" className="appbar-logo" width={50} height={50} />
 
         {/* Title (Now comes first) */}
         {/* Title with Subtitle */}
