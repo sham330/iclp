@@ -185,7 +185,6 @@
 
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import "./RelatedCoursesSlider.css";
 
 const CourseListing = () => {
@@ -350,7 +349,7 @@ const BTCourseCard = ({ course }) => {
   return (
     <div className="bt-course-card">
       <div className="bt-course-image-container">
-        <Image 
+        <img
           src={course.image} 
           alt={course.name} 
           className="bt-course-image"

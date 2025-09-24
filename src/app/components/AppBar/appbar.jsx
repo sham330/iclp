@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import {
   FaInstagram,
   FaLinkedin,
@@ -314,7 +313,7 @@ const AppBar = () => {
     <>
       <nav className="appbar">
         {/* Logo */}
-        <Image src={"/assets/logo/logo2.png"} alt="ICLP Logo" className="appbar-logo" width={50} height={50} />
+        <img src="/assets/logo/logo2.png" alt="ICLP Logo" className="appbar-logo" width={50} height={50} />
 
         {/* Title (Now comes first) */}
         {/* Title with Subtitle */}

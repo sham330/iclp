@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import ModalBooking from "../../ModalBooking/ModalBooking";
 import "./bodyHead.css";
 
@@ -41,7 +40,7 @@ const TechHero = () => {
         </div>
 
         <div className="tech-hero-image-wrapper">
-          <Image
+          <img
             src="/123Hero.png" // Use public folder path directly
             alt="Tech Education"
             className="tech-hero-image"
