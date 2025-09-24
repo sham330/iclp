@@ -1,0 +1,2808 @@
+{
+  "python": {
+    "title": "Python Developer Mastery",
+    "highlights": [
+      "Master Python from basics to advanced concepts",
+      "Hands-on projects with real-world applications",
+      "Learn Django and Flask for web development",
+      "Expert instructors with industry experience",
+      "Career guidance and interview preparation"
+    ],
+    "modules": [
+      {
+        "name": "Python Fundamentals",
+        "topics": [
+          "Syntax & Data Types",
+          "Control Flow",
+          "Functions",
+          "Error Handling"
+        ]
+      },
+      {
+        "name": "OOP & Advanced Python",
+        "topics": [
+          "Classes & Objects",
+          "Inheritance",
+          "Decorators",
+          "Generators"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "topics": [
+          "Django Framework",
+          "Flask Microframework",
+          "REST APIs",
+          "Database Integration"
+        ]
+      },
+      {
+        "name": "Data Science Basics",
+        "topics": ["NumPy", "Pandas", "Matplotlib", "Data Analysis"]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "Real-world Application",
+          "Code Review",
+          "Deployment",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a professional Python developer",
+    "duration": "10 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "Popular",
+    "careerOutcomes": [
+      "Python Developer (₹6-12 LPA)",
+      "Django/Flask Developer (₹8-15 LPA)",
+      "Data Analyst (₹5-10 LPA)",
+      "Automation Engineer (₹7-12 LPA)"
+    ]
+  },
+  "java": {
+    "title": "Java Developer Certification",
+    "highlights": [
+      "Comprehensive Java programming course",
+      "Spring Framework and Hibernate included",
+      "Build enterprise-level applications",
+      "Mock interviews and resume building",
+      "Flexible learning schedule"
+    ],
+    "modules": [
+      {
+        "name": "Core Java",
+        "topics": [
+          "Syntax Basics",
+          "OOP Concepts",
+          "Collections",
+          "Exception Handling"
+        ]
+      },
+      {
+        "name": "Advanced Java",
+        "topics": ["Multithreading", "JDBC", "Networking", "Java 8 Features"]
+      },
+      {
+        "name": "Spring Framework",
+        "topics": [
+          "Spring Core",
+          "Spring MVC",
+          "Spring Boot",
+          "Spring Security"
+        ]
+      },
+      {
+        "name": "Hibernate & JPA",
+        "topics": ["ORM Concepts", "Entity Mapping", "HQL", "Transactions"]
+      },
+      {
+        "name": "Enterprise Project",
+        "topics": ["Microservices", "API Development", "Testing", "Deployment"]
+      }
+    ],
+    "description": "Become a certified Java developer",
+    "duration": "12 Weeks",
+    "projects": 6,
+    "rating": 4.7,
+    "badge": "Trending",
+    "careerOutcomes": [
+      "Java Developer (₹5-10 LPA)",
+      "Spring Developer (₹8-14 LPA)",
+      "Backend Engineer (₹7-12 LPA)",
+      "Full Stack Developer (₹9-15 LPA)"
+    ]
+  },
+  "R Programming": {
+    "title": "R Programming for Data Science",
+    "highlights": [
+      "Master R programming for statistical computing",
+      "Data visualization with ggplot2",
+      "Statistical analysis and modeling",
+      "Real-world data science projects",
+      "Career support for data professionals"
+    ],
+    "modules": [
+      {
+        "name": "R Basics",
+        "topics": [
+          "R Syntax",
+          "Data Structures",
+          "Control Structures",
+          "Functions"
+        ]
+      },
+      {
+        "name": "Data Manipulation",
+        "topics": ["dplyr", "tidyr", "Data Cleaning", "Feature Engineering"]
+      },
+      {
+        "name": "Data Visualization",
+        "topics": ["ggplot2", "Plotly", "Shiny", "Dashboard Creation"]
+      },
+      {
+        "name": "Statistical Modeling",
+        "topics": [
+          "Regression",
+          "Hypothesis Testing",
+          "Time Series",
+          "Machine Learning Basics"
+        ]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "End-to-End Data Analysis",
+          "Report Generation",
+          "Presentation",
+          "Code Review"
+        ]
+      }
+    ],
+    "description": "Become proficient in R for data science",
+    "duration": "8 Weeks",
+    "projects": 4,
+    "rating": 4.6,
+    "badge": "Specialized",
+    "careerOutcomes": [
+      "Data Analyst (₹5-10 LPA)",
+      "Research Analyst (₹4-8 LPA)",
+      "Statistical Modeler (₹6-12 LPA)",
+      "Bioinformatician (₹7-14 LPA)"
+    ]
+  },
+  "JavaScript": {
+    "title": "JavaScript Mastery Program",
+    "highlights": [
+      "From JavaScript basics to advanced concepts",
+      "Modern ES6+ features and best practices",
+      "DOM manipulation and event handling",
+      "Async programming and APIs",
+      "Build portfolio-ready projects"
+    ],
+    "modules": [
+      {
+        "name": "JavaScript Fundamentals",
+        "topics": [
+          "Syntax Basics",
+          "Data Types",
+          "Functions",
+          "Scope & Closures"
+        ]
+      },
+      {
+        "name": "DOM Manipulation",
+        "topics": ["Selectors", "Events", "AJAX", "Form Handling"]
+      },
+      {
+        "name": "Advanced JavaScript",
+        "topics": ["ES6+ Features", "Async/Await", "Promises", "Modules"]
+      },
+      {
+        "name": "Testing & Tooling",
+        "topics": ["Jest", "Debugging", "Webpack", "Babel"]
+      },
+      {
+        "name": "Project Work",
+        "topics": [
+          "Single Page Application",
+          "API Integration",
+          "Code Review",
+          "Deployment"
+        ]
+      }
+    ],
+    "description": "Master JavaScript for modern web development",
+    "duration": "8 Weeks",
+    "projects": 3,
+    "rating": 4.7,
+    "badge": "Essential",
+    "careerOutcomes": [
+      "Frontend Developer (₹5-10 LPA)",
+      "JavaScript Developer (₹6-12 LPA)",
+      "Full Stack Developer (₹8-15 LPA)",
+      "UI Developer (₹5-9 LPA)"
+    ]
+  },
+  "PHP": {
+    "title": "PHP Web Development",
+    "highlights": [
+      "Learn PHP for server-side scripting",
+      "MySQL database integration",
+      "Build dynamic websites and applications",
+      "Object-oriented PHP practices",
+      "Security best practices"
+    ],
+    "modules": [
+      {
+        "name": "PHP Basics",
+        "topics": ["Syntax", "Variables", "Operators", "Control Structures"]
+      },
+      {
+        "name": "Forms and Functions",
+        "topics": [
+          "Form Handling",
+          "Validation",
+          "Built-in Functions",
+          "Custom Functions"
+        ]
+      },
+      {
+        "name": "Database Integration",
+        "topics": [
+          "MySQL Basics",
+          "CRUD Operations",
+          "PDO",
+          "Prepared Statements"
+        ]
+      },
+      {
+        "name": "Advanced PHP",
+        "topics": ["OOP in PHP", "MVC Pattern", "Authentication", "Security"]
+      },
+      {
+        "name": "Project",
+        "topics": ["CMS Development", "API Creation", "Testing", "Deployment"]
+      }
+    ],
+    "description": "Become a PHP web developer",
+    "duration": "8 Weeks",
+    "projects": 3,
+    "rating": 4.5,
+    "badge": null,
+    "careerOutcomes": [
+      "PHP Developer (₹4-8 LPA)",
+      "Web Developer (₹5-10 LPA)",
+      "Backend Developer (₹6-12 LPA)",
+      "Full Stack Developer (₹8-15 LPA)"
+    ]
+  },
+  "Full Stack Developer": {
+    "title": "Full Stack Developer Program",
+    "highlights": [
+      "Learn both frontend and backend development",
+      "React.js and Node.js with MongoDB",
+      "Build portfolio-ready projects",
+      "1:1 mentorship sessions",
+      "Job placement assistance"
+    ],
+    "modules": [
+      {
+        "name": "Frontend Fundamentals",
+        "topics": [
+          "HTML5/CSS3",
+          "JavaScript ES6+",
+          "React Basics",
+          "State Management"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "topics": ["Node.js", "Express.js", "REST APIs", "Authentication"]
+      },
+      {
+        "name": "Database & Deployment",
+        "topics": ["MongoDB", "SQL Basics", "Cloud Deployment", "CI/CD"]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": ["GraphQL", "WebSockets", "Testing", "Performance"]
+      },
+      {
+        "name": "Full Stack Project",
+        "topics": [
+          "Project Planning",
+          "Team Collaboration",
+          "Code Review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become job-ready full stack developer",
+    "duration": "14 Weeks",
+    "projects": 8,
+    "rating": 4.9,
+    "badge": "Hot",
+    "careerOutcomes": [
+      "Full Stack Developer (₹8-15 LPA)",
+      "Frontend Developer (₹6-12 LPA)",
+      "Backend Developer (₹7-14 LPA)",
+      "MERN Stack Developer (₹9-16 LPA)"
+    ]
+  },
+  "Node.js": {
+    "title": "Node.js Backend Development",
+    "highlights": [
+      "Master server-side JavaScript",
+      "Build scalable backend services",
+      "RESTful API development",
+      "Authentication and security",
+      "Performance optimization"
+    ],
+    "modules": [
+      {
+        "name": "Node.js Fundamentals",
+        "topics": ["Event Loop", "Modules", "NPM", "File System"]
+      },
+      {
+        "name": "Express Framework",
+        "topics": ["Routing", "Middleware", "Error Handling", "Templating"]
+      },
+      {
+        "name": "Database Integration",
+        "topics": ["MongoDB", "Mongoose", "SQL Databases", "ORM/ODM"]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": ["Authentication", "WebSockets", "Caching", "Testing"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Microservices", "API Gateway", "Deployment", "Scaling"]
+      }
+    ],
+    "description": "Become a Node.js backend specialist",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "Trending",
+    "careerOutcomes": [
+      "Backend Developer (₹6-12 LPA)",
+      "Node.js Developer (₹7-14 LPA)",
+      "API Developer (₹6-11 LPA)",
+      "Full Stack Developer (₹8-15 LPA)"
+    ]
+  },
+  "ReactJS": {
+    "title": "ReactJS Frontend Development",
+    "highlights": [
+      "Master modern React development",
+      "Hooks and functional components",
+      "State management with Redux",
+      "Performance optimization",
+      "Build responsive UIs"
+    ],
+    "modules": [
+      {
+        "name": "React Basics",
+        "topics": ["JSX", "Components", "Props", "State"]
+      },
+      {
+        "name": "Advanced React",
+        "topics": ["Hooks", "Context API", "Error Boundaries", "Portals"]
+      },
+      {
+        "name": "State Management",
+        "topics": ["Redux", "Redux Toolkit", "Context vs Redux", "Middleware"]
+      },
+      {
+        "name": "Routing & Testing",
+        "topics": [
+          "React Router",
+          "Unit Testing",
+          "Integration Testing",
+          "Jest"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Single Page App",
+          "API Integration",
+          "Code Review",
+          "Deployment"
+        ]
+      }
+    ],
+    "description": "Become a professional React developer",
+    "duration": "8 Weeks",
+    "projects": 3,
+    "rating": 4.8,
+    "badge": "Popular",
+    "careerOutcomes": [
+      "Frontend Developer (₹6-12 LPA)",
+      "React Developer (₹7-14 LPA)",
+      "UI Developer (₹5-10 LPA)",
+      "Full Stack Developer (₹8-15 LPA)"
+    ]
+  },
+  "Microsoft Azure": {
+    "title": "Microsoft Azure Cloud Certification",
+    "highlights": [
+      "Comprehensive Azure cloud training",
+      "Hands-on labs with real scenarios",
+      "Prepare for Azure certifications",
+      "Infrastructure as Code (IaC)",
+      "Security and compliance"
+    ],
+    "modules": [
+      {
+        "name": "Azure Fundamentals",
+        "topics": ["Cloud Concepts", "Core Services", "Pricing", "Support"]
+      },
+      {
+        "name": "Compute Services",
+        "topics": [
+          "Virtual Machines",
+          "App Services",
+          "Containers",
+          "Serverless"
+        ]
+      },
+      {
+        "name": "Storage & Databases",
+        "topics": ["Blob Storage", "SQL Database", "Cosmos DB", "Data Lake"]
+      },
+      {
+        "name": "Networking & Security",
+        "topics": ["Virtual Network", "Load Balancer", "Firewall", "Identity"]
+      },
+      {
+        "name": "DevOps & Monitoring",
+        "topics": ["ARM Templates", "DevOps Pipelines", "Monitor", "Automation"]
+      }
+    ],
+    "description": "Become an Azure cloud expert",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Cloud Engineer (₹8-15 LPA)",
+      "Azure Administrator (₹7-12 LPA)",
+      "DevOps Engineer (₹9-16 LPA)",
+      "Solutions Architect (₹12-20 LPA)"
+    ]
+  },
+  "AWS": {
+    "title": "AWS Cloud Practitioner",
+    "highlights": [
+      "Master AWS cloud services",
+      "Hands-on with EC2, S3, Lambda",
+      "Prepare for AWS certifications",
+      "Real-world cloud scenarios",
+      "Security and best practices"
+    ],
+    "modules": [
+      {
+        "name": "AWS Fundamentals",
+        "topics": [
+          "Cloud Concepts",
+          "Global Infrastructure",
+          "Pricing",
+          "Support"
+        ]
+      },
+      {
+        "name": "Compute Services",
+        "topics": ["EC2", "Lambda", "Elastic Beanstalk", "ECS"]
+      },
+      {
+        "name": "Storage & Databases",
+        "topics": ["S3", "EBS", "RDS", "DynamoDB"]
+      },
+      {
+        "name": "Networking & Security",
+        "topics": ["VPC", "Route 53", "IAM", "Security Groups"]
+      },
+      {
+        "name": "DevOps & Advanced",
+        "topics": ["CloudFormation", "CI/CD", "Monitoring", "Auto Scaling"]
+      }
+    ],
+    "description": "Become AWS certified professional",
+    "duration": "12 Weeks",
+    "projects": 6,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Cloud Engineer (₹8-16 LPA)",
+      "AWS Solutions Architect (₹10-20 LPA)",
+      "DevOps Engineer (₹9-18 LPA)",
+      "Cloud Consultant (₹12-25 LPA)"
+    ]
+  },
+  "DevOps": {
+    "title": "DevOps Engineering",
+    "highlights": [
+      "End-to-end DevOps practices",
+      "CI/CD pipelines implementation",
+      "Infrastructure as Code",
+      "Monitoring and logging",
+      "Cloud-native DevOps"
+    ],
+    "modules": [
+      {
+        "name": "DevOps Fundamentals",
+        "topics": [
+          "CI/CD Concepts",
+          "Version Control",
+          "Agile",
+          "Collaboration"
+        ]
+      },
+      {
+        "name": "Configuration Management",
+        "topics": ["Ansible", "Puppet", "Chef", "Infrastructure as Code"]
+      },
+      {
+        "name": "Containerization",
+        "topics": ["Docker", "Kubernetes", "Orchestration", "Microservices"]
+      },
+      {
+        "name": "Cloud DevOps",
+        "topics": ["AWS/Azure DevOps", "Serverless", "Monitoring", "Security"]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "End-to-End Pipeline",
+          "Team Collaboration",
+          "Code Review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a DevOps professional",
+    "duration": "14 Weeks",
+    "projects": 7,
+    "rating": 4.9,
+    "badge": "High Demand",
+    "careerOutcomes": [
+      "DevOps Engineer (₹10-20 LPA)",
+      "Site Reliability Engineer (₹12-25 LPA)",
+      "Cloud Engineer (₹9-18 LPA)",
+      "Automation Engineer (₹8-15 LPA)"
+    ]
+  },
+  "Cyber Security": {
+    "title": "Cyber Security Specialist",
+    "highlights": [
+      "Comprehensive security training",
+      "Ethical hacking techniques",
+      "Network security fundamentals",
+      "Incident response",
+      "Security compliance"
+    ],
+    "modules": [
+      {
+        "name": "Security Fundamentals",
+        "topics": [
+          "CIA Triad",
+          "Threat Landscape",
+          "Risk Management",
+          "Security Policies"
+        ]
+      },
+      {
+        "name": "Network Security",
+        "topics": ["Firewalls", "IDS/IPS", "VPNs", "Packet Analysis"]
+      },
+      {
+        "name": "System Security",
+        "topics": [
+          "Hardening",
+          "Authentication",
+          "Encryption",
+          "Vulnerability Assessment"
+        ]
+      },
+      {
+        "name": "Web Security",
+        "topics": ["OWASP Top 10", "Pen Testing", "Secure Coding", "Bug Bounty"]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "Security Audit",
+          "Risk Assessment",
+          "Report Writing",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a cyber security expert",
+    "duration": "16 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "High Demand",
+    "careerOutcomes": [
+      "Security Analyst (₹6-12 LPA)",
+      "Penetration Tester (₹8-15 LPA)",
+      "Security Engineer (₹10-20 LPA)",
+      "CISO (₹15-30 LPA)"
+    ]
+  },
+  "Ethical Hacking": {
+    "title": "Ethical Hacking Certification",
+    "highlights": [
+      "Learn hacking techniques ethically",
+      "Penetration testing methodologies",
+      "Vulnerability assessment",
+      "Real-world hacking scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "Hacking Fundamentals",
+        "topics": ["Footprinting", "Scanning", "Enumeration", "System Hacking"]
+      },
+      {
+        "name": "Network Hacking",
+        "topics": ["Sniffing", "MITM", "DoS", "Wireless Hacking"]
+      },
+      {
+        "name": "Web Application Hacking",
+        "topics": ["SQL Injection", "XSS", "CSRF", "Session Hijacking"]
+      },
+      {
+        "name": "Advanced Techniques",
+        "topics": [
+          "Social Engineering",
+          "Evading IDS",
+          "Cryptography",
+          "Metasploit"
+        ]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "Penetration Test",
+          "Vulnerability Report",
+          "Remediation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a certified ethical hacker",
+    "duration": "16 Weeks",
+    "projects": 6,
+    "rating": 4.9,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Ethical Hacker (₹8-15 LPA)",
+      "Penetration Tester (₹10-18 LPA)",
+      "Security Consultant (₹12-25 LPA)",
+      "Vulnerability Analyst (₹9-16 LPA)"
+    ]
+  },
+  "Selenium": {
+    "title": "Selenium Web Automation",
+    "highlights": [
+      "Master Selenium WebDriver",
+      "Cross-browser testing",
+      "Framework development",
+      "Integration with CI/CD",
+      "Real-world automation projects"
+    ],
+    "modules": [
+      {
+        "name": "Selenium Basics",
+        "topics": ["WebDriver", "Locators", "Web Elements", "Basic Commands"]
+      },
+      {
+        "name": "Advanced Selenium",
+        "topics": ["Waits", "Actions Class", "Frames", "Alerts"]
+      },
+      {
+        "name": "Test Frameworks",
+        "topics": ["TestNG", "JUnit", "Data Driven", "Page Object Model"]
+      },
+      {
+        "name": "Integration & CI/CD",
+        "topics": ["Maven", "Jenkins", "Docker", "Reporting"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Framework Development",
+          "Test Automation",
+          "Code Review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a Selenium automation expert",
+    "duration": "8 Weeks",
+    "projects": 4,
+    "rating": 4.6,
+    "badge": "Automation",
+    "careerOutcomes": [
+      "Automation Tester (₹5-10 LPA)",
+      "QA Engineer (₹6-12 LPA)",
+      "SDET (₹8-15 LPA)",
+      "Test Architect (₹10-18 LPA)"
+    ]
+  },
+  "Manual Testing Course": {
+    "title": "Manual Software Testing",
+    "highlights": [
+      "Comprehensive manual testing training",
+      "Test case design techniques",
+      "Defect lifecycle management",
+      "Agile testing methodologies",
+      "Real-world testing projects"
+    ],
+    "modules": [
+      {
+        "name": "Testing Fundamentals",
+        "topics": ["SDLC", "STLC", "Testing Levels", "Testing Types"]
+      },
+      {
+        "name": "Test Design",
+        "topics": [
+          "Test Cases",
+          "Traceability Matrix",
+          "Equivalence Partitioning",
+          "Boundary Value"
+        ]
+      },
+      {
+        "name": "Defect Management",
+        "topics": [
+          "Bug Lifecycle",
+          "Bug Reporting",
+          "Severity vs Priority",
+          "JIRA"
+        ]
+      },
+      {
+        "name": "Agile Testing",
+        "topics": ["Scrum", "User Stories", "Sprint Testing", "Retrospectives"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Test Plan", "Test Execution", "Defect Reporting", "Metrics"]
+      }
+    ],
+    "description": "Become a manual testing professional",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.5,
+    "badge": "Foundation",
+    "careerOutcomes": [
+      "Manual Tester (₹3-6 LPA)",
+      "QA Analyst (₹4-8 LPA)",
+      "Test Lead (₹6-12 LPA)",
+      "QA Manager (₹8-15 LPA)"
+    ]
+  },
+  "JMeter Course": {
+    "title": "JMeter Performance Testing",
+    "highlights": [
+      "Master JMeter for load testing",
+      "Performance testing methodologies",
+      "Distributed testing",
+      "Real-world performance scenarios",
+      "Analysis and reporting"
+    ],
+    "modules": [
+      {
+        "name": "JMeter Basics",
+        "topics": ["Test Plan", "Thread Groups", "Samplers", "Listeners"]
+      },
+      {
+        "name": "Advanced JMeter",
+        "topics": ["Controllers", "Assertions", "Timers", "Correlation"]
+      },
+      {
+        "name": "Distributed Testing",
+        "topics": [
+          "Master-Slave",
+          "Cloud Testing",
+          "Docker",
+          "CI/CD Integration"
+        ]
+      },
+      {
+        "name": "Analysis & Reporting",
+        "topics": [
+          "Graph Results",
+          "Aggregate Report",
+          "Dashboard",
+          "Performance Metrics"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Load Test",
+          "Stress Test",
+          "Report Generation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a performance testing engineer",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.6,
+    "badge": "Specialized",
+    "careerOutcomes": [
+      "Performance Tester (₹6-12 LPA)",
+      "Load Test Engineer (₹7-14 LPA)",
+      "QA Engineer (₹5-10 LPA)",
+      "Test Architect (₹10-18 LPA)"
+    ]
+  },
+  "ETL Testing": {
+    "title": "ETL Testing Specialist",
+    "highlights": [
+      "Comprehensive ETL testing training",
+      "Data warehouse concepts",
+      "SQL for testers",
+      "Real-world ETL scenarios",
+      "ETL automation basics"
+    ],
+    "modules": [
+      {
+        "name": "ETL Fundamentals",
+        "topics": [
+          "ETL Process",
+          "Data Warehouse",
+          "Dimensional Modeling",
+          "Staging"
+        ]
+      },
+      {
+        "name": "SQL for Testing",
+        "topics": [
+          "Joins",
+          "Subqueries",
+          "Aggregations",
+          "Analytical Functions"
+        ]
+      },
+      {
+        "name": "ETL Testing Types",
+        "topics": [
+          "Mapping Validation",
+          "Data Quality",
+          "Performance",
+          "Reconciliation"
+        ]
+      },
+      {
+        "name": "Tools & Automation",
+        "topics": ["Informatica", "Datastage", "QuerySurge", "Python Basics"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Test Strategy",
+          "Test Execution",
+          "Defect Reporting",
+          "Metrics"
+        ]
+      }
+    ],
+    "description": "Become an ETL testing professional",
+    "duration": "8 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "Data",
+    "careerOutcomes": [
+      "ETL Tester (₹5-10 LPA)",
+      "Data Quality Analyst (₹6-12 LPA)",
+      "BI Tester (₹7-14 LPA)",
+      "Data Engineer (₹8-16 LPA)"
+    ]
+  },
+  "LoadRunner": {
+    "title": "LoadRunner Performance Testing",
+    "highlights": [
+      "Master LoadRunner for enterprise testing",
+      "Protocol deep dive",
+      "Controller and analysis",
+      "Real-world performance scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "LoadRunner Basics",
+        "topics": ["VUGen", "Protocols", "Scripting", "Parameterization"]
+      },
+      {
+        "name": "Scenario Design",
+        "topics": ["Controller", "Load Generators", "Scheduling", "Monitoring"]
+      },
+      {
+        "name": "Analysis & Reporting",
+        "topics": ["Analysis Tool", "Graphs", "SLA", "Reports"]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": ["Correlation", "Transactions", "Think Time", "Web Services"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Performance Test",
+          "Tuning",
+          "Report Generation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a LoadRunner expert",
+    "duration": "8 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "Enterprise",
+    "careerOutcomes": [
+      "Performance Tester (₹6-12 LPA)",
+      "Load Test Engineer (₹7-15 LPA)",
+      "QA Lead (₹8-16 LPA)",
+      "Test Manager (₹10-20 LPA)"
+    ]
+  },
+  "SoapUI": {
+    "title": "SoapUI API Testing",
+    "highlights": [
+      "Master API testing with SoapUI",
+      "REST and SOAP services",
+      "Test automation",
+      "Security testing",
+      "CI/CD integration"
+    ],
+    "modules": [
+      {
+        "name": "SoapUI Basics",
+        "topics": ["Projects", "Requests", "Assertions", "Properties"]
+      },
+      {
+        "name": "Test Automation",
+        "topics": [
+          "Test Cases",
+          "Test Steps",
+          "Data Sources",
+          "Groovy Scripting"
+        ]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": [
+          "Mock Services",
+          "Security Scans",
+          "REST vs SOAP",
+          "Performance"
+        ]
+      },
+      {
+        "name": "Integration",
+        "topics": ["CI/CD", "Maven", "Jenkins", "Docker"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "API Test Suite",
+          "Automation",
+          "Report Generation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become an API testing specialist",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.6,
+    "badge": "API",
+    "careerOutcomes": [
+      "API Tester (₹5-10 LPA)",
+      "Automation Engineer (₹6-12 LPA)",
+      "QA Engineer (₹5-9 LPA)",
+      "SDET (₹8-15 LPA)"
+    ]
+  },
+  "Data Science Course": {
+    "title": "Data Science Certification",
+    "highlights": [
+      "End-to-end data science training",
+      "Python and R for data science",
+      "Machine learning algorithms",
+      "Real-world case studies",
+      "Capstone project"
+    ],
+    "modules": [
+      {
+        "name": "Data Fundamentals",
+        "topics": [
+          "Statistics",
+          "Probability",
+          "Data Types",
+          "Exploratory Analysis"
+        ]
+      },
+      {
+        "name": "Data Processing",
+        "topics": [
+          "Cleaning",
+          "Transformation",
+          "Feature Engineering",
+          "Dimensionality"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "topics": [
+          "Supervised",
+          "Unsupervised",
+          "Model Evaluation",
+          "Hyperparameter"
+        ]
+      },
+      {
+        "name": "Advanced Topics",
+        "topics": ["Deep Learning", "NLP", "Time Series", "Deployment"]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "End-to-End Solution",
+          "Model Building",
+          "Evaluation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a data science professional",
+    "duration": "16 Weeks",
+    "projects": 6,
+    "rating": 4.9,
+    "badge": "High Demand",
+    "careerOutcomes": [
+      "Data Scientist (₹10-20 LPA)",
+      "Machine Learning Engineer (₹12-25 LPA)",
+      "Data Analyst (₹6-12 LPA)",
+      "AI Specialist (₹15-30 LPA)"
+    ]
+  },
+  "Artificial Intelligence": {
+    "title": "AI Engineer Program",
+    "highlights": [
+      "Comprehensive AI training",
+      "Deep learning with TensorFlow",
+      "Computer vision and NLP",
+      "Real-world AI applications",
+      "Capstone project"
+    ],
+    "modules": [
+      {
+        "name": "AI Fundamentals",
+        "topics": [
+          "AI Concepts",
+          "Python for AI",
+          "NumPy/Pandas",
+          "Math for AI"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "topics": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Neural Networks",
+          "Evaluation"
+        ]
+      },
+      {
+        "name": "Deep Learning",
+        "topics": ["TensorFlow", "Keras", "CNN", "RNN"]
+      },
+      {
+        "name": "Advanced AI",
+        "topics": ["Computer Vision", "NLP", "GANs", "Reinforcement Learning"]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "AI Solution",
+          "Model Training",
+          "Deployment",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become an AI engineer",
+    "duration": "20 Weeks",
+    "projects": 8,
+    "rating": 4.9,
+    "badge": "Cutting Edge",
+    "careerOutcomes": [
+      "AI Engineer (₹12-25 LPA)",
+      "Machine Learning Engineer (₹10-20 LPA)",
+      "Deep Learning Specialist (₹15-30 LPA)",
+      "Research Scientist (₹18-35 LPA)"
+    ]
+  },
+  "Digital Marketing": {
+    "title": "Digital Marketing Mastery",
+    "highlights": [
+      "Comprehensive digital marketing training",
+      "SEO, SEM, and social media",
+      "Content marketing strategies",
+      "Analytics and reporting",
+      "Real-world campaigns"
+    ],
+    "modules": [
+      {
+        "name": "Fundamentals",
+        "topics": ["Digital Landscape", "Buyer Journey", "Strategy", "Branding"]
+      },
+      {
+        "name": "Channels",
+        "topics": ["SEO", "PPC", "Social Media", "Email Marketing"]
+      },
+      {
+        "name": "Content & Analytics",
+        "topics": ["Content Strategy", "Copywriting", "Google Analytics", "ROI"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Automation", "AB Testing", "Growth Hacking", "Influencer"]
+      },
+      {
+        "name": "Campaign",
+        "topics": ["Planning", "Execution", "Analysis", "Presentation"]
+      }
+    ],
+    "description": "Become a digital marketing expert",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Popular",
+    "careerOutcomes": [
+      "Digital Marketer (₹5-10 LPA)",
+      "SEO Specialist (₹4-8 LPA)",
+      "Social Media Manager (₹4-9 LPA)",
+      "Marketing Manager (₹8-15 LPA)"
+    ]
+  },
+  "Excel": {
+    "title": "Microsoft Excel Mastery",
+    "highlights": [
+      "From basic to advanced Excel functions",
+      "Data analysis and visualization techniques",
+      "Pivot tables and advanced formulas",
+      "Automation with macros and VBA",
+      "Real-world business applications"
+    ],
+    "modules": [
+      {
+        "name": "Excel Fundamentals",
+        "topics": [
+          "Interface overview",
+          "Basic formulas",
+          "Cell formatting",
+          "Charts and graphs"
+        ]
+      },
+      {
+        "name": "Intermediate Excel",
+        "topics": [
+          "VLOOKUP/HLOOKUP",
+          "Pivot tables",
+          "Data validation",
+          "Conditional formatting"
+        ]
+      },
+      {
+        "name": "Advanced Excel",
+        "topics": [
+          "Array formulas",
+          "Power Query",
+          "What-if analysis",
+          "Solver add-in"
+        ]
+      },
+      {
+        "name": "Automation",
+        "topics": [
+          "Macro recording",
+          "VBA basics",
+          "User forms",
+          "Error handling"
+        ]
+      },
+      {
+        "name": "Capstone Project",
+        "topics": [
+          "Business dashboard",
+          "Automated reports",
+          "Data analysis",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Master Microsoft Excel for business productivity",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.8,
+    "badge": "Essential",
+    "careerOutcomes": [
+      "Data Analyst (₹4-8 LPA)",
+      "Business Analyst (₹5-10 LPA)",
+      "Financial Analyst (₹6-12 LPA)",
+      "Office Administrator (₹3-6 LPA)"
+    ]
+  },
+  "HTML": {
+    "title": "HTML5 Web Development",
+    "highlights": [
+      "Master modern HTML5 standards",
+      "Semantic markup principles",
+      "Forms and multimedia elements",
+      "Accessibility best practices",
+      "Real-world website projects"
+    ],
+    "modules": [
+      {
+        "name": "HTML Fundamentals",
+        "topics": [
+          "Document structure",
+          "Basic elements",
+          "Attributes",
+          "Links"
+        ]
+      },
+      {
+        "name": "Intermediate HTML",
+        "topics": ["Tables", "Forms", "Images", "Embedded content"]
+      },
+      {
+        "name": "HTML5 Features",
+        "topics": ["Semantic elements", "Canvas API", "SVG", "Geolocation"]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": ["Accessibility", "SEO basics", "Microdata", "Best practices"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Complete website",
+          "Validation",
+          "Cross-browser testing",
+          "Deployment"
+        ]
+      }
+    ],
+    "description": "Become proficient in HTML5 web development",
+    "duration": "4 Weeks",
+    "projects": 2,
+    "rating": 4.5,
+    "badge": "Foundation",
+    "careerOutcomes": [
+      "Web Developer (₹3-6 LPA)",
+      "Frontend Developer (₹5-10 LPA)",
+      "UI Developer (₹4-8 LPA)",
+      "Content Manager (₹3-7 LPA)"
+    ]
+  },
+  "UI and UX": {
+    "title": "UI/UX Design Specialization",
+    "highlights": [
+      "Comprehensive design thinking approach",
+      "User research methodologies",
+      "Wireframing and prototyping techniques",
+      "UI design principles and patterns",
+      "Portfolio development guidance"
+    ],
+    "modules": [
+      {
+        "name": "UX Fundamentals",
+        "topics": [
+          "Design thinking",
+          "User research",
+          "Personas",
+          "User journeys"
+        ]
+      },
+      {
+        "name": "Wireframing",
+        "topics": [
+          "Information architecture",
+          "Low-fidelity prototypes",
+          "Usability testing",
+          "Iteration"
+        ]
+      },
+      {
+        "name": "UI Design",
+        "topics": [
+          "Visual hierarchy",
+          "Typography",
+          "Color theory",
+          "Design systems"
+        ]
+      },
+      {
+        "name": "Tools",
+        "topics": ["Figma", "Adobe XD", "Sketch", "Interactive prototypes"]
+      },
+      {
+        "name": "Portfolio Project",
+        "topics": [
+          "Case studies",
+          "Presentation skills",
+          "Design critique",
+          "Job preparation"
+        ]
+      }
+    ],
+    "description": "Become a professional UI/UX designer",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "Design",
+    "careerOutcomes": [
+      "UI Designer (₹5-10 LPA)",
+      "UX Designer (₹6-12 LPA)",
+      "Product Designer (₹8-15 LPA)",
+      "Interaction Designer (₹7-14 LPA)"
+    ]
+  },
+  "Salesforce": {
+    "title": "Salesforce Administrator Certification",
+    "highlights": [
+      "Comprehensive Salesforce platform training",
+      "Administration and configuration skills",
+      "Prepare for Administrator certification",
+      "Real-world business scenarios",
+      "Career guidance and support"
+    ],
+    "modules": [
+      {
+        "name": "Salesforce Basics",
+        "topics": [
+          "Navigation",
+          "Data model",
+          "Security model",
+          "Automation basics"
+        ]
+      },
+      {
+        "name": "Intermediate Administration",
+        "topics": [
+          "Reports & dashboards",
+          "Process Builder",
+          "Validation rules",
+          "AppExchange"
+        ]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": [
+          "Lightning Experience",
+          "Integration basics",
+          "Data migration",
+          "Analytics"
+        ]
+      },
+      {
+        "name": "Certification Prep",
+        "topics": [
+          "Exam guide",
+          "Practice tests",
+          "Scenario-based learning",
+          "Test-taking strategies"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Org setup",
+          "Configuration tasks",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a certified Salesforce Administrator",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Salesforce Admin (₹6-12 LPA)",
+      "Business Analyst (₹5-10 LPA)",
+      "CRM Consultant (₹8-15 LPA)",
+      "Salesforce Developer (₹10-18 LPA)"
+    ]
+  },
+  "C Sharp": {
+    "title": "C# Programming Mastery",
+    "highlights": [
+      "Comprehensive C# language training",
+      ".NET framework fundamentals",
+      "Object-oriented programming concepts",
+      "Windows application development",
+      "Career guidance and support"
+    ],
+    "modules": [
+      {
+        "name": "C# Basics",
+        "topics": ["Syntax", "Data types", "Operators", "Control flow"]
+      },
+      {
+        "name": "OOP Concepts",
+        "topics": ["Classes", "Inheritance", "Polymorphism", "Interfaces"]
+      },
+      {
+        "name": "Advanced C#",
+        "topics": ["Delegates", "Events", "LINQ", "Async programming"]
+      },
+      {
+        "name": "Windows Development",
+        "topics": ["WPF", "WinForms", "Database connectivity", "Deployment"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Application development",
+          "Testing",
+          "Code review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a professional C# developer",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": ".NET",
+    "careerOutcomes": [
+      "C# Developer (₹5-10 LPA)",
+      ".NET Developer (₹6-12 LPA)",
+      "Windows App Developer (₹7-14 LPA)",
+      "Backend Developer (₹8-15 LPA)"
+    ]
+  },
+  "UNIX SHELL Scripting": {
+    "title": "UNIX Shell Scripting",
+    "highlights": [
+      "Master UNIX command line",
+      "Bash scripting fundamentals",
+      "System administration tasks",
+      "Automation techniques",
+      "Real-world scripting scenarios"
+    ],
+    "modules": [
+      {
+        "name": "UNIX Basics",
+        "topics": ["File system", "Permissions", "Processes", "Pipes"]
+      },
+      {
+        "name": "Shell Scripting",
+        "topics": ["Variables", "Control structures", "Functions", "Arguments"]
+      },
+      {
+        "name": "Advanced Scripting",
+        "topics": [
+          "Regular expressions",
+          "awk/sed",
+          "Debugging",
+          "Best practices"
+        ]
+      },
+      {
+        "name": "Automation",
+        "topics": ["Cron jobs", "Log analysis", "System monitoring", "Backups"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Automation script",
+          "Documentation",
+          "Code review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a UNIX shell scripting expert",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.6,
+    "badge": "System",
+    "careerOutcomes": [
+      "System Administrator (₹5-10 LPA)",
+      "DevOps Engineer (₹8-15 LPA)",
+      "Automation Engineer (₹6-12 LPA)",
+      "Platform Engineer (₹7-14 LPA)"
+    ]
+  },
+  "Workday HCM": {
+    "title": "Workday HCM Certification",
+    "highlights": [
+      "Comprehensive Workday HCM training",
+      "Core HCM concepts",
+      "Configuration and reporting",
+      "Prepare for certification",
+      "Career support"
+    ],
+    "modules": [
+      {
+        "name": "Workday Basics",
+        "topics": ["Navigation", "Organizations", "Staffing", "Time tracking"]
+      },
+      {
+        "name": "Core HCM",
+        "topics": [
+          "Workforce management",
+          "Talent management",
+          "Benefits",
+          "Payroll"
+        ]
+      },
+      {
+        "name": "Advanced Concepts",
+        "topics": [
+          "Business processes",
+          "Security",
+          "Reporting",
+          "Integrations"
+        ]
+      },
+      {
+        "name": "Cert Prep",
+        "topics": ["Exam guide", "Practice tests", "Scenarios", "Tips"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Documentation", "Presentation", "Review"]
+      }
+    ],
+    "description": "Become a Workday HCM professional",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Workday Consultant (₹10-20 LPA)",
+      "HCM Analyst (₹8-15 LPA)",
+      "HRIS Specialist (₹9-18 LPA)",
+      "Workday Administrator (₹12-25 LPA)"
+    ]
+  },
+  "Salesforce Online Training": {
+    "title": "Salesforce Online Training",
+    "highlights": [
+      "Flexible online learning format",
+      "Salesforce administration",
+      "Development basics",
+      "Certification preparation",
+      "Career guidance"
+    ],
+    "modules": [
+      {
+        "name": "Salesforce Basics",
+        "topics": ["Navigation", "Data model", "Security", "Automation"]
+      },
+      {
+        "name": "Intermediate",
+        "topics": [
+          "Reports & dashboards",
+          "Process Builder",
+          "Validation rules",
+          "AppExchange"
+        ]
+      },
+      {
+        "name": "Development",
+        "topics": [
+          "Apex basics",
+          "Visualforce",
+          "Lightning components",
+          "Integration"
+        ]
+      },
+      {
+        "name": "Cert Prep",
+        "topics": ["Exam guide", "Practice tests", "Scenarios", "Tips"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Org setup",
+          "Configuration",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Online Salesforce training program",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "Online",
+    "careerOutcomes": [
+      "Salesforce Admin (₹6-12 LPA)",
+      "Business Analyst (₹5-10 LPA)",
+      "CRM Consultant (₹8-15 LPA)",
+      "Salesforce Developer (₹10-18 LPA)"
+    ]
+  },
+  "Salesforce Developer": {
+    "title": "Salesforce Developer Certification",
+    "highlights": [
+      "Comprehensive developer training",
+      "Apex and Visualforce",
+      "Lightning components",
+      "Integration techniques",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "Programming Basics",
+        "topics": [
+          "Apex syntax",
+          "Data types",
+          "Collections",
+          "Control structures"
+        ]
+      },
+      {
+        "name": "Intermediate",
+        "topics": ["SOQL", "DML", "Triggers", "Batch Apex"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Lightning", "REST API", "Testing", "Debugging"]
+      },
+      {
+        "name": "Cert Prep",
+        "topics": ["Exam guide", "Practice tests", "Scenarios", "Tips"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Application development",
+          "Code review",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a certified Salesforce developer",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Salesforce Developer (₹10-20 LPA)",
+      "Lightning Developer (₹12-25 LPA)",
+      "Integration Specialist (₹15-30 LPA)",
+      "Technical Architect (₹20-40 LPA)"
+    ]
+  },
+  "Azure DevOps": {
+    "title": "Azure DevOps Engineering",
+    "highlights": [
+      "End-to-end DevOps on Azure",
+      "CI/CD pipelines",
+      "Infrastructure as Code",
+      "Monitoring and logging",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "Azure DevOps Basics",
+        "topics": ["Boards", "Repos", "Pipelines", "Test plans"]
+      },
+      {
+        "name": "CI/CD",
+        "topics": [
+          "Build pipelines",
+          "Release pipelines",
+          "Artifacts",
+          "Deployment"
+        ]
+      },
+      {
+        "name": "Infrastructure",
+        "topics": ["ARM templates", "Terraform", "Monitoring", "Security"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Containers", "Kubernetes", "Microservices", "Serverless"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "End-to-end pipeline",
+          "Team collaboration",
+          "Code review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become an Azure DevOps engineer",
+    "duration": "12 Weeks",
+    "projects": 6,
+    "rating": 4.8,
+    "badge": "Cloud",
+    "careerOutcomes": [
+      "DevOps Engineer (₹10-20 LPA)",
+      "Cloud Engineer (₹9-18 LPA)",
+      "Release Manager (₹8-15 LPA)",
+      "Site Reliability Engineer (₹12-25 LPA)"
+    ]
+  },
+  "Angular": {
+    "title": "Angular Framework Mastery",
+    "highlights": [
+      "Comprehensive Angular training",
+      "Components and directives",
+      "RxJS and state management",
+      "Testing and deployment",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "Angular Basics",
+        "topics": ["Components", "Templates", "Data binding", "Directives"]
+      },
+      {
+        "name": "Intermediate",
+        "topics": ["Services", "Dependency injection", "Routing", "Forms"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["RxJS", "State management", "Performance", "Universal"]
+      },
+      {
+        "name": "Testing & Deployment",
+        "topics": ["Unit testing", "E2E testing", "CI/CD", "Docker"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Single page app",
+          "API integration",
+          "Code review",
+          "Deployment"
+        ]
+      }
+    ],
+    "description": "Become an Angular developer",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.8,
+    "badge": "Framework",
+    "careerOutcomes": [
+      "Angular Developer (₹7-14 LPA)",
+      "Frontend Developer (₹6-12 LPA)",
+      "Full Stack Developer (₹8-16 LPA)",
+      "UI Developer (₹5-10 LPA)"
+    ]
+  },
+  "WordPress": {
+    "title": "WordPress Development",
+    "highlights": [
+      "Comprehensive WordPress training",
+      "Theme development",
+      "Plugin creation",
+      "E-commerce integration",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "WordPress Basics",
+        "topics": ["Installation", "Dashboard", "Posts/pages", "Media"]
+      },
+      {
+        "name": "Theme Development",
+        "topics": ["Template hierarchy", "The Loop", "Widgets", "Customizer"]
+      },
+      {
+        "name": "Plugin Development",
+        "topics": ["Hooks", "Shortcodes", "Custom post types", "Security"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["REST API", "Headless", "Performance", "SEO"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Custom website",
+          "Theme/plugin",
+          "Deployment",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a WordPress developer",
+    "duration": "8 Weeks",
+    "projects": 3,
+    "rating": 4.6,
+    "badge": "CMS",
+    "careerOutcomes": [
+      "WordPress Developer (₹4-8 LPA)",
+      "Web Developer (₹5-10 LPA)",
+      "Frontend Developer (₹6-12 LPA)",
+      "Freelancer (Variable)"
+    ]
+  },
+  "CSS Online": {
+    "title": "CSS3 Styling Mastery",
+    "highlights": [
+      "Master modern CSS3",
+      "Flexbox and Grid",
+      "Animations and transitions",
+      "Responsive design",
+      "Real-world styling projects"
+    ],
+    "modules": [
+      {
+        "name": "CSS Basics",
+        "topics": ["Selectors", "Box model", "Positioning", "Typography"]
+      },
+      {
+        "name": "Intermediate",
+        "topics": ["Flexbox", "Grid", "Transforms", "Transitions"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Animations", "Variables", "Preprocessors", "Methodologies"]
+      },
+      {
+        "name": "Responsive",
+        "topics": [
+          "Media queries",
+          "Mobile first",
+          "Accessibility",
+          "Cross-browser"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Website styling",
+          "Design system",
+          "Code review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Master CSS for modern web development",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.7,
+    "badge": "Styling",
+    "careerOutcomes": [
+      "Frontend Developer (₹5-10 LPA)",
+      "UI Developer (₹4-8 LPA)",
+      "Web Designer (₹4-7 LPA)",
+      "Full Stack Developer (₹8-15 LPA)"
+    ]
+  },
+  "Machine Learning": {
+    "title": "Machine Learning Engineer",
+    "highlights": [
+      "Comprehensive ML training",
+      "Python for data science",
+      "Scikit-learn and TensorFlow",
+      "Real-world ML projects",
+      "Model deployment"
+    ],
+    "modules": [
+      {
+        "name": "ML Fundamentals",
+        "topics": [
+          "Supervised learning",
+          "Unsupervised learning",
+          "Evaluation",
+          "Feature engineering"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "topics": [
+          "Regression",
+          "Classification",
+          "Clustering",
+          "Dimensionality"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Neural networks",
+          "Ensemble methods",
+          "Hyperparameter",
+          "AutoML"
+        ]
+      },
+      {
+        "name": "Deployment",
+        "topics": ["Flask API", "Docker", "Cloud", "Monitoring"]
+      },
+      {
+        "name": "Capstone",
+        "topics": [
+          "End-to-end project",
+          "Model training",
+          "Deployment",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a machine learning engineer",
+    "duration": "16 Weeks",
+    "projects": 6,
+    "rating": 4.9,
+    "badge": "AI",
+    "careerOutcomes": [
+      "ML Engineer (₹10-20 LPA)",
+      "Data Scientist (₹12-25 LPA)",
+      "AI Specialist (₹15-30 LPA)",
+      "Research Engineer (₹18-35 LPA)"
+    ]
+  },
+  "Data Science With Python": {
+    "title": "Data Science with Python",
+    "highlights": [
+      "Python for data science",
+      "Pandas and NumPy",
+      "Data visualization",
+      "Statistical analysis",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "Python Basics",
+        "topics": ["Syntax", "Data structures", "Functions", "Libraries"]
+      },
+      {
+        "name": "Data Processing",
+        "topics": ["Pandas", "NumPy", "Cleaning", "Transformation"]
+      },
+      {
+        "name": "Visualization",
+        "topics": ["Matplotlib", "Seaborn", "Plotly", "Dashboarding"]
+      },
+      {
+        "name": "Statistics",
+        "topics": ["Descriptive", "Inferential", "Hypothesis", "Experiments"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "End-to-end analysis",
+          "Report generation",
+          "Presentation",
+          "Review"
+        ]
+      }
+    ],
+    "description": "Become a data science professional with Python",
+    "duration": "12 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "Data",
+    "careerOutcomes": [
+      "Data Analyst (₹6-12 LPA)",
+      "Data Scientist (₹10-20 LPA)",
+      "Business Analyst (₹5-10 LPA)",
+      "Research Analyst (₹7-14 LPA)"
+    ]
+  },
+  "Machine Learning with Python": {
+    "title": "Machine Learning with Python",
+    "highlights": [
+      "Python for ML",
+      "Scikit-learn",
+      "Feature engineering",
+      "Model evaluation",
+      "Real-world ML projects"
+    ],
+    "modules": [
+      {
+        "name": "Python for ML",
+        "topics": ["NumPy", "Pandas", "Matplotlib", "Data preparation"]
+      },
+      {
+        "name": "Supervised Learning",
+        "topics": [
+          "Regression",
+          "Classification",
+          "Evaluation",
+          "Hyperparameter"
+        ]
+      },
+      {
+        "name": "Unsupervised",
+        "topics": ["Clustering", "Dimensionality", "Association", "Anomaly"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Ensemble", "Neural networks", "AutoML", "Deployment"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "End-to-end ML",
+          "Model training",
+          "Evaluation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become proficient in ML with Python",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.8,
+    "badge": "ML",
+    "careerOutcomes": [
+      "ML Engineer (₹10-20 LPA)",
+      "Data Scientist (₹12-25 LPA)",
+      "AI Developer (₹15-30 LPA)",
+      "Research Engineer (₹18-35 LPA)"
+    ]
+  },
+  "Machine Learning using R": {
+    "title": "Machine Learning with R",
+    "highlights": [
+      "R for machine learning",
+      "Data preprocessing",
+      "Model building",
+      "Evaluation techniques",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "R Basics",
+        "topics": ["Syntax", "Data structures", "Functions", "Libraries"]
+      },
+      {
+        "name": "Data Processing",
+        "topics": ["dplyr", "tidyr", "Cleaning", "Transformation"]
+      },
+      {
+        "name": "Supervised",
+        "topics": ["Regression", "Classification", "Evaluation", "Tuning"]
+      },
+      {
+        "name": "Unsupervised",
+        "topics": ["Clustering", "Dimensionality", "Association", "Anomaly"]
+      },
+      {
+        "name": "Project",
+        "topics": ["End-to-end ML", "Model building", "Report", "Presentation"]
+      }
+    ],
+    "description": "Become proficient in ML with R",
+    "duration": "12 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "ML",
+    "careerOutcomes": [
+      "Data Scientist (₹10-20 LPA)",
+      "Statistical Modeler (₹8-15 LPA)",
+      "Research Analyst (₹7-14 LPA)",
+      "Quantitative Analyst (₹12-25 LPA)"
+    ]
+  },
+  "MySQL": {
+    "title": "MySQL Database Mastery",
+    "highlights": [
+      "Comprehensive MySQL training",
+      "Database design",
+      "Query optimization",
+      "Stored procedures",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "SQL Basics",
+        "topics": ["DDL", "DML", "Constraints", "Basic queries"]
+      },
+      {
+        "name": "Intermediate",
+        "topics": ["Joins", "Subqueries", "Indexes", "Views"]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Stored procedures",
+          "Triggers",
+          "Transactions",
+          "Optimization"
+        ]
+      },
+      {
+        "name": "Administration",
+        "topics": ["Security", "Backup", "Recovery", "Performance"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Database design",
+          "Implementation",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a MySQL database professional",
+    "duration": "8 Weeks",
+    "projects": 3,
+    "rating": 4.7,
+    "badge": "Database",
+    "careerOutcomes": [
+      "Database Developer (₹5-10 LPA)",
+      "SQL Developer (₹6-12 LPA)",
+      "Data Analyst (₹6-12 LPA)",
+      "Backend Developer (₹8-15 LPA)"
+    ]
+  },
+  "SQL with PHP": {
+    "title": "PHP with SQL Integration",
+    "highlights": [
+      "PHP and MySQL integration",
+      "Dynamic web applications",
+      "Form handling",
+      "Security best practices",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "PHP Basics",
+        "topics": ["Syntax", "Variables", "Operators", "Control structures"]
+      },
+      {
+        "name": "MySQL Basics",
+        "topics": ["Database design", "CRUD", "Joins", "Indexes"]
+      },
+      {
+        "name": "Integration",
+        "topics": ["PDO", "Prepared statements", "Sessions", "Authentication"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["OOP", "MVC", "REST API", "Security"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Web application",
+          "Database integration",
+          "Testing",
+          "Deployment"
+        ]
+      }
+    ],
+    "description": "Build dynamic websites with PHP and SQL",
+    "duration": "10 Weeks",
+    "projects": 4,
+    "rating": 4.7,
+    "badge": "Web",
+    "careerOutcomes": [
+      "PHP Developer (₹5-10 LPA)",
+      "Web Developer (₹6-12 LPA)",
+      "Full Stack Developer (₹8-15 LPA)",
+      "Backend Developer (₹7-14 LPA)"
+    ]
+  },
+  "Microsoft Dynamics 365": {
+    "title": "Dynamics 365 Certification",
+    "highlights": [
+      "Comprehensive Dynamics 365 training",
+      "CRM and ERP modules",
+      "Configuration and customization",
+      "Certification preparation",
+      "Career support"
+    ],
+    "modules": [
+      {
+        "name": "Dynamics Basics",
+        "topics": ["Navigation", "Data model", "Security", "Automation"]
+      },
+      {
+        "name": "CRM Modules",
+        "topics": ["Sales", "Marketing", "Customer service", "Field service"]
+      },
+      {
+        "name": "ERP Modules",
+        "topics": ["Finance", "Operations", "Retail", "Talent"]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Customization",
+          "Power Platform",
+          "Integration",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Implementation",
+          "Configuration",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a Dynamics 365 professional",
+    "duration": "14 Weeks",
+    "projects": 6,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Dynamics Consultant (₹10-20 LPA)",
+      "CRM Analyst (₹8-15 LPA)",
+      "ERP Specialist (₹9-18 LPA)",
+      "Business Analyst (₹7-14 LPA)"
+    ]
+  },
+  "Excel Macros and VBA": {
+    "title": "Excel Macros and VBA Programming",
+    "highlights": [
+      "Master Excel automation",
+      "VBA programming",
+      "User form development",
+      "Error handling",
+      "Real-world automation projects"
+    ],
+    "modules": [
+      {
+        "name": "Macro Basics",
+        "topics": ["Recording", "Editing", "Security", "Best practices"]
+      },
+      {
+        "name": "VBA Fundamentals",
+        "topics": ["Syntax", "Variables", "Control structures", "Functions"]
+      },
+      {
+        "name": "Advanced VBA",
+        "topics": ["Objects", "Collections", "Events", "Error handling"]
+      },
+      {
+        "name": "User Forms",
+        "topics": ["Design", "Controls", "Validation", "Integration"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Automation solution",
+          "Code review",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become an Excel automation expert",
+    "duration": "6 Weeks",
+    "projects": 3,
+    "rating": 4.7,
+    "badge": "Automation",
+    "careerOutcomes": [
+      "Excel Specialist (₹5-9 LPA)",
+      "Business Analyst (₹6-12 LPA)",
+      "Financial Analyst (₹7-14 LPA)",
+      "Automation Engineer (₹8-15 LPA)"
+    ]
+  },
+  "jQuery": {
+    "title": "jQuery for Web Development",
+    "highlights": [
+      "Master jQuery library",
+      "DOM manipulation",
+      "Event handling",
+      "AJAX implementation",
+      "Real-world projects"
+    ],
+    "modules": [
+      {
+        "name": "jQuery Basics",
+        "topics": ["Selectors", "DOM traversal", "Manipulation", "CSS"]
+      },
+      {
+        "name": "Events & Effects",
+        "topics": ["Event handling", "Animations", "Callbacks", "Deferred"]
+      },
+      {
+        "name": "AJAX",
+        "topics": ["GET/POST", "JSON", "Error handling", "Best practices"]
+      },
+      {
+        "name": "Plugins",
+        "topics": ["Usage", "Custom plugins", "Validation", "UI"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Interactive web app",
+          "API integration",
+          "Code review",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Master jQuery for interactive websites",
+    "duration": "5 Weeks",
+    "projects": 2,
+    "rating": 4.6,
+    "badge": "Library",
+    "careerOutcomes": [
+      "Frontend Developer (₹5-10 LPA)",
+      "JavaScript Developer (₹6-12 LPA)",
+      "Web Developer (₹4-8 LPA)",
+      "UI Developer (₹5-9 LPA)"
+    ]
+  },
+  "SAP FICO": {
+    "title": "SAP FICO Certification",
+    "highlights": [
+      "Comprehensive SAP FICO training",
+      "Financial accounting",
+      "Controlling modules",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "FI Basics",
+        "topics": [
+          "General Ledger",
+          "Accounts Payable",
+          "Accounts Receivable",
+          "Asset Accounting"
+        ]
+      },
+      {
+        "name": "CO Basics",
+        "topics": [
+          "Cost Centers",
+          "Profit Centers",
+          "Internal Orders",
+          "Product Costing"
+        ]
+      },
+      {
+        "name": "Integration",
+        "topics": ["FI-MM", "FI-SD", "New GL", "Document Splitting"]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Period End Closing",
+          "Reporting",
+          "Migration",
+          "Best Practices"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become a SAP FICO consultant",
+    "duration": "16 Weeks",
+    "projects": 6,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "SAP FICO Consultant (₹12-25 LPA)",
+      "Financial Analyst (₹8-15 LPA)",
+      "ERP Consultant (₹10-20 LPA)",
+      "SAP Manager (₹15-30 LPA)"
+    ]
+  },
+  "SAP MM": {
+    "title": "SAP MM Certification",
+    "highlights": [
+      "Comprehensive SAP MM training",
+      "Material management",
+      "Procurement processes",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "MM Basics",
+        "topics": [
+          "Organizational Structure",
+          "Master Data",
+          "Purchasing",
+          "Inventory Management"
+        ]
+      },
+      {
+        "name": "Procurement",
+        "topics": [
+          "Purchase Requisition",
+          "Purchase Order",
+          "Goods Receipt",
+          "Invoice Verification"
+        ]
+      },
+      {
+        "name": "Inventory",
+        "topics": [
+          "Goods Movement",
+          "Physical Inventory",
+          "Valuation",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "Integration",
+        "topics": ["MM-FI", "MM-SD", "MM-PP", "Cross-Application"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become a SAP MM consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "SAP MM Consultant (₹10-20 LPA)",
+      "Procurement Analyst (₹8-15 LPA)",
+      "Inventory Specialist (₹7-14 LPA)",
+      "ERP Consultant (₹9-18 LPA)"
+    ]
+  },
+  "SAP SD": {
+    "title": "SAP SD Certification",
+    "highlights": [
+      "Comprehensive SAP SD training",
+      "Sales and distribution",
+      "Order-to-cash process",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "SD Basics",
+        "topics": [
+          "Organizational Structure",
+          "Master Data",
+          "Pricing",
+          "Basic Functions"
+        ]
+      },
+      {
+        "name": "Sales Process",
+        "topics": ["Inquiry", "Quotation", "Sales Order", "Delivery"]
+      },
+      {
+        "name": "Billing",
+        "topics": ["Invoice", "Credit Memo", "Rebate", "Reporting"]
+      },
+      {
+        "name": "Integration",
+        "topics": ["SD-FI", "SD-MM", "SD-PP", "Cross-Application"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become a SAP SD consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "SAP SD Consultant (₹10-20 LPA)",
+      "Sales Analyst (₹8-15 LPA)",
+      "Order Management Specialist (₹7-14 LPA)",
+      "ERP Consultant (₹9-18 LPA)"
+    ]
+  },
+  "SAP PP": {
+    "title": "SAP PP Certification",
+    "highlights": [
+      "Comprehensive SAP PP training",
+      "Production planning",
+      "Manufacturing processes",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "PP Basics",
+        "topics": [
+          "Organizational Structure",
+          "Master Data",
+          "BOM",
+          "Work Center"
+        ]
+      },
+      {
+        "name": "Planning",
+        "topics": [
+          "MRP",
+          "Capacity Planning",
+          "Demand Management",
+          "Long-Term Planning"
+        ]
+      },
+      {
+        "name": "Production",
+        "topics": [
+          "Production Order",
+          "Confirmations",
+          "Goods Movement",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "Integration",
+        "topics": ["PP-MM", "PP-SD", "PP-FI", "Cross-Application"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become a SAP PP consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "SAP PP Consultant (₹10-20 LPA)",
+      "Production Planner (₹8-15 LPA)",
+      "Manufacturing Analyst (₹7-14 LPA)",
+      "ERP Consultant (₹9-18 LPA)"
+    ]
+  },
+  "SAP ABAP": {
+    "title": "SAP ABAP Certification",
+    "highlights": [
+      "Comprehensive ABAP programming",
+      "SAP customization",
+      "Reports and interfaces",
+      "Real-world development scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "ABAP Basics",
+        "topics": [
+          "Data Dictionary",
+          "Basic Syntax",
+          "Internal Tables",
+          "Modularization"
+        ]
+      },
+      {
+        "name": "Reports",
+        "topics": [
+          "Classical Reports",
+          "Interactive Reports",
+          "ALV Reports",
+          "Selection Screens"
+        ]
+      },
+      {
+        "name": "Dialog Programming",
+        "topics": [
+          "Screen Painter",
+          "Menu Painter",
+          "Module Pool",
+          "Table Controls"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["BAPIs", "RFCs", "Enhancements", "OOP in ABAP"]
+      },
+      {
+        "name": "Project",
+        "topics": [
+          "Custom Development",
+          "Code Review",
+          "Documentation",
+          "Presentation"
+        ]
+      }
+    ],
+    "description": "Become a SAP ABAP developer",
+    "duration": "16 Weeks",
+    "projects": 6,
+    "rating": 4.8,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "SAP ABAP Developer (₹12-25 LPA)",
+      "SAP Technical Consultant (₹10-20 LPA)",
+      "SAP Integration Specialist (₹15-30 LPA)",
+      "SAP Architect (₹20-40 LPA)"
+    ]
+  },
+  "Oracle Financials": {
+    "title": "Oracle Financials Certification",
+    "highlights": [
+      "Comprehensive Oracle Financials training",
+      "General Ledger, AP, AR, FA",
+      "Month-end closing processes",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "GL Basics",
+        "topics": [
+          "Chart of Accounts",
+          "Journal Entry",
+          "Period Close",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "AP/AR",
+        "topics": [
+          "Invoice Processing",
+          "Payment Processing",
+          "Receivables",
+          "Reconciliation"
+        ]
+      },
+      {
+        "name": "Fixed Assets",
+        "topics": ["Asset Lifecycle", "Depreciation", "Retirement", "Reporting"]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Multi-Org",
+          "Intercompany",
+          "Consolidation",
+          "Best Practices"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become an Oracle Financials consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Oracle Financials Consultant (₹10-20 LPA)",
+      "Financial Analyst (₹8-15 LPA)",
+      "ERP Consultant (₹9-18 LPA)",
+      "Accounting Systems Manager (₹12-25 LPA)"
+    ]
+  },
+  "Oracle SCM": {
+    "title": "Oracle SCM Certification",
+    "highlights": [
+      "Comprehensive Oracle SCM training",
+      "Inventory, Purchasing, Order Management",
+      "Supply chain processes",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "Inventory",
+        "topics": ["Item Master", "Transactions", "Costing", "Cycle Counting"]
+      },
+      {
+        "name": "Purchasing",
+        "topics": [
+          "Requisitions",
+          "Purchase Orders",
+          "Receiving",
+          "Supplier Portal"
+        ]
+      },
+      {
+        "name": "Order Management",
+        "topics": ["Order Entry", "Picking", "Shipping", "Returns"]
+      },
+      {
+        "name": "Advanced",
+        "topics": [
+          "Advanced Pricing",
+          "Global Order Promising",
+          "Integration",
+          "Best Practices"
+        ]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become an Oracle SCM consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Oracle SCM Consultant (₹10-20 LPA)",
+      "Supply Chain Analyst (₹8-15 LPA)",
+      "Inventory Specialist (₹7-14 LPA)",
+      "ERP Consultant (₹9-18 LPA)"
+    ]
+  },
+  "Oracle HCM": {
+    "title": "Oracle HCM Certification",
+    "highlights": [
+      "Comprehensive Oracle HCM training",
+      "Core HR, Payroll, Talent Management",
+      "HR processes",
+      "Real-world scenarios",
+      "Certification preparation"
+    ],
+    "modules": [
+      {
+        "name": "Core HR",
+        "topics": [
+          "Personnel Administration",
+          "Organization Management",
+          "Workforce Structures",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "Payroll",
+        "topics": [
+          "Element Setup",
+          "Payroll Processing",
+          "Statutory Compliance",
+          "Reporting"
+        ]
+      },
+      {
+        "name": "Talent Management",
+        "topics": ["Performance", "Goals", "Succession Planning", "Learning"]
+      },
+      {
+        "name": "Advanced",
+        "topics": ["Self-Service", "Workflows", "Integration", "Best Practices"]
+      },
+      {
+        "name": "Project",
+        "topics": ["Configuration", "Testing", "Documentation", "Presentation"]
+      }
+    ],
+    "description": "Become an Oracle HCM consultant",
+    "duration": "14 Weeks",
+    "projects": 5,
+    "rating": 4.7,
+    "badge": "Certification",
+    "careerOutcomes": [
+      "Oracle HCM Consultant (₹10-20 LPA)",
+      "HRIS Analyst (₹8-15 LPA)",
+      "Payroll Specialist (₹7-14 LPA)",
+      "ERP Consultant (₹9-18 LPA)"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+.cat-container {
+  margin: 3rem 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.cat-tabs {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cat-tab {
+  flex: 1;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.cat-tab svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cat-tab.active {
+  color: #1faa59;
+}
+
+.cat-tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #1faa59;
+}
+
+.cat-content {
+  padding: 2rem;
+}
+
+.cat-section-title {
+  font-size: 1.5rem;
+  color: #1a2a6c;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.cat-section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: #1faa59;
+  border-radius: 3px;
+}
+
+.cat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+}
+
+.cat-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 0.8rem;
+  background: #f9fafc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cat-list-item:hover {
+  background: #f0f4f8;
+  transform: translateY(-2px);
+}
+
+.cat-icon-wrapper {
+  width: 24px;
+  height: 24px;
+  background: #1faa59;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.cat-icon-wrapper svg {
+  width: 14px;
+  height: 14px;
+  color: white;
+}
+
+.cat-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.2rem;
+}
+
+.cat-tool-card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  background: #f9fafc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.cat-tool-card:hover {
+  background: #f0f4f8;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cat-tool-icon {
+  width: 36px;
+  height: 36px;
+  background: #1a2a6c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cat-tool-icon svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.cat-tool-name {
+  font-weight: 500;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .cat-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cat-tools-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .cat-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cat-tabs {
+    flex-direction: column;
+  }
+
+  .cat-tab {
+    justify-content: flex-start;
+    padding: 1rem 1.5rem;
+  }
+
+  .cat-tab.active::after {
+    height: 100%;
+    width: 3px;
+    bottom: auto;
+  }
+
+  .cat-tools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cat-section-title {
+    font-size: 1.3rem;
+  }
+}

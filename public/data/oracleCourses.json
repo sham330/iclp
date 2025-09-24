@@ -1,0 +1,1275 @@
+{
+  "categories": [
+    {
+      "name": "Oracle",
+      "sub_categories": [
+        {
+          "course_name": "Oracle Financials",
+          "path": "oracle-financials",
+           "meta_title": "Oracle Financial Course Online | Oracle Financial Training | Oracle Financial Certificate",
+  "meta_description": "Learn Oracle Financials online. Become a certified consultant with job-ready training. Enroll today & start learning!",
+          "description": "Comprehensive training on Oracle Financials covering General Ledger, AP, AR, FA and Cash Management.",
+          "what_youll_learn": [
+            "Oracle Financials implementation and configuration",
+            "General Ledger setup and processing",
+            "Accounts Payable and Receivable management",
+            "Fixed Assets accounting",
+            "Cash Management and Treasury",
+            "Financial reporting and analysis",
+            "Integration with other Oracle modules"
+          ],
+          "syllabus": [
+            {
+              "module": "General Ledger",
+              "subtopics": [
+                "Chart of Accounts setup",
+                "Calendar and Currency configuration",
+                "Journal entry processing",
+                "Budgeting and allocations",
+                "Financial reporting"
+              ]
+            },
+            {
+              "module": "Accounts Payable",
+              "subtopics": [
+                "Vendor setup and management",
+                "Invoice processing",
+                "Payment processing",
+                "1099 reporting",
+                "AP month-end close"
+              ]
+            },
+            {
+              "module": "Accounts Receivable",
+              "subtopics": [
+                "Customer setup and management",
+                "Transaction processing",
+                "Receipts application",
+                "Collections management",
+                "AR month-end close"
+              ]
+            }
+          ]
+        },
+        {
+          "course_name": "Oracle SCM",
+          "path": "oracle-scm",
+           "meta_title": "Oracle SCM Course Online | Oracle SCM Training | Oracle SCM Certificate",
+  "meta_description": "Master Oracle SCM with our online course. Get certified & boost your career with expert training. Check it out & enroll now!",
+          "description": "Learn Oracle Supply Chain Management covering Inventory, Order Management, Purchasing and Manufacturing.",
+          "what_youll_learn": [
+            "Oracle SCM implementation and configuration",
+            "Inventory management techniques",
+            "Order management processes",
+            "Purchasing and procurement",
+            "Manufacturing operations",
+            "Warehouse management",
+            "Integration with Financials"
+          ],
+          "syllabus": [
+            {
+              "module": "Inventory Management",
+              "subtopics": [
+                "Item master setup",
+                "Organization structure",
+                "Inventory transactions",
+                "Cycle counting",
+                "Inventory valuation"
+              ]
+            },
+            {
+              "module": "Order Management",
+              "subtopics": [
+                "Order entry and processing",
+                "Pricing and discounts",
+                "Shipping execution",
+                "Backorder management",
+                "Returns processing"
+              ]
+            },
+            {
+              "module": "Purchasing",
+              "subtopics": [
+                "Supplier management",
+                "Requisitioning",
+                "Purchase orders",
+                "Receiving",
+                "Invoice matching"
+              ]
+            }
+          ]
+        },
+        {
+          "course_name": "Oracle HCM",
+          "path": "oracle-hcm",
+           "meta_title": "Oracle HCM Course Online | Oracle HCM Training | Oracle HCM Certificate",
+  "meta_description": "Learn Oracle HCM online and get certified. Build HR tech expertise with hands-on training. Enroll today!",
+          "description": "Master Oracle Human Capital Management covering Core HR, Payroll, Talent Management and Self-Service.",
+          "what_youll_learn": [
+            "Oracle HCM implementation and configuration",
+            "Core HR processes",
+            "Payroll processing",
+            "Benefits administration",
+            "Talent management",
+            "Self-service functionality",
+            "Reporting and analytics"
+          ],
+          "syllabus": [
+            {
+              "module": "Core HR",
+              "subtopics": [
+                "Organization structure",
+                "Person and employment models",
+                "Workforce management",
+                "Absence management",
+                "HR reporting"
+              ]
+            },
+            {
+              "module": "Payroll",
+              "subtopics": [
+                "Payroll setup",
+                "Element configuration",
+                "Payroll processing",
+                "Tax reporting",
+                "Payroll reconciliation"
+              ]
+            },
+            {
+              "module": "Talent Management",
+              "subtopics": [
+                "Recruitment",
+                "Performance management",
+                "Career development",
+                "Succession planning",
+                "Learning management"
+              ]
+            }
+          ]
+        },
+        {
+  "course_name": "Oracle CPQ Training",
+  "path": "oracle-cpq",
+  "description": "Comprehensive training in Oracle Configure, Price, Quote (CPQ) Cloud solutions covering product configuration, commerce processes, and document generation.",
+  "what_youll_learn": [
+    "Oracle CPQ Cloud fundamentals",
+    "Product hierarchy and configurable attributes",
+    "Configuration flows and layout editing",
+    "Commerce processes and approval sequences",
+    "Document Designer for quote generation",
+    "Bulk data management",
+    "User and environment management"
+  ],
+  "syllabus": [
+    {
+      "module": "Oracle CPQ Training",
+      "subtopics": [
+        "Introduction to Oracle CPQ Cloud",
+        "File Manager",
+        "User Management",
+        "Part/Item Master and Bulk Data Upload/Download",
+        "Data Tables",
+        "Development, Test, and Production Environments"
+      ]
+    },
+    {
+      "module": "Oracle CPQ Cloud Configuration",
+      "subtopics": [
+        "Introduction to Configuration",
+        "Product Hierarchy",
+        "Configurable Attributes and Arrays",
+        "Configuration Flows and the Layout Editor",
+        "Configuration Rules and Settings"
+      ]
+    },
+    {
+      "module": "Oracle CPQ Cloud Commerce",
+      "subtopics": [
+        "Introduction to Commerce and Administration Navigation",
+        "Commerce Attributes",
+        "Commerce Layout Editor",
+        "Commerce Actions and Formula Management",
+        "Approval Sequences and Email Templates",
+        "Commerce Rules",
+        "Steps, Participant Profiles, and Transition Rules"
+      ]
+    },
+    {
+      "module": "Oracle CPQ Cloud Document Designer",
+      "subtopics": [
+        "Introduction to the Document Designer",
+        "Creating Document Designer Templates",
+        "The Document Designer Editor",
+        "Layouts",
+        "Elements",
+        "Conditions and Loops"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-cpq.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Product Configuration Setup",
+    "Commerce Process Implementation",
+    "Document Template Design",
+    "Bulk Data Management Exercise"
+  ]
+},
+{
+  "course_name": "Oracle Procure to Pay Training",
+  "path": "oracle-procure-to-pay",
+  "description": "Comprehensive training in Oracle Purchasing and Payables solutions covering supplier management, requisitioning, purchase orders, invoice processing, and payment workflows.",
+  "what_youll_learn": [
+    "Oracle Purchasing fundamentals",
+    "Supplier management and contracts",
+    "Requisition processing",
+    "Purchase order creation and management",
+    "Receipt processing",
+    "Invoice entry and approval",
+    "Payment processing",
+    "Procure-to-Pay integration"
+  ],
+  "syllabus": [
+    {
+      "module": "Overview of Oracle Purchasing",
+      "subtopics": [
+        "Overview of Oracle Purchasing",
+        "Matching Options",
+        "Integration with Oracle Payables"
+      ]
+    },
+    {
+      "module": "Supplier Management",
+      "subtopics": [
+        "Supplier Overview",
+        "Supplier Relationships",
+        "Contracts",
+        "Solicitations",
+        "Supplier Sites",
+        "Supplier Account Balances",
+        "Inquire on a Supplier",
+        "Add a Supplier",
+        "Amend an Existing Supplier",
+        "Merge Supplier/Supplier Sites",
+        "Add an Attachment to a Supplier Record",
+        "Create an Approved Suppliers List"
+      ]
+    },
+    {
+      "module": "Item Attributes and Set-Up",
+      "subtopics": [
+        "Define Master Items",
+        "Assign a Master Item to an Organisation",
+        "Update Parameters Specific to an Organisation",
+        "Copy-Item Attributes from a Template",
+        "Create a Template",
+        "Set Attribute Controls"
+      ]
+    },
+    {
+      "module": "RFQ and Quotations",
+      "subtopics": [
+        "Add or Amend an Existing Supplier List",
+        "Create a New Supplier List",
+        "Create a New RFQ",
+        "Select the Suppliers who will receive the RFQ",
+        "Print the RFQ",
+        "Create an RFQ from a requisition",
+        "Enter a Quotation"
+      ]
+    },
+    {
+      "module": "Purchase Requisitioning Processing",
+      "subtopics": [
+        "Overview of Requisitioning",
+        "The Requisition Form",
+        "Overview of Approvals",
+        "Create a Requisition",
+        "Create a Requisition Using Preferences",
+        "Create a Foreign Currency Goods Requisition",
+        "Create a Foreign Currency Services Requisition",
+        "Add an Attachment to a Requisition",
+        "Review a Requisition",
+        "Approve / Reject a Requisition",
+        "View Action / Approval History",
+        "Cancel a Requisition",
+        "Requisition Templates",
+        "Supplier Item Catalog"
+      ]
+    },
+    {
+      "module": "Purchase Order Processing",
+      "subtopics": [
+        "Create a Standard Goods Purchase Order",
+        "Create a Standard Purchase Order Using Preferences",
+        "Create a Blanket Purchase Agreement",
+        "Create a Blanket Release",
+        "AutoCreate a Standard Goods Purchase Order",
+        "Add an Attachment to a Purchase Order",
+        "Approve/Reject a Purchase Order",
+        "Review a Purchase Order",
+        "Amend a Purchase Order",
+        "Copy a Purchase Order",
+        "Close / Cancel a Purchase Order",
+        "Freeze a Purchase Order",
+        "Other Control Actions",
+        "Print a Purchase Order",
+        "Purchase Orders and Projects",
+        "Workflow Document Creation"
+      ]
+    },
+    {
+      "module": "Purchase Order Receipt Processing",
+      "subtopics": [
+        "Overview of the Receiving Process",
+        "Exceptions",
+        "Receipt Routing",
+        "Receipt Processing Methods",
+        "Payment on Receipt",
+        "Correct a Receipt",
+        "Return Goods to a Supplier",
+        "Find and Review Receipts",
+        "Receiving Tolerances"
+      ]
+    },
+    {
+      "module": "Integration with Other Modules",
+      "subtopics": [
+        "Integration with Payables",
+        "Integration with Inventory"
+      ]
+    },
+    {
+      "module": "Enterprise Structure Overview",
+      "subtopics": [
+        "Organisations",
+        "Defining Locations",
+        "Units of Measure",
+        "Item Categories"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-procure-to-pay.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Procure-to-Pay Process Implementation",
+    "Supplier Management System Configuration",
+    "Purchase Order Workflow Setup",
+    "Invoice Approval Process Simulation"
+  ]
+},
+{
+  "course_name": "Oracle Hyperion EPM Training",
+  "path": "oracle-hyperion-epm",
+  "description": "Comprehensive training in Oracle Hyperion Enterprise Performance Management solutions covering financial consolidation, planning, budgeting, and reporting.",
+  "what_youll_learn": [
+    "Hyperion Financial Management",
+    "Financial consolidation processes",
+    "Enterprise planning and budgeting",
+    "Essbase multidimensional analysis",
+    "Financial reporting and dashboards",
+    "Data integration and quality management",
+    "Cloud EPM solutions",
+    "Profitability and cost management"
+  ],
+  "syllabus": [
+    {
+      "module": "Financial Close Suite",
+      "subtopics": [
+        "Hyperion Financial Management (HFM)",
+        "Hyperion Enterprise",
+        "Financial Close Management (FCM)",
+        "Close Manager (CM)",
+        "Account Reconciliation Manager (ARM)",
+        "Supplemental Data Manager (SDM)"
+      ]
+    },
+    {
+      "module": "Planning Suite and Business Intelligence",
+      "subtopics": [
+        "Hyperion Planning (HP)",
+        "Core Planning",
+        "Planning Modules: Workforce, Capital Asset, Project Financial",
+        "Planning and Budgeting Cloud",
+        "Essbase",
+        "Essbase Studio",
+        "Profitability and Cost Management (HPCM)",
+        "Essbase Analytics Link (EAL)"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "Financial Data Quality Management (FDM / FDMEE)",
+        "Oracle Data Integrator (ODI)",
+        "Data Relationship Management (DRM)"
+      ]
+    },
+    {
+      "module": "Reporting and Analysis",
+      "subtopics": [
+        "Smart View",
+        "Financial Reporting",
+        "Enterprise Performance Reporting Cloud",
+        "Financial Management Analytics (OFMA)",
+        "Web Analysis"
+      ]
+    },
+    {
+      "module": "Cloud Services",
+      "subtopics": [
+        "Account Reconciliation Cloud Service (ARCS)",
+        "Enterprise Planning and Budgeting Cloud Service (EPBCS)",
+        "Financial Consolidation and Close Cloud Service (FCCS)",
+        "Oracle Analytics Cloud (OAC)",
+        "Planning and Budgeting Cloud Service (PBCS)"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/oracle-hyperion-epm.png",
+  "placement_assurance": true,
+  "projects": [
+    "Financial Consolidation Process Implementation",
+    "Enterprise Planning Model Development",
+    "Essbase Cube Design",
+    "EPM Cloud Migration Strategy"
+  ]
+},
+{
+  "course_name": "Oracle GRC Controls Suite Fundamentals",
+  "path": "oracle-grc-control-suit-fundamentals-vers",
+  "description": "Comprehensive training in Oracle Governance, Risk and Compliance (GRC) Controls Suite covering continuous controls monitoring, access governance, and risk management.",
+  "what_youll_learn": [
+    "GRC Controls Suite architecture",
+    "Continuous Controls Monitoring (CCM)",
+    "Access Controls Governor (AACG)",
+    "Transaction Controls Governor (TCG)",
+    "Configuration and implementation",
+    "Remediation processes",
+    "GRC reporting",
+    "Multi-platform support"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle GRC Controls Suite",
+      "subtopics": [
+        "About Governance, Risk and Compliance Controls",
+        "Oracle Solutions for GRC",
+        "GRC Architecture",
+        "GRC Components",
+        "Continuous Controls Monitoring Overview",
+        "Access to GRC Applications",
+        "CCM module (Access and Transaction Governor) - Common Features",
+        "AACG, TCG, CCG, PCG"
+      ]
+    },
+    {
+      "module": "Continuous Controls Monitoring",
+      "subtopics": [
+        "Application Navigation",
+        "Viewing the Home Page",
+        "GRC Controls Navigation",
+        "Continuous Control Monitoring Workflow",
+        "Continuous Controls Management",
+        "Results Management",
+        "GRC Security",
+        "Roles"
+      ]
+    },
+    {
+      "module": "Applications Access Controls Governor Overview",
+      "subtopics": [
+        "AACG Overview",
+        "Access Control Life Cycle",
+        "Access Points",
+        "Entitlements",
+        "Segregation-of-duties Conflicts",
+        "Environment Setup and AACG Implementation",
+        "Multi-Platform and Cross-Platform Support",
+        "Implementation Approach Overview and Flow"
+      ]
+    },
+    {
+      "module": "AACG Configuration Planning and Installation",
+      "subtopics": [
+        "Application Configuration",
+        "Configuration Planning",
+        "Defining Data Sources",
+        "Manage Application Data",
+        "Run Synchronization",
+        "Notifications",
+        "Defining Notification Schedules",
+        "Notification Configuration"
+      ]
+    },
+    {
+      "module": "AACG Models and Control Planning",
+      "subtopics": [
+        "Planning Overview",
+        "Models & Controls Overview and Workflow",
+        "Creating/Importing Access Models",
+        "E-Business Suite Access & SOD Challenges",
+        "PeopleSoft Authorization Mode",
+        "Fusion Authorization Mode",
+        "Manage Entitlements",
+        "Model Analysis Flow"
+      ]
+    },
+    {
+      "module": "Remediation",
+      "subtopics": [
+        "Application Access Controls Governor Remediation Steps",
+        "Focus on Areas with the Highest Risk, Priority, and Volume",
+        "On-Line Views to Analyze Incidents",
+        "Reports and Extracts to Analyze Incidents",
+        "Assign Incidents to Business Owners",
+        "Utilize Corporate Change-Tracking Process",
+        "Remediation Plan",
+        "Changes to Business System"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/oracle-grc-controls.png",
+  "placement_assurance": true,
+  "projects": [
+    "GRC Controls Implementation Plan",
+    "Access Control Model Design",
+    "Segregation of Duties Analysis",
+    "GRC Reporting Dashboard"
+  ]
+},
+{
+  "course_name": "Oracle Developer Course",
+  "path": "oracle-developer",
+  "description": "Comprehensive training in Oracle Developer tools covering SQL, PL/SQL, Forms, and Reports development for database applications.",
+  "what_youll_learn": [
+    "SQL fundamentals and advanced queries",
+    "PL/SQL programming",
+    "Oracle Forms development",
+    "Oracle Reports design",
+    "Database object creation",
+    "User access control",
+    "Transaction processing",
+    "Application debugging"
+  ],
+  "syllabus": [
+    {
+      "module": "Working with SQL",
+      "subtopics": [
+        "Retrieving Data Using SQL SELECT",
+        "Restricting and Sorting Data",
+        "Single-Row Functions",
+        "Conversion Functions",
+        "Group Functions",
+        "Multi-Table Queries",
+        "Subqueries",
+        "Data Manipulation"
+      ]
+    },
+    {
+      "module": "PL/SQL Fundamentals",
+      "subtopics": [
+        "PL/SQL Blocks Structure",
+        "Variables and Data Types",
+        "Control Structures",
+        "Composite Data Types",
+        "Explicit Cursors",
+        "Exception Handling",
+        "Stored Procedures",
+        "Functions and Packages"
+      ]
+    },
+    {
+      "module": "Oracle Forms",
+      "subtopics": [
+        "Forms Developer Environment",
+        "Creating Data Blocks",
+        "Working with Input Items",
+        "Windows and Canvases",
+        "Triggers Development",
+        "Debugging Techniques",
+        "Alerts and Validation",
+        "Transaction Processing"
+      ]
+    },
+    {
+      "module": "Oracle Reports",
+      "subtopics": [
+        "Report Builder Components",
+        "Creating Report Through Wizard",
+        "Data Model Groups",
+        "Formula Columns",
+        "Matrix Reports",
+        "Parameter Forms",
+        "Report Triggers",
+        "Advanced Formatting"
+      ]
+    }
+  ],
+  "duration": "70-80 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-developer.png",
+  "placement_assurance": true,
+  "projects": [
+    "Database Application Development",
+    "Inventory Management System",
+    "Employee Reporting Portal",
+    "Sales Order Processing System"
+  ]
+},
+{
+  "course_name": "Oracle SQL & PL/SQL",
+  "path": "oracle-sql-plsql",
+  "description": "Comprehensive training in Oracle database programming covering SQL querying and PL/SQL development for robust database applications.",
+  "what_youll_learn": [
+    "SQL fundamentals and advanced techniques",
+    "Data manipulation and transaction control",
+    "Single-row and group functions",
+    "Multi-table queries and joins",
+    "Subqueries and set operations",
+    "PL/SQL programming concepts",
+    "Stored procedures and functions",
+    "Exception handling and triggers"
+  ],
+  "syllabus": [
+    {
+      "module": "SQL Fundamentals",
+      "subtopics": [
+        "Basic SELECT Statements",
+        "Restricting and Sorting Data",
+        "Single-Row Functions",
+        "Conversion Functions",
+        "Conditional Expressions",
+        "Aggregate Functions"
+      ]
+    },
+    {
+      "module": "Advanced SQL",
+      "subtopics": [
+        "Multi-Table Joins",
+        "Subqueries",
+        "Set Operators",
+        "Data Manipulation",
+        "DDL Statements",
+        "Schema Objects"
+      ]
+    },
+    {
+      "module": "PL/SQL Fundamentals",
+      "subtopics": [
+        "PL/SQL Block Structure",
+        "Variables and Data Types",
+        "Control Structures",
+        "Composite Data Types",
+        "Explicit Cursors",
+        "Exception Handling"
+      ]
+    },
+    {
+      "module": "Advanced PL/SQL",
+      "subtopics": [
+        "Stored Procedures",
+        "Functions",
+        "Packages",
+        "Triggers",
+        "Dynamic SQL",
+        "Bulk Operations"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-sql-plsql.png",
+  "placement_assurance": true,
+  "projects": [
+    "Database Query Optimization",
+    "Employee Management System",
+    "Sales Analysis Reporting",
+    "Inventory Control Procedures"
+  ]
+},
+{
+  "course_name": "Oracle Forms and Reports",
+  "path": "oracle-application-framework",
+  "description": "Comprehensive training in Oracle Forms and Reports development covering application creation, data presentation, and business reporting solutions.",
+  "what_youll_learn": [
+    "Forms Developer environment",
+    "Data block and frame creation",
+    "Input and non-input items",
+    "Windows and canvases",
+    "Trigger programming",
+    "Debugging techniques",
+    "Report design and formatting",
+    "Parameter-driven reports"
+  ],
+  "syllabus": [
+    {
+      "module": "Forms Development",
+      "subtopics": [
+        "Forms Developer Environment",
+        "Creating Basic Forms",
+        "Working with Data Blocks",
+        "Input Items Creation",
+        "Non-Input Items",
+        "Windows and Canvases"
+      ]
+    },
+    {
+      "module": "Advanced Forms",
+      "subtopics": [
+        "Trigger Programming",
+        "Debugging Techniques",
+        "Alerts and Validation",
+        "Navigation Control",
+        "Transaction Processing",
+        "Flexible Coding"
+      ]
+    },
+    {
+      "module": "Reports Development",
+      "subtopics": [
+        "Report Builder Components",
+        "Creating Basic Reports",
+        "Data Model Design",
+        "Layout Formatting",
+        "Parameter Forms",
+        "Matrix Reports"
+      ]
+    },
+    {
+      "module": "Advanced Reports",
+      "subtopics": [
+        "Report Triggers",
+        "Conditional Formatting",
+        "PL/SQL in Reports",
+        "Web Reports",
+        "Templates",
+        "Debugging Tools"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-forms-reports.png",
+  "placement_assurance": true,
+  "projects": [
+    "Inventory Management Application",
+    "Sales Reporting System",
+    "Employee Data Entry Portal",
+    "Financial Statement Generator"
+  ]
+},
+{
+  "course_name": "Oracle Application Framework (OAF)",
+  "path": "oracle-oaf",
+  "description": "Comprehensive training in Oracle Application Framework covering MVC architecture, JDeveloper tools, and custom application development for Oracle E-Business Suite.",
+  "what_youll_learn": [
+    "OAF architecture and MVC pattern",
+    "JDeveloper configuration",
+    "BC4J model development",
+    "View layer components",
+    "Controller programming",
+    "Debugging techniques",
+    "Internationalization",
+    "Performance tuning"
+  ],
+  "syllabus": [
+    {
+      "module": "OAF Fundamentals",
+      "subtopics": [
+        "Oracle Applications Framework",
+        "MVC Architecture",
+        "OAF Process Flow",
+        "JDeveloper Overview"
+      ]
+    },
+    {
+      "module": "Model Layer",
+      "subtopics": [
+        "BC4J Components",
+        "Entity Objects",
+        "View Objects",
+        "Application Modules"
+      ]
+    },
+    {
+      "module": "View Layer",
+      "subtopics": [
+        "Page Components",
+        "List of Values",
+        "Search Regions",
+        "Personalization"
+      ]
+    },
+    {
+      "module": "Controller Layer",
+      "subtopics": [
+        "Controller Lifecycle",
+        "Message Dictionary",
+        "Error Handling",
+        "Business Logic"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-oaf.png",
+  "placement_assurance": true,
+  "projects": [
+    "Custom OAF Page Development",
+    "EBS Module Extension",
+    "Internationalized Application",
+    "Performance-Tuned Solution"
+  ]
+},
+{
+  "course_name": "Oracle Cloud Infrastructure (OCI)",
+  "path": "oracle-cloud-infrastructure",
+  "description": "Comprehensive training in Oracle Cloud Infrastructure covering compute, storage, networking, databases, and security services for cloud solutions.",
+  "what_youll_learn": [
+    "OCI architecture and regions",
+    "Identity and Access Management",
+    "Virtual Cloud Networks",
+    "Compute and storage services",
+    "Autonomous Databases",
+    "Load balancing",
+    "Resource Manager",
+    "Monitoring and notifications"
+  ],
+  "syllabus": [
+    {
+      "module": "OCI Fundamentals",
+      "subtopics": [
+        "Cloud Computing Concepts",
+        "Global Infrastructure",
+        "Account Setup",
+        "Console Navigation"
+      ]
+    },
+    {
+      "module": "Core Services",
+      "subtopics": [
+        "Compute Instances",
+        "Block/File Storage",
+        "Object Storage",
+        "Load Balancers"
+      ]
+    },
+    {
+      "module": "Database Services",
+      "subtopics": [
+        "VM/Bare Metal DB Systems",
+        "Exadata Cloud Service",
+        "Autonomous Databases",
+        "Data Guard"
+      ]
+    },
+    {
+      "module": "Advanced Topics",
+      "subtopics": [
+        "Kubernetes Engine",
+        "Functions Service",
+        "Monitoring/Alerts",
+        "Cost Management"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-cloud-infra.png",
+  "placement_assurance": true,
+  "projects": [
+    "Multi-Tier Application Deployment",
+    "Disaster Recovery Setup",
+    "Autonomous Database Implementation",
+    "Infrastructure as Code"
+  ]
+},
+{
+  "course_name": "WebLogic Server",
+  "path": "oracle-weblogic-server",
+  "description": "Comprehensive training in Oracle WebLogic Server covering installation, configuration, clustering, security, and performance tuning for enterprise Java applications.",
+  "what_youll_learn": [
+    "WebLogic architecture",
+    "Domain configuration",
+    "JDBC and JMS setup",
+    "Cluster implementation",
+    "Security configuration",
+    "Performance tuning",
+    "Patching/upgrades",
+    "Backup/recovery"
+  ],
+  "syllabus": [
+    {
+      "module": "Fundamentals",
+      "subtopics": [
+        "WebLogic Architecture",
+        "Domain Types",
+        "Installation",
+        "Console Navigation"
+      ]
+    },
+    {
+      "module": "Core Services",
+      "subtopics": [
+        "JDBC Configuration",
+        "JMS Implementation",
+        "Application Deployment",
+        "Node Manager"
+      ]
+    },
+    {
+      "module": "High Availability",
+      "subtopics": [
+        "Clustering",
+        "Load Balancing",
+        "Failover",
+        "Migration"
+      ]
+    },
+    {
+      "module": "Administration",
+      "subtopics": [
+        "Security Realms",
+        "SSL Configuration",
+        "Performance Tuning",
+        "Backup Strategies"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-weblogic.png",
+  "placement_assurance": true,
+  "projects": [
+    "Cluster Configuration",
+    "Enterprise Application Deployment",
+    "Performance Optimization",
+    "Disaster Recovery Setup"
+  ]
+},
+{
+  "course_name": "Oracle PeopleSoft HRMS/HCM",
+  "path": "oracle-peoplesoft",
+  "description": "Comprehensive training in PeopleSoft Human Resources and Payroll modules covering core tables, processes, and reporting for enterprise HR solutions.",
+  "what_youll_learn": [
+    "PeopleSoft architecture",
+    "Core HR tables",
+    "Payroll processing",
+    "Benefits administration",
+    "Query/SQR reporting",
+    "Security implementation",
+    "PeopleCode basics",
+    "Application Designer"
+  ],
+  "syllabus": [
+    {
+      "module": "HRMS Fundamentals",
+      "subtopics": [
+        "Core Tables",
+        "Effective Dating",
+        "Control Tables",
+        "Reporting Tables"
+      ]
+    },
+    {
+      "module": "HR Module",
+      "subtopics": [
+        "Personal Data",
+        "Job Information",
+        "Compensation",
+        "Position Management"
+      ]
+    },
+    {
+      "module": "Payroll Module",
+      "subtopics": [
+        "Payroll Processing",
+        "Earnings/Deductions",
+        "Tax Calculations",
+        "Year-End Processing"
+      ]
+    },
+    {
+      "module": "Tools",
+      "subtopics": [
+        "PeopleSoft Query",
+        "SQR Reporting",
+        "Security Setup",
+        "PeopleCode Basics"
+      ]
+    }
+  ],
+  "duration": "70-80 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-peoplesoft.png",
+  "placement_assurance": true,
+  "projects": [
+    "HR Analytics Dashboard",
+    "Payroll Process Mapping",
+    "Benefits Enrollment System",
+    "Custom Report Development"
+  ]
+},
+{
+  "course_name": "Oracle Customer Care & Billing (CC&B)",
+  "path": "oracle-customercare",
+  "description": "Comprehensive training in Oracle CC&B covering customer management, billing processes, payments, and field service operations for utility companies.",
+  "what_youll_learn": [
+    "CC&B architecture and UI standards",
+    "Customer information management",
+    "Sales and marketing integration",
+    "Field work management",
+    "Billing configuration",
+    "Payment processing",
+    "Debt monitoring",
+    "Business object modeling"
+  ],
+  "syllabus": [
+    {
+      "module": "CC&B Fundamentals",
+      "subtopics": [
+        "Control Central",
+        "User Interface Standards",
+        "Customer Information",
+        "Sales and Marketing"
+      ]
+    },
+    {
+      "module": "Field Operations",
+      "subtopics": [
+        "Field Work Management",
+        "Route Management",
+        "Field Activity Upload"
+      ]
+    },
+    {
+      "module": "Billing & Payments",
+      "subtopics": [
+        "Billing Configuration",
+        "Payment Processing",
+        "Overdue Debt Monitoring"
+      ]
+    },
+    {
+      "module": "Advanced Configuration",
+      "subtopics": [
+        "Business Object Elements",
+        "Inheritance Models",
+        "Service Scripts",
+        "BPA Script Features"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-ccb.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Billing Implementation",
+    "Field Service Automation",
+    "Customer Portal Integration",
+    "Debt Collection Workflow"
+  ]
+},
+{
+  "course_name": "R12.x Oracle Inventory Management",
+  "path": "oracle-r12",
+  "description": "Comprehensive training in Oracle Inventory covering organization setup, item management, transactions, replenishment, and accuracy for supply chain operations.",
+  "what_youll_learn": [
+    "Inventory organization structure",
+    "Item definition and maintenance",
+    "Lot/serial control",
+    "Transaction processing",
+    "Material status control",
+    "Replenishment methods",
+    "Cycle counting",
+    "Physical inventory"
+  ],
+  "syllabus": [
+    {
+      "module": "Inventory Fundamentals",
+      "subtopics": [
+        "Organization Structure",
+        "Subinventories/Locators",
+        "Units of Measure",
+        "Item Definition"
+      ]
+    },
+    {
+      "module": "Inventory Control",
+      "subtopics": [
+        "Lot/Serial Tracking",
+        "Transaction Types",
+        "Move Orders",
+        "Material Status"
+      ]
+    },
+    {
+      "module": "Operations",
+      "subtopics": [
+        "Receiving/Issuing",
+        "Transfers",
+        "On-hand Management",
+        "Reservations"
+      ]
+    },
+    {
+      "module": "Optimization",
+      "subtopics": [
+        "Replenishment",
+        "Kanban",
+        "Cycle Counting",
+        "Physical Inventory"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-inventory.png",
+  "placement_assurance": true,
+  "projects": [
+    "Inventory Organization Setup",
+    "Serialized Asset Tracking",
+    "Replenishment Strategy",
+    "Accuracy Improvement Plan"
+  ]
+},
+{
+  "course_name": "R12.2 Oracle E-Business Tax",
+  "path": "oracle-tax-reporting",
+  "description": "Comprehensive training in Oracle E-Business Tax covering tax configuration, determination rules, reporting, and compliance for global operations.",
+  "what_youll_learn": [
+    "E-Business Tax architecture",
+    "Tax regime configuration",
+    "Party tax profiles",
+    "Fiscal classifications",
+    "Tax rule engine",
+    "Tax recovery",
+    "Transaction tax management",
+    "Tax reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Tax Fundamentals",
+      "subtopics": [
+        "Tax Concepts",
+        "Regime Configuration",
+        "Party Profiles",
+        "Fiscal Classifications"
+      ]
+    },
+    {
+      "module": "Tax Determination",
+      "subtopics": [
+        "Rule Engine",
+        "Guided Rule Entry",
+        "Expert Rule Entry",
+        "Tax Simulator"
+      ]
+    },
+    {
+      "module": "Operations",
+      "subtopics": [
+        "Tax Recovery",
+        "Payables Tax",
+        "Receivables Tax",
+        "Intercompany Tax"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Tax Reporting Ledger",
+        "XML Publisher",
+        "VAT Reporting",
+        "Regional Compliance"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/oracle-ebtax.png",
+  "placement_assurance": true,
+  "projects": [
+    "Global Tax Configuration",
+    "VAT Compliance Setup",
+    "Tax Determination Rules",
+    "Regional Reporting Package"
+  ]
+},
+{
+  "course_name": "R12.x Oracle Order Management",
+  "path": "oracle-order-management",
+  "description": "Comprehensive training in Oracle Order Management covering order capture, fulfillment, pricing, shipping, and integration for the order-to-cash cycle.",
+  "what_youll_learn": [
+    "Order management architecture",
+    "MOAC setup",
+    "Inventory integration",
+    "Pricing configuration",
+    "Shipping execution",
+    "Hold management",
+    "Drop shipments",
+    "Sales agreements"
+  ],
+  "syllabus": [
+    {
+      "module": "Order Fundamentals",
+      "subtopics": [
+        "Order Lifecycle",
+        "MOAC Setup",
+        "Inventory Integration",
+        "Receivables Setup"
+      ]
+    },
+    {
+      "module": "Configuration",
+      "subtopics": [
+        "Transaction Types",
+        "Processing Constraints",
+        "Pricing Setup",
+        "Shipping Configuration"
+      ]
+    },
+    {
+      "module": "Operations",
+      "subtopics": [
+        "Order Holds",
+        "Exception Management",
+        "Shipping Execution",
+        "Drop Shipments"
+      ]
+    },
+    {
+      "module": "Advanced Topics",
+      "subtopics": [
+        "Back-to-Back Orders",
+        "Sales Agreements",
+        "PTO Models",
+        "IR-ISO Changes"
+      ]
+    }
+  ],
+  "duration": "55-65 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/oracle-order-mgmt.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Order Configuration",
+    "Pricing Strategy Implementation",
+    "Drop Shipment Process",
+    "Order Exception Workflow"
+  ]
+}
+      ]
+    }
+  ]
+}

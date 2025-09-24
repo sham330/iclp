@@ -1,0 +1,4175 @@
+{
+  "categories": [
+    {
+      "name": "SAP",
+      "sub_categories": [
+        {
+          "course_name": "SAP FICO",
+          "path": "sap-fico",
+           "canonical_url": "https://iclptech.in/courses/sap/sap-fico",
+          "meta_title": "SAP FICO Course Online | SAP FICO Training | SAP FICO Certificate",
+  "meta_description": "Master SAP FICO with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
+          "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts.",
+          "what_youll_learn": [
+            "SAP FICO configuration and implementation",
+            "General Ledger, Accounts Payable & Receivable",
+            "Asset Accounting and Bank Accounting",
+            "Cost Element and Cost Center Accounting",
+            "Profit Center Accounting and Internal Orders",
+            "Product Costing and Profitability Analysis",
+            "Integration with other SAP modules",
+            "Real-time project scenarios"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to SAP FICO",
+              "subtopics": [
+                "Overview of SAP ERP",
+                "SAP FICO Architecture",
+                "Organizational Structure in SAP",
+                "Client, Company Code, Chart of Accounts",
+                "Fiscal Year Variant, Posting Periods"
+              ]
+            },
+            {
+              "module": "General Ledger Accounting",
+              "subtopics": [
+                "Chart of Accounts Design",
+                "GL Account Master Data",
+                "Document Types and Number Ranges",
+                "Posting Transactions",
+                "Parked and Held Documents",
+                "Account Balances and Reports"
+              ]
+            },
+            {
+              "module": "Accounts Payable",
+              "subtopics": [
+                "Vendor Master Data",
+                "Invoice Processing",
+                "Payment Program Configuration",
+                "Automatic Payment Methods",
+                "Down Payments and Special GL Transactions",
+                "Account Analysis and Reconciliation"
+              ]
+            },
+            {
+              "module": "Accounts Receivable",
+              "subtopics": [
+                "Customer Master Data",
+                "Invoice and Credit Memo Processing",
+                "Payment Processing",
+                "Dunning Configuration",
+                "Lockbox Processing",
+                "Credit Management"
+              ]
+            },
+            {
+              "module": "Asset Accounting",
+              "subtopics": [
+                "Asset Master Data",
+                "Acquisition and Retirement",
+                "Depreciation Calculation",
+                "Asset Transfers",
+                "Asset Reports",
+                "Integration with Fixed Assets"
+              ]
+            }
+          ]
+        },
+        {
+  "course_name": "SAP SuccessFactors Online Training",
+  "path": "sap-successfactors-online-training",
+   "meta_title": "SAP Successfactors Course Online | SAP SF Training | SAP SF Certificate",
+  "meta_description": "Become a certified SAP SF consultant. Learn SuccessFactors online with expert guidance. Enroll now to boost your HR tech career!",
+  "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
+  
+  "what_youll_learn": [
+    "Understand SAP SuccessFactors architecture and cloud provisioning",
+    "Master Employee Central configuration and data models",
+    "Implement Role-Based Permissions (RBP)",
+    "Configure workflows, picklists, and rating scales",
+    "Manage employee data, ESS/MSS, and security",
+    "Set up Position Management and Absence Management",
+    "Work with Metadata Framework (MDF) and business rules",
+    "Customize foundation data and country-specific files",
+    "Perform mass data changes and integrations",
+    "Generate reports and configure organizational charts"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Mastery Topics",
+      "subtopics": [
+        "Cloud and SF Architecture",
+        "Instance, Provisioning explanation",
+        "Technical Architecture",
+        "Integration Technology/Tools",
+        "Bizxpert Methodology – Implementation Methodology",
+        "Basic company settings in Provisioning",
+        "Creating administrators in Provisioning",
+        "Creating administrators in Instance",
+        "Instance basic settings – Passwords, Home Page, Welcome Menu, Company info, Employee files",
+        "Administrator tools",
+        "Commonly used terms",
+        "Admin Privileges",
+        "Proxy Management",
+        "Setting up company Logos",
+        "Manage Data User Records",
+        "Employee Data File",
+        "Permissions",
+        "Role Based Permissioning (RBP)",
+        "Pick list Management",
+        "Text Customization in Instance",
+        "XML and Data models",
+        "People Search",
+        "Rating Scales",
+        "Route Maps (Workflow)",
+        "Launching forms",
+        "Employee Profile"
+      ]
+    },
+    {
+      "module": "Employee Central Mastery – Core HCM module",
+      "subtopics": [
+        "Introduction and basic provisioning set up exercises",
+        "Data models",
+        "Employee Central Structure",
+        "Data model Management",
+        "Data model Associations",
+        "Enable employee central and RBP",
+        "Update employee details",
+        "ESS/MSS functionality",
+        "Understanding security",
+        "Managing security with RBP",
+        "EC as a system of record",
+        "EC Customizing and Populating Basic Foundation data",
+        "Customizing Country specific files in Foundation tables",
+        "Creating and modifying associations",
+        "Propagations",
+        "Importing users and data",
+        "Mass Changes",
+        "Customizing employee files",
+        "Customizing CSF for employee files",
+        "Position Management",
+        "Absence Management",
+        "Employee Central Reporting and Integration",
+        "MDF Overview",
+        "MDF Objects creation",
+        "Manage Business Configuration Rules setup",
+        "Manage Workflow Requests/groups",
+        "Org Chart",
+        "Manage Sequence",
+        "Monitor Job"
+      ]
+    }
+  ],
+
+  "duration": "40 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/sap-successfactors.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Implementing Employee Central for a multinational company",
+    "Designing RBP for HR roles",
+    "Building custom MDF objects for HR processes"
+  ]
+},
+        {
+          "course_name": "SAP MM",
+          "path": "sap-mm",
+           "meta_title": "SAP FICO Course Online | SAP FICO Training | SAP FICO Certificate",
+  "meta_description": "Learn SAP MM online with hands-on training & certification. Become an SAP MM expert. Check the course & enroll now!",
+          "description": "Learn SAP Materials Management module covering procurement, inventory management, and logistics processes.",
+          "what_youll_learn": [
+            "SAP MM configuration and customization",
+            "Procurement process from purchase requisition to payment",
+            "Inventory management techniques",
+            "Material Master and Vendor Master data",
+            "Invoice verification and material valuation",
+            "Integration with FI, SD, and PP modules",
+            "Reporting and analytics in MM"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to SAP MM",
+              "subtopics": [
+                "Overview of SAP MM",
+                "Organizational Structure in MM",
+                "Plants, Storage Locations, Purchasing Orgs",
+                "Material Master Data",
+                "Vendor Master Data"
+              ]
+            },
+            {
+              "module": "Procurement Process",
+              "subtopics": [
+                "Purchase Requisition",
+                "Request for Quotation",
+                "Purchase Order Processing",
+                "Outline Agreements",
+                "Source Determination",
+                "Release Strategy"
+              ]
+            },
+            {
+              "module": "Inventory Management",
+              "subtopics": [
+                "Goods Receipt Processing",
+                "Goods Issue Processing",
+                "Stock Transfers",
+                "Physical Inventory",
+                "Reservations",
+                "Special Stocks"
+              ]
+            },
+            {
+              "module": "Invoice Verification",
+              "subtopics": [
+                "Invoice Processing",
+                "Credit Memo Processing",
+                "Evaluated Receipt Settlement",
+                "Parking and Blocking Invoices",
+                "Integration with FI"
+              ]
+            },
+            {
+              "module": "Reporting and Analytics",
+              "subtopics": [
+                "Standard Reports in MM",
+                "Inventory Reports",
+                "Purchase Information System",
+                "Logistics Information System",
+                "Custom Reports"
+              ]
+            }
+          ]
+        },
+        {
+          "course_name": "SAP SD",
+          "path": "sap-sd",         
+           "meta_title": "SAP SD Course Online | SAP SD Training | SAP SD Certificate",
+  "meta_description": "Become a certified SAP SD consultant with our online course. Expert training, flexible schedule. Learn more & enroll today!",
+           "description": "Comprehensive training on SAP Sales and Distribution module covering order-to-cash processes.",
+          "what_youll_learn": [
+            "SAP SD configuration and implementation",
+            "Master data in SD (Customer, Material, Pricing)",
+            "Sales order processing and management",
+            "Billing and invoicing processes",
+            "Credit management and rebate processing",
+            "Integration with MM, FI, and CO modules",
+            "Reporting and analytics in SD"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to SAP SD",
+              "subtopics": [
+                "Overview of SAP SD",
+                "Organizational Structure in SD",
+                "Sales Area, Distribution Channels",
+                "Customer Master Data",
+                "Material Master Data for Sales"
+              ]
+            },
+            {
+              "module": "Basic Functions",
+              "subtopics": [
+                "Partner Functions",
+                "Text Determination",
+                "Output Determination",
+                "Material Determination",
+                "Item Proposal"
+              ]
+            },
+            {
+              "module": "Sales Documents",
+              "subtopics": [
+                "Sales Document Types",
+                "Sales Order Processing",
+                "Schedule Line Categories",
+                "Delivery Processing",
+                "Billing Documents"
+              ]
+            },
+            {
+              "module": "Pricing and Taxation",
+              "subtopics": [
+                "Pricing Procedure Determination",
+                "Condition Technique",
+                "Tax Determination",
+                "Rebate Processing",
+                "Credit Management"
+              ]
+            },
+            {
+              "module": "Advanced Topics",
+              "subtopics": [
+                "Availability Check",
+                "Transfer of Requirements",
+                "Route Determination",
+                "Serial Number Management",
+                "Reporting in SD"
+              ]
+            }
+          ]
+        },
+        {
+  "course_name": "SAP Transportation Management",
+  "path": "sap-transportation-management",
+   "meta_title": "SAP Transportation Management Course Online | SAP TM Training | SAP TM Certificate",
+  "meta_description": "Learn SAP TM online and become a transportation management expert. Get certified and start your career. Check the course now!",
+  "description": "Comprehensive training in SAP Transportation Management covering ERP fundamentals, ABAP programming, and advanced SAP modules for logistics and supply chain management.",
+  "what_youll_learn": [
+    "Understand ERP concepts and SAP architecture",
+    "Master ABAP/4 programming fundamentals",
+    "Work with SAP Data Dictionary and dictionary objects",
+    "Develop reports, dialog programs, and transactions",
+    "Implement batch data communication and file handling",
+    "Create SAP scripts and smart forms",
+    "Develop ALV reports",
+    "Understand cross-application concepts like RFC, ALE, and EDI",
+    "Work with IDocs and BAPIs",
+    "Implement user exits and BADIs"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to ERP",
+      "subtopics": [
+        "What is ERP?",
+        "Why we need ERP?",
+        "Advantages of ERP",
+        "Major ERP Packages"
+      ]
+    },
+    {
+      "module": "Introduction to SAP & R/3 Architecture",
+      "subtopics": [
+        "What is SAP?",
+        "History & Features of SAP",
+        "SAP R/2 Architecture (Limitations of R/2 Architecture)",
+        "SAP R/3 Architecture (Types of work processes)",
+        "SAP R/3 Application Modules",
+        "SAP Landscape"
+      ]
+    },
+    {
+      "module": "Introduction to ABAP/4",
+      "subtopics": [
+        "What is ABAP?",
+        "Logon to SAP Environment",
+        "Transaction Codes",
+        "Multitasking Commands",
+        "Comments",
+        "Errors",
+        "ABAP/4 Editor (SE38)",
+        "Steps for Creating a Program",
+        "Elements in R/3 Screen",
+        "Output Statements",
+        "Operators in ABAP",
+        "Data, Parameter & Constant Statements",
+        "Data Types & Classification",
+        "Data Objects & Classification",
+        "Text Elements",
+        "String Operations",
+        "Control Statements",
+        "Field Strings"
+      ]
+    },
+    {
+      "module": "ABAP Dictionary",
+      "subtopics": [
+        "ABAP Dictionary Introduction",
+        "Data Dictionary Functions",
+        "Data Dictionary Objects",
+        "Data Base Tables",
+        "Structures",
+        "Views",
+        "Data Elements",
+        "Type Groups",
+        "Domain",
+        "Search helps",
+        "Lock objects",
+        "Primary Key and Foreign Key",
+        "Table Maintenance Generator"
+      ]
+    },
+    {
+      "module": "Packages",
+      "subtopics": [
+        "Creating a package",
+        "Difference between local objects & packages",
+        "Transferring local objects to packages"
+      ]
+    },
+    {
+      "module": "Variants",
+      "subtopics": [
+        "Variants Introduction",
+        "Creating variants in ABAP Editor & Data Dictionary"
+      ]
+    },
+    {
+      "module": "Message Classes",
+      "subtopics": [
+        "Message Class Introduction",
+        "Message types",
+        "Calling message class in Report & Dialog Programs"
+      ]
+    },
+    {
+      "module": "Selection Screens",
+      "subtopics": [
+        "Selection Screen Introduction",
+        "Parameter Statement",
+        "Select-options Statement",
+        "Selection-screen Statement",
+        "Screen tables and its fields",
+        "Dynamic screen modification by using Modif ID Key"
+      ]
+    },
+    {
+      "module": "Open SQL Statements",
+      "subtopics": [
+        "Select",
+        "Insert",
+        "Modify",
+        "Update",
+        "Delete"
+      ]
+    },
+    {
+      "module": "Internal Tables",
+      "subtopics": [
+        "Internal Tables Introduction",
+        "Declaring Internal Table",
+        "Populating Internal Table",
+        "Processing Internal Table",
+        "Initializing Internal Tables",
+        "Inner Joins and for all Entries",
+        "Control Break Statements"
+      ]
+    },
+    {
+      "module": "Debugging Techniques",
+      "subtopics": [
+        "Debugging Techniques Introduction",
+        "Break-points (Static & Dynamic)",
+        "Watch Point",
+        "Dynamically changing internal tables contents in Debugging Editor",
+        "Options to step through the program in Debugging Editor"
+      ]
+    },
+    {
+      "module": "Modularization Techniques",
+      "subtopics": [
+        "Modularization Techniques Introduction",
+        "Includes",
+        "Subroutines",
+        "Passing Parameters to Subroutines",
+        "Passing Tables to Subroutines",
+        "Function Groups & Function Modules"
+      ]
+    },
+    {
+      "module": "Reports",
+      "subtopics": [
+        "Reports Introduction",
+        "Classical Reports",
+        "Interactive Reports",
+        "Techniques Used for Interactive Reports",
+        "Hotspot",
+        "Hide",
+        "Get Cursor"
+      ]
+    },
+    {
+      "module": "Dialog / Module Pool Programming/Transactions",
+      "subtopics": [
+        "MPP Introduction",
+        "Relationship between Screen, Flow Logic and Program",
+        "Flow Logic Events",
+        "Process Before Output (PBO)",
+        "Process After Input (PAI)",
+        "Process on Value Request (POV)",
+        "Process on Help Request (POH)",
+        "Include Programs in MPP",
+        "Include TOP",
+        "Include I01",
+        "Include O01",
+        "Include F01",
+        "Dynamic Screens",
+        "Leave Screen"
+      ]
+    },
+    {
+      "module": "Batch Data Communication",
+      "subtopics": [
+        "BDC Introduction",
+        "Recording",
+        "MDC Methods",
+        "Call Transaction Method",
+        "Session Method",
+        "Handling Table Controls in BDC",
+        "Legacy System Migration Workbench",
+        "Different methods",
+        "Flat file creation",
+        "Uploading Data",
+        "File Handling",
+        "Application Server",
+        "Presentation Server"
+      ]
+    },
+    {
+      "module": "SAP Scripts",
+      "subtopics": [
+        "SAP Scripts Introduction",
+        "Components of SAP Scripts",
+        "Layout Set",
+        "Standard Text",
+        "Out Put Program",
+        "Modifying Standard SAP Script Layouts",
+        "Including Logos",
+        "SAP script Utilities – Upload/Download"
+      ]
+    },
+    {
+      "module": "Smart Forms",
+      "subtopics": [
+        "Smart Forms Introduction",
+        "Graphics Management",
+        "Style Maintenance",
+        "Paragraph Formats",
+        "Character Formats",
+        "Writing print program and designing layouts"
+      ]
+    },
+    {
+      "module": "ALV Reports",
+      "subtopics": [
+        "ALV Reports Introduction",
+        "ALV through Function Modules",
+        "ALV Types"
+      ]
+    },
+    {
+      "module": "Runtime Analysis & SQL Tracing Cross Applications",
+      "subtopics": [
+        "Introduction to Distributed Environment",
+        "Introduction to Cross Application"
+      ]
+    },
+    {
+      "module": "RFC",
+      "subtopics": [
+        "Introduction to RFC",
+        "Creating RFC Destination between 2 Systems",
+        "Creating Remote Enabled Function Modules",
+        "Creating program using Remote Enabled Function Modules"
+      ]
+    },
+    {
+      "module": "ALE",
+      "subtopics": [
+        "ALE Basics",
+        "Overview of Outbound & Inbound Process",
+        "Configuration Steps",
+        "Define Logical systems",
+        "Assign client to logical system",
+        "RFC Destination",
+        "Customer distribution model",
+        "Creating Ports"
+      ]
+    },
+    {
+      "module": "IDocs",
+      "subtopics": [
+        "What is an Idoc?",
+        "Types of Idoc",
+        "Basic Idocs",
+        "Extension Idocs",
+        "Creating Idocs",
+        "Message Types",
+        "Assigning Idoc type to Message type"
+      ]
+    },
+    {
+      "module": "EDI",
+      "subtopics": [
+        "EDI Basics",
+        "Difference between ALE & EDI",
+        "Overview of Outbound & Inbound Process",
+        "Configuration Steps",
+        "Port Creation",
+        "Partner Profile Creation"
+      ]
+    },
+    {
+      "module": "BAPIs",
+      "subtopics": [
+        "BAPI Overview",
+        "Creation of BAPI"
+      ]
+    },
+    {
+      "module": "Workflow",
+      "subtopics": [
+        "What is workflow?",
+        "Overview of workflow"
+      ]
+    },
+    {
+      "module": "User Exits",
+      "subtopics": [
+        "User Exits Overview",
+        "Types of User Exits",
+        "Field Exit",
+        "Screen Exit",
+        "Function Exit",
+        "Menu Exit"
+      ]
+    },
+    {
+      "module": "BADIs",
+      "subtopics": [
+        "BADIs Overview",
+        "Defining a BADI",
+        "Implementing a BADI"
+      ]
+    }
+  ],
+  "duration": "60 hours",
+  "skill_level": "Advanced",
+  "image": "https://example.com/sap-transportation-management.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Transportation Management System Implementation",
+    "Logistics Process Automation",
+    "EDI Integration Project"
+  ]},
+        {
+          "course_name": "SAP PP",
+          "path": "sap-pp",
+           "meta_title": "SAP PP Course Online | SAP PP Training | SAP PP Certificate",
+  "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
+          "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
+          "what_youll_learn": [
+            "SAP PP configuration and implementation",
+            "Master data in PP (Material, BOM, Work Center)",
+            "Discrete and process manufacturing",
+            "Material Requirements Planning (MRP)",
+            "Production orders and confirmations",
+            "Integration with MM, SD, and CO modules",
+            "Reporting and analytics in PP"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to SAP PP",
+              "subtopics": [
+                "Overview of SAP PP",
+                "Organizational Structure in PP",
+                "Work Centers and Routings",
+                "Bill of Materials (BOM)",
+                "Production Versions"
+              ]
+            },
+            {
+              "module": "Master Data",
+              "subtopics": [
+                "Material Master for PP",
+                "Work Center Master Data",
+                "Routing and Rate Routing",
+                "Production Resources/Tools",
+                "Production Scheduling Profile"
+              ]
+            },
+            {
+              "module": "MRP and Demand Management",
+              "subtopics": [
+                "MRP Views in Material Master",
+                "MRP Procedures",
+                "Planning Strategies",
+                "Consumption-Based Planning",
+                "Forecasting"
+              ]
+            },
+            {
+              "module": "Production Orders",
+              "subtopics": [
+                "Order Types and Parameters",
+                "Order Creation and Release",
+                "Goods Movements",
+                "Confirmations",
+                "Settlement"
+              ]
+            },
+            {
+              "module": "Repetitive Manufacturing",
+              "subtopics": [
+                "REM Profile",
+                "Production Versions",
+                "Backflushing",
+                "Kanban",
+                "Reporting in PP"
+              ]
+            }
+          ]
+        },
+        {
+          "course_name": "SAP ABAP",
+          "path": "sap-abap",
+           "meta_title": "SAP ABAP Course Online | SAP ABAP Training | SAP ABAP Certificate",
+  "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
+          "description": "Learn SAP ABAP programming language for custom development and enhancements.",
+          "what_youll_learn": [
+            "ABAP programming fundamentals",
+            "Data dictionary objects",
+            "Modularization techniques",
+            "Reports and dialog programming",
+            "Enhancements and modifications",
+            "ALV and SmartForms",
+            "Object-oriented ABAP"
+          ],
+          "syllabus": [
+            {
+              "module": "ABAP Basics",
+              "subtopics": [
+                "Introduction to ABAP",
+                "Data Types and Variables",
+                "Operators and Expressions",
+                "Control Statements",
+                "Internal Tables"
+              ]
+            },
+            {
+              "module": "Data Dictionary",
+              "subtopics": [
+                "Database Tables",
+                "Views",
+                "Data Elements and Domains",
+                "Search Helps",
+                "Lock Objects"
+              ]
+            },
+            {
+              "module": "Modularization",
+              "subtopics": [
+                "Subroutines",
+                "Function Modules",
+                "Macros",
+                "Includes",
+                "Performance Techniques"
+              ]
+            },
+            {
+              "module": "Reports and Dialog Programming",
+              "subtopics": [
+                "Selection Screens",
+                "Classical and Interactive Reports",
+                "ALV Reports",
+                "Screen Programming",
+                "Table Controls"
+              ]
+            },
+            {
+              "module": "Enhancements and OOABAP",
+              "subtopics": [
+                "User Exits and BADIs",
+                "Enhancement Framework",
+                "Object-Oriented Concepts",
+                "Classes and Methods",
+                "Interfaces and Inheritance"
+              ]
+            }
+          ]
+        },
+        {
+  "course_name": "SAP Business Technology Platform (BTP)",
+  "path": "sap-busiiness-technology",
+  "description": "Master SAP's unified platform for application development, integration, analytics, and AI. Learn to build, extend, and integrate enterprise applications in the cloud.",
+  "what_youll_learn": [
+    "SAP BTP architecture and services",
+    "Cloud Application Programming Model (CAP)",
+    "SAP HANA Cloud integration",
+    "Integration Suite for hybrid landscapes",
+    "AI/ML capabilities on BTP",
+    "Fiori UX development",
+    "BTP security and compliance",
+    "Operational monitoring and support"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP BTP",
+      "subtopics": [
+        "Overview of SAP BTP",
+        "Key features and capabilities",
+        "Use cases and benefits"
+      ]
+    },
+    {
+      "module": "SAP Cloud Platform Essentials",
+      "subtopics": [
+        "Introduction to SAP Cloud Platform (SCP)",
+        "Overview of SCP services",
+        "SCP Architecture and deployment models"
+      ]
+    },
+    {
+      "module": "Cloud Application Programming Model (CAP)",
+      "subtopics": [
+        "Introduction to the CAP Model",
+        "Building scalable applications with CAP",
+        "Data modeling and persistence"
+      ]
+    },
+    {
+      "module": "SAP HANA Cloud",
+      "subtopics": [
+        "Introduction to SAP HANA Cloud",
+        "Data management and analytics capabilities",
+        "Integration with SAP BTP services"
+      ]
+    },
+    {
+      "module": "SAP Integration Suite",
+      "subtopics": [
+        "Overview of SAP Integration Suite",
+        "Integration patterns and best practices",
+        "Building and managing integrations"
+      ]
+    },
+    {
+      "module": "SAP AI and Machine Learning Services",
+      "subtopics": [
+        "Introduction to AI and machine learning on SAP BTP",
+        "Implementing predictive analytics and machine learning models",
+        "Using AI services for automation and optimization"
+      ]
+    },
+    {
+      "module": "SAP Fiori and UX",
+      "subtopics": [
+        "Introduction to SAP Fiori",
+        "Design principles and UX guidelines",
+        "Developing Fiori applications on SAP BTP"
+      ]
+    },
+    {
+      "module": "Security and Compliance on SAP BTP",
+      "subtopics": [
+        "Security principles and best practices",
+        "Implementing security measures on SAP BTP",
+        "Compliance requirements and considerations"
+      ]
+    },
+    {
+      "module": "Monitoring, Operations, and Support",
+      "subtopics": [
+        "Monitoring and managing applications on SAP BTP",
+        "Operational best practices",
+        "Support and troubleshooting techniques"
+      ]
+    },
+    {
+      "module": "Case Studies and Practical Applications",
+      "subtopics": [
+        "Real-world case studies of SAP BTP implementations",
+        "Hands-on exercises and practical applications",
+        "Project work or labs to apply learned concepts"
+      ]
+    }
+  ],
+  "duration": "35-45 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "../CourseDetails/sap-btp.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End CAP Application Development",
+    "Hybrid Integration Scenario Implementation",
+    "AI-Enhanced Analytics Dashboard",
+    "Fiori Apps Deployment on BTP"
+  ]
+},
+{
+  "course_name": "SAP IS Utilities Training",
+  "path": "sap-is-utilities",
+    "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
+  "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
+  "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
+  "what_youll_learn": [
+    "Utilities market structures (regulated/deregulated)",
+    "Regional structure configuration",
+    "Master data management for utilities",
+    "Move-in/move-out processes",
+    "Device and meter reading management",
+    "Billing schemas and rate determination",
+    "Invoicing and payment processing",
+    "Utility-specific financial accounting"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP IS Utilities Industry Overview",
+      "subtopics": [
+        "Regulated market operations",
+        "Deregulated market structures"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Regional Structure",
+      "subtopics": [
+        "Regional structure purpose",
+        "Postal/political structures",
+        "Portions and meter reading units",
+        "Scheduling configurations"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Master Data",
+      "subtopics": [
+        "Business master data",
+        "Technical master data",
+        "Data relationships"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Move-in/Move-out",
+      "subtopics": [
+        "Move-in business scenarios",
+        "Contract data changes",
+        "Installation allocation",
+        "System configuration"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Device Management",
+      "subtopics": [
+        "Device categories and types",
+        "Logistics integration",
+        "Register data management"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Installations",
+      "subtopics": [
+        "Installation services",
+        "Service order processing",
+        "Periodic device replacement"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Technical Objects",
+      "subtopics": [
+        "Technical object relationships",
+        "Service order execution",
+        "Billing-related installations"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Meter Reading",
+      "subtopics": [
+        "Meter reading types",
+        "Order creation/validation",
+        "Reading reversals"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Billing Master Data",
+      "subtopics": [
+        "Billing classes/rate types",
+        "Price structures",
+        "Billing schemas",
+        "Rate determination"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Billing Functions",
+      "subtopics": [
+        "Billing periods/tasks",
+        "Simulation/documentation",
+        "Billing reversals",
+        "Manual billing"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Invoicing",
+      "subtopics": [
+        "Budget billing",
+        "Payment plans",
+        "Invoice reversals",
+        "Bill printout"
+      ]
+    },
+    {
+      "module": "SAP IS Utilities Financial Accounting",
+      "subtopics": [
+        "Account determination",
+        "Payment runs",
+        "Dunning/collections",
+        "Security deposits",
+        "Reconciliation"
+      ]
+    }
+  ],
+  "duration": "55-65 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-is-utilities.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Billing Process Implementation",
+    "Meter Reading System Configuration",
+    "Move-in/Move-out Process Simulation",
+    "Utility Financial Accounting Setup"
+  ]
+},
+{
+  "course_name": "SAP IS Retail Training",
+  "path": "sap-is-retail",
+  "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",
+    "meta_title": "SAP IS Retail Course Online | SAP IS Retail Online Training | SAP IS Retail Certificate",
+  "meta_description": "Master SAP IS Retail with practical training and certification. Learn to optimize retail operations. Join now!",
+  "what_youll_learn": [
+    "SAP Retail navigation and customization",
+    "Retail organizational structures",
+    "Article master and assortment management",
+    "Requirements planning and procurement",
+    "Store replenishment strategies",
+    "Retail pricing and promotions",
+    "Merchandise distribution",
+    "POS integration and in-store operations"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP IS Retail Navigation",
+      "subtopics": [
+        "Logging on to SAP system",
+        "SAPGUI screen elements",
+        "Personalization options",
+        "Help menus (F1/F4)",
+        "Local layout customization"
+      ]
+    },
+    {
+      "module": "SAP IS Retail Introduction",
+      "subtopics": [
+        "SAP Retail portfolio overview",
+        "SAP CAR and Fashion Management",
+        "SAP HANA deployment options",
+        "Course process coverage"
+      ]
+    },
+    {
+      "module": "SAP IS Retail Basic Concepts",
+      "subtopics": [
+        "Retail organizational structures",
+        "Site categories (DC vs store)",
+        "Merchandise/article hierarchies",
+        "Article master structure",
+        "Assortment and listing",
+        "Inventory management",
+        "Article valuation methods",
+        "Retail pricing functions"
+      ]
+    },
+    {
+      "module": "SAP IS Retail Procurement",
+      "subtopics": [
+        "Requirements planning process",
+        "Purchase order creation",
+        "Order optimization",
+        "Contract release orders",
+        "Goods receipt processing",
+        "Invoice verification",
+        "Condition contracts"
+      ]
+    },
+    {
+      "module": "SAP IS Retail Replenishment",
+      "subtopics": [
+        "Store connection options",
+        "POS transaction simulation",
+        "Replenishment planning",
+        "Store order functions",
+        "Goods issue processes",
+        "In-Store MIM operations",
+        "Physical inventory"
+      ]
+    },
+    {
+      "module": "SAP IS Retail Promotions",
+      "subtopics": [
+        "Promotion planning",
+        "Allocation tables",
+        "Cross-docking",
+        "Merchandise distribution",
+        "Store goods receipt",
+        "Collective purchase orders"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-is-retail.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Merchandise Planning Scenario",
+    "Store Replenishment Simulation",
+    "Promotion Management Exercise",
+    "POS Integration Project"
+  ]
+},
+{
+  "course_name": "SAP Security GRC Training",
+  "path": "sap-security-grc",
+  "description": "Master SAP's Governance, Risk, and Compliance solutions with hands-on training in access control, risk analysis, privileged user management, and compliance automation.",
+  "what_youll_learn": [
+    "GRC Access Control architecture",
+    "Risk Analysis and Remediation (RAR)",
+    "Segregation of Duties (SoD) management",
+    "Super User Privilege Management (SPM)",
+    "Compliant User Provisioning (CUP)",
+    "Enterprise Role Management (ERM)",
+    "GRC implementation methodologies",
+    "Troubleshooting and best practices"
+  ],
+  "syllabus": [
+    {
+      "module": "GRC Fundamentals",
+      "subtopics": [
+        "GRC applications and benefits",
+        "GRC landscape overview",
+        "Release roadmap and compatibility"
+      ]
+    },
+    {
+      "module": "Implementation Planning",
+      "subtopics": [
+        "Project planning and stakeholders",
+        "Pre-implementation considerations",
+        "RFC, JCo and background job requirements"
+      ]
+    },
+    {
+      "module": "Risk Analysis & Remediation",
+      "subtopics": [
+        "RAR functionality deep dive",
+        "Pre/post-installation checklists",
+        "Segregation of Duties (SoD) concepts",
+        "Risk and rules workshop",
+        "Rule building exercises",
+        "Remediation strategies",
+        "RAR configuration",
+        "Troubleshooting RAR"
+      ]
+    },
+    {
+      "module": "Privileged Access Management",
+      "subtopics": [
+        "SPM functionality overview",
+        "Fire Fighter ID concepts",
+        "Role and user ID mapping",
+        "Emergency access workflows",
+        "SPM configuration",
+        "Troubleshooting SPM"
+      ]
+    },
+    {
+      "module": "User Provisioning",
+      "subtopics": [
+        "CUP workflow processes",
+        "Advanced workflow design",
+        "Master data management",
+        "Reporting and analytics",
+        "Compliance exercises"
+      ]
+    },
+    {
+      "module": "Enterprise Role Management",
+      "subtopics": [
+        "ERM implementation methodology",
+        "Role generation techniques",
+        "Integration with CUP/RAR",
+        "PFCG and GRC proposals"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "../CourseDetails/sap-grc.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End SoD Risk Analysis",
+    "Firefighter ID Implementation",
+    "Automated User Provisioning Workflow",
+    "Enterprise Role Design Exercise"
+  ]
+},
+{
+  "course_name": "SAP Analytics Cloud Online Training",
+  "path": "sap-analytic-cloud",
+  "description": "Master SAP's unified cloud analytics solution covering business intelligence, planning, predictive analytics, and augmented intelligence with hands-on story design and data modeling.",
+  "what_youll_learn": [
+    "SAP Analytics Cloud architecture and deployment options",
+    "Data connections and model preparation",
+    "Story design and analytical applications",
+    "Planning and forecasting capabilities",
+    "Augmented analytics with Smart features",
+    "User security and administration",
+    "Digital Boardroom presentations",
+    "Mobile consumption of analytics"
+  ],
+  "syllabus": [
+    {
+      "module": "Overview of SAP Analytics Cloud",
+      "subtopics": [
+        "Solution overview and core functionalities",
+        "Cloud, On-Premise, and Hybrid deployment",
+        "Collaboration features",
+        "Understanding client types"
+      ]
+    },
+    {
+      "module": "Connections and Data Models",
+      "subtopics": [
+        "Connection types and setup",
+        "Basic data preparation",
+        "Data modeling techniques"
+      ]
+    },
+    {
+      "module": "Story and Analytical Applications",
+      "subtopics": [
+        "Basic story design principles",
+        "Visualization techniques",
+        "Calculations and formatting",
+        "BW/4HANA and Universe integration",
+        "Advanced story design",
+        "Analytic Applications development"
+      ]
+    },
+    {
+      "module": "Planning Capabilities",
+      "subtopics": [
+        "Planning workflows",
+        "Creating planning data models"
+      ]
+    },
+    {
+      "module": "Augmented Analytics",
+      "subtopics": [
+        "Predictive analytics overview",
+        "Smart Assist features",
+        "Smart Predict implementation"
+      ]
+    },
+    {
+      "module": "Security and Administration",
+      "subtopics": [
+        "User and role management",
+        "Team collaboration setup",
+        "Administration tasks"
+      ]
+    },
+    {
+      "module": "Content Consumption",
+      "subtopics": [
+        "Digital Boardroom setup",
+        "Creating executive presentations",
+        "Analytics Hub integration",
+        "Mobile app configuration"
+      ]
+    }
+  ],
+  "duration": "30-40 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-analytics-cloud.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Analytics Story Implementation",
+    "Predictive Forecasting Model",
+    "Planning Scenario Simulation",
+    "Digital Boardroom Presentation"
+  ]
+},
+{
+  "course_name": "SAP BI/BW Training",
+  "path": "sap-bibw",
+  "description": "Comprehensive training in SAP's data warehousing and business intelligence solutions covering data modeling, extraction, reporting, and HANA integration for enterprise analytics.",
+  "what_youll_learn": [
+    "Data warehousing concepts and SAP BW architecture",
+    "InfoProvider modeling (DSOs, Cubes, MultiProviders)",
+    "ETL processes with transformations and DTPs",
+    "Master and transaction data extraction",
+    "BEx reporting and web application design",
+    "SAP HANA integration and optimization",
+    "Process chains and scheduling",
+    "Real-time data acquisition"
+  ],
+  "syllabus": [
+    {
+      "module": "Data Modeling",
+      "subtopics": [
+        "Introduction to Data Warehousing",
+        "Star Schema and Extended Star Schema",
+        "Info Area and Info Object Catalogs",
+        "Characteristics & Key Figures",
+        "Data Sources and Transfer Rules",
+        "Info Sources and Update Rules",
+        "Info Packages (All options)",
+        "Transformations and DTPs",
+        "Error/Direct Access/Real-time DTPs",
+        "Business Content Activation",
+        "Open Hub Destination",
+        "Aggregates and Compression",
+        "Process Chains",
+        "Currency Translations"
+      ]
+    },
+    {
+      "module": "InfoProvider Types",
+      "subtopics": [
+        "Standard/Write-optimized/Direct Update DSOs",
+        "Standard/Real-time InfoCubes",
+        "Virtual Providers and InfoSets",
+        "MultiProviders and Aggregation Levels",
+        "HANA-optimized DSOs and Cubes",
+        "Semantically partitioned objects",
+        "Hybrid and Composite Providers",
+        "Data Flow Templates",
+        "Query-based InfoProviders"
+      ]
+    },
+    {
+      "module": "Data Extraction",
+      "subtopics": [
+        "Flat file extraction",
+        "LO and FI extraction",
+        "Generic extraction",
+        "COPA extraction",
+        "DataSource enhancement",
+        "Real-time data acquisition"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "BEx Query Designer",
+        "Rows/Columns/Free characteristics",
+        "Filters and Selections",
+        "Restricted/Calculated Key Figures",
+        "Exceptions and Conditions",
+        "Variables and Offsets",
+        "Report-to-Report Interface",
+        "Customer Exits",
+        "BEx Analyzer",
+        "Web Application Designer",
+        "Web Items and Templates"
+      ]
+    },
+    {
+      "module": "Support & Real-world Scenarios",
+      "subtopics": [
+        "Error handling",
+        "Real-time business examples",
+        "Interview preparation",
+        "Resume building"
+      ]
+    },
+    {
+      "module": "SAP HANA Integration",
+      "subtopics": [
+        "HANA in-memory strategy",
+        "HANA Studio navigation",
+        "Architecture overview",
+        "Row/Column Store",
+        "Data modeling in HANA",
+        "Reporting in HANA",
+        "Data provisioning methods",
+        "SLT and BODS integration",
+        "ODP-based extraction"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "../CourseDetails/sap-bi-bw.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Data Warehouse Implementation",
+    "HANA-Optimized Cube Design",
+    "Enterprise Reporting Dashboard",
+    "Real-time Data Acquisition Scenario"
+  ]
+},
+{
+  "course_name": "SAP IBP Online Training",
+  "path": "sap-ibp",
+  "description": "Master SAP's cloud-based supply chain planning solution covering demand planning, inventory optimization, supply planning, and sales & operations planning (S&OP) with hands-on HANA-powered scenarios.",
+  "what_youll_learn": [
+    "SAP IBP architecture and solution strategy",
+    "Web UI and Excel-based planning interfaces",
+    "Master data and planning area configuration",
+    "Statistical forecasting techniques",
+    "Data integration and cloud security",
+    "Disaggregation methods",
+    "Supply review and alert management",
+    "Collaboration features and task management"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP Integrated Business Planning Overview",
+      "subtopics": [
+        "Outlining the SAP IBP Solution Strategy",
+        "Positioning among other Supply Chain areas",
+        "Architecture of SAP IBP powered by HANA",
+        "Out-of-the-Box Content"
+      ]
+    },
+    {
+      "module": "User Interface",
+      "subtopics": [
+        "Navigating the Web UI",
+        "Creating SAP Fiori Persona",
+        "Excel UI navigation",
+        "Modeling business processes"
+      ]
+    },
+    {
+      "module": "Configuration",
+      "subtopics": [
+        "Business modeling through configuration",
+        "Creating attributes and master data types",
+        "Time profile creation",
+        "Planning area and level setup",
+        "Key figure creation and calculations",
+        "Version management"
+      ]
+    },
+    {
+      "module": "Model Activation",
+      "subtopics": [
+        "Activating a Planning Area",
+        "Creating Reason Codes"
+      ]
+    },
+    {
+      "module": "Cloud Security",
+      "subtopics": [
+        "Cloud security overview"
+      ]
+    },
+    {
+      "module": "Data Integration",
+      "subtopics": [
+        "Data import options",
+        "Web UI data import"
+      ]
+    },
+    {
+      "module": "User Administration",
+      "subtopics": [
+        "User access creation",
+        "Visibility filters",
+        "User preferences"
+      ]
+    },
+    {
+      "module": "Microsoft Excel Planning",
+      "subtopics": [
+        "Excel template creation",
+        "Simulation execution",
+        "Planning view formatting"
+      ]
+    },
+    {
+      "module": "Analytics & Reporting",
+      "subtopics": [
+        "Dashboard chart creation",
+        "Drill-down configuration"
+      ]
+    },
+    {
+      "module": "Disaggregation",
+      "subtopics": [
+        "Disaggregation methods implementation"
+      ]
+    },
+    {
+      "module": "Active Object Management",
+      "subtopics": [
+        "Active object deletion"
+      ]
+    },
+    {
+      "module": "Supply Review",
+      "subtopics": [
+        "Supply configuration",
+        "Alert setup",
+        "Version data copying"
+      ]
+    },
+    {
+      "module": "Advanced Configuration",
+      "subtopics": [
+        "Helper key figure creation"
+      ]
+    },
+    {
+      "module": "Statistical Forecasting",
+      "subtopics": [
+        "Forecast model management",
+        "Global configuration options",
+        "SAP2 master data objects",
+        "SAP2 model analysis",
+        "Multi-periodicity key figures"
+      ]
+    },
+    {
+      "module": "Best Practices",
+      "subtopics": [
+        "Naming conventions",
+        "Change history configuration",
+        "Jam group creation",
+        "Task management"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "../CourseDetails/sap-ibp.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End S&OP Process Configuration",
+    "Demand Planning Simulation",
+    "Inventory Optimization Scenario",
+    "Integrated Business Planning Dashboard"
+  ]
+},
+{
+  "course_name": "SAP APO Online Training",
+  "path": "sap-apo",
+  "description": "Master SAP's supply chain planning suite covering Demand Planning, Supply Network Planning, Global ATP, and Production Scheduling. Learn to optimize end-to-end supply chain processes.",
+  "what_youll_learn": [
+    "Demand planning and forecasting techniques",
+    "Supply Network Planning (SNP) with CIF integration",
+    "Global Available-to-Promise (ATP) configuration",
+    "PP/DS (Production Planning and Detailed Scheduling)",
+    "Heuristics and optimization methods",
+    "CIF (Core Interface) architecture",
+    "Multi-level ATP and rule-based checking",
+    "Exception handling and alert management"
+  ],
+  "syllabus": [
+    {
+      "module": "Demand Planning",
+      "subtopics": [
+        "Introduction, APO Overview",
+        "Overview of Demand Planning Concept",
+        "Data mart, info-cubes & Demand Planning",
+        "Planning area and Planning Books",
+        "Macros & Notes",
+        "Interactive Planning",
+        "Statistical toolbox, Promotions and Life Cycle Planning",
+        "Mass Processing and Release of Plans",
+        "Exception Processing and Alert Generation"
+      ]
+    },
+    {
+      "module": "Supply Network Planning (CIF)",
+      "subtopics": [
+        "Overview of Supply Planning Concept",
+        "Supply Planning, Interactive Supply Planning, Integration with other SCM components",
+        "Planning Methods: Heuristics, Optimization & CTM",
+        "Deployment",
+        "Transport Load Builder",
+        "Releasing Supply Plans to DP, PPDS, ECC",
+        "CIF Core Interface: Introduction to Architecture of Integration",
+        "Master Data, Integration to R/3",
+        "Planning in ECC -- APO with Integration Model Generation",
+        "Initial & Change Transfers, Background Jobs",
+        "Monitoring & Handling CIF Errors",
+        "Comparison & Reconciliation"
+      ]
+    },
+    {
+      "module": "Global Available-to-Promise",
+      "subtopics": [
+        "Overview of Availability Management in ECC-APO",
+        "Principles and configuration of Availability Check",
+        "Check using Product Allocations",
+        "Advanced Methods",
+        "Rule based Check",
+        "Multi-Level ATP",
+        "Explanation & Simulation Feature",
+        "Global ATP/OPTP interface"
+      ]
+    },
+    {
+      "module": "Production Planning/Detailed Scheduling",
+      "subtopics": [
+        "Overview of PPDS, Prerequisites, Prod. Planning with ECC",
+        "Master Data & Transaction data Integration with ECC, SNP, DP, GATP",
+        "Demand Management, Requirements & Sales Orders in PPDS",
+        "Production Planning Strategies (Make-to-Order, Make-to-Stock)",
+        "Planning Heuristics",
+        "Capacity Requirements, Capacity Planning",
+        "Optimizer",
+        "Exception Processing, Alert Generation",
+        "Free Discussions, Questions",
+        "Consulting Practice Planning",
+        "Further Reference Sources",
+        "Conclusion"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-apo.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Demand Planning Simulation",
+    "Supply Network Optimization Scenario",
+    "Multi-Level ATP Configuration",
+    "PP/DS Scheduling Exercise"
+  ]
+},
+{
+  "course_name": "SAP SRM Training",
+  "path": "sap-srm",
+  "description": "Comprehensive training in SAP Supplier Relationship Management covering procurement processes, technical configurations, workflow automation, and supplier integration.",
+  "what_youll_learn": [
+    "Enterprise Buyer Professional (EBP) scenarios",
+    "SRM system architecture and technical settings",
+    "Organization structure setup",
+    "CRM middleware configuration",
+    "Self-service procurement workflows",
+    "Plan-driven procurement",
+    "Catalog content management",
+    "Sourcing and bidding processes"
+  ],
+  "syllabus": [
+    {
+      "module": "EBP - Enterprise Buyer Professional",
+      "subtopics": [
+        "About SRM",
+        "EBP Process",
+        "Overview on MM",
+        "Roles in Enterprise Buyer",
+        "EBP Scenarios - Different types",
+        "Roles in EBP Business Scenario",
+        "SRM System Architecture"
+      ]
+    },
+    {
+      "module": "Technical Basic Settings",
+      "subtopics": [
+        "RFC Destinations",
+        "ALE Distribution Model",
+        "Back End System Definition",
+        "Define Back End for Product Category",
+        "Set Control Parameters",
+        "Defining Logical and Assigning Logical systems to client in SAP R/3 and SRM",
+        "RFC Destinations in SAP R/3 and SRM",
+        "Cross Application Basic Settings"
+      ]
+    },
+    {
+      "module": "Organization Structure",
+      "subtopics": [
+        "Creation of Organization Structure in SAP R/3 and SRM",
+        "Attributes Creation for the Creation of Shopping Cart",
+        "Report Running for transferring all plants from the Backend System"
+      ]
+    },
+    {
+      "module": "Organization",
+      "subtopics": [
+        "User Generation in SRM",
+        "Generate User and Employee Data",
+        "Check User and Employee Data",
+        "Creation of Vendor Organization Structure",
+        "Transfer Vendor Master Records",
+        "Change and Updating in Vendor Master Records"
+      ]
+    },
+    {
+      "module": "CRM Middleware",
+      "subtopics": [
+        "Functional scope of the CRM Middleware in the Enterprise Buyer system",
+        "CRM Middleware Settings in SAP R/3 and SRM",
+        "Setting Filters in SRM for Material Group, Unit of Measure, Material type etc.",
+        "Replicate master data from the SAP back end system using the CRM Middleware",
+        "Maintain Categories and Hierarchies",
+        "Product Maintenance"
+      ]
+    },
+    {
+      "module": "Types of Procurement / Self Service Procurement",
+      "subtopics": [
+        "Shopping Cart",
+        "Purchase Requisition",
+        "Purchase Order",
+        "Goods Receipt",
+        "Invoice",
+        "Subsequent Credit, Subsequent Debit",
+        "Credit Memo",
+        "ERS"
+      ]
+    },
+    {
+      "module": "Work Flow",
+      "subtopics": [
+        "Customize Settings for Workflow",
+        "Maintain Standard Settings for SAP Business Workflow",
+        "Approval Options",
+        "Shopping Cart Approvals"
+      ]
+    },
+    {
+      "module": "Extended Classic Scenarios",
+      "subtopics": [
+        "Customize Settings for Extended Classic Scenario"
+      ]
+    },
+    {
+      "module": "Plan Driven Procurement",
+      "subtopics": [
+        "Overview",
+        "Business Flow in Plan Driven Procurement",
+        "Plan Driven Procurement with Plant Maintenance",
+        "Plan Driven Procurement with Supplier Integration",
+        "Overview on Supplier Self Service - SUS"
+      ]
+    },
+    {
+      "module": "Service Procurement",
+      "subtopics": [
+        "Overview on Service Procurement"
+      ]
+    },
+    {
+      "module": "Catalog Content Management - CCM",
+      "subtopics": [
+        "Introduction to CCM",
+        "Types of Catalogs",
+        "Customize Settings for CCM",
+        "Open Catalog Interface (OCI)",
+        "Open Partner Interface (OPI)"
+      ]
+    },
+    {
+      "module": "Sourcing",
+      "subtopics": [
+        "Sourcing and Bidding Engine Overview"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-srm.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Procurement Process Implementation",
+    "Supplier Portal Configuration",
+    "Catalog Content Management Setup",
+    "Sourcing Scenario Simulation"
+  ]
+},
+{
+  "course_name": "SAP FSCM (Retail) Training",
+  "path": "sap-fscm",
+  "description": "Comprehensive training in SAP Financial Supply Chain Management for retail, covering merchandise planning, pricing, procurement, and store operations with hands-on retail scenarios.",
+  "what_youll_learn": [
+    "Retail-specific FSCM processes",
+    "Master data management for retail",
+    "Assortment planning and listing",
+    "Retail pricing and promotions",
+    "Merchandise distribution strategies",
+    "Vendor and inventory management",
+    "Store operations and POS integration",
+    "EDI/IDOC for retail connectivity"
+  ],
+  "syllabus": [
+    {
+      "module": "Retail Fundamentals",
+      "subtopics": [
+        "IS-Retail overview",
+        "Purchasing & sales processes",
+        "Merchandise logistics",
+        "Retail organizational structure"
+      ]
+    },
+    {
+      "module": "Retail Master Data",
+      "subtopics": [
+        "Article master data setup",
+        "Merchandise category hierarchies",
+        "Single/generic/variant articles",
+        "Structure articles creation",
+        "Sales sets and displays"
+      ]
+    },
+    {
+      "module": "Site Management",
+      "subtopics": [
+        "Site profiles configuration",
+        "Reference sites creation",
+        "Storage location setup",
+        "Distribution centers management",
+        "Store operations setup"
+      ]
+    },
+    {
+      "module": "Procurement Processes",
+      "subtopics": [
+        "Vendor master creation",
+        "Purchase organization setup",
+        "Vendor Managed Inventory",
+        "Buyer Managed Inventory"
+      ]
+    },
+    {
+      "module": "Assortment Management",
+      "subtopics": [
+        "Assortment creation and types",
+        "Layout modules development",
+        "Listing conditions configuration",
+        "Product assignment strategies"
+      ]
+    },
+    {
+      "module": "Pricing & Promotions",
+      "subtopics": [
+        "Sales/purchase price calculations",
+        "Market basket pricing",
+        "Promotion campaign management",
+        "Bonus buys and coupon handling",
+        "PRICAT management"
+      ]
+    },
+    {
+      "module": "Distribution & Logistics",
+      "subtopics": [
+        "Warehouse management",
+        "Allocation planning tables",
+        "Cross-docking flows",
+        "Direct delivery processes",
+        "Invoice verification"
+      ]
+    },
+    {
+      "module": "Store Operations",
+      "subtopics": [
+        "ALE/EDI integration",
+        "IDOC processing",
+        "POS backend operations",
+        "Retail store connectivity"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-fscm-retail.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Retail Merchandising Scenario",
+    "Promotion Pricing Strategy Implementation",
+    "Cross-Docking Process Simulation",
+    "Retail Store Integration Project"
+  ]
+},
+{
+  "course_name": "SAP CRM Training",
+  "path": "sap-crm",
+  "description": "Comprehensive training in SAP Customer Relationship Management covering architecture, marketing, sales, service, and middleware integration. Gain hands-on experience with Web UI and Interaction Center.",
+  "what_youll_learn": [
+    "CRM architecture and organizational model",
+    "Web UI customization and business roles",
+    "Marketing campaign management",
+    "Sales opportunity and order processing",
+    "Service agreements and contract management",
+    "Interaction Center operations",
+    "Middleware administration and data synchronization",
+    "R/3 and CRM integration"
+  ],
+  "syllabus": [
+    {
+      "module": "Overview of CRM Architecture",
+      "subtopics": [
+        "Business Partner",
+        "Business categories",
+        "BP Roles & Grouping, BP Relationships",
+        "Business partner Hierarchy",
+        "Organizational Management",
+        "Organizational Model, Org Determination",
+        "Territory Management",
+        "Territory Hierarchy Levels",
+        "Product Master",
+        "Attributes & Set Type, Hierarchies & Categories",
+        "Product types, Maintain Products",
+        "Transactional Processing",
+        "Business Transactions",
+        "Item Category",
+        "Activity Management",
+        "Business Activities",
+        "Partner Processing",
+        "Partner Functions, Access Sequence, Determination Procedure",
+        "Actions",
+        "Action Profile, Conditions",
+        "Pricing",
+        "Condition Techniques and condition types",
+        "Billing",
+        "Billing Unit, Billing Type, Billing Document",
+        "Easy Enhancement Work Bench"
+      ]
+    },
+    {
+      "module": "CRM User Interface (Web UI)",
+      "subtopics": [
+        "UI concepts and UI vs SAP GUI",
+        "Business roles",
+        "Authorization roles",
+        "Navigation bar profile",
+        "Work center link group",
+        "Direct links and logical links",
+        "Enhancing the existing business roles",
+        "Linking business role to org model",
+        "Transaction launcher"
+      ]
+    },
+    {
+      "module": "Marketing",
+      "subtopics": [
+        "Marketing Planner & Campaign Management",
+        "Marketing Calendar",
+        "Personalized Mail Forms",
+        "Segment Builder",
+        "Customer Segmentation, Attribute List, Info sets",
+        "Product Proposals",
+        "Campaign Automation",
+        "External List Management",
+        "Lead Management",
+        "Lead Questionnaire"
+      ]
+    },
+    {
+      "module": "Sales",
+      "subtopics": [
+        "Opportunity Management",
+        "Copying Controls",
+        "Sales Cycle, Tools - Buying Center & Sales Agent",
+        "Quotation management",
+        "Order Management",
+        "Special functions in quotation and order management",
+        "Contract management",
+        "Rebate management"
+      ]
+    },
+    {
+      "module": "Service",
+      "subtopics": [
+        "Installed Base management",
+        "Installed Categories",
+        "IB Components",
+        "Objects, Object Family",
+        "Assign Object Family to IB Category",
+        "Service agreements and service contracts",
+        "Service plans, SLA Profiles and Response and Availability Times",
+        "Service order management",
+        "Complaints and Returns",
+        "Warranty claims"
+      ]
+    },
+    {
+      "module": "Interaction Center (Web Client)",
+      "subtopics": [
+        "Agent Function and Processing IC",
+        "Agent Inbox",
+        "IC Web Client Profile",
+        "IC Web Client Functions",
+        "IC Manager Portal",
+        "Communication Architecture",
+        "Rule Policies like ERMS and IDI (Intent Driven Interaction)",
+        "Launch Script",
+        "Broadcast message",
+        "Alerts"
+      ]
+    },
+    {
+      "module": "Middleware",
+      "subtopics": [
+        "Middleware overview",
+        "Administration Console",
+        "Business Objects",
+        "Customizing Objects",
+        "Condition Objects",
+        "BDoc Modeler, BDoc Messages",
+        "Replication & Realignment",
+        "BDoc Types",
+        "Initial data load, Delta load & Synchronization",
+        "Queue registration",
+        "Error Handling and Monitoring",
+        "Integration between R/3 & CRM"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-crm.png",
+  "placement_assurance": true,
+  "projects": [
+    "CRM Web UI Customization Project",
+    "End-to-End Campaign Management Simulation",
+    "Service Contract Implementation",
+    "Middleware Integration Scenario"
+  ]
+},
+         {
+  "course_name": "SAP Quality Management (QM)",
+  "path": "sap-quality-management-(qm)",
+   "meta_title": "SAP Quality Management Course Online | SAP QM Training | SAP QM Certificate",
+  "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
+    "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
+
+  
+  "what_youll_learn": [
+    "Configure SAP QM enterprise structure",
+    "Master QM-specific master data management",
+    "Implement quality processes in procurement",
+    "Set up inspection plans and characteristics",
+    "Perform incoming and production inspections",
+    "Work with quality certificates and vendor evaluation",
+    "Execute source inspections",
+    "Generate QM reports and analyses",
+    "Understand QM tables and ABAP integration",
+    "Manage quality notifications"
+  ],
+  "syllabus": [
+    {
+      "module": "Enterprise Structure",
+      "subtopics": [
+        "Company Code",
+        "Controlling Area Plant",
+        "Plant",
+        "Storage Location",
+        "Purchasing Organization",
+        "Assignment"
+      ]
+    },
+    {
+      "module": "Master Data and QM Planning",
+      "subtopics": [
+        "QM Data in the Material Master",
+        "QM Info Records",
+        "Quantitative QM-Specific Master Data",
+        "Qualitative QM-Specific Master Data",
+        "Inspection Plans",
+        "Structure of the Inspection Plan",
+        "Qualitative Inspection Characteristics",
+        "Quantitative Inspection Characteristics"
+      ]
+    },
+    {
+      "module": "Introducing QM in Procurement",
+      "subtopics": [
+        "Vendor Evaluation",
+        "Vendor block",
+        "Vendor Release for requests for quotation and purchase orders",
+        "Assigning technical delivery terms and quality assurance agreements",
+        "Certificate processing",
+        "Status administration of the supply relationships",
+        "Incoming inspections",
+        "Goods receipt inspections"
+      ]
+    },
+    {
+      "module": "Analysis",
+      "subtopics": [
+        "The QMIS: Standard Analyses for Inspection Lots",
+        "Standard Analyses of Quality Notifications",
+        "Vendor Evaluations: Determining the Quality Score",
+        "Determining On-Time Delivery Performance"
+      ]
+    },
+    {
+      "module": "QM Inventory Posting",
+      "subtopics": [
+        "Settings Required for a Material Inspection",
+        "Reverse Goods Receipt Postings or GRN",
+        "QA: Make/Buy Material - Inspection Problem",
+        "Quality Certificate",
+        "QM Inspection method printing",
+        "QM Insp. Type for SD Delv. in Returned Gds",
+        "Inspection Lot in Inventory Movement"
+      ]
+    },
+    {
+      "module": "Source Inspection",
+      "subtopics": [
+        "Source Inspection in QM",
+        "Procedure For Source Inspection",
+        "Activities to be Carried Out in Quality Inspection",
+        "Inspection For Delivery To Customer"
+      ]
+    },
+    {
+      "module": "QM in Production",
+      "subtopics": [
+        "Introducing QM in Production",
+        "Maintaining the Material Master Data",
+        "QM view in material master"
+      ]
+    },
+    {
+      "module": "Reports",
+      "subtopics": [
+        "Standard QM Reports",
+        "Stock Based Reports"
+      ]
+    },
+    {
+      "module": "ABAP Work and QM tables",
+      "subtopics": [
+        "General Understanding of Reports/ABAP work",
+        "QM Tables"
+      ]
+    }
+  ],
+
+  "duration": "45 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/sap-qm.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Implementing QM for manufacturing process",
+    "Designing vendor evaluation system",
+    "Building inspection plans for automotive parts"
+  ]
+},
+{
+  "course_name": "SAP Ariba Training",
+  "path": "sap-ariba-training",
+   "meta_title": "SAP Ariba Course Online | SAP Ariba Training | SAP Ariba Certificate",
+  "meta_description": "Get SAP Ariba training online. Learn sourcing & procurement with certification. Start your expert journey – enroll now!",
+  "description": "Comprehensive training in SAP Ariba covering procurement, sourcing, contracts, supplier management, and network integration for end-to-end supply chain collaboration.",
+  
+  "what_youll_learn": [
+    "Understand SAP Ariba cloud procurement solutions",
+    "Configure Ariba-SAP integration (CIG and Cloud Connector)",
+    "Manage end-to-end contract lifecycle in Ariba Contracts",
+    "Execute strategic sourcing projects and auctions",
+    "Implement supplier lifecycle management processes",
+    "Enable suppliers on Ariba Network",
+    "Process requisitions, POs, and invoices in Ariba Procurement",
+    "Administer catalogs and content management",
+    "Troubleshoot integration scenarios",
+    "Generate reports and analyze procurement data"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP Ariba – Overview",
+      "subtopics": [
+        "What is SAP Ariba",
+        "Overview",
+        "Usage in industry"
+      ]
+    },
+    {
+      "module": "SAP Ariba Buy Side Integration",
+      "subtopics": [
+        "Overview and Getting Started on SAP Ariba Cloud Integration Gateway",
+        "Configuration of Cloud Connector and Add-on/SPRO",
+        "Ariba Network Integration – IDOC and Proxy Flows",
+        "Master Data Overview",
+        "SAP Ariba Procurement Integration Configuration",
+        "SAP Ariba Strategic Sourcing Integration Configuration",
+        "SAP Ariba Strategic Sourcing Transaction Integration",
+        "SAP Ariba Procurement Transaction Integration",
+        "Customization",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "module": "SAP Ariba Contracts",
+      "subtopics": [
+        "Preparing a Workspace",
+        "Author the Main Agreement",
+        "Review & Negotiate Contract Documents",
+        "Approve & Finalize Contract Workspace",
+        "Amend & Manage Contract Workspace",
+        "Contract Requests",
+        "Run Prepackaged Reports",
+        "Clause Library Overview",
+        "Managing the Clause Library",
+        "Best Practices",
+        "Release Order Contracts",
+        "No-release Order Contracts",
+        "Managing Contracts",
+        "Contract Workspaces",
+        "Creating Compliance Contract Requests",
+        "Releases Against Contracts",
+        "Contract Accumulators",
+        "Introduction to Contract Workspaces"
+      ]
+    },
+    {
+      "module": "SAP Ariba Integration",
+      "subtopics": [
+        "Application landscape",
+        "Integration basics",
+        "Suite Integration",
+        "Strategic Sourcing Integrations",
+        "Procurement Integrations",
+        "Buyer Network Integrations",
+        "Supplier Network Integrations",
+        "Catalog Enablement"
+      ]
+    },
+    {
+      "module": "SAP Ariba Procurement",
+      "subtopics": [
+        "The Dashboard",
+        "Catalogs",
+        "Requisitions",
+        "Accounting",
+        "Approval",
+        "Managing POs",
+        "Receiving",
+        "SAP Ariba Mobile",
+        "Searching and Reporting",
+        "Collaboration",
+        "Demand Aggregation",
+        "Introduction to Ariba Procurement",
+        "Application Orientation",
+        "Using Catalogs",
+        "Creating and Managing Requisitions",
+        "The Approval Process",
+        "Invoice Approval",
+        "Invoice Reconciliation",
+        "OK2Pay and Remittance",
+        "Invoice Conversion Service"
+      ]
+    },
+    {
+      "module": "SAP Ariba Supplier Management",
+      "subtopics": [
+        "Application Orientation",
+        "Create and Edit an SPM Project",
+        "Manage an SPM Project Planning Phase",
+        "Manage an SPM Project Monitoring Phase",
+        "Managing Scorecards",
+        "Managing Surveys",
+        "SPM Reports",
+        "Supplier Management Personas and User Groups",
+        "Managing Supplier Requests",
+        "Managing Supplier Registrations",
+        "Managing Supplier Qualifications",
+        "Managing Preferred Suppliers",
+        "Managing Supplier Disqualifications",
+        "Managing Supplier Contacts",
+        "SAP Ariba Supplier Lifecycle and Performance Templates"
+      ]
+    },
+    {
+      "module": "SAP Ariba Sourcing",
+      "subtopics": [
+        "Application Orientation",
+        "Building your Sourcing Event: Rules, Team, Suppliers",
+        "Building your Sourcing Event: Content, Summary",
+        "Running your Sourcing Event",
+        "Manually Awarding an Event",
+        "Auction Types",
+        "Creating an Auction",
+        "Monitoring an Auction",
+        "Best Practices",
+        "Introduction to Auctions"
+      ]
+    },
+    {
+      "module": "Supplier Enablement: Buy Side in SAP Ariba",
+      "subtopics": [
+        "Catalog Overview & Strategy",
+        "Catalog Types & Configurables",
+        "Template Creation",
+        "Training for Suppliers",
+        "Catalog Administration",
+        "Using Catalogs",
+        "Loading Catalogs",
+        "Validation and Errors",
+        "Catalog Hierarchy",
+        "Catalog Views",
+        "Content Management System",
+        "BMEcat and CIF Fields",
+        "Dynamic Filtering of Catalogs",
+        "Contract Compliance"
+      ]
+    },
+    {
+      "module": "Ariba Network: Planning and Executing Supplier Enablement for Suppliers",
+      "subtopics": [
+        "Overview of SAP Ariba Procurement Solutions",
+        "Supplier Enablement Concepts",
+        "Ariba Network Functionality",
+        "Seller Summit",
+        "Supplier Education Channels"
+      ]
+    }
+  ],
+
+  "duration": "50 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/sap-ariba.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Implementing Ariba Procurement for an enterprise",
+    "Designing supplier enablement strategy",
+    "Configuring Ariba-SAP integration",
+    "Running mock sourcing events"
+  ]
+},
+{
+  "course_name": "SAP Master Data Governance (MDG) on S/4HANA",
+  "path": "sap-master-data-governance-(mdg)-on-s-4hana",
+   "meta_title": "SAP Master data governance Course Online | SAP MDG Training | SAP MDG Certificate",
+  "meta_description": "Learn SAP MDG on S/4HANA online. Get certified & become a governance expert. Enroll now for training with real-world use cases!",
+  "description": "Comprehensive training in SAP MDG covering master data domains, data modeling, governance workflows, and integration with S/4HANA for enterprise data management.",
+  
+  "what_youll_learn": [
+    "Understand MDG architecture in S/4HANA environment",
+    "Configure master data domains (BP, Material, Financial)",
+    "Design data models using Flex/Reuse modes",
+    "Implement governance workflows with BRF+",
+    "Configure UI using FPM and Fiori apps",
+    "Perform data quality checks and validations",
+    "Set up consolidation and mass processing",
+    "Integrate MDG with SAP/non-SAP systems",
+    "Develop custom governance objects",
+    "Implement role-based security and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP MDG",
+      "subtopics": [
+        "Overview of SAP MDG",
+        "MDG integration with SAP S/4HANA",
+        "Key capabilities (Central Governance, Consolidation, Mass Processing)",
+        "Benefits of Master Data Governance",
+        "Architecture of SAP MDG on S/4HANA"
+      ]
+    },
+    {
+      "module": "Master Data Domains in MDG",
+      "subtopics": [
+        "Business Partner (Customer & Vendor)",
+        "Material Master",
+        "Financial Master Data (Cost center, GL, etc.)",
+        "Custom Object Governance"
+      ]
+    },
+    {
+      "module": "Data Modeling",
+      "subtopics": [
+        "Data Model basics",
+        "Reuse and Flex mode",
+        "Entity types, Attributes, Relationships",
+        "Creating and extending data models",
+        "Change request management"
+      ]
+    },
+    {
+      "module": "UI Modeling",
+      "subtopics": [
+        "Floorplan Manager (FPM) Overview",
+        "Customizing UI using FPM",
+        "Configuring user interfaces for master data",
+        "Web Dynpro applications in MDG"
+      ]
+    },
+    {
+      "module": "Process Modeling",
+      "subtopics": [
+        "Change Request Process and Types",
+        "Defining workflows for governance",
+        "Rule-based workflows",
+        "Business Rules Framework Plus (BRF+)"
+      ]
+    },
+    {
+      "module": "Data Quality and Validation",
+      "subtopics": [
+        "Duplicate checks (Search & Match)",
+        "Data validation rules",
+        "Use of BRF+ for validations",
+        "Integration with SAP Data Services for cleansing"
+      ]
+    },
+    {
+      "module": "Consolidation and Mass Processing",
+      "subtopics": [
+        "Overview of Consolidation",
+        "Staging, Matching, Best Record Calculation",
+        "Key mapping",
+        "Mass processing of master data"
+      ]
+    },
+    {
+      "module": "Integration with Other Systems",
+      "subtopics": [
+        "ALE/IDoc integration",
+        "Web services and SOA",
+        "Integration with SAP and non-SAP systems",
+        "MDG Data Replication Framework (DRF)"
+      ]
+    },
+    {
+      "module": "MDG Custom Object Development",
+      "subtopics": [
+        "Steps to create a custom object",
+        "UI, Data Model & Workflow configuration",
+        "BRF+ in custom objects"
+      ]
+    },
+    {
+      "module": "Security and Authorization",
+      "subtopics": [
+        "Authorization objects in MDG",
+        "Role-based access control",
+        "Workflow-based authorization"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "MDG data quality reports",
+        "Standard SAP Fiori reports for MDG",
+        "Custom reporting using CDS Views"
+      ]
+    },
+    {
+      "module": "Fiori and SAP MDG",
+      "subtopics": [
+        "Overview of Fiori apps for MDG",
+        "Launchpad configuration",
+        "Fiori vs WebDynpro UI in MDG"
+      ]
+    },
+    {
+      "module": "Real-Time Scenarios & Projects",
+      "subtopics": [
+        "Live projects: BP, Material, Custom Object governance",
+        "Case study walkthrough",
+        "Performance tuning best practices"
+      ]
+    }
+  ],
+
+  "duration": "55 hours",
+  "skill_level": "Advanced",
+  "image": "https://example.com/sap-mdg.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Implementing Material Master governance",
+    "Designing Business Partner workflow",
+    "Building custom data objects",
+    "Configuring consolidation processes"
+  ]
+},
+{
+  "course_name": "Adobe Photoshop Certification",
+  "path": "photoshop-certification",
+  "description": "Comprehensive training in Adobe Photoshop covering photo editing, retouching, compositing, graphic design, and digital imaging techniques for professional certification.",
+  
+  "what_youll_learn": [
+    "Master Photoshop interface and essential tools",
+    "Perform professional photo retouching and color correction",
+    "Create precise selections and complex masks",
+    "Design typographic compositions and text effects",
+    "Composite multiple images seamlessly",
+    "Apply advanced filters and non-destructive effects",
+    "Create print and digital marketing materials",
+    "Automate workflows with Actions and Batch Processing",
+    "Design web and mobile UI elements",
+    "Prepare for Adobe Certified Professional exam"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Photoshop",
+      "subtopics": [
+        "Overview of Photoshop interface and tools",
+        "Understanding different file formats and color modes",
+        "Navigating and customizing the workspace",
+        "Introduction to layers and layer masks"
+      ]
+    },
+    {
+      "module": "Basic Image Editing Techniques",
+      "subtopics": [
+        "Cropping and resizing images",
+        "Adjusting brightness, contrast, and levels",
+        "Understanding and using adjustment layers",
+        "Removing blemishes with healing tools"
+      ]
+    },
+    {
+      "module": "Selection and Masking",
+      "subtopics": [
+        "Different selection tools and techniques",
+        "Refining selections using Quick Mask and Refine Edge",
+        "Creating and working with layer masks",
+        "Combining multiple images using masks"
+      ]
+    },
+    {
+      "module": "Working with Text and Typography",
+      "subtopics": [
+        "Adding and formatting text layers",
+        "Applying text effects and styles",
+        "Creating and editing paragraph text",
+        "Designing typographic posters"
+      ]
+    },
+    {
+      "module": "Advanced Retouching Techniques",
+      "subtopics": [
+        "Using Clone Stamp and Healing Brush professionally",
+        "Removing distractions and imperfections",
+        "Skin retouching and portrait enhancement",
+        "Creating digital makeup effects"
+      ]
+    },
+    {
+      "module": "Photo Manipulation and Compositing",
+      "subtopics": [
+        "Blending multiple images seamlessly",
+        "Creating surreal fantasy landscapes",
+        "Adding/editing elements in composites",
+        "Advanced photo manipulation techniques"
+      ]
+    },
+    {
+      "module": "Working with Filters and Effects",
+      "subtopics": [
+        "Applying artistic filters and effects",
+        "Creating custom filter effects",
+        "Using smart filters non-destructively",
+        "Exploring Filter Gallery and masking"
+      ]
+    },
+    {
+      "module": "Graphic Design and Layout",
+      "subtopics": [
+        "Design principles and composition",
+        "Creating posters and social media graphics",
+        "Using shapes, paths and vector tools",
+        "Working with gradients and patterns"
+      ]
+    },
+    {
+      "module": "Advanced Tools and Techniques",
+      "subtopics": [
+        "Precise selections with Pen tool",
+        "Working with Brush tool and custom brushes",
+        "Advanced blending modes",
+        "Creating/editing 3D objects and text"
+      ]
+    },
+    {
+      "module": "Automation and Batch Processing",
+      "subtopics": [
+        "Automating tasks using Actions",
+        "Creating and using batch processes",
+        "Generating assets for web/print",
+        "File management with Adobe Bridge"
+      ]
+    },
+    {
+      "module": "Web and UI Design",
+      "subtopics": [
+        "Designing website layouts and wireframes",
+        "Creating interactive elements and buttons",
+        "Optimizing images for digital devices",
+        "Exporting assets for development"
+      ]
+    }
+  ],
+
+  "duration": "40 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/photoshop-certification.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Professional photo retouching portfolio",
+    "Fantasy composite artwork",
+    "Marketing campaign graphics",
+    "Website UI mockups",
+    "Typography poster design"
+  ]
+},
+{
+  "course_name": "SAP BASIS Administration",
+  "path": "sap-basis-administration",
+   "meta_title": "SAP Basis Course Online | SAP Basis Training | SAP Basis Certificate",
+  "meta_description": "Master SAP Basis administration online. Get certification & hands-on training. Start your consultant journey – enroll today!",
+  "description": "Comprehensive training in SAP BASIS administration covering system installation, configuration, user management, transport system, database administration, and performance monitoring.",
+  
+  "what_youll_learn": [
+    "Understand SAP architecture and components",
+    "Install and configure SAP systems",
+    "Manage users and authorization concepts",
+    "Administer client copies and system refreshes",
+    "Work with transport management system",
+    "Apply support packages and kernel upgrades",
+    "Monitor and tune system performance",
+    "Administer Oracle database for SAP",
+    "Configure printing and spool systems",
+    "Troubleshoot common BASIS issues"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP",
+      "subtopics": [
+        "ERP concepts and SAP evolution",
+        "SAP product portfolio",
+        "SAP support services (OSS)",
+        "BASIS administration overview"
+      ]
+    },
+    {
+      "module": "Technical Fundamentals",
+      "subtopics": [
+        "Operating systems overview",
+        "Database systems fundamentals",
+        "Networking concepts for SAP",
+        "Kernel software basics"
+      ]
+    },
+    {
+      "module": "SAP Architecture",
+      "subtopics": [
+        "R/3 client-server architecture",
+        "Three-tier architecture",
+        "Instance types and components",
+        "Central system vs distributed systems"
+      ]
+    },
+    {
+      "module": "Landscape Design",
+      "subtopics": [
+        "Development, quality, production landscape",
+        "System copy strategies",
+        "Lifecycle management",
+        "High availability considerations"
+      ]
+    },
+    {
+      "module": "System Installation",
+      "subtopics": [
+        "Installation prerequisites",
+        "File system planning",
+        "Database installation",
+        "Central instance setup",
+        "Post-installation activities"
+      ]
+    },
+    {
+      "module": "System Administration",
+      "subtopics": [
+        "Start/stop procedures",
+        "Directory structures",
+        "License management",
+        "Environment configuration",
+        "Basic monitoring"
+      ]
+    },
+    {
+      "module": "User Management",
+      "subtopics": [
+        "User master records",
+        "Role-based authorization",
+        "Profile generator",
+        "Mass user administration",
+        "Central user administration"
+      ]
+    },
+    {
+      "module": "Performance Management",
+      "subtopics": [
+        "System profiles and parameters",
+        "Operation modes",
+        "Work process management",
+        "Memory configuration",
+        "Workload monitoring"
+      ]
+    },
+    {
+      "module": "Client Administration",
+      "subtopics": [
+        "Client concepts",
+        "Client copy methods",
+        "Client export/import",
+        "Client refresh",
+        "RFC connections"
+      ]
+    },
+    {
+      "module": "Transport System",
+      "subtopics": [
+        "Change and Transport Organizer",
+        "Transport routes",
+        "Transport management system",
+        "tp and R3trans utilities",
+        "Troubleshooting transports"
+      ]
+    },
+    {
+      "module": "Patch Management",
+      "subtopics": [
+        "Support package stacks",
+        "Kernel upgrades",
+        "Add-on installations",
+        "Dependency resolution",
+        "Patch rollback strategies"
+      ]
+    },
+    {
+      "module": "Oracle Database Administration",
+      "subtopics": [
+        "Oracle architecture for SAP",
+        "SAPDBA and BR*Tools",
+        "Tablespace management",
+        "Database reorganization",
+        "Backup and recovery"
+      ]
+    },
+    {
+      "module": "Printing System",
+      "subtopics": [
+        "Spool architecture",
+        "Printer configuration",
+        "Spool administration",
+        "Temse database",
+        "Print troubleshooting"
+      ]
+    },
+    {
+      "module": "Monitoring Utilities",
+      "subtopics": [
+        "System logs analysis",
+        "Work process monitoring",
+        "Update and lock management",
+        "ABAP dump analysis",
+        "System traces"
+      ]
+    }
+  ],
+
+  "duration": "60 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/sap-basis.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "SAP system installation and configuration",
+    "Landscape design for enterprise deployment",
+    "User authorization and role management",
+    "Transport management system implementation",
+    "Oracle database administration for SAP"
+  ]
+},
+{
+  "course_name": "SAP Sales Cloud (C4C) Training",
+  "path": "sap-sales-cloud-(c4c)-training",
+   "meta_title": "SAP Sales Cloud Course Online | SAP Sales Cloud Training | SAP Sales Cloud Certificate",
+  "meta_description": "Learn SAP Sales Cloud (C4C) online with certification. Become a CRM expert with flexible training. Enroll now!",
+  "description": "Comprehensive training in SAP Sales Cloud (part of SAP CX suite) covering lead-to-cash processes, CRM configuration, and integration with S/4HANA for modern sales teams.",
+    
+  "what_youll_learn": [
+    "Navigate SAP Sales Cloud interface and personalize dashboards",
+    "Manage master data (accounts, contacts, products)",
+    "Execute lead-to-opportunity conversion processes",
+    "Configure field sales visit planning and execution",
+    "Implement sales forecasting and pipeline management",
+    "Set up CPQ (Configure-Price-Quote) workflows",
+    "Create custom reports and analytics dashboards",
+    "Configure system settings and business rules",
+    "Manage security roles and GDPR compliance",
+    "Integrate with S/4HANA and Marketing Cloud"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP & Cloud CRM",
+      "subtopics": [
+        "SAP ecosystem overview",
+        "CRM evolution and business value",
+        "SAP ECC vs S/4HANA vs SAP CX",
+        "Sales Cloud positioning in C/4HANA suite"
+      ]
+    },
+    {
+      "module": "System Access & UI",
+      "subtopics": [
+        "Tenant access and navigation",
+        "Work center personalization",
+        "Dashboard customization",
+        "Mobile app capabilities"
+      ]
+    },
+    {
+      "module": "Master Data Management",
+      "subtopics": [
+        "Account hierarchy management",
+        "Contact relationship mapping",
+        "Product catalog structures",
+        "Price list configuration"
+      ]
+    },
+    {
+      "module": "Lead & Opportunity Mgmt",
+      "subtopics": [
+        "Lead scoring models",
+        "Opportunity stage methodology",
+        "Pipeline velocity tracking",
+        "Conversion best practices"
+      ]
+    },
+    {
+      "module": "Activity Management",
+      "subtopics": [
+        "Activity templates",
+        "Calendar synchronization",
+        "Email logging",
+        "Activity analytics"
+      ]
+    },
+    {
+      "module": "Field Sales Execution",
+      "subtopics": [
+        "Territory planning",
+        "Route optimization",
+        "Offline capabilities",
+        "Expense integration"
+      ]
+    },
+    {
+      "module": "Forecasting & Analytics",
+      "subtopics": [
+        "Forecast hierarchy setup",
+        "Quota assignment",
+        "Pipeline health indicators",
+        "Sandbox forecasting"
+      ]
+    },
+    {
+      "module": "Pricing & Quoting",
+      "subtopics": [
+        "Real-time pricing calls",
+        "Discount matrix configuration",
+        "Quote template design",
+        "Approval workflows"
+      ]
+    },
+    {
+      "module": "CPQ Configuration",
+      "subtopics": [
+        "Product configuration rules",
+        "Bundle management",
+        "Visual configuration",
+        "Proposal generation"
+      ]
+    },
+    {
+      "module": "Reporting & Dashboards",
+      "subtopics": [
+        "KPI tile configuration",
+        "Funnel analysis",
+        "Ad-hoc reporting",
+        "Embedded analytics"
+      ]
+    },
+    {
+      "module": "System Configuration",
+      "subtopics": [
+        "Business configuration UI",
+        "Custom fields and objects",
+        "Validation rules",
+        "Process flow automation"
+      ]
+    },
+    {
+      "module": "Security & Compliance",
+      "subtopics": [
+        "Role-based access control",
+        "Data masking policies",
+        "Audit logging",
+        "Data retention settings"
+      ]
+    },
+    {
+      "module": "Integration Scenarios",
+      "subtopics": [
+        "S/4HANA order sync",
+        "Marketing Cloud handoffs",
+        "CPI integration patterns",
+        "Outlook/Teams integration"
+      ]
+    },
+    {
+      "module": "Certification Prep",
+      "subtopics": [
+        "C4H410 exam blueprint",
+        "Practice test analysis",
+        "Case study approach",
+        "Career path guidance"
+      ]
+    }
+  ],
+
+  "duration": "50 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/sap-sales-cloud.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-end lead-to-order implementation",
+    "Sales dashboard customization",
+    "CPQ configuration project",
+    "S/4HANA integration scenario",
+    "Mobile sales enablement setup"
+  ]
+},
+
+{
+  "course_name": "SAP IS Insurance Training",
+  "path": "sap-is-insurance",
+  "description": "Comprehensive training in SAP Insurance Solutions covering collections, disbursements, claims management, and commission processing for insurance providers.",
+  "what_youll_learn": [
+    "Insurance master data management",
+    "Collections and disbursements processing",
+    "Claims lifecycle management",
+    "Policy snapshot and coverage validation",
+    "Compensation calculation and payment processing",
+    "Recovery and subrogation processes",
+    "Incentive and commission management"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP for Insurance",
+      "subtopics": [
+        "SAP for Insurance overview",
+        "Collections and disbursements introduction"
+      ]
+    },
+    {
+      "module": "Master Data Management",
+      "subtopics": [
+        "Business partners",
+        "Contract accounts",
+        "Insurance objects",
+        "Postings and transaction data"
+      ]
+    },
+    {
+      "module": "Processing Deposits",
+      "subtopics": [
+        "Payment lots and clearing",
+        "Dunning notices",
+        "Installment plans",
+        "Interest calculation"
+      ]
+    },
+    {
+      "module": "Collections/Disbursement by Third Party",
+      "subtopics": [
+        "Broker collection",
+        "Data transfer processes"
+      ]
+    },
+    {
+      "module": "SAP Collections and Disbursements",
+      "subtopics": [
+        "Customizing content",
+        "Master data interfaces",
+        "Account balance management",
+        "Payment processing"
+      ]
+    },
+    {
+      "module": "Claims Management",
+      "subtopics": [
+        "Claim notification process",
+        "Coverage validation",
+        "Task assignment",
+        "Reserves management",
+        "Claim fulfillment"
+      ]
+    },
+    {
+      "module": "Incentive & Commission Management",
+      "subtopics": [
+        "Value-oriented commissions",
+        "Remuneration scheduling",
+        "Data transfer to invoicing"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-is-insurance.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Claims Processing Implementation",
+    "Insurance Collections System Configuration",
+    "Commission Calculation Setup",
+    "Policy Management Simulation"
+  ]
+},
+{
+  "course_name": "SAP PLM Training",
+  "path": "sap-plm",
+  "meta_title": "SAP PLM Course Online | SAP PLM Online Training | SAP PLM Certificate",
+  "meta_description": "Boost your career with SAP PLM training and certification. Learn to manage product lifecycles effectively. Enroll today!",
+  "description": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance for manufacturing industries.",
+  "what_youll_learn": [
+    "Product data management",
+    "Engineering change management",
+    "Bill of Materials (BOM) configuration",
+    "Product compliance and sustainability",
+    "Quality management integration",
+    "Recipe development",
+    "PLM analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP PLM",
+      "subtopics": [
+        "PLM concepts",
+        "Integration with other SAP modules",
+        "Digital transformation role"
+      ]
+    },
+    {
+      "module": "Master Data Management",
+      "subtopics": [
+        "Material master",
+        "Document Management System",
+        "Product structures"
+      ]
+    },
+    {
+      "module": "Engineering Change Management",
+      "subtopics": [
+        "Change requests",
+        "Change orders",
+        "Impact analysis"
+      ]
+    },
+    {
+      "module": "Bill of Materials Management",
+      "subtopics": [
+        "Variant configuration",
+        "Multi-level BOM",
+        "Production integration"
+      ]
+    },
+    {
+      "module": "Product Compliance",
+      "subtopics": [
+        "Regulatory requirements",
+        "Sustainability management",
+        "Material substitutes"
+      ]
+    },
+    {
+      "module": "Quality Management",
+      "subtopics": [
+        "Quality plans",
+        "Corrective actions",
+        "Quality analytics"
+      ]
+    },
+    {
+      "module": "PLM in Manufacturing",
+      "subtopics": [
+        "Manufacturing BOMs",
+        "Shop floor integration",
+        "Production planning"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-plm.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End Product Development Process",
+    "Engineering Change Implementation",
+    "Compliance Reporting Setup",
+    "Manufacturing BOM Configuration"
+  ]
+},
+{
+  "course_name": "SAP LE Certification Training",
+  "path": "sap-le",
+  "meta_title": "SAP LE Certification Course Online | SAP LE Certification Online Training | SAP LE Certification Certificate",
+  "meta_description": "Learn SAP LE with hands-on training and certification. Streamline logistics and elevate your SAP skills. Start now!",
+  "description": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations.",
+  "what_youll_learn": [
+    "Legal entity management",
+    "Compliance and data security",
+    "Workflow optimization",
+    "System integration",
+    "Legal reporting",
+    "Project management",
+    "Emerging trends"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP LE Tools",
+      "subtopics": [
+        "Tools overview",
+        "Best practices"
+      ]
+    },
+    {
+      "module": "Core Concepts",
+      "subtopics": [
+        "Data security",
+        "Operational commands"
+      ]
+    },
+    {
+      "module": "Advanced Features",
+      "subtopics": [
+        "Customization",
+        "Legal task organization"
+      ]
+    },
+    {
+      "module": "Business Monitoring",
+      "subtopics": [
+        "Process monitoring",
+        "Workflow optimization"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "Enterprise system integration",
+        "Automation techniques"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Legal analytics",
+        "Documentation standards"
+      ]
+    },
+    {
+      "module": "Project Management",
+      "subtopics": [
+        "Workflow management",
+        "Version control"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-le.png",
+  "placement_assurance": false,
+  "projects": [
+    "Legal Entity Compliance Setup",
+    "Monitoring Dashboard Configuration",
+    "Integration with ERP Systems",
+    "Legal Reporting Implementation"
+  ]
+},
+{
+  "course_name": "SAP Healthcare Training",
+  "path": "sap-healthcare",
+    "meta_title": "SAP Healthcare Course Online | SAP Healthcare Online Training | SAP Healthcare Certificate",
+  "meta_description": "Enroll in SAP Healthcare training and certification. Advance your career in healthcare IT with expert instruction.",
+  "description": "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing for healthcare providers.",
+  "what_youll_learn": [
+    "Patient master data management",
+    "Clinical workplace configuration",
+    "Medical documentation",
+    "Service entry and pricing",
+    "Insurance relationship management",
+    "Appointment scheduling",
+    "Patient administration"
+  ],
+  "syllabus": [
+    {
+      "module": "Process Overview",
+      "subtopics": [
+        "Healthcare processes",
+        "System architecture"
+      ]
+    },
+    {
+      "module": "Patient Management",
+      "subtopics": [
+        "Master data",
+        "Patient movements"
+      ]
+    },
+    {
+      "module": "Clinical Processes",
+      "subtopics": [
+        "Clinical workplace",
+        "Process builder"
+      ]
+    },
+    {
+      "module": "Medical Documentation",
+      "subtopics": [
+        "Documentation standards",
+        "AC documentation"
+      ]
+    },
+    {
+      "module": "Service Management",
+      "subtopics": [
+        "Service master",
+        "Service entry"
+      ]
+    },
+    {
+      "module": "Insurance Management",
+      "subtopics": [
+        "Provider relationships",
+        "Coverage validation"
+      ]
+    },
+    {
+      "module": "Invoicing",
+      "subtopics": [
+        "Pricing settings",
+        "Payment distribution"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-healthcare.png",
+  "placement_assurance": true,
+  "projects": [
+    "Patient Management System Setup",
+    "Clinical Process Configuration",
+    "Medical Billing Implementation",
+    "Appointment Scheduling System"
+  ]
+},
+{
+  "course_name": "SAP IS Banking Training",
+  "path": "sap-is-banking",
+   "meta_title": "SAP IS Banking Course Online | SAP IS Banking Online Training | SAP IS Banking Certificate",
+  "meta_description": "Join SAP IS Banking training and get certified. Learn core banking functions with SAP solutions. Enroll today!",
+  "description": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, financial conditions and product configuration for financial institutions.",
+  "what_youll_learn": [
+    "Loans management",
+    "Payment exception handling",
+    "Financial condition types",
+    "Product configuration",
+    "Master contract management",
+    "Deposit and card products",
+    "Service-oriented architecture"
+  ],
+  "syllabus": [
+    {
+      "module": "Loans Management",
+      "subtopics": [
+        "Loan processing",
+        "Collateral management"
+      ]
+    },
+    {
+      "module": "Payment Management",
+      "subtopics": [
+        "Exception handling",
+        "Payment workflows"
+      ]
+    },
+    {
+      "module": "Financial Conditions",
+      "subtopics": [
+        "Condition types",
+        "Settlement processing"
+      ]
+    },
+    {
+      "module": "Product Configurator",
+      "subtopics": [
+        "Product modeling",
+        "Configuration rules"
+      ]
+    },
+    {
+      "module": "Contract Management",
+      "subtopics": [
+        "Master contracts",
+        "Basic functions"
+      ]
+    },
+    {
+      "module": "Banking Products",
+      "subtopics": [
+        "Deposit products",
+        "Card products"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "SOA architecture",
+        "System integration"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-is-banking.png",
+  "placement_assurance": true,
+  "projects": [
+    "Loan Processing System Setup",
+    "Payment Exception Handling Configuration",
+    "Banking Product Configuration",
+    "Financial Condition Implementation"
+  ]
+},
+{
+  "course_name": "SAP BPC Online Training",
+  "path": "sap-is-bpc",
+   "meta_title": "SAP BPC Course Online | SAP BPC Online Training | SAP BPC Certificate",
+  "meta_description": "Master SAP BPC with certification. Get industry-ready with in-depth training on planning and consolidation tools.",
+  "description": "Complete training in SAP Business Planning and Consolidation covering reporting, data acquisition, transformation, and consolidation for financial professionals.",
+  "what_youll_learn": [
+    "BPC administration",
+    "EPM Excel integration",
+    "Multi-reporting",
+    "Data transformation",
+    "Business process flows",
+    "Crystal dashboards",
+    "Consolidation controls"
+  ],
+  "syllabus": [
+    {
+      "module": "BPC Administration",
+      "subtopics": [
+        "Business objects",
+        "Dimension management",
+        "Security"
+      ]
+    },
+    {
+      "module": "EPM Integration",
+      "subtopics": [
+        "Excel integration",
+        "Web client",
+        "Comments"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Multi-reporting",
+        "Formatting",
+        "Cell-based formulas"
+      ]
+    },
+    {
+      "module": "Data Management",
+      "subtopics": [
+        "Acquisition",
+        "Transformations",
+        "Logic scripts"
+      ]
+    },
+    {
+      "module": "Business Processes",
+      "subtopics": [
+        "Drill through",
+        "Process flows",
+        "Notifications"
+      ]
+    },
+    {
+      "module": "Dashboards",
+      "subtopics": [
+        "Crystal dashboards",
+        "Flash objects",
+        "Data input"
+      ]
+    },
+    {
+      "module": "Consolidation",
+      "subtopics": [
+        "Controls",
+        "Currency translation",
+        "Monitor"
+      ]
+    }
+  ],
+  "duration": "55-65 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-bpc.png",
+  "placement_assurance": false,
+  "projects": [
+    "Financial Reporting Implementation",
+    "Planning Process Configuration",
+    "Consolidation System Setup",
+    "Dashboard Development"
+  ]
+},
+{
+  "course_name": "SAP PM Course",
+  "path": "sap-pm",
+   "meta_title": "SAP PM Course Course Online | SAP PM Course Online Training | SAP PM Course Certificate",
+  "meta_description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
+  "description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
+  "what_youll_learn": [
+    "Plant maintenance organization",
+    "Technical objects management",
+    "Breakdown maintenance",
+    "Planned maintenance",
+    "Maintenance task lists",
+    "Integration with other modules",
+    "Non-SAP interfaces"
+  ],
+  "syllabus": [
+    {
+      "module": "Plant Maintenance Overview",
+      "subtopics": [
+        "Business perspective",
+        "Organization forms",
+        "Benchmarking"
+      ]
+    },
+    {
+      "module": "Technical Objects",
+      "subtopics": [
+        "Object management",
+        "Measuring points",
+        "Work centers"
+      ]
+    },
+    {
+      "module": "Maintenance Processes",
+      "subtopics": [
+        "Task lists",
+        "Maintenance plans",
+        "Orders"
+      ]
+    },
+    {
+      "module": "Breakdown Maintenance",
+      "subtopics": [
+        "Technician tasks",
+        "Planner tasks",
+        "Controller tasks"
+      ]
+    },
+    {
+      "module": "Planned Maintenance",
+      "subtopics": [
+        "Scheduling",
+        "Execution",
+        "Control"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "MM integration",
+        "Quality management",
+        "Asset accounting"
+      ]
+    },
+    {
+      "module": "Interfaces",
+      "subtopics": [
+        "Process control systems",
+        "CAD systems"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-pm.png",
+  "placement_assurance": true,
+  "projects": [
+    "Maintenance Process Implementation",
+    "Technical Object Configuration",
+    "Integration with MM Setup",
+    "Maintenance Planning System"
+  ]
+},
+{
+  "course_name": "SAP ESS Online",
+  "path": "sap-ess",
+  "meta_title": "SAP ESS Course Online | SAP ESS Online Training | SAP ESS Certificate",
+  "meta_description": "Enroll in SAP ESS training and earn certification. Enhance your skills in employee self-service solutions.", 
+  "description": "Comprehensive training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management for HR professionals.",
+  "what_youll_learn": [
+    "Portal architecture",
+    "Employee self-service functions",
+    "Personnel data management",
+    "Leave and time recording",
+    "Salary statements",
+    "Travel expense management",
+    "Manager self-services"
+  ],
+  "syllabus": [
+    {
+      "module": "Portal Architecture",
+      "subtopics": [
+        "Homepage customization",
+        "Area and subarea configuration",
+        "Service management"
+      ]
+    },
+    {
+      "module": "Employee Self Services",
+      "subtopics": [
+        "Employee search",
+        "Personal data updates"
+      ]
+    },
+    {
+      "module": "Personnel Information",
+      "subtopics": [
+        "Address management",
+        "Bank details",
+        "Family member records"
+      ]
+    },
+    {
+      "module": "Working Time",
+      "subtopics": [
+        "Leave requests",
+        "Time recording",
+        "Attendance corrections"
+      ]
+    },
+    {
+      "module": "Benefits and Payment",
+      "subtopics": [
+        "Salary statements",
+        "Career information",
+        "Equipment management"
+      ]
+    },
+    {
+      "module": "Travel Management",
+      "subtopics": [
+        "Travel requests",
+        "Expense reporting"
+      ]
+    },
+    {
+      "module": "Manager Self-Services",
+      "subtopics": [
+        "Team management",
+        "Approval workflows",
+        "Recruitment support"
+      ]
+    }
+  ],
+  "duration": "30-40 hours",
+  "skill_level": "Beginner",
+  "image": "../CourseDetails/sap-ess.png",
+  "placement_assurance": false,
+  "projects": [
+    "Employee Portal Configuration",
+    "Leave Management System Setup",
+    "Travel Expense Process Implementation"
+  ]
+},
+{
+  "course_name": "SAP Hybris E-Commerce Online Training",
+  "path": "sap-hybris-ecommerce",
+    "meta_title": "SAP Hybris E-Commerce Course Online | SAP Hybris E-Commerce Online Training | SAP Hybris E-Commerce Certificate",
+  "meta_description": "Learn SAP Hybris eCommerce with expert training and certification. Build your career in digital commerce.", 
+  "description": "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience for digital commerce professionals.",
+  "what_youll_learn": [
+    "Hybris architecture",
+    "Accelerator setup",
+    "Product catalog management",
+    "User personalization",
+    "Cart and order processing",
+    "Marketing promotions",
+    "B2B commerce features"
+  ],
+  "syllabus": [
+    {
+      "module": "Hybris Overview",
+      "subtopics": [
+        "Commerce architecture",
+        "C/4HANA integration",
+        "B2C vs B2B features"
+      ]
+    },
+    {
+      "module": "Hybris Setup",
+      "subtopics": [
+        "Installation process",
+        "Extension development",
+        "Accelerator configuration"
+      ]
+    },
+    {
+      "module": "Hybris Tools",
+      "subtopics": [
+        "Backoffice",
+        "Product cockpit",
+        "Smart edit"
+      ]
+    },
+    {
+      "module": "Products & Catalogs",
+      "subtopics": [
+        "Multi-country sites",
+        "Product synchronization",
+        "Pricing strategies"
+      ]
+    },
+    {
+      "module": "User Management",
+      "subtopics": [
+        "Customer profiles",
+        "Access rights",
+        "Password policies"
+      ]
+    },
+    {
+      "module": "Cart & Order",
+      "subtopics": [
+        "Checkout flows",
+        "Cart functionality",
+        "Order processing"
+      ]
+    },
+    {
+      "module": "Marketing",
+      "subtopics": [
+        "Promotion engine",
+        "Voucher management",
+        "Store creation"
+      ]
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-hybris-ecommerce.png",
+  "placement_assurance": true,
+  "projects": [
+    "E-Commerce Store Implementation",
+    "Product Catalog Configuration",
+    "Promotion Engine Setup",
+    "B2B Commerce Portal"
+  ]
+},
+{
+  "course_name": "SAP BO",
+  "path": "sap-bo",
+   "meta_title": "SAP BO Course Online | SAP BO Online Training | SAP BO Certificate",
+  "meta_description": "Join SAP BO training and certification program. Learn to create impactful business intelligence reports.", 
+  "description": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development for BI professionals.",
+  "what_youll_learn": [
+    "Data warehousing concepts",
+    "Universe design",
+    "Web intelligence reporting",
+    "Dashboard development",
+    "Crystal reports",
+    "Administration",
+    "Security implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Data Warehousing",
+      "subtopics": [
+        "Dimensional modeling",
+        "Star/snowflake schemas",
+        "OLAP concepts"
+      ]
+    },
+    {
+      "module": "Universe Design",
+      "subtopics": [
+        "Connection strategies",
+        "Object creation",
+        "Loop resolution"
+      ]
+    },
+    {
+      "module": "Web Intelligence",
+      "subtopics": [
+        "Report creation",
+        "Query techniques",
+        "Formulas and variables"
+      ]
+    },
+    {
+      "module": "Crystal Reports",
+      "subtopics": [
+        "Report design",
+        "Parameterization",
+        "Cross-tab reports"
+      ]
+    },
+    {
+      "module": "Dashboards",
+      "subtopics": [
+        "Xcelsius development",
+        "Data connectivity",
+        "Interactive components"
+      ]
+    },
+    {
+      "module": "Administration",
+      "subtopics": [
+        "User management",
+        "Content organization",
+        "Server management"
+      ]
+    },
+    {
+      "module": "Security",
+      "subtopics": [
+        "Access control",
+        "Row-level security",
+        "Authentication"
+      ]
+    }
+  ],
+  "duration": "65-75 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-bo.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise BI Solution Implementation",
+    "Dashboard Development Project",
+    "Security Model Configuration",
+    "Report Migration Strategy"
+  ]
+},
+{
+  "course_name": "SAP BOBJ Training",
+  "path": "sap-bobj",
+     "meta_title": "SAP BOBJ Course Online | SAP BOBJ Online Training | SAP BOBJ Certificate",
+  "meta_description": "Master SAP BOBJ with training and certification. Learn business intelligence reporting tools. Enroll now!", 
+  "description": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration for enterprise BI solutions.",
+  "what_youll_learn": [
+    "BusinessObjects architecture",
+    "Advanced universe design",
+    "Web intelligence",
+    "Crystal reports",
+    "Dashboard design",
+    "Administration",
+    "Security implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Data Modeling",
+      "subtopics": [
+        "Dimensional modeling",
+        "Data mart lifecycle",
+        "Schema design"
+      ]
+    },
+    {
+      "module": "BO Architecture",
+      "subtopics": [
+        "System components",
+        "Information flow",
+        "Security management"
+      ]
+    },
+    {
+      "module": "Universe Design",
+      "subtopics": [
+        "Advanced objects",
+        "SQL traps",
+        "Hierarchies"
+      ]
+    },
+    {
+      "module": "Web Intelligence",
+      "subtopics": [
+        "Advanced queries",
+        "Calculation contexts",
+        "Hyperlinks"
+      ]
+    },
+    {
+      "module": "Crystal Reports",
+      "subtopics": [
+        "Parameterized reports",
+        "Cross-tabs",
+        "Templates"
+      ]
+    },
+    {
+      "module": "Dashboards",
+      "subtopics": [
+        "Xcelsius development",
+        "Live Office",
+        "Widgets"
+      ]
+    },
+    {
+      "module": "OLAP",
+      "subtopics": [
+        "Universe creation",
+        "Cube access",
+        "Hierarchies"
+      ]
+    }
+  ],
+  "duration": "70-80 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-bobj.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise Reporting Solution",
+    "OLAP Universe Implementation",
+    "Dashboard Portfolio Development",
+    "BI Platform Migration"
+  ]
+},
+{
+  "course_name": "SAP Fieldglass",
+  "path": "sap-fieldglass",
+    "meta_title": "SAP Fieldglass Course Online | SAP Fieldglass Online Training | SAP Fieldglass Certificate",
+  "meta_description": "Get certified in SAP Fieldglass. Hands-on training to manage external workforce efficiently. Enroll today!", 
+  "description": "Comprehensive training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement for HR and procurement professionals.",
+  "what_youll_learn": [
+    "Fieldglass architecture",
+    "Configuration and administration",
+    "Requisition management",
+    "Worker management",
+    "Time and expense tracking",
+    "SOW management",
+    "Analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction",
+      "subtopics": [
+        "Platform features",
+        "Cloud deployment",
+        "Integration"
+      ]
+    },
+    {
+      "module": "Configuration",
+      "subtopics": [
+        "Role management",
+        "Workflow customization",
+        "Security"
+      ]
+    },
+    {
+      "module": "Requisition Management",
+      "subtopics": [
+        "Job posting",
+        "Candidate selection",
+        "Approval processes"
+      ]
+    },
+    {
+      "module": "Worker Management",
+      "subtopics": [
+        "Onboarding",
+        "Compliance",
+        "Performance tracking"
+      ]
+    },
+    {
+      "module": "Time & Expense",
+      "subtopics": [
+        "Time entry",
+        "Expense reporting",
+        "Payroll integration"
+      ]
+    },
+    {
+      "module": "SOW Management",
+      "subtopics": [
+        "SOW creation",
+        "Resource management",
+        "Budget control"
+      ]
+    },
+    {
+      "module": "Analytics",
+      "subtopics": [
+        "Custom reports",
+        "Dashboards",
+        "Data visualization"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/sap-fieldglass.png",
+  "placement_assurance": true,
+  "projects": [
+    "Contingent Workforce Program Setup",
+    "SOW Process Implementation",
+    "Time Tracking System Configuration",
+    "Analytics Dashboard Development"
+  ]
+},
+{
+  "course_name": "SAP Data Archiving",
+  "path": "sap-data-archiving",
+    "meta_title": "SAP Data Archiving Course Online | SAP Data Archiving Online Training | SAP Data Archiving Certificate",
+  "meta_description": "Learn SAP Data Archiving with training and certification. Optimize storage and improve performance.", 
+  "description": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance for system administrators and data managers.",
+  "what_youll_learn": [
+    "Archiving principles",
+    "Object customization",
+    "Data assignment",
+    "Archive management",
+    "Access methods",
+    "Retention policies",
+    "Compliance reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Basic Principles",
+      "subtopics": [
+        "Archiving concepts",
+        "Positioning in SAP",
+        "Document storage"
+      ]
+    },
+    {
+      "module": "Archiving Objects",
+      "subtopics": [
+        "Customizing",
+        "File management",
+        "Residence times"
+      ]
+    },
+    {
+      "module": "Data Assignment",
+      "subtopics": [
+        "Table analysis",
+        "Object selection",
+        "Archiving sequences"
+      ]
+    },
+    {
+      "module": "Transaction SARA",
+      "subtopics": [
+        "Job scheduling",
+        "Monitoring",
+        "Error handling"
+      ]
+    },
+    {
+      "module": "Data Access",
+      "subtopics": [
+        "Read programs",
+        "Archive Information System",
+        "Document Relationship Browser"
+      ]
+    },
+    {
+      "module": "Retention",
+      "subtopics": [
+        "Data Retention Tool",
+        "Extract files",
+        "Compliance views"
+      ]
+    },
+    {
+      "module": "Performance",
+      "subtopics": [
+        "System impact",
+        "Long-term planning",
+        "Optimization"
+      ]
+    }
+  ],
+  "duration": "35-45 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-data-archiving.png",
+  "placement_assurance": false,
+  "projects": [
+    "Enterprise Archiving Strategy",
+    "FI Document Archiving Implementation",
+    "Compliance Reporting Setup",
+    "Archive Access System"
+  ]
+},
+{
+  "course_name": "SAP Solution Manager",
+  "path": "sap-solution-manager",
+   "meta_title": "SAP Solution Manager Course Online | SAP Solution Manager Online Training | SAP Solution Manager Certificate",
+  "meta_description": "Enroll in SAP Solution Manager training with certification. Learn to manage and support SAP landscapes.", 
+  "description": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, change management, and implementation for SAP administrators.",
+  "what_youll_learn": [
+    "Solution Manager architecture",
+    "System monitoring",
+    "Service desk",
+    "Change management",
+    "Early Watch alerts",
+    "Reporting",
+    "Implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Overview",
+      "subtopics": [
+        "Solution Manager concept",
+        "Installation",
+        "Customizing"
+      ]
+    },
+    {
+      "module": "Monitoring",
+      "subtopics": [
+        "System monitoring",
+        "Process monitoring",
+        "Alert management"
+      ]
+    },
+    {
+      "module": "Service Desk",
+      "subtopics": [
+        "Message processing",
+        "Service delivery",
+        "Reporting"
+      ]
+    },
+    {
+      "module": "Change Management",
+      "subtopics": [
+        "Request processes",
+        "Project management",
+        "Troubleshooting"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Service level",
+        "Solution reporting",
+        "Diagnostics"
+      ]
+    },
+    {
+      "module": "Implementation",
+      "subtopics": [
+        "Project planning",
+        "Security concept",
+        "Interface configuration"
+      ]
+    },
+    {
+      "module": "Advanced",
+      "subtopics": [
+        "Test management",
+        "Business process monitoring",
+        "Landscape management"
+      ]
+    }
+  ],
+  "duration": "50-60 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-solution-manager.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise Monitoring System Setup",
+    "Service Desk Implementation",
+    "Change Management Process",
+    "Solution Reporting Dashboard"
+  ]
+},
+{
+  "course_name": "SAP Aerospace & Defense",
+  "path": "sap-aerospace-and-defense",
+     "meta_title": "SAP Aerospace & Defense Course Online | SAP Aerospace & Defense Online Training | SAP Aerospace & Defense Certificate",
+  "meta_description": "Join SAP Aerospace & Defense training with certification. Learn to manage complex defense processes.", 
+  "description": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, compliance, and project management for A&D professionals.",
+  "what_youll_learn": [
+    "A&D industry processes",
+    "Manufacturing execution",
+    "Engineering change",
+    "MRO operations",
+    "Quality management",
+    "Compliance",
+    "Project system"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction",
+      "subtopics": [
+        "Industry overview",
+        "S/4HANA role",
+        "Regulatory needs"
+      ]
+    },
+    {
+      "module": "Manufacturing",
+      "subtopics": [
+        "Order-based production",
+        "Serialization",
+        "Capacity planning"
+      ]
+    },
+    {
+      "module": "Engineering",
+      "subtopics": [
+        "Change management",
+        "Document control",
+        "PLM integration"
+      ]
+    },
+    {
+      "module": "MRO",
+      "subtopics": [
+        "Fleet maintenance",
+        "Planning",
+        "Materials integration"
+      ]
+    },
+    {
+      "module": "Quality",
+      "subtopics": [
+        "Inspection processes",
+        "Defect tracking",
+        "Notifications"
+      ]
+    },
+    {
+      "module": "Compliance",
+      "subtopics": [
+        "ITAR/EAR",
+        "GRC integration",
+        "Data security"
+      ]
+    },
+    {
+      "module": "Project System",
+      "subtopics": [
+        "Large program management",
+        "Integration",
+        "Reporting"
+      ]
+    }
+  ],
+  "duration": "55-65 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-aerospace-and-defense.png",
+  "placement_assurance": true,
+  "projects": [
+    "Aircraft Manufacturing Process",
+    "MRO System Implementation",
+    "Compliance Framework Setup",
+    "Engineering Change Process"
+  ]
+}
+      ]
+    }
+  ]
+}

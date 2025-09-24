@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jeeva",
+    "review": "I have completed my AWS Course at ICLP Technologies. Sanjib is a really good trainer. He took the time to solve my doubts and explained all the concepts very well.",
+    "stars": 4
+  },
+  {
+    "name": "Shilpa",
+    "review": "I went for DevOps training at ICLP Technologies. My trainer Seeman gave clear examples for each concept and provided individual attention. Thanks to ICLP Technologies.",
+    "stars": 5
+  },
+  {
+    "name": "Rajesh",
+    "review": "I had a great experience learning Python at ICLP Technologies. The instructor was very knowledgeable and supportive throughout the course.",
+    "stars": 4
+  },
+  {
+    "name": "Priya",
+    "review": "The Data Science course at ICLP Technologies was insightful. The hands-on sessions helped me grasp the concepts better. Highly recommend this training institute.",
+    "stars": 5
+  },
+  {
+    "name": "Arun",
+    "review": "The Full Stack Development program at ICLP exceeded my expectations. Practical projects and mock interviews prepared me perfectly for job placements. Excellent faculty!",
+    "stars": 5
+  },
+  {
+    "name": "Meena",
+    "review": "ICLP's Cloud Computing course transformed my career. The lab sessions with real-world scenarios were particularly valuable. Got placed within a month of completion!",
+    "stars": 4
+  }
+]

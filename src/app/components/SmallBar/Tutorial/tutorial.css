@@ -1,0 +1,598 @@
+/* Tutorial Page Styles - Scoped */
+.tutorial-page {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.tutorial-page .tutorial-hero {
+  background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+  padding: 5rem 2rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.tutorial-page .tutorial-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 70% 30%,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+}
+
+.tutorial-page .hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.tutorial-page .hero-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.tutorial-page .hero-image {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.tutorial-page .hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.tutorial-page .hero-image:hover img {
+  opacity: 1;
+}
+
+.tutorial-page .hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-page .hero-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.tutorial-page .hero-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  color: #1a2a6c;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tutorial-page .hero-cta:hover {
+  background: transparent;
+  color: white;
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+/* Stats Section */
+.tutorial-page .hero-stats-container {
+  margin-top: 3rem;
+}
+
+.tutorial-page .hero-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.tutorial-page .hero-stat-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.tutorial-page .hero-stat-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-page .hero-stat-icon {
+  width: 48px;
+  height: 48px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tutorial-page .hero-stat-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #1faa59;
+}
+
+.tutorial-page .hero-stat-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorial-page .hero-stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+}
+
+.tutorial-page .hero-stat-label {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.25rem;
+}
+
+/* Course Content Section */
+.tutorial-page .tutorial-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+}
+
+.tutorial-page .content-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tutorial-page .content-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.tutorial-page .content-header p {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+/* Course Grid */
+.tutorial-page .course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.tutorial-page .course-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.tutorial-page .course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-page .card-thumbnail {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+  border-top: 4px solid;
+}
+
+.tutorial-page .thumbnail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.tutorial-page .card-thumbnail:hover .thumbnail-image {
+  transform: scale(1.05);
+}
+
+.tutorial-page .thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial-page .play-button {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.tutorial-page .play-button svg {
+  width: 24px;
+  height: 24px;
+  color: white;
+  margin-left: 4px;
+}
+
+.tutorial-page .card-thumbnail:hover .play-button {
+  transform: scale(1.1);
+}
+
+.tutorial-page .course-badges {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutorial-page .level-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+}
+
+.tutorial-page .video-count {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+.tutorial-page .video-count svg {
+  color: white;
+}
+
+.tutorial-page .card-body {
+  padding: 1.5rem;
+}
+
+.tutorial-page .course-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.tutorial-page .course-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tutorial-page .course-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.tutorial-page .instructor {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.tutorial-page .instructor svg {
+  color: #6b7280;
+}
+
+.tutorial-page .category-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.tutorial-page .video-list {
+  margin-bottom: 1.5rem;
+}
+
+.tutorial-page .video-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tutorial-page .video-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 0.875rem;
+}
+
+.tutorial-page .video-list li:last-child {
+  border-bottom: none;
+}
+
+.tutorial-page .video-number {
+  color: #6b7280;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.tutorial-page .video-title {
+  flex: 1;
+  color: #4b5563;
+}
+
+.tutorial-page .locked-icon {
+  color: #9ca3af;
+}
+
+.tutorial-page .more-videos {
+  color: #6b7280;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.tutorial-page .enroll-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tutorial-page .enroll-button:hover {
+  opacity: 0.9;
+}
+
+.tutorial-page .arrow-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Modal Styles */
+.tutorial-page .booking-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.tutorial-page .booking-modal.active {
+  display: flex;
+}
+
+.tutorial-page .booking-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.tutorial-page .booking-modal-container {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 1001;
+  animation: modal-enter 0.3s ease-out;
+}
+
+@keyframes modal-enter {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tutorial-page .booking-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.tutorial-page .booking-modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tutorial-page .booking-modal-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tutorial-page .booking-modal-header {
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+}
+
+.tutorial-page .booking-modal-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.tutorial-page .booking-modal-header p {
+  color: #6b7280;
+  margin-bottom: 0;
+}
+
+.tutorial-page .booking-modal-content {
+  padding: 0 2rem 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .tutorial-page .hero-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .tutorial-page .hero-text {
+    text-align: center;
+  }
+
+  .tutorial-page .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tutorial-page .course-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .tutorial-page .tutorial-hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .tutorial-page .hero-title {
+    font-size: 2rem;
+  }
+
+  .tutorial-page .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .tutorial-page .hero-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tutorial-page .hero-stat-item:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .tutorial-page .booking-modal-container {
+    width: 95%;
+    max-height: 85vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .tutorial-page .tutorial-hero {
+    padding: 2rem 1rem;
+  }
+
+  .tutorial-page .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .tutorial-page .hero-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tutorial-page .hero-stat-item:nth-child(3) {
+    grid-column: span 1;
+  }
+
+  .tutorial-page .hero-stat-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tutorial-page .hero-stat-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .tutorial-page .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tutorial-page .card-thumbnail {
+    height: 180px;
+  }
+
+  .tutorial-page .booking-modal-header {
+    padding: 1.5rem 1.5rem 0.5rem;
+  }
+
+  .tutorial-page .booking-modal-content {
+    padding: 0 1.5rem 1.5rem;
+  }
+}

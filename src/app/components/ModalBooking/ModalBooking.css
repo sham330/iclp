@@ -1,0 +1,365 @@
+/* Modal Overlay - Scoped with mb- prefix */
+.mb-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+/* Modal Content */
+.mb-modal-content {
+  background: #ffffff;
+  border-radius: 12px;
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Close Button */
+.mb-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #f1f5f9;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #64748b;
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.mb-close-btn:hover {
+  background: #e2e8f0;
+  color: #475569;
+  transform: rotate(90deg);
+}
+
+/* Modal Body */
+.mb-modal-body {
+  padding: 32px;
+}
+
+/* Header */
+.mb-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.mb-title {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 8px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.mb-title::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(to right, #4f46e5, #06b6d4);
+  border-radius: 3px;
+}
+
+.mb-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* Form */
+.mb-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Input Groups */
+.mb-input-group {
+  position: relative;
+}
+
+.mb-input {
+  width: 90%;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.mb-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  background-color: white;
+  outline: none;
+}
+
+.mb-input::placeholder {
+  color: #94a3b8;
+}
+
+/* Captcha Section */
+.mb-captcha-group {
+  margin-top: 8px;
+}
+
+.mb-captcha-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.mb-captcha-text {
+  font-family: "Courier New", monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #1e293b;
+  background: #e2e8f0;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.mb-refresh-btn {
+  background: #4f46e5;
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-refresh-btn:hover {
+  background: #4338ca;
+  transform: rotate(180deg);
+}
+
+.mb-captcha-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.mb-error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Submit Button */
+.mb-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #4f46e5, #06b6d4);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s ease;
+}
+
+.mb-submit-btn:hover:not(:disabled) {
+  background: linear-gradient(to right, #4338ca, #0891b2);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+  transform: translateY(-2px);
+}
+
+.mb-submit-btn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Success Message */
+.mb-success-message {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mb-success-icon {
+  font-size: 3rem;
+  color: #10b981;
+  margin-bottom: 16px;
+}
+
+.mb-success-message h3 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.mb-success-message p {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .mb-modal-body {
+    padding: 24px;
+  }
+
+  .mb-title {
+    font-size: 1.3rem;
+  }
+
+  .mb-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .mb-input,
+  .mb-captcha-input {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .mb-submit-btn {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .mb-success-icon {
+    font-size: 2.5rem;
+  }
+
+  .mb-success-message h3 {
+    font-size: 1.3rem;
+  }
+
+  .mb-success-message p {
+    font-size: 0.9rem;
+  }
+}
+/* Enhanced Dropdown Styling */
+.mb-input-group select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  background-color: #f8fafc;
+  color: #1e293b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234f46e5' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.mb-input-group select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  background-color: white;
+  outline: none;
+}
+
+/* Dropdown options styling */
+.mb-input-group select option {
+  padding: 12px;
+  background: white;
+  color: #1e293b;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Optgroup styling */
+.mb-input-group select optgroup {
+  font-weight: 600;
+  color: #4f46e5;
+  background: #f1f5f9;
+  padding: 8px 0;
+}
+
+/* Hover state for options */
+.mb-input-group select option:hover {
+  background-color: #4f46e5 !important;
+  color: white !important;
+}
+
+/* Selected option styling */
+.mb-input-group select option:checked {
+  background-color: #4f46e5;
+  color: white;
+}
+
+/* Dropdown arrow animation */
+.mb-input-group select:focus {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234f46e5' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z'/%3E%3C/svg%3E");
+}
+
+/* Dropdown container for better focus */
+.mb-input-group:focus-within {
+  position: relative;
+}
+
+/* Optional: Add a subtle animation when dropdown opens */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* For browsers that support it, style the dropdown list */
+@media (-webkit-min-device-pixel-ratio: 0) {
+  select,
+  select:focus,
+  select:active {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  select option {
+    animation: fadeIn 0.2s ease-out;
+  }
+}

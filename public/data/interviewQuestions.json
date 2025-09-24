@@ -1,0 +1,1131 @@
+{
+  "interview_questions": [
+    {
+      "course_name": "Java",
+      "questions": [
+        {
+          "question": "What are the main features of Java?",
+          "answer": "Java's main features include platform independence, object-oriented programming, robustness, security, multithreading, and automatic garbage collection."
+        },
+        {
+          "question": "Explain the difference between JDK, JRE, and JVM.",
+          "answer": "JDK (Java Development Kit) is a software development environment used to develop Java applications. JRE (Java Runtime Environment) is the runtime environment required to run Java applications. JVM (Java Virtual Machine) is the virtual machine that executes Java bytecode."
+        },
+        {
+          "question": "What is the difference between HashMap and HashTable?",
+          "answer": "HashMap is not synchronized and allows null keys and values, whereas HashTable is synchronized and does not allow null keys or values."
+        },
+        {
+          "question": "What is polymorphism in Java?",
+          "answer": "Polymorphism in Java refers to the ability of a method to behave differently based on the object that it is acting upon. It can be achieved through method overloading and method overriding."
+        },
+        {
+          "question": "How does garbage collection work in Java?",
+          "answer": "Garbage collection in Java automatically reclaims memory by identifying and deleting objects that are no longer in use, preventing memory leaks."
+        },
+        {
+          "question": "What is the difference between an abstract class and an interface?",
+          "answer": "An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods (before Java 8). Interfaces support multiple inheritance, whereas abstract classes do not."
+        },
+        {
+          "question": "What are Java access modifiers?",
+          "answer": "Java access modifiers control the visibility of classes, methods, and variables. They include public, private, protected, and default (no modifier)."
+        },
+        {
+          "question": "Explain multithreading in Java.",
+          "answer": "Multithreading in Java allows concurrent execution of two or more threads, enabling efficient use of CPU resources and improving application performance."
+        },
+        {
+          "question": "What is the difference between equals() and == in Java?",
+          "answer": "The == operator checks for reference equality, while the equals() method checks for value equality."
+        },
+        {
+          "question": "What is a constructor in Java?",
+          "answer": "A constructor in Java is a special method used to initialize objects. It has the same name as the class and does not have a return type."
+        }
+      ]
+    },
+    {
+      "course_name": "Python",
+      "questions": [
+        {
+          "question": "What are Python's key features?",
+          "answer": "Python's key features include simplicity, readability, dynamic typing, extensive libraries, and support for multiple programming paradigms."
+        },
+        {
+          "question": "Explain the difference between deep copy and shallow copy.",
+          "answer": "A shallow copy creates a new object but inserts references to the original objects, while a deep copy creates a new object and recursively copies all objects found in the original."
+        },
+        {
+          "question": "What are Python's built-in data types?",
+          "answer": "Python's built-in data types include integers, floats, strings, lists, tuples, dictionaries, sets, and booleans."
+        },
+        {
+          "question": "How is memory managed in Python?",
+          "answer": "Python manages memory through a private heap space, and it uses an automatic garbage collector to reclaim unused memory."
+        },
+        {
+          "question": "What is the difference between list and tuple?",
+          "answer": "Lists are mutable, meaning their elements can be changed, while tuples are immutable, meaning their elements cannot be changed after creation."
+        },
+        {
+          "question": "What are Python decorators?",
+          "answer": "Python decorators are functions that modify the behavior of other functions or methods, often used for logging, access control, or memoization."
+        },
+        {
+          "question": "What is the difference between 'is' and '==' in Python?",
+          "answer": "The 'is' operator checks for object identity (whether two references point to the same object), while '==' checks for value equality."
+        },
+        {
+          "question": "How does Python handle exceptions?",
+          "answer": "Python handles exceptions using try, except, finally, and raise blocks to manage errors and ensure proper resource cleanup."
+        },
+        {
+          "question": "What are lambda functions in Python?",
+          "answer": "Lambda functions are anonymous functions defined with the lambda keyword, used for short, throwaway functions."
+        },
+        {
+          "question": "What is PEP 8?",
+          "answer": "PEP 8 is the Python Enhancement Proposal that provides guidelines for writing readable and consistent Python code."
+        }
+      ]
+    },
+    {
+      "course_name": "R Programming",
+      "questions": [
+        {
+          "question": "What is R programming mainly used for?",
+          "answer": "R programming is mainly used for statistical computing, data analysis, and graphical representation of data."
+        },
+        {
+          "question": "What are the different data types in R?",
+          "answer": "R's data types include numeric, integer, character, logical, complex, and raw."
+        },
+        {
+          "question": "Explain the difference between a matrix and a dataframe in R.",
+          "answer": "A matrix is a two-dimensional array with elements of the same data type, while a dataframe is a two-dimensional array that can hold elements of different data types."
+        },
+        {
+          "question": "How do you handle missing values in R?",
+          "answer": "Missing values in R are handled using functions like is.na(), na.omit(), and na.fill()."
+        },
+        {
+          "question": "What is a factor in R?",
+          "answer": "A factor in R is a data type used to categorize data and store it as levels."
+        },
+        {
+          "question": "How can you merge datasets in R?",
+          "answer": "Datasets in R can be merged using functions like merge(), cbind(), and rbind()."
+        },
+        {
+          "question": "What is the apply() function in R?",
+          "answer": "The apply() function in R is used to apply a function to the rows or columns of a matrix or array."
+        },
+        {
+          "question": "How do you create a function in R?",
+          "answer": "Functions in R are created using the function() keyword, followed by the function body."
+        },
+        {
+          "question": "What are ggplot2 and dplyr in R?",
+          "answer": "ggplot2 is a data visualization package, and dplyr is a data manipulation package in R."
+        },
+        {
+          "question": "What is the difference between R and Python for data analysis?",
+          "answer": "R is specialized for statistical analysis and data visualization, while Python is more versatile and widely used for general-purpose programming and machine learning."
+        }
+      ]
+    },
+    {
+      "course_name": "JavaScript",
+      "questions": [
+        {
+          "question": "What are JavaScript's main features?",
+          "answer": "JavaScript's main features include dynamic typing, prototype-based object orientation, first-class functions, and event-driven programming."
+        },
+        {
+          "question": "What is the difference between '==' and '===' in JavaScript?",
+          "answer": "The '==' operator checks for value equality with type coercion, while '===' checks for both value and type equality without coercion."
+        },
+        {
+          "question": "What is an event loop in JavaScript?",
+          "answer": "The event loop in JavaScript is a mechanism that handles asynchronous callbacks, allowing non-blocking operations."
+        },
+        {
+          "question": "What is a closure in JavaScript?",
+          "answer": "A closure in JavaScript is a function that retains access to its lexical scope, even when the function is executed outside that scope."
+        },
+        {
+          "question": "Explain 'this' keyword in JavaScript.",
+          "answer": "The 'this' keyword in JavaScript refers to the object that is executing the current function, and its value depends on how the function is called."
+        },
+        {
+          "question": "What are promises in JavaScript?",
+          "answer": "Promises in JavaScript are objects that represent the eventual completion or failure of an asynchronous operation."
+        },
+        {
+          "question": "What is the difference between var, let, and const?",
+          "answer": "var is function-scoped, let is block-scoped, and const is block-scoped but cannot be reassigned after declaration."
+        },
+        {
+          "question": "How does async/await work in JavaScript?",
+          "answer": "async/await in JavaScript allows writing asynchronous code in a synchronous style, making it easier to read and maintain."
+        },
+        {
+          "question": "What is the difference between null and undefined?",
+          "answer": "null is an intentional absence of any object value, while undefined means a variable has been declared but not assigned a value."
+        },
+        {
+          "question": "What are arrow functions in JavaScript?",
+          "answer": "Arrow functions in JavaScript are a concise syntax for writing functions, with a lexical 'this' binding."
+        }
+      ]
+    },
+    {
+      "course_name": "PHP",
+      "questions": [
+        {
+          "question": "What are the key features of PHP?",
+          "answer": "PHP's key features include server-side scripting, cross-platform compatibility, extensive library support, and easy integration with databases."
+        },
+        {
+          "question": "What is the difference between GET and POST methods?",
+          "answer": "GET appends data to the URL and is less secure, while POST sends data in the request body and is more secure."
+        },
+        {
+          "question": "How does PHP handle sessions and cookies?",
+          "answer": "PHP uses the session_start() function to manage sessions and setcookie() to handle cookies."
+        },
+        {
+          "question": "What are PHP data types?",
+          "answer": "PHP data types include integers, floats, strings, booleans, arrays, objects, and NULL."
+        },
+        {
+          "question": "What is the difference between include and require in PHP?",
+          "answer": "include generates a warning if the file is not found, while require generates a fatal error."
+        },
+        {
+          "question": "How does error handling work in PHP?",
+          "answer": "PHP uses functions like error_reporting(), try-catch blocks, and custom error handlers to manage errors."
+        },
+        {
+          "question": "What is PDO in PHP?",
+          "answer": "PDO (PHP Data Objects) is a database access layer providing a consistent interface for accessing databases."
+        },
+        {
+          "question": "What is the difference between == and === in PHP?",
+          "answer": "== checks for value equality, while === checks for both value and type equality."
+        },
+        {
+          "question": "How can you prevent SQL injection in PHP?",
+          "answer": "SQL injection can be prevented by using prepared statements, parameterized queries, and input validation."
+        },
+        {
+          "question": "What are magic methods in PHP?",
+          "answer": "Magic methods in PHP are special methods that start with __, such as __construct() and __destruct(), and are automatically called in certain situations."
+        }
+      ]
+    },
+    {
+      "course_name": "Full Stack Developer",
+      "questions": [
+        {
+          "question": "What is a full stack developer?",
+          "answer": "A full stack developer is a professional skilled in both frontend and backend development, capable of building complete web applications."
+        },
+        {
+          "question": "What are the main technologies used in full stack development?",
+          "answer": "Main technologies include HTML, CSS, JavaScript for frontend, and Node.js, Python, or Java for backend, along with databases like MySQL or MongoDB."
+        },
+        {
+          "question": "What is REST API?",
+          "answer": "REST API is an architectural style for designing networked applications, using HTTP methods to perform CRUD operations."
+        },
+        {
+          "question": "What is the difference between SQL and NoSQL databases?",
+          "answer": "SQL databases are relational and use structured query language, while NoSQL databases are non-relational and use flexible data models."
+        },
+        {
+          "question": "How do you handle authentication in a full stack application?",
+          "answer": "Authentication can be handled using tokens (JWT), OAuth, or session-based authentication."
+        },
+        {
+          "question": "What is the importance of version control systems like Git?",
+          "answer": "Version control systems like Git help track changes, collaborate with others, and manage code history."
+        },
+        {
+          "question": "What are microservices in backend development?",
+          "answer": "Microservices are small, independent services that work together to form a larger application, each running in its own process."
+        },
+        {
+          "question": "Explain the difference between frontend and backend frameworks.",
+          "answer": "Frontend frameworks handle the user interface and client-side logic, while backend frameworks manage server-side logic and database interactions."
+        },
+        {
+          "question": "What are the advantages of cloud computing for web development?",
+          "answer": "Cloud computing offers scalability, cost-efficiency, and flexibility for web development."
+        },
+        {
+          "question": "How do you optimize website performance?",
+          "answer": "Website performance can be optimized by minimizing HTTP requests, using CDNs, optimizing images, and implementing caching."
+        }
+      ]
+    },
+    {
+      "course_name": "Node.js",
+      "questions": [
+        {
+          "question": "What is Node.js and how does it work?",
+          "answer": "Node.js is a runtime environment that allows JavaScript to run on the server side, using an event-driven, non-blocking I/O model."
+        },
+        {
+          "question": "What is the event-driven architecture in Node.js?",
+          "answer": "Event-driven architecture in Node.js uses events to trigger callbacks, enabling asynchronous and non-blocking operations."
+        },
+        {
+          "question": "What are the differences between blocking and non-blocking code?",
+          "answer": "Blocking code halts the execution of further code until the current operation completes, while non-blocking code allows other operations to run concurrently."
+        },
+        {
+          "question": "What are middleware functions in Express.js?",
+          "answer": "Middleware functions in Express.js are functions that have access to the request and response objects, and can modify them or end the request-response cycle."
+        },
+        {
+          "question": "How does Node.js handle concurrency?",
+          "answer": "Node.js handles concurrency using an event loop and asynchronous I/O operations."
+        },
+        {
+          "question": "What is the difference between process and thread in Node.js?",
+          "answer": "A process is an instance of a program, while a thread is a subset of a process. Node.js uses a single-threaded event loop model."
+        },
+        {
+          "question": "What are streams in Node.js?",
+          "answer": "Streams in Node.js are objects that allow reading or writing data continuously, useful for handling large datasets."
+        },
+        {
+          "question": "What is the purpose of package.json?",
+          "answer": "package.json is a file that contains metadata about the project, including dependencies, scripts, and version information."
+        },
+        {
+          "question": "How do you handle errors in Node.js?",
+          "answer": "Errors in Node.js can be handled using try-catch blocks, error-first callbacks, and event emitters."
+        },
+        {
+          "question": "What are the advantages of using Node.js for backend development?",
+          "answer": "Advantages include high performance, scalability, and the ability to use JavaScript for both frontend and backend development."
+        }
+      ]
+    },
+    {
+      "course_name": "React.js",
+      "questions": [
+        {
+          "question": "What is React.js?",
+          "answer": "React.js is a JavaScript library for building user interfaces, particularly single-page applications."
+        },
+        {
+          "question": "What are props in React?",
+          "answer": "Props (properties) are read-only attributes used to pass data from a parent component to a child component."
+        },
+        {
+          "question": "What is the difference between state and props?",
+          "answer": "State is mutable and managed within a component, while props are immutable and passed from a parent component."
+        },
+        {
+          "question": "What is JSX in React?",
+          "answer": "JSX is a syntax extension that allows writing HTML-like code in JavaScript, making it easier to create React elements."
+        },
+        {
+          "question": "What are React Hooks?",
+          "answer": "React Hooks are functions that allow using state and other React features in functional components."
+        },
+        {
+          "question": "What is the difference between functional and class components?",
+          "answer": "Functional components are simpler and use hooks for state management, while class components use lifecycle methods and this.state."
+        },
+        {
+          "question": "What is the Virtual DOM in React?",
+          "answer": "The Virtual DOM is a lightweight copy of the actual DOM, used to optimize rendering performance by minimizing direct DOM manipulation."
+        },
+        {
+          "question": "What are controlled and uncontrolled components?",
+          "answer": "Controlled components have their state managed by React, while uncontrolled components manage their own state internally."
+        },
+        {
+          "question": "How do you handle events in React?",
+          "answer": "Events in React are handled using camelCase syntax and passing a function as the event handler."
+        },
+        {
+          "question": "What are React lifecycle methods?",
+          "answer": "Lifecycle methods are hooks that allow executing code at different stages of a component's life, such as mounting, updating, and unmounting."
+        }
+      ]
+    },
+    {
+      "course_name": "Microsoft Azure",
+      "questions": [
+        {
+          "question": "What is Microsoft Azure?",
+          "answer": "Microsoft Azure is a cloud computing platform that provides a wide range of services, including computing, storage, and networking."
+        },
+        {
+          "question": "What are the key services provided by Azure?",
+          "answer": "Key services include Azure Virtual Machines, Azure App Services, Azure SQL Database, and Azure Blob Storage."
+        },
+        {
+          "question": "Explain the difference between Azure Functions and Logic Apps.",
+          "answer": "Azure Functions are serverless compute services for running small pieces of code, while Logic Apps are used to automate workflows and integrate services."
+        },
+        {
+          "question": "What is Azure Virtual Machine?",
+          "answer": "Azure Virtual Machine is a scalable computing resource that allows running Windows or Linux virtual machines in the cloud."
+        },
+        {
+          "question": "How does Azure provide scalability?",
+          "answer": "Azure provides scalability through features like auto-scaling, load balancing, and elastic pools."
+        },
+        {
+          "question": "What is Azure DevOps and its benefits?",
+          "answer": "Azure DevOps is a suite of development tools for collaboration, CI/CD, and project management, offering benefits like improved collaboration and faster delivery."
+        },
+        {
+          "question": "How does Azure Active Directory work?",
+          "answer": "Azure Active Directory is a cloud-based identity and access management service that helps manage user identities and access permissions."
+        },
+        {
+          "question": "Explain Azure Blob Storage.",
+          "answer": "Azure Blob Storage is a service for storing large amounts of unstructured data, such as text or binary data."
+        },
+        {
+          "question": "What is an Azure Resource Manager?",
+          "answer": "Azure Resource Manager is a management layer that enables deploying, managing, and monitoring Azure resources."
+        },
+        {
+          "question": "What is the difference between Azure SQL and Cosmos DB?",
+          "answer": "Azure SQL is a relational database service, while Cosmos DB is a NoSQL database service with global distribution and multi-model support."
+        }
+      ]
+    },
+    {
+      "course_name": "Sap Transportation Management",
+      "questions": [
+    {
+      "question": "What are the key components of SAP Transportation Management?",
+      "answer": "Key components include transportation planning, freight order management, carrier selection, freight settlement, and analytics."
+    },
+    {
+      "question": "How does SAP TM integrate with other SAP modules?",
+      "answer": "SAP TM integrates with MM, SD, WM through standard interfaces using IDocs, RFCs, and BAPIs for seamless data flow."
+    },
+    {
+      "question": "What is the role of ABAP in SAP TM?",
+      "answer": "ABAP is used for custom developments, enhancements, and reports specific to a company's transportation requirements."
+    },
+    {
+      "question": "Explain the transportation planning process in SAP TM.",
+      "answer": "It involves creating transportation requirements, planning shipments, optimizing routes, selecting carriers, and creating freight orders."
+    },
+    {
+      "question": "What are the benefits of using SAP TM?",
+      "answer": "Benefits include reduced transportation costs, improved visibility, optimized routes, better carrier management, and automated freight settlement."
+    },
+    {
+      "question": "What is the difference between freight unit and freight order?",
+      "answer": "Freight unit represents the transportation requirement, while freight order is the executable instruction to the carrier."
+    },
+    {
+      "question": "How does SAP TM handle carrier selection?",
+      "answer": "Through rating engines that consider cost, service level, and business rules to automatically select the best carrier."
+    },
+    {
+      "question": "What transportation modes does SAP TM support?",
+      "answer": "It supports road, rail, ocean, air, and multimodal transportation scenarios."
+    },
+    {
+      "question": "How is freight settlement handled in SAP TM?",
+      "answer": "Through integration with Financial Accounting where freight costs are calculated, verified, and settled with carriers."
+    },
+    {
+      "question": "What analytics capabilities does SAP TM offer?",
+      "answer": "It provides KPIs for on-time performance, cost analysis, carrier performance, and transportation spend analytics."
+    }
+  ]
+    },
+    {
+      "course_name": "AWS",
+      "questions": [
+        {
+          "question": "What is AWS and its main services?",
+          "answer": "AWS (Amazon Web Services) is a cloud computing platform offering services like EC2, S3, RDS, and Lambda."
+        },
+        {
+          "question": "Explain the differences between EC2 and Lambda.",
+          "answer": "EC2 provides scalable virtual servers, while Lambda is a serverless compute service that runs code in response to events."
+        },
+        {
+          "question": "What is an AWS VPC?",
+          "answer": "AWS VPC (Virtual Private Cloud) is a virtual network that allows launching AWS resources in a logically isolated section of the cloud."
+        },
+        {
+          "question": "What is the use of S3 in AWS?",
+          "answer": "S3 (Simple Storage Service) is used for storing and retrieving any amount of data at any time, from anywhere on the web."
+        },
+        {
+          "question": "How does AWS Route 53 work?",
+          "answer": "Route 53 is a scalable DNS service that routes user requests to AWS resources or external endpoints."
+        },
+        {
+          "question": "What are AWS IAM roles and policies?",
+          "answer": "IAM roles define permissions for AWS services, while IAM policies are documents that define permissions for users, groups, and roles."
+        },
+        {
+          "question": "What is AWS Auto Scaling?",
+          "answer": "AWS Auto Scaling automatically adjusts the number of EC2 instances in a group to maintain performance and cost efficiency."
+        },
+        {
+          "question": "Explain AWS CloudFormation.",
+          "answer": "AWS CloudFormation is a service that allows creating and managing AWS resources using templates."
+        },
+        {
+          "question": "What are the benefits of AWS Elastic Beanstalk?",
+          "answer": "Elastic Beanstalk simplifies deploying and managing applications by automatically handling capacity provisioning, load balancing, and scaling."
+        },
+        {
+          "question": "What is the difference between AWS RDS and DynamoDB?",
+          "answer": "RDS is a relational database service, while DynamoDB is a NoSQL database service with high performance and scalability."
+        }
+      ]
+    },
+    {
+      "course_name": "DevOps",
+      "questions": [
+        {
+          "question": "What is DevOps and why is it important?",
+          "answer": "DevOps is a set of practices that combines software development and IT operations to shorten the development lifecycle and deliver high-quality software."
+        },
+        {
+          "question": "Explain CI/CD in DevOps.",
+          "answer": "CI/CD (Continuous Integration/Continuous Deployment) is a practice of automating the integration and deployment of code changes to improve software delivery."
+        },
+        {
+          "question": "What are the key DevOps tools?",
+          "answer": "Key DevOps tools include Jenkins, Docker, Kubernetes, Git, and Ansible."
+        },
+        {
+          "question": "What is Infrastructure as Code (IaC)?",
+          "answer": "IaC is the practice of managing and provisioning infrastructure through code, rather than manual processes."
+        },
+        {
+          "question": "How does Kubernetes work in DevOps?",
+          "answer": "Kubernetes is a container orchestration platform that automates deployment, scaling, and management of containerized applications."
+        },
+        {
+          "question": "Explain the difference between Docker and Kubernetes.",
+          "answer": "Docker is a platform for creating and running containers, while Kubernetes is a system for managing multiple containers across multiple hosts."
+        },
+        {
+          "question": "What is the role of Git in DevOps?",
+          "answer": "Git is a version control system used to track code changes, collaborate with others, and manage code history in DevOps."
+        },
+        {
+          "question": "How does Jenkins help in automation?",
+          "answer": "Jenkins is an automation server that helps automate the building, testing, and deployment of software."
+        },
+        {
+          "question": "What are microservices and how do they relate to DevOps?",
+          "answer": "Microservices are small, independent services that work together to form a larger application, and they align with DevOps practices by enabling continuous delivery and deployment."
+        },
+        {
+          "question": "Explain monitoring tools used in DevOps.",
+          "answer": "Monitoring tools like Prometheus, Grafana, and Nagios are used to track the performance and health of applications and infrastructure in DevOps."
+        }
+      ]
+    },
+    {
+      "course_name": "Cyber Security",
+      "questions": [
+        {
+          "question": "What is cybersecurity?",
+          "answer": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks."
+        },
+        {
+          "question": "What are the different types of cybersecurity threats?",
+          "answer": "Common threats include malware, phishing, ransomware, DDoS attacks, and insider threats."
+        },
+        {
+          "question": "What is encryption and why is it important?",
+          "answer": "Encryption is the process of converting data into a secure format to prevent unauthorized access, ensuring data confidentiality and integrity."
+        },
+        {
+          "question": "Explain the difference between hashing and encryption.",
+          "answer": "Hashing is a one-way process that converts data into a fixed-size string, while encryption is a two-way process that can be reversed with a key."
+        },
+        {
+          "question": "What is a firewall and how does it work?",
+          "answer": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+        },
+        {
+          "question": "What is penetration testing?",
+          "answer": "Penetration testing is the practice of testing a system or network to identify vulnerabilities that could be exploited by attackers."
+        },
+        {
+          "question": "How does multi-factor authentication (MFA) enhance security?",
+          "answer": "MFA enhances security by requiring multiple forms of verification, such as a password and a fingerprint, to access a system."
+        },
+        {
+          "question": "What is a zero-trust security model?",
+          "answer": "A zero-trust security model assumes that no user or device is trusted by default, even if they are inside the network perimeter."
+        },
+        {
+          "question": "What are common cybersecurity vulnerabilities?",
+          "answer": "Common vulnerabilities include weak passwords, unpatched software, and misconfigured systems."
+        },
+        {
+          "question": "How do you protect against phishing attacks?",
+          "answer": "Protection against phishing includes educating users, using email filters, and verifying the authenticity of requests."
+        }
+      ]
+    },
+    {
+      "course_name": "Ethical Hacking",
+      "questions": [
+        {
+          "question": "What is ethical hacking?",
+          "answer": "Ethical hacking is the practice of testing systems and networks for vulnerabilities with the owner's permission to improve security."
+        },
+        {
+          "question": "Explain the difference between black hat, white hat, and gray hat hackers.",
+          "answer": "Black hat hackers exploit vulnerabilities for malicious purposes, white hat hackers test systems to improve security, and gray hat hackers operate in a morally ambiguous area."
+        },
+        {
+          "question": "What are the phases of ethical hacking?",
+          "answer": "The phases include reconnaissance, scanning, gaining access, maintaining access, and covering tracks."
+        },
+        {
+          "question": "What is footprinting in ethical hacking?",
+          "answer": "Footprinting is the process of gathering information about a target system or network to identify potential attack vectors."
+        },
+        {
+          "question": "How does a man-in-the-middle attack work?",
+          "answer": "A man-in-the-middle attack intercepts and alters communication between two parties without their knowledge."
+        },
+        {
+          "question": "What is SQL injection?",
+          "answer": "SQL injection is a type of attack where malicious SQL code is inserted into a query to manipulate a database."
+        },
+        {
+          "question": "What tools are commonly used in ethical hacking?",
+          "answer": "Common tools include Nmap, Metasploit, Wireshark, and Burp Suite."
+        },
+        {
+          "question": "What is a buffer overflow attack?",
+          "answer": "A buffer overflow attack occurs when a program writes more data to a buffer than it can hold, potentially allowing execution of malicious code."
+        },
+        {
+          "question": "How does social engineering work?",
+          "answer": "Social engineering manipulates individuals into divulging confidential information, often through phishing or pretexting."
+        },
+        {
+          "question": "What is vulnerability assessment?",
+          "answer": "Vulnerability assessment is the process of identifying, quantifying, and prioritizing vulnerabilities in a system."
+        }
+      ]
+    },
+    {
+      "course_name": "Selenium",
+      "questions": [
+        {
+          "question": "What is Selenium and its components?",
+          "answer": "Selenium is a suite of tools for automating web browsers, including Selenium WebDriver, Selenium IDE, and Selenium Grid."
+        },
+        {
+          "question": "How does Selenium WebDriver work?",
+          "answer": "Selenium WebDriver interacts with web browsers using browser-specific drivers to automate user actions."
+        },
+        {
+          "question": "What are the advantages of using Selenium?",
+          "answer": "Advantages include cross-browser compatibility, support for multiple programming languages, and a large community."
+        },
+        {
+          "question": "What are locators in Selenium?",
+          "answer": "Locators are used to identify web elements on a page, such as ID, name, class name, and XPath."
+        },
+        {
+          "question": "How do you handle alerts and popups in Selenium?",
+          "answer": "Alerts and popups can be handled using the Alert interface, which provides methods to accept, dismiss, or get text from alerts."
+        },
+        {
+          "question": "What is Page Object Model (POM)?",
+          "answer": "POM is a design pattern that creates an object repository for web elements, improving code maintainability and reusability."
+        },
+        {
+          "question": "How do you handle dynamic elements in Selenium?",
+          "answer": "Dynamic elements can be handled using dynamic XPath or CSS selectors, or by waiting for the element to be present."
+        },
+        {
+          "question": "What is implicit and explicit wait in Selenium?",
+          "answer": "Implicit wait sets a default waiting time for all elements, while explicit wait waits for a specific condition to be met."
+        },
+        {
+          "question": "Can Selenium automate Captcha?",
+          "answer": "Selenium cannot automate Captcha as it is designed to prevent automation."
+        },
+        {
+          "question": "What are different types of Selenium exceptions?",
+          "answer": "Common exceptions include NoSuchElementException, TimeoutException, and StaleElementReferenceException."
+        }
+      ]
+    },
+    {
+      "course_name": "Manual Testing",
+      "questions": [
+        {
+          "question": "What is manual testing?",
+          "answer": "Manual testing is the process of manually executing test cases without using automation tools."
+        },
+        {
+          "question": "What are the different types of testing?",
+          "answer": "Types include unit testing, integration testing, system testing, and acceptance testing."
+        },
+        {
+          "question": "What is the Software Testing Life Cycle (STLC)?",
+          "answer": "STLC is a sequence of activities performed during software testing, including requirement analysis, test planning, and test execution."
+        },
+        {
+          "question": "What is the difference between verification and validation?",
+          "answer": "Verification ensures the product is built correctly, while validation ensures the correct product is built."
+        },
+        {
+          "question": "What are test cases and why are they important?",
+          "answer": "Test cases are sets of conditions used to verify the functionality of a system, ensuring it meets requirements."
+        },
+        {
+          "question": "What is regression testing?",
+          "answer": "Regression testing ensures that new code changes do not adversely affect existing functionality."
+        },
+        {
+          "question": "What is boundary value analysis?",
+          "answer": "Boundary value analysis tests the boundaries between partitions of input values to find errors."
+        },
+        {
+          "question": "What is equivalence partitioning?",
+          "answer": "Equivalence partitioning divides input data into equivalent classes to reduce the number of test cases."
+        },
+        {
+          "question": "How do you prioritize test cases?",
+          "answer": "Test cases are prioritized based on risk, business impact, and frequency of use."
+        },
+        {
+          "question": "What is exploratory testing?",
+          "answer": "Exploratory testing is an approach where testers explore the application without predefined test cases to find defects."
+        }
+      ]
+    },
+    {
+      "course_name": "JMeter",
+      "questions": [
+        {
+          "question": "What is JMeter and why is it used?",
+          "answer": "JMeter is an open-source tool used for performance testing and load testing of web applications."
+        },
+        {
+          "question": "How does JMeter work?",
+          "answer": "JMeter simulates multiple users sending requests to a server and measures the performance of the application."
+        },
+        {
+          "question": "What are different types of samplers in JMeter?",
+          "answer": "Samplers include HTTP Request, FTP Request, and JDBC Request, used to send different types of requests."
+        },
+        {
+          "question": "How do you analyze JMeter test results?",
+          "answer": "Results can be analyzed using listeners like View Results Tree and Summary Report."
+        },
+        {
+          "question": "What is a thread group in JMeter?",
+          "answer": "A thread group represents a group of users executing a test scenario in JMeter."
+        },
+        {
+          "question": "What is correlation in JMeter?",
+          "answer": "Correlation is the process of extracting dynamic values from server responses and using them in subsequent requests."
+        },
+        {
+          "question": "How do you parameterize a test in JMeter?",
+          "answer": "Tests can be parameterized using CSV Data Set Config or User Defined Variables."
+        },
+        {
+          "question": "What are timers in JMeter?",
+          "answer": "Timers introduce delays between requests to simulate real user behavior."
+        },
+        {
+          "question": "How do you handle authentication in JMeter?",
+          "answer": "Authentication can be handled using HTTP Authorization Manager or by adding credentials to the request headers."
+        },
+        {
+          "question": "What is distributed testing in JMeter?",
+          "answer": "Distributed testing involves running JMeter tests from multiple machines to simulate a higher load."
+        }
+      ]
+    },
+    {
+      "course_name": "Load Runner",
+      "questions": [
+        {
+          "question": "What is Load Runner?",
+          "answer": "Load Runner is a performance testing tool used to test applications under load to identify performance bottlenecks."
+        },
+        {
+          "question": "What is the purpose of performance testing?",
+          "answer": "Performance testing ensures that an application performs well under expected workloads."
+        },
+        {
+          "question": "What are the components of Load Runner?",
+          "answer": "Components include Virtual User Generator, Controller, and Analysis."
+        },
+        {
+          "question": "What is a Virtual User (Vuser)?",
+          "answer": "A Vuser is a simulated user that performs actions on the application being tested."
+        },
+        {
+          "question": "What is parameterization in Load Runner?",
+          "answer": "Parameterization involves replacing constant values in a script with parameters to simulate different user inputs."
+        },
+        {
+          "question": "What are transaction points in Load Runner?",
+          "answer": "Transaction points measure the time taken to complete specific tasks in the application."
+        },
+        {
+          "question": "What is correlation in Load Runner?",
+          "answer": "Correlation is the process of capturing dynamic values from server responses and using them in subsequent requests."
+        },
+        {
+          "question": "What is rendezvous point in Load Runner?",
+          "answer": "A rendezvous point synchronizes Vusers to perform a specific action simultaneously."
+        },
+        {
+          "question": "What types of performance tests can Load Runner perform?",
+          "answer": "Load Runner can perform load testing, stress testing, and endurance testing."
+        },
+        {
+          "question": "How do you analyze Load Runner results?",
+          "answer": "Results can be analyzed using the Analysis tool, which provides graphs and reports on performance metrics."
+        }
+      ]
+    },
+    {
+      "course_name": "Soap UI",
+      "questions": [
+        {
+          "question": "What is SoapUI?",
+          "answer": "SoapUI is a tool for testing SOAP and REST web services, providing functionality for functional testing, load testing, and security testing."
+        },
+        {
+          "question": "What are the key features of SoapUI?",
+          "answer": "Key features include test case creation, data-driven testing, and support for SOAP and REST protocols."
+        },
+        {
+          "question": "What is the difference between SOAP and REST?",
+          "answer": "SOAP is a protocol with strict standards, while REST is an architectural style that uses standard HTTP methods."
+        },
+        {
+          "question": "How do you create a test suite in SoapUI?",
+          "answer": "A test suite is created by adding test cases to a project, which can then be executed individually or as a group."
+        },
+        {
+          "question": "What is the use of assertions in SoapUI?",
+          "answer": "Assertions are used to validate the response of a web service against expected results."
+        },
+        {
+          "question": "How do you parameterize tests in SoapUI?",
+          "answer": "Tests can be parameterized using properties, data sources, or Groovy scripts."
+        },
+        {
+          "question": "What are property transfers in SoapUI?",
+          "answer": "Property transfers copy values from one request to another, often used to pass dynamic data between test steps."
+        },
+        {
+          "question": "What is Groovy scripting in SoapUI?",
+          "answer": "Groovy scripting allows writing custom scripts to enhance test functionality, such as data manipulation or complex assertions."
+        },
+        {
+          "question": "How do you handle authentication in SoapUI?",
+          "answer": "Authentication can be handled using built-in options like Basic Auth, OAuth, or custom headers."
+        },
+        {
+          "question": "What are common errors in SoapUI?",
+          "answer": "Common errors include connection timeouts, invalid responses, and assertion failures."
+        }
+      ]
+    },
+    {
+      "course_name": "Data Science",
+      "questions": [
+        {
+          "question": "What is data science?",
+          "answer": "Data science is an interdisciplinary field that uses scientific methods, processes, and systems to extract knowledge and insights from structured and unstructured data."
+        },
+        {
+          "question": "What is the difference between AI, ML, and data science?",
+          "answer": "AI is the broader concept of machines performing tasks that typically require human intelligence, ML is a subset of AI focused on algorithms that learn from data, and data science encompasses the entire process of extracting insights from data."
+        },
+        {
+          "question": "What are the key steps in a data science project?",
+          "answer": "Key steps include data collection, data cleaning, exploratory data analysis, model building, and deployment."
+        },
+        {
+          "question": "What is feature engineering?",
+          "answer": "Feature engineering is the process of selecting, transforming, and creating features to improve model performance."
+        },
+        {
+          "question": "What is the difference between supervised and unsupervised learning?",
+          "answer": "Supervised learning uses labeled data to train models, while unsupervised learning uses unlabeled data to find patterns."
+        },
+        {
+          "question": "What is a confusion matrix?",
+          "answer": "A confusion matrix is a table used to evaluate the performance of a classification model, showing true positives, false positives, true negatives, and false negatives."
+        },
+        {
+          "question": "What is cross-validation in machine learning?",
+          "answer": "Cross-validation is a technique for assessing model performance by partitioning the data into subsets and training/testing on different combinations."
+        },
+        {
+          "question": "What are different types of regression models?",
+          "answer": "Types include linear regression, logistic regression, and polynomial regression."
+        },
+        {
+          "question": "What is NLP (Natural Language Processing)?",
+          "answer": "NLP is a field of AI focused on the interaction between computers and human language, enabling tasks like text analysis and language translation."
+        },
+        {
+          "question": "What is a recommendation system?",
+          "answer": "A recommendation system is an algorithm that suggests products, services, or content to users based on their preferences and behavior."
+        }
+      ]
+    },
+    {
+      "course_name": "Artificial Intelligence",
+      "questions": [
+        {
+          "question": "What is Artificial Intelligence?",
+          "answer": "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn like humans."
+        },
+        {
+          "question": "What are the different types of AI?",
+          "answer": "Types include narrow AI (focused on specific tasks), general AI (human-like intelligence), and superintelligent AI (exceeding human intelligence)."
+        },
+        {
+          "question": "What is the Turing Test in AI?",
+          "answer": "The Turing Test is a measure of a machine's ability to exhibit intelligent behavior indistinguishable from a human."
+        },
+        {
+          "question": "What is the difference between AI, Machine Learning, and Deep Learning?",
+          "answer": "AI is the broad concept, ML is a subset of AI focused on algorithms that learn from data, and deep learning is a subset of ML using neural networks."
+        },
+        {
+          "question": "What are neural networks?",
+          "answer": "Neural networks are a series of algorithms that mimic the human brain to recognize patterns and solve complex problems."
+        },
+        {
+          "question": "What are the major applications of AI?",
+          "answer": "Applications include natural language processing, computer vision, robotics, and recommendation systems."
+        },
+        {
+          "question": "What is Natural Language Processing (NLP)?",
+          "answer": "NLP is a field of AI focused on the interaction between computers and human language, enabling tasks like text analysis and language translation."
+        },
+        {
+          "question": "What is a chatbot and how does it work?",
+          "answer": "A chatbot is an AI-powered application that simulates human conversation, often using NLP to understand and respond to user queries."
+        },
+        {
+          "question": "What are ethical concerns in AI?",
+          "answer": "Ethical concerns include bias in algorithms, job displacement, privacy issues, and the potential for misuse."
+        },
+        {
+          "question": "What is reinforcement learning?",
+          "answer": "Reinforcement learning is a type of ML where an agent learns to make decisions by receiving rewards or penalties for actions."
+        }
+      ]
+    },
+    {
+      "course_name": "Digital Marketing",
+      "questions": [
+        {
+          "question": "What is digital marketing?",
+          "answer": "Digital marketing is the promotion of products or services using digital channels like search engines, social media, and email."
+        },
+        {
+          "question": "What are the different types of digital marketing?",
+          "answer": "Types include SEO, PPC, content marketing, social media marketing, and email marketing."
+        },
+        {
+          "question": "What is SEO, and why is it important?",
+          "answer": "SEO (Search Engine Optimization) is the process of optimizing websites to rank higher in search engine results, increasing organic traffic."
+        },
+        {
+          "question": "What is PPC (Pay-Per-Click) advertising?",
+          "answer": "PPC is an online advertising model where advertisers pay each time a user clicks on their ad."
+        },
+        {
+          "question": "What is the difference between organic and paid search?",
+          "answer": "Organic search results are earned through SEO, while paid search results are purchased through PPC advertising."
+        },
+        {
+          "question": "What is content marketing?",
+          "answer": "Content marketing involves creating and sharing valuable content to attract and engage a target audience."
+        },
+        {
+          "question": "What is social media marketing (SMM)?",
+          "answer": "SMM is the use of social media platforms to promote products or services and engage with customers."
+        },
+        {
+          "question": "How do you measure digital marketing success?",
+          "answer": "Success is measured using metrics like website traffic, conversion rates, and ROI."
+        },
+        {
+          "question": "What are marketing funnels?",
+          "answer": "Marketing funnels represent the customer journey from awareness to purchase, including stages like awareness, consideration, and decision."
+        },
+        {
+          "question": "What are Google Ads?",
+          "answer": "Google Ads is an online advertising platform where businesses can create and manage PPC campaigns."
+        }
+      ]
+    },
+    {
+      "course_name": "Excel",
+      "questions": [
+        {
+          "question": "What are the key features of Microsoft Excel?",
+          "answer": "Key features include data organization, formulas and functions, charts, pivot tables, and data analysis tools."
+        },
+        {
+          "question": "What is the difference between a workbook and a worksheet?",
+          "answer": "A workbook is an Excel file containing one or more worksheets, while a worksheet is a single sheet within a workbook."
+        },
+        {
+          "question": "What are Excel formulas and functions?",
+          "answer": "Formulas are expressions used to perform calculations, while functions are predefined formulas like SUM, AVERAGE, and VLOOKUP."
+        },
+        {
+          "question": "How do you use VLOOKUP in Excel?",
+          "answer": "VLOOKUP searches for a value in the first column of a table and returns a value in the same row from a specified column."
+        },
+        {
+          "question": "What is a pivot table and why is it useful?",
+          "answer": "A pivot table is a data summarization tool that allows users to analyze and manipulate large datasets efficiently."
+        },
+        {
+          "question": "What is conditional formatting in Excel?",
+          "answer": "Conditional formatting applies formatting to cells based on specific conditions, such as highlighting cells with values above a threshold."
+        },
+        {
+          "question": "What is the difference between absolute and relative cell referencing?",
+          "answer": "Absolute referencing fixes a cell's reference, while relative referencing adjusts the reference when copied to another cell."
+        },
+        {
+          "question": "How do you remove duplicates in Excel?",
+          "answer": "Duplicates can be removed using the 'Remove Duplicates' feature under the Data tab."
+        },
+        {
+          "question": "How do you automate tasks in Excel?",
+          "answer": "Tasks can be automated using macros, which are recorded sequences of actions that can be replayed."
+        },
+        {
+          "question": "What is the use of macros in Excel?",
+          "answer": "Macros automate repetitive tasks, saving time and reducing errors."
+        }
+      ]
+    },
+    {
+      "course_name": "Salesforce",
+      "questions": [
+        {
+          "question": "What is Salesforce?",
+          "answer": "Salesforce is a cloud-based CRM platform that helps businesses manage customer relationships, sales, and marketing."
+        },
+        {
+          "question": "What are the key features of Salesforce?",
+          "answer": "Key features include sales automation, marketing automation, customer service, and analytics."
+        },
+        {
+          "question": "What is a Salesforce object?",
+          "answer": "A Salesforce object is a database table that stores data, such as accounts, contacts, and opportunities."
+        },
+        {
+          "question": "What is the difference between a standard and a custom object?",
+          "answer": "Standard objects are predefined by Salesforce, while custom objects are created by users to meet specific needs."
+        },
+        {
+          "question": "What is Salesforce CRM?",
+          "answer": "Salesforce CRM is a customer relationship management tool that helps businesses manage customer interactions and data."
+        },
+        {
+          "question": "What is Apex in Salesforce?",
+          "answer": "Apex is a programming language used in Salesforce to create custom business logic and workflows."
+        },
+        {
+          "question": "What are Salesforce workflows?",
+          "answer": "Workflows automate business processes by triggering actions like email alerts or field updates based on specific criteria."
+        },
+        {
+          "question": "What is a trigger in Salesforce?",
+          "answer": "A trigger is a piece of Apex code that executes before or after specific data manipulation events, such as insert or update."
+        },
+        {
+          "question": "What is the difference between a role and a profile in Salesforce?",
+          "answer": "A role determines a user's position in the hierarchy, while a profile controls a user's permissions and access to data."
+        },
+        {
+          "question": "How does Salesforce integrate with other tools?",
+          "answer": "Salesforce integrates with other tools using APIs, middleware, and third-party connectors."
+        }
+      ]
+    },
+    {
+      "course_name": "SAP Quality Management (QM)",
+      "questions": 
+   [
+    {
+      "question": "What is SAP QM?",
+      "answer": "SAP Quality Management module helps organizations manage quality processes throughout the supply chain from vendor inspection to production and delivery."
+    },
+    {
+      "question": "What industries use SAP QM?",
+      "answer": "Primarily manufacturing (automotive, pharma, chemicals), but also used in food processing, electronics and any industry with strict quality requirements."
+    },
+    {
+      "question": "Is MM module knowledge required?",
+      "answer": "Basic understanding of Materials Management helps but isn't mandatory as QM fundamentals are covered in the course."
+    },
+    {
+      "question": "How does QM integrate with production?",
+      "answer": "Through inspection points in production orders and quality checks at key stages of manufacturing processes."
+    },
+    {
+      "question": "What are inspection characteristics?",
+      "answer": "Defined quality parameters (like dimensions or chemical properties) that are checked during inspections."
+    },
+    {
+      "question": "Can QM block defective materials?",
+      "answer": "Yes, through quality holds that prevent usage until inspection is passed."
+    },
+    {
+      "question": "What's the difference between QM and PP-QM?",
+      "answer": "PP-QM refers to quality in production planning, while QM covers broader quality processes including procurement."
+    },
+    {
+      "question": "How are vendors evaluated in QM?",
+      "answer": "Based on quality scores calculated from inspection results and delivery performance."
+    },
+    {
+      "question": "Does QM support regulatory compliance?",
+      "answer": "Yes, especially for industries like pharma (GMP) and automotive (ISO/TS standards)."
+    },
+    {
+      "question": "What reporting capabilities does QM offer?",
+      "answer": "Quality Information System (QIS) provides standard reports on inspection results, defect analysis and vendor performance."
+    }
+  ]
+
+    }
+  ]
+}

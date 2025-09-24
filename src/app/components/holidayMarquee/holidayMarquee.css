@@ -1,0 +1,134 @@
+/* Holiday Marquee - Infinite single-line scroll */
+.holiday-marquee-container {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: white;
+  padding: 0.6rem 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.holiday-marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: holiday-scroll 30s linear infinite;
+  padding-left: 100%; /* Start off-screen */
+}
+
+.holiday-marquee-content {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.current-holiday {
+  background-color: rgba(231, 76, 60, 0.1);
+  border-left: 3px solid #e74c3c;
+  border-right: 3px solid #e74c3c;
+}
+
+.upcoming-holiday {
+  background-color: rgba(52, 152, 219, 0.1);
+  border-left: 3px solid #3498db;
+  border-right: 3px solid #3498db;
+}
+
+.holiday-text {
+  padding: 0 0.5rem;
+}
+
+.holiday-icon {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.highlight-offer {
+  color: #f1c40f;
+  font-weight: 700;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.promo-code {
+  background-color: rgba(241, 196, 15, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #f1c40f;
+  border: 1px dashed #f1c40f;
+}
+
+/* Animation */
+@keyframes holiday-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pause on hover */
+.holiday-marquee-container:hover .holiday-marquee-track {
+  animation-play-state: paused;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .holiday-marquee-content {
+    font-size: 0.9rem;
+  }
+
+  .holiday-icon {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .holiday-marquee-track {
+    animation-duration: 25s;
+  }
+
+  .holiday-marquee-content {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .holiday-icon {
+    font-size: 1rem;
+  }
+
+  .promo-code {
+    padding: 0.15rem 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .holiday-marquee-container {
+    padding: 0.4rem 0;
+  }
+
+  .holiday-marquee-content {
+    font-size: 0.8rem;
+  }
+
+  .holiday-marquee-track {
+    animation-duration: 30s;
+  }
+}
+
+@media (max-width: 360px) {
+  .holiday-marquee-content {
+    font-size: 0.75rem;
+  }
+
+  .highlight-offer,
+  .promo-code {
+    font-size: 0.77rem;
+  }
+}

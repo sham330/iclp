@@ -1,0 +1,118 @@
+.successful-community {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 50px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #3498db; /* Added colored bottom border */
+    /* For a gradient border, you could use: */
+    /* border-image: linear-gradient(to right, #3498db, #2ecc71) 1; */
+  }
+  
+  .successful-community h2 {
+    color: #2c3e50;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: clamp(28px, 4vw, 32px); /* Responsive font size */
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .stat-item {
+    flex: 1;
+    min-width: 200px; /* Reduced minimum width for better mobile */
+    max-width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .stat-circle {
+    position: relative;
+    width: clamp(120px, 20vw, 160px); /* Responsive circle size */
+    height: clamp(120px, 20vw, 160px);
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Added hover effect */
+  }
+  
+  .stat-circle:hover {
+    transform: translateY(-5px);
+  }
+  
+  .circle-icon {
+    color: #3498db;
+    margin-bottom: 5px;
+    font-size: clamp(24px, 4vw, 32px); /* Responsive icon size */
+  }
+  
+  .percentage {
+    font-size: clamp(28px, 5vw, 36px); /* Responsive percentage size */
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .stat-item p {
+    color: #555;
+    font-size: clamp(14px, 2vw, 16px); /* Responsive text size */
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  /* Medium screens (tablets) */
+  @media (max-width: 768px) {
+    .successful-community {
+      padding: 40px 15px;
+    }
+    
+    .stats-container {
+      gap: 20px;
+    }
+    
+    .stat-item {
+      min-width: 160px;
+    }
+  }
+  
+  /* Small screens (mobile) */
+  @media (max-width: 480px) {
+    .successful-community {
+      padding: 30px 10px;
+    }
+    
+    .successful-community h2 {
+      margin-bottom: 30px;
+    }
+    
+    .stats-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    
+    .stat-item {
+      width: 100%;
+      max-width: 280px;
+    }
+    
+    .stat-circle {
+      width: 120px;
+      height: 120px;
+    }
+  }

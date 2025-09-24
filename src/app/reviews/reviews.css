@@ -1,0 +1,289 @@
+/* .reviews-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.reviews-heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.reviews-subtext {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.reviews-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+
+.quote-icon {
+    font-size: 24px;
+    color: #007bff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.review-text {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #444;
+}
+
+.review-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stars {
+    color: gold;
+    font-size: 14px;
+} */
+
+/* Reviews Component - Scoped Styles with iclptech prefix */
+.iclptech-reviews-container {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(26, 42, 108, 0.03) 0%,
+    rgba(31, 170, 89, 0.03) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.iclptech-reviews-header {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.iclptech-reviews-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a2a6c;
+  font-weight: 700;
+  line-height: 1.3;
+  position: relative;
+  display: inline-block;
+}
+
+.iclptech-highlight-text {
+  color: #1d7b60;
+  position: relative;
+  display: inline-block;
+}
+
+.iclptech-highlight-text::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #1a2a6c, #1faa59);
+  border-radius: 4px;
+}
+
+.iclptech-reviews-subtext {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.iclptech-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.iclptech-review-card {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.iclptech-review-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1a2a6c, #1faa59);
+}
+
+.iclptech-review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.iclptech-quote-icon {
+  font-size: 2.8rem;
+  color: rgba(31, 170, 89, 0.08);
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.iclptech-review-text {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  margin: 2rem 0 2.5rem;
+  position: relative;
+  z-index: 1;
+  font-style: italic;
+}
+
+.iclptech-review-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.iclptech-profile-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.2rem;
+  flex-shrink: 0;
+}
+
+.iclptech-reviewer-info {
+  text-align: left;
+}
+
+.iclptech-reviewer-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.iclptech-stars {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.iclptech-star-filled {
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+.iclptech-star-empty {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .iclptech-reviews-container {
+    padding: 4rem 1rem;
+  }
+
+  .iclptech-reviews-heading {
+    font-size: 2.2rem;
+  }
+
+  .iclptech-reviews-subtext {
+    font-size: 1.05rem;
+  }
+
+  .iclptech-review-card {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .iclptech-reviews-heading {
+    font-size: 2rem;
+  }
+
+  .iclptech-reviews-subtext {
+    font-size: 1rem;
+  }
+
+  .iclptech-reviews-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .iclptech-reviews-container {
+    padding: 3rem 0.5rem;
+  }
+
+  .iclptech-reviews-heading {
+    font-size: 1.8rem;
+  }
+
+  .iclptech-review-card {
+    padding: 1.8rem 1.2rem;
+  }
+
+  .iclptech-review-text {
+    font-size: 0.95rem;
+  }
+
+  .iclptech-profile-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+}

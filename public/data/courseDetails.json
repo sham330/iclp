@@ -1,0 +1,3702 @@
+{
+  "courseDetails": {
+    "Java": {
+      "advantages": [
+        "Platform independence with 'Write Once, Run Anywhere' capability",
+        "High demand in enterprise application development",
+        "Strong memory management with automatic garbage collection",
+        "Excellent performance with Just-In-Time (JIT) compilation",
+        "Rich ecosystem with extensive libraries and frameworks",
+        "Strong community support and documentation",
+        "Widely used in Android app development",
+        "Secure language features and robust exception handling",
+        "Scalability for large-scale applications",
+        "Long-term career growth opportunities"
+      ],
+      "tools": [
+        "JDK (Java Development Kit)",
+        "IntelliJ IDEA",
+        "Eclipse",
+        "NetBeans",
+        "Maven",
+        "Gradle",
+        "Spring Framework",
+        "Hibernate",
+        "JUnit",
+        "Apache Tomcat"
+      ]
+    },
+    "Python": {
+      "advantages": [
+        "Easy-to-learn syntax ideal for beginners",
+        "Versatile applications from web development to data science",
+        "Extensive standard library and third-party packages",
+        "Strong community support and documentation",
+        "Excellent for rapid prototyping and development",
+        "Cross-platform compatibility",
+        "High demand in AI and machine learning fields",
+        "Great for automation and scripting tasks",
+        "Integration capabilities with other languages",
+        "Strong corporate backing (Google, Facebook, etc.)"
+      ],
+      "tools": [
+        "PyCharm",
+        "Jupyter Notebook",
+        "VS Code",
+        "Django",
+        "Flask",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    "R Programming": {
+      "advantages": [
+        "Specialized for statistical computing and graphics",
+        "Open-source with strong academic support",
+        "Excellent data visualization capabilities",
+        "Comprehensive collection of statistical packages",
+        "Powerful for data manipulation and analysis",
+        "Growing demand in data science roles",
+        "Integration with other languages like C++ and Python",
+        "Strong community in academia and research",
+        "Reproducible research with R Markdown",
+        "Cross-platform compatibility"
+      ],
+      "tools": [
+        "RStudio",
+        "R Markdown",
+        "Shiny",
+        "dplyr",
+        "ggplot2",
+        "tidyr",
+        "caret",
+        "knitr",
+        "lubridate",
+        "stringr"
+      ]
+    },
+    "JavaScript": {
+      "advantages": [
+        "Essential for front-end web development",
+        "Runs in all modern browsers without plugins",
+        "Versatile with both front-end and back-end (Node.js) capabilities",
+        "Large ecosystem of frameworks and libraries",
+        "High demand in the job market",
+        "Asynchronous programming capabilities",
+        "Continuous evolution with ECMAScript standards",
+        "Strong community support",
+        "Great for building interactive web applications",
+        "Cross-platform mobile development options"
+      ],
+      "tools": [
+        "VS Code",
+        "Node.js",
+        "React",
+        "Angular",
+        "Vue.js",
+        "Express.js",
+        "Webpack",
+        "Babel",
+        "Jest",
+        "ESLint"
+      ]
+    },
+    "PHP": {
+      "advantages": [
+        "Specifically designed for web development",
+        "Easy to learn with simple syntax",
+        "Runs on almost all servers and platforms",
+        "Excellent database integration (especially MySQL)",
+        "Large community and extensive documentation",
+        "Many popular CMS built with PHP (WordPress, Drupal)",
+        "Good performance for web applications",
+        "Mature ecosystem with many frameworks",
+        "Cost-effective hosting options",
+        "Still powers majority of websites"
+      ],
+      "tools": [
+        "PHPStorm",
+        "XAMPP/WAMP",
+        "Laravel",
+        "Symfony",
+        "CodeIgniter",
+        "Composer",
+        "PHPUnit",
+        "Twig",
+        "Doctrine",
+        "PHPMyAdmin"
+      ]
+    },
+    "Full Stack Developer": {
+      "advantages": [
+        "Comprehensive understanding of entire development process",
+        "Ability to work on both client and server sides",
+        "Higher earning potential compared to specialists",
+        "More job opportunities and flexibility",
+        "Better communication across teams",
+        "Ability to create complete applications independently",
+        "Understanding of how different layers interact",
+        "Versatility in project contributions",
+        "Faster prototyping capabilities",
+        "Career growth into architecture roles"
+      ],
+      "tools": [
+        "HTML/CSS/JavaScript",
+        "React/Angular/Vue",
+        "Node.js/Express",
+        "MongoDB/MySQL",
+        "Git/GitHub",
+        "RESTful APIs",
+        "Docker",
+        "Postman",
+        "VS Code",
+        "AWS/Azure"
+      ]
+    },
+    "Node.js": {
+      "advantages": [
+        "JavaScript on both client and server",
+        "Excellent for real-time applications",
+        "Non-blocking I/O for high performance",
+        "Large ecosystem of npm packages",
+        "Scalable for microservices architecture",
+        "Fast development cycle",
+        "Strong corporate backing",
+        "Great for data-intensive applications",
+        "Active and growing community",
+        "Cross-platform compatibility"
+      ],
+      "tools": [
+        "VS Code",
+        "Express.js",
+        "npm/yarn",
+        "MongoDB",
+        "Socket.io",
+        "Jest/Mocha",
+        "PM2",
+        "Nodemon",
+        "Postman",
+        "Docker"
+      ]
+    },
+    "ReactJS": {
+      "advantages": [
+        "Component-based architecture for reusability",
+        "Virtual DOM for improved performance",
+        "Strong community and corporate backing",
+        "Rich ecosystem of libraries and tools",
+        "Declarative programming style",
+        "Excellent for single-page applications",
+        "Easy to learn with good documentation",
+        "Strong job market demand",
+        "Cross-platform with React Native",
+        "Progressive Web App capabilities"
+      ],
+      "tools": [
+        "VS Code",
+        "Create React App",
+        "Redux",
+        "React Router",
+        "Material-UI",
+        "Axios",
+        "Jest/React Testing Library",
+        "Storybook",
+        "Next.js",
+        "Webpack"
+      ]
+    },
+    "Microsoft Azure": {
+      "advantages": [
+        "Strong integration with Microsoft products",
+        "Growing market share in enterprise cloud",
+        "Hybrid cloud capabilities",
+        "Comprehensive AI and analytics services",
+        "Strong security and compliance features",
+        "Global network of data centers",
+        "Pay-as-you-go pricing model",
+        "Excellent for Windows-based workloads",
+        "Growing IoT capabilities",
+        "Strong certification path"
+      ],
+      "tools": [
+        "Azure Portal",
+        "Azure CLI",
+        "Azure PowerShell",
+        "Azure DevOps",
+        "Azure Storage Explorer",
+        "Azure Functions",
+        "Azure Kubernetes Service",
+        "Azure Cosmos DB",
+        "Azure Monitor",
+        "ARM Templates"
+      ]
+    },
+    "AWS": {
+      "advantages": [
+        "Market leader in cloud services",
+        "Broadest range of services",
+        "Global infrastructure",
+        "Strong security and compliance",
+        "Pay-as-you-go pricing",
+        "Extensive documentation and training",
+        "Strong certification program",
+        "Mature ecosystem",
+        "Serverless computing options",
+        "Excellent scalability"
+      ],
+      "tools": [
+        "AWS Management Console",
+        "AWS CLI",
+        "AWS SDKs",
+        "CloudFormation",
+        "Terraform",
+        "EC2",
+        "S3",
+        "Lambda",
+        "RDS",
+        "CloudWatch"
+      ]
+    },
+    "DevOps": {
+      "advantages": [
+        "High demand in the job market",
+        "Better collaboration between teams",
+        "Faster time to market",
+        "Improved deployment frequency",
+        "More reliable releases",
+        "Better resource utilization",
+        "Improved monitoring and logging",
+        "Higher job satisfaction",
+        "Better product quality",
+        "Competitive advantage for organizations"
+      ],
+      "tools": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Ansible",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "Git/GitHub",
+        "AWS/Azure/GCP"
+      ]
+    },
+    "Cyber Security": {
+      "advantages": [
+        "High demand with talent shortage",
+        "Excellent salary potential",
+        "Diverse career paths",
+        "Constant learning opportunities",
+        "Ability to protect organizations",
+        "Work in various industries",
+        "Remote work possibilities",
+        "Clear career progression",
+        "Certification-driven field",
+        "Global opportunities"
+      ],
+      "tools": [
+        "Kali Linux",
+        "Metasploit",
+        "Wireshark",
+        "Nmap",
+        "Burp Suite",
+        "Nessus",
+        "Snort",
+        "Splunk",
+        "OpenVAS",
+        "Aircrack-ng"
+      ]
+    },
+    "Ethical Hacking": {
+      "advantages": [
+        "Legal penetration testing skills",
+        "High earning potential",
+        "Exciting and challenging work",
+        "Constant learning environment",
+        "Ability to improve security",
+        "Various certification paths",
+        "Work in multiple industries",
+        "Bug bounty opportunities",
+        "Flexible work arrangements",
+        "Global demand"
+      ],
+      "tools": [
+        "Kali Linux",
+        "Metasploit Framework",
+        "Burp Suite",
+        "John the Ripper",
+        "Hydra",
+        "SQLmap",
+        "OWASP ZAP",
+        "Aircrack-ng",
+        "Maltego",
+        "Cobalt Strike"
+      ]
+    },
+    "Selenium": {
+      "advantages": [
+        "Open-source and free to use",
+        "Supports multiple languages",
+        "Cross-browser testing",
+        "Supports parallel execution",
+        "Large community support",
+        "Integration with CI/CD tools",
+        "Supports mobile testing",
+        "Works with multiple frameworks",
+        "Good for regression testing",
+        "Extensive documentation"
+      ],
+      "tools": [
+        "Selenium WebDriver",
+        "Selenium Grid",
+        "TestNG",
+        "JUnit",
+        "Maven",
+        "Jenkins",
+        "Docker",
+        "Appium",
+        "Cucumber",
+        "Extent Reports"
+      ]
+    },
+    "Manual Testing Course": {
+      "advantages": [
+        "Foundation for all testing careers",
+        "No programming knowledge required initially",
+        "Understand software from user perspective",
+        "Develop analytical thinking",
+        "Good entry point into IT",
+        "Flexible work opportunities",
+        "Opportunity to work on diverse projects",
+        "Develop communication skills",
+        "Understand complete SDLC",
+        "Pathway to automation testing"
+      ],
+      "tools": [
+        "JIRA",
+        "TestRail",
+        "Bugzilla",
+        "Postman",
+        "Browser Dev Tools",
+        "Charles Proxy",
+        "Fiddler",
+        "TestLink",
+        "Excel",
+        "Mind Maps"
+      ]
+    },
+    "JMeter Course": {
+      "advantages": [
+        "Open-source performance testing tool",
+        "Supports multiple protocols",
+        "Good for load and stress testing",
+        "Detailed reporting capabilities",
+        "Distributed testing support",
+        "Integration with CI/CD",
+        "Large community support",
+        "Plugin support for extensibility",
+        "Record and playback feature",
+        "Cross-platform compatibility"
+      ],
+      "tools": [
+        "JMeter",
+        "BlazeMeter",
+        "Taurus",
+        "Grafana",
+        "InfluxDB",
+        "Jenkins",
+        "Docker",
+        "Postman",
+        "New Relic",
+        "Apache Bench"
+      ]
+    },
+    "ETL Testing": {
+      "advantages": [
+        "Specialized skill in data projects",
+        "Good understanding of data flow",
+        "High demand in data warehousing",
+        "Exposure to multiple databases",
+        "Understanding of business rules",
+        "Work with big data technologies",
+        "Good salary potential",
+        "Less competition than other testing areas",
+        "Opportunity to learn SQL deeply",
+        "Career growth into data engineering"
+      ],
+      "tools": [
+        "Informatica",
+        "Talend",
+        "SSIS",
+        "QuerySurge",
+        "SQL",
+        "Python",
+        "Selenium",
+        "Hadoop",
+        "Snowflake",
+        "Databricks"
+      ]
+    },
+    "LoadRunner": {
+      "advantages": [
+        "Industry standard for performance testing",
+        "Comprehensive protocol support",
+        "Detailed analysis capabilities",
+        "Good for enterprise applications",
+        "Cloud testing options",
+        "Integration with CI/CD",
+        "Good reporting features",
+        "Scripting flexibility",
+        "Support for mobile testing",
+        "Corporate backing"
+      ],
+      "tools": [
+        "LoadRunner",
+        "VuGen",
+        "Controller",
+        "Analysis",
+        "Jenkins",
+        "Docker",
+        "Splunk",
+        "AppDynamics",
+        "Dynatrace",
+        "New Relic"
+      ]
+    },
+    "SoapUI": {
+      "advantages": [
+        "Specialized for API testing",
+        "Supports REST and SOAP",
+        "Good for service virtualization",
+        "Scripting capabilities",
+        "Integration with CI/CD",
+        "Good reporting features",
+        "Open-source option available",
+        "Easy to create test cases",
+        "Data-driven testing support",
+        "Mock services capability"
+      ],
+      "tools": [
+        "SoapUI",
+        "ReadyAPI",
+        "Postman",
+        "Swagger",
+        "JMeter",
+        "RestAssured",
+        "Newman",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    "Data Science Course": {
+      "advantages": [
+        "High demand across industries",
+        "Excellent salary potential",
+        "Work with cutting-edge technologies",
+        "Solve complex business problems",
+        "Diverse application areas",
+        "Strong career growth prospects",
+        "Opportunity for continuous learning",
+        "Work with big data",
+        "Flexible work arrangements",
+        "Global opportunities"
+      ],
+      "tools": [
+        "Python",
+        "R",
+        "SQL",
+        "Jupyter Notebooks",
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "TensorFlow",
+        "Tableau",
+        "Hadoop"
+      ]
+    },
+    "Artificial Intelligence": {
+      "advantages": [
+        "Cutting-edge technology field",
+        "High salary potential",
+        "Diverse applications across industries",
+        "Opportunity to work on innovative projects",
+        "Strong career growth prospects",
+        "Continuous learning environment",
+        "Global opportunities",
+        "Potential for significant impact",
+        "Interdisciplinary applications",
+        "Future-proof skills"
+      ],
+      "tools": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "OpenCV",
+        "NLTK",
+        "spaCy",
+        "Pandas",
+        "NumPy",
+        "Jupyter"
+      ]
+    },
+    "Digital Marketing": {
+      "advantages": [
+        "Diverse career opportunities",
+        "Creative and analytical balance",
+        "Work across multiple industries",
+        "Flexible work arrangements",
+        "Entrepreneurial opportunities",
+        "Constant evolution keeps work interesting",
+        "Measurable results",
+        "Global opportunities",
+        "Low barrier to entry",
+        "Combine with other skills"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Google Ads",
+        "Facebook Ads Manager",
+        "SEMrush",
+        "Ahrefs",
+        "Mailchimp",
+        "HubSpot",
+        "Hootsuite",
+        "Canva",
+        "WordPress"
+      ]
+    },
+    "Excel": {
+      "advantages": [
+        "Used in almost all businesses",
+        "Valuable across all industries",
+        "Improves productivity",
+        "Foundation for data analysis",
+        "No coding required for basic tasks",
+        "Good for small business management",
+        "Visualization capabilities",
+        "Integration with other tools",
+        "Automation possibilities",
+        "Wide range of applications"
+      ],
+      "tools": [
+        "Excel",
+        "Power Query",
+        "Power Pivot",
+        "Power BI",
+        "VBA",
+        "Google Sheets",
+        "Tableau",
+        "SQL",
+        "Python",
+        "R"
+      ]
+    },
+    "HTML": {
+      "advantages": [
+        "Foundation of web development",
+        "Easy to learn basics",
+        "Essential for all web projects",
+        "Good starting point for coding",
+        "Immediate visual results",
+        "Works with CSS and JavaScript",
+        "No special tools required",
+        "Good for content creation",
+        "Understanding of web structure",
+        "Pathway to more advanced topics"
+      ],
+      "tools": [
+        "VS Code",
+        "Chrome DevTools",
+        "GitHub",
+        "Bootstrap",
+        "Sublime Text",
+        "Atom",
+        "Codepen",
+        "JSFiddle",
+        "W3C Validator",
+        "Adobe Dreamweaver"
+      ]
+    },
+    "UI and UX": {
+      "advantages": [
+        "Combine creativity and technology",
+        "High demand across industries",
+        "Direct impact on user satisfaction",
+        "Work on diverse projects",
+        "Good salary potential",
+        "Remote work opportunities",
+        "Continuous learning",
+        "Entrepreneurial opportunities",
+        "Work with cutting-edge technologies",
+        "Collaborative work environment"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "InVision",
+        "Balsamiq",
+        "Axure",
+        "Marvel",
+        "Proto.io",
+        "UserTesting",
+        "Hotjar"
+      ]
+    },
+    "Salesforce": {
+      "advantages": [
+        "Market-leading CRM platform",
+        "High demand for certified professionals",
+        "Good salary potential",
+        "Continuous platform updates",
+        "Strong ecosystem and community",
+        "Cloud-based with low infrastructure needs",
+        "Various career paths (admin, dev, consultant)",
+        "Remote work opportunities",
+        "Global opportunities",
+        "Clear certification path"
+      ],
+      "tools": [
+        "Salesforce Platform",
+        "Apex",
+        "Visualforce",
+        "Lightning Components",
+        "Salesforce DX",
+        "Workbench",
+        "Data Loader",
+        "Process Builder",
+        "Flow Builder",
+        "Einstein Analytics"
+      ]
+    },
+    "C Sharp": {
+      "advantages": [
+        "Versatile language for multiple platforms",
+        "Strongly typed for better code quality",
+        "Excellent for Windows applications",
+        "Good performance characteristics",
+        "Strong integration with .NET ecosystem",
+        "Good for game development (Unity)",
+        "Corporate backing from Microsoft",
+        "Good job opportunities",
+        "Continuous language improvements",
+        "Good for enterprise applications"
+      ],
+      "tools": [
+        "Visual Studio",
+        ".NET Framework",
+        ".NET Core",
+        "ASP.NET",
+        "Entity Framework",
+        "Xamarin",
+        "Unity",
+        "NuGet",
+        "LINQPad",
+        "ReSharper"
+      ]
+    },
+    "Workday HCM": {
+      "advantages": [
+        "Specialized in HR cloud solutions",
+        "Growing market adoption",
+        "Good salary potential for consultants",
+        "Work with enterprise clients",
+        "Continuous platform updates",
+        "Strong community and resources",
+        "Clear certification path",
+        "Integration capabilities",
+        "Good work-life balance",
+        "Global opportunities"
+      ],
+      "tools": [
+        "Workday HCM",
+        "Workday Studio",
+        "Enterprise Interface Builder",
+        "Report Writer",
+        "Composite Reports",
+        "Advanced Reports",
+        "Calculated Fields",
+        "Business Process Framework",
+        "Workday Prism Analytics",
+        "Workday Extend"
+      ]
+    },
+    "Salesforce Online Training": {
+      "advantages": [
+        "Flexible learning schedule",
+        "Access to latest platform features",
+        "Learn from certified instructors",
+        "Hands-on with real-world scenarios",
+        "Prepare for certifications",
+        "Community support",
+        "Cost-effective compared to in-person",
+        "Self-paced learning options",
+        "Access to recorded sessions",
+        "Global networking opportunities"
+      ],
+      "tools": [
+        "Trailhead",
+        "Developer Console",
+        "Salesforce CLI",
+        "VS Code with Salesforce Extensions",
+        "Workbench",
+        "Data Loader",
+        "Flow Builder",
+        "Process Builder",
+        "Apex",
+        "Lightning Web Components"
+      ]
+    },
+    "Salesforce Developer": {
+      "advantages": [
+        "High demand in job market",
+        "Good salary potential",
+        "Work with cutting-edge cloud technology",
+        "Continuous learning opportunities",
+        "Strong community support",
+        "Clear career progression",
+        "Remote work possibilities",
+        "Work across various industries",
+        "Certification-driven field",
+        "Entrepreneurial opportunities"
+      ],
+      "tools": [
+        "Apex",
+        "Visualforce",
+        "Lightning Components",
+        "Salesforce DX",
+        "VS Code",
+        "Git",
+        "Jenkins",
+        "Heroku",
+        "MuleSoft",
+        "Einstein Analytics"
+      ]
+    },
+    "Azure DevOps": {
+      "advantages": [
+        "Integrated toolchain for development",
+        "Seamless Microsoft ecosystem integration",
+        "Comprehensive CI/CD capabilities",
+        "Good for agile project management",
+        "Scalable for teams of all sizes",
+        "Cloud-based with no infrastructure management",
+        "Good reporting and analytics",
+        "Test management integration",
+        "Artifact management",
+        "Flexible pricing options"
+      ],
+      "tools": [
+        "Azure Repos",
+        "Azure Boards",
+        "Azure Pipelines",
+        "Azure Test Plans",
+        "Azure Artifacts",
+        "Azure CLI",
+        "ARM Templates",
+        "Terraform",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    "Angular": {
+      "advantages": [
+        "Full-fledged framework with batteries included",
+        "TypeScript for better tooling and scalability",
+        "Strong corporate backing from Google",
+        "Good for large-scale applications",
+        "Comprehensive documentation",
+        "Strong community support",
+        "Two-way data binding",
+        "Dependency injection",
+        "Modular architecture",
+        "Good for enterprise applications"
+      ],
+      "tools": [
+        "Angular CLI",
+        "RxJS",
+        "NgRx",
+        "Angular Material",
+        "Protractor",
+        "Karma",
+        "Jasmine",
+        "VS Code",
+        "Webpack",
+        "Docker"
+      ]
+    },
+    "WordPress": {
+      "advantages": [
+        "Powers over 40% of all websites",
+        "Easy to learn and use",
+        "Large theme and plugin ecosystem",
+        "Good for freelancing opportunities",
+        "No coding required for basic sites",
+        "Strong community support",
+        "Regular security updates",
+        "SEO-friendly",
+        "Good for content management",
+        "Scalable from blogs to enterprise"
+      ],
+      "tools": [
+        "WordPress",
+        "Elementor",
+        "Divi",
+        "WooCommerce",
+        "Yoast SEO",
+        "WP Rocket",
+        "ACF",
+        "BuddyPress",
+        "bbPress",
+        "WP-CLI"
+      ]
+    },
+    "CSS Online": {
+      "advantages": [
+        "Essential for web design",
+        "Immediate visual results",
+        "Creative outlet",
+        "Good for responsive design",
+        "Works with HTML and JavaScript",
+        "No special tools required",
+        "Good for UI/UX understanding",
+        "Foundation for front-end development",
+        "Continuous evolution with new features",
+        "Wide range of applications"
+      ],
+      "tools": [
+        "VS Code",
+        "Chrome DevTools",
+        "Sass",
+        "Less",
+        "PostCSS",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Foundation",
+        "CSS Grid",
+        "Flexbox"
+      ]
+    },
+    "Machine Learning": {
+      "advantages": [
+        "Cutting-edge technology applications",
+        "High salary potential",
+        "Work on innovative projects",
+        "Diverse industry applications",
+        "Strong career growth prospects",
+        "Continuous learning environment",
+        "Global opportunities",
+        "Potential for significant impact",
+        "Combine with domain expertise",
+        "Future-proof skills"
+      ],
+      "tools": [
+        "Python",
+        "R",
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "Keras",
+        "Pandas",
+        "NumPy",
+        "Jupyter",
+        "Matplotlib"
+      ]
+    },
+    "Data Science With Python": {
+      "advantages": [
+        "Python's simplicity and readability",
+        "Extensive data science libraries",
+        "Good for prototyping and production",
+        "Strong visualization capabilities",
+        "Integration with big data tools",
+        "Good job market demand",
+        "Active community support",
+        "Cross-platform compatibility",
+        "Good for machine learning integration",
+        "Continuous ecosystem growth"
+      ],
+      "tools": [
+        "Jupyter Notebook",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "scikit-learn",
+        "TensorFlow",
+        "PySpark",
+        "Dask",
+        "BeautifulSoup"
+      ]
+    },
+    "Machine Learning with Python": {
+      "advantages": [
+        "Python's simplicity for ML algorithms",
+        "Rich ecosystem of ML libraries",
+        "Good for both research and production",
+        "Strong visualization capabilities",
+        "Integration with data processing tools",
+        "Active community support",
+        "Cross-platform compatibility",
+        "Good documentation and resources",
+        "Continuous framework improvements",
+        "Industry adoption"
+      ],
+      "tools": [
+        "scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "XGBoost",
+        "LightGBM",
+        "OpenCV",
+        "NLTK",
+        "spaCy",
+        "Hugging Face"
+      ]
+    },
+    "Machine Learning using R": {
+      "advantages": [
+        "Strong statistical foundation",
+        "Excellent for data exploration",
+        "Good visualization capabilities",
+        "Comprehensive collection of packages",
+        "Strong in academia and research",
+        "Reproducible research capabilities",
+        "Good for statistical modeling",
+        "Active community in data science",
+        "Integration with other languages",
+        "Good documentation"
+      ],
+      "tools": [
+        "RStudio",
+        "caret",
+        "randomForest",
+        "xgboost",
+        "glmnet",
+        "shiny",
+        "ggplot2",
+        "dplyr",
+        "tidyr",
+        "rmarkdown"
+      ]
+    },
+    "MySQL": {
+      "advantages": [
+        "Most popular open-source database",
+        "Good performance characteristics",
+        "Scalable for various applications",
+        "Strong community support",
+        "Cross-platform compatibility",
+        "Good security features",
+        "Wide range of tools available",
+        "Good documentation",
+        "Used by many large companies",
+        "Clear career progression"
+      ],
+      "tools": [
+        "MySQL Workbench",
+        "phpMyAdmin",
+        "HeidiSQL",
+        "Sequel Pro",
+        "DBeaver",
+        "Percona Toolkit",
+        "MySQL Shell",
+        "MySQL Router",
+        "ProxySQL",
+        "Orchestrator"
+      ]
+    },
+    "SQL with PHP": {
+      "advantages": [
+        "Powerful combination for web development",
+        "Good for dynamic website creation",
+        "Wide hosting support",
+        "Large community and resources",
+        "Good performance for web applications",
+        "Secure when implemented properly",
+        "Cost-effective solution",
+        "Good for content management systems",
+        "Clear separation of concerns",
+        "Foundation for more advanced topics"
+      ],
+      "tools": [
+        "PHP",
+        "MySQL",
+        "phpMyAdmin",
+        "PDO",
+        "MySQLi",
+        "Laravel",
+        "CodeIgniter",
+        "Symfony",
+        "Doctrine",
+        "Composer"
+      ]
+    },
+    "Microsoft Dynamics 365": {
+      "advantages": [
+        "Integrated CRM and ERP capabilities",
+        "Strong Microsoft ecosystem integration",
+        "Cloud-based with regular updates",
+        "Good for enterprise solutions",
+        "Various industry-specific solutions",
+        "Clear certification path",
+        "Good job market demand",
+        "Remote implementation possibilities",
+        "Power Platform integration",
+        "AI capabilities"
+      ],
+      "tools": [
+        "Dynamics 365",
+        "Power Platform",
+        "Power Apps",
+        "Power Automate",
+        "Power BI",
+        "Azure",
+        "Common Data Service",
+        "XRM Toolbox",
+        "Dynamics SDK",
+        "Visual Studio"
+      ]
+    },
+    "Microsoft Excel": {
+      "advantages": [
+        "Ubiquitous in business environments",
+        "Versatile for various tasks",
+        "No coding required for basic use",
+        "Good for data organization",
+        "Powerful formulas and functions",
+        "Visualization capabilities",
+        "Pivot tables for data analysis",
+        "Integration with other Office tools",
+        "Macros for automation",
+        "Wide range of templates"
+      ],
+      "tools": [
+        "Excel",
+        "Power Query",
+        "Power Pivot",
+        "VBA",
+        "Power BI",
+        "Office Scripts",
+        "Excel Online",
+        "Google Sheets",
+        "Tableau",
+        "Python"
+      ]
+    },
+    "Excel Macros and VBA": {
+      "advantages": [
+        "Automate repetitive Excel tasks",
+        "Extend Excel functionality",
+        "Create custom functions",
+        "Good for business process automation",
+        "No additional software required",
+        "Improve productivity significantly",
+        "Good for data processing",
+        "Create user forms",
+        "Integrate with other Office apps",
+        "Career advancement potential"
+      ],
+      "tools": [
+        "Excel",
+        "VBA Editor",
+        "Power Query",
+        "Power Pivot",
+        "Access",
+        "Outlook",
+        "Word",
+        "PowerPoint",
+        "SQL Server",
+        "Python"
+      ]
+    },
+    "jQuery": {
+      "advantages": [
+        "Simplify DOM manipulation",
+        "Cross-browser compatibility",
+        "Large plugin ecosystem",
+        "Easy AJAX implementation",
+        "Good for animation effects",
+        "Lightweight",
+        "Good documentation",
+        "Active community support",
+        "Progressive enhancement",
+        "Good for legacy browser support"
+      ],
+      "tools": [
+        "jQuery",
+        "jQuery UI",
+        "jQuery Mobile",
+        "VS Code",
+        "Chrome DevTools",
+        "Grunt",
+        "Gulp",
+        "Webpack",
+        "Babel",
+        "ESLint"
+      ]
+    },
+    
+  "SAP IS Utilities Training": {
+    "advantages": [
+      "Regulatory compliance",
+      "End-to-end customer lifecycle",
+      "Advanced metering infrastructure",
+      "Complex billing capabilities",
+      "Real-time device monitoring",
+      "Multi-utility support",
+      "Customer self-service",
+      "Outage management",
+      "Field service integration",
+      "S/4HANA compatibility"
+    ],
+    "tools": [
+      "SAP Device Management",
+      "SAP Energy Data Management",
+      "SAP CRM for Utilities",
+      "SAP Fiori for Utilities",
+      "SAP Billing for Utilities",
+      "SAP Smart Meter Integration",
+      "SAP EAM for Utilities",
+      "SAP HANA Utilities",
+      "SAP Cloud for Utilities",
+      "SAP Predictive Maintenance"
+    ]
+  },
+    
+  "SAP IS Retail Training": {
+    "advantages": [
+      "Retail-specific processes",
+      "Omnichannel integration",
+      "Real-time inventory visibility",
+      "Automated replenishment",
+      "Promotion lifecycle management",
+      "POS data integration",
+      "Merchandise planning tools",
+      "Vendor collaboration",
+      "Store operations optimization",
+      "S/4HANA compatibility"
+    ],
+    "tools": [
+      "SAP CAR",
+      "SAP Fiori for Retail",
+      "SAP In-Store MIM",
+      "SAP POS DM",
+      "SAP BW for Retail",
+      "SAP HANA Retail Accelerator",
+      "SAP Ariba",
+      "SAP Customer Activity Repository",
+      "SAP Fashion Management",
+      "SAP Predictive Analytics"
+    ]
+  },
+    
+  "SAP FSCM (Retail) Training": {
+    "advantages": [
+      "Retail-specific financial processes",
+      "Integrated merchandise planning",
+      "Dynamic pricing capabilities",
+      "Vendor collaboration tools",
+      "Inventory optimization",
+      "Promotion lifecycle management",
+      "Store operations visibility",
+      "Real-time POS integration",
+      "Allocation planning automation",
+      "Compliance with retail standards"
+    ],
+    "tools": [
+      "SAP IS-Retail",
+      "SAP CAR (Customer Activity Repository)",
+      "SAP Fiori for Retail",
+      "SAP Ariba Integration",
+      "SAP POS DM",
+      "SAP BW for Retail Analytics",
+      "SAP HANA Retail Accelerator",
+      "SAP PI/PO for EDI",
+      "SAP Solution Manager",
+      "SAP FSCM Workbench"
+    ]
+  },
+
+    "SAP FICO": {
+      "advantages": [
+        "Core SAP module with high demand",
+        "Good salary potential",
+        "Work with enterprise clients",
+        "Global implementation opportunities",
+        "Clear career progression",
+        "Stable long-term career",
+        "Work across industries",
+        "Good work-life balance",
+        "Certification-driven field",
+        "Consulting opportunities"
+      ],
+      "tools": [
+        "SAP ERP",
+        "SAP Fiori",
+        "SAP GUI",
+        "SAP Solution Manager",
+        "SAP BW",
+        "SAP HANA",
+        "SAP Analytics Cloud",
+        "SAP BPC",
+        "SAP S/4HANA",
+        "SAP FSCM"
+      ]
+    },
+    "SAP MM": {
+      "advantages": [
+        "Core SAP module for procurement",
+        "Good integration with other modules",
+        "Work with supply chain processes",
+        "Good career stability",
+        "Global implementation experience",
+        "Good salary potential",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with latest S/4HANA"
+      ],
+      "tools": [
+        "SAP ERP",
+        "SAP MM",
+        "SAP S/4HANA MM",
+        "SAP Ariba",
+        "SAP Fiori",
+        "SAP GUI",
+        "SAP Solution Manager",
+        "SAP BW",
+        "SAP HANA",
+        "SAP Analytics Cloud"
+      ]
+    },
+    "SAP SD": {
+      "advantages": [
+        "Core SAP module for sales processes",
+        "Good integration with other modules",
+        "Work with order-to-cash cycle",
+        "Good career growth prospects",
+        "Global implementation experience",
+        "Good salary potential",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with latest S/4HANA"
+      ],
+      "tools": [
+        "SAP ERP",
+        "SAP SD",
+        "SAP S/4HANA SD",
+        "SAP CRM",
+        "SAP Fiori",
+        "SAP GUI",
+        "SAP Solution Manager",
+        "SAP BW",
+        "SAP HANA",
+        "SAP Analytics Cloud"
+      ]
+    },
+    "SAP PP": {
+      "advantages": [
+        "Core SAP module for manufacturing",
+        "Good integration with other modules",
+        "Work with production planning",
+        "Good for manufacturing industries",
+        "Global implementation experience",
+        "Good salary potential",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with latest S/4HANA"
+      ],
+      "tools": [
+        "SAP ERP",
+        "SAP PP",
+        "SAP S/4HANA PP",
+        "SAP MII",
+        "SAP ME",
+        "SAP Fiori",
+        "SAP GUI",
+        "SAP Solution Manager",
+        "SAP BW",
+        "SAP HANA"
+      ]
+    },
+    "SAP ABAP": {
+      "advantages": [
+        "SAP's primary programming language",
+        "High demand for customization",
+        "Good salary potential",
+        "Work across all SAP modules",
+        "Global opportunities",
+        "Stable long-term career",
+        "Good work-life balance",
+        "Clear career progression",
+        "Work with latest S/4HANA",
+        "Consulting opportunities"
+      ],
+      "tools": [
+        "SAP ABAP",
+        "SAP Fiori",
+        "SAP UI5",
+        "SAP NetWeaver",
+        "SAP Gateway",
+        "SAP BTP",
+        "SAP HANA",
+        "SAP GUI",
+        "Eclipse with ABAP Tools",
+        "SAP Solution Manager"
+      ]
+    },
+    "Oracle Financials": {
+      "advantages": [
+        "Comprehensive financial management",
+        "Good for large enterprises",
+        "Global implementation experience",
+        "Good salary potential",
+        "Stable long-term career",
+        "Work with latest cloud offerings",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with integrated ERP"
+      ],
+      "tools": [
+        "Oracle ERP Cloud",
+        "Oracle Financials",
+        "Oracle General Ledger",
+        "Oracle Payables",
+        "Oracle Receivables",
+        "Oracle Assets",
+        "Oracle Cash Management",
+        "Oracle Financial Reporting",
+        "Oracle BI Publisher",
+        "Oracle Integration Cloud"
+      ]
+    },
+    "Oracle SCM": {
+      "advantages": [
+        "Comprehensive supply chain solution",
+        "Good for manufacturing and logistics",
+        "Global implementation experience",
+        "Good salary potential",
+        "Work with latest cloud offerings",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with integrated ERP",
+        "Good career growth prospects"
+      ],
+      "tools": [
+        "Oracle SCM Cloud",
+        "Oracle Inventory",
+        "Oracle Order Management",
+        "Oracle Procurement",
+        "Oracle Logistics",
+        "Oracle Manufacturing",
+        "Oracle Planning",
+        "Oracle BI Publisher",
+        "Oracle Integration Cloud",
+        "Oracle Analytics"
+      ]
+    },
+    "Oracle HCM": {
+      "advantages": [
+        "Comprehensive HR solution",
+        "Good for large enterprises",
+        "Global implementation experience",
+        "Good salary potential",
+        "Work with latest cloud offerings",
+        "Various industry applications",
+        "Clear certification path",
+        "Consulting opportunities",
+        "Work with integrated ERP",
+        "Good work-life balance"
+      ],
+      "tools": [
+        "Oracle HCM Cloud",
+        "Oracle Core HR",
+        "Oracle Talent Management",
+        "Oracle Learning",
+        "Oracle Compensation",
+        "Oracle Benefits",
+        "Oracle Payroll",
+        "Oracle Time and Labor",
+        "Oracle BI Publisher",
+        "Oracle Analytics"
+      ]
+    },
+    "Full-Stack Java Training Online": {
+      "advantages": [
+        "Comprehensive coverage of front-end and back-end technologies",
+        "Hands-on experience with modern web development tools",
+        "Strong foundation in Java enterprise development",
+        "Integration of popular frameworks like Spring and Hibernate",
+        "Practical knowledge of database management",
+        "Understanding of RESTful API development",
+        "Version control with Git",
+        "Deployment and hosting strategies",
+        "Exposure to front-end frameworks like React",
+        "Testing and debugging skills"
+      ],
+      "tools": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "jQuery",
+        "React",
+        "Angular",
+        "Spring Framework",
+        "Hibernate",
+        "Maven",
+        "Git",
+        "RESTful APIs",
+        "JUnit"
+      ]
+    },
+    "Cisco UCS": {
+      "advantages": [
+        "In-depth knowledge of data center server management",
+        "Understanding of Cisco Unified Computing System architecture",
+        "Hands-on experience with UCS hardware components",
+        "Skills in installation and configuration of UCS",
+        "Knowledge of unified connectivity solutions",
+        "Expertise in service profiles and resource pools",
+        "Understanding of LAN and SAN connectivity",
+        "Security implementation skills",
+        "Backup and restore capabilities",
+        "System monitoring and maintenance skills"
+      ],
+      "tools": [
+        "Cisco UCS Manager",
+        "Cisco UCS Central",
+        "Cisco IMC Supervisor",
+        "Cisco UCS Performance Manager",
+        "Cisco Prime Data Center Network Manager",
+        "Cisco UCS Director",
+        "Cisco Intersight"
+      ]
+    },
+    "CISM Certification": {
+      "advantages": [
+        "Preparation for CISM certification exam",
+        "Understanding of information security governance",
+        "Risk management and compliance knowledge",
+        "Skills in security program development",
+        "Incident management capabilities",
+        "Alignment with business objectives",
+        "Global recognition of certification",
+        "Career advancement opportunities",
+        "Higher earning potential",
+        "Networking with security professionals"
+      ],
+      "tools": [
+        "Risk assessment frameworks",
+        "Security policy templates",
+        "Compliance checklists",
+        "Incident response plans",
+        "Security metrics dashboards",
+        "Governance frameworks",
+        "Business case templates"
+      ]
+    },
+    "CCNA Online Training": {
+      "advantages": [
+        "Foundation for networking career",
+        "Understanding of TCP/IP protocols",
+        "IPv4 and IPv6 addressing skills",
+        "Router and switch configuration knowledge",
+        "WAN technologies understanding",
+        "Troubleshooting network issues",
+        "Preparation for CCNA certification",
+        "Career opportunities in networking",
+        "Hands-on lab experience",
+        "Understanding of network security basics"
+      ],
+      "tools": [
+        "Cisco IOS",
+        "Packet Tracer",
+        "GNS3",
+        "Wireshark",
+        "PuTTY",
+        "SolarWinds Network Performance Monitor",
+        "PRTG Network Monitor"
+      ]
+    },
+    "CCNP": {
+      "advantages": [
+        "Advanced routing protocol knowledge",
+        "EIGRP and OSPF configuration skills",
+        "Route redistribution expertise",
+        "Border Gateway Protocol understanding",
+        "Layer 2 and Layer 3 switching knowledge",
+        "Spanning Tree Protocol mastery",
+        "High availability implementation",
+        "Troubleshooting complex networks",
+        "Preparation for CCNP certification",
+        "Career advancement in networking"
+      ],
+      "tools": [
+        "Cisco IOS",
+        "Cisco Nexus OS",
+        "GNS3",
+        "EVE-NG",
+        "Wireshark",
+        "SolarWinds Network Configuration Manager",
+        "Cisco Prime Infrastructure"
+      ]
+    },
+    "Fortinet Online": {
+      "advantages": [
+        "FortiAnalyzer configuration skills",
+        "FortiManager deployment knowledge",
+        "Unified Threat Management understanding",
+        "Firewall policy implementation",
+        "VPN configuration expertise",
+        "Web filtering capabilities",
+        "Intrusion prevention skills",
+        "High availability configuration",
+        "Preparation for NSE certifications",
+        "Career opportunities in cybersecurity"
+      ],
+      "tools": [
+        "FortiAnalyzer",
+        "FortiManager",
+        "FortiGate",
+        "FortiClient",
+        "FortiAuthenticator",
+        "FortiSIEM",
+        "FortiWeb"
+      ]
+    },
+    "Python Full Stack Developer Online": {
+      "advantages": [
+        "Full-stack development skills",
+        "Python programming expertise",
+        "Front-end development knowledge",
+        "Django/Flask framework experience",
+        "Database management skills",
+        "RESTful API development",
+        "Version control with Git",
+        "Deployment strategies knowledge",
+        "Front-end frameworks exposure",
+        "Testing and debugging capabilities"
+      ],
+      "tools": [
+        "Python",
+        "Django",
+        "Flask",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "PostgreSQL",
+        "MySQL",
+        "Git",
+        "Django REST Framework",
+        "AWS",
+        "Docker"
+      ]
+    },
+    "Blockchain Online": {
+      "advantages": [
+        "Understanding of blockchain fundamentals",
+        "Cryptocurrency knowledge",
+        "Smart contract development skills",
+        "Ethereum platform expertise",
+        "Blockchain architecture understanding",
+        "ICO creation knowledge",
+        "Distributed ledger technology",
+        "Consensus mechanism understanding",
+        "Real-world blockchain applications",
+        "Emerging trends in blockchain"
+      ],
+      "tools": [
+        "Ethereum",
+        "Solidity",
+        "Truffle",
+        "Ganache",
+        "Web3.js",
+        "Hyperledger Fabric",
+        "MultiChain",
+        "IPFS",
+        "MetaMask",
+        "Remix IDE"
+      ]
+    },
+    "CyberArk Training": {
+    "advantages": [
+      "Understanding privileged accounts and their significance",
+      "Overview of PAM principles and best practices",
+      "CyberArk solutions and products knowledge",
+      "Secure credential management",
+      "Privileged session monitoring and control",
+      "Application identity management",
+      "Secrets management with Conjur",
+      "CyberArk deployment and configuration",
+      "Access control policies and permissions",
+      "Monitoring, auditing, and reporting for compliance"
+    ],
+    "tools": [
+      "CyberArk Enterprise Password Vault (EPV)",
+      "CyberArk Privileged Session Manager (PSM)",
+      "CyberArk Application Identity Manager (AIM)",
+      "CyberArk Conjur",
+      "CyberArk Central Policy Manager (CPM)",
+      "CyberArk Password Vault Web Access (PVWA)",
+      "CyberArk REST API",
+      "CyberArk SDK"
+    ]
+  },
+  "Certified Information Systems Auditor (CISA)": {
+    "advantages": [
+      "Understanding IS audit processes and standards",
+      "Risk-based audit planning",
+      "IT governance and management knowledge",
+      "Information systems acquisition and development expertise",
+      "System implementation and testing methodologies",
+      "IT operations and business resilience",
+      "Information asset security frameworks",
+      "Security event and incident management",
+      "Compliance with laws and regulations",
+      "Audit reporting and communication techniques"
+    ],
+    "tools": [
+      "ACL Analytics",
+      "Splunk",
+      "Nessus",
+      "Wireshark",
+      "Metasploit",
+      "SolarWinds",
+      "SAP GRC",
+      "IBM QRadar",
+      "ServiceNow GRC",
+      "Archer RSA"
+    ]
+  },
+  "Certified Information Security Manager (CISM)": {
+    "advantages": [
+      "Information security governance framework",
+      "Aligning security strategy with corporate governance",
+      "Risk management and compliance",
+      "Security controls evaluation",
+      "Security program development and management",
+      "Security awareness and training",
+      "Incident management and response",
+      "Integration with business continuity and disaster recovery",
+      "Security metrics and reporting",
+      "Legal and regulatory compliance"
+    ],
+    "tools": [
+      "NIST Cybersecurity Framework",
+      "ISO 27001",
+      "COBIT",
+      "SIEM tools (e.g., Splunk, IBM QRadar)",
+      "Risk assessment tools (e.g., RSA Archer)",
+      "GRC platforms",
+      "Incident response tools",
+      "Security awareness training platforms",
+      "Vulnerability scanners (e.g., Nessus, Qualys)"
+    ]
+  },
+  "ChatGPT Online Course": {
+    "advantages": [
+      "Understanding generative AI and ChatGPT",
+      "Prompt engineering techniques",
+      "Productivity enhancement with ChatGPT",
+      "Content generation for marketing",
+      "Debugging and code documentation",
+      "API integration and deployment",
+      "GPT model fine-tuning",
+      "Building AI-powered chatbots",
+      "Web application development with ChatGPT",
+      "Exploring GPT-3 and other generative AI tools"
+    ],
+    "tools": [
+      "ChatGPT",
+      "OpenAI API",
+      "Python",
+      "Rasa",
+      "Power Automate",
+      "Excel",
+      "PowerBI",
+      "MongoDB",
+      "React",
+      "MidJourney",
+      "Dall-E 2",
+      "Hugging Face"
+    ]
+  },
+  "SAS Course": {
+    "advantages": [
+      "Understanding SAS software and architecture",
+      "Data manipulation and management",
+      "Output delivery system (ODS)",
+      "Combining and transforming datasets",
+      "Statistical and mathematical functions",
+      "Macro programming",
+      "Clinical research data handling",
+      "CDISC SDTM and ADaM models",
+      "Reporting and visualization",
+      "Advanced SAS topics (Proc SQL, macros)"
+    ],
+    "tools": [
+      "SAS Base",
+      "SAS Studio",
+      "SAS Enterprise Guide",
+      "SAS Macros",
+      "Proc SQL",
+      "SAS/STAT",
+      "SAS/GRAPH",
+      "SAS Clinical",
+      "SAS Viya"
+    ]
+  },
+  "Informatica": {
+    "advantages": [
+      "Data warehousing concepts",
+      "ETL process understanding",
+      "Working with relational and flat file sources/targets",
+      "Transformations and mappings",
+      "Advanced Informatica concepts (mapplets, worklets)",
+      "Performance optimization",
+      "Incremental aggregation",
+      "ETL testing methodologies",
+      "Real-world data integration solutions",
+      "Handling slowly changing dimensions"
+    ],
+    "tools": [
+      "Informatica PowerCenter",
+      "Informatica Designer",
+      "Informatica Repository Manager",
+      "Informatica Workflow Manager",
+      "Informatica Workflow Monitor",
+      "Informatica Data Quality",
+      "Informatica Cloud",
+      "Informatica B2B Data Exchange"
+    ]
+  },
+  "Informatica PowerCenter": {
+    "advantages": [
+      "Data warehousing architecture knowledge",
+      "Source-to-target ETL pipeline development",
+      "Advanced transformation logic",
+      "Workflow scheduling and monitoring",
+      "Session recovery and optimization",
+      "Push-down optimization",
+      "Handling large datasets efficiently",
+      "Metadata management",
+      "Integration with big data platforms",
+      "Enterprise-scale data integration"
+    ],
+    "tools": [
+      "Informatica PowerCenter Client Tools",
+      "Informatica Administrator",
+      "PowerExchange",
+      "Data Transformation Manager",
+      "PowerCenter Repository Service",
+      "PowerCenter Integration Service",
+      "PowerCenter Web Services Hub"
+    ]
+  },
+  "Informatica ILM": {
+    "advantages": [
+      "Information lifecycle management strategy",
+      "Data archiving techniques",
+      "Application retirement processes",
+      "Seamless data access",
+      "Compliance with data retention policies",
+      "Legal hold implementation",
+      "Database privilege management",
+      "Auditing and reporting",
+      "Enterprise data governance",
+      "Storage optimization"
+    ],
+    "tools": [
+      "Informatica ILM Data Archive",
+      "Informatica Enterprise Data Manager",
+      "Informatica File Archive Service",
+      "Informatica Discovery Portal",
+      "Informatica Retention Management",
+      "Informatica Secure@Source"
+    ]
+  },
+  "Perl Scripting": {
+    "advantages": [
+      "Text processing and manipulation",
+      "Regular expressions expertise",
+      "File handling capabilities",
+      "Database connectivity",
+      "System administration automation",
+      "CGI programming for web",
+      "Cross-platform scripting",
+      "Rapid prototyping",
+      "Package and module development",
+      "Metaprogramming techniques"
+    ],
+    "tools": [
+      "Perl interpreter",
+      "CPAN modules",
+      "DBI/DBD for database access",
+      "Template Toolkit",
+      "Mojolicious (web framework)",
+      "Perl Debugger",
+      "Perl IDE (e.g., Padre, Komodo)",
+      "Perl Tk for GUI"
+    ]
+  },
+  
+  "SAP Security GRC Training": {
+    "advantages": [
+      "Automated compliance monitoring",
+      "Real-time risk detection",
+      "Streamlined user provisioning",
+      "Emergency access governance",
+      "Pre-built SoD rule sets",
+      "Integration with SAP Fiori",
+      "Centralized audit reporting",
+      "Role lifecycle management",
+      "Customizable workflows",
+      "Continuous controls monitoring"
+    ],
+    "tools": [
+      "GRC Access Control 12.0",
+      "SAP Fiori GRC Apps",
+      "SAP Solution Manager",
+      "SAP Identity Management",
+      "SAP Cloud Identity Services",
+      "SAP HANA for GRC Analytics",
+      "SAP BusinessObjects for GRC Reporting",
+      "SAP Launchpad",
+      "SAP WebDispatcher",
+      "SAP NetWeaver"
+    ]
+  },
+  
+  "SAP Analytics Cloud Online Training": {
+    "advantages": [
+      "Unified BI, planning, and predictive",
+      "AI-powered augmented analytics",
+      "Real-time data connectivity",
+      "Collaborative planning",
+      "Pre-built business content",
+      "Responsive design for all devices",
+      "Embedded machine learning",
+      "Seamless SAP integration",
+      "What-if scenario modeling",
+      "Enterprise-grade security"
+    ],
+    "tools": [
+      "SAC Story Designer",
+      "Analytic Applications",
+      "Digital Boardroom",
+      "Smart Predict",
+      "SAP BW/4HANA Live Connection",
+      "SAP HANA Direct Access",
+      "SAP Data Warehouse Cloud",
+      "SAP Analytics Hub",
+      "SAC Mobile App",
+      "SAP Fiori Launchpad"
+    ]
+  },
+  
+  "SAP BI/BW Training": {
+    "advantages": [
+      "Enterprise-grade data warehousing",
+      "Pre-built business content",
+      "Multi-source data integration",
+      "Advanced analytics capabilities",
+      "HANA-optimized performance",
+      "Flexible reporting options",
+      "Real-time data processing",
+      "Scalable architecture",
+      "Integrated planning functions",
+      "Robust security model"
+    ],
+    "tools": [
+      "SAP BW/4HANA",
+      "SAP HANA Studio",
+      "SAP BusinessObjects",
+      "SAP Analytics Cloud",
+      "SAP Data Services",
+      "SAP SLT (Landscape Transformation)",
+      "SAP BEx Suite",
+      "SAP Web Intelligence",
+      "SAP Lumira",
+      "SAP Design Studio"
+    ]
+  },
+  
+  "SAP IBP Online Training": {
+    "advantages": [
+      "Real-time HANA-powered planning",
+      "Unified S&OP platform",
+      "Cloud-based collaboration",
+      "Advanced statistical forecasting",
+      "Excel-integrated planning",
+      "Scenario simulation",
+      "Multi-echelon inventory optimization",
+      "Seamless SAP integration",
+      "AI/ML capabilities",
+      "Mobile access"
+    ],
+    "tools": [
+      "SAP IBP Web UI",
+      "SAP IBP for Excel",
+      "SAP HANA Cloud",
+      "SAP Analytics Cloud",
+      "SAP Fiori",
+      "SAP Jam",
+      "SAP Data Intelligence",
+      "SAP Cloud Platform",
+      "SAP BW/4HANA",
+      "SAP UI5"
+    ]
+  },
+  
+  "SAP APO Online Training": {
+    "advantages": [
+      "End-to-end supply chain visibility",
+      "Advanced demand forecasting",
+      "Optimized inventory management",
+      "Real-time supply-demand matching",
+      "Multi-echelon inventory optimization",
+      "Constraint-based production scheduling",
+      "Seamless ERP integration via CIF",
+      "Scenario simulation capabilities",
+      "Exception-based alerting",
+      "Global allocation management"
+    ],
+    "tools": [
+      "SAP SCM (APO)",
+      "SAP CIF (Core Interface)",
+      "SAP BW for Planning",
+      "SAP LiveCache",
+      "SAP GUI for Planning",
+      "SAP Fiori for SCM",
+      "SAP HANA for SCM",
+      "SAP Solution Manager",
+      "SAP IBP (Integration)",
+      "SAP Analytics Cloud"
+    ]
+  },
+  
+  "SAP SRM Training": {
+    "advantages": [
+      "Streamlined procurement processes",
+      "Supplier collaboration portal",
+      "Automated workflow approvals",
+      "Integration with SAP MM/FI",
+      "Centralized contract management",
+      "Spend analysis capabilities",
+      "Self-service procurement",
+      "Electronic catalogs",
+      "Sourcing and auction tools",
+      "Service procurement management"
+    ],
+    "tools": [
+      "SAP Enterprise Buyer",
+      "SAP Business Workflow",
+      "SAP CRM Middleware",
+      "SAP NetWeaver",
+      "SAP GUI",
+      "SAP Solution Manager",
+      "SAP Ariba Integration",
+      "SAP Fiori",
+      "SAP BW for Spend Analytics",
+      "SAP PI/PO for integration"
+    ]
+  },
+  
+  "SAP CRM Training": {
+    "advantages": [
+      "360-degree customer view",
+      "Integrated marketing automation",
+      "Streamlined sales processes",
+      "Comprehensive service management",
+      "Real-time customer interactions",
+      "Territory and partner management",
+      "Seamless SAP ERP integration",
+      "Customizable Web UI",
+      "Advanced analytics and reporting",
+      "Mobile CRM capabilities"
+    ],
+    "tools": [
+      "SAP CRM Web Client",
+      "SAP Interaction Center",
+      "SAP Middleware",
+      "SAP Solution Manager",
+      "SAP NetWeaver",
+      "SAP GUI",
+      "SAP Business Objects",
+      "SAP BW/BI",
+      "SAP Fiori",
+      "SAP Cloud for Customer (C4C)"
+    ]
+  },
+  
+  "SAP Business Technology Platform (BTP)": {
+    "advantages": [
+      "Unified platform for extension and integration",
+      "Multi-cloud deployment flexibility",
+      "Pre-built business services",
+      "Enterprise-grade security",
+      "AI/ML and analytics integration",
+      "Low-code/no-code development options",
+      "Seamless SAP and non-SAP connectivity",
+      "Hyperautomation capabilities",
+      "Continuous innovation through SaaS updates",
+      "Global compliance standards"
+    ],
+    "tools": [
+      "SAP Business Application Studio",
+      "SAP Web IDE",
+      "SAP HANA Cloud",
+      "SAP Integration Suite",
+      "SAP AI Core/Launchpad",
+      "SAP Fiori Elements",
+      "SAP BTP Cockpit",
+      "SAP Continuous Integration and Delivery",
+      "SAP API Business Hub",
+      "SAP Cloud ALM"
+    ]
+  },
+  
+  "SAP FSCM": {
+    "advantages": [
+      "End-to-end financial supply chain management",
+      "Improved cash flow forecasting",
+      "Automated credit management",
+      "Efficient collections management",
+      "Dispute resolution optimization",
+      "Treasury and risk management integration",
+      "Real-time financial analytics",
+      "Seamless integration with SAP ERP",
+      "Industry-specific retail solutions",
+      "Enhanced vendor and customer collaboration"
+    ],
+    "tools": [
+      "SAP S/4HANA",
+      "SAP Fiori",
+      "SAP NetWeaver",
+      "SAP Solution Manager",
+      "SAP IDES System",
+      "SAP GUI",
+      "SAP ALE/EDI",
+      "SAP BW/BI",
+      "SAP HANA Studio",
+      "SAP FSCM Workbench"
+    ]
+  },
+    "C and C++ Programming": {
+    "advantages": [
+      "Foundation for system programming",
+      "High performance and efficiency",
+      "Direct memory access and control",
+      "Object-oriented programming with C++",
+      "Standard Template Library (STL)",
+      "Cross-platform development",
+      "Embedded systems development",
+      "Game development capabilities",
+      "Understanding computer architecture",
+      "Basis for learning other languages"
+    ],
+    "tools": [
+      "GCC/G++ Compiler",
+      "Visual Studio",
+      "Code::Blocks",
+      "Eclipse CDT",
+      "CLion",
+      "GDB Debugger",
+      "Valgrind",
+      "Make/CMake",
+      "Qt Creator",
+      "Vim/Emacs with C++ plugins"
+    ]
+  },
+  
+
+
+  
+  "TypeScript": {
+    "advantages": [
+      "Static typing for JavaScript",
+      "ES6+ features support",
+      "Object-oriented programming",
+      "Interface and type definitions",
+      "Generics for reusable code",
+      "Module system organization",
+      "Decorators for metaprogramming",
+      "Integration with existing JavaScript",
+      "Better tooling support",
+      "Scalable application development"
+    ],
+    "tools": [
+      "TypeScript compiler (tsc)",
+      "Visual Studio Code",
+      "Webpack",
+      "Babel",
+      "Jest (for testing)",
+      "Angular",
+      "React",
+      "Node.js",
+      "TypeScript ESLint",
+      "ts-node"
+    ]
+  },
+  "UNIX Shell Scripting": {
+    "advantages": [
+      "Automation of repetitive tasks",
+      "System administration skills",
+      "File and text processing",
+      "Process management",
+      "Job scheduling",
+      "Database connectivity",
+      "Regular expressions usage",
+      "Debugging shell scripts",
+      "Creating custom commands",
+      "Cross-platform scripting (Linux/Unix)"
+    ],
+    "tools": [
+      "Bash shell",
+      "awk",
+      "sed",
+      "grep",
+      "cron",
+      "vi/vim editor",
+      "find",
+      "tar",
+      "curl",
+      "MySQL client"
+    ]
+  },
+  "Groovy and Grails": {
+    "advantages": [
+      "JVM-based dynamic language",
+      "Simpler syntax than Java",
+      "Metaprogramming capabilities",
+      "Domain-specific language creation",
+      "Full-stack web framework",
+      "ORM with GORM",
+      "REST API development",
+      "Dependency injection",
+      "Testing framework support",
+      "Integration with Java ecosystem"
+    ],
+    "tools": [
+      "Groovy SDK",
+      "Grails framework",
+      "Gradle",
+      "Spock (testing framework)",
+      "IntelliJ IDEA",
+      "Spring Boot",
+      "Hibernate",
+      "GORM",
+      "sdkman"
+    ]
+  },
+  "PL and SQL": {
+    "advantages": [
+      "Database programming expertise",
+      "Stored procedures development",
+      "Complex business logic implementation",
+      "Exception handling",
+      "Performance optimization",
+      "Bulk operations",
+      "Dynamic SQL",
+      "Trigger creation",
+      "Package development",
+      "Advanced data manipulation"
+    ],
+    "tools": [
+      "Oracle Database",
+      "SQL Developer",
+      "TOAD",
+      "PL/SQL Developer",
+      "Oracle Forms",
+      "UTL_FILE package",
+      "DBMS_SQL package",
+      "DBMS_LOB package"
+    ]
+  },
+  "Django": {
+    "advantages": [
+      "Python web framework expertise",
+      "MVT architecture understanding",
+      "ORM for database interaction",
+      "Template system",
+      "Form handling",
+      "Authentication system",
+      "Admin interface",
+      "REST API development",
+      "Security features",
+      "Scalable application development"
+    ],
+    "tools": [
+      "Django framework",
+      "Python",
+      "Django REST framework",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "Celery",
+      "Redis",
+      "Django Channels",
+      "Django Debug Toolbar"
+    ]
+  },
+  "Python Django Online": {
+    "advantages": [
+      "Rapid web development",
+      "DRY principle implementation",
+      "Class-based views",
+      "ModelForms",
+      "CRUD operations",
+      "Middleware customization",
+      "Testing framework",
+      "Internationalization",
+      "Performance optimization",
+      "Deployment strategies"
+    ],
+    "tools": [
+      "Django",
+      "Python 3",
+      "Pip",
+      "Virtualenv",
+      "Postman",
+      "Django Extensions",
+      "Django Crispy Forms",
+      "Django Allauth",
+      "Gunicorn",
+      "Nginx"
+    ]
+  },
+  "JQuery Course": {
+    "advantages": [
+      "DOM manipulation",
+      "Event handling",
+      "AJAX implementation",
+      "Animation effects",
+      "Cross-browser compatibility",
+      "Plugin development",
+      "JSON parsing",
+      "UI component creation",
+      "Form validation",
+      "Progressive enhancement"
+    ],
+    "tools": [
+      "jQuery library",
+      "jQuery UI",
+      "AJAX",
+      "JSON",
+      "Bootstrap",
+      "Chrome Developer Tools",
+      "Visual Studio Code",
+      "npm",
+      "Git"
+    ]
+  },
+  
+  
+  
+  "SAP Transportation Management": {
+    "advantages": [
+    "In-depth knowledge of SAP Transportation Management",
+    "Hands-on experience with ABAP programming",
+    "Understanding of SAP logistics modules",
+    "Practical skills in SAP implementation",
+    "Knowledge of integration techniques (ALE, EDI, IDocs)",
+    "Expertise in SAP customization techniques",
+    "Understanding of SAP workflow processes",
+    "Skills in SAP reporting and forms development"
+  ],
+  "tools": [
+    "SAP ERP",
+    "ABAP Development Tools",
+    "SAP GUI",
+    "SAP NetWeaver",
+    "SAP HANA (optional)",
+    "SAP Transportation Management module",
+    "SAP Solution Manager",
+    "SAP IDoc Interface",
+    "SAP ALE Configuration Tools"
+  ]
+  },
+
+  "SAP Quality Management (QM)": {
+    
+  "advantages": [
+    "End-to-end understanding of quality management processes",
+    "Hands-on experience with inspection planning",
+    "Integration knowledge with MM, PP and SD modules",
+    "Skills in vendor quality performance management",
+    "Ability to configure quality certificates",
+    "Expertise in quality notifications and analyses",
+    "Understanding of regulatory compliance aspects",
+    "Knowledge of quality control in manufacturing"
+  ],
+  "tools": [
+    "SAP ECC or S/4HANA QM Module",
+    "Inspection Plan Builder",
+    "Quality Notification System",
+    "Quality Information System (QIS)",
+    "Vendor Evaluation Tools",
+    "Certificate Processing System",
+    "ABAP Development Environment (for custom reports)",
+    "SAP Fiori Apps for Quality Management"
+  ]
+
+  },
+  "SAP SuccessFactors Online Training" :{
+    
+  "advantages": [
+    "Hands-on experience with SAP SuccessFactors cloud platform",
+    "Practical knowledge of Employee Central configuration",
+    "Skills in Role-Based Permissioning (RBP)",
+    "Understanding of SAP SuccessFactors integration tools",
+    "Expertise in Metadata Framework (MDF)",
+    "Knowledge of global HR processes",
+    "Ability to customize foundation objects",
+    "Skills in workflow and business rule configuration"
+  ],
+  "tools": [
+    "SAP SuccessFactors Provisioning",
+    "Admin Center",
+    "Employee Central",
+    "Metadata Framework (MDF)",
+    "Business Configuration UI",
+    "Integration Center",
+    "Report Center",
+    "SuccessFactors Mobile App"
+  ]
+},
+"SAP Ariba Training": {
+  "advantages": [
+    "Hands-on experience with SAP Ariba cloud platform",
+    "Practical knowledge of procure-to-pay processes",
+    "Skills in supplier collaboration and enablement",
+    "Understanding of Ariba-SAP integration methods",
+    "Expertise in strategic sourcing and auctions",
+    "Knowledge of contract lifecycle management",
+    "Ability to configure procurement catalogs",
+    "Skills in supplier performance monitoring"
+  ],
+  "tools": [
+    "SAP Ariba Procurement",
+    "Ariba Sourcing",
+    "Ariba Contracts",
+    "Supplier Lifecycle & Performance",
+    "Ariba Network",
+    "Cloud Integration Gateway (CIG)",
+    "SAP Cloud Connector",
+    "Ariba Analysis & Reporting"
+  ]
+},
+"SAP Master Data Governance (MDG) on S/4HANA":{
+  "advantages": [
+    "End-to-end understanding of master data governance",
+    "Hands-on experience with S/4HANA embedded MDG",
+    "Skills in configuring multiple master data domains",
+    "Expertise in data quality and validation frameworks",
+    "Ability to design custom governance objects",
+    "Knowledge of consolidation and mass processing",
+    "Understanding of SAP Fiori for MDG",
+    "Integration skills with SAP/non-SAP systems"
+  ],
+  "tools": [
+    "SAP S/4HANA MDG",
+    "Floorplan Manager (FPM)",
+    "Business Rules Framework Plus (BRF+)",
+    "SAP Fiori Apps",
+    "Web Dynpro",
+    "SAP Data Services",
+    "Data Replication Framework (DRF)",
+    "CDS Views"
+  ]
+},
+"Adobe Photoshop Certification":{
+  "advantages": [
+    "Industry-recognized Adobe certification preparation",
+    "Hands-on training with real-world projects",
+    "Master non-destructive editing workflows",
+    "Learn professional retouching techniques",
+    "Develop portfolio-ready design skills",
+    "Understand print and digital production standards",
+    "Gain automation skills for efficiency",
+    "Learn current industry best practices"
+  ],
+  "software": [
+    "Adobe Photoshop CC (Latest Version)",
+    "Adobe Bridge",
+    "Camera RAW",
+    "Adobe Fonts",
+    "Adobe Stock"
+  ]
+},
+"SAP BASIS Administration": {
+  "advantages": [
+    "Hands-on experience with SAP administration",
+    "Comprehensive coverage of BASIS tasks",
+    "Real-world system administration scenarios",
+    "Oracle database administration skills",
+    "Performance tuning knowledge",
+    "Transport management expertise",
+    "Patch and upgrade management",
+    "Troubleshooting and problem-solving"
+  ],
+  "tools": [
+    "SAP NetWeaver AS",
+    "SAP HANA (optional)",
+    "Oracle Database",
+    "SAP Solution Manager",
+    "SAP HANA Studio",
+    "SAP GUI",
+    "SAP MMC",
+    "BR*Tools",
+    "SAPDBA"
+  ]
+},
+"SAP Sales Cloud (C4C) Training": {
+  "advantages": [
+    "Hands-on with latest SAP Sales Cloud release",
+    "Real-world CPQ implementation skills",
+    "S/4HANA integration expertise",
+    "Mobile sales enablement techniques",
+    "Practical forecasting configuration",
+    "GDPR-compliant CRM setup",
+    "Embedded analytics mastery",
+    "Certification-ready preparation"
+  ],
+  "tools": [
+    "SAP Sales Cloud",
+    "SAP Business Technology Platform",
+    "SAP Integration Suite",
+    "SAP Analytics Cloud",
+    "SAP Mobile Start",
+    "SAP Fiori",
+    "SAP Launchpad Service"
+  ]
+},
+
+  "SAP IS Insurance Training": {
+    "advantages": [
+      "End-to-end claims processing",
+      "Automated collections",
+      "Policy lifecycle management",
+      "Advanced compensation calculation",
+      "Regulatory compliance",
+      "Commission automation",
+      "Fraud detection",
+      "S/4HANA compatibility",
+      "Real-time analytics",
+      "Multi-channel integration"
+    ],
+    "tools": [
+      "SAP Claims Management",
+      "SAP Collections Management",
+      "SAP Disbursements",
+      "SAP Commission Engine",
+      "SAP Fiori for Insurance",
+      "SAP Policy Management",
+      "SAP Insurance Analytics",
+      "SAP HANA for Insurance",
+      "SAP Cloud for Insurance",
+      "SAP AI for Claims"
+    ]
+  },
+  
+  "SAP PLM Training": {
+    "advantages": [
+      "End-to-end product lifecycle",
+      "Engineering change control",
+      "Regulatory compliance",
+      "Sustainable product development",
+      "Real-time collaboration",
+      "Quality integration",
+      "Manufacturing readiness",
+      "S/4HANA compatibility",
+      "Digital twin support",
+      "Innovation management"
+    ],
+    "tools": [
+      "SAP Engineering Control Center",
+      "SAP Product Structure",
+      "SAP Document Management",
+      "SAP Change Management",
+      "SAP Recipe Development",
+      "SAP Compliance Management",
+      "SAP Portfolio Management",
+      "SAP HANA for PLM",
+      "SAP Fiori for PLM",
+      "SAP Predictive Engineering"
+    ]
+  },
+  
+  "SAP LE Certification Training": {
+    "advantages": [
+      "Legal entity compliance",
+      "Automated monitoring",
+      "Risk mitigation",
+      "Audit readiness",
+      "Workflow automation",
+      "Cross-system integration",
+      "Real-time reporting",
+      "Regulatory updates",
+      "Data security",
+      "Global operations support"
+    ],
+    "tools": [
+      "SAP Legal Entity Management",
+      "SAP Compliance Calendar",
+      "SAP Governance Portal",
+      "SAP Risk Management",
+      "SAP Audit Management",
+      "SAP Fiori for Legal",
+      "SAP HANA for Legal",
+      "SAP Process Control",
+      "SAP Business Integrity Screening",
+      "SAP Contract Lifecycle Management"
+    ]
+  },
+   "SAP Healthcare Training": {
+    "advantages": [
+      "Patient-centric workflows",
+      "Clinical process automation",
+      "Regulatory compliance",
+      "Interoperability standards",
+      "Real-time documentation",
+      "Revenue cycle management",
+      "Quality reporting",
+      "S/4HANA compatibility",
+      "Telehealth integration",
+      "Predictive analytics"
+    ],
+    "tools": [
+      "SAP Patient Management",
+      "SAP Clinical Workplace",
+      "SAP Medical Research",
+      "SAP Healthcare Analytics",
+      "SAP Fiori for Healthcare",
+      "SAP Revenue Cycle Management",
+      "SAP HANA for Healthcare",
+      "SAP Cloud for Healthcare",
+      "SAP AI for Diagnostics",
+      "SAP IoT for Medical Devices"
+    ]
+  
+
+
+  },
+  
+  "SAP IS Banking Training": {
+    "advantages": [
+      "End-to-end banking processes",
+      "Real-time payment processing",
+      "Risk management",
+      "Regulatory compliance",
+      "Product innovation",
+      "Customer 360 view",
+      "Financial analytics",
+      "S/4HANA compatibility",
+      "Open banking APIs",
+      "Fraud detection"
+    ],
+    "tools": [
+      "SAP Loans Management",
+      "SAP Payments Engine",
+      "SAP Product Configurator",
+      "SAP Financial Conditions",
+      "SAP Fiori for Banking",
+      "SAP Banking Analytics",
+      "SAP HANA for Banking",
+      "SAP Cloud for Banking",
+      "SAP AI for Fraud Detection",
+      "SAP Blockchain for Payments"
+    ]
+  },
+  
+  "SAP BPC Online Training": {
+    "advantages": [
+      "Unified planning platform",
+      "Real-time consolidation",
+      "Scenario modeling",
+      "Regulatory reporting",
+      "Workflow automation",
+      "Multi-currency support",
+      "Predictive planning",
+      "S/4HANA compatibility",
+      "Mobile analytics",
+      "AI-enhanced forecasting"
+    ],
+    "tools": [
+      "SAP BPC Standard",
+      "SAP BPC Optimized",
+      "SAP Analysis for Office",
+      "SAP Fiori for Planning",
+      "SAP Predictive Planning",
+      "SAP Consolidation",
+      "SAP HANA for Planning",
+      "SAP Cloud for Planning",
+      "SAP Digital Boardroom",
+      "SAP AI for Forecasting"
+    ]
+  },
+  
+  "SAP PM Course": {
+    "advantages": [
+      "Asset lifecycle management",
+      "Predictive maintenance",
+      "Downtime reduction",
+      "Regulatory compliance",
+      "Mobile workforce enablement",
+      "IoT integration",
+      "Spare parts optimization",
+      "S/4HANA compatibility",
+      "Augmented reality support",
+      "Energy monitoring"
+    ],
+    "tools": [
+      "SAP Maintenance Planning",
+      "SAP Technical Objects",
+      "SAP Notification Management",
+      "SAP Fiori for Maintenance",
+      "SAP Predictive Maintenance",
+      "SAP Asset Intelligence",
+      "SAP HANA for PM",
+      "SAP Cloud for Maintenance",
+      "SAP IoT for Equipment",
+      "SAP AR for Field Service"
+    ]
+  },
+  
+  "SAP MDM Online Training": {
+    "advantages": [
+      "Single source of truth",
+      "Data quality management",
+      "Cross-system consistency",
+      "Regulatory compliance",
+      "Workflow automation",
+      "Hierarchy management",
+      "Real-time syndication",
+      "S/4HANA compatibility",
+      "AI-based matching",
+      "Cloud-ready architecture"
+    ],
+    "tools": [
+      "SAP MDM Console",
+      "SAP Data Manager",
+      "SAP Import Manager",
+      "SAP Syndication Server",
+      "SAP Fiori for MDM",
+      "SAP Data Quality",
+      "SAP HANA for MDM",
+      "SAP Cloud for MDM",
+      "SAP AI for Data Matching",
+      "SAP Information Steward"
+    ]
+  },
+  
+  "SAP ESS Online": {
+    "advantages": [
+      "Employee empowerment",
+      "HR process automation",
+      "Mobile accessibility",
+      "Real-time data updates",
+      "Reduced administrative workload",
+      "Self-service capabilities",
+      "Manager dashboard",
+      "Integration with SAP HCM",
+      "Fiori compatibility",
+      "Global workforce support"
+    ],
+    "tools": [
+      "SAP Fiori ESS",
+      "SAP Portal",
+      "SAP HCM Integration",
+      "SAP Mobile App",
+      "SAP Workflow",
+      "SAP Document Management",
+      "SAP Travel Management",
+      "SAP Payroll Integration",
+      "SAP Time Management",
+      "SAP Benefits Administration"
+    ]
+  },
+  
+  "SAP Hybris E-Commerce Online Training": {
+    "advantages": [
+      "Omni-channel commerce",
+      "Personalized experiences",
+      "B2B/B2C flexibility",
+      "Cloud-ready architecture",
+      "AI-powered merchandising",
+      "Mobile commerce",
+      "Headless commerce",
+      "S/4HANA integration",
+      "Scalable platform",
+      "Global marketplace"
+    ],
+    "tools": [
+      "SAP Hybris Commerce",
+      "SAP Backoffice",
+      "SAP Product Cockpit",
+      "SAP Smart Edit",
+      "SAP Promotion Engine",
+      "SAP Customer Service",
+      "SAP Order Management",
+      "SAP Data Hub",
+      "SAP Fiori for Commerce",
+      "SAP AI Business Services"
+    ]
+  },
+  
+  "SAP BO": {
+    "advantages": [
+      "Enterprise reporting",
+      "Self-service BI",
+      "Data visualization",
+      "Mobile analytics",
+      "Centralized security",
+      "Multi-source integration",
+      "Scheduled distribution",
+      "SAP integration",
+      "Predictive analytics",
+      "Cloud extension"
+    ],
+    "tools": [
+      "SAP Web Intelligence",
+      "SAP Crystal Reports",
+      "SAP Dashboard Design",
+      "SAP Universe Design",
+      "SAP BI Launchpad",
+      "SAP Analysis for Office",
+      "SAP Lumira",
+      "SAP Predictive Analytics",
+      "SAP BusinessObjects Explorer",
+      "SAP HANA Integration"
+    ]
+  },
+  
+  "SAP BOBJ Training": {
+    "advantages": [
+      "Advanced analytics",
+      "Unified BI platform",
+      "Real-time reporting",
+      "Data governance",
+      "Embedded analytics",
+      "Collaborative BI",
+      "SAP integration",
+      "Mobile BI",
+      "Cloud deployment",
+      "AI-enhanced insights"
+    ],
+    "tools": [
+      "SAP BusinessObjects BI",
+      "SAP Analytics Cloud",
+      "SAP Data Warehouse Cloud",
+      "SAP HANA Analytics",
+      "SAP Predictive Analytics",
+      "SAP Lumira",
+      "SAP Design Studio",
+      "SAP BusinessObjects Mobile",
+      "SAP BW Integration",
+      "SAP Fiori for Analytics"
+    ]
+  },
+  
+  "SAP Fieldglass": {
+    "advantages": [
+      "Contingent workforce",
+      "Services procurement",
+      "SOW management",
+      "Compliance automation",
+      "Supplier network",
+      "Analytics insights",
+      "Mobile time tracking",
+      "Invoice automation",
+      "ERP integration",
+      "Global deployment"
+    ],
+    "tools": [
+      "SAP Fieldglass Platform",
+      "SAP Ariba Integration",
+      "SAP SuccessFactors Integration",
+      "SAP Analytics for Contingent",
+      "SAP Fiori for Fieldglass",
+      "SAP API Hub",
+      "SAP Cloud Platform",
+      "SAP Integration Suite",
+      "SAP Mobile App",
+      "SAP AI for Procurement"
+    ]
+  },
+  
+  "SAP Data Archiving": {
+    "advantages": [
+      "System performance",
+      "Compliance readiness",
+      "Storage optimization",
+      "Data lifecycle",
+      "Audit trails",
+      "Legal retention",
+      "Selective access",
+      "ERP integration",
+      "HANA compatibility",
+      "Cloud archiving"
+    ],
+    "tools": [
+      "SAP ArchiveLink",
+      "SAP Data Retention Tool",
+      "SAP Information Lifecycle",
+      "SAP Content Server",
+      "SAP OpenText Integration",
+      "SAP HANA Data Tiering",
+      "SAP Fiori for Archiving",
+      "SAP Cloud Archiving",
+      "SAP ILM Studio",
+      "SAP Document Management"
+    ]
+  },
+  
+  "SAP Solution Manager": {
+    "advantages": [
+      "Centralized monitoring",
+      "Incident management",
+      "Change control",
+      "Test automation",
+      "Landscape visualization",
+      "Early warning",
+      "Process integration",
+      "S/4HANA readiness",
+      "Cloud operations",
+      "AI-powered diagnostics"
+    ],
+    "tools": [
+      "SAP Focused Run",
+      "SAP Cloud ALM",
+      "SAP ChaRM",
+      "SAP Test Suite",
+      "SAP Solution Documentation",
+      "SAP Fiori for SolMan",
+      "SAP Cloud Platform Integration",
+      "SAP AIOps",
+      "SAP Cloud Application Lifecycle",
+      "SAP Maintenance Optimizer"
+    ]
+  },
+  
+  "SAP Aerospace & Defense": {
+    "advantages": [
+      "Program-centric ERP",
+      "Serialization",
+      "MRO optimization",
+      "Regulatory compliance",
+      "Quality management",
+      "Engineering integration",
+      "Project costing",
+      "S/4HANA ready",
+      "Defense contracting",
+      "Aftermarket services"
+    ],
+    "tools": [
+      "SAP S/4HANA for A&D",
+      "SAP PLM for A&D",
+      "SAP MRO",
+      "SAP Quality Management",
+      "SAP Project System",
+      "SAP Fiori for A&D",
+      "SAP Manufacturing Integration",
+      "SAP Engineering Control Center",
+      "SAP Asset Intelligence",
+      "SAP Predictive Maintenance"
+    ]
+  },
+  
+  "Oracle CPQ Training": {
+    "advantages": [
+      "Streamlined quoting processes",
+      "Complex product configuration",
+      "Automated approvals",
+      "Integrated document generation",
+      "Multi-channel commerce",
+      "Real-time pricing",
+      "Customer self-service quoting",
+      "Seamless CRM integration",
+      "Cloud-native solution",
+      "AI-powered recommendations"
+    ],
+    "tools": [
+      "Oracle CPQ Cloud",
+      "Configuration Modeler",
+      "Commerce Process Designer",
+      "Document Designer",
+      "Bulk Data Tools",
+      "Rules Engine",
+      "Approval Workflows",
+      "Oracle Sales Cloud Integration",
+      "Oracle ERP Integration",
+      "Oracle Analytics for CPQ"
+    ]
+  
+},
+
+  "Oracle Procure to Pay Training": {
+    "advantages": [
+      "End-to-end procurement automation",
+      "Supplier lifecycle management",
+      "Automated three-way matching",
+      "Advanced approval workflows",
+      "Receipt-to-invoice reconciliation",
+      "Tax compliance",
+      "Multi-currency support",
+      "Real-time budget checking",
+      "Mobile procurement",
+      "Seamless ERP integration"
+    ],
+    "tools": [
+      "Oracle Purchasing",
+      "Oracle iProcurement",
+      "Oracle Payables",
+      "Oracle Supplier Portal",
+      "Oracle Contracts",
+      "Oracle Sourcing",
+      "Oracle Receiving",
+      "Oracle Workflow",
+      "Oracle Self-Service Procurement",
+      "Oracle Fusion Procurement"
+    ]
+  },
+  
+  "Oracle Hyperion EPM Training": {
+    "advantages": [
+      "Enterprise financial consolidation",
+      "Driver-based planning",
+      "Multi-dimensional analysis",
+      "Regulatory reporting compliance",
+      "Scenario modeling",
+      "Profitability analysis",
+      "Cloud and on-premises deployment",
+      "Real-time analytics",
+      "Integrated financial close",
+      "AI-powered forecasting"
+    ],
+    "tools": [
+      "Hyperion Financial Management",
+      "Hyperion Planning",
+      "Essbase",
+      "Financial Reporting",
+      "Smart View",
+      "FDMEE",
+      "DRM",
+      "EPBCS",
+      "FCCS",
+      "Oracle Analytics Cloud"
+    ]
+  },
+    "Oracle GRC Controls Suite Fundamentals": {
+    "advantages": [
+      "Continuous controls monitoring",
+      "Automated segregation of duties",
+      "Real-time risk detection",
+      "Multi-platform support",
+      "Pre-built control libraries",
+      "Automated remediation",
+      "Regulatory compliance",
+      "Enterprise-wide visibility",
+      "Customizable dashboards",
+      "Integration with Oracle ERP"
+    ],
+    "tools": [
+      "Access Controls Governor",
+      "Transaction Controls Governor",
+      "Configuration Controls Governor",
+      "GRC Intelligence Dashboards",
+      "Risk Management Console",
+      "Remediation Workbench",
+      "GRC Mobile App",
+      "Oracle Fusion GRC",
+      "Oracle Cloud Controls",
+      "GRC Analytics"
+    ]
+  },
+  
+  "Oracle Developer Course": {
+    "advantages": [
+      "Comprehensive database programming",
+      "Rapid application development",
+      "Enterprise reporting capabilities",
+      "PL/SQL optimization",
+      "Form-based user interfaces",
+      "Parameter-driven reports",
+      "Database security integration",
+      "Oracle ecosystem compatibility",
+      "Legacy system maintenance",
+      "Cloud migration readiness"
+    ],
+    "tools": [
+      "Oracle SQL Developer",
+      "PL/SQL Developer",
+      "Oracle Forms Builder",
+      "Oracle Reports Builder",
+      "Oracle JDeveloper",
+      "SQL*Plus",
+      "Oracle Application Express",
+      "Oracle Database",
+      "Oracle Cloud Infrastructure",
+      "Oracle REST Data Services"
+    ]
+  },
+  
+  "Oracle SQL & PL/SQL": {
+    "advantages": [
+      "Comprehensive SQL coverage",
+      "Procedural programming capability",
+      "Database performance optimization",
+      "Transaction control",
+      "Error handling",
+      "Modular code development",
+      "Database security integration",
+      "Oracle-specific features",
+      "Cloud database compatibility",
+      "Legacy system maintenance"
+    ],
+    "tools": [
+      "Oracle Database",
+      "SQL*Plus",
+      "Oracle SQL Developer",
+      "PL/SQL Developer",
+      "Oracle Application Express",
+      "Oracle Cloud Database",
+      "SQLcl",
+      "Oracle Enterprise Manager",
+      "Oracle REST Data Services",
+      "Oracle Data Pump"
+    ]
+  },
+  
+  "Oracle Forms and Reports": {
+    "advantages": [
+      "Rapid application development",
+      "Data-aware components",
+      "Complex report design",
+      "Parameter-driven output",
+      "PL/SQL integration",
+      "Web deployment options",
+      "Oracle database integration",
+      "Legacy system maintenance",
+      "Cloud migration pathways",
+      "Enterprise reporting capabilities"
+    ],
+    "tools": [
+      "Oracle Forms Builder",
+      "Oracle Reports Builder",
+      "Oracle JDeveloper",
+      "PL/SQL Developer",
+      "Oracle SQL Developer",
+      "Oracle Application Express",
+      "Oracle Enterprise Manager",
+      "Oracle WebLogic Server",
+      "Oracle REST Data Services",
+      "Oracle Cloud Infrastructure"
+    ]
+  },
+  
+  "Oracle Application Framework (OAF)": {
+    "advantages": [
+      "MVC architecture",
+      "EBS integration",
+      "JDeveloper toolset",
+      "Reusable components",
+      "Personalization",
+      "Internationalization",
+      "Performance tuning",
+      "Security integration",
+      "Oracle standards compliance",
+      "Cloud migration pathways"
+    ],
+    "tools": [
+      "Oracle JDeveloper",
+      "BC4J Framework",
+      "OA Framework",
+      "Oracle E-Business Suite",
+      "SQL Developer",
+      "Oracle Forms",
+      "Oracle Reports",
+      "Oracle Workflow",
+      "Oracle BI Publisher",
+      "Oracle Cloud Infrastructure"
+    ]
+  },
+  
+  "Oracle Cloud Infrastructure (OCI)": {
+    "advantages": [
+      "Gen2 cloud architecture",
+      "Bare metal performance",
+      "Autonomous databases",
+      "Hybrid cloud support",
+      "Global infrastructure",
+      "Cost management",
+      "Security compliance",
+      "Disaster recovery",
+      "Serverless computing",
+      "Marketplace solutions"
+    ],
+    "tools": [
+      "OCI Console",
+      "OCI CLI",
+      "Terraform",
+      "Resource Manager",
+      "Oracle Functions",
+      "Container Engine",
+      "Cloud Guard",
+      "Vault Service",
+      "Monitoring Service",
+      "Database Migration"
+    ]
+  },
+  
+  "WebLogic Server": {
+    "advantages": [
+      "Enterprise Java support",
+      "High availability",
+      "Clustering capabilities",
+      "Security integration",
+      "Performance tuning",
+      "Cloud deployment",
+      "Oracle ecosystem",
+      "Management console",
+      "Diagnostic tools",
+      "Patch automation"
+    ],
+    "tools": [
+      "WebLogic Server",
+      "Administration Console",
+      "WLST",
+      "Node Manager",
+      "Enterprise Manager",
+      "OPatch",
+      "JDK",
+      "Oracle Coherence",
+      "Oracle Traffic Director",
+      "Oracle Cloud Infrastructure"
+    ]
+  },
+  
+  "Oracle PeopleSoft HRMS/HCM": {
+    "advantages": [
+      "Comprehensive HR functionality",
+      "Global payroll support",
+      "Benefits administration",
+      "Employee self-service",
+      "Reporting tools",
+      "Security framework",
+      "Integration capabilities",
+      "Mobile access",
+      "Cloud options",
+      "Talent management"
+    ],
+    "tools": [
+      "PeopleSoft HCM",
+      "Application Designer",
+      "PeopleSoft Query",
+      "SQR",
+      "PeopleCode",
+      "BI Publisher",
+      "Integration Broker",
+      "Workflow Engine",
+      "Cloud Manager",
+      "Oracle Analytics"
+    ]
+  },
+  
+  "Oracle Customer Care & Billing (CC&B)": {
+    "advantages": [
+      "End-to-end customer lifecycle",
+      "Complex billing scenarios",
+      "Field service integration",
+      "Payment processing",
+      "Debt management",
+      "Regulatory compliance",
+      "Multi-channel support",
+      "Advanced scripting",
+      "Utility-specific workflows",
+      "S/4HANA compatibility"
+    ],
+    "tools": [
+      "Oracle CC&B",
+      "Business Process Automation",
+      "Service Scripting",
+      "Oracle Utilities Analytics",
+      "Oracle Field Service",
+      "Oracle Customer Portal",
+      "Oracle Document Management",
+      "Oracle Integration Cloud",
+      "Oracle Analytics",
+      "Oracle Mobile Workforce"
+    ]
+  },
+  
+  "R12.x Oracle Inventory Management": {
+    "advantages": [
+      "Multi-org inventory",
+      "Lot/serial tracking",
+      "ABC analysis",
+      "Kanban support",
+      "Mobile transactions",
+      "Integration with manufacturing",
+      "Cost management",
+      "Accuracy controls",
+      "Reporting tools",
+      "EBS ecosystem"
+    ],
+    "tools": [
+      "Oracle Inventory",
+      "Mobile Supply Chain",
+      "Inventory Analytics",
+      "Oracle WMS",
+      "Oracle ASCP",
+      "Oracle Warehouse Builder",
+      "Oracle Business Intelligence",
+      "Oracle Integration Cloud",
+      "Oracle Database",
+      "Oracle Cloud Infrastructure"
+    ]
+  },
+  
+  "R12.2 Oracle E-Business Tax": {
+    "advantages": [
+      "Global tax compliance",
+      "Automated determination",
+      "Real-time calculation",
+      "Country-specific rules",
+      "Audit trails",
+      "Recovery management",
+      "Integration with GL",
+      "Flexible reporting",
+      "Multi-lingual support",
+      "EBS ecosystem"
+    ],
+    "tools": [
+      "E-Business Tax",
+      "Tax Simulator",
+      "XML Publisher",
+      "Oracle GL",
+      "Oracle AP",
+      "Oracle AR",
+      "Oracle BI",
+      "Oracle Integration",
+      "Oracle Database",
+      "Oracle Cloud"
+    ]
+  },
+  
+  "R12.x Oracle Order Management": {
+    "advantages": [
+      "End-to-end order lifecycle",
+      "Multi-channel order capture",
+      "Flexible pricing",
+      "Shipping integration",
+      "Inventory visibility",
+      "Credit management",
+      "Workflow automation",
+      "Global fulfillment",
+      "Reporting tools",
+      "EBS ecosystem"
+    ],
+    "tools": [
+      "Oracle Order Management",
+      "Advanced Pricing",
+      "Shipping Execution",
+      "Oracle Inventory",
+      "Oracle Receivables",
+      "Oracle Workflow",
+      "Oracle BI",
+      "Oracle Integration",
+      "Oracle Database",
+      "Oracle Cloud"
+    ]
+  },
+  
+
+  "IBM DataPower": {
+    "advantages": [
+      "Secure service integration across protocols",
+      "High-performance XML processing",
+      "Robust threat protection for web services",
+      "Simplified enterprise service bus (ESB) implementation",
+      "Centralized security policy enforcement",
+      "Accelerated SOA deployments",
+      "Comprehensive monitoring and logging",
+      "SSL/TLS encryption capabilities",
+      "Content-based routing flexibility",
+      "Multi-protocol support (HTTP, MQ, FTP, etc.)"
+    ],
+    "tools": [
+      "IBM DataPower Gateway",
+      "XML Firewall",
+      "Multi-Protocol Gateway",
+      "Web Service Proxy",
+      "Web Application Firewall",
+      "XSLT processors",
+      "Crypto tools for SSL/TLS",
+      "AAA (Authentication, Authorization, Auditing) framework",
+      "DataPower Probe for debugging",
+      "IBM Integration Bus"
+    ]
+  },
+  "IBM Cognos": {
+    "advantages": [
+      "Enterprise-level business intelligence",
+      "Comprehensive reporting capabilities",
+      "Interactive dashboards and visualizations",
+      "Self-service analytics for business users",
+      "OLAP cube analysis",
+      "Predictive analytics integration",
+      "Mobile BI access",
+      "Centralized content management",
+      "Role-based security",
+      "Scheduled report distribution"
+    ],
+    "tools": [
+      "Cognos Framework Manager",
+      "Cognos Report Studio",
+      "Cognos Query Studio",
+      "Cognos Analysis Studio",
+      "Cognos Event Studio",
+      "Cognos Business Insight",
+      "Cognos Connection portal",
+      "Cognos Administration Console",
+      "Cognos SDK",
+      "Cognos TM1 (for planning analytics)"
+    ]
+  },
+  "IBM Watson Analytics": {
+    "advantages": [
+      "Natural language question answering",
+      "Cognitive-powered data discovery",
+      "Automated predictive analytics",
+      "Intelligent data visualization",
+      "Cloud-based accessibility",
+      "Social collaboration features",
+      "No-coding-required analytics",
+      "Smart data refinement",
+      "Integration with diverse data sources",
+      "Real-time insights generation"
+    ],
+    "tools": [
+      "Watson Analytics web interface",
+      "Natural language processing engine",
+      "Predictive analytics models",
+      "Data refinement tools",
+      "Smart visualization generator",
+      "Social commenting features",
+      "Data connection gateways",
+      "Report sharing capabilities",
+      "REST APIs for integration",
+      "Watson Machine Learning integration"
+    ]
+  },
+  "IBM SPSS": {
+    "advantages": [
+      "Comprehensive statistical analysis capabilities",
+      "User-friendly interface for non-programmers",
+      "Advanced data visualization tools",
+      "Predictive analytics functionality",
+      "Reliable hypothesis testing methods",
+      "Robust data management features",
+      "Industry-standard research tool",
+      "Syntax recording for reproducibility",
+      "Integration with other data sources",
+      "Publication-quality output"
+    ],
+    "tools": [
+      "SPSS Statistics",
+      "SPSS Modeler",
+      "Syntax Editor",
+      "Chart Builder",
+      "Data Editor",
+      "Output Viewer",
+      "Python/R Integration",
+      "AMOS (for SEM)",
+      "Visualization Designer",
+      "Custom Dialog Builder"
+    ]
+  },
+  "IBM Cloud Essentials": {
+    "advantages": [
+      "Enterprise-grade cloud infrastructure",
+      "Hybrid cloud capabilities",
+      "Built-in AI and blockchain services",
+      "Global data center presence",
+      "Strong security and compliance",
+      "Flexible pricing models",
+      "VMware integration",
+      "Kubernetes-native experience",
+      "Multi-cloud management",
+      "Industry-specific solutions"
+    ],
+    "tools": [
+      "IBM Cloud Console",
+      "IBM Cloud CLI",
+      "Kubernetes Service",
+      "OpenShift",
+      "Cloud Foundry",
+      "IBM Cloud Functions",
+      "Virtual Private Cloud",
+      "Cloud Object Storage",
+      "Watson AI Services",
+      "IBM Cloud Paks"
+    ]
+  },
+  "IBM Bluemix": {
+    "advantages": [
+      "Rapid application deployment",
+      "Polyglot runtime support",
+      "Built-in DevOps toolchain",
+      "Auto-scaling capabilities",
+      "Continuous delivery pipelines",
+      "Service bindings for easy integration",
+      "Monitoring and analytics",
+      "Global load balancing",
+      "API management features",
+      "Mobile backend services"
+    ],
+    "tools": [
+      "Bluemix Console",
+      "Cloud Foundry CLI",
+      "IBM Cloud Continuous Delivery",
+      "IBM Container Registry",
+      "Log Analysis",
+      "App Connect",
+      "API Connect",
+      "IBM Cloudant",
+      "Watson Services",
+      "DevOps Insights"
+    ]
+  },
+  "IBM QRadar SIEM": {
+    "advantages": [
+      "Comprehensive threat detection",
+      "Real-time security monitoring",
+      "Advanced correlation rules",
+      "Customizable dashboards",
+      "Integrated vulnerability assessment",
+      "Forensic investigation capabilities",
+      "Regulatory compliance support",
+      "Scalable architecture",
+      "Automated offense prioritization",
+      "Extensive log source support"
+    ],
+    "tools": [
+      "QRadar Console",
+      "Log Activity Viewer",
+      "Network Activity Viewer",
+      "Offense Manager",
+      "Rule Manager",
+      "Report Builder",
+      "Asset Profiler",
+      "Ariel Database",
+      "WinCollect Agent",
+      "QRadar API"
+    ]
+  },
+  
+  "IBM BPM Administration": {
+    "advantages": [
+      "End-to-end process automation",
+      "Visual process modeling",
+      "Real-time process monitoring",
+      "Seamless system integration",
+      "High availability configurations",
+      "Comprehensive reporting",
+      "Role-based access control",
+      "Flexible deployment options",
+      "Business-IT collaboration",
+      "Process optimization capabilities"
+    ],
+    "tools": [
+      "IBM Process Designer",
+      "IBM Process Center",
+      "IBM Process Portal",
+      "IBM Integration Designer",
+      "IBM Process Admin Console",
+      "IBM Performance Data Warehouse",
+      "IBM BPM REST API",
+      "IBM Process Federation Server",
+      "IBM Process Server",
+      "IBM Business Monitor"
+    ]
+  },
+  "IBM Sterling": {
+    "advantages": [
+      "Precise job control",
+      "Efficient resource management",
+      "Robust error handling",
+      "Dataset version control",
+      "Job dependency management",
+      "Mainframe integration",
+      "Batch processing optimization",
+      "Conditional job execution",
+      "Cataloged procedure reuse",
+      "Comprehensive logging"
+    ],
+    "tools": [
+      "IBM Sterling Connect:Direct",
+      "IBM Sterling File Gateway",
+      "IBM Sterling B2B Integrator",
+      "IBM Sterling Control Center",
+      "JCL Utilities",
+      "ISPF/PDF",
+      "SDSF",
+      "IBM Utilities (IEBGENER, IEFBR14)",
+      "File Manager",
+      "IBM Debug Tool"
+    ]
+  },
+  "WebSphere Application Server": {
+    "advantages": [
+      "Enterprise-grade application hosting",
+      "High availability clustering",
+      "Advanced security features",
+      "Comprehensive monitoring",
+      "Flexible deployment options",
+      "JEE compliance",
+      "Messaging integration",
+      "Scriptable administration",
+      "Performance optimization",
+      "Hybrid cloud support"
+    ],
+    "tools": [
+      "WebSphere Administrative Console",
+      "wsadmin scripting tool",
+      "IBM HTTP Server",
+      "Plug-in configuration tool",
+      "Application Server Toolkit",
+      "Tivoli Performance Viewer",
+      "Log Analyzer",
+      "Resource Analyzer",
+      "IBM Installation Manager",
+      "IBM Support Assistant"
+    ]
+  },
+  "IBM AIX": {
+    "advantages": [
+      "Enterprise UNIX reliability",
+      "Advanced LVM capabilities",
+      "PowerVM virtualization",
+      "Workload Partitions (WPARs)",
+      "RBAC security model",
+      "Performance optimization",
+      "High availability features",
+      "Comprehensive diagnostic tools",
+      "SAN integration",
+      "Backup and recovery options"
+    ],
+    "tools": [
+      "SMIT (System Management Interface Tool)",
+      "AIX commands (lsvg, lslv, etc.)",
+      "NIM (Network Installation Manager)",
+      "HMC (Hardware Management Console)",
+      "topas performance monitor",
+      "errpt error logging",
+      "backup commands (mksysb, savevg)",
+      "AIX Logical Volume Manager",
+      "WPAR Manager",
+      "PowerHA SystemMirror"
+    ]
+  },
+  
+  "IBM Mainframe Developer": {
+    "advantages": [
+      "Enterprise-grade reliability",
+      "High-volume transaction processing",
+      "Precise job control",
+      "Robust dataset management",
+      "Conditional job execution",
+      "Efficient batch processing",
+      "Legacy system integration",
+      "Comprehensive logging",
+      "Job restart capabilities",
+      "Mainframe resource optimization"
+    ],
+    "tools": [
+      "JCL (Job Control Language)",
+      "ISPF/PDF",
+      "SDSF",
+      "IBM Utilities (IEBGENER, IEFBR14)",
+      "File Manager",
+      "IBM Debug Tool",
+      "TSO/E",
+      "REXX",
+      "COBOL",
+      "CICS"
+    ]
+  },
+  "IBM Tivoli": {
+    "advantages": [
+      "Comprehensive system monitoring",
+      "Centralized management console",
+      "Automated incident resolution",
+      "Configuration drift detection",
+      "Role-based access control",
+      "Compliance reporting",
+      "Hybrid cloud support",
+      "Predictive analytics",
+      "Customizable dashboards",
+      "Integration with IBM Cloud"
+    ],
+    "tools": [
+      "Tivoli Monitoring",
+      "Tivoli Netcool",
+      "Tivoli OMNIbus",
+      "Tivoli Storage Manager",
+      "Tivoli Composite Application Manager",
+      "Tivoli Provisioning Manager",
+      "Tivoli Identity Manager",
+      "Tivoli Access Manager",
+      "Tivoli Service Automation Manager",
+      "Tivoli Performance Analyzer"
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+    
+  }
+  
+

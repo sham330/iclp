@@ -1,0 +1,993 @@
+07-06-2025
+
+/* Base Styles - Scoped to trainer components */
+.trainerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    sans-serif;
+  color: #2d3748;
+}
+
+/* Hero Section */
+.trainerHero {
+  background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add these new styles to your existing CSS file */
+.trainerHeroButtons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.trainerCallButton {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.trainerCallButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+  background: #3e8e41;
+}
+
+/* Phone icon for the button (optional) */
+.trainerCallButton::before {
+  content: "📞";
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .trainerHeroButtons {
+    flex-direction: column;
+  }
+
+  .trainerHeroButton,
+  .trainerCallButton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .trainerCallButton {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+.trainerHero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+}
+
+.trainerHeroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.trainerHeroText {
+  flex: 1;
+  text-align: left;
+  max-width: 600px;
+}
+
+.trainerHeroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainerIllustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: perspective(1000px) rotateY(-10deg);
+  transition: transform 0.5s ease;
+}
+
+.trainerHeroTitle {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #fff, #e0f7fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.trainerHeroSubtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.trainerHeroButtons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.trainerHeroButton {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trainerPrimaryButton {
+  background: white;
+  color: #1faa59;
+}
+
+.trainerPrimaryButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.trainerSecondaryButton {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.trainerSecondaryButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Tab Navigation */
+.trainerTabContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 5px;
+}
+
+.trainerTabButton {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #718096;
+  position: relative;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px 8px 0 0;
+  margin: 0 5px;
+}
+
+.trainerTabButton:hover {
+  color: #1faa59;
+  background: rgba(31, 170, 89, 0.05);
+}
+
+.trainerActiveTab {
+  color: #1faa59;
+}
+
+.trainerActiveTab::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #1faa59;
+  border-radius: 3px 3px 0 0;
+}
+
+.trainerTabIcon {
+  font-size: 1.1rem;
+}
+
+/* Form Container */
+.trainerFormContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trainerFormCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.trainerFormCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.trainerFormHeader {
+  padding: 30px;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-bottom: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.trainerFormTitle {
+  font-size: 1.8rem;
+  color: #2d3748;
+  margin-bottom: 5px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.trainerFormTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #1faa59, #007bff);
+  border-radius: 3px;
+}
+
+.trainerFormSubtitle {
+  font-size: 1.05rem;
+  color: #718096;
+  margin: 0;
+}
+
+/* Form Elements */
+.trainerForm {
+  padding: 30px;
+}
+
+.trainerFormGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.trainerFormGroup {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.trainerLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trainerLabelText {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.trainerRequired {
+  color: #e53e3e;
+  margin-left: 4px;
+  font-size: 0.9rem;
+}
+
+.trainerInput,
+.trainerSelect {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #f8fafc;
+  color: #4a5568;
+  font-family: "Inter", sans-serif;
+}
+
+.trainerInput:focus,
+.trainerSelect:focus {
+  outline: none;
+  border-color: #1faa59;
+  box-shadow: 0 0 0 3px rgba(31, 170, 89, 0.15);
+  background-color: white;
+}
+
+.trainerInput::placeholder {
+  color: #a0aec0;
+  opacity: 1;
+}
+
+.trainerSelect {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23a0aec0' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-size: 1.2em;
+  padding-right: 40px;
+}
+
+/* Resume Notice */
+.trainerResumeNotice {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e1f5fe 100%);
+  border: 1px solid #bee3f8;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+  transition: transform 0.3s ease;
+}
+
+.trainerResumeNotice:hover {
+  transform: translateX(5px);
+}
+
+.trainerNoticeIcon {
+  font-size: 1.8rem;
+  color: #3182ce;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.trainerNoticeTitle {
+  font-size: 1rem;
+  color: #2b6cb0;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.trainerNoticeText {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.trainerNoticeText strong {
+  color: #2b6cb0;
+}
+
+/* Submit Button */
+.trainerSubmitContainer {
+  margin-top: 30px;
+}
+
+.trainerSubmitButton {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(45deg, #1faa59, #007bff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.trainerSubmitButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.trainerSubmitButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(45deg, #1a9550, #0069d9);
+}
+
+.trainerSubmitButton:hover::before {
+  left: 100%;
+}
+
+.trainerSubmitButton:active {
+  transform: translateY(0);
+}
+
+.trainerSubmitButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.trainerSubmitButton:disabled::before {
+  display: none;
+}
+
+.trainerSpinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: trainerSpin 1s ease-in-out infinite;
+}
+
+@keyframes trainerSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Status Messages */
+.trainerStatusMessage {
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 0 30px 25px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.trainerStatusMessage::before {
+  font-size: 1.3rem;
+}
+
+.trainerSuccess {
+  background: #f0fff4;
+  color: #2f855a;
+  border: 1px solid #c6f6d5;
+  animation: trainerFadeIn 0.5s ease-out;
+}
+
+.trainerSuccess::before {
+  content: "✓";
+}
+
+.trainerError {
+  background: #fff5f5;
+  color: #c53030;
+  border: 1px solid #fed7d7;
+  animation: trainerFadeIn 0.5s ease-out;
+}
+
+.trainerError::before {
+  content: "⚠️";
+}
+
+/* Info Container (Program Details) */
+.trainerInfoContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trainerInfoCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  padding: 40px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.trainerInfoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.trainerInfoTitle {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.trainerInfoTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #1faa59, #007bff);
+  border-radius: 2px;
+}
+
+.trainerInfoSection {
+  margin-bottom: 35px;
+}
+
+.trainerSectionTitle {
+  font-size: 1.4rem;
+  color: #2d3748;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.trainerSectionIcon {
+  font-size: 1.3rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: rgba(31, 170, 89, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trainerSectionText {
+  font-size: 1.05rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 0;
+  padding-left: 40px;
+}
+
+/* Features Grid */
+.trainerFeaturesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.trainerFeatureCard {
+  background: #f7fafc;
+  border-radius: 12px;
+  padding: 25px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.trainerFeatureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e0;
+  background: white;
+}
+
+.trainerFeatureIcon {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1faa59;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.trainerFeatureCard:hover .trainerFeatureIcon {
+  transform: scale(1.2);
+}
+
+.trainerFeatureTitle {
+  font-size: 1.15rem;
+  color: #2d3748;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.trainerFeatureText {
+  font-size: 0.95rem;
+  color: #718096;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Benefits List */
+.trainerBenefitsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.trainerBenefitItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  border-bottom: 1px dashed #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.trainerBenefitItem:hover {
+  transform: translateX(5px);
+}
+
+.trainerBenefitItem:last-child {
+  border-bottom: none;
+}
+
+.trainerBulletPoint {
+  color: #1faa59;
+  font-weight: bold;
+  margin-top: 3px;
+  font-size: 1.2rem;
+}
+
+/* Process Steps */
+.trainerProcessSteps {
+  margin-top: 25px;
+  padding-left: 40px;
+}
+
+.trainerStep {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 45px;
+}
+
+.trainerStep::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 35px;
+  bottom: -25px;
+  width: 2px;
+  background: #e2e8f0;
+}
+
+.trainerStep:last-child::before {
+  display: none;
+}
+
+.trainerStepNumber {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1faa59, #007bff);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.trainerStep:hover .trainerStepNumber {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(31, 170, 89, 0.3);
+}
+
+.trainerStepContent {
+  flex: 1;
+}
+
+.trainerStepTitle {
+  font-size: 1.15rem;
+  color: #2d3748;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.trainerStepText {
+  font-size: 0.95rem;
+  color: #718096;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.trainerCtaSection {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f7fafc 0%, #ebf8ff 100%);
+  border-radius: 12px;
+  margin-top: 50px;
+  border: 1px dashed #bee3f8;
+  position: relative;
+  overflow: hidden;
+}
+
+.trainerCtaSection::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background: rgba(31, 170, 89, 0.05);
+  border-radius: 50%;
+}
+
+.trainerCtaSection::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 123, 255, 0.05);
+  border-radius: 50%;
+}
+
+.trainerCtaTitle {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.trainerCtaButton {
+  padding: 14px 40px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(45deg, #1faa59, #007bff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.trainerCtaButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.trainerCtaButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(45deg, #1a9550, #0069d9);
+}
+
+.trainerCtaButton:hover::before {
+  left: 100%;
+}
+
+/* Animations */
+@keyframes trainerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.trainerFormCard,
+.trainerInfoCard {
+  animation: trainerFadeIn 0.6s ease-out forwards;
+}
+
+@keyframes trainerFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.trainerIllustration {
+  animation: trainerFloat 6s ease-in-out infinite;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .trainerHeroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .trainerHeroText {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .trainerHeroButtons {
+    justify-content: center;
+  }
+
+  .trainerIllustration {
+    max-width: 80%;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .trainerHeroTitle {
+    font-size: 2.2rem;
+  }
+
+  .trainerHeroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .trainerTabButton {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  .trainerFormGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .trainerFormHeader {
+    padding: 25px;
+  }
+
+  .trainerFormTitle {
+    font-size: 1.6rem;
+  }
+
+  .trainerForm {
+    padding: 25px;
+  }
+
+  .trainerInfoCard {
+    padding: 25px;
+  }
+
+  .trainerInfoTitle {
+    font-size: 1.7rem;
+  }
+
+  .trainerFeaturesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .trainerStep {
+    padding-left: 40px;
+  }
+
+  .trainerSectionTitle,
+  .trainerSectionText,
+  .trainerBenefitsList,
+  .trainerProcessSteps {
+    padding-left: 0;
+  }
+
+  .trainerSectionIcon {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trainerHeroTitle {
+    font-size: 1.8rem;
+  }
+
+  .trainerHeroButtons {
+    flex-direction: column;
+  }
+
+  .trainerHeroButton {
+    width: 100%;
+  }
+
+  .trainerTabContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .trainerTabButton {
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+
+  .trainerActiveTab::after {
+    display: none;
+  }
+}

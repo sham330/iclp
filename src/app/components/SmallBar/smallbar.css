@@ -1,0 +1,335 @@
+/* SmallBar Container */
+.smallbar {
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #1a2a6c 0%,
+    #1faa59 100%
+  ); /* Green to Blue gradient */
+  padding: 5px 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  /* border-bottom: 1px solid #004080;  */
+  /* Darker border */
+  position: relative;
+  z-index: 900;
+  border-radius: 1%;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navigation Container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Individual List Items */
+.nav-links li {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+/* Links & Dropdown Text */
+.nav-links a,
+.nav-links span {
+  text-decoration: none;
+  color: white; /* White text for contrast */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 15px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.nav-links a:hover,
+.nav-links span:hover {
+  color: white; /* Keep text color white */
+  background: rgba(255, 255, 255, 0.2); /* Brighter hover background */
+  transform: translateY(-2px);
+}
+
+/* Click Animation */
+.nav-links a:active,
+.nav-links span:active {
+  transform: scale(0.98);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  background: linear-gradient(
+    135deg,
+    #1a2a6c 0%,
+    #1faa59 100%
+  ); /* Match SmallBar gradient */
+  border-radius: 8px; /* Rounded corners */
+  list-style: none;
+  padding: 10px 0;
+  top: 100%; /* Position directly below the parent */
+  left: 0;
+  min-width: 200px; /* Slightly narrower */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Light border for contrast */
+  text-align: left;
+  font-family: "Arial", sans-serif;
+}
+
+/* Show dropdown when hovering on "All Courses" */
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Submenu (Second Level) */
+.dropdown-submenu {
+  position: relative;
+  /* padding: 8px 12px; */
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+}
+
+/* Submenu Title */
+.submenu-title {
+  font-weight: 800;
+  color: white; /* White text for contrast */
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+.submenu-title:hover {
+  color: white; /* Keep text color white */
+  background: rgba(255, 255, 255, 0.2); /* Brighter hover background */
+}
+
+/* Third-level dropdown menu (Subcategory) */
+.sub-menu {
+  position: absolute;
+  left: 100%; /* Position to the right of the parent */
+  top: 0;
+  background: linear-gradient(
+    135deg,
+    #1a2a6c 0%,
+    #1faa59 100%
+  ); /* Match SmallBar gradient */
+  border-radius: 8px; /* Rounded corners */
+  list-style: none;
+  padding: 8px;
+  width: 200px; /* Slightly narrower */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Light border for contrast */
+}
+
+/* Show third-level menu smoothly */
+.dropdown-submenu:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Button inside dropdown */
+.subcategory-button {
+  background: none;
+  border: none;
+  color: white; /* White text for contrast */
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  padding: 8px 12px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Hover Effects */
+.subcategory-button:hover {
+  color: white; /* Keep text color white */
+  background: rgba(255, 255, 255, 0.2); /* Brighter hover background */
+}
+
+/* Cursor: Default Pointer */
+.nav-links a,
+.nav-links span,
+.subcategory-button {
+  cursor: pointer;
+}
+
+/* Animation for dropdown */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-menu {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animation for sub-menu */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sub-menu {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none; /* Hidden by default */
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Home Icon for Large and Extra-Medium Screens */
+.home-icon-lg {
+  display: none; /* Hidden by default */
+  color: white;
+  font-size: 24px;
+  margin-right: 20px; /* Space between the icon and "All Courses" */
+  transition: all 0.3s ease-in-out;
+}
+
+.home-icon-lg:hover {
+  color: #ffdd57; /* Change color on hover (optional) */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (min-width: 769px) {
+  .home-icon-lg {
+    display: block; /* Show home icon on large and extra-medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show menu icon on mobile */
+  }
+
+  .nav-links {
+    display: none; /* Hide nav links by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjusted for better spacing */
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 0; /* Added padding for better spacing */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show nav links when menu is active */
+  }
+
+  .nav-links li {
+    text-align: left;
+    padding: 10px 20px;
+  }
+
+  /* Dropdown Menu for Mobile */
+  .dropdown-menu {
+    position: static; /* Stack dropdowns on mobile */
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+    opacity: 1;
+    visibility: visible;
+    background: rgba(
+      0,
+      0,
+      0,
+      0.1
+    ); /* Slightly darker background for contrast */
+    margin-top: 10px; /* Add spacing between dropdown items */
+  }
+
+  /* Submenu for Mobile */
+  .sub-menu {
+    position: static; /* Stack submenus on mobile */
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+    opacity: 1;
+    visibility: visible;
+    background: rgba(
+      0,
+      0,
+      0,
+      0.1
+    ); /* Slightly darker background for contrast */
+    margin-top: 10px; /* Add spacing between submenu items */
+  }
+
+  /* Submenu Title for Mobile */
+  .submenu-title {
+    padding: 10px 15px; /* Increase padding for better touch targets */
+  }
+
+  /* Subcategory Button for Mobile */
+  .subcategory-button {
+    padding: 10px 15px; /* Increase padding for better touch targets */
+  }
+}
+
+/* Dropdown Icon */
+.dropdown-icon {
+  font-size: 12px; /* Smaller size */
+  margin-left: 5px; /* Space between text and icon */
+  vertical-align: middle; /* Align with text */
+  transition: transform 0.3s ease-in-out; /* Smooth rotation */
+}
+
+/* Rotate icon when dropdown is open */
+.dropdown-toggle.active .dropdown-icon {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,848 @@
+.iclp-tech-container {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.iclp-tech-hero {
+  padding: 120px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.iclp-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.iclp-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 8px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.iclp-infinity-icon {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.iclp-tech-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.iclp-tech-hero h1 span {
+  background: linear-gradient(90deg, #ffffff, #e0f2fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.iclp-tech-hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iclp-cta-button {
+  background: white;
+  color: #1e3a8a;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.iclp-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.iclp-hero-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 70% 80%,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 50%
+  );
+  z-index: 1;
+}
+
+/* Mission Section */
+.iclp-mission-section {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+
+.iclp-mission-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.iclp-mission-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.iclp-mission-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mission-icon {
+  color: #4f46e5;
+}
+
+.iclp-mission-statement {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 10px;
+  border-left: 4px solid #4f46e5;
+}
+
+.iclp-mission-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.iclp-mission-feature {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.iclp-feature-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.iclp-mission-feature h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.iclp-mission-feature p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* Tab Container */
+.iclp-tab-container {
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+
+.iclp-tab-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.iclp-tab-button {
+  background: transparent;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.iclp-tab-button.active {
+  background: rgba(79, 70, 229, 0.1);
+  font-weight: 600;
+}
+
+.iclp-tab-button svg {
+  font-size: 1.2rem;
+}
+
+.iclp-tab-content {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.iclp-tab-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.iclp-tab-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.iclp-tab-content li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.iclp-tab-content li svg {
+  color: inherit;
+}
+
+/* Stats Grid */
+.iclp-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+
+.iclp-stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.iclp-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.iclp-stat-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.iclp-stat-card h3 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.iclp-stat-card p {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+/* Value Propositions */
+.iclp-value-props {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+
+.iclp-value-props-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.iclp-value-props-text {
+  flex: 1;
+}
+
+.iclp-value-props-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.iclp-value-props-text p {
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+.iclp-value-props-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.iclp-image-placeholder {
+  width: 300px;
+  height: 300px;
+  background: #f1f5f9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iclp-large-icon {
+  font-size: 5rem;
+  color: #4f46e5;
+  opacity: 0.7;
+}
+
+/* Teaching Approach */
+.iclp-teaching-approach {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.iclp-teaching-approach h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.iclp-approach-intro {
+  font-size: 1.2rem;
+  color: #475569;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.iclp-approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.iclp-approach-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.iclp-approach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.iclp-approach-icon {
+  width: 60px;
+  height: 60px;
+  background: #eef2ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #4f46e5;
+  margin: 0 auto 20px;
+}
+
+.iclp-approach-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.iclp-approach-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* Outcomes Section */
+.iclp-outcomes-section {
+  background: #f8fafc;
+  padding: 80px 20px;
+  margin-bottom: 80px;
+}
+
+.iclp-outcomes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.iclp-outcomes-content {
+  flex: 1;
+}
+
+.iclp-outcomes-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.iclp-outcomes-content p {
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+.iclp-outcomes-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.iclp-outcomes-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #475569;
+}
+
+.iclp-outcomes-list svg {
+  color: #10b981;
+}
+
+.iclp-outcomes-highlight {
+  font-weight: 500;
+  color: #1e3a8a !important;
+  font-style: italic;
+  margin-top: 20px !important;
+}
+
+.iclp-outcomes-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.iclp-outcomes-graphic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.iclp-graphic-item {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.iclp-graphic-item svg {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #4f46e5;
+}
+
+.iclp-graphic-item span {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.iclp-graphic-arrow svg {
+  color: #94a3b8;
+}
+
+/* Community Section */
+.iclp-community-section {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.iclp-community-content {
+  background: white;
+  border-radius: 16px;
+  padding: 60px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.iclp-community-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.iclp-community-content p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color: #475569;
+}
+
+.iclp-community-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.iclp-community-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iclp-community-stat strong {
+  font-size: 2rem;
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.iclp-community-stat span {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Flexibility Section */
+.iclp-flexibility-section {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+
+.iclp-flexibility-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.iclp-flexibility-image {
+  flex: 1;
+}
+
+.iclp-flexibility-visual {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.iclp-visual-online,
+.iclp-visual-offline {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iclp-visual-online {
+  top: 0;
+  left: 0;
+  background: #ecfdf5;
+}
+
+.iclp-visual-offline {
+  bottom: 0;
+  right: 0;
+  background: #fef2f2;
+}
+
+.iclp-visual-online svg,
+.iclp-visual-offline svg {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #10b981;
+}
+
+.iclp-visual-offline svg {
+  color: #ef4444;
+}
+
+.iclp-visual-online span,
+.iclp-visual-offline span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.iclp-flexibility-content {
+  flex: 1;
+}
+
+.iclp-flexibility-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.iclp-flexibility-content p {
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+.iclp-flexibility-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.iclp-flexibility-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #475569;
+}
+
+.iclp-flexibility-list svg {
+  color: #10b981;
+}
+
+/* CTA Section */
+.iclp-cta-section {
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  margin: 0 20px 80px;
+}
+
+.iclp-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.iclp-cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.iclp-cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Modal */
+.iclp-tech-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.iclp-tech-modal-content {
+  background: white;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.iclp-tech-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #64748b;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.iclp-tech-modal-close:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: #1e293b;
+}
+
+.iclp-tech-modal-submit-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.iclp-tech-modal-submit {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.iclp-tech-modal-submit:hover {
+  background: #4338ca;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .iclp-value-props-content,
+  .iclp-outcomes-container,
+  .iclp-flexibility-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .iclp-outcomes-graphic {
+    margin-top: 40px;
+  }
+
+  .iclp-flexibility-visual {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .iclp-tech-hero {
+    padding: 100px 20px;
+  }
+
+  .iclp-tech-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .iclp-tab-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iclp-stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .iclp-community-stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .iclp-cta-section {
+    padding: 80px 20px;
+    margin: 0 10px 60px;
+  }
+
+  .iclp-cta-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .iclp-tech-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .iclp-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .iclp-cta-section {
+    padding: 60px 20px;
+  }
+
+  .iclp-cta-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .iclp-outcomes-graphic {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .iclp-graphic-arrow {
+    transform: rotate(90deg);
+  }
+
+  .iclp-mission-card,
+  .iclp-tab-content,
+  .iclp-value-props-content,
+  .iclp-community-content,
+  .iclp-flexibility-container {
+    padding: 30px 20px;
+  }
+}
