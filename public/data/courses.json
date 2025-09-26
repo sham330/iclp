@@ -643,7 +643,7 @@
           ],
           "duration": "35 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/ps.png",
+          "image": "/CourseDetails/ps.png",
           "placement_assurance": true,
           "projects": ["Log Analyzer", "System Admin Toolkit"]
         },
@@ -762,7 +762,7 @@
           ],
           "duration": "25 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/ts.png",
+          "image": "/CourseDetails/ts.png",
           "placement_assurance": true,
           "projects": ["Type-Safe Application", "API Wrapper Library"]
         },
@@ -931,7 +931,7 @@
   ],
   "duration": "40 hours",
   "skill_level": "Beginner to Intermediate",
-  "image": "../CourseDetails/cpp.png",
+  "image": "/CourseDetails/cpp.png",
   "placement_assurance": true,
   "projects": [
     "Student Record System",
@@ -2027,7 +2027,7 @@
           ],
           "duration": "60 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/fjo.png",
+          "image": "/CourseDetails/fjo.png",
           "placement_assurance": true,
           "projects": ["E-commerce Platform", "Social Media Dashboard"]
         },
@@ -2123,7 +2123,7 @@
           ],
           "duration": "65 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/pfo.png",
+          "image": "/CourseDetails/pfo.png",
           "placement_assurance": true,
           "projects": ["E-commerce Platform", "Social Media Application"]
         },
@@ -2398,7 +2398,7 @@
           ],
           "duration": "45 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/gg.png",
+          "image": "/CourseDetails/gg.png",
           "placement_assurance": true,
           "projects": ["Web Application", "RESTful Service"]
         }
@@ -3412,7 +3412,7 @@
           ],
           "duration": "40 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/cucs.png",
+          "image": "/CourseDetails/cucs.png",
           "placement_assurance": true,
           "projects": ["UCS Configuration Project", "High Availability Setup"]
         }
@@ -3635,7 +3635,7 @@
           ],
           "duration": "35 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/cism.png",
+          "image": "/CourseDetails/cism.png",
           "placement_assurance": true,
           "projects": [
             "Security Governance Plan",
@@ -3728,7 +3728,7 @@
           ],
           "duration": "40 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/ca.png",
+          "image": "/CourseDetails/ca.png",
           "placement_assurance": true,
           "projects": ["PAM Implementation", "Secure Session Management"]
         },
@@ -3846,7 +3846,7 @@
           ],
           "duration": "50 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/cisa.png",
+          "image": "/CourseDetails/cisa.png",
           "placement_assurance": true,
           "projects": ["IT Audit Plan", "Risk Assessment"]
         },
@@ -3921,7 +3921,7 @@
           ],
           "duration": "45 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/cism.png",
+          "image": "/CourseDetails/cism.png",
           "placement_assurance": true,
           "projects": ["Security Program Plan", "Incident Response Plan"]
         },
@@ -3997,7 +3997,7 @@
           ],
           "duration": "50 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/b.png",
+          "image": "/CourseDetails/b.png",
           "placement_assurance": true,
           "projects": ["Smart Contract Development", "ICO Token Creation"]
         }
@@ -5121,7 +5121,7 @@
           ],
           "duration": "30 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/c.png",
+          "image": "/CourseDetails/c.png",
           "placement_assurance": true,
           "projects": ["AI Chatbot", "Productivity Automation"]
         }
@@ -5471,7 +5471,7 @@
           ],
           "duration": "40 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/plsql.png",
+          "image": "/CourseDetails/plsql.png",
           "placement_assurance": true,
           "projects": ["Database Application", "Reporting System"]
         }
@@ -6136,7 +6136,7 @@
           ],
           "duration": "50 hours",
           "skill_level": "Beginner to Intermediate",
-          "image": "../CourseDetails/ccna.png",
+          "image": "/CourseDetails/ccna.png",
           "placement_assurance": true,
           "projects": ["Network Design Project", "Troubleshooting Lab"]
         },
@@ -6353,7 +6353,7 @@
           ],
           "duration": "70 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/ccnp.png",
+          "image": "/CourseDetails/ccnp.png",
           "placement_assurance": true,
           "projects": [
             "Enterprise Network Design",
@@ -6433,7 +6433,7 @@
           ],
           "duration": "45 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/f.png",
+          "image": "/CourseDetails/f.png",
           "placement_assurance": true,
           "projects": [
             "Security Policy Implementation",
@@ -6602,7 +6602,7 @@
           ],
           "duration": "60 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/sas1.png",
+          "image": "/CourseDetails/sas1.png",
           "placement_assurance": true,
           "projects": ["Clinical Trial Analysis", "Financial Report Generation"]
         }
@@ -6778,7 +6778,7 @@
           ],
           "duration": "50 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/ifp.png",
+          "image": "/CourseDetails/ifp.png",
           "placement_assurance": true,
           "projects": ["ETL Pipeline", "Data Warehouse Implementation"]
         },
@@ -6925,7 +6925,7 @@
           ],
           "duration": "40 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/inf.png",
+          "image": "/CourseDetails/inf.png",
           "placement_assurance": true,
           "projects": ["Data Archiving Solution", "Application Retirement Plan"]
         }
@@ -7138,7 +7138,7 @@
           ],
           "duration": "30 hours",
           "skill_level": "Intermediate",
-          "image": "../../CourseDetails/u.png",
+          "image": "/CourseDetails/u.png",
           "placement_assurance": true,
           "projects": ["System Monitor", "Backup Automation"]
         }
@@ -7304,7 +7304,7 @@
       ],
       "duration": "40 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/ibm-datapower.png",
+      "image": "/CourseDetails/ibm-datapower.png",
       "placement_assurance": true,
       "projects": ["Secure Gateway Implementation", "XML Threat Protection System"]
     },
@@ -7534,7 +7534,7 @@
       ],
       "duration": "45 hours",
       "skill_level": "Intermediate",
-      "image": "../../CourseDetails/ibm-cognos.png",
+      "image": "/CourseDetails/ibm-cognos.png",
       "placement_assurance": true,
       "projects": ["Enterprise Reporting System", "Business Analytics Dashboard"]
     },
@@ -7615,7 +7615,7 @@
       ],
       "duration": "25 hours",
       "skill_level": "Beginner",
-      "image": "../../CourseDetails/ibm-watson.png",
+      "image": "/CourseDetails/ibm-watson.png",
       "placement_assurance": true,
       "projects": ["Predictive Analytics Dashboard", "Social Media Data Analysis"]
     },
@@ -7725,7 +7725,7 @@
       ],
       "duration": "35 hours",
       "skill_level": "Intermediate",
-      "image": "../../CourseDetails/ibm-spss.png",
+      "image": "/CourseDetails/ibm-spss.png",
       "placement_assurance": true,
       "projects": ["Market Research Analysis", "Healthcare Data Study"]
     },
@@ -7789,7 +7789,7 @@
       ],
       "duration": "30 hours",
       "skill_level": "Beginner",
-      "image": "../../CourseDetails/ibm-cloud.png",
+      "image": "/CourseDetails/ibm-cloud.png",
       "placement_assurance": true,
       "projects": ["Cloud Migration Strategy", "Multi-tier Cloud Application"]
     },
@@ -7844,7 +7844,7 @@
       ],
       "duration": "25 hours",
       "skill_level": "Intermediate",
-      "image": "../../CourseDetails/ibm-bluemix.png",
+      "image": "/CourseDetails/ibm-bluemix.png",
       "placement_assurance": true,
       "projects": ["Cloud-Native Application", "API-Driven Microservice"]
     },
@@ -7946,7 +7946,7 @@
       ],
       "duration": "40 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/ibm-qradar.png",
+      "image": "/CourseDetails/ibm-qradar.png",
       "placement_assurance": true,
       "projects": ["SIEM Implementation", "Threat Detection System"]
     },
@@ -8057,7 +8057,7 @@
       ],
       "duration": "35 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/ibm-bpm.png",
+      "image": "/CourseDetails/ibm-bpm.png",
       "placement_assurance": true,
       "projects": ["Process Automation System", "BPM Migration Project"]
     },
@@ -8170,7 +8170,7 @@
       ],
       "duration": "30 hours",
       "skill_level": "Intermediate",
-      "image": "../../CourseDetails/ibm-sterling.png",
+      "image": "/CourseDetails/ibm-sterling.png",
       "placement_assurance": true,
       "projects": ["Enterprise Job Automation", "Mainframe Integration System"]
     },
@@ -8326,7 +8326,7 @@
       ],
       "duration": "40 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/websphere.png",
+      "image": "/CourseDetails/websphere.png",
       "placement_assurance": true,
       "projects": ["Enterprise Application Deployment", "High-Availability Cluster Setup"]
     },
@@ -8528,7 +8528,7 @@
       ],
       "duration": "45 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/ibm-aix.png",
+      "image": "/CourseDetails/ibm-aix.png",
       "placement_assurance": true,
       "projects": ["Enterprise AIX Deployment", "High-Availability Storage Solution"]
     },
@@ -8646,7 +8646,7 @@
       ],
       "duration": "30 hours",
       "skill_level": "Intermediate",
-      "image": "../../CourseDetails/ibm-mainframe.png",
+      "image": "/CourseDetails/ibm-mainframe.png",
       "placement_assurance": true,
       "projects": ["Enterprise Batch Processing System", "Mainframe Job Automation"]
     },
@@ -8749,7 +8749,7 @@
       ],
       "duration": "35 hours",
       "skill_level": "Advanced",
-      "image": "../../CourseDetails/ibm-tivoli.png",
+      "image": "/CourseDetails/ibm-tivoli.png",
       "placement_assurance": true,
       "projects": ["Enterprise Monitoring System", "Automated Configuration Management"]
     }
