@@ -1,15 +1,22 @@
 // app/course/[path]/head.jsx
-export default function Head({ course }) {
+
+export default async function Head({ course }) {
   if (!course) return null;
 
   return (
     <>
-      <title>{course.course_name} | ICLP Tech</title>
-      <meta name="description" content={course.description} />
+      <title>{course.meta_title || course.course_name || "Iclp tech"}</title>
+      <meta
+        name="description"
+        content={course.meta_description || course.description}
+      />
 
       <meta property="og:title" content={course.course_name} />
       <meta property="og:description" content={course.description} />
-      <meta property="og:url" content={`https://iclptech.in/course/${course.path}`} />
+      <meta
+        property="og:url"
+        content={`https://iclptech.in/course/${course.path}`}
+      />
       <meta property="og:image" content={course.image || "/Logo.png"} />
       <meta property="og:type" content="website" />
 
