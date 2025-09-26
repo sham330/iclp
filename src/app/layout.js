@@ -13,8 +13,6 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "ICLP Technologies",
-  description: "ICLP Technologies - Learn with the best",
   icons: {
     icon: "/favicon.png", // Favicon for the site
   },
