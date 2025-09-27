@@ -15,9 +15,9 @@ import "./css/home.css";
 
 // ✅ This replaces your SEO component
 export const metadata = {
-  title: "Best Online Courses - Learn from Top-Rated Instructors",
+  title: "Online Courses | Online Courses Certificate | Online Courses Training",
   description:
-    "Join the best online institute offering top-rated courses in programming, design, marketing, data science, and more. Learn at your own pace with expert instructors and get certified to boost your career today!",
+    "Explore online courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!",
   keywords: ["online courses", "programming", "design", "marketing"],
 };
 
