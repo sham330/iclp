@@ -7,19 +7,18 @@ import FootCourseDet from "./MainComponent";
 export const dynamic = "force-dynamic";
 
 export default function FCoursePage({ params }) {
-  const { path: courseKey } = params;
+  const { path: courseKey } = params; // ✅ works in server component
 
-  // Read JSON at request time
+  // Read JSON
   const filePath = path.join(process.cwd(), "public/data/fcd.json");
   const fileContents = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(fileContents);
 
-  const course = data[courseKey] || null;
+  // Decode in case of spaces (%20)
+  const decodedKey = decodeURIComponent(courseKey);
 
-  if (!course) {
-    return <div>Course not found</div>;
-  }
-
+  // Directly fetch from JSON
+  const course = data[decodedKey] || null;
   return (
     <>
       <Head>

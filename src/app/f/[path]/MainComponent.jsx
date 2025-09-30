@@ -66,37 +66,9 @@ const getCourseUrl = (courseKey, allCourses) => {
   return course ? course.url : '/courses';
 };
 
-export default function FootCourseDet({ params }) {
-  const { path } = params; // ✅ matches folder name [path]
-  const [course, setCourse] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+ export default function FootCourseDet({ course }) {
   const [expandedModule, setExpandedModule] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const router = useRouter();
-
-  // Fetch course data from JSON
-  useEffect(() => {
-    if (!path) return; // wait for dynamic param
-
-    const fetchCourseData = async () => {
-      try {
-        const response = await fetch("/data/fcd.json");
-        if (!response.ok) throw new Error("Failed to fetch course data");
-        const data = await response.json();
-        const selectedCourse = data[path] || null;
-        if (selectedCourse) selectedCourse.key = path;
-        setCourse(selectedCourse);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchCourseData();
-  }, [path]);
 
   const toggleModule = (index) => {
     setExpandedModule(expandedModule === index ? null : index);
@@ -105,10 +77,7 @@ export default function FootCourseDet({ params }) {
   const handleOpenModal = () => setIsModalOpen(true);
   const handleCloseModal = () => setIsModalOpen(false);
 
-  if (loading) return <div className="fcd-loading">Loading course details...</div>;
-  if (error) return <div className="fcd-error">Error: {error}</div>;
   if (!course) return <div className="fcd-not-found">Course not found</div>;
-
 
   return (
     <div className="fcd-super-container">
