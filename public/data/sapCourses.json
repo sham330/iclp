@@ -783,7 +783,7 @@
         },
         {
   "course_name": "SAP Business Technology Platform (BTP)",
-  "path": "sap-busiiness-technology",
+  "path": "sap-btp-training",
   "description": "Master SAP's unified platform for application development, integration, analytics, and AI. Learn to build, extend, and integrate enterprise applications in the cloud.",
   "what_youll_learn": [
     "SAP BTP architecture and services",
