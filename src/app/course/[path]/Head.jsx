@@ -4,7 +4,7 @@ export default function Head({ course }) {
 
   return (
     <>
-      <title>{course.course_name} | ICLP Tech</title>
+      <title>{course.course_name}</title>
       <meta name="description" content={course.description} />
 
       <meta property="og:title" content={course.course_name} />
