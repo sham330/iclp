@@ -1351,7 +1351,7 @@ const router = useRouter();
             style={{
               width: "100%",
               height: "200px",
-              objectFit: "cover",
+              objectFit: "contain",
               borderRadius: "12px",
               marginBottom: "15px",
             }}

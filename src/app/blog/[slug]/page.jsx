@@ -7,6 +7,8 @@ import "./blogdetail.css"
     "title": "Java Online Training by ICLP Tech: Hands-On Projects & Certification",
     "slug":"Java-Online-Training-ICLP-Tech",
     "image": "/blog-java.png",
+     "metaTitle": "Java Online Training with Certification & Projects | ICLP Tech",
+  "metaDescription": "Master Java with ICLP Tech’s online training. Learn from basics to Spring & Hibernate, build real projects & get placement support with certification.",
     "intro": "Thinking about a career in software development? Java remains one of the most powerful and in-demand programming languages across the globe. From banking apps to enterprise software and Android applications, Java is everywhere. At ICLP Tech, our Java Online Training Course is designed to help you master the language step by step, build real projects, and earn a certification that employers trust.",
     "sections": [
       {
@@ -100,6 +102,10 @@ import "./blogdetail.css"
   "title": "Top Platforms for SAP Online Learning in 2025: Where to Invest for Real Career Gains",
   "slug": "Top-Platforms-for-SAP-Online-Learning-2025",
   "image": "/blog-3.jpg",
+  "image": "/blog-java.png",
+     "metaTitle": " Best SAP Online Courses 2025 | Top Training Platforms",
+  "metaDescription": "Compare SAP training platforms in 2025. Get hands-on practice, certification prep, and job support to boost your SAP career.",
+  
   "intro": "If you’re looking for a SAP training platform in 2025, you want more than just video lectures—you want certification-aligned content, hands-on practice, instructor support, and job outcomes. This guide compares the top platforms to help you invest in your SAP career wisely.",
   "sections": [
     {
@@ -254,6 +260,9 @@ import "./blogdetail.css"
   "title": "Best Java Online Course for Beginners – Learn Java with Projects & Placement",
   "slug":"Java-Online-Course-for-Beginners",
   "image": "/blog-java.png",
+  "metaTitle": "Best Java Online Course for Beginners | Projects & Placement",
+  "metaDescription": "Join ICLPTech’s Java online course for beginners. Learn Core Java to Spring, build real projects, earn certification & get 100% placement support.",
+ 
   "intro": "In today’s fast-paced digital world, the demand for skilled software developers continues to rise—especially those who know Java. Whether you're just starting your tech journey or planning a career switch, enrolling in the best Java online course for beginners can be your gateway to a successful IT career. At ICLPTech, we offer a comprehensive Java programming course online that includes real-world projects, hands-on training, certification, and 100% placement support.",
   "sections": [
     {
@@ -528,8 +537,8 @@ import "./blogdetail.css"
   "title": "Can You Learn SAP Online Without IT Background? Beginner-Friendly Options",
   "slug": "learn-sap-online-without-it-background",
   "image": "/blog-8.jpg",
-  "metaTitle": "Can You Learn SAP Online Without IT Background? Beginner-Friendly SAP Training | ICLP Tech",
-  "metaDescription": "Yes, you can learn SAP online without an IT background. Explore beginner-friendly SAP functional modules like FI, MM, SD, HR, and SuccessFactors. Start with ICLP Tech’s SAP training in Chennai.",
+  "metaTitle": "Learn SAP Online | Beginner-Friendly Training in Chennai",
+  "metaDescription": "Start your SAP journey with zero IT background. Join ICLPTECH Chennai’s beginner-friendly online SAP training in FI, MM, SD & HR with expert guidance.",
   "url": "https://iclptech.in/blog/learn-sap-online-without-it-background",
   "intro": "Are you interested in learning SAP but worried because you don’t have an IT background? Good news: you can learn SAP online without being a developer, programmer, or having deep technical knowledge. At ICLP Tech, a leading SAP online training institute in Chennai, we believe that many SAP functional modules are beginner-friendly. This post explains which modules suit non-IT professionals and how to succeed from scratch.",
   "sections": [
@@ -638,7 +647,7 @@ import "./blogdetail.css"
   "slug": "sap-online-courses-with-certification-guide",
   "image": "/blog-9.png",
   "metaTitle": "SAP Online Courses with Certification | Best SAP Training & Platforms",
-  "metaDescription": "Boost your career with the best SAP certification courses online. Explore SAP FICO online course with certification, online SAP courses in Chennai, and the best platforms to learn SAP online. Flexible, affordable & globally recognized SAP training.",
+  "metaDescription": " Boost your career with the best SAP certification courses online. Explore SAP FICO online course with certification, online SAP courses in Chennai, and the best platforms to learn SAP online. Flexible, affordable & globally recognized SAP training",
   "url": "https://iclptech.in/blog/sap-online-courses-with-certification-guide",
   "intro": "SAP skills are among the most in-demand in today’s digital world. From finance and logistics to supply chain and HR, SAP powers the backbone of many global organizations. For professionals and students aiming to boost their careers, SAP online courses with certification provide a flexible, affordable, and globally recognized way to gain expertise.",
   "sections": [
