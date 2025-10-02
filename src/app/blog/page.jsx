@@ -879,7 +879,7 @@ const router = useRouter();
     }
   ],
   "conclusion": "So, can you learn SAP online without an IT background? Absolutely. With beginner-friendly functional modules, structured training, and practice on demo systems, non-IT professionals can build strong SAP careers. 👉 Start today with ICLP Tech’s SAP online training in Chennai and transform your career in 2025!"
-},,{
+},{
   "id": 9,
   "title": "SAP Online Courses with Certification: A Complete Guide",
   "slug": "sap-online-courses-with-certification-guide",
@@ -1157,6 +1157,13 @@ const router = useRouter();
     },
   ];
 
+  // Precompute particle data
+const particleData = [...Array(10)].map(() => ({
+  size: 20 + Math.random() * 20,
+  left: Math.random() * 100,
+  top: Math.random() * 100,
+  delay: Math.random() * 3,
+}));
   return (
     <div className="iclp-blog-container">
      <Head/>

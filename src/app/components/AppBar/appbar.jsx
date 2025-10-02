@@ -125,7 +125,7 @@ const AppBar = () => {
       {name: "SAP BASIS Administration", type: "sap", path: "sap-basis-administration"},
       {name: "SAP Sales Cloud (C4C) Training", type: "sap", path: "sap-sales-cloud-(c4c)-training"},
       {name: "SAP FSCM (Retail) Training", type: "sap", path: "sap-fscm"},
-      {name: "SAP Business Technology Platform (BTP)", type: "sap", path: "sap-busiiness-technology"},
+      {name: "SAP Business Technology Platform (BTP)", type: "sap", path: "sap-btp-training"},
       {name: "SAP CRM Training", type: "sap", path: "sap-crm"},
       {name: "SAP SRM Training", type: "sap", path: "sap-srm"}, 
       {name: "SAP APO Online Training", type: "sap", path: "sap-apo"},

@@ -740,8 +740,17 @@ import "./blogdetail.css"
 
 
 export default function BlogDetailPage({ params }) {
-  const { slug } = params;
-  const blog = blogs.find(b => b.slug === decodeURIComponent(slug)); // decode here too
+  const slug = params?.slug; // <-- no destructuring here
+  console.log("Slug from params:", slug);
+  console.log("Available slugs:", blogs?.map(b => b.slug));
+  if (!slug || !blogs?.length) {
+    return (
+      <div className="not-found-container">
+        <h2>Blog Not Found</h2>
+      </div>
+    );
+  }
+  const blog = blogs.find(b => b?.slug && b.slug === decodeURIComponent(slug));
 
   if (!blog) {
     return (

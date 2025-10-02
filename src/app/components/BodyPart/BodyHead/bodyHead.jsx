@@ -46,7 +46,6 @@ const TechHero = () => {
             className="tech-hero-image"
             width={600}
             height={400}
-            priority
           />
         </div>
       </div>

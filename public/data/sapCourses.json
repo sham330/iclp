@@ -784,6 +784,9 @@
         {
   "course_name": "SAP Business Technology Platform (BTP)",
   "path": "sap-btp-training",
+   "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
+  "meta_description": "Master SAP Business Technology Platform with expert-led training at ICLP. Get real-time projects, career support & certification prep. Join today!",
+      
   "description": "Master SAP's unified platform for application development, integration, analytics, and AI. Learn to build, extend, and integrate enterprise applications in the cloud.",
   "what_youll_learn": [
     "SAP BTP architecture and services",
