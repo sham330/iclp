@@ -9,6 +9,42 @@ import "./blogdetail.css"
     "image": "/blog-java.png",
      "metaTitle": "Java Online Training with Certification & Projects | ICLP Tech",
   "metaDescription": "Master Java with ICLP Tech’s online training. Learn from basics to Spring & Hibernate, build real projects & get placement support with certification.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://iclptech.in/#organization",
+        name: "ICLP Tech",
+        url: "https://iclptech.in/",
+        logo: { "@type": "ImageObject", url: "https://iclptech.in/path-to-logo.png", width: 600, height: 60 },
+        sameAs: ["https://www.facebook.com/ICLPTech","https://www.linkedin.com/company/iclptech","https://twitter.com/iclptech"]
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/java-online-training",
+        name: "Java Online Training",
+        description: "Comprehensive Java online training...",
+        provider: { "@id": "https://iclptech.in/#organization" },
+        url: "https://iclptech.in/blog/Java-Online-Training-ICLP-Tech",
+        image: "https://iclptech.in/path-to-course-image.jpg",
+        courseCode: "JAVA-ONL-001",
+        educationalCredentialAwarded: "Certificate of Completion",
+        hasCourseInstance: { "@type": "CourseInstance", courseMode: "Online", startDate: "2025-10-15", endDate: "2026-01-15", instructor: { "@type": "Person", name: "John Doe", url: "https://iclptech.in/instructor/john-doe" }, location: { "@type": "VirtualLocation", url: "https://iclptech.in/virtual-classroom" } }
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://iclptech.in/blog/Java-Online-Training-ICLP-Tech",
+        headline: "Java Online Training — ICLP Tech",
+        description: "ICLP Tech offers a comprehensive online training program...",
+        image: { "@type": "ImageObject", url: "https://iclptech.in/path-to-blog-image.jpg", width: 1200, height: 628 },
+        author: { "@type": "Person", name: "Author Name", url: "https://iclptech.in/author/authorname" },
+        publisher: { "@id": "https://iclptech.in/#organization" },
+        datePublished: "2025-09-15",
+        dateModified: "2025-09-20"
+      }
+    ]
+  },
     "intro": "Thinking about a career in software development? Java remains one of the most powerful and in-demand programming languages across the globe. From banking apps to enterprise software and Android applications, Java is everywhere. At ICLP Tech, our Java Online Training Course is designed to help you master the language step by step, build real projects, and earn a certification that employers trust.",
     "sections": [
       {
@@ -105,7 +141,73 @@ import "./blogdetail.css"
   "image": "/blog-java.png",
      "metaTitle": " Best SAP Online Courses 2025 | Top Training Platforms",
   "metaDescription": "Compare SAP training platforms in 2025. Get hands-on practice, certification prep, and job support to boost your SAP career.",
-  
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/Top-Platforms-for-SAP-Online-Learning-2025#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://iclptech.in/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Top Platforms for SAP Online Learning 2025",
+          "item": "https://iclptech.in/blog/Top-Platforms-for-SAP-Online-Learning-2025"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/Top-Platforms-for-SAP-Online-Learning-2025",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iclptech.in/blog/Top-Platforms-for-SAP-Online-Learning-2025"
+      },
+      "headline": "Top Platforms for SAP Online Learning 2025",
+      "description": "Discover the best platforms for SAP online learning in 2025. Compare features, pricing, pros & cons, and find the right choice for your SAP career growth.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/sap-online-learning.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-20",
+      "dateModified": "2025-09-25",
+      "articleSection": "SAP Learning",
+      "keywords": "SAP online learning, SAP training platforms, e-learning 2025, ICLP Tech"
+    }
+  ]
+},
   "intro": "If you’re looking for a SAP training platform in 2025, you want more than just video lectures—you want certification-aligned content, hands-on practice, instructor support, and job outcomes. This guide compares the top platforms to help you invest in your SAP career wisely.",
   "sections": [
     {
@@ -173,6 +275,73 @@ import "./blogdetail.css"
   "slug": "in-demand-sap-modules-2025",
   "image": "/blog-5.jpg",
   "intro": "SAP continues to dominate the enterprise software market, helping companies streamline processes, improve efficiency, and gain a competitive edge. In 2025, demand for SAP professionals is higher than ever. Choosing the right module can open doors to high-paying jobs worldwide.",
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/in-demand-sap-modules-2025#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://iclptech.in/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "In-Demand SAP Modules 2025",
+          "item": "https://iclptech.in/blog/in-demand-sap-modules-2025"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/in-demand-sap-modules-2025",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iclptech.in/blog/in-demand-sap-modules-2025"
+      },
+      "headline": "In-Demand SAP Modules 2025",
+      "description": "Explore the most sought-after SAP modules in 2025 — their demand, use-cases, key features, and how they can impact your career path in SAP.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/sap-modules-demand.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-05",
+      "dateModified": "2025-09-20",
+      "articleSection": "SAP / Modules",
+      "keywords": "SAP modules, in demand SAP modules 2025, SAP career, ICLP Tech"
+    }
+  ]
+  },
   "sections": [
     {
       "heading": "Why Choose SAP in 2025?",
@@ -262,7 +431,73 @@ import "./blogdetail.css"
   "image": "/blog-java.png",
   "metaTitle": "Best Java Online Course for Beginners | Projects & Placement",
   "metaDescription": "Join ICLPTech’s Java online course for beginners. Learn Core Java to Spring, build real projects, earn certification & get 100% placement support.",
- 
+ "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/Java-Online-Course-for-Beginners#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://iclptech.in/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Java Online Course for Beginners",
+          "item": "https://iclptech.in/blog/Java-Online-Course-for-Beginners"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/Java-Online-Course-for-Beginners",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iclptech.in/blog/Java-Online-Course-for-Beginners"
+      },
+      "headline": "Java Online Course for Beginners",
+      "description": "ICLP Tech’s Java Online Course for Beginners — Learn from scratch, build foundational Java skills, hands-on projects and support throughout your learning journey.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/java-course-beginners.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-10",
+      "dateModified": "2025-09-20",
+      "articleSection": "Java / Programming",
+      "keywords": "Java for beginners, Java online course, ICLP Tech, learn Java"
+    }
+  ]
+ },
   "intro": "In today’s fast-paced digital world, the demand for skilled software developers continues to rise—especially those who know Java. Whether you're just starting your tech journey or planning a career switch, enrolling in the best Java online course for beginners can be your gateway to a successful IT career. At ICLPTech, we offer a comprehensive Java programming course online that includes real-world projects, hands-on training, certification, and 100% placement support.",
   "sections": [
     {
@@ -362,6 +597,73 @@ import "./blogdetail.css"
   "title": "Top Mistakes to Avoid When Choosing an SAP Online Course",
   "slug": "mistakes-to-avoid-choosing-sap-online-course",
   "image": "/blog-6.png",
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/mistakes-to-avoid-choosing-sap-online-course#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://iclptech.in/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mistakes to Avoid When Choosing SAP Online Course",
+          "item": "https://iclptech.in/blog/mistakes-to-avoid-choosing-sap-online-course"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/mistakes-to-avoid-choosing-sap-online-course",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iclptech.in/blog/mistakes-to-avoid-choosing-sap-online-course"
+      },
+      "headline": "Mistakes to Avoid When Choosing SAP Online Course",
+      "description": "Learn about the common mistakes students make when selecting an SAP online course and how to choose the right training program to boost your SAP career.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/sap-course-mistakes.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-12",
+      "dateModified": "2025-09-20",
+      "articleSection": "SAP / Online Learning",
+      "keywords": "SAP online course mistakes, choosing SAP training, SAP learning tips, ICLP Tech"
+    }
+  ]
+},
   "intro": "SAP is one of the most powerful ERP solutions used by leading global enterprises. Choosing the right SAP online course can make or break your career. Avoid these common mistakes to save time, money, and ensure career growth.",
   "metaTitle": "Top Mistakes to Avoid When Choosing an SAP Online Course | ICLPTech",
   "metaDescription": "Don’t waste time on the wrong SAP course! Discover the top mistakes learners make when choosing SAP online training & how ICLPTech can help you succeed.",
@@ -430,6 +732,73 @@ import "./blogdetail.css"
   "title": "Step-by-Step Guide to Becoming SAP Certified Through Online Courses",
   "slug": "sap-certification-online-guide-2025",
   "image": "/blog-7.jpeg",
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://iclptech.in/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Learn SAP Online Without IT Background",
+          "item": "https://iclptech.in/blog/learn-sap-online-without-it-background"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background"
+      },
+      "headline": "Learn SAP Online Without IT Background",
+      "description": "Learn how to start SAP training online even if you don’t have an IT background — key tips, modules, prerequisites, and steps to build your foundation.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/sap-no-it-background.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-18",
+      "dateModified": "2025-09-25",
+      "articleSection": "SAP / Beginner Guide",
+      "keywords": "SAP without IT background, learning SAP as non-IT person, SAP foundational training, ICLP Tech"
+    }
+  ]
+},
   "metaTitle": "Step-by-Step Guide to Becoming SAP Certified Through Online Courses | ICLP Tech",
   "metaDescription": "Boost your career with SAP certification! Follow this step-by-step guide to become SAP certified through flexible online courses with ICLP Tech.",
   "url": "https://iclptech.in/blog/sap-certification-online-guide-2025",
@@ -537,6 +906,55 @@ import "./blogdetail.css"
   "title": "Can You Learn SAP Online Without IT Background? Beginner-Friendly Options",
   "slug": "learn-sap-online-without-it-background",
   "image": "/blog-8.jpg",
+  "schema": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Tech",
+      "url": "https://iclptech.in/",
+      "logo": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/iclptech-logo.png", 
+        "width": 600, 
+        "height": 60 
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://iclptech.in/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Learn SAP Online Without IT Background", "item": "https://iclptech.in/blog/learn-sap-online-without-it-background" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://iclptech.in/blog/learn-sap-online-without-it-background" },
+      "headline": "Learn SAP Online Without IT Background",
+      "description": "Learn how to start SAP training online even if you don’t have an IT background — key tips, modules, prerequisites, and steps to build your foundation.",
+      "image": { 
+        "@type": "ImageObject", 
+        "url": "https://iclptech.in/wp-content/uploads/2025/01/sap-no-it-background.jpg", 
+        "width": 1200, 
+        "height": 628 
+      },
+      "author": { 
+        "@type": "Person", 
+        "name": "ICLP Tech Editorial Team", 
+        "url": "https://iclptech.in/author/iclptech-editorial" 
+      },
+      "publisher": { "@id": "https://iclptech.in/#organization" },
+      "datePublished": "2025-09-18",
+      "dateModified": "2025-09-25",
+      "articleSection": "SAP / Beginner Guide",
+      "keywords": "SAP without IT background, learning SAP as non-IT person, SAP foundational training, ICLP Tech"
+    }
+  ]
+},
   "metaTitle": "Learn SAP Online | Beginner-Friendly Training in Chennai",
   "metaDescription": "Start your SAP journey with zero IT background. Join ICLPTECH Chennai’s beginner-friendly online SAP training in FI, MM, SD & HR with expert guidance.",
   "url": "https://iclptech.in/blog/learn-sap-online-without-it-background",
@@ -772,6 +1190,10 @@ export default function BlogDetailPage({ params }) {
   return (
     <>
    <Head course={blog}/>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blog.schema) }}
+      />
       <div className="blog-container">
         {/* Hero Section */}
         <div className="hero-section">

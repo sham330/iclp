@@ -2,7 +2,7 @@
 
 export default async function Head({ course }) {
   if (!course) return null;
-
+console.log(course.schema);
   return (
     <>
       <title>{course.metaTitle || course.title|| "Iclp tech"}</title>
@@ -24,6 +24,7 @@ export default async function Head({ course }) {
       <meta name="twitter:title" content={course.title} />
       <meta name="twitter:description" content={course.metadescription} />
       <meta name="twitter:image" content={course.image || "/Logo.png"} />
+  
     </>
   );
 }

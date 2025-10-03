@@ -44,6 +44,48 @@
     <priority>0.9</priority>
   </url>
 
+  <!--Blogs-->
+   <url>
+    <loc>https://iclptech.in/blog/Java-Online-Training-ICLP-Tech</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iclptech.in/blog/Top-Platforms-for-SAP-Online-Learning-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iclptech.in/blog/Java-Online-Course-for-Beginners</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iclptech.in/blog/in-demand-sap-modules-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>https://iclptech.in/blog/mistakes-to-avoid-choosing-sap-online-course</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+     <url>
+    <loc>https://iclptech.in/blog/sap-certification-online-guide-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>https://iclptech.in/blog/learn-sap-online-without-it-background</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+     <url>
+    <loc>https://iclptech.in/blog/sap-online-courses-with-certification-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Course Pages -->
   <url>
     <loc>https://iclptech.in/course/java-online-training</loc>
