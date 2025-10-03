@@ -15,15 +15,15 @@ console.log(course.schema);
       <meta property="og:description" content={course.metadescription} />
       <meta
         property="og:url"
-        content={`https://iclptech.in/course/${course.slug}`}
+        content={`https://iclptech.in/blog/${course.slug}`}
       />
-      <meta property="og:image" content={course.image || "/Logo.png"} />
+      <meta property="og:image" content={`https://iclptech.in${course.image}` || "/Logo.png"} />
       <meta property="og:type" content="website" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={course.title} />
       <meta name="twitter:description" content={course.metadescription} />
-      <meta name="twitter:image" content={course.image || "/Logo.png"} />
+      <meta name="twitter:image" content={`https://iclptech.in${course.image}` || "/Logo.png"}  />
   
     </>
   );
