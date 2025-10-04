@@ -5,7 +5,7 @@ import "./blogdetail.css"
   {
     "id": 1,
     "title": "Java Online Training by ICLP Tech: Hands-On Projects & Certification",
-    "slug":"Java-Online-Training-ICLP-Tech",
+    "slug":"java-online-training-iclp-tech",
     "image": "/blog-java.png",
      "metaTitle": "Java Online Training with Certification & Projects | ICLP Tech",
   "metaDescription": "Master Java with ICLP Tech’s online training. Learn from basics to Spring & Hibernate, build real projects & get placement support with certification.",
@@ -136,7 +136,7 @@ import "./blogdetail.css"
   {
   "id": 3,
   "title": "Top Platforms for SAP Online Learning in 2025: Where to Invest for Real Career Gains",
-  "slug": "Top-Platforms-for-SAP-Online-Learning-2025",
+  "slug": "top-platforms-for-sap-online-learning-2025",
   "image": "/blog-3.jpg",
   "image": "/blog-java.png",
      "metaTitle": " Best SAP Online Courses 2025 | Top Training Platforms",
@@ -427,7 +427,7 @@ import "./blogdetail.css"
   {
   "id": 4,
   "title": "Best Java Online Course for Beginners – Learn Java with Projects & Placement",
-  "slug":"Java-Online-Course-for-Beginners",
+  "slug":"java-online-course-for-beginners",
   "image": "/blog-java.png",
   "metaTitle": "Best Java Online Course for Beginners | Projects & Placement",
   "metaDescription": "Join ICLPTech’s Java online course for beginners. Learn Core Java to Spring, build real projects, earn certification & get 100% placement support.",

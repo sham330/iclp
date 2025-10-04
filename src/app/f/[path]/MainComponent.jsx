@@ -119,7 +119,7 @@ const getCourseUrl = (courseKey, allCourses) => {
           <div className="fcd-highlights">
             <h3 className="fcd-highlights-title">Why Choose This Course?</h3>
             <ul className="fcd-highlight-list">
-              {course.highlights.map((item, index) => (
+              {course.highlights?.map((item, index) => (
                 <li key={index} className="fcd-highlight-item">
                   <span className="fcd-highlight-icon">
                     <svg viewBox="0 0 24 24">
@@ -141,7 +141,7 @@ const getCourseUrl = (courseKey, allCourses) => {
               Career Outcomes
             </h3>
             <div className="fcd-career-grid">
-              {course.careerOutcomes.map((outcome, index) => (
+              {course.careerOutcomes?.map((outcome, index) => (
                 <div key={index} className="fcd-career-card">
                   <div className="fcd-career-icon">
                     <svg viewBox="0 0 24 24">
@@ -170,7 +170,7 @@ const getCourseUrl = (courseKey, allCourses) => {
               Course Curriculum
             </h3>
             <div className="fcd-module-list">
-              {course.modules.map((module, index) => (
+              {course.modules?.map((module, index) => (
                 <div
                   key={index}
                   className={`fcd-module-item ${expandedModule === index ? "expanded" : ""}`}
@@ -204,7 +204,7 @@ const getCourseUrl = (courseKey, allCourses) => {
                   {expandedModule === index && (
                     <div className="fcd-module-details">
                       <div className="fcd-module-topics">
-                        {module.topics.map((topic, i) => (
+                        {module.topics?.map((topic, i) => (
                           <div key={i} className="fcd-topic-item">
                             <div className="fcd-topic-check">
                               <svg viewBox="0 0 24 24">

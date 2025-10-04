@@ -254,7 +254,7 @@ const router = useRouter();
   {
     "id": 1,
     "title": "Java Online Training by ICLP Tech: Hands-On Projects & Certification",
-    "slug":"Java-Online-Training-ICLP-Tech",
+    "slug":"java-online-training-iclp-tech",
     "image": "/blog-java.png",
     "intro": "Thinking about a career in software development? Java remains one of the most powerful and in-demand programming languages across the globe. From banking apps to enterprise software and Android applications, Java is everywhere. At ICLP Tech, our Java Online Training Course is designed to help you master the language step by step, build real projects, and earn a certification that employers trust.",
     "sections": [
@@ -347,7 +347,7 @@ const router = useRouter();
   {
   "id": 3,
   "title": "Top Platforms for SAP Online Learning in 2025: Where to Invest for Real Career Gains",
-  "slug": "Top-Platforms-for-SAP-Online-Learning-2025",
+  "slug": "top-platforms-for-sap-online-learning-2025",
   "image": "/blog-3.jpg",
   "intro": "If you’re looking for a SAP training platform in 2025, you want more than just video lectures—you want certification-aligned content, hands-on practice, instructor support, and job outcomes. This guide compares the top platforms to help you invest in your SAP career wisely.",
   "sections": [
