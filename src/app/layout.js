@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="Lb5NP0CkzxorHnaM5c3wjKo4IPBG9TF10PKfg3-9cno"
         />
+        <meta name="google-site-verification" content="hkOSvJh_qs0N_Unfi9KrCxYRLfY38RmIP48Kr5cT8Gs" />
         <meta
           name="google-site-verification"
           content="gwgv7x-EZlzPSSWS4lnQT7hCW7YhQkaOdp7Vj3sy6bk"
