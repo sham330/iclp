@@ -8754,6 +8754,261 @@
       "projects": ["Enterprise Monitoring System", "Automated Configuration Management"]
     }
   ]
+},{
+  "category_name": "Corel Draw",
+  "sub_categories": [{
+  "course_name": "CorelDRAW Masterclass",
+  "path": "coreldraw-masterclass",
+  "description": "Comprehensive training in CorelDRAW covering vector graphics, text formatting, special effects, templates, pages, layouts, bitmaps, and web graphics for professional design.",
+  "what_youll_learn": [
+    "Drawing and manipulating lines and shapes",
+    "Working with symbols and layers",
+    "Applying colors and fills",
+    "Using special effects and transparency",
+    "Adding and formatting text",
+    "Creating templates and styles",
+    "Page layout and table management",
+    "Working with bitmaps and image effects",
+    "Exporting for web and print"
+  ],
+  "syllabus": [
+    {
+      "module": "Lines, Shapes, Outlines and Brushstrokes",
+      "subtopics": [
+        "Drawing lines",
+        "Calligraphic, pressure-sensitive and preset lines",
+        "Formatting lines and outlines",
+        "Arrowheads",
+        "Copying, converting, and removing outlines",
+        "Multiple line segments",
+        "Brushstrokes",
+        "Spraying objects",
+        "Connector and callout lines",
+        "Dimension lines",
+        "Drawing shapes",
+        "Rectangles and squares",
+        "Ellipses, circles, arcs, and pie shapes",
+        "Polygons and stars",
+        "Spirals and grids",
+        "Predefined shapes",
+        "Shape recognition",
+        "Shaping objects",
+        "Selecting and moving nodes",
+        "Manipulating segments",
+        "Adding, removing, joining, and aligning nodes",
+        "Transforming nodes",
+        "Breaking the path",
+        "Mirroring changes",
+        "Skewing and stretching objects",
+        "Smudging and smearing objects",
+        "Roughening objects",
+        "Distortion effects",
+        "Twirl effects",
+        "Envelopes",
+        "Cropping, splitting, and erasing objects",
+        "Trimming objects",
+        "Filleting, scalloping, and chamfering corners",
+        "Welding and intersecting objects",
+        "PowerClip objects"
+      ]
+    },
+    {
+      "module": "Symbols and Layers",
+      "subtopics": [
+        "Layers",
+        "Creating layers",
+        "Layer properties",
+        "Moving and copying layers and objects",
+        "Symbols",
+        "Creating, editing, and deleting symbols",
+        "Symbols in drawings",
+        "Managing collections and libraries",
+        "Linking and embedding objects",
+        "Inserting, editing, and managing projects",
+        "Project database",
+        "Assigning and copying object data",
+        "Viewing object data"
+      ]
+    },
+    {
+      "module": "Color and Fills",
+      "subtopics": [
+        "Color",
+        "Color models",
+        "Color depth",
+        "Document palette",
+        "Color palettes",
+        "Creating and editing palettes",
+        "Organizing and displaying palettes",
+        "Palette libraries",
+        "Properties",
+        "Filling objects",
+        "Uniform, fountain, pattern, and texture fills",
+        "PostScript texture fills",
+        "Mesh fills",
+        "Fills to areas",
+        "Color management",
+        "Installing, loading, and embedding color profiles",
+        "Assigning color profiles",
+        "Converting colors",
+        "Choosing color-conversion settings",
+        "Soft proofing",
+        "Color management presets and policies",
+        "Safe CMYK workflow"
+      ]
+    },
+    {
+      "module": "Special Effects",
+      "subtopics": [
+        "Changing the transparency of objects",
+        "Transparencies",
+        "Merge modes",
+        "Using lenses with objects",
+        "Applying and editing lenses",
+        "Adding 3D effects to objects",
+        "Contouring objects",
+        "Applying perspective to objects",
+        "Extrusions, bevel effects, and drop shadows",
+        "Blending objects"
+      ]
+    },
+    {
+      "module": "Text",
+      "subtopics": [
+        "Adding and manipulating text",
+        "Importing and pasting text",
+        "Artistic text",
+        "Paragraph text",
+        "Columns to text frames",
+        "Paragraph text frames",
+        "Baseline grid",
+        "Selecting text",
+        "Finding, editing, and converting text",
+        "Shifting, rotating, mirroring, and flipping text",
+        "Moving text",
+        "Wrapping text",
+        "Fitting text to a path",
+        "Embedding graphics and special characters",
+        "Working with legacy text",
+        "Formatting text",
+        "Typefaces and fonts",
+        "Formatting characters",
+        "Text color",
+        "Kerning",
+        "Text case",
+        "OpenType features",
+        "Character and word spacing",
+        "Line and paragraph spacing",
+        "Adding bullets and drop caps",
+        "Character position and angle",
+        "Aligning text",
+        "Tabs and indents",
+        "Text styles",
+        "Hyphenating text",
+        "Formatting codes",
+        "Displaying nonprinting characters",
+        "Managing fonts",
+        "Substituting fonts",
+        "Previewing and identifying fonts",
+        "Bitstream Font Navigator",
+        "Writing tools",
+        "QuickCorrect",
+        "Spelling checker and Grammatik",
+        "Thesaurus",
+        "Languages",
+        "Checking styles",
+        "Rule classes",
+        "Word lists",
+        "Checking statistics"
+      ]
+    },
+    {
+      "module": "Templates and Styles",
+      "subtopics": [
+        "Working with templates",
+        "Searching templates",
+        "Using templates",
+        "Creating templates",
+        "Editing templates",
+        "Styles and style sets",
+        "Creating, applying, and editing style sets",
+        "Object properties",
+        "Exporting and importing styles",
+        "Assigning keyboard shortcuts",
+        "Finding objects",
+        "Breaking links",
+        "Color styles"
+      ]
+    },
+    {
+      "module": "Pages and Layout",
+      "subtopics": [
+        "Working with pages and layout tools",
+        "Specifying page layout",
+        "Page background",
+        "Adding, duplicating, renaming, and deleting pages",
+        "Inserting page numbers",
+        "Rulers, grid, and guidelines",
+        "Scale",
+        "Tables",
+        "Adding tables to drawings",
+        "Selecting, moving, and navigating table components",
+        "Inserting and deleting table rows and columns",
+        "Resizing table cells, rows, and columns",
+        "Formatting tables and cells",
+        "Text in tables",
+        "Converting tables to text",
+        "Merging and splitting tables and cells",
+        "Manipulating tables",
+        "Adding images, graphics, and backgrounds to tables",
+        "Importing tables"
+      ]
+    },
+    {
+      "module": "Bitmaps",
+      "subtopics": [
+        "Working with bitmaps",
+        "Converting vector graphics to bitmaps",
+        "Importing bitmaps",
+        "Cropping bitmaps",
+        "Dimensions and resolution of bitmaps",
+        "Straightening bitmaps",
+        "Digimarc watermarks",
+        "Removing dust and scratch marks from bitmaps",
+        "Special effects",
+        "Color and tone",
+        "Tone Curve filter",
+        "Bitmap color modes"
+      ]
+    },
+    {
+      "module": "Web Graphics",
+      "subtopics": [
+        "Object creation",
+        "Exporting bitmaps",
+        "Saving and applying Web presets",
+        "Exporting objects with transparent colors and backgrounds",
+        "Creating rollovers",
+        "Bookmarks and hyperlinks",
+        "Hotspots and alternate text",
+        "Exporting to HTML",
+        "Setting preferences",
+        "Creating Web-compatible text",
+        "Previewing and verifying files",
+        "Exporting files to PDF",
+        "Office productivity applications",
+        "Supported file formats",
+        "CorelDRAW customization"
+      ]
+    }
+  ],
+  "duration": "40 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "/corel-draw.jpg",
+  "placement_assurance": false,
+  "projects": ["Logo Design Project", "Web Banner Creation", "Vector Illustration Project"]
+}
+]
 }
 
 

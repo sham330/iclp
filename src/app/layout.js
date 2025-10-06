@@ -36,6 +36,9 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/favicon.png" />
+
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href="/favicon.png" />

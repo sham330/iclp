@@ -95,6 +95,8 @@ const AppBar = () => {
       { name: "Informatica ILM", path: "informatica-ilm-online-training" },
       { name: "Unix Shell Scripting", path: "unix-shell-scripting-online-training" },
       { name: "C and C++", path: "c-cpp-programming-course" },
+            { name: "Corel Draw", path: "coreldraw-masterclass" },
+
 
       { "name": "IBM DataPower", "path": "ibm-data-power" },
       { "name": "IBM Cognos", "path": "ibm-cognos" },
@@ -116,6 +118,7 @@ const AppBar = () => {
       { name: "SAP SD", type: "sap", path: "sap-sd"},
       { name: "SAP PP", type: "sap", path: "sap-pp"},
       { name: "SAP ABAP", type: "sap", path: "sap-abap" },
+      {name: "SAP SCM", type:"sap", path:"sap-scm"},
       {name: "SAP Transportation Management", type: "sap", path: "sap-transportation-management"},
       {name: "SAP SuccessFactors Online Training", type: "sap", path: "sap-successfactors-online-training"},
       {name: "SAP Quality Management (QM)", type: "sap", path: "sap-quality-management-(qm)"},

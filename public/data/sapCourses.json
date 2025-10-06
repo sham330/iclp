@@ -1023,6 +1023,189 @@
   ]
 },
 {
+  "course_name": "SAP SCM Training",
+  "path": "sap-scm",
+  "meta_title": "SAP SCM Course Online | SAP Supply Chain Management Online Training | SAP SCM Certification",
+  "meta_description": "Master SAP Supply Chain Management (SCM) with our hands-on training. Learn demand planning, production execution, integration, forecasting, and optimization.",
+  "description": "Comprehensive SAP SCM training covering demand management, material requirement planning, production execution, integration, forecasting, and supply network optimization for efficient supply chain operations.",
+  "what_youll_learn": [
+    "Understand SAP SCM architecture and integration with SAP ERP",
+    "Configure and execute demand management and material planning",
+    "Perform production execution and goods movements in SCM",
+    "Set up and monitor integration models between SAP R/3 and SCM",
+    "Manage master data including locations, materials, and resources",
+    "Configure and model supply chain networks using PPM and PDS",
+    "Implement demand planning and forecasting using APO tools",
+    "Optimize supply network planning and deployment processes"
+  ],
+  "syllabus": [
+    {
+      "module": "Demand Management",
+      "subtopics": [
+        "PIR creation",
+        "PIR consumption"
+      ]
+    },
+    {
+      "module": "Material Requirement Planning",
+      "subtopics": [
+        "Planned order creation/Purchase requisition creation",
+        "Planned order conversion"
+      ]
+    },
+    {
+      "module": "Production Execution",
+      "subtopics": [
+        "Order creation",
+        "Order release",
+        "Goods Issue",
+        "Order confirmation",
+        "Goods receipt",
+        "Order closure"
+      ]
+    },
+    {
+      "module": "Integration in SAP SCM",
+      "subtopics": [
+        "Generating and Activating Integration Models",
+        "Monitoring and Error handling tools for integrating SAP R/3 and SAP SCM",
+        "Incremental Transfers for Master Data Changes",
+        "Organizing Integration Models"
+      ]
+    },
+    {
+      "module": "Integrated SCM Master Data",
+      "subtopics": [
+        "Locations in SAP SCM",
+        "Material Masters in SAP SCM",
+        "Resources in SAP SCM",
+        "Production Process Models (PPM)",
+        "Production Data Structure (PDS)",
+        "Purchasing Information Records",
+        "Transportation Lanes",
+        "Master Recipes and the PPM"
+      ]
+    },
+    {
+      "module": "Modeling in mySAP SCM",
+      "subtopics": [
+        "Models",
+        "Versions in SAP SCM",
+        "Modeling with the Supply Chain Engineer"
+      ]
+    },
+    {
+      "module": "Integrating Transactional Data",
+      "subtopics": [
+        "Setting up Transactional Data Transfer",
+        "Generating and Activating Integration Models"
+      ]
+    },
+    {
+      "module": "Demand Planning Configuration",
+      "subtopics": [
+        "Planning Object Structure",
+        "Characteristic Value Combinations",
+        "Planning Areas",
+        "Product Interchangeability",
+        "Proportional Factors",
+        "Version Management"
+      ]
+    },
+    {
+      "module": "Planning Books and Data Views",
+      "subtopics": [
+        "Creating Planning Books and Data Views",
+        "Macros"
+      ]
+    },
+    {
+      "module": "Interactive Planning",
+      "subtopics": [
+        "Navigation in the Interactive Planning Table",
+        "Additional Features of the Interactive Planning Table"
+      ]
+    },
+    {
+      "module": "Forecasting",
+      "subtopics": [
+        "Executing a Univariate Forecast",
+        "Composite Forecast",
+        "Consensus Based Forecasting (Optional)",
+        "Forecast Alert Profile (Optional)",
+        "Lifecycle Planning",
+        "Promotion Planning",
+        "Info Cubes"
+      ]
+    },
+    {
+      "module": "Master Data and Transaction Data in SNP",
+      "subtopics": [
+        "Working with Master Data",
+        "APO Product Master",
+        "APO Resource Master",
+        "Introducing the Production Process Model",
+        "Introducing Quota Arrangements",
+        "Transactional Data used in Supply Network Planning"
+      ]
+    },
+    {
+      "module": "SNP Configuration",
+      "subtopics": [
+        "Planning Areas",
+        "Planning Books",
+        "Macros and Alerts",
+        "Navigation in the Planning Table",
+        "Introducing Quota Arrangements",
+        "Transactional Data used in Supply Network Planning"
+      ]
+    },
+    {
+      "module": "The Supply Network Planning Heuristic",
+      "subtopics": [
+        "SNP Heuristic Run",
+        "Capacity Check and Leveling",
+        "Planning Supplier Constraints using the SNP Heuristic",
+        "SNP Heuristic Scheduling",
+        "Hierarchical Planning"
+      ]
+    },
+    {
+      "module": "SNP Run Using Capable to Match",
+      "subtopics": [
+        "CTM Process",
+        "Alternative PPMs in CTM"
+      ]
+    },
+    {
+      "module": "Interchangeability",
+      "subtopics": []
+    },
+    {
+      "module": "Safety Stock Planning",
+      "subtopics": []
+    },
+    {
+      "module": "Deployment and the Transport Load Builder",
+      "subtopics": []
+    },
+    {
+      "module": "Optimization",
+      "subtopics": []
+    }
+  ],
+  "duration": "60-70 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-scm.png",
+  "placement_assurance": true,
+  "projects": [
+    "Demand and Supply Planning Model Implementation",
+    "Integration of SAP ERP with SCM for Real-time Data",
+    "Forecasting and Planning Book Configuration",
+    "Supply Network Optimization using SNP"
+  ]
+},
+{
   "course_name": "SAP IS Retail Training",
   "path": "sap-is-retail",
   "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",
