@@ -413,8 +413,8 @@ const router = useRouter();
   {
   "id": 4,
   "title": "Best Java Online Course for Beginners – Learn Java with Projects & Placement",
-  "slug":"Java-Online-Course-for-Beginners",
-  "image": "/blog-java.png",
+  "slug":"java-online-course-for-beginners",
+  "image": "/blog-1.jpg",
   "intro": "In today’s fast-paced digital world, the demand for skilled software developers continues to rise—especially those who know Java. Whether you're just starting your tech journey or planning a career switch, enrolling in the best Java online course for beginners can be your gateway to a successful IT career. At ICLPTech, we offer a comprehensive Java programming course online that includes real-world projects, hands-on training, certification, and 100% placement support.",
   "sections": [
     {
