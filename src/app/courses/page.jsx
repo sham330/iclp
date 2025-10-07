@@ -51,17 +51,18 @@ const TopCategories = () => {
     router.push(`/courses`);
   };
 
-  // Filter categories based on search input
-  const filteredCategories = categories.filter((category) =>
-    category.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+// ✅ assign the filter result to a variable first
+const filteredCategories = categories.filter(category =>
+  (category?.name?.toLowerCase().includes(searchTerm.toLowerCase())) ||
+  (category?.course_name?.toLowerCase().includes(searchTerm.toLowerCase()))
+);
 
-  const isCoursesPage = pathname === "/courses";
+const isCoursesPage = pathname === "/courses";
 
-  // Show only 8 categories on the homepage
-  const displayedCategories = isCoursesPage
-    ? filteredCategories
-    : filteredCategories.slice(0, 8);
+// ✅ now filteredCategories is defined and safe to use
+const displayedCategories = isCoursesPage
+  ? filteredCategories
+  : filteredCategories.slice(0, 8);
 
   return (
     <div id="top-categories" className="top-categories-container">
