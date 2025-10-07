@@ -121,26 +121,25 @@ const RelatedCoursesSlider = ({ currentCourseName, courseType = "all" }) => {
   const filteredCourses = courses
     .filter((course) => course.name !== currentCourseName)
     .slice(0, 12);
+const CustomPrevArrow = ({ currentSlide, slideCount, ...props }) => (
+  <button
+    {...props} // ✅ only safe DOM props spread
+    className="rcs-arrow rcs-arrow-prev"
+    aria-label="Previous course"
+  >
+    <FaChevronLeft />
+  </button>
+);
 
-  const CustomPrevArrow = (props) => (
-    <button
-      {...props}
-      className="rcs-arrow rcs-arrow-prev"
-      aria-label="Previous course"
-    >
-      <FaChevronLeft />
-    </button>
-  );
-
-  const CustomNextArrow = (props) => (
-    <button
-      {...props}
-      className="rcs-arrow rcs-arrow-next"
-      aria-label="Next course"
-    >
-      <FaChevronRight />
-    </button>
-  );
+const CustomNextArrow = ({ currentSlide, slideCount, ...props }) => (
+  <button
+    {...props}
+    className="rcs-arrow rcs-arrow-next"
+    aria-label="Next course"
+  >
+    <FaChevronRight />
+  </button>
+);
 
   const settings = {
     dots: true,

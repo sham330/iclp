@@ -52,16 +52,17 @@ const TopCategories = () => {
   };
 
   // Filter categories based on search input
-  const filteredCategories = categories.filter((category) =>
-    category.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCategories = (categories || []).filter((category) => {
+  const name = category?.name || category?.category_name || category?.course_name || "";
+  return name.toLowerCase().includes((searchTerm || "").toLowerCase());
+});
 
-  const isCoursesPage = pathname === "/courses";
+const isCoursesPage = pathname === "/courses";
 
-  // Show only 8 categories on the homepage
-  const displayedCategories = isCoursesPage
-    ? filteredCategories
-    : filteredCategories.slice(0, 8);
+// Show only 8 categories on the homepage
+const displayedCategories = isCoursesPage
+  ? filteredCategories
+  : filteredCategories.slice(0, 8);
 
   return (
     <div id="top-categories" className="top-categories-container">
