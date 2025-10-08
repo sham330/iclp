@@ -103,7 +103,7 @@ export default function CategoryCoursesPage() {
         className="course-image"
       />
     ) : course.image.startsWith("/") ? (
-      <Image
+      <img
         src={course.image}
         alt={course.course_name || "Course"}
         width={300}
