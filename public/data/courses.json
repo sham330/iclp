@@ -9176,7 +9176,7 @@
 
   "duration": "40 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "https://example.com/sap-successfactors.jpg",
+  "image": "/sap-courses.jpg",
   "placement_assurance": true,
   "projects": [
     "Implementing Employee Central for a multinational company",
@@ -9187,6 +9187,8 @@
         {
           "course_name": "SAP MM",
           "path": "sap-mm",
+            "image": "/sap-courses.jpg",
+
            "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
   "meta_description": "Learn SAP MM online with hands-on training & certification. Become an SAP MM expert. Check the course & enroll now!",
           "description": "Learn SAP Materials Management module covering procurement, inventory management, and logistics processes.",
@@ -9256,7 +9258,9 @@
         },
         {
           "course_name": "SAP SD",
-          "path": "sap-sd",         
+          "path": "sap-sd",        
+            "image": "/sap-courses.jpg",
+ 
            "meta_title": "SAP SD Course Online | SAP SD Training | SAP SD Certificate",
   "meta_description": "Become a certified SAP SD consultant with our online course. Expert training, flexible schedule. Learn more & enroll today!",
            "description": "Comprehensive training on SAP Sales and Distribution module covering order-to-cash processes.",
@@ -9325,6 +9329,8 @@
         {
   "course_name": "SAP Transportation Management",
   "path": "sap-transportation-management",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP Transportation Management Course Online | SAP TM Training | SAP TM Certificate",
   "meta_description": "Learn SAP TM online and become a transportation management expert. Get certified and start your career. Check the course now!",
   "description": "Comprehensive training in SAP Transportation Management covering ERP fundamentals, ABAP programming, and advanced SAP modules for logistics and supply chain management.",
@@ -9648,7 +9654,6 @@
   ],
   "duration": "60 hours",
   "skill_level": "Advanced",
-  "image": "https://example.com/sap-transportation-management.jpg",
   "placement_assurance": true,
   "projects": [
     "Transportation Management System Implementation",
@@ -9658,6 +9663,8 @@
         {
           "course_name": "SAP PP",
           "path": "sap-pp",
+            "image": "/sap-courses.jpg",
+
            "meta_title": "SAP PP Course Online | SAP PP Training | SAP PP Certificate",
   "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
           "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
@@ -9726,6 +9733,8 @@
         {
           "course_name": "SAP ABAP",
           "path": "sap-abap",
+            "image": "/sap-courses.jpg",
+
            "meta_title": "SAP ABAP Course Online | SAP ABAP Training | SAP ABAP Certificate",
   "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
           "description": "Learn SAP ABAP programming language for custom development and enhancements.",
@@ -9794,6 +9803,8 @@
         {
   "course_name": "SAP Business Technology Platform (BTP)",
   "path": "sap-btp-training",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
   "meta_description": "Master SAP Business Technology Platform with expert-led training at ICLP. Get real-time projects, career support & certification prep. Join today!",
       
@@ -9892,7 +9903,6 @@
   ],
   "duration": "35-45 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "../CourseDetails/sap-btp.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End CAP Application Development",
@@ -9904,6 +9914,8 @@
 {
   "course_name": "SAP IS Utilities Training",
   "path": "sap-is-utilities",
+    "image": "/sap-courses.jpg",
+
     "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
   "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
   "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
@@ -10023,7 +10035,6 @@
   ],
   "duration": "55-65 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-is-utilities.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Billing Process Implementation",
@@ -10035,6 +10046,8 @@
 {
   "course_name": "SAP SCM Training",
   "path": "sap-scm",
+    "image": "/sap-courses.jpg",
+
   "meta_title": "SAP SCM Course Online | SAP Supply Chain Management Online Training | SAP SCM Certification",
   "meta_description": "Master SAP Supply Chain Management (SCM) with our hands-on training. Learn demand planning, production execution, integration, forecasting, and optimization.",
   "description": "Comprehensive SAP SCM training covering demand management, material requirement planning, production execution, integration, forecasting, and supply network optimization for efficient supply chain operations.",
@@ -10206,7 +10219,6 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-scm.png",
   "placement_assurance": true,
   "projects": [
     "Demand and Supply Planning Model Implementation",
@@ -10218,6 +10230,8 @@
 {
   "course_name": "SAP IS Retail Training",
   "path": "sap-is-retail",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",
     "meta_title": "SAP IS Retail Course Online | SAP IS Retail Online Training | SAP IS Retail Certificate",
   "meta_description": "Master SAP IS Retail with practical training and certification. Learn to optimize retail operations. Join now!",
@@ -10302,7 +10316,6 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-is-retail.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Merchandise Planning Scenario",
@@ -10314,6 +10327,8 @@
 {
   "course_name": "SAP Security GRC Training",
   "path": "sap-security-grc",
+    "image": "/sap-courses.jpg",
+
   "description": "Master SAP's Governance, Risk, and Compliance solutions with hands-on training in access control, risk analysis, privileged user management, and compliance automation.",
   "what_youll_learn": [
     "GRC Access Control architecture",
@@ -10388,7 +10403,6 @@
   ],
   "duration": "40-50 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "../CourseDetails/sap-grc.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End SoD Risk Analysis",
@@ -10400,6 +10414,8 @@
 {
   "course_name": "SAP Analytics Cloud Online Training",
   "path": "sap-analytic-cloud",
+    "image": "/sap-courses.jpg",
+
   "description": "Master SAP's unified cloud analytics solution covering business intelligence, planning, predictive analytics, and augmented intelligence with hands-on story design and data modeling.",
   "what_youll_learn": [
     "SAP Analytics Cloud architecture and deployment options",
@@ -10475,7 +10491,6 @@
   ],
   "duration": "30-40 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-analytics-cloud.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Analytics Story Implementation",
@@ -10487,6 +10502,8 @@
 {
   "course_name": "SAP BI/BW Training",
   "path": "sap-bibw",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP's data warehousing and business intelligence solutions covering data modeling, extraction, reporting, and HANA integration for enterprise analytics.",
   "what_youll_learn": [
     "Data warehousing concepts and SAP BW architecture",
@@ -10585,7 +10602,6 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "../CourseDetails/sap-bi-bw.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Data Warehouse Implementation",
@@ -10597,6 +10613,8 @@
 {
   "course_name": "SAP IBP Online Training",
   "path": "sap-ibp",
+    "image": "/sap-courses.jpg",
+
   "description": "Master SAP's cloud-based supply chain planning solution covering demand planning, inventory optimization, supply planning, and sales & operations planning (S&OP) with hands-on HANA-powered scenarios.",
   "what_youll_learn": [
     "SAP IBP architecture and solution strategy",
@@ -10729,7 +10747,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "../CourseDetails/sap-ibp.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End S&OP Process Configuration",
@@ -10741,6 +10758,8 @@
 {
   "course_name": "SAP APO Online Training",
   "path": "sap-apo",
+    "image": "/sap-courses.jpg",
+
   "description": "Master SAP's supply chain planning suite covering Demand Planning, Supply Network Planning, Global ATP, and Production Scheduling. Learn to optimize end-to-end supply chain processes.",
   "what_youll_learn": [
     "Demand planning and forecasting techniques",
@@ -10817,7 +10836,6 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-apo.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Demand Planning Simulation",
@@ -10829,6 +10847,8 @@
 {
   "course_name": "SAP SRM Training",
   "path": "sap-srm",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP Supplier Relationship Management covering procurement processes, technical configurations, workflow automation, and supplier integration.",
   "what_youll_learn": [
     "Enterprise Buyer Professional (EBP) scenarios",
@@ -10959,7 +10979,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-srm.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Procurement Process Implementation",
@@ -10971,6 +10990,8 @@
 {
   "course_name": "SAP FSCM (Retail) Training",
   "path": "sap-fscm",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP Financial Supply Chain Management for retail, covering merchandise planning, pricing, procurement, and store operations with hands-on retail scenarios.",
   "what_youll_learn": [
     "Retail-specific FSCM processes",
@@ -11062,7 +11083,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-fscm-retail.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Retail Merchandising Scenario",
@@ -11074,6 +11094,8 @@
 {
   "course_name": "SAP CRM Training",
   "path": "sap-crm",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP Customer Relationship Management covering architecture, marketing, sales, service, and middleware integration. Gain hands-on experience with Web UI and Interaction Center.",
   "what_youll_learn": [
     "CRM architecture and organizational model",
@@ -11208,7 +11230,6 @@
   ],
   "duration": "40-50 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-crm.png",
   "placement_assurance": true,
   "projects": [
     "CRM Web UI Customization Project",
@@ -11224,7 +11245,8 @@
   "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
     "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
 
-  
+    "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Configure SAP QM enterprise structure",
     "Master QM-specific master data management",
@@ -11331,7 +11353,6 @@
 
   "duration": "45 hours",
   "skill_level": "Intermediate",
-  "image": "https://example.com/sap-qm.jpg",
   "placement_assurance": true,
   "projects": [
     "Implementing QM for manufacturing process",
@@ -11345,7 +11366,8 @@
    "meta_title": "SAP Ariba Course Online | SAP Ariba Training | SAP Ariba Certificate",
   "meta_description": "Get SAP Ariba training online. Learn sourcing & procurement with certification. Start your expert journey – enroll now!",
   "description": "Comprehensive training in SAP Ariba covering procurement, sourcing, contracts, supplier management, and network integration for end-to-end supply chain collaboration.",
-  
+    "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Understand SAP Ariba cloud procurement solutions",
     "Configure Ariba-SAP integration (CIG and Cloud Connector)",
@@ -11511,7 +11533,6 @@
 
   "duration": "50 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "https://example.com/sap-ariba.jpg",
   "placement_assurance": true,
   "projects": [
     "Implementing Ariba Procurement for an enterprise",
@@ -11526,7 +11547,8 @@
    "meta_title": "SAP Master data governance Course Online | SAP MDG Training | SAP MDG Certificate",
   "meta_description": "Learn SAP MDG on S/4HANA online. Get certified & become a governance expert. Enroll now for training with real-world use cases!",
   "description": "Comprehensive training in SAP MDG covering master data domains, data modeling, governance workflows, and integration with S/4HANA for enterprise data management.",
-  
+    "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Understand MDG architecture in S/4HANA environment",
     "Configure master data domains (BP, Material, Financial)",
@@ -11658,7 +11680,6 @@
 
   "duration": "55 hours",
   "skill_level": "Advanced",
-  "image": "https://example.com/sap-mdg.jpg",
   "placement_assurance": true,
   "projects": [
     "Implementing Material Master governance",
@@ -11671,7 +11692,8 @@
   "course_name": "Adobe Photoshop Certification",
   "path": "photoshop-certification",
   "description": "Comprehensive training in Adobe Photoshop covering photo editing, retouching, compositing, graphic design, and digital imaging techniques for professional certification.",
-  
+    "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Master Photoshop interface and essential tools",
     "Perform professional photo retouching and color correction",
@@ -11788,7 +11810,6 @@
 
   "duration": "40 hours",
   "skill_level": "Beginner to Advanced",
-  "image": "https://example.com/photoshop-certification.jpg",
   "placement_assurance": true,
   "projects": [
     "Professional photo retouching portfolio",
@@ -11804,7 +11825,8 @@
    "meta_title": "SAP Basis Course Online | SAP Basis Training | SAP Basis Certificate",
   "meta_description": "Master SAP Basis administration online. Get certification & hands-on training. Start your consultant journey – enroll today!",
   "description": "Comprehensive training in SAP BASIS administration covering system installation, configuration, user management, transport system, database administration, and performance monitoring.",
-  
+    "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Understand SAP architecture and components",
     "Install and configure SAP systems",
@@ -11958,7 +11980,6 @@
 
   "duration": "60 hours",
   "skill_level": "Intermediate to Advanced",
-  "image": "https://example.com/sap-basis.jpg",
   "placement_assurance": true,
   "projects": [
     "SAP system installation and configuration",
@@ -11974,7 +11995,8 @@
    "meta_title": "SAP Sales Cloud Course Online | SAP Sales Cloud Training | SAP Sales Cloud Certificate",
   "meta_description": "Learn SAP Sales Cloud (C4C) online with certification. Become a CRM expert with flexible training. Enroll now!",
   "description": "Comprehensive training in SAP Sales Cloud (part of SAP CX suite) covering lead-to-cash processes, CRM configuration, and integration with S/4HANA for modern sales teams.",
-    
+      "image": "/sap-courses.jpg",
+
   "what_youll_learn": [
     "Navigate SAP Sales Cloud interface and personalize dashboards",
     "Manage master data (accounts, contacts, products)",
@@ -12118,7 +12140,6 @@
 
   "duration": "50 hours",
   "skill_level": "Beginner to Advanced",
-  "image": "https://example.com/sap-sales-cloud.jpg",
   "placement_assurance": true,
   "projects": [
     "End-to-end lead-to-order implementation",
@@ -12132,6 +12153,8 @@
 {
   "course_name": "SAP IS Insurance Training",
   "path": "sap-is-insurance",
+    "image": "/sap-courses.jpg",
+
   "description": "Comprehensive training in SAP Insurance Solutions covering collections, disbursements, claims management, and commission processing for insurance providers.",
   "what_youll_learn": [
     "Insurance master data management",
@@ -12205,7 +12228,6 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-is-insurance.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Claims Processing Implementation",
@@ -12217,6 +12239,8 @@
 {
   "course_name": "SAP PLM Training",
   "path": "sap-plm",
+    "image": "/sap-courses.jpg",
+
   "meta_title": "SAP PLM Course Online | SAP PLM Online Training | SAP PLM Certificate",
   "meta_description": "Boost your career with SAP PLM training and certification. Learn to manage product lifecycles effectively. Enroll today!",
   "description": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance for manufacturing industries.",
@@ -12289,7 +12313,6 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-plm.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Product Development Process",
@@ -12301,6 +12324,8 @@
 {
   "course_name": "SAP LE Certification Training",
   "path": "sap-le",
+    "image": "/sap-courses.jpg",
+
   "meta_title": "SAP LE Certification Course Online | SAP LE Certification Online Training | SAP LE Certification Certificate",
   "meta_description": "Learn SAP LE with hands-on training and certification. Streamline logistics and elevate your SAP skills. Start now!",
   "description": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations.",
@@ -12366,7 +12391,6 @@
   ],
   "duration": "40-50 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-le.png",
   "placement_assurance": false,
   "projects": [
     "Legal Entity Compliance Setup",
@@ -12378,6 +12402,8 @@
 {
   "course_name": "SAP Healthcare Training",
   "path": "sap-healthcare",
+    "image": "/sap-courses.jpg",
+
     "meta_title": "SAP Healthcare Course Online | SAP Healthcare Online Training | SAP Healthcare Certificate",
   "meta_description": "Enroll in SAP Healthcare training and certification. Advance your career in healthcare IT with expert instruction.",
   "description": "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing for healthcare providers.",
@@ -12443,7 +12469,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-healthcare.png",
   "placement_assurance": true,
   "projects": [
     "Patient Management System Setup",
@@ -12455,6 +12480,8 @@
 {
   "course_name": "SAP IS Banking Training",
   "path": "sap-is-banking",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP IS Banking Course Online | SAP IS Banking Online Training | SAP IS Banking Certificate",
   "meta_description": "Join SAP IS Banking training and get certified. Learn core banking functions with SAP solutions. Enroll today!",
   "description": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, financial conditions and product configuration for financial institutions.",
@@ -12520,7 +12547,6 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-is-banking.png",
   "placement_assurance": true,
   "projects": [
     "Loan Processing System Setup",
@@ -12532,6 +12558,8 @@
 {
   "course_name": "SAP BPC Online Training",
   "path": "sap-is-bpc",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP BPC Course Online | SAP BPC Online Training | SAP BPC Certificate",
   "meta_description": "Master SAP BPC with certification. Get industry-ready with in-depth training on planning and consolidation tools.",
   "description": "Complete training in SAP Business Planning and Consolidation covering reporting, data acquisition, transformation, and consolidation for financial professionals.",
@@ -12604,7 +12632,6 @@
   ],
   "duration": "55-65 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-bpc.png",
   "placement_assurance": false,
   "projects": [
     "Financial Reporting Implementation",
@@ -12616,6 +12643,8 @@
 {
   "course_name": "SAP PM Course",
   "path": "sap-pm",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP PM Course Course Online | SAP PM Course Online Training | SAP PM Course Certificate",
   "meta_description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
   "description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
@@ -12687,7 +12716,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-pm.png",
   "placement_assurance": true,
   "projects": [
     "Maintenance Process Implementation",
@@ -12699,6 +12727,8 @@
 {
   "course_name": "SAP ESS Online",
   "path": "sap-ess",
+    "image": "/sap-courses.jpg",
+
   "meta_title": "SAP ESS Course Online | SAP ESS Online Training | SAP ESS Certificate",
   "meta_description": "Enroll in SAP ESS training and earn certification. Enhance your skills in employee self-service solutions.", 
   "description": "Comprehensive training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management for HR professionals.",
@@ -12769,7 +12799,6 @@
   ],
   "duration": "30-40 hours",
   "skill_level": "Beginner",
-  "image": "../CourseDetails/sap-ess.png",
   "placement_assurance": false,
   "projects": [
     "Employee Portal Configuration",
@@ -12780,6 +12809,8 @@
 {
   "course_name": "SAP Hybris E-Commerce Online Training",
   "path": "sap-hybris-ecommerce",
+    "image": "/sap-courses.jpg",
+
     "meta_title": "SAP Hybris E-Commerce Course Online | SAP Hybris E-Commerce Online Training | SAP Hybris E-Commerce Certificate",
   "meta_description": "Learn SAP Hybris eCommerce with expert training and certification. Build your career in digital commerce.", 
   "description": "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience for digital commerce professionals.",
@@ -12852,7 +12883,6 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-hybris-ecommerce.png",
   "placement_assurance": true,
   "projects": [
     "E-Commerce Store Implementation",
@@ -12864,6 +12894,8 @@
 {
   "course_name": "SAP BO",
   "path": "sap-bo",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP BO Course Online | SAP BO Online Training | SAP BO Certificate",
   "meta_description": "Join SAP BO training and certification program. Learn to create impactful business intelligence reports.", 
   "description": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development for BI professionals.",
@@ -12936,7 +12968,6 @@
   ],
   "duration": "65-75 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-bo.png",
   "placement_assurance": true,
   "projects": [
     "Enterprise BI Solution Implementation",
@@ -12948,6 +12979,8 @@
 {
   "course_name": "SAP BOBJ Training",
   "path": "sap-bobj",
+    "image": "/sap-courses.jpg",
+
      "meta_title": "SAP BOBJ Course Online | SAP BOBJ Online Training | SAP BOBJ Certificate",
   "meta_description": "Master SAP BOBJ with training and certification. Learn business intelligence reporting tools. Enroll now!", 
   "description": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration for enterprise BI solutions.",
@@ -13020,7 +13053,6 @@
   ],
   "duration": "70-80 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-bobj.png",
   "placement_assurance": true,
   "projects": [
     "Enterprise Reporting Solution",
@@ -13032,6 +13064,8 @@
 {
   "course_name": "SAP Fieldglass",
   "path": "sap-fieldglass",
+    "image": "/sap-courses.jpg",
+
     "meta_title": "SAP Fieldglass Course Online | SAP Fieldglass Online Training | SAP Fieldglass Certificate",
   "meta_description": "Get certified in SAP Fieldglass. Hands-on training to manage external workforce efficiently. Enroll today!", 
   "description": "Comprehensive training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement for HR and procurement professionals.",
@@ -13104,7 +13138,6 @@
   ],
   "duration": "45-55 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/sap-fieldglass.png",
   "placement_assurance": true,
   "projects": [
     "Contingent Workforce Program Setup",
@@ -13116,6 +13149,8 @@
 {
   "course_name": "SAP Data Archiving",
   "path": "sap-data-archiving",
+    "image": "/sap-courses.jpg",
+
     "meta_title": "SAP Data Archiving Course Online | SAP Data Archiving Online Training | SAP Data Archiving Certificate",
   "meta_description": "Learn SAP Data Archiving with training and certification. Optimize storage and improve performance.", 
   "description": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance for system administrators and data managers.",
@@ -13188,7 +13223,6 @@
   ],
   "duration": "35-45 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-data-archiving.png",
   "placement_assurance": false,
   "projects": [
     "Enterprise Archiving Strategy",
@@ -13200,6 +13234,8 @@
 {
   "course_name": "SAP Solution Manager",
   "path": "sap-solution-manager",
+    "image": "/sap-courses.jpg",
+
    "meta_title": "SAP Solution Manager Course Online | SAP Solution Manager Online Training | SAP Solution Manager Certificate",
   "meta_description": "Enroll in SAP Solution Manager training with certification. Learn to manage and support SAP landscapes.", 
   "description": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, change management, and implementation for SAP administrators.",
@@ -13272,7 +13308,6 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-solution-manager.png",
   "placement_assurance": true,
   "projects": [
     "Enterprise Monitoring System Setup",
@@ -13284,6 +13319,8 @@
 {
   "course_name": "SAP Aerospace & Defense",
   "path": "sap-aerospace-and-defense",
+    "image": "/sap-courses.jpg",
+
      "meta_title": "SAP Aerospace & Defense Course Online | SAP Aerospace & Defense Online Training | SAP Aerospace & Defense Certificate",
   "meta_description": "Join SAP Aerospace & Defense training with certification. Learn to manage complex defense processes.", 
   "description": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, compliance, and project management for A&D professionals.",
@@ -13356,7 +13393,6 @@
   ],
   "duration": "55-65 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/sap-aerospace-and-defense.png",
   "placement_assurance": true,
   "projects": [
     "Aircraft Manufacturing Process",
@@ -16475,7 +16511,7 @@
 
   "duration": "50 hours",
   "skill_level": "Beginner to Advanced",
-  "image": "https://example.com/sap-sales-cloud.jpg",
+  "image": "/sap-courses.jpg",
   "placement_assurance": true,
   "projects": [
     "End-to-end lead-to-order implementation",
