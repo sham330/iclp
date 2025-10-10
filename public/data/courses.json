@@ -2,6 +2,7 @@
   "categories": [
     {
       "category_name": "Programming",
+      "path":"programming",
       "sub_categories": [
         {
           "course_name": "Java",
@@ -943,6 +944,7 @@
     },
     {
       "category_name": "Web Development",
+      "path":"web-development",
       "sub_categories": [
         {
           "course_name": "Full Stack Developer",
@@ -3420,6 +3422,8 @@
     },
     {
       "category_name": "Cybersecurity & Ethical Hacking",
+            "path":"cybersecurity-ethical-hacking",
+
       "sub_categories": [
         {
           "course_name": "Cyber Security",
@@ -4005,6 +4009,8 @@
     },
     {
       "category_name": "Software Testing & Quality Assurance",
+            "path":"software-testing-quality-assurance",
+
       "sub_categories": [
         {
           "course_name": "Selenium",
@@ -4376,6 +4382,8 @@
     },
     {
       "category_name": "Data Science & Artificial Intelligence",
+            "path":"data-science-artificial-intelligence",
+
       "sub_categories": [
           {
           "course_name": "SoapUI",
@@ -5129,6 +5137,8 @@
     },
     {
       "category_name": "Database Management System",
+            "path":"database-management-system",
+
       "sub_categories": [
         {
           "course_name": "MySQL",
@@ -5479,6 +5489,8 @@
     },
     {
       "category_name": "Microsoft",
+            "path":"microsoft",
+
       "sub_categories": [
         {
           "course_name": "Microsoft Excel",
@@ -5783,6 +5795,8 @@
     },
     {
       "category_name": "Digital Marketing & Business Tools",
+            "path":"digital-marketing-business-tools",
+
       "sub_categories": [
         {
           "course_name": "Digital Marketing",
@@ -5857,6 +5871,8 @@
     },
     {
       "category_name": "UI and UX",
+            "path":"ui-and-ux",
+
       "sub_categories": [
         {
           "course_name": "UI and UX",
@@ -5923,6 +5939,8 @@
     },
     {
       "category_name": "CRM & Enterprise Solutions",
+            "path":"crm-enterprise-solutions",
+
       "sub_categories": [
         {
           "course_name": "Salesforce",
@@ -5990,6 +6008,8 @@
 
     {
       "category_name": "Networking",
+            "path":"networking",
+
       "sub_categories": [
         {
           "course_name": "CCNA Online Training",
@@ -6444,6 +6464,8 @@
     },
     {
       "category_name": "Data Analytics",
+            "path":"data-analytics",
+
       "sub_categories": [
         {
           "course_name": "SAS Course",
@@ -6610,6 +6632,8 @@
     },
     {
       "category_name": "Data Integration",
+            "path":"data-integration",
+
       "sub_categories": [
         {
           "course_name": "Informatica PowerCenter",
@@ -6933,6 +6957,8 @@
     },
     {
       "category_name": "System Administration",
+            "path":"system-administration",
+
       "sub_categories": [
         {
           "course_name": "UNIX Shell Scripting",
@@ -7146,6 +7172,7 @@
     },
 {
   "category_name": "IBM",
+  "path":"ibm",
   "sub_categories": [
     {
       "course_name": "IBM DataPower",
@@ -8756,6 +8783,7 @@
   ]
 },{
   "category_name": "Corel Draw",
+  "path":"corel-draw",
   "sub_categories": [{
   "course_name": "CorelDRAW Masterclass",
   "path": "coreldraw-masterclass",
@@ -9012,6 +9040,7 @@
 },{
   
   "category_name": "SAP Courses",
+  "path":"sap-courses",
 "sub_categories": [
         {
           "course_name": "SAP FICO",
