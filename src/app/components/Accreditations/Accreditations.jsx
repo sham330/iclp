@@ -21,6 +21,8 @@ const Accreditations = () => {
             className="accreditation-logo"
           />
           <img src="/ISO.jpg" alt="ISO" className="accreditation-logo" />
+                    <img src="/MSME.jpg" alt="ISO" className="accreditation-logo" />
+
         </div>
       </div>
     </div>
