@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { FaTimes, FaCheckCircle } from "react-icons/fa";
@@ -7,19 +7,7 @@ import "./ModalBooking.css";
 import SEO from "../SEO/SEO";
 
 const ModalBooking = ({ onClose }) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    course: "",
-  });
-  const [errors, setErrors] = useState({
-    email: "",
-    phone: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitSuccess, setSubmitSuccess] = useState(false);
-
+  
   const courses = [
     // Regular courses
     { name: "Java", type: "regular" },
@@ -78,99 +66,79 @@ const ModalBooking = ({ onClose }) => {
     { name: "Oracle SCM", type: "oracle" },
     { name: "Oracle HCM", type: "oracle" },
   ];
+const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    course: "",
+  });
 
-  const validateEmail = (email) => {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(String(email).toLowerCase());
-  };
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [shouldSend, setShouldSend] = useState(false);
 
-  const validatePhone = (phone) => {
-    // Basic validation for Indian phone numbers
-    const re = /^[0-9]{10}$/;
-    return re.test(phone);
-  };
+  // ✅ Validation helpers
+  const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const validatePhone = (phone) => /^[0-9]{10}$/.test(phone);
 
+  // ✅ Handle input
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-
-    // Validate fields as user types
-    if (name === "email") {
-      setErrors({
-        ...errors,
-        email: value && !validateEmail(value) ? "Please enter a valid email address" : "",
-      });
-    }
-
-    if (name === "phone") {
-      setErrors({
-        ...errors,
-        phone: value && !validatePhone(value) ? "Please enter a valid 10-digit phone number" : "",
-      });
-    }
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // ✅ Validate form
   const validateForm = () => {
-    let valid = true;
-    const newErrors = { ...errors };
-
-    if (!formData.email) {
-      newErrors.email = "Email is required";
-      valid = false;
-    } else if (!validateEmail(formData.email)) {
-      newErrors.email = "Please enter a valid email address";
-      valid = false;
-    }
-
-    if (!formData.phone) {
-      newErrors.phone = "Phone number is required";
-      valid = false;
-    } else if (!validatePhone(formData.phone)) {
-      newErrors.phone = "Please enter a valid 10-digit phone number";
-      valid = false;
-    }
-
+    const newErrors = {};
+    if (!formData.name) newErrors.name = "Name is required";
+    if (!formData.email) newErrors.email = "Email is required";
+    else if (!validateEmail(formData.email)) newErrors.email = "Invalid email";
+    if (!formData.phone) newErrors.phone = "Phone is required";
+    else if (!validatePhone(formData.phone)) newErrors.phone = "Invalid phone";
     setErrors(newErrors);
-    return valid;
+    return Object.keys(newErrors).length === 0;
   };
 
+  // ✅ Handle form submit
   const sendEmail = (e) => {
     e.preventDefault();
-    
-    if (!validateForm()) {
-      return;
+    if (validateForm()) {
+      setIsSubmitting(true);
+      setShouldSend(true); // triggers useEffect
     }
-
-    setIsSubmitting(true);
-
-    emailjs
-      .send(
-        "service_tf9j3zs",
-        "template_lp7u8iq",
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          course: formData.course,
-        },
-        "0F_TVbKHW3Vt_OVd7",
-      )
-      .then(
-        () => {
-          setSubmitSuccess(true);
-          setTimeout(() => {
-            setFormData({ name: "", email: "", phone: "", course: "" });
-            onClose();
-            setIsSubmitting(false);
-            setSubmitSuccess(false);
-          }, 2000);
-        },
-        () => {
-          alert("Failed to send booking details. Please try again.");
-          setIsSubmitting(false);
-        },
-      );
   };
+
+  // ✅ Send data to Next.js API
+  useEffect(() => {
+    if (!shouldSend) return;
+
+    const sendData = async () => {
+      try {
+        const res = await fetch("/api/email", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        });
+
+        if (!res.ok) throw new Error("Failed to send data");
+
+        const data = await res.json();
+        console.log("✅ API response:", data);
+
+        setSubmitSuccess(true);
+        setFormData({ name: "", email: "", phone: "", course: "" });
+      } catch (error) {
+        console.error("❌ Error submitting form:", error);
+      } finally {
+        setIsSubmitting(false);
+        setShouldSend(false);
+      }
+    };
+
+    sendData();
+  }, [shouldSend, formData]);
+
 
   return (
     <motion.div

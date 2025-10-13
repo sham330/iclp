@@ -264,7 +264,7 @@
 
 // export default Contact;
 "use client";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./contact.css";
 import {
   FaPhone,
@@ -279,7 +279,7 @@ import emailjs from "emailjs-com";
 import Head from "./Head";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
+ const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
@@ -303,31 +303,29 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      await emailjs.send(
-        "service_tf9j3zs",
-        "template_lp7u8iq",
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          course: formData.course,
-          state: formData.state,
-          city: formData.city,
-        },
-        "0F_TVbKHW3Vt_OVd7",
-      );
-
-      alert("Your enquiry has been sent successfully!");
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        course: "",
-        state: "",
-        city: "",
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
       });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        alert("✅ Your enquiry has been sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          course: "",
+          state: "",
+          city: "",
+        });
+      } else {
+        alert(`❌ Failed: ${data.message || "Please try again."}`);
+      }
     } catch (error) {
-      alert("Failed to send enquiry. Please try again.");
+      alert("❌ Network error. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }

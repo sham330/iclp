@@ -72,38 +72,42 @@ const Booking = () => {
     { name: "Oracle HCM", type: "oracle" },
   ];
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+const handleChange = (e) => {
+  const { name, value } = e.target;
+  setFormData((prev) => ({ ...prev, [name]: value }));
+};
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+const sendEmail = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    emailjs
-      .send(
-        "service_tf9j3zs",
-        "template_lp7u8iq",
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          course: formData.course,
-        },
-        "0F_TVbKHW3Vt_OVd7",
-      )
-      .then(
-        () => {
-          setIsSubmitting(false);
-          showConfetti();
-          setFormData({ name: "", email: "", phone: "", course: "" });
-        },
-        () => {
-          setIsSubmitting(false);
-          alert("Failed to send booking details. Please try again.");
-        },
-      );
-  };
+  try {
+    const res = await fetch("/api/email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        course: formData.course,
+      }),
+    });
+
+    if (res.ok) {
+      showConfetti();
+      setFormData({ name: "", email: "", phone: "", course: "" });
+    } else {
+      const data = await res.json();
+      alert(`❌ ${data.message || "Failed to send booking details."}`);
+    }
+  } catch (error) {
+    console.error("❌ Network error:", error);
+    alert("Failed to send booking details. Please try again.");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   const showConfetti = () => {
     const confettiContainer = document.querySelector(".bs-confetti-container");

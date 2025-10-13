@@ -8,16 +8,6 @@ import './homeAbout.css';
 
 const HomeAbout = () => {
   const router = useRouter();
-  const sectionRef = useRef(null);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    course: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitSuccess, setSubmitSuccess] = useState(false);
-
   const courses = [
     // Regular courses
     { name: "Java", type: "regular" },
@@ -97,42 +87,57 @@ const HomeAbout = () => {
       color: "#1a6caa"
     }
   ];
+  const sectionRef = useRef(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    course: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  
+const handleChange = (e) => {
+  const { name, value } = e.target;
+  setFormData((prev) => ({ ...prev, [name]: value }));
+};
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+const sendEmail = async (e) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    emailjs
-      .send(
-        "service_tf9j3zs",
-        "template_lp7u8iq",
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          course: formData.course,
-        },
-        "0F_TVbKHW3Vt_OVd7"
-      )
-      .then(
-        () => {
-          setSubmitSuccess(true);
-          setTimeout(() => {
-            setFormData({ name: "", email: "", phone: "", course: "" });
-            setIsSubmitting(false);
-            setSubmitSuccess(false);
-          }, 3000);
-        },
-        () => {
-          alert("Failed to send booking details. Please try again.");
-          setIsSubmitting(false);
-        }
-      );
-  };
+  try {
+    const res = await fetch("/api/email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        course: formData.course,
+      }),
+    });
+
+    if (res.ok) {
+      setSubmitSuccess(true);
+
+      setTimeout(() => {
+        setFormData({ name: "", email: "", phone: "", course: "" });
+        setIsSubmitting(false);
+        setSubmitSuccess(false);
+      }, 3000);
+    } else {
+      const data = await res.json();
+      alert(`❌ ${data.message || "Failed to send booking details."}`);
+      setIsSubmitting(false);
+    }
+  } catch (error) {
+    console.error("❌ Network error:", error);
+    alert("Failed to send booking details. Please try again.");
+    setIsSubmitting(false);
+  }
+};
 
   const handleNavigate = () => {
     // Scroll to top before navigation
