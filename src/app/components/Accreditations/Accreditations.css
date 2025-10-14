@@ -47,7 +47,7 @@
 /* Logo Styling - Smaller */
 .accreditation-logo {
   max-width: 200px; /* Smaller logos */
-  height: auto;
+  height: 100px;
   transition: transform 0.3s ease;
   border-radius: 8px;
 }

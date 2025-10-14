@@ -1404,7 +1404,7 @@ export default function BlogDetailPage({ params }) {
               {section.note && (
                 <div className="note-box">
                   <div className="note-icon">!</div>
-                  <p className="note-text">{section.note}</p>
+                  <p className="note-text" dangerouslySetInnerHTML={{__html:section.note}}></p>
                 </div>
               )}
 
