@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Get Certified with the Best Online Courses</title>
+      <title>Get Certified with the Best Online Courses - ICLP</title>
       <meta
         name="description"
         content="Earn industry-recognized certifications from the best online learning institute. Boost your career with certified courses in programming, design, business, marketing, and more."

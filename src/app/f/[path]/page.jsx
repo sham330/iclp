@@ -38,7 +38,7 @@ export default function FCoursePage({ params }) {
   return (
     <>
       <Head>
-        <title>{course.course_name}</title>
+        <title>{course.course_name} - ICLP</title>
         <meta
           name="description"
           content={course.description}

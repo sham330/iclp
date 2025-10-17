@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Student Reviews – Best Online Learning Institute</title>
+      <title>Student Reviews – Best Online Learning Institute - ICLP</title>
       <meta
         name="description"
         content="Read real student reviews and success stories from our top-rated online courses."

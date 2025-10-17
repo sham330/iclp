@@ -16,9 +16,9 @@ import HomeAboutDialog from "./components/Dialogbox/dialog";
 
 // ✅ This replaces your SEO component
 export const metadata = {
-  title: "Online Courses | Online Courses Certificate | Online Courses Training",
+  title: "Online Software Courses | Online Courses Certificate | Online Courses Training - ICLP",
   description:
-    "Explore online courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!",
+    "Explore online software courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!",
   keywords: ["online courses", "programming", "design", "marketing"],
 };
 

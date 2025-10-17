@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Hiring Freelance Trainers – Join Our Online Teaching Team</title>
+      <title>Hiring Freelance Trainers – Join Our Online Teaching Team - ICLP</title>
       <meta
         name="description"
         content="We're hiring skilled freelance trainers to teach students online. Share your expertise in programming, design, business, and more. Partner with a top-rated online learning institute and inspire the next generation."

@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Learn with the Best Online Institute - Blog & Tips</title>
+      <title>Learn with the Best Online Institute - Blog & Tips - ICLP</title>
       <meta
         name="description"
         content="Explore expert tips, student success stories, and course updates from the best online learning institute. Stay ahead in programming, design, business, and more with our latest blog posts."

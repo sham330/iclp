@@ -5,7 +5,7 @@ export default async function Head({ course }) {
 console.log(course.schema);
   return (
     <>
-      <title>{course.metaTitle || course.title|| "Iclp tech"}</title>
+      <title>{course.metaTitle || course.title|| "Iclp tech"}- ICLP</title>
       <meta
         name="description"
         content={course.metadescription || course.intro}

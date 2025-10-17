@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Fast Contact Enquiry – Get Instant Responses for Online Courses</title>
+      <title>Fast Contact Enquiry – Get Instant Responses for Online Courses - ICLP</title>
       <meta
         name="description"
         content="Need quick information? Contact us now for fast responses on course details, enrolment, and offers. Get instant answers to your enquiries and take the first step toward your learning journey today!"

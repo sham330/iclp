@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Top Interview Questions with Answers – Prepare with Confidence</title>
+      <title>Top Interview Questions with Answers – Prepare with Confidence - ICLP</title>
       <meta
         name="description"
         content="Crack your next interview with our expert-curated interview questions and answers. Find the most asked questions in programming, web development, data science, and more – all from the best online learning institute."

@@ -2,7 +2,7 @@
 export default function Head() {
   return (
     <>
-      <title>Free Video Tutorials – Learn Online with Expert Guidance</title>
+      <title>Free Video Tutorials – Learn Online with Expert Guidance - ICLP</title>
       <meta
         name="description"
         content="Watch free video tutorials from expert instructors in programming, design, marketing, and more. Learn step-by-step with high-quality videos from the best online learning institute."
