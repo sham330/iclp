@@ -12,6 +12,7 @@ import ExpertConnectBanner from "./components/ExpertConnectBanner/ExpertConnectB
 import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCoursesSlider";
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
+import HomeAboutDialog from "./components/Dialogbox/dialog";
 
 // ✅ This replaces your SEO component
 export const metadata = {
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <main className="home-content">
+        <HomeAboutDialog/>
         <BodyHead />
         <HomeAbout />
         <TopCategories />

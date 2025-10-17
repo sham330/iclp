@@ -12,6 +12,7 @@ import ExpertConnectBanner from "./components/ExpertConnectBanner/ExpertConnectB
 import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCoursesSlider";
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
+import HomeAboutDialog from "./components/Dialogbox/dialog";
 
 // ✅ This replaces your SEO component
 export const metadata = {
@@ -20,11 +21,15 @@ export const metadata = {
     "Join the best online institute offering top-rated courses in programming, design, marketing, data science, and more. Learn at your own pace with expert instructors and get certified to boost your career today!",
   keywords: ["online courses", "programming", "design", "marketing"],
 };
+console.log('HomeAboutDialog imported:', HomeAboutDialog);
 
 export default function Home() {
   return (
     <div className="home-container">
+
       <main className="home-content">
+                      <HomeAboutDialog/>
+
         <BodyHead />
         <HomeAbout />
         <TopCategories />
