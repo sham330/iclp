@@ -45,8 +45,8 @@ export async function POST(request) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "shammpams@gmail.com",
-        pass: "ihvs qjcd tdua khey", // ⚠️ Use an App Password, not your Gmail password
+        user: "info.iclptech@gmail.com",
+        pass: "knjj pzhr loiu qlir", // ⚠️ Use an App Password, not your Gmail password
       },
     });
 
@@ -56,7 +56,7 @@ export async function POST(request) {
 
     // ✅ Email contents
 const mailOptions = {
-  from: "shammpams@gmail.com",
+  from: "info.iclptech@gmail.com",
   to: "info.iclptech@gmail.com",
   subject: `💡 New Course Registration | ICLP Tech`,
   html: `
