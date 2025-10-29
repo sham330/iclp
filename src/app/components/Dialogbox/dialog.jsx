@@ -201,9 +201,9 @@ console.log("its working");
           )}
         </div>
 
-       <div className="dialog-small-banner">
+       {/* <div className="dialog-small-banner">
           <img src="/dialog.jpg" alt="Special Offer" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
