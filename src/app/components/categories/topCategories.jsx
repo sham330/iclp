@@ -37,14 +37,15 @@ const TopCategories = () => {
         const extractedCategories = data.categories.map((category) => ({
           name: category.category_name,
           icon: iconMapping[category.category_name] || <AiOutlineCode />,
+          path:category.path
         }));
         setCategories(extractedCategories);
       })
       .catch((error) => console.error("Error fetching JSON data:", error));
   }, []);
 
-  const handleCardClick = (categoryName) => {
-    router.push(`/category/${categoryName}`);
+  const handleCardClick = (path) => {
+    router.push(`/category/${path}`);
   };
 
   const handleSeeAllClick = () => {
@@ -104,7 +105,7 @@ const displayedCategories = isCoursesPage
                 className="category-card"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => handleCardClick(category.name)}
+                onClick={() => handleCardClick(category.path)}
               >
                 <div className="category-icon">{category.icon}</div>
                 {category.name}

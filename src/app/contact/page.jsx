@@ -286,6 +286,7 @@ const Contact = () => {
     course: "",
     state: "",
     city: "",
+    contact:"",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -320,6 +321,7 @@ const Contact = () => {
           course: "",
           state: "",
           city: "",
+          contact:"",
         });
       } else {
         alert(`❌ Failed: ${data.message || "Please try again."}`);
@@ -368,81 +370,81 @@ const Contact = () => {
               </div>
             </div>
 
-            <form className="contact-page-form" onSubmit={sendEmail}>
-              <div className="contact-form-group">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Enter Name *"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="contact-form-group">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter Email Address *"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="contact-form-group contact-phone-group">
-                <select className="contact-country-code">
-                  <option>+91</option>
-                </select>
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder="Enter Mobile Number *"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="contact-form-group">
-                <input
-                  type="text"
-                  name="course"
-                  placeholder="Enter Interested Course Name *"
-                  value={formData.course}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="contact-form-group contact-double-group">
-                <select
-                  name="state"
-                  value={formData.state}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="">Select State *</option>
-                  <option value="Tamil Nadu">Tamil Nadu</option>
-                  <option value="Other">Other</option>
-                </select>
-                <select
-                  name="city"
-                  value={formData.city}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="">Select City *</option>
-                  <option value="Chennai">Chennai</option>
-                  <option value="Other">Other</option>
-                </select>
-              </div>
+      <form className="contact-page-form" onSubmit={sendEmail}>
+  <div className="contact-form-group">
+    <input
+      type="text"
+      name="name"
+      placeholder="Enter Name *"
+      value={formData.name}
+      onChange={handleChange}
+      required
+    />
+  </div>
 
-              <button
-                type="submit"
-                className="contact-submit-btn"
-                disabled={isSubmitting}
-              >
-                {isSubmitting ? "Sending..." : "Submit"}
-              </button>
-            </form>
+  <div className="contact-form-group">
+   <input
+    type="text"
+    name="contact"
+    placeholder="Enter Phone Number or Email *"
+    value={formData.contact}
+    onChange={(e) => {
+      const value = e.target.value;
+      // ✅ Allow numbers only if user is entering a phone number
+      if (/^\d*$/.test(value)) {
+        handleChange({ target: { name: "contact", value } });
+      } else {
+        handleChange(e);
+      }
+    }}
+    required
+  />
+  </div>
+
+  <div className="contact-form-group">
+    <input
+      type="text"
+      name="course"
+      placeholder="Enter Interested Course Name *"
+      value={formData.course}
+      onChange={handleChange}
+      required
+    />
+  </div>
+
+  <div className="contact-form-group contact-double-group">
+    <select
+      name="state"
+      value={formData.state}
+      onChange={handleChange}
+      required
+    >
+      <option value="">Select State *</option>
+      <option value="Tamil Nadu">Tamil Nadu</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <select
+      name="city"
+      value={formData.city}
+      onChange={handleChange}
+      required
+    >
+      <option value="">Select City *</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <button
+    type="submit"
+    className="contact-submit-btn"
+    disabled={isSubmitting}
+  >
+    {isSubmitting ? "Sending..." : "Submit"}
+  </button>
+</form>
+
           </div>
         </div>
 

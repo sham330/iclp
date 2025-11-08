@@ -540,6 +540,9 @@ const CompanyScreen = () => {
               <li>
                 <FaCheckCircle /> Hybrid learning models
               </li>
+              <li>
+                <FaCheckCircle /> Offline learning models
+              </li>
             </ul>
           </motion.div>
         </div>

@@ -6,9 +6,9 @@ export async function POST(request) {
 
   try {
     const body = await request.json();
-    const { name, email, phone, course, state, city } = body;
+    const { name, email, phone, course, state, city,contact } = body;
 
-    if (!name || !email || !phone || !course) {
+    if (!name || !course) {
       return NextResponse.json(
         { message: "All required fields must be filled." },
         { status: 400 }
@@ -32,7 +32,7 @@ export async function POST(request) {
     // Email content
     const mailOptions = {
       from: "ICLP Tech <info.iclptech@gmail.com>",
-      to: "info.iclp@gmail.com",
+      to: "info.iclptech@gmail.com",
       subject: `💡 New Course Registration | ICLP Tech`,
       html: `
         <div style="font-family:'Inter',sans-serif;background:#f8fafc;padding:40px 20px;border-radius:16px;max-width:620px;margin:auto;border:1px solid #e2e8f0;">
@@ -46,8 +46,8 @@ export async function POST(request) {
 
           <div style="background:white;border:1px solid #e2e8f0;border-radius:12px;padding:24px;color:#1e293b;">
             <p><b>👤 Name:</b> ${name}</p>
-            <p><b>📧 Email:</b> ${email}</p>
-            <p><b>📞 Phone:</b> ${phone}</p>
+            <p><b>📧 Email:</b> ${email || contact}</p>
+            <p><b>📞 Phone:</b> ${phone || contact}</p>
             <p><b>📘 Course:</b> ${course}</p>
             ${state ? `<p><b>🌍 State:</b> ${state}</p>` : ""}
             ${city ? `<p><b>🏙️ City:</b> ${city}</p>` : ""}
