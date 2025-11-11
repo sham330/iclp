@@ -3,16 +3,17 @@
 export default async function Head({ course }) {
   if (!course) return null;
 console.log(course.schema);
+console.log(course.metaTitle);
   return (
     <>
-      <title>{course.metaTitle || course.title|| "Iclp tech"}- ICLP</title>
+      <title>{course.metaTitle ? `${course.metaTitle} - ICLP` : `${course.title} - ICLP`}</title>
       <meta
         name="description"
-        content={course.metadescription || course.intro}
+        content={course.metaDescription }
       />
 
       <meta property="og:title" content={course.title} />
-      <meta property="og:description" content={course.metadescription} />
+      <meta property="og:description" content={course.metaDescription} />
       <meta
         property="og:url"
         content={`https://iclptech.in/blog/${course.slug}`}
@@ -22,7 +23,7 @@ console.log(course.schema);
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={course.title} />
-      <meta name="twitter:description" content={course.metadescription} />
+      <meta name="twitter:description" content={course.metaDescription} />
       <meta name="twitter:image" content={`https://iclptech.in${course.image}` || "/Logo.png"}  />
   
     </>
