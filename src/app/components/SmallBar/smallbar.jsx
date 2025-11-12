@@ -71,7 +71,7 @@ const SmallBar = () => {
             </span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                {categories.map((category, index) => (
+{categories.slice(1).map((category, index) => (
                   <li key={index} className="dropdown-submenu">
                     <span className="submenu-title">
                       {category.category_name} ▸

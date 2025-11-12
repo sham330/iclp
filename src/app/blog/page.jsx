@@ -1918,13 +1918,17 @@ const particleData = [...Array(10)].map(() => ({
   </motion.div>
 
   <div className="iclp-articles-grid">
-    {blogs.map((blog, index) => {
-      const [ref, controls] = useScrollAnimation();
+
+ {blogs
+    .slice() // create a copy to avoid mutating state
+    .sort((a, b) => b.id - a.id) // descending order by id
+    .map((blog, index) => {      const [ref, controls] = useScrollAnimation();
 
       return (
         <motion.div
           key={blog.id}
           ref={ref}
+                        onClick={() => router.push(`/blog/${encodeURIComponent(blog.slug)}`)}
           className="iclp-article-card"
           variants={{
             hidden: { opacity: 0, y: 50 },
@@ -1960,8 +1964,6 @@ const particleData = [...Array(10)].map(() => ({
           {/* Title */}
           <h3>{blog.title}</h3>
 
-          {/* Intro / Excerpt */}
-          <p className="iclp-article-excerpt">{blog.intro}</p>
 
           {/* Footer with Read More button */}
           <div className="iclp-article-footer">
