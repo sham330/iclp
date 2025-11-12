@@ -5,7 +5,7 @@ export default async function Head({ course }) {
 
   return (
     <>
-      <title>{course.meta_title || course.course_name || "Iclp tech"} - ICLP</title>
+      <title>{`${course.meta_title || course.course_name || "Iclp tech"} - ICLP`}</title>
       <meta
         name="description"
         content={course.meta_description || course.description}
