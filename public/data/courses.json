@@ -6952,7 +6952,329 @@
           "image": "/CourseDetails/inf.png",
           "placement_assurance": true,
           "projects": ["Data Archiving Solution", "Application Retirement Plan"]
+        },    {
+      "course_name": "Informatica MDM Online Training",
+      "path": "informatica-mdm-online-training",
+      "description": "Learn to design, configure, and manage master data using Informatica MDM Hub.",
+      "what_youll_learn": [
+        "Master Data Management fundamentals",
+        "Data modeling and relationship configuration",
+        "Staging, loading, and merging processes",
+        "User exits and batch processing",
+        "Hierarchy management and security access"
+      ],
+      "syllabus": [
+        {
+          "module": "Introduction to Informatica MDM Hub",
+          "subtopics": [
+            "Master Data",
+            "Master Data Management",
+            "A Reliable Foundation Of Master Reference Data",
+            "Components of MDM Hub",
+            "Application Server Tier",
+            "Database Server Tier",
+            "Batch Data Process Flow",
+            "Trust Framework",
+            "Consolidation Flag"
+          ]
+        },
+        {
+          "module": "Define the Data Model",
+          "subtopics": [
+            "Data Model Elements",
+            "Data Model",
+            "Relationships",
+            "Relationship Types",
+            "Lookups",
+            "Global Business Identifier (GBID) Flag"
+          ]
+        },
+        {
+          "module": "Configuring Stage and Load Process",
+          "subtopics": []
+        },
+        {
+          "module": "Configure the Stage Process",
+          "subtopics": [
+            "Basic Mappings",
+            "Complex Mappings",
+            "Cleansing and Transforming Data",
+            "Execution Component",
+            "Testing Mappings",
+            "Reusable Cleanse Components",
+            "External Data Cleansing",
+            "Delta Detection & Audit Trail",
+            "Rejects",
+            "Cleanse Match Servers",
+            "High-Level Stage Process Flow",
+            "Detailed Stage Process Flow"
+          ]
+        },
+        {
+          "module": "Configure the Load Process",
+          "subtopics": [
+            "Trust",
+            "Validation Rule",
+            "Trust & Validation Rules: Things to note",
+            "Cell Level Update",
+            "Allow NULL Update",
+            "Allow NULL Foreign Key",
+            "How the Load works"
+          ]
+        },
+        {
+          "module": "Configuring Merge Process and Data Access",
+          "subtopics": []
+        },
+        {
+          "module": "Configure the Match & Merge Process",
+          "subtopics": [
+            "Match & Merge Overview",
+            "Key Activities for Configuring Rules",
+            "Match/Search Strategy for Base Object",
+            "Population",
+            "Match Path, Columns and Match Key",
+            "Match Rules and Rule Sets",
+            "Primary Key Match Rules",
+            "Match Rules using Primary Key Match",
+            "Match Keys Distribution",
+            "Merge Settings",
+            "Match/Merge Properties: Merge Style Base Object",
+            "External Match",
+            "Match Server Architecture"
+          ]
+        },
+        {
+          "module": "Configure Data Access Views",
+          "subtopics": [
+            "Queries & Packages Overview",
+            "Query",
+            "Package"
+          ]
+        },
+        {
+          "module": "Batch Processes and Data Management Tools",
+          "subtopics": []
+        },
+        {
+          "module": "Batch Processes",
+          "subtopics": [
+            "Batch Viewer",
+            "Batch Group",
+            "Executing Stored Procedures",
+            "Scheduling Considerations",
+            "Job Status & Job Statistics"
+          ]
+        },
+        {
+          "module": "Data Management Tools",
+          "subtopics": [
+            "Data Stewardship",
+            "Recap: Consolidation Flags",
+            "Merge Manager",
+            "Data Manager",
+            "Unmerge and Tree Unmerge"
+          ]
+        },
+        {
+          "module": "User Exits and Log Files",
+          "subtopics": []
+        },
+        {
+          "module": "User Exit Procedures",
+          "subtopics": [
+            "User Objects",
+            "User Object Registry Tool",
+            "User Exit & User Exit Procedure",
+            "Demo User Exit Procedure (using TOAD)",
+            "User Exits in the STAGE Process",
+            "User Exits in the LOAD Process",
+            "User Exits in the MATCH Process",
+            "User Exits in the MERGE Process",
+            "User Exits in the UNMERGE Process",
+            "Other Logs Exit Procedures"
+          ]
+        },
+        {
+          "module": "Log Files",
+          "subtopics": [
+            "Enterprise Manager",
+            "Hub Server Tab",
+            "Cleanse Servers Tab",
+            "Environment Report Tab",
+            "ORS Databases Tab",
+            "Database Log File",
+            "Application Server Log",
+            "Cleanse/Match Server Logs",
+            "Console Log"
+          ]
+        },
+        {
+          "module": "Hierarchy Management and Security Access Manager",
+          "subtopics": []
+        },
+        {
+          "module": "Hierarchy Management",
+          "subtopics": [
+            "Entities & Entity Type",
+            "HM Relationships",
+            "HM Hierarchies",
+            "Hierarchy Management",
+            "HM Profiles",
+            "HM Packages"
+          ]
+        },
+        {
+          "module": "Security Access Manager (SAM)",
+          "subtopics": [
+            "Users, Resources, Privileges & Roles",
+            "Resources",
+            "Resource Groups",
+            "Privileges",
+            "Roles"
+          ]
+        },
+        {
+          "module": "Informatica Data Director",
+          "subtopics": []
+        },
+        {
+          "module": "IDD Configuration",
+          "subtopics": [
+            "Business Data Director – User Interface",
+            "Create, Manage, Consume And Monitor",
+            "Data Model Elements",
+            "Configuration File",
+            "Subject Area",
+            "Subject Area Groups",
+            "BDD Data Display",
+            "Relationships",
+            "Application Validation",
+            "Importing an Application",
+            "Match Paths",
+            "Lookup",
+            "Cleansing",
+            "Resources and Privileges"
+          ]
         }
+      ],
+      "duration": "45 hours",
+      "skill_level": "Advanced",
+      "image": "/CourseDetails/mdm.png",
+      "placement_assurance": true,
+      "projects": ["MDM Data Integration Project", "Hierarchy Management Implementation"]
+    },
+    {
+      "course_name": "Alation Data Catalog",
+      "path": "alation-data-catalog-course",
+      "description": "Master enterprise data governance, metadata management, and collaboration using Alation Data Catalog.",
+      "what_youll_learn": [
+        "Implement data governance and stewardship with Alation",
+        "Catalog and manage enterprise metadata",
+        "Track data lineage and perform impact analysis",
+        "Create and manage business glossaries and policies",
+        "Integrate Alation with BI tools and cloud platforms"
+      ],
+      "syllabus": [
+        {
+          "module": "Introduction to Data Governance & Cataloging",
+          "subtopics": [
+            "What is Data Governance?",
+            "Why organizations need a Data Catalog",
+            "Overview of Enterprise Data Management",
+            "Data Governance roles: Steward, Owner, Analyst",
+            "Comparison: Alation vs Collibra vs Informatica"
+          ]
+        },
+        {
+          "module": "Introduction to Alation",
+          "subtopics": [
+            "Alation Overview & Architecture",
+            "Core components of Alation platform",
+            "User roles and responsibilities",
+            "Understanding the Alation interface",
+            "Key terms: Data Source, Catalog, Glossary, Stewardship"
+          ]
+        },
+        {
+          "module": "Alation Data Catalog Fundamentals",
+          "subtopics": [
+            "Connecting to data sources (Databases, BI tools, etc.)",
+            "Data ingestion and metadata extraction",
+            "Data lineage overview",
+            "Managing schema and table-level metadata",
+            "Data profiling basics"
+          ]
+        },
+        {
+          "module": "Business Glossary & Stewardship",
+          "subtopics": [
+            "Creating and maintaining the Business Glossary",
+            "Assigning Data Stewards and Owners",
+            "Governance workflows in Alation",
+            "Tracking glossary term usage across datasets"
+          ]
+        },
+        {
+          "module": "Data Lineage & Impact Analysis",
+          "subtopics": [
+            "Understanding Data Lineage",
+            "How Alation captures lineage",
+            "Visualizing lineage in dashboards",
+            "Performing impact analysis before schema change"
+          ]
+        },
+        {
+          "module": "Search, Query, and Collaboration",
+          "subtopics": [
+            "Alation’s Search Engine",
+            "Using Natural Language Search (NLS)",
+            "Data query feature – writing SQL queries in Alation",
+            "Query collaboration and sharing",
+            "Version control and approvals"
+          ]
+        },
+        {
+          "module": "Policies, Rules & Compliance",
+          "subtopics": [
+            "Policy management and data privacy",
+            "GDPR / HIPAA compliance in Alation",
+            "Setting up governance policies",
+            "Data usage tracking and reporting"
+          ]
+        },
+        {
+          "module": "Alation Advanced Features",
+          "subtopics": [
+            "Automated data discovery",
+            "Trust flags and certification",
+            "Integration with Tableau, Power BI, and Snowflake",
+            "APIs and Automation in Alation",
+            "Analytics and reporting dashboards"
+          ]
+        },
+        {
+          "module": "Administration & Security",
+          "subtopics": [
+            "User roles, permissions, and groups",
+            "Authentication and access control",
+            "Backup and restore configuration",
+            "Monitoring and auditing activity logs"
+          ]
+        }
+      ],
+      "duration": "40 hours",
+      "skill_level": "Intermediate",
+      "image": "/CourseDetails/alation.png",
+      "placement_assurance": true,
+      "projects": [
+        "Data Governance Implementation Project",
+        "Metadata Lineage Visualization Dashboard"
+      ]
+    }
+  
+
+
       ]
     },
     {
