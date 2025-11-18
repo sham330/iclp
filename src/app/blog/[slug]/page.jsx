@@ -1,5 +1,6 @@
 // app/blogs/[title]/page.jsx
 import Head from "./Head";
+import ShareButton from "./Sharebutton";
 import "./blogdetail.css"
  const blogs = [
   {
@@ -2168,9 +2169,8 @@ export default function BlogDetailPage({ params }) {
           <div className="cta-container">
             <div className="cta-inner">
               <span className="cta-text">Found this helpful?</span>
-              <button className="cta-button">
-                Share Article
-              </button>
+              <ShareButton/>
+
             </div>
           </div>
         </div>

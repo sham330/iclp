@@ -55,7 +55,7 @@ export default function CategoryCoursesPage() {
   return (
     <>
       <Head>
-        <title>{path} Courses - ICLP </title>
+        <title>{path} ICLP </title>
         <meta
           name="description"
           content={`Explore top ${path} courses online including Java, Python, SAP, AI, and more. Enroll now and advance your career!`}
