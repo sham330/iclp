@@ -321,6 +321,116 @@
           ]
         },
         {
+  "course_name": "SAP Treasury and Risk Management Online Training",
+  "path": "sap-treasury-and-risk-management-online-training",
+  "description": "Comprehensive training on SAP Treasury and Risk Management covering ERP fundamentals, transaction management, money market processes, securities handling, market data management, credit and market risk analyzers, and real-time configuration practices.",
+  "what_youll_learn": [
+    "Fundamentals of ERP and SAP architecture",
+    "Setup of company structures, GL accounts, business partners, and transactional settings",
+    "Money Market configuration including product types, flow types, and update types",
+    "Securities configuration and number ranges",
+    "Managing market data including exchange rates, reference interest rates, and volatilities",
+    "Credit Risk Analyzer configuration and risk control",
+    "Market Risk Analyzer fundamentals and simulations",
+    "Hands-on configuration, valuation, and SAP TRM process understanding"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Enterprise Resource Planning & SAP Introduction",
+      "subtopics": [
+        "ERP Fundamentals",
+        "SAP Vs. other ERP Packages: Advantages",
+        "System Landscape",
+        "ASAP Methodology",
+        "SAP R/3 Architecture, Versions"
+      ]
+    },
+    {
+      "module": "Module 2: Initial Setup & Transaction Manager Fundamentals",
+      "subtopics": [
+        "Setup Company, Company Code, GL Account Creation",
+        "Create Customer Master Data & Business Partners",
+        "Overview of Transactional Manager General settings",
+        "Foreign Exchange, Money Market, Commodities, Derivatives and Securities Overview",
+        "Overview of Traders",
+        "Overview of Factory Calendar & Assignment",
+        "Overview of Accounting codes & Valuation areas, Define & Assign",
+        "Overview of Parallel Valuation Areas & Initiating procedure",
+        "Overview of Valuation Classes, Define & Assigning",
+        "Overview of Account Determination, Define & Assigning"
+      ]
+    },
+    {
+      "module": "Module 3: Working Knowledge of Money Market",
+      "subtopics": [
+        "Overview of Product Types & Defining Procedure",
+        "Overview of Number range for Transaction Types & Defining Procedure",
+        "Overview of Flow Types & Defining Procedure",
+        "Assigning Flow Type to Transaction Type",
+        "Calculation Procedure for Derived Flows & Defining Procedure",
+        "Derivation Procedures and Rules & Defining Procedure",
+        "Update Types and Assign Usages & Defining Procedure",
+        "Assigning Flow Types to Update Types",
+        "Correspondence Activities & Defining Procedure",
+        "Assigning General Valuation Class"
+      ]
+    },
+    {
+      "module": "Module 4: Working Knowledge of Securities",
+      "subtopics": [
+        "Overview of Currency Units & Defining Procedure",
+        "Number Range for Security Classes & Defining Procedure",
+        "Company Code-Dependent Settings for the Product Type & Defining Procedure",
+        "Assign Flow Type to Transaction Type",
+        "Calculation Procedure for Derived Flows & Defining Procedure",
+        "Derivation Procedures and Rules & Defining Procedure"
+      ]
+    },
+    {
+      "module": "Module 5: Working Knowledge on Managing Market Data",
+      "subtopics": [
+        "Currency Exchange and Reference Interest Rate Entries",
+        "Overview of Securities and Indexes",
+        "Commodities Spot Prices & Mapping",
+        "Credit Related Entries for Transactions, Securities & Loans",
+        "Volatilities: Interest, Securities, Exchange"
+      ]
+    },
+    {
+      "module": "Module 6: Manage Risk with Credit Risk Analyzer",
+      "subtopics": [
+        "Overview of Global Settings",
+        "Collateral Priority & Defining Procedure",
+        "Collateral Type & Defining Procedure",
+        "Integration Activate/Deactivate: Financial Objects",
+        "Default Risk Control Parameters & Deriving Procedure",
+        "Risk Limit Check Activation & Check Procedure"
+      ]
+    },
+    {
+      "module": "Module 7: Manage Market Risk with Analyzer",
+      "subtopics": [
+        "General Settings for Market Risk Analyzer",
+        "Maturity Band & Defining Procedure",
+        "Cash Flow Indicators & Cash Flow Types",
+        "Concept of Value at Risk (VaR)",
+        "Evaluation Procedures",
+        "Simulation Overview"
+      ]
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "/CourseDetails/sap-trm.png",
+  "placement_assurance": true,
+  "projects": [
+    "Money Market Configuration End-to-End Project",
+    "Securities Management Configuration",
+    "Market & Credit Risk Analyzer Setup Project",
+    "SAP TRM Real-Time Configuration & Reporting Project"
+  ]
+},
+        {
   "course_name": "SAP Transportation Management",
   "path": "sap-transportation-management",
     "image": "/sap-courses.jpg",
@@ -4519,6 +4629,140 @@
           "projects": ["E-commerce Application", "Banking System"]
         },
         {
+  "course_name": "Spring Boot Online Training",
+  "path": "spring-boot-online-training",
+  "description": "Comprehensive Spring Boot training covering REST APIs, microservices, JPA, Spring Security, testing, deployment, and best practices.",
+  "what_youll_learn": [
+    "Spring Boot fundamentals and architecture",
+    "Building RESTful web services and CRUD operations",
+    "Using Spring Boot auto-configuration and properties",
+    "Working with Spring Data JPA and Hibernate",
+    "Implementing authentication and authorization with Spring Security",
+    "Unit testing and integration testing with JUnit & Mockito",
+    "Monitoring with Spring Boot Actuator",
+    "Using databases, migrations (Flyway/Liquibase), and in-memory DBs",
+    "Building microservices with Spring Cloud",
+    "Deployment using Docker and cloud platforms",
+    "Spring Boot coding standards, performance, and security best practices"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to Spring Boot",
+      "subtopics": [
+        "Introduction to Spring Boot",
+        "Overview of Spring Boot",
+        "Benefits of using Spring Boot",
+        "Setting up a Spring Boot project"
+      ]
+    },
+    {
+      "module": "Module 2: Spring Boot Basics",
+      "subtopics": [
+        "Application attributes and configuration",
+        "Spring Boot auto-configuration",
+        "Using the Spring Boot CLI"
+      ]
+    },
+    {
+      "module": "Module 3: Spring Boot Application Development",
+      "subtopics": [
+        "Creating RESTful web services",
+        "Building CRUD operations",
+        "Exception handling",
+        "Data validation"
+      ]
+    },
+    {
+      "module": "Module 4: Spring Data JPA",
+      "subtopics": [
+        "Entity mapping",
+        "Transactions and caching",
+        "Repositories and searches",
+        "Introduction to Spring Data JPA"
+      ]
+    },
+    {
+      "module": "Module 5: Spring Security",
+      "subtopics": [
+        "Basics of Spring Security",
+        "Authentication and authorization",
+        "Securing REST APIs",
+        "Custom security configurations"
+      ]
+    },
+    {
+      "module": "Module 6: Spring Boot Testing",
+      "subtopics": [
+        "Testing RESTful services",
+        "Integration tests",
+        "Writing unit tests with JUnit and Mockito",
+        "Test-driven development (TDD)"
+      ]
+    },
+    {
+      "module": "Module 7: Spring Boot Actuator",
+      "subtopics": [
+        "Monitoring and managing Spring Boot applications",
+        "Health checks",
+        "Metrics and logging"
+      ]
+    },
+    {
+      "module": "Module 8: Spring Boot with Databases",
+      "subtopics": [
+        "Establishing data sources",
+        "Using Flyway for database migrations",
+        "Using Liquibase for database migrations",
+        "Connecting to relational databases",
+        "Using H2 and other in-memory databases"
+      ]
+    },
+    {
+      "module": "Module 9: Spring Boot and Microservices",
+      "subtopics": [
+        "Building microservices with Spring Boot",
+        "Service discovery with Spring Cloud",
+        "API Gateway and Load Balancing",
+        "Resilience and fault tolerance"
+      ]
+    },
+    {
+      "module": "Module 10: Spring Boot and Front-End Technologies",
+      "subtopics": [
+        "Integrating Thymeleaf templates",
+        "Using JSP with Spring Boot",
+        "Front-end development best practices"
+      ]
+    },
+    {
+      "module": "Module 11: Spring Boot Deployment",
+      "subtopics": [
+        "Packaging and deploying Spring Boot applications",
+        "Using Docker with Spring Boot",
+        "Deploying to cloud platforms (AWS, Heroku)"
+      ]
+    },
+    {
+      "module": "Module 12: Spring Boot Best Practices",
+      "subtopics": [
+        "Performance optimization",
+        "Coding conventions and standards",
+        "Security best practices"
+      ]
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/spring-boot.png",
+  "placement_assurance": true,
+  "projects": [
+    "REST API with CRUD Operations",
+    "Spring Boot + JPA Employee Management System",
+    "Microservice with Spring Cloud and API Gateway",
+    "Spring Security JWT Authentication Project"
+  ]
+},
+        {
           "course_name": "Python",
           "path": "python-development-online-training",
           "description": "Master Python programming for data analysis, AI, and web development.",
@@ -8654,6 +8898,125 @@
           "projects": ["Data Validation", "ETL Performance Testing"]
         },
         {
+  "course_name": "Software Testing Certification Course",
+  "path": "software-testing-certification-course",
+  "description": "Learn the core concepts of software testing, testing environments, variables, arrays, strings, operators, conditionals, and loops with hands-on examples.",
+  "what_youll_learn": [
+    "Fundamentals of software testing and certification",
+    "Software Testing Certification environment, JVM, JDK, JRE",
+    "Compiling, running, and structuring Software Testing Certification programs",
+    "Working with variables, datatypes, arrays, and strings",
+    "Operators, conditionals, loops, and control flow",
+    "Static imports, wrapper classes, autoboxing, and unboxing",
+    "String handling, StringBuffer, and data conversions"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Software Testing Certification",
+      "subtopics": [
+        "Features of Software Testing Certification",
+        "Simple, Secure, Portable, Robust",
+        "Multithreading",
+        "Platform-Independent",
+        "Distributed & Dynamic",
+        "New Features of Software Testing Certification 8",
+        "Introducing Software Testing Certification Environment",
+        "Software Testing Certification Development Kit",
+        "Software Testing Certification Platforms",
+        "Software Testing Certification Virtual Machine",
+        "Software Testing Certification API",
+        "Software Testing Certification Programs",
+        "Installing Software Testing Certification",
+        "Understanding CLASSPATH",
+        "Reserve Words in Software Testing Certification",
+        "Starting a Software Testing Certification Program",
+        "Compiling Code",
+        "Compiling Code with Command-Line Options",
+        "Cross-Compilation Options",
+        "Checking Deprecated Methods",
+        "Running Code",
+        "Running Code with Command-Line Options",
+        "Commenting Your Code",
+        "Importing Packages and Classes",
+        "Finding Classes with CLASSPATH",
+        "Summary"
+      ]
+    },
+    {
+      "module": "Variables, Arrays and Strings",
+      "subtopics": [
+        "Variables and Data Typing",
+        "Arrays and Strings",
+        "Available Data Types",
+        "Integer, Floating-Point, Boolean, Character, and String Literals",
+        "Binary Literals",
+        "Using Underscores in Numeric Literals",
+        "Declaring Integer, Floating-Point, Character, and Boolean Variables",
+        "Dynamic Initialization",
+        "Type Conversion and Casting",
+        "Creating & Initializing One-Dimensional Arrays",
+        "Creating & Initializing Multi-Dimensional Arrays",
+        "Irregular Multi-Dimensional Arrays",
+        "Array Length",
+        "Static Import and Importing Static Members",
+        "String Class and Methods",
+        "String Length, Concatenation",
+        "Characters and Substrings",
+        "Searching & Replacing Strings",
+        "Changing Case",
+        "Checking for Empty Strings",
+        "Formatting Numbers in Strings",
+        "StringBuffer Class",
+        "Length and Capacity",
+        "Setting Characters",
+        "Appending and Inserting",
+        "Deleting and Replacing Text",
+        "Wrapper Classes",
+        "Autoboxing and Unboxing",
+        "Varargs Methods",
+        "Overloading Varargs",
+        "Ambiguity in Varargs",
+        "Non-Reifiable Formal Parameters"
+      ]
+    },
+    {
+      "module": "Operators, Conditionals and Loops",
+      "subtopics": [
+        "Variables and Data Typing",
+        "Arrays and Strings",
+        "Data Types and Literals",
+        "Numeric, Boolean, Character, and String Literals",
+        "Binary Literals",
+        "Declaring Variables",
+        "Dynamic Initialization",
+        "Type Conversion and Casting",
+        "One-Dimensional Arrays",
+        "Multi-Dimensional Arrays",
+        "Irregular Arrays",
+        "Array Length",
+        "Static Import",
+        "String Class Operations",
+        "StringBuffer Operations",
+        "Wrapper Classes",
+        "Autoboxing and Unboxing",
+        "Varargs Fundamentals",
+        "Overloading Varargs",
+        "Ambiguity in Varargs",
+        "Non-Reifiable Formal Parameters"
+      ]
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "/CourseDetails/software-testing.png",
+  "placement_assurance": true,
+  "projects": [
+    "Software Testing Certification Basic Application",
+    "Array & String Manipulation Project",
+    "Control Flow & Loop-Based Mini Project"
+  ]
+},
+        {
           "course_name": "LoadRunner",
           "path": "load-runner-online-training",
           "description": "Learn LoadRunner for performance and load testing of applications.",
@@ -8843,6 +9206,221 @@
           "placement_assurance": true,
           "projects": ["API Testing", "Web Service Validation"]
         },
+        {
+  "course_name": "Business Analyst Online Training",
+  "path": "business-analyst-online-training",
+  "description": "Comprehensive Business Analyst (BA) training covering requirements analysis, elicitation, documentation, solution validation, lifecycle models, UML, enterprise analysis, and real-time project preparation.",
+  "what_youll_learn": [
+    "Core concepts of Business Analysis and the role of a Business Analyst",
+    "Requirements gathering, modeling, validation, and documentation",
+    "Solution validation, testing fundamentals, and acceptance techniques",
+    "Working with SDLC and Agile methodologies",
+    "Using UML 2.0 diagrams for analysis and communication",
+    "Enterprise analysis and business case development",
+    "Requirements management, change control, and traceability",
+    "Communication, leadership, and analytical problem-solving skills",
+    "Job readiness: resume prep, mock interviews, and project exposure"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to Business Analysis",
+      "subtopics": [
+        "Importance of Effective Business Analysis",
+        "Role of the BA",
+        "Standardization and Adaptability"
+      ]
+    },
+    {
+      "module": "Module 2: Requirements Analysis",
+      "subtopics": [
+        "Need for Analysis",
+        "Using Analysis for Stakeholder Feedback, Verification and Validation",
+        "Developing Requirements",
+        "Value of Modeling Techniques in Analysis",
+        "Modeling Techniques",
+        "Organizational model",
+        "Location model",
+        "Process/flow models",
+        "Use case models",
+        "Data models",
+        "State model",
+        "Types of Requirements",
+        "Business Rules Analysis",
+        "Prioritizing Requirements",
+        "Verifying and Validating Requirements"
+      ]
+    },
+    {
+      "module": "Module 3: Solution Validation and Acceptance",
+      "subtopics": [
+        "Testing and Non-Testing Methods",
+        "Purposes of Validation",
+        "Find defects",
+        "Prove compliance to requirements",
+        "Test Cases and Test Suites",
+        "Challenges in Testing",
+        "Structured Testing",
+        "Role of the BA in Solution Validation: The V Model",
+        "Solution Acceptance and Project Close-Out"
+      ]
+    },
+    {
+      "module": "Module 4: Life Cycle Models",
+      "subtopics": [
+        "Waterfall",
+        "Incremental",
+        "Agile",
+        "Effects on business analysis"
+      ]
+    },
+    {
+      "module": "Module 5: Requirements Planning",
+      "subtopics": [
+        "Role of the BA in Requirements Planning",
+        "Vision and Scope Document",
+        "Types of Requirements",
+        "Stakeholders",
+        "Business Analysis Plan"
+      ]
+    },
+    {
+      "module": "Module 6: Requirements Documentation",
+      "subtopics": [
+        "Formal and Informal Documentation",
+        "Level of Detail Required",
+        "Writing for Usability and Comprehension",
+        "Common Requirements Document Defects",
+        "Components of a Formal Requirements Document",
+        "Requirements Verification and Validation",
+        "Requirements Sign-Off"
+      ]
+    },
+    {
+      "module": "Module 7: Enterprise Analysis",
+      "subtopics": [
+        "Definition and Causes",
+        "Role of the BA on the Enterprise Analysis Team",
+        "Steps in Enterprise Analysis",
+        "Define the business need",
+        "Techniques for root cause analysis",
+        "Assess capability gaps",
+        "SWOT analysis",
+        "Determine the solution approach",
+        "Define the solution scope",
+        "Define the business case",
+        "Contents of business case",
+        "BA’s limited role in developing a business case"
+      ]
+    },
+    {
+      "module": "Module 8: BA Fundamentals",
+      "subtopics": [
+        "Communication Skills",
+        "Leadership Skills",
+        "Problem-Solving Skills",
+        "Business Knowledge",
+        "IT Knowledge"
+      ]
+    },
+    {
+      "module": "Module 9: UML 2.0 Training",
+      "subtopics": [
+        "Class diagram",
+        "Component diagram",
+        "Composite structure diagram",
+        "Deployment diagram",
+        "Object diagram",
+        "Package diagram",
+        "Profile diagram",
+        "Activity diagram",
+        "State machine diagram",
+        "Use Case Diagram",
+        "Communication diagram",
+        "Interaction overview diagram",
+        "Sequence diagram",
+        "Timing diagram"
+      ]
+    },
+    {
+      "module": "Module 10: Job Placement Assistance",
+      "subtopics": [
+        "Resume Preparation",
+        "Mock Interviews",
+        "Work Assignments",
+        "Online Exams",
+        "Real time project exposure",
+        "Assistance after joining a company",
+        "Email and Phone support by trainers"
+      ]
+    },
+    {
+      "module": "Module 11: Requirements Elicitation",
+      "subtopics": [
+        "Role of the BA in Requirements Elicitation",
+        "Investigative approach",
+        "Iterative approach",
+        "Techniques",
+        "Interviews",
+        "Focus groups",
+        "Requirements workshop: Requirements meeting",
+        "Requirements workshop: JAD session",
+        "Brainstorming",
+        "Observation",
+        "Survey",
+        "Prototype",
+        "Document analysis",
+        "Business rules analysis",
+        "Reverse engineering",
+        "Product trials"
+      ]
+    },
+    {
+      "module": "Module 12: Requirements Management & Communication",
+      "subtopics": [
+        "Throughout the Project and to Decommission",
+        "Change Management",
+        "Define a baseline",
+        "Define a change management process",
+        "Identify the Change Authority",
+        "Traceability and Its Uses",
+        "Requirements Attributes",
+        "Requirements Communication"
+      ]
+    },
+    {
+      "module": "Module 13: Competencies and Best Practices",
+      "subtopics": [
+        "Competency Proficiency",
+        "BA Necessary Competencies",
+        "Analytical thinking and problem solving",
+        "Behavioural characteristics",
+        "Business knowledge",
+        "Communication skills",
+        "Interaction skills",
+        "Software application knowledge",
+        "Best Practices",
+        "Use iterative analysis",
+        "Focus on process improvement",
+        "Apply progressive elaboration",
+        "Check as you go",
+        "Use the investigative approach",
+        "Adopt traceability",
+        "Formalize business analysis through standardization",
+        "Improve communication through modeling"
+      ]
+    }
+  ],
+  "duration": "50 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/business-analyst.png",
+  "placement_assurance": true,
+  "projects": [
+    "Requirements Gathering and Documentation Project",
+    "UML Modeling for a Real-World System",
+    "Business Case and SWOT Analysis Project",
+    "End-to-End BA Mini Project with Elicitation + Documentation + Validation"
+  ]
+},
         {
           "course_name": "Machine Learning",
           "path": "machine-learning-online-course",
@@ -10195,6 +10773,330 @@
             "path":"digital-marketing-business-tools",
 
       "sub_categories": [
+        {
+  "course_name": "Workday Studio Training",
+  "path": "workday-studio-training",
+  "description": "Comprehensive Workday Studio training covering IDE fundamentals, integrations, mediation components, REST APIs, web services, inbound integrations, and hands-on real-time activities.",
+  "what_youll_learn": [
+    "Workday Studio basics and architecture",
+    "Navigating Workday Studio IDE, workspace, explorers, and components",
+    "Building integrations using Workday-In, Local-In/Out, Splitters, Aggregators, Logs, and Stores",
+    "CSV to XML transformations and mediation flows",
+    "Using REST APIs, RaaS, and Workday-Out REST transports",
+    "Using Workday Public Web Services (SOAP)",
+    "GET vs PUT operations and Payroll Input integrations",
+    "Inbound integration design, retrieval service, event documents, document iterator",
+    "Integration attributes, maps, and real-time integration development"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Basic Concepts",
+      "subtopics": [
+        "What is Workday Studio?"
+      ]
+    },
+    {
+      "module": "Module 2: Workday Studio IDE Fundamentals",
+      "subtopics": [
+        "Workspace",
+        "Project Explorer",
+        "Cloud Explorer",
+        "Activity 1.1 – Connecting to the Cloud",
+        "Working Area",
+        "Viewing Area",
+        "Help",
+        "Deploy Studio Code",
+        "How to import source code from the Cloud Explorer",
+        "Terminology used in Studio and Workday"
+      ]
+    },
+    {
+      "module": "Module 3: Basic Components in Studio",
+      "subtopics": [
+        "Workday-In Transport",
+        "Connecting Components",
+        "Synchronous and Asynchronous Mediation Components",
+        "Write Step",
+        "Log",
+        "Activity 1.2 – Create a Studio build with an input and log the contents",
+        "CSV to XML",
+        "Activity 1.3 – Add a CSV to XML component",
+        "Local-Out and Local-In",
+        "Activity 1.4 – Add Local-Out and Local-In",
+        "Splitter",
+        "Aggregator",
+        "Activity 1.5 – Adding a Splitter",
+        "Copy Step",
+        "Store",
+        "Activity 1.6 – Storing the input file on the integration event",
+        "Put Integration Message",
+        "Activity 1.7 – Adding an integration message",
+        "Eval",
+        "MVEL Functions",
+        "Searching for a Specific Category by Type",
+        "String Buffer",
+        "Validate Expression",
+        "Route Component",
+        "Master Activity – Generate two output files for marks above 70% (Success) and below (Failed)"
+      ]
+    },
+    {
+      "module": "Module 4: Workday REST API",
+      "subtopics": [
+        "Report as a Service (RaaS)",
+        "Activity 2.1 – Creating a Custom Report",
+        "Activity 2.2 – Adding the RaaS REST Call to Studio",
+        "Workday-Out-REST Transport",
+        "Identifying extra path of a report",
+        "Activity 2.3 – Split report output using a Splitter",
+        "Activity 2.4 – Access values using props"
+      ]
+    },
+    {
+      "module": "Module 5: Aggregator Component",
+      "subtopics": [
+        "Using an Aggregator to merge files"
+      ]
+    },
+    {
+      "module": "Module 6: Workday Public Web Service",
+      "subtopics": [
+        "Page and Count parameters in Response Filter",
+        "Generate and test 'Get Workers' web service request with multiple response groups"
+      ]
+    },
+    {
+      "module": "Module 7: GET vs PUT Web Service Operation",
+      "subtopics": [
+        "Deduction/Earning Codes in Workday Tenant",
+        "Call 'Submit_Payroll_Input' web service operation using Web Service Tester",
+        "Master Activity – Call 'Submit_Payroll_Input' operation from 'Payroll' web service and observe updates"
+      ]
+    },
+    {
+      "module": "Module 8: Inbound Integrations",
+      "subtopics": [
+        "Inbound integration requirement analysis",
+        "Steps to break down requirement and determine integration approach",
+        "Other considerations and best practices",
+        "Web Services (Integration IDs and Reference IDs)",
+        "Retrieval Service",
+        "Retrieve a file through Retrieval Service and access in Studio",
+        "Get Event Documents",
+        "Document Iterator",
+        "Use a Document Iterator to retrieve multiple files",
+        "Integration Attribute Services",
+        "Simple Type Parameter",
+        "Reference Type Parameter",
+        "Enumeration Type Parameter",
+        "Add an Integration Attribute",
+        "Integration Map",
+        "Create an inbound integration to load employee leave information"
+      ]
+    }
+  ],
+  "duration": "40 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "/CourseDetails/workday-studio.png",
+  "placement_assurance": true,
+  "projects": [
+    "CSV to XML Transformation Integration",
+    "Workday RaaS REST Integration",
+    "Get Workers SOAP Web Service Integration",
+    "Inbound Integration: Employee Leave Loader"
+  ]
+},
+        {
+  "course_name": "Workday Financial Training",
+  "path": "workday-financial-training",
+  "description": "Master Workday Financials including core navigation, organizations, accounting setup, journals, security, suppliers, customers, settlements, reporting, and expenses.",
+  "what_youll_learn": [
+    "Workday core concepts and navigation",
+    "Setting up organizations, cost centers, and worktags",
+    "Financial accounting configuration and ledger management",
+    "Creating and processing journals and EIBs",
+    "Period close, allocation, revaluation, consolidation, and translation",
+    "Workday security, domain policies, and business process security",
+    "Supplier and customer setup with invoices and payments",
+    "Settlement processing and bank reconciliation",
+    "Financial reporting and Workday reporting tools",
+    "Expense processing, travel expenses, and spend authorizations"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Core Concept and Navigation",
+      "subtopics": [
+        "Core Concepts",
+        "Tenant",
+        "Basic Navigation",
+        "Functional Area"
+      ]
+    },
+    {
+      "module": "Module 2: Organization and Worktags",
+      "subtopics": [
+        "Overview",
+        "Security Policies",
+        "Organization",
+        "Reorganization",
+        "Create Company",
+        "Bank Setup",
+        "Create Bank Routing Rule",
+        "Organization Hierarchy",
+        "Cost Center Organization",
+        "Worktags"
+      ]
+    },
+    {
+      "module": "Module 3: Financial Accounting Setup",
+      "subtopics": [
+        "Setup Currency",
+        "Fiscal Schedule",
+        "Account Set",
+        "Account Control Rule Set",
+        "Accounting Posting Rule Set",
+        "Account Translation Rule Set",
+        "Default Reporting Book",
+        "Journal Reversal Option",
+        "Company Accounting Details",
+        "Create Ledger",
+        "Ledger Period",
+        "Maintain Ledger Period",
+        "Custom Validation"
+      ]
+    },
+    {
+      "module": "Module 4: Process Accounting Journals",
+      "subtopics": [
+        "Overview",
+        "Financial Accounting Flow",
+        "Financial Transaction Flow",
+        "Accounting Journals",
+        "Create Journal",
+        "Copy, Repost, Cancel Journal",
+        "Journal Approval Procedure",
+        "Create Recurring Journal Entry Template",
+        "Journal Setup"
+      ]
+    },
+    {
+      "module": "Module 5: Create and Process Journal EIB",
+      "subtopics": [
+        "Create Journal EIB",
+        "Populate Journal Information",
+        "Load Journal EIB",
+        "Process Journal"
+      ]
+    },
+    {
+      "module": "Module 6: Review Period Close",
+      "subtopics": [
+        "Allocation",
+        "Revaluation",
+        "Consolidation",
+        "Translation",
+        "Balance Carry Forward"
+      ]
+    },
+    {
+      "module": "Module 7: Security",
+      "subtopics": [
+        "Functional Areas",
+        "Domain Security Policies for Functional Area",
+        "Business Process Security Policies for Functional Area",
+        "Create Security Group",
+        "View Security Group",
+        "Security Analysis for Workday Account"
+      ]
+    },
+    {
+      "module": "Module 8: Suppliers",
+      "subtopics": [
+        "Overview",
+        "Supplier Setup",
+        "Create Supplier",
+        "Spend Categories and Purchase Item"
+      ]
+    },
+    {
+      "module": "Module 9: Supplier Invoices",
+      "subtopics": [
+        "Overview",
+        "Security Policies",
+        "Create Supplier Invoice and Adjustment"
+      ]
+    },
+    {
+      "module": "Module 10: Customer",
+      "subtopics": [
+        "Overview",
+        "Customer Setup",
+        "Create Customer",
+        "Revenue Categories and Sales Item",
+        "Customer Validation"
+      ]
+    },
+    {
+      "module": "Module 11: Customer Invoices and Customer Receipts",
+      "subtopics": [
+        "Overview",
+        "Create Customer Invoices and Adjustment",
+        "Record Customer Payment - On Account, Short Payment",
+        "Create Customer Refund"
+      ]
+    },
+    {
+      "module": "Module 12: Settlement",
+      "subtopics": [
+        "Overview",
+        "Create Settlement Run",
+        "Cash Flow"
+      ]
+    },
+    {
+      "module": "Module 13: Close and Report",
+      "subtopics": [
+        "Overview",
+        "Period Close",
+        "Bank Reconciliation",
+        "Financial Reporting"
+      ]
+    },
+    {
+      "module": "Module 14: Workday Reporting",
+      "subtopics": [
+        "Overview",
+        "Reporting Terminology"
+      ]
+    },
+    {
+      "module": "Module 15: Expenses",
+      "subtopics": [
+        "Create Expense Report",
+        "Settlement of Expense Report",
+        "Create Travel Expense Report",
+        "Create Spend Authorizations"
+      ]
+    },
+    {
+      "module": "Module 16: Workday Reporting (Advanced)",
+      "subtopics": [
+        "Overview",
+        "Reporting Terminology"
+      ]
+    }
+  ],
+  "duration": "50 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/workday-financial-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Workday Financial Accounting Setup Project",
+    "Journal EIB Automation Task",
+    "Supplier & Customer Invoice Management Project",
+    "Period Close & Reconciliation Mini Project"
+  ]
+},
         {
           "course_name": "Digital Marketing",
           "path": "digital-marketing-online-training",
@@ -11562,6 +12464,261 @@
       "projects": ["MDM Data Integration Project", "Hierarchy Management Implementation"]
     },
     {
+  "course_name": "Data Analytics Course",
+  "path": "data-analytics-course",
+  "description": "Master data analytics, statistical methods, data mining, machine learning, and time series analysis using SAS and R with real-world case studies.",
+  "what_youll_learn": [
+    "Foundations of data science and analytics methodology",
+    "Data collection, data preparation, and exploration",
+    "Statistical analysis using SAS and R",
+    "Regression, clustering, association rules, and dimensionality reduction",
+    "Machine learning techniques including SVM, Decision Trees, Neural Networks, and Ensemble Methods",
+    "Text analytics, sentiment analysis, and optimization techniques",
+    "Time series forecasting using ARIMA",
+    "Hands-on case studies for real-world analytics projects"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Data Science & Data Exploration",
+      "subtopics": [
+        "Introduction to Data Science",
+        "Analytical Terminology, Analytical Methodology",
+        "Introduction to SAS, R, R-Studio Interface",
+        "Data Collection and Creating Datasets",
+        "Reading Data from External Files (.txt, .xls, .csv)",
+        "Data Exploration using Proc Print and Proc Contents",
+        "Data Exploration using Proc Gchart and Proc Gplot",
+        "Statistical Terminology",
+        "Understanding Probability",
+        "Analyzing Categorical Data (ProcFreq)",
+        "Hypothesis Testing and Types of Errors",
+        "Data Preparation: Proc Sort, Proc Format",
+        "Keeping, Dropping, Renaming, Transposing Data",
+        "Using SAS Functions",
+        "Conditional Processing and By-group Processing",
+        "Combining Datasets",
+        "Do-Loops and Arrays",
+        "Statistics: ProcFreq",
+        "Statistics: Proc Ttest, Proc Anova",
+        "Proc Npar1way"
+      ]
+    },
+    {
+      "module": "Data Mining & Dimensionality Reduction",
+      "subtopics": [
+        "Introduction to Data Mining",
+        "Introduction to Regression: ProcCorr, ProcReg",
+        "Dimensionality Reduction: Proc Factor",
+        "Dimensionality Reduction: Proc Princomp",
+        "Dimensionality Reduction: Proc Discrim",
+        "Introduction to Clustering",
+        "Clustering Case Study",
+        "Association Rules – Introduction",
+        "Association Rules – Case Study",
+        "Density Estimation: Proc KDE"
+      ]
+    },
+    {
+      "module": "Machine Learning Models & Ensemble Methods",
+      "subtopics": [
+        "ProcReg: Case Study",
+        "ProcReg: Model Diagnostics",
+        "Introduction to Logistic Regression",
+        "Proc Logistic – Case Study",
+        "Introduction to Decision Trees",
+        "Proc Dtree – Case Study",
+        "Introduction to SVM and Naive Bayes – Case Study",
+        "Introduction to Neural Networks",
+        "Neural Networks – Case Study",
+        "Introduction to KNN – Case Study",
+        "Introduction to Bagging and Boosting",
+        "Ensemble Methods – Case Study",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "module": "Time Series, Text Analytics & Optimization",
+      "subtopics": [
+        "Introduction to Time Series",
+        "Proc Arima – Case Study",
+        "Introduction to Text Analytics",
+        "Sentiment Analysis in R – Case Study",
+        "Introduction to Optimization",
+        "Optimization – Case Study"
+      ]
+    }
+  ],
+  "duration": "60 hours",
+  "skill_level": "Intermediate",
+  "image": "/CourseDetails/data-analytics.png",
+  "placement_assurance": true,
+  "projects": [
+    "Data Exploration & Cleaning Project",
+    "Regression & Classification Case Studies",
+    "Clustering and Dimensionality Reduction Project",
+    "Time Series Forecasting",
+    "Text Analytics & Sentiment Analysis"
+  ]
+},
+    {
+  "course_name": "Collibra Online Training",
+  "path": "collibra-online-training-course",
+  "description": "Learn enterprise data governance, metadata management, data quality, and Collibra platform operations with real-world use cases.",
+  "what_youll_learn": [
+    "Data governance and data management fundamentals",
+    "Data governance frameworks, policies, and stewardship models",
+    "Metadata management, business glossary, data dictionary, and data classification",
+    "Collibra DGC, Catalog, Policy Manager, Helpdesk, and metamodel",
+    "Assets, domains, communities, relations, and workflows in Collibra",
+    "Integrations using REST APIs, MySQL, AWS, and Snowflake",
+    "Collibra cloud/on-prem setup and infrastructure",
+    "Lineage, custom workflows, console management, and operating models",
+    "Real-world Collibra use cases and hands-on project work"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction And Data Management Fundamentals",
+      "subtopics": [
+        "Introduction to Data Management and Governance",
+        "Data & Data Lifecycle",
+        "What is Data Management & Data Governance",
+        "Why Data Governance is Important",
+        "Problems faced by organizations without proper Data Governance",
+        "How Data Governance solves organizational problems",
+        "Challenges in implementing successful Data Governance",
+        "Conclusion"
+      ]
+    },
+    {
+      "module": "Data Governance Deep-Dive",
+      "subtopics": [
+        "Data Governance Framework",
+        "Pillars of Data Governance: People, Process, Technology, Governance",
+        "Data Governance Strategy",
+        "Data Governance Policies & Procedures",
+        "Data Governance Organization and Stewardship Model",
+        "Data Governance Organizational Structure",
+        "Roles and Responsibilities in Data Governance",
+        "Implementing and Operationalizing a Stewardship Model"
+      ]
+    },
+    {
+      "module": "Other Data Management Areas",
+      "subtopics": [
+        "Metadata Management",
+        "Business Glossary",
+        "Data Dictionary",
+        "Data Classification",
+        "Data Classification Rules & Regulations",
+        "Data Classification Standards",
+        "Benefits of Proper Data Classification",
+        "Data Quality",
+        "Benefits of Data Quality Implementation",
+        "Data Quality Dimensions",
+        "Data Quality Rules and Metrics"
+      ]
+    },
+    {
+      "module": "DG Tool – Collibra",
+      "subtopics": [
+        "Introduction to Collibra",
+        "What is Collibra",
+        "Benefits of Collibra over other DG Tools",
+        "Products of Collibra",
+        "Deep-dive into Collibra DGC",
+        "Functionality of Collibra products (Catalog, Policy Manager, Helpdesk)",
+        "Metamodel Structure and Hierarchy in Collibra",
+        "Defining Structure and Hierarchy",
+        "Community in Collibra",
+        "Domain in Collibra",
+        "Types of Domains and Custom Domain Types",
+        "Template Structure and Views",
+        "Assets, Attributes, Relations & Roles",
+        "Asset Types and Asset Structure",
+        "Attributes in Collibra",
+        "Types of Relations and Out-of-the-box Relations",
+        "Roles and Responsibilities in Collibra"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "Basics of Integration",
+        "What is Integration",
+        "Need for Integration",
+        "Benefits of Integration",
+        "API and REST API",
+        "Collibra API Recap",
+        "Types of Integration",
+        "MySQL Integration",
+        "AWS Integration using Collibra Catalog",
+        "Snowflake Integration",
+        "Template Structure and Template Views in Collibra",
+        "Best Practices for Integration"
+      ]
+    },
+    {
+      "module": "Collibra Infrastructure",
+      "subtopics": [
+        "Collibra On-Prem and Cloud",
+        "What is On-Prem and Cloud Infrastructure",
+        "Difference between Collibra Cloud and On-Prem",
+        "Benefits of each Infrastructure type",
+        "Setting up Collibra",
+        "Installing Collibra on Cloud",
+        "Installing Collibra On-Prem",
+        "Key Considerations and Installation Process"
+      ]
+    },
+    {
+      "module": "Collibra Deep-Dive",
+      "subtopics": [
+        "Lineage in Collibra",
+        "Enterprise-level benefits of Lineage",
+        "How to use Lineage in Collibra",
+        "Custom Lineage Views and Benefits",
+        "Workflows in Collibra",
+        "Automated Workflows",
+        "Out-of-the-box Workflows",
+        "Customized BPMN Workflows Scope",
+        "Collibra Console",
+        "Use of Collibra Console",
+        "Nodes and Logs in Collibra Console",
+        "Backup Settings",
+        "Complete Operating Model in Collibra",
+        "End-to-End Operating Model Demo",
+        "Collibra Desktop and On-the-Go"
+      ]
+    },
+    {
+      "module": "Collibra Use Case And Hands-On",
+      "subtopics": [
+        "Possible Collibra Use Cases",
+        "Example Use Cases (4-5 examples)",
+        "Hands-on Assignment",
+        "Assignments aligned with real project scenarios",
+        "Review and feedback on assignments"
+      ]
+    },
+    {
+      "module": "Additional Topics",
+      "subtopics": [
+        "Domain-specific Use Cases",
+        "Collibra Certification Assistance",
+        "Data Governance Framework Knowledge Transfer"
+      ]
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Intermediate",
+  "image": "/CourseDetails/collibra.png",
+  "placement_assurance": true,
+  "projects": [
+    "Data Governance Operating Model Implementation",
+    "Collibra Catalog & Workflow Automation Project"
+  ]
+},
+    {
       "course_name": "Alation Data Catalog",
       "path": "alation-data-catalog-course",
       "description": "Master enterprise data governance, metadata management, and collaboration using Alation Data Catalog.",
@@ -11679,6 +12836,123 @@
             "path":"system-administration",
 
       "sub_categories": [
+        {
+  "course_name": "Teamcenter PLM Online Training",
+  "path": "teamcenter-plm-online-training",
+  "description": "Comprehensive training on Siemens Teamcenter PLM covering PLM concepts, Teamcenter UI, item and BOM management, workflows, BMIDE data modeling, access management, customization, CAD/ERP integrations, reporting, and administration.",
+  "what_youll_learn": [
+    "Fundamentals of PLM and Teamcenter architecture",
+    "Navigating Teamcenter interfaces: RAC and Active Workspace",
+    "Item management, BOM creation, revisions, and lifecycle operations",
+    "Workflow automation and change management processes",
+    "BMIDE concepts for data modeling and customization",
+    "Access management, security configuration, and administration",
+    "Integration with CAD and ERP systems using T4 tools",
+    "Reporting, visualization, troubleshooting, and environment management"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to PLM and Teamcenter",
+      "subtopics": [
+        "What is PLM?",
+        "Overview of Teamcenter",
+        "Key features and capabilities",
+        "Teamcenter architecture and deployment models"
+      ]
+    },
+    {
+      "module": "Module 2: Teamcenter User Interface",
+      "subtopics": [
+        "Introduction to Teamcenter UI (RAC, Active Workspace)",
+        "Navigating the interface",
+        "Basic operations: search, open, revise, release",
+        "Working with folders and items"
+      ]
+    },
+    {
+      "module": "Module 3: Item and BOM Management",
+      "subtopics": [
+        "Item types and properties",
+        "Bill of Materials (BOM) creation and management",
+        "Working with revisions and versions",
+        "BOM visualization and comparison"
+      ]
+    },
+    {
+      "module": "Module 4: Workflow and Change Management",
+      "subtopics": [
+        "Lifecycle and status management",
+        "Introduction to workflows",
+        "Change Management: ECOs, ECRs, ECNs",
+        "Review and approval process"
+      ]
+    },
+    {
+      "module": "Module 5: Teamcenter Data Model (BMIDE)",
+      "subtopics": [
+        "Understanding BMIDE (Business Modeler IDE)",
+        "Item types, classes, and properties",
+        "Business objects and object relations",
+        "Data modeling best practices"
+      ]
+    },
+    {
+      "module": "Module 6: Access Management and Security",
+      "subtopics": [
+        "Role and group configuration",
+        "Access privileges and policies",
+        "User and group administration",
+        "Access Control Lists (ACLs)"
+      ]
+    },
+    {
+      "module": "Module 7: Teamcenter Customization",
+      "subtopics": [
+        "Customizing with BMIDE",
+        "Custom properties and forms",
+        "Custom rules and handlers",
+        "Extensions and overrides"
+      ]
+    },
+    {
+      "module": "Module 8: Teamcenter Integration",
+      "subtopics": [
+        "Integration with CAD tools (NX, SolidWorks, CATIA)",
+        "ERP integration concepts",
+        "Importing/exporting data (PLMXML, XML)",
+        "Use of T4 tools (T4X, T4EA)"
+      ]
+    },
+    {
+      "module": "Module 9: Reporting and Visualization",
+      "subtopics": [
+        "Report Builder basics",
+        "Teamcenter Visualization (JT Viewer)",
+        "Document management",
+        "Dashboard/reporting tools overview"
+      ]
+    },
+    {
+      "module": "Module 10: Administration and Troubleshooting",
+      "subtopics": [
+        "Server manager and environment setup",
+        "Database and volume management",
+        "Troubleshooting and logs",
+        "Patching and upgrades"
+      ]
+    }
+  ],
+  "duration": "50 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/teamcenter-plm.png",
+  "placement_assurance": true,
+  "projects": [
+    "Item and BOM Creation Project",
+    "Workflow and Change Management Implementation",
+    "BMIDE Custom Data Model Project",
+    "CAD Integration and PLMXML Data Import Project"
+  ]
+},
         {
           "course_name": "UNIX Shell Scripting",
           "path": "unix-shell-scripting-online-training",
