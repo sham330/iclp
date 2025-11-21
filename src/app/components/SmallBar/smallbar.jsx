@@ -8,10 +8,13 @@ import "./smallbar.css";
 
 const SmallBar = () => {
   const [categories, setCategories] = useState([]);
+  const [streamWiseCourses, setstreamWiseCourses] = useState([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
+    const dropdownRef2 = useRef(null);
+
   const moreDropdownRef = useRef(null);
   const router = useRouter();
 
@@ -21,7 +24,13 @@ const SmallBar = () => {
       .then((data) => setCategories(data.categories))
       .catch((error) => console.error("Error loading courses:", error));
   }, []);
-
+   useEffect(() => {
+    fetch("/data/stream.json")
+      .then((response) => response.json())
+      .then((data) => setstreamWiseCourses(data.streamWiseCourses))
+      .catch((error) => console.error("Error loading courses:", error));
+  }, []);
+console.log("Stream Wise Courses:", streamWiseCourses);
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -95,19 +104,51 @@ const SmallBar = () => {
               </ul>
             )}
           </li>
+ <li className="dropdown" ref={dropdownRef2}>
+  <span
+    className="dropdown-toggle"
+    onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+  >
+    Carrer Streams <FaChevronDown className="dropdown-icon" />
+  </span>
+  {isDropdownOpen && (
+    <ul className="dropdown-menu">
+      {streamWiseCourses?.map((stream, index) => (
+        <li key={index} className="dropdown-submenu">
+          <span className="submenu-title">
+            {stream.streamName} ▸
+          </span>
+          <ul className="sub-menu">
+            {stream.courses.map((courseItem, courseIndex) => (
+              <li key={courseIndex}>
+                <button
+                  className="subcategory-button"
+                  onClick={() => handleSubcategoryClick(courseItem.path)}
+                >
+                  {courseItem.course}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  )}
+</li>
 
-          {/* Tutorial as the second item in nav bar */}
-          <li>
-            <Link href="/tutorial">Tutorial</Link>
-          </li>
+         
 
           <li>
             <Link href="/about">About</Link>
           </li>
+        
           <li>
             <Link href="/contact">Contact Us</Link>
           </li>
-
+   {/* Tutorial as the second item in nav bar */}
+          <li>
+            <Link href="/tutorial">Carrers</Link>
+          </li>
           {/* More Dropdown with Certifications inside */}
           <li className="dropdown" ref={moreDropdownRef}>
             <span

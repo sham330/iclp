@@ -7778,72 +7778,169 @@
         {
           "course_name": "DevOps",
 "path": "devops-training",
-          "description": "Learn DevOps practices for continuous integration and deployment.",
-          "what_youll_learn": [
-            "Understand DevOps principles and lifecycle (Agile to CI/CD)",
-            "Automate CI/CD pipelines with Jenkins (or GitLab CI/GitHub Actions)",
-            "Containerize applications using Docker (images, volumes, networks)",
-            "Orchestrate containers with Kubernetes (pods, deployments, services)",
-            "Monitor systems with ELK stack (Logstash, Elasticsearch, Kibana)",
-            "Implement Infrastructure as Code (Terraform, Ansible)",
-            "Secure DevOps pipelines (SAST/DAST, secret management)",
-            "Optimize cloud costs with FinOps practices"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to DevOps",
-              "subtopics": [
-                "Overview of DevOps and its principles",
-                "Setting up the DevOps environment",
-                "Understanding the DevOps lifecycle"
-              ]
-            },
-            {
-              "module": "Continuous Integration with Jenkins",
-              "subtopics": [
-                "Setting up Jenkins",
-                "Creating and managing Jenkins pipelines",
-                "Integrating Jenkins with Git"
-              ]
-            },
-            {
-              "module": "Containerization with Docker",
-              "subtopics": [
-                "Introduction to Docker",
-                "Creating and managing Docker containers",
-                "Docker networking and storage"
-              ]
-            },
-            {
-              "module": "Orchestration with Kubernetes",
-              "subtopics": [
-                "Introduction to Kubernetes",
-                "Creating and managing Kubernetes clusters",
-                "Scaling and load balancing with Kubernetes"
-              ]
-            },
-            {
-              "module": "Monitoring with ELK Stack",
-              "subtopics": [
-                "Introduction to ELK Stack",
-                "Setting up Elasticsearch, Logstash, and Kibana",
-                "Monitoring and analyzing logs"
-              ]
-            },
-            {
-              "module": "Project Work",
-              "subtopics": [
-                "Hands-on DevOps projects",
-                "Final project presentations"
-              ]
-            }
-          ],
-          "duration": "35 hours",
-          "skill_level": "Intermediate",
-          "image": "https://www.shutterstock.com/image-vector/devops-agile-development-optimisation-concept-260nw-2311565873.jpg",
-          "placement_assurance": true,
-          "projects": ["CI/CD Pipeline", "Automated Deployment"]
-        },
+          "meta_title": "DevOps Online Training | DevOps Certification Course with Projects",
+  "meta_description": "Learn DevOps from scratch with hands-on training covering Git, Docker, Jenkins, Kubernetes, Terraform, Ansible, Puppet, ELK, and CI/CD pipelines.",
+  "description": "Comprehensive DevOps training covering infrastructure setup, version control, CI/CD pipelines, automation, containerization, orchestration, monitoring, and infrastructure as code with real-world projects.",
+
+  "what_youll_learn": [
+    "Set up cloud-based DevOps lab environments",
+    "Work with Git for version control and collaboration",
+    "Build and deploy Docker containers",
+    "Configure infrastructure using Puppet and Ansible",
+    "Implement CI/CD pipelines using Jenkins",
+    "Orchestrate applications with Kubernetes",
+    "Perform continuous testing with Selenium",
+    "Monitor systems using ELK stack",
+    "Implement IaC using Terraform"
+  ],
+
+  "syllabus": [
+    {
+      "module": "Infrastructure Setup",
+      "subtopics": [
+        "AWS account creation",
+        "EC2 setup",
+        "LMS walkthrough"
+      ]
+    },
+    {
+      "module": "Introduction to DevOps",
+      "subtopics": [
+        "What is Software Development?",
+        "SDLC overview",
+        "Traditional SDLC models",
+        "Why DevOps?",
+        "What is DevOps?",
+        "DevOps lifecycle",
+        "DevOps tools"
+      ]
+    },
+    {
+      "module": "Version Control with Git",
+      "subtopics": [
+        "Version control basics",
+        "Types of VCS",
+        "Introduction to SVN",
+        "Introduction to Git",
+        "Git lifecycle",
+        "Common Git commands",
+        "Working with branches",
+        "Merging and resolving conflicts",
+        "Git workflow"
+      ]
+    },
+    {
+      "module": "Containerization Using Docker",
+      "subtopics": [
+        "Docker lifecycle",
+        "Docker ecosystem components",
+        "Common Docker operations",
+        "DockerHub account setup",
+        "Committing changes in containers",
+        "Pushing images to DockerHub",
+        "Custom Docker images using Dockerfile",
+        "Docker volumes",
+        "Deploying multi-tier applications with Docker networking",
+        "Docker Compose for multi-container apps"
+      ]
+    },
+    {
+      "module": "Configuration Management using Puppet",
+      "subtopics": [
+        "Need for configuration management",
+        "Configuration management tools overview",
+        "What is Puppet?",
+        "Puppet architecture",
+        "Master-slave setup",
+        "Puppet manifests",
+        "Puppet modules",
+        "Applying configuration with Puppet",
+        "Puppet file server"
+      ]
+    },
+    {
+      "module": "Configuration Management using Ansible",
+      "subtopics": [
+        "What is Ansible?",
+        "Ansible vs Puppet",
+        "Ansible architecture",
+        "Master-slave setup using Ansible",
+        "Ansible playbooks",
+        "Ansible roles",
+        "Applying configuration with Ansible"
+      ]
+    },
+    {
+      "module": "Continuous Testing using Selenium",
+      "subtopics": [
+        "What is continuous testing?",
+        "What is Maven?",
+        "Introduction to Selenium",
+        "Running test cases on Chromium WebDriver",
+        "Headless mode"
+      ]
+    },
+    {
+      "module": "Continuous Integration with Jenkins",
+      "subtopics": [
+        "What is Continuous Integration?",
+        "Jenkins master-slave architecture",
+        "Understanding CI/CD pipelines",
+        "Building automated end-to-end CI/CD pipelines"
+      ]
+    },
+    {
+      "module": "Continuous Orchestration Using Kubernetes",
+      "subtopics": [
+        "Introduction to Kubernetes",
+        "Docker Swarm vs Kubernetes",
+        "Kubernetes architecture",
+        "Deploying Kubernetes using kubeadm",
+        "Alternative deployment methods",
+        "YAML files overview",
+        "Creating Kubernetes deployments",
+        "Services and Ingress",
+        "Volumes and persistent volumes",
+        "Secrets",
+        "Monitoring with Kubernetes Dashboard"
+      ]
+    },
+    {
+      "module": "Continuous Monitoring using ELK",
+      "subtopics": [
+        "What is ELK?",
+        "ELK components",
+        "ELK workflow",
+        "ELK features",
+        "Installing ELK"
+      ]
+    },
+    {
+      "module": "Terraform Modules & Workspaces",
+      "subtopics": [
+        "Infrastructure as Code (IaC)",
+        "IaC vs Configuration Management",
+        "Introduction to Terraform",
+        "Installing Terraform on AWS",
+        "Terraform operations: init, plan, apply, destroy",
+        "Terraform code basics",
+        "Deploying end-to-end architecture on AWS using Terraform"
+      ]
+    }
+  ],
+
+  "duration": "50–60 hours",
+  "skill_level": "Beginner to Intermediate",
+  "placement_assurance": true,
+
+  "projects": [
+    "Automated CI/CD pipeline using Jenkins",
+    "Containerized multi-tier app using Docker & Docker Compose",
+    "Kubernetes deployment with Ingress & monitoring",
+    "Infrastructure automation with Ansible & Puppet",
+    "End-to-end architecture deployment using Terraform"
+  ]
+},
         {
           "course_name": "Cisco UCS",
           "path": "cisco-ucs-training",
@@ -10774,6 +10871,113 @@
 
       "sub_categories": [
         {
+  "course_name": "Oracle Fusion Financials Training",
+  "path": "oracle-fusion-financials",
+  "image": "/oracle-fusion-courses.jpg",
+
+  "meta_title": "Oracle Fusion Financials Online Training | Oracle Fusion Certification Course",
+  "meta_description": "Master Oracle Fusion Financials with comprehensive online training. Learn GL, AP, AR, Assets, Tax, SLA, and more with real-time implementation guidance.",
+  "description": "In-depth training on Oracle Fusion Financials covering General Ledger, Payables, Receivables, Assets, Tax, SLA, Payments, and enterprise structures with practical configuration scenarios.",
+
+  "what_youll_learn": [
+    "Implementing Oracle Fusion Financials end-to-end",
+    "Configuring enterprise structures and financial modules",
+    "Setting up Oracle General Ledger",
+    "Configuring Oracle Payables, Receivables, and Payments",
+    "Implementing Oracle Fusion Tax and SLA",
+    "Managing Assets, Depreciation, and Asset Books",
+    "Advanced Collections and Cash Management setup"
+  ],
+
+  "syllabus": [
+    {
+      "module": "Introduction & Setup",
+      "subtopics": [
+        "Introduction to Implementing Oracle Fusion Financials",
+        "Common Financials Configuration Overview",
+        "Understanding Functional Setup Manager",
+        "Implementation Overview",
+        "Browsing and Configuring Offerings"
+      ]
+    },
+    {
+      "module": "Enterprise Configuration",
+      "subtopics": [
+        "Overview of Common Applications Configuration",
+        "Defining Enterprise Structures",
+        "Defining and Maintaining Intercompany Processing Rules",
+        "Infusion Corporation Case Study Overview"
+      ]
+    },
+    {
+      "module": "Oracle Fusion General Ledger",
+      "subtopics": [
+        "Configuring Oracle Fusion General Ledger"
+      ]
+    },
+    {
+      "module": "Oracle Fusion Tax",
+      "subtopics": [
+        "Understanding Oracle Fusion Tax",
+        "Setting Up Foundation Tax Configuration",
+        "Setting Up Advanced Tax Configuration",
+        "Setting Up Tax Reporting Configuration",
+        "Verifying Tax Configuration"
+      ]
+    },
+    {
+      "module": "Oracle Subledger Accounting (SLA)",
+      "subtopics": [
+        "Subledger Accounting Overview",
+        "Managing Subledger Accounting Rules",
+        "Configuring Oracle Fusion Subledger Accounting"
+      ]
+    },
+    {
+      "module": "Payables, Payments & Expenses",
+      "subtopics": [
+        "Configuring Oracle Fusion Payables",
+        "Implementing Oracle Fusion Payments",
+        "Implementing Oracle Fusion Expenses"
+      ]
+    },
+    {
+      "module": "Oracle Fusion Assets",
+      "subtopics": [
+        "Understanding Oracle Fusion Assets",
+        "Managing Assets Key Flexfields and Value Sets",
+        "Managing System Controls",
+        "Managing Fiscal Years and Calendars",
+        "Managing Asset Locations",
+        "Managing Depreciation Rules",
+        "Managing Asset Books",
+        "Managing Asset Categories"
+      ]
+    },
+    {
+      "module": "Receivables, Collections & Cash Management",
+      "subtopics": [
+        "Configuring Oracle Fusion Receivables",
+        "Implementing Oracle Fusion Payments",
+        "Configuring Oracle Fusion Advanced Collections",
+        "Common Application Components"
+      ]
+    }
+  ],
+
+  "duration": "50–60 hours",
+  "skill_level": "Intermediate to Advanced",
+  "placement_assurance": true,
+
+  "projects": [
+    "General Ledger Configuration Project",
+    "End-to-End Procure-to-Pay (P2P) Setup",
+    "Order-to-Cash (O2C) Implementation",
+    "Asset Management and Depreciation Setup",
+    "Tax and Subledger Accounting Rules Configuration"
+  ]
+},
+        {
   "course_name": "Workday Studio Training",
   "path": "workday-studio-training",
   "description": "Comprehensive Workday Studio training covering IDE fundamentals, integrations, mediation components, REST APIs, web services, inbound integrations, and hands-on real-time activities.",
@@ -12836,6 +13040,236 @@
             "path":"system-administration",
 
       "sub_categories": [
+        {
+  "course_name": "Kofax TotalAgility Online Training",
+  "path": "kofax-totalagility-training",
+  "image": "/kofax-courses.jpg",
+
+  "meta_title": "Kofax TotalAgility Online Training | Kofax Certification Course",
+  "meta_description": "Master Kofax TotalAgility with hands-on online training. Learn capture workflow, classification, extraction, forms, case management, and end-to-end automation.",
+  "description": "Comprehensive training on Kofax TotalAgility covering installation, capture workflows, classification, extraction, forms, case-based processes, integration, mobile input, MFP setup and end-to-end automation.",
+
+  "what_youll_learn": [
+    "Install and configure Kofax TotalAgility",
+    "Design capture workflows with classification and extraction",
+    "Create resources, folder types, and separation profiles",
+    "Configure classification and extraction groups",
+    "Build forms, sites, and navigation",
+    "Design case-based processes",
+    "Set up email, watched folders, and MFP input sources",
+    "Export data to external systems",
+    "Integrate mobile devices and databases"
+  ],
+
+  "syllabus": [
+    {
+      "module": "Introduction to Kofax TotalAgility",
+      "subtopics": [
+        "Course roadmap and objectives",
+        "Use case scenario",
+        "What is Kofax TotalAgility?",
+        "Smart process application platform overview",
+        "BPM, DCM, Mobility, Capture and Transformation Services",
+        "Awareness & Collaboration Services",
+        "Analytics & Business Intelligence",
+        "Data Integration Services"
+      ]
+    },
+    {
+      "module": "Installing Kofax TotalAgility 7",
+      "subtopics": [
+        "Installation prerequisites",
+        "Hardware and software requirements",
+        "Server OS, IIS, .NET Framework",
+        "SQL Server prerequisites",
+        "Database and Transformation Server user setup",
+        "Installation steps",
+        "Validating services and applications"
+      ]
+    },
+    {
+      "module": "Creating a Capture Workflow Process",
+      "subtopics": [
+        "Process Designer overview",
+        "Process features, naming, and properties",
+        "Designing classification, review, extraction, validation workflows",
+        "Node alignment and connections",
+        "Saving, releasing, locking processes",
+        "Creating categories and searching processes"
+      ]
+    },
+    {
+      "module": "Creating Resources",
+      "subtopics": [
+        "Understanding resources",
+        "Resource Designer",
+        "Creating resources and group resources",
+        "Workflow rules",
+        "Assigning resources to manual activities"
+      ]
+    },
+    {
+      "module": "Separation Profiles, Extraction & Classification Groups",
+      "subtopics": [
+        "Data Designer Module",
+        "Separation profiles (document & folder level)",
+        "Creating extraction groups",
+        "Field groups and document types"
+      ]
+    },
+    {
+      "module": "Classification Group",
+      "subtopics": [
+        "What is a classification group?",
+        "Creating a classification group",
+        "Adding extraction groups"
+      ]
+    },
+    {
+      "module": "Folder Type",
+      "subtopics": [
+        "What is a folder type?",
+        "Creating folder types and folder fields"
+      ]
+    },
+    {
+      "module": "Capture Process Properties & Variables",
+      "subtopics": [
+        "Creating process variables",
+        "Document and folder variables",
+        "Classification, review, extraction, validation node configuration",
+        "Activity SLA setup"
+      ]
+    },
+    {
+      "module": "Site, Forms and Navigation",
+      "subtopics": [
+        "Workspace overview",
+        "Form Designer Module",
+        "Creating sites and forms",
+        "Scan job forms and task forms",
+        "Adding navigation and accessing sites"
+      ]
+    },
+    {
+      "module": "Transformation Designer - Classification",
+      "subtopics": [
+        "Classification project types",
+        "Connecting to extraction & classification groups",
+        "Layout classification setup",
+        "Assigning sample documents",
+        "Training and testing classification"
+      ]
+    },
+    {
+      "module": "Extraction",
+      "subtopics": [
+        "Locator methods",
+        "Locator properties",
+        "Advanced zone locator configuration",
+        "Cleanup profiles, anchors, OMR zones",
+        "Mapping locator values",
+        "Viewing extraction results",
+        "Text extraction"
+      ]
+    },
+    {
+      "module": "Case-Based Processes",
+      "subtopics": [
+        "Case vs business process",
+        "Design components and configuration",
+        "Categories and node types",
+        "Loan application use case"
+      ]
+    },
+    {
+      "module": "Variables and Data Access",
+      "subtopics": [
+        "Process, server, system, document, folder variables",
+        "Real-time DB connections",
+        "Table, stored procedure, view access"
+      ]
+    },
+    {
+      "module": "Email Notifications and Document Creation",
+      "subtopics": [
+        "Activity notifications",
+        "Email notifications",
+        "Document creation"
+      ]
+    },
+    {
+      "module": "Forms, Navigation & Security",
+      "subtopics": [
+        "Loan application forms",
+        "Navigation changes",
+        "Navigation security",
+        "Form security"
+      ]
+    },
+    {
+      "module": "Formatting & Customizing Forms",
+      "subtopics": [
+        "Form formatting",
+        "Adding images and controls",
+        "Repositioning controls"
+      ]
+    },
+    {
+      "module": "End-to-End Capture Enabled Process",
+      "subtopics": [
+        "Linking capture workflows to loan process",
+        "Loop nodes",
+        "Create new job node"
+      ]
+    },
+    {
+      "module": "Email & Watched Folder Input Sources",
+      "subtopics": [
+        "Email integration",
+        "Watched folder configuration"
+      ]
+    },
+    {
+      "module": "Exporting to Systems of Record",
+      "subtopics": [
+        "Text export connector",
+        "Installing the connector",
+        "Configuring processes and connectors"
+      ]
+    },
+    {
+      "module": "Configuring MFP as Input Source",
+      "subtopics": [
+        "Device create new job form",
+        "Process preconditions",
+        "Managing devices",
+        "Installing MFP emulator",
+        "MFP emulation"
+      ]
+    },
+    {
+      "module": "Mobile Integration (Optional)",
+      "subtopics": [
+        "Mobile job form",
+        "Mobile app setup",
+        "Connecting mobile app to TotalAgility server"
+      ]
+    }
+  ],
+
+  "duration": "60–70 hours",
+  "skill_level": "Intermediate",
+  "placement_assurance": true,
+
+  "projects": [
+    "Capture Workflow Automation Project",
+    "Loan Application Case-Based Process",
+    "Document Classification & Extraction Project",
+    "Email, Watched Folder & MFP Input Integration",
+    "Database-Connected Business Process Setup"
+  ]
+},
         {
   "course_name": "Teamcenter PLM Online Training",
   "path": "teamcenter-plm-online-training",

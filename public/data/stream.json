@@ -1,0 +1,652 @@
+{
+  "streamWiseCourses": [
+    {
+      "streamName": "Science Stream - Biology",
+      "courses": [
+        {
+          "course": "Medical Coding (CPC)",
+          "path": ""
+        },
+        {
+          "course": "Clinical Research & Pharmacovigilance",
+          "path": ""
+        },
+        {
+          "course": "Biotechnology Courses",
+          "path": ""
+        },
+        {
+          "course": "Lab Technician Programs",
+          "path": ""
+        },
+        {
+          "course": "Hospital Administration",
+          "path": ""
+        },
+        {
+          "course": "Nutrition & Dietetics",
+          "path": ""
+        },
+        {
+          "course": "Healthcare Analytics",
+          "path": ""
+        },
+        {
+          "course": "SAP Healthcare (IS-H)",
+          "path": "sap-healthcare"
+        }
+      ]
+    },
+    {
+      "streamName": "Science Stream - Computer Science",
+      "courses": [
+        {
+          "course": "Python / Java Programming",
+          "path": "python-development-online-training"
+        },
+        {
+          "course": "Full Stack Development",
+          "path": "full-stack-developer-online-training"
+        },
+        {
+          "course": "Cloud (AWS, Azure, GCP)",
+          "path": "aws-online-training"
+        },
+        {
+          "course": "DevOps",
+          "path": "devops-training"
+        },
+        {
+          "course": "Data Science, AI, ML",
+          "path": "data-science-course-online"
+        },
+        {
+          "course": "Cybersecurity",
+          "path": "cybersecurity"
+        },
+        {
+          "course": "Software Testing",
+          "path": "software-testing"
+        },
+        {
+          "course": "Mobile App Development",
+          "path": "mobile-app-development"
+        },
+        {
+          "course": "SQL / Database Admin",
+          "path": "sql-database-admin"
+        },
+        {
+          "course": "RPA",
+          "path": "rpa"
+        }
+      ]
+    },
+    {
+      "streamName": "Science Maths (PCM / MPC)",
+      "courses": [
+        {
+          "course": "Engineering Foundation Skills",
+          "path": "engineering-foundation-skills"
+        },
+        {
+          "course": "Data Analytics",
+          "path": "data-analytics"
+        },
+        {
+          "course": "Coding (Python/C/Java)",
+          "path": "coding-python-c-java"
+        },
+        {
+          "course": "Cloud & DevOps",
+          "path": "cloud-devops"
+        },
+        {
+          "course": "Cybersecurity",
+          "path": "cybersecurity"
+        },
+        {
+          "course": "Networking (CCNA)",
+          "path": "networking-ccna"
+        },
+        {
+          "course": "Aviation Courses",
+          "path": "aviation-courses"
+        },
+        {
+          "course": "Architecture Foundation",
+          "path": "architecture-foundation"
+        }
+      ]
+    },
+    {
+      "streamName": "Commerce Stream",
+      "courses": [
+        {
+          "course": "Tally, GST, ERP",
+          "path": "tally-gst-erp"
+        },
+        {
+          "course": "SAP FICO / MM / SD / HR",
+          "path": "sap-fico-mm-sd-hr"
+        },
+        {
+          "course": "Advanced Excel, MIS",
+          "path": "advanced-excel-mis"
+        },
+        {
+          "course": "Financial Modeling",
+          "path": "financial-modeling"
+        },
+        {
+          "course": "Digital Marketing",
+          "path": "digital-marketing"
+        },
+        {
+          "course": "HR Analytics",
+          "path": "hr-analytics"
+        },
+        {
+          "course": "Payroll Training",
+          "path": "payroll-training"
+        },
+        {
+          "course": "Business Analytics",
+          "path": "business-analytics"
+        },
+        {
+          "course": "Banking & Finance",
+          "path": "banking-finance"
+        },
+        {
+          "course": "Salesforce Admin",
+          "path": "salesforce-admin"
+        }
+      ]
+    },
+    {
+      "streamName": "Computer / IT Degrees",
+      "courses": [
+        {
+          "course": "Full Stack Development (Java/Python/MERN)",
+          "path": "full-stack-development-java-python-mern"
+        },
+        {
+          "course": "Cloud (AWS/Azure/GCP)",
+          "path": "cloud-aws-azure-gcp"
+        },
+        {
+          "course": "DevOps",
+          "path": "devops"
+        },
+        {
+          "course": "Cybersecurity & Ethical Hacking",
+          "path": "cybersecurity-ethical-hacking"
+        },
+        {
+          "course": "Data Science / AI / ML",
+          "path": "data-science-ai-ml"
+        },
+        {
+          "course": "UI/UX Design",
+          "path": "ui-ux-design"
+        },
+        {
+          "course": "Software Testing (Manual + Automation)",
+          "path": "software-testing-manual-automation"
+        },
+        {
+          "course": "Mobile App Development (Android/iOS)",
+          "path": "mobile-app-development-android-ios"
+        },
+        {
+          "course": "SQL / Oracle / MongoDB",
+          "path": "sql-oracle-mongodb"
+        },
+        {
+          "course": "RPA Tools",
+          "path": "rpa-tools"
+        }
+      ]
+    },
+    {
+      "streamName": "Engineering - CSE / IT / ECE / EEE",
+      "courses": [
+        {
+          "course": "Cloud & DevOps",
+          "path": "cloud-devops"
+        },
+        {
+          "course": "Data Science & AI",
+          "path": "data-science-ai"
+        },
+        {
+          "course": "Embedded Systems & IoT",
+          "path": "embedded-systems-iot"
+        },
+        {
+          "course": "Networking CCNA/CCNP",
+          "path": "networking-ccna-ccnp"
+        },
+        {
+          "course": "Cybersecurity",
+          "path": "cybersecurity"
+        },
+        {
+          "course": "SAP ABAP / Basis / Security",
+          "path": "sap-abap-basis-security"
+        },
+        {
+          "course": "Power BI / Tableau",
+          "path": "power-bi-tableau"
+        },
+        {
+          "course": "Java / Python / Full Stack",
+          "path": "java-python-full-stack"
+        }
+      ]
+    },
+    {
+      "streamName": "Mechanical Engineering",
+      "courses": [
+        {
+          "course": "AutoCAD, SolidWorks, Catia",
+          "path": "autocad-solidworks-catia"
+        },
+        {
+          "course": "Industrial Automation",
+          "path": "industrial-automation"
+        },
+        {
+          "course": "HVAC",
+          "path": "hvac"
+        },
+        {
+          "course": "Quality (QA/QC)",
+          "path": "quality-qa-qc"
+        },
+        {
+          "course": "SAP PM / EAM / PP",
+          "path": "sap-pm-eam-pp"
+        },
+        {
+          "course": "Piping Engineering",
+          "path": "piping-engineering"
+        },
+        {
+          "course": "Robotics & Mechatronics",
+          "path": "robotics-mechatronics"
+        }
+      ]
+    },
+    {
+      "streamName": "Civil Engineering",
+      "courses": [
+        {
+          "course": "AutoCAD, Revit Architecture",
+          "path": "autocad-revit-architecture"
+        },
+        {
+          "course": "Primavera",
+          "path": "primavera"
+        },
+        {
+          "course": "Construction Project Management",
+          "path": "construction-project-management"
+        },
+        {
+          "course": "Quantity Surveying",
+          "path": "quantity-surveying"
+        },
+        {
+          "course": "Estimation & Costing",
+          "path": "estimation-costing"
+        },
+        {
+          "course": "SAP PS",
+          "path": "sap-ps"
+        }
+      ]
+    },
+    {
+      "streamName": "Arts & Humanities",
+      "courses": [
+        {
+          "course": "Digital Marketing",
+          "path": "digital-marketing"
+        },
+        {
+          "course": "Content Writing",
+          "path": "content-writing"
+        },
+        {
+          "course": "HR Generalist",
+          "path": "hr-generalist"
+        },
+        {
+          "course": "Public Relations",
+          "path": "public-relations"
+        },
+        {
+          "course": "Event Management",
+          "path": "event-management"
+        },
+        {
+          "course": "UI/UX (Beginner)",
+          "path": "ui-ux-beginner"
+        },
+        {
+          "course": "Data Analytics (Beginner)",
+          "path": "data-analytics-beginner"
+        },
+        {
+          "course": "Salesforce Admin",
+          "path": "salesforce-admin"
+        }
+      ]
+    },
+    {
+      "streamName": "VISCOM / Media / Communication",
+      "courses": [
+        {
+          "course": "Graphic Designing",
+          "path": "graphic-designing"
+        },
+        {
+          "course": "Video Editing",
+          "path": "video-editing"
+        },
+        {
+          "course": "Photography & Cinematography",
+          "path": "photography-cinematography"
+        },
+        {
+          "course": "Motion Graphics",
+          "path": "motion-graphics"
+        },
+        {
+          "course": "3D Animation & VFX",
+          "path": "3d-animation-vfx"
+        },
+        {
+          "course": "UI/UX Designing",
+          "path": "ui-ux-designing"
+        },
+        {
+          "course": "Digital Marketing",
+          "path": "digital-marketing"
+        },
+        {
+          "course": "Film Editing",
+          "path": "film-editing"
+        }
+      ]
+    },
+    {
+      "streamName": "Medical / Paramedical / Allied Health",
+      "courses": [
+        {
+          "course": "Medical Coding (CPC)",
+          "path": "medical-coding-cpc"
+        },
+        {
+          "course": "Medical Billing",
+          "path": "medical-billing"
+        },
+        {
+          "course": "Clinical Research",
+          "path": "clinical-research"
+        },
+        {
+          "course": "Pharmacovigilance",
+          "path": "pharmacovigilance"
+        },
+        {
+          "course": "Hospital Administration",
+          "path": "hospital-administration"
+        },
+        {
+          "course": "SAP Healthcare",
+          "path": "sap-healthcare"
+        },
+        {
+          "course": "Healthcare Analytics",
+          "path": "healthcare-analytics"
+        },
+        {
+          "course": "Lab Technology Courses",
+          "path": "lab-technology-courses"
+        }
+      ]
+    },
+    {
+      "streamName": "Life Science Stream",
+      "courses": [
+        {
+          "course": "Medical Coding",
+          "path": "medical-coding"
+        },
+        {
+          "course": "Food Technology",
+          "path": "food-technology"
+        },
+        {
+          "course": "Lab Technician Courses",
+          "path": "lab-technician-courses"
+        },
+        {
+          "course": "Clinical Data Management",
+          "path": "clinical-data-management"
+        },
+        {
+          "course": "Biotech Courses",
+          "path": "biotech-courses"
+        },
+        {
+          "course": "Data Analytics (Beginner)",
+          "path": "data-analytics-beginner"
+        }
+      ]
+    },
+    {
+      "streamName": "Accounting & Finance",
+      "courses": [
+        {
+          "course": "SAP FICO",
+          "path": "sap-fico"
+        },
+        {
+          "course": "Tally + GST",
+          "path": "tally-gst"
+        },
+        {
+          "course": "Financial Modeling",
+          "path": "financial-modeling"
+        },
+        {
+          "course": "Excel, MIS & Reporting",
+          "path": "excel-mis-reporting"
+        },
+        {
+          "course": "Investment Banking Basics",
+          "path": "investment-banking-basics"
+        },
+        {
+          "course": "Business Analytics",
+          "path": "business-analytics"
+        }
+      ]
+    },
+    {
+      "streamName": "Law",
+      "courses": [
+        {
+          "course": "Legal Analytics",
+          "path": "legal-analytics"
+        },
+        {
+          "course": "Compliance & Risk Management",
+          "path": "compliance-risk-management"
+        },
+        {
+          "course": "Contract Management",
+          "path": "contract-management"
+        },
+        {
+          "course": "Cyber Law",
+          "path": "cyber-law"
+        },
+        {
+          "course": "Digital Marketing for Legal Practice",
+          "path": "digital-marketing-legal-practice"
+        }
+      ]
+    },
+    {
+      "streamName": "Agriculture / Forestry / Food Science",
+      "courses": [
+        {
+          "course": "Food Safety & Quality",
+          "path": "food-safety-quality"
+        },
+        {
+          "course": "Environmental Analytics",
+          "path": "environmental-analytics"
+        },
+        {
+          "course": "Agritech Software Basics",
+          "path": "agritech-software-basics"
+        },
+        {
+          "course": "GIS Mapping",
+          "path": "gis-mapping"
+        },
+        {
+          "course": "Data Analytics for Agriculture",
+          "path": "data-analytics-agriculture"
+        }
+      ]
+    },
+    {
+      "streamName": "Architecture / Design",
+      "courses": [
+        {
+          "course": "AutoCAD / SketchUp / Revit",
+          "path": "autocad-sketchup-revit"
+        },
+        {
+          "course": "Interior Design Tools",
+          "path": "interior-design-tools"
+        },
+        {
+          "course": "Product Design",
+          "path": "product-design"
+        },
+        {
+          "course": "UI/UX",
+          "path": "ui-ux"
+        },
+        {
+          "course": "Graphic Design",
+          "path": "graphic-design"
+        }
+      ]
+    },
+    {
+      "streamName": "Hotel Management / Tourism",
+      "courses": [
+        {
+          "course": "Hospitality Management Software",
+          "path": "hospitality-management-software"
+        },
+        {
+          "course": "Front Office Systems",
+          "path": "front-office-systems"
+        },
+        {
+          "course": "Digital Marketing for Hotels",
+          "path": "digital-marketing-hotels"
+        },
+        {
+          "course": "Travel & Tourism Management",
+          "path": "travel-tourism-management"
+        }
+      ]
+    },
+    {
+      "streamName": "Aviation",
+      "courses": [
+        {
+          "course": "Ground Staff Training",
+          "path": "ground-staff-training"
+        },
+        {
+          "course": "Cabin Crew Training",
+          "path": "cabin-crew-training"
+        },
+        {
+          "course": "Airport Management",
+          "path": "airport-management"
+        },
+        {
+          "course": "Aviation Safety",
+          "path": "aviation-safety"
+        },
+        {
+          "course": "AME Basics",
+          "path": "ame-basics"
+        }
+      ]
+    },
+    {
+      "streamName": "Sports & Physical Education",
+      "courses": [
+        {
+          "course": "Sports Nutrition",
+          "path": "sports-nutrition"
+        },
+        {
+          "course": "Fitness Training",
+          "path": "fitness-training"
+        },
+        {
+          "course": "Sports Management",
+          "path": "sports-management"
+        },
+        {
+          "course": "Strength & Conditioning Coaching",
+          "path": "strength-conditioning-coaching"
+        }
+      ]
+    },
+    {
+      "streamName": "Diploma / Polytechnic (All Branches)",
+      "courses": [
+        {
+          "course": "Hardware & Networking",
+          "path": "hardware-networking"
+        },
+        {
+          "course": "Cybersecurity Foundation",
+          "path": "cybersecurity-foundation"
+        },
+        {
+          "course": "AutoCAD (Mech/Civil)",
+          "path": "autocad-mech-civil"
+        },
+        {
+          "course": "PLC & SCADA",
+          "path": "plc-scada"
+        },
+        {
+          "course": "Maintenance Engineering",
+          "path": "maintenance-engineering"
+        },
+        {
+          "course": "Basic Programming (C/Python)",
+          "path": "basic-programming-c-python"
+        }
+      ]
+    }
+  ]
+}
