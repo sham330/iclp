@@ -62,23 +62,23 @@
         },
         {
           "course": "Cybersecurity",
-          "path": "cybersecurity"
+          "path": "cyber-security-online-training"
         },
         {
           "course": "Software Testing",
-          "path": "software-testing"
+          "path": "software-testing-certification-course"
         },
         {
           "course": "Mobile App Development",
-          "path": "mobile-app-development"
+          "path": ""
         },
         {
           "course": "SQL / Database Admin",
-          "path": "sql-database-admin"
+          "path": "msql-online-training"
         },
         {
           "course": "RPA",
-          "path": "rpa"
+          "path": ""
         }
       ]
     },
@@ -87,23 +87,23 @@
       "courses": [
         {
           "course": "Engineering Foundation Skills",
-          "path": "engineering-foundation-skills"
+          "path": ""
         },
         {
           "course": "Data Analytics",
-          "path": "data-analytics"
+          "path": "data-analytics-course"
         },
         {
           "course": "Coding (Python/C/Java)",
-          "path": "coding-python-c-java"
+          "path": ""
         },
         {
           "course": "Cloud & DevOps",
-          "path": "cloud-devops"
+          "path": "devops-training"
         },
         {
           "course": "Cybersecurity",
-          "path": "cybersecurity"
+          "path": "cyber-security-online-training"
         },
         {
           "course": "Networking (CCNA)",

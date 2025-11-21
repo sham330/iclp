@@ -58,6 +58,7 @@ const AppBar = () => {
       { name: "Microsoft Azure", path: "microsoftazure-training" },
 { name: "Oracle Fusion Financials", path: "oracle-fusion-financials" },
 {name: "Kofax Online Training", path: "kofax-totalagility-training"},
+{name:"Snowflake Training", path: "snowflake-certification-training"},
 { name: "DevOps", path: "devops-training" },
       { name: "AWS", path: "aws-online-training" },
       { name: "Cisco UCS", path: "cisco-ucs-training" },

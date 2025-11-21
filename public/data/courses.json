@@ -10309,6 +10309,107 @@
           ]
         },
         {
+  "course_name": "Snowflake Certification Training",
+  "path": "snowflake-certification-training",
+  "modules": [
+    {
+      "module_title": "Introduction to Snowflake",
+      "topics": [
+        "Overview of Snowflake's architecture",
+        "Essential features and advantages",
+        "Contrast with conventional data warehouses"
+      ]
+    },
+    {
+      "module_title": "Installing Snowflake",
+      "topics": [
+        "Creating and overseeing Snowflake accounts",
+        "Navigating Snowflake's interface",
+        "Configuring Snowflake's environment"
+      ]
+    },
+    {
+      "module_title": "Loading and Unloading Data",
+      "topics": [
+        "Utilizing Snowpipe for ongoing data ingestion",
+        "Exporting data with the COPY command",
+        "Exporting data to external storage"
+      ]
+    },
+    {
+      "module_title": "Database Objects and Schema Design",
+      "topics": [
+        "Developing and maintaining databases, tables",
+        "Grasping Snowflake's data types and structures",
+        "Best practices in data modeling"
+      ]
+    },
+    {
+      "module_title": "Snowflake SQL and Querying",
+      "topics": [
+        "Crafting and refining SQL queries",
+        "Advanced SQL functions and operations",
+        "Enhancing query performance"
+      ]
+    },
+    {
+      "module_title": "Data Sharing and Collaboration",
+      "topics": [
+        "Establishing and managing data sharing permissions",
+        "Secure data sharing and access controls"
+      ]
+    },
+    {
+      "module_title": "Snowflake Data Management",
+      "topics": [
+        "Leveraging Snowflake Streams for change data capture",
+        "Managing data with Tasks and Stored Procedures",
+        "Implementing Time Travel and Fail-safe features"
+      ]
+    },
+    {
+      "module_title": "Security and Governance",
+      "topics": [
+        "Managing user roles and permissions",
+        "Data encryption and security best practices",
+        "Compliance and governance tools"
+      ]
+    },
+    {
+      "module_title": "Integration and Connectivity",
+      "topics": [
+        "Linking Snowflake with ETL/ELT tools",
+        "Integrating with BI tools",
+        "Employing Snowflake connectors across various platforms"
+      ]
+    },
+    {
+      "module_title": "Performance Optimization",
+      "topics": [
+        "Understanding Snowflake's virtual warehouses",
+        "Scaling and managing resources",
+        "Enhancing query and storage optimization"
+      ]
+    },
+    {
+      "module_title": "Advanced Topics",
+      "topics": [
+        "Working with semi-structured data",
+        "Advanced data modeling and partitioning",
+        "Machine learning integration"
+      ]
+    },
+    {
+      "module_title": "Hands-On Projects and Case Studies",
+      "topics": [
+        "Practical scenarios and exercises",
+        "Developing and deploying solutions on Snowflake",
+        "Troubleshooting and best practices"
+      ]
+    }
+  ]
+},
+        {
           "course_name": "SQL with PHP",
           "path": "sql-with-php-online-training",
           "description": "Learn SQL database integration with PHP to build dynamic web applications and content management systems.",
