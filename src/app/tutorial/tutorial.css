@@ -192,7 +192,7 @@
 /* Course Grid */
 .tutorial-page .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
   gap: 2rem;
 }
 
@@ -317,7 +317,7 @@
 }
 
 .tutorial-page .course-title {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #1f2937;

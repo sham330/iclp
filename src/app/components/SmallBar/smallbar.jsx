@@ -109,7 +109,7 @@ console.log("Stream Wise Courses:", streamWiseCourses);
     className="dropdown-toggle"
     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
   >
-    Carrer Streams <FaChevronDown className="dropdown-icon" />
+    Career Streams <FaChevronDown className="dropdown-icon" />
   </span>
   {isDropdownOpen && (
     <ul className="dropdown-menu">
