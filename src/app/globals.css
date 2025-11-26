@@ -1,5 +1,11 @@
 /* colors.css */
 
+/* Force Sentient on every element */
+*,
+*::before,
+*::after {
+  font-family: "Sentient", sans-serif !important;
+}
 
 
 /* Global Body Styles */

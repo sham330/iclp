@@ -7,10 +7,6 @@ import Footer from "./components/Footer/footer";
 import AppBar from "./components/AppBar/appbar";
 import { Cinzel } from "next/font/google";
 
-const cinzel = Cinzel({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 export const metadata = {
   icons: {
@@ -33,10 +29,12 @@ export default function RootLayout({ children }) {
           content="gwgv7x-EZlzPSSWS4lnQT7hCW7YhQkaOdp7Vj3sy6bk"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
         <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
+  rel="stylesheet"
+  href="https://api.fontshare.com/v2/css?f[]=sentient@400,500,600&display=swap"
+/>
+
         <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/favicon.png" />
 

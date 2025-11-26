@@ -10,10 +10,11 @@ const SmallBar = () => {
   const [categories, setCategories] = useState([]);
   const [streamWiseCourses, setstreamWiseCourses] = useState([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isDropdown2Open, setIsDropdown2Open] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
-    const dropdownRef2 = useRef(null);
+  const dropdownRef2 = useRef(null);
 
   const moreDropdownRef = useRef(null);
   const router = useRouter();
@@ -24,13 +25,13 @@ const SmallBar = () => {
       .then((data) => setCategories(data.categories))
       .catch((error) => console.error("Error loading courses:", error));
   }, []);
-   useEffect(() => {
+  useEffect(() => {
     fetch("/data/stream.json")
       .then((response) => response.json())
       .then((data) => setstreamWiseCourses(data.streamWiseCourses))
       .catch((error) => console.error("Error loading courses:", error));
   }, []);
-console.log("Stream Wise Courses:", streamWiseCourses);
+  console.log("Stream Wise Courses:", streamWiseCourses);
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -76,11 +77,11 @@ console.log("Stream Wise Courses:", streamWiseCourses);
               className="dropdown-toggle"
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
-              All Courses <FaChevronDown className="dropdown-icon" />
+              Skill Programs <FaChevronDown className="dropdown-icon" />
             </span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-{categories.slice(1).map((category, index) => (
+                {categories.slice(1).map((category, index) => (
                   <li key={index} className="dropdown-submenu">
                     <span className="submenu-title">
                       {category.category_name} ▸
@@ -104,87 +105,76 @@ console.log("Stream Wise Courses:", streamWiseCourses);
               </ul>
             )}
           </li>
- <li className="dropdown" ref={dropdownRef2}>
-  <span
-    className="dropdown-toggle"
-    onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-  >
-    Career Streams <FaChevronDown className="dropdown-icon" />
-  </span>
-  {isDropdownOpen && (
-    <ul className="dropdown-menu">
-      {streamWiseCourses?.map((stream, index) => (
-        <li key={index} className="dropdown-submenu">
-          <span className="submenu-title">
-            {stream.streamName} ▸
-          </span>
-          <ul className="sub-menu">
-            {stream.courses.map((courseItem, courseIndex) => (
-              <li key={courseIndex}>
-                <button
-                  className="subcategory-button"
-                  onClick={() => handleSubcategoryClick(courseItem.path)}
-                >
-                  {courseItem.course}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </li>
-      ))}
-    </ul>
-  )}
-</li>
-
-         
-
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-        
-          <li>
-            <Link href="/contact">Contact Us</Link>
-          </li>
-   {/* Tutorial as the second item in nav bar */}
-          <li>
-            <Link href="/tutorial">Carrers</Link>
-          </li>
-          {/* More Dropdown with Certifications inside */}
-          <li className="dropdown" ref={moreDropdownRef}>
+          <li className="dropdown" ref={dropdownRef2}>
             <span
               className="dropdown-toggle"
+              onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+            >
+              Degree based programs <FaChevronDown className="dropdown-icon" />
+            </span>
+            {isDropdown2Open && (
+              <ul className="dropdown-menu">
+                {streamWiseCourses?.map((stream, index) => (
+                  <li key={index} className="dropdown-submenu">
+                    <span className="submenu-title">
+                      {stream.streamName} ▸
+                    </span>
+                    <ul className="sub-menu">
+                      {stream.courses.map((courseItem, courseIndex) => (
+                        <li key={courseIndex}>
+                          <button
+                            className="subcategory-button"
+                            onClick={() => handleSubcategoryClick(courseItem.path)}
+                          >
+                            {courseItem.course}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+          <li>
+            <Link href="/">Cooperate Training</Link>
+          </li>
+
+
+          <li>
+            <Link href="/about">About Us</Link>
+          </li>
+ <li>
+            <Link href="/">Services</Link>
+          </li>
+         
+          {/* Tutorial as the second item in nav bar */}
+         
+          {/* More Dropdown with Certifications inside */}
+          <li className="more-dropdown" ref={moreDropdownRef}>
+            <span
+              className="more-dropdown-toggle"
               onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
             >
               More <FaChevronDown className="dropdown-icon" />
             </span>
+
             {isMoreDropdownOpen && (
-              <ul className="dropdown-menu">
-                <li>
-                  <Link href="/freelance-trainee" className="subcategory-button">
-                    Freelancers
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/interview-questions"
-                    className="subcategory-button"
-                  >
-                    Interview Questions
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog" className="subcategory-button">
-                    Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/reviews" className="subcategory-button">
-                    Reviews
-                  </Link>
-                </li>
+              <ul className="more-dropdown-menu">
+                <li><Link href="/freelance-trainee" className="more-item">Freelancers</Link></li>
+                <li><Link href="/interview-questions" className="more-item">Interview Questions</Link></li>
+                <li><Link href="/blog" className="more-item">Blog</Link></li>
+                <li><Link href="/reviews" className="more-item">Reviews</Link></li>
+                 <li>
+            <Link href="/contact">Contact Us</Link>
+          </li>
+           <li>
+            <Link href="/tutorial">Tutorial</Link>
+          </li>
               </ul>
             )}
           </li>
+
         </ul>
       </div>
     </nav>
