@@ -132,7 +132,6 @@
   margin: 0;
   line-height: 1.1; /* Tighter line height */
   color: #ecf0f1;
-  font-style: italic;
 }
 
 /* Search Container - adjust vertical spacing */
@@ -288,6 +287,8 @@
   color: white;
   font-size: 0.9rem;
   outline: none;
+  font-family: "Cinzel Text" !important;
+
 }
 
 .search-input-dark::placeholder {

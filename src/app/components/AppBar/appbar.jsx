@@ -109,8 +109,7 @@ const AppBar = () => {
       { name: "Unix Shell Scripting", path: "unix-shell-scripting-online-training" },
       { name: "C and C++", path: "c-cpp-programming-course" },
             { name: "Corel Draw", path: "coreldraw-masterclass" },
-
-
+{ name: "Alation Data Catalog", path: "alation-data-catalog-training",},
       { "name": "IBM DataPower", "path": "ibm-data-power" },
       { "name": "IBM Cognos", "path": "ibm-cognos" },
       { "name": "IBM Watson Analytics", "path": "ibm-watson-analytics" },

@@ -102,42 +102,61 @@ const SmallBar = () => {
                     </ul>
                   </li>
                 ))}
+                <li className="dropdown-readmore">
+        <button
+          className="readmore-button"
+          onClick={() => handleSubcategoryClick("/degree-programs")}
+        >
+          Read more →
+        </button>
+      </li>
               </ul>
             )}
           </li>
-          <li className="dropdown" ref={dropdownRef2}>
-            <span
-              className="dropdown-toggle"
-              onClick={() => setIsDropdown2Open(!isDropdown2Open)}
-            >
-              Degree based programs <FaChevronDown className="dropdown-icon" />
-            </span>
-            {isDropdown2Open && (
-              <ul className="dropdown-menu">
-                {streamWiseCourses?.map((stream, index) => (
-                  <li key={index} className="dropdown-submenu">
-                    <span className="submenu-title">
-                      {stream.streamName} ▸
-                    </span>
-                    <ul className="sub-menu">
-                      {stream.courses.map((courseItem, courseIndex) => (
-                        <li key={courseIndex}>
-                          <button
-                            className="subcategory-button"
-                            onClick={() => handleSubcategoryClick(courseItem.path)}
-                          >
-                            {courseItem.course}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
+        <li className="dropdown" ref={dropdownRef2}>
+  <span
+    className="dropdown-toggle"
+    onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+  >
+    Degree based programs <FaChevronDown className="dropdown-icon" />
+  </span>
+
+  {isDropdown2Open && (
+    <ul className="dropdown-menu">
+      {streamWiseCourses?.map((stream, index) => (
+        <li key={index} className="dropdown-submenu">
+          <span className="submenu-title">{stream.streamName} ▸</span>
+
+          <ul className="sub-menu">
+            {stream.courses.map((courseItem, i) => (
+              <li key={i}>
+                <button
+                  className="subcategory-button"
+                  onClick={() => handleSubcategoryClick(courseItem.path)}
+                >
+                  {courseItem.course}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+
+      {/* --- Read More Button (LAST ITEM) --- */}
+      <li className="dropdown-readmore">
+        <button
+          className="readmore-button"
+          onClick={() => handleSubcategoryClick("/degree-programs")}
+        >
+          Read more →
+        </button>
+      </li>
+    </ul>
+  )}
+</li>
+
           <li>
-            <Link href="/">Cooperate Training</Link>
+            <Link href="/">Corporate Training</Link>
           </li>
 
 
@@ -166,10 +185,10 @@ const SmallBar = () => {
                 <li><Link href="/blog" className="more-item">Blog</Link></li>
                 <li><Link href="/reviews" className="more-item">Reviews</Link></li>
                  <li>
-            <Link href="/contact">Contact Us</Link>
+            <Link className="more-item" href="/contact">Contact Us</Link>
           </li>
            <li>
-            <Link href="/tutorial">Tutorial</Link>
+            <Link className="more-item" href="/tutorial">Tutorial</Link>
           </li>
               </ul>
             )}

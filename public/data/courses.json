@@ -10309,102 +10309,93 @@
           ]
         },
         {
-  "course_name": "Snowflake Certification Training",
-  "path": "snowflake-certification-training",
+  "course_name": "Alation Data Catalog Training",
+  "path": "alation-data-catalog-training",
   "modules": [
     {
-      "module_title": "Introduction to Snowflake",
+      "module_title": "Introduction to Data Governance & Cataloging",
       "topics": [
-        "Overview of Snowflake's architecture",
-        "Essential features and advantages",
-        "Contrast with conventional data warehouses"
+        "What is Data Governance?",
+        "Why organizations need a Data Catalog",
+        "Overview of Enterprise Data Management",
+        "Data Governance roles: Steward, Owner, Analyst",
+        "Comparison: Alation vs Collibra vs Informatica"
       ]
     },
     {
-      "module_title": "Installing Snowflake",
+      "module_title": "Introduction to Alation",
       "topics": [
-        "Creating and overseeing Snowflake accounts",
-        "Navigating Snowflake's interface",
-        "Configuring Snowflake's environment"
+        "Alation Overview & Architecture",
+        "Core components of Alation platform",
+        "User roles and responsibilities",
+        "Understanding the Alation interface",
+        "Key terms: Data Source, Catalog, Glossary, Stewardship"
       ]
     },
     {
-      "module_title": "Loading and Unloading Data",
+      "module_title": "Alation Data Catalog Fundamentals",
       "topics": [
-        "Utilizing Snowpipe for ongoing data ingestion",
-        "Exporting data with the COPY command",
-        "Exporting data to external storage"
+        "Connecting to data sources (Databases, BI tools, etc.)",
+        "Data ingestion and metadata extraction",
+        "Data lineage overview",
+        "Managing schema and table-level metadata",
+        "Data profiling basics"
       ]
     },
     {
-      "module_title": "Database Objects and Schema Design",
+      "module_title": "Business Glossary & Stewardship",
       "topics": [
-        "Developing and maintaining databases, tables",
-        "Grasping Snowflake's data types and structures",
-        "Best practices in data modeling"
+        "Creating and maintaining the Business Glossary",
+        "Assigning Data Stewards and Owners",
+        "Governance workflows in Alation",
+        "Tracking glossary term usage across datasets"
       ]
     },
     {
-      "module_title": "Snowflake SQL and Querying",
+      "module_title": "Data Lineage & Impact Analysis",
       "topics": [
-        "Crafting and refining SQL queries",
-        "Advanced SQL functions and operations",
-        "Enhancing query performance"
+        "Understanding Data Lineage",
+        "How Alation captures lineage",
+        "Visualizing lineage in dashboards",
+        "Performing impact analysis before schema change"
       ]
     },
     {
-      "module_title": "Data Sharing and Collaboration",
+      "module_title": "Search, Query, and Collaboration",
       "topics": [
-        "Establishing and managing data sharing permissions",
-        "Secure data sharing and access controls"
+        "Alation’s Search Engine",
+        "Using Natural Language Search (NLS)",
+        "Data query feature – writing SQL queries in Alation",
+        "Query collaboration and sharing",
+        "Version control and approvals"
       ]
     },
     {
-      "module_title": "Snowflake Data Management",
+      "module_title": "Policies, Rules & Compliance",
       "topics": [
-        "Leveraging Snowflake Streams for change data capture",
-        "Managing data with Tasks and Stored Procedures",
-        "Implementing Time Travel and Fail-safe features"
+        "Policy management and data privacy",
+        "GDPR / HIPAA compliance in Alation",
+        "Setting up governance policies",
+        "Data usage tracking and reporting"
       ]
     },
     {
-      "module_title": "Security and Governance",
+      "module_title": "Alation Advanced Features",
       "topics": [
-        "Managing user roles and permissions",
-        "Data encryption and security best practices",
-        "Compliance and governance tools"
+        "Automated data discovery",
+        "Trust flags and certification",
+        "Integration with Tableau, Power BI, and Snowflake",
+        "APIs and Automation in Alation",
+        "Analytics and reporting dashboards"
       ]
     },
     {
-      "module_title": "Integration and Connectivity",
+      "module_title": "Administration & Security",
       "topics": [
-        "Linking Snowflake with ETL/ELT tools",
-        "Integrating with BI tools",
-        "Employing Snowflake connectors across various platforms"
-      ]
-    },
-    {
-      "module_title": "Performance Optimization",
-      "topics": [
-        "Understanding Snowflake's virtual warehouses",
-        "Scaling and managing resources",
-        "Enhancing query and storage optimization"
-      ]
-    },
-    {
-      "module_title": "Advanced Topics",
-      "topics": [
-        "Working with semi-structured data",
-        "Advanced data modeling and partitioning",
-        "Machine learning integration"
-      ]
-    },
-    {
-      "module_title": "Hands-On Projects and Case Studies",
-      "topics": [
-        "Practical scenarios and exercises",
-        "Developing and deploying solutions on Snowflake",
-        "Troubleshooting and best practices"
+        "User roles, permissions, and groups",
+        "Authentication and access control",
+        "Backup and restore configuration",
+        "Monitoring and auditing activity logs"
       ]
     }
   ]

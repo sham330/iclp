@@ -484,22 +484,18 @@
 }
 /* =========================
   MORE DROPDOWN (Independent)
-========================= */
-
-.more-dropdown {
-  position: relative;
-}
-
+  */
 .more-dropdown-toggle {
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: center; /* fix */
+  justify-content: flex-start; /* forces content to left */
   gap: 6px;
   font-weight: 600;
   color: white;
+  text-align: left; /* optional */
 }
 
-/* Menu Container */
 .more-dropdown-menu {
   position: absolute;
   top: 100%;
@@ -511,17 +507,36 @@
   list-style: none;
   z-index: 999;
   box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+  text-align: left; /* important */
 }
 
-/* Links */
 .more-item {
   display: block;
   text-decoration: none;
+  margin-left: 6px;
   color: white;
   padding: 10px 14px;
   transition: background 0.25s ease;
+  text-align: left; /* ensures links inside are left aligned */
 }
 
-.more-item:hover {
-  background: rgba(255,255,255,0.15);
+.dropdown-readmore {
+  padding: 8px 12px;
+  text-align: center;
 }
+
+.readmore-button {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: opacity 0.25s ease;
+}
+
+.readmore-button:hover {
+  opacity: 0.7;
+}
+

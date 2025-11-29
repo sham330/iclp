@@ -30,10 +30,19 @@ export default function RootLayout({ children }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
        
-        <link
+    <link
   rel="stylesheet"
-  href="https://api.fontshare.com/v2/css?f[]=sentient@400,500,600&display=swap"
+  href="https://api.fontshare.com/v2/css?f[]=Bevellier@400,500,600&display=swap"
 />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Cinzel+Text:wght@400;500;600;700&display=swap"
+/>
+
 
         <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/favicon.png" />
