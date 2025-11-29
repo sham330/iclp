@@ -155,7 +155,7 @@ const sendEmail = async (e) => {
           <div className="about-header">
             <span className="about-subtitle">WHO WE ARE</span>
             <h2 className="about-title">
-              Transforming <span className="about-highlight">Careers</span> with ICLP
+              Transforming Careers with ICLP
             </h2>
           </div>
 

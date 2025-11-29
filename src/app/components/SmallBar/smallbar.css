@@ -37,8 +37,9 @@
 
 /* Individual List Items */
 .nav-links li {
-  flex: 1;
-  text-align: center;
+ flex: none;
+  margin: 0 12px;
+    text-align: center;
   position: relative;
 }
 

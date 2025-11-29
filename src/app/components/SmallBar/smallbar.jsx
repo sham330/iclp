@@ -154,16 +154,17 @@ const SmallBar = () => {
     </ul>
   )}
 </li>
-
+        <li>
+            <Link href="/about">About Us</Link>
+          </li>
           <li>
             <Link href="/">Corporate Training</Link>
           </li>
-
-
-          <li>
-            <Link href="/about">About Us</Link>
+            <li>
+            <Link className="more-item" href="/contact">Contact Us</Link>
           </li>
  <li>
+  
             <Link href="/">Services</Link>
           </li>
          
@@ -184,9 +185,7 @@ const SmallBar = () => {
                 <li><Link href="/interview-questions" className="more-item">Interview Questions</Link></li>
                 <li><Link href="/blog" className="more-item">Blog</Link></li>
                 <li><Link href="/reviews" className="more-item">Reviews</Link></li>
-                 <li>
-            <Link className="more-item" href="/contact">Contact Us</Link>
-          </li>
+              
            <li>
             <Link className="more-item" href="/tutorial">Tutorial</Link>
           </li>
