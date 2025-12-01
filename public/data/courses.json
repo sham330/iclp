@@ -11068,6 +11068,345 @@
     "Asset Management and Depreciation Setup",
     "Tax and Subledger Accounting Rules Configuration"
   ]
+},{
+  "course_name": "Workday Integration Training",
+  "path": "workday-integration-training",
+  "image": "/workday-integration-training.jpg",
+
+  "meta_title": "Workday Integration Online Training | Workday Integration Certification Course",
+  "meta_description": "Master Workday Integration with hands-on training. Learn EIB, Core Connectors, Studio, Calculated Fields, Business Processes and integration architecture.",
+  "description": "Comprehensive hands-on Workday Integration training covering EIB, Workday Studio, Core Connectors, Calculated Fields, security groups, data loads, business process configuration and real-time HR transaction automation.",
+
+  "what_youll_learn": [
+    "Understand Workday architecture, UI navigation and business objects",
+    "Create and manage Workday Supervisory and Location Organization structures",
+    "Configure staffing models, job profiles and hiring restrictions",
+    "Set up compensation structures including plans, grades and eligibility",
+    "Design HR processes using Workday Business Process framework",
+    "Develop simple and advanced Workday reports with calculated fields",
+    "Use Workday EIB for inbound and outbound integrations",
+    "Configure and customize Workday Core Connectors",
+    "Use Workday iLoads for foundational and master data imports",
+    "Implement Workday Studio integrations using assemblies and services"
+  ],
+
+  "syllabus": [
+    {
+      "module": "Core Concepts & Navigation",
+      "subtopics": [
+        "Workday concepts & terminology",
+        "Workday Framework",
+        "Business Objects",
+        "Inbox & bulk approvals",
+        "Worklets & dashboards",
+        "Search & actionable reporting",
+        "Landing page configuration",
+        "Notifications & related action menus"
+      ]
+    },
+    {
+      "module": "Organizations",
+      "subtopics": [
+        "Organization types",
+        "Supervisory organizations",
+        "Setup & management",
+        "Org hierarchies",
+        "Location hierarchies",
+        "Reorganization",
+        "Organization reporting"
+      ]
+    },
+    {
+      "module": "Staffing Models",
+      "subtopics": [
+        "Staffing model concepts",
+        "Hiring restrictions",
+        "Position vs Job model",
+        "Maintaining staffing structures"
+      ]
+    },
+    {
+      "module": "Jobs & Positions",
+      "subtopics": [
+        "Job profiles",
+        "Job families & groups",
+        "Creating jobs & positions",
+        "Job requisitions",
+        "Managing filled & unfilled positions"
+      ]
+    },
+    {
+      "module": "Compensation",
+      "subtopics": [
+        "Compensation structure overview",
+        "Eligibility rules",
+        "Compensation grades",
+        "Plans & packages",
+        "Compensation events",
+        "Compensation reporting"
+      ]
+    },
+    {
+      "module": "Hiring Workers",
+      "subtopics": [
+        "Hiring overview",
+        "Hire process & organizations",
+        "End-to-end hire workflow"
+      ]
+    },
+    {
+      "module": "Security Configuration",
+      "subtopics": [
+        "Security platform overview",
+        "Security groups",
+        "Advanced security groups"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Report writer overview",
+        "Standard reports",
+        "Simple vs advanced reports",
+        "Calculated fields",
+        "Custom report creation",
+        "Data sources & business objects",
+        "Scheduling & sharing reports"
+      ]
+    },
+    {
+      "module": "Business Process Framework",
+      "subtopics": [
+        "Business processes & subprocesses",
+        "Editing business processes",
+        "Step configuration",
+        "Notifications & approvals"
+      ]
+    },
+    {
+      "module": "Calculated Fields",
+      "subtopics": [
+        "Calculated field concepts",
+        "System-wide vs report specific",
+        "Constants & dependencies",
+        "String/date functions",
+        "Hierarchical lookup",
+        "Related business object lookups",
+        "True/False expressions",
+        "Arithmetic functions"
+      ]
+    },
+    {
+      "module": "Core Connectors",
+      "subtopics": [
+        "Integration architecture overview",
+        "Cloud Connect",
+        "Integration templates",
+        "Core Connector: Worker",
+        "Integration services",
+        "Change detection",
+        "Integration business process"
+      ]
+    },
+    {
+      "module": "iLoads",
+      "subtopics": [
+        "iLoads overview",
+        "Data push & extraction",
+        "Foundation & master data loads",
+        "Implementation suites & tasks"
+      ]
+    },
+    {
+      "module": "Transactions in Workday",
+      "subtopics": [
+        "Creating applicants",
+        "Hiring",
+        "Assigning security groups",
+        "Headcount management",
+        "Terminations & rescind",
+        "Move workers & deactivate orgs",
+        "Workday accounts",
+        "Viewing personal data"
+      ]
+    },
+    {
+      "module": "EIB & Advanced Integrations",
+      "subtopics": [
+        "EIB design patterns",
+        "Inbound & Outbound EIB",
+        "Custom XSLT",
+        "Core Connector Worker",
+        "Custom report transformations",
+        "Loading transactional data"
+      ]
+    },
+    {
+      "module": "Workday Studio",
+      "subtopics": [
+        "Studio overview & installation",
+        "Navigation & interface",
+        "Runtime architecture",
+        "Assemblies & component flow",
+        "Web services, XSLT & MVEL"
+      ]
+    }
+  ],
+
+  "duration": "45–55 hours",
+  "skill_level": "Intermediate",
+  "placement_assurance": true,
+
+ "projects": [
+    "Employee hiring integration with EIB",
+    "Workday Core Connector Worker implementation",
+    "End-to-end compensation setup automation",
+    "Custom calculated fields reporting project",
+    "Workday Studio HR data pipeline"
+  ]
+},{
+  "course_name": "Workday Payroll Training",
+  "path": "workday-payroll-training",
+  "image": "/workday-payroll-training.jpg",
+
+  "meta_title": "Workday Payroll Online Training | Advanced Payroll Configuration Course",
+  "meta_description": "Learn Workday Payroll end-to-end including earnings, deductions, taxation, withholding orders, banking, settlement, payroll cycles and accounting.",
+  "description": "Complete Workday Payroll training covering payroll frameworks, period schedules, tax setup, payroll accounting, banking configuration, security, processing workflow and real-time payroll operations.",
+
+  "what_youll_learn": [
+    "Configure Workday Payroll framework and period schedules",
+    "Set up earnings, deductions, bonus plans and compensation costing",
+    "Implement federal, state and local payroll taxation",
+    "Manage worker tax elections and multi jurisdiction tax setups",
+    "Configure and process withholding orders",
+    "Generate payroll accounting results and suspense management",
+    "Implement banking and settlement rules for employee payments",
+    "Configure payroll business processes and security groups",
+    "Perform overrides, loan repayment and payroll adjustments",
+    "Execute on-cycle and off-cycle payroll processing"
+  ],
+
+  "syllabus": [
+    {
+      "module": "Introduction to Workday Payroll",
+      "subtopics": [
+        "Payroll processing framework",
+        "Period schedule structure",
+        "Run categories",
+        "Payment election rules",
+        "Pay groups"
+      ]
+    },
+    {
+      "module": "Earnings and Deductions",
+      "subtopics": [
+        "Earnings and deduction configuration",
+        "Bonus earning setup",
+        "Pay comp groups",
+        "Eligibility criteria",
+        "Time earnings",
+        "Benefit plans",
+        "Pay comp security groups",
+        "Costing & limits",
+        "Compensation element calculation"
+      ]
+    },
+    {
+      "module": "Payroll Tax Setup",
+      "subtopics": [
+        "Tax configuration overview",
+        "Federal payroll setup",
+        "State & local tax setup",
+        "Company tax configuration",
+        "Tax authority exceptions",
+        "Worker tax elections",
+        "W-2 setup & multi jurisdiction processing"
+      ]
+    },
+    {
+      "module": "Withholding Orders",
+      "subtopics": [
+        "Withholding order framework",
+        "Disposable income determination",
+        "Deduction recipients",
+        "Recording & editing support orders",
+        "Termination or amendments",
+        "Support order processing priorities",
+        "View worker withholding orders"
+      ]
+    },
+    {
+      "module": "Payroll Accounting",
+      "subtopics": [
+        "Payroll accounting overview",
+        "Suspense accounts",
+        "Generate accounting results",
+        "Run payroll accounting",
+        "Review accounting reports"
+      ]
+    },
+    {
+      "module": "Banking & Settlement Configuration",
+      "subtopics": [
+        "Banking prerequisites",
+        "Payment election rules",
+        "Payslip configuration",
+        "Check print layouts",
+        "Bank account & routing rules",
+        "Pre-note runs",
+        "Settlement configuration"
+      ]
+    },
+    {
+      "module": "Roles, Security & Business Processes",
+      "subtopics": [
+        "Payroll specific roles",
+        "Security groups",
+        "Pay component based security",
+        "Payroll business processes"
+      ]
+    },
+    {
+      "module": "Payroll Inputs & Processing",
+      "subtopics": [
+        "Payroll input workflow",
+        "Overrides & adjustments",
+        "Special payroll entries",
+        "Loan setup & repayment"
+      ]
+    },
+    {
+      "module": "On-Cycle and Off-Cycle Payroll",
+      "subtopics": [
+        "Payroll run and completion",
+        "Off-cycle manual payments",
+        "Off-cycle reversals",
+        "On-demand payroll processing"
+      ]
+    },
+    {
+      "module": "Configuration Validation",
+      "subtopics": [
+        "Formatted vs default MICR",
+        "Check numbering",
+        "Address configuration",
+        "Country setup",
+        "Signatures, logos and PDF scaling"
+      ]
+    }
+  ],
+
+  "duration": "40–50 hours",
+  "skill_level": "Intermediate to Advanced",
+  "placement_assurance": true,
+
+  "projects": [
+    "Payroll tax configuration & validation",
+    "Compensation earnings and deduction setup",
+    "Payroll accounting cycle with suspense resolution",
+    "On-cycle and off-cycle payroll test run",
+    "Banking & settlement payroll configuration"
+  ]
 },
         {
   "course_name": "Workday Studio Training",

@@ -60,6 +60,9 @@ const AppBar = () => {
 {name: "Kofax Online Training", path: "kofax-totalagility-training"},
 {name:"Snowflake Training", path: "snowflake-certification-training"},
 { name: "DevOps", path: "devops-training" },
+{  name:"Workday Integration Training" ,path: "workday-integration-training", },
+{name: "Workday Payroll Training",path: "workday-payroll-training",},
+
       { name: "AWS", path: "aws-online-training" },
       { name: "Cisco UCS", path: "cisco-ucs-training" },
       { name: "Cyber Security", path: "cyber-security-online-training" },

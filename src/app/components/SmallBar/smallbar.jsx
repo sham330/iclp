@@ -73,12 +73,14 @@ const SmallBar = () => {
 
         <ul className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
           <li className="dropdown" ref={dropdownRef}>
-            <span
-              className="dropdown-toggle"
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            >
-              Skill Programs <FaChevronDown className="dropdown-icon" />
-            </span>
+          <span
+  style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
+  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+>
+  Skill Programs
+  <FaChevronDown />
+</span>
+
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 {categories.slice(1).map((category, index) => (
@@ -115,8 +117,10 @@ const SmallBar = () => {
           </li>
         <li className="dropdown" ref={dropdownRef2}>
   <span
-    className="dropdown-toggle"
+    className="dropdown-toggle " 
     onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+      style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
+
   >
     Degree based programs <FaChevronDown className="dropdown-icon" />
   </span>
@@ -158,7 +162,7 @@ const SmallBar = () => {
             <Link href="/about">About Us</Link>
           </li>
           <li>
-            <Link href="/">Corporate Training</Link>
+            <Link href="/corporate-training">Corporate Training</Link>
           </li>
             <li>
             <Link className="more-item" href="/contact">Contact Us</Link>
@@ -175,6 +179,8 @@ const SmallBar = () => {
             <span
               className="more-dropdown-toggle"
               onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
+                style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
+
             >
               More <FaChevronDown className="dropdown-icon" />
             </span>
