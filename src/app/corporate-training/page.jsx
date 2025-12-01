@@ -67,7 +67,7 @@ export default function CorporateTraining() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#01377d] mb-4">
-              Why Choose Credo Systemz
+              Why Choose ICLP
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Empower your organization with comprehensive training solutions that deliver measurable results
@@ -131,7 +131,7 @@ export default function CorporateTraining() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white bg-opacity-5 backdrop-blur-lg border border-[#97e7f5] border-opacity-30 rounded-2xl p-10">
               <div className="w-14 h-14 bg-[#39FF14] bg-opacity-20 rounded-xl flex items-center justify-center mb-6">
                 <TrendingUp className="w-8 h-8 text-[#39FF14]" />
@@ -163,6 +163,25 @@ export default function CorporateTraining() {
                   "Face-to-face interaction",
                   "Team building activities",
                   "Customized schedules"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-[#97e7f5]">
+                    <CheckCircle className="w-5 h-5 text-[#39FF14] flex-shrink-0 mt-0.5" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-white bg-opacity-5 backdrop-blur-lg border border-[#97e7f5] border-opacity-30 rounded-2xl p-10">
+              <div className="w-14 h-14 bg-[#97e7f5] bg-opacity-20 rounded-xl flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-[#97e7f5]" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Hybrid Training</h3>
+              <ul className="space-y-3">
+                {[
+                  "On-site instructor-led training",
+  "Face-to-face interaction",
+  "Team building activities",
+  "Customized schedules",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-[#97e7f5]">
                     <CheckCircle className="w-5 h-5 text-[#39FF14] flex-shrink-0 mt-0.5" />
