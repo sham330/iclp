@@ -52,12 +52,11 @@ export default function CorporateTraining() {
           
           <div className="relative">
             <div className="absolute inset-0 bg-[#39FF14] rounded-2xl blur-2xl opacity-20"></div>
-            <Image
+            <img
               src="/Corprate.jpg"
               alt="Corporate Trainer"
-              width={550}
-              height={650}
-              className="rounded-2xl object-cover relative z-10 shadow-2xl"
+            
+              className=" w-[550px] h-[650px] rounded-2xl object-cover relative z-10 shadow-2xl"
             />
           </div>
         </div>
@@ -205,12 +204,11 @@ export default function CorporateTraining() {
               </div>
               <div className="mb-4">
                 <span className="text-sm text-gray-500 mb-2 block">Training Partner:</span>
-                <Image
+                <img
                   src="/infosys.jpg"
                   alt="Infosys logo"
-                  width={120}
-                  height={60}
-                  className="grayscale hover:grayscale-0 transition-all"
+                 
+                  className="w-[120px] h-[60px]  grayscale hover:grayscale-0 transition-all"
                 />
               </div>
             </div>
@@ -218,12 +216,11 @@ export default function CorporateTraining() {
             <div className="grid grid-cols-2 gap-4">
               {[1, 2, 3, 4].map((num) => (
                 <div key={num} className="relative group overflow-hidden rounded-xl">
-                  <Image
+                  <img
                     src={`/recent-coporate.webp`}
-                    width={300}
-                    height={200}
+                    
                     alt="Training"
-                    className="rounded-xl object-cover w-full h-48 group-hover:scale-110 transition-transform duration-300"
+                    className="w-[300px] h-[200px] rounded-xl object-cover w-full h-48 group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#01377d] to-transparent opacity-0 group-hover:opacity-70 transition-opacity"></div>
                 </div>
@@ -271,12 +268,11 @@ export default function CorporateTraining() {
             {[1, 2].map((num) => (
               <div key={num} className="flex-1 relative group">
                 <div className="absolute inset-0 bg-[#39FF14] rounded-2xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
-                <Image
+                <image
                   src={`/recent-coporate.webp`}
-                  width={260}
-                  height={340}
+                 
                   alt="training"
-                  className="rounded-2xl object-cover w-full h-96 relative z-10 shadow-2xl"
+                  className="w-[260px] h-[340px] rounded-2xl object-cover w-full h-96 relative z-10 shadow-2xl"
                 />
               </div>
             ))}
@@ -293,13 +289,12 @@ export default function CorporateTraining() {
           <div className="flex flex-wrap justify-center items-center gap-16">
             {["accenture", "hcl", "infosys", "tcs", "techmahindra"].map((item) => (
               <div key={item} className="group">
-                <Image
-                  src={`/tech-mahindra.jpg`}
-                  alt={item}
-                  width={140}
-                  height={70}
-                  className="object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100"
-                />
+              <img
+  src="/tech-mahindra.jpg"
+  alt={item}
+  className="w-[140px] h-[70px] object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100"
+/>
+
               </div>
             ))}
           </div>
