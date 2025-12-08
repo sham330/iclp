@@ -11,6 +11,11 @@
 *::after {
 font-family: "Bevellier", sans-serif !important;
 }
+@layer base {
+  .blog-content a {
+    @apply text-blue-600 underline hover:text-blue-800;
+  }
+}
 
 
 /* Global Body Styles */
