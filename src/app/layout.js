@@ -6,6 +6,7 @@ import SmallBar from "./components/SmallBar/smallbar";
 import Footer from "./components/Footer/footer";
 import AppBar from "./components/AppBar/appbar";
 import { Cinzel } from "next/font/google";
+import ChristmasNotification from "./Merryxmas";
 
 
 export const metadata = {
@@ -93,6 +94,7 @@ export default function RootLayout({ children }) {
         <SmallBar />
         <main className="page-container">{children}</main>
         <Footer />
+        <ChristmasNotification/>
       </body>
     </html>
   );

@@ -1,7 +1,6 @@
-'use client';
+"use client";
 import React, { useEffect, useState } from 'react';
 import { FaTimes, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
-import './dialog.css';
 
 const HomeAboutDialog = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +12,9 @@ const HomeAboutDialog = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
- const courses = [
-    // Regular courses
+
+  const courses = [
+    // Your exact same courses array
     { name: "Java", type: "regular" },
     { name: "Python", type: "regular" },
     { name: "R Programming", type: "regular" },
@@ -71,13 +71,11 @@ const HomeAboutDialog = () => {
     { name: "Oracle SCM", type: "oracle" },
     { name: "Oracle HCM", type: "oracle" },
   ];
-  // Open modal on page load - useEffect runs after component mounts
+
   useEffect(() => {
-    // Small delay to ensure smooth appearance
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 100);
-    
     return () => clearTimeout(timer);
   }, []);
 
@@ -118,62 +116,73 @@ const HomeAboutDialog = () => {
       setIsSubmitting(false);
     }
   };
-console.log("its working");
+
   if (!isOpen) return null;
 
   return (
-    <div className="dialog-backdrop">
-      <div className="dialog-container">
-        {/* Close Button */}
-        <button className="dialog-close-btn" onClick={handleClose}>
-          <FaTimes size={20} />
-        </button>
-
-       
+    <>
+      {/* Backdrop */}
+      <div className="fixed inset-0 bg-black/50 z-[1000] flex justify-center items-center p-4">
         
+        {/* Main Container */}
+        <div className="bg-white rounded-[12px] w-full max-w-[480px] shadow-[0_20px_50px_rgba(0,0,0,0.2)] relative flex flex-col overflow-hidden">
+          
+          {/* Close Button */}
+          <button 
+            className="absolute top-[12px] right-[12px] bg-transparent border-none cursor-pointer z-10"
+            onClick={handleClose}
+          >
+            <FaTimes size={20} />
+          </button>
 
-        {/* Content */}
-        <div className="dialog-content">
-          {submitSuccess ? (
-            <div className="success-message">
-              <FaCheckCircle size={36} color="#22c55e" />
-              <h2>Enquiry Submitted!</h2>
-              <p>We'll contact you shortly.</p>
-            </div>
-          ) : (
-            <form onSubmit={sendEmail} className="booking-form">
-              <h2>Start Your Learning Journey</h2>
-              <p>Get expert guidance on choosing the right course</p>
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone Number"
-                value={formData.phone}
-                onChange={handleChange}
-                required
-              />
-              <div className="form-group">
+          {/* Content Area - Takes most space */}
+          <div className="p-[24px] flex-1 flex flex-col gap-[16px] pt-16 pb-20">
+            {submitSuccess ? (
+              <div className="success-message text-center gap-[12px] flex flex-col items-center flex-1 justify-center">
+                <FaCheckCircle size={36} color="#22c55e" />
+                <h2 className="text-2xl font-bold">Enquiry Submitted!</h2>
+                <p className="text-gray-600">We'll contact you shortly.</p>
+              </div>
+            ) : (
+              <form onSubmit={sendEmail} className="space-y-[16px] flex-1">
+                <h2 className="text-2xl font-bold text-center">Start Your Learning Journey</h2>
+                <p className="text-center text-gray-600">Get expert guidance on choosing the right course</p>
+                
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-[12px] rounded-[8px] border border-[#ddd] text-base"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-[12px] rounded-[8px] border border-[#ddd] text-base"
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone Number"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                  className="w-full p-[12px] rounded-[8px] border border-[#ddd] text-base"
+                />
+                
+                <div>
                   <select
                     name="course"
                     value={formData.course}
                     onChange={handleChange}
                     required
+                    className="w-full p-[12px] rounded-[8px] border border-[#ddd] text-base bg-white"
                   >
                     <option value="">Select a Course</option>
                     <optgroup label="Regular Courses">
@@ -194,18 +203,29 @@ console.log("its working");
                   </select>
                 </div>
 
-              <button type="submit" disabled={isSubmitting}>
-                {isSubmitting ? 'Sending...' : 'Submit Enquiry'} <FaArrowRight />
-              </button>
-            </form>
-          )}
-        </div>
+                <button 
+                  type="submit" 
+                  disabled={isSubmitting}
+                  className="w-full p-[12px] bg-[#1faa59] hover:bg-[#159048] text-white font-semibold border-none rounded-[8px] cursor-pointer flex items-center justify-center gap-[8px] transition-all duration-300 text-base"
+                >
+                  {isSubmitting ? 'Sending...' : 'Submit Enquiry'} 
+                  <FaArrowRight />
+                </button>
+              </form>
+            )}
+          </div>
 
-       {/* <div className="dialog-small-banner">
-          <img src="/dialog.jpg" alt="Special Offer" />
-        </div> */}
+          {/* Santa GIF - TOP LEFT, BOTTOM, SMALL SPACE */}
+          <div className="absolute bottom-4 left-4 w-16 h-16 z-20">
+            <img 
+              src="/merry_xmas.gif" 
+              alt="Santa" 
+              className="w-full h-full object-contain rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
