@@ -1990,11 +1990,16 @@ import "./blogdetail.css"
 ]
 
 
+export default async function BlogDetailPage({ params }) {
+  // Await the params Promise (Next.js 15+ requirement)
+  const resolvedParams = await params;
+  console.log("Resolved params:", resolvedParams);
 
-export default function BlogDetailPage({ params }) {
-  const slug = params?.slug; // <-- no destructuring here
+  const slug = resolvedParams?.slug;
+  console.log("Slug:", slug);
   console.log("Slug from params:", slug);
   console.log("Available slugs:", blogs?.map(b => b.slug));
+
   if (!slug || !blogs?.length) {
     return (
       <div className="not-found-container">
@@ -2002,8 +2007,9 @@ export default function BlogDetailPage({ params }) {
       </div>
     );
   }
-  const blog = blogs.find(b => b?.slug && b.slug === decodeURIComponent(slug));
 
+  const blog = blogs.find(b => b?.slug === decodeURIComponent(slug));
+  console.log("Found blog:", blog);
   if (!blog) {
     return (
       <>
@@ -2062,7 +2068,6 @@ export default function BlogDetailPage({ params }) {
                   <span className="text-gray-600">8 min read</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  
                   <div className="w-1.5 h-1.5 rounded-full bg-gray-400" />
                   <span className="text-gray-600">Published Today</span>
                 </div>
