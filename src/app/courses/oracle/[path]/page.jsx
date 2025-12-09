@@ -5,7 +5,9 @@ import Head from "../../oracle/[path]/Head";
 import OracleCourseDetailsPage from "./MainComponent";
 
 export default async function CourseDetailsPage({ params }) {
-  const coursePath = params.path;
+  // Await params Promise FIRST (Next.js 15+ requirement)
+  const resolvedParams = await params;
+  const coursePath = resolvedParams?.path;
 
   const filePath = path.join(process.cwd(), "public/data/oracleCourses.json");
   const fileContents = fs.readFileSync(filePath, "utf-8");

@@ -58,7 +58,7 @@ const SapCourseDetailsPage = () => {
   const sapAdditionalContent = {
     "sap-fico": {
       courseDescription:
-        "Become an SAP FICO expert with our comprehensive training program covering all aspects of Financial Accounting and Controlling. Gain hands-on experience with real-world scenarios and prepare for SAP certification.",
+        "Are you ready to become a certified SAP FICO expert? ICLP Tech offers the most comprehensive and industry-aligned SAP FICO training available, tailored for aspiring and current finance professionals in India. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our FICO course graduates are immediately job-ready. Whether you choose our flexible SAP FICO course online or our immersive classroom setup, you gain the expertise needed to secure your SAP FICO certificate and excel in the global job market.",
     },
     "sap-mm": {
       courseDescription:
