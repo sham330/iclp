@@ -2062,6 +2062,7 @@ export default function BlogDetailPage({ params }) {
                   <span className="text-gray-600">8 min read</span>
                 </div>
                 <div className="flex items-center gap-2">
+                  
                   <div className="w-1.5 h-1.5 rounded-full bg-gray-400" />
                   <span className="text-gray-600">Published Today</span>
                 </div>
