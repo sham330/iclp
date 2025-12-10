@@ -489,28 +489,26 @@ const SapCourseDetailsPage = () => {
         </div>
 {/* Career Benefits Section */}
 {course.career_benefits && (
-  <section className="w-full  p-16">
-    <div className="max-w-5xl mx-auto px-4">
-      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
+  <section className="w-full py-10 px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div className="max-w-5xl mx-auto">
+      <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 mb-3 sm:mb-4">
         {course.career_benefits.heading}
       </h2>
-      <p className="text-slate-700 mb-6 leading-relaxed">
+      <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 leading-relaxed">
         {course.career_benefits.description}
       </p>
       <ul className="space-y-3">
-        {course.career_benefits.points.map(
-          (item, index) => (
-            <li
-              key={index}
-              className="flex items-start gap-3 bg-white shadow-sm rounded-lg px-4 py-3 border border-slate-100"
-            >
-              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
-              <span className="text-slate-800 text-sm md:text-base">
-                {item}
-              </span>
-            </li>
-          )
-        )}
+        {course.career_benefits.points.map((item, index) => (
+          <li
+            key={index}
+            className="flex items-start gap-3 bg-white shadow-sm rounded-lg px-3 py-3 sm:px-4 sm:py-3 border border-slate-100"
+          >
+            <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+            <span className="text-slate-800 text-xs sm:text-sm md:text-base">
+              {item}
+            </span>
+          </li>
+        ))}
       </ul>
     </div>
   </section>
