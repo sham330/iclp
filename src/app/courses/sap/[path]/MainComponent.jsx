@@ -487,6 +487,183 @@ const SapCourseDetailsPage = () => {
             </div>
           </div>
         </div>
+{/* Career Benefits Section */}
+{course.career_benefits && (
+  <section className="w-full  p-16">
+    <div className="max-w-5xl mx-auto px-4">
+      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
+        {course.career_benefits.heading}
+      </h2>
+      <p className="text-slate-700 mb-6 leading-relaxed">
+        {course.career_benefits.description}
+      </p>
+      <ul className="space-y-3">
+        {course.career_benefits.points.map(
+          (item, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-3 bg-white shadow-sm rounded-lg px-4 py-3 border border-slate-100"
+            >
+              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+              <span className="text-slate-800 text-sm md:text-base">
+                {item}
+              </span>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
+  </section>
+)}
+
+{/* Curriculum Overview */}
+{course.curriculum_overview && (
+  <section className="w-full bg-white py-12">
+    <div className="max-w-5xl mx-auto px-4">
+      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
+        {course.curriculum_overview.heading}
+      </h2>
+      <p className="text-slate-700 leading-relaxed">
+        {course.curriculum_overview.intro}
+      </p>
+    </div>
+  </section>
+)}
+
+{/* Primary Track (e.g., FI) */}
+{course.track_overview_primary && (
+  <section className="w-full bg-slate-50 py-12">
+    <div className="max-w-5xl mx-auto px-4">
+      <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
+        {course.track_overview_primary.heading}
+      </h3>
+      <p className="text-slate-700 mb-4">
+        {course.track_overview_primary.description}
+      </p>
+      <ul className="space-y-2">
+        {course.track_overview_primary.topics.map(
+          (item, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-2 text-sm md:text-base text-slate-800"
+            >
+              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+              <span>{item}</span>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
+  </section>
+)}
+
+{/* Secondary Track (e.g., CO) */}
+{course.track_overview_secondary && (
+  <section className="w-full bg-slate-50 py-12">
+    <div className="max-w-5xl mx-auto px-4">
+      <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
+        {course.track_overview_secondary.heading}
+      </h3>
+      <p className="text-slate-700 mb-4">
+        {course.track_overview_secondary.description}
+      </p>
+      <ul className="space-y-2">
+        {course.track_overview_secondary.topics.map(
+          (item, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-2 text-sm md:text-base text-slate-800"
+            >
+              <span className="mt-1 h-2 w-2 rounded-full bg-emerald-600" />
+              <span>{item}</span>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
+  </section>
+)}
+
+{/* Certification Info */}
+{course.certification_info && (
+  <section className="w-full bg-white py-12">
+    <div className="max-w-5xl mx-auto px-4">
+      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
+        {course.certification_info.heading}
+      </h2>
+      <p className="text-slate-700 mb-6 leading-relaxed">
+        {course.certification_info.intro}
+      </p>
+      <ul className="space-y-3">
+        {course.certification_info.highlights.map(
+          (item, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-3 bg-slate-50 border border-slate-100 rounded-lg px-4 py-3"
+            >
+              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+              <span className="text-slate-800 text-sm md:text-base">
+                {item}
+              </span>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
+  </section>
+)}
+
+{/* Why Institute */}
+{course.why_institute && (
+  <section className="w-full bg-white py-12">
+    <div className="max-w-5xl mx-auto px-4 text-slate-900">
+      <h2 className="text-2xl md:text-3xl font-semibold mb-3">
+        {course.why_institute.heading}
+      </h2>
+      <p className="text-slate-700 mb-6">
+        {course.why_institute.intro}
+      </p>
+
+      <div className="grid gap-8 md:grid-cols-2">
+        {course.why_institute.instructor_expertise && (
+          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+            <h3 className="text-lg font-semibold mb-2">
+              {course.why_institute.instructor_expertise.heading}
+            </h3>
+            <p className="text-slate-700 text-sm md:text-base leading-relaxed">
+              {course.why_institute.instructor_expertise.description}
+            </p>
+          </div>
+        )}
+
+        {course.why_institute.training_modes && (
+          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+            <h3 className="text-lg font-semibold mb-2">
+              {course.why_institute.training_modes.heading}
+            </h3>
+            <p className="text-slate-700 text-sm md:text-base mb-3">
+              {course.why_institute.training_modes.description}
+            </p>
+            <ul className="space-y-2">
+              {course.why_institute.training_modes.options.map(
+                (item, index) => (
+                  <li
+                    key={index}
+                    className="flex items-start gap-2 text-sm md:text-base text-slate-800"
+                  >
+                    <span className="mt-1 h-2 w-2 rounded-full bg-amber-400" />
+                    <span>{item}</span>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+)}
+
 
         {/* What You'll Learn Section */}
         <div className="cdp-section cdp-learn-section">

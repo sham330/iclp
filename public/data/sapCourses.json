@@ -10,6 +10,64 @@
           "meta_title": "SAP FICO Course Online | SAP FICO Training | SAP FICO Certificate",
   "meta_description": "Master SAP FICO with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
           "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts.",
+  "career_benefits": {
+    "heading": "Why SAP FICO Training is Essential for Your Career",
+    "description": "SAP FICO (Financial Accounting and Controlling) is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+    "points": [
+      "Global Demand: Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+      "Career Growth: Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "Skill Mastery: Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive SAP FICO Course Curriculum",
+    "intro": "Our SAP FICO course structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (FI) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "General Ledger (GL) Accounting",
+      "Accounts Payable (AP) and Accounts Receivable (AR)",
+      "Asset Accounting",
+      "Taxes, Financial Statements, and Closing Procedures"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (CO) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "Cost Element and Cost Center Accounting",
+      "Internal Orders and Profit Center Accounting",
+      "Product Costing and Profitability Analysis (PA)",
+      "Integration: Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional SAP FICO Certificate",
+    "intro": "Achieving your SAP FICO certificate validates your expertise and significantly enhances your profile. Our SAP FICO training is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "Certification Preparation: Dedicated modules and mock tests to prepare you for the certification exam.",
+      "Project-Based Learning: Complete real-time implementation projects to demonstrate your practical mastery.",
+      "Globally Recognized: Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why ICLP Tech is the Top Choice for SAP FICO in India",
+    "intro": "We are recognized as the premier SAP FICO training provider, dedicated to turning students into industry-ready professionals right here in India.",
+    "instructor_expertise": {
+      "heading": "Instructor Expertise and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are 10+ year veteran SAP FICO Consultants who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+    },
+    "training_modes": {
+      "heading": "Flexible SAP FICO Training Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "Classroom Training: Immersive, face-to-face learning at our state-of-the-art center in India",
+        "SAP FICO Course Online: Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    }
+  },
           "what_youll_learn": [
             "SAP FICO configuration and implementation",
             "General Ledger, Accounts Payable & Receivable",
