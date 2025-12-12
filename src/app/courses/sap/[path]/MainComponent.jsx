@@ -62,46 +62,46 @@ const SapCourseDetailsPage = () => {
     },
     "sap-mm": {
       courseDescription:
-        "Master SAP Materials Management with our intensive training program. Learn procurement, inventory management, and invoice verification processes used by Fortune 500 companies.",
+        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading SAP MM course in India, designed to transform aspiring professionals into expert SAP Material Management consultants.The SAP MM module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive MM training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused SAP MM training online or in-class formats.",
     },
     "sap-sd": {
       courseDescription:
-        "Transform your career with our SAP Sales and Distribution training. Learn end-to-end order-to-cash processes and become proficient in one of the most sought-after SAP modules.",
+        "Are you ready to unlock a high-demand career path in corporate logistics and sales? ICLP Tech offers the most comprehensive SAP Sales and Distribution (SD) program in India, designed to master the entire Order-to-Cash (O2C) process. The SAP SD module is crucial for businesses globally, managing customer orders, pricing, billing, and shipping. Our expert-led SAP SD training goes beyond theory, focusing on real-world system configuration and implementation scenarios. By completing this program, you gain the skills needed to seamlessly integrate sales processes with other modules, ensuring you are prepared for both the SAP SD certification exam and a successful consulting career. Choose ICLP Tech for industry-validated SAP Sales and Distribution expertise.",
     },
     "sap-pp": {
       courseDescription:
-        "Gain expertise in SAP Production Planning with our industry-aligned training program. Learn MRP, production orders, and manufacturing processes from SAP experts.",
+        "Ready to become a certified expert in manufacturing and supply chain management? ICLP Tech offers the most comprehensive SAP PP course in India, designed for professionals seeking to master the crucial Production Planning module. The SAP PP module is the central nervous system for manufacturing processes, managing everything from demand forecasting to shop floor control. Our expert-led program provides practical, end-to-end SAP PP training, ensuring you gain hands-on proficiency in system configuration and implementation. By completing this specialized pp course, you secure the skills needed for career growth and preparation for the official SAP PP certificate. We empower you to drive efficiency and operational excellence in top industries across India.",
     },
     "sap-abap": {
       courseDescription:
-        "Become an SAP ABAP developer with our hands-on training program. Learn ABAP programming from basics to advanced concepts and work on real-world development projects.",
+        "Elevate your programming skills and step into the high-demand world of enterprise resource planning with ICLP's definitive SAP ABAP Course Online. Designed by industry veterans, this comprehensive program provides the foundation and advanced knowledge required to become a certified SAP ABAP professional. Our structured SAP ABAP Training covers everything from foundational concepts like data dictionary and Open SQL to advanced topics like Object-Oriented ABAP and system integration. If you are serious about securing a specialized role in the Indian IT sector, this is the essential SAP ABAP Course you need.",
     },
     "sap-transportation-management": {
-      courseDescription: "Master SAP Transportation Management (TM) with our comprehensive training. Learn freight management, transportation planning, and execution in SAP.",
+      courseDescription: "Start your journey toward becoming a certified logistics expert with the premier SAP TM Training program in India. Our comprehensive SAP Transportation Management Training Online is specifically designed for ambitious professionals seeking to master the complexities of modern supply chain execution. This is more than just an SAP TM Course; it is an integrated learning experience that covers both the critical functional configuration and the necessary technical knowledge. Join over 4,800 successful learners and secure your future in the booming logistics sector with ICLP’s industry-leading SAP TM Training.",
     },
     "sap-successfactors-online-training": {
-      courseDescription: "Become an SAP SuccessFactors expert with our online training program. Learn employee experience management and HR processes in the cloud.",
+      courseDescription: "Elevate your HR career with our industry-leading SAP SuccessFactors training online. In the rapidly expanding Indian HR technology market, mastering cloud-based Human Experience Management (HXM) is essential. Our specialized SAP SuccessFactors course (SFC) is meticulously designed to give you that competitive edge. This comprehensive SAP SuccessFactors training (SFT) program goes beyond theoretical concepts, providing hands-on, practical skills development required by top multinational corporations and firms across India. We offer the most practical and up-to-date SAP SF training (SFSFT) available today.",
     },
     "sap-quality-management-(qm)": {
-      courseDescription: "Gain expertise in SAP Quality Management module. Learn quality planning, inspection, control, and improvement processes in SAP.",
+      courseDescription: "Elevate your supply chain and manufacturing expertise with our specialized SAP QM course. In the fiercely competitive Indian market, mastering SAP Quality Management (QM) is critical for driving operational excellence, minimizing costs, and maintaining strict regulatory compliance. This professional SAP QM training program provides the deep functional knowledge required to implement and manage quality processes within the SAP ERP system. Our structured SAP quality management course is delivered by certified, industry experts, ensuring you gain practical, job-ready skills immediately applicable to leading companies across India. We focus on real-world scenarios, making this the premier SAP quality management training solution for serious professionals.",
     },
     "sap-ariba-training": {
-      courseDescription: "Learn SAP Ariba procurement solutions with hands-on training in sourcing, contracting, supplier management, and supply chain collaboration.",
+      courseDescription: "Propel your career in procurement and supply chain management with India's most comprehensive SAP Ariba course. As enterprises across all sectors increasingly adopt cloud-based source-to-pay solutions, the demand for certified SAP Ariba training professionals is surging, particularly in the competitive Indian IT and consulting markets. This intensive SAP Ariba training program is designed to transform you into an expert consultant, equipped to implement, customize, and manage the full suite of Ariba applications. This professional SAP Ariba course is your gateway to a high-growth career.",
     },
     "sap-master-data-governance-(mdg)-on-s-4hana": {
-      courseDescription: "Master data governance in S/4HANA with our MDG training. Learn central data management, data quality, and consolidation techniques.",
+      courseDescription: "Master the critical discipline of data governance with our industry-leading SAP MDG course online. In the S/4HANA era, data integrity is paramount, making specialized SAP MDG training essential for consultants in India. This professional program focuses exclusively on SAP Master Data Governance (MDG) on the S/4HANA platform, giving you the competitive edge in high-growth IT and consulting roles. This comprehensive MDG course covers the full lifecycle of all core data domains (Material, Business Partner, Finance), ensuring you are project-ready from day one.",
     },
     "sap-basis-administration": {
-      courseDescription: "Become an SAP BASIS administrator with our comprehensive training. Learn system installation, configuration, monitoring, and troubleshooting.",
+      courseDescription: "Launch your career as a core system administrator with India's leading SAP Basis course online. SAP Basis is the fundamental technical backbone of any enterprise SAP landscape, making the demand for skilled administrators constant and high across all major IT hubs in India. Our intensive SAP Basis training program is designed to transform you into an expert in system maintenance, performance tuning, and high availability. This is the definitive SAP Basis course for professionals aiming to secure critical, stable IT roles.",
     },
     "sap-sales-cloud-(c4c)-training": {
-      courseDescription: "Learn SAP Customer Experience solutions with our Sales Cloud training. Master CRM processes in the cloud environment.",
+      courseDescription: "Transform your career in digital sales and customer relationship management with the industry-leading SAP Sales Cloud training. Formerly known as SAP C4C, the modern SAP Sales Cloud is crucial for businesses driving digital transformation in the rapidly expanding Indian market. Our comprehensive sap c4c online training program is specifically designed for professionals seeking to master the SAP Customer Experience (CX) solution suite. This intensive sap sales cloud course online provides practical, hands-on skills in end-to-end sales cycle management, including lead-to-opportunity conversion, CPQ configuration, and vital S/4HANA integration.",
     },
     "sap-fscm": {
       courseDescription: "Gain expertise in SAP Financial Supply Chain Management. Learn credit management, collections, dispute management, and treasury processes.",
     },
-    "sap-busiiness-technology": {
-      courseDescription: "Master SAP Business Technology Platform with our training program. Learn integration, extension, and application development on BTP.",
+    "sap-btp-training": {
+      courseDescription: "The SAP Business Technology Platform (BTP) is the unified foundation for digital transformation, enabling businesses to integrate, extend, and innovate faster while maintaining a clean core on S/4HANA. For professionals in India, mastering this platform is no longer optional—it is the direct path to high-growth, stable roles as a Cloud Developer, Integration Specialist, or Solution Architect. Our intensive SAP BTP training program is specifically designed to meet this escalating demand. This professional SAP BTP course provides deep, practical expertise across all core BTP pillars, preparing you for the most complex enterprise challenges.",
     },
     "sap-crm": {
       courseDescription: "Become an SAP CRM professional with our hands-on training. Learn customer relationship management processes and implementation.",
@@ -125,10 +125,10 @@ const SapCourseDetailsPage = () => {
       courseDescription: "Gain expertise in SAP Security and Governance, Risk & Compliance. Learn user administration, access control, and risk management in SAP.",
     },
     "sap-is-retail": {
-      "courseDescription": "Comprehensive training in SAP for Retail solutions covering merchandise management, supply chain, and point-of-sale systems for retail businesses."
+      "courseDescription": "Elevate your consulting career in the rapidly growing retail sector with India's most specialized SAP IS-Retail training. As the core Industry Solution within the SAP ecosystem, SAP IS-Retail expertise is highly sought after by top consulting firms in cities like Bengaluru, Mumbai, and Pune, offering premium salary packages for specialized roles. Our intensive SAP IS-Retail online training program is meticulously structured to provide deep, end-to-end knowledge of retail logistics and management processes. This is one of the few SAP retail training courses that effectively bridges the gap between fundamental SAP modules (MM/SD) and the complexity of modern retail operations."
     },
     "sap-is-utilities": {
-      "courseDescription": "Specialized SAP training for utility professionals covering customer lifecycle management, meter-to-cash processes, and regulatory compliance."
+      "courseDescription": "Elevate your consulting career in the essential energy and public sector with our specialized SAP IS Utilities training. In India, where infrastructure development and smart city projects are key growth drivers, expert knowledge of the SAP Industry Solution for Utilities (IS-U) commands high salaries and stable roles, particularly in major metros. This intensive SAP IS Utilities training program is designed for functional and technical consultants seeking mastery over the entire utility lifecycle, from meter reading to customer collection (the Meter-to-Cash process). By focusing on real-world application, this SAP IS Utilities training provides immediate job-readiness."
     },
     "sap-plm": {
       "courseDescription": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
