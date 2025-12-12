@@ -11936,7 +11936,162 @@
           "image": "https://wallpapers.com/images/featured/salesforce-background-fbkrxqtfk2eu67b4.jpg",
           "placement_assurance": true,
           "projects": ["CRM Implementation", "Sales Automation"]
-        }
+        },{
+  "course_name": "Primavera P6",
+  "path": "primavera-p6-online-training",
+  "description": "Master Primavera P6 for enterprise-level project planning, scheduling, resource allocation, and project control.",
+  "what_youll_learn": [
+    "Understand Primavera P6 organizational and project structures",
+    "Create and manage projects using EPS and OBS",
+    "Build and structure Work Breakdown Structures (WBS)",
+    "Add, edit, and manage activities with codes and steps",
+    "Customize activity views, filters, grouping, and sorting",
+    "Create and manage relationships in the Gantt chart",
+    "Schedule projects using total float, loops, open ends, and schedule calculations",
+    "Apply and manage constraints",
+    "Optimize project schedules and analyze project dates",
+    "Customize project workspaces and dashboards",
+    "Assign roles and resources and analyze resource availability",
+    "Work with project calendars and assign calendars to activities",
+    "Create and manage baselines",
+    "Execute project plans, apply progress, and update project status",
+    "Analyze updated projects and track performance and variances"
+  ],
+  "syllabus": [
+    {
+      "module": "Understanding P6 Data",
+      "subtopics": [
+        "Describing the Organizational Breakdown Structure",
+        "Describing the Enterprise Project Structure"
+      ]
+    },
+    {
+      "module": "Creating a Project",
+      "subtopics": [
+        "Viewing the EPS Page",
+        "Modifying Project Information"
+      ]
+    },
+    {
+      "module": "Creating a Work Breakdown Structure",
+      "subtopics": [
+        "Creating Multiple Levels"
+      ]
+    },
+    {
+      "module": "Adding Activities",
+      "subtopics": [
+        "Describing Activity Types",
+        "Viewing Activity Information",
+        "Editing Activity Details",
+        "Assigning Steps",
+        "Assigning Codes"
+      ]
+    },
+    {
+      "module": "Using Activity Views",
+      "subtopics": [
+        "Customizing a View",
+        "Filtering Data",
+        "Grouping and Sorting Data"
+      ]
+    },
+    {
+      "module": "Creating Relationships",
+      "subtopics": [
+        "Viewing Relationship Types",
+        "Creating Relationships in the Gantt Chart"
+      ]
+    },
+    {
+      "module": "Scheduling a Project",
+      "subtopics": [
+        "Defining Key Terms",
+        "Defining Total Float",
+        "Describing Loops and Open Ends",
+        "Calculating a Schedule"
+      ]
+    },
+    {
+      "module": "Assigning Constraints",
+      "subtopics": [
+        "Applying a Must Finish By Date",
+        "Constraining an Activity"
+      ]
+    },
+    {
+      "module": "Optimizing the Project Schedule",
+      "subtopics": [
+        "Analyzing Schedule Dates",
+        "Shortening a Project Schedule"
+      ]
+    },
+    {
+      "module": "Viewing the Project Workspace",
+      "subtopics": [
+        "Adding and Removing Portlets",
+        "Customizing the Project Workspace"
+      ]
+    },
+    {
+      "module": "Assigning Roles and Resources",
+      "subtopics": [
+        "Assigning a Role",
+        "Requesting Resources",
+        "Assigning Resources",
+        "Checking Resource Availability"
+      ]
+    },
+    {
+      "module": "Calendars",
+      "subtopics": [
+        "Defining Work Types",
+        "Editing a Project Calendar",
+        "Assigning a Calendar to an Activity"
+      ]
+    },
+    {
+      "module": "Baselining the Project Plan",
+      "subtopics": [
+        "Selecting a Baseline",
+        "Adding a Baseline"
+      ]
+    },
+    {
+      "module": "Executing the Project Plan",
+      "subtopics": [
+        "Describing Methods of Applying Progress",
+        "Using Progress Spotlight",
+        "Defining the Data Date",
+        "Applying Progress to Activities"
+      ]
+    },
+    {
+      "module": "Analyzing the Updated Project",
+      "subtopics": [
+        "Comparing Dates",
+        "Viewing Schedule Performance",
+        "Addressing Variances"
+      ]
+    },
+    {
+      "module": "Viewing Dashboards",
+      "subtopics": [
+        "Customizing Dashboards",
+        "Adding and Removing Dashboards",
+        "Viewing Portfolio Data"
+      ]
+    }
+  ],
+  "duration": "40 hours",
+  "skill_level": "Intermediate",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Primavera_P6_Logo.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise Project Scheduling",
+    "Resource Allocation & Project Control"
+  ]
+}
       ]
     },
 
