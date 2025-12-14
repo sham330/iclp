@@ -28,6 +28,7 @@ export default function Home() {
       <main className="home-content">
         <HomeAboutDialog/>
         <BodyHead />
+        <br/>
         <HomeAbout />
         <TopCategories />
                 <br></br>

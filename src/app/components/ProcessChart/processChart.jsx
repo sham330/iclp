@@ -1,6 +1,4 @@
 import React from "react";
-import "./processChart.css";
-import SEO from "../SEO/SEO";
 
 const ProgramRoadmap = () => {
   const steps = [
@@ -61,108 +59,94 @@ const ProgramRoadmap = () => {
   ];
 
   return (
-    <div className="roadmap-container">
-      <SEO
-        title="Our Success Journey – Step-by-Step Student Growth Process"
-        description="Explore our success line process chart that outlines every step of our student journey—from enrollment to certification, placement, and career growth. See how we guide learners to success through structured learning paths."
-        image="https://drive.google.com/drive/u/0/folders/1SxfUxy5nkpMbPMkit0Szg2eL7TmknHIv"
-        url="https://iclptech.in/"
-      />
+    <div className="min-h-screen bg-gradient-to-b from-red-50 via-white to-green-50 py-16 px-4 relative overflow-hidden">
+      {/* Subtle Christmas decorations */}
+      <div className="absolute top-10 left-10 text-6xl opacity-10">❄️</div>
+      <div className="absolute top-32 right-20 text-5xl opacity-10">🎄</div>
+      <div className="absolute bottom-20 left-20 text-5xl opacity-10">⛄</div>
+      <div className="absolute bottom-40 right-16 text-6xl opacity-10">❄️</div>
 
-      <div className="roadmap-background"></div>
-
-      <div className="roadmap-content">
-        <h2 className="roadmap-heading">
-          Program <span className="roadmap-highlight">Roadmap</span>
+      <div className="max-w-7xl mx-auto relative z-10 py-20">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-800">
+          Program <span className="text-red-600">Roadmap</span>
         </h2>
+        <p className="text-center text-gray-600 mb-12 text-lg">
+          Your journey to success, step by step 🎄
+        </p>
 
-        {/* Desktop Layout - Original 1-2-3-6-5-4 */}
-        <div className="roadmap-desktop-layout">
-          {/* Top Row */}
-          <div className="roadmap-row roadmap-top-row">
-            {steps.slice(0, 3).map((step, index) => (
-              <React.Fragment key={`top-${index}`}>
-                <div className="roadmap-step">
-                  <div className="roadmap-step-content">
-                    <div className="roadmap-step-header">
-                      <div className="roadmap-step-number">{step.number}</div>
-                      <div className="roadmap-step-icon">{step.icon}</div>
+        {/* Desktop Layout - Zigzag */}
+        <div className="hidden md:block">
+          <div className="space-y-8">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className={`flex items-center gap-8 ${
+                  index % 2 === 1 ? "flex-row-reverse" : ""
+                }`}
+              >
+                {/* Step Card */}
+                <div className="flex-1">
+                  <div className="bg-white border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
+                        {step.number}
+                      </div>
+                      <span className="text-4xl">{step.icon}</span>
+                      <h3 className="text-xl font-bold text-gray-800 flex-1">
+                        {step.title}
+                      </h3>
                     </div>
-                    <h3 className="roadmap-title">{step.title}</h3>
-                    <ul className="roadmap-list">
+                    <ul className="space-y-2">
                       {step.points.map((point, i) => (
-                        <li key={i} className="roadmap-list-item">
-                          <span className="roadmap-bullet"></span>
-                          {point}
+                        <li key={i} className="flex items-start gap-2 text-gray-700">
+                          <span className="text-red-500 mt-1">🎁</span>
+                          <span>{point}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                  {index < 2 && (
-                    <div className="roadmap-connector roadmap-horizontal"></div>
-                  )}
                 </div>
-                {index === 2 && (
-                  <div className="roadmap-connector roadmap-vertical"></div>
+
+                {/* Connector */}
+                {index < steps.length - 1 && (
+                  <div className="flex flex-col items-center">
+                    <div className="w-1 h-16 bg-gradient-to-b from-red-300 to-green-300 rounded-full"></div>
+                  </div>
                 )}
-              </React.Fragment>
-            ))}
-          </div>
-
-          {/* Bottom Row - Reversed Order (6-5-4) */}
-          <div className="roadmap-row roadmap-bottom-row">
-            {[...steps.slice(3)].reverse().map((step, index) => (
-              <React.Fragment key={`bottom-${index}`}>
-                <div className="roadmap-step">
-                  <div className="roadmap-step-content">
-                    <div className="roadmap-step-header">
-                      <div className="roadmap-step-number">{step.number}</div>
-                      <div className="roadmap-step-icon">{step.icon}</div>
-                    </div>
-                    <h3 className="roadmap-title">{step.title}</h3>
-                    <ul className="roadmap-list">
-                      {step.points.map((point, i) => (
-                        <li key={i} className="roadmap-list-item">
-                          <span className="roadmap-bullet"></span>
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  {index < 2 && (
-                    <div className="roadmap-connector roadmap-horizontal"></div>
-                  )}
-                </div>
-              </React.Fragment>
+              </div>
             ))}
           </div>
         </div>
 
-        {/* Mobile Layout - Sequential 1-2-3-4-5-6 */}
-        <div className="roadmap-mobile-layout">
+        {/* Mobile Layout - Vertical */}
+        <div className="md:hidden space-y-6">
           {steps.map((step, index) => (
-            <React.Fragment key={`mobile-${index}`}>
-              <div className="roadmap-step">
-                <div className="roadmap-step-content">
-                  <div className="roadmap-step-header">
-                    <div className="roadmap-step-number">{step.number}</div>
-                    <div className="roadmap-step-icon">{step.icon}</div>
+            <div key={index}>
+              <div className="bg-white border-2 border-red-200 rounded-xl p-6 shadow-lg">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-red-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold shadow-md">
+                    {step.number}
                   </div>
-                  <h3 className="roadmap-title">{step.title}</h3>
-                  <ul className="roadmap-list">
-                    {step.points.map((point, i) => (
-                      <li key={i} className="roadmap-list-item">
-                        <span className="roadmap-bullet"></span>
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
+                  <span className="text-3xl">{step.icon}</span>
                 </div>
+                <h3 className="text-lg font-bold text-gray-800 mb-3">
+                  {step.title}
+                </h3>
+                <ul className="space-y-2">
+                  {step.points.map((point, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
+                      <span className="text-red-500 mt-0.5">🎁</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
               {index < steps.length - 1 && (
-                <div className="roadmap-connector roadmap-vertical-mobile"></div>
+                <div className="flex justify-center py-3">
+                  <div className="w-1 h-8 bg-gradient-to-b from-red-300 to-green-300 rounded-full"></div>
+                </div>
               )}
-            </React.Fragment>
+            </div>
           ))}
         </div>
       </div>

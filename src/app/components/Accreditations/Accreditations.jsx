@@ -1,30 +1,126 @@
 import React from "react";
-import "./Accreditations.css";
 import SEO from "../SEO/SEO";
 
 const Accreditations = () => {
   return (
-    <div className="accreditations-container">
+    <div className="relative py-20 lg:py-28 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden ">
       <SEO
         title="ISO & Pearson Accredited Online Courses – Learn with Certified Experts"
         description="Enroll in ISO and Pearson accredited online courses across various categories including Programming (Java, Python, JavaScript), Data Science, AI, SAP, Oracle, and more. Gain certified expertise with flexible schedules, time and money-saving options, and expert support through our user-friendly chatbot. Get the best of knowledge, certification, and career advancement from our accredited courses!"
         image="https://drive.google.com/drive/u/0/folders/1SxfUxy5nkpMbPMkit0Szg2eL7TmknHIv"
       />
 
-      <div className="inner-container">
-        <h2 className="accreditations-title">Accreditations</h2>
-        <hr className="accreditations-divider" />
-        <div className="accreditations-logos">
-          <img
-            src="/Pearson.jpg"
-            alt="Pearson"
-            className="accreditation-logo"
-          />
-          <img src="/ISO.jpg" alt="ISO" className="accreditation-logo" />
-                    <img src="/MSME.jpg" alt="ISO" className="accreditation-logo" />
+      {/* Subtle Christmas Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Soft Glowing Orbs */}
+        <div className="absolute top-20 left-10 w-32 h-32 bg-red-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 right-20 w-40 h-40 bg-emerald-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-1/3 w-36 h-36 bg-amber-600/10 rounded-full blur-3xl"></div>
+        
+        {/* Subtle Snow Particles */}
+        <div className="absolute top-10 left-[20%] w-2 h-2 bg-white/20 rounded-full animate-pulse"></div>
+        <div className="absolute top-32 left-[40%] w-1 h-1 bg-white/20 rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-20 right-[30%] w-2 h-2 bg-white/20 rounded-full animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-32 right-[20%] w-1 h-1 bg-white/20 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
+      </div>
 
+      {/* Elegant Top Border */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500/40 to-transparent"></div>
+
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        {/* Header Section */}
+        <div className="text-center mb-16 space-y-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white">
+            Our{" "}
+            <span className="text-transparent bg-clip-text bg-white">
+              Accreditations
+            </span>
+          </h2>
+          
+          {/* Decorative Divider */}
+          <div className="flex items-center justify-center gap-4">
+            <div className="h-px w-32 bg-gradient-to-r from-transparent via-red-500/50 to-amber-500/50"></div>
+            <div className="flex gap-2">
+              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+            </div>
+            <div className="h-px w-32 bg-gradient-to-l from-transparent via-amber-500/50 to-emerald-500/50"></div>
+          </div>
+
+          <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+            Recognized and certified by leading global standards organizations
+          </p>
+        </div>
+
+        {/* Accreditation Logos */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+          {/* Pearson Logo */}
+          <div className="group relative">
+            {/* Festive Glow Effect */}
+            <div className="absolute -inset-1 bg-gradient-to-br from-red-500/20 via-amber-500/20 to-emerald-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            
+            {/* Card */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-amber-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-amber-500/10">
+              {/* Corner Accents */}
+              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-amber-400/30 rounded-tr-2xl"></div>
+              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-red-400/30 rounded-bl-2xl"></div>
+              
+              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/Pearson.jpg"
+                  alt="Pearson Accreditation"
+                  className="max-w-full h-auto max-h-[140px] object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* ISO Logo */}
+          <div className="group relative">
+            {/* Festive Glow Effect */}
+            <div className="absolute -inset-1 bg-gradient-to-br from-emerald-500/20 via-amber-500/20 to-red-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            
+            {/* Card */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-red-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-red-500/10">
+              {/* Corner Accents */}
+              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-emerald-400/30 rounded-tr-2xl"></div>
+              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-amber-400/30 rounded-bl-2xl"></div>
+              
+              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/ISO.jpg"
+                  alt="ISO Accreditation"
+                  className="max-w-full h-auto max-h-[140px] object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* MSME Logo */}
+          <div className="group relative sm:col-span-2 lg:col-span-1">
+            {/* Festive Glow Effect */}
+            <div className="absolute -inset-1 bg-gradient-to-br from-amber-500/20 via-red-500/20 to-emerald-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            
+            {/* Card */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-emerald-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-emerald-500/10">
+              {/* Corner Accents */}
+              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-red-400/30 rounded-tr-2xl"></div>
+              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-emerald-400/30 rounded-bl-2xl"></div>
+              
+              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/MSME.jpg"
+                  alt="MSME Accreditation"
+                  className="max-w-full h-auto max-h-[140px] object-contain"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Elegant Bottom Border */}
     </div>
   );
 };
