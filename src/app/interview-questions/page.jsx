@@ -6,6 +6,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
 import Button from "@mui/material/Button";
 import Head from "./Head";
+import { FaSearch, FaBook, FaTimes, FaLightbulb } from "react-icons/fa";
 
 const InterviewQuestions = () => {
   const [courses, setCourses] = useState([]);
@@ -17,13 +18,13 @@ const InterviewQuestions = () => {
       .then((response) => response.json())
       .then((data) => setCourses(data.interview_questions))
       .catch((error) =>
-        console.error("Error fetching interview questions:", error),
+        console.error("Error fetching interview questions:", error)
       );
   }, []);
 
   // Filter courses based on search input
   const filteredCourses = courses.filter((course) =>
-    course.course_name.toLowerCase().includes(searchTerm.toLowerCase()),
+    course.course_name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   // Open dialog for selected course
@@ -37,50 +38,95 @@ const InterviewQuestions = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <Head/>
+    <div className="min-h-screen bg-white">
+      <Head />
 
-      {/* New Info Box */}
-      <div style={styles.infoBox}>
-        <h3 style={styles.infoBoxTitle}>About Interview Questions</h3>
-        <p style={styles.infoBoxText}>
-          Prepare for your next job interview with our comprehensive collection
-          of commonly asked questions across various technical domains. Each
-          course contains carefully curated questions with model answers to help
-          you succeed in your interviews.
-        </p>
-      </div>
-      {/* Title with Gradient */}
-      <h2 style={styles.heading}>
-        <span style={styles.titleGradient}>Common Interview Questions</span>
-      </h2>
-
-      {/* Enhanced Search Bar */}
-      <div style={styles.searchContainer}>
-        <input
-          type="text"
-          placeholder="Search for a course..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          style={styles.searchBar}
-        />
-        <button style={styles.searchButton}>🔍</button>
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+            Interview <span className="text-[#39FF14]">Questions</span>
+          </h1>
+          <p className="text-xl text-[#97e7f5] max-w-3xl mx-auto">
+            Comprehensive collection of commonly asked questions across various
+            technical domains
+          </p>
+        </div>
       </div>
 
-      {/* Course Cards */}
-      <div style={styles.cardsContainer}>
-        {filteredCourses.length > 0 ? (
-          filteredCourses.map((course, index) => (
-            <div
-              key={index}
-              style={styles.card}
-              onClick={() => handleOpenDialog(course)}
-            >
-              <h3 style={styles.cardTitle}>{course.course_name}</h3>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* Info Box */}
+        <div className="bg-slate-50 rounded-2xl p-8 mb-12 border-l-4 border-[#39FF14]">
+          <div className="flex items-start gap-4">
+            <FaLightbulb className="text-[#39FF14] text-4xl flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold text-[#01377d] mb-3">
+                About Interview Questions
+              </h3>
+              <p className="text-slate-700 leading-relaxed">
+                Prepare for your next job interview with our comprehensive
+                collection of commonly asked questions across various technical
+                domains. Each course contains carefully curated questions with
+                model answers to help you succeed in your interviews.
+              </p>
             </div>
-          ))
+          </div>
+        </div>
+
+        {/* Search Bar */}
+        <div className="mb-12">
+          <div className="relative max-w-2xl mx-auto">
+            <input
+              type="text"
+              placeholder="Search for a course..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full px-6 py-4 pr-14 text-lg border-2 border-slate-200 rounded-xl focus:border-[#39FF14] focus:outline-none transition-colors text-slate-700 shadow-lg"
+            />
+            <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] p-3 rounded-lg transition-all">
+              <FaSearch className="text-xl" />
+            </button>
+          </div>
+        </div>
+
+        {/* Course Cards Grid */}
+        {filteredCourses.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {filteredCourses.map((course, index) => (
+              <div
+                key={index}
+                onClick={() => handleOpenDialog(course)}
+                className="group bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-6 cursor-pointer transition-all hover:scale-105 hover:shadow-2xl shadow-lg relative overflow-hidden"
+              >
+                {/* Decorative element */}
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#39FF14] opacity-10 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform"></div>
+
+                <div className="relative z-10">
+                  <FaBook className="text-[#39FF14] text-4xl mb-4" />
+                  <h3 className="text-xl font-bold text-white leading-tight">
+                    {course.course_name}
+                  </h3>
+                  <div className="mt-4 flex items-center text-[#97e7f5] text-sm">
+                    <span className="mr-2">📝</span>
+                    <span>{course.questions.length} Questions</span>
+                  </div>
+                </div>
+
+                {/* Hover indicator */}
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-[#39FF14] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              </div>
+            ))}
+          </div>
         ) : (
-          <p style={styles.noResults}>No matching courses found.</p>
+          <div className="text-center py-20">
+            <div className="text-slate-300 text-6xl mb-4">🔍</div>
+            <p className="text-2xl text-slate-400 font-semibold">
+              No matching courses found
+            </p>
+            <p className="text-slate-500 mt-2">
+              Try searching with different keywords
+            </p>
+          </div>
         )}
       </div>
 
@@ -90,154 +136,101 @@ const InterviewQuestions = () => {
         onClose={handleCloseDialog}
         maxWidth="md"
         fullWidth
+        PaperProps={{
+          style: {
+            borderRadius: "16px",
+            maxHeight: "80vh",
+          },
+        }}
       >
-        <DialogTitle style={styles.dialogTitle}>
-          {selectedCourse?.course_name}
+        <DialogTitle
+          style={{
+            background: "linear-gradient(135deg, #01377d 0%, #014a9f 100%)",
+            color: "white",
+            fontSize: "28px",
+            fontWeight: "bold",
+            padding: "24px",
+            position: "relative",
+          }}
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <FaBook className="text-[#39FF14]" />
+              <span>{selectedCourse?.course_name}</span>
+            </div>
+            <button
+              onClick={handleCloseDialog}
+              className="text-white hover:text-[#39FF14] transition-colors"
+            >
+              <FaTimes className="text-2xl" />
+            </button>
+          </div>
+          <div className="text-sm font-normal text-[#97e7f5] mt-2">
+            {selectedCourse?.questions.length} Interview Questions
+          </div>
         </DialogTitle>
-        <DialogContent>
-          <ul style={styles.questionsList}>
+
+        <DialogContent style={{ padding: "0" }}>
+          <div className="divide-y divide-slate-200">
             {selectedCourse?.questions.map((question, qIndex) => (
-              <li key={qIndex} style={styles.questionItem}>
-                <strong>Q: {question.question}</strong>
-                <p style={styles.answer}>A: {question.answer}</p>
-              </li>
+              <div
+                key={qIndex}
+                className="p-6 hover:bg-slate-50 transition-colors"
+              >
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="bg-[#01377d] text-white text-sm font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
+                    {qIndex + 1}
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-lg font-semibold text-[#01377d] mb-3">
+                      {question.question}
+                    </p>
+                    <div className="bg-slate-50 rounded-lg p-4 border-l-4 border-[#39FF14]">
+                      <p className="text-sm font-semibold text-[#01377d] mb-2">
+                        Answer:
+                      </p>
+                      <p className="text-slate-700 leading-relaxed">
+                        {question.answer}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
         </DialogContent>
-        <DialogActions>
-          <Button onClick={handleCloseDialog} style={styles.closeButton}>
+
+        <DialogActions
+          style={{
+            padding: "16px 24px",
+            borderTop: "1px solid #e5e7eb",
+            background: "#f9fafb",
+          }}
+        >
+          <Button
+            onClick={handleCloseDialog}
+            style={{
+              background: "#39FF14",
+              color: "#01377d",
+              fontWeight: "bold",
+              padding: "10px 24px",
+              borderRadius: "8px",
+              textTransform: "none",
+              fontSize: "16px",
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = "#2de000";
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = "#39FF14";
+            }}
+          >
             Close
           </Button>
         </DialogActions>
       </Dialog>
     </div>
   );
-};
-
-// Updated Styles with Color Scheme
-const styles = {
-  container: {
-    width: "90%",
-    maxWidth: "1200px",
-    margin: "40px auto",
-    padding: "30px",
-    background: "#f9f9f9",
-    borderRadius: "15px",
-    boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.1)",
-  },
-  infoBox: {
-    background: "linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%)",
-    padding: "20px",
-    borderRadius: "12px",
-    marginBottom: "30px",
-    borderLeft: "5px solid #1FAA59",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-  },
-  infoBoxTitle: {
-    color: "#1a2a6c",
-    fontSize: "20px",
-    fontWeight: "600",
-    marginTop: "0",
-    marginBottom: "15px",
-  },
-  infoBoxText: {
-    color: "#555",
-    fontSize: "16px",
-    lineHeight: "1.6",
-    margin: "0",
-  },
-  heading: {
-    textAlign: "center",
-    fontSize: "32px",
-    fontWeight: "bold",
-    marginBottom: "30px",
-  },
-  titleGradient: {
-    background: "linear-gradient(135deg, #4b975f, #0047AB)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-  },
-  searchContainer: {
-    display: "flex",
-    alignItems: "center",
-    marginBottom: "25px",
-  },
-  searchBar: {
-    flex: 1,
-    padding: "15px",
-    fontSize: "18px",
-    borderRadius: "10px 0 0 10px",
-    border: "2px solid #ddd",
-    outline: "none",
-    transition: "border-color 0.3s ease",
-  },
-  searchButton: {
-    padding: "15px 20px",
-    fontSize: "18px",
-    background: "linear-gradient(135deg, #4b975f, #0047AB)",
-    color: "#fff",
-    border: "none",
-    borderRadius: "0 10px 10px 0",
-    cursor: "pointer",
-    transition: "opacity 0.3s ease",
-  },
-  searchButtonHover: {
-    opacity: 0.9,
-  },
-  cardsContainer: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-    gap: "20px",
-  },
-  card: {
-    background: "linear-gradient(135deg, #1a2a6c 0%, #1FAA59 100%)",
-    padding: "25px",
-    borderRadius: "15px",
-    cursor: "pointer",
-    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
-    color: "#fff",
-    textAlign: "center",
-  },
-  cardHover: {
-    transform: "translateY(-5px)",
-    boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.15)",
-  },
-  cardTitle: {
-    fontSize: "22px",
-    fontWeight: "bold",
-  },
-  dialogTitle: {
-    fontSize: "26px",
-    fontWeight: "bold",
-    color: "#0047AB",
-    textAlign: "center",
-  },
-  questionsList: {
-    listStyle: "none",
-    padding: "0",
-    margin: "0",
-  },
-  questionItem: {
-    padding: "15px",
-    borderBottom: "1px solid #eee",
-    fontSize: "18px",
-    fontWeight: "500",
-  },
-  answer: {
-    margin: "10px 0 0 25px",
-    fontSize: "16px",
-    color: "#666",
-  },
-  noResults: {
-    textAlign: "center",
-    fontSize: "20px",
-    color: "#888",
-  },
-  closeButton: {
-    color: "#0047AB",
-    fontWeight: "bold",
-  },
 };
 
 export default InterviewQuestions;

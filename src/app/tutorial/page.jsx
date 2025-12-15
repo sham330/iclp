@@ -9,8 +9,12 @@ import {
   FaStar,
   FaCertificate,
   FaTimes,
+  FaClock,
+  FaLock,
+  FaUserTie,
+  FaVideo,
+  FaArrowRight,
 } from "react-icons/fa";
-import "./tutorial.css";
 import Head from "./Head";
 import ModalBooking from "../components/ModalBooking/ModalBooking";
 
@@ -105,224 +109,201 @@ const Tutorial = () => {
     document.body.style.overflow = "auto";
   };
 
-  const getCategoryColor = (category) => {
+  const getLevelColor = (level) => {
     const colors = {
-      Programming: "#2563eb",
-      "Web Development": "#9333ea",
-      "Data Science": "#dc2626",
-      Mobile: "#059669",
-      Security: "#d97706",
-      Cloud: "#0284c7",
+      Beginner: "bg-green-500",
+      Intermediate: "bg-blue-500",
+      Advanced: "bg-purple-500",
     };
-    return colors[category] || "#4b5563";
+    return colors[level] || "bg-gray-500";
   };
 
   return (
-    <div className="tutorial-page">
-     <Head/>
+    <div className="min-h-screen bg-white">
+      <Head />
 
       {/* Hero Section */}
-      <section className="tutorial-hero">
-        <div className="hero-content">
-          <div className="hero-text">
-            <h1 className="hero-title">
-              Master Your Skills With Our Professional Courses
-            </h1>
-            <p className="hero-subtitle">
-              Learn from industry experts with our comprehensive video tutorials
-              and hands-on projects.
-            </p>
-            <button
-              className="hero-cta"
-              onClick={() => handleVideoClick("Professional Courses")}
-            >
-              Start Learning Now
-            </button>
+      <section className="relative bg-gradient-to-r from-[#01377d] to-[#014a9f] py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#97e7f5] to-transparent"></div>
+        </div>
 
-            {/* Stats Section */}
-            <div className="hero-stats-container">
-              <div className="hero-stats-grid">
-                <div className="hero-stat-item">
-                  <div className="hero-stat-icon">
-                    <FaUsers />
-                  </div>
-                  <div className="hero-stat-content">
-                    <span className="hero-stat-number">10K+</span>
-                    <span className="hero-stat-label">Students</span>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                Master Your Skills With Our{" "}
+                <span className="text-[#39FF14]">Professional Courses</span>
+              </h1>
+              <p className="text-xl text-[#97e7f5] mb-8">
+                Learn from industry experts with our comprehensive video
+                tutorials and hands-on projects.
+              </p>
+              <button
+                onClick={() => handleVideoClick("Professional Courses")}
+                className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+              >
+                Start Learning Now <FaArrowRight />
+              </button>
+
+              {/* Stats */}
+              <div className="grid grid-cols-3 gap-6 mt-12">
+                <div className="text-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-[#39FF14]/30">
+                    <FaUsers className="text-[#39FF14] text-3xl mx-auto mb-2" />
+                    <div className="text-2xl font-bold text-white">10K+</div>
+                    <div className="text-sm text-[#97e7f5]">Students</div>
                   </div>
                 </div>
-
-                <div className="hero-stat-item">
-                  <div className="hero-stat-icon">
-                    <FaStar />
-                  </div>
-                  <div className="hero-stat-content">
-                    <span className="hero-stat-number">4.9</span>
-                    <span className="hero-stat-label">Rating</span>
+                <div className="text-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-[#39FF14]/30">
+                    <FaStar className="text-[#39FF14] text-3xl mx-auto mb-2" />
+                    <div className="text-2xl font-bold text-white">4.9</div>
+                    <div className="text-sm text-[#97e7f5]">Rating</div>
                   </div>
                 </div>
-
-                <div className="hero-stat-item">
-                  <div className="hero-stat-icon">
-                    <FaCertificate />
-                  </div>
-                  <div className="hero-stat-content">
-                    <span className="hero-stat-number">600+</span>
-                    <span className="hero-stat-label">Courses</span>
+                <div className="text-center">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-[#39FF14]/30">
+                    <FaCertificate className="text-[#39FF14] text-3xl mx-auto mb-2" />
+                    <div className="text-2xl font-bold text-white">600+</div>
+                    <div className="text-sm text-[#97e7f5]">Courses</div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="hero-image">
-            <Image
-              src="https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-              alt="Students learning"
-              width={634}
-              height={400}
-              style={{
-                width: '100%',
-                height: 'auto',
-                borderRadius: '8px'
-              }}
-              priority
-            />
+            <div className="hidden lg:block">
+              <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#39FF14]">
+                <Image
+                  src="https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                  alt="Students learning"
+                  width={634}
+                  height={400}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Course Content Section */}
-      <div className="tutorial-content">
-        <div className="content-header">
-          <h2>Featured Course Tutorials</h2>
-          <p>Select a course to view available tutorial videos</p>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-[#01377d] mb-4">
+            Featured Course Tutorials
+          </h2>
+          <p className="text-xl text-slate-600">
+            Select a course to view available tutorial videos
+          </p>
         </div>
 
-        <div className="course-grid">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course) => (
-            <div key={course.id} className="course-card">
+            <div
+              key={course.id}
+              className="bg-white border-2 border-slate-200 rounded-2xl overflow-hidden hover:border-[#39FF14] hover:shadow-2xl transition-all group"
+            >
+              {/* Thumbnail */}
               <div
-                className="card-thumbnail"
+                className="relative h-48 cursor-pointer overflow-hidden"
                 onClick={() => handleVideoClick(course.title)}
-                style={{ borderColor: getCategoryColor(course.category) }}
               >
                 <Image
                   src={course.thumbnail}
                   alt={course.title}
-                  className="thumbnail-image"
-                  width={500}
-                  height={300}
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover'
-                  }}
+                  fill
+                  style={{ objectFit: "cover" }}
+                  className="group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="thumbnail-overlay">
-                  <div className="play-button">
-                    <FaPlay />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <div className="bg-[#39FF14] rounded-full p-6">
+                    <FaPlay className="text-[#01377d] text-3xl" />
                   </div>
                 </div>
-                <div className="course-badges">
+
+                {/* Badges */}
+                <div className="absolute top-3 left-3 right-3 flex justify-between items-start">
                   <span
-                    className="level-badge"
-                    style={{
-                      backgroundColor: getCategoryColor(course.category),
-                    }}
+                    className={`${getLevelColor(course.level)} text-white text-xs font-bold px-3 py-1 rounded-full`}
                   >
                     {course.level}
                   </span>
-                  <span className="video-count">
-                    <svg viewBox="0 0 24 24" width="16" height="16">
-                      <path
-                        d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"
-                        fill="currentColor"
-                      />
-                    </svg>
+                  <span className="bg-black/70 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1 rounded-full flex items-center gap-1">
+                    <FaVideo className="text-[#39FF14]" />
                     {course.videos.length} Videos
                   </span>
                 </div>
               </div>
 
-              <div className="card-body">
-                <div className="course-meta">
-                  <span className="duration">
-                    <svg viewBox="0 0 24 24" width="16" height="16">
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                        fill="currentColor"
-                      />
-                    </svg>
+              {/* Card Body */}
+              <div className="p-6">
+                {/* Meta Info */}
+                <div className="flex items-center justify-between mb-4 text-sm text-slate-600">
+                  <span className="flex items-center gap-1">
+                    <FaClock className="text-[#39FF14]" />
                     {course.duration}
                   </span>
-                  <span className="rating">
-                    <svg viewBox="0 0 24 24" width="16" height="16">
-                      <path
-                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                        fill="currentColor"
-                      />
-                    </svg>
+                  <span className="flex items-center gap-1">
+                    <FaStar className="text-[#39FF14]" />
                     {course.rating}
                   </span>
                 </div>
 
-                <h3 className="course-title">{course.title}</h3>
-                <p className="instructor">
-                  <svg viewBox="0 0 24 24" width="16" height="16">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  {course.instructor}
+                {/* Title */}
+                <h3 className="text-xl font-bold text-[#01377d] mb-3 line-clamp-2">
+                  {course.title}
+                </h3>
+
+                {/* Instructor */}
+                <p className="flex items-center gap-2 text-slate-600 mb-4">
+                  <FaUserTie className="text-[#39FF14]" />
+                  <span className="text-sm">{course.instructor}</span>
                 </p>
 
-                <div
-                  className="category-tag"
-                  style={{ backgroundColor: getCategoryColor(course.category) }}
-                >
-                  {course.category}
+                {/* Category Tag */}
+                <div className="mb-4">
+                  <span className="inline-block bg-[#01377d] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    {course.category}
+                  </span>
                 </div>
 
-                <div className="video-list">
-                  <ul>
+                {/* Video List */}
+                <div className="bg-slate-50 rounded-lg p-4 mb-4">
+                  <ul className="space-y-2">
                     {course.videos.slice(0, 3).map((video, index) => (
-                      <li key={index}>
-                        <span className="video-number">{index + 1}.</span>
-                        <span className="video-title">{video}</span>
-                        <span className="locked-icon">
-                          <svg viewBox="0 0 24 24" width="16" height="16">
-                            <path
-                              d="M12 17a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2 2 2 0 0 1-2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2h1m-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3z"
-                              fill="currentColor"
-                            />
-                          </svg>
+                      <li
+                        key={index}
+                        className="flex items-center justify-between text-sm"
+                      >
+                        <span className="flex items-center gap-2 text-slate-700">
+                          <span className="text-[#39FF14] font-semibold">
+                            {index + 1}.
+                          </span>
+                          {video}
                         </span>
+                        <FaLock className="text-slate-400 text-xs" />
                       </li>
                     ))}
                     {course.videos.length > 3 && (
-                      <li className="more-videos">
+                      <li className="text-sm text-[#01377d] font-semibold">
                         + {course.videos.length - 3} more videos
                       </li>
                     )}
                   </ul>
                 </div>
 
+                {/* Enroll Button */}
                 <button
-                  className="enroll-button"
                   onClick={() => handleVideoClick(course.title)}
-                  style={{ backgroundColor: getCategoryColor(course.category) }}
+                  className="w-full bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] font-bold py-3 px-4 rounded-lg transition-all hover:scale-105 flex items-center justify-center gap-2 shadow-lg shadow-[#39FF14]/30"
                 >
-                  <span>Enroll Now</span>
-                  <svg viewBox="0 0 24 24" className="arrow-icon">
-                    <path
-                      d="M5 12h14M12 5l7 7-7 7"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                  </svg>
+                  Enroll Now
+                  <FaArrowRight />
                 </button>
               </div>
             </div>
@@ -332,26 +313,30 @@ const Tutorial = () => {
 
       {/* Booking Modal */}
       {showBookingForm && (
-        <div className="booking-modal active">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <div
-            className="booking-modal-overlay"
+            className="absolute inset-0 bg-black/70 backdrop-blur-sm"
             onClick={handleCloseBooking}
           ></div>
 
-          <div className="booking-modal-container">
+          <div className="relative bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
             <button
-              className="booking-modal-close"
               onClick={handleCloseBooking}
+              className="absolute top-4 right-4 text-slate-400 hover:text-[#01377d] text-2xl z-10 bg-white rounded-full p-2 shadow-lg"
             >
               <FaTimes />
             </button>
 
-            <div className="booking-modal-header">
-              <h2>Enroll in {selectedCourse}</h2>
-              <p>Complete the form below to get started</p>
+            <div className="bg-gradient-to-r from-[#01377d] to-[#014a9f] p-8 text-white">
+              <h2 className="text-3xl font-bold mb-2">
+                Enroll in {selectedCourse}
+              </h2>
+              <p className="text-[#97e7f5]">
+                Complete the form below to get started
+              </p>
             </div>
 
-            <div className="booking-modal-content">
+            <div className="p-8">
               <ModalBooking
                 onClose={handleCloseBooking}
                 initialCourse={selectedCourse}

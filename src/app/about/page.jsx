@@ -1,6 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useRef } from "react";
+import { motion, AnimatePresence, useInView } from "framer-motion";
+import CountUp from "react-countup";
 import {
   FaUsers,
   FaBullseye,
@@ -23,12 +24,34 @@ import {
   FaLaptopCode,
   FaNetworkWired,
 } from "react-icons/fa";
-import "./companyScreen.css";
 import ModalBooking from "../components/ModalBooking/ModalBooking";
 
 const CompanyScreen = () => {
   const [showBookingModal, setShowBookingModal] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
+
+  // Animated Counter Component
+  const AnimatedCounter = ({ value, suffix = "" }) => {
+    const counterRef = useRef(null);
+    const isInView = useInView(counterRef, { once: true, amount: 0.5 });
+
+    return (
+      <span ref={counterRef}>
+        {isInView ? (
+          <CountUp
+            start={0}
+            end={value}
+            duration={2.5}
+            separator=","
+            suffix={suffix}
+            delay={0}
+          />
+        ) : (
+          "0" + suffix
+        )}
+      </span>
+    );
+  };
 
   const tabs = [
     {
@@ -36,77 +59,85 @@ const CompanyScreen = () => {
       icon: <FaHandshake />,
       content: (
         <>
-          <p>
+          <p className="text-slate-700 mb-4">
             We're a premier tech education provider bridging the gap between
             learning and career success.
           </p>
-          <ul>
-            <li>
-              <FaUsers /> Industry-experienced instructors
+          <ul className="space-y-3">
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaUsers className="text-[#39FF14] flex-shrink-0" />
+              <span>Industry-experienced instructors</span>
             </li>
-            <li>
-              <FaBook /> Practical, project-based curriculum
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaBook className="text-[#39FF14] flex-shrink-0" />
+              <span>Practical, project-based curriculum</span>
             </li>
-            <li>
-              <FaShieldAlt /> Proven track record since 2015
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaShieldAlt className="text-[#39FF14] flex-shrink-0" />
+              <span>Proven track record since 2015</span>
             </li>
           </ul>
         </>
       ),
-      color: "#4f46e5",
     },
     {
       title: "Our Vision",
       icon: <FaGlobe />,
       content: (
         <>
-          <p>
+          <p className="text-slate-700 mb-4">
             To create a world where quality tech education is accessible to all
             aspiring professionals.
           </p>
-          <ul>
-            <li>
-              <FaLightbulb /> Innovative learning platforms
+          <ul className="space-y-3">
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaLightbulb className="text-[#39FF14] flex-shrink-0" />
+              <span>Innovative learning platforms</span>
             </li>
-            <li>
-              <FaRocket /> Global career opportunities
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaRocket className="text-[#39FF14] flex-shrink-0" />
+              <span>Global career opportunities</span>
             </li>
-            <li>
-              <FaChartLine /> Continuous program evolution
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaChartLine className="text-[#39FF14] flex-shrink-0" />
+              <span>Continuous program evolution</span>
             </li>
           </ul>
         </>
       ),
-      color: "#10b981",
     },
     {
       title: "Why Choose Us",
       icon: <FaCheckCircle />,
       content: (
         <>
-          <p>What sets us apart in the competitive tech education space.</p>
-          <ul>
-            <li>
-              <FaCalendarAlt /> Flexible scheduling options
+          <p className="text-slate-700 mb-4">
+            What sets us apart in the competitive tech education space.
+          </p>
+          <ul className="space-y-3">
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaCalendarAlt className="text-[#39FF14] flex-shrink-0" />
+              <span>Flexible scheduling options</span>
             </li>
-            <li>
-              <FaMoneyBillWave /> Affordable payment plans
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaMoneyBillWave className="text-[#39FF14] flex-shrink-0" />
+              <span>Affordable payment plans</span>
             </li>
-            <li>
-              <FaAward /> Industry-recognized certifications
+            <li className="flex items-center gap-3 text-slate-700">
+              <FaAward className="text-[#39FF14] flex-shrink-0" />
+              <span>Industry-recognized certifications</span>
             </li>
           </ul>
         </>
       ),
-      color: "#f59e0b",
     },
   ];
 
   const stats = [
-    { value: "1000+", label: "Students Trained", icon: <FaUsers /> },
-    { value: "95%", label: "Placement Rate", icon: <FaBullseye /> },
-    { value: "50+", label: "Hiring Partners", icon: <FaHandshake /> },
-    { value: "24/7", label: "Learning Support", icon: <FaGraduationCap /> },
+    { value: 1000, label: "Students Trained", icon: <FaUsers />, suffix: "+" },
+    { value: 95, label: "Placement Rate", icon: <FaBullseye />, suffix: "%" },
+    { value: 50, label: "Hiring Partners", icon: <FaHandshake />, suffix: "+" },
+    { value: 24, label: "Learning Support", icon: <FaGraduationCap />, suffix: "/7" },
   ];
 
   const values = [
@@ -115,43 +146,35 @@ const CompanyScreen = () => {
       icon: <FaInfinity />,
       description:
         "We believe every learner holds infinite career possibilities",
-      color: "#6366f1",
     },
     {
       title: "Hands-on Learning",
       icon: <FaLaptopCode />,
       description:
         "Practical skills that make a real difference in your career",
-      color: "#10b981",
     },
     {
       title: "Industry Connect",
       icon: <FaNetworkWired />,
       description: "Direct pathways to employment with our partner network",
-      color: "#f59e0b",
     },
     {
       title: "Career Mentorship",
       icon: <FaUserTie />,
       description: "Guidance from application to interview to job placement",
-      color: "#ec4899",
     },
   ];
 
   return (
-    <div className="iclp-tech-container">
-      {/* Hero Section */}
-      <section
-        className="iclp-tech-hero"
-        style={{
-          background:
-            "linear-gradient(135deg, rgba(30,58,138,0.9) 0%, rgba(6,95,70,0.9) 100%), url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+    <div className="min-h-screen bg-white">
+      {/* Hero Section - Yale Blue Background */}
+      <section className="relative bg-[#01377d] min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+        </div>
+
         <motion.div
-          className="iclp-hero-content"
+          className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -160,448 +183,455 @@ const CompanyScreen = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
-            className="iclp-logo-badge"
+            className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8 border border-[#39FF14]/30"
           >
-            <FaInfinity className="iclp-infinity-icon" />
-            <span>ICLP Technologies</span>
+            <FaInfinity className="text-[#39FF14] text-2xl" />
+            <span className="text-white font-semibold tracking-wide">
+              ICLP Technologies
+            </span>
           </motion.div>
-          <h1>
-            Transform Your Career with <span>Infinite Possibilities</span>
+
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            Transform Your Career with{" "}
+            <span className="text-[#39FF14]">Infinite Possibilities</span>
           </h1>
-          <p>
+
+          <p className="text-xl md:text-2xl text-[#97e7f5] mb-10 max-w-3xl mx-auto">
             Industry-aligned training programs designed for real-world success
           </p>
+
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setShowBookingModal(true)}
-            className="iclp-cta-button"
+            className="inline-flex items-center gap-3 bg-[#39FF14] text-[#01377d] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#2de000] transition-all shadow-lg shadow-[#39FF14]/30"
           >
             Explore Programs <FaArrowRight />
           </motion.button>
         </motion.div>
-        <div className="iclp-hero-accent"></div>
+
+        {/* Decorative Elements */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 "></div>
       </section>
 
-      {/* Mission Statement */}
-      <section className="iclp-mission-section">
-        <div className="iclp-mission-container">
+      {/* Mission Statement - White Background */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            className="iclp-mission-card"
+            className="max-w-4xl mx-auto text-center mb-16"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2>
-              <FaInfinity className="mission-icon" /> ICLP Technologies
-            </h2>
-            <p className="iclp-mission-statement">
-              <strong>The Infinite Career Leading Platform</strong> is more than
-              just a name; it's our belief that every learner holds infinite
-              potential to build a thriving career.
+            <div className="inline-flex items-center gap-3 mb-6">
+              <FaInfinity className="text-[#39FF14] text-4xl" />
+              <h2 className="text-4xl font-bold text-[#01377d]">
+                ICLP Technologies
+              </h2>
+            </div>
+            <p className="text-xl text-slate-700 mb-6 leading-relaxed">
+              <strong className="text-[#01377d]">
+                The Infinite Career Leading Platform
+              </strong>{" "}
+              is more than just a name; it's our belief that every learner holds
+              infinite potential to build a thriving career.
             </p>
-            <p>
+            <p className="text-lg text-slate-600 leading-relaxed">
               At ICLP, we don't just provide training—we become your career
               partner, guiding you with purpose, confidence, and clarity from
               learning to achievement.
             </p>
           </motion.div>
 
-          <div className="iclp-mission-features">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, index) => (
               <motion.div
                 key={index}
-                className="iclp-mission-feature"
+                className="bg-white border-2 border-slate-100 rounded-xl p-6 hover:border-[#39FF14] hover:shadow-xl transition-all group"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                style={{ borderTop: `4px solid ${value.color}` }}
               >
-                <div
-                  className="iclp-feature-icon"
-                  style={{ color: value.color }}
-                >
+                <div className="text-[#39FF14] text-4xl mb-4 group-hover:scale-110 transition-transform">
                   {value.icon}
                 </div>
-                <h3>{value.title}</h3>
-                <p>{value.description}</p>
+                <h3 className="text-xl font-bold text-[#01377d] mb-3">
+                  {value.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">
+                  {value.description}
+                </p>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Interactive Tabs */}
-      <div className="iclp-tab-container">
-        <div className="iclp-tab-header">
-          {tabs.map((tab, index) => (
-            <button
-              key={index}
-              className={`iclp-tab-button ${
-                activeTab === index ? "active" : ""
-              }`}
-              onClick={() => setActiveTab(index)}
-              style={{
-                color: activeTab === index ? tab.color : "#64748b",
-                borderColor: activeTab === index ? tab.color : "transparent",
-              }}
+      {/* Interactive Tabs - Yale Blue Background */}
+      <section className="bg-[#01377d] py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap gap-4 mb-8 justify-center">
+            {tabs.map((tab, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveTab(index)}
+                className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all ${
+                  activeTab === index
+                    ? "bg-[#39FF14] text-[#01377d]"
+                    : "bg-white/10 text-white hover:bg-white/20"
+                }`}
+              >
+                <span className="text-xl">{tab.icon}</span>
+                {tab.title}
+              </button>
+            ))}
+          </div>
+
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              className="bg-white rounded-2xl p-8 shadow-2xl border-l-4 border-[#39FF14]"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 20 }}
+              transition={{ duration: 0.3 }}
             >
-              {tab.icon}
-              {tab.title}
-            </button>
-          ))}
+              {tabs[activeTab].content}
+            </motion.div>
+          </AnimatePresence>
         </div>
+      </section>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeTab}
-            className="iclp-tab-content"
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 20 }}
-            transition={{ duration: 0.3 }}
-            style={{ borderLeft: `4px solid ${tabs[activeTab].color}` }}
-          >
-            {tabs[activeTab].content}
-          </motion.div>
-        </AnimatePresence>
-      </div>
+      {/* Stats Grid with Animated Counter - White Background */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {stats.map((stat, index) => (
+              <motion.div
+                key={index}
+                className="bg-gradient-to-br from-[#01377d] to-[#01377d]/80 rounded-xl p-8 text-center hover:scale-105 transition-transform shadow-lg"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <div className="text-[#39FF14] text-5xl mb-4">{stat.icon}</div>
+                <h3 className="text-4xl font-bold text-white mb-2">
+                  <AnimatedCounter value={stat.value} suffix={stat.suffix} />
+                </h3>
+                <p className="text-[#97e7f5]">{stat.label}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      {/* Stats Grid */}
-      <div className="iclp-stats-grid">
-        {stats.map((stat, index) => (
+      {/* Value Propositions - Yale Blue Background */}
+      <section className="bg-[#01377d] py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            className="iclp-stat-card"
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
+            className="grid md:grid-cols-2 gap-12 items-center"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            whileHover={{ y: -5 }}
           >
-            <div className="iclp-stat-icon" style={{ color: "#4f46e5" }}>
-              {stat.icon}
+            <div>
+              <h2 className="text-4xl font-bold text-white mb-6">
+                Beyond Traditional Learning
+              </h2>
+              <p className="text-[#97e7f5] mb-4 leading-relaxed">
+                Essentially owning knowledge remains insufficient in the
+                competitive and constantly changing work market of today. How
+                well you can use that information in practical settings is what
+                counts most.
+              </p>
+              <p className="text-[#97e7f5] leading-relaxed">
+                To prepare students for actual industrial difficulties, ICLP
+                places a strong emphasis on experiential, hands-on learning. We
+                provide you with skills that make truly a difference, bridging
+                the gap between school and employment.
+              </p>
             </div>
-            <h3>{stat.value}</h3>
-            <p>{stat.label}</p>
+            <div className="flex justify-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-12 border-2 border-[#39FF14]">
+                <FaLaptopCode className="text-[#39FF14] text-8xl mx-auto" />
+              </div>
+            </div>
           </motion.div>
-        ))}
-      </div>
+        </div>
+      </section>
 
-      {/* Value Propositions Section */}
-      <section className="iclp-value-props">
-        <motion.div
-          className="iclp-value-props-content"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <div className="iclp-value-props-text">
-            <h2>Beyond Traditional Learning</h2>
-            <p>
-              Essentially owning knowledge remains insufficient in the
-              competitive and constantly changing work market of today. How well
-              you can use that information in practical settings is what counts
-              most.
-            </p>
-            <p>
-              To prepare students for actual industrial difficulties, ICLP
-              places a strong emphasis on experiential, hands-on learning. We
-              provide you with skills that make truly a difference, bridging the
-              gap between school and employment.
+      {/* Teaching Approach - White Background */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#01377d] mb-4">
+              Our Teaching Philosophy
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Not just what we teach, but also how we teach it, is what sets us
+              unique.
             </p>
           </div>
-          <div className="iclp-value-props-image">
-            <div className="iclp-image-placeholder">
-              <FaLaptopCode className="iclp-large-icon" />
-            </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <FaUserTie />,
+                title: "Personalized Learning",
+                description:
+                  "We provide tailored experiences that match your objectives, learning style, and potential.",
+              },
+              {
+                icon: <FaHandshake />,
+                title: "Adaptive Programs",
+                description:
+                  "Our courses are flexible, interactive, and intensely engaging for optimal learning.",
+              },
+              {
+                icon: <FaAward />,
+                title: "Career Platform",
+                description:
+                  "ICLP is your launchpad for success, whether you're a student, job-seeker, or professional.",
+              },
+            ].map((item, index) => (
+              <motion.div
+                key={index}
+                className="bg-slate-50 rounded-xl p-8 hover:shadow-xl transition-all border-2 border-transparent hover:border-[#39FF14]"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <div className="text-[#39FF14] text-5xl mb-6">{item.icon}</div>
+                <h3 className="text-2xl font-bold text-[#01377d] mb-4">
+                  {item.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">
+                  {item.description}
+                </p>
+              </motion.div>
+            ))}
           </div>
-        </motion.div>
-      </section>
-
-      {/* Teaching Approach */}
-      <section className="iclp-teaching-approach">
-        <h2>Our Teaching Philosophy</h2>
-        <p className="iclp-approach-intro">
-          Not just what we teach, but also how we teach it, is what sets us
-          unique.
-        </p>
-
-        <div className="iclp-approach-grid">
-          <motion.div
-            className="iclp-approach-card"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            <div className="iclp-approach-icon">
-              <FaUserTie />
-            </div>
-            <h3>Personalized Learning</h3>
-            <p>
-              We provide tailored experiences that match your objectives,
-              learning style, and potential.
-            </p>
-          </motion.div>
-
-          <motion.div
-            className="iclp-approach-card"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-            <div className="iclp-approach-icon">
-              <FaHandshake />
-            </div>
-            <h3>Adaptive Programs</h3>
-            <p>
-              Our courses are flexible, interactive, and intensely engaging for
-              optimal learning.
-            </p>
-          </motion.div>
-
-          <motion.div
-            className="iclp-approach-card"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <div className="iclp-approach-icon">
-              <FaAward />
-            </div>
-            <h3>Career Platform</h3>
-            <p>
-              ICLP is your launchpad for success, whether you're a student,
-              job-seeker, or professional.
-            </p>
-          </motion.div>
         </div>
       </section>
 
-      {/* Outcomes Section */}
-      <section className="iclp-outcomes-section">
-        <div className="iclp-outcomes-container">
+      {/* Outcomes Section - Yale Blue Background */}
+      <section className="bg-[#01377d] py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            className="iclp-outcomes-content"
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            className="grid md:grid-cols-2 gap-12 items-center"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2>We Deliver Meaningful Outcomes</h2>
-            <p>
-              Our training is conducted by seasoned mentors who infuse each
-              session with real-world knowledge and industry experience.
-            </p>
-            <ul className="iclp-outcomes-list">
-              <li>
-                <FaCheckCircle /> Resume writing and optimization
-              </li>
-              <li>
-                <FaCheckCircle /> Mock interviews and coaching
-              </li>
-              <li>
-                <FaCheckCircle /> Direct placement assistance
-              </li>
-              <li>
-                <FaCheckCircle /> Ongoing career support
-              </li>
-            </ul>
-            <p className="iclp-outcomes-highlight">
-              Our students undergo more than just training; they undergo
-              transformation.
-            </p>
-          </motion.div>
-          <motion.div
-            className="iclp-outcomes-visual"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="iclp-outcomes-graphic">
-              <div className="iclp-graphic-item">
-                <FaGraduationCap />
-                <span>Learning</span>
-              </div>
-              <div className="iclp-graphic-arrow">
-                <FaArrowRight />
-              </div>
-              <div className="iclp-graphic-item">
-                <FaUserTie />
-                <span>Career</span>
-              </div>
-              <div className="iclp-graphic-arrow">
-                <FaArrowRight />
-              </div>
-              <div className="iclp-graphic-item">
-                <FaRocket />
-                <span>Success</span>
+            <div>
+              <h2 className="text-4xl font-bold text-white mb-6">
+                We Deliver Meaningful Outcomes
+              </h2>
+              <p className="text-[#97e7f5] mb-6 leading-relaxed">
+                Our training is conducted by seasoned mentors who infuse each
+                session with real-world knowledge and industry experience.
+              </p>
+              <ul className="space-y-4 mb-6">
+                {[
+                  "Resume writing and optimization",
+                  "Mock interviews and coaching",
+                  "Direct placement assistance",
+                  "Ongoing career support",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-3">
+                    <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0" />
+                    <span className="text-white">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-[#39FF14] font-semibold text-lg">
+                Our students undergo more than just training; they undergo
+                transformation.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <div className="flex items-center gap-4">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border-2 border-[#39FF14]">
+                  <FaGraduationCap className="text-[#39FF14] text-5xl" />
+                  <p className="text-white text-sm mt-2">Learning</p>
+                </div>
+                <FaArrowRight className="text-[#39FF14] text-3xl" />
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border-2 border-[#39FF14]">
+                  <FaUserTie className="text-[#39FF14] text-5xl" />
+                  <p className="text-white text-sm mt-2">Career</p>
+                </div>
+                <FaArrowRight className="text-[#39FF14] text-3xl" />
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border-2 border-[#39FF14]">
+                  <FaRocket className="text-[#39FF14] text-5xl" />
+                  <p className="text-white text-sm mt-2">Success</p>
+                </div>
               </div>
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* Community Section */}
-      <section className="iclp-community-section">
+      {/* Community Section - White Background */}
+      <section className="bg-white py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <FaUsers className="text-[#39FF14] text-5xl" />
+              <h2 className="text-4xl font-bold text-[#01377d]">
+                Join Our Growing Community
+              </h2>
+            </div>
+            <p className="text-lg text-slate-700 mb-4 leading-relaxed">
+              We at ICLP Technologies are proud to have established a community
+              that values education, creativity, and ongoing development.
+            </p>
+            <p className="text-lg text-slate-600 mb-12 leading-relaxed">
+              Our purpose is not to provide generic stuff. Our mission is to
+              foster genuine potential, instill self-assurance, and assist
+              fulfilling professional endeavours. Every learner's success story
+              demonstrates our dedication.
+            </p>
+            <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto">
+              <div className="text-center">
+                <div className="text-5xl font-bold text-[#39FF14] mb-2">
+                  <AnimatedCounter value={100} suffix="%" />
+                </div>
+                <div className="text-slate-600">Career Focused</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold text-[#39FF14] mb-2">
+                  <AnimatedCounter value={24} suffix="/7" />
+                </div>
+                <div className="text-slate-600">Learning Access</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold text-[#39FF14] mb-2">∞</div>
+                <div className="text-slate-600">Possibilities</div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Flexibility Section - Yale Blue Background */}
+      <section className="bg-[#01377d] py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            className="grid md:grid-cols-2 gap-12 items-center"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <div className="flex justify-center gap-8">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border-2 border-[#39FF14] text-center">
+                <FaLaptopCode className="text-[#39FF14] text-6xl mx-auto mb-4" />
+                <p className="text-white font-semibold">Online</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border-2 border-[#39FF14] text-center">
+                <FaUsers className="text-[#39FF14] text-6xl mx-auto mb-4" />
+                <p className="text-white font-semibold">Community</p>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-4xl font-bold text-white mb-6">
+                Flexible Learning Options
+              </h2>
+              <p className="text-[#97e7f5] mb-4 leading-relaxed">
+                Everyone can participate in ICLP, regardless of schedule or
+                location, thanks to the flexibility of both online and offline
+                learning options.
+              </p>
+              <p className="text-[#97e7f5] mb-6 leading-relaxed">
+                Every facet of our strategy is intended to guarantee excellence,
+                pertinence, and flexibility in a rapidly evolving work
+                environment.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  "Self-paced online courses",
+                  "Live virtual classrooms",
+                  "In-person training centers",
+                  "Hybrid learning models",
+                  "Offline learning models",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-3">
+                    <FaCheckCircle className="text-[#39FF14] flex-shrink-0" />
+                    <span className="text-white">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* CTA Section - Yale Blue with Neon Green Accent */}
+      <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-24">
         <motion.div
-          className="iclp-community-content"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <h2>
-            <FaUsers /> Join Our Growing Community
-          </h2>
-          <p>
-            We at ICLP Technologies are proud to have established a community
-            that values education, creativity, and ongoing development.
-          </p>
-          <p>
-            Our purpose is not to provide generic stuff. Our mission is to
-            foster genuine potential, instill self-assurance, and assist
-            fulfilling professional endeavours. Every learner's success story
-            demonstrates our dedication.
-          </p>
-          <div className="iclp-community-stats">
-            <div className="iclp-community-stat">
-              <strong>100%</strong>
-              <span>Career Focused</span>
-            </div>
-            <div className="iclp-community-stat">
-              <strong>24/7</strong>
-              <span>Learning Access</span>
-            </div>
-            <div className="iclp-community-stat">
-              <strong>∞</strong>
-              <span>Possibilities</span>
-            </div>
-          </div>
-        </motion.div>
-      </section>
-
-      {/* Flexibility Section */}
-      <section className="iclp-flexibility-section">
-        <div className="iclp-flexibility-container">
-          <motion.div
-            className="iclp-flexibility-image"
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="iclp-flexibility-visual">
-              <div className="iclp-visual-online">
-                <FaLaptopCode />
-                <span>Online</span>
-              </div>
-              <div className="iclp-visual-offline">
-                <FaUsers />
-                <span>Community</span>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div
-            className="iclp-flexibility-content"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2>Flexible Learning Options</h2>
-            <p>
-              Everyone can participate in ICLP, regardless of schedule or
-              location, thanks to the flexibility of both online and offline
-              learning options.
-            </p>
-            <p>
-              Every facet of our strategy is intended to guarantee excellence,
-              pertinence, and flexibility in a rapidly evolving work
-              environment.
-            </p>
-            <ul className="iclp-flexibility-list">
-              <li>
-                <FaCheckCircle /> Self-paced online courses
-              </li>
-              <li>
-                <FaCheckCircle /> Live virtual classrooms
-              </li>
-              <li>
-                <FaCheckCircle /> In-person training centers
-              </li>
-              <li>
-                <FaCheckCircle /> Hybrid learning models
-              </li>
-              <li>
-                <FaCheckCircle /> Offline learning models
-              </li>
-            </ul>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <div
-        className="iclp-cta-section"
-        style={{
-          background:
-            "linear-gradient(135deg, rgba(26,42,108,0.9) 0%, rgba(31,170,89,0.9) 100%), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <motion.div
+          className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="iclp-cta-content"
         >
-          <h2>Ready to Start Your Tech Journey?</h2>
-          <p>Join our next cohort and transform your career in weeks</p>
+          <h2 className="text-5xl font-bold text-white mb-6">
+            Ready to Start Your Tech Journey?
+          </h2>
+          <p className="text-xl text-[#97e7f5] mb-10">
+            Join our next cohort and transform your career in weeks
+          </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setShowBookingModal(true)}
-            className="iclp-cta-button"
+            className="inline-flex items-center gap-3 bg-[#39FF14] text-[#01377d] px-10 py-5 rounded-lg text-xl font-bold hover:bg-[#2de000] transition-all shadow-2xl shadow-[#39FF14]/40"
           >
             Apply Now <FaArrowRight />
           </motion.button>
         </motion.div>
-      </div>
+      </section>
 
       {/* Modal */}
       <AnimatePresence>
         {showBookingModal && (
           <motion.div
-            className="iclp-tech-modal-overlay"
+            className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            onClick={() => setShowBookingModal(false)}
           >
             <motion.div
-              className="iclp-tech-modal-content"
+              className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
+              onClick={(e) => e.stopPropagation()}
             >
               <button
-                className="iclp-tech-modal-close"
+                className="absolute top-4 right-4 text-slate-400 hover:text-[#01377d] text-2xl z-10"
                 onClick={() => setShowBookingModal(false)}
               >
                 <FaTimes />
               </button>
-              <ModalBooking onClose={() => setShowBookingModal(false)} />
-              <div className="iclp-tech-modal-submit-container">
-                <button type="submit" className="iclp-tech-modal-submit">
+              <div className="p-8">
+                <ModalBooking onClose={() => setShowBookingModal(false)} />
+                <button
+                  type="submit"
+                  className="w-full mt-6 bg-[#39FF14] text-[#01377d] px-8 py-4 rounded-lg text-lg font-bold hover:bg-[#2de000] transition-all"
+                >
                   Submit Application
                 </button>
               </div>

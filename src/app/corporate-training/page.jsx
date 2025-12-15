@@ -287,7 +287,7 @@ export default function CorporateTraining() {
             {[1, 2].map((num) => (
               <div key={num} className="flex-1 relative group">
                 <div className="absolute inset-0 bg-[#39FF14] rounded-2xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
-                <image
+                <img
                   src={`/recent-coporate.webp`}
                  
                   alt="training"
