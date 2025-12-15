@@ -1796,6 +1796,301 @@
   ]
 },
 {
+  "course_name": "SAP UI5 & Fiori Training",
+  "path": "sap-ui5-fiori-training",
+  "meta_title": "SAP UI5 & Fiori Course Online | SAP UI5 Fiori Training | SAP Fiori Certification",
+  "meta_description": "Master SAP UI5, OData, and Fiori with end-to-end hands-on training. Learn UI5 development, OData services, Fiori apps, and Fiori Launchpad configuration.",
+  "description": "Comprehensive SAP UI5 & Fiori training covering UI5 fundamentals, MVC architecture, routing, layouts, models, OData services, custom and standard Fiori app development, and Fiori Launchpad configuration with real-time projects.",
+  "what_youll_learn": [
+    "Understand SAP UI5 architecture, MVC pattern, and Fiori landscape",
+    "Build responsive SAP UI5 applications using views, controllers, and routing",
+    "Work with layouts, complex UI elements, dialogs, fragments, and charts",
+    "Implement validations, message handling, models, and data binding",
+    "Develop and consume OData services with full CRUD operations",
+    "Integrate SAP UI5 apps with SAP Gateway using OData",
+    "Develop end-to-end custom SAP Fiori applications",
+    "Extend standard SAP Fiori applications",
+    "Configure SAP Fiori Launchpad, catalogs, tiles, roles, and authorizations",
+    "Deploy SAP UI5/Fiori apps to Gateway and Launchpad"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP UI5 Fundamentals",
+      "subtopics": [
+        "Overview of SAP UI5 and previous technologies",
+        "Limitations of older technologies and advantages of SAP UI5",
+        "SAP UI5 MVC architecture and layer-wise explanation",
+        "SAP UI5 and Fiori application landscape",
+        "End-to-end data flow in SAP UI5/Fiori applications",
+        "Difference between SAP UI5 and SAP Fiori applications"
+      ]
+    },
+    {
+      "module": "SAP Cloud Platform & Web IDE",
+      "subtopics": [
+        "Overview of SAP Cloud Platform (BTP)",
+        "Advantages of SAP Web IDE",
+        "Creating HANA Cloud account",
+        "Accessing Web IDE",
+        "Creating sample SAP UI5 projects",
+        "Understanding project structure, files, and folders"
+      ]
+    },
+    {
+      "module": "Application Initialization & Execution Flow",
+      "subtopics": [
+        "Project creation flow",
+        "Understanding index.html and bootstrap",
+        "Component.js and manifest.json deep dive",
+        "Base view and view container concepts"
+      ]
+    },
+    {
+      "module": "Routing & Navigation",
+      "subtopics": [
+        "Routing concepts in SAP UI5",
+        "Creating multiple views",
+        "Configuring routes and targets in manifest.json",
+        "Navigation using URL patterns",
+        "Navigation using buttons",
+        "Hands-on routing and navigation exercises"
+      ]
+    },
+    {
+      "module": "Views & Controllers",
+      "subtopics": [
+        "Creating views",
+        "Understanding controller lifecycle hooks",
+        "Implementing controller methods",
+        "Hands-on controller exercises"
+      ]
+    },
+    {
+      "module": "UI Elements & Dynamic Behavior",
+      "subtopics": [
+        "Working with Text, Label, Input, Button and other UI elements",
+        "Dynamic property changes at runtime",
+        "Enable/disable fields dynamically",
+        "Show/hide UI elements",
+        "Dynamic text handling"
+      ]
+    },
+    {
+      "module": "Layouts & Forms",
+      "subtopics": [
+        "Layout concepts in SAP UI5",
+        "Simple Form, Matrix, and Grid layouts",
+        "HBox, VBox, and Flexbox",
+        "Panel, Icon Tab Bar, and Object Header",
+        "Multi-column form designs",
+        "Hands-on layout exercises"
+      ]
+    },
+    {
+      "module": "Validations & Message Handling",
+      "subtopics": [
+        "Types of validations",
+        "Mandatory and format validations",
+        "Error handling with input states",
+        "Displaying Error, Warning, Success messages"
+      ]
+    },
+    {
+      "module": "Models & Data Binding",
+      "subtopics": [
+        "JSON Model",
+        "OData Model",
+        "Resource Model (i18n)",
+        "Property, Aggregation, and Element binding",
+        "Binding exercises using JSON and OData models"
+      ]
+    },
+    {
+      "module": "Data Transfer & Complex UI Elements",
+      "subtopics": [
+        "Passing data between views",
+        "Using router parameters",
+        "Element binding techniques",
+        "Dropdowns, ComboBox, MultiComboBox",
+        "Radio buttons, Checkboxes, Value Help (F4)",
+        "Tables and Lists with JSON data"
+      ]
+    },
+    {
+      "module": "Fragments & Dialogs",
+      "subtopics": [
+        "Reusable fragments",
+        "Popup dialogs using fragments",
+        "F4 help implementation",
+        "Hands-on dialog exercises"
+      ]
+    },
+    {
+      "module": "OData & Backend Integration",
+      "subtopics": [
+        "HANA Cloud Connector configuration",
+        "Creating destinations",
+        "Connecting Web IDE with SAP Gateway",
+        "Consuming backend OData services"
+      ]
+    },
+    {
+      "module": "OData Service Development",
+      "subtopics": [
+        "Gateway architecture and components",
+        "Creating OData services using SEGW",
+        "Entity types, sets, and associations",
+        "DPC and MPC classes",
+        "CRUD operations",
+        "Query options and filters",
+        "Deep insert implementation",
+        "Media upload and download",
+        "Gateway client testing"
+      ]
+    },
+    {
+      "module": "Advanced UI5 Features",
+      "subtopics": [
+        "File upload and download",
+        "Charts and graphs (Bar, Column, Pie, Line)",
+        "Internationalization (i18n)",
+        "Multi-language application support"
+      ]
+    },
+    {
+      "module": "SAP Fiori Development",
+      "subtopics": [
+        "Introduction to SAP Fiori",
+        "Fiori design guidelines",
+        "Standard vs Custom Fiori applications",
+        "Master-Detail template",
+        "CRUD and Worklist templates",
+        "End-to-end custom Fiori application development"
+      ]
+    },
+    {
+      "module": "Fiori App Extensions",
+      "subtopics": [
+        "View modification and extensions",
+        "Controller extensions and replacements",
+        "Extending standard Fiori applications"
+      ]
+    },
+    {
+      "module": "SAP Fiori Basis & Launchpad",
+      "subtopics": [
+        "Embedded and Central Hub architecture",
+        "Fiori Launchpad configuration",
+        "RFC and trusted connections",
+        "System aliases and OData activation",
+        "Catalog, tile, group creation",
+        "Role and authorization configuration",
+        "Theme builder customization",
+        "Cache handling and performance optimization"
+      ]
+    }
+  ],
+  "duration": "70-80 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-ui5-fiori.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-End SAP UI5 Application with OData Integration",
+    "Custom SAP Fiori Application with CRUD Operations",
+    "Fiori Launchpad Configuration Project",
+    "Standard Fiori App Extension Project"
+  ]
+},
+{
+  "course_name": "SAP PS Training",
+  "path": "sap-ps",
+  "meta_title": "SAP PS Course Online | SAP Project System Online Training | SAP PS Certification",
+  "meta_description": "Master SAP Project System (PS) with hands-on training. Learn project structures, planning, budgeting, execution, reporting, and period-end closing.",
+  "description": "Comprehensive SAP PS training covering project structuring, planning functions, budgeting, execution, period-end closing, and reporting to efficiently manage enterprise-level projects.",
+  "what_youll_learn": [
+    "Understand SAP PS architecture and integration with other SAP modules",
+    "Create and manage project definitions and WBS structures",
+    "Configure networks, activities, and project planning boards",
+    "Perform date, resource, material, cost, and revenue planning",
+    "Manage project budgets, releases, supplements, and availability control",
+    "Execute projects including procurement, billing, and confirmations",
+    "Perform period-end closing activities like settlement and result analysis",
+    "Generate structural and financial project reports"
+  ],
+  "syllabus": [
+    {
+      "module": "Structures and Master Data",
+      "subtopics": [
+        "Project Definition",
+        "Customizing Project Profile",
+        "WBS Structure",
+        "Networks and Activities",
+        "PS Texts and Documents",
+        "Project Builder and Project Planning Board",
+        "Statuses",
+        "Simulations and Versions"
+      ]
+    },
+    {
+      "module": "Planning Functions",
+      "subtopics": [
+        "Date Planning",
+        "Resource Planning",
+        "Material Planning",
+        "Cost Planning",
+        "Revenue Planning"
+      ]
+    },
+    {
+      "module": "Budget",
+      "subtopics": [
+        "Original Budget",
+        "Budget Release",
+        "Budget Supplement",
+        "Budget Return",
+        "Budget Carry Forward",
+        "Availability Control"
+      ]
+    },
+    {
+      "module": "Project Execution",
+      "subtopics": [
+        "Actual Dates",
+        "Confirmations",
+        "External Procurement of Services",
+        "Material Procurement",
+        "Billing",
+        "Project Progress"
+      ]
+    },
+    {
+      "module": "Period-End Closing",
+      "subtopics": [
+        "Project Settlement",
+        "Profitability Analysis",
+        "Result Analysis"
+      ]
+    },
+    {
+      "module": "Reporting",
+      "subtopics": [
+        "Structural Reports",
+        "Financial Reports"
+      ]
+    }
+  ],
+  "duration": "45-55 hours",
+  "skill_level": "Advanced",
+  "image": "../CourseDetails/sap-ps.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise Project Structure and WBS Configuration",
+    "Project Planning and Budget Control Implementation",
+    "End-to-End Project Execution and Billing",
+    "Project Reporting and Period-End Closing"
+  ]
+},
+{
   "course_name": "SAP IS Retail Training",
   "path": "sap-is-retail",
   "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",

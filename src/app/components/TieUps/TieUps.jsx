@@ -19,6 +19,7 @@ const TieUps = () => {
     "./companies/willy.png",
     "./companies/wipro.jpg",
     "./companies/zoho.png",
+    "./course.PNG"
   ];
 
   // Duplicate images for smooth infinite scrolling effect

@@ -922,7 +922,7 @@ const SapCourseDetailsPage = () => {
         {/* CTA Section */}
         <div className="cdp-section cdp-cta-section">
           <div className="cdp-cta-card">
-            <h2>Ready to Start Your SAP {course.course_name} Journey?</h2>
+            <h2>Ready to Start Your  {course.course_name} Journey?</h2>
             <p>Limited seats available for the next batch</p>
             <div className="cdp-cta-buttons">
               <button

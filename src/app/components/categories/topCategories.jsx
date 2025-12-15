@@ -73,9 +73,8 @@ const TopCategories = () => {
       </div>
 
       {/* Decorative Top Border */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-red-400/30 via-amber-400/30 via-emerald-400/30 to-transparent"></div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         {!isCoursesPage && (
           <div className="text-center mb-16 space-y-6">
             <h1 className="text-4xl lg:text-5xl font-bold text-slate-900">

@@ -9242,6 +9242,118 @@
             "path":"data-science-artificial-intelligence",
 
       "sub_categories": [
+        {
+  "course_name": "AI & Machine Learning",
+  "path": "ai-ml-training",
+  "description": "Master Artificial Intelligence and Machine Learning concepts to build intelligent systems using Python, data science, deep learning, and advanced ML techniques with real-world applications.",
+  "what_youll_learn": [
+    "Understand the fundamentals of Artificial Intelligence, Machine Learning, and Deep Learning",
+    "Differentiate between supervised, unsupervised, and reinforcement learning",
+    "Apply mathematical concepts required for AI & ML",
+    "Use Python, NumPy, Pandas, and visualization libraries for data analysis",
+    "Build and evaluate supervised and unsupervised ML models",
+    "Develop deep learning models using neural networks",
+    "Work with CNNs for image processing and RNNs/LSTMs for sequence modeling",
+    "Apply advanced ML techniques including ensemble methods and hyperparameter tuning",
+    "Interpret ML models using explainability tools",
+    "Implement reinforcement learning algorithms for real-world problems"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to AI & ML",
+      "subtopics": [
+        "What is Artificial Intelligence (AI)?",
+        "Differences between AI, Machine Learning, and Deep Learning",
+        "Real-world applications of AI & ML",
+        "Categories of learning: Supervised, Unsupervised, and Reinforcement Learning",
+        "Evolution and history of AI"
+      ]
+    },
+    {
+      "module": "Mathematics for AI & ML",
+      "subtopics": [
+        "Linear Algebra: vectors, matrices, and matrix operations",
+        "Probability and Statistics fundamentals",
+        "Calculus basics: derivatives and gradients",
+        "Optimization techniques: Gradient Descent and loss functions",
+        "Eigenvalues and Eigenvectors",
+        "Data distributions, sampling, and variance"
+      ]
+    },
+    {
+      "module": "Python for AI & ML",
+      "subtopics": [
+        "Python programming basics and core concepts",
+        "NumPy and Pandas for data manipulation",
+        "Data visualization using Matplotlib and Seaborn",
+        "Data cleaning, preprocessing, and exploratory data analysis (EDA)",
+        "Introduction to scikit-learn"
+      ]
+    },
+    {
+      "module": "Supervised Learning",
+      "subtopics": [
+        "Linear Regression and Logistic Regression",
+        "Decision Trees and Random Forests",
+        "Support Vector Machines (SVM)",
+        "k-Nearest Neighbors (kNN)",
+        "Overfitting, Underfitting, and Bias-Variance tradeoff",
+        "Model evaluation metrics"
+      ]
+    },
+    {
+      "module": "Unsupervised Learning",
+      "subtopics": [
+        "Clustering techniques: K-Means, Hierarchical, and DBSCAN",
+        "Dimensionality Reduction: PCA and t-SNE",
+        "Association rule mining",
+        "Anomaly detection and outlier analysis"
+      ]
+    },
+    {
+      "module": "Deep Learning & Neural Networks",
+      "subtopics": [
+        "Neural network basics: Perceptron and Multi-Layer Perceptron",
+        "Activation functions: ReLU, Sigmoid, Softmax, and others",
+        "Backpropagation and optimization techniques",
+        "Deep learning frameworks: TensorFlow, Keras, and PyTorch",
+        "Convolutional Neural Networks (CNNs) for image processing",
+        "Recurrent Neural Networks (RNNs) and LSTMs for sequence and text modeling"
+      ]
+    },
+    {
+      "module": "Advanced Machine Learning Techniques",
+      "subtopics": [
+        "Ensemble methods: Bagging, Boosting, XGBoost, and LightGBM",
+        "Feature engineering and feature selection",
+        "Hyperparameter tuning using Grid Search and Random Search",
+        "Model interpretability using SHAP and LIME",
+        "Transfer learning with pre-trained models",
+        "Handling imbalanced datasets"
+      ]
+    },
+    {
+      "module": "Reinforcement Learning",
+      "subtopics": [
+        "Reinforcement learning fundamentals: agents, states, actions, and rewards",
+        "Q-Learning algorithms",
+        "Deep Q-Networks (DQN)",
+        "Policy gradient methods",
+        "Applications of reinforcement learning in gaming, robotics, and finance"
+      ]
+    }
+  ],
+  "duration": "40-50 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "../CourseDetails/ai-ml.png",
+  "placement_assurance": true,
+  "projects": [
+    "Machine Learning Prediction System",
+    "Deep Learning Image Classification Model",
+    "Natural Language Processing Application",
+    "Reinforcement Learning-Based Decision System"
+  ]
+},
           {
           "course_name": "SoapUI",
           "path": "soap-ui-online-training",
@@ -11809,6 +11921,72 @@
 
       "sub_categories": [
         {
+  "course_name": "AR & VR Technologies",
+  "path": "ar-vr-technologies-training",
+  "description": "Learn Augmented Reality (AR) and Virtual Reality (VR) technologies to design, develop, and deploy immersive applications using Unity 3D, 3D assets, and modern AR/VR platforms.",
+  "what_youll_learn": [
+    "Create and edit visual assets using image-editing software",
+    "Design and develop 3D elements using professional 3D tools",
+    "Build immersive VR applications and games using Unity 3D",
+    "Develop interactive AR and VR applications with real-time behavior",
+    "Create AR-based mobile applications",
+    "Build VR simulation applications",
+    "Integrate AR applications with backend systems",
+    "Understand client-server architecture and web services",
+    "Deploy and publish AR and VR applications on multiple platforms",
+    "Extend Unity functionality using plugins and custom editor tools"
+  ],
+  "syllabus": [
+    {
+      "module": "AR & VR Design Fundamentals",
+      "subtopics": [
+        "Using image-editing software for AR/VR assets",
+        "Creating 3D elements using 3D modeling software",
+        "Designing UI for VR applications using Unity 3D",
+        "Developing a basic VR game"
+      ]
+    },
+    {
+      "module": "AR & VR Application Development",
+      "subtopics": [
+        "Collecting, visualizing, and creating assets for AR and VR applications",
+        "Adding interactivity using a game engine",
+        "Building mobile applications using AR technologies",
+        "Developing VR simulation applications"
+      ]
+    },
+    {
+      "module": "Backend Integration & Deployment",
+      "subtopics": [
+        "Understanding client-server architecture",
+        "Working with web services",
+        "Integrating AR applications with backend systems",
+        "Data validation techniques",
+        "Deploying and publishing applications across platforms"
+      ]
+    },
+    {
+      "module": "Advanced Unity & AR/VR Development",
+      "subtopics": [
+        "Developing custom editor tools",
+        "Extending Unity functionality using plugins",
+        "Building and deploying AR applications",
+        "Building and deploying VR applications"
+      ]
+    }
+  ],
+  "duration": "30-40 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/ar-vr.png",
+  "placement_assurance": true,
+  "projects": [
+    "VR Game Development Project",
+    "AR Mobile Application",
+    "VR Simulation Application",
+    "AR/VR Deployment Project"
+  ]
+},
+        {
           "course_name": "UI and UX",
           "path": "ui-and-ux-online-training",
           "description": "Master UI/UX design principles to create user-friendly interfaces.",
@@ -11937,6 +12115,62 @@
           "placement_assurance": true,
           "projects": ["CRM Implementation", "Sales Automation"]
         },{
+  "course_name": "Appian Online Training",
+  "path": "appian-online-training",
+  "description": "Master Appian BPM to design, build, and deploy low-code business process automation applications with hands-on, real-world projects.",
+  "what_youll_learn": [
+    "Understand Appian BPM concepts, architecture, and certifications",
+    "Create and manage Custom Data Types (CDT)",
+    "Design secure process models using workflows, nodes, and smart services",
+    "Build rich SAIL interfaces with layouts, grids, charts, and forms",
+    "Work with records, reports, tempo, sites, and Appian administration",
+    "Integrate external systems using web services and web APIs",
+    "Use plugins and integrations for enterprise systems",
+    "Plan, build, debug, and monitor Appian process models",
+    "Manage users, groups, security, and application objects",
+    "Deploy applications using Appian best practices"
+  ],
+  "syllabus": [
+    {
+      "module": "Concepts for Appian",
+      "subtopics": [
+        "Introduction to Appian BPM, communities, and certifications",
+        "Custom Data Types (CDT)",
+        "Process models, workflow details, Appian nodes, and smart services",
+        "SAIL interface concepts: layouts, functions, editable grids, paging grids, and charts",
+        "Records, Reports, Tempo, Sites, and Appian Administration",
+        "Web services and Web APIs",
+        "Plugins and integrations with other systems",
+        "Appian versions overview",
+        "Hands-on end-user exercises",
+        "Appian community site and forums",
+        "Designer interface overview (rules, groups, and applications)",
+        "Planning a process model",
+        "Creating a high-level process diagram",
+        "Creating group hierarchy and adding members",
+        "Creating constants and expression rules",
+        "Creating and adding objects to an application",
+        "Configuring process model properties",
+        "Adding process variables",
+        "Editing a start form",
+        "Debugging a process",
+        "Applying process model security",
+        "Configuring a user input task node",
+        "Understanding data flow between nodes",
+        "Monitoring an inflight process"
+      ]
+    }
+  ],
+  "duration": "35-45 hours",
+  "skill_level": "Intermediate",
+  "image": "../CourseDetails/appian.png",
+  "placement_assurance": true,
+  "projects": [
+    "Business Process Automation Application",
+    "SAIL Interface Design with Records and Reports",
+    "System Integration using Web APIs"
+  ]
+},{
   "course_name": "Primavera P6",
   "path": "primavera-p6-online-training",
   "description": "Master Primavera P6 for enterprise-level project planning, scheduling, resource allocation, and project control.",
