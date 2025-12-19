@@ -1,177 +1,90 @@
-"use client";
+import React, { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import React from "react";
-import Link from "next/link";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./RelatedCourses.css";
-import {
-  FaChevronLeft,
-  FaChevronRight,
-  FaJava,
-  FaPython,
-  FaJs,
-  FaPhp,
-  FaNodeJs,
-  FaReact,
-  FaMicrosoft,
-  FaAws,
-  FaShieldAlt,
-  FaLock,
-  FaDatabase,
-  FaChartLine,
-  FaLaptopCode,
-  FaServer,
-  FaWordpress,
-  FaAngular,
-  FaHtml5,
-  FaCss3Alt,
-  FaSalesforce,
-  FaGitAlt,
-  FaRobot,
-  FaAd,
-  FaFileExcel,
-  FaPaintBrush,
-  FaCode,
-  FaUserTie,
-  FaCogs,
-  FaCloud,
-  FaProjectDiagram,
-  FaSearch,
-  FaBolt,
-  FaTerminal,
-  FaUsers,
-  FaFileCode,
-  FaTable,
-  FaNetworkWired,
-} from "react-icons/fa";
+const RelatedCoursesSlider = ({ currentCourseName = "", courseType = "all" }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [slidesToShow, setSlidesToShow] = useState(4);
 
-const RelatedCoursesSlider = ({ currentCourseName, courseType = "all" }) => {
-  // Define all courses with categories and icons (using only Fa icons)
+  // All courses with categories
   const allCourses = [
-    { name: "Java", category: "Programming", icon: <FaJava /> },
-    { name: "Python", category: "Programming", icon: <FaPython /> },
-    { name: "R Programming", category: "Programming", icon: <FaChartLine /> },
-    { name: "JavaScript", category: "Web Dev", icon: <FaJs /> },
-    { name: "PHP", category: "Web Dev", icon: <FaPhp /> },
-    { name: "Full Stack", category: "Web Dev", icon: <FaLaptopCode /> },
-    { name: "Node.js", category: "Web Dev", icon: <FaNodeJs /> },
-    { name: "ReactJS", category: "Frontend", icon: <FaReact /> },
-    { name: "Microsoft Azure", category: "Cloud", icon: <FaMicrosoft /> },
-    { name: "AWS", category: "Cloud", icon: <FaAws /> },
-    { name: "DevOps", category: "DevOps", icon: <FaServer /> },
-    { name: "Cyber Security", category: "Security", icon: <FaShieldAlt /> },
-    { name: "Ethical Hacking", category: "Security", icon: <FaLock /> },
-    { name: "Selenium", category: "Testing", icon: <FaCode /> }, // Alternative
-    { name: "Manual Testing Course", category: "Testing", icon: <FaSearch /> }, // Alternative
-    { name: "JMeter Course", category: "Testing", icon: <FaBolt /> }, // Alternative
-    { name: "ETL Testing", category: "Testing", icon: <FaDatabase /> },
-    { name: "LoadRunner", category: "Testing", icon: <FaNetworkWired /> }, // Alternative
-    { name: "SoapUI", category: "Testing", icon: <FaCode /> }, // Alternative
-    {
-      name: "Data Science Course",
-      category: "Data Science",
-      icon: <FaDatabase />,
-    },
-    { name: "Artificial Intelligence", category: "AI/ML", icon: <FaRobot /> },
-    { name: "Digital Marketing", category: "Marketing", icon: <FaAd /> },
-    { name: "Excel", category: "Office", icon: <FaFileExcel /> },
-    { name: "HTML", category: "Web Dev", icon: <FaHtml5 /> },
-    { name: "UI and UX", category: "Design", icon: <FaPaintBrush /> }, // Alternative
-    { name: "Salesforce", category: "CRM", icon: <FaSalesforce /> },
-    { name: "C Sharp", category: "Programming", icon: <FaCode /> }, // Alternative
-    { name: "UNIX SHELL Scripting", category: "DevOps", icon: <FaTerminal /> }, // Alternative
-    { name: "Workday HCM", category: "HR", icon: <FaUsers /> }, // Alternative
-    {
-      name: "Salesforce Online Training",
-      category: "CRM",
-      icon: <FaSalesforce />,
-    },
-    { name: "Salesforce Developer", category: "CRM", icon: <FaSalesforce /> },
-    { name: "Azure DevOps", category: "DevOps", icon: <FaMicrosoft /> },
-    { name: "Angular", category: "Frontend", icon: <FaAngular /> },
-    { name: "WordPress", category: "CMS", icon: <FaWordpress /> },
-    { name: "CSS Online", category: "Web Dev", icon: <FaCss3Alt /> },
-    {
-      name: "Data Science With Python",
-      category: "Data Science",
-      icon: <FaPython />,
-    },
-    {
-      name: "Machine Learning with Python",
-      category: "AI/ML",
-      icon: <FaPython />,
-    },
-    {
-      name: "Machine Learning using R",
-      category: "AI/ML",
-      icon: <FaChartLine />,
-    },
-    { name: "MySQL", category: "Database", icon: <FaDatabase /> },
-    { name: "SQL with PHP", category: "Database", icon: <FaPhp /> },
-    { name: "Microsoft Dynamics 365", category: "ERP", icon: <FaMicrosoft /> },
-    { name: "Microsoft Excel", category: "Office", icon: <FaFileExcel /> },
-    { name: "Excel Macros and VBA", category: "Office", icon: <FaFileCode /> }, // Alternative
-    { name: "jQuery", category: "Web Dev", icon: <FaCode /> }, // Alternative
+    { name: "Java", category: "Programming" },
+    { name: "Python", category: "Programming" },
+    { name: "R Programming", category: "Programming" },
+    { name: "JavaScript", category: "Web Dev" },
+    { name: "PHP", category: "Web Dev" },
+    { name: "Full Stack", category: "Web Dev" },
+    { name: "Node.js", category: "Web Dev" },
+    { name: "ReactJS", category: "Frontend" },
+    { name: "Microsoft Azure", category: "Cloud" },
+    { name: "AWS", category: "Cloud" },
+    { name: "DevOps", category: "DevOps" },
+    { name: "Cyber Security", category: "Security" },
+    { name: "Ethical Hacking", category: "Security" },
+    { name: "Selenium", category: "Testing" },
+    { name: "Manual Testing Course", category: "Testing" },
+    { name: "JMeter Course", category: "Testing" },
+    { name: "ETL Testing", category: "Testing" },
+    { name: "LoadRunner", category: "Testing" },
+    { name: "SoapUI", category: "Testing" },
+    { name: "Data Science Course", category: "Data Science" },
+    { name: "Artificial Intelligence", category: "AI/ML" },
+    { name: "Digital Marketing", category: "Marketing" },
+    { name: "Excel", category: "Office" },
+    { name: "HTML", category: "Web Dev" },
+    { name: "UI and UX", category: "Design" },
+    { name: "Salesforce", category: "CRM" },
+    { name: "C Sharp", category: "Programming" },
+    { name: "UNIX SHELL Scripting", category: "DevOps" },
+    { name: "Workday HCM", category: "HR" },
+    { name: "Salesforce Online Training", category: "CRM" },
+    { name: "Salesforce Developer", category: "CRM" },
+    { name: "Azure DevOps", category: "DevOps" },
+    { name: "Angular", category: "Frontend" },
+    { name: "WordPress", category: "CMS" },
+    { name: "CSS Online", category: "Web Dev" },
+    { name: "Data Science With Python", category: "Data Science" },
+    { name: "Machine Learning with Python", category: "AI/ML" },
+    { name: "Machine Learning using R", category: "AI/ML" },
+    { name: "MySQL", category: "Database" },
+    { name: "SQL with PHP", category: "Database" },
+    { name: "Microsoft Dynamics 365", category: "ERP" },
+    { name: "Microsoft Excel", category: "Office" },
+    { name: "Excel Macros and VBA", category: "Office" },
+    { name: "jQuery", category: "Web Dev" },
   ];
 
-  // Rest of your component remains the same...
-  const courses = allCourses;
-  const filteredCourses = courses
+  const filteredCourses = allCourses
     .filter((course) => course.name !== currentCourseName)
     .slice(0, 12);
-const CustomPrevArrow = ({ currentSlide, slideCount, ...props }) => (
-  <button
-    {...props} // ✅ only safe DOM props spread
-    className="rcs-arrow rcs-arrow-prev"
-    aria-label="Previous course"
-  >
-    <FaChevronLeft />
-  </button>
-);
 
-const CustomNextArrow = ({ currentSlide, slideCount, ...props }) => (
-  <button
-    {...props}
-    className="rcs-arrow rcs-arrow-next"
-    aria-label="Next course"
-  >
-    <FaChevronRight />
-  </button>
-);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 640) {
+        setSlidesToShow(1);
+      } else if (window.innerWidth < 900) {
+        setSlidesToShow(2);
+      } else if (window.innerWidth < 1200) {
+        setSlidesToShow(3);
+      } else {
+        setSlidesToShow(4);
+      }
+    };
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const nextSlide = () => {
+    setCurrentIndex((prev) => 
+      prev + slidesToShow >= filteredCourses.length ? 0 : prev + 1
+    );
+  };
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => 
+      prev === 0 ? Math.max(0, filteredCourses.length - slidesToShow) : prev - 1
+    );
   };
 
   const getCoursePath = (courseName) => {
@@ -180,123 +93,248 @@ const CustomNextArrow = ({ currentSlide, slideCount, ...props }) => (
 
   const getCategoryColor = (category) => {
     const colors = {
-      Programming: "#2563eb",
-      "Web Dev": "#3b82f6",
-      Frontend: "#6366f1",
-      Cloud: "#8b5cf6",
-      DevOps: "#ec4899",
-      Security: "#f43f5e",
-      Testing: "#f97316",
-      "Data Science": "#10b981",
-      "AI/ML": "#06b6d4",
-      Marketing: "#0ea5e9",
-      Office: "#14b8a6",
-      Design: "#64748b",
-      CRM: "#a855f7",
-      HR: "#f59e0b",
-      ERP: "#84cc16",
-      Database: "#ef4444",
-      CMS: "#22d3ee",
+      Programming: "bg-blue-600",
+      "Web Dev": "bg-blue-500",
+      Frontend: "bg-indigo-600",
+      Cloud: "bg-purple-600",
+      DevOps: "bg-pink-600",
+      Security: "bg-rose-600",
+      Testing: "bg-orange-600",
+      "Data Science": "bg-emerald-600",
+      "AI/ML": "bg-cyan-600",
+      Marketing: "bg-sky-600",
+      Office: "bg-teal-600",
+      Design: "bg-slate-600",
+      CRM: "bg-violet-600",
+      HR: "bg-amber-600",
+      ERP: "bg-lime-600",
+      Database: "bg-red-600",
+      CMS: "bg-cyan-500",
     };
-    return colors[category] || "#1a2a6c";
+    return colors[category] || "bg-blue-800";
   };
 
+  const getCategoryColorText = (category) => {
+    const colors = {
+      Programming: "text-blue-600",
+      "Web Dev": "text-blue-500",
+      Frontend: "text-indigo-600",
+      Cloud: "text-purple-600",
+      DevOps: "text-pink-600",
+      Security: "text-rose-600",
+      Testing: "text-orange-600",
+      "Data Science": "text-emerald-600",
+      "AI/ML": "text-cyan-600",
+      Marketing: "text-sky-600",
+      Office: "text-teal-600",
+      Design: "text-slate-600",
+      CRM: "text-violet-600",
+      HR: "text-amber-600",
+      ERP: "text-lime-600",
+      Database: "text-red-600",
+      CMS: "text-cyan-500",
+    };
+    return colors[category] || "text-blue-800";
+  };
+
+  const getCategoryColorBg = (category) => {
+    const colors = {
+      Programming: "bg-blue-100",
+      "Web Dev": "bg-blue-50",
+      Frontend: "bg-indigo-100",
+      Cloud: "bg-purple-100",
+      DevOps: "bg-pink-100",
+      Security: "bg-rose-100",
+      Testing: "bg-orange-100",
+      "Data Science": "bg-emerald-100",
+      "AI/ML": "bg-cyan-100",
+      Marketing: "bg-sky-100",
+      Office: "bg-teal-100",
+      Design: "bg-slate-100",
+      CRM: "bg-violet-100",
+      HR: "bg-amber-100",
+      ERP: "bg-lime-100",
+      Database: "bg-red-100",
+      CMS: "bg-cyan-50",
+    };
+    return colors[category] || "bg-blue-100";
+  };
+
+  const getCourseDescription = (name, category) => {
+    const descriptions = {
+      Programming: `Master ${name} programming with comprehensive training covering fundamentals to advanced concepts.`,
+      "Web Dev": `Learn ${name} to build modern, responsive websites and web applications.`,
+      Frontend: `Develop interactive user interfaces with ${name} framework.`,
+      Cloud: `Become proficient in ${name} cloud services and infrastructure.`,
+      DevOps: `Automate and streamline your development workflow with ${name} tools.`,
+      Security: `Learn ${name} techniques to protect systems and networks from cyber threats.`,
+      Testing: `Master ${name} for comprehensive software testing and quality assurance.`,
+      "Data Science": `Analyze and visualize data with ${name} tools and techniques.`,
+      "AI/ML": `Build intelligent systems using ${name} algorithms and models.`,
+      Marketing: `Grow your business with effective ${name} strategies and tools.`,
+      Office: `Boost your productivity with advanced ${name} skills.`,
+      Design: `Create beautiful user experiences with ${name} design principles.`,
+      CRM: `Manage customer relationships effectively with ${name} platform.`,
+      HR: `Streamline HR processes with ${name} human capital management.`,
+      ERP: `Optimize business processes with ${name} enterprise resource planning.`,
+      Database: `Design and manage databases efficiently with ${name}.`,
+      CMS: `Build professional websites with ${name} content management system.`,
+    };
+    return descriptions[category] || `Comprehensive training course for ${name}.`;
+  };
+
+  const getCategoryIcon = (category) => {
+    const icons = {
+      Programming: "💻",
+      "Web Dev": "🌐",
+      Frontend: "🎨",
+      Cloud: "☁️",
+      DevOps: "⚙️",
+      Security: "🔒",
+      Testing: "🧪",
+      "Data Science": "📊",
+      "AI/ML": "🤖",
+      Marketing: "📱",
+      Office: "📈",
+      Design: "🎨",
+      CRM: "👥",
+      HR: "👔",
+      ERP: "🏢",
+      Database: "🗄️",
+      CMS: "📝",
+    };
+    return icons[category] || "📚";
+  };
+
+  const visibleCourses = filteredCourses.slice(currentIndex, currentIndex + slidesToShow);
+
   return (
-    <section className="rcs-section">
-      <div className="rcs-container">
-        <div className="rcs-header">
-          <h2>Explore Our Courses</h2>
-          <p>Discover the perfect course to advance your career</p>
+    <section className="bg-gradient-to-br from-blue-50 via-white to-blue-50 py-12 sm:py-16 lg:py-20 px-4">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-10 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 mb-3">
+            Explore Our <span className="text-blue-600">Courses</span>
+          </h2>
+          <p className="text-base sm:text-lg text-gray-600">
+            Discover the perfect course to advance your career
+          </p>
         </div>
 
-        <div className="rcs-slider-wrapper">
-          <Slider {...settings} className="rcs-slider">
-            {filteredCourses.map((course, index) => {
-              const categoryColor = getCategoryColor(course.category);
-              return (
-                <div key={index} className="rcs-slide">
-                  <div className="rcs-card">
-                    <div
-                      className="rcs-card-header-bg"
-                      style={{ backgroundColor: categoryColor }}
-                    ></div>
-                    <div className="rcs-card-content">
-                      <div className="rcs-card-header">
-                        <span
-                          className="rcs-card-icon"
-                          style={{ color: categoryColor }}
-                        >
-                          {course.icon}
-                        </span>
-                        <span
-                          className="rcs-card-category"
-                          style={{
-                            backgroundColor: `${categoryColor}20`,
-                            color: categoryColor,
-                          }}
-                        >
-                          {course.category}
-                        </span>
-                      </div>
-                      <div className="rcs-card-body">
-                        <h3>{course.name}</h3>
-                        <p className="rcs-card-description">
-                          {getCourseDescription(course.name, course.category)}
-                        </p>
-                      </div>
-                      <div className="rcs-card-footer">
-                        <Link
-                          href={getCoursePath(course.name)}
-                          className="rcs-button"
-                          style={{
-                            backgroundColor: categoryColor,
-                            borderColor: categoryColor,
-                          }}
-                        >
-                          View Course
-                        </Link>
-                      </div>
+        {/* Slider Container */}
+        <div className="relative px-4 sm:px-12 lg:px-16">
+          {/* Navigation Buttons */}
+          <button
+            onClick={prevSlide}
+            className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white shadow-lg items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-100"
+            aria-label="Previous course"
+          >
+            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
+
+          <button
+            onClick={nextSlide}
+            className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white shadow-lg items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-100"
+            aria-label="Next course"
+          >
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
+
+          {/* Course Cards Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {visibleCourses.map((course, index) => (
+              <div
+                key={index}
+                className="group bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:scale-105"
+              >
+                {/* Card Header with Color Strip */}
+                <div className={`h-2 ${getCategoryColor(course.category)}`}></div>
+
+                <div className="p-6">
+                  {/* Icon and Category */}
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="text-4xl group-hover:scale-110 transition-transform duration-300">
+                      {getCategoryIcon(course.category)}
                     </div>
+                    <span
+                      className={`text-xs font-semibold px-3 py-1 rounded-full ${getCategoryColorBg(course.category)} ${getCategoryColorText(course.category)}`}
+                    >
+                      {course.category}
+                    </span>
                   </div>
+
+                  {/* Course Name */}
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 line-clamp-2 min-h-[3.5rem]">
+                    {course.name}
+                  </h3>
+
+                  {/* Description */}
+                  <p className="text-sm text-gray-600 mb-6 line-clamp-3 leading-relaxed">
+                    {getCourseDescription(course.name, course.category)}
+                  </p>
+
+                  {/* CTA Button */}
+                  <a
+                    href={getCoursePath(course.name)}
+                    className={`block w-full text-center ${getCategoryColor(course.category)} text-white font-semibold py-3 px-4 rounded-lg hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg`}
+                  >
+                    View Course
+                  </a>
                 </div>
-              );
-            })}
-          </Slider>
+              </div>
+            ))}
+          </div>
+
+          {/* Mobile Navigation */}
+          <div className="flex sm:hidden justify-center items-center gap-4 mt-8">
+            <button
+              onClick={prevSlide}
+              className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors shadow-md"
+              aria-label="Previous course"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <span className="text-sm text-gray-600 font-medium">
+              {currentIndex + 1} / {filteredCourses.length}
+            </span>
+            <button
+              onClick={nextSlide}
+              className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors shadow-md"
+              aria-label="Next course"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
         </div>
 
-        <div className="rcs-footer">
-          <Link href="/courses" className="rcs-browse-all">
+        {/* Dots Indicator */}
+        <div className="hidden sm:flex justify-center gap-2 mt-10">
+          {Array.from({ length: Math.ceil(filteredCourses.length / slidesToShow) }).map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setCurrentIndex(idx * slidesToShow)}
+              className={`h-2 rounded-full transition-all ${
+                Math.floor(currentIndex / slidesToShow) === idx
+                  ? "bg-blue-600 w-8"
+                  : "bg-blue-200 w-2 hover:bg-blue-300"
+              }`}
+              aria-label={`Go to slide ${idx + 1}`}
+            />
+          ))}
+        </div>
+
+        {/* Browse All Link */}
+        <div className="text-center mt-10 sm:mt-12">
+          <a
+            href="/courses"
+            className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
+          >
             Browse All Courses
-          </Link>
+          </a>
         </div>
       </div>
     </section>
   );
-};
-
-// Helper function to generate descriptions
-const getCourseDescription = (name, category) => {
-  const descriptions = {
-    Programming: `Master ${name} programming with our comprehensive course covering fundamentals to advanced concepts.`,
-    "Web Dev": `Learn ${name} to build modern, responsive websites and web applications.`,
-    Frontend: `Develop interactive user interfaces with ${name} framework.`,
-    Cloud: `Become proficient in ${name} cloud services and infrastructure.`,
-    DevOps: `Automate and streamline your development workflow with ${name} tools.`,
-    Security: `Learn ${name} techniques to protect systems and networks from cyber threats.`,
-    Testing: `Master ${name} for comprehensive software testing and quality assurance.`,
-    "Data Science": `Analyze and visualize data with ${name} tools and techniques.`,
-    "AI/ML": `Build intelligent systems using ${name} algorithms and models.`,
-    Marketing: `Grow your business with effective ${name} strategies and tools.`,
-    Office: `Boost your productivity with advanced ${name} skills.`,
-    Design: `Create beautiful user experiences with ${name} design principles.`,
-    CRM: `Manage customer relationships effectively with ${name} platform.`,
-    HR: `Streamline HR processes with ${name} human capital management.`,
-    ERP: `Optimize business processes with ${name} enterprise resource planning.`,
-    Database: `Design and manage databases efficiently with ${name}.`,
-    CMS: `Build professional websites with ${name} content management system.`,
-  };
-
-  return descriptions[category] || `Comprehensive training course for ${name}.`;
 };
 
 export default RelatedCoursesSlider;
