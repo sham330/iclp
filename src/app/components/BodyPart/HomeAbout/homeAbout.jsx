@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from 'react';
-import { FaLightbulb, FaUserTie, FaHandsHelping, FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+import { FaLightbulb, FaUserTie, FaHandsHelping, FaArrowRight, FaCheckCircle, FaUserCheck, FaBriefcase } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 
 const HomeAbout = () => {
@@ -83,7 +83,21 @@ const HomeAbout = () => {
       title: "Personalized", 
       text: "Tailored programs for your goals",
       color: "from-amber-500 to-amber-600"
-    }
+    },
+    { 
+  icon: <FaUserCheck />, 
+  title: "Mock Interviews", 
+  text: "Real-time interview practice with expert feedback",
+  color: "from-blue-500 to-blue-600"
+},
+{ 
+  icon: <FaBriefcase />, 
+  title: "Placement Support", 
+  text: "Dedicated guidance to help you secure the right job",
+  color: "from-emerald-500 to-emerald-600"
+}
+
+
   ];
 
   const sectionRef = useRef(null);

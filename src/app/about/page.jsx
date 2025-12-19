@@ -74,7 +74,7 @@ const CompanyScreen = () => {
             </li>
             <li className="flex items-center gap-3 text-slate-700">
               <FaShieldAlt className="text-[#39FF14] flex-shrink-0" />
-              <span>Proven track record since 2015</span>
+              <span>Proven track record since 2025</span>
             </li>
           </ul>
         </>
@@ -578,7 +578,7 @@ const CompanyScreen = () => {
       </section>
 
       {/* CTA Section - Yale Blue with Neon Green Accent */}
-      <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-24">
+      <section className="bg-white py-24">
         <motion.div
           className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -586,10 +586,10 @@ const CompanyScreen = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-5xl font-bold text-white mb-6">
+          <h2 className="text-5xl font-bold text-[#01377d] mb-6">
             Ready to Start Your Tech Journey?
           </h2>
-          <p className="text-xl text-[#97e7f5] mb-10">
+          <p className="text-xl text-slate-700 mb-10">
             Join our next cohort and transform your career in weeks
           </p>
           <motion.button

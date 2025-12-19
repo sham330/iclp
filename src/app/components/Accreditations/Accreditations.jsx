@@ -3,7 +3,7 @@ import SEO from "../SEO/SEO";
 
 const Accreditations = () => {
   return (
-    <div className="relative py-20 lg:py-28 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden ">
+    <div className="relative py-16 lg:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
       <SEO
         title="ISO & Pearson Accredited Online Courses – Learn with Certified Experts"
         description="Enroll in ISO and Pearson accredited online courses across various categories including Programming (Java, Python, JavaScript), Data Science, AI, SAP, Oracle, and more. Gain certified expertise with flexible schedules, time and money-saving options, and expert support through our user-friendly chatbot. Get the best of knowledge, certification, and career advancement from our accredited courses!"
@@ -25,12 +25,11 @@ const Accreditations = () => {
       </div>
 
       {/* Elegant Top Border */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500/40 to-transparent"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        {/* Header Section */}
-        <div className="text-center mb-16 space-y-6">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        {/* Header Section - Reduced spacing */}
+        <div className="text-center mb-12 space-y-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-white">
             Our{" "}
             <span className="text-transparent bg-clip-text bg-white">
               Accreditations
@@ -38,39 +37,40 @@ const Accreditations = () => {
           </h2>
           
           {/* Decorative Divider */}
-          <div className="flex items-center justify-center gap-4">
-            <div className="h-px w-32 bg-gradient-to-r from-transparent via-red-500/50 to-amber-500/50"></div>
-            <div className="flex gap-2">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+          <div className="flex items-center justify-center gap-3">
+            <div className="h-px w-24 bg-gradient-to-r from-transparent via-red-500/50 to-amber-500/50"></div>
+            <div className="flex gap-1.5">
+              <div className="w-1.5 h-1.5 bg-red-500 rounded-full"></div>
+              <div className="w-1.5 h-1.5 bg-amber-500 rounded-full"></div>
+              <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
             </div>
-            <div className="h-px w-32 bg-gradient-to-l from-transparent via-amber-500/50 to-emerald-500/50"></div>
+            <div className="h-px w-24 bg-gradient-to-l from-transparent via-amber-500/50 to-emerald-500/50"></div>
           </div>
 
-          <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+          <p className="text-slate-300 text-base max-w-2xl mx-auto">
             Recognized and certified by leading global standards organizations
           </p>
         </div>
 
-        {/* Accreditation Logos */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+        {/* Accreditation Logos - Reduced Size */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Pearson Logo */}
           <div className="group relative">
             {/* Festive Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-br from-red-500/20 via-amber-500/20 to-emerald-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-br from-red-500/20 via-amber-500/20 to-emerald-500/20 rounded-xl blur-lg opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
             
-            {/* Card */}
-            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-amber-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-amber-500/10">
-              {/* Corner Accents */}
-              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-amber-400/30 rounded-tr-2xl"></div>
-              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-red-400/30 rounded-bl-2xl"></div>
+            {/* Card - Reduced padding */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 border-2 border-slate-700 group-hover:border-amber-500/50 transition-all duration-300 shadow-lg group-hover:shadow-xl group-hover:shadow-amber-500/10">
+              {/* Corner Accents - Smaller */}
+              <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-amber-400/30 rounded-tr-xl"></div>
+              <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-red-400/30 rounded-bl-xl"></div>
               
-              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+              {/* Image container - Reduced size */}
+              <div className="relative bg-white rounded-lg p-2 flex items-center justify-center min-h-[120px] group-hover:scale-105 transition-transform duration-300">
                 <img
                   src="/Pearson.jpg"
                   alt="Pearson Accreditation"
-                  className="max-w-full h-auto max-h-[140px] object-contain"
+                  className="max-w-full h-auto max-h-[100px] object-contain"
                 />
               </div>
             </div>
@@ -79,19 +79,20 @@ const Accreditations = () => {
           {/* ISO Logo */}
           <div className="group relative">
             {/* Festive Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-br from-emerald-500/20 via-amber-500/20 to-red-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-br from-emerald-500/20 via-amber-500/20 to-red-500/20 rounded-xl blur-lg opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
             
-            {/* Card */}
-            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-red-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-red-500/10">
-              {/* Corner Accents */}
-              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-emerald-400/30 rounded-tr-2xl"></div>
-              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-amber-400/30 rounded-bl-2xl"></div>
+            {/* Card - Reduced padding */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 border-2 border-slate-700 group-hover:border-red-500/50 transition-all duration-300 shadow-lg group-hover:shadow-xl group-hover:shadow-red-500/10">
+              {/* Corner Accents - Smaller */}
+              <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-emerald-400/30 rounded-tr-xl"></div>
+              <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-amber-400/30 rounded-bl-xl"></div>
               
-              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+              {/* Image container - Reduced size */}
+              <div className="relative bg-white rounded-lg p-2 flex items-center justify-center min-h-[120px] group-hover:scale-105 transition-transform duration-300">
                 <img
                   src="/ISO.jpg"
                   alt="ISO Accreditation"
-                  className="max-w-full h-auto max-h-[140px] object-contain"
+                  className="max-w-full h-auto max-h-[100px] object-contain"
                 />
               </div>
             </div>
@@ -100,19 +101,20 @@ const Accreditations = () => {
           {/* MSME Logo */}
           <div className="group relative sm:col-span-2 lg:col-span-1">
             {/* Festive Glow Effect */}
-            <div className="absolute -inset-1 bg-gradient-to-br from-amber-500/20 via-red-500/20 to-emerald-500/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-br from-amber-500/20 via-red-500/20 to-emerald-500/20 rounded-xl blur-lg opacity-50 group-hover:opacity-100 transition-all duration-500"></div>
             
-            {/* Card */}
-            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-slate-700 group-hover:border-emerald-500/50 transition-all duration-300 shadow-xl group-hover:shadow-2xl group-hover:shadow-emerald-500/10">
-              {/* Corner Accents */}
-              <div className="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-red-400/30 rounded-tr-2xl"></div>
-              <div className="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-emerald-400/30 rounded-bl-2xl"></div>
+            {/* Card - Reduced padding */}
+            <div className="relative bg-slate-800/80 backdrop-blur-sm rounded-xl p-4 border-2 border-slate-700 group-hover:border-emerald-500/50 transition-all duration-300 shadow-lg group-hover:shadow-xl group-hover:shadow-emerald-500/10">
+              {/* Corner Accents - Smaller */}
+              <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-red-400/30 rounded-tr-xl"></div>
+              <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-emerald-400/30 rounded-bl-xl"></div>
               
-              <div className="relative bg-white rounded-xl p-6 flex items-center justify-center min-h-[180px] group-hover:scale-105 transition-transform duration-300">
+              {/* Image container - Reduced size */}
+              <div className="relative bg-white rounded-lg p-2 flex items-center justify-center min-h-[120px] group-hover:scale-105 transition-transform duration-300">
                 <img
                   src="/MSME.jpg"
                   alt="MSME Accreditation"
-                  className="max-w-full h-auto max-h-[140px] object-contain"
+                  className="max-w-full h-auto max-h-[100px] object-contain"
                 />
               </div>
             </div>

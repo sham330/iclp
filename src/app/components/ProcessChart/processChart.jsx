@@ -80,9 +80,7 @@ const ProgramRoadmap = () => {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`flex items-center gap-8 ${
-                  index % 2 === 1 ? "flex-row-reverse" : ""
-                }`}
+                className={`flex items-center gap-8 p-5`}
               >
                 {/* Step Card */}
                 <div className="flex-1">

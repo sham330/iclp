@@ -4,7 +4,7 @@
   align-items: center; /* Better vertical alignment */
   justify-content: space-between;
   padding: 0.3rem 1.2rem; /* Reduced from 0.5rem 1.5rem */
-  background-color: #2c3e50;
+  background-color: #014a9f;
   color: white;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Lighter shadow */
   position: relative;
@@ -287,7 +287,7 @@
   padding: 0.6rem 1rem;
   border: none;
   border-radius: 4px 0 0 4px;
-  background-color: #34495e;
+  background-color: #034f6f;
   color: white;
   font-size: 0.9rem;
   outline: none;
@@ -300,12 +300,12 @@
 }
 
 .search-button {
-  background-color: #3498db;
+  background-color:white;
   border: none;
   border-radius: 0 4px 4px 0;
   padding: 0 1rem;
   cursor: pointer;
-  color: white;
+  color: #014a9f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -438,7 +438,7 @@
 
 .highlight-text {
   font-weight: 700;
-  color: green;
+  color: #014a9f;
 }
 
 @keyframes scroll {
