@@ -7,8 +7,9 @@ import autoTable from "jspdf-autotable";
 import ModalBooking from "@/app/components/ModalBooking/ModalBooking";
 import RelatedCoursesSlider from "@/app/components/RelatedCourses/RelatedCourses";
 import CourseReviews from "@/app/components/CourseReviews/CourseReviews";
-import CourseAdvantagesTools from "@/app/components/CourseAdvantagesTools/CourseAdvantagesTools";
 import CourseFAQs from "@/app/components/faq/faq";
+import CourseAdvantagesTools from "@/app/components/CourseAdvantagesTools/CourseAdvantagesTools";
+import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaChevronDown, FaChevronRight, FaClock, FaDownload, FaGraduationCap, FaPhone, FaShieldAlt, FaStar, FaTrophy, FaUserTie } from "react-icons/fa";
 
 const SapCourseDetailsPage = () => {
   const { courseName } = useParams();
@@ -325,628 +326,534 @@ const SapCourseDetailsPage = () => {
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 
   return (
-      <div className="cdp-container">
-        {/* SEO Meta Tags
-        <Helmet>
-          <title>{course.meta_title || `${course.course_name}`}</title>
-          <meta name="description" content={course.meta_description || `Learn ${course.course_name} with our comprehensive training program`} />
-          <meta property="og:title" content={course.meta_title || `${course.course_name} Training | ICLP`} />
-          <meta property="og:description" content={course.meta_description || `Learn ${course.course_name} with our comprehensive training program`} />
-          <meta name="keywords" content={`${course.course_name}, SAP training, SAP course, SAP certification, ${course.course_name} online training`} />
-          <meta property="og:url" content={window.location.href} />
-  {course.canonical_url && <link rel="canonical" href={course.canonical_url} />}
-        </Helmet> */}
+      <div className="min-h-screen bg-white">
+  {/* Hero Section */}
+  <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="grid lg:grid-cols-2 gap-8 items-start">
+        {/* Left Content */}
+        <div className="text-white">
+          <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
+            SAP TRAINING
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            {course.course_name}
+          </h1>
 
-        
-        
-        {/* Hero Section */}
-        <div className="cdp-hero">
-          <div className="cdp-hero-content">
-            <div className="cdp-hero-left">
-              <span className="cdp-tag">SAP TRAINING</span>
-              <h1>{course.course_name}</h1>
-
-              {/* Star Rating and Learners Count */}
-              <div className="cdp-rating-learners">
-                <div className="cdp-stars">
-                  {[...Array(4)].map((_, i) => (
-                    <svg
-                      key={`full-${i}`}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="#FFD700"
-                    >
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                    </svg>
-                  ))}
-                  {/* Half star */}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="#FFD700"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="half-star"
-                        x1="0"
-                        x2="100%"
-                        y1="0"
-                        y2="0"
-                      >
-                        <stop offset="50%" stopColor="#FFD700" />
-                        <stop offset="50%" stopColor="#DDD" />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      fill="url(#half-star)"
-                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                    />
-                  </svg>
-                  <span>4.8 ({learnerCount.toLocaleString()} learners)</span>
-                </div>
-                <div className="cdp-learners-profiles">
-                  {profilePics.map((pic, index) => (
-                    <div key={index} className="cdp-profile-pic">
-                      <img src={pic} alt={`Learner ${index + 1}`} />
-                    </div>
-                  ))}
-                  <div className="cdp-profile-count">
-                    +{(learnerCount - 3).toLocaleString()}
-                  </div>
-                </div>
-              </div>
-
-              <p className="cdp-hero-description">
-                {additionalContent.courseDescription}
-              </p>
-
-              {/* CTA Button */}
-              <button
-                className="cdp-enroll-btn-hero"
-                onClick={() => setShowBookingModal(true)}
-              >
-                ENROLL NOW
-              </button>
+          {/* Rating and Learners */}
+          <div className="mb-6">
+            <div className="flex items-center gap-2 mb-4">
+              {[...Array(4)].map((_, i) => (
+                <FaStar key={i} className="text-[#39FF14] text-xl" />
+              ))}
+              <FaStar className="text-[#39FF14]/50 text-xl" />
+              <span className="text-[#97e7f5] ml-2">
+                4.8 ({learnerCount.toLocaleString()} learners)
+              </span>
             </div>
 
-            <div className="cdp-hero-right">
-              <div className="cdp-booking-card">
-                <div className="cdp-card-content">
-                  <h3>SAP Course Highlights</h3>
-
-                  <div className="cdp-booking-highlights">
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#314097"
-                      >
-                        <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
-                      </svg>
-                      <span>Real-world SAP Implementation Scenarios</span>
-                    </div>
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#1FAA59"
-                      >
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
-                      </svg>
-                      <span>Hands-on SAP System Access</span>
-                    </div>
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#314097"
-                      >
-                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
-                      </svg>
-                      <span>SAP Certification Preparation</span>
-                    </div>
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#1FAA59"
-                      >
-                        <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
-                      </svg>
-                      <span>Industry Expert Trainers</span>
-                    </div>
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#314097"
-                      >
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.32c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z" />
-                      </svg>
-                      <span>24/7 SAP Expert Support</span>
-                    </div>
-                    <div className="cdp-booking-highlight">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="#1FAA59"
-                      >
-                        <path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" />
-                      </svg>
-                      <span>Placement Assistance</span>
-                    </div>
-                  </div>
-
-                  <div className="cdp-contact-info" style={{backgroundColor: "#1a2a6c", }}>
-                    <p>
-                      For queries: <strong>+91 8681026181</strong>
-                    </p>
-                  </div>
-                </div>
+            {/* Profile Pics */}
+            <div className="flex items-center gap-3">
+              <div className="flex -space-x-3">
+                {profilePics.map((pic, index) => (
+                  <img
+                    key={index}
+                    src={pic}
+                    alt={`Learner ${index + 1}`}
+                    className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+                  />
+                ))}
               </div>
+              <span className="text-[#97e7f5] font-semibold">
+                +{(learnerCount - 3).toLocaleString()} enrolled
+              </span>
             </div>
+          </div>
+
+          <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
+            {additionalContent.courseDescription}
+          </p>
+
+          <button
+            onClick={() => setShowBookingModal(true)}
+            className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+          >
+            ENROLL NOW <FaArrowRight />
+          </button>
+        </div>
+
+        {/* Right Card - Course Highlights */}
+        <div className="bg-white rounded-2xl p-8 shadow-2xl">
+          <h3 className="text-2xl font-bold text-[#01377d] mb-6">
+            SAP Course Highlights
+          </h3>
+
+          <div className="space-y-4">
+            {[
+              { icon: <FaTrophy />, text: "Real-world SAP Implementation Scenarios", color: "#01377d" },
+              { icon: <FaClock />, text: "Hands-on SAP System Access", color: "#39FF14" },
+              { icon: <FaCertificate />, text: "SAP Certification Preparation", color: "#01377d" },
+              { icon: <FaUserTie />, text: "Industry Expert Trainers", color: "#39FF14" },
+              { icon: <FaShieldAlt />, text: "24/7 SAP Expert Support", color: "#01377d" },
+              { icon: <FaBriefcase />, text: "Placement Assistance", color: "#39FF14" },
+            ].map((item, index) => (
+              <div key={index} className="flex items-center gap-4">
+                <div
+                  className="text-2xl flex-shrink-0"
+                  style={{ color: item.color }}
+                >
+                  {item.icon}
+                </div>
+                <span className="text-slate-700">{item.text}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 bg-[#01377d] rounded-lg p-4 text-center">
+            <a
+              href="tel:+918681026181"
+              className="text-white flex items-center justify-center gap-2"
+            >
+              <FaPhone className="text-[#39FF14]" />
+              For queries: <strong>+91 8681026181</strong>
+            </a>
           </div>
         </div>
-{/* Career Benefits Section */}
-{course.career_benefits && (
-  <section className="w-full py-10 px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-    <div className="max-w-5xl mx-auto">
-      <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-slate-900 mb-3 sm:mb-4">
-        {course.career_benefits.heading}
-      </h2>
-      <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 leading-relaxed">
-        {course.career_benefits.description}
-      </p>
-      <ul className="space-y-3">
-        {course.career_benefits.points.map((item, index) => (
-          <li
-            key={index}
-            className="flex items-start gap-3 bg-white shadow-sm rounded-lg px-3 py-3 sm:px-4 sm:py-3 border border-slate-100"
-          >
-            <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
-            <span className="text-slate-800 text-xs sm:text-sm md:text-base">
-              {item}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-)}
-
-{/* Curriculum Overview */}
-{course.curriculum_overview && (
-  <section className="w-full bg-white py-12">
-    <div className="max-w-5xl mx-auto px-4">
-      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
-        {course.curriculum_overview.heading}
-      </h2>
-      <p className="text-slate-700 leading-relaxed">
-        {course.curriculum_overview.intro}
-      </p>
-    </div>
-  </section>
-)}
-
-{/* Primary Track (e.g., FI) */}
-{course.track_overview_primary && (
-  <section className="w-full bg-slate-50 py-12">
-    <div className="max-w-5xl mx-auto px-4">
-      <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
-        {course.track_overview_primary.heading}
-      </h3>
-      <p className="text-slate-700 mb-4">
-        {course.track_overview_primary.description}
-      </p>
-      <ul className="space-y-2">
-        {course.track_overview_primary.topics.map(
-          (item, index) => (
-            <li
-              key={index}
-              className="flex items-start gap-2 text-sm md:text-base text-slate-800"
-            >
-              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
-              <span>{item}</span>
-            </li>
-          )
-        )}
-      </ul>
-    </div>
-  </section>
-)}
-
-{/* Secondary Track (e.g., CO) */}
-{course.track_overview_secondary && (
-  <section className="w-full bg-slate-50 py-12">
-    <div className="max-w-5xl mx-auto px-4">
-      <h3 className="text-xl md:text-2xl font-semibold text-slate-900 mb-3">
-        {course.track_overview_secondary.heading}
-      </h3>
-      <p className="text-slate-700 mb-4">
-        {course.track_overview_secondary.description}
-      </p>
-      <ul className="space-y-2">
-        {course.track_overview_secondary.topics.map(
-          (item, index) => (
-            <li
-              key={index}
-              className="flex items-start gap-2 text-sm md:text-base text-slate-800"
-            >
-              <span className="mt-1 h-2 w-2 rounded-full bg-emerald-600" />
-              <span>{item}</span>
-            </li>
-          )
-        )}
-      </ul>
-    </div>
-  </section>
-)}
-
-{/* Certification Info */}
-{course.certification_info && (
-  <section className="w-full bg-white py-12">
-    <div className="max-w-5xl mx-auto px-4">
-      <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-4">
-        {course.certification_info.heading}
-      </h2>
-      <p className="text-slate-700 mb-6 leading-relaxed">
-        {course.certification_info.intro}
-      </p>
-      <ul className="space-y-3">
-        {course.certification_info.highlights.map(
-          (item, index) => (
-            <li
-              key={index}
-              className="flex items-start gap-3 bg-slate-50 border border-slate-100 rounded-lg px-4 py-3"
-            >
-              <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
-              <span className="text-slate-800 text-sm md:text-base">
-                {item}
-              </span>
-            </li>
-          )
-        )}
-      </ul>
-    </div>
-  </section>
-)}
-
-{/* Why Institute */}
-{course.why_institute && (
-  <section className="w-full bg-white py-12">
-    <div className="max-w-5xl mx-auto px-4 text-slate-900">
-      <h2 className="text-2xl md:text-3xl font-semibold mb-3">
-        {course.why_institute.heading}
-      </h2>
-      <p className="text-slate-700 mb-6">
-        {course.why_institute.intro}
-      </p>
-
-      <div className="grid gap-8 md:grid-cols-2">
-        {course.why_institute.instructor_expertise && (
-          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-            <h3 className="text-lg font-semibold mb-2">
-              {course.why_institute.instructor_expertise.heading}
-            </h3>
-            <p className="text-slate-700 text-sm md:text-base leading-relaxed">
-              {course.why_institute.instructor_expertise.description}
-            </p>
-          </div>
-        )}
-
-        {course.why_institute.training_modes && (
-          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-            <h3 className="text-lg font-semibold mb-2">
-              {course.why_institute.training_modes.heading}
-            </h3>
-            <p className="text-slate-700 text-sm md:text-base mb-3">
-              {course.why_institute.training_modes.description}
-            </p>
-            <ul className="space-y-2">
-              {course.why_institute.training_modes.options.map(
-                (item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start gap-2 text-sm md:text-base text-slate-800"
-                  >
-                    <span className="mt-1 h-2 w-2 rounded-full bg-amber-400" />
-                    <span>{item}</span>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-        )}
       </div>
     </div>
   </section>
-)}
 
+  {/* Career Benefits Section */}
+  {course.career_benefits && (
+    <section className="py-16 bg-slate-50">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+          {course.career_benefits.heading}
+        </h2>
+        <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          {course.career_benefits.description}
+        </p>
+        <div className="grid sm:grid-cols-2 gap-4">
+          {course.career_benefits.points.map((item, index) => (
+            <div
+              key={index}
+              className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
+            >
+              <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+              <span className="text-slate-800">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
-        {/* What You'll Learn Section */}
-        <div className="cdp-section cdp-learn-section">
-          <div className="cdp-learn-container">
-            <div className="cdp-learn-content">
-              <h2 className="cdp-section-title">SAP Skills You'll Gain</h2>
-              <ul className="cdp-learn-list">
-                {course.what_youll_learn.map((topic, index) => (
-                  <li key={index}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
-                    </svg>
-                    {topic}
+  {/* Curriculum Overview */}
+  {course.curriculum_overview && (
+    <section className="py-16 bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+          {course.curriculum_overview.heading}
+        </h2>
+        <p className="text-lg text-slate-700 leading-relaxed">
+          {course.curriculum_overview.intro}
+        </p>
+      </div>
+    </section>
+  )}
+
+  {/* Primary Track */}
+  {course.track_overview_primary && (
+    <section className="py-16 bg-slate-50">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
+          {course.track_overview_primary.heading}
+        </h3>
+        <p className="text-lg text-slate-700 mb-6">
+          {course.track_overview_primary.description}
+        </p>
+        <div className="grid sm:grid-cols-2 gap-3">
+          {course.track_overview_primary.topics.map((item, index) => (
+            <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
+              <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+              <span className="text-slate-800">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Secondary Track */}
+  {course.track_overview_secondary && (
+    <section className="py-16 bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
+          {course.track_overview_secondary.heading}
+        </h3>
+        <p className="text-lg text-slate-700 mb-6">
+          {course.track_overview_secondary.description}
+        </p>
+        <div className="grid sm:grid-cols-2 gap-3">
+          {course.track_overview_secondary.topics.map((item, index) => (
+            <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
+              <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
+              <span className="text-slate-800">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Certification Info */}
+  {course.certification_info && (
+    <section className="py-16 bg-slate-50">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+          {course.certification_info.heading}
+        </h2>
+        <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          {course.certification_info.intro}
+        </p>
+        <div className="space-y-4">
+          {course.certification_info.highlights.map((item, index) => (
+            <div
+              key={index}
+              className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
+            >
+              <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+              <span className="text-slate-800">{item}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* Why Institute */}
+  {course.why_institute && (
+    <section className="py-16 bg-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+          {course.why_institute.heading}
+        </h2>
+        <p className="text-lg text-slate-700 mb-8">
+          {course.why_institute.intro}
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {course.why_institute.instructor_expertise && (
+            <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+              <h3 className="text-xl font-bold text-[#01377d] mb-3">
+                {course.why_institute.instructor_expertise.heading}
+              </h3>
+              <p className="text-slate-700 leading-relaxed">
+                {course.why_institute.instructor_expertise.description}
+              </p>
+            </div>
+          )}
+
+          {course.why_institute.training_modes && (
+            <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+              <h3 className="text-xl font-bold text-[#01377d] mb-3">
+                {course.why_institute.training_modes.heading}
+              </h3>
+              <p className="text-slate-700 mb-4">
+                {course.why_institute.training_modes.description}
+              </p>
+              <ul className="space-y-2">
+                {course.why_institute.training_modes.options.map((item, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+                    <span className="text-slate-800">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
-
-            {/* Hiring Partners Preview */}
-            <div className="cdp-partners-preview">
-              <h3>Our SAP Graduates Work At</h3>
-              <div className="cdp-partners-grid">
-                {hiringPartners.slice(0, 6).map((image, index) => (
-                  <div key={index} className="cdp-partner-logo">
-                    <img
-                      src={image}
-                      alt={`Partner ${index + 1}`}
-                      loading="lazy"
-                    />
-                  </div>
-                ))}
-              </div>
-              <button
-                className="cdp-view-all-btn"
-                onClick={() => {
-                  const element = document.querySelector(".cdp-partners-full");
-                  element.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                View All Companies
-              </button>
-            </div>
-          </div>
+          )}
         </div>
+      </div>
+    </section>
+  )}
 
-        {/* Syllabus Section */}
-        <div className="cdp-section cdp-syllabus-section">
-          <h2 className="cdp-section-title">SAP Course Curriculum</h2>
-
-          <div className="cdp-syllabus-wrapper">
-            <div className="cdp-syllabus-accordion">
-              {course.syllabus.map((module, index) => (
-                <div
-                  className={`cdp-syllabus-item ${
-                    openModule === index ? "active" : ""
-                  }`}
-                  key={index}
-                >
-                  <button
-                    className="cdp-syllabus-header"
-                    onClick={() => toggleModule(index)}
-                  >
-                    <span className="cdp-module-number">Module {index + 1}</span>
-                    <span className="cdp-module-title">{module.module}</span>
-                    <svg
-                      className={`cdp-accordion-icon ${
-                        openModule === index ? "active" : ""
-                      }`}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-                    </svg>
-                  </button>
-
-                  <div className="cdp-syllabus-content">
-                    <ul>
-                      {module.subtopics.map((topic, subIndex) => (
-                        <li key={subIndex}>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                          >
-                            <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
-                          </svg>
-                          {topic}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="cdp-syllabus-download">
-              <div className="cdp-company-logo-container">
-                <img
-                  src="/Logo.png"
-                  alt="Company Logo"
-                  className="cdp-company-logo"
-                />
-              </div>
-              <button className="cdp-download-btn" onClick={downloadSyllabusPDF}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-                </svg>
-                Download Full Syllabus
-              </button>
-
-              {/* Book Enquiry Section */}
-              <div className="cdp-book-enquiry">
-                <h3 className="cdp-book-enquiry-title">SAP Course Questions?</h3>
-                <p className="cdp-book-enquiry-text">
-                  Book a free consultation with our SAP experts
-                </p>
-                <button
-                  className="cdp-book-enquiry-btn"
-                  onClick={() => setShowBookingModal(true)}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
-                  </svg>
-                  Book Free Enquiry
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Certificate Recognition Section with Image */}
-        <section className="iclp-cert-final-section">
-          <div className="iclp-cert-final-container">
-            <div className="iclp-cert-final-content">
-              <div className="iclp-cert-final-header">
-                <span className="iclp-cert-final-badge">SAP CERTIFICATION</span>
-                <h2 className="iclp-cert-final-title">
-                  SAP <span>Certification</span>
-                </h2>
-                <p className="iclp-cert-final-description">
-                  Earn a recognized SAP credential that validates your technical
-                  expertise and opens doors to new career opportunities in the SAP
-                  ecosystem.
-                </p>
-              </div>
-
-              <div className="iclp-cert-final-features">
-                <div className="iclp-cert-final-feature">
-                  <div className="iclp-cert-final-feature-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1.06 13.54L7.4 12l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41-5.64 5.66z" />
-                    </svg>
-                  </div>
-                  <span>Globally Recognized SAP Certification</span>
-                </div>
-
-                <div className="iclp-cert-final-feature">
-                  <div className="iclp-cert-final-feature-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
-                    </svg>
-                  </div>
-                  <span>Hands-on SAP System Experience</span>
-                </div>
-
-                <div className="iclp-cert-final-feature">
-                  <div className="iclp-cert-final-feature-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" />
-                    </svg>
-                  </div>
-                  <span>Career Advancement in SAP</span>
-                </div>
-              </div>
-
-              <button
-                className="iclp-cert-final-cta"
-                onClick={() => setShowBookingModal(true)}
+  {/* What You'll Learn Section */}
+  <section className="py-16 bg-slate-50">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="grid lg:grid-cols-2 gap-12">
+        {/* Skills */}
+        <div>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8">
+            SAP Skills You'll Gain
+          </h2>
+          <div className="space-y-3">
+            {course.what_youll_learn.map((topic, index) => (
+              <div
+                key={index}
+                className="flex items-start gap-3 bg-white p-4 rounded-lg hover:bg-[#39FF14]/10 transition-colors"
               >
-                Get SAP Certified
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
-            </div>
-
-            <div
-              className="iclp-cert-final-visual"
-              onClick={() => setShowBookingModal(true)}
-            >
-              <div className="iclp-cert-final-card">
-                <img
-                  src="/certification.png"
-                  alt="SAP Certification"
-                  className="iclp-cert-final-image"
-                />
-                <div className="iclp-cert-final-image-overlay"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <CourseAdvantagesTools courseName={course?.course_name} />
-
-        {/* Full Hiring Partners Section */}
-        <div className="cdp-section cdp-partners-full">
-          <h2 className="cdp-section-title">Our SAP Hiring Partners</h2>
-          <p className="cdp-section-subtitle">
-            Top companies where our SAP graduates work
-          </p>
-
-          <div className="cdp-partners-full-grid">
-            {hiringPartners.map((image, index) => (
-              <div key={index} className="cdp-partner-card">
-                <img src={image} alt={`Partner ${index + 1}`} loading="lazy" />
+                <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                <span className="text-slate-700">{topic}</span>
               </div>
             ))}
           </div>
         </div>
-        <CourseReviews />
-        <br></br>
-        <br></br>
 
-        <CourseFAQs/>
-        {/* CTA Section */}
-        <div className="cdp-section cdp-cta-section">
-          <div className="cdp-cta-card">
-            <h2>Ready to Start Your  {course.course_name} Journey?</h2>
-            <p>Limited seats available for the next batch</p>
-            <div className="cdp-cta-buttons">
-              <button
-                className="cdp-cta-primary"
-                onClick={() => setShowBookingModal(true)}
+        {/* Hiring Partners Preview */}
+        <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 className="text-2xl font-bold text-[#01377d] mb-6 text-center">
+            Our SAP Graduates Work At
+          </h3>
+          <div className="grid grid-cols-3 gap-4 mb-6">
+            {hiringPartners.slice(0, 6).map((image, index) => (
+              <div
+                key={index}
+                className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
               >
-                Enroll Now
-              </button>
-              <button
-                className="cdp-cta-secondary"
-                onClick={() => setShowBookingModal(true)}
-              >
-                Get Free SAP Consultation
-              </button>
-            </div>
+                <img
+                  src={image}
+                  alt={`Partner ${index + 1}`}
+                  className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                />
+              </div>
+            ))}
           </div>
+          <button
+            onClick={() => {
+              document.querySelector(".hiring-partners-full")?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 rounded-lg font-semibold transition-colors"
+          >
+            View All Companies
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Syllabus Section */}
+  <section className="py-16 bg-white">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8 text-center">
+        SAP Course Curriculum
+      </h2>
+
+      <div className="grid lg:grid-cols-3 gap-8">
+        {/* Accordion */}
+        <div className="lg:col-span-2 space-y-4">
+          {course.syllabus.map((module, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl border-2 border-slate-200 overflow-hidden hover:border-[#39FF14] transition-colors"
+            >
+              <button
+                onClick={() => toggleModule(index)}
+                className="w-full flex items-center justify-between p-6 text-left"
+              >
+                <div className="flex items-center gap-4">
+                  <span className="bg-[#39FF14] text-[#01377d] font-bold px-4 py-2 rounded-lg">
+                    {index + 1}
+                  </span>
+                  <span className="font-semibold text-[#01377d] text-lg">
+                    {module.module}
+                  </span>
+                </div>
+                {openModule === index ? (
+                  <FaChevronDown className="text-[#39FF14] text-xl" />
+                ) : (
+                  <FaChevronRight className="text-slate-400 text-xl" />
+                )}
+              </button>
+
+              {openModule === index && (
+                <div className="px-6 pb-6">
+                  <ul className="space-y-3">
+                    {module.subtopics.map((topic, subIndex) => (
+                      <li
+                        key={subIndex}
+                        className="flex items-start gap-3 text-slate-700"
+                      >
+                        <FaCheckCircle className="text-[#39FF14] flex-shrink-0 mt-1" />
+                        <span>{topic}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
 
-        {/* Dialog Box */}
-        {showBookingModal && (
-          <ModalBooking onClose={() => setShowBookingModal(false)} />
-        )}
-        <RelatedCoursesSlider />
+        {/* Sidebar */}
+        <div className="space-y-6">
+          {/* Company Logo */}
+          <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
+            <img
+              src="/Logo.png"
+              alt="ICLP Technologies"
+              className="h-16 mx-auto mb-4"
+            />
+            <button
+              onClick={downloadSyllabusPDF}
+              className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 transition-colors"
+            >
+              <FaDownload /> Download Full Syllabus
+            </button>
+          </div>
+
+          {/* Book Enquiry */}
+          <div className="bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-6 text-white text-center shadow-lg">
+            <h3 className="text-xl font-bold mb-3">SAP Course Questions?</h3>
+            <p className="text-[#97e7f5] mb-6">
+              Book a free consultation with our SAP experts
+            </p>
+            <button
+              onClick={() => setShowBookingModal(true)}
+              className="w-full bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] py-3 px-4 rounded-lg font-bold transition-all hover:scale-105"
+            >
+              Book Free Enquiry
+            </button>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+
+  {/* Certificate Section */}
+  <section className="py-16 bg-slate-50">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
+            SAP CERTIFICATION
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+            SAP <span className="text-[#39FF14]">Certification</span>
+          </h2>
+          <p className="text-slate-600 text-lg mb-8">
+            Earn a recognized SAP credential that validates your technical
+            expertise and opens doors to new career opportunities in the SAP
+            ecosystem.
+          </p>
+
+          <div className="grid grid-cols-3 gap-4 mb-8">
+            {[
+              { icon: <FaShieldAlt />, text: "Globally Recognized SAP Certification" },
+              { icon: <FaTrophy />, text: "Hands-on SAP System Experience" },
+              { icon: <FaGraduationCap />, text: "Career Advancement in SAP" },
+            ].map((item, index) => (
+              <div key={index} className="text-center">
+                <div className="text-[#39FF14] text-4xl mb-2">{item.icon}</div>
+                <p className="text-sm text-slate-600">{item.text}</p>
+              </div>
+            ))}
+          </div>
+
+          <button
+            onClick={() => setShowBookingModal(true)}
+            className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+          >
+            Get SAP Certified <FaArrowRight />
+          </button>
+        </div>
+
+        <div
+          onClick={() => setShowBookingModal(true)}
+          className="cursor-pointer group"
+        >
+         <div
+  onClick={() => setShowBookingModal(true)}
+  className="cursor-pointer group flex justify-center"
+>
+  <div
+    className="
+      relative w-full 
+      max-w-sm sm:max-w-md lg:max-w-lg 
+      max-h-[260px] sm:max-h-[320px] lg:max-h-[380px]
+      rounded-2xl overflow-hidden shadow-2xl 
+      border-4 border-[#39FF14] 
+      group-hover:scale-105 transition-transform duration-300
+    "
+  >
+    <img
+      src="/certification.png"
+      alt="SAP Certification"
+      className="w-full h-full object-contain"
+    />
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CourseAdvantagesTools courseName={course?.course_name} />
+
+  {/* Full Hiring Partners */}
+  <section className="py-16 bg-white hiring-partners-full">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4 text-center">
+        Our SAP Hiring Partners
+      </h2>
+      <p className="text-slate-600 text-center mb-12">
+        Top companies where our SAP graduates work
+      </p>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        {hiringPartners.map((image, index) => (
+          <div
+            key={index}
+            className="bg-slate-50 p-6 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
+          >
+            <img
+              src={image}
+              alt={`Partner ${index + 1}`}
+              className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CourseReviews />
+  <CourseFAQs />
+
+  {/* CTA Section */}
+  <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        Ready to Start Your {course.course_name} Journey?
+      </h2>
+      <p className="text-[#97e7f5] text-xl mb-8">
+        Limited seats available for the next batch
+      </p>
+      <div className="flex flex-wrap gap-4 justify-center">
+        <button
+          onClick={() => setShowBookingModal(true)}
+          className="bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+        >
+          Enroll Now
+        </button>
+        <button
+          onClick={() => setShowBookingModal(true)}
+          className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg font-bold transition-all border border-white/30"
+        >
+          Get Free SAP Consultation
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <RelatedCoursesSlider />
+
+  {/* Modal */}
+  {showBookingModal && (
+    <ModalBooking onClose={() => setShowBookingModal(false)} />
+  )}
+</div>
+
   );
 };
 
