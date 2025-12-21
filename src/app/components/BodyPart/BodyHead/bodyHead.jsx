@@ -17,7 +17,7 @@ const TechHero = () => {
       ></div>
       
       {/* Dark Overlay for Better Text Readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/60 via-slate-800/50 to-slate-900/60"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/40 via-slate-800/30 to-slate-900/40"></div>
 
       {/* Subtle Snow Effect - Professional */}
       <div className="absolute inset-0 opacity-10 z-10">
@@ -38,17 +38,17 @@ const TechHero = () => {
           <div className="space-y-8 text-center max-w-4xl">
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
-              <span className="text-white">
+              {/* <span className="text-white">
                 India's Premier Hub for{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-yellow-100">
                   Hands-On Software Learning
                 </span>
                 .
-              </span>
+              </span> */}
             </h1>
 
             <p className="text-xl sm:text-2xl lg:text-3xl text-slate-300 font-medium">
-              India's Fastest-Emerging Leader in Software Training
+              {/* India's Fastest-Emerging Leader in Software Training */}
             </p>
 
             <div className="pt-4">
