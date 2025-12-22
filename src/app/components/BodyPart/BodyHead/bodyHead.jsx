@@ -51,7 +51,7 @@ const TechHero = () => {
               {/* India's Fastest-Emerging Leader in Software Training */}
             </p>
 
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <button
                 onClick={handleOpenModal}
                 className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold text-lg rounded-lg shadow-xl hover:shadow-2xl hover:shadow-red-900/30 transition-all duration-300 border border-amber-400/20"
@@ -74,10 +74,42 @@ const TechHero = () => {
                   />
                 </svg>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
+{/* Bottom Right Floating Button */}
+<div className="absolute bottom-8 right-8 z-30">
+  <button
+    onClick={handleOpenModal}
+    className="group inline-flex items-center gap-3 px-7 py-4 
+               bg-gradient-to-r from-red-600 to-red-700 
+               hover:from-red-700 hover:to-red-800 
+               text-white font-semibold text-lg 
+               rounded-lg shadow-xl hover:shadow-2xl 
+               hover:shadow-red-900/30 
+               transition-all duration-300 
+               border border-amber-400/20"
+  >
+    <span>Explore Courses</span>
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="group-hover:translate-x-1 transition-transform duration-300"
+    >
+      <path
+        d="M5 12H19M19 12L12 5M19 12L12 19"
+        stroke="white"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>
+</div>
 
       {/* Bottom Elegant Accent */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-400/40 to-transparent z-10"></div>
