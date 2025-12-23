@@ -271,7 +271,7 @@ const CourseListing = () => {
   return (
     <div className="py-20 bg-white">
       {/* Job Guarantee Banner */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 py-20">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 mb-16 py-20">
         <div className="relative bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-8 lg:p-12 text-center shadow-2xl border border-amber-400/30 overflow-hidden">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-emerald-400 to-amber-400"></div>
           

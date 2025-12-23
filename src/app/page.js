@@ -1,6 +1,5 @@
 // app/page.jsx
 import BodyHead from "./components/BodyPart/BodyHead/bodyHead";
-import HomeAbout from "./components/BodyPart/HomeAbout/homeAbout";
 import TopCategories from "./components/categories/topCategories";
 import Accreditations from "./components/Accreditations/Accreditations";
 import SuccessfulCommunity from "./components/successfullCommunity/successfullCommunity";
@@ -13,6 +12,7 @@ import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCours
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
+import NewAbout from "./components/BodyPart/HomeAbout/NewAbout";
 
 // ✅ This replaces your SEO component
 export const metadata = {
@@ -29,7 +29,7 @@ export default function Home() {
         <HomeAboutDialog/>
         <BodyHead />
         <br/>
-        <HomeAbout />
+        <NewAbout/>
         <TopCategories />
                 <br></br>
 

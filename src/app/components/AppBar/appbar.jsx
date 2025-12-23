@@ -338,8 +338,16 @@ const AppBar = () => {
   return (
     <>
       <nav className="appbar">
-        {/* Logo */}
-        <img src="/assets/logo/logo2.png" alt="ICLP Logo" className="appbar-logo" width={50} height={50} />
+ {/* Logo */}
+<div className="logo-shine-wrapper">
+  <img
+    src="/assets/logo/logo2.png"
+    alt="ICLP Logo"
+    className="appbar-logo"
+  />
+  <span className="logo-shine"></span>
+</div>
+
 
         {/* Title (Now comes first) */}
         {/* Title with Subtitle */}

@@ -4,7 +4,7 @@
   align-items: center; /* Better vertical alignment */
   justify-content: space-between;
   padding: 0.3rem 1.2rem; /* Reduced from 0.5rem 1.5rem */
-  background-color: #0f172a;
+  background-color: #014a9f;
   color: white;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Lighter shadow */
   position: relative;
@@ -23,12 +23,34 @@
 .appbar-logo {
   height: 80px; /* Maintain original logo size */
   width: auto;
-  margin-right: 0.2rem;
   cursor: pointer;
   align-self: center;
     font-family: "Cinzel Text" !important;
 
 }
+.appbar-logo {
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.35))
+          brightness(1);
+
+  /* Animation */
+  animation: logo-gloss 2.5s ease-in-out infinite;
+}
+
+@keyframes logo-gloss {
+  0% {
+    filter: drop-shadow(0 0 6px rgba(255,255,255,0.25))
+            brightness(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.6))
+            brightness(1.25);
+  }
+  100% {
+    filter: drop-shadow(0 0 6px rgba(255,255,255,0.25))
+            brightness(1);
+  }
+}
+
 
 /* Responsive adjustments only for AppBar height */
 @media (max-width: 1023px) and (min-width: 768px) {
@@ -59,7 +81,6 @@
 .appbar-logo {
   height: 80px;
   width: auto;
-  margin-right: 0.8rem;
   cursor: pointer;
   align-self: center; /* Center vertically within flex container */
   margin-top: 6px; /* Add downward offset ONLY to the logo */
@@ -106,7 +127,6 @@
 .appbar-logo {
   height: 80px; /* Maintain your desired logo size */
   width: auto;
-  margin-right: 0.8rem;
   cursor: pointer;
 }
 
@@ -265,6 +285,7 @@
   font-size: 0.8rem;
   margin: 0;
   color: #ecf0f1;
+  font-style: italic;
 }
 
 /* Search Container Styles */
@@ -287,7 +308,7 @@
   border: none;
   border-radius: 4px 0 0 4px;
   background-color: whitesmoke;
-  color: #0f172a;
+  color: #014a9f;
   font-size: 0.9rem;
   outline: none;
   font-family: "Cinzel Text" !important;
@@ -295,7 +316,7 @@
 }
 
 .search-input-dark::placeholder {
-  color:#0f172a;
+  color: #014a9f;
 }
 
 .search-button {
@@ -304,7 +325,7 @@
   border-radius: 0 4px 4px 0;
   padding: 0 1rem;
   cursor: pointer;
-  color: #0f172a;
+  color: #014a9f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -502,7 +523,6 @@
   /* Logo and title in same row */
   .appbar-logo {
     height: 40px;
-    margin-right: 0.8rem;
     margin-bottom: 0;
   }
 
@@ -584,7 +604,6 @@
 
   .appbar-logo {
     height: 35px;
-    margin-right: 0.6rem;
   }
 
   .headingText {
@@ -625,7 +644,6 @@
   .appbar-logo {
     height: 32px;
     width: auto;
-    margin-right: 0.6rem;
   }
 
   .title-container {
@@ -712,7 +730,6 @@
 
   .appbar-logo {
     height: 28px;
-    margin-right: 0.5rem;
   }
 
   .headingText {

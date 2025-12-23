@@ -2,9 +2,9 @@
 
 /* Base Variables */
 :root {
-  --primary-gradient: linear-gradient(135deg, #1a2a6c 0%, #1faa59 100%);
-  --primary-dark: #1a2a6c;
-  --primary-light: #1faa59;
+  --primary-gradient: #1e293b;
+  --primary-dark: #1e293b;
+  --primary-light:#1e293b;
   --text-dark: #1e293b;
   --text-light: #f8fafc;
   --shadow-color: rgba(26, 42, 108, 0.2);
@@ -226,8 +226,8 @@ margin-bottom: 50px;
   height: 100%;
   background: linear-gradient(
     to bottom,
-    rgba(26, 42, 108, 0.3),
-    rgba(31, 170, 89, 0.3)
+    rgba(26, 42, 108, 0.1),
+    rgba(31, 170, 89, 0.1)
   );
 }
 

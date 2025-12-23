@@ -32,7 +32,7 @@ const TieUps = () => {
         description="Learn from the best online institute partnered with top companies like TCS, Accenture, Zoho, and CTS. Get certified, gain in-demand skills, and boost your chances of placement with our industry-aligned courses."
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-3">
@@ -47,7 +47,7 @@ const TieUps = () => {
         </div>
 
         {/* Slider Container */}
-        <div className="relative bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden mb-8">
+        <div className="relative bg-white overflow-hidden mb-8">
           {/* Top Border Accent */}
           <div className="h-1 bg-gradient-to-r from-red-500 via-amber-400 to-emerald-500"></div>
 
