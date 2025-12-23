@@ -1,0 +1,58 @@
+# Online Software Courses | Online Courses Certificate | Online Courses Training - ICLP
+
+Explore online software courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!
+
+## General Information
+
+- [About Us](https://iclptech.in/about): Learn more about ICLP, its mission, and the services offered to enhance your learning experience.
+- [Contact Us](https://iclptech.in/contact): Get in touch with ICLP for inquiries or support regarding courses and training.
+- [View All](https://iclptech.in/courses): Access a comprehensive list of all available courses and training programs.
+
+## Training and Courses
+
+### Software Development
+
+- [Python](https://iclptech.in/f/python): Dive into Python programming with our structured course designed for beginners and advanced learners.
+- [Java](https://iclptech.in/f/java): Explore Java programming through hands-on projects and expert guidance.
+- [R Programming](https://iclptech.in/f/R%20Programming): Learn R for data analysis and statistical computing with practical applications.
+- [JavaScript](https://iclptech.in/f/JavaScript): Master JavaScript to enhance your web development skills and create dynamic web applications.
+- [PHP](https://iclptech.in/f/PHP): Understand PHP programming for server-side web development and database management.
+- [Full Stack Developer](https://iclptech.in/f/Full%20Stack%20Developer): Become a full stack developer by learning both front-end and back-end technologies.
+- [Node.js](https://iclptech.in/f/Node.js): Gain expertise in Node.js for building scalable network applications.
+- [ReactJS](https://iclptech.in/f/ReactJS): Learn ReactJS to develop interactive user interfaces for web applications.
+
+### Cloud and DevOps
+
+- [Microsoft Azure](https://iclptech.in/f/Microsoft%20Azure): Get trained in Microsoft Azure to manage cloud services and applications effectively.
+- [AWS](https://iclptech.in/f/AWS): Understand Amazon Web Services and how to deploy applications in the cloud.
+- [DevOps](https://iclptech.in/f/DevOps): Explore DevOps practices to improve collaboration between development and operations teams.
+
+## Additional Resources
+
+- [Interview Questions](https://iclptech.in/interview-questions): Prepare for job interviews with a collection of common and technical interview questions.
+- [Tutorials](https://iclptech.in/tutorial): Access a variety of tutorials covering different programming languages and technologies.
+- [Freelancers](https://iclptech.in/freelance-trainee): Discover opportunities and resources for freelancers in the tech industry.
+- [Blog](https://iclptech.in/blog): Read articles and insights on the latest trends in technology and online learning.
+
+## Support and Communication
+
+- [helpdesk.iclp@gmail.com](mailto:helpdesk.iclp@gmail.com): Contact the helpdesk for any support or queries related to courses.
+- [+91 86810 26181](tel:+918681026181): Reach out via phone for immediate assistance.
+- [+91 93441 40385](tel:+919344140385): Another contact number for support and inquiries.
+- [Chat on WhatsApp](https://wa.me/918681026181): Connect with ICLP support through WhatsApp for quick responses.
+
+## Policies
+
+- [Privacy Policy](https://iclptech.in/privacy-policy): Understand how ICLP handles your personal information and data.
+- [Terms of Service](https://iclptech.in/terms-of-service): Review the terms and conditions governing the use of ICLP services.
+- [Cookie Policy](https://iclptech.in/cookie-policy): Learn about the use of cookies on the ICLP website.
+
+## Student Feedback
+
+- [Student Reviews – Best Online Learning Institute](https://iclptech.in/reviews): Read reviews from students about their experiences with ICLP courses.
+
+## Specialized Training
+
+- [SAP IBP Online Training](https://iclptech.in/courses/sap/sap-ibp): Enroll in SAP Integrated Business Planning training to enhance your skills in supply chain management.
+- [SAP FICO Training](https://iclptech.in/courses/sap/sap-fico): Gain knowledge in SAP Financial Accounting and Controlling for effective financial management.
+- [SAP Healthcare Training](https://iclptech.in/courses/sap/sap-healthcare): Learn about SAP solutions tailored for the healthcare industry.
