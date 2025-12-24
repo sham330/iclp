@@ -13,6 +13,7 @@ import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
 import NewAbout from "./components/BodyPart/HomeAbout/NewAbout";
+import WhyInventateq from "./components/HomeSections/WhyUs";
 
 // ✅ This replaces your SEO component
 export const metadata = {
@@ -34,6 +35,7 @@ export default function Home() {
                 <br></br>
 
         <Accreditations />
+        <WhyInventateq/>
         <SuccessfulCommunity />
         <Features />
          <br></br>
