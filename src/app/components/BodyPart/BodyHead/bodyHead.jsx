@@ -83,9 +83,9 @@ const TechHero = () => {
   <button
     onClick={handleOpenModal}
     className="group inline-flex items-center gap-3 px-7 py-4 
-               bg-gradient-to-r from-red-600 to-red-700 
-               hover:from-red-700 hover:to-red-800 
-               text-white font-semibold text-lg 
+               bg-white 
+               hover:bg-red-600
+               text-red-600 hover:text-white font-semibold text-lg 
                rounded-lg shadow-xl hover:shadow-2xl 
                hover:shadow-red-900/30 
                transition-all duration-300 
