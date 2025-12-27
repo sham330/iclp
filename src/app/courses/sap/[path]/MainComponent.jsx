@@ -359,15 +359,12 @@ setShowBookingModal(true)
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
-                      <Image
+                      <img
                         key={index}
                         src={pic}
                         alt={`Learner ${index + 1}`}
-                        width={48}
-                        height={48}
                         className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
                         loading="eager"
-                        priority={index === 0}
                       />
                     ))}
                   </div>
@@ -618,7 +615,7 @@ setShowBookingModal(true)
                     key={index}
                     className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
                   >
-                    <Image
+                    <img
                       src={image}
                       alt={`Partner ${index + 1}`}
                       width={100}
@@ -699,11 +696,9 @@ setShowBookingModal(true)
             <div className="space-y-6">
               {/* Company Logo - Using Next.js Image */}
               <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
-                <Image
+                <img
                   src="/Logo.png"
                   alt="ICLP Technologies"
-                  width={150}
-                  height={64}
                   className="h-16 mx-auto mb-4"
                   loading="lazy"
                 />
@@ -755,11 +750,9 @@ setShowBookingModal(true)
               </button>
             </div>
             <div className="flex justify-center">
-              <Image
+              <img
                 src="/certification.png"
                 alt="SAP Certification"
-                width={500}
-                height={400}
                 className="w-full max-w-md rounded-xl shadow-2xl"
                 loading="lazy"
               />
@@ -783,11 +776,9 @@ setShowBookingModal(true)
                 key={index}
                 className="bg-slate-50 p-4 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
               >
-                <Image
+                <img
                   src={image}
                   alt={`Hiring Partner ${index + 1}`}
-                  width={120}
-                  height={60}
                   className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
                   loading="lazy"
                 />
