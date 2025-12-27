@@ -334,15 +334,18 @@ const SmallBar = () => {
                             <div className="text-[10px] font-bold text-white/80 uppercase mb-1.5">
                               {section.title}
                             </div>
-                            {section.courses.map((course, courseIndex) => (
-                              <button
-                                key={courseIndex}
-                                onClick={() => handleSubcategoryClick(course.path)}
-                                className="block w-full text-left px-3 py-2 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-4 rounded transition-all my-1"
-                              >
-                                {course.name}
-                              </button>
-                            ))}
+{section.courses.map((course, courseIndex) => (
+  <button
+  key={courseIndex}
+  onClick={() => handleSubcategoryClick(course.path)}
+  onTouchEnd={() => handleSubcategoryClick(course.path)}
+  style={{ cursor: 'pointer', WebkitTapHighlightColor: 'transparent' }}
+  className="block w-full text-left px-3 py-2 text-[12px] font-medium text-white rounded transition-all my-1 hover:bg-white hover:text-[#0f172a]"
+>
+  {course.name}
+</button>
+))}
+
                           </div>
                         ))}
                       </div>
