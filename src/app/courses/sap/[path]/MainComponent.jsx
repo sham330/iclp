@@ -1,15 +1,19 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { useParams } from "next/navigation";
+import dynamic from "next/dynamic";
+import Image from "next/image";
 import "./CourseDetailsPage.css";
-import jsPDF from "jspdf";
-import autoTable from "jspdf-autotable";
-import ModalBooking from "@/app/components/ModalBooking/ModalBooking";
-import RelatedCoursesSlider from "@/app/components/RelatedCourses/RelatedCourses";
-import CourseReviews from "@/app/components/CourseReviews/CourseReviews";
-import CourseFAQs from "@/app/components/faq/faq";
-import CourseAdvantagesTools from "@/app/components/CourseAdvantagesTools/CourseAdvantagesTools";
 import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaChevronDown, FaChevronRight, FaClock, FaDownload, FaGraduationCap, FaPhone, FaShieldAlt, FaStar, FaTrophy, FaUserTie } from "react-icons/fa";
+
+// Dynamic imports for components below the fold
+const ModalBooking = dynamic(() => import("@/app/components/ModalBooking/ModalBooking"), {
+  loading: () => <div>Loading...</div>
+});
+const RelatedCoursesSlider = dynamic(() => import("@/app/components/RelatedCourses/RelatedCourses"));
+const CourseReviews = dynamic(() => import("@/app/components/CourseReviews/CourseReviews"));
+const CourseFAQs = dynamic(() => import("@/app/components/faq/faq"));
+const CourseAdvantagesTools = dynamic(() => import("@/app/components/CourseAdvantagesTools/CourseAdvantagesTools"));
 
 const SapCourseDetailsPage = () => {
   const { courseName } = useParams();
@@ -18,12 +22,10 @@ const SapCourseDetailsPage = () => {
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [learnerCount, setLearnerCount] = useState(0);
-  const [profilePics, setProfilePics] = useState([]);
   const [showBookingModal, setShowBookingModal] = useState(false);
 
-  // Hiring partners data
-  const hiringPartners = [
+  // Hiring partners data - memoized
+  const hiringPartners = useMemo(() => [
     "/companies/Accenture.png",
     "/companies/capgemini.webp",
     "/companies/Cognizant-Logo.jpg",
@@ -39,35 +41,42 @@ const SapCourseDetailsPage = () => {
     "/companies/willy.png",
     "/companies/wipro.jpg",
     "/companies/zoho.png",
-  ];
+  ], []);
 
-  // Random profile pictures from Unsplash
-  const profilePictures = [
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
-    "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200",
-    "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200",
-    "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200",
-    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200",
-    "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200",
-  ];
+  // Random profile pictures from Unsplash - memoized
+  const profilePictures = useMemo(() => [
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+    "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200&q=80",
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+    "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
+    "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80",
+    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&q=80",
+    "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80",
+  ], []);
 
-  // SAP-specific additional content
-  const sapAdditionalContent = {
+  // Generate random data once - memoized
+  const learnerCount = useMemo(() => Math.floor(Math.random() * 4000) + 1000, []);
+  const profilePics = useMemo(() => {
+    const shuffled = [...profilePictures].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 3);
+  }, [profilePictures]);
+
+  // SAP-specific additional content - moved outside useEffect
+  const sapAdditionalContent = useMemo(() => ({
     "sap-fico": {
       courseDescription:
-        "Are you ready to become a certified SAP FICO expert? ICLP Tech offers the most comprehensive and industry-aligned SAP FICO training available, tailored for aspiring and current finance professionals in India. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our FICO course graduates are immediately job-ready. Whether you choose our flexible SAP FICO course online or our immersive classroom setup, you gain the expertise needed to secure your SAP FICO certificate and excel in the global job market.",
+        "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
     },
     "sap-mm": {
       courseDescription:
-        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading SAP MM course in India, designed to transform aspiring professionals into expert SAP Material Management consultants.The SAP MM module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive MM training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused SAP MM training online or in-class formats.",
+        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading<strong> SAP MM course</strong> in <strong>India</strong>, designed to transform aspiring professionals into expert <strong>SAP Material Management</strong> consultants.The<strong> SAP MM</strong> module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive <strong> MM </strong>training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused<strong> SAP MM training online</strong> or in-class formats.",
     },
     "sap-sd": {
       courseDescription:
-        "Are you ready to unlock a high-demand career path in corporate logistics and sales? ICLP Tech offers the most comprehensive SAP Sales and Distribution (SD) program in India, designed to master the entire Order-to-Cash (O2C) process. The SAP SD module is crucial for businesses globally, managing customer orders, pricing, billing, and shipping. Our expert-led SAP SD training goes beyond theory, focusing on real-world system configuration and implementation scenarios. By completing this program, you gain the skills needed to seamlessly integrate sales processes with other modules, ensuring you are prepared for both the SAP SD certification exam and a successful consulting career. Choose ICLP Tech for industry-validated SAP Sales and Distribution expertise.",
+        "Are you ready to unlock a high-demand career path in corporate logistics and sales? ICLP Tech offers the most comprehensive <strong> SAP Sales and Distribution (SD)</strong> program in India, designed to master the entire Order-to-Cash (O2C) process. The SAP SD module is crucial for businesses globally, managing customer orders, pricing, billing, and shipping. Our expert-led SAP SD training goes beyond theory, focusing on real-world system configuration and implementation scenarios. By completing this program, you gain the skills needed to seamlessly integrate sales processes with other modules, ensuring you are prepared for both the SAP SD certification exam and a successful consulting career. Choose ICLP Tech for industry-validated SAP Sales and Distribution expertise.",
     },
     "sap-pp": {
       courseDescription:
@@ -173,16 +182,10 @@ const SapCourseDetailsPage = () => {
     "sap-aerospace-and-defense": {
       courseDescription: "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
     }
-  };
+  }), []);
 
   useEffect(() => {
     setLoading(true);
-    // Generate random learner count between 1000 and 5000
-    setLearnerCount(Math.floor(Math.random() * 4000) + 1000);
-
-    // Select 3 random profile pictures
-    const shuffled = [...profilePictures].sort(() => 0.5 - Math.random());
-    setProfilePics(shuffled.slice(0, 3));
 
     fetch("/data/sapCourses.json")
       .then((res) => res.json())
@@ -207,18 +210,19 @@ const SapCourseDetailsPage = () => {
       })
       .catch((error) => console.error("Error fetching data:", error))
       .finally(() => setLoading(false));
-  }, [path]);
+  }, [path, courseName, sapAdditionalContent]);
 
-  const toggleModule = (index) => {
-    if (openModule === index) {
-      setOpenModule(null);
-    } else {
-      setOpenModule(index);
-    }
-  };
+  // Memoized toggle function
+  const toggleModule = useCallback((index) => {
+    setOpenModule(prev => prev === index ? null : index);
+  }, []);
 
-  const downloadSyllabusPDF = () => {
+  // Dynamic import for PDF libraries - only load when needed
+  const downloadSyllabusPDF = useCallback(async () => {
     if (!course) return;
+setShowBookingModal(true)
+    const { default: jsPDF } = await import("jspdf");
+    const { default: autoTable } = await import("jspdf-autotable");
 
     const doc = new jsPDF();
 
@@ -318,7 +322,7 @@ const SapCourseDetailsPage = () => {
     });
 
     doc.save(`${course.course_name}_Syllabus.pdf`);
-  };
+  }, [course]);
 
   if (loading)
     return <div className="cdp-loading">Loading course details...</div>;
@@ -351,15 +355,19 @@ const SapCourseDetailsPage = () => {
                   </span>
                 </div>
 
-                {/* Profile Pics */}
+                {/* Profile Pics - Using Next.js Image */}
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
-                      <img
+                      <Image
                         key={index}
                         src={pic}
                         alt={`Learner ${index + 1}`}
+                        width={48}
+                        height={48}
                         className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+                        loading="eager"
+                        priority={index === 0}
                       />
                     ))}
                   </div>
@@ -369,8 +377,9 @@ const SapCourseDetailsPage = () => {
                 </div>
               </div>
 
-              <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
-                {additionalContent.courseDescription}
+              <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
+                dangerouslySetInnerHTML={{ __html: additionalContent.courseDescription}}
+              >
               </p>
 
               <button
@@ -598,7 +607,7 @@ const SapCourseDetailsPage = () => {
               </div>
             </div>
 
-            {/* Hiring Partners Preview */}
+            {/* Hiring Partners Preview - Using Next.js Image */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-[#01377d] mb-6 text-center">
                 Our SAP Graduates Work At
@@ -609,10 +618,13 @@ const SapCourseDetailsPage = () => {
                     key={index}
                     className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
                   >
-                    <img
+                    <Image
                       src={image}
                       alt={`Partner ${index + 1}`}
+                      width={100}
+                      height={48}
                       className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                      loading="lazy"
                     />
                   </div>
                 ))}
@@ -685,12 +697,15 @@ const SapCourseDetailsPage = () => {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Company Logo */}
+              {/* Company Logo - Using Next.js Image */}
               <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
-                <img
+                <Image
                   src="/Logo.png"
                   alt="ICLP Technologies"
+                  width={150}
+                  height={64}
                   className="h-16 mx-auto mb-4"
+                  loading="lazy"
                 />
                 <button
                   onClick={downloadSyllabusPDF}
@@ -729,80 +744,52 @@ const SapCourseDetailsPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
                 SAP <span className="text-[#39FF14]">Certification</span>
               </h2>
-              <p className="text-slate-600 text-lg mb-8">
-                Earn a recognized SAP credential that validates your technical
-                expertise and opens doors to new career opportunities in the SAP
-                ecosystem.
+              <p className="text-slate-700 leading-relaxed mb-6">
+                Get industry-recognized SAP certification after completing your training program. Our certification validates your SAP skills globally.
               </p>
-
-              <div className="grid grid-cols-3 gap-4 mb-8">
-                {[
-                  { icon: <FaShieldAlt />, text: "Globally Recognized SAP Certification" },
-                  { icon: <FaTrophy />, text: "Hands-on SAP System Experience" },
-                  { icon: <FaGraduationCap />, text: "Career Advancement in SAP" },
-                ].map((item, index) => (
-                  <div key={index} className="text-center">
-                    <div className="text-[#39FF14] text-4xl mb-2">{item.icon}</div>
-                    <p className="text-sm text-slate-600">{item.text}</p>
-                  </div>
-                ))}
-              </div>
-
               <button
                 onClick={() => setShowBookingModal(true)}
-                className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+                className="bg-[#01377d] hover:bg-[#014a9f] text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
               >
-                Get SAP Certified <FaArrowRight />
+                Get Certified Now <FaArrowRight />
               </button>
             </div>
-
-            <div
-              onClick={() => setShowBookingModal(true)}
-              className="cursor-pointer group flex justify-center"
-            >
-              <div
-                className="
-                  relative w-full 
-                  max-w-sm sm:max-w-md lg:max-w-lg 
-                  max-h-[260px] sm:max-h-[320px] lg:max-h-[380px]
-                  rounded-2xl overflow-hidden shadow-2xl 
-                  border-4 border-[#39FF14] 
-                  group-hover:scale-105 transition-transform duration-300
-                "
-              >
-                <img
-                  src="/certification.png"
-                  alt="SAP Certification"
-                  className="w-full h-full object-contain"
-                />
-              </div>
+            <div className="flex justify-center">
+              <Image
+                src="/certification.png"
+                alt="SAP Certification"
+                width={500}
+                height={400}
+                className="w-full max-w-md rounded-xl shadow-2xl"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <CourseAdvantagesTools courseName={course?.course_name} />
-
-      {/* Full Hiring Partners */}
+      {/* Hiring Partners - Full Section */}
       <section className="py-16 bg-white hiring-partners-full">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4 text-center">
-            Our SAP Hiring Partners
+            Our <span className="text-[#39FF14]">Hiring Partners</span>
           </h2>
-          <p className="text-slate-600 text-center mb-12">
-            Top companies where our SAP graduates work
+          <p className="text-center text-slate-700 mb-12 max-w-2xl mx-auto">
+            Join thousands of SAP professionals working at leading global companies
           </p>
-
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {hiringPartners.map((image, index) => (
               <div
                 key={index}
-                className="bg-slate-50 p-6 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
+                className="bg-slate-50 p-4 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
               >
-                <img
+                <Image
                   src={image}
-                  alt={`Partner ${index + 1}`}
+                  alt={`Hiring Partner ${index + 1}`}
+                  width={120}
+                  height={60}
                   className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                  loading="lazy"
                 />
               </div>
             ))}
@@ -810,40 +797,14 @@ const SapCourseDetailsPage = () => {
         </div>
       </section>
 
+      {/* Dynamic Components - Lazy Loaded */}
+      <CourseAdvantagesTools />
+      <CourseFAQs />
       <CourseReviews />
-
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
-        <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Start Your {course.course_name} Journey?
-          </h2>
-          <p className="text-[#97e7f5] text-xl mb-8">
-            Limited seats available for the next batch
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <button
-              onClick={() => setShowBookingModal(true)}
-              className="bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
-            >
-              Enroll Now
-            </button>
-            <button
-              onClick={() => setShowBookingModal(true)}
-              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg font-bold transition-all border border-white/30"
-            >
-              Get Free SAP Consultation
-            </button>
-          </div>
-        </div>
-      </section>
-
       <RelatedCoursesSlider />
 
       {/* Modal */}
-      {showBookingModal && (
-        <ModalBooking onClose={() => setShowBookingModal(false)} />
-      )}
+      {showBookingModal && <ModalBooking  onClose={() => setShowBookingModal(false)}/>}
     </div>
   );
 };
