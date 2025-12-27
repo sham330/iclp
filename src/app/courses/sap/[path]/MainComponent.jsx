@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { useParams } from "next/navigation"; // ✅ Next.js hook
+import { useParams } from "next/navigation";
 import "./CourseDetailsPage.css";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
@@ -78,7 +78,7 @@ const SapCourseDetailsPage = () => {
         "Elevate your programming skills and step into the high-demand world of enterprise resource planning with ICLP's definitive SAP ABAP Course Online. Designed by industry veterans, this comprehensive program provides the foundation and advanced knowledge required to become a certified SAP ABAP professional. Our structured SAP ABAP Training covers everything from foundational concepts like data dictionary and Open SQL to advanced topics like Object-Oriented ABAP and system integration. If you are serious about securing a specialized role in the Indian IT sector, this is the essential SAP ABAP Course you need.",
     },
     "sap-transportation-management": {
-      courseDescription: "Start your journey toward becoming a certified logistics expert with the premier SAP TM Training program in India. Our comprehensive SAP Transportation Management Training Online is specifically designed for ambitious professionals seeking to master the complexities of modern supply chain execution. This is more than just an SAP TM Course; it is an integrated learning experience that covers both the critical functional configuration and the necessary technical knowledge. Join over 4,800 successful learners and secure your future in the booming logistics sector with ICLP’s industry-leading SAP TM Training.",
+      courseDescription: "Start your journey toward becoming a certified logistics expert with the premier SAP TM Training program in India. Our comprehensive SAP Transportation Management Training Online is specifically designed for ambitious professionals seeking to master the complexities of modern supply chain execution. This is more than just an SAP TM Course; it is an integrated learning experience that covers both the critical functional configuration and the necessary technical knowledge. Join over 4,800 successful learners and secure your future in the booming logistics sector with ICLP's industry-leading SAP TM Training.",
     },
     "sap-successfactors-online-training": {
       courseDescription: "Elevate your HR career with our industry-leading SAP SuccessFactors training online. In the rapidly expanding Indian HR technology market, mastering cloud-based Human Experience Management (HXM) is essential. Our specialized SAP SuccessFactors course (SFC) is meticulously designed to give you that competitive edge. This comprehensive SAP SuccessFactors training (SFT) program goes beyond theoretical concepts, providing hands-on, practical skills development required by top multinational corporations and firms across India. We offer the most practical and up-to-date SAP SF training (SFSFT) available today.",
@@ -126,52 +126,52 @@ const SapCourseDetailsPage = () => {
       courseDescription: "Gain expertise in SAP Security and Governance, Risk & Compliance. Learn user administration, access control, and risk management in SAP.",
     },
     "sap-is-retail": {
-      "courseDescription": "Elevate your consulting career in the rapidly growing retail sector with India's most specialized SAP IS-Retail training. As the core Industry Solution within the SAP ecosystem, SAP IS-Retail expertise is highly sought after by top consulting firms in cities like Bengaluru, Mumbai, and Pune, offering premium salary packages for specialized roles. Our intensive SAP IS-Retail online training program is meticulously structured to provide deep, end-to-end knowledge of retail logistics and management processes. This is one of the few SAP retail training courses that effectively bridges the gap between fundamental SAP modules (MM/SD) and the complexity of modern retail operations."
+      courseDescription: "Elevate your consulting career in the rapidly growing retail sector with India's most specialized SAP IS-Retail training. As the core Industry Solution within the SAP ecosystem, SAP IS-Retail expertise is highly sought after by top consulting firms in cities like Bengaluru, Mumbai, and Pune, offering premium salary packages for specialized roles. Our intensive SAP IS-Retail online training program is meticulously structured to provide deep, end-to-end knowledge of retail logistics and management processes. This is one of the few SAP retail training courses that effectively bridges the gap between fundamental SAP modules (MM/SD) and the complexity of modern retail operations."
     },
     "sap-is-utilities": {
-      "courseDescription": "Elevate your consulting career in the essential energy and public sector with our specialized SAP IS Utilities training. In India, where infrastructure development and smart city projects are key growth drivers, expert knowledge of the SAP Industry Solution for Utilities (IS-U) commands high salaries and stable roles, particularly in major metros. This intensive SAP IS Utilities training program is designed for functional and technical consultants seeking mastery over the entire utility lifecycle, from meter reading to customer collection (the Meter-to-Cash process). By focusing on real-world application, this SAP IS Utilities training provides immediate job-readiness."
+      courseDescription: "Elevate your consulting career in the essential energy and public sector with our specialized SAP IS Utilities training. In India, where infrastructure development and smart city projects are key growth drivers, expert knowledge of the SAP Industry Solution for Utilities (IS-U) commands high salaries and stable roles, particularly in major metros. This intensive SAP IS Utilities training program is designed for functional and technical consultants seeking mastery over the entire utility lifecycle, from meter reading to customer collection (the Meter-to-Cash process). By focusing on real-world application, this SAP IS Utilities training provides immediate job-readiness."
     },
     "sap-plm": {
-      "courseDescription": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
+      courseDescription: "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
     },
     "sap-le": {
-      "courseDescription": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations."
+      courseDescription: "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations."
     },
     "sap-healthcare": {
-      "courseDescription": "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing."
+      courseDescription: "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing."
     },
     "sap-is-banking": {
-      "courseDescription": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, and financial product configuration."
+      courseDescription: "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, and financial product configuration."
     },
     "sap-is-bpc": {
-      "courseDescription": "Professional training in SAP Business Planning and Consolidation covering financial planning, budgeting, forecasting and consolidation."
+      courseDescription: "Professional training in SAP Business Planning and Consolidation covering financial planning, budgeting, forecasting and consolidation."
     },
     "sap-pm": {
-      "courseDescription": "Comprehensive training in SAP Plant Maintenance covering breakdown maintenance, planned maintenance, and technical objects management."
+      courseDescription: "Comprehensive training in SAP Plant Maintenance covering breakdown maintenance, planned maintenance, and technical objects management."
     },
     "sap-ess": {
-      "courseDescription": "Training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management."
+      courseDescription: "Training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management."
     },
     "sap-hybris-ecommerce": {
-      "courseDescription": "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience."
+      courseDescription: "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience."
     },
     "sap-bo": {
-      "courseDescription": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development."
+      courseDescription: "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development."
     },
     "sap-bobj": {
-      "courseDescription": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration."
+      courseDescription: "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration."
     },
     "sap-fieldglass": {
-      "courseDescription": "Training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement."
+      courseDescription: "Training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement."
     },
     "sap-data-archiving": {
-      "courseDescription": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance."
+      courseDescription: "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance."
     },
     "sap-solution-manager": {
-      "courseDescription": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, and implementation methodologies."
+      courseDescription: "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, and implementation methodologies."
     },
     "sap-aerospace-and-defense": {
-      "courseDescription": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
+      courseDescription: "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
     }
   };
 
@@ -249,7 +249,6 @@ const SapCourseDetailsPage = () => {
       doc.setTextColor(0, 0, 0);
     };
 
-    // Set initial position
     let yPos = 20;
 
     doc.setFontSize(22);
@@ -279,7 +278,7 @@ const SapCourseDetailsPage = () => {
       yPos += topicLines.length * 7;
     });
 
-    yPos += 10; // Add extra space before syllabus
+    yPos += 10;
 
     doc.setFontSize(14);
     doc.setTextColor(0, 51, 102);
@@ -326,534 +325,526 @@ const SapCourseDetailsPage = () => {
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 
   return (
-      <div className="min-h-screen bg-white">
-  {/* Hero Section */}
-  <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-2 gap-8 items-start">
-        {/* Left Content */}
-        <div className="text-white">
-          <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
-            SAP TRAINING
-          </span>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            {course.course_name}
-          </h1>
-
-          {/* Rating and Learners */}
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-4">
-              {[...Array(4)].map((_, i) => (
-                <FaStar key={i} className="text-[#39FF14] text-xl" />
-              ))}
-              <FaStar className="text-[#39FF14]/50 text-xl" />
-              <span className="text-[#97e7f5] ml-2">
-                4.8 ({learnerCount.toLocaleString()} learners)
+    <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-8 items-start">
+            {/* Left Content */}
+            <div className="text-white">
+              <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
+                SAP TRAINING
               </span>
-            </div>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                {course.course_name}
+              </h1>
 
-            {/* Profile Pics */}
-            <div className="flex items-center gap-3">
-              <div className="flex -space-x-3">
-                {profilePics.map((pic, index) => (
-                  <img
-                    key={index}
-                    src={pic}
-                    alt={`Learner ${index + 1}`}
-                    className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
-                  />
-                ))}
-              </div>
-              <span className="text-[#97e7f5] font-semibold">
-                +{(learnerCount - 3).toLocaleString()} enrolled
-              </span>
-            </div>
-          </div>
-
-          <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
-            {additionalContent.courseDescription}
-          </p>
-
-          <button
-            onClick={() => setShowBookingModal(true)}
-            className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
-          >
-            ENROLL NOW <FaArrowRight />
-          </button>
-        </div>
-
-        {/* Right Card - Course Highlights */}
-        <div className="bg-white rounded-2xl p-8 shadow-2xl">
-          <h3 className="text-2xl font-bold text-[#01377d] mb-6">
-            SAP Course Highlights
-          </h3>
-
-          <div className="space-y-4">
-            {[
-              { icon: <FaTrophy />, text: "Real-world SAP Implementation Scenarios", color: "#01377d" },
-              { icon: <FaClock />, text: "Hands-on SAP System Access", color: "#39FF14" },
-              { icon: <FaCertificate />, text: "SAP Certification Preparation", color: "#01377d" },
-              { icon: <FaUserTie />, text: "Industry Expert Trainers", color: "#39FF14" },
-              { icon: <FaShieldAlt />, text: "24/7 SAP Expert Support", color: "#01377d" },
-              { icon: <FaBriefcase />, text: "Placement Assistance", color: "#39FF14" },
-            ].map((item, index) => (
-              <div key={index} className="flex items-center gap-4">
-                <div
-                  className="text-2xl flex-shrink-0"
-                  style={{ color: item.color }}
-                >
-                  {item.icon}
+              {/* Rating and Learners */}
+              <div className="mb-6">
+                <div className="flex items-center gap-2 mb-4">
+                  {[...Array(4)].map((_, i) => (
+                    <FaStar key={i} className="text-[#39FF14] text-xl" />
+                  ))}
+                  <FaStar className="text-[#39FF14]/50 text-xl" />
+                  <span className="text-[#97e7f5] ml-2">
+                    4.8 ({learnerCount.toLocaleString()} learners)
+                  </span>
                 </div>
-                <span className="text-slate-700">{item.text}</span>
+
+                {/* Profile Pics */}
+                <div className="flex items-center gap-3">
+                  <div className="flex -space-x-3">
+                    {profilePics.map((pic, index) => (
+                      <img
+                        key={index}
+                        src={pic}
+                        alt={`Learner ${index + 1}`}
+                        className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+                      />
+                    ))}
+                  </div>
+                  <span className="text-[#97e7f5] font-semibold">
+                    +{(learnerCount - 3).toLocaleString()} enrolled
+                  </span>
+                </div>
               </div>
-            ))}
-          </div>
 
-          <div className="mt-8 bg-[#01377d] rounded-lg p-4 text-center">
-            <a
-              href="tel:+918681026181"
-              className="text-white flex items-center justify-center gap-2"
-            >
-              <FaPhone className="text-[#39FF14]" />
-              For queries: <strong>+91 8681026181</strong>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {/* Career Benefits Section */}
-  {course.career_benefits && (
-    <section className="py-16 bg-slate-50">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-          {course.career_benefits.heading}
-        </h2>
-        <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-          {course.career_benefits.description}
-        </p>
-        <div className="grid sm:grid-cols-2 gap-4">
-          {course.career_benefits.points.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
-            >
-              <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-              <span className="text-slate-800">{item}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* Curriculum Overview */}
-  {course.curriculum_overview && (
-    <section className="py-16 bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-          {course.curriculum_overview.heading}
-        </h2>
-        <p className="text-lg text-slate-700 leading-relaxed">
-          {course.curriculum_overview.intro}
-        </p>
-      </div>
-    </section>
-  )}
-
-  {/* Primary Track */}
-  {course.track_overview_primary && (
-    <section className="py-16 bg-slate-50">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
-          {course.track_overview_primary.heading}
-        </h3>
-        <p className="text-lg text-slate-700 mb-6">
-          {course.track_overview_primary.description}
-        </p>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {course.track_overview_primary.topics.map((item, index) => (
-            <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-              <span className="text-slate-800">{item}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* Secondary Track */}
-  {course.track_overview_secondary && (
-    <section className="py-16 bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
-          {course.track_overview_secondary.heading}
-        </h3>
-        <p className="text-lg text-slate-700 mb-6">
-          {course.track_overview_secondary.description}
-        </p>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {course.track_overview_secondary.topics.map((item, index) => (
-            <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
-              <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
-              <span className="text-slate-800">{item}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* Certification Info */}
-  {course.certification_info && (
-    <section className="py-16 bg-slate-50">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-          {course.certification_info.heading}
-        </h2>
-        <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-          {course.certification_info.intro}
-        </p>
-        <div className="space-y-4">
-          {course.certification_info.highlights.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
-            >
-              <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-              <span className="text-slate-800">{item}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* Why Institute */}
-  {course.why_institute && (
-    <section className="py-16 bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-          {course.why_institute.heading}
-        </h2>
-        <p className="text-lg text-slate-700 mb-8">
-          {course.why_institute.intro}
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          {course.why_institute.instructor_expertise && (
-            <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-              <h3 className="text-xl font-bold text-[#01377d] mb-3">
-                {course.why_institute.instructor_expertise.heading}
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                {course.why_institute.instructor_expertise.description}
+              <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
+                {additionalContent.courseDescription}
               </p>
-            </div>
-          )}
 
-          {course.why_institute.training_modes && (
-            <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-              <h3 className="text-xl font-bold text-[#01377d] mb-3">
-                {course.why_institute.training_modes.heading}
-              </h3>
-              <p className="text-slate-700 mb-4">
-                {course.why_institute.training_modes.description}
-              </p>
-              <ul className="space-y-2">
-                {course.why_institute.training_modes.options.map((item, index) => (
-                  <li key={index} className="flex items-start gap-2">
-                    <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-                    <span className="text-slate-800">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* What You'll Learn Section */}
-  <section className="py-16 bg-slate-50">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-2 gap-12">
-        {/* Skills */}
-        <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8">
-            SAP Skills You'll Gain
-          </h2>
-          <div className="space-y-3">
-            {course.what_youll_learn.map((topic, index) => (
-              <div
-                key={index}
-                className="flex items-start gap-3 bg-white p-4 rounded-lg hover:bg-[#39FF14]/10 transition-colors"
-              >
-                <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-                <span className="text-slate-700">{topic}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Hiring Partners Preview */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-2xl font-bold text-[#01377d] mb-6 text-center">
-            Our SAP Graduates Work At
-          </h3>
-          <div className="grid grid-cols-3 gap-4 mb-6">
-            {hiringPartners.slice(0, 6).map((image, index) => (
-              <div
-                key={index}
-                className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
-              >
-                <img
-                  src={image}
-                  alt={`Partner ${index + 1}`}
-                  className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-                />
-              </div>
-            ))}
-          </div>
-          <button
-            onClick={() => {
-              document.querySelector(".hiring-partners-full")?.scrollIntoView({ behavior: "smooth" });
-            }}
-            className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 rounded-lg font-semibold transition-colors"
-          >
-            View All Companies
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {/* Syllabus Section */}
-  <section className="py-16 bg-white">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8 text-center">
-        SAP Course Curriculum
-      </h2>
-
-      <div className="grid lg:grid-cols-3 gap-8">
-        {/* Accordion */}
-        <div className="lg:col-span-2 space-y-4">
-          {course.syllabus.map((module, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl border-2 border-slate-200 overflow-hidden hover:border-[#39FF14] transition-colors"
-            >
               <button
-                onClick={() => toggleModule(index)}
-                className="w-full flex items-center justify-between p-6 text-left"
+                onClick={() => setShowBookingModal(true)}
+                className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
               >
-                <div className="flex items-center gap-4">
-                  <span className="bg-[#39FF14] text-[#01377d] font-bold px-4 py-2 rounded-lg">
-                    {index + 1}
-                  </span>
-                  <span className="font-semibold text-[#01377d] text-lg">
-                    {module.module}
-                  </span>
-                </div>
-                {openModule === index ? (
-                  <FaChevronDown className="text-[#39FF14] text-xl" />
-                ) : (
-                  <FaChevronRight className="text-slate-400 text-xl" />
-                )}
+                ENROLL NOW <FaArrowRight />
               </button>
+            </div>
 
-              {openModule === index && (
-                <div className="px-6 pb-6">
-                  <ul className="space-y-3">
-                    {module.subtopics.map((topic, subIndex) => (
-                      <li
-                        key={subIndex}
-                        className="flex items-start gap-3 text-slate-700"
-                      >
-                        <FaCheckCircle className="text-[#39FF14] flex-shrink-0 mt-1" />
-                        <span>{topic}</span>
+            {/* Right Card - Course Highlights */}
+            <div className="bg-white rounded-2xl p-8 shadow-2xl">
+              <h3 className="text-2xl font-bold text-[#01377d] mb-6">
+                SAP Course Highlights
+              </h3>
+
+              <div className="space-y-4">
+                {[
+                  { icon: <FaTrophy />, text: "Real-world SAP Implementation Scenarios", color: "#01377d" },
+                  { icon: <FaClock />, text: "Hands-on SAP System Access", color: "#39FF14" },
+                  { icon: <FaCertificate />, text: "SAP Certification Preparation", color: "#01377d" },
+                  { icon: <FaUserTie />, text: "Industry Expert Trainers", color: "#39FF14" },
+                  { icon: <FaShieldAlt />, text: "24/7 SAP Expert Support", color: "#01377d" },
+                  { icon: <FaBriefcase />, text: "Placement Assistance", color: "#39FF14" },
+                ].map((item, index) => (
+                  <div key={index} className="flex items-center gap-4">
+                    <div
+                      className="text-2xl flex-shrink-0"
+                      style={{ color: item.color }}
+                    >
+                      {item.icon}
+                    </div>
+                    <span className="text-slate-700">{item.text}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-8 bg-[#01377d] rounded-lg p-4 text-center">
+                <a
+                  href="tel:+918681026181"
+                  className="text-white flex items-center justify-center gap-2"
+                >
+                  <FaPhone className="text-[#39FF14]" />
+                  For queries: <strong>+91 8681026181</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Career Benefits Section */}
+      {course.career_benefits && (
+        <section className="py-16 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+              {course.career_benefits.heading}
+            </h2>
+            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+              {course.career_benefits.description}
+            </p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.career_benefits.points.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
+                >
+                  <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                  <span className="text-slate-800">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Curriculum Overview */}
+      {course.curriculum_overview && (
+        <section className="py-16 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+              {course.curriculum_overview.heading}
+            </h2>
+            <p className="text-lg text-slate-700 leading-relaxed">
+              {course.curriculum_overview.intro}
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Primary Track */}
+      {course.track_overview_primary && (
+        <section className="py-16 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
+              {course.track_overview_primary.heading}
+            </h3>
+            <p className="text-lg text-slate-700 mb-6">
+              {course.track_overview_primary.description}
+            </p>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {course.track_overview_primary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
+                  <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+                  <span className="text-slate-800">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Secondary Track */}
+      {course.track_overview_secondary && (
+        <section className="py-16 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
+              {course.track_overview_secondary.heading}
+            </h3>
+            <p className="text-lg text-slate-700 mb-6">
+              {course.track_overview_secondary.description}
+            </p>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {course.track_overview_secondary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
+                  <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
+                  <span className="text-slate-800">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Certification Info */}
+      {course.certification_info && (
+        <section className="py-16 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+              {course.certification_info.heading}
+            </h2>
+            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+              {course.certification_info.intro}
+            </p>
+            <div className="space-y-4">
+              {course.certification_info.highlights.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
+                >
+                  <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                  <span className="text-slate-800">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Why Institute */}
+      {course.why_institute && (
+        <section className="py-16 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+              {course.why_institute.heading}
+            </h2>
+            <p className="text-lg text-slate-700 mb-8">
+              {course.why_institute.intro}
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {course.why_institute.instructor_expertise && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+                  <h3 className="text-xl font-bold text-[#01377d] mb-3">
+                    {course.why_institute.instructor_expertise.heading}
+                  </h3>
+                  <p className="text-slate-700 leading-relaxed">
+                    {course.why_institute.instructor_expertise.description}
+                  </p>
+                </div>
+              )}
+
+              {course.why_institute.training_modes && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+                  <h3 className="text-xl font-bold text-[#01377d] mb-3">
+                    {course.why_institute.training_modes.heading}
+                  </h3>
+                  <p className="text-slate-700 mb-4">
+                    {course.why_institute.training_modes.description}
+                  </p>
+                  <ul className="space-y-2">
+                    {course.why_institute.training_modes.options.map((item, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+                        <span className="text-slate-800">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
               )}
             </div>
-          ))}
-        </div>
-
-        {/* Sidebar */}
-        <div className="space-y-6">
-          {/* Company Logo */}
-          <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
-            <img
-              src="/Logo.png"
-              alt="ICLP Technologies"
-              className="h-16 mx-auto mb-4"
-            />
-            <button
-              onClick={downloadSyllabusPDF}
-              className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 transition-colors"
-            >
-              <FaDownload /> Download Full Syllabus
-            </button>
           </div>
+        </section>
+      )}
 
-          {/* Book Enquiry */}
-          <div className="bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-6 text-white text-center shadow-lg">
-            <h3 className="text-xl font-bold mb-3">SAP Course Questions?</h3>
-            <p className="text-[#97e7f5] mb-6">
-              Book a free consultation with our SAP experts
-            </p>
-            <button
-              onClick={() => setShowBookingModal(true)}
-              className="w-full bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] py-3 px-4 rounded-lg font-bold transition-all hover:scale-105"
-            >
-              Book Free Enquiry
-            </button>
+      {/* What You'll Learn Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Skills */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8">
+                SAP Skills You'll Gain
+              </h2>
+              <div className="space-y-3">
+                {course.what_youll_learn.map((topic, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 bg-white p-4 rounded-lg hover:bg-[#39FF14]/10 transition-colors"
+                  >
+                    <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                    <span className="text-slate-700">{topic}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Hiring Partners Preview */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-[#01377d] mb-6 text-center">
+                Our SAP Graduates Work At
+              </h3>
+              <div className="grid grid-cols-3 gap-4 mb-6">
+                {hiringPartners.slice(0, 6).map((image, index) => (
+                  <div
+                    key={index}
+                    className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
+                  >
+                    <img
+                      src={image}
+                      alt={`Partner ${index + 1}`}
+                      className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                    />
+                  </div>
+                ))}
+              </div>
+              <button
+                onClick={() => {
+                  document.querySelector(".hiring-partners-full")?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 rounded-lg font-semibold transition-colors"
+              >
+                View All Companies
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  {/* Certificate Section */}
-  <section className="py-16 bg-slate-50">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
-            SAP CERTIFICATION
-          </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-            SAP <span className="text-[#39FF14]">Certification</span>
+      {/* Syllabus Section */}
+      <section className="py-16 bg-white">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8 text-center">
+            SAP Course Curriculum
           </h2>
-          <p className="text-slate-600 text-lg mb-8">
-            Earn a recognized SAP credential that validates your technical
-            expertise and opens doors to new career opportunities in the SAP
-            ecosystem.
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Accordion */}
+            <div className="lg:col-span-2 space-y-4">
+              {course.syllabus.map((module, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-xl border-2 border-slate-200 overflow-hidden hover:border-[#39FF14] transition-colors"
+                >
+                  <button
+                    onClick={() => toggleModule(index)}
+                    className="w-full flex items-center justify-between p-6 text-left"
+                  >
+                    <div className="flex items-center gap-4">
+                      <span className="bg-[#39FF14] text-[#01377d] font-bold px-4 py-2 rounded-lg">
+                        {index + 1}
+                      </span>
+                      <span className="font-semibold text-[#01377d] text-lg">
+                        {module.module}
+                      </span>
+                    </div>
+                    {openModule === index ? (
+                      <FaChevronDown className="text-[#39FF14] text-xl" />
+                    ) : (
+                      <FaChevronRight className="text-slate-400 text-xl" />
+                    )}
+                  </button>
+
+                  {openModule === index && (
+                    <div className="px-6 pb-6">
+                      <ul className="space-y-3">
+                        {module.subtopics.map((topic, subIndex) => (
+                          <li
+                            key={subIndex}
+                            className="flex items-start gap-3 text-slate-700"
+                          >
+                            <FaCheckCircle className="text-[#39FF14] flex-shrink-0 mt-1" />
+                            <span>{topic}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+
+            {/* Sidebar */}
+            <div className="space-y-6">
+              {/* Company Logo */}
+              <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
+                <img
+                  src="/Logo.png"
+                  alt="ICLP Technologies"
+                  className="h-16 mx-auto mb-4"
+                />
+                <button
+                  onClick={downloadSyllabusPDF}
+                  className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 transition-colors"
+                >
+                  <FaDownload /> Download Full Syllabus
+                </button>
+              </div>
+
+              {/* Book Enquiry */}
+              <div className="bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-6 text-white text-center shadow-lg">
+                <h3 className="text-xl font-bold mb-3">SAP Course Questions?</h3>
+                <p className="text-[#97e7f5] mb-6">
+                  Book a free consultation with our SAP experts
+                </p>
+                <button
+                  onClick={() => setShowBookingModal(true)}
+                  className="w-full bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] py-3 px-4 rounded-lg font-bold transition-all hover:scale-105"
+                >
+                  Book Free Enquiry
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certificate Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
+                SAP CERTIFICATION
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
+                SAP <span className="text-[#39FF14]">Certification</span>
+              </h2>
+              <p className="text-slate-600 text-lg mb-8">
+                Earn a recognized SAP credential that validates your technical
+                expertise and opens doors to new career opportunities in the SAP
+                ecosystem.
+              </p>
+
+              <div className="grid grid-cols-3 gap-4 mb-8">
+                {[
+                  { icon: <FaShieldAlt />, text: "Globally Recognized SAP Certification" },
+                  { icon: <FaTrophy />, text: "Hands-on SAP System Experience" },
+                  { icon: <FaGraduationCap />, text: "Career Advancement in SAP" },
+                ].map((item, index) => (
+                  <div key={index} className="text-center">
+                    <div className="text-[#39FF14] text-4xl mb-2">{item.icon}</div>
+                    <p className="text-sm text-slate-600">{item.text}</p>
+                  </div>
+                ))}
+              </div>
+
+              <button
+                onClick={() => setShowBookingModal(true)}
+                className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+              >
+                Get SAP Certified <FaArrowRight />
+              </button>
+            </div>
+
+            <div
+              onClick={() => setShowBookingModal(true)}
+              className="cursor-pointer group flex justify-center"
+            >
+              <div
+                className="
+                  relative w-full 
+                  max-w-sm sm:max-w-md lg:max-w-lg 
+                  max-h-[260px] sm:max-h-[320px] lg:max-h-[380px]
+                  rounded-2xl overflow-hidden shadow-2xl 
+                  border-4 border-[#39FF14] 
+                  group-hover:scale-105 transition-transform duration-300
+                "
+              >
+                <img
+                  src="/certification.png"
+                  alt="SAP Certification"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <CourseAdvantagesTools courseName={course?.course_name} />
+
+      {/* Full Hiring Partners */}
+      <section className="py-16 bg-white hiring-partners-full">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4 text-center">
+            Our SAP Hiring Partners
+          </h2>
+          <p className="text-slate-600 text-center mb-12">
+            Top companies where our SAP graduates work
           </p>
 
-          <div className="grid grid-cols-3 gap-4 mb-8">
-            {[
-              { icon: <FaShieldAlt />, text: "Globally Recognized SAP Certification" },
-              { icon: <FaTrophy />, text: "Hands-on SAP System Experience" },
-              { icon: <FaGraduationCap />, text: "Career Advancement in SAP" },
-            ].map((item, index) => (
-              <div key={index} className="text-center">
-                <div className="text-[#39FF14] text-4xl mb-2">{item.icon}</div>
-                <p className="text-sm text-slate-600">{item.text}</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+            {hiringPartners.map((image, index) => (
+              <div
+                key={index}
+                className="bg-slate-50 p-6 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
+              >
+                <img
+                  src={image}
+                  alt={`Partner ${index + 1}`}
+                  className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                />
               </div>
             ))}
           </div>
-
-          <button
-            onClick={() => setShowBookingModal(true)}
-            className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
-          >
-            Get SAP Certified <FaArrowRight />
-          </button>
         </div>
+      </section>
 
-        <div
-          onClick={() => setShowBookingModal(true)}
-          className="cursor-pointer group"
-        >
-         <div
-  onClick={() => setShowBookingModal(true)}
-  className="cursor-pointer group flex justify-center"
->
-  <div
-    className="
-      relative w-full 
-      max-w-sm sm:max-w-md lg:max-w-lg 
-      max-h-[260px] sm:max-h-[320px] lg:max-h-[380px]
-      rounded-2xl overflow-hidden shadow-2xl 
-      border-4 border-[#39FF14] 
-      group-hover:scale-105 transition-transform duration-300
-    "
-  >
-    <img
-      src="/certification.png"
-      alt="SAP Certification"
-      className="w-full h-full object-contain"
-    />
-  </div>
-</div>
+      <CourseReviews />
 
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <CourseAdvantagesTools courseName={course?.course_name} />
-
-  {/* Full Hiring Partners */}
-  <section className="py-16 bg-white hiring-partners-full">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4 text-center">
-        Our SAP Hiring Partners
-      </h2>
-      <p className="text-slate-600 text-center mb-12">
-        Top companies where our SAP graduates work
-      </p>
-
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
-        {hiringPartners.map((image, index) => (
-          <div
-            key={index}
-            className="bg-slate-50 p-6 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
-          >
-            <img
-              src={image}
-              alt={`Partner ${index + 1}`}
-              className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-            />
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
+        <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Ready to Start Your {course.course_name} Journey?
+          </h2>
+          <p className="text-[#97e7f5] text-xl mb-8">
+            Limited seats available for the next batch
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <button
+              onClick={() => setShowBookingModal(true)}
+              className="bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
+            >
+              Enroll Now
+            </button>
+            <button
+              onClick={() => setShowBookingModal(true)}
+              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg font-bold transition-all border border-white/30"
+            >
+              Get Free SAP Consultation
+            </button>
           </div>
-        ))}
-      </div>
+        </div>
+      </section>
+
+      <RelatedCoursesSlider />
+
+      {/* Modal */}
+      {showBookingModal && (
+        <ModalBooking onClose={() => setShowBookingModal(false)} />
+      )}
     </div>
-  </section>
-
-  <CourseReviews />
-  {/* <CourseFAQs /> */}
-
-  {/* CTA Section */}
-  <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-        Ready to Start Your {course.course_name} Journey?
-      </h2>
-      <p className="text-[#97e7f5] text-xl mb-8">
-        Limited seats available for the next batch
-      </p>
-      <div className="flex flex-wrap gap-4 justify-center">
-        <button
-          onClick={() => setShowBookingModal(true)}
-          className="bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
-        >
-          Enroll Now
-        </button>
-        <button
-          onClick={() => setShowBookingModal(true)}
-          className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg font-bold transition-all border border-white/30"
-        >
-          Get Free SAP Consultation
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <RelatedCoursesSlider />
-
-  {/* Modal */}
-  {showBookingModal && (
-    <ModalBooking onClose={() => setShowBookingModal(false)} />
-  )}
-</div>
-
   );
 };
 

@@ -4,43 +4,59 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaHome, FaBars, FaChevronDown } from "react-icons/fa";
-import "./smallbar.css";
 
 const SmallBar = () => {
-  const [categories, setCategories] = useState([]);
-  const [streamWiseCourses, setstreamWiseCourses] = useState([]);
+  const [skillPrograms, setSkillPrograms] = useState(null);
+  const [streamWiseCourses, setStreamWiseCourses] = useState([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isDropdown2Open, setIsDropdown2Open] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [selectedSection, setSelectedSection] = useState(null);
+  const [selectedStream, setSelectedStream] = useState(null);
+  
   const dropdownRef = useRef(null);
   const dropdownRef2 = useRef(null);
-
   const moreDropdownRef = useRef(null);
   const router = useRouter();
 
   useEffect(() => {
-    fetch("/data/courses.json")
+    fetch("/data/Navbar.json")
       .then((response) => response.json())
-      .then((data) => setCategories(data.categories))
-      .catch((error) => console.error("Error loading courses:", error));
+      .then((data) => {
+        setSkillPrograms(data.skillPrograms);
+        if (data.skillPrograms?.categories?.[0]?.sections?.[0]) {
+          setSelectedSection({
+            categoryIndex: 0,
+            sectionIndex: 0,
+            section: data.skillPrograms.categories[0].sections[0]
+          });
+        }
+      })
+      .catch((error) => console.error("Error loading skill programs:", error));
   }, []);
+
   useEffect(() => {
     fetch("/data/stream.json")
       .then((response) => response.json())
-      .then((data) => setstreamWiseCourses(data.streamWiseCourses))
+      .then((data) => {
+        setStreamWiseCourses(data.streamWiseCourses);
+        if (data.streamWiseCourses?.[0]) {
+          setSelectedStream(data.streamWiseCourses[0]);
+        }
+      })
       .catch((error) => console.error("Error loading courses:", error));
   }, []);
-  console.log("Stream Wise Courses:", streamWiseCourses);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsDropdownOpen(false);
       }
-      if (
-        moreDropdownRef.current &&
-        !moreDropdownRef.current.contains(event.target)
-      ) {
+      if (dropdownRef2.current && !dropdownRef2.current.contains(event.target)) {
+        setIsDropdown2Open(false);
+      }
+      if (moreDropdownRef.current && !moreDropdownRef.current.contains(event.target)) {
         setIsMoreDropdownOpen(false);
       }
     };
@@ -51,8 +67,9 @@ const SmallBar = () => {
   }, []);
 
   const handleSubcategoryClick = (path) => {
-    router.push(`/course/${path}`);
+    router.push(path);
     setIsDropdownOpen(false);
+    setIsDropdown2Open(false);
     setIsMobileMenuOpen(false);
   };
 
@@ -61,145 +78,368 @@ const SmallBar = () => {
   };
 
   return (
-    <nav className="smallbar">
-      <div className="nav-container">
-        <div className="menu-icon" onClick={toggleMobileMenu}>
-          <FaBars />
+    <nav className="w-full bg-[#0f172a] shadow-lg relative z-[900]" style={{ borderRadius: '1%' }}>
+      <div className="max-w-7xl mx-auto px-5">
+        <div className="flex items-center justify-between h-16">
+          {/* Mobile menu button */}
+          <button
+            onClick={toggleMobileMenu}
+            className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-white/10 focus:outline-none transition-all active:scale-95"
+          >
+            <FaBars className="h-6 w-6" />
+          </button>
+
+          {/* Desktop Navigation */}
+          <ul className="hidden lg:flex items-center justify-center space-x-3 flex-1">
+            {/* Home icon */}
+            <li>
+              <Link href="/" className="text-2xl text-white hover:text-yellow-300 transition-all hover:scale-110 block p-2">
+                <FaHome />
+              </Link>
+            </li>
+
+            {/* Skill Programs Mega Menu */}
+            <li className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className="inline-flex items-center gap-1.5 px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95"
+              >
+                Skill Programs
+                <FaChevronDown className={`text-xs transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isDropdownOpen && skillPrograms && selectedSection && (
+                <div className="absolute left-0 mt-2 w-screen max-w-3xl bg-[#0f172a] rounded-lg shadow-2xl border border-white/15 z-50">
+                  <div className="flex" style={{ maxHeight: '400px' }}>
+                    {/* Left Side - Categories/Sections - Scrollable */}
+                    <div className="w-2/5 bg-white/5 border-r border-white/10 rounded-l-lg flex flex-col">
+                      <div className="overflow-y-auto p-3 flex-1 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent" style={{ maxHeight: '340px' }}>
+                        {skillPrograms.categories.map((category, categoryIndex) => (
+                          <div key={categoryIndex} className="mb-4 last:mb-0">
+                            <h3 className="text-[15px] font-bold text-white uppercase tracking-wide mb-2 px-2">
+                              {category.title}
+                            </h3>
+                            <div className="space-y-1">
+                              {category.sections.map((section, sectionIndex) => (
+                                <button
+                                  key={sectionIndex}
+                                  onClick={() => setSelectedSection({
+                                    categoryIndex,
+                                    sectionIndex,
+                                    section
+                                  })}
+                                  className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all ${
+                                    selectedSection.categoryIndex === categoryIndex && 
+                                    selectedSection.sectionIndex === sectionIndex
+                                      ? 'bg-white text-[#0f172a] shadow-sm'
+                                      : 'text-white hover:bg-white/12 hover:pl-3.5'
+                                  }`}
+                                >
+                                  {section.title}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <button
+                        onClick={() => handleSubcategoryClick("/skill-programs")}
+                        className="m-3 mt-0 py-2 text-sm font-medium text-white bg-white/10 hover:bg-white hover:text-[#0f172a] rounded-lg transition-all border border-white/20"
+                      >
+                        View All Programs →
+                      </button>
+                    </div>
+
+                    {/* Right Side - Courses - Scrollable */}
+                    <div className="w-3/5 flex flex-col">
+                      <div className="p-4 border-b border-white/10">
+                        <h4 className="text-base font-bold text-white">
+                          {selectedSection.section.title}
+                        </h4>
+                      </div>
+
+                      {/* Courses Grid - Scrollable */}
+                      <div className="overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent" style={{ maxHeight: '340px' }}>
+                        <div className="grid grid-cols-1 gap-2">
+                          {selectedSection.section.courses.map((course, courseIndex) => (
+                            <button
+                              key={courseIndex}
+                              onClick={() => handleSubcategoryClick(course.path)}
+                              className="text-left px-3 py-2 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-4 rounded border border-white/10 hover:border-white/30 transition-all"
+                            >
+                              {course.name}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </li>
+
+            {/* Degree Programs Mega Menu */}
+            <li className="relative" ref={dropdownRef2}>
+              <button
+                onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+                className="inline-flex items-center gap-1.5 px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95"
+              >
+                Degree Programs
+                <FaChevronDown className={`text-xs transition-transform ${isDropdown2Open ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isDropdown2Open && streamWiseCourses.length > 0 && selectedStream && (
+                <div className="absolute left-0 mt-2 w-screen max-w-3xl bg-[#0f172a] rounded-lg shadow-2xl border border-white/15 z-50">
+                  <div className="flex" style={{ maxHeight: '400px' }}>
+                    {/* Left Side - Stream Names - Scrollable */}
+                    <div className="w-2/5 bg-white/5 border-r border-white/10 rounded-l-lg flex flex-col">
+                      <div className="overflow-y-auto p-3 flex-1 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent" style={{ maxHeight: '340px' }}>
+                        <h3 className="text-[10px] font-bold text-white uppercase tracking-wide mb-2 px-2">
+                          Streams
+                        </h3>
+                        <div className="space-y-1">
+                          {streamWiseCourses.map((stream, index) => (
+                            <button
+                              key={index}
+                              onClick={() => setSelectedStream(stream)}
+                              className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all ${
+                                selectedStream.streamName === stream.streamName
+                                  ? 'bg-white text-[#0f172a] shadow-sm'
+                                  : 'text-white hover:bg-white/12 hover:pl-3.5'
+                              }`}
+                            >
+                              {stream.streamName}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                      
+                      <button
+                        onClick={() => handleSubcategoryClick("/degree-programs")}
+                        className="m-3 mt-0 py-2 text-sm font-medium text-white bg-white/10 hover:bg-white hover:text-[#0f172a] rounded-lg transition-all border border-white/20"
+                      >
+                        Read more →
+                      </button>
+                    </div>
+
+                    {/* Right Side - Courses - Scrollable */}
+                    <div className="w-3/5 flex flex-col">
+                      <div className="p-4 border-b border-white/10">
+                        <h4 className="text-base font-bold text-white">
+                          {selectedStream.streamName}
+                        </h4>
+                      </div>
+
+                      {/* Courses Grid - Scrollable */}
+                      <div className="overflow-y-auto p-4 scrollbar-thin scrollbar-thumb-white/20 scrollbar-track-transparent" style={{ maxHeight: '340px' }}>
+                        <div className="grid grid-cols-1 gap-2">
+                          {selectedStream.courses.map((courseItem, i) => (
+                            <button
+                              key={i}
+                              onClick={() => handleSubcategoryClick(courseItem.path)}
+                              className="text-left px-3 py-2 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-4 rounded border border-white/10 hover:border-white/30 transition-all"
+                            >
+                              {courseItem.course}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </li>
+
+            <li>
+              <Link href="/about" className="px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+                About Us
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/corporate-training" className="px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+                Corporate Training
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/contact" className="px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+                Contact Us
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/" className="px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+                Services
+              </Link>
+            </li>
+
+            {/* More Dropdown */}
+            <li className="relative" ref={moreDropdownRef}>
+              <button
+                onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
+                className="inline-flex items-center gap-1.5 px-3 py-2.5 text-[13px] font-semibold text-white hover:bg-white hover:text-[#0f172a] rounded-md transition-all hover:-translate-y-0.5 active:scale-95"
+              >
+                More
+                <FaChevronDown className={`text-xs transition-transform ${isMoreDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {isMoreDropdownOpen && (
+                <div className="absolute right-0 mt-2 w-56 bg-[#0f172a] rounded-lg shadow-2xl border border-white/15 z-50">
+                  <Link href="/freelance-trainee" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-5 transition-all">
+                    Freelancers
+                  </Link>
+                  <Link href="/interview-questions" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-5 transition-all">
+                    Interview Questions
+                  </Link>
+                  <Link href="/blog" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-5 transition-all">
+                    Blog
+                  </Link>
+                  <Link href="/reviews" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-5 transition-all">
+                    Reviews
+                  </Link>
+                  <Link href="/tutorial" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:bg-white hover:text-[#0f172a] hover:pl-5 transition-all">
+                    Tutorial
+                  </Link>
+                </div>
+              )}
+            </li>
+          </ul>
         </div>
 
-        <Link href="/" className="home-icon-lg">
-          <FaHome />
-        </Link>
-
-        <ul className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
-          <li className="dropdown" ref={dropdownRef}>
-          <span
-  style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
-  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
->
-  Skill Programs
-  <FaChevronDown />
-</span>
-
-            {isDropdownOpen && (
-              <ul className="dropdown-menu">
-                {categories.slice(1).map((category, index) => (
-                  <li key={index} className="dropdown-submenu">
-                    <span className="submenu-title">
-                      {category.category_name} ▸
-                    </span>
-                    <ul className="sub-menu">
-                      {category.sub_categories.map((subcategory, subIndex) => (
-                        <li key={subIndex}>
-                          <button
-                            className="subcategory-button"
-                            onClick={() =>
-                              handleSubcategoryClick(subcategory.path)
-                            }
-                          >
-                            {subcategory.course_name}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-                <li className="dropdown-readmore">
-        <button
-          className="readmore-button"
-          onClick={() => handleSubcategoryClick("/degree-programs")}
-        >
-          Read more →
-        </button>
-      </li>
-              </ul>
-            )}
-          </li>
-        <li className="dropdown" ref={dropdownRef2}>
-  <span
-    className="dropdown-toggle " 
-    onClick={() => setIsDropdown2Open(!isDropdown2Open)}
-      style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
-
-  >
-    Degree based programs <FaChevronDown className="dropdown-icon" />
-  </span>
-
-  {isDropdown2Open && (
-    <ul className="dropdown-menu">
-      {streamWiseCourses?.map((stream, index) => (
-        <li key={index} className="dropdown-submenu">
-          <span className="submenu-title">{stream.streamName} ▸</span>
-
-          <ul className="sub-menu">
-            {stream.courses.map((courseItem, i) => (
-              <li key={i}>
+        {/* Mobile Navigation */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden pb-4">
+            <ul className="space-y-1">
+              {/* Mobile Skill Programs */}
+              <li>
                 <button
-                  className="subcategory-button"
-                  onClick={() => handleSubcategoryClick(courseItem.path)}
+                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1"
                 >
-                  {courseItem.course}
+                  Skill Programs
+                  <FaChevronDown className={`text-xs transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
+
+                {isDropdownOpen && skillPrograms && (
+                  <div className="pl-4 space-y-1 mt-2 max-h-96 overflow-y-auto">
+                    {skillPrograms.categories.map((category, index) => (
+                      <div key={index} className="border-l-2 border-white/10 pl-4 py-2 bg-white/5 rounded-r my-2.5 mx-2">
+                        <div className="text-xs font-bold text-white uppercase mb-2">
+                          {category.title}
+                        </div>
+                        {category.sections.map((section, sectionIndex) => (
+                          <div key={sectionIndex} className="mb-3">
+                            <div className="text-[10px] font-bold text-white/80 uppercase mb-1.5">
+                              {section.title}
+                            </div>
+                            {section.courses.map((course, courseIndex) => (
+                              <button
+                                key={courseIndex}
+                                onClick={() => handleSubcategoryClick(course.path)}
+                                className="block w-full text-left px-3 py-2 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-4 rounded transition-all my-1"
+                              >
+                                {course.name}
+                              </button>
+                            ))}
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </li>
-            ))}
-          </ul>
-        </li>
-      ))}
 
-      {/* --- Read More Button (LAST ITEM) --- */}
-      <li className="dropdown-readmore">
-        <button
-          className="readmore-button"
-          onClick={() => handleSubcategoryClick("/degree-programs")}
-        >
-          Read more →
-        </button>
-      </li>
-    </ul>
-  )}
-</li>
-        <li>
-            <Link href="/about">About Us</Link>
-          </li>
-          <li>
-            <Link href="/corporate-training">Corporate Training</Link>
-          </li>
-            <li>
-            <Link className="more-item" href="/contact">Contact Us</Link>
-          </li>
- <li>
-  
-            <Link href="/">Services</Link>
-          </li>
-         
-          {/* Tutorial as the second item in nav bar */}
-         
-          {/* More Dropdown with Certifications inside */}
-          <li className="more-dropdown" ref={moreDropdownRef}>
-            <span
-              className="more-dropdown-toggle"
-              onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
-                style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}
+              {/* Mobile Degree Programs */}
+              <li>
+                <button
+                  onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+                  className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1"
+                >
+                  Degree Programs
+                  <FaChevronDown className={`text-xs transition-transform ${isDropdown2Open ? 'rotate-180' : ''}`} />
+                </button>
 
-            >
-              More <FaChevronDown className="dropdown-icon" />
-            </span>
+                {isDropdown2Open && streamWiseCourses.length > 0 && (
+                  <div className="pl-4 space-y-1 mt-2 max-h-96 overflow-y-auto">
+                    {streamWiseCourses.map((stream, index) => (
+                      <div key={index} className="border-l-2 border-white/10 pl-4 py-2 bg-white/5 rounded-r my-2.5 mx-2">
+                        <div className="text-xs font-bold text-white uppercase mb-2">
+                          {stream.streamName}
+                        </div>
+                        {stream.courses.map((courseItem, i) => (
+                          <button
+                            key={i}
+                            onClick={() => handleSubcategoryClick(courseItem.path)}
+                            className="block w-full text-left px-3 py-2 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-4 rounded transition-all my-1"
+                          >
+                            {courseItem.course}
+                          </button>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </li>
 
-            {isMoreDropdownOpen && (
-              <ul className="more-dropdown-menu">
-                <li><Link href="/freelance-trainee" className="more-item">Freelancers</Link></li>
-                <li><Link href="/interview-questions" className="more-item">Interview Questions</Link></li>
-                <li><Link href="/blog" className="more-item">Blog</Link></li>
-                <li><Link href="/reviews" className="more-item">Reviews</Link></li>
-              
-           <li>
-            <Link className="more-item" href="/tutorial">Tutorial</Link>
-          </li>
-              </ul>
-            )}
-          </li>
+              <li>
+                <Link href="/about" className="block px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1">
+                  About Us
+                </Link>
+              </li>
 
-        </ul>
+              <li>
+                <Link href="/corporate-training" className="block px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1">
+                  Corporate Training
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/contact" className="block px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1">
+                  Contact Us
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/" className="block px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1">
+                  Services
+                </Link>
+              </li>
+
+              {/* Mobile More Dropdown */}
+              <li>
+                <button
+                  onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
+                  className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-white hover:bg-white/10 rounded-lg my-1"
+                >
+                  More
+                  <FaChevronDown className={`text-xs transition-transform ${isMoreDropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {isMoreDropdownOpen && (
+                  <div className="pl-4 space-y-1 mt-2">
+                    <Link href="/freelance-trainee" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-5 rounded transition-all">
+                      Freelancers
+                    </Link>
+                    <Link href="/interview-questions" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-5 rounded transition-all">
+                      Interview Questions
+                    </Link>
+                    <Link href="/blog" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-5 rounded transition-all">
+                      Blog
+                    </Link>
+                    <Link href="/reviews" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-5 rounded transition-all">
+                      Reviews
+                    </Link>
+                    <Link href="/tutorial" className="block px-4 py-2.5 text-[12px] font-medium text-white hover:text-[#0f172a] hover:bg-white hover:pl-5 rounded transition-all">
+                      Tutorial
+                    </Link>
+                  </div>
+                )}
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
     </nav>
   );

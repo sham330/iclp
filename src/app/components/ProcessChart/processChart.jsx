@@ -1,155 +1,75 @@
-import React from "react";
+import { MessageCircle, ClipboardList, GraduationCap, FileText, Briefcase, Award } from "lucide-react"
 
-const ProgramRoadmap = () => {
-  const steps = [
-    {
-      number: "01",
-      title: "Career Consultation",
-      points: [
-        "Free one-on-one counseling",
-        "Identifying the right IT course based on interest & background",
-      ],
-      icon: "💬",
-    },
-    {
-      number: "02",
-      title: "Course Enrollment",
-      points: [
-        "Flexible course plans (Weekend/Weekday/Online)",
-        "Language options available",
-      ],
-      icon: "📝",
-    },
-    {
-      number: "03",
-      title: "Training & Mentorship",
-      points: [
-        "Hands-on training by industry experts",
-        "Real-time project guidance",
-        "Personalized doubt-clearing sessions",
-      ],
-      icon: "👨‍🏫",
-    },
-    {
-      number: "04",
-      title: "Resume + Interview Prep",
-      points: [
-        "Professional resume building",
-        "Mock interviews & HR grooming",
-        "Job-specific profile customization",
-      ],
-      icon: "📄",
-    },
-    {
-      number: "05",
-      title: "Placement Assist",
-      points: [
-        "100% placement assistance",
-        "Interview scheduling with partnered companies",
-        "Support until placement confirmation",
-      ],
-      icon: "💼",
-    },
-    {
-      number: "06",
-      title: "Certification",
-      points: ["ISO-certified course completion certificate"],
-      icon: "🏆",
-    },
-  ];
+const steps = [
+  {
+    number: "01",
+    title: "Career Consultation",
+    icon: MessageCircle,
+  },
+  {
+    number: "02",
+    title: "Course Enrollment",
+    icon: ClipboardList,
+  },
+  {
+    number: "03",
+    title: "Training & Mentorship",
+    icon: GraduationCap,
+  },
+  {
+    number: "04",
+    title: "Resume + Interview Prep",
+    icon: FileText,
+  },
+  {
+    number: "05",
+    title: "Placement Assist",
+    icon: Briefcase,
+  },
+  {
+    number: "06",
+    title: "Certification",
+    icon: Award,
+  },
+]
 
+export default function HexagonRoadmap() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-50 via-white to-green-50 py-16 px-4 relative overflow-hidden">
-      {/* Subtle Christmas decorations */}
-      <div className="absolute top-10 left-10 text-6xl opacity-10">❄️</div>
-      <div className="absolute top-32 right-20 text-5xl opacity-10">🎄</div>
-      <div className="absolute bottom-20 left-20 text-5xl opacity-10">⛄</div>
-      <div className="absolute bottom-40 right-16 text-6xl opacity-10">❄️</div>
-
-      <div className="max-w-7xl mx-auto relative z-10 py-20">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-800">
-          Program <span className="text-red-600">Roadmap</span>
+    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-4">
+      <div className="max-w-7xl mx-auto py-20">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white">
+          Program <span className="">Roadmap</span>
         </h2>
-        <p className="text-center text-gray-600 mb-12 text-lg">
-          Your journey to success, step by step 🎄
+        <p className="text-center text-slate-300 mb-16 text-lg">
+          Your journey to success, step by step
         </p>
 
-        {/* Desktop Layout - Zigzag */}
-        <div className="hidden md:block">
-          <div className="space-y-8">
-            {steps.map((step, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14 place-items-center">
+          {steps.map((step, index) => {
+            const Icon = step.icon
+            return (
               <div
                 key={index}
-                className={`flex items-center gap-8 p-5`}
+                className="group relative w-72 h-72 rounded-3xl bg-gradient-to-br from-slate-50 to-white border-2 border-blue-500/30 shadow-xl shadow-blue-500/10 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50"
               >
-                {/* Step Card */}
-                <div className="flex-1">
-                  <div className="bg-white border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
-                        {step.number}
-                      </div>
-                      <span className="text-4xl">{step.icon}</span>
-                      <h3 className="text-xl font-bold text-gray-800 flex-1">
-                        {step.title}
-                      </h3>
-                    </div>
-                    <ul className="space-y-2">
-                      {step.points.map((point, i) => (
-                        <li key={i} className="flex items-start gap-2 text-gray-700">
-                          <span className="text-red-500 mt-1">🎁</span>
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                {/* Connector */}
-                {index < steps.length - 1 && (
-                  <div className="flex flex-col items-center">
-                    <div className="w-1 h-16 bg-gradient-to-b from-red-300 to-green-300 rounded-full"></div>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Mobile Layout - Vertical */}
-        <div className="md:hidden space-y-6">
-          {steps.map((step, index) => (
-            <div key={index}>
-              <div className="bg-white border-2 border-red-200 rounded-xl p-6 shadow-lg">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-red-500 to-green-600 rounded-full flex items-center justify-center text-white font-bold shadow-md">
+                <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
+                  <div className="w-12 h-12 mb-4 bg-blue-500  rounded-full flex items-center justify-center text-white font-bold shadow-lg shadow-blue-500/30 group-hover:shadow-xl group-hover:shadow-blue-500/40 transition-shadow">
                     {step.number}
                   </div>
-                  <span className="text-3xl">{step.icon}</span>
+
+                  <Icon className="w-8 h-8 text-blue-600 mb-3 group-hover:text-purple-600 transition-colors" />
+
+                  <h3 className="text-lg font-bold text-slate-800 mb-3 group-hover:text-blue-700 transition-colors">
+                    {step.title}
+                  </h3>
                 </div>
-                <h3 className="text-lg font-bold text-gray-800 mb-3">
-                  {step.title}
-                </h3>
-                <ul className="space-y-2">
-                  {step.points.map((point, i) => (
-                    <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <span className="text-red-500 mt-0.5">🎁</span>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
               </div>
-              {index < steps.length - 1 && (
-                <div className="flex justify-center py-3">
-                  <div className="w-1 h-8 bg-gradient-to-b from-red-300 to-green-300 rounded-full"></div>
-                </div>
-              )}
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
-    </div>
-  );
-};
-
-export default ProgramRoadmap;
+    </section>
+  )
+}

@@ -26,10 +26,12 @@ import CourseFAQs from "../../components/faq/faq";
 import CourseAdvantagesTools from "../../components/CourseAdvantagesTools/CourseAdvantagesTools";
 import Head from "./Head";
 
+
 const CourseDetails = () => {
   const params = useParams();
   const path = params?.path;
   const courseName = params?.courseName;
+
 
   const [course, setCourse] = useState(null);
   const [additionalContent, setAdditionalContent] = useState(null);
@@ -38,6 +40,7 @@ const CourseDetails = () => {
   const [learnerCount, setLearnerCount] = useState(0);
   const [profilePics, setProfilePics] = useState([]);
   const [showBookingModal, setShowBookingModal] = useState(false);
+
 
   const hiringPartners = [
     "/companies/Accenture.png",
@@ -57,6 +60,7 @@ const CourseDetails = () => {
     "/companies/zoho.png",
   ];
 
+
   const profilePictures = [
     "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200",
     "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200",
@@ -70,12 +74,15 @@ const CourseDetails = () => {
     "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200",
   ];
 
+
   useEffect(() => {
     setLoading(true);
     setLearnerCount(Math.floor(Math.random() * 4000) + 1000);
 
+
     const shuffled = [...profilePictures].sort(() => 0.5 - Math.random());
     setProfilePics(shuffled.slice(0, 3));
+
 
     Promise.all([
       fetch("/data/courses.json").then((res) => res.json()),
@@ -84,6 +91,7 @@ const CourseDetails = () => {
       .then(([coursesData, additionalData]) => {
         let foundCourse = null;
 
+
         coursesData.categories.forEach((category) => {
           category.sub_categories.forEach((sub) => {
             if (sub.path === path) {
@@ -91,6 +99,7 @@ const CourseDetails = () => {
             }
           });
         });
+
 
         if (foundCourse) {
           setCourse(foundCourse);
@@ -104,14 +113,18 @@ const CourseDetails = () => {
       .finally(() => setLoading(false));
   }, [path, courseName]);
 
+
   const toggleModule = (index) => {
     setOpenModule(openModule === index ? null : index);
   };
 
+
   const downloadSyllabusPDF = () => {
     if (!course) return;
 
+
     const doc = new jsPDF();
+
 
     const addWatermark = (doc) => {
       const watermarkText = "ICLP TECH";
@@ -120,8 +133,10 @@ const CourseDetails = () => {
       doc.setTextColor(169, 169, 169);
       doc.setGState(doc.GState({ opacity: 0.2 }));
 
+
       const pageWidth = doc.internal.pageSize.getWidth();
       const pageHeight = doc.internal.pageSize.getHeight();
+
 
       for (let i = 0; i < pageWidth; i += 150) {
         for (let j = 0; j < pageHeight; j += 150) {
@@ -129,21 +144,26 @@ const CourseDetails = () => {
         }
       }
 
+
       doc.setGState(doc.GState({ opacity: 1 }));
       doc.setTextColor(0, 0, 0);
     };
 
+
     let yPos = 20;
+
 
     doc.setFontSize(22);
     doc.setTextColor(1, 55, 125);
     doc.text(course.course_name, 15, yPos);
     yPos += 10;
 
+
     doc.setFontSize(14);
     doc.setTextColor(0, 0, 0);
     doc.text("Course Description:", 15, yPos);
     yPos += 5;
+
 
     doc.setFontSize(12);
     const descriptionLines = doc.splitTextToSize(
@@ -153,10 +173,12 @@ const CourseDetails = () => {
     doc.text(descriptionLines, 15, yPos);
     yPos += descriptionLines.length * 7 + 15;
 
+
     doc.setFontSize(14);
     doc.setTextColor(1, 55, 125);
     doc.text("What You'll Learn:", 15, yPos);
     yPos += 10;
+
 
     doc.setFontSize(12);
     course.what_youll_learn.forEach((topic) => {
@@ -165,18 +187,22 @@ const CourseDetails = () => {
       yPos += topicLines.length * 7;
     });
 
+
     yPos += 10;
+
 
     doc.setFontSize(14);
     doc.setTextColor(1, 55, 125);
     doc.text("Syllabus:", 15, yPos);
     yPos += 10;
 
+
     const syllabusData = course.syllabus.map((module, index) => [
       `Module ${index + 1}`,
       module.module,
       module.subtopics.join("\n"),
     ]);
+
 
     autoTable(doc, {
       startY: yPos,
@@ -189,8 +215,10 @@ const CourseDetails = () => {
       didDrawPage: (data) => { addWatermark(doc); },
     });
 
+
     doc.save(`${course.course_name}_Syllabus.pdf`);
   };
+
 
   if (loading) {
     return (
@@ -203,6 +231,7 @@ const CourseDetails = () => {
     );
   }
 
+
   if (!course) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center">
@@ -213,13 +242,15 @@ const CourseDetails = () => {
     );
   }
 
+
   return (
     <div className="min-h-screen bg-white">
       <Head />
 
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             {/* Left Content */}
             <div className="text-white">
@@ -229,6 +260,7 @@ const CourseDetails = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 {course.course_name}
               </h1>
+
 
               {/* Rating and Learners */}
               <div className="flex items-center gap-4 mb-6">
@@ -242,6 +274,7 @@ const CourseDetails = () => {
                   </span>
                 </div>
               </div>
+
 
               {/* Profile Pics */}
               <div className="flex items-center gap-3 mb-6">
@@ -260,9 +293,11 @@ const CourseDetails = () => {
                 </span>
               </div>
 
+
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
                 {additionalContent?.courseDescription || course.description}
               </p>
+
 
               <button
                 onClick={() => setShowBookingModal(true)}
@@ -272,11 +307,13 @@ const CourseDetails = () => {
               </button>
             </div>
 
+
             {/* Right Card - Course Highlights */}
             <div className="bg-white rounded-2xl p-8 shadow-2xl">
               <h3 className="text-2xl font-bold text-[#01377d] mb-6">
                 Course Highlights
               </h3>
+
 
               <div className="space-y-4">
                 {[
@@ -300,6 +337,7 @@ const CourseDetails = () => {
                 ))}
               </div>
 
+
               <div className="mt-8 bg-[#01377d] rounded-lg p-4 text-center">
                 <a
                   href="tel:+918681026181"
@@ -314,9 +352,10 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       {/* What You'll Learn Section */}
       <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Skills */}
             <div>
@@ -335,6 +374,7 @@ const CourseDetails = () => {
                 ))}
               </div>
             </div>
+
 
             {/* Hiring Partners Preview */}
             <div className="bg-slate-50 rounded-2xl p-8">
@@ -368,12 +408,14 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       {/* Syllabus Section */}
       <section className="py-16 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-[#01377d] mb-8 text-center">
             Course Curriculum
           </h2>
+
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Accordion */}
@@ -402,6 +444,7 @@ const CourseDetails = () => {
                     )}
                   </button>
 
+
                   {openModule === index && (
                     <div className="px-6 pb-6">
                       <ul className="space-y-3">
@@ -421,6 +464,7 @@ const CourseDetails = () => {
               ))}
             </div>
 
+
             {/* Sidebar */}
             <div className="space-y-6">
               {/* Company Logo */}
@@ -437,6 +481,7 @@ const CourseDetails = () => {
                   <FaDownload /> Download Full Syllabus
                 </button>
               </div>
+
 
               {/* Book Enquiry */}
               <div className="bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-6 text-white text-center">
@@ -456,9 +501,10 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       {/* Certificate Section */}
       <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block bg-[#39FF14] text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">
@@ -471,6 +517,7 @@ const CourseDetails = () => {
                 Earn a recognized credential that validates your technical
                 expertise and opens doors to new career opportunities.
               </p>
+
 
               <div className="grid grid-cols-3 gap-4 mb-8">
                 {[
@@ -485,6 +532,7 @@ const CourseDetails = () => {
                 ))}
               </div>
 
+
               <button
                 onClick={() => setShowBookingModal(true)}
                 className="inline-flex items-center gap-2 bg-[#39FF14] hover:bg-[#2de000] text-[#01377d] px-8 py-4 rounded-lg font-bold transition-all hover:scale-105 shadow-lg shadow-[#39FF14]/30"
@@ -493,9 +541,10 @@ const CourseDetails = () => {
               </button>
             </div>
 
+
             <div
               onClick={() => setShowBookingModal(true)}
-              className="cursor-pointer group"
+              className="cursor-pointer group flex justify-center"
             >
              <div
     className="
@@ -509,7 +558,7 @@ const CourseDetails = () => {
   >
     <img
       src="/certification.png"
-      alt="SAP Certification"
+      alt="ICLP Certification"
       className="w-full h-full object-contain"
     />
   </div>
@@ -518,17 +567,20 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       <CourseAdvantagesTools courseName={course.course_name} />
+
 
       {/* Full Hiring Partners */}
       <section className="py-16 bg-slate-50 hiring-partners-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-[#01377d] mb-4 text-center">
             Our Hiring Partners
           </h2>
           <p className="text-slate-600 text-center mb-12">
             Top companies where our graduates work
           </p>
+
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {hiringPartners.map((image, index) => (
@@ -547,12 +599,14 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       <CourseReviews />
       <CourseFAQs courseName={course.course_name} />
 
+
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-4">
             Ready to Start Your {course.course_name} Journey?
           </h2>
@@ -576,7 +630,9 @@ const CourseDetails = () => {
         </div>
       </section>
 
+
       <RelatedCourses currentCourseName={course.course_name} />
+
 
       {/* Modal */}
       {showBookingModal && (
@@ -585,5 +641,6 @@ const CourseDetails = () => {
     </div>
   );
 };
+
 
 export default CourseDetails;

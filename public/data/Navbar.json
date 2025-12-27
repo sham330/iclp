@@ -1,0 +1,232 @@
+{
+  "skillPrograms": {
+    "title": "SKILL PROGRAMS",
+    "categories": [
+      {
+        "title": "BASIC FOUNDATION COURSES",
+        "description": "For beginners / college students / career starters.",
+        "sections": [
+          {
+            "title": "Computer & IT Basics",
+            "courses": [
+              { "name": "Computer Fundamentals", "path": "" },
+              { "name": "MS Office (Word, Excel, PowerPoint)", "path": "" },
+              { "name": "Tally", "path": "/course/tally" },
+              { "name": "Internet & Networking Basics", "path": "" },
+              { "name": "Programming Basics", "path": "" }
+            ]
+          },
+          {
+            "title": "Programming Languages",
+            "courses": [
+              { "name": "C Programming", "path": "/course/c-cpp-programming-course" },
+              { "name": "C++ Programming", "path": "/course/c-cpp-programming-course" },
+              { "name": "Java Basics", "path": "/course/java-online-training" },
+              { "name": "Python Basics", "path": "/course/python-development-online-training" }
+            ]
+          },
+          {
+            "title": "Web & Design Basics",
+            "courses": [
+              { "name": "HTML / CSS Basics", "path": "/course/html-developer-online-training" },
+              { "name": "Basic Web Designing", "path": "" },
+              { "name": "Basic Graphic Designing", "path": "" }
+            ]
+          },
+          {
+            "title": "Others",
+            "courses": [
+              { "name": "Basics of Databases (SQL)", "path": "/course/msql-online-training" },
+              { "name": "Soft Tech Skills", "path": "" },
+              { "name": "Digital Literacy", "path": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "INTERMEDIATE TECHNOLOGIES",
+        "description": "Entry-level software career programs.",
+        "sections": [
+          {
+            "title": "Programming & Development",
+            "courses": [
+              { "name": "Core Java", "path": "/course/java-online-training" },
+              { "name": "Python Programming", "path": "/course/python-full-stack-developer-online-training" },
+              { "name": "JavaScript Training", "path": "/course/java-script-online-training" },
+              { "name": "OOPS Concepts", "path": "" },
+              { "name": "React Basics", "path": "/course/react-js-online-training" },
+              { "name": "Node.js Basics", "path": "/course/node-js-online-training" },
+              { "name": "PHP / .NET Foundation", "path": "" }
+            ]
+          },
+          {
+            "title": "Web Development",
+            "courses": [
+              { "name": "Web Designing", "path": "" },
+              { "name": "HTML, CSS, JavaScript", "path": "" },
+              { "name": "Bootstrap", "path": "" },
+              { "name": "Web Development", "path": "" }
+            ]
+          },
+          {
+            "title": "Database & Testing",
+            "courses": [
+              { "name": "SQL (Intermediate)", "path": "/course/msql-online-training" },
+              { "name": "MySQL / PostgreSQL", "path": "/course/pl-and-sql-online-training" },
+              { "name": "Oracle SQL Fundamentals", "path": "/courses/oracle/oracle-sql-plsql" },
+              { "name": "Software Testing", "path": "/course/software-testing-certification-course" },
+              { "name": "Manual Testing", "path": "/course/manual-testing-course-online" },
+              { "name": "Basics of Automation Testing", "path": "" },
+              { "name": "API Testing (Postman Basics)", "path": "" }
+            ]
+          },
+          {
+            "title": "Systems & OS",
+            "courses": [
+              { "name": "Networking & OS", "path": "" },
+              { "name": "Linux Basics", "path": "" },
+              { "name": "Windows Server Fundamentals", "path": "/courses/windows-server" },
+              { "name": "CCNA (Foundation)", "path": "/course/ccna-online-training" }
+            ]
+          },
+          {
+            "title": "Design & Digital",
+            "courses": [
+              { "name": "Graphic Design Basics", "path": "" },
+              { "name": "Digital Marketing Basics", "path": "/course/digital-marketing-online-training" },
+              { "name": "Canva / Figma Basics", "path": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ADVANCED TECHNOLOGIES",
+        "description": "Job-ready advanced programs.",
+        "sections": [
+          {
+            "title": "Software Development",
+            "courses": [
+              { "name": "Full Stack Development (MERN / MEAN / Java / Python)", "path": "/course/full-stack-developer-online-training" },
+              { "name": "Advanced Java (Spring / Hibernate)", "path": "/course/spring-boot-online-training" },
+              { "name": "Advanced Python (Django / Flask / FastAPI)", "path": "/course/python-full-stack-developer-online-training" },
+              { "name": "Mobile App Development (Android / iOS / Flutter / Kotlin)", "path": "" },
+              { "name": "Advanced JavaScript Frameworks (React / Angular / Vue)", "path": "/course/react-js-online-training" }
+            ]
+          },
+          {
+            "title": "Cloud & DevOps",
+            "courses": [
+              { "name": "AWS Solutions Architect", "path": "/course/aws-online-training" },
+              { "name": "Microsoft Azure", "path": "/course/microsoftazure-training" },
+              { "name": "Google Cloud Platform", "path": "" },
+              { "name": "DevOps Master Program", "path": "/course/devops-training" },
+              { "name": "Docker", "path": "" },
+              { "name": "Kubernetes", "path": "" },
+              { "name": "Terraform", "path": "" },
+              { "name": "CI/CD Pipelines", "path": "" },
+              { "name": "Git & GitHub", "path": "" }
+            ]
+          },
+          {
+            "title": "Cybersecurity",
+            "courses": [
+              { "name": "Cyber Security Analyst", "path": "/course/cyber-security-online-training" },
+              { "name": "Ethical Hacking", "path": "/course/ethical-hacking--online-training" },
+              { "name": "SOC Analyst", "path": "" },
+              { "name": "Penetration Testing", "path": "" },
+              { "name": "Network Security", "path": "" },
+              { "name": "Cloud Security", "path": "" },
+              { "name": "CISM", "path": "/course/cism-certification-online-training" },
+              { "name": "CEH Preparation", "path": "" }
+            ]
+          },
+          {
+            "title": "Data Science & Analytics",
+            "courses": [
+              { "name": "Data Science Master Program", "path": "/course/data-science-with-python-training" },
+              { "name": "Machine Learning", "path": "/course/machine-learning-online-course" },
+              { "name": "AI Fundamentals", "path": "/course/artificial-intelligence-course-online" },
+              { "name": "Data Analytics", "path": "/course/data-analytics-course" },
+              { "name": "Power BI", "path": "" },
+              { "name": "Tableau", "path": "" },
+              { "name": "Statistics for Data Science", "path": "/course/data-science-with-python-training" },
+              { "name": "Big Data (Hadoop, Spark)", "path": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "LATEST & BOOMING TECHNOLOGIES",
+        "description": "New tech trends (2024–2025+).",
+        "sections": [
+          {
+            "title": "Artificial Intelligence",
+            "courses": [
+              { "name": "Generative AI", "path": "/course/artificial-intelligence-course-online" },
+              { "name": "ChatGPT + Prompt Engineering", "path": "/course/chatgpt-online-course" },
+              { "name": "LLM Development", "path": "" },
+              { "name": "RAG Systems", "path": "" },
+              { "name": "AI for Automation", "path": "" },
+              { "name": "Neural Networks Advanced", "path": "" }
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "courses": [
+              { "name": "Snowflake", "path": "" },
+              { "name": "Databricks", "path": "" },
+              { "name": "Apache Spark Advanced", "path": "" },
+              { "name": "Azure Data Factory", "path": "" },
+              { "name": "AWS Glue", "path": "" }
+            ]
+          },
+          {
+            "title": "Automation & RPA",
+            "courses": [
+              { "name": "UiPath", "path": "" },
+              { "name": "BluePrism", "path": "" },
+              { "name": "Automation Anywhere", "path": "" },
+              { "name": "RPA + Artificial Intelligence", "path": "" }
+            ]
+          },
+          {
+            "title": "Web 3.0 Technologies",
+            "courses": [
+              { "name": "Blockchain Development", "path": "/course/blockchain-online-training" },
+              { "name": "Smart Contracts (Solidity)", "path": "" },
+              { "name": "Crypto Tech", "path": "" },
+              { "name": "Decentralized App (DApp) Development", "path": "" }
+            ]
+          },
+          {
+            "title": "Advanced Cybersecurity",
+            "courses": [
+              { "name": "AI-Enabled Cybersecurity", "path": "" },
+              { "name": "Cloud Security Engineer", "path": "" },
+              { "name": "Red Team / Blue Team Training", "path": "" },
+              { "name": "Malware Analysis", "path": "" }
+            ]
+          },
+          {
+            "title": "Modern Cloud Technologies",
+            "courses": [
+              { "name": "Kubernetes Expert", "path": "" },
+              { "name": "Terraform Advanced", "path": "" },
+              { "name": "Multi-Cloud Architect", "path": "" },
+              { "name": "Serverless Architecture", "path": "" }
+            ]
+          },
+          {
+            "title": "High-Demand Future Fields",
+            "courses": [
+              { "name": "Quantum Computing Basics", "path": "" },
+              { "name": "Edge Computing", "path": "" },
+              { "name": "IoT + AI", "path": "" },
+              { "name": "Digital Marketing", "path": "/course/digital-marketing-online-training" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
