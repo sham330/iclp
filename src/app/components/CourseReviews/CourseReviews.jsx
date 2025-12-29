@@ -412,7 +412,7 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 mb-3">
-            {courseName} <span className="text-blue-600">Reviews</span>
+           <span className="text-blue-600">Reviews</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600">
             Average rating: <strong className="text-blue-700">{courseHighlight}</strong>
