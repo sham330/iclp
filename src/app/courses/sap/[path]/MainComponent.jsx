@@ -80,38 +80,38 @@ const SapCourseDetailsPage = () => {
     },
     "sap-pp": {
       courseDescription:
-        "Ready to become a certified expert in manufacturing and supply chain management? ICLP Tech offers the most comprehensive SAP PP course in India, designed for professionals seeking to master the crucial Production Planning module. The SAP PP module is the central nervous system for manufacturing processes, managing everything from demand forecasting to shop floor control. Our expert-led program provides practical, end-to-end SAP PP training, ensuring you gain hands-on proficiency in system configuration and implementation. By completing this specialized pp course, you secure the skills needed for career growth and preparation for the official SAP PP certificate. We empower you to drive efficiency and operational excellence in top industries across India.",
+        "Ready to become a certified expert in manufacturing and supply chain management? ICLP Tech offers the most comprehensive <strong> SAP PP course </strong> in <strong> India</strong> , designed for professionals seeking to master the crucial Production Planning module. The <strong> SAP PP </strong> module is the central nervous system for manufacturing processes, managing everything from demand forecasting to shop floor control. Our expert-led program provides practical, end-to-end<strong>  SAP PP training</strong> , ensuring you gain hands-on proficiency in system configuration and implementation. By completing this specialized <strong> pp course</strong> , you secure the skills needed for career growth and preparation for the official <strong> SAP PP certificate</strong> . We empower you to drive efficiency and operational excellence in top industries across <strong> India</strong> .",
     },
     "sap-abap": {
       courseDescription:
-        "Elevate your programming skills and step into the high-demand world of enterprise resource planning with ICLP's definitive SAP ABAP Course Online. Designed by industry veterans, this comprehensive program provides the foundation and advanced knowledge required to become a certified SAP ABAP professional. Our structured SAP ABAP Training covers everything from foundational concepts like data dictionary and Open SQL to advanced topics like Object-Oriented ABAP and system integration. If you are serious about securing a specialized role in the Indian IT sector, this is the essential SAP ABAP Course you need.",
+        "Elevate your programming skills and step into the high-demand world of enterprise resource planning with ICLP's definitive <strong>SAP ABAP Course Online</strong>. Designed by industry veterans, this comprehensive program provides the foundation and advanced knowledge required to become a certified <strong>SAP ABAP professional</strong>. Our structured <strong>SAP ABAP Training</strong> covers everything from foundational concepts like data dictionary and Open SQL to advanced topics like Object-Oriented ABAP and system integration. If you are serious about securing a specialized role in the Indian IT sector, this is the essential <strong> SAP ABAP Course</strong> you need.",
     },
     "sap-transportation-management": {
-      courseDescription: "Start your journey toward becoming a certified logistics expert with the premier SAP TM Training program in India. Our comprehensive SAP Transportation Management Training Online is specifically designed for ambitious professionals seeking to master the complexities of modern supply chain execution. This is more than just an SAP TM Course; it is an integrated learning experience that covers both the critical functional configuration and the necessary technical knowledge. Join over 4,800 successful learners and secure your future in the booming logistics sector with ICLP's industry-leading SAP TM Training.",
+      courseDescription: "Start your journey toward becoming a certified logistics expert with the premier<strong> SAP TM Training </strong>program in India. Our comprehensive <strong>SAP Transportation Management Training Online</strong> is specifically designed for ambitious professionals seeking to master the complexities of modern supply chain execution. This is more than just an <strong>SAP TM Course</strong>, it is an integrated learning experience that covers both the critical functional configuration and the necessary technical knowledge. Join over 4,800 successful learners and secure your future in the booming logistics sector with ICLP's industry-leading<strong> SAP TM Training</strong>.",
     },
     "sap-successfactors-online-training": {
-      courseDescription: "Elevate your HR career with our industry-leading SAP SuccessFactors training online. In the rapidly expanding Indian HR technology market, mastering cloud-based Human Experience Management (HXM) is essential. Our specialized SAP SuccessFactors course (SFC) is meticulously designed to give you that competitive edge. This comprehensive SAP SuccessFactors training (SFT) program goes beyond theoretical concepts, providing hands-on, practical skills development required by top multinational corporations and firms across India. We offer the most practical and up-to-date SAP SF training (SFSFT) available today.",
+      courseDescription: "Elevate your HR career with our industry-leading<strong>  SAP SuccessFactors training online</strong> . In the rapidly expanding Indian HR technology market, mastering cloud-based Human Experience Management (HXM) is essential. Our specialized <strong> SAP SuccessFactors course (SFC)</strong>  is meticulously designed to give you that competitive edge. This comprehensive <strong> SAP SuccessFactors training (SFT)</strong>  program goes beyond theoretical concepts, providing hands-on, practical skills development required by top multinational corporations and firms across India. We offer the most practical and up-to-date <strong> SAP SF training (SFSFT)</strong>  available today.",
     },
     "sap-quality-management-(qm)": {
-      courseDescription: "Elevate your supply chain and manufacturing expertise with our specialized SAP QM course. In the fiercely competitive Indian market, mastering SAP Quality Management (QM) is critical for driving operational excellence, minimizing costs, and maintaining strict regulatory compliance. This professional SAP QM training program provides the deep functional knowledge required to implement and manage quality processes within the SAP ERP system. Our structured SAP quality management course is delivered by certified, industry experts, ensuring you gain practical, job-ready skills immediately applicable to leading companies across India. We focus on real-world scenarios, making this the premier SAP quality management training solution for serious professionals.",
+      courseDescription: "Elevate your supply chain and manufacturing expertise with our specialized <strong>SAP QM course</strong>. In the fiercely competitive Indian market, mastering <strong>SAP Quality Management (QM)</strong> is critical for driving operational excellence, minimizing costs, and maintaining strict regulatory compliance. This professional <strong>SAP QM training </strong>program provides the deep functional knowledge required to implement and manage quality processes within the SAP ERP system. Our structured <strong>SAP quality management course</strong> is delivered by certified, industry experts, ensuring you gain practical, job-ready skills immediately applicable to leading companies across India. We focus on real-world scenarios, making this the premier <strong>SAP quality management training</strong> solution for serious professionals.",
     },
     "sap-ariba-training": {
-      courseDescription: "Propel your career in procurement and supply chain management with India's most comprehensive SAP Ariba course. As enterprises across all sectors increasingly adopt cloud-based source-to-pay solutions, the demand for certified SAP Ariba training professionals is surging, particularly in the competitive Indian IT and consulting markets. This intensive SAP Ariba training program is designed to transform you into an expert consultant, equipped to implement, customize, and manage the full suite of Ariba applications. This professional SAP Ariba course is your gateway to a high-growth career.",
+      courseDescription: "Propel your career in procurement and supply chain management with India's most comprehensive <strong>SAP Ariba course</strong>. As enterprises across all sectors increasingly adopt cloud-based source-to-pay solutions, the demand for certified <strong>SAP Ariba training</strong> professionals is surging, particularly in the competitive Indian IT and consulting markets. This intensive<strong> SAP Ariba training program</strong> is designed to transform you into an expert consultant, equipped to implement, customize, and manage the full suite of Ariba applications. This professional<strong> SAP Ariba course</strong> is your gateway to a high-growth career.",
     },
     "sap-master-data-governance-(mdg)-on-s-4hana": {
-      courseDescription: "Master the critical discipline of data governance with our industry-leading SAP MDG course online. In the S/4HANA era, data integrity is paramount, making specialized SAP MDG training essential for consultants in India. This professional program focuses exclusively on SAP Master Data Governance (MDG) on the S/4HANA platform, giving you the competitive edge in high-growth IT and consulting roles. This comprehensive MDG course covers the full lifecycle of all core data domains (Material, Business Partner, Finance), ensuring you are project-ready from day one.",
+      courseDescription: "Master the critical discipline of data governance with our industry-leading<strong> SAP MDG course</strong> online. In the S/4HANA era, data integrity is paramount, making specialized <strong>SAP MDG training</strong> essential for consultants in India. This professional program focuses exclusively on <strong>SAP Master Data Governance (MDG)</strong> on the S/4HANA platform, giving you the competitive edge in high-growth IT and consulting roles. This comprehensive <strong>MDG course </strong>covers the full lifecycle of all core data domains (Material, Business Partner, Finance), ensuring you are project-ready from day one.",
     },
     "sap-basis-administration": {
-      courseDescription: "Launch your career as a core system administrator with India's leading SAP Basis course online. SAP Basis is the fundamental technical backbone of any enterprise SAP landscape, making the demand for skilled administrators constant and high across all major IT hubs in India. Our intensive SAP Basis training program is designed to transform you into an expert in system maintenance, performance tuning, and high availability. This is the definitive SAP Basis course for professionals aiming to secure critical, stable IT roles.",
+      courseDescription: "Launch your career as a core system administrator with India's leading <strong> SAP Basis course online</strong> .<strong>  SAP Basis</strong>  is the fundamental technical backbone of any enterprise SAP landscape, making the demand for skilled administrators constant and high across all major IT hubs in India. Our intensive<strong>  SAP Basis training program</strong>  is designed to transform you into an expert in system maintenance, performance tuning, and high availability. This is the definitive <strong> SAP Basis course</strong>  for professionals aiming to secure critical, stable IT roles.",
     },
     "sap-sales-cloud-(c4c)-training": {
-      courseDescription: "Transform your career in digital sales and customer relationship management with the industry-leading SAP Sales Cloud training. Formerly known as SAP C4C, the modern SAP Sales Cloud is crucial for businesses driving digital transformation in the rapidly expanding Indian market. Our comprehensive sap c4c online training program is specifically designed for professionals seeking to master the SAP Customer Experience (CX) solution suite. This intensive sap sales cloud course online provides practical, hands-on skills in end-to-end sales cycle management, including lead-to-opportunity conversion, CPQ configuration, and vital S/4HANA integration.",
+      courseDescription: "Transform your career in digital sales and customer relationship management with the industry-leading <strong> SAP Sales Cloud training</strong> . Formerly known as<strong>  SAP C4C</strong> , the modern SAP Sales Cloud is crucial for businesses driving digital transformation in the rapidly expanding Indian market. Our comprehensive <strong> sap c4c online training program</strong>  is specifically designed for professionals seeking to master the SAP Customer Experience (CX) solution suite. This intensive <strong> sap sales cloud course online </strong> provides practical, hands-on skills in end-to-end sales cycle management, including lead-to-opportunity conversion, CPQ configuration, and vital S/4HANA integration.",
     },
     "sap-fscm": {
       courseDescription: "Gain expertise in SAP Financial Supply Chain Management. Learn credit management, collections, dispute management, and treasury processes.",
     },
     "sap-btp-training": {
-      courseDescription: "The SAP Business Technology Platform (BTP) is the unified foundation for digital transformation, enabling businesses to integrate, extend, and innovate faster while maintaining a clean core on S/4HANA. For professionals in India, mastering this platform is no longer optional—it is the direct path to high-growth, stable roles as a Cloud Developer, Integration Specialist, or Solution Architect. Our intensive SAP BTP training program is specifically designed to meet this escalating demand. This professional SAP BTP course provides deep, practical expertise across all core BTP pillars, preparing you for the most complex enterprise challenges.",
+      courseDescription: "The <strong>SAP Business Technology Platform (BTP) </strong>is the unified foundation for digital transformation, enabling businesses to integrate, extend, and innovate faster while maintaining a clean core on S/4HANA. For professionals in India, mastering this platform is no longer optional—it is the direct path to high-growth, stable roles as a Cloud Developer, Integration Specialist, or Solution Architect. Our intensive<strong>  SAP BTP training program </strong> is specifically designed to meet this escalating demand. This professional <strong> SAP BTP course </strong> provides deep, practical expertise across all core BTP pillars, preparing you for the most complex enterprise challenges.",
     },
     "sap-crm": {
       courseDescription: "Become an SAP CRM professional with our hands-on training. Learn customer relationship management processes and implementation.",
@@ -135,10 +135,10 @@ const SapCourseDetailsPage = () => {
       courseDescription: "Gain expertise in SAP Security and Governance, Risk & Compliance. Learn user administration, access control, and risk management in SAP.",
     },
     "sap-is-retail": {
-      courseDescription: "Elevate your consulting career in the rapidly growing retail sector with India's most specialized SAP IS-Retail training. As the core Industry Solution within the SAP ecosystem, SAP IS-Retail expertise is highly sought after by top consulting firms in cities like Bengaluru, Mumbai, and Pune, offering premium salary packages for specialized roles. Our intensive SAP IS-Retail online training program is meticulously structured to provide deep, end-to-end knowledge of retail logistics and management processes. This is one of the few SAP retail training courses that effectively bridges the gap between fundamental SAP modules (MM/SD) and the complexity of modern retail operations."
+      courseDescription: "Elevate your consulting career in the rapidly growing retail sector with India's most specialized <strong> SAP IS-Retail training</strong> . As the core Industry Solution within the SAP ecosystem, <strong> SAP IS-Retail </strong> expertise is highly sought after by top consulting firms in cities like Bengaluru, Mumbai, and Pune, offering premium salary packages for specialized roles. Our intensive <strong> SAP IS-Retail online training program </strong> is meticulously structured to provide deep, end-to-end knowledge of retail logistics and management processes. This is one of the few <strong> SAP retail training courses</strong>  that effectively bridges the gap between fundamental SAP modules (MM/SD) and the complexity of modern retail operations."
     },
     "sap-is-utilities": {
-      courseDescription: "Elevate your consulting career in the essential energy and public sector with our specialized SAP IS Utilities training. In India, where infrastructure development and smart city projects are key growth drivers, expert knowledge of the SAP Industry Solution for Utilities (IS-U) commands high salaries and stable roles, particularly in major metros. This intensive SAP IS Utilities training program is designed for functional and technical consultants seeking mastery over the entire utility lifecycle, from meter reading to customer collection (the Meter-to-Cash process). By focusing on real-world application, this SAP IS Utilities training provides immediate job-readiness."
+      courseDescription: "Elevate your consulting career in the essential energy and public sector with our specialized <strong> SAP IS Utilities training</strong> . In India, where infrastructure development and smart city projects are key growth drivers, expert knowledge of the SAP Industry Solution for Utilities (IS-U) commands high salaries and stable roles, particularly in major metros. This intensive <strong> SAP IS Utilities training program</strong>  is designed for functional and technical consultants seeking mastery over the entire utility lifecycle, from meter reading to customer collection (the <strong> Meter-to-Cash </strong> process). By focusing on real-world application, this <strong> SAP IS Utilities training</strong>  provides immediate job-readiness."
     },
     "sap-plm": {
       courseDescription: "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
@@ -428,159 +428,196 @@ setShowBookingModal(true)
         </div>
       </section>
 
-      {/* Career Benefits Section */}
-      {course.career_benefits && (
-        <section className="py-16 bg-slate-50">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-              {course.career_benefits.heading}
-            </h2>
-            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              {course.career_benefits.description}
-            </p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {course.career_benefits.points.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
-                >
-                  <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-                  <span className="text-slate-800">{item}</span>
-                </div>
-              ))}
-            </div>
+ {/* Career Benefits Section */}
+{course.career_benefits && (
+  <section className="py-16 bg-slate-50">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h2 
+        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.career_benefits.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 mb-8 leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
+      />
+      <div className="grid sm:grid-cols-2 gap-4">
+        {course.career_benefits.points.map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
+          >
+            <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+            <span 
+              className="text-slate-800"
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
           </div>
-        </section>
-      )}
+        ))}
+      </div>
+    </div>
+  </section>
+)}
 
-      {/* Curriculum Overview */}
-      {course.curriculum_overview && (
-        <section className="py-16 bg-white">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-              {course.curriculum_overview.heading}
-            </h2>
-            <p className="text-lg text-slate-700 leading-relaxed">
-              {course.curriculum_overview.intro}
-            </p>
+
+{/* Curriculum Overview */}
+{course.curriculum_overview && (
+  <section className="py-16 bg-white">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h2 
+        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.curriculum_overview.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: course.curriculum_overview.intro }}
+      />
+    </div>
+  </section>
+)}
+
+
+{/* Primary Track */}
+{course.track_overview_primary && (
+  <section className="py-16 bg-slate-50">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h3 
+        className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.track_overview_primary.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 mb-6"
+        dangerouslySetInnerHTML={{ __html: course.track_overview_primary.description }}
+      />
+      <div className="grid sm:grid-cols-2 gap-3">
+        {course.track_overview_primary.topics.map((item, index) => (
+          <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
+            <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+            <span 
+              className="text-slate-800"
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
           </div>
-        </section>
-      )}
+        ))}
+      </div>
+    </div>
+  </section>
+)}
 
-      {/* Primary Track */}
-      {course.track_overview_primary && (
-        <section className="py-16 bg-slate-50">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
-              {course.track_overview_primary.heading}
-            </h3>
-            <p className="text-lg text-slate-700 mb-6">
-              {course.track_overview_primary.description}
-            </p>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {course.track_overview_primary.topics.map((item, index) => (
-                <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
+
+{/* Secondary Track */}
+{course.track_overview_secondary && (
+  <section className="py-16 bg-white">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h3 
+        className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 mb-6"
+        dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.description }}
+      />
+      <div className="grid sm:grid-cols-2 gap-3">
+        {course.track_overview_secondary.topics.map((item, index) => (
+          <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
+            <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
+            <span 
+              className="text-slate-800"
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+{/* Certification Info */}
+{course.certification_info && (
+  <section className="py-16 bg-slate-50">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h2 
+        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.certification_info.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 mb-8 leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: course.certification_info.intro }}
+      />
+      <div className="space-y-4">
+        {course.certification_info.highlights.map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
+          >
+            <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+            <span 
+              className="text-slate-800"
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+
+{/* Why Institute */}
+{course.why_institute && (
+  <section className="py-16 bg-white">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
+      <h2 
+        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
+        dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
+      />
+      <p 
+        className="text-lg text-slate-700 mb-8"
+        dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
+      />
+
+
+      <div className="grid md:grid-cols-2 gap-6">
+        {course.why_institute.instructor_expertise && (
+          <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+            <h3 
+              className="text-xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
+            />
+            <p 
+              className="text-slate-700 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
+            />
+          </div>
+        )}
+
+
+        {course.why_institute.training_modes && (
+          <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
+            <h3 
+              className="text-xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
+            />
+            <p 
+              className="text-slate-700 mb-4"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
+            />
+            <ul className="space-y-2">
+              {course.why_institute.training_modes.options.map((item, index) => (
+                <li key={index} className="flex items-start gap-2">
                   <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-                  <span className="text-slate-800">{item}</span>
-                </div>
+                  <span 
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
-        </section>
-      )}
-
-      {/* Secondary Track */}
-      {course.track_overview_secondary && (
-        <section className="py-16 bg-white">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h3 className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4">
-              {course.track_overview_secondary.heading}
-            </h3>
-            <p className="text-lg text-slate-700 mb-6">
-              {course.track_overview_secondary.description}
-            </p>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {course.track_overview_secondary.topics.map((item, index) => (
-                <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
-                  <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
-                  <span className="text-slate-800">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Certification Info */}
-      {course.certification_info && (
-        <section className="py-16 bg-slate-50">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-              {course.certification_info.heading}
-            </h2>
-            <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              {course.certification_info.intro}
-            </p>
-            <div className="space-y-4">
-              {course.certification_info.highlights.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
-                >
-                  <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-                  <span className="text-slate-800">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Why Institute */}
-      {course.why_institute && (
-        <section className="py-16 bg-white">
-          <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4">
-              {course.why_institute.heading}
-            </h2>
-            <p className="text-lg text-slate-700 mb-8">
-              {course.why_institute.intro}
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              {course.why_institute.instructor_expertise && (
-                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-                  <h3 className="text-xl font-bold text-[#01377d] mb-3">
-                    {course.why_institute.instructor_expertise.heading}
-                  </h3>
-                  <p className="text-slate-700 leading-relaxed">
-                    {course.why_institute.instructor_expertise.description}
-                  </p>
-                </div>
-              )}
-
-              {course.why_institute.training_modes && (
-                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-                  <h3 className="text-xl font-bold text-[#01377d] mb-3">
-                    {course.why_institute.training_modes.heading}
-                  </h3>
-                  <p className="text-slate-700 mb-4">
-                    {course.why_institute.training_modes.description}
-                  </p>
-                  <ul className="space-y-2">
-                    {course.why_institute.training_modes.options.map((item, index) => (
-                      <li key={index} className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-                        <span className="text-slate-800">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          </div>
-        </section>
-      )}
+        )}
+      </div>
+    </div>
+  </section>
+)}
 
       {/* What You'll Learn Section */}
       <section className="py-16 bg-slate-50">

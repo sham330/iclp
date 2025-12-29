@@ -10,64 +10,64 @@
           "meta_title": "SAP FICO Course Online | SAP FICO Training | SAP FICO Certificate",
   "meta_description": "Master SAP FICO with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
           "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts.",
-  "career_benefits": {
-    "heading": "Why SAP FICO Training is Essential for Your Career",
-    "description": "SAP FICO (Financial Accounting and Controlling) is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
-    "points": [
-      "Global Demand: Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
-      "Career Growth: Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
-      "Skill Mastery: Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+"career_benefits": {
+  "heading": "Why <strong>SAP FICO Training</strong> is Essential for Your Career",
+  "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+  "points": [
+    "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+    "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+    "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+  ]
+},
+"curriculum_overview": {
+  "heading": "Comprehensive <strong>SAP FICO Course Curriculum</strong>",
+  "intro": "Our <strong>SAP FICO course</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+},
+"track_overview_primary": {
+  "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+  "description": "We cover core aspects of external accounting, including:",
+  "topics": [
+    "<strong>General Ledger (GL) Accounting</strong>",
+    "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+    "<strong>Asset Accounting</strong>",
+    "Taxes, Financial Statements, and Closing Procedures"
+  ]
+},
+"track_overview_secondary": {
+  "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+  "description": "This section focuses on internal reporting and cost management:",
+  "topics": [
+    "<strong>Cost Element and Cost Center Accounting</strong>",
+    "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+    "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
+    "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+  ]
+},
+"certification_info": {
+  "heading": "Earn Your Professional <strong>SAP FICO Certificate</strong>",
+  "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training</strong> is structured to align perfectly with the official SAP certification syllabus.",
+  "highlights": [
+    "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+    "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+    "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+  ]
+},
+"why_institute": {
+  "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO</strong> in India",
+  "intro": "We are recognized as the premier <strong>SAP FICO training</strong> provider, dedicated to turning students into industry-ready professionals right here in India.",
+  "instructor_expertise": {
+    "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+    "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP FICO Training</strong> Options (Online & Classroom)",
+    "description": "We cater to your busy schedule:",
+    "options": [
+      "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in India",
+      "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
     ]
-  },
-  "curriculum_overview": {
-    "heading": "Comprehensive SAP FICO Course Curriculum",
-    "intro": "Our SAP FICO course structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
-  },
-  "track_overview_primary": {
-    "heading": "Financial Accounting (FI) Modules Covered",
-    "description": "We cover core aspects of external accounting, including:",
-    "topics": [
-      "General Ledger (GL) Accounting",
-      "Accounts Payable (AP) and Accounts Receivable (AR)",
-      "Asset Accounting",
-      "Taxes, Financial Statements, and Closing Procedures"
-    ]
-  },
-  "track_overview_secondary": {
-    "heading": "Controlling (CO) Modules Covered",
-    "description": "This section focuses on internal reporting and cost management:",
-    "topics": [
-      "Cost Element and Cost Center Accounting",
-      "Internal Orders and Profit Center Accounting",
-      "Product Costing and Profitability Analysis (PA)",
-      "Integration: Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
-    ]
-  },
-  "certification_info": {
-    "heading": "Earn Your Professional SAP FICO Certificate",
-    "intro": "Achieving your SAP FICO certificate validates your expertise and significantly enhances your profile. Our SAP FICO training is structured to align perfectly with the official SAP certification syllabus.",
-    "highlights": [
-      "Certification Preparation: Dedicated modules and mock tests to prepare you for the certification exam.",
-      "Project-Based Learning: Complete real-time implementation projects to demonstrate your practical mastery.",
-      "Globally Recognized: Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
-    ]
-  },
-  "why_institute": {
-    "heading": "Why ICLP Tech is the Top Choice for SAP FICO in India",
-    "intro": "We are recognized as the premier SAP FICO training provider, dedicated to turning students into industry-ready professionals right here in India.",
-    "instructor_expertise": {
-      "heading": "Instructor Expertise and Industry Experience",
-      "description": "Our success is built on the expertise of our faculty. All instructors are 10+ year veteran SAP FICO Consultants who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP FICO Training Options (Online & Classroom)",
-      "description": "We cater to your busy schedule:",
-      "options": [
-        "Classroom Training: Immersive, face-to-face learning at our state-of-the-art center in India",
-        "SAP FICO Course Online: Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
-      ]
-    }
-  },
+  }
+},
           "what_youll_learn": [
             "SAP FICO configuration and implementation",
             "General Ledger, Accounts Payable & Receivable",
@@ -141,74 +141,74 @@
    "meta_title": "SAP Successfactors Course Online | SAP SF Training | SAP SF Certificate",
   "meta_description": "Become a certified SAP SF consultant. Learn SuccessFactors online with expert guidance. Enroll now to boost your HR tech career!",
   "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
-  "career_benefits": {
-    "heading": "Why Choose Our Expert SAP SuccessFactors Course?",
-    "description": "The demand for certified professionals in SAP SuccessFactors is rapidly increasing across India. Our SAP SF course delivers high-quality training designed around E-E-A-T principles—Expertise, Experience, Authority, and Trust. You learn directly from certified SAP SuccessFactors consultants with decades of hands-on implementation experience.",
-    "points": [
-      "Comprehensive Module Coverage: Includes Employee Central, Talent Management, Recruiting, and more.",
-      "Real-World Case Studies: Every part of the SAP SuccessFactors course is supported by scenario-based learning.",
-      "Trusted Learning Path: Our SAP SF course (SFSC) is built for HR and IT professionals seeking accelerated career growth."
+"career_benefits": {
+  "heading": "Why Choose Our <strong>Expert SAP SuccessFactors Course</strong>?",
+  "description": "The demand for certified professionals in <strong>SAP SuccessFactors</strong> is rapidly increasing across India. Our <strong>SAP SF course</strong> delivers high-quality training designed around E-E-A-T principles—<strong>Expertise, Experience, Authority, and Trust</strong>. You learn directly from certified SAP SuccessFactors consultants with decades of hands-on implementation experience.",
+  "points": [
+    "<strong>Comprehensive Module Coverage:</strong> Includes Employee Central, Talent Management, Recruiting, and more.",
+    "<strong>Real-World Case Studies:</strong> Every part of the SAP SuccessFactors course is supported by scenario-based learning.",
+    "<strong>Trusted Learning Path:</strong> Our SAP SF course (SFSC) is built for HR and IT professionals seeking accelerated career growth."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Key Features of Our <strong>SAP SuccessFactors Training Online</strong>",
+  "intro": "Our <strong>SAP SuccessFactors training online (SFTO)</strong> is structured for working professionals and fresh graduates alike, offering a high-quality and flexible learning experience."
+},
+
+"track_overview_primary": {
+  "heading": "Core Highlights of <strong>SAP SF Training</strong>",
+  "description": "These features define the strength and professional quality of our <strong>SAP SuccessFactors training (SFT)</strong>:",
+  "topics": [
+    "<strong>Expert Instruction (Expertise & Authority):</strong> Training delivered by 15+ year experienced SAP SuccessFactors consultants",
+    "<strong>Hands-on Learning (Experience):</strong> Full-cycle implementation simulations and practical HR scenarios",
+    "<strong>Flexible Access:</strong> Attend SAP SuccessFactors training online from anywhere in India at your convenience",
+    "<strong>Certification Readiness:</strong> Dedicated preparation to help you clear your official SAP SF certification exam",
+    "<strong>Placement Support:</strong> Tailored career assistance aligned with the Indian HR & IT job market"
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>SAP SuccessFactors Skill Development</strong>",
+  "description": "This section focuses on in-depth HR transformation skills across the SuccessFactors suite:",
+  "topics": [
+    "<strong>Employee Central Mastery</strong>",
+    "<strong>Talent Management Planning & Execution</strong>",
+    "<strong>Recruiting & Onboarding Processes</strong>",
+    "<strong>Performance & Goal Management</strong>",
+    "<strong>Real-Time HR Analytics</strong> with SuccessFactors"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP SuccessFactors Certification</strong>",
+  "intro": "Our <strong>SAP SF course</strong> aligns with the official SuccessFactors certification syllabus, giving you complete readiness to clear your exam confidently.",
+  "highlights": [
+    "<strong>Certification Guidance:</strong> Mock tests and structured exam preparation modules",
+    "<strong>Practical Projects:</strong> Real-world HR workflow and system configuration exercises",
+    "<strong>Industry Recognition:</strong> SAP SuccessFactors certification is valued by top HR, IT, consulting, and multinational companies in India"
+  ]
+},
+
+"why_institute": {
+  "heading": "Why We Are India’s Most Trusted <strong>SAP SuccessFactors Training Provider</strong>",
+  "intro": "Our <strong>SAP SuccessFactors training online</strong> combines expert mentorship, real-world learning, and strong career support to ensure professional success.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All SAP SF trainers are <strong>certified consultants</strong> with over <strong>15 years</strong> of implementation experience across global HR transformation projects."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP SF Learning Options</strong>",
+    "description": "Choose the training mode that fits your schedule:",
+    "options": [
+      "<strong>SAP SF Online Training:</strong> Live classes with hands-on access to SAP SuccessFactors environments",
+      "<strong>Self-paced modules</strong> with continuous expert support and session recordings"
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Key Features of Our SAP SuccessFactors Training Online",
-    "intro": "Our SAP SuccessFactors training online (SFTO) is structured for working professionals and fresh graduates alike, offering a high-quality and flexible learning experience."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Highlights of SAP SF Training",
-    "description": "These features define the strength and professional quality of our SAP SuccessFactors training (SFT):",
-    "topics": [
-      "Expert Instruction (Expertise & Authority): Training delivered by 15+ year experienced SAP SuccessFactors consultants",
-      "Hands-on Learning (Experience): Full-cycle implementation simulations and practical HR scenarios",
-      "Flexible Access: Attend SAP SuccessFactors training online from anywhere in India at your convenience",
-      "Certification Readiness: Dedicated preparation to help you clear your official SAP SF certification exam",
-      "Placement Support: Tailored career assistance aligned with the Indian HR & IT job market"
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced SAP SuccessFactors Skill Development",
-    "description": "This section focuses on in-depth HR transformation skills across the SuccessFactors suite:",
-    "topics": [
-      "Employee Central Mastery",
-      "Talent Management Planning & Execution",
-      "Recruiting & Onboarding Processes",
-      "Performance & Goal Management",
-      "Real-Time HR Analytics with SuccessFactors"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP SuccessFactors Certification",
-    "intro": "Our SAP SF course aligns with the official SuccessFactors certification syllabus, giving you complete readiness to clear your exam confidently.",
-    "highlights": [
-      "Certification Guidance: Mock tests and structured exam preparation modules",
-      "Practical Projects: Real-world HR workflow and system configuration exercises",
-      "Industry Recognition: SAP SuccessFactors certification is valued by top HR, IT, consulting, and multinational companies in India"
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why We Are India’s Most Trusted SAP SuccessFactors Training Provider",
-    "intro": "Our SAP SuccessFactors training online combines expert mentorship, real-world learning, and strong career support to ensure professional success.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All SAP SF trainers are certified consultants with over 15 years of implementation experience across global HR transformation projects."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP SF Learning Options",
-      "description": "Choose the training mode that fits your schedule:",
-      "options": [
-        "SAP SF Online Training: Live classes with hands-on access to SAP SuccessFactors environments",
-        "Self-paced modules with continuous expert support and session recordings"
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Assistance",
-      "description": "We offer resume enhancement, mock interviews, and placement guidance aligned with leading HR & IT recruitment demands."
-    }
+  "placement_support": {
+    "heading": "Career & <strong>Placement Assistance</strong>",
+    "description": "We offer resume enhancement, mock interviews, and placement guidance aligned with leading HR & IT recruitment demands."
+  }
   },
 
   "enrollment_section": {
@@ -311,74 +311,74 @@
            "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
   "meta_description": "Learn SAP MM online with hands-on training & certification. Become an SAP MM expert. Check the course & enroll now!",
           "description": "Learn SAP Materials Management module covering procurement, inventory management, and logistics processes.",
-  "career_benefits": {
-    "heading": "The Critical Demand for SAP Material Management Experts",
-    "description": "The demand for certified SAP MM consultants continues to rise across manufacturing, retail, FMCG, IT services, and supply chain sectors in India. SAP Material Management expertise is essential for optimizing procurement, reducing operational costs, and ensuring efficient material flow within enterprises.",
-    "points": [
-      "Industry Foundation: SAP MM is vital for logistics and supply chain efficiency, covering procurement, inventory control, and vendor management.",
-      "Career Advancement: This SAP MM training prepares you for highly paid roles such as SAP MM Consultant, Procurement Specialist, Inventory Manager, and Supply Chain Analyst.",
-      "Global Relevance: Our SAP MM curriculum aligns with international standards, making your skills valuable for global SAP projects."
+"career_benefits": {
+  "heading": "The Critical Demand for <strong>SAP Material Management Experts</strong>",
+  "description": "The demand for certified <strong>SAP MM consultants</strong> continues to rise across manufacturing, retail, FMCG, IT services, and supply chain sectors in India. <strong>SAP Material Management</strong> expertise is essential for optimizing procurement, reducing operational costs, and ensuring efficient material flow within enterprises.",
+  "points": [
+    "<strong>Industry Foundation:</strong> SAP MM is vital for logistics and supply chain efficiency, covering procurement, inventory control, and vendor management.",
+    "<strong>Career Advancement:</strong> This SAP MM training prepares you for highly paid roles such as <strong>SAP MM Consultant</strong>, Procurement Specialist, Inventory Manager, and Supply Chain Analyst.",
+    "<strong>Global Relevance:</strong> Our SAP MM curriculum aligns with international standards, making your skills valuable for global SAP projects."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Comprehensive <strong>SAP MM Course Curriculum & Structure</strong>",
+  "intro": "Our <strong>SAP MM training</strong> delivers hands-on, job-oriented expertise. Every module is taught through real-world case studies and practical configuration, preparing you for enterprise-level SAP projects."
+},
+
+"track_overview_primary": {
+  "heading": "Core Modules of <strong>SAP Material Management Training</strong>",
+  "description": "This section covers the essential components required to master procurement and inventory processes in SAP:",
+  "topics": [
+    "<strong>Organizational Structure:</strong> Defining Company Codes, Plants, Storage Locations, and Purchasing Organizations",
+    "<strong>Master Data:</strong> In-depth training on Material Master, Vendor Master, and Purchasing Info Records",
+    "<strong>Procure-to-Pay (P2P):</strong> Complete procurement cycle from Purchase Requisition to Invoice Verification",
+    "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Transfer Posting, and Physical Inventory configuration",
+    "<strong>Valuation & Account Determination:</strong> Material valuation methods and seamless integration with <strong>SAP FICO</strong>"
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced Concepts & <strong>Real-World Applications</strong>",
+  "description": "This advanced section ensures you gain strong functional depth with real-time scenarios:",
+  "topics": [
+    "<strong>Special Procurement Processes</strong> such as Subcontracting, Consignment, and Stock Transport Orders",
+    "<strong>Release Strategies</strong> for Purchase Requisitions and Purchase Orders",
+    "<strong>Automatic Purchase Orders, Pricing Procedures, and Schema Configuration</strong>",
+    "<strong>Integration:</strong> Understanding integration between MM, SD, PP, and FICO modules"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your Professional <strong>SAP MM Certificate</strong>",
+  "intro": "This <strong>SAP Material Management course</strong> is designed to align with the official SAP MM certification syllabus, ensuring you are fully prepared to become a certified SAP MM consultant.",
+  "highlights": [
+    "<strong>Certification Preparation:</strong> Includes mock tests, structured revision, and question practice for certification success.",
+    "<strong>Project-Based Learning:</strong> Hands-on real-time procurement and inventory scenarios to showcase your expertise.",
+    "<strong>Global Recognition:</strong> Your SAP MM certification enhances career opportunities across global supply chain and ERP domains."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why <strong>ICLP Tech</strong> is the Best Choice for <strong>SAP MM Training</strong> in India",
+  "intro": "ICLP Tech is a trusted name in SAP training, delivering high-quality <strong>SAP MM training</strong> that prepares students for real enterprise challenges and global career opportunities.",
+  "instructor_expertise": {
+    "heading": "Experience & <strong>Expertise You Can Trust</strong>",
+    "description": "Our SAP MM trainers are <strong>15+ year veteran consultants</strong> with extensive experience in end-to-end SAP implementation projects across diverse industries in India. You learn directly from industry experts who have mastered SAP MM in real projects."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP MM Training Options</strong> (Online & Classroom)",
+    "description": "Choose the learning mode that fits your lifestyle and career goals:",
+    "options": [
+      "<strong>Classroom Training:</strong> Interactive, in-person SAP MM sessions at our state-of-the-art training facility in India.",
+      "<strong>SAP MM Online Course:</strong> Live instructor-led online classes with 24/7 SAP server access for uninterrupted practice."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Comprehensive SAP MM Course Curriculum & Structure",
-    "intro": "Our SAP MM training delivers hands-on, job-oriented expertise. Every module is taught through real-world case studies and practical configuration, preparing you for enterprise-level SAP projects."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Modules of SAP Material Management Training",
-    "description": "This section covers the essential components required to master procurement and inventory processes in SAP:",
-    "topics": [
-      "Organizational Structure: Defining Company Codes, Plants, Storage Locations, and Purchasing Organizations",
-      "Master Data: In-depth training on Material Master, Vendor Master, and Purchasing Info Records",
-      "Procure-to-Pay (P2P): Complete procurement cycle from Purchase Requisition to Invoice Verification",
-      "Inventory Management: Goods Receipt, Goods Issue, Transfer Posting, and Physical Inventory configuration",
-      "Valuation & Account Determination: Material valuation methods and seamless integration with SAP FICO"
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced Concepts & Real-World Applications",
-    "description": "This advanced section ensures you gain strong functional depth with real-time scenarios:",
-    "topics": [
-      "Special Procurement Processes such as Subcontracting, Consignment, and Stock Transport Orders",
-      "Release Strategies for Purchase Requisitions and Purchase Orders",
-      "Automatic Purchase Orders, Pricing Procedures, and Schema Configuration",
-      "Integration: Understanding integration between MM, SD, PP, and FICO modules"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your Professional SAP MM Certificate",
-    "intro": "This SAP Material Management course is designed to align with the official SAP MM certification syllabus, ensuring you are fully prepared to become a certified SAP MM consultant.",
-    "highlights": [
-      "Certification Preparation: Includes mock tests, structured revision, and question practice for certification success.",
-      "Project-Based Learning: Hands-on real-time procurement and inventory scenarios to showcase your expertise.",
-      "Global Recognition: Your SAP MM certification enhances career opportunities across global supply chain and ERP domains."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why ICLP Tech is the Best Choice for SAP MM Training in India",
-    "intro": "ICLP Tech is a trusted name in SAP training, delivering high-quality SAP MM training that prepares students for real enterprise challenges and global career opportunities.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise You Can Trust",
-      "description": "Our SAP MM trainers are 15+ year veteran consultants with extensive experience in end-to-end SAP implementation projects across diverse industries in India. You learn directly from industry experts who have mastered SAP MM in real projects."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP MM Training Options (Online & Classroom)",
-      "description": "Choose the learning mode that fits your lifestyle and career goals:",
-      "options": [
-        "Classroom Training: Interactive, in-person SAP MM sessions at our state-of-the-art training facility in India.",
-        "SAP MM Online Course: Live instructor-led online classes with 24/7 SAP server access for uninterrupted practice."
-      ]
-    },
-    "placement_support": {
-      "heading": "100% Placement Support",
-      "description": "We provide dedicated placement assistance, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners across India."
-    }
-  },          "what_youll_learn": [
+  "placement_support": {
+    "heading": "<strong>100% Placement Support</strong>",
+    "description": "We provide dedicated placement assistance, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners across India."
+  }
+},          "what_youll_learn": [
             "SAP MM configuration and customization",
             "Procurement process from purchase requisition to payment",
             "Inventory management techniques",
@@ -586,73 +586,68 @@
   "meta_description": "Learn SAP TM online and become a transportation management expert. Get certified and start your career. Check the course now!",
   "description": "Comprehensive training in SAP Transportation Management covering ERP fundamentals, ABAP programming, and advanced SAP modules for logistics and supply chain management.",
   "career_benefits": {
-    "heading": "Why SAP TM Training is Crucial for Your Career Growth",
-    "description": "Specializing in SAP Transportation Management (TM) is one of the fastest ways to secure high-value roles in logistics, supply chain, and SAP consulting sectors. With companies rapidly adopting digital transportation systems, SAP TM consultants are in extremely high demand across India and globally.",
-    "points": [
-      "Industry Focus: Our SAP TM training covers Planning, Execution, Freight Settlement, and Carrier Collaboration — meeting the needs of logistics, manufacturing, retail, and 3PL industries.",
-      "Career Advancement: This SAP TM training qualifies you for roles such as SAP TM Functional Consultant, Transportation Planning Specialist, Freight Settlement Consultant, and SAP Logistics Architect.",
-      "Certification Edge: Completing SAP TM certification validates your expertise and boosts your marketability among top logistics and IT organizations."
+  "heading": "Why <strong>SAP TM Training</strong> is Crucial for Your Career Growth",
+  "description": "Specializing in <strong>SAP Transportation Management (TM)</strong> is one of the fastest ways to secure <strong>high-value roles</strong> in logistics, supply chain, and SAP consulting sectors. With companies rapidly adopting digital transportation systems, <strong>SAP TM consultants</strong> are in extremely high demand across India and globally.",
+  "points": [
+    "<strong>Industry Focus:</strong> Our SAP TM training covers <strong>Planning, Execution, Freight Settlement, and Carrier Collaboration</strong> — meeting the needs of logistics, manufacturing, retail, and 3PL industries.",
+    "<strong>Career Advancement:</strong> This SAP TM training qualifies you for roles such as <strong>SAP TM Functional Consultant</strong>, Transportation Planning Specialist, Freight Settlement Consultant, and SAP Logistics Architect.",
+    "<strong>Certification Edge:</strong> Completing <strong>SAP TM certification</strong> validates your expertise and boosts your marketability among top logistics and IT organizations."
+  ]
+},
+"curriculum_overview": {
+  "heading": "Comprehensive <strong>SAP TM Course Curriculum</strong>",
+  "intro": "Our <strong>SAP TM course</strong> is structured around real-world transportation processes, covering freight planning, management, collaboration, and settlement with hands-on SAP system access."
+},
+"track_overview_primary": {
+  "heading": "Key Modules Covered in <strong>SAP TM Training</strong>",
+  "description": "These essential <strong>SAP TM modules</strong> provide strong functional and technical foundation for transportation optimization and execution:",
+  "topics": [
+    "<strong>Transportation Planning:</strong> Freight unit creation, optimizer usage, planning profiles, and load consolidation",
+    "<strong>Freight Management:</strong> Freight orders, bookings, schedules, execution tracking, and event management",
+    "<strong>Charge Calculation & Settlement (FCM):</strong> Freight agreements, rate tables, calculation sheets, and FI/CO integration",
+    "<strong>Carrier Collaboration:</strong> Carrier selection, tendering strategies, communication workflows, and TOR creation",
+    "<strong>Integration:</strong> SAP TM integration with <strong>SAP SD, MM, EWM, GTS,</strong> and <strong>FI/CO</strong> modules"
+  ]
+},
+"track_overview_secondary": {
+  "heading": "Advanced Concepts & <strong>Real-World Scenarios</strong>",
+  "description": "This section focuses on complex transportation and logistics scenarios used by top global businesses:",
+  "topics": [
+    "<strong>Multi-Modal Transportation Planning:</strong> Road, air, ocean, and rail logistics",
+    "<strong>Advanced Optimizer Scenarios:</strong> Cost-based planning, distance prioritization, and resource utilization",
+    "<strong>Freight Settlement with FCM:</strong> Complex agreements, surcharges, discounts, and automated settlement",
+    "<strong>Event Management Integrations:</strong> Real-time tracking and milestone monitoring",
+    "<strong>End-to-End Transportation Execution</strong> with SAP TM"
+  ]
+},
+"certification_info": {
+  "heading": "Earn Your Professional <strong>SAP TM Certificate</strong>",
+  "intro": "Our <strong>SAP TM course</strong> is aligned with the official SAP certification syllabus, giving you complete preparation to clear the <strong>SAP TM certification exam</strong> confidently.",
+  "highlights": [
+    "<strong>Certification Guidance:</strong> Includes mock tests, scenario-based Q&A, and complete theory coverage.",
+    "<strong>Project-Based Learning:</strong> Work on end-to-end transportation planning, execution, and settlement cycles.",
+    "<strong>Global Recognition:</strong> SAP TM certification is valued by logistics companies, 3PLs, IT firms, and manufacturing giants worldwide."
+  ]
+},
+"why_institute": {
+  "heading": "Why <strong>ICLP Tech</strong> is the Best Choice for SAP TM Training in India",
+  "intro": "ICLP Tech provides highly practical, <strong>industry-driven SAP TM training</strong> designed to build real-world skillsets for logistics and SAP consulting careers.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All SAP TM trainers are <strong>certified consultants</strong> with <strong>10+ years</strong> of real-world experience in transportation planning, freight management, and global SAP implementation projects."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP TM Course Options</strong> (Online & Classroom)",
+    "description": "Choose a learning mode that fits your schedule and career objectives:",
+    "options": [
+      "<strong>SAP TM Course Online:</strong> Live interactive sessions with dedicated SAP TM system access for hands-on practice.",
+      "<strong>Classroom TM Training:</strong> In-person, mentor-guided training with practical workshops and peer learning."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Comprehensive SAP TM Course Curriculum",
-    "intro": "Our SAP TM course is structured around real-world transportation processes, covering freight planning, management, collaboration, and settlement with hands-on SAP system access."
-  },
-
-  "track_overview_primary": {
-    "heading": "Key Modules Covered in SAP TM Training",
-    "description": "These essential SAP TM modules provide strong functional and technical foundation for transportation optimization and execution:",
-    "topics": [
-      "Transportation Planning: Freight unit creation, optimizer usage, planning profiles, and load consolidation",
-      "Freight Management: Freight orders, bookings, schedules, execution tracking, and event management",
-      "Charge Calculation & Settlement (FCM): Freight agreements, rate tables, calculation sheets, and FI/CO integration",
-      "Carrier Collaboration: Carrier selection, tendering strategies, communication workflows, and TOR creation",
-      "Integration: SAP TM integration with SAP SD, MM, EWM, GTS, and FI/CO modules"
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced Concepts & Real-World Scenarios",
-    "description": "This section focuses on complex transportation and logistics scenarios used by top global businesses:",
-    "topics": [
-      "Multi-Modal Transportation Planning: Road, air, ocean, and rail logistics",
-      "Advanced Optimizer Scenarios: Cost-based planning, distance prioritization, and resource utilization",
-      "Freight Settlement with FCM: Complex agreements, surcharges, discounts, and automated settlement",
-      "Event Management Integrations: Real-time tracking and milestone monitoring",
-      "End-to-End Transportation Execution with SAP TM"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your Professional SAP TM Certificate",
-    "intro": "Our SAP TM course is aligned with the official SAP certification syllabus, giving you complete preparation to clear the SAP TM certification exam confidently.",
-    "highlights": [
-      "Certification Guidance: Includes mock tests, scenario-based Q&A, and complete theory coverage.",
-      "Project-Based Learning: Work on end-to-end transportation planning, execution, and settlement cycles.",
-      "Global Recognition: SAP TM certification is valued by logistics companies, 3PLs, IT firms, and manufacturing giants worldwide."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why ICLP Tech is the Best Choice for SAP TM Training in India",
-    "intro": "ICLP Tech provides highly practical, industry-driven SAP TM training designed to build real-world skillsets for logistics and SAP consulting careers.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All SAP TM trainers are certified consultants with 10+ years of real-world experience in transportation planning, freight management, and global SAP implementation projects."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP TM Course Options (Online & Classroom)",
-      "description": "Choose a learning mode that fits your schedule and career objectives:",
-      "options": [
-        "SAP TM Course Online: Live interactive sessions with dedicated SAP TM system access for hands-on practice.",
-        "Classroom TM Training: In-person, mentor-guided training with practical workshops and peer learning."
-      ]
-    },
-    "placement_support": {
-      "heading": "100% Placement Support",
-      "description": "We provide resume building, mock interviews, and guaranteed interviews through our network of top logistics, manufacturing, and IT companies across India."
-    }
+  "placement_support": {
+    "heading": "<strong>100% Placement Support</strong>",
+    "description": "We provide resume building, mock interviews, and <strong>guaranteed interviews</strong> through our network of top logistics, manufacturing, and IT companies across India."
+  }
   },
   "what_youll_learn": [
     "Understand ERP concepts and SAP architecture",
@@ -987,30 +982,30 @@
            "meta_title": "SAP PP Course Online | SAP PP Training | SAP PP Certificate",
   "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
           "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
-  "career_benefits": {
-    "heading": "Why SAP PP Training is Crucial for Your Career Growth",
-    "description": "Specializing in SAP Production Planning (PP) is one of the fastest routes to securing high-value roles in India's manufacturing, supply chain, and SAP consulting sectors. With industries shifting toward automation and global production standards, SAP PP professionals are in extremely high demand.",
-    "points": [
-      "Industry Focus: Our SAP PP training covers both Discrete and Repetitive Manufacturing, addressing a wide range of industry requirements.",
-      "Career Advancement: This SAP PP training qualifies you for roles such as SAP PP Functional Consultant, Production Planning Specialist, and SAP Solution Architect.",
-      "Certification Edge: Earning your SAP PP certificate validates your functional expertise and increases your marketability across top manufacturing organizations in India."
-    ]
-  },
+ "career_benefits": {
+  "heading": "Why <strong>SAP PP Training</strong> is Crucial for Your Career Growth",
+  "description": "Specializing in <strong>SAP Production Planning (PP)</strong> is one of the fastest routes to securing <strong>high-value roles</strong> in India's manufacturing, supply chain, and SAP consulting sectors. With industries shifting toward automation and global production standards, <strong>SAP PP professionals</strong> are in extremely high demand.",
+  "points": [
+    "<strong>Industry Focus:</strong> Our SAP PP training covers both <strong>Discrete and Repetitive Manufacturing</strong>, addressing a wide range of industry requirements.",
+    "<strong>Career Advancement:</strong> This SAP PP training qualifies you for roles such as <strong>SAP PP Functional Consultant</strong>, Production Planning Specialist, and SAP Solution Architect.",
+    "<strong>Certification Edge:</strong> Earning your <strong>SAP PP certificate</strong> validates your functional expertise and increases your marketability across top manufacturing organizations in India."
+  ]
+},
 
   "curriculum_overview": {
-    "heading": "Comprehensive SAP PP Course Curriculum",
-    "intro": "Our SAP PP course is designed around real-time production environments, covering master data, planning processes, and end-to-end manufacturing execution with practical configuration scenarios."
+    "heading": "Comprehensive <strong>SAP PP Course</strong> Curriculum",
+    "intro": "Our <strong>SAP PP course</strong> is designed around real-time production environments, covering master data, planning processes, and end-to-end manufacturing execution with practical configuration scenarios."
   },
 
   "track_overview_primary": {
-    "heading": "Key Modules Covered in SAP PP Training",
-    "description": "These core SAP PP modules ensure strong functional and technical understanding of production planning and execution:",
+    "heading": "Key Modules Covered in <strong>SAP PP Training</strong>",
+    "description": "These core <strong>SAP PP modules</strong> ensure strong functional and technical understanding of production planning and execution:",
     "topics": [
-      "Master Data: Configuration of Bills of Material (BOM), Work Centers, and Routings",
-      "Demand Management: Forecasting strategies, Sales & Operations Planning (SOP), and Master Production Scheduling (MPS)",
-      "Material Requirements Planning (MRP): End-to-end MRP execution, evaluation of results, and planned order management",
-      "Shop Floor Control: Production order creation, scheduling, confirmation, and goods movement",
-      "Integration: Deep understanding of PP integration with SAP MM and SAP FI/CO modules"
+      "<strong>Master Data:</strong> Configuration of Bills of Material (BOM), Work Centers, and Routings",
+      "<strong>Demand Management:</strong> Forecasting strategies, Sales & Operations Planning (SOP), and Master Production Scheduling (MPS)",
+      "<strong>Material Requirements Planning (MRP):</strong> End-to-end MRP execution, evaluation of results, and planned order management",
+      "<strong>Shop Floor Control:</strong> Production order creation, scheduling, confirmation, and goods movement",
+      "<strong>Integration:</strong> Deep understanding of PP integration with <strong>SAP MM</strong> and <strong>SAP FI/CO</strong> modules"
     ]
   },
 
@@ -1018,41 +1013,41 @@
     "heading": "Advanced Concepts & Real-World Scenarios",
     "description": "This section focuses on complex real-time production planning scenarios used across diverse industries:",
     "topics": [
-      "Capacity Planning & Leveling",
-      "Production Versions and Alternate BOMs",
-      "Discrete vs. Repetitive Manufacturing Scenarios",
-      "PP-PI (Process Industries) Overview and Batch Management",
-      "Practical End-to-End Production Execution with SAP PP"
+      "<strong>Capacity Planning & Leveling</strong>",
+      "<strong>Production Versions</strong> and Alternate BOMs",
+      "<strong>Discrete vs. Repetitive Manufacturing</strong> Scenarios",
+      "<strong>PP-PI (Process Industries)</strong> Overview and Batch Management",
+      "Practical <strong>End-to-End Production Execution</strong> with SAP PP"
     ]
   },
 
   "certification_info": {
-    "heading": "Earn Your Professional SAP PP Certificate",
-    "intro": "Our SAP PP course is aligned with the official SAP certification syllabus, ensuring complete preparation to clear your SAP PP certificate exam with confidence.",
+    "heading": "Earn Your Professional <strong>SAP PP Certificate</strong>",
+    "intro": "Our <strong>SAP PP course</strong> is aligned with the official <strong>SAP certification syllabus</strong>, ensuring complete preparation to clear your <strong>SAP PP certificate exam</strong> with confidence.",
     "highlights": [
-      "Certification Guidance: Includes mock tests, theory preparation modules, and scenario-based practice.",
-      "Project-Based Learning: Hands-on work on real industry PP cycles involving planning, execution, and integrations.",
-      "Global Recognition: SAP PP certification is valued by top manufacturing, FMCG, automotive, and engineering companies."
+      "<strong>Certification Guidance:</strong> Includes mock tests, theory preparation modules, and scenario-based practice.",
+      "<strong>Project-Based Learning:</strong> Hands-on work on real industry PP cycles involving planning, execution, and integrations.",
+      "<strong>Global Recognition:</strong> SAP PP certification is valued by top manufacturing, FMCG, automotive, and engineering companies."
     ]
   },
 
   "why_institute": {
-    "heading": "Why ICLP Tech is the Best Choice for SAP PP Training in India",
-    "intro": "ICLP Tech offers highly practical, industry-focused SAP PP training that prepares you for global careers in manufacturing and SAP consulting.",
+    "heading": "Why <strong>ICLP Tech</strong> is the Best Choice for <strong>SAP PP Training in India</strong>",
+    "intro": "ICLP Tech offers highly practical, industry-focused <strong>SAP PP training</strong> that prepares you for global careers in manufacturing and SAP consulting.",
     "instructor_expertise": {
       "heading": "Experience & Expertise",
-      "description": "All SAP PP trainers are 15+ year veteran consultants with experience in large-scale SAP implementation projects across India. Their real-world knowledge ensures accurate, practical SAP PP learning."
+      "description": "All SAP PP trainers are <strong>15+ year veteran consultants</strong> with experience in large-scale SAP implementation projects across India. Their real-world knowledge ensures accurate, practical SAP PP learning."
     },
     "training_modes": {
-      "heading": "Flexible SAP PP Course Options (Online & Classroom)",
+      "heading": "Flexible <strong>SAP PP Course Options</strong> (Online & Classroom)",
       "description": "Choose your learning style based on convenience and career goals:",
       "options": [
-        "SAP PP Course Online: Live, interactive sessions with unlimited access to cloud-based SAP servers for hands-on practice.",
-        "Classroom PP Training: In-person, immersive training with direct mentor support and peer collaboration."
+        "<strong>SAP PP Course Online:</strong> Live, interactive sessions with unlimited access to cloud-based SAP servers for hands-on practice.",
+        "<strong>Classroom PP Training:</strong> In-person, immersive training with direct mentor support and peer collaboration."
       ]
     },
     "placement_support": {
-      "heading": "100% Placement Support",
+      "heading": "<strong>100% Placement Support</strong>",
       "description": "We provide resume building, mock interviews, and guaranteed interview opportunities through our network of top manufacturing companies across India."
     }
   },
@@ -1125,53 +1120,54 @@
   "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
           "description": "Learn SAP ABAP programming language for custom development and enhancements.",
   "curriculum_overview": {
-    "heading": "Comprehensive SAP ABAP Course Curriculum: Foundational to Advanced",
-    "intro": "Our SAP ABAP Training Online program is structured to meet top employer expectations, ensuring you gain real-world Expertise and Experience across all ABAP development areas."
-  },
+  "heading": "Comprehensive <strong>SAP ABAP Course Curriculum: Foundational to Advanced</strong>",
+  "intro": "Our <strong>SAP ABAP Training Online</strong> program is structured to meet top employer expectations, ensuring you gain real-world <strong>Expertise</strong> and <strong>Experience</strong> across all ABAP development areas."
+},
 
-  "track_overview_primary": {
-    "heading": "Module Highlights: Mastering the SAP Programming Language",
-    "description": "These core SAP ABAP modules build your foundation from basics to advanced development skills:",
-    "topics": [
-      "ABAP Fundamentals: Introduction to SAP R/3 Architecture, Workbench tools (SE38, SE80), and basic ABAP syntax",
-      "SAP Data Dictionary: In-depth training on tables, structures, domains, data elements, views, and search helps",
-      "Open SQL & Internal Tables: Mastery of SELECT, INSERT, UPDATE, DELETE, and high-performance internal table operations",
-      "Reporting Techniques: Classical & interactive reporting, ALV reports (FM-based and Object-oriented), and debugging",
-      "Dialogue Programming (Module Pool): Creating custom screens with PBO/PAI, flow logic, and UI elements",
-      "Integration & Interfaces: BDC (Call Transaction & Session), LSMW, ALE, EDI, IDocs, and BAPIs",
-      "Enhancements & Modifications: User Exits, Function Exits, BADIs, and enhancement frameworks"
+"track_overview_primary": {
+  "heading": "Module Highlights: <strong>Mastering the SAP Programming Language</strong>",
+  "description": "These core <strong>SAP ABAP modules</strong> build your foundation from basics to advanced development skills:",
+  "topics": [
+    "<strong>ABAP Fundamentals:</strong> Introduction to SAP R/3 Architecture, Workbench tools (SE38, SE80), and basic ABAP syntax",
+    "<strong>SAP Data Dictionary:</strong> In-depth training on tables, structures, domains, data elements, views, and search helps",
+    "<strong>Open SQL & Internal Tables:</strong> Mastery of SELECT, INSERT, UPDATE, DELETE, and high-performance internal table operations",
+    "<strong>Reporting Techniques:</strong> Classical & interactive reporting, ALV reports (FM-based and Object-oriented), and debugging",
+    "<strong>Dialogue Programming (Module Pool):</strong> Creating custom screens with PBO/PAI, flow logic, and UI elements",
+    "<strong>Integration & Interfaces:</strong> BDC (Call Transaction & Session), LSMW, ALE, EDI, IDocs, and BAPIs",
+    "<strong>Enhancements & Modifications:</strong> User Exits, Function Exits, BADIs, and enhancement frameworks"
+  ]
+},
+
+"certification_info": {
+  "heading": "Achieve Your <strong>SAP ABAP Certification</strong> & Career Goals (E-E-A-T)",
+  "intro": "Selecting the right <strong>SAP ABAP Training</strong> provider is essential for earning a globally recognized <strong>SAP ABAP Certification</strong> and accelerating your career.",
+  "highlights": [
+    "<strong>Expert Instruction (Expertise):</strong> Delivered by SAP Certified ABAP Technical Consultants with 10+ years of implementation experience",
+    "<strong>Hands-on Experience:</strong> Full-time access to the latest SAP system for practical exercises and real-time ABAP development",
+    "<strong>Targeted Placement Support (Trustworthiness):</strong> Resume building, interview preparation, and placement guidance tailored for the competitive Indian IT job market"
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP ABAP Training Online</strong> is India’s Top Choice",
+  "intro": "Experience unmatched convenience and quality with India’s most trusted <strong>SAP ABAP Training Online</strong> platform.",
+  "training_modes": {
+    "heading": "Flexible <strong>Learning Options</strong>",
+    "description": "Designed for both working professionals and fresh graduates:",
+    "options": [
+      "<strong>Flexible online class schedules</strong> to accommodate your routine",
+      "<strong>24/7 technical support</strong> and expert doubt clarification"
     ]
   },
-
-  "certification_info": {
-    "heading": "Achieve Your SAP ABAP Certification & Career Goals (E-E-A-T)",
-    "intro": "Selecting the right SAP ABAP Training provider is essential for earning a globally recognized SAP ABAP Certification and accelerating your career.",
-    "highlights": [
-      "Expert Instruction (Expertise): Delivered by SAP Certified ABAP Technical Consultants with 10+ years of implementation experience",
-      "Hands-on Experience: Full-time access to the latest SAP system for practical exercises and real-time ABAP development",
-      "Targeted Placement Support (Trustworthiness): Resume building, interview preparation, and placement guidance tailored for the competitive Indian IT job market"
-    ]
+  "instructor_expertise": {
+    "heading": "<strong>Real-Time Learning</strong>",
+    "description": "Exclusive access to course materials, coding assignments, and real-time case studies that prepare you for actual SAP projects."
   },
+  "placement_support": {
+    "heading": "<strong>Career Launch Support</strong>",
+    "description": "Start your SAP career confidently with complete placement assistance designed for aspiring ABAP developers."
+  }
 
-  "why_institute": {
-    "heading": "Why Our SAP ABAP Training Online is India’s Top Choice",
-    "intro": "Experience unmatched convenience and quality with India’s most trusted SAP ABAP Training Online platform.",
-    "training_modes": {
-      "heading": "Flexible Learning Options",
-      "description": "Designed for both working professionals and fresh graduates:",
-      "options": [
-        "Flexible online class schedules to accommodate your routine",
-        "24/7 technical support and expert doubt clarification"
-      ]
-    },
-    "instructor_expertise": {
-      "heading": "Real-Time Learning",
-      "description": "Exclusive access to course materials, coding assignments, and real-time case studies that prepare you for actual SAP projects."
-    },
-    "placement_support": {
-      "heading": "Career Launch Support",
-      "description": "Start your SAP career confidently with complete placement assistance designed for aspiring ABAP developers."
-    }
   },
           "what_youll_learn": [
             "ABAP programming fundamentals",
@@ -1240,75 +1236,75 @@
   "path": "sap-btp-training",
    "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
   "meta_description": "Master SAP Business Technology Platform with expert-led training at ICLP. Get real-time projects, career support & certification prep. Join today!",
-  "career_benefits": {
-    "heading": "Expertise & Authority: Why Choose Our BTP Training SAP?",
-    "description": "Our curriculum is fully aligned with E-E-A-T principles and led by certified SAP BTP architects with 15+ years of experience in global and Indian enterprise implementations. This structured and practical SAP BTP training ensures you gain deep, real-world expertise across all pillars of SAP’s Business Technology Platform.",
-    "points": [
-      "Integration Mastery: Hands-on training in SAP Integration Suite, CPI, and API Management for seamless SAP and non-SAP connectivity.",
-      "Application Development Expertise: End-to-end development using CAPM and SAP Build for low-code/no-code and pro-code applications.",
-      "Data & Analytics: Practical experience with SAP HANA Cloud and SAP Analytics Cloud for real-time reporting and insights.",
-      "AI & Automation: Build intelligent workflows using SAP AI Business Services and Process Automation tools."
+"career_benefits": {
+  "heading": "Expertise & Authority: Why Choose Our <strong>BTP Training SAP</strong>?",
+  "description": "Our curriculum is fully aligned with <strong>E-E-A-T principles</strong> and led by certified <strong>SAP BTP architects</strong> with <strong>15+ years</strong> of experience in global and Indian enterprise implementations. This structured and practical <strong>SAP BTP training</strong> ensures you gain deep, real-world expertise across all pillars of SAP’s Business Technology Platform.",
+  "points": [
+    "<strong>Integration Mastery:</strong> Hands-on training in <strong>SAP Integration Suite, CPI, and API Management</strong> for seamless SAP and non-SAP connectivity.",
+    "<strong>Application Development Expertise:</strong> End-to-end development using <strong>CAPM</strong> and <strong>SAP Build</strong> for low-code/no-code and pro-code applications.",
+    "<strong>Data & Analytics:</strong> Practical experience with <strong>SAP HANA Cloud</strong> and <strong>SAP Analytics Cloud</strong> for real-time reporting and insights.",
+    "<strong>AI & Automation:</strong> Build intelligent workflows using <strong>SAP AI Business Services</strong> and <strong>Process Automation</strong> tools."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Comprehensive Curriculum: Your Complete <strong>SAP BTP Learning Path</strong>",
+  "intro": "Our <strong>SAP BTP training course</strong> covers every essential component of SAP’s cloud platform, providing a complete foundation for development, integration, and enterprise automation."
+},
+
+"track_overview_primary": {
+  "heading": "Core Pillars Covered in <strong>SAP BTP Training</strong>",
+  "description": "This <strong>SAP BTP course</strong> is designed to make you fully proficient in all mission-critical components of SAP’s cloud platform:",
+  "topics": [
+    "<strong>Integration Suite:</strong> CPI, API Management, Event Mesh, and Open Connectors.",
+    "<strong>Application Development:</strong> SAP CAPM, SAP Build Apps, SAP Build Work Zone, and Extension Suite.",
+    "<strong>Data & Analytics:</strong> SAP HANA Cloud, SAP Datasphere, and SAP Analytics Cloud.",
+    "<strong>AI & Automation:</strong> SAP AI Business Services, RPA, Process Automation, and Intelligent Scenario configuration."
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>SAP BTP Scenarios</strong> & Real-World Execution",
+  "description": "Gain a deep understanding of advanced BTP use cases and project execution strategies:",
+  "topics": [
+    "<strong>Enterprise-Scale Integration Architectures</strong>",
+    "<strong>Building Side-by-Side Extensions</strong> for S/4HANA",
+    "<strong>Deploying End-to-End Cloud Applications</strong>",
+    "<strong>Configuring Automation Scenarios</strong> with AI & RPA",
+    "<strong>Cloud Security & Authentication</strong> with IAS/IPS"
+  ]
+},
+
+"certification_info": {
+  "heading": "Achieve Your <strong>SAP BTP Certification</strong>",
+  "intro": "Our <strong>SAP BTP training</strong> includes focused preparation aligned with the official SAP Certified Development & Integration Associate exams.",
+  "highlights": [
+    "<strong>Certification-Based Curriculum:</strong> Structured according to SAP BTP certification guidelines.",
+    "<strong>Hands-On Projects:</strong> Create cloud-native extensions, integrations, and automations.",
+    "<strong>Globally Valued Credential:</strong> SAP BTP certification is one of the fastest-growing career accelerators in India’s cloud ecosystem."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP BTP Training Online</strong> Is India’s Top Choice",
+  "intro": "Designed for professionals aiming to lead in cloud-driven transformation, our <strong>SAP BTP course</strong> combines deep expertise, real-world practice, and job-ready skills.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "Training delivered by senior <strong>SAP BTP architects</strong> who have executed large-scale integration, cloud development, and automation projects for global enterprises."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP BTP Learning Options</strong>",
+    "description": "Choose the most convenient learning mode for your schedule:",
+    "options": [
+      "<strong>SAP BTP Online Training:</strong> Live interactive sessions with full BTP cockpit and SAP system access.",
+      "<strong>Hybrid Training Options:</strong> Online + practical workshops for deeper hands-on practice."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Comprehensive Curriculum: Your Complete SAP BTP Learning Path",
-    "intro": "Our SAP BTP training course covers every essential component of SAP’s cloud platform, providing a complete foundation for development, integration, and enterprise automation."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Pillars Covered in SAP BTP Training",
-    "description": "This SAP BTP course is designed to make you fully proficient in all mission-critical components of SAP’s cloud platform:",
-    "topics": [
-      "Integration Suite: CPI, API Management, Event Mesh, and Open Connectors.",
-      "Application Development: SAP CAPM, SAP Build Apps, SAP Build Work Zone, and Extension Suite.",
-      "Data & Analytics: SAP HANA Cloud, SAP Datasphere, and SAP Analytics Cloud.",
-      "AI & Automation: SAP AI Business Services, RPA, Process Automation, and Intelligent Scenario configuration."
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced SAP BTP Scenarios & Real-World Execution",
-    "description": "Gain a deep understanding of advanced BTP use cases and project execution strategies:",
-    "topics": [
-      "Enterprise-Scale Integration Architectures",
-      "Building Side-by-Side Extensions for S/4HANA",
-      "Deploying End-to-End Cloud Applications",
-      "Configuring Automation Scenarios with AI & RPA",
-      "Cloud Security & Authentication with IAS/IPS"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Achieve Your SAP BTP Certification",
-    "intro": "Our SAP BTP training includes focused preparation aligned with the official SAP Certified Development & Integration Associate exams.",
-    "highlights": [
-      "Certification-Based Curriculum: Structured according to SAP BTP certification guidelines.",
-      "Hands-On Projects: Create cloud-native extensions, integrations, and automations.",
-      "Globally Valued Credential: SAP BTP certification is one of the fastest-growing career accelerators in India’s cloud ecosystem."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP BTP Training Online Is India’s Top Choice",
-    "intro": "Designed for professionals aiming to lead in cloud-driven transformation, our SAP BTP course combines deep expertise, real-world practice, and job-ready skills.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "Training delivered by senior SAP BTP architects who have executed large-scale integration, cloud development, and automation projects for global enterprises."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP BTP Learning Options",
-      "description": "Choose the most convenient learning mode for your schedule:",
-      "options": [
-        "SAP BTP Online Training: Live interactive sessions with full BTP cockpit and SAP system access.",
-        "Hybrid Training Options: Online + practical workshops for deeper hands-on practice."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "We provide resume building, interview preparation, and job placement assistance targeting India’s top SAP implementation and consulting companies."
-    }
-  },
+  "placement_support": {
+    "heading": "Career & <strong>Placement Support</strong>",
+    "description": "We provide resume building, interview preparation, and job placement assistance targeting India’s top SAP implementation and consulting companies."
+  }
+},
   "description": "Master SAP's unified platform for application development, integration, analytics, and AI. Learn to build, extend, and integrate enterprise applications in the cloud.",
   "what_youll_learn": [
     "SAP BTP architecture and services",
@@ -1419,73 +1415,73 @@
     "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
   "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
   "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
-  "career_benefits": {
-    "heading": "Expertise & Authority: Why Choose Our SAP IS Utilities Training?",
-    "description": "Our SAP IS Utilities course adheres to the highest E-E-A-T principles, providing specialized knowledge and practical skills to excel in utility operations and earn SAP IS-U certification.",
-    "points": [
-      "Expert Instruction: Training delivered by SAP IS-U Solution Architects with 15+ years of domain experience in large-scale utility implementations.",
-      "Comprehensive Curriculum: Covers all essential SAP IS-U modules, including Device Management, Billing & Invoicing, and Financials (FI-CA).",
-      "Hands-On Experience: Real-time case studies and labs focusing on End-to-End Meter-to-Cash process implementation.",
-      "High-Value Career Growth: Prepares you for Senior Consultant roles in utilities with potential salaries of ₹25L+ LPA in India."
+"career_benefits": {
+  "heading": "Expertise & Authority: Why Choose Our <strong>SAP IS Utilities Training</strong>?",
+  "description": "Our <strong>SAP IS Utilities course</strong> adheres to the highest <strong>E-E-A-T principles</strong>, providing specialized knowledge and practical skills to excel in utility operations and earn <strong>SAP IS-U certification</strong>.",
+  "points": [
+    "<strong>Expert Instruction:</strong> Training delivered by <strong>SAP IS-U Solution Architects</strong> with 15+ years of domain experience in large-scale utility implementations.",
+    "<strong>Comprehensive Curriculum:</strong> Covers all essential SAP IS-U modules, including <strong>Device Management</strong>, <strong>Billing & Invoicing</strong>, and <strong>Financials (FI-CA)</strong>.",
+    "<strong>Hands-On Experience:</strong> Real-time case studies and labs focusing on <strong>End-to-End Meter-to-Cash</strong> process implementation.",
+    "<strong>High-Value Career Growth:</strong> Prepares you for Senior Consultant roles in utilities with potential salaries of ₹25L+ LPA in India."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Comprehensive <strong>SAP IS Utilities Course Curriculum</strong>",
+  "intro": "This <strong>SAP IS-U training</strong> provides end-to-end coverage of utility operations and system configurations, ensuring readiness for both certification and enterprise implementation."
+},
+
+"track_overview_primary": {
+  "heading": "Core Modules Covered in <strong>SAP IS Utilities Training</strong>",
+  "description": "Our curriculum ensures a deep understanding of critical utility processes and functional mastery:",
+  "topics": [
+    "<strong>Device Management (DM):</strong> Meter Reading, Device Installation, Smart Meter Integration",
+    "<strong>Billing & Invoicing (BC-ISU):</strong> Tariff Structures, Rate Determination, Mass Billing Runs",
+    "<strong>Financials (FI-CA):</strong> Contract Accounting, Dunning, Collections, and Payment Processing"
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced Scenarios & Practical Skills in <strong>SAP IS Utilities</strong>",
+  "description": "Gain practical expertise in real-world utility scenarios with complex configurations and integrations:",
+  "topics": [
+    "<strong>End-to-End Meter-to-Cash Process Implementation</strong>",
+    "<strong>Integration of IS-U</strong> with SAP S/4HANA Financials and Customer Management",
+    "<strong>Automated Billing and Rate Adjustments</strong>",
+    "<strong>Advanced Contract and Service Management</strong>",
+    "<strong>Real-Time Reporting and Analytics</strong> in Utilities"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP IS Utilities Certification</strong>",
+  "intro": "Our <strong>SAP IS-U course</strong> is fully aligned with the official SAP certification syllabus, preparing you for exam success and professional validation.",
+  "highlights": [
+    "<strong>Certification Preparation:</strong> Includes mock tests, scenario-based assignments, and structured exam guidance.",
+    "<strong>Hands-On Projects:</strong> Practical exercises covering end-to-end utility processes and system integration.",
+    "<strong>Industry Recognition:</strong> SAP IS-U certification positions you as a highly skilled consultant in the Indian utilities sector."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP IS Utilities Training</strong> Stands Out in India",
+  "intro": "ICLP Tech delivers specialized, practical <strong>SAP IS-U training</strong> designed to prepare professionals for high-level consulting roles in the utilities domain.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All instructors are senior <strong>SAP IS-U professionals</strong> with <strong>15+ years</strong> of experience in multi-national utility projects and S/4HANA integrations."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP IS Utilities Learning Options</strong>",
+    "description": "Choose the mode that best suits your learning and schedule:",
+    "options": [
+      "<strong>SAP IS Utilities Online Training:</strong> Live, interactive sessions with hands-on access to SAP IS-U systems.",
+      "<strong>Classroom Training:</strong> Immersive, in-person sessions with guided labs and direct mentorship."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Comprehensive SAP IS Utilities Course Curriculum",
-    "intro": "This SAP IS-U training provides end-to-end coverage of utility operations and system configurations, ensuring readiness for both certification and enterprise implementation."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Modules Covered in SAP IS Utilities Training",
-    "description": "Our curriculum ensures a deep understanding of critical utility processes and functional mastery:",
-    "topics": [
-      "Device Management (DM): Meter Reading, Device Installation, Smart Meter Integration",
-      "Billing & Invoicing (BC-ISU): Tariff Structures, Rate Determination, Mass Billing Runs",
-      "Financials (FI-CA): Contract Accounting, Dunning, Collections, and Payment Processing"
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced Scenarios & Practical Skills in SAP IS Utilities",
-    "description": "Gain practical expertise in real-world utility scenarios with complex configurations and integrations:",
-    "topics": [
-      "End-to-End Meter-to-Cash Process Implementation",
-      "Integration of IS-U with SAP S/4HANA Financials and Customer Management",
-      "Automated Billing and Rate Adjustments",
-      "Advanced Contract and Service Management",
-      "Real-Time Reporting and Analytics in Utilities"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP IS Utilities Certification",
-    "intro": "Our SAP IS-U course is fully aligned with the official SAP certification syllabus, preparing you for exam success and professional validation.",
-    "highlights": [
-      "Certification Preparation: Includes mock tests, scenario-based assignments, and structured exam guidance.",
-      "Hands-On Projects: Practical exercises covering end-to-end utility processes and system integration.",
-      "Industry Recognition: SAP IS-U certification positions you as a highly skilled consultant in the Indian utilities sector."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP IS Utilities Training Stands Out in India",
-    "intro": "ICLP Tech delivers specialized, practical SAP IS-U training designed to prepare professionals for high-level consulting roles in the utilities domain.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All instructors are senior SAP IS-U professionals with 15+ years of experience in multi-national utility projects and S/4HANA integrations."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP IS Utilities Learning Options",
-      "description": "Choose the mode that best suits your learning and schedule:",
-      "options": [
-        "SAP IS Utilities Online Training: Live, interactive sessions with hands-on access to SAP IS-U systems.",
-        "Classroom Training: Immersive, in-person sessions with guided labs and direct mentorship."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "We provide resume building, interview preparation, and placement assistance with top Indian utility and consulting firms."
-    }
+  "placement_support": {
+    "heading": "Career & <strong>Placement Support</strong>",
+    "description": "We provide resume building, interview preparation, and placement assistance with top Indian utility and consulting firms."
+  }
   },
   "what_youll_learn": [
     "Utilities market structures (regulated/deregulated)",
@@ -2107,63 +2103,73 @@
       "Career Growth: Positions you for high-value roles as an IS-Retail Consultant in leading retail and IT organizations."
     ]
   },
+"career_benefits": {
+  "heading": "Expertise & Experience: Why Choose Our <strong>SAP IS-Retail Online Training</strong>?",
+  "description": "We ensure unparalleled educational authority by strictly following <strong>E-E-A-T principles</strong>, providing skills that are immediately applicable to enterprise environments. Our <strong>SAP IS-Retail training</strong> prepares you for high-value roles in retail consulting and implementation.",
+  "points": [
+    "<strong>Expertise (E):</strong> Learn directly from SAP Solution Architects with <strong>15+ years</strong> of experience in major IS-Retail implementation projects across India and globally.",
+    "<strong>Comprehensive Curriculum (A):</strong> Covers the entire retail lifecycle including Merchandise Management, Retail Pricing & Promotions, and Store Operations.",
+    "<strong>Hands-On Experience (E):</strong> Gain mastery through real-world scenarios and dedicated project work, confidently configuring complex retail pricing and allocation tables.",
+    "<strong>High-Value Career Path:</strong> Essential foundation for senior IS-Retail Consultant roles with top Indian employers like Infosys and TCS."
+  ]
+},
 
-  "curriculum_overview": {
-    "heading": "Comprehensive SAP IS-Retail Course Curriculum",
-    "intro": "This SAP IS-Retail course is designed to cover end-to-end retail processes and practical configuration, ensuring learners gain both functional and technical competence."
+"curriculum_overview": {
+  "heading": "Comprehensive <strong>SAP IS-Retail Course Curriculum</strong>",
+  "intro": "This <strong>SAP IS-Retail course</strong> is designed to cover end-to-end retail processes and practical configuration, ensuring learners gain both functional and technical competence."
+},
+
+"track_overview_primary": {
+  "heading": "Core Modules Covered in <strong>SAP IS-Retail Training</strong>",
+  "description": "Our curriculum addresses the most critical functional areas of SAP IS-Retail for enterprise implementation:",
+  "topics": [
+    "<strong>Merchandise Management:</strong> Article Master Data (Generic & Variant), Assortment, Listing, and hierarchical structures",
+    "<strong>Retail Pricing & Promotions:</strong> Purchase/Sales Price Calculation, Promotions Management, and Bonus Buys",
+    "<strong>Store Operations:</strong> Merchandise Distribution, Allocation Planning, POS integration, and store workflows"
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>Retail Scenarios</strong> & Real-World Applications",
+  "description": "Gain practical experience with complex retail scenarios to handle real business challenges:",
+  "topics": [
+    "<strong>Advanced Promotion Strategies</strong> and Scenario Configuration",
+    "<strong>Seasonal Allocation and Inventory Planning</strong>",
+    "<strong>POS and Backend System Integration</strong>",
+    "<strong>Multi-Store Retail Reporting and Analytics</strong>",
+    "<strong>End-to-End Retail Process Simulation</strong>"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP IS-Retail Certification</strong>",
+  "intro": "Our <strong>SAP IS-Retail training</strong> aligns with the official SAP certification syllabus to prepare you for globally recognized credentials.",
+  "highlights": [
+    "<strong>Certification-Oriented Learning:</strong> Includes scenario-based exercises and mock tests for complete exam readiness.",
+    "<strong>Project-Based Practice:</strong> Hands-on configuration of retail processes to ensure practical mastery.",
+    "<strong>Industry Recognition:</strong> Validates your expertise and positions you for senior SAP IS-Retail roles in top Indian companies."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP IS-Retail Training</strong> Stands Out in India",
+  "intro": "ICLP Tech provides specialized, career-focused <strong>SAP IS-Retail training</strong>, preparing learners for leadership roles in retail consulting and implementation.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All instructors are senior <strong>SAP IS-Retail consultants</strong> with <strong>15+ years</strong> of hands-on experience in multi-national retail implementations."
   },
-
-  "track_overview_primary": {
-    "heading": "Core Modules Covered in SAP IS-Retail Training",
-    "description": "Our curriculum addresses the most critical functional areas of SAP IS-Retail for enterprise implementation:",
-    "topics": [
-      "Merchandise Management: Article Master Data (Generic & Variant), Assortment, Listing, and hierarchical structures",
-      "Retail Pricing & Promotions: Purchase/Sales Price Calculation, Promotions Management, and Bonus Buys",
-      "Store Operations: Merchandise Distribution, Allocation Planning, POS integration, and store workflows"
+  "training_modes": {
+    "heading": "Flexible <strong>SAP IS-Retail Learning Options</strong>",
+    "description": "Choose the training mode that best fits your professional schedule:",
+    "options": [
+      "<strong>SAP IS-Retail Online Training:</strong> Live, interactive sessions with full access to SAP retail systems for practical exercises.",
+      "<strong>Classroom Training:</strong> In-person, immersive sessions with guided mentoring and peer collaboration."
     ]
   },
-
-  "track_overview_secondary": {
-    "heading": "Advanced Retail Scenarios & Real-World Applications",
-    "description": "Gain practical experience with complex retail scenarios to handle real business challenges:",
-    "topics": [
-      "Advanced Promotion Strategies and Scenario Configuration",
-      "Seasonal Allocation and Inventory Planning",
-      "POS and Backend System Integration",
-      "Multi-Store Retail Reporting and Analytics",
-      "End-to-End Retail Process Simulation"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP IS-Retail Certification",
-    "intro": "Our SAP IS-Retail training aligns with the official SAP certification syllabus to prepare you for globally recognized credentials.",
-    "highlights": [
-      "Certification-Oriented Learning: Includes scenario-based exercises and mock tests for complete exam readiness.",
-      "Project-Based Practice: Hands-on configuration of retail processes to ensure practical mastery.",
-      "Industry Recognition: Validates your expertise and positions you for senior SAP IS-Retail roles in top Indian companies."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP IS-Retail Training Stands Out in India",
-    "intro": "ICLP Tech provides specialized, career-focused SAP IS-Retail training, preparing learners for leadership roles in retail consulting and implementation.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All instructors are senior SAP IS-Retail consultants with 15+ years of hands-on experience in multi-national retail implementations."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP IS-Retail Learning Options",
-      "description": "Choose the training mode that best fits your professional schedule:",
-      "options": [
-        "SAP IS-Retail Online Training: Live, interactive sessions with full access to SAP retail systems for practical exercises.",
-        "Classroom Training: In-person, immersive sessions with guided mentoring and peer collaboration."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Assistance",
-      "description": "We provide resume building, interview preparation, and direct placement support with top Indian IT and retail consulting firms."
-    }
+  "placement_support": {
+    "heading": "Career & <strong>Placement Assistance</strong>",
+    "description": "We provide resume building, interview preparation, and direct placement support with top Indian IT and retail consulting firms."
+  }
   },
   "what_youll_learn": [
     "SAP Retail navigation and customization",
@@ -3168,73 +3174,73 @@
   "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
     "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
   "career_benefits": {
-    "heading": "Achieve Mastery: Why Our SAP QM Training is India's Best",
-    "description": "We fully align with Google’s E-E-A-T framework—Expertise, Experience, Authority, and Trust—to deliver the most comprehensive SAP QM training in India. Our program is designed for professionals who want unmatched practical knowledge and certification readiness.",
-    "points": [
-      "Expertise & Experience: Training delivered by certified SAP QM consultants with 15+ years of global implementation experience.",
-      "Authority & Trust: Curriculum updated for SAP S/4HANA standards, preparing you thoroughly for the official SAP QM certification.",
-      "Hands-on Application: Every module includes mandatory practical exercises focused on inspection processes, quality planning, and quality control.",
-      "Targeted Career Growth: Highly valued skill set for manufacturing, pharma, automotive, FMCG, and IT industries across India."
-    ]
-  },
+"heading": "Achieve Mastery: Why Our <strong>SAP QM Training</strong> is India's Best",
+"description": "We fully align with Google’s <strong>E-E-A-T framework</strong>—Expertise, Experience, Authority, and Trust—to deliver the most comprehensive <strong>SAP QM training</strong> in India. Our program is designed for professionals who want unmatched practical knowledge and certification readiness.",
+"points": [
+"<strong>Expertise & Experience:</strong> Training delivered by certified SAP QM consultants with 15+ years of global implementation experience.",
+"<strong>Authority & Trust:</strong> Curriculum updated for <strong>SAP S/4HANA</strong> standards, preparing you thoroughly for the official <strong>SAP QM certification</strong>.",
+"<strong>Hands-on Application:</strong> Every module includes mandatory practical exercises focused on inspection processes, quality planning, and quality control.",
+"<strong>Targeted Career Growth:</strong> Highly valued skill set for manufacturing, pharma, automotive, FMCG, and IT industries across India."
+]
+},
 
-  "curriculum_overview": {
-    "heading": "Comprehensive Curriculum: Your Path to SAP QM Certification",
-    "intro": "This intensive SAP QM course covers all essential functionalities required for real-world implementation and official SAP Quality Management certification."
-  },
+"curriculum_overview": {
+"heading": "Comprehensive Curriculum: Your Path to <strong>SAP QM Certification</strong>",
+"intro": "This intensive <strong>SAP QM course</strong> covers all essential functionalities required for real-world implementation and official <strong>SAP Quality Management certification</strong>."
+},
 
-  "track_overview_primary": {
-    "heading": "Core Modules Covered in SAP QM Training",
-    "description": "Each module is designed to provide deep functional understanding and hands-on mastery:",
-    "topics": [
-      "Quality Planning: Master data setup, inspection plans, sampling procedures, and dynamic modification rules",
-      "Quality Inspection: Results recording, usage decisions, inspection lot processing, and inspection types",
-      "Quality Control: Defect recording, quality notifications, and integration with PP, MM, and SD modules",
-      "QM in Procurement: Vendor evaluation, quality information records, and quality assurance during purchasing"
-    ]
-  },
+"track_overview_primary": {
+"heading": "Core Modules Covered in <strong>SAP QM Training</strong>",
+"description": "Each module is designed to provide deep functional understanding and hands-on mastery:",
+"topics": [
+"<strong>Quality Planning:</strong> Master data setup, inspection plans, sampling procedures, and dynamic modification rules",
+"<strong>Quality Inspection:</strong> Results recording, usage decisions, inspection lot processing, and inspection types",
+"<strong>Quality Control:</strong> Defect recording, quality notifications, and integration with <strong>PP, MM, and SD</strong> modules",
+"<strong>QM in Procurement:</strong> Vendor evaluation, quality information records, and quality assurance during purchasing"
+]
+},
 
-  "track_overview_secondary": {
-    "heading": "Advanced SAP QM Scenarios & Practical Skills",
-    "description": "Build real-world expertise through complex SAP QM configuration and process execution:",
-    "topics": [
-      "Inspection Lot Creation & Automation",
-      "Batch Management & Quality Integration",
-      "In-Process Quality Checks",
-      "Supplier Quality Management & Audit Processes",
-      "End-to-End QM Cycle Execution in S/4HANA"
-    ]
-  },
+"track_overview_secondary": {
+"heading": "Advanced <strong>SAP QM Scenarios</strong> & Practical Skills",
+"description": "Build real-world expertise through complex SAP QM configuration and process execution:",
+"topics": [
+"<strong>Inspection Lot Creation & Automation</strong>",
+"<strong>Batch Management & Quality Integration</strong>",
+"<strong>In-Process Quality Checks</strong>",
+"<strong>Supplier Quality Management</strong> & Audit Processes",
+"<strong>End-to-End QM Cycle Execution</strong> in S/4HANA"
+]
+},
 
-  "certification_info": {
-    "heading": "Earn Your SAP QM Certification",
-    "intro": "Our SAP QM training is aligned with the latest SAP S/4HANA quality management syllabus to ensure complete certification readiness.",
-    "highlights": [
-      "Certification-Oriented Learning: Includes mock tests, scenario-based assignments, and structured exam preparation.",
-      "Real-Time Projects: Practical exposure to complete QM processes in manufacturing and procurement environments.",
-      "Industry Recognition: SAP QM certification is valued highly across manufacturing, chemical, pharma, automotive, and engineering sectors."
-    ]
-  },
+"certification_info": {
+"heading": "Earn Your <strong>SAP QM Certification</strong>",
+"intro": "Our <strong>SAP QM training</strong> is aligned with the latest <strong>SAP S/4HANA Quality Management</strong> syllabus to ensure complete certification readiness.",
+"highlights": [
+"<strong>Certification-Oriented Learning:</strong> Includes mock tests, scenario-based assignments, and structured exam preparation.",
+"<strong>Real-Time Projects:</strong> Practical exposure to complete QM processes in manufacturing and procurement environments.",
+"<strong>Industry Recognition:</strong> SAP QM certification is valued highly across manufacturing, chemical, pharma, automotive, and engineering sectors."
+]
+},
 
-  "why_institute": {
-    "heading": "Why Our SAP QM Training Stands Above the Rest",
-    "intro": "Our SAP Quality Management training is built for professionals seeking deep technical competence and strong career outcomes.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All instructors are senior SAP QM professionals with decades of experience delivering large-scale implementation projects across global industries."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP QM Learning Options",
-      "description": "Choose the format that best supports your learning and schedule:",
-      "options": [
-        "SAP QM Online Training: Live classes with full access to SAP S/4HANA systems for hands-on practice.",
-        "Classroom-Based Sessions: Interactive in-person training with guided configuration exercises."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "We provide resume enhancement, interview preparation, and placement opportunities across top Indian and multinational companies."
-    }
+"why_institute": {
+"heading": "Why Our <strong>SAP QM Training</strong> Stands Above the Rest",
+"intro": "Our <strong>SAP Quality Management training</strong> is built for professionals seeking deep technical competence and strong career outcomes.",
+"instructor_expertise": {
+"heading": "Experience & Expertise",
+"description": "All instructors are senior <strong>SAP QM professionals</strong> with decades of experience delivering large-scale implementation projects across global industries."
+},
+"training_modes": {
+"heading": "Flexible <strong>SAP QM Learning Options</strong>",
+"description": "Choose the format that best supports your learning and schedule:",
+"options": [
+"<strong>SAP QM Online Training:</strong> Live classes with full access to SAP S/4HANA systems for hands-on practice.",
+"<strong>Classroom-Based Sessions:</strong> Interactive in-person training with guided configuration exercises."
+]
+},
+"placement_support": {
+"heading": "Career & <strong>Placement Support</strong>",
+"description": "We provide resume enhancement, interview preparation, and placement opportunities across top Indian and multinational companies."
+}
   },
   
   "what_youll_learn": [
@@ -3358,73 +3364,73 @@
   "meta_description": "Get SAP Ariba training online. Learn sourcing & procurement with certification. Start your expert journey – enroll now!",
   "description": "Comprehensive training in SAP Ariba covering procurement, sourcing, contracts, supplier management, and network integration for end-to-end supply chain collaboration.",
   "career_benefits": {
-    "heading": "Expertise (E): Why Our SAP Ariba Course Delivers Unmatched Value",
-    "description": "We strictly follow Google’s E-E-A-T standards. Our SAP Ariba training is led by certified SAP consultants with 15+ years of implementation experience across global and Indian markets. The curriculum is continuously updated to ensure you master the latest advancements in Strategic Sourcing and Downstream Procurement. This is the best SAP Ariba training for hands-on, result-driven expertise.",
-    "points": [
-      "Expert-Led Training: Delivered by senior SAP Ariba consultants with extensive project implementation experience.",
-      "Latest Curriculum: Updated regularly to include the newest features in SAP Ariba Sourcing, Contracts, Buying, and Invoicing.",
-      "Practical Focus: Real-world exercises, configuration practice, and scenario-based learning.",
-      "Career-Oriented Outcomes: Highly valued skill set across IT, consulting, manufacturing, and procurement industries."
+  "heading": "Expertise (E): Why Our <strong>SAP Ariba Course</strong> Delivers Unmatched Value",
+  "description": "We strictly follow Google's <strong>E-E-A-T standards</strong>. Our <strong>SAP Ariba training</strong> is led by certified SAP consultants with <strong>15+ years</strong> of implementation experience across global and Indian markets. The curriculum is continuously updated to ensure you master the latest advancements in <strong>Strategic Sourcing and Downstream Procurement</strong>. This is the best SAP Ariba training for hands-on, result-driven expertise.",
+  "points": [
+    "<strong>Expert-Led Training:</strong> Delivered by senior SAP Ariba consultants with extensive project implementation experience.",
+    "<strong>Latest Curriculum:</strong> Updated regularly to include the newest features in <strong>SAP Ariba Sourcing, Contracts, Buying, and Invoicing</strong>.",
+    "<strong>Practical Focus:</strong> Real-world exercises, configuration practice, and scenario-based learning.",
+    "<strong>Career-Oriented Outcomes:</strong> Highly valued skill set across IT, consulting, manufacturing, and procurement industries."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Authority (A): Comprehensive <strong>SAP Ariba Certification Courses</strong>",
+  "intro": "Our <strong>SAP Ariba course</strong> is fully aligned with official SAP certification exam structures, preparing you for the prestigious <strong>SAP Ariba Implementation Consultant Certification</strong>."
+},
+
+"track_overview_primary": {
+  "heading": "Core Streams Covered in <strong>SAP Ariba Training</strong>",
+  "description": "We cover both essential Ariba streams to ensure total functional and technical mastery:",
+  "topics": [
+    "<strong>Upstream (Strategic Sourcing):</strong> Ariba Sourcing, Contract Management, Supplier Lifecycle Performance (SLP)",
+    "<strong>Downstream (Procurement):</strong> Ariba Buying & Invoicing, Guided Buying, Catalog Management (P2P)",
+    "<strong>Certification Blueprint Coverage:</strong> End-to-end modules aligned with SAP's official exam structure",
+    "<strong>Implementation Consultant Skills:</strong> Configuration, process design, and Ariba Network collaboration"
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Experience (E) & Trust (T): <strong>Hands-On SAP Ariba Practical Skills</strong>",
+  "description": "Gain real-world Ariba application expertise through intensive practical exposure:",
+  "topics": [
+    "<strong>Full-Cycle Implementation Projects</strong>",
+    "<strong>Ariba Network Integration</strong>",
+    "<strong>CIG / CI9 Integration</strong> with SAP ERP & S/4HANA",
+    "<strong>Real-Time Supplier Collaboration</strong> Scenarios",
+    "<strong>End-to-End Source-to-Pay Execution</strong>"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP Ariba Certification</strong>",
+  "intro": "Our training ensures complete preparation for the <strong>SAP Ariba certification exam</strong> through structured, exam-focused learning.",
+  "highlights": [
+    "<strong>Mock Tests & Exam Practice:</strong> Designed to boost first-attempt certification success.",
+    "<strong>Real-Time Project Scenarios:</strong> Master SAP Ariba implementation from sourcing to procurement.",
+    "<strong>Industry Recognition:</strong> SAP Ariba certification unlocks opportunities in consulting, procurement, IT services, and global enterprises."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP Ariba Training</strong> Is the Best Choice",
+  "intro": "Our program is tailored to help you build strong functional knowledge, practical expertise, and career growth opportunities.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All instructors are senior <strong>SAP Ariba professionals</strong> with over <strong>15 years</strong> of hands-on global implementation experience."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP Ariba Learning Options</strong>",
+    "description": "Choose the training mode that fits your schedule and learning style:",
+    "options": [
+      "<strong>SAP Ariba Online Training:</strong> Live interactive sessions with access to Ariba training systems.",
+      "<strong>Classroom Sessions:</strong> In-person training with guided demonstrations and practical workshops."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Authority (A): Comprehensive SAP Ariba Certification Courses",
-    "intro": "Our SAP Ariba course is fully aligned with official SAP certification exam structures, preparing you for the prestigious SAP Ariba Implementation Consultant Certification."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Streams Covered in SAP Ariba Training",
-    "description": "We cover both essential Ariba streams to ensure total functional and technical mastery:",
-    "topics": [
-      "Upstream (Strategic Sourcing): Ariba Sourcing, Contract Management, Supplier Lifecycle Performance (SLP)",
-      "Downstream (Procurement): Ariba Buying & Invoicing, Guided Buying, Catalog Management (P2P)",
-      "Certification Blueprint Coverage: End-to-end modules aligned with SAP’s official exam structure",
-      "Implementation Consultant Skills: Configuration, process design, and Ariba Network collaboration"
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Experience (E) & Trust (T): Hands-On SAP Ariba Practical Skills",
-    "description": "Gain real-world Ariba application expertise through intensive practical exposure:",
-    "topics": [
-      "Full-Cycle Implementation Projects",
-      "Ariba Network Integration",
-      "CIG / CI9 Integration with SAP ERP & S/4HANA",
-      "Real-Time Supplier Collaboration Scenarios",
-      "End-to-End Source-to-Pay Execution"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP Ariba Certification",
-    "intro": "Our training ensures complete preparation for the SAP Ariba certification exam through structured, exam-focused learning.",
-    "highlights": [
-      "Mock Tests & Exam Practice: Designed to boost first-attempt certification success.",
-      "Real-Time Project Scenarios: Master SAP Ariba implementation from sourcing to procurement.",
-      "Industry Recognition: SAP Ariba certification unlocks opportunities in consulting, procurement, IT services, and global enterprises."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP Ariba Training Is the Best Choice",
-    "intro": "Our program is tailored to help you build strong functional knowledge, practical expertise, and career growth opportunities.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All instructors are senior SAP Ariba professionals with over 15 years of hands-on global implementation experience."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP Ariba Learning Options",
-      "description": "Choose the training mode that fits your schedule and learning style:",
-      "options": [
-        "SAP Ariba Online Training: Live interactive sessions with access to Ariba training systems.",
-        "Classroom Sessions: In-person training with guided demonstrations and practical workshops."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "Includes interview preparation, resume refinement, and placement assistance for top consulting and IT companies in India."
-    }
+  "placement_support": {
+    "heading": "Career & <strong>Placement Support</strong>",
+    "description": "Includes interview preparation, resume refinement, and placement assistance for top consulting and IT companies in India."
+  }
   },
   "what_youll_learn": [
     "Understand SAP Ariba cloud procurement solutions",
@@ -3607,73 +3613,73 @@
   "meta_description": "Learn SAP MDG on S/4HANA online. Get certified & become a governance expert. Enroll now for training with real-world use cases!",
   "description": "Comprehensive training in SAP MDG covering master data domains, data modeling, governance workflows, and integration with S/4HANA for enterprise data management.",
   "career_benefits": {
-    "heading": "Expertise & Authority (E-E-A-T): Why Choose Our MDG Training?",
-    "description": "We follow the highest E-E-A-T standards, offering SAP MDG training delivered by certified MDG Solution Architects with over 12 years of global and Indian implementation expertise. Our SAP MDG online training transforms your understanding from basic theory to advanced hands-on mastery.",
-    "points": [
-      "S/4HANA Specialization: In-depth training on the S/4HANA co-deployment model, system architecture, and MDG configurations.",
-      "Real-Time Experience: Over 40+ hours of hands-on practice covering Data Modeling, Workflow (BRF+), FPM UI Customization, and domain-specific configurations.",
-      "Practical Execution Skills: Focused labs to build real project-ready capabilities in master data governance.",
-      "High-Value Career Growth: SAP MDG expertise is in high demand in India, with professionals earning up to ₹30L+. Our SAP MDG training online includes market-focused placement support."
+  "heading": "Expertise & Authority (E-E-A-T): Why Choose Our <strong>MDG Training</strong>?",
+  "description": "We follow the highest <strong>E-E-A-T standards</strong>, offering <strong>SAP MDG training</strong> delivered by certified MDG Solution Architects with over <strong>12 years</strong> of global and Indian implementation expertise. Our <strong>SAP MDG online training</strong> transforms your understanding from basic theory to advanced hands-on mastery.",
+  "points": [
+    "<strong>S/4HANA Specialization:</strong> In-depth training on the S/4HANA co-deployment model, system architecture, and MDG configurations.",
+    "<strong>Real-Time Experience:</strong> Over 40+ hours of hands-on practice covering Data Modeling, Workflow (BRF+), FPM UI Customization, and domain-specific configurations.",
+    "<strong>Practical Execution Skills:</strong> Focused labs to build real project-ready capabilities in master data governance.",
+    "<strong>High-Value Career Growth:</strong> SAP MDG expertise is in high demand in India, with professionals earning up to ₹30L+. Our SAP MDG training online includes market-focused placement support."
+  ]
+},
+
+"curriculum_overview": {
+  "heading": "Secure Your <strong>SAP MDG Certification</strong>",
+  "intro": "This comprehensive <strong>SAP MDG course</strong> is fully aligned with the official <strong>SAP Certified Application Associate</strong> syllabus to ensure complete certification readiness and strong technical mastery."
+},
+
+"track_overview_primary": {
+  "heading": "Core Modules Covered in <strong>SAP MDG Training</strong>",
+  "description": "Our structured curriculum covers all essential MDG components required for real-world implementation and certification success:",
+  "topics": [
+    "<strong>Process Configuration:</strong> Deep dive into Change Requests, Rule-Based Workflows, BRF+ decision tables, and process orchestration.",
+    "<strong>Data Quality Management:</strong> Implementing validations, derivations, data enrichment, and consolidation techniques.",
+    "<strong>Data Modeling:</strong> Entity types, attributes, SMT mapping, UI modeling, and structure creation.",
+    "<strong>Integration Mastery:</strong> Practical training in DRF configuration, key mapping, and system-to-system data replication."
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>SAP MDG Scenarios</strong> & Practical Skills",
+  "description": "Develop advanced expertise through hands-on exercises designed for <strong>S/4HANA-ready MDG implementations</strong>:",
+  "topics": [
+    "<strong>MDG-F, MDG-S, MDG-M, MDG-C</strong> Domain Expertise",
+    "<strong>FPM UI Customization & Enhancements</strong>",
+    "<strong>Workflow Extensions & BRF+ Logic Design</strong>",
+    "<strong>Consolidation & Mass Processing</strong>",
+    "Complete <strong>End-to-End MDG Cycle Execution</strong> in S/4HANA"
+  ]
+},
+
+"certification_info": {
+  "heading": "Achieve Your <strong>SAP MDG Certification</strong>",
+  "intro": "Our <strong>SAP MDG training</strong> ensures complete exam readiness through structured learning, practical labs, and exam-focused preparation.",
+  "highlights": [
+    "<strong>Certification-Aligned Content:</strong> Covers SAP MDG application associate syllabus with mock tests and scenario-based assessments.",
+    "<strong>Real-Time Project Exposure:</strong> Hands-on simulations of enterprise-level master data governance processes.",
+    "<strong>Industry Recognition:</strong> SAP MDG certification is one of the most valued credentials across IT, consulting, manufacturing, pharma, and global enterprises."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP MDG Training</strong> Is the #1 Choice",
+  "intro": "Our <strong>SAP Master Data Governance</strong> program is tailored to build deep technical skills, functional understanding, and strong placement outcomes.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All instructors are senior <strong>MDG architects</strong> with <strong>12+ years</strong> of experience delivering end-to-end MDG implementations across multiple industries and S/4HANA landscapes."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP MDG Learning Options</strong>",
+    "description": "Choose the format that suits your learning requirements:",
+    "options": [
+      "<strong>SAP MDG Online Training:</strong> Live expert-led sessions with access to S/4HANA MDG practice systems.",
+      "<strong>Classroom Training:</strong> Interactive workshops with step-by-step configuration guidance."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Secure Your SAP MDG Certification",
-    "intro": "This comprehensive SAP MDG course is fully aligned with the official SAP Certified Application Associate syllabus to ensure complete certification readiness and strong technical mastery."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Modules Covered in SAP MDG Training",
-    "description": "Our structured curriculum covers all essential MDG components required for real-world implementation and certification success:",
-    "topics": [
-      "Process Configuration: Deep dive into Change Requests, Rule-Based Workflows, BRF+ decision tables, and process orchestration.",
-      "Data Quality Management: Implementing validations, derivations, data enrichment, and consolidation techniques.",
-      "Data Modeling: Entity types, attributes, SMT mapping, UI modeling, and structure creation.",
-      "Integration Mastery: Practical training in DRF configuration, key mapping, and system-to-system data replication."
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced SAP MDG Scenarios & Practical Skills",
-    "description": "Develop advanced expertise through hands-on exercises designed for S/4HANA-ready MDG implementations:",
-    "topics": [
-      "MDG-F, MDG-S, MDG-M, MDG-C Domain Expertise",
-      "FPM UI Customization & Enhancements",
-      "Workflow Extensions & BRF+ Logic Design",
-      "Consolidation & Mass Processing",
-      "Complete End-to-End MDG Cycle Execution in S/4HANA"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Achieve Your SAP MDG Certification",
-    "intro": "Our SAP MDG training ensures complete exam readiness through structured learning, practical labs, and exam-focused preparation.",
-    "highlights": [
-      "Certification-Aligned Content: Covers SAP MDG application associate syllabus with mock tests and scenario-based assessments.",
-      "Real-Time Project Exposure: Hands-on simulations of enterprise-level master data governance processes.",
-      "Industry Recognition: SAP MDG certification is one of the most valued credentials across IT, consulting, manufacturing, pharma, and global enterprises."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP MDG Training Is the #1 Choice",
-    "intro": "Our SAP Master Data Governance program is tailored to build deep technical skills, functional understanding, and strong placement outcomes.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All instructors are senior MDG architects with 12+ years of experience delivering end-to-end MDG implementations across multiple industries and S/4HANA landscapes."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP MDG Learning Options",
-      "description": "Choose the format that suits your learning requirements:",
-      "options": [
-        "SAP MDG Online Training: Live expert-led sessions with access to S/4HANA MDG practice systems.",
-        "Classroom Training: Interactive workshops with step-by-step configuration guidance."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "We provide interview preparation, resume building, and job assistance tailored for the Indian SAP MDG job market."
-    }
+  "placement_support": {
+    "heading": "Career & <strong>Placement Support</strong>",
+    "description": "We provide interview preparation, resume building, and job assistance tailored for the Indian SAP MDG job market."
+  }
   },
   "what_youll_learn": [
     "Understand MDG architecture in S/4HANA environment",
@@ -3952,76 +3958,75 @@
    "meta_title": "SAP Basis Course Online | SAP Basis Training | SAP Basis Certificate",
   "meta_description": "Master SAP Basis administration online. Get certification & hands-on training. Start your consultant journey – enroll today!",
   "description": "Comprehensive training in SAP BASIS administration covering system installation, configuration, user management, transport system, database administration, and performance monitoring.",
+"career_benefits": {
+  "heading": "Expertise: Why Our <strong>SAP Basis Training</strong> is Unmatched",
+  "description": "We follow strict <strong>E-E-A-T standards</strong>, offering <strong>SAP Basis training</strong> conducted by certified SAP technical consultants with over <strong>15+ years</strong> of real-world experience managing large-scale, live SAP landscapes. Our <strong>SAP Basis course</strong> is designed to deliver deep technical mastery and job-ready skills.",
+  "points": [
+    "<strong>System Installation:</strong> Hands-on training for installing and configuring ECC, S/4HANA, and SAP NetWeaver systems.",
+    "<strong>Performance Management:</strong> Advanced system monitoring, performance tuning, and troubleshooting to resolve real-world bottlenecks.",
+    "<strong>Security & Operations:</strong> Comprehensive coverage of user administration, system refresh, transport management (STMS), kernel upgrades, and patching.",
+    "<strong>High-Value Technical Focus:</strong> Designed for IT professionals seeking strong SAP Basis administration expertise."
+  ]
+},
 
-  "career_benefits": {
-    "heading": "Expertise: Why Our SAP Basis Training is Unmatched",
-    "description": "We follow strict E-E-A-T standards, offering SAP Basis training conducted by certified SAP technical consultants with over 15+ years of real-world experience managing large-scale, live SAP landscapes. Our SAP Basis course is designed to deliver deep technical mastery and job-ready skills.",
-    "points": [
-      "System Installation: Hands-on training for installing and configuring ECC, S/4HANA, and SAP NetWeaver systems.",
-      "Performance Management: Advanced system monitoring, performance tuning, and troubleshooting to resolve real-world bottlenecks.",
-      "Security & Operations: Comprehensive coverage of user administration, system refresh, transport management (STMS), kernel upgrades, and patching.",
-      "High-Value Technical Focus: Designed for IT professionals seeking strong SAP Basis administration expertise."
+"curriculum_overview": {
+  "heading": "Secure Your <strong>SAP Basis Certificate</strong> and Career",
+  "intro": "Our <strong>SAP Basis course</strong> is precisely aligned with the official <strong>SAP Certified Technology Associate</strong> exam blueprint, ensuring certification readiness from day one."
+},
+
+"track_overview_primary": {
+  "heading": "Core Modules Covered in <strong>SAP Basis Training</strong>",
+  "description": "This SAP Basis curriculum provides complete technical coverage for administrators and system engineers:",
+  "topics": [
+    "<strong>SAP System Architecture:</strong> Understanding SAP landscape design, client concepts, work processes, and application server setup.",
+    "<strong>Installation & Configuration:</strong> ECC, S/4HANA, and NetWeaver installation, including HANA DB setup and post-installation activities.",
+    "<strong>User & Security Administration:</strong> Managing roles, authorizations, password policies, and security audits.",
+    "<strong>Transport Management (STMS):</strong> Domain configuration, transport routes, import/export handling, and troubleshooting."
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>SAP Basis Scenarios</strong> & Real-World Skills",
+  "description": "Develop high-level technical capabilities for managing enterprise SAP systems:",
+  "topics": [
+    "<strong>Performance Tuning & Monitoring</strong> (ST06, SM51, SM50, SM66)",
+    "<strong>Kernel Upgrades, Support Packages & Patching</strong>",
+    "<strong>Client Copy, System Refresh & Background Job Management</strong>",
+    "<strong>HANA Administration, Backup & Recovery</strong>",
+    "<strong>End-to-End Basis Operations</strong> in SAP S/4HANA Environments"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP Basis Certification</strong>",
+  "intro": "This <strong>SAP Basis training</strong> ensures complete certification preparation and real-time administrative experience.",
+  "highlights": [
+    "<strong>Certification-Aligned Content:</strong> Fully mapped to the SAP Certified Technology Associate syllabus with mock tests and practical assignments.",
+    "<strong>Hands-on System Practice:</strong> Real system access for installation, configuration, performance tuning, and administrative operations.",
+    "<strong>Industry Recognition:</strong> SAP Basis professionals are highly in demand across IT services, consulting firms, and global enterprises."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Our <strong>SAP Basis Training</strong> Stands Out",
+  "intro": "Our <strong>SAP Basis program</strong> offers unmatched technical depth and career-oriented training for system administrators and engineers.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "All trainers are senior <strong>SAP Basis consultants</strong> with decades of experience supporting <strong>S/4HANA and ECC landscapes</strong> across global clients."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP Basis Learning Options</strong>",
+    "description": "Choose the format best suited to your learning style:",
+    "options": [
+      "<strong>SAP Basis Online Training:</strong> Live instructor-led sessions with full SAP system access.",
+      "<strong>Classroom Training:</strong> Practical workshops with guided step-by-step configuration activities."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Secure Your SAP Basis Certificate and Career",
-    "intro": "Our SAP Basis course is precisely aligned with the official SAP Certified Technology Associate exam blueprint, ensuring certification readiness from day one."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Modules Covered in SAP Basis Training",
-    "description": "This SAP Basis curriculum provides complete technical coverage for administrators and system engineers:",
-    "topics": [
-      "SAP System Architecture: Understanding SAP landscape design, client concepts, work processes, and application server setup.",
-      "Installation & Configuration: ECC, S/4HANA, and NetWeaver installation, including HANA DB setup and post-installation activities.",
-      "User & Security Administration: Managing roles, authorizations, password policies, and security audits.",
-      "Transport Management (STMS): Domain configuration, transport routes, import/export handling, and troubleshooting."
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced SAP Basis Scenarios & Real-World Skills",
-    "description": "Develop high-level technical capabilities for managing enterprise SAP systems:",
-    "topics": [
-      "Performance Tuning & Monitoring (ST06, SM51, SM50, SM66)",
-      "Kernel Upgrades, Support Packages & Patching",
-      "Client Copy, System Refresh & Background Job Management",
-      "HANA Administration, Backup & Recovery",
-      "End-to-End Basis Operations in SAP S/4HANA Environments"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP Basis Certification",
-    "intro": "This SAP Basis training ensures complete certification preparation and real-time administrative experience.",
-    "highlights": [
-      "Certification-Aligned Content: Fully mapped to the SAP Certified Technology Associate syllabus with mock tests and practical assignments.",
-      "Hands-on System Practice: Real system access for installation, configuration, performance tuning, and administrative operations.",
-      "Industry Recognition: SAP Basis professionals are highly in demand across IT services, consulting firms, and global enterprises."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Our SAP Basis Training Stands Out",
-    "intro": "Our SAP Basis program offers unmatched technical depth and career-oriented training for system administrators and engineers.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "All trainers are senior SAP Basis consultants with decades of experience supporting S/4HANA and ECC landscapes across global clients."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP Basis Learning Options",
-      "description": "Choose the format best suited to your learning style:",
-      "options": [
-        "SAP Basis Online Training: Live instructor-led sessions with full SAP system access.",
-        "Classroom Training: Practical workshops with guided step-by-step configuration activities."
-      ]
-    },
-    "placement_support": {
-      "heading": "Career & Placement Support",
-      "description": "We offer resume building, interview preparation, and job placement assistance tailored for SAP Basis roles in top Indian and multinational companies."
-    }
-  },
+  "placement_support": {
+    "heading": "Career & <strong>Placement Support</strong>",
+    "description": "We offer resume building, interview preparation, and job placement assistance tailored for SAP Basis roles in top Indian and multinational companies."
+  }
+},
   "what_youll_learn": [
     "Understand SAP architecture and components",
     "Install and configure SAP systems",
@@ -4191,76 +4196,75 @@
    "meta_title": "SAP Sales Cloud Course Online | SAP Sales Cloud Training | SAP Sales Cloud Certificate",
   "meta_description": "Learn SAP Sales Cloud (C4C) online with certification. Become a CRM expert with flexible training. Enroll now!",
   "description": "Comprehensive training in SAP Sales Cloud (part of SAP CX suite) covering lead-to-cash processes, CRM configuration, and integration with S/4HANA for modern sales teams.",
+"career_benefits": {
+  "heading": "Secure Your <strong>SAP Sales Cloud Certificate</strong> and Career Advancement",
+  "description": "Advance your professional journey with the globally recognized <strong>SAP Sales Cloud certification</strong>. This credential validates your technical expertise and opens high-value opportunities across India's top IT, consulting, and enterprise organizations. Our <strong>SAP Sales Cloud course online</strong> is fully aligned with the official certification syllabus (including the <strong>C4H410 exam</strong>), ensuring complete readiness for success.",
+  "points": [
+    "<strong>Globally Recognized Certification:</strong> Become a certified SAP Sales Cloud expert trusted by leading companies.",
+    "<strong>High-Value Career Growth:</strong> Strong demand for SAP CX/Sales Cloud professionals across Indian IT and consulting firms.",
+    "<strong>Certification-Ready Curriculum:</strong> Course content mapped directly to <strong>SAP C4H410 exam</strong> objectives.",
+    "<strong>Practical Implementation Skills:</strong> Learn real-world CRM and Sales lifecycle processes used across enterprises."
+  ]
+},
 
-  "career_benefits": {
-    "heading": "Secure Your SAP Sales Cloud Certificate and Career Advancement",
-    "description": "Advance your professional journey with the globally recognized SAP Sales Cloud certification. This credential validates your technical expertise and opens high-value opportunities across India’s top IT, consulting, and enterprise organizations. Our SAP Sales Cloud course online is fully aligned with the official certification syllabus (including the C4H410 exam), ensuring complete readiness for success.",
-    "points": [
-      "Globally Recognized Certification: Become a certified SAP Sales Cloud expert trusted by leading companies.",
-      "High-Value Career Growth: Strong demand for SAP CX/Sales Cloud professionals across Indian IT and consulting firms.",
-      "Certification-Ready Curriculum: Course content mapped directly to SAP C4H410 exam objectives.",
-      "Practical Implementation Skills: Learn real-world CRM and Sales lifecycle processes used across enterprises."
+"curriculum_overview": {
+  "heading": "Expert-Led <strong>SAP Sales Cloud (C4C) Online Training</strong>",
+  "intro": "Our <strong>SAP Sales Cloud program</strong> follows strict <strong>E-E-A-T principles</strong> and ensures you gain deep expertise, hands-on experience, and exam-focused knowledge through industry-led training."
+},
+
+"track_overview_primary": {
+  "heading": "Core Features of Our <strong>SAP C4C Online Training</strong>",
+  "description": "Designed for real-world mastery and certification success, this curriculum covers all major SAP Sales Cloud functional and technical areas:",
+  "topics": [
+    "<strong>Expertise:</strong> Delivered by senior SAP CX/C4C consultants with <strong>15+ years</strong> of implementation experience.",
+    "<strong>Real-World Scenarios:</strong> Hands-on practice with Lead, Opportunity, Activity, Visit, and Sales workflows.",
+    "<strong>Certification Preparation:</strong> Direct training aligned with <strong>SAP Sales Cloud C4H410 certification</strong>.",
+    "<strong>SAP System Access:</strong> Guaranteed hands-on practice on SAP C4C/Sales Cloud environments."
+  ]
+},
+
+"track_overview_secondary": {
+  "heading": "Advanced <strong>SAP Sales Cloud Scenarios</strong> & Practical Learning",
+  "description": "Gain deeper functional and technical insights through advanced project-based learning:",
+  "topics": [
+    "<strong>Sales Approval Processes & Workflow Configuration</strong>",
+    "<strong>Sales Targets, Visit Planning & Activity Management</strong>",
+    "<strong>Integration Overview</strong> with SAP ERP/S/4HANA",
+    "<strong>Customizations</strong> via Business Configuration and Adaptation Mode",
+    "<strong>End-to-End CRM Sales Cycle Execution</strong> in SAP C4C"
+  ]
+},
+
+"certification_info": {
+  "heading": "Earn Your <strong>SAP Sales Cloud (C4H410) Certification</strong>",
+  "intro": "Our <strong>SAP Sales Cloud training</strong> is built around the official certification framework to ensure high confidence and exam success.",
+  "highlights": [
+    "<strong>Aligned Curriculum:</strong> Structured according to <strong>SAP C4H410 certification exam</strong> guidelines.",
+    "<strong>Mock Tests & Exam Preparation:</strong> Dedicated modules to strengthen exam readiness.",
+    "<strong>Industry Recognition:</strong> Certified SAP C4C professionals enjoy excellent salary growth across the Indian job market."
+  ]
+},
+
+"why_institute": {
+  "heading": "Why Choose Our <strong>SAP Sales Cloud Training</strong>",
+  "intro": "We deliver industry-leading <strong>SAP Sales Cloud (C4C) training</strong> with proven expertise, practical experience, and trusted learner outcomes.",
+  "instructor_expertise": {
+    "heading": "Experience & Expertise",
+    "description": "Training conducted by <strong>SAP CX/C4C experts</strong> with over <strong>15 years</strong> of hands-on implementation and consulting experience."
+  },
+  "training_modes": {
+    "heading": "Flexible <strong>SAP Sales Cloud Learning Options</strong>",
+    "description": "Choose your preferred mode of learning for maximum convenience:",
+    "options": [
+      "<strong>SAP Sales Cloud Online Training:</strong> Live interactive classes with 24/7 system access.",
+      "<strong>Classroom Training:</strong> In-person mentoring with project-based practical learning."
     ]
   },
-
-  "curriculum_overview": {
-    "heading": "Expert-Led SAP Sales Cloud (C4C) Online Training",
-    "intro": "Our SAP Sales Cloud program follows strict E-E-A-T principles and ensures you gain deep expertise, hands-on experience, and exam-focused knowledge through industry-led training."
-  },
-
-  "track_overview_primary": {
-    "heading": "Core Features of Our SAP C4C Online Training",
-    "description": "Designed for real-world mastery and certification success, this curriculum covers all major SAP Sales Cloud functional and technical areas:",
-    "topics": [
-      "Expertise: Delivered by senior SAP CX/C4C consultants with 15+ years of implementation experience.",
-      "Real-World Scenarios: Hands-on practice with Lead, Opportunity, Activity, Visit, and Sales workflows.",
-      "Certification Preparation: Direct training aligned with SAP Sales Cloud C4H410 certification.",
-      "SAP System Access: Guaranteed hands-on practice on SAP C4C/Sales Cloud environments."
-    ]
-  },
-
-  "track_overview_secondary": {
-    "heading": "Advanced SAP Sales Cloud Scenarios & Practical Learning",
-    "description": "Gain deeper functional and technical insights through advanced project-based learning:",
-    "topics": [
-      "Sales Approval Processes & Workflow Configuration",
-      "Sales Targets, Visit Planning & Activity Management",
-      "Integration Overview with SAP ERP/S/4HANA",
-      "Customizations via Business Configuration and Adaptation Mode",
-      "End-to-End CRM Sales Cycle Execution in SAP C4C"
-    ]
-  },
-
-  "certification_info": {
-    "heading": "Earn Your SAP Sales Cloud (C4H410) Certification",
-    "intro": "Our SAP Sales Cloud training is built around the official certification framework to ensure high confidence and exam success.",
-    "highlights": [
-      "Aligned Curriculum: Structured according to SAP C4H410 certification exam guidelines.",
-      "Mock Tests & Exam Preparation: Dedicated modules to strengthen exam readiness.",
-      "Industry Recognition: Certified SAP C4C professionals enjoy excellent salary growth across the Indian job market."
-    ]
-  },
-
-  "why_institute": {
-    "heading": "Why Choose Our SAP Sales Cloud Training",
-    "intro": "We deliver industry-leading SAP Sales Cloud (C4C) training with proven expertise, practical experience, and trusted learner outcomes.",
-    "instructor_expertise": {
-      "heading": "Experience & Expertise",
-      "description": "Training conducted by SAP CX/C4C experts with over 15 years of hands-on implementation and consulting experience."
-    },
-    "training_modes": {
-      "heading": "Flexible SAP Sales Cloud Learning Options",
-      "description": "Choose your preferred mode of learning for maximum convenience:",
-      "options": [
-        "SAP Sales Cloud Online Training: Live interactive classes with 24/7 system access.",
-        "Classroom Training: In-person mentoring with project-based practical learning."
-      ]
-    },
-    "placement_support": {
-      "heading": "Placement & Career Support",
-      "description": "We provide interview training, resume enhancement, and placement assistance tailored for SAP C4C/Sales Cloud roles in India."
-    }
-  },
+  "placement_support": {
+    "heading": "Placement & <strong>Career Support</strong>",
+    "description": "We provide interview training, resume enhancement, and placement assistance tailored for <strong>SAP C4C/Sales Cloud roles</strong> in India."
+  }
+},
   "what_youll_learn": [
     "Navigate SAP Sales Cloud interface and personalize dashboards",
     "Manage master data (accounts, contacts, products)",
