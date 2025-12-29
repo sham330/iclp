@@ -329,7 +329,7 @@ setShowBookingModal(true)
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 
   return (
-    <div className="min-h-screen bg-white">
+   <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
         <div className="w-full px-4 sm:px-6 lg:px-8">
@@ -428,199 +428,193 @@ setShowBookingModal(true)
         </div>
       </section>
 
- {/* Career Benefits Section */}
-{course.career_benefits && (
-  <section className="py-16 bg-slate-50">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h2 
-        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.career_benefits.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 mb-8 leading-relaxed"
-        dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
-      />
-      <div className="grid sm:grid-cols-2 gap-4">
-        {course.career_benefits.points.map((item, index) => (
-          <div
-            key={index}
-            className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-[#39FF14] transition-colors"
-          >
-            <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-            <span 
-              className="text-slate-800"
-              dangerouslySetInnerHTML={{ __html: item }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-)}
-
-
-{/* Curriculum Overview */}
-{course.curriculum_overview && (
-  <section className="py-16 bg-white">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h2 
-        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.curriculum_overview.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 leading-relaxed"
-        dangerouslySetInnerHTML={{ __html: course.curriculum_overview.intro }}
-      />
-    </div>
-  </section>
-)}
-
-
-{/* Primary Track */}
-{course.track_overview_primary && (
-  <section className="py-16 bg-slate-50">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h3 
-        className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.track_overview_primary.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 mb-6"
-        dangerouslySetInnerHTML={{ __html: course.track_overview_primary.description }}
-      />
-      <div className="grid sm:grid-cols-2 gap-3">
-        {course.track_overview_primary.topics.map((item, index) => (
-          <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4">
-            <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-            <span 
-              className="text-slate-800"
-              dangerouslySetInnerHTML={{ __html: item }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-)}
-
-
-{/* Secondary Track */}
-{course.track_overview_secondary && (
-  <section className="py-16 bg-white">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h3 
-        className="text-2xl md:text-3xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 mb-6"
-        dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.description }}
-      />
-      <div className="grid sm:grid-cols-2 gap-3">
-        {course.track_overview_secondary.topics.map((item, index) => (
-          <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4">
-            <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
-            <span 
-              className="text-slate-800"
-              dangerouslySetInnerHTML={{ __html: item }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-)}
-
-{/* Certification Info */}
-{course.certification_info && (
-  <section className="py-16 bg-slate-50">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h2 
-        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.certification_info.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 mb-8 leading-relaxed"
-        dangerouslySetInnerHTML={{ __html: course.certification_info.intro }}
-      />
-      <div className="space-y-4">
-        {course.certification_info.highlights.map((item, index) => (
-          <div
-            key={index}
-            className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#39FF14] transition-colors"
-          >
-            <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-            <span 
-              className="text-slate-800"
-              dangerouslySetInnerHTML={{ __html: item }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-)}
-
-
-{/* Why Institute */}
-{course.why_institute && (
-  <section className="py-16 bg-white">
-    <div className="w-full px-4 sm:px-6 lg:px-8">
-      <h2 
-        className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
-        dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
-      />
-      <p 
-        className="text-lg text-slate-700 mb-8"
-        dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
-      />
-
-
-      <div className="grid md:grid-cols-2 gap-6">
-        {course.why_institute.instructor_expertise && (
-          <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-            <h3 
-              className="text-xl font-bold text-[#01377d] mb-3"
-              dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
+      {/* Career Benefits Section */}
+      {course.career_benefits && (
+        <section className="py-8 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.career_benefits.heading }}
             />
             <p 
-              className="text-slate-700 leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
+              className="text-lg text-slate-700 mb-6 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
             />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.career_benefits.points.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all"
+                >
+                  <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                  <span 
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        )}
+        </section>
+      )}
 
-
-        {course.why_institute.training_modes && (
-          <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-[#39FF14] transition-colors">
-            <h3 
-              className="text-xl font-bold text-[#01377d] mb-3"
-              dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
+      {/* Curriculum Overview */}
+      {course.curriculum_overview && (
+        <section className="py-8 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.curriculum_overview.heading }}
             />
             <p 
-              className="text-slate-700 mb-4"
-              dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
+              className="text-lg text-slate-700 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.curriculum_overview.intro }}
             />
-            <ul className="space-y-2">
-              {course.why_institute.training_modes.options.map((item, index) => (
-                <li key={index} className="flex items-start gap-2">
+          </div>
+        </section>
+      )}
+
+      {/* Primary Track */}
+      {course.track_overview_primary && (
+        <section className="py-8 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3 
+              className="text-2xl md:text-3xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_primary.heading }}
+            />
+            <p 
+              className="text-lg text-slate-700 mb-5"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_primary.description }}
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.track_overview_primary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-md transition-all">
                   <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
                   <span 
                     className="text-slate-800"
                     dangerouslySetInnerHTML={{ __html: item }}
                   />
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
-        )}
-      </div>
-    </div>
-  </section>
-)}
+        </section>
+      )}
+
+      {/* Secondary Track */}
+      {course.track_overview_secondary && (
+        <section className="py-8 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3 
+              className="text-2xl md:text-3xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.heading }}
+            />
+            <p 
+              className="text-lg text-slate-700 mb-5"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.description }}
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.track_overview_secondary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4 border-2 border-slate-300 hover:border-[#01377d] hover:shadow-md transition-all">
+                  <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
+                  <span 
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Certification Info */}
+      {course.certification_info && (
+        <section className="py-8 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.certification_info.heading }}
+            />
+            <p 
+              className="text-lg text-slate-700 mb-6 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.certification_info.intro }}
+            />
+            <div className="space-y-4">
+              {course.certification_info.highlights.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white border-2 border-slate-300 rounded-xl p-4 hover:border-[#39FF14] hover:shadow-lg transition-all"
+                >
+                  <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
+                  <span 
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Why Institute */}
+      {course.why_institute && (
+        <section className="py-8 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 
+              className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
+            />
+            <p 
+              className="text-lg text-slate-700 mb-6"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
+            />
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {course.why_institute.instructor_expertise && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all">
+                  <h3 
+                    className="text-xl font-bold text-[#01377d] mb-3"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
+                  />
+                  <p 
+                    className="text-slate-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
+                  />
+                </div>
+              )}
+
+              {course.why_institute.training_modes && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all">
+                  <h3 
+                    className="text-xl font-bold text-[#01377d] mb-3"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
+                  />
+                  <p 
+                    className="text-slate-700 mb-4"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
+                  />
+                  <ul className="space-y-2">
+                    {course.why_institute.training_modes.options.map((item, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
+                        <span 
+                          className="text-slate-800"
+                          dangerouslySetInnerHTML={{ __html: item }}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* What You'll Learn Section */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-12 bg-slate-50">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Skills */}
@@ -632,7 +626,7 @@ setShowBookingModal(true)
                 {course.what_youll_learn.map((topic, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-3 bg-white p-4 rounded-lg hover:bg-[#39FF14]/10 transition-colors"
+                    className="flex items-start gap-3 bg-white p-4 rounded-lg border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-md transition-all"
                   >
                     <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
                     <span className="text-slate-700">{topic}</span>
@@ -642,7 +636,7 @@ setShowBookingModal(true)
             </div>
 
             {/* Hiring Partners Preview - Using Next.js Image */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-slate-300">
               <h3 className="text-2xl font-bold text-[#01377d] mb-6 text-center">
                 Our SAP Graduates Work At
               </h3>
@@ -650,7 +644,7 @@ setShowBookingModal(true)
                 {hiringPartners.slice(0, 6).map((image, index) => (
                   <div
                     key={index}
-                    className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow"
+                    className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow border border-slate-200"
                   >
                     <img
                       src={image}
@@ -677,7 +671,7 @@ setShowBookingModal(true)
       </section>
 
       {/* Syllabus Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-8 text-center">
             SAP Course Curriculum
@@ -689,7 +683,7 @@ setShowBookingModal(true)
               {course.syllabus.map((module, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-xl border-2 border-slate-200 overflow-hidden hover:border-[#39FF14] transition-colors"
+                  className="bg-white rounded-xl border-2 border-slate-300 overflow-hidden hover:border-[#39FF14] hover:shadow-md transition-all"
                 >
                   <button
                     onClick={() => toggleModule(index)}
@@ -732,7 +726,7 @@ setShowBookingModal(true)
             {/* Sidebar */}
             <div className="space-y-6">
               {/* Company Logo - Using Next.js Image */}
-              <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-200 shadow-lg">
+              <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-300 shadow-lg">
                 <img
                   src="/Logo.png"
                   alt="ICLP Technologies"
@@ -766,7 +760,7 @@ setShowBookingModal(true)
       </section>
 
       {/* Certificate Section */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-12 bg-slate-50">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -799,7 +793,7 @@ setShowBookingModal(true)
       </section>
 
       {/* Hiring Partners - Full Section */}
-      <section className="py-16 bg-white hiring-partners-full">
+      <section className="py-12 bg-white hiring-partners-full">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4 text-center">
             Our <span className="text-[#39FF14]">Hiring Partners</span>
@@ -811,7 +805,7 @@ setShowBookingModal(true)
             {hiringPartners.map((image, index) => (
               <div
                 key={index}
-                className="bg-slate-50 p-4 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-200 hover:border-[#39FF14]"
+                className="bg-slate-50 p-4 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-300 hover:border-[#39FF14]"
               >
                 <img
                   src={image}
@@ -827,14 +821,13 @@ setShowBookingModal(true)
 
       {/* Dynamic Components - Lazy Loaded */}
       <CourseAdvantagesTools />
-      <CourseFAQs />
       <CourseReviews />
       <RelatedCoursesSlider />
 
       {/* Modal */}
-      {showBookingModal && <ModalBooking  onClose={() => setShowBookingModal(false)}/>}
+      {showBookingModal && <ModalBooking onClose={() => setShowBookingModal(false)}/>}
     </div>
-  );
+);
 };
 
 export default SapCourseDetailsPage;
