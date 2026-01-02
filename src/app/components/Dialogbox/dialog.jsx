@@ -215,14 +215,7 @@ const HomeAboutDialog = () => {
             )}
           </div>
 
-          {/* Santa GIF - TOP LEFT, BOTTOM, SMALL SPACE */}
-          <div className="absolute bottom-4 left-4 w-16 h-16 z-20">
-            <img 
-              src="/merry_xmas.gif" 
-              alt="Santa" 
-              className="w-full h-full object-contain rounded-lg shadow-lg"
-            />
-          </div>
+       
         </div>
       </div>
     </>

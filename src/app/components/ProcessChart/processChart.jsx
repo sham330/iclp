@@ -15,51 +15,32 @@ import {
 } from "lucide-react"
 
 
-const Hex = ({ icon: Icon, label, active = false }) => (
-  <div
-    className={`relative w-44 h-48 flex flex-col items-center justify-center text-center p-4 flex-shrink-0 cursor-pointer
-      ${active ? "bg-[#7c83ff] text-white shadow-2xl shadow-[#7c83ff]/50" : "bg-[#f2f2f2] text-gray-600"}
-      transition-all duration-500 ease-out
-      hover:scale-110 hover:-translate-y-2 hover:shadow-2xl
-      ${!active && "hover:bg-gradient-to-br hover:from-[#7c83ff] hover:to-[#5b61ff] hover:text-white"}
-      hover:rotate-2
-      group
-    `}
-    style={{
-      clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
-    }}
-  >
-    {/* Glow effect overlay */}
-    <div 
-      className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl
-        ${active ? "bg-[#7c83ff]" : "bg-[#7c83ff]"}
-      `}
-      style={{
-        clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-        zIndex: -1
-      }}
-    />
+const RoadmapNode = ({ icon: Icon, label, step, active = false }) => (
+  <div className="relative flex flex-col items-center">
+    {/* Circular Node */}
+    <div className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all duration-300
+      ${active 
+        ? "bg-gradient-to-br from-[#01377d] to-blue-600 shadow-lg shadow-blue-500/30 scale-110" 
+        : "bg-white border-2 border-blue-200 hover:border-blue-400"
+      }`}
+    >
+      {/* Step Number */}
+      <div className={`absolute -top-2 -right-2 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold
+        ${active ? "bg-cyan-400 text-[#01377d]" : "bg-blue-100 text-blue-600"}
+      `}>
+        {step}
+      </div>
+      
+      {/* Icon */}
+      <Icon className={`w-10 h-10 ${active ? "text-white" : "text-blue-600"}`} />
+    </div>
     
-    <Icon 
-      className={`w-10 h-10 mb-2 transition-all duration-500 group-hover:scale-125 group-hover:rotate-12
-        ${active ? "text-white" : "text-gray-500 group-hover:text-white"}
-      `} 
-    />
-    <p className={`font-semibold text-xs leading-tight px-2 transition-all duration-300
-      ${!active && "group-hover:text-white"}
+    {/* Label */}
+    <p className={`mt-4 text-sm font-semibold text-center max-w-[120px]
+      ${active ? "text-[#01377d]" : "text-gray-600"}
     `}>
-      {label}
+      {label.split('. ')[1]}
     </p>
-    
-    {/* Shimmer effect */}
-    <div 
-      className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-700"
-      style={{
-        clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-        background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent)",
-        animation: "shimmer 2s infinite"
-      }}
-    />
   </div>
 )
 
@@ -68,108 +49,132 @@ export default function TrainingProcedure() {
   const [currentIndex, setCurrentIndex] = useState(0)
   
   const steps = [
-    { icon: UserCheck, label: "1. Joining", active: true },
-    { icon: ClipboardCheck, label: "2. Assessment", active: false },
-    { icon: BookOpen, label: "3. Course Overview", active: false },
-    { icon: GraduationCap, label: "4. Hybrid Learning", active: false },
-    { icon: Presentation, label: "5. Working On Live Projects", active: false },
-    { icon: BarChart3, label: "6. Performance Trackers", active: false },
-    { icon: FileCheck2, label: "7. Examination", active: false },
-    { icon: BadgeCheck, label: "8. Certification", active: false },
-    { icon: Briefcase, label: "9. Job Assistance", active: false }
+    { icon: UserCheck, label: "1. Joining" },
+    { icon: ClipboardCheck, label: "2. Assessment" },
+    { icon: BookOpen, label: "3. Course Overview" },
+    { icon: GraduationCap, label: "4. Hybrid Learning" },
+    { icon: Presentation, label: "5. Working On Live Projects" },
+    { icon: BarChart3, label: "6. Performance Trackers" },
+    { icon: FileCheck2, label: "7. Examination" },
+    { icon: BadgeCheck, label: "8. Certification" },
+    { icon: Briefcase, label: "9. Job Assistance" }
   ]
-
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % steps.length)
   }
 
-
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + steps.length) % steps.length)
   }
 
-
   return (
-    <>
-      <style jsx global>{`
-        @keyframes shimmer {
-          0% {
-            transform: translateX(-100%);
-          }
-          100% {
-            transform: translateX(100%);
-          }
-        }
-      `}</style>
-      
-      <section className="bg-white py-20 w-full overflow-hidden">
-        <div className="w-full max-w-[1600px] mx-auto px-6 lg:px-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0f172a] mb-16 text-center">
-            ICLP&apos;s Training Procedure
+    <section className="bg-gradient-to-br from-blue-50/50 via-white to-cyan-50/50 py-20  w-full">
+      <div className="w-full max-w-[1400px] mx-auto px-6 lg:px-16 py-10">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#01377d] mb-3">
+            ICLP's Training Roadmap
           </h2>
+          <p className="text-lg text-gray-600">
+            Your journey from enrollment to employment
+          </p>
+        </div>
 
-
-          {/* Desktop: Single Line */}
-          <div className="hidden lg:flex gap-6 justify-center items-center flex-wrap">
-            {steps.map((step, index) => (
-              <Hex key={index} icon={step.icon} label={step.label} active={step.active} />
-            ))}
-          </div>
-
-
-          {/* Mobile: Slider */}
-          <div className="lg:hidden relative">
-            <div className="flex justify-center items-center">
-              <button
-                onClick={prevSlide}
-                className="absolute left-0 z-10 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 hover:scale-110 transition-all duration-300 active:scale-95"
-                aria-label="Previous"
-              >
-                <ChevronLeft className="w-6 h-6 text-gray-700" />
-              </button>
-
-
-              <div className="overflow-hidden w-full max-w-xs mx-12">
-                <div
-                  className="flex transition-transform duration-500 ease-out"
-                  style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                >
-                  {steps.map((step, index) => (
-                    <div key={index} className="w-full flex justify-center px-4">
-                      <Hex icon={step.icon} label={step.label} active={index === currentIndex} />
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-
-              <button
-                onClick={nextSlide}
-                className="absolute right-0 z-10 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 hover:scale-110 transition-all duration-300 active:scale-95"
-                aria-label="Next"
-              >
-                <ChevronRight className="w-6 h-6 text-gray-700" />
-              </button>
+        {/* Desktop: Grid Layout */}
+        <div className="hidden lg:block">
+          {/* Top Row - Steps 1-5 */}
+          <div className="relative mb-20">
+            <div className="absolute top-12 left-0 right-0 h-0.5 bg-blue-200" />
+            <div className="relative flex justify-between items-start">
+              {steps.slice(0, 5).map((step, index) => (
+                <RoadmapNode 
+                  key={index} 
+                  icon={step.icon} 
+                  label={step.label} 
+                  step={index + 1}
+                  active={index === 0}
+                />
+              ))}
             </div>
-
-
-            {/* Dots Indicator */}
-            <div className="flex justify-center gap-2 mt-8">
-              {steps.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`h-2 rounded-full transition-all duration-300 hover:scale-125 ${
-                    index === currentIndex ? "bg-[#7c83ff] w-8" : "bg-gray-300 w-2 hover:bg-[#7c83ff]/50"
-                  }`}
-                  aria-label={`Go to step ${index + 1}`}
+          </div>
+          
+        
+          
+          {/* Bottom Row - Steps 6-9 */}
+          <div className="relative">
+            <div className="absolute top-12 left-0 right-0 h-0.5 bg-blue-200" />
+            <div className="relative flex justify-between items-start">
+              {[...steps.slice(5, 9)].reverse().map((step, index) => (
+                <RoadmapNode 
+                  key={index + 5} 
+                  icon={step.icon} 
+                  label={step.label} 
+                  step={9 - index}
+                  active={false}
                 />
               ))}
             </div>
           </div>
         </div>
-      </section>
-    </>
+
+        {/* Mobile: Slider */}
+        <div className="lg:hidden">
+          <div className="relative flex justify-center items-center">
+            <button
+              onClick={prevSlide}
+              className="absolute left-0 z-10 bg-[#01377d] text-white rounded-full p-2 shadow-lg"
+              aria-label="Previous"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+
+            <div className="px-16">
+              <RoadmapNode 
+                icon={steps[currentIndex].icon} 
+                label={steps[currentIndex].label} 
+                step={currentIndex + 1}
+                active={true}
+              />
+            </div>
+
+            <button
+              onClick={nextSlide}
+              className="absolute right-0 z-10 bg-[#01377d] text-white rounded-full p-2 shadow-lg"
+              aria-label="Next"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
+
+          {/* Progress */}
+          <div className="mt-12">
+            <div className="h-1.5 bg-blue-100 rounded-full overflow-hidden">
+              <div 
+                className="h-full bg-gradient-to-r from-[#01377d] to-blue-500 transition-all duration-300"
+                style={{ width: `${((currentIndex + 1) / steps.length) * 100}%` }}
+              />
+            </div>
+            <p className="text-center mt-3 text-sm text-gray-600 font-medium">
+              Step {currentIndex + 1} of {steps.length}
+            </p>
+          </div>
+
+          {/* Dots */}
+          <div className="flex justify-center gap-2 mt-6">
+            {steps.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentIndex(index)}
+                className={`h-2 rounded-full transition-all duration-300 ${
+                  index === currentIndex ? "bg-[#01377d] w-8" : "bg-blue-200 w-2"
+                }`}
+                aria-label={`Go to step ${index + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }

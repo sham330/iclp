@@ -14,6 +14,7 @@ import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
 import NewAbout from "./components/BodyPart/HomeAbout/NewAbout";
 import WhyInventateq from "./components/HomeSections/WhyUs";
+import ServiceAreas from "./components/Services";
 
 // ✅ This replaces your SEO component
 export const metadata = {
@@ -36,7 +37,7 @@ export default function Home() {
 
         <Accreditations />
         <WhyInventateq/>
-        <SuccessfulCommunity />
+        {/* <SuccessfulCommunity /> */}
         <Features />
          <br></br>
         <br></br>
@@ -44,6 +45,9 @@ export default function Home() {
         <TieUps />
         <Booking />
         <ProcessChart />
+        <br></br>
+        <ServiceAreas/>
+        <br></br>
         <ExpertConnectBanner />
         <RelatedCoursesSlider />
       </main>

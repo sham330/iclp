@@ -183,8 +183,10 @@
 // export default CourseListing;
 "use client";
 
+
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import Link from "next/link";
+
 
 const CourseListing = () => {
   const [courses, setCourses] = useState([]);
@@ -193,6 +195,7 @@ const CourseListing = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const [slideWidth, setSlideWidth] = useState(0);
   const [maxSlides, setMaxSlides] = useState(0);
+
 
   useEffect(() => {
     fetch("/data/hrcl.json")
@@ -203,9 +206,11 @@ const CourseListing = () => {
       .catch((error) => console.error("Error loading course data:", error));
   }, []);
 
+
   const filteredCourses = activeFilter === "all" 
     ? courses 
     : courses.filter(course => course.category === activeFilter);
+
 
   useEffect(() => {
     const updateSlideDimensions = () => {
@@ -222,11 +227,13 @@ const CourseListing = () => {
       }
     };
 
+
     updateSlideDimensions();
     window.addEventListener('resize', updateSlideDimensions);
     
     return () => window.removeEventListener('resize', updateSlideDimensions);
   }, [filteredCourses]);
+
 
   const scrollToSlide = useCallback((index) => {
     if (sliderRef.current) {
@@ -238,19 +245,23 @@ const CourseListing = () => {
     }
   }, [slideWidth]);
 
+
   const nextSlide = useCallback(() => {
     const newIndex = Math.min(currentSlide + 1, maxSlides);
     scrollToSlide(newIndex);
   }, [currentSlide, maxSlides, scrollToSlide]);
+
 
   const prevSlide = useCallback(() => {
     const newIndex = Math.max(currentSlide - 1, 0);
     scrollToSlide(newIndex);
   }, [currentSlide, scrollToSlide]);
 
+
   useEffect(() => {
     const slider = sliderRef.current;
     if (!slider) return;
+
 
     const handleScroll = () => {
       const scrollPos = slider.scrollLeft;
@@ -260,64 +271,71 @@ const CourseListing = () => {
       }
     };
 
+
     slider.addEventListener('scroll', handleScroll, { passive: true });
     return () => slider.removeEventListener('scroll', handleScroll);
   }, [currentSlide, slideWidth]);
+
 
   useEffect(() => {
     scrollToSlide(0);
   }, [activeFilter, scrollToSlide]);
 
+
   return (
-    <div className="py-20 bg-white">
+    <div className="py-20 bg-gradient-to-br from-blue-50/50 via-white to-cyan-50/50">
       {/* Job Guarantee Banner */}
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 mb-16 py-20">
-        <div className="relative bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-8 lg:p-12 text-center shadow-2xl border border-amber-400/30 overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-emerald-400 to-amber-400"></div>
+        <div className="relative bg-gradient-to-r from-[#01377d] to-blue-600 rounded-2xl p-8 lg:p-12 text-center shadow-2xl border border-blue-400/30 overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-400"></div>
           
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-3">
             Make a Combo offer and Get Hired in Just 3 Months
           </h2>
-          <p className="text-xl text-red-100 mb-4">Salary range upto 3LPA - 15LPA</p>
-          <div className="inline-block px-6 py-2 bg-amber-400 text-slate-900 font-bold rounded-full">
+          <p className="text-xl text-blue-100 mb-4">Salary range upto 3LPA - 15LPA</p>
+          <div className="inline-block px-6 py-2 bg-cyan-400 text-[#01377d] font-bold rounded-full">
             100% Job Placement Support
           </div>
 
-          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-400 via-amber-400 to-emerald-400"></div>
+
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400"></div>
         </div>
       </div>
+
 
       {/* Courses Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-4xl font-bold text-white">
+          <h2 className="text-4xl font-bold text-slate-900">
             Our{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-amber-400 to-emerald-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#01377d] via-blue-500 to-cyan-500">
               Courses
             </span>
           </h2>
           <Link 
             href="/courses" 
-            className="px-6 py-2 bg-slate-700 hover:bg-slate-600 text-white font-semibold rounded-lg transition-colors duration-300"
+            className="px-6 py-2 bg-[#01377d] hover:bg-blue-600 text-white font-semibold rounded-lg transition-colors duration-300"
           >
             View All
           </Link>
         </div>
+
 
         {/* Filter Buttons */}
         <div className="flex gap-4 mb-8">
           <button 
             className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${
               activeFilter === "all" 
-                ? "bg-gradient-to-r from-red-600 to-red-700 text-white" 
-                : "bg-slate-700 text-slate-300 hover:bg-slate-600"
+                ? "bg-gradient-to-r from-[#01377d] to-blue-600 text-white" 
+                : "bg-slate-200 text-slate-700 hover:bg-slate-300"
             }`}
             onClick={() => setActiveFilter("all")}
           >
             All Courses
           </button>
         </div>
+
 
         {/* Slider */}
         <div className="relative">
@@ -334,7 +352,7 @@ const CourseListing = () => {
           {filteredCourses.length > 3 && (
             <>
               <button 
-                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-amber-500 hover:bg-amber-600 text-white rounded-full shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center font-bold text-xl z-10"
+                className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-blue-500 hover:bg-[#3b82f6] text-white rounded-full shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center font-bold text-xl z-10"
                 onClick={prevSlide}
                 disabled={currentSlide === 0}
                 aria-label="Previous slide"
@@ -342,7 +360,7 @@ const CourseListing = () => {
                 &lt;
               </button>
               <button 
-                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-amber-500 hover:bg-amber-600 text-white rounded-full shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center font-bold text-xl z-10"
+                className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-blue-500 hover:bg-[#3b82f6] text-white rounded-full shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center font-bold text-xl z-10"
                 onClick={nextSlide}
                 disabled={currentSlide >= maxSlides}
                 aria-label="Next slide"
@@ -354,6 +372,7 @@ const CourseListing = () => {
         </div>
       </div>
 
+
       <style jsx>{`
         .scrollbar-hide::-webkit-scrollbar {
           display: none;
@@ -363,9 +382,10 @@ const CourseListing = () => {
   );
 };
 
+
 const BTCourseCard = ({ course }) => {
   return (
-    <div className="flex-shrink-0 w-[350px] bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:border-amber-500/50 transition-all duration-300 shadow-lg hover:shadow-2xl">
+    <div className="flex-shrink-0 w-[350px] bg-white rounded-xl overflow-hidden border-2 border-blue-200 hover:border-blue-500 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-blue-500/20">
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
@@ -375,24 +395,24 @@ const BTCourseCard = ({ course }) => {
         />
         <div className="absolute top-3 right-3 flex flex-col gap-2">
           {course.isBestSeller && (
-            <span className="px-3 py-1 bg-red-600 text-white text-xs font-bold rounded-full">Best Seller</span>
+            <span className="px-3 py-1 bg-[#01377d] text-white text-xs font-bold rounded-full">Best Seller</span>
           )}
           {course.isNew && (
-            <span className="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full">New</span>
+            <span className="px-3 py-1 bg-cyan-500 text-white text-xs font-bold rounded-full">New</span>
           )}
           {course.category && (
-            <span className="px-3 py-1 bg-amber-500 text-slate-900 text-xs font-bold rounded-full">{course.category}</span>
+            <span className="px-3 py-1 bg-blue-500 text-white text-xs font-bold rounded-full">{course.category}</span>
           )}
         </div>
       </div>
       
       {/* Content */}
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-bold text-white line-clamp-2">{course.name}</h3>
-        <p className="text-slate-400 text-sm line-clamp-2">{course.description}</p>
+        <h3 className="text-xl font-bold text-[#01377d] line-clamp-2">{course.name}</h3>
+        <p className="text-slate-600 text-sm line-clamp-2">{course.description}</p>
         
         {/* Meta Info */}
-        <div className="flex gap-4 text-sm text-slate-300">
+        <div className="flex gap-4 text-sm text-slate-700">
           <div className="flex items-center gap-2">
             <span>⏱️</span>
             <span>{course.duration}</span>
@@ -404,29 +424,29 @@ const BTCourseCard = ({ course }) => {
         </div>
         
         {/* Stats */}
-        <div className="grid grid-cols-2 gap-4 pt-4 border-t border-slate-700">
+        <div className="grid grid-cols-2 gap-4 pt-4 border-t border-blue-100">
           <div>
-            <p className="text-xs text-slate-400">Avg Salary</p>
-            <p className="text-sm font-bold text-emerald-400">{course.salary}</p>
+            <p className="text-xs text-slate-500">Avg Salary</p>
+            <p className="text-sm font-bold text-cyan-600">{course.salary}</p>
           </div>
           <div>
-            <p className="text-xs text-slate-400">Salary Hike</p>
-            <p className="text-sm font-bold text-amber-400">{course.hike}</p>
+            <p className="text-xs text-slate-500">Salary Hike</p>
+            <p className="text-sm font-bold text-blue-600">{course.hike}</p>
           </div>
         </div>
         
         {course.rating && (
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-amber-400">★★★★★</span>
-            <span className="text-white font-semibold">{course.rating}</span>
-            <span className="text-slate-400">({course.reviews})</span>
+            <span className="text-blue-500">★★★★★</span>
+            <span className="text-[#01377d] font-semibold">{course.rating}</span>
+            <span className="text-slate-500">({course.reviews})</span>
           </div>
         )}
         
         {/* Button */}
         <Link 
           href={course.url} 
-          className="block w-full px-4 py-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white text-center font-semibold rounded-lg transition-all duration-300"
+          className="block w-full px-4 py-3 bg-blue-500 hover:bg-[#3b82f6] text-white text-center font-semibold rounded-lg transition-all duration-300"
         >
           Get Course Details →
         </Link>
@@ -434,5 +454,6 @@ const BTCourseCard = ({ course }) => {
     </div>
   );
 };
+
 
 export default CourseListing;

@@ -23,7 +23,7 @@ const ChristmasNotification = () => {
       {/* Smaller Santa GIF */}
       <div className="w-16 h-16 flex-shrink-0">
         <img 
-          src="/merry_xmas.gif" 
+          src="/happy_new_year.gif" 
           alt="Santa" 
           className="w-full h-full object-contain rounded-xl shadow-xl animate-bounce-slow"
         />
@@ -34,12 +34,12 @@ const ChristmasNotification = () => {
         <div className="flex items-start gap-2">
           {/* Tiny Christmas Icon */}
           <div className="w-5 h-5 bg-red-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
-            <span className="text-white text-xs">🎅</span>
+            <span className="text-white text-xs"></span>
           </div>
           
           <div className="flex-1 min-w-0">
             <p className="text-gray-900 font-semibold text-xs leading-tight">
-              Merry Christmas! 🎄
+              Happy New year! 🎄
             </p>
             <p className="text-gray-600 text-xs mt-1">
               Special festive offers on all courses!

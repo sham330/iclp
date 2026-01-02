@@ -1,17 +1,21 @@
 /* booking.css - Super Responsive Version */
 
+
 /* Base Variables */
 :root {
-  --primary-gradient: #1e293b;
-  --primary-dark: #1e293b;
-  --primary-light:#1e293b;
+  --primary-gradient: linear-gradient(135deg, #01377d 0%, #014a9f 100%);
+  --primary-dark: #01377d;
+  --primary-light: #3b82f6;
   --text-dark: #1e293b;
   --text-light: #f8fafc;
-  --shadow-color: rgba(26, 42, 108, 0.2);
+  --shadow-color: rgba(1, 55, 125, 0.2);
   --error-color: #ef4444;
   --border-color: #e2e8f0;
   --placeholder-color: #94a3b8;
+  --blue-accent: #3b82f6;
+  --cyan-accent: #06b6d4;
 }
+
 
 /* Base Reset */
 * {
@@ -19,6 +23,7 @@
   margin: 0;
   padding: 0;
 }
+
 
 /* Base Styles */
 .bs-booking-container {
@@ -28,18 +33,20 @@
   min-height: 100vh;
   padding: 1rem;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #f8fafc;
+  background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #ecfeff 100%);
 }
+
 
 /* Card Container */
 .bs-card-wrapper {
-    margin-top: 50px;
-margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
   max-width: 1000px;
   height: auto;
   position: relative;
 }
+
 
 .bs-card-inner {
   width: 100%;
@@ -52,6 +59,7 @@ margin-bottom: 50px;
   background: white;
 }
 
+
 /* Form Section */
 .bs-form-section {
   padding: 2rem 1.5rem;
@@ -62,10 +70,12 @@ margin-bottom: 50px;
   z-index: 2;
 }
 
+
 .bs-header {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 
 .bs-title {
   font-size: 1.75rem;
@@ -79,17 +89,20 @@ margin-bottom: 50px;
   line-height: 1.2;
 }
 
+
 .bs-subtitle {
   font-size: 0.9rem;
   color: var(--placeholder-color);
   font-weight: 500;
 }
 
+
 /* Input Fields */
 .bs-input-group {
   position: relative;
   margin-bottom: 1.5rem;
 }
+
 
 .bs-input {
   width: 100%;
@@ -102,20 +115,24 @@ margin-bottom: 50px;
   color: var(--text-dark);
 }
 
+
 .bs-input:focus {
   outline: none;
   border-bottom-color: var(--primary-dark);
 }
 
+
 .bs-input:focus ~ .bs-input-highlight {
   width: 100%;
 }
+
 
 .bs-input:focus + .bs-input-label,
 .bs-input:not(:placeholder-shown) + .bs-input-label {
   transform: translateY(-20px) scale(0.85);
   color: var(--primary-dark);
 }
+
 
 .bs-input-label {
   position: absolute;
@@ -127,6 +144,7 @@ margin-bottom: 50px;
   pointer-events: none;
 }
 
+
 .bs-input-highlight {
   position: absolute;
   bottom: 0;
@@ -136,6 +154,7 @@ margin-bottom: 50px;
   background: var(--primary-gradient);
   transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
 }
+
 
 /* Submit Button */
 .bs-submit-btn {
@@ -149,7 +168,7 @@ margin-bottom: 50px;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(26, 42, 108, 0.3);
+  box-shadow: 0 4px 15px rgba(1, 55, 125, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,18 +177,23 @@ margin-bottom: 50px;
   overflow: hidden;
 }
 
+
 .bs-submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(26, 42, 108, 0.4);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+  background: linear-gradient(135deg, #014a9f 0%, #3b82f6 100%);
 }
+
 
 .bs-submit-btn:active {
   transform: translateY(0);
 }
 
+
 .bs-submit-btn.bs-submitting {
   pointer-events: none;
 }
+
 
 .bs-spinner {
   width: 1.2rem;
@@ -180,11 +204,13 @@ margin-bottom: 50px;
   animation: bs-spin 0.8s linear infinite;
 }
 
+
 @keyframes bs-spin {
   to {
     transform: rotate(360deg);
   }
 }
+
 
 /* Visual Section */
 .bs-visual-section {
@@ -192,6 +218,7 @@ margin-bottom: 50px;
   min-height: 300px;
   order: -1;
 }
+
 
 .bs-gradient-bg {
   position: absolute;
@@ -203,6 +230,7 @@ margin-bottom: 50px;
   opacity: 0.9;
 }
 
+
 .bs-image-container {
   position: absolute;
   top: 0;
@@ -211,12 +239,14 @@ margin-bottom: 50px;
   height: 100%;
 }
 
+
 .bs-feature-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 
 .bs-image-overlay {
   position: absolute;
@@ -226,10 +256,11 @@ margin-bottom: 50px;
   height: 100%;
   background: linear-gradient(
     to bottom,
-    rgba(26, 42, 108, 0.1),
-    rgba(31, 170, 89, 0.1)
+    rgba(1, 55, 125, 0.1),
+    rgba(6, 182, 212, 0.1)
   );
 }
+
 
 .bs-features {
   position: relative;
@@ -237,6 +268,7 @@ margin-bottom: 50px;
   padding: 1.5rem;
   margin-top: 0;
 }
+
 
 .bs-feature-item {
   display: flex;
@@ -247,7 +279,15 @@ margin-bottom: 50px;
   backdrop-filter: blur(10px);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
+
+
+.bs-feature-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateX(5px);
+}
+
 
 .bs-feature-icon {
   width: 32px;
@@ -262,11 +302,13 @@ margin-bottom: 50px;
   flex-shrink: 0;
 }
 
+
 .bs-feature-text {
   font-size: 0.9rem;
   color: white;
   font-weight: 500;
 }
+
 
 .bs-seats-indicator {
   position: relative;
@@ -279,6 +321,7 @@ margin-bottom: 50px;
   z-index: 2;
 }
 
+
 .bs-seats-progress {
   height: 6px;
   background: rgba(255, 255, 255, 0.3);
@@ -287,11 +330,24 @@ margin-bottom: 50px;
   overflow: hidden;
 }
 
+
 .bs-progress-bar {
   height: 100%;
-  background: white;
+  background: linear-gradient(90deg, #3b82f6 0%, #06b6d4 100%);
   border-radius: 3px;
+  animation: progress-shimmer 2s infinite;
 }
+
+
+@keyframes progress-shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
 
 .bs-seats-text {
   font-size: 0.8rem;
@@ -299,6 +355,7 @@ margin-bottom: 50px;
   text-align: center;
   font-weight: 500;
 }
+
 
 /* Confetti Effect */
 .bs-confetti-container {
@@ -312,14 +369,21 @@ margin-bottom: 50px;
   z-index: 10;
 }
 
+
 .bs-confetti {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: #ff0;
+  background: var(--blue-accent);
   border-radius: 50%;
   animation: bs-confetti-fall 3s linear forwards;
 }
+
+
+.bs-confetti:nth-child(even) {
+  background: var(--cyan-accent);
+}
+
 
 @keyframes bs-confetti-fall {
   0% {
@@ -332,6 +396,7 @@ margin-bottom: 50px;
   }
 }
 
+
 /* 3D Corner Effects */
 .bs-corner {
   position: absolute;
@@ -343,17 +408,20 @@ margin-bottom: 50px;
   z-index: -1;
 }
 
+
 .bs-corner-1 {
   background: var(--primary-dark);
   top: -30px;
   right: -30px;
 }
 
+
 .bs-corner-2 {
-  background: var(--primary-light);
+  background: var(--cyan-accent);
   bottom: -30px;
   left: -30px;
 }
+
 
 /* Tablet and Desktop Styles */
 @media (min-width: 768px) {
@@ -403,6 +471,7 @@ margin-bottom: 50px;
   }
 }
 
+
 /* Large Desktop Styles */
 @media (min-width: 1024px) {
   .bs-card-inner {
@@ -435,6 +504,7 @@ margin-bottom: 50px;
     font-size: 1rem;
   }
 }
+
 
 /* Small Mobile Styles */
 @media (max-width: 375px) {

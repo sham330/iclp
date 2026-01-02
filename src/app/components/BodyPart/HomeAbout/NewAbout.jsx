@@ -1,8 +1,10 @@
 "use client";
 
+
 import { motion } from "framer-motion";
 import { FaUsers, FaBullseye, FaHandshake, FaGraduationCap } from "react-icons/fa";
 import { useEffect, useState, useRef } from "react";
+
 
 const stats = [
   { value: 1000, label: "Students Trained", icon: <FaUsers />, suffix: "+" },
@@ -11,9 +13,11 @@ const stats = [
   { value: 24, label: "Learning Support", icon: <FaGraduationCap />, suffix: "/7" },
 ];
 
+
 const AnimatedCounter = ({ value, suffix = "", duration = 2.5 }) => {
   const [count, setCount] = useState(0);
   const hasAnimated = useRef(false);
+
 
   useEffect(() => {
     if (hasAnimated.current) return;
@@ -36,12 +40,14 @@ const AnimatedCounter = ({ value, suffix = "", duration = 2.5 }) => {
     animate();
   }, [value, duration]);
 
+
   return (
     <span className="text-4xl font-bold text-white">
       {count.toLocaleString()}{suffix}
     </span>
   );
 };
+
 
 const NewAbout = () => {
   return (
@@ -51,17 +57,17 @@ const NewAbout = () => {
           {stats.map((stat, index) => (
             <motion.div
               key={index}
-              className="bg-slate-900 rounded-xl p-8 text-center hover:scale-105 transition-transform shadow-lg cursor-pointer group"
+              className="bg-gradient-to-br from-[#01377d] to-[#014a9f] rounded-xl p-8 text-center hover:scale-105 transition-transform shadow-lg cursor-pointer group"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ 
                 scale: 1.05, 
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" 
+                boxShadow: "0 25px 50px -12px rgba(59, 130, 246, 0.5)" 
               }}
             >
-              <div className="text-white text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="text-blue-400 text-5xl mb-4 group-hover:scale-110 group-hover:text-blue-300 transition-all duration-300">
                 {stat.icon}
               </div>
               <h3 className="mb-2">
@@ -80,5 +86,6 @@ const NewAbout = () => {
     </section>
   );
 };
+
 
 export default NewAbout;

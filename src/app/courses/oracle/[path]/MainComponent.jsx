@@ -614,7 +614,6 @@ const OracleCourseDetailsPage = () => {
   </section>
 
   <CourseReviews />
-  <CourseFAQs />
 
   {/* CTA Section */}
   <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
