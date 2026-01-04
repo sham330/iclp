@@ -10420,34 +10420,46 @@
             "High-Availability Banking System"
           ]
         },
-        {
+ {
   "course_name": "Alation Data Catalog Training",
   "path": "alation-data-catalog-training",
-  "modules": [
+  "description": "Master the Alation data catalog platform to enable effective data governance, search, lineage, and collaboration across your organization.",
+  "what_youll_learn": [
+    "Core concepts of data governance and cataloging",
+    "Alation platform architecture and key components",
+    "Connecting data sources and managing metadata",
+    "Building and maintaining a business glossary",
+    "Understanding and using data lineage and impact analysis",
+    "Searching, querying, and collaborating with Alation",
+    "Managing policies, rules, and compliance workflows",
+    "Using advanced Alation features and integrations",
+    "Handling administration, security, and user access"
+  ],
+  "syllabus": [
     {
-      "module_title": "Introduction to Data Governance & Cataloging",
-      "topics": [
-        "What is Data Governance?",
-        "Why organizations need a Data Catalog",
-        "Overview of Enterprise Data Management",
-        "Data Governance roles: Steward, Owner, Analyst",
+      "module": "Introduction to Data Governance & Cataloging",
+      "subtopics": [
+        "What is data governance?",
+        "Why organizations need a data catalog",
+        "Overview of enterprise data management",
+        "Data governance roles: steward, owner, analyst",
         "Comparison: Alation vs Collibra vs Informatica"
       ]
     },
     {
-      "module_title": "Introduction to Alation",
-      "topics": [
-        "Alation Overview & Architecture",
-        "Core components of Alation platform",
+      "module": "Introduction to Alation",
+      "subtopics": [
+        "Alation overview and architecture",
+        "Core components of the Alation platform",
         "User roles and responsibilities",
         "Understanding the Alation interface",
-        "Key terms: Data Source, Catalog, Glossary, Stewardship"
+        "Key terms: data source, catalog, glossary, stewardship"
       ]
     },
     {
-      "module_title": "Alation Data Catalog Fundamentals",
-      "topics": [
-        "Connecting to data sources (Databases, BI tools, etc.)",
+      "module": "Alation Data Catalog Fundamentals",
+      "subtopics": [
+        "Connecting to data sources (databases, BI tools, etc.)",
         "Data ingestion and metadata extraction",
         "Data lineage overview",
         "Managing schema and table-level metadata",
@@ -10455,61 +10467,185 @@
       ]
     },
     {
-      "module_title": "Business Glossary & Stewardship",
-      "topics": [
-        "Creating and maintaining the Business Glossary",
-        "Assigning Data Stewards and Owners",
+      "module": "Business Glossary & Stewardship",
+      "subtopics": [
+        "Creating and maintaining the business glossary",
+        "Assigning data stewards and owners",
         "Governance workflows in Alation",
         "Tracking glossary term usage across datasets"
       ]
     },
     {
-      "module_title": "Data Lineage & Impact Analysis",
-      "topics": [
-        "Understanding Data Lineage",
+      "module": "Data Lineage & Impact Analysis",
+      "subtopics": [
+        "Understanding data lineage",
         "How Alation captures lineage",
         "Visualizing lineage in dashboards",
-        "Performing impact analysis before schema change"
+        "Performing impact analysis before schema changes"
       ]
     },
     {
-      "module_title": "Search, Query, and Collaboration",
-      "topics": [
-        "Alation’s Search Engine",
-        "Using Natural Language Search (NLS)",
-        "Data query feature – writing SQL queries in Alation",
+      "module": "Search, Query, and Collaboration",
+      "subtopics": [
+        "Using Alation’s search engine",
+        "Working with natural language search",
+        "Writing SQL queries in Alation",
         "Query collaboration and sharing",
         "Version control and approvals"
       ]
     },
     {
-      "module_title": "Policies, Rules & Compliance",
-      "topics": [
+      "module": "Policies, Rules & Compliance",
+      "subtopics": [
         "Policy management and data privacy",
-        "GDPR / HIPAA compliance in Alation",
+        "Configuring GDPR and HIPAA-related controls",
         "Setting up governance policies",
         "Data usage tracking and reporting"
       ]
     },
     {
-      "module_title": "Alation Advanced Features",
-      "topics": [
+      "module": "Alation Advanced Features",
+      "subtopics": [
         "Automated data discovery",
         "Trust flags and certification",
         "Integration with Tableau, Power BI, and Snowflake",
-        "APIs and Automation in Alation",
+        "APIs and automation in Alation",
         "Analytics and reporting dashboards"
       ]
     },
     {
-      "module_title": "Administration & Security",
-      "topics": [
+      "module": "Administration & Security",
+      "subtopics": [
         "User roles, permissions, and groups",
         "Authentication and access control",
         "Backup and restore configuration",
         "Monitoring and auditing activity logs"
       ]
     }
+  ],
+  "duration": "30–35 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/alation-data-catalog-training.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Implementing an enterprise data catalog in Alation",
+    "Designing a business glossary and stewardship model",
+    "Building lineage and impact analysis views for key datasets"
+  ]
+},{
+  "course_name": "Tally with Accounting",
+  "path": "tally-accounting-online-training",
+  "description": "Learn Tally for practical business accounting, inventory, taxation, payroll, and financial reporting with real-world scenarios.",
+  "what_youll_learn": [
+    "Navigate and use the Tally interface for daily accounting work",
+    "Set up companies, financial years, and core configurations",
+    "Record and manage sales, purchases, receipts, and payments",
+    "Handle GST, taxation, and inventory management in Tally",
+    "Configure and process payroll and salary structures",
+    "Generate and analyze financial reports and statements",
+    "Backup, restore, and manage Tally data securely",
+    "Integrate and customize Tally for business-specific needs",
+    "Use advanced Tally features for automation and multi-company management",
+    "Prepare for Tally certification with practice and revision"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Tally",
+      "subtopics": [
+        "Overview of Tally",
+        "Tally features and benefits",
+        "Navigating the Tally interface"
+      ]
+    },
+    {
+      "module": "Setting Up Tally",
+      "subtopics": [
+        "Installation and configuration",
+        "Creating and managing company data",
+        "Setting up financial years and periods"
+      ]
+    },
+    {
+      "module": "Basic Accounting",
+      "subtopics": [
+        "Recording transactions: sales, purchases, payments, receipts",
+        "Managing ledgers and vouchers",
+        "Understanding and generating financial statements"
+      ]
+    },
+    {
+      "module": "Advanced Accounting",
+      "subtopics": [
+        "Handling GST and taxation",
+        "Managing inventory and stock",
+        "Advanced voucher entry: journal, contra, and more"
+      ]
+    },
+    {
+      "module": "Payroll and HR Management",
+      "subtopics": [
+        "Setting up payroll in Tally",
+        "Managing employee records and salaries",
+        "Generating payroll reports"
+      ]
+    },
+    {
+      "module": "Financial Reporting",
+      "subtopics": [
+        "Generating and customizing reports",
+        "Profit & loss statement, balance sheet, cash flow reports",
+        "Analyzing financial data"
+      ]
+    },
+    {
+      "module": "Data Management and Backup",
+      "subtopics": [
+        "Data backup and restoration",
+        "Importing and exporting data",
+        "Managing data integrity and security"
+      ]
+    },
+    {
+      "module": "Integration and Customization",
+      "subtopics": [
+        "Integrating Tally with other systems",
+        "Customizing Tally for specific business needs",
+        "Using Tally’s API and third-party add-ons"
+      ]
+    },
+    {
+      "module": "Advanced Features",
+      "subtopics": [
+        "Using Tally’s advanced modules",
+        "Managing multiple companies and branches",
+        "Automating accounting processes"
+      ]
+    },
+    {
+      "module": "Practical Exercises and Case Studies",
+      "subtopics": [
+        "Hands-on practice with real-life scenarios",
+        "Case studies on Tally implementations",
+        "Troubleshooting and support"
+      ]
+    },
+    {
+      "module": "Review and Certification Preparation",
+      "subtopics": [
+        "Review of key concepts",
+        "Practice tests and certification tips",
+        "Final Q&A and exam preparation"
+      ]
+    }
+  ],
+  "duration": "40 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/tally-accounting-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-end accounting setup for a small business",
+    "GST and inventory management for a trading company",
+    "Payroll and financial reporting for a service organization"
   ]
 },
         {

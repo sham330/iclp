@@ -367,7 +367,7 @@ const CourseDetails = () => {
                 Skills You'll Gain
               </h2>
               <div className="grid sm:grid-cols-2 gap-3">
-                {course.what_youll_learn.map((topic, index) => (
+                {course?.what_youll_learn?.map((topic, index) => (
                   <div
                     key={index}
                     className="flex items-start gap-3 bg-slate-50 p-3 rounded-lg hover:bg-[#3b82f6]/10 transition-colors"
@@ -425,7 +425,7 @@ const CourseDetails = () => {
           <div className="grid lg:grid-cols-3 gap-6">
             {/* Accordion */}
             <div className="lg:col-span-2 space-y-3">
-              {course.syllabus.map((module, index) => (
+              {course.syllabus?.map((module, index) => (
                 <div
                   key={index}
                   className="bg-white rounded-xl border-2 border-slate-200 overflow-hidden hover:border-[#3b82f6] transition-colors"
