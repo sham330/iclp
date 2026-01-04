@@ -10532,6 +10532,914 @@
     "Designing a business glossary and stewardship model",
     "Building lineage and impact analysis views for key datasets"
   ]
+},
+{
+  "course_name": "Programming Basics",
+  "path": "programming-basics-training",
+  "description": "Learn the fundamentals of programming, including logic, core concepts, control flow, functions, arrays, and basic object-oriented ideas through simple, practical examples.",
+  "what_youll_learn": [
+    "Understand what programming is and why it is important",
+    "Differentiate between compilers and interpreters",
+    "Think logically and break problems into smaller steps",
+    "Use variables, data types, operators, and input/output",
+    "Write programs using conditions and loops",
+    "Create and use functions for modular programming",
+    "Work with basic arrays and strings",
+    "Identify and fix common programming errors",
+    "Understand core object-oriented concepts at a high level",
+    "Use basic tools like IDEs, command line, and version control"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Programming",
+      "subtopics": [
+        "What is programming?",
+        "Why programming is important",
+        "Overview of programming languages",
+        "Compiler vs interpreter",
+        "Algorithm and flowchart basics"
+      ]
+    },
+    {
+      "module": "Problem Solving Basics",
+      "subtopics": [
+        "Logical thinking",
+        "Breaking problems into steps",
+        "Writing simple algorithms",
+        "Flowchart symbols and practice"
+      ]
+    },
+    {
+      "module": "Programming Concepts",
+      "subtopics": [
+        "Variables and data types",
+        "Constants",
+        "Operators: arithmetic, relational, logical",
+        "Input and output concepts"
+      ]
+    },
+    {
+      "module": "Control Statements",
+      "subtopics": [
+        "Conditional statements: if, if-else, else-if",
+        "switch-case: concept",
+        "Looping statements: for loop",
+        "Looping statements: while loop",
+        "Looping statements: do-while loop"
+      ]
+    },
+    {
+      "module": "Functions & Modularity",
+      "subtopics": [
+        "What is a function?",
+        "Function declaration and calling",
+        "Parameters and return types",
+        "Advantages of functions",
+        "Modular programming concept"
+      ]
+    },
+    {
+      "module": "Arrays & Strings (Basics)",
+      "subtopics": [
+        "What is an array?",
+        "Single-dimensional arrays",
+        "String basics",
+        "Common string operations"
+      ]
+    },
+    {
+      "module": "Error Handling & Debugging",
+      "subtopics": [
+        "Types of errors: syntax, runtime, logical",
+        "Debugging basics",
+        "Writing error-free and reliable code"
+      ]
+    },
+    {
+      "module": "Introduction to Object-Oriented Concepts",
+      "subtopics": [
+        "What is OOP?",
+        "Class and object",
+        "Encapsulation",
+        "Inheritance: concept",
+        "Polymorphism: concept"
+      ]
+    },
+    {
+      "module": "Programming Tools & Environment",
+      "subtopics": [
+        "Code editors and IDEs",
+        "Running programs",
+        "Command line basics",
+        "Version control overview (Git basics)"
+      ]
+    },
+    {
+      "module": "Practical Programming & Mini Projects",
+      "subtopics": [
+        "Writing simple programs",
+        "Logical programs: patterns and number problems",
+        "Mini projects: calculator, student system, etc.",
+        "Code review and best practices"
+      ]
+    }
+  ],
+  "duration": "30–35 hours",
+  "skill_level": "Beginner",
+  "image": "https://example.com/programming-basics-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Console-based calculator application",
+    "Simple student record management system",
+    "Pattern and number-based logic program collection"
+  ]
+},
+{
+  "course_name": "Digital Literacy",
+  "path": "digital-literacy-training",
+  "description": "Learn essential digital skills for everyday life, including using devices, internet, email, digital payments, government services, cloud tools, and safe online practices.",
+  "what_youll_learn": [
+    "Understand core digital literacy concepts and their importance",
+    "Use computers, mobiles, and operating systems for daily tasks",
+    "Browse the internet, search information, and understand websites",
+    "Create and manage email accounts with proper online etiquette",
+    "Perform basic digital payments and use common online services",
+    "Stay safe online with better passwords, privacy, and cyber awareness",
+    "Access government digital services and online portals",
+    "Use social media responsibly and manage online identity",
+    "Work with basic productivity tools like Docs, Sheets, and Slides",
+    "Use cloud storage for backup, sharing, and collaboration",
+    "Apply digital skills for education, jobs, and online learning"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Digital Literacy",
+      "subtopics": [
+        "What is digital literacy?",
+        "Importance of digital skills in daily life",
+        "Digital devices overview",
+        "Digital India – overview"
+      ]
+    },
+    {
+      "module": "Computer & Device Basics",
+      "subtopics": [
+        "Desktop, laptop, and mobile basics",
+        "Operating system basics",
+        "Using keyboard, mouse, and touch devices",
+        "File and folder management (basics)"
+      ]
+    },
+    {
+      "module": "Internet & Online Basics",
+      "subtopics": [
+        "What is the internet?",
+        "Using web browsers",
+        "Searching information effectively",
+        "Understanding websites and URLs"
+      ]
+    },
+    {
+      "module": "Email & Online Communication",
+      "subtopics": [
+        "Creating and using email accounts",
+        "Sending and receiving emails",
+        "Handling email attachments",
+        "Online etiquette (netiquette)"
+      ]
+    },
+    {
+      "module": "Digital Payments & Online Services",
+      "subtopics": [
+        "Online banking basics",
+        "UPI, mobile wallets, and cards",
+        "Online bill payments",
+        "E-commerce basics (shopping online)"
+      ]
+    },
+    {
+      "module": "Cyber Safety & Digital Security",
+      "subtopics": [
+        "Online safety basics",
+        "Strong password practices",
+        "Phishing and online scams",
+        "Safe social media usage",
+        "Data privacy awareness"
+      ]
+    },
+    {
+      "module": "Government Digital Services",
+      "subtopics": [
+        "DigiLocker",
+        "Aadhaar-linked services",
+        "Online government portals (overview)",
+        "Digital certificates and applications"
+      ]
+    },
+    {
+      "module": "Social Media & Digital Communication",
+      "subtopics": [
+        "Social media platforms overview",
+        "Responsible social media usage",
+        "Creating basic digital content",
+        "Managing online identity"
+      ]
+    },
+    {
+      "module": "Productivity Tools Basics",
+      "subtopics": [
+        "MS Word / Google Docs (basics)",
+        "MS Excel / Google Sheets (basics)",
+        "MS PowerPoint / Google Slides (basics)"
+      ]
+    },
+    {
+      "module": "Cloud & Online Storage",
+      "subtopics": [
+        "What is cloud storage?",
+        "Google Drive / OneDrive basics",
+        "Uploading and sharing files",
+        "Backup and sync basics"
+      ]
+    },
+    {
+      "module": "Digital Skills for Career & Education",
+      "subtopics": [
+        "Online learning platforms",
+        "Job portals and applications",
+        "Creating an online resume",
+        "Video interview basics"
+      ]
+    },
+    {
+      "module": "Practical Activities & Assessment",
+      "subtopics": [
+        "Hands-on internet practice",
+        "Online payment demonstration",
+        "Email and document creation",
+        "Final assessment and certification"
+      ]
+    }
+  ],
+  "duration": "30–40 hours",
+  "skill_level": "Beginner",
+  "image": "https://example.com/digital-literacy-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Complete a full digital workflow: search, document, email, and cloud share",
+    "Simulated online payment and service usage practice",
+    "Create a basic digital profile with resume and email setup"
+  ]
+},
+{
+  "course_name": "Soft Tech Skills Training",
+  "path": "soft-tech-skills-training",
+  "description": "Develop essential soft skills for IT and corporate environments, including communication, teamwork, problem-solving, professionalism, and workplace technology use.",
+  "what_youll_learn": [
+    "Understand the importance of soft skills in IT and corporate roles",
+    "Communicate effectively using verbal, non-verbal, and written channels",
+    "Collaborate with teams and manage interpersonal relationships at work",
+    "Deliver confident presentations and handle public speaking situations",
+    "Follow professional etiquette, ethics, and time management practices",
+    "Apply problem-solving and critical thinking to workplace scenarios",
+    "Prepare resumes, handle interviews, and build a professional brand",
+    "Use workplace tools like email, collaboration platforms, and office software",
+    "Develop leadership mindset, ownership, and strong work ethics",
+    "Manage stress, emotions, and maintain work-life balance",
+    "Navigate corporate culture and plan for long-term career growth"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Soft Tech Skills",
+      "subtopics": [
+        "What are soft skills?",
+        "Importance of soft skills in IT and corporate world",
+        "Difference between technical skills and soft skills",
+        "Workplace expectations"
+      ]
+    },
+    {
+      "module": "Communication Skills",
+      "subtopics": [
+        "Verbal communication",
+        "Non-verbal communication",
+        "Listening skills",
+        "Professional vocabulary",
+        "Email etiquette and business writing basics"
+      ]
+    },
+    {
+      "module": "Interpersonal Skills",
+      "subtopics": [
+        "Teamwork and collaboration",
+        "Professional behavior",
+        "Conflict management",
+        "Building workplace relationships",
+        "Cultural awareness"
+      ]
+    },
+    {
+      "module": "Presentation & Public Speaking Skills",
+      "subtopics": [
+        "Presentation structure",
+        "Confidence building techniques",
+        "Body language",
+        "Voice modulation",
+        "Handling Q&A sessions"
+      ]
+    },
+    {
+      "module": "Professional Etiquette",
+      "subtopics": [
+        "Corporate etiquette",
+        "Workplace ethics",
+        "Time management",
+        "Meeting etiquette",
+        "Dress code and grooming basics"
+      ]
+    },
+    {
+      "module": "Problem-Solving & Critical Thinking",
+      "subtopics": [
+        "Analytical thinking",
+        "Decision making",
+        "Root cause analysis",
+        "Workplace scenarios and case studies"
+      ]
+    },
+    {
+      "module": "Interview & Career Skills",
+      "subtopics": [
+        "Resume and CV preparation",
+        "Interview etiquette",
+        "HR and technical interview basics",
+        "Mock interviews",
+        "Personal branding (LinkedIn basics)"
+      ]
+    },
+    {
+      "module": "Workplace Technology Skills",
+      "subtopics": [
+        "Using email and collaboration tools",
+        "Video conferencing etiquette",
+        "Documentation skills",
+        "Basics of MS Office for workplace"
+      ]
+    },
+    {
+      "module": "Leadership & Work Ethics",
+      "subtopics": [
+        "Leadership basics",
+        "Ownership and accountability",
+        "Adaptability and learning attitude",
+        "Workplace ethics and integrity"
+      ]
+    },
+    {
+      "module": "Stress Management & Emotional Intelligence",
+      "subtopics": [
+        "Understanding emotions at work",
+        "Handling stress and time pressure",
+        "Emotional intelligence (EQ)",
+        "Work-life balance"
+      ]
+    },
+    {
+      "module": "Corporate Culture & Professional Growth",
+      "subtopics": [
+        "Understanding corporate culture",
+        "Performance reviews",
+        "Feedback handling",
+        "Career planning and goal setting"
+      ]
+    },
+    {
+      "module": "Practical Activities & Assessments",
+      "subtopics": [
+        "Role plays",
+        "Group discussions",
+        "Presentation practice",
+        "Real-time corporate scenarios",
+        "Final assessment"
+      ]
+    }
+  ],
+  "duration": "40–45 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/soft-tech-skills-training.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Mock interview and feedback report",
+    "Team presentation on an IT or corporate case study",
+    "Personal branding and LinkedIn optimization task"
+  ]
+},
+{
+
+  "course_name": "Basic Graphic Designing",
+  "path": "basic-graphic-designing-course",
+  "description": "Learn the fundamentals of graphic design, including design principles, color theory, and practical skills in Photoshop, Illustrator, and layout tools for print and digital media.",
+  "what_youll_learn": [
+    "Understand the role and types of graphic design work",
+    "Apply core design principles and color theory in projects",
+    "Edit and retouch images using Adobe Photoshop",
+    "Create vector graphics and logos in Adobe Illustrator",
+    "Design layouts for print materials like brochures and flyers",
+    "Build consistent branding and visual identity systems",
+    "Design engaging social media posts and digital ads",
+    "Work with various design file formats and export settings",
+    "Complete real-world design projects from concept to delivery",
+    "Build a professional portfolio and prepare for design careers"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Graphic Designing",
+      "subtopics": [
+        "What is graphic designing?",
+        "Role of a graphic designer",
+        "Types of graphic design: print, digital, branding",
+        "Design industry overview",
+        "Career opportunities"
+      ]
+    },
+    {
+      "module": "Design Principles & Color Theory",
+      "subtopics": [
+        "Elements of design: line, shape, space, texture",
+        "Principles of design: balance, contrast, alignment",
+        "Color theory: RGB and CMYK",
+        "Color psychology",
+        "Typography basics"
+      ]
+    },
+    {
+      "module": "Image Editing Basics (Photoshop)",
+      "subtopics": [
+        "Introduction to Adobe Photoshop",
+        "Tools and interface",
+        "Image cropping and resizing",
+        "Layers and masks (basics)",
+        "Color correction and retouching",
+        "Text and effects"
+      ]
+    },
+    {
+      "module": "Vector Graphics Basics (Illustrator)",
+      "subtopics": [
+        "Introduction to Adobe Illustrator",
+        "Vector vs raster graphics",
+        "Pen tool basics",
+        "Shapes and icon design",
+        "Logo design basics",
+        "Exporting files"
+      ]
+    },
+    {
+      "module": "Layout & Print Design",
+      "subtopics": [
+        "Introduction to InDesign (overview)",
+        "Page layout concepts",
+        "Brochure, flyer, and poster design",
+        "Print size and resolution",
+        "Bleed and margin basics"
+      ]
+    },
+    {
+      "module": "Branding & Visual Identity",
+      "subtopics": [
+        "What is branding?",
+        "Logo usage guidelines",
+        "Color and font consistency",
+        "Creating brand style guides"
+      ]
+    },
+    {
+      "module": "Digital & Social Media Design",
+      "subtopics": [
+        "Social media post design",
+        "Banner and advertisement design",
+        "Image optimization for web",
+        "Introduction to Canva"
+      ]
+    },
+    {
+      "module": "Design Tools & File Formats",
+      "subtopics": [
+        "Design file formats: JPEG, PNG, SVG, PDF",
+        "Export settings",
+        "Version control for designs",
+        "Asset management"
+      ]
+    },
+    {
+      "module": "Practical Projects",
+      "subtopics": [
+        "Logo design project",
+        "Social media creatives",
+        "Poster or flyer design",
+        "Business card design"
+      ]
+    },
+    {
+      "module": "Portfolio & Career Guidance",
+      "subtopics": [
+        "Creating a design portfolio",
+        "Resume for designers",
+        "Freelancing basics",
+        "Client communication basics",
+        "Interview preparation"
+      ]
+    }
+  ],
+  "duration": "50 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/basic-graphic-designing-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete brand identity package with logo and style guide",
+    "Social media campaign design series (5–10 posts)",
+    "Print marketing set: business card, flyer, and poster",
+    "Professional design portfolio website or PDF"
+  ]
+},
+{
+  "course_name": "Basic Web Designing",
+  "path": "basic-web-designing-course",
+  "description": "Learn the fundamentals of web designing using HTML, CSS, JavaScript, and essential web tools to create and publish responsive, beginner-friendly websites.",
+  "what_youll_learn": [
+    "Understand how websites work and the role of frontend vs backend",
+    "Use HTML to structure web pages with text, images, links, tables, and forms",
+    "Style websites using CSS, selectors, colors, fonts, and the box model",
+    "Apply basic responsive design principles and media queries",
+    "Use JavaScript for simple logic, validation, and DOM interactions",
+    "Work with web design tools like VS Code and browser dev tools",
+    "Create and host a simple website using basic deployment methods",
+    "Learn fundamentals of SEO and website optimization",
+    "Follow best practices for modern, user-friendly web design"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Web Designing",
+      "subtopics": [
+        "What is web designing?",
+        "How websites work",
+        "Frontend vs backend",
+        "Static vs dynamic websites",
+        "Overview of web technologies"
+      ]
+    },
+    {
+      "module": "Internet & Web Basics",
+      "subtopics": [
+        "Domain name and hosting basics",
+        "Web browsers and search engines",
+        "Client–server architecture",
+        "Website structure and URL basics"
+      ]
+    },
+    {
+      "module": "HTML Fundamentals",
+      "subtopics": [
+        "Introduction to HTML",
+        "HTML document structure",
+        "Basic tags: html, head, body",
+        "Text formatting tags",
+        "Lists: ordered and unordered",
+        "Links and images",
+        "Tables and forms (basics)"
+      ]
+    },
+    {
+      "module": "CSS Fundamentals",
+      "subtopics": [
+        "Introduction to CSS",
+        "Types of CSS: inline, internal, external",
+        "CSS selectors",
+        "Colors, fonts, and backgrounds",
+        "Box model: margin, border, padding",
+        "Layout basics: display and position",
+        "Simple website styling"
+      ]
+    },
+    {
+      "module": "Responsive Web Design Basics",
+      "subtopics": [
+        "What is responsive design?",
+        "Media queries (basics)",
+        "Mobile-friendly websites",
+        "Introduction to Bootstrap (overview)"
+      ]
+    },
+    {
+      "module": "JavaScript Basics",
+      "subtopics": [
+        "What is JavaScript?",
+        "Variables and data types",
+        "Operators",
+        "Conditional statements",
+        "Loops (basics)",
+        "Simple form validation",
+        "Basic DOM manipulation"
+      ]
+    },
+    {
+      "module": "Web Design Tools",
+      "subtopics": [
+        "Code editors (VS Code)",
+        "Browser developer tools",
+        "Image optimization basics",
+        "Using free design resources"
+      ]
+    },
+    {
+      "module": "Website Creation & Hosting",
+      "subtopics": [
+        "Creating a simple website",
+        "Folder structure",
+        "Uploading website to hosting",
+        "Using cPanel / FTP (basics)",
+        "Free hosting and GitHub Pages (overview)"
+      ]
+    },
+    {
+      "module": "SEO & Website Optimization Basics",
+      "subtopics": [
+        "What is SEO?",
+        "On-page SEO basics",
+        "Meta tags",
+        "Page speed basics",
+        "Website security basics"
+      ]
+    },
+    {
+      "module": "Mini Project & Best Practices",
+      "subtopics": [
+        "Designing a personal or business website",
+        "Web design best practices",
+        "Cross-browser compatibility",
+        "Project review and deployment"
+      ]
+    }
+  ],
+  "duration": "40 hours",
+  "skill_level": "Beginner",
+  "image": "https://example.com/basic-web-designing-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Responsive personal portfolio website",
+    "Single-page business website with contact form",
+    "Multi-page static website deployed on GitHub Pages or shared hosting"
+  ]
+},
+{
+  "course_name": "Internet & Network Basics",
+  "path": "internet-and-network-basics-training",
+  "description": "Learn the fundamentals of the internet, computer networks, devices, IP addressing, services, security, and troubleshooting for real-world use.",
+  "what_youll_learn": [
+    "Core concepts of the internet and computer networks",
+    "Types of networks such as LAN, MAN, and WAN",
+    "Common networking devices and components",
+    "How the internet works and how websites are accessed",
+    "Basics of IP addressing, public and private IPs",
+    "Essential networking concepts like client-server and bandwidth",
+    "Key internet services including email, FTP, and cloud tools",
+    "Basic network configuration and diagnostic commands",
+    "Network security fundamentals and safe usage practices",
+    "Troubleshooting common internet and network issues"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Internet & Networking",
+      "subtopics": [
+        "What is the internet?",
+        "What is a computer network?",
+        "Difference between internet and network",
+        "Uses of internet and networking",
+        "Network types: LAN, MAN, WAN"
+      ]
+    },
+    {
+      "module": "Network Components & Devices",
+      "subtopics": [
+        "Network interface card (NIC)",
+        "Modem, router, switch, and hub",
+        "Access point",
+        "Cables: Ethernet and fiber (basics)",
+        "Wireless networks (Wi-Fi)"
+      ]
+    },
+    {
+      "module": "Internet Fundamentals",
+      "subtopics": [
+        "How the internet works (simple explanation)",
+        "Internet service providers (ISP)",
+        "Web browsers and search engines",
+        "Websites, URLs, and domain names",
+        "HTTP vs HTTPS (basics)"
+      ]
+    },
+    {
+      "module": "IP Addressing Basics",
+      "subtopics": [
+        "What is an IP address?",
+        "IPv4 vs IPv6 (concept)",
+        "Public IP vs private IP",
+        "Static IP vs dynamic IP",
+        "MAC address: basic idea"
+      ]
+    },
+    {
+      "module": "Networking Concepts",
+      "subtopics": [
+        "Client-server model",
+        "Peer-to-peer network",
+        "Bandwidth, latency, and throughput",
+        "Network topologies: star, bus, ring (basics)"
+      ]
+    },
+    {
+      "module": "Internet Services",
+      "subtopics": [
+        "Email services: SMTP, POP3, IMAP (concept)",
+        "File transfer: FTP basics",
+        "Cloud services overview",
+        "Video conferencing tools: Zoom, Google Meet, Teams"
+      ]
+    },
+    {
+      "module": "Basic Network Configuration",
+      "subtopics": [
+        "Connecting to Wi-Fi and LAN",
+        "IP configuration: automatic and manual",
+        "Checking network status",
+        "Basic command line tools: ipconfig, ping, tracert"
+      ]
+    },
+    {
+      "module": "Network Security Basics",
+      "subtopics": [
+        "What is network security?",
+        "Firewalls: basic idea",
+        "Antivirus and antimalware",
+        "Password and Wi-Fi security",
+        "Common network threats"
+      ]
+    },
+    {
+      "module": "Troubleshooting Internet & Network Issues",
+      "subtopics": [
+        "No internet connection issues",
+        "Slow internet problems",
+        "Wi-Fi connectivity issues",
+        "DNS issues: basic understanding",
+        "Step-by-step troubleshooting approach"
+      ]
+    },
+    {
+      "module": "Practical & Real-World Usage",
+      "subtopics": [
+        "Setting up a home or small office network",
+        "Router login and basic configuration",
+        "Internet speed testing",
+        "Best practices for safe internet usage"
+      ]
+    }
+  ],
+  "duration": "25–30 hours",
+  "skill_level": "Beginner",
+  "image": "https://example.com/internet-network-basics-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Configuring a basic home Wi-Fi and LAN setup",
+    "Documenting and testing an office network layout",
+    "Creating a simple checklist for internet and network safety"
+  ]
+},
+{
+  "course_name": "Computer Fundamentals Training",
+  "path": "computer-fundamentals-training",
+  "description": "Learn the essential concepts of computers, operating systems, office tools, internet, networking, and cyber safety for practical day-to-day use.",
+  "what_youll_learn": [
+    "Core concepts, types, and applications of computers",
+    "Key hardware components and storage technologies",
+    "Operating system basics and Windows navigation",
+    "Fundamentals of software, installation, and updates",
+    "Basic skills in MS Word, Excel, and PowerPoint",
+    "Using the internet, web browsers, and email effectively",
+    "Networking essentials: LAN, WAN, Wi-Fi, and IP concepts",
+    "Cyber security, safe browsing, and password practices",
+    "Computer maintenance, backup, and basic troubleshooting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Computers",
+      "subtopics": [
+        "What is a computer?",
+        "History and evolution of computers",
+        "Types of computers: desktop, laptop, server, mobile",
+        "Applications of computers in real life",
+        "Hardware vs software"
+      ]
+    },
+    {
+      "module": "Computer Hardware Basics",
+      "subtopics": [
+        "Input devices: keyboard, mouse, scanner, webcam",
+        "Output devices: monitor, printer, speaker",
+        "CPU components: ALU, control unit, registers",
+        "Memory types: RAM, ROM, cache",
+        "Storage devices: HDD, SSD, pen drive, CD/DVD"
+      ]
+    },
+    {
+      "module": "Operating System Fundamentals",
+      "subtopics": [
+        "What is an operating system?",
+        "Types of OS: Windows, Linux, macOS",
+        "Functions of an operating system",
+        "Booting process",
+        "User interfaces: GUI vs CLI"
+      ]
+    },
+    {
+      "module": "Windows Operating System",
+      "subtopics": [
+        "Desktop, taskbar, and start menu",
+        "File and folder management",
+        "Control Panel and settings",
+        "User accounts",
+        "Basic troubleshooting in Windows",
+        "Common Windows shortcuts"
+      ]
+    },
+    {
+      "module": "Software Concepts",
+      "subtopics": [
+        "System software vs application software",
+        "Open source vs licensed software",
+        "Installing and uninstalling software",
+        "Software updates and patches"
+      ]
+    },
+    {
+      "module": "Microsoft Office Basics",
+      "subtopics": [
+        "MS Word: document creation and formatting",
+        "MS Excel: rows, columns, basic formulas",
+        "MS PowerPoint: creating presentations and slides",
+        "Basic keyboard shortcuts for productivity"
+      ]
+    },
+    {
+      "module": "Internet and Email Fundamentals",
+      "subtopics": [
+        "What is the internet?",
+        "Web browsers and search engines",
+        "Creating and using email accounts",
+        "Email attachments, CC, and BCC",
+        "Internet safety basics"
+      ]
+    },
+    {
+      "module": "Computer Networking Basics",
+      "subtopics": [
+        "What is a network?",
+        "LAN, WAN, and Wi-Fi concepts",
+        "Internet vs intranet",
+        "Basics of modem, router, and switch",
+        "IP address: basic concept"
+      ]
+    },
+    {
+      "module": "Cyber Security and Safety",
+      "subtopics": [
+        "What is cyber security?",
+        "Viruses, malware, and antivirus software",
+        "Password best practices",
+        "Phishing and online scams",
+        "Safe browsing habits"
+      ]
+    },
+    {
+      "module": "Computer Maintenance and Troubleshooting",
+      "subtopics": [
+        "Basic system troubleshooting",
+        "Common hardware issues",
+        "Software errors and simple fixes",
+        "Data backup basics",
+        "System performance tips"
+      ]
+    }
+  ],
+  "duration": "30 hours",
+  "skill_level": "Beginner",
+  "image": "https://example.com/computer-fundamentals-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Setting up and organizing a personal computer workspace",
+    "Creating documents, spreadsheets, and presentations for a small project",
+    "Configuring email, basic security, and backup for a home or small office user"
+  ]
 },{
   "course_name": "Tally with Accounting",
   "path": "tally-accounting-online-training",

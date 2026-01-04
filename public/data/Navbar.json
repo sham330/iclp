@@ -9,11 +9,11 @@
           {
             "title": "Computer & IT Basics",
             "courses": [
-              { "name": "Computer Fundamentals", "path": "" },
+              { "name": "Computer Fundamentals", "path": "/course/computer-fundamentals-training" },
               { "name": "MS Office (Word, Excel, PowerPoint)", "path": "" },
-              { "name": "Tally", "path": "/course/tally" },
-              { "name": "Internet & Networking Basics", "path": "" },
-              { "name": "Programming Basics", "path": "" }
+              { "name": "Tally", "path": "/course/tally-accounting-online-training" },
+              { "name": "Internet & Networking Basics", "path": "/course/internet-and-network-basics-training" },
+              { "name": "Programming Basics", "path": "/course/programming-basics-training" }
             ]
           },
           {
@@ -29,16 +29,16 @@
             "title": "Web & Design Basics",
             "courses": [
               { "name": "HTML / CSS Basics", "path": "/course/html-developer-online-training" },
-              { "name": "Basic Web Designing", "path": "" },
-              { "name": "Basic Graphic Designing", "path": "" }
+              { "name": "Basic Web Designing", "path": "/course/basic-web-designing-course" },
+              { "name": "Basic Graphic Designing", "path": "/course/basic-graphic-designing-course" }
             ]
           },
           {
             "title": "Others",
             "courses": [
               { "name": "Basics of Databases (SQL)", "path": "/course/msql-online-training" },
-              { "name": "Soft Tech Skills", "path": "" },
-              { "name": "Digital Literacy", "path": "" }
+              { "name": "Soft Tech Skills", "path": "/course/soft-tech-skills-training" },
+              { "name": "Digital Literacy", "path": "/course/digital-literacy-training" }
             ]
           }
         ]
