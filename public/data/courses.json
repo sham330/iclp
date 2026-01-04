@@ -10653,6 +10653,147 @@
     "Simple student record management system",
     "Pattern and number-based logic program collection"
   ]
+},{
+  "course_name": "OOPS Concepts",
+  "path": "oops-concepts-training",
+  "description": "Master object-oriented programming principles including classes, objects, encapsulation, inheritance, polymorphism, and advanced OOPS concepts with practical coding examples.",
+  "what_youll_learn": [
+    "Understand the fundamentals of object-oriented programming",
+    "Differentiate between OOPS and procedural programming approaches",
+    "Create and use classes and objects effectively",
+    "Apply encapsulation and data hiding with access specifiers",
+    "Implement abstraction using abstract classes and interfaces",
+    "Use inheritance for code reusability and method overriding",
+    "Apply polymorphism through method overloading and overriding",
+    "Work with constructors, destructors, and object lifecycle",
+    "Understand memory management, keywords, and garbage collection",
+    "Handle exceptions and errors in object-oriented programs",
+    "Explore advanced OOPS concepts like aggregation, composition, and SOLID principles"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to OOPS",
+      "subtopics": [
+        "What is object-oriented programming?",
+        "Why OOPS is important",
+        "OOPS vs procedural programming",
+        "Real-world examples of OOPS",
+        "OOPS in popular languages (C++, Java, Python)"
+      ]
+    },
+    {
+      "module": "Basic Programming Review",
+      "subtopics": [
+        "Variables and data types",
+        "Operators",
+        "Control statements",
+        "Functions and scope",
+        "Memory basics"
+      ]
+    },
+    {
+      "module": "Classes & Objects",
+      "subtopics": [
+        "What is a class?",
+        "What is an object?",
+        "Class structure",
+        "Object creation",
+        "Accessing class members"
+      ]
+    },
+    {
+      "module": "Encapsulation",
+      "subtopics": [
+        "Concept of encapsulation",
+        "Data hiding",
+        "Access specifiers: public, private, protected",
+        "Advantages of encapsulation"
+      ]
+    },
+    {
+      "module": "Abstraction",
+      "subtopics": [
+        "What is abstraction?",
+        "Abstract classes",
+        "Interfaces (concept)",
+        "Difference between abstraction and encapsulation"
+      ]
+    },
+    {
+      "module": "Inheritance",
+      "subtopics": [
+        "What is inheritance?",
+        "Types of inheritance: single, multilevel, hierarchical",
+        "Method overriding",
+        "Code reusability"
+      ]
+    },
+    {
+      "module": "Polymorphism",
+      "subtopics": [
+        "What is polymorphism?",
+        "Compile-time polymorphism (method overloading)",
+        "Runtime polymorphism (method overriding)",
+        "Real-world examples"
+      ]
+    },
+    {
+      "module": "Constructors & Destructors",
+      "subtopics": [
+        "Constructor basics",
+        "Types of constructors",
+        "Destructor concept",
+        "Object lifecycle"
+      ]
+    },
+    {
+      "module": "Memory Management & Keywords",
+      "subtopics": [
+        "Stack vs heap memory",
+        "this / self keyword",
+        "new and delete (concept)",
+        "Garbage collection (overview)"
+      ]
+    },
+    {
+      "module": "Exception Handling",
+      "subtopics": [
+        "What is an exception?",
+        "Types of exceptions",
+        "try–catch–finally",
+        "Custom exceptions (overview)",
+        "Error handling best practices"
+      ]
+    },
+    {
+      "module": "Advanced OOPS Concepts",
+      "subtopics": [
+        "Association",
+        "Aggregation",
+        "Composition",
+        "Coupling and cohesion",
+        "SOLID principles (introduction)"
+      ]
+    },
+    {
+      "module": "Practical Implementation",
+      "subtopics": [
+        "OOPS programming exercises",
+        "Real-time use cases",
+        "Mini project using OOPS",
+        "Code review and best practices"
+      ]
+    }
+  ],
+  "duration": "35–40 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/oops-concepts-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Library management system using OOPS principles",
+    "Banking application with classes, inheritance, and polymorphism",
+    "E-commerce product catalog with encapsulation and abstraction"
+  ]
 },
 {
   "course_name": "Digital Literacy",

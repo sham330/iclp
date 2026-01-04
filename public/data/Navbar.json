@@ -53,7 +53,7 @@
               { "name": "Core Java", "path": "/course/java-online-training" },
               { "name": "Python Programming", "path": "/course/python-full-stack-developer-online-training" },
               { "name": "JavaScript Training", "path": "/course/java-script-online-training" },
-              { "name": "OOPS Concepts", "path": "" },
+              { "name": "OOPS Concepts", "path": "/course/oops-concepts-training" },
               { "name": "React Basics", "path": "/course/react-js-online-training" },
               { "name": "Node.js Basics", "path": "/course/node-js-online-training" },
               { "name": "PHP / .NET Foundation", "path": "" }

@@ -15,29 +15,35 @@ import {
 } from "lucide-react"
 
 
-const RoadmapNode = ({ icon: Icon, label, step, active = false }) => (
-  <div className="relative flex flex-col items-center">
+
+
+const RoadmapNode = ({ icon: Icon, label, step, isHovered, onHover, onLeave }) => (
+  <div 
+    className="relative flex flex-col items-center"
+    onMouseEnter={onHover}
+    onMouseLeave={onLeave}
+  >
     {/* Circular Node */}
     <div className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all duration-300
-      ${active 
+      ${isHovered
         ? "bg-gradient-to-br from-[#01377d] to-blue-600 shadow-lg shadow-blue-500/30 scale-110" 
         : "bg-white border-2 border-blue-200 hover:border-blue-400"
       }`}
     >
       {/* Step Number */}
-      <div className={`absolute -top-2 -right-2 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold
-        ${active ? "bg-cyan-400 text-[#01377d]" : "bg-blue-100 text-blue-600"}
+      <div className={`absolute -top-2 -right-2 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold transition-all duration-300
+        ${isHovered ? "bg-cyan-400 text-[#01377d]" : "bg-blue-100 text-blue-600"}
       `}>
         {step}
       </div>
       
       {/* Icon */}
-      <Icon className={`w-10 h-10 ${active ? "text-white" : "text-blue-600"}`} />
+      <Icon className={`w-10 h-10 transition-colors duration-300 ${isHovered ? "text-white" : "text-blue-600"}`} />
     </div>
     
     {/* Label */}
-    <p className={`mt-4 text-sm font-semibold text-center max-w-[120px]
-      ${active ? "text-[#01377d]" : "text-gray-600"}
+    <p className={`mt-4 text-sm font-semibold text-center max-w-[120px] transition-colors duration-300
+      ${isHovered ? "text-[#01377d]" : "text-gray-600"}
     `}>
       {label.split('. ')[1]}
     </p>
@@ -45,8 +51,11 @@ const RoadmapNode = ({ icon: Icon, label, step, active = false }) => (
 )
 
 
+
+
 export default function TrainingProcedure() {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [hoveredIndex, setHoveredIndex] = useState(null)
   
   const steps = [
     { icon: UserCheck, label: "1. Joining" },
@@ -60,16 +69,22 @@ export default function TrainingProcedure() {
     { icon: Briefcase, label: "9. Job Assistance" }
   ]
 
+
+
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % steps.length)
   }
+
+
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + steps.length) % steps.length)
   }
 
+
+
   return (
-    <section className="bg-gradient-to-br from-blue-50/50 via-white to-cyan-50/50 py-20  w-full">
+    <section className="bg-gradient-to-br from-blue-50/50 via-white to-cyan-50/50 py-20 w-full">
       <div className="w-full max-w-[1400px] mx-auto px-6 lg:px-16 py-10">
         {/* Header */}
         <div className="text-center mb-16">
@@ -80,6 +95,8 @@ export default function TrainingProcedure() {
             Your journey from enrollment to employment
           </p>
         </div>
+
+
 
         {/* Desktop: Grid Layout */}
         <div className="hidden lg:block">
@@ -93,30 +110,37 @@ export default function TrainingProcedure() {
                   icon={step.icon} 
                   label={step.label} 
                   step={index + 1}
-                  active={index === 0}
+                  isHovered={hoveredIndex === index}
+                  onHover={() => setHoveredIndex(index)}
+                  onLeave={() => setHoveredIndex(null)}
                 />
               ))}
             </div>
           </div>
-          
-        
           
           {/* Bottom Row - Steps 6-9 */}
           <div className="relative">
             <div className="absolute top-12 left-0 right-0 h-0.5 bg-blue-200" />
             <div className="relative flex justify-between items-start">
-              {[...steps.slice(5, 9)].reverse().map((step, index) => (
-                <RoadmapNode 
-                  key={index + 5} 
-                  icon={step.icon} 
-                  label={step.label} 
-                  step={9 - index}
-                  active={false}
-                />
-              ))}
+              {[...steps.slice(5, 9)].reverse().map((step, index) => {
+                const actualIndex = 8 - index;
+                return (
+                  <RoadmapNode 
+                    key={actualIndex} 
+                    icon={step.icon} 
+                    label={step.label} 
+                    step={actualIndex + 1}
+                    isHovered={hoveredIndex === actualIndex}
+                    onHover={() => setHoveredIndex(actualIndex)}
+                    onLeave={() => setHoveredIndex(null)}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
+
+
 
         {/* Mobile: Slider */}
         <div className="lg:hidden">
@@ -129,14 +153,20 @@ export default function TrainingProcedure() {
               <ChevronLeft className="w-5 h-5" />
             </button>
 
+
+
             <div className="px-16">
               <RoadmapNode 
                 icon={steps[currentIndex].icon} 
                 label={steps[currentIndex].label} 
                 step={currentIndex + 1}
-                active={true}
+                isHovered={true}
+                onHover={() => {}}
+                onLeave={() => {}}
               />
             </div>
+
+
 
             <button
               onClick={nextSlide}
@@ -146,6 +176,8 @@ export default function TrainingProcedure() {
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>
+
+
 
           {/* Progress */}
           <div className="mt-12">
@@ -159,6 +191,8 @@ export default function TrainingProcedure() {
               Step {currentIndex + 1} of {steps.length}
             </p>
           </div>
+
+
 
           {/* Dots */}
           <div className="flex justify-center gap-2 mt-6">
