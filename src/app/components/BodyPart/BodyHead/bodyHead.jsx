@@ -46,11 +46,8 @@ const TechHero = () => {
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
               <span className="text-white">
-                India's Premier Hub for{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-200 to-cyan-100">
-                  Hands-On Software Learning
-                </span>
-                .
+India’s Trusted & Leading Software Training Institute for               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-200 to-cyan-100">
+ Job-Ready Skills                 </span>
               </span>
             </h1>
 

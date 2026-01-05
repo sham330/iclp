@@ -56,7 +56,7 @@
               { "name": "OOPS Concepts", "path": "/course/oops-concepts-training" },
               { "name": "React Basics", "path": "/course/react-js-online-training" },
               { "name": "Node.js Basics", "path": "/course/node-js-online-training" },
-              { "name": "PHP / .NET Foundation", "path": "" }
+              { "name": "PHP / .NET Foundation", "path": "/course/asp-net-course-training" }
             ]
           },
           {
@@ -64,7 +64,7 @@
             "courses": [
               { "name": "Web Designing", "path": "" },
               { "name": "HTML, CSS, JavaScript", "path": "" },
-              { "name": "Bootstrap", "path": "" },
+              { "name": "Bootstrap", "path": "course/bootstrap-course-training" },
               { "name": "Web Development", "path": "" }
             ]
           },
@@ -73,18 +73,19 @@
             "courses": [
               { "name": "SQL (Intermediate)", "path": "/course/msql-online-training" },
               { "name": "MySQL / PostgreSQL", "path": "/course/pl-and-sql-online-training" },
+              {"name":"PostgreSQL","path":"/course/postgresql-admin-online-training"},
               { "name": "Oracle SQL Fundamentals", "path": "/courses/oracle/oracle-sql-plsql" },
               { "name": "Software Testing", "path": "/course/software-testing-certification-course" },
               { "name": "Manual Testing", "path": "/course/manual-testing-course-online" },
-              { "name": "Basics of Automation Testing", "path": "" },
-              { "name": "API Testing (Postman Basics)", "path": "" }
+              { "name": "Basics of Automation Testing", "path": "/course/automation-testing-online-course" },
+              { "name": "API Testing (Postman Basics)", "path": "/course/api-testing-certification-training" }
             ]
           },
           {
             "title": "Systems & OS",
             "courses": [
               { "name": "Networking & OS", "path": "" },
-              { "name": "Linux Basics", "path": "" },
+              { "name": "Linux Basics", "path": "/course/linux-certification-training" },
               { "name": "Windows Server Fundamentals", "path": "/courses/windows-server" },
               { "name": "CCNA (Foundation)", "path": "/course/ccna-online-training" }
             ]
@@ -166,15 +167,15 @@
               { "name": "ChatGPT + Prompt Engineering", "path": "/course/chatgpt-online-course" },
               { "name": "LLM Development", "path": "" },
               { "name": "RAG Systems", "path": "" },
-              { "name": "AI for Automation", "path": "" },
+              { "name": "AI for Automation", "path": "/course/ai-for-automation-course" },
               { "name": "Neural Networks Advanced", "path": "" }
             ]
           },
           {
             "title": "Data Engineering",
             "courses": [
-              { "name": "Snowflake", "path": "" },
-              { "name": "Databricks", "path": "" },
+              { "name": "Snowflake", "path": "course/snowflake-certification-training" },
+              { "name": "Databricks", "path": "course/databricks-spark-certification-training" },
               { "name": "Apache Spark Advanced", "path": "" },
               { "name": "Azure Data Factory", "path": "" },
               { "name": "AWS Glue", "path": "" }

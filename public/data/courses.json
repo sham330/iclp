@@ -10796,6 +10796,2841 @@
   ]
 },
 {
+  "course_name": "Medical Coding – CPC Course",
+  "path": "medical-coding-cpc-course",
+  "description": "Master medical coding with comprehensive CPC certification training covering ICD-10-CM diagnosis coding, CPT procedure coding, HCPCS Level II, medical terminology, anatomy, billing basics, and compliance to prepare for the Certified Professional Coder exam.",
+  "what_youll_learn": [
+    "Understand US healthcare systems and medical coding workflow",
+    "Apply medical terminology, prefixes, suffixes, and abbreviations",
+    "Interpret human anatomy, physiology, and clinical documentation",
+    "Master ICD-10-CM diagnosis coding with guidelines and conventions",
+    "Code procedures using CPT including E/M services and surgery",
+    "Apply HCPCS Level II codes for supplies and DME",
+    "Use modifiers correctly for accurate claim submission",
+    "Understand medical billing and revenue cycle management",
+    "Ensure coding compliance and prevent fraud and abuse",
+    "Perform internal audits and quality checks",
+    "Prepare effectively for CPC certification exam",
+    "Improve coding accuracy and productivity with real-world scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Medical Coding & Healthcare",
+      "subtopics": [
+        "Overview of US healthcare systems and insurance landscape",
+        "Healthcare delivery models and settings",
+        "Role and responsibilities of a medical coder",
+        "Medical coding workflow from documentation to claim",
+        "Importance of accurate medical coding",
+        "Compliance requirements and ethical standards",
+        "HIPAA basics and patient privacy protection",
+        "Protected Health Information (PHI) handling",
+        "Career opportunities in medical coding"
+      ]
+    },
+    {
+      "module": "Medical Terminology Fundamentals",
+      "subtopics": [
+        "Understanding root words and their meanings",
+        "Common prefixes in medical terminology",
+        "Common suffixes and their applications",
+        "Building medical terms from components",
+        "Common medical abbreviations and acronyms",
+        "Anatomy-based terminology by body system",
+        "Disease and condition terminology",
+        "Procedural and diagnostic terminology",
+        "Clinical documentation understanding and interpretation"
+      ]
+    },
+    {
+      "module": "Human Anatomy & Physiology",
+      "subtopics": [
+        "Overview of major body systems",
+        "Integumentary system (skin, hair, nails)",
+        "Musculoskeletal system (bones, muscles, joints)",
+        "Cardiovascular system (heart, blood vessels)",
+        "Respiratory system (lungs, airways)",
+        "Digestive system (GI tract, organs)",
+        "Nervous system (brain, spinal cord, nerves)",
+        "Endocrine system (glands, hormones)",
+        "Urinary and reproductive systems",
+        "Organ functions and common diseases",
+        "Medical reports and test results interpretation"
+      ]
+    },
+    {
+      "module": "ICD-10-CM Diagnosis Coding - Fundamentals",
+      "subtopics": [
+        "ICD-10-CM code structure and format",
+        "Official coding guidelines overview",
+        "Coding conventions and instructional notes",
+        "Placeholder characters and 7th character usage",
+        "Laterality and specificity requirements",
+        "Excludes1 and Excludes2 notes",
+        "Code first and use additional code instructions",
+        "Combination codes vs multiple codes",
+        "Alphabetic Index navigation"
+      ]
+    },
+    {
+      "module": "ICD-10-CM Diagnosis Coding - Chapter-wise",
+      "subtopics": [
+        "Chapter 1: Infectious and parasitic diseases",
+        "Chapter 2: Neoplasms and tumor coding",
+        "Chapter 3: Blood and immune disorders",
+        "Chapter 4: Endocrine, nutritional, metabolic diseases",
+        "Chapter 5: Mental and behavioral disorders",
+        "Chapter 6: Nervous system diseases",
+        "Chapter 9: Circulatory system diseases",
+        "Chapter 10: Respiratory system diseases",
+        "Chapter 11: Digestive system diseases",
+        "Chapter 13: Musculoskeletal diseases",
+        "Chapter 19: Injury and trauma coding",
+        "External cause codes (Chapter 20)",
+        "Z codes for healthcare encounters",
+        "Case studies and practice scenarios"
+      ]
+    },
+    {
+      "module": "CPT Procedure Coding - Basics",
+      "subtopics": [
+        "CPT code structure and categories (I, II, III)",
+        "CPT coding guidelines and conventions",
+        "Unlisted procedure codes",
+        "Add-on codes usage",
+        "Separate procedure designation",
+        "Bundling and unbundling concepts",
+        "Global surgical package",
+        "CPT manual navigation techniques"
+      ]
+    },
+    {
+      "module": "CPT Evaluation & Management (E/M) Services",
+      "subtopics": [
+        "E/M service categories overview",
+        "Office and outpatient visits coding",
+        "Hospital inpatient services",
+        "Consultations coding (when applicable)",
+        "Emergency department services",
+        "Key components: history, examination, MDM",
+        "Time-based coding scenarios",
+        "New vs established patient determination",
+        "E/M modifiers application"
+      ]
+    },
+    {
+      "module": "CPT Surgery Section Coding",
+      "subtopics": [
+        "Surgery section organization by body system",
+        "Integumentary system procedures",
+        "Musculoskeletal procedures",
+        "Cardiovascular procedures",
+        "Digestive system procedures",
+        "Surgical approach coding",
+        "Endoscopy and laparoscopy coding",
+        "Multiple procedure coding",
+        "Surgery modifiers (25, 51, 59, etc.)"
+      ]
+    },
+    {
+      "module": "CPT Radiology, Pathology & Medicine",
+      "subtopics": [
+        "Radiology section coding basics",
+        "Pathology and laboratory coding",
+        "Medicine section services",
+        "Anesthesia coding overview",
+        "Component vs global coding",
+        "Professional vs technical components"
+      ]
+    },
+    {
+      "module": "CPT Modifiers Deep Dive",
+      "subtopics": [
+        "Purpose and importance of modifiers",
+        "Commonly used modifiers (25, 50, 51, 59, 76, 77, 78, 79)",
+        "Anatomical modifiers (LT, RT, E1-E4, FA-F9)",
+        "Modifier 22 for increased procedural services",
+        "Modifier 52 for reduced services",
+        "Modifier 53 for discontinued procedures",
+        "Multiple modifier usage rules",
+        "Modifier sequencing best practices"
+      ]
+    },
+    {
+      "module": "HCPCS Level II Coding",
+      "subtopics": [
+        "HCPCS code structure and format",
+        "Difference between CPT and HCPCS",
+        "Durable Medical Equipment (DME) coding",
+        "Supplies and materials coding",
+        "Drugs and biologicals coding",
+        "Non-physician services and procedures",
+        "Ambulance and transportation services",
+        "HCPCS modifiers usage",
+        "Temporary codes and updates"
+      ]
+    },
+    {
+      "module": "Medical Billing Basics",
+      "subtopics": [
+        "Revenue cycle management (RCM) overview",
+        "Patient registration and insurance verification",
+        "Charge capture process",
+        "Claim submission process and forms (CMS-1500, UB-04)",
+        "Insurance types overview (Medicare, Medicaid, Commercial)",
+        "Medicare Parts A, B, C, D explained",
+        "Coordination of benefits",
+        "Claim adjudication process",
+        "Denials and rejections differences",
+        "Appeals process basics",
+        "Payment posting and reconciliation"
+      ]
+    },
+    {
+      "module": "Compliance & Auditing",
+      "subtopics": [
+        "Coding compliance requirements and regulations",
+        "OIG compliance program guidance",
+        "Fraud and abuse prevention (False Claims Act)",
+        "Upcoding and downcoding risks",
+        "Medical necessity documentation",
+        "Internal audits and quality checks",
+        "Prospective vs retrospective audits",
+        "Audit findings and corrective actions",
+        "Code of conduct and ethical coding",
+        "Recovery Audit Contractors (RAC) program"
+      ]
+    },
+    {
+      "module": "CPC Exam Preparation",
+      "subtopics": [
+        "CPC exam pattern and structure",
+        "Exam eligibility and registration process",
+        "Required coding manuals and materials",
+        "Time management strategies for 150 questions",
+        "Answering techniques and shortcuts",
+        "Mock tests and practice questions",
+        "Review of difficult coding scenarios",
+        "Exam day tips and tricks",
+        "Maintaining CPC certification (CEUs)",
+        "Study plan and preparation timeline"
+      ]
+    },
+    {
+      "module": "Real-Time Coding Practice",
+      "subtopics": [
+        "Outpatient coding scenarios",
+        "Physician office visit coding",
+        "Multi-specialty coding practice",
+        "Case-based coding exercises with medical records",
+        "Operative reports coding",
+        "Radiology and pathology reports coding",
+        "E/M coding from documentation",
+        "Coding accuracy improvement techniques",
+        "Productivity and efficiency tips",
+        "Common coding errors and how to avoid them",
+        "Quality assurance best practices"
+      ]
+    }
+  ],
+  "duration": "60–70 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/medical-coding-cpc-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Complete 50+ real medical records coding exercises across specialties",
+    "Code complex surgical operative reports with multiple procedures",
+    "Process outpatient claims from documentation to submission",
+    "Conduct internal coding audit and identify compliance issues",
+    "Complete comprehensive CPC practice exam with 150 questions"
+  ]
+},
+{
+  "course_name": "Healthcare Analytics – Course",
+  "path": "healthcare-analytics-course",
+  "description": "Master healthcare analytics with comprehensive training covering data management, SQL, visualization tools, statistical analysis, predictive modeling, and real-world healthcare projects to drive data-informed decisions in healthcare organizations.",
+  "what_youll_learn": [
+    "Understand healthcare systems and the role of analytics in decision-making",
+    "Work with clinical, financial, and operational healthcare data",
+    "Apply medical coding systems (ICD, CPT, HCPCS) in analytics",
+    "Ensure data privacy and HIPAA compliance in healthcare analytics",
+    "Extract and manipulate data using SQL queries",
+    "Create interactive dashboards using Power BI and Tableau",
+    "Calculate and track healthcare KPIs and performance metrics",
+    "Apply statistical methods for healthcare outcome analysis",
+    "Build predictive models for patient risk stratification",
+    "Analyze revenue cycle, claims, and operational efficiency",
+    "Conduct clinical performance and quality measure analysis",
+    "Present healthcare analytics insights effectively to stakeholders"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Healthcare Analytics",
+      "subtopics": [
+        "Overview of healthcare systems and delivery models",
+        "Healthcare stakeholders and ecosystem",
+        "Role of analytics in healthcare decision-making",
+        "Value-based care and data-driven healthcare",
+        "Types of healthcare analytics: descriptive, predictive, prescriptive",
+        "Diagnostic analytics in healthcare",
+        "Real-world applications of healthcare analytics",
+        "Career paths and job roles in healthcare analytics",
+        "Skills required for healthcare data analysts",
+        "Industry trends and future of healthcare analytics"
+      ]
+    },
+    {
+      "module": "Healthcare Data & Standards",
+      "subtopics": [
+        "Types of healthcare data: clinical, financial, operational",
+        "Structured vs unstructured healthcare data",
+        "Electronic Health Records (EHR) and EMR data",
+        "Medical terminologies overview",
+        "ICD-10-CM diagnosis coding for analytics",
+        "CPT procedure coding basics",
+        "HCPCS codes and their use in analytics",
+        "Healthcare data standards: HL7 overview",
+        "FHIR (Fast Healthcare Interoperability Resources) basics",
+        "Data privacy regulations and importance",
+        "HIPAA compliance fundamentals",
+        "Protected Health Information (PHI) handling",
+        "De-identification and anonymization techniques"
+      ]
+    },
+    {
+      "module": "Data Management & Preparation",
+      "subtopics": [
+        "Data collection methods in healthcare",
+        "Primary vs secondary data sources",
+        "Data quality assessment",
+        "Data cleaning techniques and best practices",
+        "Preprocessing healthcare datasets",
+        "Handling missing data imputation methods",
+        "Dealing with inconsistent and duplicate data",
+        "Data transformation and normalization",
+        "Outlier detection and treatment",
+        "Working with real healthcare datasets",
+        "Data documentation and metadata management"
+      ]
+    },
+    {
+      "module": "SQL for Healthcare Analytics",
+      "subtopics": [
+        "Database concepts and relational database management",
+        "Understanding healthcare database schemas",
+        "SQL fundamentals and syntax",
+        "SELECT statements and filtering data",
+        "JOIN operations (INNER, LEFT, RIGHT, FULL)",
+        "Aggregation functions (COUNT, SUM, AVG, MIN, MAX)",
+        "GROUP BY and HAVING clauses",
+        "Subqueries and nested queries",
+        "Date and time functions for healthcare data",
+        "Data extraction from patient and claims databases",
+        "Writing queries for common healthcare scenarios",
+        "Case studies using hospital operational data"
+      ]
+    },
+    {
+      "module": "Excel for Healthcare Reporting",
+      "subtopics": [
+        "Advanced Excel functions (VLOOKUP, INDEX-MATCH, IF statements)",
+        "Array formulas and dynamic arrays",
+        "Pivot tables for healthcare data analysis",
+        "Pivot charts and slicers",
+        "Conditional formatting for data visualization",
+        "Creating interactive Excel dashboards",
+        "Healthcare KPIs and metrics tracking",
+        "Patient volume and demographic analysis",
+        "Financial performance metrics",
+        "Report automation using Excel macros (basic)",
+        "Data validation and error checking",
+        "Best practices for healthcare reporting in Excel"
+      ]
+    },
+    {
+      "module": "Data Visualization & BI Tools",
+      "subtopics": [
+        "Introduction to Business Intelligence (BI) concepts",
+        "Overview of Power BI and Tableau",
+        "Connecting to healthcare data sources",
+        "Data modeling in Power BI/Tableau",
+        "Creating calculated fields and measures",
+        "Building healthcare dashboards and reports",
+        "Visualizing patient demographics and admissions",
+        "Financial performance dashboards",
+        "Operational efficiency visualizations",
+        "Interactive filters and parameters",
+        "Dashboard design best practices for healthcare",
+        "Storytelling with healthcare data",
+        "Publishing and sharing dashboards"
+      ]
+    },
+    {
+      "module": "Statistical Analysis for Healthcare",
+      "subtopics": [
+        "Introduction to statistics in healthcare",
+        "Descriptive statistics (mean, median, mode, standard deviation)",
+        "Data distributions and visualization",
+        "Probability concepts and applications",
+        "Normal, binomial, and Poisson distributions",
+        "Sampling methods and sample size determination",
+        "Hypothesis testing fundamentals",
+        "T-tests, chi-square tests, and ANOVA basics",
+        "Confidence intervals and p-values",
+        "Correlation and regression analysis introduction",
+        "Healthcare outcome analysis techniques",
+        "Statistical significance vs clinical significance"
+      ]
+    },
+    {
+      "module": "Predictive Analytics in Healthcare",
+      "subtopics": [
+        "Introduction to predictive modeling concepts",
+        "Machine learning basics for healthcare",
+        "Supervised vs unsupervised learning",
+        "Risk stratification models",
+        "Patient outcome prediction techniques",
+        "Readmission prediction models",
+        "Length-of-stay (LOS) analysis and forecasting",
+        "Disease progression modeling",
+        "Population health analytics approaches",
+        "High-risk patient identification",
+        "Model evaluation metrics (accuracy, precision, recall, ROC)",
+        "Ethical considerations in predictive healthcare analytics"
+      ]
+    },
+    {
+      "module": "Healthcare Financial & Operational Analytics",
+      "subtopics": [
+        "Revenue cycle management analytics",
+        "Charge capture and billing analysis",
+        "Payment collection and accounts receivable metrics",
+        "Cost analysis and cost-per-case calculation",
+        "Resource utilization analysis",
+        "Claims processing and adjudication analytics",
+        "Denial analytics and denial management",
+        "Payer mix analysis",
+        "Operational efficiency metrics (bed occupancy, OR utilization)",
+        "Capacity planning and forecasting",
+        "Patient flow and throughput analysis",
+        "Productivity metrics for clinical staff"
+      ]
+    },
+    {
+      "module": "Public Health & Clinical Analytics",
+      "subtopics": [
+        "Epidemiology basics and concepts",
+        "Disease surveillance and monitoring",
+        "Disease trend analysis and forecasting",
+        "Outbreak detection and response",
+        "Mortality and morbidity analysis",
+        "Clinical performance indicators",
+        "Quality measures and HEDIS metrics",
+        "Patient safety indicators (PSI)",
+        "Healthcare-associated infection (HAI) tracking",
+        "Outcome tracking and benchmarking",
+        "Clinical pathway analysis",
+        "Comparative effectiveness research basics"
+      ]
+    },
+    {
+      "module": "Tools & Technologies Overview",
+      "subtopics": [
+        "Python for healthcare analytics (basic overview)",
+        "Python libraries: Pandas, NumPy, Matplotlib",
+        "R programming basics for healthcare (overview)",
+        "Statistical analysis with R packages",
+        "Cloud analytics platforms overview (Azure, AWS, GCP)",
+        "Cloud-based healthcare data warehousing",
+        "Introduction to AI and Machine Learning in healthcare",
+        "Natural Language Processing (NLP) for clinical notes",
+        "Computer vision applications in medical imaging",
+        "Big data technologies in healthcare (Hadoop, Spark overview)",
+        "Real-time analytics and streaming data"
+      ]
+    },
+    {
+      "module": "Real-Time Projects & Case Studies - Part 1",
+      "subtopics": [
+        "Project planning and scoping in healthcare analytics",
+        "End-to-end healthcare analytics project workflow",
+        "Hospital performance dashboard project",
+        "Data collection and preparation",
+        "KPI identification and metric calculation",
+        "Dashboard design and development",
+        "Patient outcome analysis project",
+        "Cohort identification and analysis",
+        "Statistical testing and interpretation"
+      ]
+    },
+    {
+      "module": "Real-Time Projects & Case Studies - Part 2",
+      "subtopics": [
+        "Readmission analysis case study",
+        "Emergency department wait time analysis",
+        "Claims denial reduction project",
+        "Population health management analytics",
+        "Quality measure improvement project",
+        "Presentation skills for healthcare analytics",
+        "Creating executive summaries",
+        "Data storytelling techniques",
+        "Documentation and report writing",
+        "Stakeholder communication best practices"
+      ]
+    },
+    {
+      "module": "Career Development & Industry Preparation",
+      "subtopics": [
+        "Healthcare analyst job roles and career progression",
+        "Building a healthcare analytics portfolio",
+        "Resume preparation for analytics roles",
+        "Interview preparation and common questions",
+        "Healthcare domain knowledge for interviews",
+        "Certifications in healthcare analytics",
+        "Professional networking in healthcare analytics",
+        "Staying updated with industry trends",
+        "Freelancing and consulting opportunities"
+      ]
+    }
+  ],
+  "duration": "65–75 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/healthcare-analytics-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a comprehensive hospital performance dashboard with key operational metrics",
+    "Conduct patient readmission risk analysis with predictive modeling",
+    "Create revenue cycle analytics dashboard tracking claims and denials",
+    "Analyze emergency department patient flow and wait time optimization",
+    "Develop population health analytics report with disease trend analysis"
+  ]
+},
+{
+  "course_name": "Hospital Administration – Course",
+  "path": "hospital-administration-course",
+  "description": "Master hospital administration with comprehensive training covering healthcare operations, human resources, finance, quality management, information systems, compliance, and strategic management to lead healthcare organizations effectively.",
+  "what_youll_learn": [
+    "Understand healthcare systems and hospital organizational structures",
+    "Manage hospital operations including OPD, IPD, and emergency services",
+    "Coordinate medical, nursing, and administrative departments effectively",
+    "Implement healthcare human resource management strategies",
+    "Manage hospital finance, budgeting, and revenue cycle",
+    "Apply quality management principles and NABH accreditation standards",
+    "Utilize hospital information systems and electronic health records",
+    "Ensure compliance with healthcare laws, ethics, and regulations",
+    "Manage materials, supply chain, and procurement processes",
+    "Develop healthcare marketing and patient satisfaction strategies",
+    "Prepare for disaster management and emergency response",
+    "Implement patient safety and risk management protocols"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Hospital Administration",
+      "subtopics": [
+        "Overview of global and Indian healthcare systems",
+        "Evolution of healthcare delivery",
+        "Role and responsibilities of hospital administrators",
+        "Skills required for effective hospital management",
+        "Types of hospitals (primary, secondary, tertiary)",
+        "Public vs private healthcare organizations",
+        "Specialty hospitals and super-specialty centers",
+        "Healthcare delivery models (PPP, corporate chains)",
+        "Current challenges in healthcare administration",
+        "Career pathways in hospital administration"
+      ]
+    },
+    {
+      "module": "Hospital Organization & Management",
+      "subtopics": [
+        "Hospital organizational structure and hierarchy",
+        "Governance and board of directors",
+        "Clinical departments and their functions",
+        "Administrative departments overview",
+        "Medical services organization",
+        "Nursing services management",
+        "Diagnostic and therapeutic services",
+        "Administrative and support services",
+        "Interdepartmental coordination mechanisms",
+        "Communication channels in hospitals",
+        "Committee structures and decision-making"
+      ]
+    },
+    {
+      "module": "Healthcare Operations Management",
+      "subtopics": [
+        "Outpatient Department (OPD) management",
+        "Registration and appointment scheduling",
+        "Inpatient Department (IPD) operations",
+        "Admission, discharge, and transfer (ADT) processes",
+        "Emergency department management",
+        "Triage systems and protocols",
+        "Patient flow optimization",
+        "Bed management and capacity planning",
+        "Operating room scheduling",
+        "Resource utilization and efficiency",
+        "Hospital support services (housekeeping, laundry, food services)",
+        "Facilities management"
+      ]
+    },
+    {
+      "module": "Healthcare Human Resource Management",
+      "subtopics": [
+        "Workforce planning in healthcare",
+        "Recruitment strategies for medical and non-medical staff",
+        "Staffing models and ratios",
+        "Onboarding and orientation programs",
+        "Training and development initiatives",
+        "Continuing medical education (CME)",
+        "Performance management systems",
+        "Performance appraisal methods",
+        "Employee engagement and retention",
+        "Labor laws applicable to healthcare",
+        "HR policies and employee handbook",
+        "Conflict resolution and grievance handling",
+        "Workforce diversity and inclusion"
+      ]
+    },
+    {
+      "module": "Hospital Finance & Accounting",
+      "subtopics": [
+        "Healthcare finance fundamentals",
+        "Sources of hospital revenue",
+        "Financial statements interpretation",
+        "Budgeting process in hospitals",
+        "Capital and operational budgeting",
+        "Cost accounting and cost control",
+        "Pricing strategies for healthcare services",
+        "Revenue cycle management (RCM)",
+        "Patient registration to payment collection",
+        "Billing systems and procedures",
+        "Insurance types and coverage",
+        "Claims processing and reimbursement",
+        "Denial management",
+        "Financial performance indicators"
+      ]
+    },
+    {
+      "module": "Quality Management in Healthcare",
+      "subtopics": [
+        "Quality concepts in healthcare",
+        "Quality indicators and key performance indicators (KPIs)",
+        "Clinical quality metrics",
+        "NABH (National Accreditation Board for Hospitals) standards",
+        "NABH accreditation process and requirements",
+        "JCI (Joint Commission International) overview",
+        "ISO certification for healthcare",
+        "Continuous quality improvement (CQI) methodologies",
+        "Plan-Do-Study-Act (PDSA) cycle",
+        "Root cause analysis and corrective actions",
+        "Patient safety programs",
+        "Risk management in healthcare",
+        "Incident reporting systems",
+        "Morbidity and mortality reviews"
+      ]
+    },
+    {
+      "module": "Healthcare Information Systems",
+      "subtopics": [
+        "Hospital Information Systems (HIS) overview",
+        "HIS modules and functionality",
+        "Electronic Medical Records (EMR) vs Electronic Health Records (EHR)",
+        "Benefits and challenges of digitalization",
+        "Laboratory Information Systems (LIS)",
+        "Radiology Information Systems (RIS) and PACS",
+        "Pharmacy Management Systems",
+        "Data management and analytics",
+        "Patient data confidentiality and security",
+        "Health Information Exchange (HIE)",
+        "Telemedicine and digital health technologies",
+        "Mobile health (mHealth) applications",
+        "Artificial Intelligence in healthcare administration"
+      ]
+    },
+    {
+      "module": "Healthcare Laws, Ethics & Compliance",
+      "subtopics": [
+        "Medical ethics principles and codes",
+        "Ethical dilemmas in healthcare",
+        "Patient rights and responsibilities",
+        "Informed consent procedures",
+        "Medico-legal cases and documentation",
+        "Medical negligence and malpractice",
+        "Healthcare regulations in India",
+        "Clinical Establishments Act",
+        "Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act",
+        "Medical Termination of Pregnancy (MTP) Act",
+        "Mental Healthcare Act",
+        "Consumer Protection Act applications",
+        "Infection control policies and guidelines",
+        "Biomedical waste management rules",
+        "HIPAA principles (international context)"
+      ]
+    },
+    {
+      "module": "Materials & Supply Chain Management",
+      "subtopics": [
+        "Procurement process in hospitals",
+        "Vendor selection and evaluation",
+        "Contract management",
+        "Inventory management techniques",
+        "ABC and VED analysis",
+        "Just-in-time (JIT) inventory",
+        "Pharmacy management and drug inventory",
+        "Formulary management",
+        "Medical stores management",
+        "Sterile supplies and instruments",
+        "Equipment management and maintenance",
+        "Preventive maintenance schedules",
+        "Biomedical waste management",
+        "Waste segregation and disposal protocols",
+        "Central Sterile Supply Department (CSSD) management"
+      ]
+    },
+    {
+      "module": "Marketing & Public Relations in Healthcare",
+      "subtopics": [
+        "Healthcare marketing fundamentals",
+        "Marketing strategies for hospitals",
+        "Service line development",
+        "Patient acquisition and retention",
+        "Patient satisfaction measurement",
+        "Patient feedback systems",
+        "Complaint management and resolution",
+        "Branding and reputation management",
+        "Digital marketing in healthcare",
+        "Social media strategies for hospitals",
+        "Community outreach programs",
+        "Health camps and awareness campaigns",
+        "Corporate partnerships and tie-ups",
+        "Media relations and public relations"
+      ]
+    },
+    {
+      "module": "Disaster & Emergency Management",
+      "subtopics": [
+        "Emergency preparedness planning",
+        "Disaster management framework",
+        "Hospital emergency response plan",
+        "Mass casualty incident (MCI) management",
+        "Triage in disaster situations",
+        "Infection outbreak management",
+        "Epidemic and pandemic preparedness",
+        "Crisis communication strategies",
+        "Business continuity planning",
+        "Occupational health and safety",
+        "Fire safety and evacuation procedures",
+        "Security management in hospitals",
+        "Psychological support during crises"
+      ]
+    },
+    {
+      "module": "Strategic Healthcare Management",
+      "subtopics": [
+        "Strategic planning in healthcare organizations",
+        "SWOT analysis for hospitals",
+        "Vision, mission, and values development",
+        "Change management in healthcare",
+        "Leadership styles and competencies",
+        "Healthcare policy and advocacy",
+        "Expansion and diversification strategies",
+        "Mergers and acquisitions in healthcare"
+      ]
+    },
+    {
+      "module": "Case Studies & Practical Applications",
+      "subtopics": [
+        "Real-world hospital administration case studies",
+        "Problem-solving in hospital operations",
+        "Quality improvement project examples",
+        "Financial turnaround case studies",
+        "Technology implementation success stories",
+        "Crisis management real-life scenarios",
+        "Best practices from leading hospitals",
+        "Mock hospital administration exercises",
+        "Role-play and simulation activities"
+      ]
+    },
+    {
+      "module": "Career Development & Industry Preparation",
+      "subtopics": [
+        "Hospital administrator job roles and responsibilities",
+        "Resume building for healthcare management",
+        "Interview preparation for hospital administration roles",
+        "Professional certifications in healthcare management",
+        "Networking in healthcare industry",
+        "Continuing professional development",
+        "Entrepreneurship in healthcare sector"
+      ]
+    }
+  ],
+  "duration": "70–80 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/hospital-administration-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Develop a comprehensive hospital operations improvement plan",
+    "Create a quality improvement project with NABH standards implementation",
+    "Design a complete revenue cycle management optimization strategy",
+    "Prepare a disaster management and emergency response plan for a hospital",
+    "Conduct a hospital department workflow analysis with recommendations"
+  ]
+},
+{
+  "course_name": "Food Technology – Course",
+  "path": "food-technology-course",
+  "description": "Master food technology with comprehensive training covering food chemistry, microbiology, processing, preservation, quality control, safety regulations, packaging, and product development to build a successful career in the food processing industry.",
+  "what_youll_learn": [
+    "Understand the scope and importance of food technology in modern industry",
+    "Master food chemistry including composition and chemical reactions",
+    "Apply food microbiology principles for safety and fermentation",
+    "Implement various food processing and preservation techniques",
+    "Design food processing operations using engineering principles",
+    "Conduct quality control and sensory evaluation of food products",
+    "Apply GMP and HACCP systems for food safety management",
+    "Understand food safety regulations including FSSAI and ISO standards",
+    "Select appropriate packaging materials for different food products",
+    "Develop new food products from concept to commercialization",
+    "Apply biotechnology tools in food processing",
+    "Conduct quality audits and inspections in food facilities"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Food Technology",
+      "subtopics": [
+        "Definition and scope of food technology",
+        "Importance of food technology in society",
+        "Food processing industry overview globally and in India",
+        "Major sectors in food industry (dairy, bakery, beverages, etc.)",
+        "Food safety and quality concepts introduction",
+        "Food security and sustainability challenges",
+        "Career opportunities in food technology",
+        "Academic and professional pathways",
+        "Current trends and future outlook"
+      ]
+    },
+    {
+      "module": "Food Chemistry Fundamentals",
+      "subtopics": [
+        "Composition of foods and nutritional value",
+        "Carbohydrates: structure, types, and functions",
+        "Proteins: amino acids, structure, and denaturation",
+        "Fats and oils: lipid chemistry and oxidation",
+        "Vitamins: classification and stability",
+        "Minerals and their role in foods",
+        "Water activity and its importance",
+        "Food additives: types and functions",
+        "Preservatives and antimicrobial agents",
+        "Chemical reactions in food processing (Maillard, caramelization)",
+        "Enzymatic and non-enzymatic browning"
+      ]
+    },
+    {
+      "module": "Food Microbiology",
+      "subtopics": [
+        "Introduction to microorganisms in foods",
+        "Bacteria, yeasts, and molds in food systems",
+        "Microbial growth factors and conditions",
+        "Food spoilage mechanisms and indicators",
+        "Foodborne diseases and pathogens",
+        "Common foodborne bacteria (Salmonella, E. coli, Listeria)",
+        "Fermentation technology principles",
+        "Fermented foods and beverages production",
+        "Probiotics and starter cultures",
+        "Control and elimination of microorganisms",
+        "Sanitization and disinfection methods"
+      ]
+    },
+    {
+      "module": "Food Processing & Preservation Techniques",
+      "subtopics": [
+        "Principles of food preservation",
+        "Thermal processing methods overview",
+        "Pasteurization: types and applications",
+        "Sterilization: commercial and UHT processing",
+        "Drying and dehydration techniques",
+        "Freezing and cold storage principles",
+        "Refrigeration systems and applications",
+        "Canning technology and can processing",
+        "Packaging techniques for preservation",
+        "Novel preservation methods (irradiation, HPP, pulsed electric field)",
+        "Hurdle technology concept"
+      ]
+    },
+    {
+      "module": "Food Engineering Principles",
+      "subtopics": [
+        "Unit operations in food processing overview",
+        "Material and energy balance basics",
+        "Heat transfer mechanisms in food processing",
+        "Mass transfer and diffusion principles",
+        "Fluid flow and rheology of foods",
+        "Size reduction and mixing equipment",
+        "Separation processes (filtration, centrifugation)",
+        "Evaporation and distillation in food industry",
+        "Food processing equipment and machinery",
+        "Plant layout design and workflow optimization",
+        "Sanitation and hygiene in food plants"
+      ]
+    },
+    {
+      "module": "Food Quality Control & Assurance",
+      "subtopics": [
+        "Quality concepts in food industry",
+        "Quality control vs quality assurance",
+        "Sampling and statistical quality control",
+        "Physical, chemical, and microbiological testing",
+        "Sensory evaluation of foods",
+        "Sensory testing methods (discrimination, descriptive, affective)",
+        "Panel selection and training",
+        "Good Manufacturing Practices (GMP) principles",
+        "Standard Operating Procedures (SOPs)",
+        "Hazard Analysis and Critical Control Points (HACCP)",
+        "HACCP plan development and implementation",
+        "Critical control points identification"
+      ]
+    },
+    {
+      "module": "Food Safety & Regulatory Compliance",
+      "subtopics": [
+        "Food safety standards and their importance",
+        "Food safety laws in India overview",
+        "FSSAI (Food Safety and Standards Authority of India) regulations",
+        "License and registration requirements",
+        "International food safety standards",
+        "ISO 22000 food safety management system",
+        "Codex Alimentarius guidelines",
+        "FDA and USDA regulations overview",
+        "Food labeling requirements and regulations",
+        "Nutritional labeling standards",
+        "Allergen labeling and warnings",
+        "Import-export documentation and compliance"
+      ]
+    },
+    {
+      "module": "Food Packaging Technology",
+      "subtopics": [
+        "Functions of food packaging",
+        "Packaging materials: plastics, glass, metal, paper",
+        "Properties and selection criteria for packaging materials",
+        "Active and intelligent packaging systems",
+        "Modified atmosphere packaging (MAP)",
+        "Vacuum packaging techniques",
+        "Aseptic packaging technology",
+        "Shelf-life extension through packaging",
+        "Sustainable and eco-friendly packaging alternatives",
+        "Biodegradable and edible packaging materials",
+        "Packaging regulations and standards",
+        "Package design and consumer appeal"
+      ]
+    },
+    {
+      "module": "Food Product Development",
+      "subtopics": [
+        "New product development (NPD) process stages",
+        "Market research and consumer needs analysis",
+        "Concept generation and screening",
+        "Product formulation and recipe development",
+        "Ingredient functionality and optimization",
+        "Prototype development and testing",
+        "Sensory evaluation in product development",
+        "Consumer testing and acceptance",
+        "Shelf-life studies and stability testing",
+        "Cost analysis and pricing strategy",
+        "Scale-up from lab to pilot to commercial production",
+        "Commercialization and market launch"
+      ]
+    },
+    {
+      "module": "Food Biotechnology Basics",
+      "subtopics": [
+        "Introduction to food biotechnology",
+        "Enzymes in food processing applications",
+        "Enzyme sources and production",
+        "Immobilized enzymes in food industry",
+        "Genetically modified organisms (GMO) overview",
+        "Benefits and concerns of GM foods",
+        "Probiotics: definition and health benefits",
+        "Prebiotic foods and ingredients",
+        "Functional foods and nutraceuticals",
+        "Fermentation biotechnology",
+        "Biopreservation techniques"
+      ]
+    },
+    {
+      "module": "Food Analysis & Testing Methods",
+      "subtopics": [
+        "Proximate analysis of foods",
+        "Moisture content determination",
+        "Protein analysis methods (Kjeldahl, Biuret)",
+        "Fat extraction techniques",
+        "Carbohydrate analysis",
+        "pH and acidity measurements",
+        "Instrumental analysis techniques (HPLC, GC)",
+        "Microbiological testing procedures",
+        "Rapid testing methods in food industry"
+      ]
+    },
+    {
+      "module": "Industrial Training & Case Studies",
+      "subtopics": [
+        "Food industry case studies analysis",
+        "Dairy processing industry operations",
+        "Bakery and confectionery production",
+        "Beverage manufacturing processes",
+        "Fruit and vegetable processing",
+        "Quality audits and inspection procedures",
+        "Internal audit checklist preparation",
+        "Supplier audit and evaluation",
+        "Industrial exposure and internship overview",
+        "Factory visit observations and learning",
+        "Problem-solving in real production scenarios",
+        "Industry best practices and benchmarking"
+      ]
+    },
+    {
+      "module": "Career Development & Industry Preparation",
+      "subtopics": [
+        "Resume building for food technology roles",
+        "Interview preparation and common questions",
+        "Food technologist job roles and responsibilities",
+        "Quality assurance manager career path",
+        "R&D roles in food industry",
+        "Regulatory affairs specialist opportunities",
+        "Entrepreneurship in food business",
+        "Professional certifications in food technology",
+        "Networking and industry connections"
+      ]
+    }
+  ],
+  "duration": "70–80 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/food-technology-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Develop a new functional food product from concept to prototype",
+    "Conduct complete quality audit of a food processing unit",
+    "Design HACCP plan for a specific food processing operation",
+    "Analyze shelf-life extension through different packaging methods",
+    "Create comprehensive product formulation with cost analysis"
+  ]
+},
+{
+  "course_name": "AI for Automation – Course",
+  "path": "ai-for-automation-course",
+  "description": "Master AI-driven automation with comprehensive training covering machine learning, intelligent RPA, NLP, computer vision, and cloud integration to build end-to-end automated workflows that transform business processes.",
+  "what_youll_learn": [
+    "Understand AI, machine learning, and intelligent automation fundamentals",
+    "Differentiate between traditional automation and AI-driven automation",
+    "Write Python scripts for automation tasks and workflows",
+    "Handle and preprocess data using Pandas and NumPy libraries",
+    "Apply machine learning concepts to automation scenarios",
+    "Implement NLP techniques for text processing and sentiment analysis",
+    "Use computer vision for OCR and image recognition tasks",
+    "Integrate AI models with RPA tools like UiPath and Power Automate",
+    "Automate document processing, invoice extraction, and data entry",
+    "Build chatbots and virtual assistants for customer support",
+    "Connect AI services through APIs and cloud platforms",
+    "Design and deploy end-to-end AI-powered automation projects"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to AI & Automation",
+      "subtopics": [
+        "What is Artificial Intelligence (AI)",
+        "Understanding Machine Learning (ML) basics",
+        "Intelligent automation concepts and benefits",
+        "Traditional automation vs AI-driven automation comparison",
+        "Use cases of AI in business automation across industries",
+        "Overview of RPA + AI ecosystem and tools",
+        "Future trends in intelligent automation",
+        "Automation maturity model"
+      ]
+    },
+    {
+      "module": "Python for Automation",
+      "subtopics": [
+        "Python basics and syntax for automation",
+        "Working with variables, data types, and operators",
+        "Control structures (loops, conditionals)",
+        "Functions and modular programming",
+        "File handling and reading/writing operations",
+        "Creating automation scripts for repetitive tasks",
+        "Error handling and debugging",
+        "Using Python libraries for automation (os, sys, datetime)",
+        "Virtual environments and package management"
+      ]
+    },
+    {
+      "module": "Data Handling for AI Automation",
+      "subtopics": [
+        "Understanding data types and structures",
+        "Data collection and preparation techniques",
+        "Data cleaning and handling missing values",
+        "Data preprocessing and transformation",
+        "Working with CSV and Excel files",
+        "Database connectivity and SQL basics",
+        "Introduction to Pandas for data manipulation",
+        "Introduction to NumPy for numerical operations",
+        "Data visualization basics with Matplotlib"
+      ]
+    },
+    {
+      "module": "Machine Learning Basics for Automation",
+      "subtopics": [
+        "Introduction to machine learning concepts",
+        "Supervised learning algorithms and use cases",
+        "Unsupervised learning and clustering",
+        "Regression concepts and applications",
+        "Classification techniques and models",
+        "Model training process and best practices",
+        "Model evaluation metrics and validation",
+        "ML models used in automation scenarios",
+        "Introduction to Scikit-learn library"
+      ]
+    },
+    {
+      "module": "AI Techniques Used in Automation",
+      "subtopics": [
+        "Natural Language Processing (NLP) fundamentals",
+        "Text preprocessing and tokenization",
+        "Text extraction from documents",
+        "Sentiment analysis implementation",
+        "Named Entity Recognition (NER)",
+        "Computer Vision basics and applications",
+        "OCR (Optical Character Recognition) techniques",
+        "Image recognition and classification",
+        "AI-powered decision-making systems",
+        "Rule engines vs ML-based decisions"
+      ]
+    },
+    {
+      "module": "Intelligent RPA (RPA + AI)",
+      "subtopics": [
+        "Overview of RPA tools (UiPath, Automation Anywhere, Power Automate)",
+        "RPA architecture and components",
+        "Integrating AI models with RPA workflows",
+        "Document understanding and intelligent document processing",
+        "Invoice automation and data extraction",
+        "Form processing automation",
+        "Email automation with AI classification",
+        "Chatbots and virtual assistants in automation",
+        "Attended vs unattended automation"
+      ]
+    },
+    {
+      "module": "Process Automation Use Cases",
+      "subtopics": [
+        "Email reading and ticket automation",
+        "Automated email response generation",
+        "Document classification using ML",
+        "Data extraction from unstructured documents",
+        "Customer support automation workflows",
+        "Finance automation scenarios (invoice processing, reconciliation)",
+        "HR automation use cases (resume screening, onboarding)",
+        "Report generation and distribution automation",
+        "Process mining and optimization"
+      ]
+    },
+    {
+      "module": "Cloud & API Integration",
+      "subtopics": [
+        "Basics of APIs and RESTful web services",
+        "API authentication and security",
+        "Making API calls with Python (requests library)",
+        "Azure AI services overview and integration",
+        "OpenAI API and GPT models integration",
+        "Google Cloud AI services overview",
+        "Automating workflows using cloud AI services",
+        "Webhook integration and event-driven automation",
+        "Cloud storage integration (AWS S3, Azure Blob)"
+      ]
+    },
+    {
+      "module": "Advanced Automation Concepts",
+      "subtopics": [
+        "Exception handling in automation workflows",
+        "Logging and monitoring automation processes",
+        "Queue management and orchestration",
+        "Scaling automation solutions",
+        "Security best practices in automation",
+        "Governance and compliance considerations",
+        "Version control for automation projects"
+      ]
+    },
+    {
+      "module": "Real-Time Projects",
+      "subtopics": [
+        "End-to-end AI-powered automation project planning",
+        "Designing automation workflows and architecture",
+        "Data collection and model training",
+        "AI model integration with automation platform",
+        "Testing and quality assurance",
+        "Deployment basics and production considerations",
+        "Monitoring and maintenance strategies",
+        "Project documentation and handover"
+      ]
+    },
+    {
+      "module": "Career Preparation",
+      "subtopics": [
+        "Automation architect role overview and responsibilities",
+        "Skills required for AI automation professionals",
+        "Resume building for automation roles",
+        "Interview preparation and common questions",
+        "Portfolio creation with automation projects",
+        "Automation + AI career roadmap and progression",
+        "Industry best practices and certifications",
+        "Networking and continuous learning resources",
+        "Freelancing vs corporate automation roles"
+      ]
+    },
+    {
+      "module": "Hands-On Capstone Project",
+      "subtopics": [
+        "Define business problem and automation opportunity",
+        "Design complete automation solution architecture",
+        "Implement AI models for decision-making",
+        "Build RPA workflows with AI integration",
+        "Deploy and test the complete solution",
+        "Create documentation and user guides",
+        "Present project to stakeholders"
+      ]
+    }
+  ],
+  "duration": "50–60 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/ai-for-automation-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build an intelligent invoice processing system with OCR and data extraction",
+    "Create an AI-powered customer support chatbot with sentiment analysis",
+    "Develop automated resume screening system using NLP and ML classification",
+    "Design email automation workflow with intelligent categorization and routing",
+    "Implement end-to-end document processing pipeline with cloud AI services"
+  ]
+},
+{
+  "course_name": "Linux Certification Training",
+  "path": "linux-certification-training",
+  "description": "Master Linux system administration with comprehensive training covering fundamentals, file systems, shell scripting, networking, security, and system management to prepare for Linux certification exams and real-world administration tasks.",
+  "what_youll_learn": [
+    "Understand Linux operating system architecture and distributions",
+    "Navigate and manage Linux file system with command-line tools",
+    "Configure file and directory permissions with proper security",
+    "Use powerful text processing utilities like grep, awk, and sed",
+    "Manage processes, monitor system performance, and control resources",
+    "Create and manage users, groups, and access control policies",
+    "Write and execute shell scripts for task automation",
+    "Configure network settings and troubleshoot connectivity issues",
+    "Manage disk partitions, file systems, and storage devices",
+    "Control system services and understand the boot process",
+    "Implement security measures using firewall and SELinux",
+    "Monitor system logs and perform routine administrative tasks"
+  ],
+  "syllabus": [
+    {
+      "module": "Linux Fundamentals",
+      "subtopics": [
+        "Introduction to Linux operating system and history",
+        "Understanding Linux architecture and kernel",
+        "Overview of Linux distributions (Ubuntu, CentOS, RHEL, Debian)",
+        "Installation types and boot options",
+        "Working with Linux terminal and command structure",
+        "Basic file and directory operations (ls, cd, mkdir, rm)",
+        "Understanding Linux directory hierarchy (/, /home, /etc, /var)",
+        "Introduction to package managers (apt, yum, dnf)",
+        "Getting help with man pages and documentation"
+      ]
+    },
+    {
+      "module": "Linux File System & Permissions",
+      "subtopics": [
+        "Understanding file types in Linux",
+        "Inode structure and file metadata",
+        "Managing file and directory permissions (read, write, execute)",
+        "Working with ownership and group settings",
+        "Using chmod for permission modification",
+        "Using chown and chgrp for ownership changes",
+        "Understanding symbolic (soft) links",
+        "Understanding hard links and differences",
+        "Disk mounting and unmounting concepts",
+        "Working with /etc/fstab for permanent mounts",
+        "Managing file attributes with chattr and lsattr"
+      ]
+    },
+    {
+      "module": "Linux Command Line Utilities",
+      "subtopics": [
+        "Essential Linux commands overview",
+        "Text processing using grep for pattern matching",
+        "Advanced text manipulation with awk",
+        "Stream editing with sed",
+        "File viewing tools (cat, less, more, head, tail)",
+        "Text editing with vi/vim and nano",
+        "Input and output redirection (>, <, >>)",
+        "Pipes for command chaining (|)",
+        "Searching files with find and locate",
+        "Filtering data efficiently",
+        "Command history navigation and search",
+        "Creating and managing aliases",
+        "Environment variables and PATH configuration"
+      ]
+    },
+    {
+      "module": "Process & System Management",
+      "subtopics": [
+        "Understanding processes and process states",
+        "Process hierarchy and parent-child relationships",
+        "Managing foreground and background jobs",
+        "Using ps command for process listing",
+        "Interactive process monitoring with top and htop",
+        "System performance monitoring tools",
+        "Controlling processes using signals (SIGTERM, SIGKILL)",
+        "Using kill and killall commands",
+        "Process priority with nice and renice",
+        "System uptime and load average",
+        "Resource usage monitoring (CPU, memory, disk I/O)"
+      ]
+    },
+    {
+      "module": "User & Group Administration",
+      "subtopics": [
+        "Creating users with useradd and adduser",
+        "Modifying user accounts with usermod",
+        "Deleting users with userdel",
+        "Creating and managing groups",
+        "Understanding /etc/passwd and /etc/shadow files",
+        "Managing group membership",
+        "Configuring password policies and aging",
+        "Setting up user environment settings (.bashrc, .profile)",
+        "Login and logout management",
+        "Monitoring user activity with who, w, and last",
+        "Account locking and unlocking techniques",
+        "Setting password expiration and complexity"
+      ]
+    },
+    {
+      "module": "Shell Scripting Basics",
+      "subtopics": [
+        "Introduction to shell and bash scripting",
+        "Shebang line and script structure",
+        "Writing and executing shell scripts",
+        "Making scripts executable with chmod +x",
+        "Using variables (local and global)",
+        "Arithmetic and string operators",
+        "Conditional statements (if-else, case)",
+        "Loops (for, while, until)",
+        "Handling user input with read",
+        "Command-line arguments and positional parameters",
+        "Script debugging with set -x",
+        "Exit codes and error handling",
+        "Scheduling script execution with cron",
+        "Using command substitution and backticks"
+      ]
+    },
+    {
+      "module": "Linux Networking Concepts",
+      "subtopics": [
+        "Understanding networking basics in Linux",
+        "TCP/IP protocol fundamentals",
+        "Configuring IP addresses manually and with DHCP",
+        "DNS configuration and /etc/resolv.conf",
+        "Using ifconfig command (legacy)",
+        "Using ip command (modern networking tool)",
+        "Testing connectivity with ping",
+        "Tracing network routes with traceroute",
+        "Network troubleshooting with netstat and ss",
+        "Managing network services and daemons",
+        "Understanding ports and protocols",
+        "Basic firewall concepts"
+      ]
+    },
+    {
+      "module": "Disk & Storage Management",
+      "subtopics": [
+        "Understanding disk partitions and partition tables",
+        "Working with fdisk for partition management",
+        "Using lsblk to list block devices",
+        "Creating and formatting file systems (ext4, xfs)",
+        "Mounting file systems temporarily",
+        "Configuring permanent mounts with /etc/fstab",
+        "Managing swap space creation and activation",
+        "Understanding file system types and use cases",
+        "Disk usage monitoring with df and du",
+        "Backup commands (tar, rsync, dd)",
+        "Restore procedures and best practices",
+        "Storage performance monitoring with iostat"
+      ]
+    },
+    {
+      "module": "Linux Services & Boot Process",
+      "subtopics": [
+        "Understanding Linux boot sequence (BIOS/UEFI to login)",
+        "GRUB bootloader configuration",
+        "Working with systemd service manager",
+        "Starting and stopping services with systemctl",
+        "Enabling and disabling services at boot",
+        "Checking service status and logs",
+        "Managing runlevels and systemd targets",
+        "Understanding multi-user vs graphical targets",
+        "Configuring service startup dependencies",
+        "Analyzing system logs with journalctl",
+        "Traditional syslog and /var/log files"
+      ]
+    },
+    {
+      "module": "Security & Access Control in Linux",
+      "subtopics": [
+        "Understanding basic Linux security concepts",
+        "Principle of least privilege",
+        "Configuring firewall using firewall-cmd (firewalld)",
+        "Basic iptables concepts",
+        "Managing sudo access and /etc/sudoers",
+        "Understanding SELinux modes (enforcing, permissive, disabled)",
+        "SELinux contexts and policies",
+        "File and directory security controls",
+        "SSH configuration and key-based authentication",
+        "Monitoring unauthorized access attempts",
+        "System audit basics with auditd",
+        "Security best practices and hardening"
+      ]
+    },
+    {
+      "module": "Advanced Topics and Troubleshooting",
+      "subtopics": [
+        "System troubleshooting methodology",
+        "Analyzing system performance bottlenecks",
+        "Log file analysis and monitoring",
+        "Recovery mode and single-user mode",
+        "Kernel parameter tuning with sysctl",
+        "Package management troubleshooting",
+        "Common Linux administration issues and solutions"
+      ]
+    },
+    {
+      "module": "Hands-On Labs and Certification Prep",
+      "subtopics": [
+        "Real-world system administration scenarios",
+        "Building automated maintenance scripts",
+        "Setting up a secure multi-user environment",
+        "Configuring complete server infrastructure",
+        "Troubleshooting practice exercises",
+        "Linux certification exam preparation (LPIC, RHCSA)",
+        "Interview questions and practical demonstrations"
+      ]
+    }
+  ],
+  "duration": "45–50 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/linux-certification-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Set up and configure a complete Linux web server environment",
+    "Create automated system backup and monitoring scripts",
+    "Build a multi-user system with proper security and access controls",
+    "Configure network services including DNS, DHCP, and firewall",
+    "Implement automated log analysis and alerting system"
+  ]
+},
+{
+  "course_name": "API Testing Certification Training",
+  "path": "api-testing-certification-training",
+  "description": "Master API testing with hands-on training covering RESTful API fundamentals, WooCommerce API testing, pytest framework, database validation, and real-world e-commerce project implementation for comprehensive API test automation.",
+  "what_youll_learn": [
+    "Understand RESTful API architecture and principles",
+    "Set up local development environment with web server and database",
+    "Configure and test WooCommerce API endpoints",
+    "Design and organize API test project structure",
+    "Create custom REST API and database modules",
+    "Write positive and negative API test cases",
+    "Validate API responses and database changes",
+    "Use pytest framework for test execution and reporting",
+    "Implement data-driven testing with random data generation",
+    "Verify API operations through SQL database queries",
+    "Apply BPM and BPMN 2.0 concepts in testing",
+    "Document test results and create professional reports"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to the Course",
+      "subtopics": [
+        "BPM (Business Process Management) overview",
+        "Benefits of BPM for corporate environments",
+        "Swim lanes and process flow",
+        "Milestones and process tracking",
+        "Participant groups and roles",
+        "Activities and task management",
+        "BPMN 2.0 concepts and notation",
+        "Smart BPM implementation",
+        "Service-oriented architecture (SOA) fundamentals"
+      ]
+    },
+    {
+      "module": "Prepare Your Testing Tools",
+      "subtopics": [
+        "Summary of tools used in API testing",
+        "Installing web server and database (AMPPS)",
+        "Setting up local development environment",
+        "Installing WordPress on local machine",
+        "Installing WooCommerce plugin",
+        "Configuring WooCommerce API keys and secrets",
+        "Installing WooCommerce Python client library",
+        "Installing MySQL Workbench for database management"
+      ]
+    },
+    {
+      "module": "WooCommerce Settings and Documentation",
+      "subtopics": [
+        "Configuring WooCommerce API settings",
+        "Understanding API authentication methods",
+        "WooCommerce official documentation review",
+        "API endpoints overview",
+        "Request and response formats",
+        "Error codes and handling"
+      ]
+    },
+    {
+      "module": "Test Structure and Organization",
+      "subtopics": [
+        "API test project structure best practices",
+        "Creating organized folder hierarchy",
+        "Separating test data, utilities, and test cases",
+        "Configuration file management",
+        "Test fixtures and setup/teardown",
+        "Naming conventions for test files"
+      ]
+    },
+    {
+      "module": "Custom Tools - REST API Module",
+      "subtopics": [
+        "Creating REST API class structure",
+        "Testing API connectivity",
+        "Implementing POST method for API calls",
+        "Implementing GET method for data retrieval",
+        "Request headers and authentication",
+        "Response parsing and extraction",
+        "Error handling in API calls"
+      ]
+    },
+    {
+      "module": "Custom Tools - Database Module",
+      "subtopics": [
+        "Database connection module setup",
+        "Connecting to MySQL database",
+        "Executing SELECT statements for data retrieval",
+        "Implementing UPDATE statements",
+        "Parameterized queries for security",
+        "Closing database connections properly",
+        "Database helper functions"
+      ]
+    },
+    {
+      "module": "Products Endpoint Testing - Basics",
+      "subtopics": [
+        "Introduction to products endpoint",
+        "Understanding product data structure",
+        "Positive TC-1: creating test payload",
+        "Making API call to create product",
+        "Manual verification in database",
+        "Verifying product information in database",
+        "Assertions and validations"
+      ]
+    },
+    {
+      "module": "Products Endpoint Testing - Negative Cases",
+      "subtopics": [
+        "Negative TC-1: testing with empty payload",
+        "Negative TC-2: missing required 'title' parameter",
+        "Negative TC-3: empty string for 'title' parameter",
+        "Creating verification function for negative tests",
+        "Validating error responses",
+        "Expected vs actual behavior comparison",
+        "Error message validation"
+      ]
+    },
+    {
+      "module": "Test Runner with Pytest",
+      "subtopics": [
+        "Introduction to pytest framework",
+        "Pytest installation and setup",
+        "Writing pytest test functions",
+        "Pytest fixtures and conftest",
+        "Running tests with pytest",
+        "Pytest reporting and output",
+        "Parameterized tests with pytest",
+        "Pytest markers and test selection"
+      ]
+    },
+    {
+      "module": "Customers Endpoint Testing - Part 1",
+      "subtopics": [
+        "Introduction to customers endpoint",
+        "Understanding customer data structure",
+        "Creating random user information",
+        "Generating test data dynamically",
+        "Positive test: creating payload for new customer",
+        "Making API call to create customer",
+        "Verifying API response data"
+      ]
+    },
+    {
+      "module": "Customers Endpoint Testing - Part 2",
+      "subtopics": [
+        "SQL queries to verify customer in database",
+        "Creating function to get customer info from DB",
+        "Database validation techniques",
+        "Creating helper module for utilities",
+        "Moving random generator to helper functions",
+        "Verifying customer created with assertions",
+        "Alternative verification using if-else logic"
+      ]
+    },
+    {
+      "module": "Advanced API Testing Concepts",
+      "subtopics": [
+        "Testing multiple endpoints together",
+        "Data dependencies between API calls",
+        "Testing API update operations",
+        "Testing API delete operations",
+        "Handling authentication tokens",
+        "Rate limiting and throttling tests",
+        "API performance considerations"
+      ]
+    },
+    {
+      "module": "Miscellaneous and Professional Development",
+      "subtopics": [
+        "Data loader usage for financial modules",
+        "Project documentation best practices",
+        "Sample resume preparation for API testers",
+        "Common interview questions and answers",
+        "ADI (Application Development Interface) awareness",
+        "Testing screens documentation",
+        "Creating test reports and metrics",
+        "Continuous learning resources"
+      ]
+    },
+    {
+      "module": "Hands-On Projects and Certification Prep",
+      "subtopics": [
+        "Building complete API test suite for e-commerce",
+        "Implementing end-to-end test scenarios",
+        "Creating reusable test utilities",
+        "Test data management strategies",
+        "CI/CD integration for API tests",
+        "Best practices and code review",
+        "Certification exam preparation"
+      ]
+    }
+  ],
+  "duration": "40–45 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/api-testing-certification-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build complete WooCommerce API test automation suite",
+    "Create reusable REST API testing framework with Python",
+    "Implement database validation layer for API tests",
+    "Develop data-driven API tests with dynamic test data generation",
+    "Design comprehensive test report with pytest-html plugin"
+  ]
+},
+{
+  "course_name": "Automation Testing Online Course",
+  "path": "automation-testing-online-course",
+  "description": "Master automation testing with comprehensive training covering Selenium WebDriver, test frameworks, CI/CD integration, API and mobile testing, and industry best practices for building robust automated test suites.",
+  "what_youll_learn": [
+    "Understand automation testing fundamentals and when to automate",
+    "Differentiate between manual and automation testing approaches",
+    "Write test scripts using programming languages (Java/Python)",
+    "Master Selenium WebDriver for web application testing",
+    "Build robust test automation frameworks from scratch",
+    "Implement Page Object Model and data-driven testing",
+    "Integrate automated tests with CI/CD pipelines using Jenkins",
+    "Perform API testing using Postman and RestAssured",
+    "Test mobile applications using Appium framework",
+    "Conduct performance testing with JMeter",
+    "Apply best practices for maintainable test automation",
+    "Analyze and report test results effectively"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Automation Testing",
+      "subtopics": [
+        "Definition and importance of automation testing",
+        "Manual vs automation testing comparison",
+        "When to automate and when not to automate",
+        "Tools and technologies in automation testing ecosystem",
+        "Test automation planning and strategy",
+        "Tool selection criteria and evaluation",
+        "Test environment setup and configuration",
+        "Test script development lifecycle",
+        "Test execution strategies",
+        "Test result analysis and reporting",
+        "Maintenance of test scripts and refactoring"
+      ]
+    },
+    {
+      "module": "Basics of Programming for Test Automation",
+      "subtopics": [
+        "Overview of popular programming languages (Java, Python)",
+        "Variables, data types, and operators",
+        "Control structures (if-else, switch)",
+        "Loops (for, while, do-while)",
+        "Functions and methods creation",
+        "Object-oriented programming concepts",
+        "Classes and objects",
+        "Inheritance and polymorphism",
+        "Exception handling basics"
+      ]
+    },
+    {
+      "module": "Selenium WebDriver Fundamentals",
+      "subtopics": [
+        "Selenium WebDriver overview and architecture",
+        "Selenium IDE vs WebDriver comparison",
+        "Installing Selenium WebDriver",
+        "Setting up test environment with browser drivers",
+        "WebDriver commands and methods",
+        "Browser navigation and manipulation",
+        "Locating web elements (ID, name, XPath, CSS)",
+        "Best practices for element locators"
+      ]
+    },
+    {
+      "module": "Advanced Selenium WebDriver",
+      "subtopics": [
+        "Interacting with web elements (click, sendKeys, clear)",
+        "Handling dynamic web elements",
+        "Handling pop-ups, alerts, and confirmations",
+        "Working with frames and iframes",
+        "Handling multiple windows and tabs",
+        "Taking screenshots for test evidence",
+        "Implicit, explicit, and fluent waits",
+        "Synchronization strategies"
+      ]
+    },
+    {
+      "module": "Test Automation Frameworks",
+      "subtopics": [
+        "Types of test automation frameworks (Linear, Modular, Data-Driven, Keyword-Driven, Hybrid)",
+        "Benefits of using frameworks",
+        "Creating a basic framework structure",
+        "Modularizing test scripts for reusability",
+        "Integrating test data from external sources",
+        "Page Object Model (POM) pattern",
+        "Page Factory implementation",
+        "Configuration management"
+      ]
+    },
+    {
+      "module": "Testing Frameworks - TestNG and JUnit",
+      "subtopics": [
+        "TestNG framework overview",
+        "TestNG annotations and assertions",
+        "Test suite organization with TestNG",
+        "TestNG XML configuration",
+        "JUnit framework basics",
+        "JUnit annotations and test execution",
+        "Parameterization and data providers",
+        "Parallel test execution"
+      ]
+    },
+    {
+      "module": "Python Testing with PyTest",
+      "subtopics": [
+        "PyTest framework introduction",
+        "PyTest fixtures and setup/teardown",
+        "PyTest assertions and markers",
+        "Parameterized testing with PyTest",
+        "PyTest plugins and extensions",
+        "Test reports with PyTest-HTML"
+      ]
+    },
+    {
+      "module": "Continuous Integration and Continuous Testing",
+      "subtopics": [
+        "Concepts and importance of CI/CD",
+        "CI/CD tools overview (Jenkins, GitLab CI, CircleCI)",
+        "Setting up Jenkins for automation testing",
+        "Creating Jenkins jobs and pipelines",
+        "Running automated tests as part of build process",
+        "Integrating version control (Git) with CI/CD",
+        "Reporting and analyzing test results in pipelines",
+        "Scheduled test execution",
+        "Email notifications and test reports"
+      ]
+    },
+    {
+      "module": "API Testing Automation",
+      "subtopics": [
+        "Introduction to API testing concepts",
+        "RESTful API fundamentals",
+        "Setting up Postman for API testing",
+        "Creating and running API tests in Postman",
+        "Writing test scripts with RestAssured (Java)",
+        "Request and response validation",
+        "Authentication and authorization testing",
+        "API test automation framework design"
+      ]
+    },
+    {
+      "module": "Mobile Test Automation with Appium",
+      "subtopics": [
+        "Introduction to Appium framework",
+        "Appium architecture and components",
+        "Setting up mobile test environment (Android/iOS)",
+        "Configuring desired capabilities",
+        "Writing test scripts for mobile applications",
+        "Locating mobile elements",
+        "Mobile gestures and actions",
+        "Hybrid and native app testing"
+      ]
+    },
+    {
+      "module": "Performance Testing Introduction",
+      "subtopics": [
+        "Introduction to performance testing concepts",
+        "Performance testing tools overview (JMeter)",
+        "Installing and configuring Apache JMeter",
+        "Creating basic performance test scripts",
+        "Thread groups and samplers",
+        "Listeners and result analysis",
+        "Executing performance test scripts",
+        "Performance metrics and reporting"
+      ]
+    },
+    {
+      "module": "Best Practices and Industry Standards",
+      "subtopics": [
+        "Writing maintainable and reusable test scripts",
+        "Code organization and naming conventions",
+        "Organizing test cases and test data",
+        "Version control best practices for test automation",
+        "Code reviews and collaboration techniques",
+        "Understanding compliance requirements (GDPR, HIPAA)",
+        "Implementing security in test automation",
+        "Test data management and privacy",
+        "Documentation and knowledge sharing"
+      ]
+    },
+    {
+      "module": "Hands-On Projects and Real-World Scenarios",
+      "subtopics": [
+        "Building end-to-end automation framework",
+        "Automating e-commerce website testing",
+        "API test automation project",
+        "Mobile app testing project",
+        "CI/CD pipeline integration project",
+        "Troubleshooting common automation challenges",
+        "Interview preparation and tips"
+      ]
+    }
+  ],
+  "duration": "50–60 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/automation-testing-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a complete Selenium automation framework with Page Object Model",
+    "Create an API testing suite using RestAssured with CI/CD integration",
+    "Develop mobile app automation tests for Android and iOS using Appium",
+    "Implement data-driven testing framework with external data sources",
+    "Set up Jenkins pipeline for automated test execution and reporting"
+  ]
+},
+{
+  "course_name": "PostgreSQL Admin Online Training Course",
+  "path": "postgresql-admin-online-training",
+  "description": "Master PostgreSQL database administration with comprehensive training covering installation, configuration, performance tuning, backup and recovery, replication, high availability, and cloud deployment on AWS.",
+  "what_youll_learn": [
+    "Understand PostgreSQL architecture and core features",
+    "Install and configure PostgreSQL on multiple platforms",
+    "Manage databases, schemas, tables, and database objects",
+    "Implement security with roles, users, and access control",
+    "Perform routine DBA tasks including vacuuming and maintenance",
+    "Monitor database performance using statistics and logs",
+    "Optimize PostgreSQL performance through tuning and indexing",
+    "Implement backup and recovery strategies including PITR",
+    "Configure streaming replication for high availability",
+    "Use PostgreSQL tools like PgAdmin, PgBouncer, and PgBadger",
+    "Deploy and manage PostgreSQL on AWS RDS and Redshift",
+    "Troubleshoot common PostgreSQL issues and conflicts"
+  ],
+  "syllabus": [
+    {
+      "module": "PostgreSQL Introduction & Architecture",
+      "subtopics": [
+        "Introduction and history of PostgreSQL",
+        "PostgreSQL major features and capabilities",
+        "PostgreSQL architecture overview",
+        "Understanding processes and memory structure",
+        "PostgreSQL ecosystem and community"
+      ]
+    },
+    {
+      "module": "PostgreSQL Data Types",
+      "subtopics": [
+        "Numeric data types",
+        "Character and text types",
+        "Date and time types",
+        "Boolean and binary types",
+        "JSON and JSONB types",
+        "Array and composite types",
+        "Custom data types"
+      ]
+    },
+    {
+      "module": "PostgreSQL Installation",
+      "subtopics": [
+        "Supported platforms and system requirements",
+        "Binary installation methods",
+        "Source code installation",
+        "Binary vs source installation comparison",
+        "Initializing a PostgreSQL cluster",
+        "Starting and stopping PostgreSQL cluster",
+        "Automatic startup and shutdown configuration",
+        "Common installation issues and troubleshooting"
+      ]
+    },
+    {
+      "module": "PostgreSQL Configuration",
+      "subtopics": [
+        "Access control configuration (pg_hba.conf)",
+        "The postgresql.conf file structure",
+        "Memory configuration parameters",
+        "Connection and authentication settings",
+        "Logging configuration",
+        "Performance-related parameters",
+        "Common configuration issues and troubleshooting"
+      ]
+    },
+    {
+      "module": "Introduction to psql",
+      "subtopics": [
+        "psql command line parameters",
+        "Meta commands for database operations",
+        "SET commands and session variables",
+        "psql scripting and automation",
+        "psql security best practices",
+        "Output formatting and customization"
+      ]
+    },
+    {
+      "module": "Functions & Operators",
+      "subtopics": [
+        "Built-in functions overview",
+        "String functions and operations",
+        "Mathematical and statistical functions",
+        "Date and time functions",
+        "Aggregate functions",
+        "Window functions",
+        "User-defined functions (UDFs)"
+      ]
+    },
+    {
+      "module": "Managing PostgreSQL Databases",
+      "subtopics": [
+        "Creating PostgreSQL databases",
+        "Creating and managing schemas",
+        "Creating tables with constraints",
+        "Altering tables and columns",
+        "SELECT queries and joins (INNER, OUTER, CROSS)",
+        "Indexes types and implementation",
+        "Foreign keys and referential integrity"
+      ]
+    },
+    {
+      "module": "PostgreSQL Roles and Security",
+      "subtopics": [
+        "Creating and managing views",
+        "Rules for automated operations",
+        "Users, groups, and roles management",
+        "Sequences and identity columns",
+        "Object-level security and privileges",
+        "Row-level security (RLS)",
+        "Security best practices"
+      ]
+    },
+    {
+      "module": "Moving Data with PostgreSQL",
+      "subtopics": [
+        "Basic DML operations (INSERT, UPDATE, DELETE)",
+        "COPY command for bulk data loading",
+        "pg_dump and pg_restore utilities",
+        "Other data migration tools",
+        "ETL best practices",
+        "Data validation techniques"
+      ]
+    },
+    {
+      "module": "Tablespaces, Inheritance and Partitioning",
+      "subtopics": [
+        "Creating and managing tablespaces",
+        "Table inheritance concepts",
+        "PostgreSQL data partitioning strategies",
+        "Range, list, and hash partitioning",
+        "Partition pruning and performance",
+        "Managing partitioned tables"
+      ]
+    },
+    {
+      "module": "VACUUM and Maintenance",
+      "subtopics": [
+        "Routine vacuuming operations",
+        "Benefits of regular vacuuming",
+        "Recovering disk space with VACUUM FULL",
+        "Updating planner statistics with ANALYZE",
+        "Transaction ID wraparound prevention",
+        "Autovacuum configuration and tuning",
+        "Hands-on vacuum lab exercises"
+      ]
+    },
+    {
+      "module": "Transactions & Concurrency Control",
+      "subtopics": [
+        "ACID transaction properties",
+        "Transaction isolation levels",
+        "MVCC (Multi-Version Concurrency Control)",
+        "Locking mechanisms and lock types",
+        "Deadlock detection and resolution",
+        "Transaction management best practices"
+      ]
+    },
+    {
+      "module": "Routine DBA Tasks and Best Practices",
+      "subtopics": [
+        "Log management and rotation",
+        "Query analysis with EXPLAIN and EXPLAIN ANALYZE",
+        "Routine vacuuming schedules",
+        "Disk space recovery strategies",
+        "Managing planner statistics",
+        "REINDEX operations and when to use them",
+        "Practical DBA lab exercises"
+      ]
+    },
+    {
+      "module": "Monitoring and Statistics",
+      "subtopics": [
+        "Database logs configuration and analysis",
+        "OS process monitoring for PostgreSQL",
+        "PostgreSQL statistics collector",
+        "Statistics views (pg_stat_* tables)",
+        "Statistics functions usage",
+        "Performance monitoring lab"
+      ]
+    },
+    {
+      "module": "PostgreSQL Tools Overview",
+      "subtopics": [
+        "PgBadger for log analysis",
+        "PgBouncer connection pooling",
+        "PgPool for load balancing",
+        "pgCluu for statistics collection",
+        "PgAdmin GUI administration tool",
+        "PgModeler for database design",
+        "MySQL Workbench integration",
+        "pgbench for performance benchmarking",
+        "Consistent state point-in-time snapshots"
+      ]
+    },
+    {
+      "module": "PostgreSQL Performance Tuning",
+      "subtopics": [
+        "Operating system tuning for PostgreSQL",
+        "Hardware configuration optimization",
+        "Transaction log (WAL) tuning",
+        "Tablespaces and partitioning for performance",
+        "Checkpoint tuning strategies",
+        "Query optimization techniques",
+        "Index optimization and maintenance"
+      ]
+    },
+    {
+      "module": "PostgreSQL Backup and Recovery",
+      "subtopics": [
+        "pg_dump for logical backups",
+        "pg_dumpall for cluster-wide backups",
+        "Recovery options and strategies",
+        "Restore using list files",
+        "Point-in-Time Recovery (PITR) setup",
+        "PITR-based recovery procedures",
+        "Backup verification and testing"
+      ]
+    },
+    {
+      "module": "PostgreSQL Upgrade Methods",
+      "subtopics": [
+        "Minor version upgrades process",
+        "pg_upgrade utility for major upgrades",
+        "RPM-based upgrade procedures",
+        "Source-based upgrade methods",
+        "SLONY-based upgrade approach",
+        "Upgrade planning and testing",
+        "Rollback strategies"
+      ]
+    },
+    {
+      "module": "PostgreSQL Streaming Replication",
+      "subtopics": [
+        "Streaming replication overview",
+        "Master and standby configuration",
+        "Base backup creation",
+        "Recovery.conf configuration",
+        "Initializing streaming replication",
+        "Standby query conflicts resolution",
+        "Replication monitoring and lag",
+        "Standby promotion procedures",
+        "Cascading replication setup",
+        "WAL shipping methods",
+        "Replication slots management",
+        "Synchronous replication configuration"
+      ]
+    },
+    {
+      "module": "SLONY Replication",
+      "subtopics": [
+        "SLONY overview and architecture",
+        "Configuration and setup procedures",
+        "Monitoring SLONY replication",
+        "Executing DDL in SLONY environment",
+        "Adding tables to replication sets",
+        "Switchover procedures",
+        "Failover handling"
+      ]
+    },
+    {
+      "module": "PostgreSQL High Availability",
+      "subtopics": [
+        "High availability overview and concepts",
+        "Replication type selection criteria",
+        "Connection poolers for HA",
+        "Heartbeat monitoring implementation",
+        "Failover strategies and automation",
+        "Failback procedures and considerations",
+        "HA architecture design patterns"
+      ]
+    },
+    {
+      "module": "PostgreSQL and AWS",
+      "subtopics": [
+        "PostgreSQL deployment on AWS EC2",
+        "AWS architecture best practices",
+        "Storage options for PostgreSQL on AWS",
+        "Networking and security on AWS",
+        "Backup strategies using AWS services",
+        "Cost optimization techniques"
+      ]
+    },
+    {
+      "module": "PostgreSQL RDS Overview",
+      "subtopics": [
+        "Amazon RDS for PostgreSQL features",
+        "RDS instance creation and configuration",
+        "Automated backups and snapshots",
+        "Read replicas setup",
+        "Multi-AZ deployments",
+        "Monitoring RDS instances",
+        "RDS limitations and considerations"
+      ]
+    },
+    {
+      "module": "PostgreSQL Redshift Overview",
+      "subtopics": [
+        "Amazon Redshift architecture",
+        "Data warehousing with Redshift",
+        "Loading data into Redshift",
+        "Query optimization in Redshift",
+        "Redshift vs PostgreSQL differences",
+        "Integration patterns"
+      ]
+    },
+    {
+      "module": "The PostgreSQL Contribs",
+      "subtopics": [
+        "Overview of contrib modules",
+        "Popular contrib extensions",
+        "Installing and using contrib modules",
+        "pgcrypto for encryption",
+        "pg_trgm for text search",
+        "Other useful extensions"
+      ]
+    }
+  ],
+  "duration": "60–70 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/postgresql-admin-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Set up a complete PostgreSQL cluster with streaming replication",
+    "Implement automated backup and recovery procedures with PITR",
+    "Design and deploy a high-availability PostgreSQL architecture",
+    "Migrate a database to AWS RDS and optimize performance",
+    "Create a monitoring and alerting system using PostgreSQL tools"
+  ]
+},
+{
+  "course_name": "ASP.NET Course",
+  "path": "asp-net-course-training",
+  "description": "Master ASP.NET web development with comprehensive training covering web forms, MVC architecture, database integration, security, and deployment for building robust server-side web applications.",
+  "what_youll_learn": [
+    "Understand server-side and client-side web programming fundamentals",
+    "Build dynamic web applications using ASP.NET Web Forms and MVC",
+    "Work with .NET Framework and IIS web server",
+    "Create interactive user interfaces with ASP.NET controls",
+    "Implement event-driven programming with page and control events",
+    "Integrate databases using ADO.NET and SQL Server",
+    "Handle errors and implement tracing for debugging",
+    "Apply data caching and performance optimization techniques",
+    "Implement authentication and security best practices",
+    "Deploy ASP.NET applications to production servers",
+    "Work with web services and multithreading",
+    "Configure and manage ASP.NET application settings"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Web Programming",
+      "subtopics": [
+        "Overview of web development",
+        "Server-side vs client-side applications",
+        "HTML fundamentals for web pages",
+        "CSS styling basics",
+        "Introduction to Silverlight",
+        "ASP.NET framework overview",
+        "ASP.NET AJAX for rich interfaces"
+      ]
+    },
+    {
+      "module": "Introduction to ASP.NET",
+      "subtopics": [
+        "ASP.NET architecture and components",
+        "ASP.NET Web Pages overview",
+        "ASP.NET Model View Controller (MVC) pattern",
+        "ASP.NET Web Forms fundamentals",
+        ".NET Framework structure and libraries",
+        "Internet Information Services (IIS) basics",
+        "Choosing between Web Forms and MVC"
+      ]
+    },
+    {
+      "module": "Environment Setup",
+      "subtopics": [
+        "Setting up Visual Studio IDE",
+        "Working with views and windows in IDE",
+        "Adding folders and files to websites",
+        "Understanding projects and solutions",
+        "Building and compiling projects",
+        "Executing and testing applications",
+        "Managing project references and dependencies"
+      ]
+    },
+    {
+      "module": "Basic ASP.NET Controls",
+      "subtopics": [
+        "Button controls and event handling",
+        "TextBox and Label controls",
+        "CheckBox and RadioButton controls",
+        "List controls (DropDownList, ListBox)",
+        "ListItemCollection object manipulation",
+        "Bulleted and numbered lists",
+        "HyperLink and Image controls",
+        "Panel controls for grouping",
+        "Calendar control implementation",
+        "MultiView controls for multiple views"
+      ]
+    },
+    {
+      "module": "ASP.NET Directives",
+      "subtopics": [
+        "Assembly directive for referencing assemblies",
+        "Control directive for user controls",
+        "Implements directive for interfaces",
+        "Import directive for namespaces",
+        "Master directive for master pages",
+        "MasterType directive for master page properties",
+        "OutputCache directive for caching",
+        "Page directive for page-level settings",
+        "PreviousPageType directive for cross-page posting",
+        "Reference and Register directives"
+      ]
+    },
+    {
+      "module": "Event Handling",
+      "subtopics": [
+        "Understanding event arguments",
+        "Application and session events",
+        "Page lifecycle events (Init, Load, PreRender)",
+        "Control events and event bubbling",
+        "Event handling using server controls",
+        "Working with default event handlers",
+        "Custom event creation and handling"
+      ]
+    },
+    {
+      "module": "Database Integration",
+      "subtopics": [
+        "Overview of database systems",
+        "Microsoft SQL Server fundamentals",
+        "SQL query basics (SELECT, INSERT, UPDATE, DELETE)",
+        "Connecting SQL Server with ASP.NET",
+        "ADO.NET components (Connection, Command, DataReader)",
+        "Data binding to controls",
+        "Working with DataSet and DataTable",
+        "Stored procedures and parameterized queries"
+      ]
+    },
+    {
+      "module": "Error Handling and Debugging",
+      "subtopics": [
+        "Application-level tracing",
+        "Page-level tracing configuration",
+        "Try-catch-finally error handling",
+        "Custom error pages",
+        "Logging errors to files or databases",
+        "Debug vs Release mode",
+        "Using breakpoints and watch windows"
+      ]
+    },
+    {
+      "module": "Advanced ASP.NET Concepts",
+      "subtopics": [
+        "Data caching strategies and implementation",
+        "Output caching for performance",
+        "Web services creation and consumption",
+        "Multithreading in ASP.NET applications",
+        "Application configuration (web.config)",
+        "Application state management",
+        "Session state configuration and management"
+      ]
+    },
+    {
+      "module": "Security Implementation",
+      "subtopics": [
+        "Form-based authentication setup",
+        "IIS authentication methods",
+        "SSL certificate configuration",
+        "User authorization and roles",
+        "Password encryption and security",
+        "Preventing SQL injection attacks",
+        "Cross-site scripting (XSS) prevention"
+      ]
+    },
+    {
+      "module": "Application Deployment",
+      "subtopics": [
+        "XCOPY deployment method",
+        "Copying a website to production",
+        "Creating setup projects",
+        "Web deployment packages",
+        "Configuring IIS for hosting",
+        "Database deployment strategies",
+        "Post-deployment testing and troubleshooting"
+      ]
+    },
+    {
+      "module": "Hands-On Projects",
+      "subtopics": [
+        "Building a complete CRUD application",
+        "Creating a user registration and login system",
+        "Developing a content management interface",
+        "Implementing a shopping cart application",
+        "Real-world troubleshooting scenarios",
+        "Best practices and code optimization"
+      ]
+    }
+  ],
+  "duration": "40–45 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/asp-net-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a student management system with CRUD operations",
+    "Create an e-commerce website with shopping cart and checkout",
+    "Develop a blog platform with authentication and authorization",
+    "Design an inventory management application with reporting features"
+  ]
+},
+{
+  "course_name": "Bootstrap Course",
+  "path": "bootstrap-course-training",
+  "description": "Master Bootstrap framework to build responsive, mobile-first websites with comprehensive training covering grid system, components, typography, and JavaScript plug-ins for modern web development.",
+  "what_youll_learn": [
+    "Understand Bootstrap framework fundamentals and mobile-first strategy",
+    "Build responsive web pages using Bootstrap grid system",
+    "Apply containers, columns, and offset techniques for layouts",
+    "Style content with Bootstrap typography and tables",
+    "Create responsive forms, buttons, and image displays",
+    "Use Bootstrap components like navigation, modals, and carousels",
+    "Implement Glyphicons and icon libraries in applications",
+    "Build responsive navigation bars and dropdown menus",
+    "Create interactive UI elements with Bootstrap plug-ins",
+    "Customize Bootstrap components and themes",
+    "Integrate Bootstrap with jQuery for dynamic functionality",
+    "Develop production-ready responsive websites and applications"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Bootstrap",
+      "subtopics": [
+        "What is Bootstrap framework and its purpose",
+        "Why Bootstrap and its advantages",
+        "History and evolution of Bootstrap",
+        "Understanding responsive web design",
+        "Mobile-first strategy and implementation",
+        "Setting up Bootstrap environment",
+        "How to apply Bootstrap to applications",
+        "Removing responsiveness when needed"
+      ]
+    },
+    {
+      "module": "Bootstrap Grid System",
+      "subtopics": [
+        "Understanding Bootstrap grid system",
+        "Applying grid classes to layouts",
+        "Working with containers and container-fluid",
+        "Creating offset columns",
+        "Reordering columns with push and pull",
+        "Grid system advantages and best practices",
+        "Displaying responsive images",
+        "Customizing class properties and breakpoints"
+      ]
+    },
+    {
+      "module": "Bootstrap Typography and Basic Styling",
+      "subtopics": [
+        "Bootstrap typography classes and usage",
+        "Text formatting and alignment",
+        "Creating and styling tables",
+        "Form layouts and input styling",
+        "Button styles and variations",
+        "Displaying images in different shapes (circle, rounded, thumbnail)",
+        "Text utilities (muted, warning, success, danger)",
+        "Caret classes for dropdown indicators",
+        "Hiding and showing text with responsive utilities"
+      ]
+    },
+    {
+      "module": "Customization and Themes",
+      "subtopics": [
+        "Using readymade Bootstrap themes",
+        "Customizing Bootstrap components",
+        "Working with Less/Sass variables",
+        "Modifying jQuery plug-in settings",
+        "Creating custom color schemes",
+        "Overriding default Bootstrap styles"
+      ]
+    },
+    {
+      "module": "Bootstrap Components - Part 1",
+      "subtopics": [
+        "Overview of Bootstrap components",
+        "Glyphicons component and icon usage",
+        "Dropdown menu component",
+        "Button groups and button toolbar",
+        "Input groups and add-ons",
+        "Labels and badge components",
+        "Alerts and dismissible alerts"
+      ]
+    },
+    {
+      "module": "Bootstrap Components - Part 2",
+      "subtopics": [
+        "Navigation pills and tabs components",
+        "Navbar component basics",
+        "Building responsive navigation bars",
+        "Adding forms and controls to navbar",
+        "Fixing navbar position (top, bottom, static)",
+        "Breadcrumb navigation component",
+        "Pagination component implementation"
+      ]
+    },
+    {
+      "module": "Bootstrap Components - Part 3",
+      "subtopics": [
+        "Jumbotron and page header components",
+        "Thumbnail component for image galleries",
+        "Progress bar creation and customization",
+        "Media objects component",
+        "Using media objects for complex layouts",
+        "List group component",
+        "Panel component with headers and footers"
+      ]
+    },
+    {
+      "module": "Bootstrap Plug-Ins - Basics",
+      "subtopics": [
+        "Understanding Bootstrap JavaScript plug-ins",
+        "Why and how to use plug-ins",
+        "Transition plug-in for smooth animations",
+        "Modal dialog boxes",
+        "Modal properties, methods, and events",
+        "Scrollspy plug-in for navigation highlighting",
+        "Tab plug-in for dynamic content switching"
+      ]
+    },
+    {
+      "module": "Bootstrap Plug-Ins - Interactive Elements",
+      "subtopics": [
+        "Dropdown plug-in functionality",
+        "Tooltip plug-in implementation",
+        "Tooltip methods and events",
+        "Popover plug-in for contextual information",
+        "Alert plug-in for dismissible messages",
+        "Button plug-in for state management",
+        "Collapse plug-in for accordion effects",
+        "Collapse properties, methods, and events"
+      ]
+    },
+    {
+      "module": "Bootstrap Plug-Ins - Advanced",
+      "subtopics": [
+        "Carousel plug-in for image sliders",
+        "Carousel properties and customization",
+        "Affix plug-in for sticky elements",
+        "Combining multiple plug-ins",
+        "Custom JavaScript integration with Bootstrap",
+        "Debugging Bootstrap plug-in issues"
+      ]
+    },
+    {
+      "module": "Responsive Design Best Practices",
+      "subtopics": [
+        "Mobile-first design principles",
+        "Breakpoint strategies and media queries",
+        "Testing responsive layouts across devices",
+        "Performance optimization techniques",
+        "Cross-browser compatibility considerations",
+        "Accessibility best practices with Bootstrap"
+      ]
+    },
+    {
+      "module": "Hands-On Projects",
+      "subtopics": [
+        "Building a complete responsive website",
+        "Creating a portfolio page with Bootstrap components",
+        "Developing an e-commerce product listing page",
+        "Building a dashboard with navigation and charts",
+        "Real-world troubleshooting and optimization"
+      ]
+    }
+  ],
+  "duration": "30–35 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/bootstrap-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a fully responsive portfolio website with multiple pages",
+    "Create an e-commerce product showcase with modals and carousels",
+    "Develop a dashboard interface with navigation, tables, and charts",
+    "Design a landing page with forms, alerts, and smooth animations"
+  ]
+},
+{
+  "course_name": "Databricks Spark Certification Training",
+  "path": "databricks-spark-certification-training",
+  "description": "Master Apache Spark on Databricks platform with comprehensive training covering Spark architecture, DataFrame operations, performance optimization, and advanced SQL functions to prepare for Databricks Spark certification exams.",
+  "what_youll_learn": [
+    "Understand Spark architecture components including Driver, Executor, and partitions",
+    "Master Spark execution model with jobs, stages, and tasks",
+    "Apply performance optimization techniques like caching, shuffling, and partitioning",
+    "Differentiate between wide and narrow transformations for efficient processing",
+    "Create and manipulate DataFrames and Datasets using SparkSession",
+    "Read data from multiple formats including CSV, JSON, Parquet, and JDBC",
+    "Write and partition data efficiently using DataFrameWriter",
+    "Optimize DataFrame operations with caching strategies and views",
+    "Use advanced Spark SQL functions for data transformation",
+    "Create and register User Defined Functions (UDFs)",
+    "Implement window functions and aggregate operations",
+    "Configure high-level cluster settings for optimal performance"
+  ],
+  "syllabus": [
+    {
+      "module": "Spark Architecture Components",
+      "subtopics": [
+        "Understanding the Driver component and its role",
+        "Executor management and resource allocation",
+        "Cores, slots, and threads configuration",
+        "Partitions and data distribution",
+        "Cluster manager integration"
+      ]
+    },
+    {
+      "module": "Spark Execution Model",
+      "subtopics": [
+        "Jobs and job execution lifecycle",
+        "Stages and stage boundaries",
+        "Tasks and task scheduling",
+        "Execution plan visualization",
+        "Understanding DAG (Directed Acyclic Graph)"
+      ]
+    },
+    {
+      "module": "Core Spark Concepts",
+      "subtopics": [
+        "Caching strategies and persistence levels",
+        "Shuffling and shuffle optimization",
+        "Partitioning techniques and repartitioning",
+        "Wide vs narrow transformations",
+        "DataFrame transformations vs actions vs operations",
+        "High-level cluster configuration and tuning"
+      ]
+    },
+    {
+      "module": "SparkSession",
+      "subtopics": [
+        "Creating DataFrames from collections (lists, sets)",
+        "Creating DataFrames for ranges of numbers",
+        "Accessing DataFrameReaders and DataFrameWriters",
+        "Registering User Defined Functions (UDFs)",
+        "SparkSession configuration and management"
+      ]
+    },
+    {
+      "module": "DataFrameReader",
+      "subtopics": [
+        "Reading core data formats (CSV, JSON, JDBC, ORC, Parquet, text, tables)",
+        "Configuring format-specific options",
+        "Reading non-core formats using format() and load()",
+        "Specifying DDL-formatted schemas",
+        "Constructing schemas using StructType and StructField classes"
+      ]
+    },
+    {
+      "module": "DataFrameWriter",
+      "subtopics": [
+        "Writing data to core formats (CSV, JSON, JDBC, ORC, Parquet, text, tables)",
+        "Overwriting existing files and append modes",
+        "Configuring format-specific write options",
+        "Writing to single file vs multiple files",
+        "Writing partitioned data",
+        "Bucketing data by columns"
+      ]
+    },
+    {
+      "module": "DataFrame and Dataset Operations",
+      "subtopics": [
+        "Caching data to disk, memory, or both",
+        "Uncaching previously cached data",
+        "Converting DataFrames to global and temp views",
+        "Applying broadcast and other optimization hints",
+        "DataFrame vs Dataset API differences"
+      ]
+    },
+    {
+      "module": "Spark SQL Functions - Part 1",
+      "subtopics": [
+        "Aggregate functions (sum, avg, count, min, max)",
+        "Collection functions (array, map, explode, flatten)",
+        "Date and time functions (date_format, datediff, current_timestamp)",
+        "Math functions (round, ceil, floor, abs)",
+        "Miscellaneous functions (coalesce, nullif, when)"
+      ]
+    },
+    {
+      "module": "Spark SQL Functions - Part 2",
+      "subtopics": [
+        "Non-aggregate functions and row-level operations",
+        "Sorting functions (sort_array, array_sort)",
+        "String functions (concat, substring, regexp_replace, split)",
+        "UDF functions creation and usage",
+        "Window functions (row_number, rank, lag, lead)",
+        "Advanced window specifications and partitioning"
+      ]
+    },
+    {
+      "module": "Performance Optimization",
+      "subtopics": [
+        "Query optimization techniques",
+        "Catalyst optimizer and Tungsten execution engine",
+        "Adaptive Query Execution (AQE)",
+        "Broadcast joins and optimization",
+        "Monitoring and debugging Spark applications"
+      ]
+    },
+    {
+      "module": "Advanced Data Processing",
+      "subtopics": [
+        "Working with nested and complex data types",
+        "Handling missing and null values",
+        "Data quality and validation techniques",
+        "Incremental data processing patterns",
+        "Delta Lake integration basics"
+      ]
+    },
+    {
+      "module": "Hands-On Projects and Certification Prep",
+      "subtopics": [
+        "Real-world data processing scenarios",
+        "Building ETL pipelines with Spark",
+        "Performance tuning case studies",
+        "Troubleshooting common Spark issues",
+        "Databricks certification exam preparation and practice tests"
+      ]
+    }
+  ],
+  "duration": "45–50 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/databricks-spark-certification-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a large-scale ETL pipeline processing millions of records",
+    "Create a real-time streaming application with Spark Structured Streaming",
+    "Implement a data lake solution using Delta Lake on Databricks",
+    "Optimize a poorly performing Spark job through partitioning and caching strategies"
+  ]
+},
+{
+  "course_name": "Snowflake Certification Training",
+  "path": "snowflake-certification-training",
+  "description": "Master Snowflake data cloud platform with comprehensive training covering architecture, data loading, SQL querying, security, performance optimization, and advanced features to prepare for Snowflake certification exams.",
+  "what_youll_learn": [
+    "Understand Snowflake's unique architecture and cloud-native features",
+    "Set up and configure Snowflake accounts and environments",
+    "Load and unload data efficiently using Snowpipe and COPY commands",
+    "Design optimal database schemas and manage Snowflake objects",
+    "Write and optimize complex SQL queries for data analysis",
+    "Implement secure data sharing and collaboration workflows",
+    "Manage data changes using Streams, Tasks, and Time Travel",
+    "Configure security controls, roles, and governance policies",
+    "Integrate Snowflake with ETL/ELT and BI tools",
+    "Optimize performance through virtual warehouse management",
+    "Work with semi-structured data and advanced modeling techniques",
+    "Build real-world data solutions and troubleshoot common issues"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Snowflake",
+      "subtopics": [
+        "Overview of Snowflake's architecture",
+        "Essential features and advantages",
+        "Contrast with conventional data warehouses",
+        "Cloud data platform benefits",
+        "Snowflake editions and pricing models"
+      ]
+    },
+    {
+      "module": "Installing Snowflake",
+      "subtopics": [
+        "Creating and managing Snowflake accounts",
+        "Navigating Snowflake's web interface",
+        "Configuring Snowflake's environment",
+        "Understanding regions and cloud providers",
+        "Setting up user preferences and notifications"
+      ]
+    },
+    {
+      "module": "Loading and Unloading Data",
+      "subtopics": [
+        "Data loading methods and best practices",
+        "Utilizing Snowpipe for continuous data ingestion",
+        "Loading data with the COPY command",
+        "Exporting data to external storage",
+        "Working with file formats and stages"
+      ]
+    },
+    {
+      "module": "Database Objects and Schema Design",
+      "subtopics": [
+        "Creating and managing databases and schemas",
+        "Developing and maintaining tables and views",
+        "Understanding Snowflake's data types and structures",
+        "Best practices in data modeling",
+        "Managing sequences and constraints"
+      ]
+    },
+    {
+      "module": "Snowflake SQL and Querying",
+      "subtopics": [
+        "Crafting and refining SQL queries",
+        "Advanced SQL functions and operations",
+        "Window functions and analytical queries",
+        "Query performance optimization techniques",
+        "Using EXPLAIN plans and query profiling"
+      ]
+    },
+    {
+      "module": "Data Sharing and Collaboration",
+      "subtopics": [
+        "Establishing and managing data shares",
+        "Secure data sharing between accounts",
+        "Managing data sharing permissions and access controls",
+        "Data marketplace and consumer accounts",
+        "Monitoring shared data usage"
+      ]
+    },
+    {
+      "module": "Snowflake Data Management",
+      "subtopics": [
+        "Leveraging Snowflake Streams for change data capture",
+        "Managing data with Tasks and scheduling",
+        "Creating and using Stored Procedures",
+        "Implementing Time Travel for data recovery",
+        "Understanding Fail-safe features and data retention"
+      ]
+    },
+    {
+      "module": "Security and Governance",
+      "subtopics": [
+        "Managing user roles and permissions",
+        "Role-based access control (RBAC)",
+        "Data encryption and security best practices",
+        "Compliance and governance tools",
+        "Auditing and monitoring security events"
+      ]
+    },
+    {
+      "module": "Integration and Connectivity",
+      "subtopics": [
+        "Linking Snowflake with ETL/ELT tools",
+        "Integrating with BI and analytics tools",
+        "Using Snowflake connectors across various platforms",
+        "Working with ODBC and JDBC drivers",
+        "API integration and partner ecosystem"
+      ]
+    },
+    {
+      "module": "Performance Optimization",
+      "subtopics": [
+        "Understanding Snowflake's virtual warehouses",
+        "Scaling and managing compute resources",
+        "Query optimization techniques",
+        "Storage optimization and clustering",
+        "Monitoring and troubleshooting performance issues"
+      ]
+    },
+    {
+      "module": "Advanced Topics",
+      "subtopics": [
+        "Working with semi-structured data (JSON, Avro, Parquet)",
+        "Advanced data modeling and partitioning strategies",
+        "Machine learning integration with Snowflake",
+        "User-defined functions (UDFs) and external functions",
+        "Snowflake Marketplace and data products"
+      ]
+    },
+    {
+      "module": "Hands-On Projects and Case Studies",
+      "subtopics": [
+        "Real-world scenarios and practical exercises",
+        "Building end-to-end data pipelines",
+        "Developing and deploying solutions on Snowflake",
+        "Troubleshooting common issues and best practices",
+        "Certification exam preparation and review"
+      ]
+    }
+  ],
+  "duration": "40–45 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/snowflake-certification-course.jpg",
+  "placement_assurance": false,
+  "projects": [
+    "Build a real-time data pipeline using Snowpipe and Streams",
+    "Design a multi-tenant data warehouse with secure data sharing",
+    "Create a BI dashboard integrating Snowflake with Tableau or Power BI",
+    "Implement a data lake solution with semi-structured data processing"
+  ]
+},
+{
   "course_name": "Digital Literacy",
   "path": "digital-literacy-training",
   "description": "Learn essential digital skills for everyday life, including using devices, internet, email, digital payments, government services, cloud tools, and safe online practices.",

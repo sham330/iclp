@@ -5,7 +5,7 @@
       "courses": [
         {
           "course": "Medical Coding (CPC)",
-          "path": ""
+          "path": "medical-coding-cpc-course"
         },
         {
           "course": "Clinical Research & Pharmacovigilance",
@@ -21,7 +21,7 @@
         },
         {
           "course": "Hospital Administration",
-          "path": ""
+          "path": "hospital-administration-course"
         },
         {
           "course": "Nutrition & Dietetics",
@@ -29,7 +29,7 @@
         },
         {
           "course": "Healthcare Analytics",
-          "path": ""
+          "path": "healthcare-analytics-course"
         },
         {
           "course": "SAP Healthcare (IS-H)",
@@ -428,7 +428,7 @@
         },
         {
           "course": "Food Technology",
-          "path": "food-technology"
+          "path": "food-technology-course"
         },
         {
           "course": "Lab Technician Courses",
