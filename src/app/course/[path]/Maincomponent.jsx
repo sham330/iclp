@@ -21,6 +21,7 @@ import {
 } from "react-icons/fa";
 import dynamic from "next/dynamic";
 import Head from "./Head";
+import UpgradeCareer from "@/app/components/Upgrade/Upgrade";
 
 
 // Lazy load components to improve initial load
@@ -600,7 +601,7 @@ const CourseDetails = () => {
 
 
       <CourseReviews />
-
+<UpgradeCareer/>
 
       {/* CTA Section - Reduced padding */}
       <section className="py-10 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
@@ -627,7 +628,16 @@ const CourseDetails = () => {
           </div>
         </div>
       </section>
-
+   <section className="w-full h-[60vh] md:h-screen overflow-hidden p-3">
+      <picture className="w-full h-full block">
+        <source media="(min-width: 768px)" srcSet="/section.jfif" />
+        <img
+          src="/section-mon.jfif"
+          alt="Section Image"
+          className="w-full h-full object-contain"
+        />
+      </picture>
+    </section>
 
       <RelatedCourses currentCourseName={course.course_name} />
 
