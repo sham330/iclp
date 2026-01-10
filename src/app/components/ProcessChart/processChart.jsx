@@ -14,12 +14,9 @@ import {
   ChevronRight
 } from "lucide-react"
 
-
-
-
-const RoadmapNode = ({ icon: Icon, label, step, isHovered, onHover, onLeave }) => (
+const RoadmapNode = ({ icon: Icon, label, description, step, isHovered, onHover, onLeave }) => (
   <div 
-    className="relative flex flex-col items-center"
+    className="relative flex flex-col items-center group"
     onMouseEnter={onHover}
     onMouseLeave={onLeave}
   >
@@ -42,46 +39,78 @@ const RoadmapNode = ({ icon: Icon, label, step, isHovered, onHover, onLeave }) =
     </div>
     
     {/* Label */}
-    <p className={`mt-4 text-sm font-semibold text-center max-w-[120px] transition-colors duration-300
-      ${isHovered ? "text-[#01377d]" : "text-gray-600"}
+    <p className={`mt-4 text-sm font-semibold text-center max-w-[140px] transition-colors duration-300
+      ${isHovered ? "text-[#01377d]" : "text-gray-700"}
     `}>
-      {label.split('. ')[1]}
+      {label}
     </p>
+
+    {/* Tooltip on hover */}
+    <div className="absolute top-full mt-2 w-64 bg-white border-2 border-blue-200 rounded-lg shadow-xl p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-20">
+      <p className="text-xs text-gray-600 leading-relaxed">{description}</p>
+    </div>
   </div>
 )
-
-
-
 
 export default function TrainingProcedure() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [hoveredIndex, setHoveredIndex] = useState(null)
   
   const steps = [
-    { icon: UserCheck, label: "1. Joining" },
-    { icon: ClipboardCheck, label: "2. Assessment" },
-    { icon: BookOpen, label: "3. Course Overview" },
-    { icon: GraduationCap, label: "4. Hybrid Learning" },
-    { icon: Presentation, label: "5. Working On Live Projects" },
-    { icon: BarChart3, label: "6. Performance Trackers" },
-    { icon: FileCheck2, label: "7. Examination" },
-    { icon: BadgeCheck, label: "8. Certification" },
-    { icon: Briefcase, label: "9. Job Assistance" }
+    { 
+      icon: UserCheck, 
+      label: "Enrollment",
+      description: "Register for the program and complete onboarding to access learning resources."
+    },
+    { 
+      icon: Presentation, 
+      label: "Program Orientation",
+      description: "Understand the course structure, goals, tools, and timelines."
+    },
+    { 
+      icon: ClipboardCheck, 
+      label: "Skill Evaluation",
+      description: "Assess current knowledge to personalize the learning path."
+    },
+    { 
+      icon: GraduationCap, 
+      label: "Blended Training",
+      description: "Learn through live sessions, hands-on practice, and recorded content."
+    },
+    { 
+      icon: BarChart3, 
+      label: "Progress Monitoring",
+      description: "Track performance through assignments, assessments, and mentor feedback."
+    },
+    { 
+      icon: BookOpen, 
+      label: "Live Project Experience",
+      description: "Gain real-world exposure through industry-based projects."
+    },
+    { 
+      icon: FileCheck2, 
+      label: "Final Evaluation",
+      description: "Validate skills through technical and practical assessments."
+    },
+    { 
+      icon: BadgeCheck, 
+      label: "Certification",
+      description: "Earn a professional certification on successful completion."
+    },
+    { 
+      icon: Briefcase, 
+      label: "Career Assistance",
+      description: "Receive resume support, interview prep, and job guidance."
+    }
   ]
-
-
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % steps.length)
   }
 
-
-
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev - 1 + steps.length) % steps.length)
   }
-
-
 
   return (
     <section className="bg-gradient-to-br from-blue-50/50 via-white to-cyan-50/50 py-20 w-full">
@@ -96,8 +125,6 @@ export default function TrainingProcedure() {
           </p>
         </div>
 
-
-
         {/* Desktop: Grid Layout */}
         <div className="hidden lg:block">
           {/* Top Row - Steps 1-5 */}
@@ -108,7 +135,8 @@ export default function TrainingProcedure() {
                 <RoadmapNode 
                   key={index} 
                   icon={step.icon} 
-                  label={step.label} 
+                  label={step.label}
+                  description={step.description}
                   step={index + 1}
                   isHovered={hoveredIndex === index}
                   onHover={() => setHoveredIndex(index)}
@@ -128,7 +156,8 @@ export default function TrainingProcedure() {
                   <RoadmapNode 
                     key={actualIndex} 
                     icon={step.icon} 
-                    label={step.label} 
+                    label={step.label}
+                    description={step.description}
                     step={actualIndex + 1}
                     isHovered={hoveredIndex === actualIndex}
                     onHover={() => setHoveredIndex(actualIndex)}
@@ -139,8 +168,6 @@ export default function TrainingProcedure() {
             </div>
           </div>
         </div>
-
-
 
         {/* Mobile: Slider */}
         <div className="lg:hidden">
@@ -153,20 +180,22 @@ export default function TrainingProcedure() {
               <ChevronLeft className="w-5 h-5" />
             </button>
 
-
-
             <div className="px-16">
-              <RoadmapNode 
-                icon={steps[currentIndex].icon} 
-                label={steps[currentIndex].label} 
-                step={currentIndex + 1}
-                isHovered={true}
-                onHover={() => {}}
-                onLeave={() => {}}
-              />
+              <div className="text-center">
+                <RoadmapNode 
+                  icon={steps[currentIndex].icon} 
+                  label={steps[currentIndex].label}
+                  description={steps[currentIndex].description}
+                  step={currentIndex + 1}
+                  isHovered={true}
+                  onHover={() => {}}
+                  onLeave={() => {}}
+                />
+                <p className="mt-6 text-sm text-gray-600 leading-relaxed px-4">
+                  {steps[currentIndex].description}
+                </p>
+              </div>
             </div>
-
-
 
             <button
               onClick={nextSlide}
@@ -176,8 +205,6 @@ export default function TrainingProcedure() {
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>
-
-
 
           {/* Progress */}
           <div className="mt-12">
@@ -191,8 +218,6 @@ export default function TrainingProcedure() {
               Step {currentIndex + 1} of {steps.length}
             </p>
           </div>
-
-
 
           {/* Dots */}
           <div className="flex justify-center gap-2 mt-6">

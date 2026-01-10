@@ -21,8 +21,8 @@ const ServiceAreas = () => {
   );
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-cyan-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 mt-10 bg-gradient-to-br from-blue-50 via-white to-cyan-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-[#01377d] px-4 py-2 rounded-full text-sm font-bold mb-4">

@@ -9,20 +9,20 @@ const UpgradeCareer = () => {
           {/* LEFT CONTENT */}
           <div className="space-y-8">
             <h2 className="font-bold leading-tight">
-              <span className="block text-4xl sm:text-5xl lg:text-[52px] text-[#1e0f6e]">
+              <span className="block text-4xl sm:text-5xl lg:text-[52px] text-[#014a9f]">
                 Ready to{" "}
                 <span className="text-[#32ff00]">Upgrade</span>{" "}
                 Your Career?
               </span>
 
-              <span className="block text-3xl sm:text-4xl lg:text-[42px] text-[#1e0f6e] mt-3">
+              <span className="block text-3xl sm:text-4xl lg:text-[42px] text-[#014a9f] mt-3">
                 From Student to Job-Ready Professional
               </span>
             </h2>
 
-            <p className="text-base sm:text-lg text-[#1e0f6e]/80 leading-relaxed max-w-xl">
+            <p className="text-base sm:text-lg text-[#014a9f] leading-relaxed max-w-xl">
               At{" "}
-              <strong className="text-[#1e0f6e] font-semibold">
+              <strong className="text-[#014a9f] font-semibold">
                 ICLP Technologies
               </strong>
               , we help you learn real industry skills, practice on live
@@ -31,7 +31,7 @@ const UpgradeCareer = () => {
             </p>
 
             {/* FEATURES */}
-            <ul className="space-y-4 text-[#1e0f6e] font-medium">
+            <ul className="space-y-4 text-[#014a9f] font-medium">
               <li className="flex items-center gap-3">
                 <span className="text-[#32ff00] text-xl">✔</span>
                 Mentor-led training

@@ -1,17 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import SEO from "../SEO/SEO";
 import {
   FaChevronDown,
   FaChevronUp,
   FaGraduationCap,
   FaCertificate,
   FaBookOpen,
-  FaUserTie,
-  FaLaptopCode,
-  FaHandshake,
-  FaHeadset,
-  FaBlog,
   FaInfoCircle,
   FaWhatsapp,
   FaEnvelope,
@@ -23,12 +17,13 @@ import {
   FaTwitter,
   FaUserCog,
   FaComments,
+  FaBlog,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
-import { RiCustomerService2Fill } from "react-icons/ri";
-import "./footer.css";
 
 const Footer = () => {
   const [showAllCourses, setShowAllCourses] = useState(false);
+  const [showAllAreas, setShowAllAreas] = useState(false);
 
   // Data
   const quickLinks = [
@@ -117,11 +112,21 @@ const Footer = () => {
     { name: "Oracle Financials", url: "/f/Oracle%20Financials" },
     { name: "Oracle SCM", url: "/f/Oracle%20SCM" },
     { name: "Oracle HCM", url: "/f/Oracle%20HCM" }
-];
+  ];
 
-  const displayedCourses = showAllCourses
-    ? allCourses
-    : allCourses.slice(0, 11);
+  const areas = [
+    "T. Nagar", "Mylapore", "Triplicane", "Egmore", "Nungambakkam",
+    "Royapettah", "George Town", "Royapuram", "Washermanpet", "Tondiarpet",
+    "Perambur", "Vyasarpadi", "Kodungaiyur", "Adyar", "Besant Nagar",
+    "Thiruvanmiyur", "Saidapet", "Velachery", "Guindy", "Ashok Nagar",
+    "KK Nagar", "Anna Nagar", "Mogappair", "Ambattur", "Avadi",
+    "Padi", "Thoraipakkam", "Perungudi", "Kandanchavadi", "Sholinganallur",
+    "Navalur", "Siruseri", "Tambaram", "Chromepet", "Pallavaram",
+    "Medavakkam", "Madipakkam", "Pallikaranai", "Porur", "Kundrathur"
+  ];
+
+  const displayedCourses = showAllCourses ? allCourses : allCourses.slice(0, 11);
+  const displayedAreas = showAllAreas ? areas : areas.slice(0, 15);
 
   const contactInfo = [
     {
@@ -167,94 +172,135 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="iclp-enhanced-footer">
-
-      <div className="iclp-enhanced-footer__container">
-        {/* Main Links */}
-        <div className="iclp-enhanced-footer__links-container">
-          {/* Quick Links */}
-          <div className="iclp-enhanced-footer__section">
-            <h3 className="iclp-enhanced-footer__section-title">
-              <FaGraduationCap className="iclp-enhanced-footer__section-icon" />
-              Quick Links
-            </h3>
-            <div className="iclp-enhanced-footer__links-row">
-              {quickLinks.map((link, index) => (
-                <React.Fragment key={index}>
-                  <a href={link.url} className="iclp-enhanced-footer__link">
-                    {link.icon}
-                    <span>{link.name}</span>
-                  </a>
-                  {index < quickLinks.length - 1 && (
-                    <span className="iclp-enhanced-footer__separator">|</span>
-                  )}
-                </React.Fragment>
-              ))}
-            </div>
+    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-300">
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        {/* Quick Links */}
+        <div className="mb-10">
+          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <FaGraduationCap className="text-blue-400" />
+            Quick Links
+          </h3>
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            {quickLinks.map((link, index) => (
+              <React.Fragment key={index}>
+                <a
+                  href={link.url}
+                  className="flex items-center gap-1.5 hover:text-blue-400 transition-colors"
+                >
+                  {link.icon}
+                  <span>{link.name}</span>
+                </a>
+                {index < quickLinks.length - 1 && (
+                  <span className="text-gray-600">|</span>
+                )}
+              </React.Fragment>
+            ))}
           </div>
+        </div>
 
-          {/* Popular Courses */}
-          <div className="iclp-enhanced-footer__section">
-            <h3 className="iclp-enhanced-footer__section-title">
-              <FaCertificate className="iclp-enhanced-footer__section-icon" />
-              Popular Courses
-            </h3>
-            <div className="iclp-enhanced-footer__links-row">
-              {displayedCourses.map((course, index) => (
-                <React.Fragment key={index}>
-                  <a href={course.url} className="iclp-enhanced-footer__link">
-                    <span>{course.name}</span>
-                  </a>
-                  {index < displayedCourses.length - 1 && (
-                    <span className="iclp-enhanced-footer__separator">|</span>
+        {/* Popular Courses */}
+        <div className="mb-10">
+          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <FaCertificate className="text-blue-400" />
+            Popular Courses
+          </h3>
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            {displayedCourses.map((course, index) => (
+              <React.Fragment key={index}>
+                <a
+                  href={course.url}
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  {course.name}
+                </a>
+                {index < displayedCourses.length - 1 && (
+                  <span className="text-gray-600">|</span>
+                )}
+              </React.Fragment>
+            ))}
+            {allCourses.length > 11 && (
+              <>
+                <span className="text-gray-600">|</span>
+                <button
+                  className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors font-medium"
+                  onClick={() => setShowAllCourses(!showAllCourses)}
+                >
+                  {showAllCourses ? (
+                    <>
+                      <FaChevronUp /> Show Less
+                    </>
+                  ) : (
+                    <>
+                      <FaChevronDown /> Show More
+                    </>
                   )}
-                </React.Fragment>
-              ))}
-              {allCourses.length > 5 && (
-                <>
-                  <span className="iclp-enhanced-footer__separator">|</span>
-                  <button
-                    className="iclp-enhanced-footer__show-more"
-                    onClick={() => setShowAllCourses(!showAllCourses)}
-                  >
-                    {showAllCourses ? (
-                      <>
-                        <FaChevronUp /> Show Less
-                      </>
-                    ) : (
-                      <>
-                        <FaChevronDown /> Show More
-                      </>
-                    )}
-                  </button>
-                </>
-              )}
-            </div>
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+
+        {/* Service Areas */}
+        <div className="mb-10">
+          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <FaMapMarkerAlt className="text-blue-400" />
+            Areas We Serve in Chennai
+          </h3>
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            {displayedAreas.map((area, index) => (
+              <React.Fragment key={index}>
+                <span className="hover:text-blue-400 transition-colors cursor-default">
+                  {area}
+                </span>
+                {index < displayedAreas.length - 1 && (
+                  <span className="text-gray-600">|</span>
+                )}
+              </React.Fragment>
+            ))}
+            {areas.length > 15 && (
+              <>
+                <span className="text-gray-600">|</span>
+                <button
+                  className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors font-medium"
+                  onClick={() => setShowAllAreas(!showAllAreas)}
+                >
+                  {showAllAreas ? (
+                    <>
+                      <FaChevronUp /> Show Less
+                    </>
+                  ) : (
+                    <>
+                      <FaChevronDown /> Show More
+                    </>
+                  )}
+                </button>
+              </>
+            )}
           </div>
         </div>
 
         {/* Contact and Social */}
-        <div className="iclp-enhanced-footer__contact-social">
-          <div className="iclp-enhanced-footer__contact">
+        <div className="mb-10 space-y-6">
+          <div className="flex flex-wrap items-center gap-3 text-sm">
             {contactInfo.map((item, index) => (
-              <div key={index} className="iclp-enhanced-footer__contact-item">
-                <span className="iclp-enhanced-footer__contact-icon">
-                  {item.icon}
-                </span>
-                <a
-                  href={item.url}
-                  className="iclp-enhanced-footer__contact-text"
-                >
-                  {item.text}
-                </a>
+              <React.Fragment key={index}>
+                <div className="flex items-center gap-2">
+                  <span className="text-blue-400">{item.icon}</span>
+                  <a
+                    href={item.url}
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    {item.text}
+                  </a>
+                </div>
                 {index < contactInfo.length - 1 && (
-                  <span className="iclp-enhanced-footer__separator">|</span>
+                  <span className="text-gray-600">|</span>
                 )}
-              </div>
+              </React.Fragment>
             ))}
           </div>
 
-          <div className="iclp-enhanced-footer__social">
+          <div className="flex flex-wrap items-center gap-3">
             {socialLinks.map((social, index) => (
               <React.Fragment key={index}>
                 <a
@@ -262,12 +308,12 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.name}
-                  className="iclp-enhanced-footer__social-link"
+                  className="text-2xl hover:text-blue-400 transition-colors"
                 >
                   {social.icon}
                 </a>
                 {index < socialLinks.length - 1 && (
-                  <span className="iclp-enhanced-footer__separator">|</span>
+                  <span className="text-gray-600">|</span>
                 )}
               </React.Fragment>
             ))}
@@ -275,8 +321,8 @@ const Footer = () => {
         </div>
 
         {/* Legal Disclaimer */}
-        <div className="iclp-enhanced-footer__legal">
-          <p className="iclp-enhanced-footer__disclaimer">
+        <div className="mb-8 text-xs text-gray-400 leading-relaxed border-t border-gray-700 pt-8">
+          <p>
             On Our Website all Courses, Technologies, logos, and certification
             titles we use are their respective owners' property. Trademarks &
             their intellectual Property belong to respective owners. All the
@@ -289,16 +335,22 @@ const Footer = () => {
         </div>
 
         {/* Policy Links */}
-        <div className="iclp-enhanced-footer__policy-links">
-          <a href="/privacy-policy">Privacy Policy</a>
-          <span className="iclp-enhanced-footer__separator">|</span>
-          <a href="/terms-of-service">Terms of Service</a>
-          <span className="iclp-enhanced-footer__separator">|</span>
-          <a href="/cookie-policy">Cookie Policy</a>
+        <div className="flex flex-wrap items-center gap-2 text-sm mb-6 justify-center">
+          <a href="/privacy-policy" className="hover:text-blue-400 transition-colors">
+            Privacy Policy
+          </a>
+          <span className="text-gray-600">|</span>
+          <a href="/terms-of-service" className="hover:text-blue-400 transition-colors">
+            Terms of Service
+          </a>
+          <span className="text-gray-600">|</span>
+          <a href="/cookie-policy" className="hover:text-blue-400 transition-colors">
+            Cookie Policy
+          </a>
         </div>
 
         {/* Copyright */}
-        <div className="iclp-enhanced-footer__copyright">
+        <div className="text-center text-sm text-gray-500 border-t border-gray-700 pt-6">
           © {new Date().getFullYear()} ICLP Technologies. All rights reserved.
         </div>
       </div>

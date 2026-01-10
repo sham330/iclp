@@ -628,16 +628,60 @@ const CourseDetails = () => {
           </div>
         </div>
       </section>
-   <section className="w-full h-[60vh] md:h-screen overflow-hidden p-3">
-      <picture className="w-full h-full block">
-        <source media="(min-width: 768px)" srcSet="/section.jfif" />
-        <img
-          src="/section-mon.jfif"
-          alt="Section Image"
-          className="w-full h-full object-contain"
-        />
-      </picture>
-    </section>
+   <section className="w-full bg-[#f5f9ff] py-16 md:py-24">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+      {/* LEFT CONTENT */}
+      <div className="space-y-6">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#014a9f]">
+          Meet Our Expert Mentor
+        </h2>
+
+        <p className="text-base sm:text-lg text-gray-600 max-w-xl">
+          Our mentor is certified, highly experienced and ready to provide
+          expert guidance tailored to your organization&apos;s unique needs.
+        </p>
+
+        <ul className="space-y-4 pt-4">
+          <li className="flex items-start gap-3">
+            <span className="mt-1 text-[#2f80ff]">✔</span>
+            <span className="text-gray-700">
+              Personalizes strategies and solutions for optimal results.
+            </span>
+          </li>
+
+          <li className="flex items-start gap-3">
+            <span className="mt-1 text-[#2f80ff]">✔</span>
+            <span className="text-gray-700">
+              Offers deep insights rooted in extensive industry knowledge.
+            </span>
+          </li>
+
+          <li className="flex items-start gap-3">
+            <span className="mt-1 text-[#2f80ff]">✔</span>
+            <span className="text-gray-700">
+              Committed to your success with hands-on mentorship.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div className="relative flex justify-center lg:justify-end">
+        <div className="rounded-3xl overflow-hidden shadow-xl bg-white p-3">
+          <img
+            src="/section.jfif"
+            alt="Expert Mentor"
+            className="w-full  max-w-md object-cover"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       <RelatedCourses currentCourseName={course.course_name} />
 

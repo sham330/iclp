@@ -78,7 +78,7 @@ const SmallBar = () => {
   };
 
   return (
-<nav className="w-full bg-white relative z-[900] rounded-lg
+<nav className="w-full bg-[#d6efff] relative z-[900] rounded-lg
   shadow-[inset_0_1px_0_rgba(0,0,0,0.06),inset_0_-1px_0_rgba(0,0,0,0.06)]">
       <div className="max-w-7xl mx-auto px-5">
         <div className="flex items-center justify-between h-16">
