@@ -7,27 +7,26 @@ const TechHero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-white overflow-hidden h-screen min-h-[600px]">
-      <div className="h-full max-w-7xl mx-auto px-6 flex items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center w-full">
+    <section className="relative bg-white overflow-hidden h-screen min-h-[600px] max-h-screen">
+      <div className="h-full w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 flex items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 xl:gap-10 items-center w-full max-w-[1600px] mx-auto">
 
           {/* LEFT CONTENT */}
           <div className="space-y-4 lg:space-y-6">
-            <h1 className="font-semibold leading-tight text-[#014a9f]">
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] mb-1 lg:mb-2 whitespace-nowrap">
-                India's <span className="bg-gradient-to-r from-[#014a9f] to-[#38ff00] bg-clip-text text-transparent">
-  Trusted & Leading
-</span>             </span>
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] mb-1 lg:mb-2">
+            <h1 className="font-semibold leading-tight text-[#1e0f6e]">
+              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] 2xl:text-[60px] mb-1 lg:mb-2">
+                India's <span className="text-[#38ff00]">Trusted & Leading</span>
+              </span>
+              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] 2xl:text-[60px] mb-1 lg:mb-2">
                 Software Training Institute
               </span>
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px]">
+              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] 2xl:text-[60px]">
                 for Job-Ready Skills
               </span>
             </h1>
 
-            <p className="mt-4 lg:mt-6 max-w-xl text-sm sm:text-base lg:text-lg text-[#014a9f] italic leading-relaxed">
-              <strong className="not-italic font-semibold text-[#014a9f]">
+            <p className="mt-4 lg:mt-6 max-w-xl text-sm sm:text-base lg:text-lg text-[#1e0f6e]/80 italic leading-relaxed">
+              <strong className="not-italic font-semibold text-[#1e0f6e]">
                 ICLP Technologies
               </strong>{" "}
               is a Chennai-based professional IT training institute delivering
@@ -70,7 +69,7 @@ const TechHero = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 lg:w-52 lg:h-52 bg-[#00b4d8]/25 rounded-full blur-3xl" />
             </div>
             
-            <div className="relative mt-8 mr-4 rounded-3xl lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-[#1e0f6e]/10 w-full max-w-md lg:max-w-lg xl:max-w-xl z-10">
+            <div className="relative rounded-3xl lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-[#1e0f6e]/10 w-full max-w-md lg:max-w-lg xl:max-w-xl z-10">
               <img
                 src="/hero-new.jfif"
                 alt="ICLP Technologies Team"
