@@ -13,9 +13,9 @@ const TechHero = () => {
 
           {/* LEFT CONTENT */}
           <div className="space-y-4 lg:space-y-6">
-            <h1 className="font-semibold leading-tight text-[#1e0f6e]">
+            <h1 className="font-semibold leading-tight text-[#014a9f]">
               <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] 2xl:text-[60px] mb-1 lg:mb-2">
-                India's <span className="text-[#38ff00]">Trusted & Leading</span>
+                India's <span className="bg-gradient-to-r from-[#014a9f] to-[#38ff00] bg-clip-text text-transparent">Trusted & Leading</span>
               </span>
               <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-[48px] xl:text-[56px] 2xl:text-[60px] mb-1 lg:mb-2">
                 Software Training Institute
@@ -25,16 +25,7 @@ const TechHero = () => {
               </span>
             </h1>
 
-            <p className="mt-4 lg:mt-6 max-w-xl text-sm sm:text-base lg:text-lg text-[#1e0f6e]/80 italic leading-relaxed">
-              <strong className="not-italic font-semibold text-[#1e0f6e]">
-                ICLP Technologies
-              </strong>{" "}
-              is a Chennai-based professional IT training institute delivering
-              industry-relevant, practical, and mentor-led programs. We provide
-              training across India with flexible schedules and multi-language
-              support. Our focus is on building job-ready skills for students,
-              freshers, and working professionals.
-            </p>
+            
 
             {/* BUTTONS */}
             <div className="mt-6 lg:mt-8 flex flex-col sm:flex-row gap-3 lg:gap-4">

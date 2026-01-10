@@ -2563,7 +2563,7 @@ export default async function BlogDetailPage({ params }) {
 
 
   {/* Main Content */}
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
     {blog.sections.map((section, index) => (
       <article key={index} className="mb-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -2576,7 +2576,7 @@ export default async function BlogDetailPage({ params }) {
           <img 
             src={section.image} 
             alt={section.heading}
-            className="w-full rounded-xl mb-6 shadow-lg"
+            className="w-full rounded-xl mb-4 shadow-lg"
           />
         )}
 
@@ -2584,7 +2584,7 @@ export default async function BlogDetailPage({ params }) {
         {/* Convert points array to paragraph */}
         {section.points && (
           <div 
-            className="blog-content text-lg text-gray-700 leading-relaxed mb-6"
+            className="blog-content text-lg text-gray-700 leading-relaxed mb-4"
             dangerouslySetInnerHTML={{ 
               __html: section.points.join(' ') 
             }}
@@ -2593,7 +2593,7 @@ export default async function BlogDetailPage({ params }) {
 
 
         {section.note && (
-          <div className="blog-content bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg mb-6">
+          <div className="blog-content bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg mb-4">
             <div className="flex gap-3">
               <div className="flex-shrink-0 w-6 h-6 rounded-full bg-amber-400 text-white flex items-center justify-center font-bold text-sm">
                 !
