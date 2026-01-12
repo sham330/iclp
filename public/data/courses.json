@@ -7638,74 +7638,3046 @@
           ]
         },
         {
-          "course_name": "Microsoft Azure",
-          "path": "microsoftazure-training",
-          "description": "Master Microsoft Azure for cloud computing and enterprise solutions.",
-          "what_youll_learn": [
-            "Understand Azure services and architecture (IaaS, PaaS, SaaS)",
-            "Deploy virtual machines and containers (Azure VMs, AKS, Container Instances)",
-            "Configure Azure networking and security (VNet, NSGs, Firewall)",
-            "Manage Azure Active Directory (Identity, RBAC, Conditional Access)",
-            "Monitor and optimize Azure resources (Azure Monitor, Cost Management)",
-            "Automate deployments with Infrastructure as Code (ARM, Bicep, Terraform)",
-            "Implement disaster recovery solutions (Backup, Site Recovery)",
-            "Design CI/CD pipelines with Azure DevOps"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to Microsoft Azure",
-              "subtopics": [
-                "Overview of Azure and its features",
-                "Setting up the Azure environment",
-                "Creating and managing Azure accounts"
-              ]
-            },
-            {
-              "module": "Azure Virtual Machines",
-              "subtopics": [
-                "Creating and managing VMs",
-                "Configuring VM storage and networking",
-                "Scaling and load balancing"
-              ]
-            },
-            {
-              "module": "Azure Networking",
-              "subtopics": [
-                "Virtual networks and subnets",
-                "Network security groups",
-                "Azure DNS and load balancers"
-              ]
-            },
-            {
-              "module": "Azure Storage",
-              "subtopics": [
-                "Blob, file, and disk storage",
-                "Storage accounts and replication",
-                "Data backup and recovery"
-              ]
-            },
-            {
-              "module": "Azure Security",
-              "subtopics": [
-                "Azure Active Directory",
-                "Role-based access control",
-                "Security monitoring and alerts"
-              ]
-            },
-            {
-              "module": "Project Work",
-              "subtopics": [
-                "Hands-on Azure projects",
-                "Final project presentations"
-              ]
-            }
-          ],
-          "duration": "30 hours",
-          "skill_level": "Intermediate",
-          "image": "https://wallpapercave.com/wp/wp3734333.jpg",
-          "placement_assurance": true,
-          "projects": ["Cloud Migration", "Azure-Based Web App"]
-        },
+  "course_name": "MERN Stack Online Training",
+  "path": "mern-stack-training",
+  "description": "Master full-stack web development with MongoDB, Express.js, React.js, and Node.js. Build production-ready applications with modern JavaScript (ES6+), REST APIs, JWT authentication, Redux state management, performance optimization, Docker deployment, CI/CD pipelines, and enterprise-grade capstone projects for full-stack developer careers.",
+  "what_youll_learn": [
+    "Build complete full-stack applications using MongoDB, Express, React, and Node.js",
+    "Design scalable NoSQL databases with Mongoose schemas, indexing, and query optimization",
+    "Create secure RESTful APIs with Express.js middleware, authentication, and error handling",
+    "Develop modern React applications with hooks, Context API, Redux Toolkit, and React Router",
+    "Implement JWT authentication, role-based access control, and secure session management",
+    "Deploy production applications on Heroku, AWS, Netlify with Docker containerization",
+    "Optimize performance with advanced React patterns, testing, and CI/CD pipelines",
+    "Master asynchronous JavaScript, event loops, streams, and Node.js core modules",
+    "Build responsive UIs with reusable components, form validation, and state management",
+    "Architect enterprise-grade full-stack solutions with real-world project experience",
+    "Configure Git workflows, environment variables, and production deployment strategies"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to MERN Stack & JavaScript Essentials",
+      "subtopics": [
+        "Overview of MERN Stack architecture",
+        "JavaScript fundamentals and ES6+ features",
+        "Client-server architecture and RESTful APIs",
+        "Development environment setup with Git/GitHub"
+      ]
+    },
+    {
+      "module": "MongoDB NoSQL Database",
+      "subtopics": [
+        "NoSQL concepts and MongoDB fundamentals",
+        "CRUD operations and Mongoose ODM",
+        "Schema design, data modeling, and relationships",
+        "Indexing strategies and query performance optimization"
+      ]
+    },
+    {
+      "module": "Node.js Fundamentals",
+      "subtopics": [
+        "Node.js architecture and asynchronous programming",
+        "Core modules, npm ecosystem, and package management",
+        "HTTP servers, event loop, callbacks, and promises",
+        "File system operations, streams, and buffers"
+      ]
+    },
+    {
+      "module": "Express.js Backend Framework",
+      "subtopics": [
+        "Express.js routing, middleware, and request handling",
+        "REST API development and MongoDB integration",
+        "Authentication, authorization, and JWT implementation",
+        "Error handling, logging, and production middleware"
+      ]
+    },
+    {
+      "module": "React.js Front-End Development",
+      "subtopics": [
+        "React component architecture and JSX syntax",
+        "Hooks (useState, useEffect, useContext) mastery",
+        "Event handling, forms, and React Router navigation",
+        "Component lifecycle and conditional rendering"
+      ]
+    },
+    {
+      "module": "Authentication & Authorization",
+      "subtopics": [
+        "JWT token implementation and secure authentication",
+        "Role-based access control (RBAC) systems",
+        "Password hashing with bcrypt and session management",
+        "Secure API endpoints and protected routes"
+      ]
+    },
+    {
+      "module": "Advanced React and State Management",
+      "subtopics": [
+        "Context API and Redux Toolkit for global state",
+        "Redux middleware (Thunk/Saga) for async operations",
+        "Performance optimization and React.memo",
+        "Formik/Yup form validation and reusable UI components"
+      ]
+    },
+    {
+      "module": "Deployment and DevOps Basics",
+      "subtopics": [
+        "Production environment configuration and optimization",
+        "Cloud deployment (Heroku, AWS, Netlify, Vercel)",
+        "Docker containerization and CI/CD pipelines",
+        "Environment variables and secure deployment practices"
+      ]
+    },
+    {
+      "module": "Capstone Project & Career Preparation",
+      "subtopics": [
+        "Full-stack MERN application architecture planning",
+        "Front-end/backend integration and API consumption",
+        "Comprehensive testing, debugging, and deployment",
+        "Production deployment and performance monitoring"
+      ]
+    }
+  ],
+  "duration": "80–100 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/mern-stack-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete E-commerce platform with authentication, cart, and payment integration",
+    "Real-time social media dashboard with Redux state management and API integration",
+    "Task management SaaS application with user roles and team collaboration",
+    "Advanced analytics dashboard with charts, filters, and real-time updates",
+    "Production-ready MERN application deployed with Docker and CI/CD pipeline"
+  ]
+},
+        {
+  "course_name": "RPA Developer Certification Training",
+  "path": "rpa-training-chennai",
+  "description": "Master Robotic Process Automation (RPA) with UiPath for enterprise deployment. Learn RPA lifecycle, UiPath Studio/Robot/Orchestrator, UI automation, data tables, recording/scraping, workflow design, Citrix/PDF automation, RE Framework, scalable queue management, exception handling, and production orchestration for RPA developer careers.",
+  "what_youll_learn": [
+    "Understand complete RPA lifecycle, architecture patterns, and tool selection criteria",
+    "Design UiPath workflows using sequences, flowcharts, state machines, and RE Framework",
+    "Implement enterprise UI automation for desktop, web, Citrix, and virtual environments",
+    "Master data manipulation with Data Tables, collections, Excel, PDF, and email automation",
+    "Build scalable queue management systems with transaction processing and error recovery",
+    "Configure UiPath Orchestrator for production robot deployment and process scheduling",
+    "Execute advanced recording, scraping, and dynamic selector techniques",
+    "Develop reusable components, exception handling, and robust debugging workflows",
+    "Automate complex business processes with state machine layouts and global variables",
+    "Create production-ready RPA solutions with performance optimization and monitoring",
+    "Deploy scalable enterprise automation frameworks with real-world use cases"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to RPA",
+      "subtopics": [
+        "RPA methods, architecture patterns, and process development",
+        "RPA tools overview and bot types",
+        "RPA lifecycle and selection criteria",
+        "Data solution patterns and handling"
+      ]
+    },
+    {
+      "module": "UiPath Tool for RPA",
+      "subtopics": [
+        "UiPath introduction and workflow activities",
+        "User interfaces and automation packages",
+        "Various UiPath project types"
+      ]
+    },
+    {
+      "module": "Important Components of UiPath",
+      "subtopics": [
+        "UiPath Studio, Robot, and Orchestrator overview",
+        "Variables, control flow, Excel automation",
+        "Desktop, web, and GUI automation techniques"
+      ]
+    },
+    {
+      "module": "User Interface Automation",
+      "subtopics": [
+        "UI automation process with UiPath",
+        "Automated tasks configuration and variables",
+        "Output viewing, arguments, and package imports"
+      ]
+    },
+    {
+      "module": "Recording with UiPath",
+      "subtopics": [
+        "Recording techniques and scraping methods",
+        "User events and sequence automation",
+        "Browser data extraction"
+      ]
+    },
+    {
+      "module": "Data Table Programming Activities",
+      "subtopics": [
+        "Data Table structure and searching methods",
+        "Data Table activities and collection creation",
+        "Sequence, flowchart, email operations"
+      ]
+    },
+    {
+      "module": "Workflow & Citrix Manipulation",
+      "subtopics": [
+        "Invoking workflows and data manipulation",
+        "Citrix and virtual environment automation",
+        "PDF automation and advanced Citrix techniques"
+      ]
+    },
+    {
+      "module": "UiPath Coding & Debugging",
+      "subtopics": [
+        "Programming activities and exception handling",
+        "Organizational projects and error management",
+        "Debugging workflows"
+      ]
+    },
+    {
+      "module": "Automate and Orchestrate Tasks",
+      "subtopics": [
+        "Email automation (read, download attachments)",
+        "Sequence and flowchart automation",
+        "Reusable email components"
+      ]
+    },
+    {
+      "module": "Scalable Queue Management",
+      "subtopics": [
+        "Queue concepts and management systems",
+        "Data scraping and queue insertion techniques"
+      ]
+    },
+    {
+      "module": "RE Framework",
+      "subtopics": [
+        "REFramework introduction and state machine layout",
+        "State machine workflows and global variables",
+        "Main workflow default variables"
+      ]
+    }
+  ],
+  "duration": "50–65 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/rpa-chennai-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete invoice-to-pay automation with OCR, data extraction, and AP workflows",
+    "End-to-end HR employee lifecycle automation (onboarding to offboarding)",
+    "Customer service automation with intelligent queue routing and SLA management",
+    "Financial reconciliation bot with Excel, PDF, and multi-system integration",
+    "RE Framework enterprise transaction processor with full exception handling"
+  ]
+},
+        {
+  "course_name": "Blue Prism RPA Certification Training",
+  "path": "blue-prism-training",
+  "description": "Master Blue Prism Robotic Process Automation for enterprise deployment. Learn Process Studio, Object Studio, Control Room management, exception handling, work queues, data collections, multi-application integration, advanced workflows, real-world projects, and certification preparation for RPA developer and process automation architect careers.",
+  "what_youll_learn": [
+    "Design enterprise-grade automation using Process Studio and Object Studio",
+    "Implement robust exception handling with recovery stages and retry mechanisms",
+    "Manage production automation with Control Room, session scheduling, and work queues",
+    "Build reusable business objects for multi-application integration",
+    "Handle complex data manipulation with collections, filtering, and external sources",
+    "Automate Excel, databases, web applications, email, APIs, and file operations",
+    "Create scalable multi-stage workflows with dynamic decision making",
+    "Optimize resource usage, monitor performance, and analyze process logs",
+    "Develop end-to-end business process automation solutions",
+    "Prepare for Blue Prism certification with mock tests and interview guidance",
+    "Document and present production-ready automation projects"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Blue Prism",
+      "subtopics": [
+        "Overview of RPA and Blue Prism architecture",
+        "Navigating Control Room, Process Studio, Object Studio",
+        "Creating your first process",
+        "Overview of Work Queues"
+      ]
+    },
+    {
+      "module": "Process Studio Essentials",
+      "subtopics": [
+        "Building basic workflows with decision stages and loops",
+        "Configuring input/output parameters",
+        "Handling exceptions in workflows",
+        "Testing and debugging processes"
+      ]
+    },
+    {
+      "module": "Object Studio Fundamentals",
+      "subtopics": [
+        "Creating business objects for application integration",
+        "Using stages to interact with UI elements",
+        "Data handling and object reusability",
+        "Testing and validating objects"
+      ]
+    },
+    {
+      "module": "Control Room and Work Queues",
+      "subtopics": [
+        "Managing sessions and scheduling processes",
+        "Monitoring active sessions and queue priorities",
+        "Analyzing process logs and results",
+        "Session recovery and restart procedures"
+      ]
+    },
+    {
+      "module": "Advanced Process Automation",
+      "subtopics": [
+        "Designing multi-stage and nested workflows",
+        "Dynamic decision making and large dataset handling",
+        "Automating file operations and environment variables",
+        "Interacting with multiple applications"
+      ]
+    },
+    {
+      "module": "Exception Handling and Recovery",
+      "subtopics": [
+        "Identifying and configuring common exceptions",
+        "Creating recovery stages and retry mechanisms",
+        "Logging errors and system failure handling",
+        "Testing exception scenarios"
+      ]
+    },
+    {
+      "module": "Data Manipulation and Collections",
+      "subtopics": [
+        "Working with collections, filtering, and sorting",
+        "Looping through collection items",
+        "Passing data between processes and objects",
+        "Using external data sources"
+      ]
+    },
+    {
+      "module": "Integration and External Applications",
+      "subtopics": [
+        "Excel, database, web application, and email automation",
+        "API integration and secure credential management",
+        "Handling external files and multi-app combinations"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Case Studies",
+      "subtopics": [
+        "End-to-end automation scenarios",
+        "Creating reusable processes and objects",
+        "Handling multiple queues and workloads",
+        "Process documentation, optimization, and performance review"
+      ]
+    },
+    {
+      "module": "Certification Preparation and Career Guidance",
+      "subtopics": [
+        "Blue Prism certification topics and mock tests",
+        "Resume building and interview preparation",
+        "Industry roles, responsibilities, and career growth",
+        "Practical project completion guidance"
+      ]
+    }
+  ],
+  "duration": "45–60 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/blue-prism-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete invoice processing automation with OCR and exception handling",
+    "HR employee onboarding workflow with multi-system integration",
+    "Customer service ticket automation with work queue management",
+    "Financial reconciliation process with Excel and database integration",
+    "End-to-end procurement automation with approval workflows"
+  ]
+},
+        {
+  "course_name": "UiPath RPA Certification Training",
+  "path": "uipath-certification-training",
+  "description": "Master UiPath Robotic Process Automation for enterprise automation. Learn Studio interface, workflow design, data manipulation, UI automation, Orchestrator deployment, error handling, advanced workflows, email automation, Excel integration, web scraping, and production robot management for RPA developer and automation architect careers.",
+  "what_youll_learn": [
+    "Design complex automation workflows using sequences, flowcharts, and state machines",
+    "Implement robust data handling with Excel, CSV, JSON, XML, and database integration",
+    "Master UI automation techniques including selectors, recording, and dynamic elements",
+    "Deploy and manage enterprise robots with UiPath Orchestrator scheduling and queues",
+    "Build production-ready error handling with Try Catch, logging, and exception management",
+    "Automate email processing, attachments, notifications, and Outlook/SMTP integration",
+    "Create reusable components, libraries, and modular automation frameworks",
+    "Execute web scraping, form automation, and browser interactions at enterprise scale",
+    "Optimize performance with parallel processing, asynchronous activities, and debugging",
+    "Develop end-to-end business process automation solutions with real-world use cases",
+    "Implement advanced debugging, monitoring, and production deployment strategies"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to UiPath",
+      "subtopics": [
+        "Overview of RPA and its applications",
+        "Understanding UiPath Studio interface",
+        "Installing and configuring UiPath Studio",
+        "Creating first automation workflow",
+        "Using variables and arguments",
+        "Introduction to control flow activities"
+      ]
+    },
+    {
+      "module": "UiPath Studio Activities",
+      "subtopics": [
+        "Using sequences and flowcharts",
+        "Applying control flow activities like If, Switch, and Loops",
+        "Managing data with variables and arguments",
+        "Using message boxes and input dialogs",
+        "Handling text and string manipulations",
+        "Working with Excel and CSV files",
+        "Introduction to logging activities"
+      ]
+    },
+    {
+      "module": "Data Handling and Manipulation",
+      "subtopics": [
+        "Working with data tables",
+        "Reading and writing Excel files",
+        "Filtering, sorting, and merging data",
+        "Using string and number operations",
+        "Applying collection and array activities",
+        "Extracting and transforming data",
+        "Handling JSON and XML data",
+        "Using regular expressions"
+      ]
+    },
+    {
+      "module": "UI Automation Techniques",
+      "subtopics": [
+        "Recording desktop and web actions",
+        "Using selectors to identify UI elements",
+        "Automating browser tasks",
+        "Working with images and text automation",
+        "Handling pop-ups and alerts",
+        "Using click, type, and send hotkey activities"
+      ]
+    },
+    {
+      "module": "Orchestrator Basics",
+      "subtopics": [
+        "Overview of UiPath Orchestrator",
+        "Creating and managing robots",
+        "Publishing workflows to Orchestrator",
+        "Scheduling automation jobs",
+        "Monitoring and logging robot activities",
+        "Managing queues for process automation"
+      ]
+    },
+    {
+      "module": "Error Handling and Debugging",
+      "subtopics": [
+        "Using Try Catch activities",
+        "Managing exceptions and error messages",
+        "Logging and debugging workflows",
+        "Using breakpoints and highlight elements",
+        "Handling application-specific errors",
+        "Validating data before processing",
+        "Debugging with output panels"
+      ]
+    },
+    {
+      "module": "Advanced Workflow Automation",
+      "subtopics": [
+        "Using flowcharts and state machines",
+        "Managing nested workflows",
+        "Creating reusable components",
+        "Invoking workflows with arguments",
+        "Using parallel and asynchronous activities",
+        "Handling dynamic selectors",
+        "Automating complex data processes",
+        "Managing large datasets"
+      ]
+    },
+    {
+      "module": "Email Automation",
+      "subtopics": [
+        "Connecting to Outlook and SMTP servers",
+        "Reading and sending emails automatically",
+        "Extracting attachments from emails",
+        "Filtering and sorting emails",
+        "Automating responses and notifications",
+        "Handling email exceptions",
+        "Using email templates for automation"
+      ]
+    },
+    {
+      "module": "Excel and Data Integration",
+      "subtopics": [
+        "Reading and writing Excel workbooks",
+        "Using Excel formulas and functions in automation",
+        "Filtering and sorting data tables",
+        "Merging and splitting data",
+        "Connecting Excel with databases",
+        "Automating repetitive Excel tasks",
+        "Using Excel macros with UiPath",
+        "Handling large datasets efficiently"
+      ]
+    },
+    {
+      "module": "Web Automation and Scraping",
+      "subtopics": [
+        "Using web recording and scraping techniques",
+        "Extracting structured and unstructured data",
+        "Automating form submissions",
+        "Handling dynamic web elements",
+        "Using data scraping and screen scraping tools",
+        "Automating browser navigation",
+        "Using selectors and UI interactions",
+        "Handling pop-ups and alerts"
+      ]
+    }
+  ],
+  "duration": "45–60 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/uipath-certification-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete accounts payable automation with invoice processing and email integration",
+    "HR onboarding workflow with Excel reporting and Orchestrator deployment",
+    "Web data extraction and reporting dashboard automation",
+    "Customer support ticket automation with email classification and SLA monitoring",
+    "Enterprise financial reconciliation bot with error handling and production monitoring"
+  ]
+},
+        {
+  "course_name": "Azure Data Factory Certification Training",
+  "path": "azure-data-factory-training",
+  "description": "Master Azure Data Factory (ADF) and Azure Synapse Analytics for enterprise ETL/ELT pipelines. Learn data ingestion, orchestration, incremental loads, mapping/wrangling data flows, hybrid data movement, Synapse SQL pools, MPP architecture, PolyBase, performance optimization, and production data lakehouse deployment for Azure data engineering careers.",
+  "what_youll_learn": [
+    "Design and orchestrate complex ADF pipelines with triggers, parameters, and activities",
+    "Implement Azure Synapse Analytics with MPP architecture, SQL pools, and DWUs",
+    "Execute incremental loads using watermark tables, stored procedures, and dynamic expressions",
+    "Configure hybrid data movement with Self-Hosted Integration Runtime (SHIR)",
+    "Build transformation pipelines using Mapping Data Flow and Wrangling Data Flow",
+    "Optimize data ingestion from Azure Data Lake Gen2, Blob Storage, SQL databases",
+    "Deploy PolyBase, staged copies, fault tolerance, and performance tuning strategies",
+    "Manage enterprise data governance with GitHub integration, CI/CD, and monitoring",
+    "Process heterogeneous sources with Power Query Online and Spark execution",
+    "Design scalable data lakehouse architectures with columnstore indexes and partitioning",
+    "Implement production-grade monitoring, error handling, and pipeline scheduling"
+  ],
+  "syllabus": [
+    {
+      "module": "Azure Data Factory & Synapse Intro",
+      "subtopics": [
+        "Azure Data Factory operations and hybrid data ingestion",
+        "Data pipelines, flows, wrangling, and ETL processes",
+        "Azure Synapse Analytics and SQL pool creation",
+        "DWUs usage, column store data, automated tuning",
+        "SSMS & ADS tools connections"
+      ]
+    },
+    {
+      "module": "Azure Synapse Architecture",
+      "subtopics": [
+        "MPP architecture with control and compute nodes",
+        "Distribution strategies: Round Robin, Hash, Replicate",
+        "Resource classes, CTAS, table storage, and indexes",
+        "T-SQL COPY INTO, blob data import, monitoring scripts"
+      ]
+    },
+    {
+      "module": "Azure Data Factory Architecture",
+      "subtopics": [
+        "Pipeline design, DIUs, linked services, datasets, activities",
+        "Copy Data Tool, staging advantages, PolyBase integration",
+        "Pipeline validation, publishing, execution, and monitoring",
+        "Auto-resolving Integration Runtime configuration"
+      ]
+    },
+    {
+      "module": "Azure Data Lake with ADF",
+      "subtopics": [
+        "Data Lake Gen2 hierarchical namespace creation",
+        "Pipeline parameters, variables, secure linked services",
+        "ForEach loops, tumbling window triggers, sink options",
+        "Excel to container, SQL DB to Synapse data loads"
+      ]
+    },
+    {
+      "module": "On-Premise Data to Azure",
+      "subtopics": [
+        "Self-Hosted Integration Runtime installation",
+        "Remote linked services, authentication, fault tolerance",
+        "Staged data copy with PolyBase performance optimization",
+        "Incompatible rows handling and connection management"
+      ]
+    },
+    {
+      "module": "Incremental Loads with ADF - 1",
+      "subtopics": [
+        "Watermark tables, timestamp columns, stored procedures",
+        "High watermark storage, lookup activities, ADF expressions",
+        "@activity outputs, concat functions, dynamic file names"
+      ]
+    },
+    {
+      "module": "Incremental Loads with ADF - 2",
+      "subtopics": [
+        "Multi-table incremental pipelines, dynamic connections",
+        "@{item()} expressions, table_schema mapping, staging optimization",
+        "Binary copy, last modified date filtering, tumbling windows"
+      ]
+    },
+    {
+      "module": "Mapping Data Flow in ADF",
+      "subtopics": [
+        "Data Flow creation, transformation editor, debugging",
+        "Conditional split, pivot transformations, aggregation",
+        "Spark cluster execution, optimization, metadata propagation"
+      ]
+    },
+    {
+      "module": "Wrangling Data Flow in ADF",
+      "subtopics": [
+        "Power Query Online editor, Spark code execution",
+        "Group by, pivot, heterogeneous source processing",
+        "GitHub integration, ADF publish vs GitHub store"
+      ]
+    }
+  ],
+  "duration": "50–70 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/azure-data-factory-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise incremental ETL pipeline with 10+ tables and watermark management",
+    "Real-time data lakehouse with ADF Mapping Data Flow and Synapse SQL pools",
+    "Hybrid data migration from on-premise SQL Server to Azure Synapse Analytics",
+    "Production data wrangling pipeline with Power Query and GitHub CI/CD",
+    "Scalable data ingestion from Data Lake Gen2 with PolyBase optimization"
+  ]
+},
+        {
+  "course_name": "Apache Spark Certification Training",
+  "path": "apache-spark-training",
+  "description": "Master Apache Spark for big data processing and analytics. Learn RDDs, DataFrames, Spark SQL, MLlib machine learning, Spark Streaming, Kafka/Flume integration, performance optimization, parallel processing, scheduling, and production deployment for big data engineer and data scientist careers.",
+  "what_youll_learn": [
+    "Implement Spark RDD operations, transformations, actions, and persistence strategies",
+    "Build scalable Spark applications using Scala/Java with SBT and Maven deployment",
+    "Master DataFrames, Spark SQL, JSON/Parquet processing, and Hive integration",
+    "Develop machine learning pipelines with MLlib (regression, clustering, decision trees)",
+    "Process real-time streaming data with Spark Streaming, DStreams, and windowed operations",
+    "Optimize Spark performance with caching, partitioning, broadcast variables, and accumulators",
+    "Integrate Apache Kafka and Flume for production data ingestion pipelines",
+    "Deploy Spark on YARN, standalone clusters with high availability and monitoring",
+    "Implement parallel processing, data locality, and advanced scheduling algorithms",
+    "Build end-to-end analytics solutions with Spark ecosystem components",
+    "Troubleshoot common performance issues and production deployment challenges"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Spark",
+      "subtopics": [
+        "Introduction to Spark and its advantages over MapReduce",
+        "In-memory processing and Spark ecosystem overview",
+        "Spark vs Hadoop comparison and deployment options",
+        "Spark History Server and Cloudera distribution"
+      ]
+    },
+    {
+      "module": "Spark Basics",
+      "subtopics": [
+        "Spark installation, configuration, and memory management",
+        "Working with Spark Shell and RDD fundamentals",
+        "Executor vs driver memory management",
+        "Spark architecture overview"
+      ]
+    },
+    {
+      "module": "Working with RDDs",
+      "subtopics": [
+        "Creating RDDs and RDD partitioning strategies",
+        "RDD transformations and actions",
+        "Pair RDD operations and key-value processing",
+        "RDD persistence and caching techniques"
+      ]
+    },
+    {
+      "module": "Aggregating Data with Pair RDDs",
+      "subtopics": [
+        "Key-value pair RDD operations",
+        "MapReduce optimizations in Spark",
+        "Fine vs coarse-grained RDD updates"
+      ]
+    },
+    {
+      "module": "Spark Application Development",
+      "subtopics": [
+        "Building Spark applications with Scala/Java",
+        "SBT and Maven deployment workflows",
+        "Spark web UI monitoring and debugging",
+        "Real-world Spark application examples"
+      ]
+    },
+    {
+      "module": "Parallel Processing",
+      "subtopics": [
+        "Spark partitioning and data locality",
+        "Repartition vs coalesce optimization",
+        "Cluster deployment strategies",
+        "HDFS integration and parallel operations"
+      ]
+    },
+    {
+      "module": "Spark RDD Persistence",
+      "subtopics": [
+        "RDD lineage and execution flow",
+        "Persistence levels and storage options",
+        "Distributed shared memory vs RDDs",
+        "Key-value RDD operations (reduceByKey, sortByKey)"
+      ]
+    },
+    {
+      "module": "Spark MLlib",
+      "subtopics": [
+        "Machine learning algorithms in MLlib",
+        "Linear/logistic regression implementation",
+        "Decision trees, random forests, K-means clustering",
+        "ML pipeline development"
+      ]
+    },
+    {
+      "module": "Kafka and Flume Integration",
+      "subtopics": [
+        "Apache Kafka architecture and cluster setup",
+        "Kafka monitoring and operations",
+        "Flume-Kafka-Spark integration patterns"
+      ]
+    },
+    {
+      "module": "Spark Streaming",
+      "subtopics": [
+        "Spark Streaming architecture and DStreams",
+        "Windowed operations and stateful processing",
+        "Real-time data processing workflows"
+      ]
+    },
+    {
+      "module": "Performance Optimization",
+      "subtopics": [
+        "Broadcast variables and accumulators",
+        "Common performance bottlenecks",
+        "Troubleshooting and optimization techniques"
+      ]
+    },
+    {
+      "module": "Spark SQL and DataFrames",
+      "subtopics": [
+        "Spark SQL and DataFrame API",
+        "JSON, Parquet, CSV, and JDBC processing",
+        "Hive integration and UDF creation",
+        "Schema inference and data transformation"
+      ]
+    },
+    {
+      "module": "Scheduling and Partitioning",
+      "subtopics": [
+        "Hash and range partitioning strategies",
+        "Fair scheduling and dynamic allocation",
+        "Spark master high availability",
+        "Advanced RDD operations (mapPartitions, groupByKey)"
+      ]
+    }
+  ],
+  "duration": "60–80 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/apache-spark-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Real-time log analytics pipeline with Kafka, Spark Streaming, and Elasticsearch",
+    "Machine learning recommendation system using Spark MLlib and ALS algorithm",
+    "ETL pipeline processing terabyte-scale data with Spark SQL and DataFrames",
+    "Distributed graph processing with GraphX and Pregel API implementation",
+    "Production Spark cluster deployment with YARN, high availability, and monitoring"
+  ]
+},
+        {
+  "course_name": "Figma Advanced",
+  "path": "figma-advanced-training",
+  "description": "Master advanced Figma for professional UI/UX design workflows. Learn design systems, Auto Layout, complex prototyping, team collaboration, responsive design, developer handoff, plugins automation, micro-interactions, real-world projects (dashboard, mobile app, e-commerce), and portfolio preparation for senior UI/UX designer careers.",
+  "what_youll_learn": [
+    "Create scalable design systems with reusable components, shared libraries, and design tokens",
+    "Master Auto Layout, constraints, and responsive design for multi-device experiences",
+    "Build complex interactive prototypes with Smart Animate, scroll effects, and micro-interactions",
+    "Streamline team collaboration with real-time editing, version history, and branching",
+    "Optimize workflows using Figma plugins for content generation, batch operations, and automation",
+    "Design high-fidelity wireframes, user flows, and cross-device layouts",
+    "Perfect developer handoff with CSS export, asset optimization, and specification documentation",
+    "Create production-ready UI kits for dashboards, mobile apps, and e-commerce platforms",
+    "Apply motion design principles for engaging UI animations and transitions",
+    "Build professional portfolios with case studies and interview-ready presentations",
+    "Implement advanced workspace customization and efficient design operations"
+  ],
+  "syllabus": [
+    {
+      "module": "Figma Advanced Interface & Workflows",
+      "subtopics": [
+        "Advanced Toolbar & Components",
+        "Efficient workspace customization",
+        "Mastering Frames vs Groups",
+        "Layout grids & responsive constraints"
+      ]
+    },
+    {
+      "module": "Design Systems & UI Libraries",
+      "subtopics": [
+        "Creating reusable components",
+        "Auto Layout principles",
+        "Shared libraries & team libraries",
+        "Managing design tokens & styles"
+      ]
+    },
+    {
+      "module": "Collaboration & Team Workflow",
+      "subtopics": [
+        "Real-time collaboration features",
+        "Commenting and feedback tools",
+        "Version history & branching",
+        "Team project organization"
+      ]
+    },
+    {
+      "module": "Prototyping with Complex Interactions",
+      "subtopics": [
+        "Smart animate transitions",
+        "Interactive components",
+        "Scroll effects & overlays",
+        "Advanced micro-interactions"
+      ]
+    },
+    {
+      "module": "Figma Plugins & Automation",
+      "subtopics": [
+        "Best plugins for productivity",
+        "Content & data-driven plugins",
+        "Batch rename & cleanup plugins",
+        "Plugin development basics (optional)"
+      ]
+    },
+    {
+      "module": "User Flows & Wireframes",
+      "subtopics": [
+        "High-fidelity wireframes",
+        "Flowcharts & journey maps",
+        "Cross-device wireframe strategies"
+      ]
+    },
+    {
+      "module": "Responsive & Adaptive Design",
+      "subtopics": [
+        "Breakpoints & constraints",
+        "Responsive layout techniques",
+        "Grids for multiple screens"
+      ]
+    },
+    {
+      "module": "Design Handoff to Developers",
+      "subtopics": [
+        "Inspect panel & CSS code export",
+        "Asset export settings",
+        "Redlines & spec documentation"
+      ]
+    },
+    {
+      "module": "UI Animation Basics",
+      "subtopics": [
+        "Smart animate refinements",
+        "Micro-interaction timing",
+        "Motion principles in UI"
+      ]
+    },
+    {
+      "module": "Real-World Projects",
+      "subtopics": [
+        "Project 1: Dashboard UI Kit",
+        "Project 2: Mobile App UI/UX Design",
+        "Project 3: E-commerce interaction prototype"
+      ]
+    },
+    {
+      "module": "Portfolio & Career Preparation",
+      "subtopics": [
+        "Case study documentation",
+        "Presentation best practices",
+        "Interview tips for UI/UX designers"
+      ]
+    }
+  ],
+  "duration": "35–45 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/figma-advanced-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete Dashboard UI Kit with responsive components and design system",
+    "Production-ready Mobile App UI/UX with complex interactions and animations",
+    "Interactive E-commerce prototype with checkout flow and micro-interactions",
+    "Multi-device responsive design system with developer handoff documentation",
+    "Professional portfolio with 3 case studies and presentation materials"
+  ]
+},{
+  "course_name": "Palo Alto Networks Firewall Administration",
+  "path": "palo-alto-training",
+  "description": "Master Palo Alto Networks next-generation firewalls for enterprise security. Learn single-pass architecture, zone-based security policies, App-ID application control, Content-ID threat prevention, User-ID integration, SSL decryption, site-to-site VPNs, High Availability, GlobalProtect, Panorama management, and advanced reporting for network security engineer careers.",
+  "what_youll_learn": [
+    "Configure Palo Alto firewalls using single-pass parallel processing architecture",
+    "Implement zone-based security policies, NAT, and virtual routing configurations",
+    "Deploy App-ID for application identification, control, and visibility",
+    "Enable Content-ID threat prevention with AV, anti-spyware, and URL filtering",
+    "Configure SSL decryption, certificate management, and encrypted traffic inspection",
+    "Integrate User-ID with Active Directory agents, captive portals, and user mapping",
+    "Deploy site-to-site IPSec VPN tunnels and GlobalProtect mobile VPN solutions",
+    "Manage centralized logging, reporting, and Panorama multi-firewall deployment",
+    "Configure Active/Passive High Availability clusters for production resilience",
+    "Optimize firewall performance with routing protocols and advanced management",
+    "Implement comprehensive threat prevention and application security policies"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Palo Alto",
+      "subtopics": [
+        "Single-pass architecture",
+        "Flow logic and packet processing"
+      ]
+    },
+    {
+      "module": "Initial Configuration",
+      "subtopics": [
+        "Initial access and management interface",
+        "Licensing and software updates"
+      ]
+    },
+    {
+      "module": "Basic Interface Configuration",
+      "subtopics": [
+        "Security Zones configuration",
+        "Physical and logical interfaces",
+        "Virtual routers setup"
+      ]
+    },
+    {
+      "module": "Routing Configuration",
+      "subtopics": [
+        "Static routes implementation",
+        "Dynamic routing protocols (OSPF, BGP)"
+      ]
+    },
+    {
+      "module": "Policies and NAT",
+      "subtopics": [
+        "Security policy creation and management",
+        "NAT configuration (source, destination, bidirectional)"
+      ]
+    },
+    {
+      "module": "App-ID Application Control",
+      "subtopics": [
+        "App-ID technology overview",
+        "Application groups and custom applications"
+      ]
+    },
+    {
+      "module": "Content-ID Threat Prevention",
+      "subtopics": [
+        "Anti-virus signature protection",
+        "Anti-spyware and vulnerability protection",
+        "URL filtering and web security"
+      ]
+    },
+    {
+      "module": "SSL Decryption",
+      "subtopics": [
+        "Certificate management and CA integration",
+        "SSL inbound/outbound decryption policies"
+      ]
+    },
+    {
+      "module": "User-ID Integration",
+      "subtopics": [
+        "User enumeration and mapping",
+        "User-ID agent deployment",
+        "Captive portal authentication"
+      ]
+    },
+    {
+      "module": "Site-to-Site VPN",
+      "subtopics": [
+        "IPSec tunnel configuration",
+        "IKE gateway and IPSec tunnel setup"
+      ]
+    },
+    {
+      "module": "Management and Reporting",
+      "subtopics": [
+        "Log management and forwarding",
+        "Basic reporting and dashboards",
+        "Panorama centralized management"
+      ]
+    },
+    {
+      "module": "High Availability & GlobalProtect",
+      "subtopics": [
+        "Active/Passive HA configuration",
+        "GlobalProtect portal and gateway setup",
+        "GlobalProtect client configuration"
+      ]
+    }
+  ],
+  "duration": "40–50 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/palo-alto-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise firewall deployment with zone-based security and App-ID policies",
+    "SSL decryption implementation with certificate management and threat inspection",
+    "GlobalProtect VPN deployment for remote workforce with user authentication",
+    "Active/Passive HA cluster configuration with seamless failover testing",
+    "Panorama centralized management with multi-firewall policy deployment"
+  ]
+},{
+  "course_name": "VMware vSphere Administration",
+  "path": "vmware-vsphere-training",
+  "description": "Master VMware vSphere enterprise virtualization administration. Learn ESXi installation, vCenter Server deployment, virtual machine lifecycle management, networking, storage (iSCSI/NFS/VMFS), vMotion, HA, DRS, Fault Tolerance, resource pools, alarms, access control, Update Manager, and production cluster management for virtualization engineer careers.",
+  "what_youll_learn": [
+    "Install and configure VMware ESXi hosts and vCenter Server Appliance",
+    "Create and manage virtual machines, templates, clones, and vApps",
+    "Configure standard virtual switches, VMkernel ports, and storage connectivity",
+    "Implement vMotion, Storage vMotion, HA, DRS, and Fault Tolerance",
+    "Manage VMFS datastores, expand storage, and optimize thin provisioning",
+    "Configure resource pools, CPU/memory allocation, and performance monitoring",
+    "Deploy enterprise security with custom roles, permissions, and access control",
+    "Create and manage alarms, monitoring, and automated cluster operations",
+    "Patch and update ESXi hosts and clusters using vSphere Update Manager",
+    "Design and troubleshoot production vSphere clusters with high availability"
+  ],
+  "syllabus": [
+    {
+      "module": "vSphere GUI Installation",
+      "subtopics": [
+        "Introduction on VMware vSphere",
+        "Features of VMware vSphere",
+        "vSphere version comparison",
+        "Install the vSphere Client"
+      ]
+    },
+    {
+      "module": "ESXi Host Configuration",
+      "subtopics": [
+        "Connect to ESXi host with vSphere Client",
+        "Configure DNS, routing, NTP, directory services",
+        "View host hardware configuration"
+      ]
+    },
+    {
+      "module": "Virtual Machine Management",
+      "subtopics": [
+        "Create virtual machines",
+        "Install guest operating systems",
+        "Install VMware Tools",
+        "Manage disk formats and usage"
+      ]
+    },
+    {
+      "module": "vCenter Server Appliance",
+      "subtopics": [
+        "Configure VCVA for first use",
+        "Install vSphere license keys",
+        "Create datacenter and folder objects",
+        "Add ESXi hosts to inventory"
+      ]
+    },
+    {
+      "module": "Standard Virtual Switches",
+      "subtopics": [
+        "View standard virtual switch configuration",
+        "Create VM port groups",
+        "Attach VMs to virtual switches"
+      ]
+    },
+    {
+      "module": "iSCSI Storage Access",
+      "subtopics": [
+        "Add VMkernel port groups",
+        "Configure iSCSI software adapter"
+      ]
+    },
+    {
+      "module": "IP Storage & VMFS",
+      "subtopics": [
+        "Configure NFS datastores",
+        "Manage VMFS datastores",
+        "Expand and extend VMFS volumes"
+      ]
+    },
+    {
+      "module": "Templates and Clones",
+      "subtopics": [
+        "Create templates and customization specs",
+        "Deploy VMs from templates",
+        "Clone powered-on virtual machines"
+      ]
+    },
+    {
+      "module": "VM Modification",
+      "subtopics": [
+        "Increase VMDK size",
+        "Adjust memory allocation",
+        "Add raw LUNs to VMs",
+        "Expand thin-provisioned disks"
+      ]
+    },
+    {
+      "module": "VM Migration (vMotion)",
+      "subtopics": [
+        "Configure vMotion networks",
+        "Perform Storage vMotion",
+        "Execute live vMotion migrations"
+      ]
+    },
+    {
+      "module": "VM Lifecycle Management",
+      "subtopics": [
+        "Register/unregister VMs",
+        "Manage snapshots",
+        "Delete VMs from inventory"
+      ]
+    },
+    {
+      "module": "vApps Management",
+      "subtopics": [
+        "Create and manage vApps",
+        "Power on/off vApps"
+      ]
+    },
+    {
+      "module": "Access Control & Permissions",
+      "subtopics": [
+        "Create custom roles",
+        "Assign inventory permissions",
+        "Configure ESX Admins group"
+      ]
+    },
+    {
+      "module": "Resource Pools",
+      "subtopics": [
+        "Create CPU/memory resource pools",
+        "Fin-Test and Fin-Prod pools",
+        "Verify resource allocation"
+      ]
+    },
+    {
+      "module": "Performance Monitoring",
+      "subtopics": [
+        "Monitor CPU utilization",
+        "Create CPU activity scenarios",
+        "vCenter performance analysis"
+      ]
+    },
+    {
+      "module": "vSphere Alarms",
+      "subtopics": [
+        "Create condition and event alarms",
+        "Trigger and acknowledge alarms",
+        "Disable virtual machine alarms"
+      ]
+    },
+    {
+      "module": "vSphere High Availability (HA)",
+      "subtopics": [
+        "Create HA-enabled clusters",
+        "Test HA functionality",
+        "Configure admission control"
+      ]
+    },
+    {
+      "module": "vSphere Fault Tolerance",
+      "subtopics": [
+        "Enable Fault Tolerance",
+        "Test FT functionality",
+        "Disable Fault Tolerance"
+      ]
+    },
+    {
+      "module": "Distributed Resource Scheduler (DRS)",
+      "subtopics": [
+        "Create DRS clusters",
+        "Affinity/anti-affinity rules",
+        "Load balancing verification"
+      ]
+    },
+    {
+      "module": "vSphere Update Manager",
+      "subtopics": [
+        "Install Update Manager",
+        "Create patch baselines",
+        "Scan and remediate hosts"
+      ]
+    },
+    {
+      "module": "vCenter Server Installation",
+      "subtopics": [
+        "Install vCenter Server"
+      ]
+    }
+  ],
+  "duration": "70–90 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/vmware-vsphere-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete enterprise vSphere cluster with HA, DRS, and vMotion",
+    "Production storage configuration with iSCSI, NFS, and VMFS datastores",
+    "Advanced VM lifecycle management with templates, clones, and snapshots",
+    "Security-hardened vCenter with custom roles and permission delegation",
+    "Automated patching and update management with vSphere Update Manager"
+  ]
+},{
+  "course_name": "Linux Administrator",
+  "path": "linux-administrator-training",
+  "description": "Master Linux system administration for enterprise environments. Learn kernel customization, filesystem management, BASH scripting, user administration, network services (DHCP, DNS, SSH, Apache), software management (RPM), hardware configuration, X Window System, and advanced troubleshooting for production Linux server administration careers.",
+  "what_youll_learn": [
+    "Customize Linux kernel compilation, run levels, and boot process automation",
+    "Manage users, groups, PAM authentication, quotas, and NIS directory services",
+    "Configure filesystems, partitions, automount, /proc filesystem, and device management",
+    "Administer network services including DHCP, DNS, SSH, FTP, NFS, Samba, Sendmail, Apache",
+    "Implement iptables firewall rules and network device monitoring/control",
+    "Master BASH scripting, shell automation, cron jobs, and system scheduling",
+    "Perform software management with RPM packages, patches, and tar archives",
+    "Configure X Window System, GTK/KDE, and remote desktop environments",
+    "Execute advanced troubleshooting for installation, configuration, and production issues",
+    "Manage hardware devices, kernel modules, and system performance optimization"
+  ],
+  "syllabus": [
+    {
+      "module": "Automating Programs",
+      "subtopics": [
+        "Run Levels",
+        " /etc/rc.d Files",
+        "Customization of Run Levels",
+        "cron and anacron",
+        "at and batch"
+      ]
+    },
+    {
+      "module": "Login Options",
+      "subtopics": [
+        "Console Logon",
+        "Controlling Console Login",
+        "Virtual Consoles",
+        "Serial Login",
+        "Remote Login",
+        "ssh Login"
+      ]
+    },
+    {
+      "module": "Building Custom Linux Kernel",
+      "subtopics": [
+        "Kernel Versions",
+        "Kernel Source Files",
+        "Kernel Patch Files",
+        "Kernel Configuration",
+        "Kernel Building",
+        "Testing a New Kernel"
+      ]
+    },
+    {
+      "module": "GNU/Linux Filesystem",
+      "subtopics": [
+        "Partition Types",
+        "Filesystem Types",
+        "Mounting",
+        "Automount",
+        "File Types",
+        "File Security"
+      ]
+    },
+    {
+      "module": "Key Filesystem Locations",
+      "subtopics": [
+        "Boot Files",
+        "User Files",
+        "Administrator Files",
+        "Configuration Files",
+        "Log Files"
+      ]
+    },
+    {
+      "module": "/proc Pseudo Filesystem",
+      "subtopics": [
+        "Process Info",
+        "Kernel Config Info",
+        "Hardware Info",
+        "Changing /proc Info",
+        "Sysctl"
+      ]
+    },
+    {
+      "module": "BASH - Borne Again Shell",
+      "subtopics": [
+        "Key /bin Commands",
+        "Key /sbin Commands",
+        "History",
+        "man and info",
+        "vi",
+        "Using Shell Scripts"
+      ]
+    },
+    {
+      "module": "User Management",
+      "subtopics": [
+        "Users and Groups",
+        "Home Directories",
+        "Password Files",
+        "PAM",
+        "Quotas",
+        "NIS Intro"
+      ]
+    },
+    {
+      "module": "Software Management",
+      "subtopics": [
+        "tar Files",
+        "Patch Files",
+        "RPM"
+      ]
+    },
+    {
+      "module": "Hardware Management",
+      "subtopics": [
+        "Types of Devices",
+        "/dev Namespace",
+        "Modules"
+      ]
+    },
+    {
+      "module": "Network Management",
+      "subtopics": [
+        "Types of Network Devices",
+        "Monitoring Network Devices",
+        "Controlling Network Services",
+        "xinetd",
+        "iptables"
+      ]
+    },
+    {
+      "module": "Network Services - Part I",
+      "subtopics": [
+        "DHCP",
+        "DNS",
+        "SSH"
+      ]
+    },
+    {
+      "module": "Network Services - Part II",
+      "subtopics": [
+        "FTP",
+        "NFS",
+        "Samba"
+      ]
+    },
+    {
+      "module": "Network Services - Part III",
+      "subtopics": [
+        "Sendmail",
+        "Apache",
+        "Squid Proxy Server"
+      ]
+    },
+    {
+      "module": "X Window System",
+      "subtopics": [
+        "X Servers and X Clients",
+        "XFree86",
+        "X Fonts",
+        "GTK and KDE"
+      ]
+    },
+    {
+      "module": "Exam Practice & Challenges",
+      "subtopics": [
+        "Installation Challenges",
+        "Configuration Challenges",
+        "Troubleshooting Challenges"
+      ]
+    }
+  ],
+  "duration": "60–80 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/linux-administrator-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete enterprise Linux server deployment with Apache, DNS, and DHCP services",
+    "Custom kernel compilation and performance optimization project",
+    "Network infrastructure setup with iptables firewall and Samba file sharing",
+    "Automated system administration with BASH scripting and cron jobs",
+    "Production troubleshooting scenario resolution with full server recovery"
+  ]
+},{
+  "course_name": "Tableau Certification Training",
+  "path": "tableau-certification-training",
+  "description": "Master Tableau for business intelligence and data visualization certification. Learn data connections, advanced calculations, interactive dashboards, LOD expressions, performance optimization, Tableau Server/Cloud deployment, real-world analytics projects, and certification preparation for data analyst and BI developer careers.",
+  "what_youll_learn": [
+    "Connect and prepare data from Excel, SQL databases, CSV with live/extract connections",
+    "Create professional visualizations including charts, maps, scatter plots, and trends",
+    "Build calculated fields, table calculations, parameters, and LOD expressions",
+    "Design interactive dashboards with actions, filters, responsive layouts, and stories",
+    "Implement advanced filtering with context filters, sets, groups, and filter sequencing",
+    "Optimize Tableau performance for large datasets and production deployments",
+    "Deploy and manage Tableau Server/Cloud with user permissions and scheduled refreshes",
+    "Develop industry-ready analytics solutions with real business use cases",
+    "Master certification exam preparation and portfolio development",
+    "Apply data storytelling techniques and visualization best practices",
+    "Handle complex analytics scenarios with advanced Tableau features",
+    "Collaborate using Tableau Public and professional sharing workflows"
+  ],
+  "syllabus": [
+    {
+      "module": "Tableau Fundamentals",
+      "subtopics": [
+        "Introduction to Tableau and data visualization concepts",
+        "Understanding Tableau products and architecture",
+        "Connecting Tableau to different data sources",
+        "Tableau interface and workspace overview",
+        "Understanding data types and fields",
+        "Basic charts and visual best practices"
+      ]
+    },
+    {
+      "module": "Data Preparation & Connections",
+      "subtopics": [
+        "Connecting to Excel, CSV, and text files",
+        "Connecting to SQL databases",
+        "Understanding live vs extract connections",
+        "Data cleaning and preparation techniques",
+        "Working with joins and relationships",
+        "Data blending concepts"
+      ]
+    },
+    {
+      "module": "Charts & Visual Analysis",
+      "subtopics": [
+        "Creating bar, line, area, and pie charts",
+        "Building maps and geographic visualizations",
+        "Using scatter plots and trend lines",
+        "Applying colors, labels, and tooltips",
+        "Sorting, grouping, and filtering data",
+        "Using marks card effectively",
+        "Best practices for visual clarity"
+      ]
+    },
+    {
+      "module": "Calculations & Parameters",
+      "subtopics": [
+        "Creating calculated fields",
+        "Row-level vs aggregate calculations",
+        "Working with table calculations",
+        "Using parameters for dynamic dashboards",
+        "Conditional logic using IF, CASE statements",
+        "Date and string functions"
+      ]
+    },
+    {
+      "module": "Filters, Groups & Sets",
+      "subtopics": [
+        "Different types of filters",
+        "Context, dimension, and measure filters",
+        "Creating and using groups",
+        "Working with sets and combined sets",
+        "Filter order of operations",
+        "Interactive filtering techniques"
+      ]
+    },
+    {
+      "module": "Dashboards & Stories",
+      "subtopics": [
+        "Building interactive dashboards",
+        "Using dashboard actions",
+        "Designing responsive layouts",
+        "Creating stories for data storytelling",
+        "Using parameters and filters in dashboards",
+        "Dashboard design best practices",
+        "User experience and usability tips"
+      ]
+    },
+    {
+      "module": "Performance Optimization",
+      "subtopics": [
+        "Understanding Tableau performance factors",
+        "Optimizing extracts and data sources",
+        "Reducing load time for dashboards",
+        "Efficient use of calculations and filters",
+        "Performance recording and analysis"
+      ]
+    },
+    {
+      "module": "Tableau Server & Cloud",
+      "subtopics": [
+        "Introduction to Tableau Server and Tableau Cloud",
+        "Publishing dashboards and data sources",
+        "User roles and permissions",
+        "Managing projects and workbooks",
+        "Scheduling refreshes",
+        "Collaboration and sharing features"
+      ]
+    },
+    {
+      "module": "Advanced Tableau Features",
+      "subtopics": [
+        "Level of Detail (LOD) expressions",
+        "Advanced dashboard actions",
+        "Dynamic titles and captions",
+        "Using extensions and advanced visuals",
+        "Handling large datasets"
+      ]
+    },
+    {
+      "module": "Real-Time Projects & Certification Prep",
+      "subtopics": [
+        "Real-world business dashboards",
+        "Industry-based Tableau projects",
+        "Interview-oriented use cases",
+        "Tableau certification exam guidance",
+        "Portfolio building with Tableau Public",
+        "Best practices for analyst job roles"
+      ]
+    }
+  ],
+  "duration": "40–55 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/tableau-certification-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Interactive sales performance dashboard with drill-down analytics",
+    "Financial KPI dashboard with LOD calculations and forecasting",
+    "Healthcare analytics dashboard with geographic visualizations",
+    "HR analytics dashboard with advanced filtering and parameters",
+    "Supply chain performance dashboard deployed to Tableau Server"
+  ]
+},{
+  "course_name": "Certified Ethical Hacker (CEH) - Advanced",
+  "path": "ceh-advanced-training",
+  "description": "Master Certified Ethical Hacker (CEH) certification with advanced offensive security skills. Learn footprinting, enumeration, network scanning, system hacking, Metasploit exploitation, web application attacks, SQL injection, wireless cracking, social engineering, cryptography, cloud security, and evasion techniques for elite cybersecurity penetration testing careers.",
+  "what_youll_learn": [
+    "Execute complete ethical hacking methodology through 5 phases of CEH framework",
+    "Perform passive (footprinting) and active (enumeration) reconnaissance techniques",
+    "Master network scanning with Nmap advanced commands and stealth techniques",
+    "Exploit systems using Metasploit Framework, payloads, and post-exploitation modules",
+    "Conduct web application pentesting with Burp Suite (XSS, SQLi, session attacks)",
+    "Crack wireless networks (WEP/WPA2) and implement wireless security controls",
+    "Analyze malware, viruses, Trojans, and implement countermeasures",
+    "Execute DoS/DDoS attacks and botnet operations with defensive strategies",
+    "Bypass IDS/IPS/firewalls/honeypots using evasion techniques and tools",
+    "Implement social engineering attacks (phishing, pretexting) and countermeasures",
+    "Secure cloud environments and understand cloud-specific attack vectors"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Certified Ethical Hacker",
+      "subtopics": [
+        "What is Hacking?",
+        "What is Certified Ethical Hacker?",
+        "Difference between Hacking and Ethical Hacking",
+        "Learning Scope and Career Opportunities",
+        "5 Phases of Certified Ethical Hacker Methodology"
+      ]
+    },
+    {
+      "module": "Footprinting (Reconnaissance - Passive)",
+      "subtopics": [
+        "Types of Footprinting Techniques",
+        "Footprinting Tools and Countermeasures"
+      ]
+    },
+    {
+      "module": "Enumeration (Reconnaissance - Active)",
+      "subtopics": [
+        "Enumeration Techniques",
+        "Enumeration Countermeasures"
+      ]
+    },
+    {
+      "module": "Network Scanning",
+      "subtopics": [
+        "Network Scanning Techniques",
+        "Network Scanning Countermeasures"
+      ]
+    },
+    {
+      "module": "System Hacking Methodology",
+      "subtopics": [
+        "System Hacking Methodology",
+        "Steganography and Steganalysis Attacks",
+        "Covering Tracks Techniques"
+      ]
+    },
+    {
+      "module": "Virtual Machine Setup",
+      "subtopics": [
+        "Installation of VMs in Windows and MAC",
+        "VM Configuration and OS Installation",
+        "Installing Pentesting Software"
+      ]
+    },
+    {
+      "module": "Kali Linux Mastery",
+      "subtopics": [
+        "Kali Linux Installation and Configuration",
+        "VM Setup and Software Installation",
+        "Kali Linux Essential Tools"
+      ]
+    },
+    {
+      "module": "Metasploit Framework",
+      "subtopics": [
+        "Introduction to Metasploit",
+        "Working with Metasploit Framework",
+        "Windows Hacking and Advanced Techniques"
+      ]
+    },
+    {
+      "module": "Nmap Network Scanning",
+      "subtopics": [
+        "Scanning using Nmap Tool",
+        "Advanced Nmap Commands and Techniques"
+      ]
+    },
+    {
+      "module": "Burp Suite Web Testing",
+      "subtopics": [
+        "Burp Suite Introduction and Installation",
+        "Configuring Burp Suite with Browsers",
+        "Working with Burp Suite Features"
+      ]
+    },
+    {
+      "module": "Network Sniffing Attacks",
+      "subtopics": [
+        "Sniffing Concepts and Techniques",
+        "Packet Sniffing Methods",
+        "Defensive Countermeasures"
+      ]
+    },
+    {
+      "module": "Malware Threats Analysis",
+      "subtopics": [
+        "Types of Malware and Trojans",
+        "Trojan Analysis Techniques",
+        "Malware Countermeasures"
+      ]
+    },
+    {
+      "module": "Virus and Worms",
+      "subtopics": [
+        "Virus Analysis and Working Principles",
+        "Computer Worms Characteristics",
+        "Malware Analysis Procedures",
+        "Countermeasure Implementation"
+      ]
+    },
+    {
+      "module": "DoS and DDoS Attacks",
+      "subtopics": [
+        "Denial of Service (DoS) Fundamentals",
+        "Distributed Denial of Service (DDoS)",
+        "Botnets and Attack Tools",
+        "DoS/DDoS Countermeasures"
+      ]
+    },
+    {
+      "module": "Session Hijacking",
+      "subtopics": [
+        "Session Hijacking Techniques",
+        "Prevention and Countermeasures"
+      ]
+    },
+    {
+      "module": "Server Attacks",
+      "subtopics": [
+        "Web Server and File Server Attacks",
+        "Attack Methodology and Countermeasures"
+      ]
+    },
+    {
+      "module": "Web Application Hacking",
+      "subtopics": [
+        "Web Application Attack Types",
+        "Hacking Methodology and Countermeasures"
+      ]
+    },
+    {
+      "module": "SQL Injection Attacks",
+      "subtopics": [
+        "SQL Injection Attack Techniques",
+        "Injection Detection Tools"
+      ]
+    },
+    {
+      "module": "Wireless Network Attacks",
+      "subtopics": [
+        "Wireless Encryption Methods",
+        "Wireless Cracking Methodology",
+        "Wireless Cracking Tools",
+        "Wireless Security Tools"
+      ]
+    },
+    {
+      "module": "IDS, IPS, Firewalls and Honeypots",
+      "subtopics": [
+        "Firewall and IDS/IPS Concepts",
+        "Honeypot Evasion Techniques",
+        "Evasion Tools and Countermeasures"
+      ]
+    },
+    {
+      "module": "Cloud Computing Attacks",
+      "subtopics": [
+        "Cloud Computing Concepts and Threats",
+        "Cloud Computing Attacks",
+        "Security Techniques and Tools"
+      ]
+    },
+    {
+      "module": "Cryptography",
+      "subtopics": [
+        "Cryptography Ciphers and PKI",
+        "Cryptography Attacks",
+        "Cryptanalysis Tools"
+      ]
+    },
+    {
+      "module": "Social Engineering",
+      "subtopics": [
+        "Social Engineering Fundamentals",
+        "Phishing Email Attacks",
+        "Advanced Social Engineering Techniques",
+        "Countermeasures and Prevention"
+      ]
+    }
+  ],
+  "duration": "60–80 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/ceh-advanced-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete enterprise penetration test following CEH 5-phase methodology",
+    "Web application security assessment with SQL injection and XSS exploitation",
+    "Wireless network penetration test with WPA2 cracking and security hardening",
+    "Advanced persistent threat simulation using Metasploit and social engineering",
+    "Network infrastructure pentest with Nmap, Burp Suite, and evasion techniques"
+  ]
+},{
+  "course_name": "Cloud Security Knowledge (CCSK) Foundation",
+  "path": "ccsk-foundation-training",
+  "description": "Master CCSK certification with comprehensive cloud security knowledge. Learn cloud architectures, governance, legal compliance (GDPR), risk management, audit strategies, data security lifecycle, infrastructure security, incident response, application security, encryption, IAM, and Security-as-a-Service for cloud security architect and compliance careers.",
+  "what_youll_learn": [
+    "Understand cloud computing models, architectures, and security responsibilities",
+    "Implement cloud governance tools and enterprise risk management frameworks",
+    "Navigate legal frameworks (GDPR, cross-border data transfers) and compliance requirements",
+    "Manage cloud audits, contracts, electronic discovery, and third-party attestations",
+    "Design secure data governance across the cloud security lifecycle",
+    "Architect business continuity, disaster recovery, and management plane security",
+    "Secure cloud infrastructure with network virtualization, microsegmentation, and SDN",
+    "Implement virtualization/container security and immutable workload strategies",
+    "Execute cloud-native incident response and forensic investigation processes",
+    "Secure cloud applications through SSDLC, vulnerability assessment, and pentesting",
+    "Manage data security, encryption, and secure data migration strategies",
+    "Deploy Identity and Access Management (IAM) standards for cloud environments"
+  ],
+  "syllabus": [
+    {
+      "module": "Cloud Computing Concepts and Architectures",
+      "subtopics": [
+        "Defining Cloud Computing",
+        "Definitional Model",
+        "Reference and Architecture Models",
+        "Logical Model",
+        "Cloud Security Scope, Responsibilities, and Models"
+      ]
+    },
+    {
+      "module": "Governance and Enterprise Risk Management",
+      "subtopics": [
+        "Tools of Cloud Governance",
+        "Enterprise Risk Management",
+        "The Effects of Service Model and Deployment Model",
+        "Cloud Risk Management Tools"
+      ]
+    },
+    {
+      "module": "Legal Issues, Contracts and Electronic Discovery",
+      "subtopics": [
+        "Legal Frameworks Governing Data Protection and Privacy",
+        "Restrictions to Cross-border Data Transfers",
+        "Regional Examples (EU/EEA)",
+        "General Data Protection Regulation (GDPR)",
+        "Contracts and Provider Selection",
+        "Electronic Discovery and Data Retention Laws"
+      ]
+    },
+    {
+      "module": "Compliance and Audit Management",
+      "subtopics": [
+        "How Cloud Changes Compliance",
+        "Audit Management",
+        "How Cloud Changes Audit Management"
+      ]
+    },
+    {
+      "module": "Information Governance",
+      "subtopics": [
+        "Cloud Information Governance Domains",
+        "The Data Security Lifecycle",
+        "Locations and Entitlements",
+        "Functions, Actors, and Controls"
+      ]
+    },
+    {
+      "module": "Management Plane and Business Continuity",
+      "subtopics": [
+        "Business Continuity and Disaster Recovery in the Cloud",
+        "Architect for Failure",
+        "Management Plane Security",
+        "Securing the Management Plane",
+        "Business Continuity Within the Cloud Provider"
+      ]
+    },
+    {
+      "module": "Infrastructure Security",
+      "subtopics": [
+        "Cloud Network Virtualization",
+        "Challenges of Virtual Appliances",
+        "SDN Security Benefits",
+        "Microsegmentation and Software Defined Perimeter",
+        "Immutable Workloads"
+      ]
+    },
+    {
+      "module": "Virtualization and Containers",
+      "subtopics": [
+        "Cloud Provider Responsibilities",
+        "Cloud User Responsibilities",
+        "Management Infrastructure"
+      ]
+    },
+    {
+      "module": "Incident Response",
+      "subtopics": [
+        "Incident Response Lifecycle",
+        "How the Cloud Impacts IR"
+      ]
+    },
+    {
+      "module": "Application Security",
+      "subtopics": [
+        "Secure Software Development Lifecycle and Cloud Computing",
+        "Impact on Vulnerability Assessment",
+        "Impact on Penetration Testing"
+      ]
+    },
+    {
+      "module": "Data Security and Encryption",
+      "subtopics": [
+        "Cloud Data Storage Types",
+        "Managing Data Migrations to the Cloud",
+        "Securing Data in the Cloud"
+      ]
+    },
+    {
+      "module": "Identity, Entitlement and Access Management",
+      "subtopics": [
+        "IAM Standards for Cloud Computing"
+      ]
+    },
+    {
+      "module": "Security as a Service and Related Technologies",
+      "subtopics": [
+        "Security as a Service",
+        "Related Technologies"
+      ]
+    }
+  ],
+  "duration": "40–50 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/ccsk-foundation-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Cloud security architecture design with governance and compliance framework",
+    "Multi-cloud IAM implementation with least privilege access controls",
+    "Data security lifecycle implementation with encryption and DLP policies",
+    "Cloud incident response playbook with forensic investigation procedures",
+    "Infrastructure security assessment with microsegmentation and WAF deployment"
+  ]
+},{
+  "course_name": "System and Network Security Introduction",
+  "path": "system-network-security-training",
+  "description": "Master foundational cybersecurity concepts for enterprise security. Learn threat analysis, cryptography (AES, DES, PGP), authentication methods, intrusion detection, OS hardening, vulnerability scanning (Nessus), firewalls, WAF deployment, wireless security, IPSec, and network defense strategies for cybersecurity analyst and network security careers.",
+  "what_youll_learn": [
+    "Identify real cyber threats including eavesdropping, spoofing, sniffing, Trojans, and viruses",
+    "Implement symmetric (AES/DES) and asymmetric cryptography with PGP/GnuPG",
+    "Ensure data integrity using secure hashing algorithms and digital signatures",
+    "Deploy multi-factor authentication and prevent password cracking/social engineering",
+    "Configure intrusion detection systems (IDS) and vulnerability assessment processes",
+    "Harden operating systems through patching, service removal, and security controls",
+    "Deploy vulnerability scanners (Nessus) and mitigate DoS/DDoS attacks",
+    "Implement firewall architectures (packet filtering, application gateways, circuit-level)",
+    "Secure web applications with WAF solutions and protect against common threats",
+    "Partition networks, encrypt wireless communications, and deploy IPSec VPNs",
+    "Conduct vulnerability assessments and develop comprehensive security policies"
+  ],
+  "syllabus": [
+    {
+      "module": "Building a Secure Organisation",
+      "subtopics": [
+        "Real Threats that Impact Cyber Security",
+        "Hackers Inside and Out",
+        "Eavesdropping",
+        "Spoofing",
+        "Sniffing",
+        "Trojan Horse",
+        "Viruses",
+        "Wiretaps"
+      ]
+    },
+    {
+      "module": "Cyber Security Policy and Cryptography Primer",
+      "subtopics": [
+        "Assurance Objectives",
+        "Caesar Cipher",
+        "Cryptography",
+        "Symmetric Encryption",
+        "Data Encryption Standard (DES)",
+        "Advanced Encryption Method (AES)"
+      ]
+    },
+    {
+      "module": "Asymmetric Encryption and Key Management",
+      "subtopics": [
+        "Key Management",
+        "What is OpenPGP/GnuPG?"
+      ]
+    },
+    {
+      "module": "Data Integrity with Hashes",
+      "subtopics": [
+        "Secure Hashing Algorithm",
+        "Data Integrity",
+        "Difference Between WEP, WPA, and WPA2",
+        "Digital Signatures"
+      ]
+    },
+    {
+      "module": "Password Security and Social Engineering",
+      "subtopics": [
+        "Preventing Password Cracking",
+        "Social Engineering Attacks"
+      ]
+    },
+    {
+      "module": "Strong Authentication Methods",
+      "subtopics": [
+        "Preventing Password Replay",
+        "Multi-Factor Authentication",
+        "IP Address Spoofing Attacks",
+        "ARP Spoofing Attacks",
+        "Spoofing Attack Prevention and Mitigation"
+      ]
+    },
+    {
+      "module": "Intrusion Detection and Vulnerability Assessment",
+      "subtopics": [
+        "Intrusion Detection Systems (IDSes)",
+        "Type Of IDS Monitoring",
+        "Sources of Vulnerabilities",
+        "Vulnerability Assessment",
+        "Identification of Vulnerabilities"
+      ]
+    },
+    {
+      "module": "File Encryption and EFS",
+      "subtopics": [
+        "Encrypting File System",
+        "Important Basic Facts About EFS"
+      ]
+    },
+    {
+      "module": "Operating System Hardening",
+      "subtopics": [
+        "Steps to Use to Secure an Operating System",
+        "Initial Setup and Patching",
+        "Remove Unnecessary Services, Applications, and Protocols",
+        "Configure Users, Groups, and Authentication",
+        "Configure Resource Controls",
+        "Install Additional Security Controls",
+        "Test the System Security"
+      ]
+    },
+    {
+      "module": "Vulnerability Scanning and DoS Protection",
+      "subtopics": [
+        "Benefits of Vulnerability Scanner",
+        "Types of Vulnerability Scanner",
+        "Nessus Vulnerability Scanner",
+        "Denial of Service (DoS)",
+        "Distributed Denial of Service (DDoS)"
+      ]
+    },
+    {
+      "module": "Firewall Deployment",
+      "subtopics": [
+        "Firewalls Design Principles",
+        "Types of Firewalls",
+        "Packet-Filtering Router",
+        "Application-Level Gateway",
+        "Circuit-Level Gateway"
+      ]
+    },
+    {
+      "module": "Web Application Security",
+      "subtopics": [
+        "Protecting Web Services and Applications",
+        "Blue Coat WAF Capabilities"
+      ]
+    },
+    {
+      "module": "Network and Wireless Security",
+      "subtopics": [
+        "Sniffing the Network",
+        "Mitigating Threats from Connected Hosts",
+        "Partitioning the Network to Prevent Data Leakage",
+        "Identifying Wireless LAN Vulnerabilities",
+        "Confidentiality with Encryption",
+        "Securing Communication with IPSec"
+      ]
+    }
+  ],
+  "duration": "35–45 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/system-network-security-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete network security assessment with vulnerability scanning and firewall rules",
+    "Cryptographic implementation project with AES encryption and digital signatures",
+    "Operating system hardening benchmark with security control validation",
+    "Wireless network security audit with WPA2 implementation and IPSec VPN setup",
+    "Enterprise security policy development with IDS deployment and monitoring"
+  ]
+},{
+  "course_name": "Certified Advanced Penetration Tester (CAPT)",
+  "path": "advanced-pentest-certification-training",
+  "description": "Master advanced penetration testing for CAPT certification. Learn Kali Linux, Metasploit exploitation, vulnerability assessment, privilege escalation, password cracking, web app pentesting, wireless attacks, social engineering, DoS attacks, evasion techniques, and professional reporting for elite cybersecurity penetration testing careers.",
+  "what_youll_learn": [
+    "Set up professional pentesting lab with Kali Linux, VMware, and network configuration",
+    "Execute complete penetration testing methodology from reconnaissance to reporting",
+    "Master Nmap scanning, enumeration, and vulnerability assessment (Nessus, OpenVAS)",
+    "Exploit systems using Metasploit, payloads, Meterpreter, and custom modules",
+    "Perform privilege escalation on Linux/Windows through kernel exploits and misconfigurations",
+    "Crack passwords using dictionary, rainbow tables, brute force, and Pass-the-Hash attacks",
+    "Conduct web application pentesting (XSS, CSRF, SQLi, LFI/RFI) with Burp Suite",
+    "Execute wireless attacks (WEP/WPA2 cracking, evil twin APs, deauthentication)",
+    "Bypass AV/IDS with encoding, Veil Framework, custom payloads, and evasion techniques",
+    "Perform advanced network attacks (ARP poisoning, DNS spoofing, MITM, sniffing)",
+    "Develop social engineering attacks using SET and client-side exploitation techniques",
+    "Generate professional pentest reports with evidence management and remediation recommendations"
+  ],
+  "syllabus": [
+    {
+      "module": "Lab Setup & Kali Linux",
+      "subtopics": [
+        "Installing and configuring VMware workstation",
+        "Installing Kali Linux",
+        "Configure Network Connection",
+        "Updating and Upgrading Kali Linux",
+        "Introduction to Bash Environment",
+        "Automating Administration with Bash Scripting"
+      ]
+    },
+    {
+      "module": "Penetration Testing Standards",
+      "subtopics": [
+        "Penetration testing framework",
+        "Pre-engagement interactions",
+        "Intelligence gathering",
+        "Threat modelling",
+        "Penetration Testing Classification"
+      ]
+    },
+    {
+      "module": "Information Discovery & Reconnaissance",
+      "subtopics": [
+        "Google hacking",
+        "Discovering Devices using Shodan",
+        "DNS Information Gathering",
+        "Whois Information Gathering",
+        "Email Tracking",
+        "Route and Network information Gathering",
+        "All-in-one information gathering"
+      ]
+    },
+    {
+      "module": "Advanced Scanning & Enumeration",
+      "subtopics": [
+        "TCP Connect Port Scanning",
+        "Stealth Port Scanning techniques",
+        "UDP port Scanning",
+        "Nmap Scripting Engine",
+        "Active/Passive Banners and OS Enumeration",
+        "SMB, DNS, SNMP, SMTP Enumeration"
+      ]
+    },
+    {
+      "module": "Vulnerability Assessment",
+      "subtopics": [
+        "Nmap vulnerability scanning",
+        "Nessus vulnerability scanner",
+        "OpenVAS vulnerability assessment",
+        "Zero-day vulnerability research",
+        "Buffer overflow fundamentals"
+      ]
+    },
+    {
+      "module": "Metasploit Exploitation",
+      "subtopics": [
+        "Setting up Metasploit",
+        "Exploitation with Metasploit modules",
+        "Meterpreter sessions and payloads",
+        "Post-exploitation modules",
+        "Adding custom MSF modules"
+      ]
+    },
+    {
+      "module": "Privilege Escalation",
+      "subtopics": [
+        "Linux local privilege escalation",
+        "Windows UAC bypass",
+        "Physical access privilege escalation",
+        "Misconfiguration attacks"
+      ]
+    },
+    {
+      "module": "Password Attacks & Cracking",
+      "subtopics": [
+        "Password attack types and techniques",
+        "Dictionary, rainbow, brute force attacks",
+        "John the Ripper, Hashcat, Hydra",
+        "Pass-the-Hash attacks",
+        "Network service cracking (SSH, FTP, Telnet)"
+      ]
+    },
+    {
+      "module": "Payload Evasion & Obfuscation",
+      "subtopics": [
+        "Msfencode payload encoding",
+        "Veil Framework evasion",
+        "Shellter and custom payloads"
+      ]
+    },
+    {
+      "module": "Maintaining Access & Persistence",
+      "subtopics": [
+        "Protocol tunnelling and proxies",
+        "Netcat backdoors and listeners",
+        "Persistent backdoor installation"
+      ]
+    },
+    {
+      "module": "Advanced Network Attacks",
+      "subtopics": [
+        "Wireshark packet analysis",
+        "ARP poisoning and DHCP starvation",
+        "DNS poisoning and credential sniffing",
+        "DoS attacks (SYN flood, application flood)"
+      ]
+    },
+    {
+      "module": "Web Application Penetration Testing",
+      "subtopics": [
+        "Burp Suite proxy and interception",
+        "XSS, CSRF, SQL injection, LFI/RFI",
+        "Automated web vulnerability scanning"
+      ]
+    },
+    {
+      "module": "Wireless Penetration Testing",
+      "subtopics": [
+        "Wireless security and hidden SSID",
+        "WEP/WPA/WPA2 cracking",
+        "Evil twin access points",
+        "Wireless DoS and jamming"
+      ]
+    },
+    {
+      "module": "Social Engineering & Client-Side Attacks",
+      "subtopics": [
+        "Social Engineering Toolkit (SET)",
+        "Phishing and credential harvesting",
+        "Browser exploitation and Java applet attacks"
+      ]
+    },
+    {
+      "module": "Evasion & IDS/Firewall Testing",
+      "subtopics": [
+        "Firewall and IDS rule testing",
+        "Firewalking techniques"
+      ]
+    },
+    {
+      "module": "Professional Reporting",
+      "subtopics": [
+        "Pentest report types and structure",
+        "Evidence management and chain of custody",
+        "Post-testing procedures and remediation"
+      ]
+    }
+  ],
+  "duration": "80–100 hours",
+  "skill_level": "Advanced",
+  "image": "https://example.com/advanced-pentester-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete enterprise penetration test with full kill-chain execution",
+    "Web application pentest report with XSS/SQLi exploitation evidence",
+    "Wireless network compromise with WPA2 cracking and evil twin deployment",
+    "Advanced persistent threat (APT) simulation with C2 infrastructure",
+    "Red team engagement report with executive summary and remediation roadmap"
+  ]
+},{
+  "course_name": "Certified SOC Analyst (CSA)",
+  "path": "soc-analyst-csa-training",
+  "description": "Master Security Operations Center (SOC) analyst skills for CSA certification. Learn SOC fundamentals, cyber threat detection, SIEM deployment, incident response, threat intelligence integration, log analysis, alert triaging, network/host/application attack detection, and incident handling for cybersecurity analyst careers.",
+  "what_youll_learn": [
+    "Understand SOC operations, components, and implementation strategies",
+    "Identify cyber threats, IoCs, and attack methodologies across network/host/application layers",
+    "Deploy and configure SIEM solutions for incident detection and alerting",
+    "Perform alert triaging, log analysis, and incident prioritization",
+    "Integrate threat intelligence platforms (TIP) for enhanced detection",
+    "Execute complete incident response lifecycle for various attack types",
+    "Respond to network, application, email, insider, and malware incidents",
+    "Analyze centralized/local logging and event correlation techniques",
+    "Implement compliance monitoring and security use cases in SIEM",
+    "Develop threat intelligence strategies and SOC maturity roadmaps",
+    "Handle real-world security incidents with proper documentation and escalation"
+  ],
+  "syllabus": [
+    {
+      "module": "Security Operations and Management",
+      "subtopics": [
+        "Understand the SOC Fundamentals",
+        "Discuss the Components of SOC: People, Processes and Technology",
+        "Understand the Implementation of SOC"
+      ]
+    },
+    {
+      "module": "Understanding Cyber Threats, IoCs, and Attack Methodology",
+      "subtopics": [
+        "Describe the term Cyber Threats and Attacks",
+        "Understand the Network Level Attacks",
+        "Understand the Host Level Attacks",
+        "Understand the Application Level Attacks",
+        "Understand the Indicators of Compromise (IoCs)",
+        "Discuss the Attacker's Hacking Methodology"
+      ]
+    },
+    {
+      "module": "Incidents, Events, and Logging",
+      "subtopics": [
+        "Understand the Fundamentals of Incidents, Events, and Logging",
+        "Explain the Concepts of Local Logging",
+        "Explain the Concepts of Centralized Logging"
+      ]
+    },
+    {
+      "module": "Incident Detection with SIEM",
+      "subtopics": [
+        "Understand the Basic Concepts of Security Information and Event Management (SIEM)",
+        "Discuss the Different SIEM Solutions",
+        "Understand the SIEM Deployment",
+        "Use Case Examples for Application Level Incident Detection",
+        "Use Case Examples for Insider Incident Detection",
+        "Use Case Examples for Network Level Incident Detection",
+        "Use Case Examples for Host Level Incident Detection",
+        "Use Case Examples for Compliance",
+        "Concept of Handling Alert Triaging and Analysis"
+      ]
+    },
+    {
+      "module": "Enhanced Incident Detection with Threat Intelligence",
+      "subtopics": [
+        "Fundamental Concepts on Threat Intelligence",
+        "Different Types of Threat Intelligence",
+        "How Threat Intelligence Strategy is Developed",
+        "Different Threat Intelligence Sources",
+        "Different Threat Intelligence Platform (TIP)",
+        "Need of Threat Intelligence-driven SOC"
+      ]
+    },
+    {
+      "module": "Incident Response",
+      "subtopics": [
+        "Fundamental Concepts of Incident Response",
+        "Various Phases in Incident Response Process",
+        "Respond to Network Security Incidents",
+        "Respond to Application Security Incidents",
+        "Respond to Email Security Incidents",
+        "Respond to Insider Incidents",
+        "Respond to Malware Incidents"
+      ]
+    }
+  ],
+  "duration": "40–50 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/soc-analyst-csa-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete SIEM deployment with custom detection rules and alert triaging",
+    "Real-time incident response simulation for network security breach",
+    "Threat intelligence integration project with TIP and SIEM correlation",
+    "SOC use case development for application and insider threat detection",
+    "End-to-end incident handling workflow documentation and reporting"
+  ]
+},{
+  "course_name": ".NET Full Stack Development",
+  "path": "dotnet-fullstack-training",
+  "description": "Master full stack development with .NET, C#, ASP.NET Core, React/Angular, SQL Server, and Entity Framework. Build complete end-to-end web applications with modern frontend frameworks, secure Web APIs, database integration, authentication, deployment, DevOps practices, and real-world projects for enterprise software development careers.",
+  "what_youll_learn": [
+    "Build responsive, modern web UIs with HTML, CSS, JavaScript, and React/Angular",
+    "Master C# programming with OOP principles and ASP.NET Core Web APIs",
+    "Design and manage SQL Server databases with Entity Framework Core ORM",
+    "Implement secure authentication, authorization, and JWT token-based systems",
+    "Connect frontend applications with .NET backend through RESTful APIs",
+    "Handle real-time CRUD operations, data validation, and error management",
+    "Deploy full stack applications to IIS, Azure, and cloud platforms",
+    "Apply dependency injection, middleware, logging, and advanced .NET patterns",
+    "Build production-ready enterprise applications with CI/CD pipelines",
+    "Master interview preparation with coding challenges and project portfolios",
+    "Implement responsive design, state management, and modern UI/UX patterns",
+    "Understand full software development lifecycle from design to deployment"
+  ],
+  "syllabus": [
+    {
+      "module": "Web Development Fundamentals",
+      "subtopics": [
+        "How web applications work",
+        "Frontend vs Backend architecture",
+        "Full stack developer roles in real companies",
+        "Industry tools and technology stack overview"
+      ]
+    },
+    {
+      "module": "Frontend Development - HTML/CSS/JavaScript",
+      "subtopics": [
+        "HTML5 semantic structure and forms",
+        "CSS3 Flexbox, Grid, animations, and responsive design",
+        "JavaScript ES6+ (promises, async/await, DOM manipulation)",
+        "Modern tooling (npm, bundlers, development workflows)"
+      ]
+    },
+    {
+      "module": "Modern Frontend Frameworks",
+      "subtopics": [
+        "React fundamentals (components, props, state, hooks)",
+        "React Router, Context API, state management",
+        "Angular components, services, modules, and routing",
+        "Connecting frontend with REST APIs",
+        "Responsive design and component libraries"
+      ]
+    },
+    {
+      "module": "C# Programming Fundamentals",
+      "subtopics": [
+        "C# syntax, data types, control structures",
+        "Object-Oriented Programming (classes, inheritance, polymorphism)",
+        "Exception handling and LINQ",
+        "Async programming with Task and async/await"
+      ]
+    },
+    {
+      "module": "ASP.NET Core Backend Development",
+      "subtopics": [
+        "ASP.NET Core MVC architecture",
+        "RESTful Web API development",
+        "Middleware pipeline and request lifecycle",
+        "Dependency Injection and service registration",
+        "Model validation and custom validation attributes"
+      ]
+    },
+    {
+      "module": "Database Development with SQL Server",
+      "subtopics": [
+        "SQL Server database design and normalization",
+        "T-SQL queries, joins, stored procedures, functions",
+        "Entity Framework Core (Code-First, migrations)",
+        "Database-first approach and scaffolding",
+        "Performance optimization and indexing"
+      ]
+    },
+    {
+      "module": "Authentication & Security",
+      "subtopics": [
+        "JWT token authentication and authorization",
+        "Identity framework with roles and claims",
+        "OAuth2, OpenID Connect integration",
+        "Password hashing, bcrypt, security best practices",
+        "CORS configuration and API security headers"
+      ]
+    },
+    {
+      "module": "Full Stack Integration",
+      "subtopics": [
+        "Connecting React/Angular frontend with .NET APIs",
+        "HTTP client services and API consumption",
+        "Data flow management between UI and backend",
+        "Real-time CRUD operations implementation",
+        "Error handling, loading states, and notifications"
+      ]
+    },
+    {
+      "module": "Advanced .NET Features",
+      "subtopics": [
+        "Advanced middleware and custom middleware",
+        "Logging with Serilog and Application Insights",
+        "Caching strategies (MemoryCache, Redis)",
+        "SignalR for real-time web functionality",
+        "Unit testing with xUnit and Moq"
+      ]
+    },
+    {
+      "module": "Deployment & DevOps",
+      "subtopics": [
+        "IIS deployment and configuration",
+        "Azure App Service and container deployment",
+        "Docker containerization for .NET applications",
+        "CI/CD pipelines with Azure DevOps/GitHub Actions",
+        "Environment configuration and secrets management"
+      ]
+    },
+    {
+      "module": "Real-World Projects",
+      "subtopics": [
+        "Employee Management System (CRUD, authentication)",
+        "E-commerce Web Application (cart, payments, admin panel)",
+        "Complete end-to-end application development",
+        "Production deployment and monitoring"
+      ]
+    },
+    {
+      "module": "Interview & Career Preparation",
+      "subtopics": [
+        "Common .NET full stack interview questions",
+        "Coding challenges and live problem-solving",
+        "Resume building and GitHub portfolio creation",
+        "Project presentation and documentation",
+        "Industry best practices and career guidance"
+      ]
+    }
+  ],
+  "duration": "80–100 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/dotnet-fullstack-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete Employee Management System with authentication and role-based access",
+    "Full-featured E-commerce platform with cart, payments, and admin dashboard",
+    "Real-time dashboard application with SignalR and live updates",
+    "Multi-tenant SaaS application with tenant isolation",
+    "Production-ready API with comprehensive testing and deployment pipeline"
+  ]
+},{
+  "course_name": "Git and GitHub",
+  "path": "git-github-training",
+  "description": "Master Git version control and GitHub collaboration from fundamentals to advanced workflows. Learn Git commands, branching strategies, pull requests, CI/CD with GitHub Actions, repository security, open-source contribution, project management, and production-ready workflows for modern software development careers.",
+  "what_youll_learn": [
+    "Master Git fundamentals including commits, branching, merging, and conflict resolution",
+    "Implement professional Git workflows (Git Flow, GitHub Flow) for team collaboration",
+    "Manage GitHub repositories with pull requests, code reviews, and branch protection",
+    "Automate CI/CD pipelines using GitHub Actions for testing and deployment",
+    "Secure repositories with access controls, secrets management, and audit logging",
+    "Contribute to open-source projects and build professional GitHub portfolios",
+    "Use GitHub Projects, Issues, and Milestones for agile project management",
+    "Handle advanced Git operations (rebasing, cherry-pick, stashing, submodules)",
+    "Configure repository permissions, backup strategies, and collaboration best practices",
+    "Prepare for developer interviews with real-world Git troubleshooting scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Git & GitHub",
+      "subtopics": [
+        "Introduction to version control concepts and principles",
+        "Overview of Git and GitHub interface and features",
+        "Understanding commits, branches, and merges",
+        "Installing Git and initial configuration",
+        "Creating repositories and understanding repository structure",
+        "Introduction to pull requests, issues, and project boards"
+      ]
+    },
+    {
+      "module": "Git Fundamentals",
+      "subtopics": [
+        "Initializing and cloning repositories",
+        "Committing changes and understanding commit history",
+        "Branch creation and management",
+        "Merge conflicts and resolution strategies",
+        "Tagging and version tracking",
+        "Undoing changes and rollback techniques",
+        "Staging, unstaging, and resetting files"
+      ]
+    },
+    {
+      "module": "GitHub Collaboration",
+      "subtopics": [
+        "Creating and managing remote repositories",
+        "Forking repositories and cloning projects",
+        "Pull requests and code review workflow",
+        "Issue tracking and project management on GitHub",
+        "Branch protection and repository settings",
+        "Collaborative coding best practices",
+        "Maintaining project documentation (README, Wiki)"
+      ]
+    },
+    {
+      "module": "Advanced Git Operations",
+      "subtopics": [
+        "Rebasing and advanced merge strategies",
+        "Stashing changes and applying patches",
+        "Cherry-picking commits",
+        "Submodules and nested repositories",
+        "Git hooks for automation",
+        "Tagging releases and version management",
+        "Maintaining clean and efficient commit history"
+      ]
+    },
+    {
+      "module": "Git Workflows & Branching Strategies",
+      "subtopics": [
+        "Understanding Git Flow, GitHub Flow, and feature branching",
+        "Release management and hotfix strategies",
+        "Collaboration workflow for teams",
+        "Pull request approvals and code reviews",
+        "Managing feature branches and integration",
+        "Resolving conflicts in collaborative projects"
+      ]
+    },
+    {
+      "module": "Continuous Integration with GitHub",
+      "subtopics": [
+        "Introduction to CI/CD concepts",
+        "Integrating GitHub Actions for automation",
+        "Running automated tests on commits and pull requests",
+        "Deployment workflows with GitHub",
+        "Monitoring build pipelines",
+        "Best practices for automated version control"
+      ]
+    },
+    {
+      "module": "Repository Management & Security",
+      "subtopics": [
+        "Managing repository access and permissions",
+        "Configuring branch protection rules",
+        "Securing secrets and environment variables",
+        "Backup and recovery strategies",
+        "Monitoring repository activity and audit logs",
+        "Collaborative repository best practices"
+      ]
+    },
+    {
+      "module": "Open Source Contribution",
+      "subtopics": [
+        "Understanding open-source projects and licenses",
+        "Forking and contributing to repositories",
+        "Submitting pull requests and reviewing others' code",
+        "Maintaining forks and keeping them updated",
+        "Collaborating with global development teams",
+        "Building visibility as an open-source contributor"
+      ]
+    },
+    {
+      "module": "Project Management & Issue Tracking",
+      "subtopics": [
+        "Using GitHub Projects for task management",
+        "Creating and tracking issues efficiently",
+        "Milestones and progress tracking",
+        "Generating project reports and dashboards",
+        "Integrating third-party project management tools",
+        "Agile workflow adoption with GitHub"
+      ]
+    },
+    {
+      "module": "Practical Projects & Job Readiness",
+      "subtopics": [
+        "Hands-on collaborative coding projects",
+        "Building portfolio-ready GitHub repositories",
+        "Real-time project scenarios and issue handling",
+        "Common Git mistakes and troubleshooting",
+        "Interview preparation with Git and GitHub questions",
+        "Assignments, mini-projects, and case studies",
+        "Industry best practices for developers"
+      ]
+    }
+  ],
+  "duration": "30–45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/git-github-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Collaborative full-stack web application with GitHub pull requests and CI/CD",
+    "Open-source contribution project with issue tracking and code reviews",
+    "Multi-branch enterprise project using Git Flow workflow",
+    "GitHub Actions CI/CD pipeline for automated testing and deployment",
+    "Portfolio showcase with 5+ professional GitHub repositories"
+  ]
+},{
+  "course_name": "Terraform with Placement",
+  "path": "terraform-training",
+  "description": "Master Terraform Infrastructure as Code (IaC) for multi-cloud automation. Learn Terraform CLI, HCL syntax, providers, state management, modules, cloud infrastructure provisioning (AWS/Azure/GCP), advanced workflows, Terraform Cloud/Enterprise, security best practices, and production projects for Cloud DevOps and Infrastructure Engineer careers.",
+  "what_youll_learn": [
+    "Master Terraform HCL syntax, variables, outputs, locals, and conditional expressions",
+    "Configure providers for AWS, Azure, GCP, VMware with secure authentication",
+    "Implement state management with remote backends (S3, Azure Blob) and locking",
+    "Build reusable modules with versioning, inputs, outputs, and nested composition",
+    "Automate cloud infrastructure (EC2, VPC, Kubernetes, serverless) across providers",
+    "Manage Terraform workflows with Cloud/Enterprise, Git integration, and RBAC",
+    "Handle advanced features like dynamic blocks, workspaces, and custom providers",
+    "Design scalable multi-cloud and hybrid infrastructure with cost optimization",
+    "Implement security best practices, infrastructure testing, and drift detection",
+    "Deploy production-ready infrastructure through CI/CD pipelines",
+    "Manage collaboration, secrets, and environment-specific deployments",
+    "Prepare for Terraform Associate certification and cloud engineering roles"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Terraform",
+      "subtopics": [
+        "What is Infrastructure as Code (IaC)?",
+        "Overview of Terraform and its benefits",
+        "Installing Terraform CLI and setup",
+        "Understanding Terraform architecture",
+        "Terraform configuration files (.tf) basics"
+      ]
+    },
+    {
+      "module": "Terraform Configuration Language",
+      "subtopics": [
+        "Terraform syntax and structure",
+        "Variables and input parameters",
+        "Output values",
+        "Data types and interpolation",
+        "Using locals and expressions",
+        "Conditional expressions and functions"
+      ]
+    },
+    {
+      "module": "Terraform Providers & Resources",
+      "subtopics": [
+        "Understanding providers and provider blocks",
+        "Popular providers overview (AWS, Azure, GCP, VMware)",
+        "Configuring provider authentication",
+        "Creating and managing resources",
+        "Resource lifecycle and dependencies",
+        "Resource meta-arguments"
+      ]
+    },
+    {
+      "module": "Terraform State Management",
+      "subtopics": [
+        "Purpose and structure of Terraform state",
+        "Local vs remote state storage",
+        "Configuring remote state backends (S3, Azure Blob, etc.)",
+        "State locking and concurrency control",
+        "State file security best practices",
+        "Managing state drift and manual state edits",
+        "State migration and workspace management"
+      ]
+    },
+    {
+      "module": "Terraform Modules",
+      "subtopics": [
+        "What are modules and why use them?",
+        "Creating custom reusable modules",
+        "Using public modules from the Terraform Registry",
+        "Module inputs and outputs",
+        "Module versioning and source control",
+        "Nested modules and module composition"
+      ]
+    },
+    {
+      "module": "Terraform Workflows & Collaboration",
+      "subtopics": [
+        "Terraform CLI workflow best practices",
+        "Using Terraform Cloud and Terraform Enterprise",
+        "Remote runs and collaborative state management",
+        "Role-based access control in Terraform Cloud",
+        "Managing variables and secrets securely",
+        "Integration with version control systems (Git)",
+        "Automation pipelines with Terraform"
+      ]
+    },
+    {
+      "module": "Terraform for Cloud Infrastructure",
+      "subtopics": [
+        "Provisioning AWS resources (EC2, S3, VPC)",
+        "Provisioning Azure resources (VMs, Storage, Networking)",
+        "Provisioning Google Cloud resources (Compute, Storage, Networking)",
+        "Managing Kubernetes clusters with Terraform",
+        "Networking and security group management",
+        "Autoscaling and load balancers setup",
+        "Managing serverless infrastructure",
+        "Monitoring and tagging resources"
+      ]
+    },
+    {
+      "module": "Advanced Terraform Features",
+      "subtopics": [
+        "Using dynamic blocks and complex expressions",
+        "Writing custom providers and plugins",
+        "Handling multiple environments with workspaces",
+        "Creating reusable infrastructure templates"
+      ]
+    },
+    {
+      "module": "Real-World Projects & Best Practices",
+      "subtopics": [
+        "Designing scalable and modular infrastructure code",
+        "Multi-cloud provisioning projects",
+        "Hybrid cloud infrastructure automation",
+        "Infrastructure testing and validation strategies",
+        "Security best practices in Terraform scripts",
+        "Cost management and optimization using Terraform"
+      ]
+    }
+  ],
+  "duration": "45–60 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/terraform-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete AWS multi-tier web application infrastructure (VPC, EC2, RDS, ALB)",
+    "Terraform modules for reusable Kubernetes cluster deployment across clouds",
+    "Multi-cloud hybrid infrastructure (AWS + Azure) with Terraform workspaces",
+    "Production CI/CD pipeline with GitHub Actions and Terraform Cloud",
+    "Enterprise-grade infrastructure with security groups, IAM roles, and monitoring"
+  ]
+},
+        {
+  "course_name": "Kubernetes (Beginner to Advanced)",
+  "path": "kubernetes-training",
+  "description": "Master Kubernetes orchestration from fundamentals to production deployment. Learn cluster architecture, pods, deployments, services, networking, storage, security (RBAC), monitoring (Prometheus/Grafana), autoscaling, CI/CD integration, cloud platforms (EKS/AKS/GKE), and GitOps for cloud-native DevOps and SRE careers.",
+  "what_youll_learn": [
+    "Understand Kubernetes architecture, control plane, and worker nodes",
+    "Install and configure Kubernetes clusters using Minikube and kubectl",
+    "Create and manage pods, deployments, replica sets, and services",
+    "Implement Kubernetes networking with ClusterIP, NodePort, LoadBalancer, and Ingress",
+    "Manage configuration with ConfigMaps, Secrets, and environment variables",
+    "Provision persistent storage using PV, PVC, and Storage Classes",
+    "Secure clusters with RBAC, service accounts, and pod security policies",
+    "Monitor applications with logging, metrics, Prometheus, and Grafana",
+    "Implement autoscaling (HPA, VPA, Cluster Autoscaler) for production workloads",
+    "Deploy microservices with rolling updates, rollbacks, and zero-downtime",
+    "Integrate Kubernetes with CI/CD pipelines, Jenkins, and GitOps workflows",
+    "Deploy production Kubernetes on AWS EKS, Azure AKS, and Google GKE"
+  ],
+  "syllabus": [
+    {
+      "module": "Kubernetes Introduction",
+      "subtopics": [
+        "What is Kubernetes?",
+        "Why Kubernetes is needed",
+        "Kubernetes vs Docker",
+        "Kubernetes architecture overview",
+        "Use cases of Kubernetes"
+      ]
+    },
+    {
+      "module": "Kubernetes Architecture",
+      "subtopics": [
+        "Master and Worker nodes",
+        "Control plane components",
+        "etcd",
+        "kube-apiserver",
+        "kube-scheduler",
+        "kube-controller-manager"
+      ]
+    },
+    {
+      "module": "Kubernetes Installation & Setup",
+      "subtopics": [
+        "Kubernetes installation options",
+        "Minikube installation",
+        "kubectl installation and configuration",
+        "Cluster setup basics"
+      ]
+    },
+    {
+      "module": "Kubernetes Objects Basics",
+      "subtopics": [
+        "Pods",
+        "ReplicaSets",
+        "Deployments",
+        "Services",
+        "Namespaces"
+      ]
+    },
+    {
+      "module": "Pods & Containers",
+      "subtopics": [
+        "Pod lifecycle",
+        "Multi-container pods",
+        "Init containers",
+        "Pod logs and troubleshooting"
+      ]
+    },
+    {
+      "module": "Deployments & ReplicaSets",
+      "subtopics": [
+        "Creating deployments",
+        "Scaling applications",
+        "Rolling updates",
+        "Rollbacks"
+      ]
+    },
+    {
+      "module": "Kubernetes Services & Networking",
+      "subtopics": [
+        "ClusterIP",
+        "NodePort",
+        "LoadBalancer",
+        "Ingress overview",
+        "Service discovery"
+      ]
+    },
+    {
+      "module": "ConfigMaps & Secrets",
+      "subtopics": [
+        "Managing application configuration",
+        "Using ConfigMaps",
+        "Using Secrets securely"
+      ]
+    },
+    {
+      "module": "Storage in Kubernetes",
+      "subtopics": [
+        "Volumes",
+        "Persistent Volumes",
+        "Persistent Volume Claims",
+        "Storage Classes"
+      ]
+    },
+    {
+      "module": "Kubernetes Security Basics",
+      "subtopics": [
+        "RBAC",
+        "Service Accounts",
+        "Pod security concepts",
+        "Best security practices"
+      ]
+    },
+    {
+      "module": "Monitoring & Logging",
+      "subtopics": [
+        "Kubernetes logging basics",
+        "Monitoring with metrics",
+        "Introduction to Prometheus & Grafana"
+      ]
+    },
+    {
+      "module": "Kubernetes Autoscaling",
+      "subtopics": [
+        "Horizontal Pod Autoscaler",
+        "Vertical Pod Autoscaler",
+        "Cluster Autoscaler"
+      ]
+    },
+    {
+      "module": "Kubernetes in DevOps",
+      "subtopics": [
+        "Kubernetes in CI/CD pipelines",
+        "Kubernetes with Jenkins",
+        "GitOps overview"
+      ]
+    },
+    {
+      "module": "Kubernetes on Cloud",
+      "subtopics": [
+        "Kubernetes on AWS (EKS)",
+        "Kubernetes on Azure (AKS)",
+        "Kubernetes on GCP (GKE)"
+      ]
+    },
+    {
+      "module": "Real-Time Kubernetes Projects",
+      "subtopics": [
+        "Deploying microservices",
+        "End-to-end application deployment",
+        "Production best practices"
+      ]
+    }
+  ],
+  "duration": "50–70 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/kubernetes-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete microservices deployment with Ingress, Services, and Persistent Storage",
+    "Production-grade web application with HPA autoscaling and rolling updates",
+    "Monitoring stack deployment (Prometheus + Grafana) with custom dashboards",
+    "CI/CD pipeline with Jenkins deploying to Kubernetes cluster",
+    "Multi-cloud Kubernetes deployment (EKS + AKS) with GitOps (ArgoCD)"
+  ]
+},
+        {
+  "course_name": "Docker (Beginner to Advanced)",
+  "path": "docker-training",
+  "description": "Master Docker containerization from basics to production deployment. Learn Docker installation, images, containers, Dockerfiles, volumes, networking, Docker Compose, security, registries, logging, DevOps integration, cloud platforms, and Kubernetes intro for modern DevOps and cloud-native development careers.",
+  "what_youll_learn": [
+    "Understand containerization fundamentals and Docker architecture",
+    "Install and configure Docker on Windows, Linux, and macOS platforms",
+    "Build, manage, and optimize Docker images with multi-stage builds",
+    "Create and orchestrate containers with lifecycle management and monitoring",
+    "Write production-ready Dockerfiles following best practices",
+    "Implement persistent storage with volumes and bind mounts",
+    "Configure Docker networking (bridge, overlay, port mapping, service discovery)",
+    "Deploy multi-container applications using Docker Compose",
+    "Secure Docker environments with image scanning and resource limits",
+    "Manage private Docker registries and CI/CD integration",
+    "Monitor container performance and implement logging strategies",
+    "Integrate Docker with AWS, Azure, GCP, Jenkins, and GitHub Actions",
+    "Prepare for Kubernetes with Docker cloud-native workflows"
+  ],
+  "syllabus": [
+    {
+      "module": "Containerization Basics",
+      "subtopics": [
+        "What is Containerization?",
+        "Virtual Machines vs Containers",
+        "Problems Docker solves",
+        "Docker Architecture",
+        "Docker Use Cases"
+      ]
+    },
+    {
+      "module": "Docker Installation & Setup",
+      "subtopics": [
+        "Installing Docker on Windows, Linux, macOS",
+        "Docker Desktop overview",
+        "Verifying installation",
+        "Basic Docker commands"
+      ]
+    },
+    {
+      "module": "Docker Images",
+      "subtopics": [
+        "What is a Docker Image?",
+        "Docker Hub & Private Registries",
+        "Pulling images",
+        "Image layers & caching",
+        "Creating & tagging images"
+      ]
+    },
+    {
+      "module": "Docker Containers",
+      "subtopics": [
+        "What is a Container?",
+        "Running containers",
+        "Container lifecycle",
+        "Logs and inspection",
+        "Removing containers"
+      ]
+    },
+    {
+      "module": "Dockerfile",
+      "subtopics": [
+        "What is a Dockerfile?",
+        "Dockerfile instructions",
+        "Best practices",
+        "Multi-stage builds"
+      ]
+    },
+    {
+      "module": "Docker Volumes & Storage",
+      "subtopics": [
+        "Volumes vs Bind mounts",
+        "Persistent storage",
+        "Backup & restore volumes"
+      ]
+    },
+    {
+      "module": "Docker Networking",
+      "subtopics": [
+        "Bridge, Host, None, Overlay networks",
+        "Container communication",
+        "Port mapping"
+      ]
+    },
+    {
+      "module": "Docker Compose",
+      "subtopics": [
+        "docker-compose.yml structure",
+        "Multi-container applications",
+        "Environment variables",
+        "Scaling services"
+      ]
+    },
+    {
+      "module": "Docker Security",
+      "subtopics": [
+        "Docker security best practices",
+        "Image scanning",
+        "Secrets management",
+        "Resource limits"
+      ]
+    },
+    {
+      "module": "Docker Registry",
+      "subtopics": [
+        "Docker Hub",
+        "Private registries",
+        "Pushing & pulling images"
+      ]
+    },
+    {
+      "module": "Docker Logging & Monitoring",
+      "subtopics": [
+        "Container logs",
+        "Logging drivers",
+        "Monitoring resource usage"
+      ]
+    },
+    {
+      "module": "Docker in DevOps",
+      "subtopics": [
+        "Docker in CI/CD",
+        "Docker with Jenkins",
+        "Docker with GitHub Actions"
+      ]
+    },
+    {
+      "module": "Docker + Cloud Integration",
+      "subtopics": [
+        "Docker on AWS, Azure, GCP",
+        "Docker with Virtual Machines",
+        "Intro to Kubernetes"
+      ]
+    },
+    {
+      "module": "Real-Time Projects",
+      "subtopics": [
+        "Deploying web applications",
+        "Multi-tier applications with Docker Compose",
+        "Dockerizing applications"
+      ]
+    }
+  ],
+  "duration": "40–55 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/docker-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete multi-tier web application with Docker Compose (frontend, backend, database)",
+    "Production-ready Node.js/Express application dockerization pipeline",
+    "CI/CD pipeline with GitHub Actions and Docker multi-stage builds",
+    "Microservices architecture with Docker networking and service discovery",
+    "Cloud deployment project (AWS ECS or Azure Container Instances)"
+  ]
+},
         {
           "course_name": "AWS",
           "path": "aws-online-training",
@@ -13768,6 +16740,546 @@
   ]
 },
 {
+  "course_name": "SAP FICO Consultant",
+  "path": "sap-fico-consultant-training",
+  "description": "Become a certified SAP FICO Consultant with hands-on training in SAP ERP and S/4HANA Finance. Master General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost Center Accounting, Profitability Analysis, integration with MM/SD, period-end closing, and real-time project implementation for enterprise financial management.",
+  "what_youll_learn": [
+    "Configure SAP FICO enterprise structure and organizational units",
+    "Master General Ledger, Accounts Payable, Receivable, and Asset Accounting",
+    "Implement Cost Center Accounting, Internal Orders, and Profit Center Accounting",
+    "Set up Product Costing, Profitability Analysis (CO-PA), and cost allocations",
+    "Configure FI integration with MM, SD modules and automatic account determination",
+    "Execute period-end closing, depreciation runs, and statutory reporting",
+    "Implement S/4HANA Finance with Universal Journal (ACDOCA)",
+    "Handle bank accounting, cash management, and electronic bank statements",
+    "Configure GST/Tax, withholding tax, and compliance requirements",
+    "Execute real implementation projects and prepare for SAP consultant interviews",
+    "Understand SAP implementation methodologies (ASAP/Activate)",
+    "Master credit management, dunning, payment programs, and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP FICO Overview & Consultant Role",
+      "subtopics": [
+        "SAP ERP & S/4HANA overview",
+        "Role of SAP FICO Consultant",
+        "SAP system landscape & architecture",
+        "FI–CO integration overview",
+        "Implementation methodologies (ASAP / Activate)"
+      ]
+    },
+    {
+      "module": "Enterprise Structure Configuration",
+      "subtopics": [
+        "Company, Company Code",
+        "Controlling Area",
+        "Business Area",
+        "Chart of Accounts",
+        "Fiscal year & posting period variants",
+        "Organizational assignments"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting (FI-GL)",
+      "subtopics": [
+        "G/L master data configuration",
+        "Account groups & number ranges",
+        "Posting keys & document types",
+        "Field status variants",
+        "New G/L & parallel accounting",
+        "Financial statement version"
+      ]
+    },
+    {
+      "module": "Accounts Payable (FI-AP)",
+      "subtopics": [
+        "Vendor master configuration",
+        "One-time vendors",
+        "Automatic payment program (F110)",
+        "Withholding tax / TDS basics",
+        "Down payments & clearing",
+        "AP reports & controls"
+      ]
+    },
+    {
+      "module": "Accounts Receivable (FI-AR)",
+      "subtopics": [
+        "Customer master configuration",
+        "Incoming payments",
+        "Credit management overview",
+        "Dunning process",
+        "Special G/L transactions",
+        "AR reporting"
+      ]
+    },
+    {
+      "module": "Asset Accounting (FI-AA)",
+      "subtopics": [
+        "Asset classes & asset master",
+        "Depreciation areas & keys",
+        "Asset acquisition, transfer & retirement",
+        "Asset integration with GL",
+        "Asset reporting"
+      ]
+    },
+    {
+      "module": "Bank Accounting & Cash Management",
+      "subtopics": [
+        "House banks & bank master",
+        "Bank reconciliation",
+        "Electronic Bank Statement (EBS)",
+        "Check & cash management basics"
+      ]
+    },
+    {
+      "module": "Cost Center Accounting (CO-CCA)",
+      "subtopics": [
+        "Cost elements",
+        "Cost center master data",
+        "Activity types",
+        "Planning & budgeting",
+        "Cost allocations",
+        "Actual vs plan analysis"
+      ]
+    },
+    {
+      "module": "Internal Orders & Profit Center Accounting",
+      "subtopics": [
+        "Internal order types & settlement",
+        "Profit center hierarchy",
+        "Profit center postings",
+        "Period-end allocations & reporting"
+      ]
+    },
+    {
+      "module": "Product Costing & CO-PA",
+      "subtopics": [
+        "Costing variants",
+        "Standard costing",
+        "WIP & variance analysis",
+        "Profitability Analysis (CO-PA)",
+        "Account-based vs costing-based CO-PA"
+      ]
+    },
+    {
+      "module": "Integration with MM, SD & Tax",
+      "subtopics": [
+        "FI–MM integration (GR/IR, inventory)",
+        "FI–SD integration (billing & revenue)",
+        "Automatic account determination",
+        "GST & tax configuration overview"
+      ]
+    },
+    {
+      "module": "Period-End Closing & Compliance",
+      "subtopics": [
+        "Month-end & year-end activities",
+        "Depreciation run",
+        "Foreign currency valuation",
+        "Accruals & provisions",
+        "Reconciliation & statutory reporting"
+      ]
+    },
+    {
+      "module": "S/4HANA Finance & Real-Time Projects",
+      "subtopics": [
+        "S/4HANA Finance overview",
+        "Universal Journal (ACDOCA)",
+        "FI & CO merge concepts",
+        "Implementation & support project scenarios",
+        "Interview preparation & resume guidance"
+      ]
+    }
+  ],
+  "duration": "80–100 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/sap-fico-consultant-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete SAP FICO enterprise structure configuration project",
+    "End-to-end FI-GL, AP, AR configuration with integration testing",
+    "Cost Center and Profit Center accounting implementation",
+    "S/4HANA Finance Universal Journal migration scenario",
+    "Real-time month-end closing and statutory reporting project"
+  ]
+},
+{
+  "course_name": "HR Analytics",
+  "path": "hr-analytics-training",
+  "description": "Master HR Analytics to drive data-driven people decisions. Learn HR metrics, Excel analysis, statistical methods, data visualization, attrition prediction, recruitment analytics, performance analysis, and predictive modeling to optimize talent management and business outcomes.",
+  "what_youll_learn": [
+    "Understand HR analytics types and business applications",
+    "Master key HR metrics across attrition, recruitment, and performance",
+    "Analyze HR data using Excel pivot tables, charts, and advanced functions",
+    "Apply statistical methods for HR decision making",
+    "Create interactive HR dashboards with Power BI/Tableau",
+    "Build attrition prediction and retention analytics models",
+    "Analyze recruitment funnels, hiring effectiveness, and diversity metrics",
+    "Conduct performance, compensation, and pay equity analysis",
+    "Develop predictive HR analytics for workforce planning",
+    "Prepare for HR analytics careers with case studies and interviews",
+    "Integrate HRMS, ATS data with analytics platforms",
+    "Present actionable insights to HR and business stakeholders"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to HR Analytics",
+      "subtopics": [
+        "What is HR Analytics?",
+        "Difference between HR Reporting, HR Metrics & HR Analytics",
+        "Importance of analytics in modern HR",
+        "Types of HR analytics: Descriptive, Diagnostic, Predictive, Prescriptive",
+        "HR analytics use cases across industries"
+      ]
+    },
+    {
+      "module": "HR Data & Metrics",
+      "subtopics": [
+        "HR data sources (HRMS, ATS, LMS, Payroll)",
+        "Key HR metrics: Attrition & retention rate",
+        "Time to hire & cost per hire",
+        "Absenteeism & productivity metrics",
+        "Employee engagement metrics",
+        "Data quality & data governance basics"
+      ]
+    },
+    {
+      "module": "Excel for HR Analytics",
+      "subtopics": [
+        "Excel basics for HR data",
+        "Data cleaning & formatting",
+        "HR dashboards using pivot tables",
+        "Charts & graphs for HR reporting",
+        "Lookup functions (VLOOKUP, XLOOKUP)",
+        "HR KPI reporting in Excel"
+      ]
+    },
+    {
+      "module": "Statistics for HR Analytics",
+      "subtopics": [
+        "Basic statistics for HR",
+        "Mean, median, mode, variance",
+        "Correlation & regression concepts",
+        "Probability concepts in HR decision making",
+        "Hypothesis testing (basic level)"
+      ]
+    },
+    {
+      "module": "Data Visualization for HR",
+      "subtopics": [
+        "Principles of effective data visualization",
+        "HR dashboards & scorecards",
+        "Introduction to Power BI / Tableau (HR use cases)",
+        "Creating interactive HR reports",
+        "Storytelling with HR data"
+      ]
+    },
+    {
+      "module": "Attrition & Retention Analytics",
+      "subtopics": [
+        "Employee attrition analysis",
+        "Predicting employee turnover",
+        "Retention strategy analytics",
+        "Engagement survey analysis",
+        "Performance vs attrition analysis"
+      ]
+    },
+    {
+      "module": "Recruitment & Talent Analytics",
+      "subtopics": [
+        "Recruitment funnel analysis",
+        "Hiring effectiveness metrics",
+        "Candidate source analytics",
+        "Interview-to-offer ratio analysis",
+        "Diversity & inclusion analytics"
+      ]
+    },
+    {
+      "module": "Performance & Compensation Analytics",
+      "subtopics": [
+        "Performance evaluation metrics",
+        "Compensation benchmarking",
+        "Pay equity analysis",
+        "Incentive & reward analytics",
+        "Workforce productivity analysis"
+      ]
+    },
+    {
+      "module": "Predictive HR Analytics (Intro Level)",
+      "subtopics": [
+        "Predictive models in HR",
+        "Attrition prediction basics",
+        "Workforce planning analytics",
+        "Skill gap analysis",
+        "Succession planning analytics"
+      ]
+    },
+    {
+      "module": "HR Analytics Tools & Technologies",
+      "subtopics": [
+        "Excel & Advanced Excel",
+        "Power BI / Tableau (overview)",
+        "HR analytics tools overview",
+        "HRMS & ATS integration concepts",
+        "Introduction to AI in HR analytics"
+      ]
+    },
+    {
+      "module": "HR Analytics Case Studies",
+      "subtopics": [
+        "Real-time HR datasets",
+        "Attrition case study",
+        "Hiring effectiveness case study",
+        "Employee engagement analysis",
+        "Management reporting scenarios"
+      ]
+    },
+    {
+      "module": "Career & Interview Preparation",
+      "subtopics": [
+        "HR analytics roles & career paths",
+        "Resume preparation for HR analytics roles",
+        "Interview questions & answers",
+        "Analytics project discussion",
+        "HR analytics job market overview"
+      ]
+    }
+  ],
+  "duration": "45–55 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/hr-analytics-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Build comprehensive HR dashboard with attrition and recruitment analytics",
+    "Create interactive Power BI HR analytics report with KPIs",
+    "Develop employee attrition prediction model using Excel",
+    "Conduct pay equity analysis and diversity hiring report",
+    "Design workforce planning dashboard with succession analytics"
+  ]
+},
+{
+  "course_name": "Data Steward",
+  "path": "data-steward-training",
+  "description": "Master data stewardship skills to ensure data quality, governance, compliance, and value across enterprise systems. Learn data governance fundamentals, quality management, metadata, master data, lifecycle management, legal compliance, AI stewardship, and implementation strategies for modern data environments.",
+  "what_youll_learn": [
+    "Understand data stewardship roles and strategic business value",
+    "Implement data governance frameworks and operating models",
+    "Measure and improve data quality using profiling and KPIs",
+    "Manage metadata, data modeling, and documentation practices",
+    "Handle master and reference data management programs",
+    "Navigate data lifecycles, integration, and access governance",
+    "Ensure GDPR, CCPA, HIPAA compliance and ethical data practices",
+    "Select and implement data governance tools (Collibra, Atlan)",
+    "Prepare data for analytics, BI, and AI/ML environments",
+    "Launch stewardship programs with KPIs and maturity models"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Data Stewardship",
+      "subtopics": [
+        "What is Data Stewardship and why it matters",
+        "The evolving role of data stewards in modern enterprises",
+        "Data stewardship within data governance and management",
+        "Challenges including AI, self-service analytics, and digital transformation",
+        "Case studies on stewardship impact on business outcomes"
+      ]
+    },
+    {
+      "module": "Data Governance Fundamentals for Stewards",
+      "subtopics": [
+        "What is data governance including core components and frameworks",
+        "Relationship between data governance and stewardship",
+        "Governance roles such as owners, custodians, committees, and councils",
+        "Data governance operating models"
+      ]
+    },
+    {
+      "module": "Data Quality Management",
+      "subtopics": [
+        "Data quality dimensions including accuracy and completeness",
+        "Data profiling, assessment, and root-cause analysis",
+        "Data quality monitoring and KPIs",
+        "Aligning data quality with business outcomes"
+      ]
+    },
+    {
+      "module": "Metadata and Data Modeling",
+      "subtopics": [
+        "Metadata basics including technical, business, and operational metadata",
+        "Metadata repositories and taxonomies",
+        "Data modeling fundamentals such as ER and dimensional models",
+        "Tools and automated metadata harvesting"
+      ]
+    },
+    {
+      "module": "Master and Reference Data Management",
+      "subtopics": [
+        "What master data management is and why it matters",
+        "Matching, standardization, and deduplication",
+        "Reference data versus master data",
+        "Stewardship roles in MDM programs"
+      ]
+    },
+    {
+      "module": "Data Lifecycle and Integration",
+      "subtopics": [
+        "Data lifecycles including create, read, update, and delete",
+        "Integration processes and quality considerations",
+        "Ensuring data freshness and synchronization",
+        "Data sharing and access governance"
+      ]
+    },
+    {
+      "module": "Legal, Ethical and Compliance Dimensions",
+      "subtopics": [
+        "Regulatory compliance including GDPR, CCPA, and HIPAA",
+        "Privacy and protection fundamentals",
+        "Ethical stewardship and responsible AI principles",
+        "Consent, anonymization, and secure access controls"
+      ]
+    },
+    {
+      "module": "Tools, Automation and Technology Platforms",
+      "subtopics": [
+        "Data governance tools including catalogs, lineage, and workflow",
+        "Metadata platforms such as Collibra, Atlan, and Informatica",
+        "Automated lineage and governance AI",
+        "Selecting the right tool stack for an organization"
+      ]
+    },
+    {
+      "module": "Stewardship in Analytics and AI",
+      "subtopics": [
+        "Stewardship support for analytics and BI use cases",
+        "Data readiness for machine learning and predictive models",
+        "Ethical AI governance and data quality in analytics",
+        "Data literacy and culture initiatives"
+      ]
+    },
+    {
+      "module": "Implementation, Metrics and Continuous Improvement",
+      "subtopics": [
+        "Launching a stewardship program using a practical roadmap",
+        "KPIs, scorecards, and dashboarding for governance success",
+        "Change management and governance adoption",
+        "Maturity models and continuous improvement cycles"
+      ]
+    }
+  ],
+  "duration": "40–50 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/data-steward-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Design and implement a data quality monitoring dashboard",
+    "Create metadata catalog for enterprise data assets",
+    "Develop master data management workflow for customer data",
+    "Build data governance scorecard with KPIs and maturity assessment"
+  ]
+},
+{
+  "course_name": "Mobile Development",
+  "path": "mobile-development-training",
+  "description": "Master mobile app development from fundamentals to deployment. Learn Android, iOS, cross-platform frameworks, UI/UX design, database integration, APIs, testing, and app store publishing for creating professional mobile applications.",
+  "what_youll_learn": [
+    "Understand mobile development platforms and career opportunities",
+    "Design user-friendly mobile interfaces with modern UI/UX principles",
+    "Master programming fundamentals for mobile apps (Java, Kotlin, Swift)",
+    "Build native Android and iOS apps plus cross-platform solutions",
+    "Integrate databases (SQLite, Firebase) and external APIs",
+    "Implement authentication, security, and data management",
+    "Test, debug, and optimize apps for performance",
+    "Deploy apps to Google Play Store and Apple App Store",
+    "Add advanced features like push notifications and geolocation",
+    "Apply monetization strategies and app store optimization"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Mobile App Development",
+      "subtopics": [
+        "Overview of mobile app development platforms",
+        "The significance of mobile apps in today's digital landscape",
+        "Exploring career opportunities in mobile app development"
+      ]
+    },
+    {
+      "module": "App Design and User Experience (UX)",
+      "subtopics": [
+        "Principles of mobile app design",
+        "User interface (UI) design guidelines",
+        "Creating user-friendly and visually appealing app interfaces",
+        "Prototyping and wireframing tools"
+      ]
+    },
+    {
+      "module": "Programming Fundamentals",
+      "subtopics": [
+        "Introduction to programming languages (Java, Kotlin, Swift)",
+        "Data types, variables, and control structures",
+        "Basics of object-oriented programming"
+      ]
+    },
+    {
+      "module": "Platform-Specific Development",
+      "subtopics": [
+        "Android app development",
+        "iOS app development",
+        "Cross-platform development with frameworks"
+      ]
+    },
+    {
+      "module": "Database Integration",
+      "subtopics": [
+        "Working with databases for storing app data",
+        "SQLite, Firebase, or other database options",
+        "Data modeling and database design for mobile apps"
+      ]
+    },
+    {
+      "module": "API Integration",
+      "subtopics": [
+        "Connecting mobile apps to external APIs",
+        "Retrieving and displaying data from web services",
+        "Authentication and security considerations"
+      ]
+    },
+    {
+      "module": "Testing and Debugging",
+      "subtopics": [
+        "Debugging techniques and tools",
+        "Unit testing and test-driven development",
+        "User testing and beta testing"
+      ]
+    },
+    {
+      "module": "Deployment and App Stores",
+      "subtopics": [
+        "Preparing apps for release",
+        "Publishing apps on Android and iOS",
+        "App store guidelines and submission process"
+      ]
+    },
+    {
+      "module": "Advanced Topics",
+      "subtopics": [
+        "Mobile app optimization for performance and battery efficiency",
+        "Integrating advanced features like push notifications, geolocation, and sensors",
+        "Monetization strategies"
+      ]
+    }
+  ],
+  "duration": "60–80 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/mobile-development-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Build a complete e-commerce mobile app with payment integration",
+    "Develop a social media app with real-time chat functionality",
+    "Create a fitness tracker with geolocation and notifications",
+    "Design and deploy a cross-platform productivity app"
+  ]
+},
+{
   "course_name": "Soft Tech Skills Training",
   "path": "soft-tech-skills-training",
   "description": "Develop essential soft skills for IT and corporate environments, including communication, teamwork, problem-solving, professionalism, and workplace technology use.",
@@ -15395,6 +18907,1069 @@
     "End-to-end compensation setup automation",
     "Custom calculated fields reporting project",
     "Workday Studio HR data pipeline"
+  ]
+},
+{
+  "course_name": "AutoCAD",
+  "path": "autocad-training",
+  "description": "Master AutoCAD from basics to advanced 3D modeling. Learn 2D drafting, advanced linework, layers, dimensions, blocks, xrefs, constraints, isometric drawing, 3D primitives, solid modeling, Boolean operations, and professional plotting for architectural, mechanical, and engineering design careers.",
+  "what_youll_learn": [
+    "Master AutoCAD interface, workspaces, drawing aids, and basic construction tools",
+    "Create precise 2D drawings with layers, linetypes, hatches, dimensions, and blocks",
+    "Use advanced editing tools including polylines, splines, constraints, and arrays",
+    "Implement external references (xrefs), attributes, and file import/export workflows",
+    "Configure professional plotting with CTB files, pen weights, and page setups",
+    "Create isometric drawings and advanced dimension styles",
+    "Build 3D models using primitives, extrusion, revolve, sweep, and loft operations",
+    "Perform Boolean operations (union, subtract, intersect) and solid modeling",
+    "Navigate 3D workspace with ViewCube, visual styles, and dynamic UCS",
+    "Manage design center, tool palettes, sheet sets, and express tools",
+    "Integrate AutoCAD with MS Office, PDFs, JPGs, and other CAD software",
+    "Prepare production-ready drawings for architectural and engineering projects"
+  ],
+  "syllabus": [
+    {
+      "module": "Basics of AutoCAD",
+      "subtopics": [
+        "AutoCAD Environment (Screen layout, Ribbon, Command Line, Workspaces)",
+        "Basic construction elements (Point, Line, Circle, Arc, Rectangle)",
+        "Basic Editing/Modify commands (Copy, Rotate, Scale, Trim, Extend, Offset)",
+        "Basic view commands (Zoom, Pan, Regen)",
+        "Selection methods (Window, Crossing)",
+        "Accurate drawing methods (Ortho, Osnap, Grips, Snap, Grid)",
+        "Layers, Colors and Properties (Creating, freezing, locking layers)",
+        "Text, Mtext, Editing and Style (Spell check, Nearest Osnap)",
+        "Hatch patterns (Picking patterns, Gap tolerance, Gradients)",
+        "Dimensions (Linear, Aligned, Radius, Angular, Leader, Multileader)",
+        "Blocks, Wblocks, Purge (Creating, inserting, redefining blocks)",
+        "Arrays (Rectangular, Polar, Path arrays)",
+        "Plotting and Printing (Page setup manager, Plot styles)"
+      ]
+    },
+    {
+      "module": "AutoCAD Intermediate Level",
+      "subtopics": [
+        "Advanced Line work (Pline, Pedit, Xline, Ray, Spline, Mline)",
+        "Advanced Layers and Dimensions (Dimension style manager)",
+        "Introduction to constraints (Geometric, Dimensional constraints)",
+        "Options, shortcuts, CUI, Design Center and Express tools",
+        "Advanced design tools (Align, Audit, Recover, Blend, Overkill)",
+        "Importing and Exporting Data (MS Word, Excel, PowerPoint, JPG, PDF)",
+        "External References (Loading, binding, updating xrefs)",
+        "Attributes (Defining, editing, extracting data)",
+        "Advanced output pen settings (CTB files, line weights, screening)",
+        "Isometric drawing (Setting planes, ellipses, text in isometric)"
+      ]
+    },
+    {
+      "module": "Advanced AutoCAD",
+      "subtopics": [
+        "3D Basics (Axes, planes, faces, 3D Workspace)",
+        "Entering and exiting 3D, Projecting into 3D, 3D dynamic views",
+        "Extrude, Visual Styles, ViewCube, Navigation Bar",
+        "3D Primitives (Box, Wedge, Cone, Sphere, Cylinder, Torus, Pyramid)",
+        "Object Manipulation (Rotate3D, Mirror3D, 3D array, 3D scale, 3D move)",
+        "Fillets and chamfers in 3D",
+        "Boolean Operations (Union, Subtract, Intersect)",
+        "Solid Modelling (Revolve, Shell, Taper, Loft, Path extrusion, Sweep)"
+      ]
+    }
+  ],
+  "duration": "50–70 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "https://example.com/autocad-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete 2D architectural floor plan with dimensions and plotting",
+    "3D mechanical component modeling with Boolean operations",
+    "Isometric piping drawing with advanced linework and hatches",
+    "Multi-sheet set residential building project with xrefs",
+    "Professional 3D product design with solid modeling and rendering"
+  ]
+},
+{
+  "course_name": "PLC & SCADA",
+  "path": "plc-scada-training",
+  "description": "Master PLC programming and SCADA systems for industrial automation. Learn PLC hardware selection, I/O wiring, ladder logic programming, advanced instructions, troubleshooting, SCADA HMI development, tag database creation, trending, alarms, communication protocols (Modbus/TCP/IP), and industrial connectivity for manufacturing and process control careers.",
+  "what_youll_learn": [
+    "Select and configure PLC components (Power supply, CPU, I/O modules, communication bus)",
+    "Understand PLC scan cycle, flags, source/sink concepts, and field device wiring",
+    "Program ladder logic with timers, counters, arithmetic, logical, and advanced instructions",
+    "Troubleshoot PLC faults, force I/O, monitor tags, and perform hardware replacements",
+    "Design SCADA systems for oil & gas, factories, metro, solar, and steel plants",
+    "Create SCADA tag databases, HMI screens with animations, trending, and alarms",
+    "Implement communication protocols (Modbus, TCP/IP) between PLC and SCADA",
+    "Develop real-time and historical trending, data acquisition, and fault diagnostics",
+    "Configure connectivity with PLCs, RTUs, and industrial hardware",
+    "Perform industrial troubleshooting and error handling for production environments",
+    "Monitor arrays, edit ladder logic online, and handle controller I/O problems",
+    "Create animated graphic displays with sizing, movement, blinking, and visibility controls"
+  ],
+  "syllabus": [
+    {
+      "module": "PLC Fundamentals",
+      "subtopics": [
+        "Block diagram of PLC's applications and types",
+        "Selection of PLC components (Power supply, CPU, I/Os, Communication bus)",
+        "I/O list selection",
+        "Types of Inputs & outputs / Source Sink Concepts",
+        "Wiring of the I/O devices",
+        "Architectural Evolution of PLC",
+        "Introduction to field devices",
+        "Concept of flags and Scan cycle execution"
+      ]
+    },
+    {
+      "module": "PLC Hardware Setup",
+      "subtopics": [
+        "Setting up PLCs / Connecting CPU, I/O modules, Rack, Backplane",
+        "Connecting Field devices to PLCs I/Os",
+        "Communication bus configuration"
+      ]
+    },
+    {
+      "module": "PLC Programming - Basic Instructions",
+      "subtopics": [
+        "Load /AND /OR /OUT / Read / Write instructions",
+        "Compare / Add / Sub / AND / OR Blocks",
+        "Edge / trailing edge instructions",
+        "MOVE block application",
+        "Timer and Counter Blocks programming"
+      ]
+    },
+    {
+      "module": "PLC Programming - Advanced Instructions",
+      "subtopics": [
+        "Advanced instructions",
+        "File handling and Comment functions",
+        "Master control / SET / RESET function"
+      ]
+    },
+    {
+      "module": "PLC Monitoring & Troubleshooting",
+      "subtopics": [
+        "Monitoring Arrays & Tags of User-Defined Data Types",
+        "Editing Ladder Logic Online",
+        "Troubleshooting Controller Problems",
+        "Monitoring GSV/SSV Instructions",
+        "Forcing I/O & Toggling Bits",
+        "Troubleshooting I/O Module Problems",
+        "CPU, I/O module replacements",
+        "Fault detection and error handling"
+      ]
+    },
+    {
+      "module": "SCADA System Fundamentals",
+      "subtopics": [
+        "SCADA system applications (Oil & Gas / Factory / Metro / Solar Power Plant / Steel Plant)",
+        "Calculation SCADA tag",
+        "Selection of Software basis of SCADA Tag",
+        "Creating Database of Tags"
+      ]
+    },
+    {
+      "module": "SCADA HMI Development",
+      "subtopics": [
+        "SCADA Screen / Creating & Editing graphic display with animation",
+        "Data Entry / Start Stop command",
+        "Analog entry",
+        "Sizing, Movement, Blinking, Visibility, Filling",
+        "Trending"
+      ]
+    },
+    {
+      "module": "SCADA Trending & Historical Data",
+      "subtopics": [
+        "Creating & Accessing Real-time Trending",
+        "Creating & Accessing Historical Trend"
+      ]
+    },
+    {
+      "module": "SCADA Alarms & Events",
+      "subtopics": [
+        "Creating Alarms & Events"
+      ]
+    },
+    {
+      "module": "SCADA Communication & Connectivity",
+      "subtopics": [
+        "Connectivity with different hardware",
+        "Communication protocols (Modbus / TCP/IP)",
+        "Communication with PLC",
+        "Communication with Data Acquisition System",
+        "Troubleshooting the application"
+      ]
+    },
+    {
+      "module": "SCADA Fault Diagnostics",
+      "subtopics": [
+        "Fault diagnostics and error handling",
+        "Sorting communication problems"
+      ]
+    }
+  ],
+  "duration": "60–80 hours",
+  "skill_level": "Intermediate to Advanced",
+  "image": "https://example.com/plc-scada-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete PLC-SCADA system for water treatment plant automation",
+    "Industrial conveyor belt control with PLC ladder logic programming",
+    "Oil & gas pipeline monitoring SCADA HMI with trending and alarms",
+    "Factory automation project with Modbus/TCP communication",
+    "Solar power plant SCADA system with real-time data acquisition"
+  ]
+},{
+  "course_name": "Cyber Law",
+  "path": "cyber-law-training",
+  "description": "Master Cyber Law and digital compliance with comprehensive coverage of IT Act 2000, cyber crimes, data protection (DPDP/GDPR), IPR in cyberspace, e-commerce laws, cyber security compliance, digital evidence, social media regulations, corporate governance, and international cyber law frameworks for legal and compliance careers.",
+  "what_youll_learn": [
+    "Understand IT Act 2000, amendments, digital signatures, and jurisdiction",
+    "Identify and analyze cyber crimes including hacking, phishing, and cyber terrorism",
+    "Navigate data protection laws (DPDP Act, GDPR) and privacy compliance",
+    "Protect intellectual property rights in digital environments",
+    "Draft legally valid cyber contracts and understand e-commerce regulations",
+    "Implement corporate cyber security compliance and risk management",
+    "Handle digital evidence collection and cyber crime investigations",
+    "Manage social media legal compliance and intermediary guidelines",
+    "Conduct corporate cyber law audits and compliance assessments",
+    "Analyze international cyber law frameworks and cross-border jurisdiction",
+    "Prepare legal documents and handle cyber law case scenarios",
+    "Build career in cyber law consulting, compliance, and digital forensics"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Cyber Law",
+      "subtopics": [
+        "Definition & scope of cyber law",
+        "Evolution of cyber laws globally",
+        "Importance of cyber law in the digital era",
+        "Cyber space & legal challenges",
+        "Cyber law careers overview"
+      ]
+    },
+    {
+      "module": "Information Technology Act, 2000 (India)",
+      "subtopics": [
+        "Overview of IT Act, 2000",
+        "Amendments & latest provisions",
+        "Applicability & jurisdiction",
+        "Digital signatures & electronic records",
+        "Certifying authorities"
+      ]
+    },
+    {
+      "module": "Cyber Crimes & Offences",
+      "subtopics": [
+        "Types of cyber crimes",
+        "Hacking, phishing, identity theft",
+        "Online frauds & financial crimes",
+        "Cyber stalking & harassment",
+        "Cyber terrorism"
+      ]
+    },
+    {
+      "module": "Data Protection & Privacy Laws",
+      "subtopics": [
+        "Data privacy concepts",
+        "Personal & sensitive data",
+        "Indian data protection framework (DPDP Act overview)",
+        "GDPR basics",
+        "Privacy compliance requirements"
+      ]
+    },
+    {
+      "module": "Intellectual Property Rights in Cyberspace",
+      "subtopics": [
+        "Copyright, trademarks & patents online",
+        "Software piracy & licensing",
+        "Domain name disputes",
+        "Cyber squatting",
+        "Digital content protection"
+      ]
+    },
+    {
+      "module": "Cyber Contracts & E-Commerce Law",
+      "subtopics": [
+        "Online contracts & validity",
+        "E-signatures & digital authentication",
+        "E-commerce regulations",
+        "Consumer protection in online transactions",
+        "Payment gateway & liability issues"
+      ]
+    },
+    {
+      "module": "Cyber Security & Legal Compliance",
+      "subtopics": [
+        "Cyber security fundamentals",
+        "Legal responsibilities of organizations",
+        "Data breach laws & reporting",
+        "Cyber security policies & governance",
+        "Role of cyber law in risk management"
+      ]
+    },
+    {
+      "module": "Investigation & Digital Evidence",
+      "subtopics": [
+        "Cyber crime investigation process",
+        "Digital evidence handling",
+        "Chain of custody",
+        "Forensic tools overview",
+        "Role of law enforcement agencies"
+      ]
+    },
+    {
+      "module": "Social Media & Cyber Law",
+      "subtopics": [
+        "Social media laws & regulations",
+        "Defamation & content liability",
+        "Fake news & misinformation laws",
+        "Intermediary guidelines",
+        "Online reputation management"
+      ]
+    },
+    {
+      "module": "Corporate Cyber Law & Compliance",
+      "subtopics": [
+        "Cyber compliance for organizations",
+        "IT policies & employee usage laws",
+        "Legal risk assessment",
+        "Cyber insurance overview",
+        "Corporate governance & cyber law"
+      ]
+    },
+    {
+      "module": "International Cyber Laws",
+      "subtopics": [
+        "Cross-border cyber crime",
+        "International cyber law frameworks",
+        "Role of INTERPOL & international agencies",
+        "Jurisdiction challenges",
+        "Treaties & conventions overview"
+      ]
+    },
+    {
+      "module": "Case Studies & Practical Scenarios",
+      "subtopics": [
+        "Landmark cyber law cases (India & global)",
+        "Corporate data breach cases",
+        "Cyber crime handling scenarios",
+        "Legal drafting basics",
+        "Mock cyber law case analysis"
+      ]
+    },
+    {
+      "module": "Career Paths & Interview Preparation",
+      "subtopics": [
+        "Career opportunities in cyber law",
+        "Cyber law consultant roles",
+        "Compliance & audit careers",
+        "Interview questions & answers",
+        "Certification guidance"
+      ]
+    }
+  ],
+  "duration": "35–45 hours",
+  "skill_level": "Intermediate",
+  "image": "https://example.com/cyber-law-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Cyber law compliance audit for a corporate organization",
+    "Digital contract drafting and e-signature implementation",
+    "Mock cyber crime investigation with digital evidence analysis",
+    "Social media policy development and intermediary compliance",
+    "Data protection policy framework with DPDP/GDPR alignment"
+  ]
+},{
+  "course_name": "Hardware and Networking",
+  "path": "hardware-networking-training",
+  "description": "Master computer hardware assembly, troubleshooting, OS installation (XP/Win7/Win8), network configuration, workgroup/domain setup, server administration (2003/2008), cabling, IP configuration, security policies, and enterprise networking for IT support and network administration careers.",
+  "what_youll_learn": [
+    "Assemble and troubleshoot computer hardware components and motherboards",
+    "Install and configure Windows XP, 7, 8 with dual-boot and repair techniques",
+    "Master DOS commands, BIOS setup, file systems (FAT/NTFS), and OS management",
+    "Configure workgroup and domain networks with file/printer sharing permissions",
+    "Perform network cabling, crimping, IP configuration, and protocol setup",
+    "Administer Windows Server 2003/2008 with ADS, DHCP, user management",
+    "Implement group policies, user profiles, terminal services, and security controls",
+    "Configure email clients, backups (NT Backup, Norton Ghost), and Hiren's Boot",
+    "Manage antivirus protection, disk optimization, and system recovery",
+    "Set up IIS, FTP servers, remote desktop, and enterprise network infrastructure"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction of Computer",
+      "subtopics": [
+        "Computer fundamentals and components"
+      ]
+    },
+    {
+      "module": "Generation of Computers",
+      "subtopics": [
+        "Evolution of computing technology"
+      ]
+    },
+    {
+      "module": "Classification of Computers",
+      "subtopics": [
+        "Types and categories of computers"
+      ]
+    },
+    {
+      "module": "Parts of Computer (Units)",
+      "subtopics": [
+        "CPU, memory, storage, and peripherals"
+      ]
+    },
+    {
+      "module": "Parts of Motherboard",
+      "subtopics": [
+        "Chipset",
+        "Expansion Slot",
+        "Memory Module",
+        "Processor Socket",
+        "Drive Connectors",
+        "BIOS",
+        "CMOS",
+        "Front Panel Connectors",
+        "Port Connectors",
+        "Power Connectors"
+      ]
+    },
+    {
+      "module": "Assembling Notes & Practical",
+      "subtopics": [
+        "PC assembly procedures",
+        "Jumper settings",
+        "Practical hardware assembly"
+      ]
+    },
+    {
+      "module": "DOS Introduction & Commands",
+      "subtopics": [
+        "DOS fundamentals",
+        "File and directory commands",
+        "Attribute commands",
+        "Practice exercises"
+      ]
+    },
+    {
+      "module": "BIOS Setups & File Systems",
+      "subtopics": [
+        "BIOS configuration",
+        "FAT & NTFS file systems",
+        "Boot process"
+      ]
+    },
+    {
+      "module": "Windows XP Installation & Management",
+      "subtopics": [
+        "XP OS installation",
+        "User creation",
+        "XP features (Firewall, Disk Management)",
+        "Driver installation",
+        "Dual OS installation",
+        "XP repair techniques"
+      ]
+    },
+    {
+      "module": "Windows 7/8 Features & Management",
+      "subtopics": [
+        "OS upgrade and editions",
+        "32/64-bit systems",
+        "OS management tools",
+        "Safe mode, MS-Config, virtual memory",
+        "Recovery and updates"
+      ]
+    },
+    {
+      "module": "System Maintenance & Optimization",
+      "subtopics": [
+        "Registry editing",
+        "Group Policy editing",
+        "System restore",
+        "Disk cleanup & defragmentation"
+      ]
+    },
+    {
+      "module": "Email Configuration & Backup",
+      "subtopics": [
+        "Outlook Express vs Outlook",
+        "Email account setup",
+        "PST management and backup",
+        "NT Backup and Norton Ghost"
+      ]
+    },
+    {
+      "module": "Hardware Troubleshooting & Hiren's Boot",
+      "subtopics": [
+        "Hiren's Boot options",
+        "Virus and antivirus management",
+        "Hardware troubleshooting test"
+      ]
+    },
+    {
+      "module": "Network Introduction & Fundamentals",
+      "subtopics": [
+        "Network types and topologies",
+        "Network devices (NIC, Hub, Switch, Router)",
+        "OSI Model and cables",
+        "Cable crimping methods"
+      ]
+    },
+    {
+      "module": "IP Configuration & Protocols",
+      "subtopics": [
+        "IP addressing",
+        "Network protocols",
+        "IP configuration commands"
+      ]
+    },
+    {
+      "module": "Workgroup Network Configuration",
+      "subtopics": [
+        "XP-XP workgroup setup",
+        "File and folder sharing",
+        "User management and permissions",
+        "Remote desktop and assistance"
+      ]
+    },
+    {
+      "module": "Windows Server 2003 Administration",
+      "subtopics": [
+        "ADS and DHCP configuration",
+        "User management",
+        "File sharing and profiles",
+        "Terminal server and IIS setup"
+      ]
+    },
+    {
+      "module": "Advanced Server Features",
+      "subtopics": [
+        "User/folder permissions",
+        "Profiles (default, roaming)",
+        "FTP server configuration",
+        "NT Backup & Restore"
+      ]
+    },
+    {
+      "module": "Windows Server 2008 & Group Policy",
+      "subtopics": [
+        "Server 2008 ADS/DHCP setup",
+        "Group Policy configuration",
+        "Password policies and security"
+      ]
+    },
+    {
+      "module": "Network Testing & Certification",
+      "subtopics": [
+        "Network module testing"
+      ]
+    }
+  ],
+  "duration": "60–75 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/hardware-networking-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete PC assembly and hardware troubleshooting project",
+    "Windows XP/7 dual-boot installation with network configuration",
+    "Windows Server 2003/2008 domain setup with DHCP and user management",
+    "Workgroup network with file sharing and permission implementation",
+    "Network cabling, crimping, and IP configuration practical lab"
+  ]
+},{
+  "course_name": "Tally + GST",
+  "path": "tally-gst-training",
+  "description": "Master Tally ERP 9 with GST compliance for complete accounting solutions. Learn accounting fundamentals, company setup, masters creation, voucher entries, advanced accounting & inventory features, tax compliance (GST, VAT, TDS, TCS, Service Tax), payroll, reporting, and data security for professional accounting careers.",
+  "what_youll_learn": [
+    "Master accounting fundamentals and double-entry bookkeeping principles",
+    "Configure complete company setup in Tally ERP 9 with GST compliance",
+    "Create accounting masters (groups, ledgers) and inventory masters (stock items, godowns)",
+    "Record all voucher types including accounting, inventory, and invoicing",
+    "Implement advanced features like cost centers, multi-currency, interest calculation",
+    "Manage advanced inventory with order processing, BOM, batch-wise details, POS",
+    "Configure GST, VAT, TDS, TCS, Service Tax, and generate statutory reports",
+    "Handle payroll accounting and generate comprehensive financial reports",
+    "Implement data security with Tally Vault, audit, backup, and company splitting",
+    "Generate financial statements, trading accounts, P&L, balance sheets, and stock summaries",
+    "Perform bank reconciliation and scenario management for business insights",
+    "Print professional reports, cheques, and add company logos"
+  ],
+  "syllabus": [
+    {
+      "module": "Basics of Accounting",
+      "subtopics": [
+        "Introduction",
+        "Types of Accounts",
+        "Accounting Principles or concepts",
+        "Mode of Accounting",
+        "Rules of Accounting",
+        "Double entry system of bookkeeping"
+      ]
+    },
+    {
+      "module": "Fundamentals of Tally ERP 9",
+      "subtopics": [
+        "Introduction to TALLY ERP 9",
+        "History of tally",
+        "Versions of tally",
+        "Company Features",
+        "Configuration",
+        "Getting functions with TALLY ERP 9",
+        "Creation / setting up of Company in TALLY ERP 9"
+      ]
+    },
+    {
+      "module": "Accounting Masters in Tally ERP 9",
+      "subtopics": [
+        "Chart of Groups",
+        "Groups",
+        "Multiple Groups",
+        "Ledgers",
+        "Multiple Ledgers"
+      ]
+    },
+    {
+      "module": "Inventory Masters in Tally ERP 9",
+      "subtopics": [
+        "Stock Groups",
+        "Multiple Stock Groups",
+        "Stock Categories",
+        "Multiple Stock Categories",
+        "Units of Measure",
+        "Godowns",
+        "Stock Items"
+      ]
+    },
+    {
+      "module": "Vouchers Entries in Tally ERP 9",
+      "subtopics": [
+        "Introduction",
+        "Types of Vouchers",
+        "Chart of Vouchers",
+        "Accounting Vouchers",
+        "Inventory Vouchers",
+        "Invoicing"
+      ]
+    },
+    {
+      "module": "Advance Accounting in Tally ERP 9",
+      "subtopics": [
+        "Bill-wise details",
+        "Cost centers and Cost Categories",
+        "Multiple currencies",
+        "Interest calculations",
+        "Budget and controls",
+        "Scenario management",
+        "Bank Reconciliation"
+      ]
+    },
+    {
+      "module": "Advance Inventory in Tally ERP 9",
+      "subtopics": [
+        "Order Processing",
+        "Recorder Levels",
+        "Batch-wise details",
+        "Bill of Materials",
+        "Different Actual and Billed Quantities",
+        "Price Lists",
+        "Zero-Valued Entries",
+        "Additional cost details",
+        "POS"
+      ]
+    },
+    {
+      "module": "Taxes in Tally ERP 9",
+      "subtopics": [
+        "VAT",
+        "VAT Reports",
+        "CST",
+        "CST Reports",
+        "TDS",
+        "TDS Reports",
+        "TCS",
+        "TCS Reports",
+        "EXCISE",
+        "Excise Reports"
+      ]
+    },
+    {
+      "module": "Service Tax",
+      "subtopics": [
+        "Service Tax Reports"
+      ]
+    },
+    {
+      "module": "Technological Advantages in Tally ERP 9",
+      "subtopics": [
+        "Tally vault",
+        "Security controls",
+        "Tally Audit",
+        "Backup and restore",
+        "Split company data",
+        "Import and export of data",
+        "Printing Reports and Cheques",
+        "Create Company Logo"
+      ]
+    },
+    {
+      "module": "Payroll Accounting in Tally ERP 9",
+      "subtopics": [
+        "Payroll configuration and processing"
+      ]
+    },
+    {
+      "module": "Generating Reports in Tally ERP 9",
+      "subtopics": [
+        "Financial Statements",
+        "Trading Account",
+        "Profit & Loss Account",
+        "Balance Sheet",
+        "Accounts Books and Reports",
+        "Inventory Books and Reports",
+        "Exception Reports",
+        "Statutory Reports",
+        "Payroll Reports",
+        "Trail balance",
+        "Day Book",
+        "List of Accounts",
+        "Stock Summary"
+      ]
+    }
+  ],
+  "duration": "40–50 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/tally-gst-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete company setup with GST configuration and masters creation",
+    "Full accounting cycle with voucher entries and inventory management",
+    "Tax compliance project with VAT, TDS, TCS, and Service Tax reports",
+    "Advanced inventory project with BOM, batch-wise details, and POS",
+    "Financial reporting project with P&L, Balance Sheet, and statutory reports"
+  ]
+},{
+  "course_name": "Motion Graphics",
+  "path": "motion-graphics-training",
+  "description": "Master motion graphics design with Adobe After Effects. Learn animation principles, text effects, shape layers, masking, logo reveals, social media content, audio synchronization, advanced techniques, and professional project workflows to create stunning visual content for brands, ads, and social media.",
+  "what_youll_learn": [
+    "Understand motion graphics fundamentals and design principles",
+    "Master Adobe After Effects for professional motion design",
+    "Apply 12 animation principles with timing, easing, and motion paths",
+    "Create kinetic typography, title animations, and lower thirds",
+    "Design shape layer animations, icon morphing, and vector graphics",
+    "Implement masking, track mattes, and professional compositing",
+    "Build logo reveals, brand intros, and corporate motion graphics",
+    "Create social media ads, Instagram stories, and YouTube bumpers",
+    "Sync animations perfectly with music beats and sound effects",
+    "Use advanced techniques like expressions, 3D layers, and plugins",
+    "Optimize exports for web, social media, Lottie, and GIF formats",
+    "Build professional showreels and freelance motion graphics portfolios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Motion Graphics",
+      "subtopics": [
+        "What is motion graphics?",
+        "Motion graphics vs animation vs video editing",
+        "Applications (ads, social media, explainer videos, branding)",
+        "Motion design workflow",
+        "Tools overview (After Effects, Illustrator, Premiere Pro)"
+      ]
+    },
+    {
+      "module": "Design Basics for Motion",
+      "subtopics": [
+        "Principles of design",
+        "Typography basics",
+        "Color theory",
+        "Composition & layout",
+        "Visual hierarchy in motion design"
+      ]
+    },
+    {
+      "module": "Adobe After Effects – Fundamentals",
+      "subtopics": [
+        "Interface & workspace",
+        "Layers, compositions & timelines",
+        "Importing assets",
+        "Keyframes & basic animation",
+        "Transform properties"
+      ]
+    },
+    {
+      "module": "Animation Principles",
+      "subtopics": [
+        "12 principles of animation",
+        "Ease in & ease out",
+        "Timing & spacing",
+        "Motion paths",
+        "Graph editor basics"
+      ]
+    },
+    {
+      "module": "Text & Typography Animation",
+      "subtopics": [
+        "Text animation presets",
+        "Custom text animations",
+        "Kinetic typography",
+        "Logo text animation",
+        "Title & lower-third animations"
+      ]
+    },
+    {
+      "module": "Shape Layers & Vector Animation",
+      "subtopics": [
+        "Shape layer tools",
+        "Path animation",
+        "Trim paths",
+        "Icon animation",
+        "Morphing shapes"
+      ]
+    },
+    {
+      "module": "Masking, Mattes & Compositing",
+      "subtopics": [
+        "Masking techniques",
+        "Track mattes",
+        "Alpha & luma mattes",
+        "Layer blending modes",
+        "Compositing fundamentals"
+      ]
+    },
+    {
+      "module": "Logo Animation & Branding",
+      "subtopics": [
+        "Logo reveal techniques",
+        "Brand intro/outro creation",
+        "Motion branding guidelines",
+        "Corporate motion graphics",
+        "Social media branding assets"
+      ]
+    },
+    {
+      "module": "Motion Graphics for Social Media & Ads",
+      "subtopics": [
+        "Instagram, YouTube & ad formats",
+        "Vertical & square videos",
+        "Animated ads & promos",
+        "Call-to-action animations",
+        "Short-form motion content"
+      ]
+    },
+    {
+      "module": "Audio Integration & Visual Sync",
+      "subtopics": [
+        "Audio basics for motion",
+        "Syncing animation with music",
+        "Sound effects",
+        "Beat matching",
+        "Audio-driven animations"
+      ]
+    },
+    {
+      "module": "Advanced Motion Techniques",
+      "subtopics": [
+        "Pre-compositions",
+        "Expressions (basics)",
+        "Motion blur",
+        "Camera & 3D layers (intro)",
+        "Using plugins overview"
+      ]
+    },
+    {
+      "module": "Exporting & Optimization",
+      "subtopics": [
+        "Render settings",
+        "Export formats for web & social media",
+        "Optimizing file size",
+        "Lottie & GIF exports",
+        "Quality control checklist"
+      ]
+    },
+    {
+      "module": "Real-Time Projects & Portfolio",
+      "subtopics": [
+        "Explainer video project",
+        "Logo animation project",
+        "Social media motion ad",
+        "Building a showreel",
+        "Freelancing & interview preparation"
+      ]
+    }
+  ],
+  "duration": "45–60 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/motion-graphics-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Professional logo reveal and brand intro animation",
+    "Complete explainer video with kinetic typography",
+    "Social media ad campaign with multiple motion assets",
+    "Corporate branding package (intro, lower thirds, transitions)",
+    "Motion graphics showreel compilation for portfolio"
+  ]
+},{
+  "course_name": "Video Editing",
+  "path": "video-editing-training",
+  "description": "Master professional video editing with Adobe Premiere Pro, After Effects, DaVinci Resolve. Learn editing fundamentals, motion graphics, color grading, audio design, VFX basics, social media content, YouTube optimization, client workflows, and portfolio development for a successful editing career.",
+  "what_youll_learn": [
+    "Master video editing fundamentals and post-production workflow",
+    "Edit professionally with Adobe Premiere Pro and DaVinci Resolve",
+    "Create motion graphics, text animations, and logo reveals in After Effects",
+    "Apply professional color correction and color grading techniques",
+    "Design audio mixes, voice-overs, and sound effects for videos",
+    "Edit short-form content for Instagram Reels, TikTok, and YouTube Shorts",
+    "Create YouTube videos, ads, corporate videos, and client projects",
+    "Implement VFX basics including green screen and cinematic transitions",
+    "Manage project workflows, file organization, and client collaboration",
+    "Build professional portfolios and succeed in freelancing",
+    "Optimize exports for all platforms with correct settings",
+    "Handle real client briefs and prepare for video editing interviews"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Video Editing",
+      "subtopics": [
+        "Basics of video editing & post-production workflow",
+        "Types of video content (YouTube, Reels, Ads, Corporate)",
+        "Video formats, resolutions & frame rates",
+        "Understanding aspect ratios (16:9, 9:16, 1:1)",
+        "Hardware & system requirements"
+      ]
+    },
+    {
+      "module": "Video Editing Fundamentals",
+      "subtopics": [
+        "Importing & organizing media",
+        "Timeline, tracks & sequences",
+        "Cutting, trimming & splitting clips",
+        "Transitions & basic effects",
+        "Audio-video synchronization"
+      ]
+    },
+    {
+      "module": "Adobe Premiere Pro",
+      "subtopics": [
+        "Premiere Pro interface & tools",
+        "Editing workflow & shortcuts",
+        "Multi-camera editing",
+        "Audio editing & mixing",
+        "Export settings for different platforms"
+      ]
+    },
+    {
+      "module": "Adobe After Effects (Motion Graphics)",
+      "subtopics": [
+        "After Effects interface & basics",
+        "Text animation & motion graphics",
+        "Keyframes & animation principles",
+        "Masking & compositing",
+        "Logo animation & lower thirds"
+      ]
+    },
+    {
+      "module": "Color Correction & Color Grading",
+      "subtopics": [
+        "Color theory basics",
+        "Color correction tools",
+        "Color grading techniques",
+        "Using LUTs",
+        "Matching shots & mood creation"
+      ]
+    },
+    {
+      "module": "Audio Editing & Sound Design",
+      "subtopics": [
+        "Audio formats & sound basics",
+        "Voice-over editing",
+        "Background music & sound effects",
+        "Noise reduction & audio enhancement",
+        "Audio mixing & balancing"
+      ]
+    },
+    {
+      "module": "Visual Effects (VFX Basics)",
+      "subtopics": [
+        "Green screen (chroma key)",
+        "Basic visual effects",
+        "Speed ramping & slow motion",
+        "Transitions & cinematic effects",
+        "Title animations"
+      ]
+    },
+    {
+      "module": "Short-Form & Social Media Video Editing",
+      "subtopics": [
+        "Editing for Instagram Reels, YouTube Shorts & TikTok",
+        "Vertical video editing techniques",
+        "Hook creation & pacing",
+        "Captions & subtitles",
+        "Trend-based editing styles"
+      ]
+    },
+    {
+      "module": "YouTube & Commercial Video Editing",
+      "subtopics": [
+        "YouTube video structure",
+        "Thumbnails & branding basics",
+        "Editing ads & promotional videos",
+        "Corporate & training videos",
+        "Client-based editing workflow"
+      ]
+    },
+    {
+      "module": "DaVinci Resolve (Overview)",
+      "subtopics": [
+        "DaVinci Resolve interface",
+        "Editing basics",
+        "Advanced color grading overview",
+        "Fusion & Fairlight introduction",
+        "Export & delivery settings"
+      ]
+    },
+    {
+      "module": "Project Workflow & File Management",
+      "subtopics": [
+        "Project organization best practices",
+        "Backup & storage management",
+        "Working with clients",
+        "Revision handling",
+        "Team collaboration basics"
+      ]
+    },
+    {
+      "module": "Portfolio Development & Freelancing",
+      "subtopics": [
+        "Building a professional showreel",
+        "Portfolio creation",
+        "Freelancing platforms overview",
+        "Pricing & client communication",
+        "Copyright & content licensing basics"
+      ]
+    },
+    {
+      "module": "Real-Time Projects & Interview Prep",
+      "subtopics": [
+        "Real-time editing projects",
+        "YouTube / ad video project",
+        "Client brief handling",
+        "Interview questions & practical tests",
+        "Career guidance & placement support"
+      ]
+    }
+  ],
+  "duration": "50–65 hours",
+  "skill_level": "Beginner to Intermediate",
+  "image": "https://example.com/video-editing-course.jpg",
+  "placement_assurance": true,
+  "projects": [
+    "Complete YouTube video editing project with motion graphics",
+    "Instagram Reels/TikTok trending video editing portfolio",
+    "Corporate promotional video with color grading and VFX",
+    "Ad campaign video editing with client revision workflow",
+    "Professional showreel compilation with multiple video types"
   ]
 },{
   "course_name": "Workday Payroll Training",

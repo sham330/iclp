@@ -95,7 +95,7 @@
             "courses": [
               { "name": "Graphic Design Basics", "path": "" },
               { "name": "Digital Marketing Basics", "path": "/course/digital-marketing-online-training" },
-              { "name": "Canva / Figma Basics", "path": "" }
+              { "name": "Canva / Figma Basics", "path": "/course/figma-advanced-training" }
             ]
           }
         ]
@@ -107,10 +107,10 @@
           {
             "title": "Software Development",
             "courses": [
-              { "name": "Full Stack Development (MERN / MEAN / Java / Python)", "path": "/course/full-stack-developer-online-training" },
+              { "name": "Full Stack Development (MERN / MEAN / Java / Python)", "path": "/course/mern-stack-training"},
               { "name": "Advanced Java (Spring / Hibernate)", "path": "/course/spring-boot-online-training" },
               { "name": "Advanced Python (Django / Flask / FastAPI)", "path": "/course/python-full-stack-developer-online-training" },
-              { "name": "Mobile App Development (Android / iOS / Flutter / Kotlin)", "path": "" },
+              { "name": "Mobile App Development (Android / iOS / Flutter / Kotlin)", "path": "/course/mobile-development-training" },
               { "name": "Advanced JavaScript Frameworks (React / Angular / Vue)", "path": "/course/react-js-online-training" }
             ]
           },
@@ -121,11 +121,11 @@
               { "name": "Microsoft Azure", "path": "/course/microsoftazure-training" },
               { "name": "Google Cloud Platform", "path": "" },
               { "name": "DevOps Master Program", "path": "/course/devops-training" },
-              { "name": "Docker", "path": "" },
-              { "name": "Kubernetes", "path": "" },
-              { "name": "Terraform", "path": "" },
+              { "name": "Docker", "path": "/course/docker-training" },
+              { "name": "Kubernetes", "path": "/course/kubernetes-training" },
+              { "name": "Terraform", "path": "/course/terraform-training" },
               { "name": "CI/CD Pipelines", "path": "" },
-              { "name": "Git & GitHub", "path": "" }
+              { "name": "Git & GitHub", "path": "/course/git-github-training" }
             ]
           },
           {
@@ -133,12 +133,12 @@
             "courses": [
               { "name": "Cyber Security Analyst", "path": "/course/cyber-security-online-training" },
               { "name": "Ethical Hacking", "path": "/course/ethical-hacking--online-training" },
-              { "name": "SOC Analyst", "path": "" },
-              { "name": "Penetration Testing", "path": "" },
-              { "name": "Network Security", "path": "" },
-              { "name": "Cloud Security", "path": "" },
+              { "name": "SOC Analyst", "path": "/course/soc-analyst-csa-training" },
+              { "name": "Penetration Testing", "path": "/course/advanced-pentest-certification-training" },
+              { "name": "Network Security", "path": "/course/system-network-security-training" },
+              { "name": "Cloud Security", "path": "/course/ccsk-foundation-training" },
               { "name": "CISM", "path": "/course/cism-certification-online-training" },
-              { "name": "CEH Preparation", "path": "" }
+              { "name": "CEH Preparation", "path": "/course/ceh-advanced-training" }
             ]
           },
           {
@@ -149,7 +149,7 @@
               { "name": "AI Fundamentals", "path": "/course/artificial-intelligence-course-online" },
               { "name": "Data Analytics", "path": "/course/data-analytics-course" },
               { "name": "Power BI", "path": "" },
-              { "name": "Tableau", "path": "" },
+              { "name": "Tableau", "path": "/course/tableau-certification-training" },
               { "name": "Statistics for Data Science", "path": "/course/data-science-with-python-training" },
               { "name": "Big Data (Hadoop, Spark)", "path": "" }
             ]
@@ -174,20 +174,20 @@
           {
             "title": "Data Engineering",
             "courses": [
-              { "name": "Snowflake", "path": "course/snowflake-certification-training" },
-              { "name": "Databricks", "path": "course/databricks-spark-certification-training" },
-              { "name": "Apache Spark Advanced", "path": "" },
-              { "name": "Azure Data Factory", "path": "" },
+              { "name": "Snowflake", "path": "/course/snowflake-certification-training" },
+              { "name": "Databricks", "path": "/course/databricks-spark-certification-training" },
+              { "name": "Apache Spark Advanced", "path": "/course/apache-spark-training" },
+              { "name": "Azure Data Factory", "path": "/course/azure-data-factory-training" },
               { "name": "AWS Glue", "path": "" }
             ]
           },
           {
             "title": "Automation & RPA",
             "courses": [
-              { "name": "UiPath", "path": "" },
-              { "name": "BluePrism", "path": "" },
+              { "name": "UiPath", "path": "/course/uipath-certification-training" },
+              { "name": "BluePrism", "path": "/course/blue-prism-training" },
               { "name": "Automation Anywhere", "path": "" },
-              { "name": "RPA + Artificial Intelligence", "path": "" }
+              { "name": "RPA + Artificial Intelligence", "path": "/course/rpa-training-chennai" }
             ]
           },
           {
