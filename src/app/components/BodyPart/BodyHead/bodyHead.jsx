@@ -31,9 +31,9 @@ const TechHero = () => {
             <div className="mt-6 lg:mt-8 flex flex-col sm:flex-row gap-3 lg:gap-4">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="inline-flex items-center justify-center gap-2 lg:gap-3 bg-[#38ff00] text-black font-bold px-5 lg:px-7 py-2.5 lg:py-3.5 rounded-full hover:scale-105 transition-transform duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base"
+                className="inline-flex items-center justify-center gap-2 lg:gap-3 bg-[#01377d] text-white font-bold px-5 lg:px-7 py-2.5 lg:py-3.5 rounded-full hover:scale-105 transition-transform duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base"
               >
-                <span className="flex items-center justify-center w-7 h-7 lg:w-8 lg:h-8 bg-white rounded-full text-base lg:text-lg">
+                <span className="flex items-center justify-center w-7 h-7 lg:w-8 lg:h-8 bg-white text-black rounded-full text-base lg:text-lg">
                   →
                 </span>
                 Explore Courses
@@ -41,7 +41,7 @@ const TechHero = () => {
 
               <a
                 href="tel:+919876543210"
-                className="inline-flex items-center justify-center gap-2 lg:gap-3 bg-[#38ff00] text-black font-bold px-5 lg:px-7 py-2.5 lg:py-3.5 rounded-full hover:scale-105 transition-transform duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base"
+                className="inline-flex items-center justify-center gap-2 lg:gap-3 bg-[#01377d] text-white font-bold px-5 lg:px-7 py-2.5 lg:py-3.5 rounded-full hover:scale-105 transition-transform duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base"
               >
                 Talk to a Mentor
                 <span className="flex items-center justify-center w-7 h-7 lg:w-8 lg:h-8 bg-white rounded-full text-sm lg:text-base">
@@ -60,7 +60,7 @@ const TechHero = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 lg:w-52 lg:h-52 bg-[#00b4d8]/25 rounded-full blur-3xl" />
             </div>
             
-            <div className="relative rounded-3xl lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-[#1e0f6e]/10 w-full max-w-md lg:max-w-lg xl:max-w-xl z-10">
+            <div className="relative rounded-3xl lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-[#1e0f6e]/10 w-full max-w-lg lg:max-w-xl xl:max-w-xl z-10">
               <img
                 src="/hero-new.jfif"
                 alt="ICLP Technologies Team"
