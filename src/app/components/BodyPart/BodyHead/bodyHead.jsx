@@ -30,20 +30,20 @@ const TechHero = () => {
 
       {/* CONTENT */}
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-16 lg:py-20 z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
           {/* LEFT CONTENT */}
           <div className="space-y-4 sm:space-y-6 lg:space-y-8 text-white text-center lg:text-left">
             <h1 className="font-bold leading-tight">
-              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-1 sm:mb-2">
+              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-1 sm:mb-2">
                 India's{" "}
                 <span className="bg-gradient-to-r from-cyan-300 to-blue-200 bg-clip-text text-transparent">
                   Trusted & Leading
                 </span>
               </span>
-              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-1 sm:mb-2">
+              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-1 sm:mb-2">
                 Software Training Institute
               </span>
-              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-blue-200">
+              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-200">
                 for Job-Ready Skills
               </span>
             </h1>
