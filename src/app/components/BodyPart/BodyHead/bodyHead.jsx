@@ -22,7 +22,7 @@ const TechHero = () => {
       />
       
       {/* GRADIENT OVERLAY */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/85 to-indigo-900/90" />
+<div className="absolute inset-0 bg-[#020c2b]/90" />
 
       {/* ANIMATED GRADIENT ORBS - Hidden on mobile for performance */}
       <div className="hidden md:block absolute top-20 left-20 w-96 h-96 bg-blue-500/30 rounded-full blur-3xl animate-pulse" />
