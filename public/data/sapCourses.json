@@ -132,7 +132,36 @@
                 "Asset Reports",
                 "Integration with Fixed Assets"
               ]
-            }
+            },
+            {
+  "module": "SAP Controlling (CO) – Cost Controlling",
+  "subtopics": [
+    "Introduction to SAP CO",
+    "Integration with FI",
+    "Cost Element Accounting",
+    "Cost Center Accounting",
+    "Internal Orders",
+    "Profit Center Accounting",
+    "Product Costing",
+    "Profitability Analysis (CO-PA)",
+    "Real-time cost controlling scenarios & reporting"
+  ]
+},{
+  "module": "Activity-Based Costing(ABC)",
+  "subtopics": [
+    "Overhead allocation based on business activities",
+    "Accurate cost tracking for products and services",
+    "Used for strategic cost management and decision-making"
+  ]
+},{
+  "module": "Actual Costing & Material Ledger",
+  "subtopics": [
+    "Comparison of Standard Cost vs Actual Cost ",
+    "Cost variances and inventory revaluation",
+    "Integration with FI for real-time financial impact analysis"
+  ]
+}
+
           ]
         },
         {
