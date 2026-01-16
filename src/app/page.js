@@ -12,7 +12,6 @@ import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCours
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
-import NewAbout from "./components/BodyPart/HomeAbout/NewAbout";
 import WhyInventateq from "./components/HomeSections/WhyUs";
 import ServiceAreas from "./components/Services";
 
@@ -31,7 +30,6 @@ export default function Home() {
         <HomeAboutDialog/>
         <BodyHead />
         <br/>
-        <NewAbout/>
         <TopCategories />
                 <br></br>
 

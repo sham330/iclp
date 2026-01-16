@@ -77,10 +77,10 @@ const TechHero = () => {
                   key={index}
                   className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-lg sm:rounded-xl p-3 sm:p-4 text-center hover:bg-white/15 transition-all duration-300 hover:scale-105"
                 >
-                  <div className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-300 to-blue-200 bg-clip-text text-transparent">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-bold  text-white">
                     {stat.value}
                   </div>
-                  <div className="text-xs sm:text-sm text-blue-100 mt-1">{stat.label}</div>
+                  <div className="text-xs sm:text-sm text-white mt-1">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -107,10 +107,10 @@ const TechHero = () => {
                   key={index}
                   className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-xl p-3 text-center hover:bg-white/15 transition-all duration-300 hover:scale-105"
                 >
-                  <div className="text-xl xl:text-2xl font-bold bg-gradient-to-r from-cyan-300 to-blue-200 bg-clip-text text-transparent">
+                  <div className="text-xl xl:text-2xl font-bold bg-white bg-clip-text text-transparent">
                     {stat.value}
                   </div>
-                  <div className="text-xs text-blue-100 mt-1">{stat.label}</div>
+                  <div className="text-xs text-white mt-1">{stat.label}</div>
                 </div>
               ))}
             </div>

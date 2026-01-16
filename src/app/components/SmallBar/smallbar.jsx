@@ -72,6 +72,13 @@ const SmallBar = () => {
     setIsDropdown2Open(false);
     setIsMobileMenuOpen(false);
   };
+    const handleSteamsClick = (path) => {
+    router.push(`/course/${path}`);
+    setIsDropdownOpen(false);
+    setIsDropdown2Open(false);
+    setIsMobileMenuOpen(false);
+  };
+
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -236,7 +243,7 @@ const SmallBar = () => {
                           {selectedStream.courses.map((courseItem, i) => (
                             <button
                               key={i}
-                              onClick={() => handleSubcategoryClick(courseItem.path)}
+                              onClick={() => handleSteamsClick(courseItem.path)}
                               className="text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-4 rounded border-2 border-[#014a9f]/10 hover:border-[#014a9f]/30 transition-all"
                             >
                               {courseItem.course}
