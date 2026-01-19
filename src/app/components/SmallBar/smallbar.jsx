@@ -380,6 +380,8 @@ const SmallBar = () => {
                           <button
                             key={i}
                             onClick={() => handleSteamsClick(courseItem.path)}
+                                onTouchEnd={() => handleSteamsClick(courseItem.path)}
+                                style={{ cursor: 'pointer', WebkitTapHighlightColor: 'transparent' }}
                             className="block w-full text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-4 rounded transition-all my-1"
                           >
                             {courseItem.course}
