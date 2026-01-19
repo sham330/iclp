@@ -379,7 +379,7 @@ const SmallBar = () => {
                         {stream.courses.map((courseItem, i) => (
                           <button
                             key={i}
-                            onClick={() => handleSubcategoryClick(courseItem.path)}
+                            onClick={() => handleSteamsClick(courseItem.path)}
                             className="block w-full text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-4 rounded transition-all my-1"
                           >
                             {courseItem.course}
