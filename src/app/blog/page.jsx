@@ -2359,10 +2359,11 @@ const particleData = [...Array(10)].map(() => ({
     .map((blog, index) => {      const [ref, controls] = useScrollAnimation();
 
       return (
+        <div      key={blog.id}
+          ref={ref}                    onClick={() => router.push(`/blog/${encodeURIComponent(blog.slug)}`)}
+>
         <motion.div
-          key={blog.id}
-          ref={ref}
-                        onClick={() => router.push(`/blog/${encodeURIComponent(blog.slug)}`)}
+         
           className="iclp-article-card"
           variants={{
             hidden: { opacity: 0, y: 50 },
@@ -2410,6 +2411,7 @@ const particleData = [...Array(10)].map(() => ({
             </motion.button>
           </div>
         </motion.div>
+        </div>
       );
     })}
   </div>
