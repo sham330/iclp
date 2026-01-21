@@ -2470,6 +2470,22 @@ import "./blogdetail.css"
 
 
 ]
+// ✅ Safe static params - works even if blogs is undefined
+export async function generateStaticParams() {
+  try {
+    // Your blogs data source (adjust path)
+    return blogs.default?.map(blog => ({ slug: blog.slug })) || [];
+  } catch (error) {
+    console.log('Blogs not found, skipping static generation');
+    return []; // Empty = no static pages for blogs
+  }
+}
+
+
+export const revalidate = 86400;  // 24 hours in seconds
+
+// 3. Force static rendering (skip SSR)
+export const dynamic = 'force-static';
 
 
 export default async function BlogDetailPage({ params }) {

@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import CourseDetails from "./Maincomponent";
 import Head from "./Head";
+export const dynamic = 'force-dynamic';
 
 export default async function CourseDetailsPage({ params }) {
   // Await params Promise FIRST (Next.js 15+ requirement)
