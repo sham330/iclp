@@ -6,30 +6,6 @@ import SapCourseDetailsPage from "./MainComponent";
 
 
 
-// app/courses/sap/[path]/page.js
-export async function generateStaticParams() {
-  const sapData = await fetch("https://iclptech.in/data/sapCourses.json")
-    .then(res => res.ok ? res.json() : { categories: [] })
-    .catch(() => ({ categories: [] }));
-
-  const paths = [];
-
-  sapData.categories?.forEach((category) => {
-    if (category?.name?.toLowerCase().includes('sap') && category.sub_categories) {
-      category.sub_categories.forEach((course) => {
-        if (course?.path) {
-          paths.push({
-            params: {
-              path: course.path  // "sap-fico", "sap-mm", "sap-sd", etc.
-            }
-          });
-        }
-      });
-    }
-  });
-
-  return paths;
-}
 
 export default async function CourseDetailsPage({ params }) {
   // Await params Promise FIRST (Next.js 15+ requirement)
