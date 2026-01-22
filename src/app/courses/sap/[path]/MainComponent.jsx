@@ -331,7 +331,7 @@ const SapCourseDetailsPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="w-full h-[500px] bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
+      <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             {/* Left Content */}
@@ -356,20 +356,20 @@ const SapCourseDetailsPage = () => {
                 </div>
 
                 {/* Profile Pics - Using Next.js Image */}
-              <div className="flex items-center gap-3">
-  {/* FIXED HEIGHT CONTAINER = ZERO CLS */}
-  <div className="flex  h-12 w-48 rounded-full">
-    {profilePics.slice(0, 5).map((pic, index) => (
-      <div key={index} className="relative w-12 h-12 rounded-full border-4 border-[#01377d] overflow-hidden">
-        <Image
-          src={pic}
-          alt={`Learner ${index + 1}`}
-          fill          // ← FILL container (no layout shift)
-          unoptimized
-          className="object-cover"
-          sizes="48px"  // ← TINY images
-        />
-        </div>
+                <div className="flex items-center gap-3">
+                  <div className="flex -space-x-3">
+                    {profilePics.map((pic, index) => (
+                      <Image
+                        key={index}
+                        src={pic}
+                        alt={`Learner ${index + 1}`}
+                        width={48}           // ✅ REQUIRED: Add width
+                        height={48}          // ✅ REQUIRED: Add height  
+                        className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+                        unoptimized          // ✅ REQUIRED: Netlify fix
+                        loading="eager"
+                      />
+
                     ))}
                   </div>
                   <span className="text-[#97e7f5] font-semibold">
