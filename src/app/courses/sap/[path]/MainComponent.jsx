@@ -650,15 +650,15 @@ const SapCourseDetailsPage = () => {
                     key={index}
                     className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow border border-slate-200"
                   >
-                  <Image
-  src={image}
-  alt={`Partner ${index + 1}`}
-  width={100}
-  height={48}
-  className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-  unoptimized  // ✅ REQUIRED for Netlify
-  loading="lazy"
-/>
+                    <Image
+                      src={image}
+                      alt={`Partner ${index + 1}`}
+                      width={100}
+                      height={48}
+                      className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                      unoptimized  // ✅ REQUIRED for Netlify
+                      loading="lazy"
+                    />
                   </div>
                 ))}
               </div>
@@ -732,15 +732,15 @@ const SapCourseDetailsPage = () => {
             <div className="space-y-6">
               {/* Company Logo - Using Next.js Image */}
               <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-300 shadow-lg">
-              <Image
-  src="/Logo.png"
-  alt="ICLP Technologies"
-  width={256}      // ✅ Reasonable logo width (adjust as needed)
-  height={64}      // ✅ Proportional height (4:1 ratio for logos)
-  className="h-16 mx-auto mb-4"  // ✅ Your exact styling preserved
-  unoptimized      // ✅ REQUIRED for Netlify
-  priority         // ✅ Logo = above-the-fold (critical)
-/>
+                <Image
+                  src="/Logo.png"
+                  alt="ICLP Technologies"
+                  width={256}      // ✅ Reasonable logo width (adjust as needed)
+                  height={64}      // ✅ Proportional height (4:1 ratio for logos)
+                  className="h-16 mx-auto mb-4"  // ✅ Your exact styling preserved
+                  unoptimized      // ✅ REQUIRED for Netlify
+                  priority         // ✅ Logo = above-the-fold (critical)
+                />
                 <button
                   onClick={downloadSyllabusPDF}
                   className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 transition-colors"
@@ -789,11 +789,14 @@ const SapCourseDetailsPage = () => {
               </button>
             </div>
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/certification.png"
                 alt="SAP Certification"
+                width={448}              // ✅ max-w-md = ~448px on desktop
+                height={252}             // ✅ 16:9 aspect ratio for certification badges
                 className="w-full max-w-md rounded-xl shadow-2xl"
-                loading="lazy"
+                unoptimized             // ✅ REQUIRED for Netlify
+                priority                // ✅ Above-the-fold hero image
               />
             </div>
           </div>
@@ -815,10 +818,13 @@ const SapCourseDetailsPage = () => {
                 key={index}
                 className="bg-slate-50 p-4 rounded-xl flex items-center justify-center hover:shadow-xl transition-shadow border-2 border-slate-300 hover:border-[#39FF14]"
               >
-                <img
+                <Image
                   src={image}
                   alt={`Hiring Partner ${index + 1}`}
+                  width={120}          // ✅ Reasonable width for partner logos
+                  height={64}          // ✅ Proportional height (matches max-h-16)
                   className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                  unoptimized          // ✅ REQUIRED for Netlify
                   loading="lazy"
                 />
               </div>
