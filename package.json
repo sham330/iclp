@@ -9,6 +9,9 @@
     "export": "next export",
     "lint": "eslint"
   },
+  "netlify": {
+    "nextPluginSkip": true
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.14.0",
