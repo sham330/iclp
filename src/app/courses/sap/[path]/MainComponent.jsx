@@ -331,7 +331,7 @@ const SapCourseDetailsPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
+      <section className="w-full h-[500px] bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             {/* Left Content */}
