@@ -6,44 +6,44 @@ import SapCourseDetailsPage from "./MainComponent";
 
 
 // app/courses/sap/[path]/page.js
-// export async function generateStaticParams() {
-//   console.log('🔍 Starting SAP generateStaticParams...');
-//     const cacheBust = Date.now();
+export async function generateStaticParams() {
+  console.log('🔍 Starting SAP generateStaticParams...');
+    const cacheBust = Date.now();
 
-//   const sapData = await fetch(`https://iclptech.in/data/sapCourses.json?t=${cacheBust}`)
-//     .then(res => {
-//       console.log('📡 Fetch response:', res.ok ? 'OK' : 'FAILED');
-//       return res.ok ? res.json() : { categories: [] };
-//     })
-//     .catch(err => {
-//       console.error('❌ Fetch error:', err);
-//       return { categories: [] };
-//     });
+  const sapData = await fetch(`https://iclptech.in/data/sapCourses.json?t=${cacheBust}`)
+    .then(res => {
+      console.log('📡 Fetch response:', res.ok ? 'OK' : 'FAILED');
+      return res.ok ? res.json() : { categories: [] };
+    })
+    .catch(err => {
+      console.error('❌ Fetch error:', err);
+      return { categories: [] };
+    });
 
-//   console.log('📊 SAP Data categories:', sapData.categories?.length || 0);
+  console.log('📊 SAP Data categories:', sapData.categories?.length || 0);
 
-//   const paths = [];
+  const paths = [];
 
-//   sapData.categories?.forEach((category, catIndex) => {
-//     console.log(`📂 Category ${catIndex}:`, category?.name);
+  sapData.categories?.forEach((category, catIndex) => {
+    console.log(`📂 Category ${catIndex}:`, category?.name);
     
-//     if (category?.name?.toLowerCase().includes('sap') && category.sub_categories) {
-//       console.log('✅ SAP category found, sub_categories:', category.sub_categories.length);
+    if (category?.name?.toLowerCase().includes('sap') && category.sub_categories) {
+      console.log('✅ SAP category found, sub_categories:', category.sub_categories.length);
       
-//       category.sub_categories.forEach((course, courseIndex) => {
-//         if (course?.path) {
-//           paths.push({
-//             params: { path: course.path }
-//           });
-//           console.log(`➕ Added: ${course.path}`);
-//         }
-//       });
-//     }
-//   });
+      category.sub_categories.forEach((course, courseIndex) => {
+        if (course?.path) {
+          paths.push({
+            params: { path: course.path }
+          });
+          console.log(`➕ Added: ${course.path}`);
+        }
+      });
+    }
+  });
 
-//   console.log('📈 Total SAP paths generated:', paths.length);
-//   return paths;
-// }
+  console.log('📈 Total SAP paths generated:', paths.length);
+  return paths;
+}
 
 
 export default async function CourseDetailsPage({ params }) {
