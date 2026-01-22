@@ -220,7 +220,7 @@ const SapCourseDetailsPage = () => {
   // Dynamic import for PDF libraries - only load when needed
   const downloadSyllabusPDF = useCallback(async () => {
     if (!course) return;
-setShowBookingModal(true)
+    setShowBookingModal(true)
     const { default: jsPDF } = await import("jspdf");
     const { default: autoTable } = await import("jspdf-autotable");
 
@@ -329,7 +329,7 @@ setShowBookingModal(true)
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 
   return (
-   <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#01377d] to-[#014a9f] py-12">
         <div className="w-full px-4 sm:px-6 lg:px-8">
@@ -359,13 +359,17 @@ setShowBookingModal(true)
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
-                      <img
+                      <Image
                         key={index}
                         src={pic}
                         alt={`Learner ${index + 1}`}
+                        width={48}           // ✅ REQUIRED: Add width
+                        height={48}          // ✅ REQUIRED: Add height  
                         className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+                        unoptimized          // ✅ REQUIRED: Netlify fix
                         loading="eager"
                       />
+
                     ))}
                   </div>
                   <span className="text-[#97e7f5] font-semibold">
@@ -375,7 +379,7 @@ setShowBookingModal(true)
               </div>
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
-                dangerouslySetInnerHTML={{ __html: additionalContent.courseDescription}}
+                dangerouslySetInnerHTML={{ __html: additionalContent.courseDescription }}
               >
               </p>
 
@@ -432,11 +436,11 @@ setShowBookingModal(true)
       {course.career_benefits && (
         <section className="py-8 bg-slate-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
               dangerouslySetInnerHTML={{ __html: course.career_benefits.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 mb-6 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
             />
@@ -447,7 +451,7 @@ setShowBookingModal(true)
                   className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all"
                 >
                   <FaCheckCircle className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-                  <span 
+                  <span
                     className="text-slate-800"
                     dangerouslySetInnerHTML={{ __html: item }}
                   />
@@ -462,11 +466,11 @@ setShowBookingModal(true)
       {course.curriculum_overview && (
         <section className="py-8 bg-white">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.curriculum_overview.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: course.curriculum_overview.intro }}
             />
@@ -478,11 +482,11 @@ setShowBookingModal(true)
       {course.track_overview_primary && (
         <section className="py-8 bg-slate-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h3 
+            <h3
               className="text-2xl md:text-3xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.track_overview_primary.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 mb-5"
               dangerouslySetInnerHTML={{ __html: course.track_overview_primary.description }}
             />
@@ -490,7 +494,7 @@ setShowBookingModal(true)
               {course.track_overview_primary.topics.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-md transition-all">
                   <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-                  <span 
+                  <span
                     className="text-slate-800"
                     dangerouslySetInnerHTML={{ __html: item }}
                   />
@@ -505,11 +509,11 @@ setShowBookingModal(true)
       {course.track_overview_secondary && (
         <section className="py-8 bg-white">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h3 
+            <h3
               className="text-2xl md:text-3xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 mb-5"
               dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.description }}
             />
@@ -517,7 +521,7 @@ setShowBookingModal(true)
               {course.track_overview_secondary.topics.map((item, index) => (
                 <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4 border-2 border-slate-300 hover:border-[#01377d] hover:shadow-md transition-all">
                   <div className="w-2 h-2 rounded-full bg-[#01377d] flex-shrink-0 mt-2" />
-                  <span 
+                  <span
                     className="text-slate-800"
                     dangerouslySetInnerHTML={{ __html: item }}
                   />
@@ -532,11 +536,11 @@ setShowBookingModal(true)
       {course.certification_info && (
         <section className="py-8 bg-slate-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.certification_info.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 mb-6 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: course.certification_info.intro }}
             />
@@ -547,7 +551,7 @@ setShowBookingModal(true)
                   className="flex items-start gap-3 bg-white border-2 border-slate-300 rounded-xl p-4 hover:border-[#39FF14] hover:shadow-lg transition-all"
                 >
                   <FaCertificate className="text-[#39FF14] text-xl flex-shrink-0 mt-1" />
-                  <span 
+                  <span
                     className="text-slate-800"
                     dangerouslySetInnerHTML={{ __html: item }}
                   />
@@ -562,11 +566,11 @@ setShowBookingModal(true)
       {course.why_institute && (
         <section className="py-8 bg-white">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2 
+            <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
             />
-            <p 
+            <p
               className="text-lg text-slate-700 mb-6"
               dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
             />
@@ -574,11 +578,11 @@ setShowBookingModal(true)
             <div className="grid md:grid-cols-2 gap-6">
               {course.why_institute.instructor_expertise && (
                 <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all">
-                  <h3 
+                  <h3
                     className="text-xl font-bold text-[#01377d] mb-3"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
                   />
-                  <p 
+                  <p
                     className="text-slate-700 leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
                   />
@@ -587,11 +591,11 @@ setShowBookingModal(true)
 
               {course.why_institute.training_modes && (
                 <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-300 hover:border-[#39FF14] hover:shadow-lg transition-all">
-                  <h3 
+                  <h3
                     className="text-xl font-bold text-[#01377d] mb-3"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
                   />
-                  <p 
+                  <p
                     className="text-slate-700 mb-4"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
                   />
@@ -599,7 +603,7 @@ setShowBookingModal(true)
                     {course.why_institute.training_modes.options.map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <div className="w-2 h-2 rounded-full bg-[#39FF14] flex-shrink-0 mt-2" />
-                        <span 
+                        <span
                           className="text-slate-800"
                           dangerouslySetInnerHTML={{ __html: item }}
                         />
@@ -646,14 +650,15 @@ setShowBookingModal(true)
                     key={index}
                     className="bg-slate-50 p-3 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow border border-slate-200"
                   >
-                    <img
-                      src={image}
-                      alt={`Partner ${index + 1}`}
-                      width={100}
-                      height={48}
-                      className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-                      loading="lazy"
-                    />
+                  <Image
+  src={image}
+  alt={`Partner ${index + 1}`}
+  width={100}
+  height={48}
+  className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+  unoptimized  // ✅ REQUIRED for Netlify
+  loading="lazy"
+/>
                   </div>
                 ))}
               </div>
@@ -727,12 +732,15 @@ setShowBookingModal(true)
             <div className="space-y-6">
               {/* Company Logo - Using Next.js Image */}
               <div className="bg-white rounded-xl p-6 text-center border-2 border-slate-300 shadow-lg">
-                <img
-                  src="/Logo.png"
-                  alt="ICLP Technologies"
-                  className="h-16 mx-auto mb-4"
-                  loading="lazy"
-                />
+              <Image
+  src="/Logo.png"
+  alt="ICLP Technologies"
+  width={256}      // ✅ Reasonable logo width (adjust as needed)
+  height={64}      // ✅ Proportional height (4:1 ratio for logos)
+  className="h-16 mx-auto mb-4"  // ✅ Your exact styling preserved
+  unoptimized      // ✅ REQUIRED for Netlify
+  priority         // ✅ Logo = above-the-fold (critical)
+/>
                 <button
                   onClick={downloadSyllabusPDF}
                   className="w-full bg-[#01377d] hover:bg-[#014a9f] text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 transition-colors"
@@ -825,9 +833,9 @@ setShowBookingModal(true)
       <RelatedCoursesSlider />
 
       {/* Modal */}
-      {showBookingModal && <ModalBooking onClose={() => setShowBookingModal(false)}/>}
+      {showBookingModal && <ModalBooking onClose={() => setShowBookingModal(false)} />}
     </div>
-);
+  );
 };
 
 export default SapCourseDetailsPage;

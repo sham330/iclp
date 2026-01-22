@@ -2,7 +2,7 @@
 const nextConfig = {
   // ✅ Static HTML export (pure HTML files)
   // output: 'export',
-  
+   
   // ✅ Required for static export - disables image optimization
   images: {
     unoptimized: true,
