@@ -1,3 +1,5 @@
+
+
 export async function getAllCoursePaths() {
   const coursesData = await fetch("https://iclptech.in/data/courses.json").then(res => res.json());
   
@@ -14,3 +16,5 @@ export async function getAllCoursePaths() {
   
   return paths;
 }
+
+
