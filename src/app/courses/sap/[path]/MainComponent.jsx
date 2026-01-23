@@ -58,9 +58,9 @@ const SapCourseDetailsPage = () => {
   // Generate random data once - memoized
   const learnerCount = 1733;
 const profilePics = [
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
-  "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80"
+  "/rev-1.jfif",
+  "/rev-2.jfif",
+  "/rev-3.jfif"
 ];
 
   // SAP-specific additional content - moved outside useEffect
@@ -763,7 +763,9 @@ const profilePics = [
                   height={64}      // ✅ Proportional height (4:1 ratio for logos)
                   className="h-16 mx-auto mb-4"  // ✅ Your exact styling preserved
                   unoptimized      // ✅ REQUIRED for Netlify
-                  priority         // ✅ Logo = above-the-fold (critical)
+                  priority   
+                    quality={85}
+      // ✅ Logo = above-the-fold (critical)
                 />
                 <button
                   onClick={downloadSyllabusPDF}
