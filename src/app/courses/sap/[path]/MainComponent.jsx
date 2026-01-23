@@ -327,6 +327,18 @@ const SapCourseDetailsPage = () => {
   if (loading)
     return <div className="cdp-loading">Loading course details...</div>;
   if (!course) return <div className="cdp-not-found">Course not found</div>;
+const renderWithStrong = (html) => {
+  return html.split(/(<strong>.*?<\/strong>)/g).map((part, index) => {
+    if (part.startsWith('<strong>') && part.endsWith('</strong>')) {
+      return (
+        <strong key={index} className="text-white font-semibold">
+          {part.replace(/<\/?strong>/g, '')}
+        </strong>
+      );
+    }
+    return part;
+  });
+};
 
   return (
     <div className="min-h-screen bg-white">
@@ -379,8 +391,8 @@ const SapCourseDetailsPage = () => {
               </div>
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
-                dangerouslySetInnerHTML={{ __html: additionalContent.courseDescription }}
               >
+  {renderWithStrong(additionalContent.courseDescription)}
               </p>
 
               <button
