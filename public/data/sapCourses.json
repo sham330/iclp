@@ -165,6 +165,374 @@
           ]
         },
         {
+  "course_name": "SAP EWM",
+  "path": "sap-ewm",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-ewm",
+  "meta_title": "SAP EWM Training in India | SAP Extended Warehouse Management Certification",
+  "meta_description": "Master SAP Extended Warehouse Management (EWM) with expert-led training & certification. Advanced warehouse optimization and automation. Enroll now!",
+  "description": "Master SAP Extended Warehouse Management (EWM) for advanced warehouse automation, process optimization, and seamless integration with SAP ERP systems.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP EWM Training</strong> is Essential for Your Career",
+    "description": "<strong>SAP Extended Warehouse Management (EWM)</strong> represents the next-generation warehouse solution for complex, high-volume distribution centers and modern logistics operations.",
+    "points": [
+      "<strong>Strategic Demand:</strong> SAP EWM is the preferred solution for enterprises migrating from SAP WM to advanced warehouse automation.",
+      "<strong>Premium Roles:</strong> EWM Consultants, Warehouse Automation Specialists, and Logistics Architects command top salaries.",
+      "<strong>Future-Proof:</strong> Training covers latest EWM features including wave management, yard logistics, and advanced slotting."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP EWM Course Curriculum</strong>",
+    "intro": "Our <strong>SAP EWM training</strong> delivers complete mastery of Extended Warehouse Management from integration setup to advanced warehouse optimization."
+  },
+  "track_overview_primary": {
+    "heading": "Core Warehouse Processes",
+    "description": "Essential EWM functionalities including:",
+    "topics": [
+      "<strong>Goods Receipt & Putaway Control</strong>",
+      "<strong>Goods Issue & Stock Removal Strategies</strong>",
+      "<strong>Warehouse Process Types & Orders</strong>",
+      "Structural Elements & Master Data"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced EWM Features",
+    "description": "Sophisticated warehouse optimization:",
+    "topics": [
+      "<strong>Storage Control & Slotting</strong>",
+      "<strong>Post Processing Framework</strong>",
+      "<strong>Physical Inventory & Replenishment</strong>",
+      "<strong>ERP Integration & Delivery Processing</strong>"
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP EWM Certificate</strong>",
+    "intro": "Our comprehensive <strong>SAP EWM training</strong> prepares you for industry-leading Extended Warehouse Management certification and complex implementations.",
+    "highlights": [
+      "<strong>Advanced Certification:</strong> Complete EWM certification preparation with real implementation scenarios.",
+      "<strong>Live Projects:</strong> End-to-end EWM warehouse implementations with process optimization.",
+      "<strong>High-Value Placements:</strong> Connect with enterprises seeking EWM specialists."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP EWM</strong> in India",
+    "intro": "ICLP Technologies specializes in <strong>SAP EWM training</strong> with focus on next-generation warehouse automation and enterprise implementations.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and EWM Experience",
+      "description": "Trained by <strong>SAP EWM Consultants</strong> with proven experience in large-scale warehouse transformations and S/4HANA EWM implementations."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP EWM Training</strong> Options",
+      "description": "Advanced learning formats available:",
+      "options": [
+        "<strong>Classroom Training:</strong> Hands-on EWM system access at premium training centers",
+        "<strong>Online EWM Course:</strong> Live sessions with embedded EWM warehouse simulations"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP EWM architecture and ERP integration setup",
+    "Warehouse structural elements and master data",
+    "Warehouse process types and advanced configuration",
+    "Goods receipt processes with direct putaway",
+    "Goods issue with stock removal strategies",
+    "Process and layout-oriented storage control",
+    "Warehouse order creation and optimization",
+    "Slotting, rearrangement and physical inventory",
+    "Post Processing Framework for delivery processing",
+    "Real-time EWM implementation scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Extended Warehouse Management System Environment",
+      "subtopics": [
+        "Outlining the Basics of EWM",
+        "EWM Integration architecture",
+        "Setting Up Integration Between SAP ERP and SAP EWM",
+        "Setting Up Delivery Document Integration"
+      ]
+    },
+    {
+      "module": "Structural Elements and Master Data",
+      "subtopics": [
+        "Creating Structural Elements in EWM",
+        "Working with the APO Core Interface",
+        "Reviewing EWM Master Data"
+      ]
+    },
+    {
+      "module": "Warehouse Process Types",
+      "subtopics": [
+        "Applying Warehouse Process Types"
+      ]
+    },
+    {
+      "module": "Goods Receipt",
+      "subtopics": [
+        "Outlining Goods Receipt Processes in EWM",
+        "Setting Up Availability Groups for Inventory Management",
+        "Configuring Direct Putaway",
+        "Applying Putaway Rules and Strategies",
+        "Checking Capacities"
+      ]
+    },
+    {
+      "module": "Goods Issue",
+      "subtopics": [
+        "Outlining the Goods Issue Process in EWM",
+        "Applying the Stock Removal Strategies",
+        "Handling Pick Denials and Picking Differences",
+        "Processing Batch Managed Products in EWM",
+        "Combining Items in Waves"
+      ]
+    },
+    {
+      "module": "Storage Control",
+      "subtopics": [
+        "Outlining the Storage Control Concepts",
+        "Configuring Process-Oriented Storage Control",
+        "Configuring Layout-Oriented Storage Control"
+      ]
+    },
+    {
+      "module": "Warehouse Order Creation",
+      "subtopics": [
+        "Creating Warehouse Orders"
+      ]
+    },
+    {
+      "module": "Posting Changes, Stock Transfers and Replenishment",
+      "subtopics": [
+        "Performing Posting Changes and Stock Transfers",
+        "Performing Ad Hoc Movements and Replenishment"
+      ]
+    },
+    {
+      "module": "Physical Inventory",
+      "subtopics": [
+        "Outlining the Physical Inventory Process",
+        "Setting Up the Procedures for Physical Inventory"
+      ]
+    },
+    {
+      "module": "Slotting and Rearrangement",
+      "subtopics": [
+        "Configuring the Slotting Process"
+      ]
+    },
+    {
+      "module": "Post Processing Framework",
+      "subtopics": [
+        "Outlining the Post Processing Framework",
+        "Applying the Post Processing Framework in Delivery Processing"
+      ]
+    }
+  ]
+},
+        {
+  "course_name": "SAP WM",
+  "path": "sap-wm",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-wm",
+  "meta_title": "SAP WM Training in India | SAP Warehouse Management Certification",
+  "meta_description": "Master SAP Warehouse Management (WM) with expert-led training & certification. Optimize warehouse operations and inventory control. Enroll now!",
+  "description": "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP WM Training</strong> is Essential for Your Career",
+    "description": "<strong>SAP Warehouse Management (WM)</strong> is critical for supply chain and logistics professionals managing complex warehouse operations and inventory processes.",
+    "points": [
+      "<strong>High Industry Demand:</strong> SAP WM experts are essential for manufacturing, retail, and logistics companies implementing SAP solutions.",
+      "<strong>Career Growth:</strong> Roles like WM Consultant, Warehouse Analyst, and Logistics Specialist offer strong growth potential.",
+      "<strong>Practical Expertise:</strong> Real-time configuration and warehouse scenarios ensure job-ready implementation skills."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP WM Course Curriculum</strong>",
+    "intro": "Our <strong>SAP WM training</strong> covers complete warehouse management processes from structure definition to advanced integration scenarios."
+  },
+  "track_overview_primary": {
+    "heading": "Warehouse Structure & Master Data",
+    "description": "Core warehouse management foundation including:",
+    "topics": [
+      "<strong>Warehouse Structure Definition</strong>",
+      "<strong>Storage Types, Sections & Bins</strong>",
+      "<strong>Material & Storage Bin Master Data</strong>",
+      "Transfer Requirements & Posting Changes"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Warehouse Operations & Strategies",
+    "description": "Advanced warehouse processes and optimization:",
+    "topics": [
+      "<strong>Transfer Orders & Inventory Management</strong>",
+      "<strong>Putaway & Picking Strategies</strong>",
+      "<strong>Physical Inventory & Batch Management</strong>",
+      "<strong>Integration:</strong> WM with MM, QM, PP, SD modules"
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP WM Certificate</strong>",
+    "intro": "Our <strong>SAP WM training</strong> prepares you for industry-recognized certification with focus on practical warehouse implementation skills.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Configuration scenarios and certification mock tests.",
+      "<strong>Live Projects:</strong> Complete end-to-end warehouse implementation projects.",
+      "<strong>Career Support:</strong> Placement assistance for WM Consultant and Logistics roles."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP WM</strong> in India",
+    "intro": "ICLP Technologies delivers <strong>SAP WM training</strong> with industry-aligned curriculum and proven placement success in logistics domain.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and WM Experience",
+      "description": "Learn from <strong>SAP WM Consultants</strong> with extensive experience in warehouse implementations across manufacturing and retail sectors."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP WM Training</strong> Options",
+      "description": "Choose your preferred learning format:",
+      "options": [
+        "<strong>Classroom Training:</strong> Hands-on learning at our India centers",
+        "<strong>Online SAP WM Course:</strong> Live sessions with SAP system access"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP WM warehouse structure and master data configuration",
+    "Transfer requirements, posting changes and transfer orders",
+    "Putaway and picking strategies implementation",
+    "Physical inventory and cycle counting processes",
+    "Batch management and shelf life expiration control",
+    "Warehouse movement types and search strategies",
+    "Integration with MM, SD, PP and QM modules",
+    "Real-time warehouse business scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Warehouse Management",
+      "subtopics": [
+        "Warehouse management overview in SAP R/3",
+        "Organization Data and Warehouse Structure",
+        "Warehouse Master Data",
+        "WM Material master view"
+      ]
+    },
+    {
+      "module": "Define Warehouse Structure",
+      "subtopics": [
+        "Warehouse number configuration",
+        "Storage type, Storage section, Storage Bin",
+        "Picking Area and Storage unit management",
+        "Quant management"
+      ]
+    },
+    {
+      "module": "Master Data",
+      "subtopics": [
+        "Material Master for WM",
+        "Storage bin master data creation"
+      ]
+    },
+    {
+      "module": "Transfer Requirement",
+      "subtopics": [
+        "Create Transfer requirement automatically",
+        "Create Transfer requirement manually",
+        "TR for storage type and material"
+      ]
+    },
+    {
+      "module": "Posting Change Notice",
+      "subtopics": [
+        "Create Posting change notice – PCN"
+      ]
+    },
+    {
+      "module": "Transfer Order",
+      "subtopics": [
+        "Number Range for TO",
+        "Create TO w.r.t Transfer Requirement",
+        "Create TO w.r.t Posting change notice",
+        "Create TO w.r.t Storage unit, Material document",
+        "Create TO w.r.t Inbound delivery",
+        "T.O. Creation In Background",
+        "Confirm, Cancel and Print Transfer Order"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Activate Automatic T.O. Creation",
+        "Set Up Auto T.O. for TR's and PCN'S",
+        "Allow Negative Stocks in Interim Storage Types",
+        "Goods Movement restrictions for Storage Types"
+      ]
+    },
+    {
+      "module": "Putaway Strategies",
+      "subtopics": [
+        "Next to empty bin strategy",
+        "Fixed Bin strategy",
+        "Open Storage and Pallets",
+        "Addition to existing bin",
+        "Fixed bin strategy implementation"
+      ]
+    },
+    {
+      "module": "Picking Strategies",
+      "subtopics": [
+        "Shelf life expired strategy",
+        "FIFO and Stringent FIFO",
+        "LIFO picking strategy"
+      ]
+    },
+    {
+      "module": "Warehouse Business Scenarios (MM)",
+      "subtopics": [
+        "Goods Receipt with/without inbound delivery",
+        "Goods issue for internal consumption",
+        "Replenishment Control for Storage Type"
+      ]
+    },
+    {
+      "module": "Warehouse Movement Types",
+      "subtopics": [
+        "Define reference movement types for WM",
+        "Assign reference movement types to WM movement types"
+      ]
+    },
+    {
+      "module": "Search Strategies",
+      "subtopics": [
+        "Storage type search strategies",
+        "Storage section search strategies",
+        "Storage bin type search strategies"
+      ]
+    },
+    {
+      "module": "Physical Inventory",
+      "subtopics": [
+        "Create Physical inventory record",
+        "Enter count results",
+        "Clear differences in WM and IM"
+      ]
+    },
+    {
+      "module": "Batch Management in WM",
+      "subtopics": [
+        "Condition Tables, Access Sequence, Strategy Types",
+        "WM Batch Search Procedure",
+        "Batch Status, Characteristics and class",
+        "SLED in Batch, Manual/Automatic Batch Display"
+      ]
+    },
+    {
+      "module": "Integration",
+      "subtopics": [
+        "WM with QM integration",
+        "WM with PP integration",
+        "WM with SD integration"
+      ]
+    }
+  ]
+},
+        {
   "course_name": "SAP BPC",
   "path": "sap-bpc",
   "canonical_url": "https://iclptech.in/courses/sap/sap-bpc",
