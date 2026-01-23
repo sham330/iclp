@@ -28,7 +28,7 @@ const nextConfig = {
   trailingSlash: true,
   
   // ✅ Skip Node.js server generation
-  distDir: 'out'
+  distDir: 'next'
 };
 
 export default nextConfig;
