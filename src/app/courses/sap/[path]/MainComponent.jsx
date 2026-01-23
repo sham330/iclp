@@ -8,7 +8,8 @@ import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaChevronDown,
 
 // Dynamic imports for components below the fold
 const ModalBooking = dynamic(() => import("@/app/components/ModalBooking/ModalBooking"), {
-  loading: () => <div>Loading...</div>
+  ssr: false,  // Don't render on server
+  loading: () => null
 });
 const RelatedCoursesSlider = dynamic(() => import("@/app/components/RelatedCourses/RelatedCourses"));
 const CourseReviews = dynamic(() => import("@/app/components/CourseReviews/CourseReviews"));
