@@ -1,7 +1,7 @@
 // app/course/[path]/page.tsx
 import fs from "fs";
 import path from "path";
-import Head from "../../oracle/[path]/Head";
+import Head from "../../sap/[path]/Head";
 import SapCourseDetailsPage from "./MainComponent";
 
 

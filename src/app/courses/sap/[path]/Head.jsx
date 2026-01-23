@@ -15,7 +15,7 @@ export default async function Head({ course }) {
       <meta property="og:description" content={course.meta_description} />
       <meta
         property="og:url"
-        content={`https://iclptech.in/courses/oracle/${course.path}`}
+        content={`https://iclptech.in/courses/sap/${course.path}`}
       />
       <meta property="og:image" content= "/favicon.png" />
       <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ export default async function Head({ course }) {
 
       <meta name="keywords" content={`${course.course_name}, SAP ${course.course_name}, ICLP Tech, SAP training India`} />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={`https://iclptech.in/courses/oracle/${course.path}`} />
+      <link rel="canonical" href={`https://iclptech.in/courses/sap/${course.path}`} />
     </>
   );
 }
