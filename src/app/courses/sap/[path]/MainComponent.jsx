@@ -15,12 +15,19 @@ const RelatedCoursesSlider = dynamic(() => import("@/app/components/RelatedCours
 const CourseReviews = dynamic(() => import("@/app/components/CourseReviews/CourseReviews"));
 const CourseFAQs = dynamic(() => import("@/app/components/faq/faq"));
 const CourseAdvantagesTools = dynamic(() => import("@/app/components/CourseAdvantagesTools/CourseAdvantagesTools"));
-
+const SKELETON_COURSE = {
+  course_name: "Loading Course...",
+  description: "Please wait...",
+  what_youll_learn: [],
+  syllabus: [],
+  career_benefits: null,
+};
 const SapCourseDetailsPage = () => {
   const { courseName } = useParams();
   const { path } = useParams();
-  const [course, setCourse] = useState(null);
-  const [additionalContent, setAdditionalContent] = useState(null);
+const [course, setCourse] = useState(SKELETON_COURSE);  // ✅ Show skeleton immediately
+const [isFullyLoaded, setIsFullyLoaded] = useState(false); 
+ const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(false);
@@ -192,6 +199,8 @@ const SapCourseDetailsPage = () => {
 
   }), []);
 
+  
+
   useEffect(() => {
     setLoading(true);
 
@@ -209,6 +218,7 @@ const SapCourseDetailsPage = () => {
 
         if (foundCourse) {
           setCourse(foundCourse);
+          setIsFullyLoaded(true);
           setAdditionalContent(sapAdditionalContent[foundCourse.course_name] || {});
         } else {
           console.error("Course not found:", courseName);
@@ -332,8 +342,7 @@ const SapCourseDetailsPage = () => {
     doc.save(`${course.course_name}_Syllabus.pdf`);
   }, [course]);
 
-  if (loading)
-    return <div className="cdp-loading">Loading course details...</div>;
+  
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 const renderWithStrong = (html) => {
   if (!html) return null;
@@ -375,7 +384,7 @@ const renderWithStrong = (html) => {
                   ))}
                   <FaStar className="text-[#39FF14]/50 text-xl" />
                   <span className="text-[#97e7f5] ml-2">
-                    4.8 ({learnerCount.toLocaleString()} learners)
+                    4.8  (1,733+ learners)
                   </span>
                 </div>
 
@@ -404,7 +413,7 @@ const renderWithStrong = (html) => {
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
               >
-  {renderWithStrong(additionalContent.courseDescription)}
+{renderWithStrong(additionalContent?.courseDescription || "")}
               </p>
 
               <button
