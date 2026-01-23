@@ -449,6 +449,11 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+   <url>
+    <loc>https://iclptech.in/courses/sap/sap-mm/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
   <url>
     <loc>https://iclptech.in/courses/sap/sap-sales-cloud-(c4c)-training</loc>
     <changefreq>monthly</changefreq>
