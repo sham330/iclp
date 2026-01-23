@@ -56,8 +56,8 @@ export async function POST(request) {
 
     // ✅ Email contents
 const mailOptions = {
-  from: "info.iclptech@gmail.com",
-  to: "info.iclptech@gmail.com",
+  from: "enquiry.iclp@gmail.com",
+  to: "enquiry.iclp@gmail.com",
   subject: `💡 New Course Registration | ICLP Tech`,
   html: `
   <div style="
