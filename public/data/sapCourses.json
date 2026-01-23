@@ -165,6 +165,323 @@
           ]
         },
         {
+  "course_name": "SAP BPC",
+  "path": "sap-bpc",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-bpc",
+  "meta_title": "SAP BPC Course in India | BPC Training & SAP BPC Certification",
+  "meta_description": "Master SAP Business Planning and Consolidation with expert-led training & certification. Excel in financial planning, budgeting & consolidation. Enroll now!",
+  "description": "Master SAP Business Planning and Consolidation (BPC) for financial planning, budgeting, forecasting, and consolidation with hands-on, industry-aligned training.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP BPC Training</strong> is Essential for Your Career",
+    "description": "<strong>SAP BPC (Business Planning and Consolidation)</strong> is the leading solution for enterprise financial planning and consolidation. This training unlocks high-demand roles in FP&A and SAP consulting.",
+    "points": [
+      "<strong>Enterprise Demand:</strong> SAP BPC skills are critical for enterprises implementing advanced financial planning systems.",
+      "<strong>Career Acceleration:</strong> Roles like BPC Consultant, FP&A Analyst, and Planning Specialist offer excellent growth opportunities.",
+      "<strong>Practical Mastery:</strong> Hands-on training with live SAP BPC systems ensures real-world implementation readiness."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP BPC Course Curriculum</strong>",
+    "intro": "Our <strong>SAP BPC course</strong> covers both functional planning processes and technical implementation, ensuring complete expertise in business consolidation."
+  },
+  "track_overview_primary": {
+    "heading": "Planning & Budgeting (<strong>BPC Planning</strong>) Modules",
+    "description": "Core planning functionalities including:",
+    "topics": [
+      "<strong>Planning Models & Dimensions</strong>",
+      "<strong>Budgeting, Forecasting & Input Forms</strong>",
+      "<strong>Data Manager & Process Flows</strong>",
+      "Planning Functions, Allocations & Logic Scripts"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Consolidation & Integration Modules",
+    "description": "Advanced consolidation and system integration:",
+    "topics": [
+      "<strong>Financial Consolidation Processes</strong>",
+      "<strong>Business Rules & Currency Translation</strong>",
+      "<strong>Integration:</strong> SAP BW, ECC, S/4HANA integration",
+      "<strong>Reporting & EPM Add-in</strong> functionality"
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP BPC Certificate</strong>",
+    "intro": "Our <strong>SAP BPC training</strong> prepares you for industry-recognized certification while building enterprise-level implementation skills.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules with mock exams and certification practice.",
+      "<strong>Live Projects:</strong> Real-time BPC implementation scenarios and case studies.",
+      "<strong>Career Support:</strong> Placement assistance for BPC Consultant and FP&A roles."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP BPC</strong> in India",
+    "intro": "ICLP Technologies delivers <strong>SAP BPC training</strong> focused on enterprise planning, consolidation expertise, and proven career outcomes.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and BPC Experience",
+      "description": "Learn from <strong>certified SAP BPC Consultants</strong> with extensive experience in enterprise planning implementations and financial consolidation projects."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP BPC Training</strong> Options",
+      "description": "Multiple learning formats available:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive learning at our India training centers",
+        "<strong>Online BPC Course:</strong> Live sessions with SAP BPC system access from anywhere"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP BPC architecture and environment setup",
+    "Planning models, dimensions and master data",
+    "Budgeting, forecasting and planning processes",
+    "Financial consolidation and business rules",
+    "Data Manager packages and process flows",
+    "EPM reporting and input forms creation",
+    "Logic scripts and advanced planning functions",
+    "Integration with SAP BW/ERP/S/4HANA",
+    "Real-time SAP BPC project implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP BPC",
+      "subtopics": [
+        "SAP BPC Overview and Architecture",
+        "BPC vs Other EPM Solutions",
+        "Environment and Model Creation",
+        "BPC Versions (10.0/10.1/11.0)",
+        "Integration with SAP NetWeaver/BW"
+      ]
+    },
+    {
+      "module": "BPC Administration Basics",
+      "subtopics": [
+        "Dimension Management",
+        "Model Configuration",
+        "Master Data Maintenance",
+        "Security and Work Status",
+        "Environment Shell Setup"
+      ]
+    },
+    {
+      "module": "Planning Functions",
+      "subtopics": [
+        "Input Forms and Reports (EPM Add-in)",
+        "Data Manager Packages",
+        "Planning Sequences",
+        "Copy, Allocate, Reclassification",
+        "Forecasting Models"
+      ]
+    },
+    {
+      "module": "Advanced Planning",
+      "subtopics": [
+        "Logic Scripts (MDX/FOX)",
+        "Business Process Flows (BPF)",
+        "Driver-Based Planning",
+        "Rolling Forecasts",
+        "What-If Analysis"
+      ]
+    },
+    {
+      "module": "Financial Consolidation",
+      "subtopics": [
+        "Consolidation Models Setup",
+        "Ownership Management",
+        "Intercompany Eliminations",
+        "Currency Translation",
+        "Balance Carry Forward"
+      ]
+    },
+    {
+      "module": "Business Rules & Controls",
+      "subtopics": [
+        "Consolidation Business Rules",
+        "Validation Rules",
+        "Controls and Matching",
+        "Audit Trail Configuration",
+        "Journal Entry Processing"
+      ]
+    },
+    {
+      "module": "Reporting & Analysis",
+      "subtopics": [
+        "EPM Add-in Functions",
+        "Dynamic Reports and Dashboards",
+        "Excel-based Planning Templates",
+        "Web Reporting",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "module": "Integration & Data Management",
+      "subtopics": [
+        "SAP BW/ERP Integration",
+        "Data Acquisition from ECC/S/4HANA",
+        "Flat File Imports",
+        "Real-time Data Synchronization",
+        "End-to-End Implementation Scenarios"
+      ]
+    }
+  ]
+},
+        {
+  "course_name": "SAP Banking",
+  "path": "sap-banking",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-banking",
+  "meta_title": "SAP Banking Training in India | SAP Banking Certification Course",
+  "meta_description": "Master SAP IS-Banking modules with expert-led training & certification. Gain practical skills for banking IT roles. Enroll now!",
+  "description": "Master SAP IS-Banking modules with hands-on training designed for banking professionals, covering core banking operations, regulatory compliance, and customer services.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP Banking Training</strong> is Essential for Your Career",
+    "description": "<strong>SAP Banking (IS-Banking)</strong> powers modern banking operations for leading financial institutions. This training prepares you for high-demand roles in banking IT and SAP consulting.",
+    "points": [
+      "<strong>High Industry Demand:</strong> SAP Banking experts are sought after by public and private sector banks across India.",
+      "<strong>Career Acceleration:</strong> Roles like SAP Banking Consultant, Banking IT Analyst, and Core Banking Specialist offer excellent growth potential.",
+      "<strong>Practical Expertise:</strong> Hands-on training with live SAP systems and real banking scenarios ensures job readiness."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP Banking Course Curriculum</strong>",
+    "intro": "Our <strong>SAP Banking training</strong> covers end-to-end banking processes within SAP IS-Banking, from customer management to regulatory compliance."
+  },
+  "track_overview_primary": {
+    "heading": "Core Banking (<strong>IS-Banking</strong>) Modules Covered",
+    "description": "We cover essential banking functions including:",
+    "topics": [
+      "<strong>Customer Information System (CIS)</strong>",
+      "<strong>Account Management</strong> and Transaction Processing",
+      "<strong>Loans and Deposits Management</strong>",
+      "Payment Processing, Clearing, and Regulatory Reporting"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Banking & Integration Modules",
+    "description": "Advanced features and seamless integration:",
+    "topics": [
+      "<strong>Banking Organizational Structure</strong>",
+      "<strong>Regulatory Compliance & Reporting</strong>",
+      "<strong>Integration with SAP FI, CO</strong> and other modules",
+      "<strong>Real-time Banking Projects</strong> and live system access"
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP Banking Certificate</strong>",
+    "intro": "Our <strong>SAP Banking certification training</strong> aligns with industry standards, preparing you for globally recognized SAP banking credentials and banking IT roles.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Mock exams and certification-focused modules.",
+      "<strong>Live Project Experience:</strong> Work on real SAP banking implementations.",
+      "<strong>Career Support:</strong> Placement assistance and interview preparation for banking IT roles."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP Banking</strong> in India",
+    "intro": "ICLP Technologies delivers industry-aligned <strong>SAP Banking training</strong> with proven career outcomes for banking IT professionals.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Banking Experience",
+      "description": "Learn from <strong>SAP Banking Consultants</strong> with real-time experience in bank implementations, regulatory compliance, and core banking transformations."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP Banking Training</strong> Options",
+      "description": "Choose your preferred learning mode:",
+      "options": [
+        "<strong>Classroom Training:</strong> Hands-on learning at our India training center",
+        "<strong>Online SAP Banking Course:</strong> Live sessions with cloud-based SAP access from anywhere"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP IS-Banking configuration and implementation",
+    "Customer Information System (CIS) and account management",
+    "Loans, deposits, and transaction processing",
+    "Payment processing and clearing operations",
+    "Banking organizational structure setup",
+    "Regulatory compliance and reporting",
+    "Integration with SAP FI/CO modules",
+    "Real-time SAP banking project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP IS-Banking",
+      "subtopics": [
+        "Overview of SAP Banking Solutions",
+        "SAP IS-Banking Architecture",
+        "Banking Organizational Structure",
+        "Company Code and Business Area Setup",
+        "Banking Master Data Management"
+      ]
+    },
+    {
+      "module": "Customer Information System (CIS)",
+      "subtopics": [
+        "Customer Master Data Creation",
+        "Relationship Management",
+        "Customer Account Opening",
+        "KYC Compliance Integration",
+        "Customer Hierarchy and Groups"
+      ]
+    },
+    {
+      "module": "Account Management",
+      "subtopics": [
+        "Account Opening and Maintenance",
+        "Account Product Configuration",
+        "Transaction Posting and Processing",
+        "Interest Calculation",
+        "Account Statements and Reporting"
+      ]
+    },
+    {
+      "module": "Loans Management",
+      "subtopics": [
+        "Loan Product Configuration",
+        "Loan Origination Process",
+        "Disbursement and Repayment",
+        "Interest and Fee Calculation",
+        "Loan Monitoring and Reporting"
+      ]
+    },
+    {
+      "module": "Deposits Management",
+      "subtopics": [
+        "Deposit Product Setup",
+        "Term Deposits and Recurring Deposits",
+        "Premature Withdrawal Processing",
+        "Interest Payout Configuration",
+        "Deposit Lifecycle Management"
+      ]
+    },
+    {
+      "module": "Payment Processing & Clearing",
+      "subtopics": [
+        "Payment Orders and Standing Instructions",
+        "Clearing House Integration",
+        "Interbank Transfers",
+        "Payment Engine Configuration",
+        "Exception Handling"
+      ]
+    },
+    {
+      "module": "Regulatory Compliance & Reporting",
+      "subtopics": [
+        "RBI Compliance Requirements",
+        "Statutory Reporting",
+        "Audit Trail Configuration",
+        "Regulatory Ratio Calculations",
+        "MIS Reporting for Bank Management"
+      ]
+    },
+    {
+      "module": "Integration with SAP Modules",
+      "subtopics": [
+        "FI Integration for General Ledger",
+        "CO Integration for Cost Accounting",
+        "Integration with Treasury Management",
+        "Real-time Data Synchronization",
+        "End-to-End Banking Process Flows"
+      ]
+    }
+  ]
+},
+        {
   "course_name": "SAP SuccessFactors Online Training",
   "path": "sap-successfactors-online-training",
    "meta_title": "SAP Successfactors Course Online | SAP SF Training | SAP SF Certificate",
