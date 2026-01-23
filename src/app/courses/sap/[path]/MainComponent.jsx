@@ -22,12 +22,14 @@ const SKELETON_COURSE = {
   syllabus: [],
   career_benefits: null,
 };
+
+
 const SapCourseDetailsPage = () => {
   const { courseName } = useParams();
   const { path } = useParams();
-const [course, setCourse] = useState(SKELETON_COURSE);  // ✅ Show skeleton immediately
-const [isFullyLoaded, setIsFullyLoaded] = useState(false); 
- const [additionalContent, setAdditionalContent] = useState(null);
+  const [course, setCourse] = useState(SKELETON_COURSE);  // ✅ Show skeleton immediately
+  const [isFullyLoaded, setIsFullyLoaded] = useState(false);
+  const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(false);
@@ -51,26 +53,15 @@ const [isFullyLoaded, setIsFullyLoaded] = useState(false);
     "/companies/zoho.png",
   ], []);
 
-  // Random profile pictures from Unsplash - memoized
-  const profilePictures = useMemo(() => [
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
-    "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200&q=80",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
-    "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
-    "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80",
-    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&q=80",
-    "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80",
-  ], []);
+  
 
   // Generate random data once - memoized
-  const learnerCount = useMemo(() => Math.floor(Math.random() * 4000) + 1000, []);
-  const profilePics = useMemo(() => {
-    const shuffled = [...profilePictures].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
-  }, [profilePictures]);
+  const learnerCount = 1733;
+const profilePics = [
+  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+  "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80"
+];
 
   // SAP-specific additional content - moved outside useEffect
   const sapAdditionalContent = useMemo(() => ({
@@ -190,16 +181,16 @@ const [isFullyLoaded, setIsFullyLoaded] = useState(false);
     "sap-aerospace-and-defense": {
       courseDescription: "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
     },
-    "sap-ewm":{
-      courseDescription:"Master SAP Extended Warehouse Management (EWM) for advanced warehouse automation, process optimization, and seamless integration with SAP ERP systems."
+    "sap-ewm": {
+      courseDescription: "Master SAP Extended Warehouse Management (EWM) for advanced warehouse automation, process optimization, and seamless integration with SAP ERP systems."
     },
-    "sap-wm":{
-      courseDescription:"Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training."
+    "sap-wm": {
+      courseDescription: "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training."
     }
 
   }), []);
 
-  
+
 
   useEffect(() => {
     setLoading(true);
@@ -342,23 +333,23 @@ const [isFullyLoaded, setIsFullyLoaded] = useState(false);
     doc.save(`${course.course_name}_Syllabus.pdf`);
   }, [course]);
 
-  
+
   if (!course) return <div className="cdp-not-found">Course not found</div>;
-const renderWithStrong = (html) => {
-  if (!html) return null;
-  
-  return html.split(/<\/?strong>/gi).map((part, index) => {
-    // Odd indices = strong content, even = regular text
-    if (index % 2 === 1) {
-      return (
-        <strong key={`strong-${index}`} className="text-white font-semibold">
-          {part}
-        </strong>
-      );
-    }
-    return part;
-  });
-};
+  const renderWithStrong = (html) => {
+    if (!html) return null;
+
+    return html.split(/<\/?strong>/gi).map((part, index) => {
+      // Odd indices = strong content, even = regular text
+      if (index % 2 === 1) {
+        return (
+          <strong key={`strong-${index}`} className="text-white font-semibold">
+            {part}
+          </strong>
+        );
+      }
+      return part;
+    });
+  };
 
 
   return (
@@ -392,17 +383,17 @@ const renderWithStrong = (html) => {
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
-                      <Image
+                      <img
                         key={index}
                         src={pic}
                         alt={`Learner ${index + 1}`}
-                        width={48}           // ✅ REQUIRED: Add width
-                        height={48}          // ✅ REQUIRED: Add height  
+                        width="48"
+                        height="48"
+                        loading="eager"  // ✅ Critical image
+                        decoding="async"
                         className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
-                        unoptimized          // ✅ REQUIRED: Netlify fix
-                        loading="eager"
+                        style={{ aspectRatio: '1/1' }}
                       />
-
                     ))}
                   </div>
                   <span className="text-[#97e7f5] font-semibold">
@@ -413,7 +404,7 @@ const renderWithStrong = (html) => {
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
               >
-{renderWithStrong(additionalContent?.courseDescription || "")}
+                {renderWithStrong(additionalContent?.courseDescription || "")}
               </p>
 
               <button
