@@ -1,9 +1,7 @@
 "use client";
 import React, { useState, useEffect, useMemo, useCallback } from "react";
-import { useParams } from "next/navigation";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import "./CourseDetailsPage.css";
 import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaChevronDown, FaChevronRight, FaClock, FaDownload, FaGraduationCap, FaPhone, FaShieldAlt, FaStar, FaTrophy, FaUserTie } from "react-icons/fa";
 
 // Dynamic imports for components below the fold
@@ -13,24 +11,14 @@ const ModalBooking = dynamic(() => import("@/app/components/ModalBooking/ModalBo
 });
 const RelatedCoursesSlider = dynamic(() => import("@/app/components/RelatedCourses/RelatedCourses"));
 const CourseReviews = dynamic(() => import("@/app/components/CourseReviews/CourseReviews"));
-const CourseFAQs = dynamic(() => import("@/app/components/faq/faq"));
 const CourseAdvantagesTools = dynamic(() => import("@/app/components/CourseAdvantagesTools/CourseAdvantagesTools"));
-const SKELETON_COURSE = {
-  course_name: "Loading Course...",
-  description: "Please wait...",
-  what_youll_learn: [],
-  syllabus: [],
-  career_benefits: null,
-};
 
 
-const SapCourseDetailsPage = ({getcourse, path}) => {
-  const [course, setCourse] = useState(getcourse); 
+const SapCourseDetailsPage = ({ getcourse, path }) => {
+  const [course, setCourse] = useState(getcourse);
   console.log(getcourse); // ✅ Show skeleton immediately
-  const [isFullyLoaded, setIsFullyLoaded] = useState(false);
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
-  const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(false);
 
   // Hiring partners data - memoized
@@ -52,15 +40,15 @@ const SapCourseDetailsPage = ({getcourse, path}) => {
     "/companies/zoho.png",
   ], []);
 
-  
+
 
   // Generate random data once - memoized
   const learnerCount = 1733;
-const profilePics = [
-  "/rev-1.jfif",
-  "/rev-2.jfif",
-  "/rev-3.jfif"
-];
+  const profilePics = [
+    "/rev-1.jfif",
+    "/rev-2.jfif",
+    "/rev-3.jfif"
+  ];
 
   // SAP-specific additional content - moved outside useEffect
   const sapAdditionalContent = useMemo(() => ({
@@ -188,15 +176,15 @@ const profilePics = [
     }
 
   }), []);
-useEffect(() => {
-  if (course && path) {
-    // Link course data with description using path
-    const matchedContent = sapAdditionalContent[path];
-    setAdditionalContent(matchedContent);
-    
-    console.log('Linked content:', { course: course.course_name, description: matchedContent?.courseDescription });
-  }
-}, [course, path, sapAdditionalContent]);
+  useEffect(() => {
+    if (course && path) {
+      // Link course data with description using path
+      const matchedContent = sapAdditionalContent[path];
+      setAdditionalContent(matchedContent);
+
+      console.log('Linked content:', { course: course.course_name, description: matchedContent?.courseDescription });
+    }
+  }, [course, path, sapAdditionalContent]);
 
 
 
@@ -363,8 +351,9 @@ useEffect(() => {
                         alt={`Learner ${index + 1}`}
                         width="48"
                         height="48"
-                        loading="eager"  // ✅ Critical image
+                        loading={index === 0 ? "eager" : "lazy"}  // Only first eager
                         decoding="async"
+                        fetchpriority={index === 0 ? "high" : "low"}
                         className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
                         style={{ aspectRatio: '1/1' }}
                       />
@@ -737,9 +726,9 @@ useEffect(() => {
                   height={64}      // ✅ Proportional height (4:1 ratio for logos)
                   className="h-16 mx-auto mb-4"  // ✅ Your exact styling preserved
                   unoptimized      // ✅ REQUIRED for Netlify
-                  priority   
-                    quality={85}
-      // ✅ Logo = above-the-fold (critical)
+                  priority
+                  quality={85}
+                // ✅ Logo = above-the-fold (critical)
                 />
                 <button
                   onClick={downloadSyllabusPDF}
