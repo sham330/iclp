@@ -181,7 +181,14 @@ const SapCourseDetailsPage = () => {
     },
     "sap-aerospace-and-defense": {
       courseDescription: "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
+    },
+    "sap-ewm":{
+      courseDescription:"Master SAP Extended Warehouse Management (EWM) for advanced warehouse automation, process optimization, and seamless integration with SAP ERP systems."
+    },
+    "sap-wm":{
+      courseDescription:"Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training."
     }
+
   }), []);
 
   useEffect(() => {
@@ -328,17 +335,21 @@ const SapCourseDetailsPage = () => {
     return <div className="cdp-loading">Loading course details...</div>;
   if (!course) return <div className="cdp-not-found">Course not found</div>;
 const renderWithStrong = (html) => {
-  return html.split(/(<strong>.*?<\/strong>)/g).map((part, index) => {
-    if (part.startsWith('<strong>') && part.endsWith('</strong>')) {
+  if (!html) return null;
+  
+  return html.split(/<\/?strong>/gi).map((part, index) => {
+    // Odd indices = strong content, even = regular text
+    if (index % 2 === 1) {
       return (
-        <strong key={index} className="text-white font-semibold">
-          {part.replace(/<\/?strong>/g, '')}
+        <strong key={`strong-${index}`} className="text-white font-semibold">
+          {part}
         </strong>
       );
     }
     return part;
   });
 };
+
 
   return (
     <div className="min-h-screen bg-white">
