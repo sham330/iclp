@@ -24,10 +24,9 @@ const SKELETON_COURSE = {
 };
 
 
-const SapCourseDetailsPage = () => {
-  const { courseName } = useParams();
-  const { path } = useParams();
-  const [course, setCourse] = useState(SKELETON_COURSE);  // ✅ Show skeleton immediately
+const SapCourseDetailsPage = ({getcourse, path}) => {
+  const [course, setCourse] = useState(getcourse); 
+  console.log(getcourse); // ✅ Show skeleton immediately
   const [isFullyLoaded, setIsFullyLoaded] = useState(false);
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
@@ -189,42 +188,17 @@ const profilePics = [
     }
 
   }), []);
+useEffect(() => {
+  if (course && path) {
+    // Link course data with description using path
+    const matchedContent = sapAdditionalContent[path];
+    setAdditionalContent(matchedContent);
+    
+    console.log('Linked content:', { course: course.course_name, description: matchedContent?.courseDescription });
+  }
+}, [course, path, sapAdditionalContent]);
 
 
-
-  useEffect(() => {
-    setLoading(true);
-
-    fetch("/data/sapCourses.json")
-      .then((res) => res.json())
-      .then((coursesData) => {
-        let foundCourse = null;
-        coursesData.categories.forEach((category) => {
-          category.sub_categories.forEach((sub) => {
-            if (sub.path === path) {
-              foundCourse = sub;
-            }
-          });
-        });
-
-        if (foundCourse) {
-          setCourse(foundCourse);
-          setIsFullyLoaded(true);
-          setAdditionalContent(sapAdditionalContent[foundCourse.course_name] || {});
-        } else {
-          console.error("Course not found:", courseName);
-        }
-
-        setAdditionalContent(sapAdditionalContent[path] || {});
-      })
-      .catch((error) => console.error("Error fetching data:", error))
-      .finally(() => setLoading(false));
-  }, [path, courseName, sapAdditionalContent]);
-
-  // Memoized toggle function
-  const toggleModule = useCallback((index) => {
-    setOpenModule(prev => prev === index ? null : index);
-  }, []);
 
   // Dynamic import for PDF libraries - only load when needed
   const downloadSyllabusPDF = useCallback(async () => {

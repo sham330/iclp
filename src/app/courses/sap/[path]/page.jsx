@@ -43,7 +43,7 @@ export default async function CourseDetailsPage({ params }) {
   return (
     <>
       <Head course={foundCourse} />
-      <SapCourseDetailsPage course={foundCourse} />
+      <SapCourseDetailsPage getcourse={foundCourse} path={foundCourse.path} />
     </>
   );
 }
