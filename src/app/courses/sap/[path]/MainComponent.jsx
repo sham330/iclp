@@ -7,7 +7,7 @@ import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaChevronDown,
 // Dynamic imports for components below the fold
 const ModalBooking = dynamic(() => import("@/app/components/ModalBooking/ModalBooking"), {
   ssr: false,  // Don't render on server
-  loading: () => null
+loading: () => <div className="h-screen" />
 });
 const RelatedCoursesSlider = dynamic(() => import("@/app/components/RelatedCourses/RelatedCourses"));
 const CourseReviews = dynamic(() => import("@/app/components/CourseReviews/CourseReviews"));
@@ -190,6 +190,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
 
   // Dynamic import for PDF libraries - only load when needed
   const downloadSyllabusPDF = useCallback(async () => {
+    
     if (!course) return;
     setShowBookingModal(true)
     const { default: jsPDF } = await import("jspdf");
@@ -425,8 +426,9 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
           <div className="w-full px-4 sm:px-6 lg:px-8">
             <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
-              dangerouslySetInnerHTML={{ __html: course.career_benefits.heading }}
-            />
+            >
+            {renderWithStrong(course.career_benefits.heading)}
+            </h2>
             <p
               className="text-lg text-slate-700 mb-6 leading-relaxed"
               dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
@@ -645,6 +647,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                       className="max-h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all"
                       unoptimized  // ✅ REQUIRED for Netlify
                       loading="lazy"
+                        loader={({ src, width }) => `${src}?w=${width}`}
                     />
                   </div>
                 ))}
