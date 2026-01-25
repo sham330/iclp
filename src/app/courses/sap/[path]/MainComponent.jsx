@@ -354,18 +354,19 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
-                      <img
-                        key={index}
-                        src={pic}
-                        alt={`Learner ${index + 1}`}
-                        width="48"
-                        height="48"
-                        loading={index === 0 ? "eager" : "lazy"}  // Only first eager
-                        decoding="async"
-                        fetchpriority={index === 0 ? "high" : "low"}
-                        className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
-                        style={{ aspectRatio: '1/1' }}
-                      />
+                     <Image
+  key={index}
+  src={pic}
+  alt={`Learner ${index + 1}`}
+  width={48}
+  height={48}
+  loading={index === 0 ? "eager" : "lazy"}
+  decoding="async"
+  quality={60}
+  priority={index === 0}
+  className="w-12 h-12 rounded-full border-4 border-[#01377d] object-cover"
+  style={{ aspectRatio: '1/1' }}
+/>
                     ))}
                   </div>
                   <span className="text-[#97e7f5] font-semibold">
