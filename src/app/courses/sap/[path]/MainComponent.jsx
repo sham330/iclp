@@ -648,6 +648,8 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                       unoptimized  // ✅ REQUIRED for Netlify
                       loading="lazy"
                         loader={({ src, width }) => `${src}?w=${width}`}
+                          sizes="(max-width: 768px) 60px, 100px"  // ADD THIS
+    quality={75}  // ADD THIS (default is 75, but make it explicit)
                     />
                   </div>
                 ))}
@@ -787,8 +789,9 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                 width={448}              // ✅ max-w-md = ~448px on desktop
                 height={252}             // ✅ 16:9 aspect ratio for certification badges
                 className="w-full max-w-md rounded-xl shadow-2xl"
-                unoptimized             // ✅ REQUIRED for Netlify
-                priority                // ✅ Above-the-fold hero image
+  loading="lazy"  // ADD THIS instead
+                  quality={80}
+          // ✅ Above-the-fold hero image
               />
             </div>
           </div>
@@ -816,7 +819,6 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                   width={120}          // ✅ Reasonable width for partner logos
                   height={64}          // ✅ Proportional height (matches max-h-16)
                   className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all"
-                  unoptimized          // ✅ REQUIRED for Netlify
                   loading="lazy"
                 />
               </div>
