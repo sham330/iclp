@@ -59,7 +59,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
   ];
 
   // SAP-specific additional content - moved outside useEffect
-  const sapAdditionalContent = {
+  const SAP_ADDITIONAL_CONTENT = {
     "sap-fico": {
       courseDescription:
         "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
@@ -185,16 +185,16 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
 
 };
   useEffect(() => {
-    if (course && path) {
-      // Link course data with description using path
-      const matchedContent = sapAdditionalContent[path];
-      setAdditionalContent(matchedContent);
+  if (course && path) {
+    const matchedContent = SAP_ADDITIONAL_CONTENT[path];
+    setAdditionalContent(matchedContent);
 
-      console.log('Linked content:', { course: course.course_name, description: matchedContent?.courseDescription });
-    }
-  }, [course, path, sapAdditionalContent]);
-
-
+    console.log('Linked content:', { 
+      course: course.course_name, 
+      description: matchedContent?.courseDescription 
+    });
+  }
+}, [course, path]);
 
   // Dynamic import for PDF libraries - only load when needed
   const downloadSyllabusPDF = useCallback(async () => {
