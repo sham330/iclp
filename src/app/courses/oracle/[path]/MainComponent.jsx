@@ -653,3 +653,4 @@ const OracleCourseDetailsPage = () => {
 };
 
 export default OracleCourseDetailsPage;
+s
