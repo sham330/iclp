@@ -14,19 +14,14 @@ import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
 import WhyInventateq from "./components/HomeSections/WhyUs";
 import ServiceAreas from "./components/Services";
-
-// ✅ This replaces your SEO component
-export const metadata = {
-  title: "Online Software Courses | Online Courses Certificate | Online Courses Training - ICLP",
-  description:
-    "Explore online software courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!",
-  keywords: ["online courses", "programming", "design", "marketing"],
-};
+import Head from "./Head"
 
 export default function Home() {
   return (
     <div className="home-container">
+      <Head/>
       <main className="home-content">
+        
         <HomeAboutDialog/>
         <BodyHead />
         <br/>

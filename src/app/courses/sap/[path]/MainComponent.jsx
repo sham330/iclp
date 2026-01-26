@@ -181,6 +181,21 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
     },
     "sap-wm": {
       courseDescription: "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training."
+    },
+    "sap-fico-chennai":{
+       courseDescription:
+        "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
+
+    },
+    "sap-fico-bangalore":{
+       courseDescription:
+        "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
+
+    },
+    "sap-fico-hyderabad":{
+       courseDescription:
+        "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
+
     }
 
 };

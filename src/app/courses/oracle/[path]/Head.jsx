@@ -25,7 +25,7 @@ export default async function Head({ course }) {
       <meta name="twitter:description" content={course.meta_description} />
       <meta name="twitter:image" content= "/favicon.png" />
 
-      <meta name="keywords" content={`${course.course_name}, SAP ${course.course_name}, ICLP Tech, SAP training India`} />
+      <meta name="keywords" content={`${course.course_name}, ${course.course_name}, ICLP Tech, Oracle training India`} />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={`https://iclptech.in/courses/oracle/${course.path}`} />
     </>

@@ -136,6 +136,13 @@ const SmallBar = () => {
                                     sectionIndex,
                                     section
                                   })}
+                          onMouseEnter={() => setSelectedSection({
+                                    categoryIndex,
+                                    sectionIndex,
+                                    section
+                                  })}
+
+                                  
                                   className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all ${
                                     selectedSection.categoryIndex === categoryIndex && 
                                     selectedSection.sectionIndex === sectionIndex
@@ -210,6 +217,8 @@ const SmallBar = () => {
                             <button
                               key={index}
                               onClick={() => setSelectedStream(stream)}
+                                onMouseEnter={() => setSelectedStream(stream)}
+
                               className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all ${
                                 selectedStream.streamName === stream.streamName
                                   ? 'bg-[#014a9f] text-white shadow-md'

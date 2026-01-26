@@ -531,6 +531,489 @@
       ]
     }
   ]
+},{
+  "course_name": "SAP FICO Hyderabad",
+  "path": "sap-fico-hyderabad",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-hyderabad",
+  "meta_title": "SAP FICO Course Hyderabad | SAP FICO Training Hyderabad | SAP FICO Certificate",
+  "meta_description": "Master SAP FICO with our expert-led course in Hyderabad & certification. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts in Hyderabad.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP FICO Training Hyderabad</strong> is Essential for Your Career",
+    "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+      "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP FICO Course Curriculum Hyderabad</strong>",
+    "intro": "Our <strong>SAP FICO course Hyderabad</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "<strong>General Ledger (GL) Accounting</strong>",
+      "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+      "<strong>Asset Accounting</strong>",
+      "Taxes, Financial Statements, and Closing Procedures"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "<strong>Cost Element and Cost Center Accounting</strong>",
+      "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+      "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP FICO Certificate Hyderabad</strong>",
+    "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training Hyderabad</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO Hyderabad</strong>",
+    "intro": "We are recognized as the premier <strong>SAP FICO training Hyderabad</strong> provider, dedicated to turning students into industry-ready professionals right here in Hyderabad.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP FICO Training Hyderabad</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in Hyderabad",
+        "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP FICO configuration and implementation",
+    "General Ledger, Accounts Payable & Receivable",
+    "Asset Accounting and Bank Accounting",
+    "Cost Element and Cost Center Accounting",
+    "Profit Center Accounting and Internal Orders",
+    "Product Costing and Profitability Analysis",
+    "Integration with other SAP modules",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP FICO",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP FICO Architecture",
+        "Organizational Structure in SAP",
+        "Client, Company Code, Chart of Accounts",
+        "Fiscal Year Variant, Posting Periods"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting",
+      "subtopics": [
+        "Chart of Accounts Design",
+        "GL Account Master Data",
+        "Document Types and Number Ranges",
+        "Posting Transactions",
+        "Parked and Held Documents",
+        "Account Balances and Reports"
+      ]
+    },
+    {
+      "module": "Accounts Payable",
+      "subtopics": [
+        "Vendor Master Data",
+        "Invoice Processing",
+        "Payment Program Configuration",
+        "Automatic Payment Methods",
+        "Down Payments and Special GL Transactions",
+        "Account Analysis and Reconciliation"
+      ]
+    },
+    {
+      "module": "Accounts Receivable",
+      "subtopics": [
+        "Customer Master Data",
+        "Invoice and Credit Memo Processing",
+        "Payment Processing",
+        "Dunning Configuration",
+        "Lockbox Processing",
+        "Credit Management"
+      ]
+    },
+    {
+      "module": "Asset Accounting",
+      "subtopics": [
+        "Asset Master Data",
+        "Acquisition and Retirement",
+        "Depreciation Calculation",
+        "Asset Transfers",
+        "Asset Reports",
+        "Integration with Fixed Assets"
+      ]
+    },
+    {
+      "module": "SAP Controlling (CO) – Cost Controlling",
+      "subtopics": [
+        "Introduction to SAP CO",
+        "Integration with FI",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting",
+        "Product Costing",
+        "Profitability Analysis (CO-PA)",
+        "Real-time cost controlling scenarios & reporting"
+      ]
+    },
+    {
+      "module": "Activity-Based Costing(ABC)",
+      "subtopics": [
+        "Overhead allocation based on business activities",
+        "Accurate cost tracking for products and services",
+        "Used for strategic cost management and decision-making"
+      ]
+    },
+    {
+      "module": "Actual Costing & Material Ledger",
+      "subtopics": [
+        "Comparison of Standard Cost vs Actual Cost ",
+        "Cost variances and inventory revaluation",
+        "Integration with FI for real-time financial impact analysis"
+      ]
+    }
+  ]
+},{
+  "course_name": "SAP FICO Bangalore",
+  "path": "sap-fico-bangalore",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-bangalore",
+  "meta_title": "SAP FICO Course Bangalore | SAP FICO Training Bangalore | SAP FICO Certificate",
+  "meta_description": "Master SAP FICO with our expert-led course in Bangalore & certification. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts in Bangalore.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP FICO Training Bangalore</strong> is Essential for Your Career",
+    "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+      "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP FICO Course Curriculum Bangalore</strong>",
+    "intro": "Our <strong>SAP FICO course Bangalore</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "<strong>General Ledger (GL) Accounting</strong>",
+      "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+      "<strong>Asset Accounting</strong>",
+      "Taxes, Financial Statements, and Closing Procedures"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "<strong>Cost Element and Cost Center Accounting</strong>",
+      "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+      "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP FICO Certificate Bangalore</strong>",
+    "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training Bangalore</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO Bangalore</strong>",
+    "intro": "We are recognized as the premier <strong>SAP FICO training Bangalore</strong> provider, dedicated to turning students into industry-ready professionals right here in Bangalore.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP FICO Training Bangalore</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in Bangalore",
+        "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP FICO configuration and implementation",
+    "General Ledger, Accounts Payable & Receivable",
+    "Asset Accounting and Bank Accounting",
+    "Cost Element and Cost Center Accounting",
+    "Profit Center Accounting and Internal Orders",
+    "Product Costing and Profitability Analysis",
+    "Integration with other SAP modules",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP FICO",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP FICO Architecture",
+        "Organizational Structure in SAP",
+        "Client, Company Code, Chart of Accounts",
+        "Fiscal Year Variant, Posting Periods"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting",
+      "subtopics": [
+        "Chart of Accounts Design",
+        "GL Account Master Data",
+        "Document Types and Number Ranges",
+        "Posting Transactions",
+        "Parked and Held Documents",
+        "Account Balances and Reports"
+      ]
+    },
+    {
+      "module": "Accounts Payable",
+      "subtopics": [
+        "Vendor Master Data",
+        "Invoice Processing",
+        "Payment Program Configuration",
+        "Automatic Payment Methods",
+        "Down Payments and Special GL Transactions",
+        "Account Analysis and Reconciliation"
+      ]
+    },
+    {
+      "module": "Accounts Receivable",
+      "subtopics": [
+        "Customer Master Data",
+        "Invoice and Credit Memo Processing",
+        "Payment Processing",
+        "Dunning Configuration",
+        "Lockbox Processing",
+        "Credit Management"
+      ]
+    },
+    {
+      "module": "Asset Accounting",
+      "subtopics": [
+        "Asset Master Data",
+        "Acquisition and Retirement",
+        "Depreciation Calculation",
+        "Asset Transfers",
+        "Asset Reports",
+        "Integration with Fixed Assets"
+      ]
+    },
+    {
+      "module": "SAP Controlling (CO) – Cost Controlling",
+      "subtopics": [
+        "Introduction to SAP CO",
+        "Integration with FI",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting",
+        "Product Costing",
+        "Profitability Analysis (CO-PA)",
+        "Real-time cost controlling scenarios & reporting"
+      ]
+    },
+    {
+      "module": "Activity-Based Costing(ABC)",
+      "subtopics": [
+        "Overhead allocation based on business activities",
+        "Accurate cost tracking for products and services",
+        "Used for strategic cost management and decision-making"
+      ]
+    },
+    {
+      "module": "Actual Costing & Material Ledger",
+      "subtopics": [
+        "Comparison of Standard Cost vs Actual Cost ",
+        "Cost variances and inventory revaluation",
+        "Integration with FI for real-time financial impact analysis"
+      ]
+    }
+  ]
+},{
+  "course_name": "SAP FICO Chennai",
+  "path": "sap-fico-chennai",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-chennai",
+  "meta_title": "SAP FICO Course Chennai | SAP FICO Training Chennai | SAP FICO Certificate",
+  "meta_description": "Master SAP FICO with our expert-led course in Chennai & certification. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts in Chennai.",
+  "career_benefits": {
+    "heading": "Why <strong>SAP FICO Training Chennai</strong> is Essential for Your Career",
+    "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+      "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP FICO Course Curriculum Chennai</strong>",
+    "intro": "Our <strong>SAP FICO course Chennai</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "<strong>General Ledger (GL) Accounting</strong>",
+      "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+      "<strong>Asset Accounting</strong>",
+      "Taxes, Financial Statements, and Closing Procedures"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "<strong>Cost Element and Cost Center Accounting</strong>",
+      "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+      "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP FICO Certificate Chennai</strong>",
+    "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training Chennai</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO Chennai</strong>",
+    "intro": "We are recognized as the premier <strong>SAP FICO training Chennai</strong> provider, dedicated to turning students into industry-ready professionals right here in Chennai.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP FICO Training Chennai</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in Chennai",
+        "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "SAP FICO configuration and implementation",
+    "General Ledger, Accounts Payable & Receivable",
+    "Asset Accounting and Bank Accounting",
+    "Cost Element and Cost Center Accounting",
+    "Profit Center Accounting and Internal Orders",
+    "Product Costing and Profitability Analysis",
+    "Integration with other SAP modules",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP FICO",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP FICO Architecture",
+        "Organizational Structure in SAP",
+        "Client, Company Code, Chart of Accounts",
+        "Fiscal Year Variant, Posting Periods"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting",
+      "subtopics": [
+        "Chart of Accounts Design",
+        "GL Account Master Data",
+        "Document Types and Number Ranges",
+        "Posting Transactions",
+        "Parked and Held Documents",
+        "Account Balances and Reports"
+      ]
+    },
+    {
+      "module": "Accounts Payable",
+      "subtopics": [
+        "Vendor Master Data",
+        "Invoice Processing",
+        "Payment Program Configuration",
+        "Automatic Payment Methods",
+        "Down Payments and Special GL Transactions",
+        "Account Analysis and Reconciliation"
+      ]
+    },
+    {
+      "module": "Accounts Receivable",
+      "subtopics": [
+        "Customer Master Data",
+        "Invoice and Credit Memo Processing",
+        "Payment Processing",
+        "Dunning Configuration",
+        "Lockbox Processing",
+        "Credit Management"
+      ]
+    },
+    {
+      "module": "Asset Accounting",
+      "subtopics": [
+        "Asset Master Data",
+        "Acquisition and Retirement",
+        "Depreciation Calculation",
+        "Asset Transfers",
+        "Asset Reports",
+        "Integration with Fixed Assets"
+      ]
+    },
+    {
+      "module": "SAP Controlling (CO) – Cost Controlling",
+      "subtopics": [
+        "Introduction to SAP CO",
+        "Integration with FI",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting",
+        "Product Costing",
+        "Profitability Analysis (CO-PA)",
+        "Real-time cost controlling scenarios & reporting"
+      ]
+    },
+    {
+      "module": "Activity-Based Costing(ABC)",
+      "subtopics": [
+        "Overhead allocation based on business activities",
+        "Accurate cost tracking for products and services",
+        "Used for strategic cost management and decision-making"
+      ]
+    },
+    {
+      "module": "Actual Costing & Material Ledger",
+      "subtopics": [
+        "Comparison of Standard Cost vs Actual Cost ",
+        "Cost variances and inventory revaluation",
+        "Integration with FI for real-time financial impact analysis"
+      ]
+    }
+  ]
 },
         {
   "course_name": "SAP BPC",
