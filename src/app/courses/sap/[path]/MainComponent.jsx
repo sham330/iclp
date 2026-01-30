@@ -391,9 +391,8 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
               </div>
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
-              >
-                {renderWithStrong(additionalContent?.courseDescription || "")}
-              </p>
+              dangerouslySetInnerHTML={{ __html: additionalContent?.courseDescription || "" }}
+              /> 
 
               <button
                 onClick={() => setShowBookingModal(true)}
