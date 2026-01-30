@@ -158,12 +158,12 @@ const SmallBar = () => {
                         ))}
                       </div>
                       
-                      <button
+                      {/* <button
                         onClick={() => handleSubcategoryClick("/")}
                         className="m-3 mt-0 py-2 text-sm font-medium text-[#014a9f] bg-[#014a9f]/10 hover:bg-[#014a9f] hover:text-white rounded-lg transition-all border-2 border-[#014a9f]/20"
                       >
                         View All Programs →
-                      </button>
+                      </button> */}
                     </div>
 
                     {/* Right Side - Courses */}
@@ -231,12 +231,12 @@ const SmallBar = () => {
                         </div>
                       </div>
                       
-                      <button
+                      {/* <button
                         onClick={() => handleSubcategoryClick("/")}
                         className="m-3 mt-0 py-2 text-sm font-medium text-[#014a9f] bg-[#014a9f]/10 hover:bg-[#014a9f] hover:text-white rounded-lg transition-all border-2 border-[#014a9f]/20"
                       >
                         Read more →
-                      </button>
+                      </button> */}
                     </div>
 
                     {/* Right Side - Courses */}
