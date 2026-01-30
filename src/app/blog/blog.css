@@ -420,6 +420,7 @@
   transition: all 0.3s ease;
   position: relative;
   border: 1px solid #eee;
+  cursor: pointer;
 }
 
 .iclp-article-card.featured {
