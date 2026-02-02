@@ -2557,7 +2557,7 @@ import "./blogdetail.css"
   "id": 20,
   "title": "Best SAP FICO Online Course with Certification & 100% Placement Support (ICLP Technologies)",
   "slug": "best-sap-fico-online-course-certification-placement-support",
-  "image": "/blog-20..jpeg",
+  "image": "/blog-20.jpeg",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3774,19 +3774,20 @@ if (!blog) notFound();
       </div>
       
       {/* Hero Image */}
-      <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-96 rounded-2xl overflow-hidden shadow-xl">
-  <Image
+      <div className="w-full h-[280px] sm:h-[380px] lg:h-[480px]  rounded-2xl overflow-hidden shadow-xl bg-gray-100">
+  <img
     src={blog.image}
     alt={blog.title}
-    fill              // ✅ Responsive!
-    sizes="100vw"     // ✅ Mobile first
-    className="object-cover"
-    priority         // 🏁 LCP Critical!
-    quality={80}
+    width={800}
+    height={450}
+    loading="eager"
+    decoding="async"
+    fetchPriority="high"
+    className="w-full h-full object-cover"
   />
 </div>
       
-      <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-3 leading-tight">
         {blog.title}
       </h1>
       

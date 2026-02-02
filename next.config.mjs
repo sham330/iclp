@@ -23,6 +23,8 @@ const nextConfig = {
       { protocol: 'http', hostname: 'localhost', port: '3000', pathname: '/**' }
     ],
   },
+      // qualities: ['75', '80'], // ✅ Add 80 here!
+
   
   // ✅ Clean URLs (blog/slug → blog/slug/index.html)
   trailingSlash: true,
