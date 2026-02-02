@@ -2,6 +2,7 @@
 import Head from "./Head";
 import ShareButton from "./Sharebutton";
 import Image from 'next/image';
+import { notFound } from 'next/navigation'; // ✅ ADD THIS
 
 import "./blogdetail.css"
  const blogs = [
@@ -3717,6 +3718,8 @@ import "./blogdetail.css"
 
 
 ]
+
+
 // ✅ Safe static params - works even if blogs is undefined
 export async function generateStaticParams() {
   try {
@@ -3738,12 +3741,9 @@ export const dynamic = 'force-static';
 export default async function BlogDetailPage({ params }) {
   // Await the params Promise (Next.js 15+ requirement)
   const resolvedParams = await params;
-  console.log("Resolved params:", resolvedParams);
 
   const slug = resolvedParams?.slug;
-  console.log("Slug:", slug);
-  console.log("Slug from params:", slug);
-  console.log("Available slugs:", blogs?.map(b => b.slug));
+ 
 
   if (!slug || !blogs?.length) {
     return (
@@ -3754,23 +3754,7 @@ export default async function BlogDetailPage({ params }) {
   }
 
   const blog = blogs.find(b => b?.slug === decodeURIComponent(slug));
-  console.log("Found blog:", blog);
-  if (!blog) {
-    return (
-      <>
-        
-        <div className="not-found-container">
-          <div className="not-found-content">
-            <div className="not-found-icon">
-              <span>!</span>
-            </div>
-            <h2 className="not-found-title">Blog Not Found</h2>
-            <p className="not-found-text">The blog post you're looking for doesn't exist.</p>
-          </div>
-        </div>
-      </>
-    );
-  }
+if (!blog) notFound();
 
   return (
  <>
@@ -3790,17 +3774,17 @@ export default async function BlogDetailPage({ params }) {
       </div>
       
       {/* Hero Image */}
-      <div className="rounded-2xl overflow-hidden shadow-xl mb-6">
+      <div className="relative w-full h-[40vh] sm:h-[50vh] lg:h-96 rounded-2xl overflow-hidden shadow-xl">
   <Image
-  src={blog.image}
-  alt={blog.title}
-  width={800}
-  height={450}
-  sizes="(max-width: 768px) 100vw, 50vw"
-  className="w-full h-auto object-cover rounded-lg"
-/>
-
-      </div>
+    src={blog.image}
+    alt={blog.title}
+    fill              // ✅ Responsive!
+    sizes="100vw"     // ✅ Mobile first
+    className="object-cover"
+    priority         // 🏁 LCP Critical!
+    quality={80}
+  />
+</div>
       
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
         {blog.title}
@@ -3838,14 +3822,7 @@ export default async function BlogDetailPage({ params }) {
         </h2>
 
 
-        {/* Section Image */}
-        {section.image && (
-          <img 
-            src={section.image} 
-            alt={section.heading}
-            className="w-full rounded-xl mb-4 shadow-lg"
-          />
-        )}
+      
 
 
         {/* Convert points array to paragraph */}
