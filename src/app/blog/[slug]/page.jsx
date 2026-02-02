@@ -3791,16 +3791,15 @@ export default async function BlogDetailPage({ params }) {
       
       {/* Hero Image */}
       <div className="rounded-2xl overflow-hidden shadow-xl mb-6">
-       <Image
+  <Image
   src={blog.image}
   alt={blog.title}
   width={800}
   height={450}
-  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+  sizes="(max-width: 768px) 100vw, 50vw"
   className="w-full h-auto object-cover rounded-lg"
-  placeholder="blur"
-  priority={index === 0} // First blog image gets priority
 />
+
       </div>
       
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
