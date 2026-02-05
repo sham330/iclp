@@ -44,7 +44,6 @@ const CourseDetails = () => {
   const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(false);
 
-localStorage.setItem('currentCourseName', course.course_name);
 
   // Memoize static data to prevent recalculation
   const learnerCount = useMemo(() => Math.floor(Math.random() * 4000) + 1000, []);
