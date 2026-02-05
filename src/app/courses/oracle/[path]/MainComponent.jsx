@@ -37,6 +37,7 @@ const OracleCourseDetailsPage = () => {
   const [learnerCount, setLearnerCount] = useState(0);
   const [profilePics, setProfilePics] = useState([]);
   const [showBookingModal, setShowBookingModal] = useState(false);
+localStorage.setItem('currentCourseName', course.course_name);
 
   // Hiring partners data
   const hiringPartners = [

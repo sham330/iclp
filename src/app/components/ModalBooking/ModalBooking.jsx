@@ -66,11 +66,13 @@ const ModalBooking = ({ onClose }) => {
     { name: "Oracle SCM", type: "oracle" },
     { name: "Oracle HCM", type: "oracle" },
   ];
+    const savedCourseName = localStorage.getItem('currentCourseName') || '';
+
 const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    course: "",
+    course: savedCourseName||"",
   });
 
   const [errors, setErrors] = useState({});

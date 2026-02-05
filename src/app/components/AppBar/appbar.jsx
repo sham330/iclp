@@ -186,9 +186,6 @@ const AppBar = () => {
 
       // SAP Courses
       { name: "SAP FICO", type: "sap", path: "sap-fico" },
-      {name:"SAP FICO Chennai", type:"sap", path:"sap-fico-chennai"},
-      {name:"SAP FICO Banglore", type:"sap",path:"sap-fico-bangalore"},
-      {name:"SAP FICO Hyderabad",type:"sap",path:"sap-fico-hyderabad"},
       { name: "SAP MM", type: "sap", path: "sap-mm" },
       { name: "SAP SD", type: "sap", path: "sap-sd" },
       {name:"SAP WM",type:"sap",path:"sap-wm"},

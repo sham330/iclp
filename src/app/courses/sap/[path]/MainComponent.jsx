@@ -28,7 +28,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [showBookingModal, setShowBookingModal] = useState(false);
-
+localStorage.setItem('currentCourseName', course.course_name);
   // Hiring partners data - memoized
   const hiringPartners = useMemo(() => [
     "/companies/Accenture.png",
@@ -361,12 +361,12 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                   ))}
                   <FaStar className="text-[#39FF14]/50 text-xl" />
                   <span className="text-[#97e7f5] ml-2">
-                    4.8  (1,733+ learners)
+                    {/* 4.8  (1,733+ learners) */}
                   </span>
                 </div>
 
                 {/* Profile Pics - Using Next.js Image */}
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <div className="flex -space-x-3">
                     {profilePics.map((pic, index) => (
                      <Image
@@ -387,7 +387,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
                   <span className="text-[#97e7f5] font-semibold">
                     +{(learnerCount - 3).toLocaleString()} enrolled
                   </span>
-                </div>
+                </div> */}
               </div>
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
