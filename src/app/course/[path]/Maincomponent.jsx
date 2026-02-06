@@ -44,7 +44,11 @@ const CourseDetails = () => {
   const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(false);
 
-
+ useEffect(() => {  // ✅ Safe: runs only client-side after mount
+    if (course?.course_name) {  // ✅ Null check
+      localStorage.setItem('currentCourseName', course.course_name);
+    }
+  }, [course]);
   // Memoize static data to prevent recalculation
   const learnerCount = useMemo(() => Math.floor(Math.random() * 4000) + 1000, []);
   

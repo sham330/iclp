@@ -28,8 +28,11 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [showBookingModal, setShowBookingModal] = useState(false);
-localStorage.setItem('currentCourseName', course.course_name);
-  // Hiring partners data - memoized
+  useEffect(() => {
+    if (course?.course_name) {
+      localStorage.setItem('currentCourseName', course.course_name);
+    }
+  }, [course?.course_name]);  // Hiring partners data - memoized
   const hiringPartners = useMemo(() => [
     "/companies/Accenture.png",
     "/companies/capgemini.webp",
