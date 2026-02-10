@@ -199,8 +199,20 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
        courseDescription:
         "Are you ready to become a certified <strong>SAP FICO</strong> expert? ICLP Tech offers the most comprehensive and industry-aligned <strong> SAP FICO</strong> training available, tailored for aspiring and current finance professionals in <strong>India</strong>. Our program is designed to transform you into a proficient SAP FICO consultant, covering the entire spectrum of Financial Accounting (FI) and Controlling (CO). We pride ourselves on delivering real-world, practical knowledge, ensuring our<strong> FICO course</strong> graduates are immediately job-ready. Whether you choose our flexible <strong>SAP FICO course online</strong> or our immersive classroom setup, you gain the expertise needed to secure your <strong>SAP FICO certificate</strong> and excel in the global job market.",
 
-    }
+    },
+    "sap-mm-chennai":{
+       courseDescription:
+        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading<strong> SAP MM course</strong> in <strong>India</strong>, designed to transform aspiring professionals into expert <strong>SAP Material Management</strong> consultants.The<strong> SAP MM</strong> module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive <strong> MM </strong>training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused<strong> SAP MM training online</strong> or in-class formats.",
+    },
+    "sap-mm-bangalore":{
+       courseDescription:
+        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading<strong> SAP MM course</strong> in <strong>India</strong>, designed to transform aspiring professionals into expert <strong>SAP Material Management</strong> consultants.The<strong> SAP MM</strong> module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive <strong> MM </strong>training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused<strong> SAP MM training online</strong> or in-class formats.",
+    },
+    "sap-mm-hyderabad":{
+       courseDescription:
+        "Are you seeking a high-growth career in supply chain and logistics? ICLP Tech offers the leading<strong> SAP MM course</strong> in <strong>India</strong>, designed to transform aspiring professionals into expert <strong>SAP Material Management</strong> consultants.The<strong> SAP MM</strong> module is the logistical backbone of enterprises worldwide. Our specialized program provides practical, in-depth knowledge necessary to configure and manage the entire procurement and inventory lifecycle. Enrolling in our intensive <strong> MM </strong>training equips you with globally relevant skills and opens the door to top jobs across the Indian and international job markets. Choose ICLP Tech for comprehensive, career-focused<strong> SAP MM training online</strong> or in-class formats.",
 
+    }
 };
   useEffect(() => {
   if (course && path) {

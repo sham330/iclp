@@ -1500,138 +1500,601 @@
           ]
         },
         {
-          "course_name": "SAP MM",
-          "path": "sap-mm",
-          "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
-          "meta_description": "Learn SAP MM online with hands-on training & certification. Become an SAP MM expert. Check the course & enroll now!",
-          "description": "Learn SAP Materials Management module covering procurement, inventory management, and logistics processes.",
-          "career_benefits": {
-            "heading": "The Critical Demand for <strong>SAP Material Management Experts</strong>",
-            "description": "The demand for certified <strong>SAP MM consultants</strong> continues to rise across manufacturing, retail, FMCG, IT services, and supply chain sectors in India. <strong>SAP Material Management</strong> expertise is essential for optimizing procurement, reducing operational costs, and ensuring efficient material flow within enterprises.",
-            "points": [
-              "<strong>Industry Foundation:</strong> SAP MM is vital for logistics and supply chain efficiency, covering procurement, inventory control, and vendor management.",
-              "<strong>Career Advancement:</strong> This SAP MM training prepares you for highly paid roles such as <strong>SAP MM Consultant</strong>, Procurement Specialist, Inventory Manager, and Supply Chain Analyst.",
-              "<strong>Global Relevance:</strong> Our SAP MM curriculum aligns with international standards, making your skills valuable for global SAP projects."
-            ]
-          },
-          "curriculum_overview": {
-            "heading": "Comprehensive <strong>SAP MM Course Curriculum & Structure</strong>",
-            "intro": "Our <strong>SAP MM training</strong> delivers hands-on, job-oriented expertise. Every module is taught through real-world case studies and practical configuration, preparing you for enterprise-level SAP projects."
-          },
-          "track_overview_primary": {
-            "heading": "Core Modules of <strong>SAP Material Management Training</strong>",
-            "description": "This section covers the essential components required to master procurement and inventory processes in SAP:",
-            "topics": [
-              "<strong>Organizational Structure:</strong> Defining Company Codes, Plants, Storage Locations, and Purchasing Organizations",
-              "<strong>Master Data:</strong> In-depth training on Material Master, Vendor Master, and Purchasing Info Records",
-              "<strong>Procure-to-Pay (P2P):</strong> Complete procurement cycle from Purchase Requisition to Invoice Verification",
-              "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Transfer Posting, and Physical Inventory configuration",
-              "<strong>Valuation & Account Determination:</strong> Material valuation methods and seamless integration with <strong>SAP FICO</strong>"
-            ]
-          },
-          "track_overview_secondary": {
-            "heading": "Advanced Concepts & <strong>Real-World Applications</strong>",
-            "description": "This advanced section ensures you gain strong functional depth with real-time scenarios:",
-            "topics": [
-              "<strong>Special Procurement Processes</strong> such as Subcontracting, Consignment, and Stock Transport Orders",
-              "<strong>Release Strategies</strong> for Purchase Requisitions and Purchase Orders",
-              "<strong>Automatic Purchase Orders, Pricing Procedures, and Schema Configuration</strong>",
-              "<strong>Integration:</strong> Understanding integration between MM, SD, PP, and FICO modules"
-            ]
-          },
-          "certification_info": {
-            "heading": "Earn Your Professional <strong>SAP MM Certificate</strong>",
-            "intro": "This <strong>SAP Material Management course</strong> is designed to align with the official SAP MM certification syllabus, ensuring you are fully prepared to become a certified SAP MM consultant.",
-            "highlights": [
-              "<strong>Certification Preparation:</strong> Includes mock tests, structured revision, and question practice for certification success.",
-              "<strong>Project-Based Learning:</strong> Hands-on real-time procurement and inventory scenarios to showcase your expertise.",
-              "<strong>Global Recognition:</strong> Your SAP MM certification enhances career opportunities across global supply chain and ERP domains."
-            ]
-          },
-          "why_institute": {
-            "heading": "Why <strong>ICLP Tech</strong> is the Best Choice for <strong>SAP MM Training</strong> in India",
-            "intro": "ICLP Tech is a trusted name in SAP training, delivering high-quality <strong>SAP MM training</strong> that prepares students for real enterprise challenges and global career opportunities.",
-            "instructor_expertise": {
-              "heading": "Experience & <strong>Expertise You Can Trust</strong>",
-              "description": "Our SAP MM trainers are <strong>15+ year veteran consultants</strong> with extensive experience in end-to-end SAP implementation projects across diverse industries in India. You learn directly from industry experts who have mastered SAP MM in real projects."
-            },
-            "training_modes": {
-              "heading": "Flexible <strong>SAP MM Training Options</strong> (Online & Classroom)",
-              "description": "Choose the learning mode that fits your lifestyle and career goals:",
-              "options": [
-                "<strong>Classroom Training:</strong> Interactive, in-person SAP MM sessions at our state-of-the-art training facility in India.",
-                "<strong>SAP MM Online Course:</strong> Live instructor-led online classes with 24/7 SAP server access for uninterrupted practice."
-              ]
-            },
-            "placement_support": {
-              "heading": "<strong>100% Placement Support</strong>",
-              "description": "We provide dedicated placement assistance, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners across India."
-            }
-          },
-          "what_youll_learn": [
-            "SAP MM configuration and customization",
-            "Procurement process from purchase requisition to payment",
-            "Inventory management techniques",
-            "Material Master and Vendor Master data",
-            "Invoice verification and material valuation",
-            "Integration with FI, SD, and PP modules",
-            "Reporting and analytics in MM"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to SAP MM",
-              "subtopics": [
-                "Overview of SAP MM",
-                "Organizational Structure in MM",
-                "Plants, Storage Locations, Purchasing Orgs",
-                "Material Master Data",
-                "Vendor Master Data"
-              ]
-            },
-            {
-              "module": "Procurement Process",
-              "subtopics": [
-                "Purchase Requisition",
-                "Request for Quotation",
-                "Purchase Order Processing",
-                "Outline Agreements",
-                "Source Determination",
-                "Release Strategy"
-              ]
-            },
-            {
-              "module": "Inventory Management",
-              "subtopics": [
-                "Goods Receipt Processing",
-                "Goods Issue Processing",
-                "Stock Transfers",
-                "Physical Inventory",
-                "Reservations",
-                "Special Stocks"
-              ]
-            },
-            {
-              "module": "Invoice Verification",
-              "subtopics": [
-                "Invoice Processing",
-                "Credit Memo Processing",
-                "Evaluated Receipt Settlement",
-                "Parking and Blocking Invoices",
-                "Integration with FI"
-              ]
-            },
-            {
-              "module": "Reporting and Analytics",
-              "subtopics": [
-                "Standard Reports in MM",
-                "Inventory Reports",
-                "Purchase Information System",
-                "Logistics Information System",
-                "Custom Reports"
-              ]
-            }
-          ]
+  "course_name": "SAP MM",
+  "path": "sap-mm-hyderabad",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-mm-hyderabad",
+  "meta_title": "SAP MM Course in Hyderabad | SAP MM Training Hyderabad | SAP MM Certificate",
+  "meta_description": "Master SAP MM with our expert-led course & certification in Hyderabad. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Materials Management (MM) module with hands-on training from industry experts in Hyderabad.",
+  "career_benefits": {
+    "heading": "Why SAP MM Training in Hyderabad is Essential for Your Career",
+    "description": "<strong>SAP MM (Materials Management)</strong> is a critical module in SAP, managing all core procurement and inventory processes of an enterprise. Mastering this module is crucial for high-paying roles in supply chain, logistics, and IT consulting in Hyderabad's rapidly growing IT hub.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP MM is universally required by manufacturing, retail, FMCG, and logistics enterprises across Hyderabad and globally.",
+      "<strong>Career Growth:</strong> Positions like MM Consultant, Procurement Specialist, and SAP Support Specialist offer exceptional stability and salary potential in Hyderabad's Cyberabad IT corridor.",
+      "<strong>Skill Mastery:</strong> Our MM training in Hyderabad goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP MM Course Curriculum in Hyderabad</strong>",
+    "intro": "Our <strong>SAP MM course in Hyderabad</strong> is structured to provide deep, functional expertise in both procurement processes and inventory management, tailored for Hyderabad's thriving IT and pharmaceutical industries."
+  },
+  "track_overview_primary": {
+    "heading": "Materials Management (<strong>MM</strong>) Core Modules Covered",
+    "description": "We cover core aspects of procurement and inventory management, including:",
+    "topics": [
+      "<strong>Organizational Structure:</strong> Company Codes, Plants, Storage Locations, and Purchasing Organizations",
+      "<strong>Master Data:</strong> Material Master, Vendor Master, and Purchasing Info Records",
+      "<strong>Procurement Process:</strong> Purchase Requisition, RFQ, Purchase Orders, and Outline Agreements",
+      "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Stock Transfers, and Physical Inventory"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>MM</strong> Modules Covered",
+    "description": "This section focuses on advanced procurement scenarios and integration:",
+    "topics": [
+      "<strong>Special Procurement:</strong> Subcontracting, Consignment, and Stock Transport Orders",
+      "<strong>Invoice Verification</strong> and <strong>Material Valuation</strong>",
+      "<strong>Release Strategies</strong> and <strong>Pricing Procedures</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between MM, FI, CO, SD, and PP modules."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP MM Certificate in Hyderabad</strong>",
+    "intro": "Achieving your <strong>SAP MM certificate</strong> validates your expertise and significantly enhances your profile in Hyderabad's expanding IT job market. Our <strong>SAP MM training in Hyderabad</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your MM certificate from ICLP Tech Hyderabad is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech Hyderabad</strong> is the Top Choice for <strong>SAP MM Training</strong>",
+    "intro": "We are recognized as the premier <strong>SAP MM training provider in Hyderabad</strong>, dedicated to turning students into industry-ready professionals for Hyderabad's booming IT services, pharmaceutical, and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our Hyderabad-based faculty. All instructors are <strong>15+ year veteran SAP MM Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them in Hyderabad and across India."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP MM Training</strong> Options in Hyderabad (Online & Classroom)",
+      "description": "We cater to your busy schedule in Hyderabad:",
+      "options": [
+        "<strong>Classroom Training in Hyderabad:</strong> Immersive, face-to-face learning at our state-of-the-art center in Hyderabad",
+        "<strong>SAP MM Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere in Hyderabad or beyond."
+      ]
+    },
+    "placement_support": {
+      "heading": "<strong>100% Placement Support in Hyderabad</strong>",
+      "description": "We provide dedicated placement assistance in Hyderabad and across India, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners, with special focus on Hyderabad's IT companies, pharmaceutical giants, HITEC City firms, and global MNCs."
+    }
+  },
+  "what_youll_learn": [
+    "SAP MM configuration and implementation",
+    "Procurement process from purchase requisition to payment",
+    "Inventory management techniques",
+    "Material Master and Vendor Master data",
+    "Invoice verification and material valuation",
+    "Integration with FI, SD, and PP modules",
+    "Reporting and analytics in MM",
+    "Real-time project scenarios from Hyderabad industries"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP MM",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP MM Architecture",
+        "Organizational Structure in MM",
+        "Plants, Storage Locations, Purchasing Organizations",
+        "Material Types and Material Master Data",
+        "Vendor Master Data"
+      ]
+    },
+    {
+      "module": "Procurement Process",
+      "subtopics": [
+        "Purchase Requisition",
+        "Request for Quotation",
+        "Purchase Order Processing",
+        "Outline Agreements (Contracts & Scheduling Agreements)",
+        "Source Determination",
+        "Release Strategy Configuration",
+        "Pricing Procedures and Schema"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Goods Receipt Processing",
+        "Goods Issue Processing",
+        "Stock Transfers and Transfer Posting",
+        "Physical Inventory",
+        "Reservations",
+        "Special Stocks (Consignment, Subcontracting)",
+        "Stock Transport Orders"
+      ]
+    },
+    {
+      "module": "Invoice Verification",
+      "subtopics": [
+        "Invoice Processing",
+        "Credit Memo Processing",
+        "Evaluated Receipt Settlement (ERS)",
+        "Parking and Blocking Invoices",
+        "Integration with FI",
+        "Account Determination and Material Valuation"
+      ]
+    },
+    {
+      "module": "Material Valuation & Account Determination",
+      "subtopics": [
+        "Valuation Methods (Standard, Moving Average)",
+        "Price Control and Price Determination",
+        "Account Assignment Categories",
+        "Automatic Account Determination",
+        "Integration with FICO for financial postings"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Standard Reports in MM",
+        "Inventory Reports",
+        "Purchase Information System",
+        "Logistics Information System",
+        "Custom Reports",
+        "Real-time reporting scenarios"
+      ]
+    }
+  ]
         },
+        {
+  "course_name": "SAP MM",
+  "path": "sap-mm-bangalore",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-mm-bangalore",
+  "meta_title": "SAP MM Course in Bangalore | SAP MM Training Bangalore | SAP MM Certificate",
+  "meta_description": "Master SAP MM with our expert-led course & certification in Bangalore. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Materials Management (MM) module with hands-on training from industry experts in Bangalore.",
+  "career_benefits": {
+    "heading": "Why SAP MM Training in Bangalore is Essential for Your Career",
+    "description": "<strong>SAP MM (Materials Management)</strong> is a critical module in SAP, managing all core procurement and inventory processes of an enterprise. Mastering this module is crucial for high-paying roles in supply chain, logistics, and IT consulting in Bangalore's booming tech ecosystem.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP MM is universally required by manufacturing, retail, FMCG, and logistics enterprises across Bangalore and globally.",
+      "<strong>Career Growth:</strong> Positions like MM Consultant, Procurement Specialist, and SAP Support Specialist offer exceptional stability and salary potential in Bangalore's Silicon Valley of India.",
+      "<strong>Skill Mastery:</strong> Our MM training in Bangalore goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP MM Course Curriculum in Bangalore</strong>",
+    "intro": "Our <strong>SAP MM course in Bangalore</strong> is structured to provide deep, functional expertise in both procurement processes and inventory management, tailored for Bangalore's dynamic tech-driven business environment."
+  },
+  "track_overview_primary": {
+    "heading": "Materials Management (<strong>MM</strong>) Core Modules Covered",
+    "description": "We cover core aspects of procurement and inventory management, including:",
+    "topics": [
+      "<strong>Organizational Structure:</strong> Company Codes, Plants, Storage Locations, and Purchasing Organizations",
+      "<strong>Master Data:</strong> Material Master, Vendor Master, and Purchasing Info Records",
+      "<strong>Procurement Process:</strong> Purchase Requisition, RFQ, Purchase Orders, and Outline Agreements",
+      "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Stock Transfers, and Physical Inventory"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>MM</strong> Modules Covered",
+    "description": "This section focuses on advanced procurement scenarios and integration:",
+    "topics": [
+      "<strong>Special Procurement:</strong> Subcontracting, Consignment, and Stock Transport Orders",
+      "<strong>Invoice Verification</strong> and <strong>Material Valuation</strong>",
+      "<strong>Release Strategies</strong> and <strong>Pricing Procedures</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between MM, FI, CO, SD, and PP modules."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP MM Certificate in Bangalore</strong>",
+    "intro": "Achieving your <strong>SAP MM certificate</strong> validates your expertise and significantly enhances your profile in Bangalore's highly competitive IT job market. Our <strong>SAP MM training in Bangalore</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your MM certificate from ICLP Tech Bangalore is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech Bangalore</strong> is the Top Choice for <strong>SAP MM Training</strong>",
+    "intro": "We are recognized as the premier <strong>SAP MM training provider in Bangalore</strong>, dedicated to turning students into industry-ready professionals for Bangalore's leading IT giants, startups, and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our Bangalore-based faculty. All instructors are <strong>15+ year veteran SAP MM Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them in Bangalore and across India."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP MM Training</strong> Options in Bangalore (Online & Classroom)",
+      "description": "We cater to your busy schedule in Bangalore:",
+      "options": [
+        "<strong>Classroom Training in Bangalore:</strong> Immersive, face-to-face learning at our state-of-the-art center in Bangalore",
+        "<strong>SAP MM Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere in Bangalore or beyond."
+      ]
+    },
+    "placement_support": {
+      "heading": "<strong>100% Placement Support in Bangalore</strong>",
+      "description": "We provide dedicated placement assistance in Bangalore and across India, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners, with special focus on Bangalore's IT majors, product companies, startups, and global MNCs."
+    }
+  },
+  "what_youll_learn": [
+    "SAP MM configuration and implementation",
+    "Procurement process from purchase requisition to payment",
+    "Inventory management techniques",
+    "Material Master and Vendor Master data",
+    "Invoice verification and material valuation",
+    "Integration with FI, SD, and PP modules",
+    "Reporting and analytics in MM",
+    "Real-time project scenarios from Bangalore industries"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP MM",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP MM Architecture",
+        "Organizational Structure in MM",
+        "Plants, Storage Locations, Purchasing Organizations",
+        "Material Types and Material Master Data",
+        "Vendor Master Data"
+      ]
+    },
+    {
+      "module": "Procurement Process",
+      "subtopics": [
+        "Purchase Requisition",
+        "Request for Quotation",
+        "Purchase Order Processing",
+        "Outline Agreements (Contracts & Scheduling Agreements)",
+        "Source Determination",
+        "Release Strategy Configuration",
+        "Pricing Procedures and Schema"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Goods Receipt Processing",
+        "Goods Issue Processing",
+        "Stock Transfers and Transfer Posting",
+        "Physical Inventory",
+        "Reservations",
+        "Special Stocks (Consignment, Subcontracting)",
+        "Stock Transport Orders"
+      ]
+    },
+    {
+      "module": "Invoice Verification",
+      "subtopics": [
+        "Invoice Processing",
+        "Credit Memo Processing",
+        "Evaluated Receipt Settlement (ERS)",
+        "Parking and Blocking Invoices",
+        "Integration with FI",
+        "Account Determination and Material Valuation"
+      ]
+    },
+    {
+      "module": "Material Valuation & Account Determination",
+      "subtopics": [
+        "Valuation Methods (Standard, Moving Average)",
+        "Price Control and Price Determination",
+        "Account Assignment Categories",
+        "Automatic Account Determination",
+        "Integration with FICO for financial postings"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Standard Reports in MM",
+        "Inventory Reports",
+        "Purchase Information System",
+        "Logistics Information System",
+        "Custom Reports",
+        "Real-time reporting scenarios"
+      ]
+    }
+  ]
+},
+        {
+  "course_name": "SAP MM",
+  "path": "sap-mm-chennai",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-mm-chennai",
+  "meta_title": "SAP MM Course in Chennai | SAP MM Training Chennai | SAP MM Certificate",
+  "meta_description": "Master SAP MM with our expert-led course & certification in Chennai. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Materials Management (MM) module with hands-on training from industry experts in Chennai.",
+  "career_benefits": {
+    "heading": "Why SAP MM Training in Chennai is Essential for Your Career",
+    "description": "<strong>SAP MM (Materials Management)</strong> is a critical module in SAP, managing all core procurement and inventory processes of an enterprise. Mastering this module is crucial for high-paying roles in supply chain, logistics, and IT consulting in Chennai's thriving job market.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP MM is universally required by manufacturing, retail, FMCG, and logistics enterprises across Chennai and globally.",
+      "<strong>Career Growth:</strong> Positions like MM Consultant, Procurement Specialist, and SAP Support Specialist offer exceptional stability and salary potential in Chennai's IT corridor.",
+      "<strong>Skill Mastery:</strong> Our MM training in Chennai goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP MM Course Curriculum in Chennai</strong>",
+    "intro": "Our <strong>SAP MM course in Chennai</strong> is structured to provide deep, functional expertise in both procurement processes and inventory management, tailored for Chennai's dynamic business environment."
+  },
+  "track_overview_primary": {
+    "heading": "Materials Management (<strong>MM</strong>) Core Modules Covered",
+    "description": "We cover core aspects of procurement and inventory management, including:",
+    "topics": [
+      "<strong>Organizational Structure:</strong> Company Codes, Plants, Storage Locations, and Purchasing Organizations",
+      "<strong>Master Data:</strong> Material Master, Vendor Master, and Purchasing Info Records",
+      "<strong>Procurement Process:</strong> Purchase Requisition, RFQ, Purchase Orders, and Outline Agreements",
+      "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Stock Transfers, and Physical Inventory"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>MM</strong> Modules Covered",
+    "description": "This section focuses on advanced procurement scenarios and integration:",
+    "topics": [
+      "<strong>Special Procurement:</strong> Subcontracting, Consignment, and Stock Transport Orders",
+      "<strong>Invoice Verification</strong> and <strong>Material Valuation</strong>",
+      "<strong>Release Strategies</strong> and <strong>Pricing Procedures</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between MM, FI, CO, SD, and PP modules."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP MM Certificate in Chennai</strong>",
+    "intro": "Achieving your <strong>SAP MM certificate</strong> validates your expertise and significantly enhances your profile in Chennai's competitive job market. Our <strong>SAP MM training in Chennai</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your MM certificate from ICLP Tech Chennai is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech Chennai</strong> is the Top Choice for <strong>SAP MM Training</strong>",
+    "intro": "We are recognized as the premier <strong>SAP MM training provider in Chennai</strong>, dedicated to turning students into industry-ready professionals for Chennai's vibrant IT and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our Chennai-based faculty. All instructors are <strong>15+ year veteran SAP MM Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them in Chennai and across India."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP MM Training</strong> Options in Chennai (Online & Classroom)",
+      "description": "We cater to your busy schedule in Chennai:",
+      "options": [
+        "<strong>Classroom Training in Chennai:</strong> Immersive, face-to-face learning at our state-of-the-art center in Chennai",
+        "<strong>SAP MM Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere in Chennai or beyond."
+      ]
+    },
+    "placement_support": {
+      "heading": "<strong>100% Placement Support in Chennai</strong>",
+      "description": "We provide dedicated placement assistance in Chennai and across India, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners, with special focus on Chennai's IT companies, manufacturing units, and MNCs."
+    }
+  },
+  "what_youll_learn": [
+    "SAP MM configuration and implementation",
+    "Procurement process from purchase requisition to payment",
+    "Inventory management techniques",
+    "Material Master and Vendor Master data",
+    "Invoice verification and material valuation",
+    "Integration with FI, SD, and PP modules",
+    "Reporting and analytics in MM",
+    "Real-time project scenarios from Chennai industries"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP MM",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP MM Architecture",
+        "Organizational Structure in MM",
+        "Plants, Storage Locations, Purchasing Organizations",
+        "Material Types and Material Master Data",
+        "Vendor Master Data"
+      ]
+    },
+    {
+      "module": "Procurement Process",
+      "subtopics": [
+        "Purchase Requisition",
+        "Request for Quotation",
+        "Purchase Order Processing",
+        "Outline Agreements (Contracts & Scheduling Agreements)",
+        "Source Determination",
+        "Release Strategy Configuration",
+        "Pricing Procedures and Schema"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Goods Receipt Processing",
+        "Goods Issue Processing",
+        "Stock Transfers and Transfer Posting",
+        "Physical Inventory",
+        "Reservations",
+        "Special Stocks (Consignment, Subcontracting)",
+        "Stock Transport Orders"
+      ]
+    },
+    {
+      "module": "Invoice Verification",
+      "subtopics": [
+        "Invoice Processing",
+        "Credit Memo Processing",
+        "Evaluated Receipt Settlement (ERS)",
+        "Parking and Blocking Invoices",
+        "Integration with FI",
+        "Account Determination and Material Valuation"
+      ]
+    },
+    {
+      "module": "Material Valuation & Account Determination",
+      "subtopics": [
+        "Valuation Methods (Standard, Moving Average)",
+        "Price Control and Price Determination",
+        "Account Assignment Categories",
+        "Automatic Account Determination",
+        "Integration with FICO for financial postings"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Standard Reports in MM",
+        "Inventory Reports",
+        "Purchase Information System",
+        "Logistics Information System",
+        "Custom Reports",
+        "Real-time reporting scenarios"
+      ]
+    }
+  ]
+},
+      {
+  "course_name": "SAP MM",
+  "path": "sap-mm",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-mm",
+  "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
+  "meta_description": "Master SAP MM with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
+  "description": "Master SAP Materials Management (MM) module with hands-on training from industry experts.",
+  "career_benefits": {
+    "heading": "Why SAP MM Training is Essential for Your Career",
+    "description": "<strong>SAP MM (Materials Management)</strong> is a critical module in SAP, managing all core procurement and inventory processes of an enterprise. Mastering this module is crucial for high-paying roles in supply chain, logistics, and IT consulting.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP MM is universally required by manufacturing, retail, FMCG, and logistics enterprises.",
+      "<strong>Career Growth:</strong> Positions like MM Consultant, Procurement Specialist, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "<strong>Skill Mastery:</strong> Our MM training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP MM Course Curriculum</strong>",
+    "intro": "Our <strong>SAP MM course</strong> structure is divided into comprehensive components, ensuring you gain deep, functional expertise in both procurement processes and inventory management."
+  },
+  "track_overview_primary": {
+    "heading": "Materials Management (<strong>MM</strong>) Core Modules Covered",
+    "description": "We cover core aspects of procurement and inventory management, including:",
+    "topics": [
+      "<strong>Organizational Structure:</strong> Company Codes, Plants, Storage Locations, and Purchasing Organizations",
+      "<strong>Master Data:</strong> Material Master, Vendor Master, and Purchasing Info Records",
+      "<strong>Procurement Process:</strong> Purchase Requisition, RFQ, Purchase Orders, and Outline Agreements",
+      "<strong>Inventory Management:</strong> Goods Receipt, Goods Issue, Stock Transfers, and Physical Inventory"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>MM</strong> Modules Covered",
+    "description": "This section focuses on advanced procurement scenarios and integration:",
+    "topics": [
+      "<strong>Special Procurement:</strong> Subcontracting, Consignment, and Stock Transport Orders",
+      "<strong>Invoice Verification</strong> and <strong>Material Valuation</strong>",
+      "<strong>Release Strategies</strong> and <strong>Pricing Procedures</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between MM, FI, CO, SD, and PP modules."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP MM Certificate</strong>",
+    "intro": "Achieving your <strong>SAP MM certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP MM training</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your MM certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP MM</strong> in India",
+    "intro": "We are recognized as the premier <strong>SAP MM training</strong> provider, dedicated to turning students into industry-ready professionals right here in India.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>15+ year veteran SAP MM Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP MM Training</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in India",
+        "<strong>SAP MM Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    },
+    "placement_support": {
+      "heading": "<strong>100% Placement Support</strong>",
+      "description": "We provide dedicated placement assistance, including resume enhancement, mock interviews, and job opportunities from 3000+ hiring partners across India."
+    }
+  },
+  "what_youll_learn": [
+    "SAP MM configuration and implementation",
+    "Procurement process from purchase requisition to payment",
+    "Inventory management techniques",
+    "Material Master and Vendor Master data",
+    "Invoice verification and material valuation",
+    "Integration with FI, SD, and PP modules",
+    "Reporting and analytics in MM",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP MM",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP MM Architecture",
+        "Organizational Structure in MM",
+        "Plants, Storage Locations, Purchasing Organizations",
+        "Material Types and Material Master Data",
+        "Vendor Master Data"
+      ]
+    },
+    {
+      "module": "Procurement Process",
+      "subtopics": [
+        "Purchase Requisition",
+        "Request for Quotation",
+        "Purchase Order Processing",
+        "Outline Agreements (Contracts & Scheduling Agreements)",
+        "Source Determination",
+        "Release Strategy Configuration",
+        "Pricing Procedures and Schema"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Goods Receipt Processing",
+        "Goods Issue Processing",
+        "Stock Transfers and Transfer Posting",
+        "Physical Inventory",
+        "Reservations",
+        "Special Stocks (Consignment, Subcontracting)",
+        "Stock Transport Orders"
+      ]
+    },
+    {
+      "module": "Invoice Verification",
+      "subtopics": [
+        "Invoice Processing",
+        "Credit Memo Processing",
+        "Evaluated Receipt Settlement (ERS)",
+        "Parking and Blocking Invoices",
+        "Integration with FI",
+        "Account Determination and Material Valuation"
+      ]
+    },
+    {
+      "module": "Material Valuation & Account Determination",
+      "subtopics": [
+        "Valuation Methods (Standard, Moving Average)",
+        "Price Control and Price Determination",
+        "Account Assignment Categories",
+        "Automatic Account Determination",
+        "Integration with FICO for financial postings"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Standard Reports in MM",
+        "Inventory Reports",
+        "Purchase Information System",
+        "Logistics Information System",
+        "Custom Reports",
+        "Real-time reporting scenarios"
+      ]
+    }
+  ]
+      },
         {
           "course_name": "SAP SD",
           "path": "sap-sd",
