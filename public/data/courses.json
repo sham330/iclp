@@ -8,7 +8,6 @@
           "course_name": "SAP FICO",
           "path": "sap-fico",
           "image": "/sap-courses.jpg",
-
           "canonical_url": "https://iclptech.in/courses/sap/sap-fico",
           "meta_title": "SAP FICO Course Online | SAP FICO Training | SAP FICO Certificate",
           "meta_description": "Master SAP FICO with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
@@ -86,7 +85,6 @@
           "meta_title": "SAP Successfactors Course Online | SAP SF Training | SAP SF Certificate",
           "meta_description": "Become a certified SAP SF consultant. Learn SuccessFactors online with expert guidance. Enroll now to boost your HR tech career!",
           "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
-
           "what_youll_learn": [
             "Understand SAP SuccessFactors architecture and cloud provisioning",
             "Master Employee Central configuration and data models",
@@ -166,7 +164,6 @@
               ]
             }
           ],
-
           "duration": "40 hours",
           "skill_level": "Intermediate to Advanced",
           "image": "/sap-courses.jpg",
@@ -181,7 +178,6 @@
           "course_name": "SAP MM",
           "path": "sap-mm",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
           "meta_description": "Learn SAP MM online with hands-on training & certification. Become an SAP MM expert. Check the course & enroll now!",
           "description": "Learn SAP Materials Management module covering procurement, inventory management, and logistics processes.",
@@ -253,7 +249,6 @@
           "course_name": "SAP SD",
           "path": "sap-sd",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP SD Course Online | SAP SD Training | SAP SD Certificate",
           "meta_description": "Become a certified SAP SD consultant with our online course. Expert training, flexible schedule. Learn more & enroll today!",
           "description": "Comprehensive training on SAP Sales and Distribution module covering order-to-cash processes.",
@@ -433,7 +428,6 @@
           "course_name": "SAP Transportation Management",
           "path": "sap-transportation-management",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Transportation Management Course Online | SAP TM Training | SAP TM Certificate",
           "meta_description": "Learn SAP TM online and become a transportation management expert. Get certified and start your career. Check the course now!",
           "description": "Comprehensive training in SAP Transportation Management covering ERP fundamentals, ABAP programming, and advanced SAP modules for logistics and supply chain management.",
@@ -547,7 +541,13 @@
             },
             {
               "module": "Open SQL Statements",
-              "subtopics": ["Select", "Insert", "Modify", "Update", "Delete"]
+              "subtopics": [
+                "Select",
+                "Insert",
+                "Modify",
+                "Update",
+                "Delete"
+              ]
             },
             {
               "module": "Internal Tables",
@@ -717,11 +717,17 @@
             },
             {
               "module": "BAPIs",
-              "subtopics": ["BAPI Overview", "Creation of BAPI"]
+              "subtopics": [
+                "BAPI Overview",
+                "Creation of BAPI"
+              ]
             },
             {
               "module": "Workflow",
-              "subtopics": ["What is workflow?", "Overview of workflow"]
+              "subtopics": [
+                "What is workflow?",
+                "Overview of workflow"
+              ]
             },
             {
               "module": "User Exits",
@@ -756,7 +762,6 @@
           "course_name": "SAP PP",
           "path": "sap-pp",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP PP Course Online | SAP PP Training | SAP PP Certificate",
           "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
           "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
@@ -826,7 +831,6 @@
           "course_name": "SAP ABAP",
           "path": "sap-abap",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP ABAP Course Online | SAP ABAP Training | SAP ABAP Certificate",
           "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
           "description": "Learn SAP ABAP programming language for custom development and enhancements.",
@@ -896,10 +900,8 @@
           "course_name": "SAP Business Technology Platform (BTP)",
           "path": "sap-btp-training",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
           "meta_description": "Master SAP Business Technology Platform with expert-led training at ICLP. Get real-time projects, career support & certification prep. Join today!",
-
           "description": "Master SAP's unified platform for application development, integration, analytics, and AI. Learn to build, extend, and integrate enterprise applications in the cloud.",
           "what_youll_learn": [
             "SAP BTP architecture and services",
@@ -1007,7 +1009,6 @@
           "course_name": "SAP IS Utilities Training",
           "path": "sap-is-utilities",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
           "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
           "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
@@ -1139,7 +1140,6 @@
           "course_name": "SAP SCM Training",
           "path": "sap-scm",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP SCM Course Online | SAP Supply Chain Management Online Training | SAP SCM Certification",
           "meta_description": "Master SAP Supply Chain Management (SCM) with our hands-on training. Learn demand planning, production execution, integration, forecasting, and optimization.",
           "description": "Comprehensive SAP SCM training covering demand management, material requirement planning, production execution, integration, forecasting, and supply network optimization for efficient supply chain operations.",
@@ -1156,7 +1156,10 @@
           "syllabus": [
             {
               "module": "Demand Management",
-              "subtopics": ["PIR creation", "PIR consumption"]
+              "subtopics": [
+                "PIR creation",
+                "PIR consumption"
+              ]
             },
             {
               "module": "Material Requirement Planning",
@@ -1226,7 +1229,10 @@
             },
             {
               "module": "Planning Books and Data Views",
-              "subtopics": ["Creating Planning Books and Data Views", "Macros"]
+              "subtopics": [
+                "Creating Planning Books and Data Views",
+                "Macros"
+              ]
             },
             {
               "module": "Interactive Planning",
@@ -1281,7 +1287,10 @@
             },
             {
               "module": "SNP Run Using Capable to Match",
-              "subtopics": ["CTM Process", "Alternative PPMs in CTM"]
+              "subtopics": [
+                "CTM Process",
+                "Alternative PPMs in CTM"
+              ]
             },
             {
               "module": "Interchangeability",
@@ -1314,7 +1323,6 @@
           "course_name": "SAP IS Retail Training",
           "path": "sap-is-retail",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",
           "meta_title": "SAP IS Retail Course Online | SAP IS Retail Online Training | SAP IS Retail Certificate",
           "meta_description": "Master SAP IS Retail with practical training and certification. Learn to optimize retail operations. Join now!",
@@ -1411,7 +1419,6 @@
           "course_name": "SAP Security GRC Training",
           "path": "sap-security-grc",
           "image": "/sap-courses.jpg",
-
           "description": "Master SAP's Governance, Risk, and Compliance solutions with hands-on training in access control, risk analysis, privileged user management, and compliance automation.",
           "what_youll_learn": [
             "GRC Access Control architecture",
@@ -1498,7 +1505,6 @@
           "course_name": "SAP Analytics Cloud Online Training",
           "path": "sap-analytic-cloud",
           "image": "/sap-courses.jpg",
-
           "description": "Master SAP's unified cloud analytics solution covering business intelligence, planning, predictive analytics, and augmented intelligence with hands-on story design and data modeling.",
           "what_youll_learn": [
             "SAP Analytics Cloud architecture and deployment options",
@@ -1586,7 +1592,6 @@
           "course_name": "SAP BI/BW Training",
           "path": "sap-bibw",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP's data warehousing and business intelligence solutions covering data modeling, extraction, reporting, and HANA integration for enterprise analytics.",
           "what_youll_learn": [
             "Data warehousing concepts and SAP BW architecture",
@@ -1697,7 +1702,6 @@
           "course_name": "SAP IBP Online Training",
           "path": "sap-ibp",
           "image": "/sap-courses.jpg",
-
           "description": "Master SAP's cloud-based supply chain planning solution covering demand planning, inventory optimization, supply planning, and sales & operations planning (S&OP) with hands-on HANA-powered scenarios.",
           "what_youll_learn": [
             "SAP IBP architecture and solution strategy",
@@ -1748,11 +1752,16 @@
             },
             {
               "module": "Cloud Security",
-              "subtopics": ["Cloud security overview"]
+              "subtopics": [
+                "Cloud security overview"
+              ]
             },
             {
               "module": "Data Integration",
-              "subtopics": ["Data import options", "Web UI data import"]
+              "subtopics": [
+                "Data import options",
+                "Web UI data import"
+              ]
             },
             {
               "module": "User Administration",
@@ -1779,11 +1788,15 @@
             },
             {
               "module": "Disaggregation",
-              "subtopics": ["Disaggregation methods implementation"]
+              "subtopics": [
+                "Disaggregation methods implementation"
+              ]
             },
             {
               "module": "Active Object Management",
-              "subtopics": ["Active object deletion"]
+              "subtopics": [
+                "Active object deletion"
+              ]
             },
             {
               "module": "Supply Review",
@@ -1795,7 +1808,9 @@
             },
             {
               "module": "Advanced Configuration",
-              "subtopics": ["Helper key figure creation"]
+              "subtopics": [
+                "Helper key figure creation"
+              ]
             },
             {
               "module": "Statistical Forecasting",
@@ -1831,7 +1846,6 @@
           "course_name": "SAP APO Online Training",
           "path": "sap-apo",
           "image": "/sap-courses.jpg",
-
           "description": "Master SAP's supply chain planning suite covering Demand Planning, Supply Network Planning, Global ATP, and Production Scheduling. Learn to optimize end-to-end supply chain processes.",
           "what_youll_learn": [
             "Demand planning and forecasting techniques",
@@ -1920,7 +1934,6 @@
           "course_name": "SAP SRM Training",
           "path": "sap-srm",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP Supplier Relationship Management covering procurement processes, technical configurations, workflow automation, and supplier integration.",
           "what_youll_learn": [
             "Enterprise Buyer Professional (EBP) scenarios",
@@ -2012,7 +2025,9 @@
             },
             {
               "module": "Extended Classic Scenarios",
-              "subtopics": ["Customize Settings for Extended Classic Scenario"]
+              "subtopics": [
+                "Customize Settings for Extended Classic Scenario"
+              ]
             },
             {
               "module": "Plan Driven Procurement",
@@ -2026,7 +2041,9 @@
             },
             {
               "module": "Service Procurement",
-              "subtopics": ["Overview on Service Procurement"]
+              "subtopics": [
+                "Overview on Service Procurement"
+              ]
             },
             {
               "module": "Catalog Content Management - CCM",
@@ -2040,7 +2057,9 @@
             },
             {
               "module": "Sourcing",
-              "subtopics": ["Sourcing and Bidding Engine Overview"]
+              "subtopics": [
+                "Sourcing and Bidding Engine Overview"
+              ]
             }
           ],
           "duration": "45-55 hours",
@@ -2057,7 +2076,6 @@
           "course_name": "SAP FSCM (Retail) Training",
           "path": "sap-fscm",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP Financial Supply Chain Management for retail, covering merchandise planning, pricing, procurement, and store operations with hands-on retail scenarios.",
           "what_youll_learn": [
             "Retail-specific FSCM processes",
@@ -2161,7 +2179,6 @@
           "course_name": "SAP CRM Training",
           "path": "sap-crm",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP Customer Relationship Management covering architecture, marketing, sales, service, and middleware integration. Gain hands-on experience with Web UI and Interaction Center.",
           "what_youll_learn": [
             "CRM architecture and organizational model",
@@ -2310,9 +2327,7 @@
           "meta_title": "SAP Quality Management Course Online | SAP QM Training | SAP QM Certificate",
           "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
           "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
-
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Configure SAP QM enterprise structure",
             "Master QM-specific master data management",
@@ -2403,7 +2418,10 @@
             },
             {
               "module": "Reports",
-              "subtopics": ["Standard QM Reports", "Stock Based Reports"]
+              "subtopics": [
+                "Standard QM Reports",
+                "Stock Based Reports"
+              ]
             },
             {
               "module": "ABAP Work and QM tables",
@@ -2413,7 +2431,6 @@
               ]
             }
           ],
-
           "duration": "45 hours",
           "skill_level": "Intermediate",
           "placement_assurance": true,
@@ -2430,7 +2447,6 @@
           "meta_description": "Get SAP Ariba training online. Learn sourcing & procurement with certification. Start your expert journey – enroll now!",
           "description": "Comprehensive training in SAP Ariba covering procurement, sourcing, contracts, supplier management, and network integration for end-to-end supply chain collaboration.",
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Understand SAP Ariba cloud procurement solutions",
             "Configure Ariba-SAP integration (CIG and Cloud Connector)",
@@ -2593,7 +2609,6 @@
               ]
             }
           ],
-
           "duration": "50 hours",
           "skill_level": "Intermediate to Advanced",
           "placement_assurance": true,
@@ -2611,7 +2626,6 @@
           "meta_description": "Learn SAP MDG on S/4HANA online. Get certified & become a governance expert. Enroll now for training with real-world use cases!",
           "description": "Comprehensive training in SAP MDG covering master data domains, data modeling, governance workflows, and integration with S/4HANA for enterprise data management.",
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Understand MDG architecture in S/4HANA environment",
             "Configure master data domains (BP, Material, Financial)",
@@ -2740,7 +2754,6 @@
               ]
             }
           ],
-
           "duration": "55 hours",
           "skill_level": "Advanced",
           "placement_assurance": true,
@@ -2756,7 +2769,6 @@
           "path": "photoshop-certification",
           "description": "Comprehensive training in Adobe Photoshop covering photo editing, retouching, compositing, graphic design, and digital imaging techniques for professional certification.",
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Master Photoshop interface and essential tools",
             "Perform professional photo retouching and color correction",
@@ -2870,7 +2882,6 @@
               ]
             }
           ],
-
           "duration": "40 hours",
           "skill_level": "Beginner to Advanced",
           "placement_assurance": true,
@@ -2889,7 +2900,6 @@
           "meta_description": "Master SAP Basis administration online. Get certification & hands-on training. Start your consultant journey – enroll today!",
           "description": "Comprehensive training in SAP BASIS administration covering system installation, configuration, user management, transport system, database administration, and performance monitoring.",
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Understand SAP architecture and components",
             "Install and configure SAP systems",
@@ -3040,7 +3050,6 @@
               ]
             }
           ],
-
           "duration": "60 hours",
           "skill_level": "Intermediate to Advanced",
           "placement_assurance": true,
@@ -3059,7 +3068,6 @@
           "meta_description": "Learn SAP Sales Cloud (C4C) online with certification. Become a CRM expert with flexible training. Enroll now!",
           "description": "Comprehensive training in SAP Sales Cloud (part of SAP CX suite) covering lead-to-cash processes, CRM configuration, and integration with S/4HANA for modern sales teams.",
           "image": "/sap-courses.jpg",
-
           "what_youll_learn": [
             "Navigate SAP Sales Cloud interface and personalize dashboards",
             "Manage master data (accounts, contacts, products)",
@@ -3200,7 +3208,6 @@
               ]
             }
           ],
-
           "duration": "50 hours",
           "skill_level": "Beginner to Advanced",
           "placement_assurance": true,
@@ -3212,12 +3219,10 @@
             "Mobile sales enablement setup"
           ]
         },
-
         {
           "course_name": "SAP IS Insurance Training",
           "path": "sap-is-insurance",
           "image": "/sap-courses.jpg",
-
           "description": "Comprehensive training in SAP Insurance Solutions covering collections, disbursements, claims management, and commission processing for insurance providers.",
           "what_youll_learn": [
             "Insurance master data management",
@@ -3256,7 +3261,10 @@
             },
             {
               "module": "Collections/Disbursement by Third Party",
-              "subtopics": ["Broker collection", "Data transfer processes"]
+              "subtopics": [
+                "Broker collection",
+                "Data transfer processes"
+              ]
             },
             {
               "module": "SAP Collections and Disbursements",
@@ -3300,7 +3308,6 @@
           "course_name": "SAP PLM Training",
           "path": "sap-plm",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP PLM Course Online | SAP PLM Online Training | SAP PLM Certificate",
           "meta_description": "Boost your career with SAP PLM training and certification. Learn to manage product lifecycles effectively. Enroll today!",
           "description": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance for manufacturing industries.",
@@ -3385,7 +3392,6 @@
           "course_name": "SAP LE Certification Training",
           "path": "sap-le",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP LE Certification Course Online | SAP LE Certification Online Training | SAP LE Certification Certificate",
           "meta_description": "Learn SAP LE with hands-on training and certification. Streamline logistics and elevate your SAP skills. Start now!",
           "description": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations.",
@@ -3401,19 +3407,31 @@
           "syllabus": [
             {
               "module": "Introduction to SAP LE Tools",
-              "subtopics": ["Tools overview", "Best practices"]
+              "subtopics": [
+                "Tools overview",
+                "Best practices"
+              ]
             },
             {
               "module": "Core Concepts",
-              "subtopics": ["Data security", "Operational commands"]
+              "subtopics": [
+                "Data security",
+                "Operational commands"
+              ]
             },
             {
               "module": "Advanced Features",
-              "subtopics": ["Customization", "Legal task organization"]
+              "subtopics": [
+                "Customization",
+                "Legal task organization"
+              ]
             },
             {
               "module": "Business Monitoring",
-              "subtopics": ["Process monitoring", "Workflow optimization"]
+              "subtopics": [
+                "Process monitoring",
+                "Workflow optimization"
+              ]
             },
             {
               "module": "Integration",
@@ -3424,11 +3442,17 @@
             },
             {
               "module": "Reporting",
-              "subtopics": ["Legal analytics", "Documentation standards"]
+              "subtopics": [
+                "Legal analytics",
+                "Documentation standards"
+              ]
             },
             {
               "module": "Project Management",
-              "subtopics": ["Workflow management", "Version control"]
+              "subtopics": [
+                "Workflow management",
+                "Version control"
+              ]
             }
           ],
           "duration": "40-50 hours",
@@ -3445,7 +3469,6 @@
           "course_name": "SAP Healthcare Training",
           "path": "sap-healthcare",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Healthcare Course Online | SAP Healthcare Online Training | SAP Healthcare Certificate",
           "meta_description": "Enroll in SAP Healthcare training and certification. Advance your career in healthcare IT with expert instruction.",
           "description": "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing for healthcare providers.",
@@ -3461,31 +3484,52 @@
           "syllabus": [
             {
               "module": "Process Overview",
-              "subtopics": ["Healthcare processes", "System architecture"]
+              "subtopics": [
+                "Healthcare processes",
+                "System architecture"
+              ]
             },
             {
               "module": "Patient Management",
-              "subtopics": ["Master data", "Patient movements"]
+              "subtopics": [
+                "Master data",
+                "Patient movements"
+              ]
             },
             {
               "module": "Clinical Processes",
-              "subtopics": ["Clinical workplace", "Process builder"]
+              "subtopics": [
+                "Clinical workplace",
+                "Process builder"
+              ]
             },
             {
               "module": "Medical Documentation",
-              "subtopics": ["Documentation standards", "AC documentation"]
+              "subtopics": [
+                "Documentation standards",
+                "AC documentation"
+              ]
             },
             {
               "module": "Service Management",
-              "subtopics": ["Service master", "Service entry"]
+              "subtopics": [
+                "Service master",
+                "Service entry"
+              ]
             },
             {
               "module": "Insurance Management",
-              "subtopics": ["Provider relationships", "Coverage validation"]
+              "subtopics": [
+                "Provider relationships",
+                "Coverage validation"
+              ]
             },
             {
               "module": "Invoicing",
-              "subtopics": ["Pricing settings", "Payment distribution"]
+              "subtopics": [
+                "Pricing settings",
+                "Payment distribution"
+              ]
             }
           ],
           "duration": "45-55 hours",
@@ -3502,7 +3546,6 @@
           "course_name": "SAP IS Banking Training",
           "path": "sap-is-banking",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP IS Banking Course Online | SAP IS Banking Online Training | SAP IS Banking Certificate",
           "meta_description": "Join SAP IS Banking training and get certified. Learn core banking functions with SAP solutions. Enroll today!",
           "description": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, financial conditions and product configuration for financial institutions.",
@@ -3518,31 +3561,52 @@
           "syllabus": [
             {
               "module": "Loans Management",
-              "subtopics": ["Loan processing", "Collateral management"]
+              "subtopics": [
+                "Loan processing",
+                "Collateral management"
+              ]
             },
             {
               "module": "Payment Management",
-              "subtopics": ["Exception handling", "Payment workflows"]
+              "subtopics": [
+                "Exception handling",
+                "Payment workflows"
+              ]
             },
             {
               "module": "Financial Conditions",
-              "subtopics": ["Condition types", "Settlement processing"]
+              "subtopics": [
+                "Condition types",
+                "Settlement processing"
+              ]
             },
             {
               "module": "Product Configurator",
-              "subtopics": ["Product modeling", "Configuration rules"]
+              "subtopics": [
+                "Product modeling",
+                "Configuration rules"
+              ]
             },
             {
               "module": "Contract Management",
-              "subtopics": ["Master contracts", "Basic functions"]
+              "subtopics": [
+                "Master contracts",
+                "Basic functions"
+              ]
             },
             {
               "module": "Banking Products",
-              "subtopics": ["Deposit products", "Card products"]
+              "subtopics": [
+                "Deposit products",
+                "Card products"
+              ]
             },
             {
               "module": "Integration",
-              "subtopics": ["SOA architecture", "System integration"]
+              "subtopics": [
+                "SOA architecture",
+                "System integration"
+              ]
             }
           ],
           "duration": "50-60 hours",
@@ -3559,7 +3623,6 @@
           "course_name": "SAP BPC Online Training",
           "path": "sap-is-bpc",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP BPC Course Online | SAP BPC Online Training | SAP BPC Certificate",
           "meta_description": "Master SAP BPC with certification. Get industry-ready with in-depth training on planning and consolidation tools.",
           "description": "Complete training in SAP Business Planning and Consolidation covering reporting, data acquisition, transformation, and consolidation for financial professionals.",
@@ -3583,7 +3646,11 @@
             },
             {
               "module": "EPM Integration",
-              "subtopics": ["Excel integration", "Web client", "Comments"]
+              "subtopics": [
+                "Excel integration",
+                "Web client",
+                "Comments"
+              ]
             },
             {
               "module": "Reporting",
@@ -3595,19 +3662,35 @@
             },
             {
               "module": "Data Management",
-              "subtopics": ["Acquisition", "Transformations", "Logic scripts"]
+              "subtopics": [
+                "Acquisition",
+                "Transformations",
+                "Logic scripts"
+              ]
             },
             {
               "module": "Business Processes",
-              "subtopics": ["Drill through", "Process flows", "Notifications"]
+              "subtopics": [
+                "Drill through",
+                "Process flows",
+                "Notifications"
+              ]
             },
             {
               "module": "Dashboards",
-              "subtopics": ["Crystal dashboards", "Flash objects", "Data input"]
+              "subtopics": [
+                "Crystal dashboards",
+                "Flash objects",
+                "Data input"
+              ]
             },
             {
               "module": "Consolidation",
-              "subtopics": ["Controls", "Currency translation", "Monitor"]
+              "subtopics": [
+                "Controls",
+                "Currency translation",
+                "Monitor"
+              ]
             }
           ],
           "duration": "55-65 hours",
@@ -3624,7 +3707,6 @@
           "course_name": "SAP PM Course",
           "path": "sap-pm",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP PM Course Course Online | SAP PM Course Online Training | SAP PM Course Certificate",
           "meta_description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
           "description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
@@ -3656,7 +3738,11 @@
             },
             {
               "module": "Maintenance Processes",
-              "subtopics": ["Task lists", "Maintenance plans", "Orders"]
+              "subtopics": [
+                "Task lists",
+                "Maintenance plans",
+                "Orders"
+              ]
             },
             {
               "module": "Breakdown Maintenance",
@@ -3668,7 +3754,11 @@
             },
             {
               "module": "Planned Maintenance",
-              "subtopics": ["Scheduling", "Execution", "Control"]
+              "subtopics": [
+                "Scheduling",
+                "Execution",
+                "Control"
+              ]
             },
             {
               "module": "Integration",
@@ -3680,7 +3770,10 @@
             },
             {
               "module": "Interfaces",
-              "subtopics": ["Process control systems", "CAD systems"]
+              "subtopics": [
+                "Process control systems",
+                "CAD systems"
+              ]
             }
           ],
           "duration": "45-55 hours",
@@ -3697,7 +3790,6 @@
           "course_name": "SAP ESS Online",
           "path": "sap-ess",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP ESS Course Online | SAP ESS Online Training | SAP ESS Certificate",
           "meta_description": "Enroll in SAP ESS training and earn certification. Enhance your skills in employee self-service solutions.",
           "description": "Comprehensive training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management for HR professionals.",
@@ -3721,7 +3813,10 @@
             },
             {
               "module": "Employee Self Services",
-              "subtopics": ["Employee search", "Personal data updates"]
+              "subtopics": [
+                "Employee search",
+                "Personal data updates"
+              ]
             },
             {
               "module": "Personnel Information",
@@ -3749,7 +3844,10 @@
             },
             {
               "module": "Travel Management",
-              "subtopics": ["Travel requests", "Expense reporting"]
+              "subtopics": [
+                "Travel requests",
+                "Expense reporting"
+              ]
             },
             {
               "module": "Manager Self-Services",
@@ -3773,7 +3871,6 @@
           "course_name": "SAP Hybris E-Commerce Online Training",
           "path": "sap-hybris-ecommerce",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Hybris E-Commerce Course Online | SAP Hybris E-Commerce Online Training | SAP Hybris E-Commerce Certificate",
           "meta_description": "Learn SAP Hybris eCommerce with expert training and certification. Build your career in digital commerce.",
           "description": "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience for digital commerce professionals.",
@@ -3805,7 +3902,11 @@
             },
             {
               "module": "Hybris Tools",
-              "subtopics": ["Backoffice", "Product cockpit", "Smart edit"]
+              "subtopics": [
+                "Backoffice",
+                "Product cockpit",
+                "Smart edit"
+              ]
             },
             {
               "module": "Products & Catalogs",
@@ -3854,7 +3955,6 @@
           "course_name": "SAP BO",
           "path": "sap-bo",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP BO Course Online | SAP BO Online Training | SAP BO Certificate",
           "meta_description": "Join SAP BO training and certification program. Learn to create impactful business intelligence reports.",
           "description": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development for BI professionals.",
@@ -3939,7 +4039,6 @@
           "course_name": "SAP BOBJ Training",
           "path": "sap-bobj",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP BOBJ Course Online | SAP BOBJ Online Training | SAP BOBJ Certificate",
           "meta_description": "Master SAP BOBJ with training and certification. Learn business intelligence reporting tools. Enroll now!",
           "description": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration for enterprise BI solutions.",
@@ -3971,7 +4070,11 @@
             },
             {
               "module": "Universe Design",
-              "subtopics": ["Advanced objects", "SQL traps", "Hierarchies"]
+              "subtopics": [
+                "Advanced objects",
+                "SQL traps",
+                "Hierarchies"
+              ]
             },
             {
               "module": "Web Intelligence",
@@ -3983,15 +4086,27 @@
             },
             {
               "module": "Crystal Reports",
-              "subtopics": ["Parameterized reports", "Cross-tabs", "Templates"]
+              "subtopics": [
+                "Parameterized reports",
+                "Cross-tabs",
+                "Templates"
+              ]
             },
             {
               "module": "Dashboards",
-              "subtopics": ["Xcelsius development", "Live Office", "Widgets"]
+              "subtopics": [
+                "Xcelsius development",
+                "Live Office",
+                "Widgets"
+              ]
             },
             {
               "module": "OLAP",
-              "subtopics": ["Universe creation", "Cube access", "Hierarchies"]
+              "subtopics": [
+                "Universe creation",
+                "Cube access",
+                "Hierarchies"
+              ]
             }
           ],
           "duration": "70-80 hours",
@@ -4008,7 +4123,6 @@
           "course_name": "SAP Fieldglass",
           "path": "sap-fieldglass",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Fieldglass Course Online | SAP Fieldglass Online Training | SAP Fieldglass Certificate",
           "meta_description": "Get certified in SAP Fieldglass. Hands-on training to manage external workforce efficiently. Enroll today!",
           "description": "Comprehensive training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement for HR and procurement professionals.",
@@ -4048,7 +4162,11 @@
             },
             {
               "module": "Worker Management",
-              "subtopics": ["Onboarding", "Compliance", "Performance tracking"]
+              "subtopics": [
+                "Onboarding",
+                "Compliance",
+                "Performance tracking"
+              ]
             },
             {
               "module": "Time & Expense",
@@ -4089,7 +4207,6 @@
           "course_name": "SAP Data Archiving",
           "path": "sap-data-archiving",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Data Archiving Course Online | SAP Data Archiving Online Training | SAP Data Archiving Certificate",
           "meta_description": "Learn SAP Data Archiving with training and certification. Optimize storage and improve performance.",
           "description": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance for system administrators and data managers.",
@@ -4113,7 +4230,11 @@
             },
             {
               "module": "Archiving Objects",
-              "subtopics": ["Customizing", "File management", "Residence times"]
+              "subtopics": [
+                "Customizing",
+                "File management",
+                "Residence times"
+              ]
             },
             {
               "module": "Data Assignment",
@@ -4125,7 +4246,11 @@
             },
             {
               "module": "Transaction SARA",
-              "subtopics": ["Job scheduling", "Monitoring", "Error handling"]
+              "subtopics": [
+                "Job scheduling",
+                "Monitoring",
+                "Error handling"
+              ]
             },
             {
               "module": "Data Access",
@@ -4166,7 +4291,6 @@
           "course_name": "SAP Solution Manager",
           "path": "sap-solution-manager",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Solution Manager Course Online | SAP Solution Manager Online Training | SAP Solution Manager Certificate",
           "meta_description": "Enroll in SAP Solution Manager training with certification. Learn to manage and support SAP landscapes.",
           "description": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, change management, and implementation for SAP administrators.",
@@ -4251,7 +4375,6 @@
           "course_name": "SAP Aerospace & Defense",
           "path": "sap-aerospace-and-defense",
           "image": "/sap-courses.jpg",
-
           "meta_title": "SAP Aerospace & Defense Course Online | SAP Aerospace & Defense Online Training | SAP Aerospace & Defense Certificate",
           "meta_description": "Join SAP Aerospace & Defense training with certification. Learn to manage complex defense processes.",
           "description": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, compliance, and project management for A&D professionals.",
@@ -4307,7 +4430,11 @@
             },
             {
               "module": "Compliance",
-              "subtopics": ["ITAR/EAR", "GRC integration", "Data security"]
+              "subtopics": [
+                "ITAR/EAR",
+                "GRC integration",
+                "Data security"
+              ]
             },
             {
               "module": "Project System",
@@ -4449,7 +4576,10 @@
           "skill_level": "Intermediate",
           "image": "https://cdn.wallpapersafari.com/93/19/TlAbiK.jpg",
           "placement_assurance": true,
-          "projects": ["E-commerce Application", "Banking System"]
+          "projects": [
+            "E-commerce Application",
+            "Banking System"
+          ]
         },
         {
           "course_name": "Spring Boot Online Training",
@@ -4681,7 +4811,10 @@
           "skill_level": "Beginner",
           "image": "https://c4.wallpaperflare.com/wallpaper/491/444/897/python-code-computer-programming-wallpaper-preview.jpg",
           "placement_assurance": true,
-          "projects": ["Data Analysis Tool", "Web Scraper"]
+          "projects": [
+            "Data Analysis Tool",
+            "Web Scraper"
+          ]
         },
         {
           "course_name": "C Sharp",
@@ -4700,11 +4833,15 @@
           "syllabus": [
             {
               "module": "Introduction to Object Orientation",
-              "subtopics": ["Principles of Object Orientation"]
+              "subtopics": [
+                "Principles of Object Orientation"
+              ]
             },
             {
               "module": "OO and C Sharp",
-              "subtopics": ["How C# implements Object Orientation"]
+              "subtopics": [
+                "How C# implements Object Orientation"
+              ]
             },
             {
               "module": "Introduction to .NET Visual Studio & C#",
@@ -4773,7 +4910,9 @@
             },
             {
               "module": "Generic Delegates",
-              "subtopics": ["Using the framework-supplied generic delegates"]
+              "subtopics": [
+                "Using the framework-supplied generic delegates"
+              ]
             },
             {
               "module": "LINQ",
@@ -4802,7 +4941,10 @@
             },
             {
               "module": "Producing Events",
-              "subtopics": ["The event conventions", "Raising custom events"]
+              "subtopics": [
+                "The event conventions",
+                "Raising custom events"
+              ]
             },
             {
               "module": "Garbage Collection",
@@ -4820,14 +4962,20 @@
             },
             {
               "module": "The Way Ahead",
-              "subtopics": ["Review", "Follow-on courses"]
+              "subtopics": [
+                "Review",
+                "Follow-on courses"
+              ]
             }
           ],
           "duration": "35 hours",
           "skill_level": "Intermediate",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPO8cA8sAHtXEDYFeK_prPOvLgJk10fgc8_g&s",
           "placement_assurance": true,
-          "projects": ["Event Management System", "LINQ Data Analyzer"]
+          "projects": [
+            "Event Management System",
+            "LINQ Data Analyzer"
+          ]
         },
         {
           "course_name": "R Programming",
@@ -4903,7 +5051,10 @@
           "skill_level": "Intermediate",
           "image": "https://tcagurgaon.in/BackendImages/CourseImages/data-science-data-science-r-programming.jpg",
           "placement_assurance": true,
-          "projects": ["Data Analysis Project", "Predictive Modeling"]
+          "projects": [
+            "Data Analysis Project",
+            "Predictive Modeling"
+          ]
         },
         {
           "course_name": "JavaScript",
@@ -4971,7 +5122,10 @@
           "skill_level": "Beginner",
           "image": "https://i.ytimg.com/vi/jS4aFq5-91M/hqdefault.jpg",
           "placement_assurance": true,
-          "projects": ["Interactive Web Application", "Single Page Application"]
+          "projects": [
+            "Interactive Web Application",
+            "Single Page Application"
+          ]
         },
         {
           "course_name": "Perl Scripting",
@@ -5110,7 +5264,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ps.png",
           "placement_assurance": true,
-          "projects": ["Log Analyzer", "System Admin Toolkit"]
+          "projects": [
+            "Log Analyzer",
+            "System Admin Toolkit"
+          ]
         },
         {
           "course_name": "TypeScript",
@@ -5229,7 +5386,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ts.png",
           "placement_assurance": true,
-          "projects": ["Type-Safe Application", "API Wrapper Library"]
+          "projects": [
+            "Type-Safe Application",
+            "API Wrapper Library"
+          ]
         },
         {
           "course_name": "C and C++ Programming",
@@ -5490,7 +5650,10 @@
           "skill_level": "Intermediate",
           "image": "https://news.gala.com/wp-content/uploads/2024/08/Gala-Devspeak-Back-End-Front-End-Full-Stack-Blog-Banner-1920x1080-1.jpg",
           "placement_assurance": true,
-          "projects": ["E-commerce Website", "Social Media App"]
+          "projects": [
+            "E-commerce Website",
+            "Social Media App"
+          ]
         },
         {
           "course_name": "Node.js",
@@ -5558,7 +5721,10 @@
           "skill_level": "Intermediate",
           "image": "https://s3.ap-south-1.amazonaws.com/stage.radixweb.com/When_to_Consider_Using_Node_js_0d84032172.jpg",
           "placement_assurance": true,
-          "projects": ["RESTful API", "Scalable Web Application"]
+          "projects": [
+            "RESTful API",
+            "Scalable Web Application"
+          ]
         },
         {
           "course_name": "ReactJS",
@@ -5626,7 +5792,10 @@
           "skill_level": "Intermediate",
           "image": "https://media.licdn.com/dms/image/v2/D5612AQFGwpK48J3nlQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1683494761628?e=2147483647&v=beta&t=pvgPIx9p39857-gFSVrPOo9lUyMAhmXzOXJFx0JRdTI",
           "placement_assurance": true,
-          "projects": ["Interactive User Interface", "Single Page Application"]
+          "projects": [
+            "Interactive User Interface",
+            "Single Page Application"
+          ]
         },
         {
           "course_name": "Angular",
@@ -5788,7 +5957,10 @@
           "skill_level": "Intermediate",
           "image": "https://stream-blog-v2.imgix.net/blog/wp-content/uploads/f9547f9b9ba2dfa409118a00d2b7691d/Angular.png?auto=format&auto=compress",
           "placement_assurance": true,
-          "projects": ["E-Commerce Dashboard", "User Authentication System"]
+          "projects": [
+            "E-Commerce Dashboard",
+            "User Authentication System"
+          ]
         },
         {
           "course_name": "WordPress",
@@ -5897,7 +6069,10 @@
           "skill_level": "Beginner",
           "image": "data:image/png;base64,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",
           "placement_assurance": true,
-          "projects": ["Personal Blog", "Business Website"]
+          "projects": [
+            "Personal Blog",
+            "Business Website"
+          ]
         },
         {
           "course_name": "HTML",
@@ -6048,7 +6223,10 @@
           "skill_level": "Beginner",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5K08rKxUEHZsgxTHElnQc6bFEmuVzD6FUg&s",
           "placement_assurance": true,
-          "projects": ["Personal Portfolio", "Interactive Form"]
+          "projects": [
+            "Personal Portfolio",
+            "Interactive Form"
+          ]
         },
         {
           "course_name": "CSS Online",
@@ -6112,7 +6290,10 @@
           "skill_level": "Beginner to Intermediate",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVjOKsxevuJrGJC1s8BSbUzGjEI8BeaX-Fg&s",
           "placement_assurance": true,
-          "projects": ["Responsive Product Gallery", "Modern Dashboard Layout"]
+          "projects": [
+            "Responsive Product Gallery",
+            "Modern Dashboard Layout"
+          ]
         },
         {
           "course_name": "jQuery",
@@ -6302,7 +6483,10 @@
           "skill_level": "Beginner to Intermediate",
           "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDxANDg8VDxAPDw0OEBAPEBUNDw8OFhUWFhURFxUYHSghGBomHRUVITEiJSkuLjouGB8zODMsNygtLisBCgoKDg0OFxAQFyseHiUrLS0tLystLSstKy4tLS0rKy0rLSstLS0rMC0tKy0uKy4tLS0rLy0tLS0rLS0tNystK//AABEIAOEA4QMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAgEHAwUGBAj/xABGEAABAwIDAwgFCQUHBQAAAAABAAIDBBEFEiEGMVEHEyJBYXGBkRQyUqGxIzNCYnKCksHRFSQ0Q3Nkg6Kys8LSJWN0k/D/xAAbAQEBAQADAQEAAAAAAAAAAAAAAQIDBAUGB//EADgRAQABAwEECAUDAwQDAQAAAAABAgMRBAUSITEiMkFRcZGh0RNhgbHhBkLBFFLwFSNi8SRTsjP/2gAMAwEAAhEDEQA/ALaXZdAIBAIBAIBAIBAICygmyAsiiyAsgLICyIiyAVAgEAgEAgEAgEAgEAgEAgEAgEAgEE2UVNkE2UXCbIYFkXCbIYFkMIshgWRMIshhFlUwiyCFUCAQCAQCAQCAQCAQCAQCAQSAoJARTAKLhICi4MGouE5UXCcqi4GVDAypkwMqGEZVUwjKhhBCJgpCrOCkKoghBCqBAIBAIBAIBAIBAIBBICimAUUwCi4MAjWDAKLg1kXAsoqbICyDV4tizYTFE3pTVEgiiZ273PP1WtuT4DrXY09ibm9VPVpjMz9o8ZnhDdFG9meyG0suuwEEWREFqqYKQqmCkImCEKslIVRCqBAIBAIBAIBAIBBICinAUUwCjUQcBRrBgFFTZFDjYXQc6/G+er2YfAdImmoqnj6LRbJCDxJLSewW69O/TpdzSzqK+2cUx95+nZ83NFvFG/PhDo10HEx1D8rSVBWmC1/pe0OYm7KeOoZEOoFvRc7vJc7yC+lu2P6fZMd9cxM/XjHpEO1MbtnHes9fNuqEBZERZBFkCkKs4KQqzMEIVQpCrJVUCAQCAQCAQCCQFFOAopwFGog4CjeElRWirsbvVw4fBrLJeSVw15inbqXH6ztGjvvwv3bOl/2a9RX1Y4R86p/iOc+Tlpt9Ga55feW/XScbSbWYuKWmlmOpY05QdMzzo1viSF2NJp51F6i1HbPp2+jdujeqiHI8jsbnmtqpDmfJJG0uO8mznuPm4L3P1DMUfBtUxiIifaPs7OqmOjTCyl806jxYqbMKk8hTvJ/Vc3ikD3H50yxkni8G3+Ky+62ta3tFVTHZifL8OSqvMYXevhnGEQIIVAiIQKQqmCEKszBCFWSkKslVQIBAIBAIJCgYBRo7Qo1EMgCjcGCitLtVjLKSnkmdrlGg9p50a3xK7Gk01WpvU2qe30jtlyW6JrqimHH8kkT5pq3EJjmke5kWbtPTeB2epp2Be5t+abVFnT0cIjj/ABH8u1q5iIpojksxfNOkq/larTaGnB9Z7pCOIYAB73e5fR/p21m5cuT2REef/TsWOEzL38jJ/dqpvWKhp8DG23wKz+o//wBrc/8AH+ZL85mFhr55wPFijbsKkqoiohdDO4NOV8MpLT1gtddrvcCv0KzcpvWaap4xVHH6xxdOq5iZheez+Ksq6aOoZvcLPb7Eg9Zvn7rL4bV6erT3arc9nL5x2OzRVFUZhsV12kWQQgERCogohSFUkjgqzMEIVYIVUQqgQCAQCBgFFO0LLUMjQo3Bwo0HGwugqDlUxUyTspQejGOdf9s3DR4C/wCJfV/p3TYoqvzznhHhHP1+zvaaMRNTquSGEDD3O631ExPgGt/Jef8AqCrOrx3Ux/MuLUzmt279xXhuBTfKa4mrjHUIr+Jc6/wC+t/T0f7Fc/8AL+IbirDZcj9WGz1FOT85GyVo7WEg+548lj9Q2s27dzumY8/+kmrK1bL5RCTx5mkIKm27wgxzc+B0X2a/seNx8R8F9NsTV5omxVzjjHh2+TztbTNM78cnk2S2gfQyk2L4ZCBLGN/Y9v1h7/K3f2hoqdVR3VRyn+J+Tr2dV8OePJb1BWxTxtmheHsduI+BHUexfHXbVdqqaK4xMPXorprjepnMPQuNoKoiyCCiMTZmlxYDdwAcQNSAdxPC9j5Fa3ZxvdiZjODlQK4KsyxuCrMkIWmSFGQqBAIJCinAUWDtCjcMgWWjBFYKx9mEqK+f8fqOdq6iX2pXgfZb0R7mhfoegt/C01uj5R68Z9Zd2icUxC1uSVw/Z1vZqJwfGzvzXy234/8ALz/xhwXZzU7Nw0XiONUvKbTWmiktvbIw+BBHxK+n/T1zo3KPnE/x/DiuTjDnNncRNJVQ1I3Rv6YHXGei8eRPjZe1rLEaixVb744ePY44uYlf0T2ua17Tma4BzSNxaRcFfn8xMTMTzdoyg1WN4W2ZjmubcEEELVu5VbqiumcTDNVMVxNNXKVU4zgklM8ggujJ6L/yPAr7DRbQo1NOOVXbHt8nzmr09ennvp7/AHY8JxSopX56eQtv6zT0o3/ab19+9c+o01q/Ti5GfvH1cFrVV2pzTPs7fDeUKMgCphcw9bovlGd9jqPevCvbFrjjaqifHhPt9nqWtrUT16ceHFuYtr6BwuKgDsc1zD7wujVs3VR+z7O3Tr9PP74YqnbOhYNJc54MY53vtZbo2Xqqv2Y8ZhmraGnp/dnwaGo2tqat4p6CLIXfzJLEtHtEC4aO037l3admWtPT8TU1Zjujt+XfPo6s7QrvVblinj3z2ezrcDw0U8WQuMkjjnlkdq6SQ73HyAHYAvK1F+b1ecYjlEd0PRtWvh04zme2e+WwXA5ClAjgtMSxkKsyQqsoVQIBAwUU7VlqGRoUbg4UaSivDjDrRnuKiw+ezrrxJPmv0yOEYcu8tDkcqhzdVT9bZI5h3OblP+Qea+W/UVvp27nfEx5cf5ZqnKxl82y4blGw3PA54GsZEg7h63uJ8l6eyL/wtTETyq4e3q4r8Zome5V+VfaZed8RZXJntEC0YdM7pNuadx+kzeY+8akdncvmNtaHFX9RRHCet49/17fm7mmvRPQn6LBsvn3cFkHgr8MZKCCAbixBFwVYmaZzE4lJiJjExmHGYpsQLl0JyfVIzN/UL19Ptm5RwuRvfPlP5eRf2Rbr4253fWPw0M2y9U3cwO+y79bL06Nr6arnMx4x7ZebXsrU08oifCffBI9mqsm3M273N/Vbnaulj93pPsxTs3VT+3H1huMO2FlcQZnho4M6Tj4nd710r22qeVqnPj7O5Z2PVzu1eXu7fCcHhpmZImBvE73OPEnrXi3tRcvVb1ycvZtWKLNO7RGHvXC5UKogohXKpLG4KsSxlaYkqqBABQOFGoZGqNQyBRuDBRUqK1+MtvGe4pnCwoEx2JHAkeS/SYqzGXHvOl5O8R9HxCPMbMnBp3cLuILD+INHivM2xY+Npasc6ePlz9Firiu1fEOV4sUphIwi19CmcCmMcws00zo7dE3dGeLeHeNy+30GrjU2Yq7Y4T4/l4epom1Xjs7HgjJaQ5pLXNIc1wNiHDUEHiu5OJjE8nB8TC1djtsmVAbT1JDKgaNceiyfu4O7PLgPk9o7LqszNy1GaPt+Pn5vW02spudGrhP3dgvHd4IILUCGJvBVECJvBA1kQrjZB54axj3vjYcxjsHkahrjqGX9q2tu0cVy1W6qaYqnhnl7+DEVRMzEdjOuNUKoUojG5aZljKrElKrKFRIUDtUahkao3BwstmRUqDzYiy7CiqLxqm5upmZwkcR3O6Q9xC+90N34mmt1fKPThP2dSucVTDxgEag2I1BGhB4rtM769NkcaFZSRzXHON+TmA6pQNTbgdCO9fB6/Szpr00dnOPD8cnct170Zbqy6TkcvtZgDahh6nDVrvZd+i7Wj1dWmub9PLtjvj/OTg1FiL1G7PPsnuVbV0j4nmORuVzfIjiOIX2dm/Reoiuicw+bu01WqporjEsOVcuXHvut2f25qKcCOcekRDQEm0zR2O+l4+a8fV7ItXelb6M+n4+nk7+n2lXb4V9KPX8u7wvamiqLBkwa4/y5fkn34AHf4XXg39n6iz1qcx3xxj/PF69rWWbvVq4908JbgELpuyCgUuCqNVim0VLTg85M0O9hpzvP3RquzZ0d691KZ8eUebgu6m1a69Xv5ONrNp6qulFLQtMQfoXn1wzrcSNGD38F7FvZ1nS0fF1E72Ozsz3fP7PNq1ty/V8OzGPn2/h2+C4aymgZAzUNuS4+s951c89pK8XUX6r9ya6v+o7np2rcW6Iph7VwuRCqIKIRyrMsTlpiSFVlCqJCinao1DK1Zbg4UaSipUVErbghBU3KDh2SdswGjxkd9oaj3fBfTbC1GaKrU9nGPCefr93T1UYmKnKZV7+XU32+2Ox80NRndcwyWZM0a6dTwOIufAleftHRxqrWI60cvb6uW1f3KuPJdUMrXta9jg5rgHNc03DmnUEFfE1UzTMxMYl6kTnjBnNBFiornNodmo526jUXLXD1mns/RdnS6u5p6t6ifGOyXBqNNbv04rjwnthXOKYHNTk5m5me20aeI6l9Rpdo2dRwicVd0/x3vm9Vob1jjMZp74/nua2y77o7wypk3npp66eP5qaSPsZI5o8gVxV2bdfWpifGIclGouUdWqY+r1jaGu3elSfiuuD+h03/AK4c39fqP/ZLzVGJ1MnzlRI8cDI63ldctGms0dWiI+kOOrVXautXM/V6MHwGeqd8m2zL6yOFmju9o9y4tVrrWnjpTme6Of4cum0l2/PRjEd8/wCcVnbP4BFSMysF3OsXvPrPP5DsXy2q1dzU1b1f0jsh9Jp9NRYpxT9Z723XWc6CggqoUohXKsyxOVYkhWmSqokKKyNUahkastwcKNJCKYKKlBze12EieFzesi7TwcNQV2NJqJ096m5HZz8O1m7b+JRNKopIi0lrhZzSWkHqI3hfc01xXTFVM5iXhTMxOJLlWspvuv2I2tNIRTVBLqZx6Lt5gcevtZxHVvXj7T2bF/8A3LfX+/5dvTavc6NXL7LXika9oewhzXAFrmm4IO4gr5OYmmcTGJexExPGDlRXmqKFj94UHN4lsZBJchuUm+rOj7ty71naWotcIqzHdPH8uje2dp7vGacT3xw/DQ1Owrx6kng5t/eP0Xo0bcn99HlLz69hx+y55w8Z2Kqr+szzd/xXP/rdn+2r093WnYl/PWp9fZ66bYSU+vKB2NaT7yuKvbkfto85c1Gw5/fc8ob/AA3Yqmjs57TKf+5qPw7l0L21NRc4RO7Hy9+bv2dl6e3xxvT8/bk6WGBrBZosBw0Xn5y9A6IR0jRYE2zHKO077DyPkrETPJJlJQQVUKUQrlUljcq45YytMoRAEVkao1DI1ZluDhRpIRTBRUoEmjDmkFRVbbbYAWuNRG3d84B1gfS7x8O5e7sjX7k/Arnh2e317Pm83X6eZj4lP193G2X0rx94ZUN5vtmdqJ6I5R8rATd0Tja3EsP0T7vivP1uz7ep48qu/wB+92tPra7PDnHd7LSwTH6asbeF/SAu6N3Rkb3t4do0Xyup0d3TziuOHf2Pcsam3ejNE/TtbVdVzhBBCoXKOCAREFBBNlUaDaDaiClBaXZ5LaRtN3Hv9kdpXd0mhu6mejGI755fl1tRqrdnnPHueXZNs9QTiFVoXgtp4h6sUJ3uA4u014DtsuXXfCs/+Pa7OtPfP4+7j0013P8Adr7eUd0fl0xXnO2gqoUohXKpLG5ViWMrTCEQBFO1RqGVqy3Bwo0lFSFFMgkKK89ZSiRpCKrLafZl0TnSwtu3UuYB6vaOzsX0eztqRVEWr08eye/x+fzeJrdBMZuWo4dsezmLL3Xj7wshvGjcWkOaS1zTcOaS1wPEEblJiJjE8YWK5icw6nCtu6yGzZbVDR7fQk/GPzBXlX9j2LnGjoz8uMeX5ehZ2rdo4VdKPKfP8OpouUCjf86Hwn6zc7fNt/gvKubG1FPVxV6fd6NvatirrZp/z5NvDtLQv9Wqi+9IGHydZdOrQ6innbnyz9nap1lieVyPN6P2xS7/AEiL/wBrP1XF/T3f7J8pcnxrf90ecPLNtLQs31UX3ZA8+Tbrlp0Woq5W6vLH3cdWrsRzuR5tNX7f0jLiIPmP1W5G+brfBdy1sbUVdbFPr9nUubVsU9XNX+fNymLbZ1c92sIgYepmr7fbP5AL1tPsixb41dKfny8vfLzr207tfCnox8ufmybI7MOqXionB5kHN0t8zv8AjxPWs7R2jFmn4Vrrf/P5+zeh0c3Z+JX1fv8AhaDGgCw0AXy73klBBVQpRCuVZlicqxJCtMlVRIUDtUahkao3DIFltKKlQMipCipRWCppmvFiEHE7QbIBxMkPQdqSPoOPbwPavV0e1a7OKbnSp9Yebq9m0Xc1UdGr0lxVZRSQuyysLT1HqPcetfR2NTbvRm3Vn7+T56/YuWZxcjH282Cy5nDvCyG8LIbwshlGVMplNkXJ4YXPcGMaXOO5rRcnwWa66aI3qpxDVEVVzu0xmXabObEkkS1e7QiIG4+8evuC8HWbXzmix5+3u9zSbLx0r3l7u+jjDQGtFgBYAaALwub2jIhUEKogohHKsyxuWmJYyqyhVAFA7VGoZGqNwyBZaMEVKipCKlRUoJRUOaDvQeCtwmOQEOaCDvBFwrTVVTOaZxKVUxVGKozDl8Q2HjNzHeM9nSb5FenZ2vfo4VYq8efm8y9sixXxpzTPy5eTQ1Ox9S31S148Wn/7xXo29tWZ61Mx6/55POubFvR1aon0eF+z9WP5J8HNP5rsxtPSz+/0n2dadmaqP2ese6BgFWf5DvNv6q/6lpv7/v7J/puq/s9Y93rp9k6t+9gZ9p1/hdcNe19PTymZ8I98OajZGpq54jxn2y3eH7B7jNIT9VgyjzK6N3bVc8LdOPHi79rYtEcblWfDg63DMEgpxaOMN4kak95OpXk3r9y9OblWXq2rFu1GKKcNiAuJyIQQVUQiIVQpQI5aYljKrEkKrKFQIGCiwyNWW4ZGlRqDBRpKK82IYjBTM52pmZBHcNzyvEbcx3C560iJnkp8Pr4ahglp5WTRkkB8TxI243i460mJjmCvxCCnYZaiZkLB9OV4Y2/DXeVIiZ5K5x/KXgwdk9MueLYJnN/EGWW/hVdyt/hGN0lW0upaiOcD1hG4FzftN3jxCxNMxzGwUAilLBwUCmFvBACFvBAwYOCqJQCCCiIVQpQCqFKIUqpLG4qsSQrTMkKMhUCCQopwVFhkaVG4OFlswQcbyoUMU1GGT1TaSPnojzr43TDMM1m5WkHXXXsWqJxVyy1DU7Cx0uF0FbWsr210JLXnmojDkkY0jIQXuOZ2Zo1t1LVczVMRjCq4llrsbrgPnJpM2RhJENPENTb2WjS53k23krm4UQrtmcjhydOsPOW+hCMgPcXXPmFxfG+RlxOM4RWYRVMcJCx4u6Goiu3MBa4sfC7Tca9YXJTVFcC6Nl9toKjDf2hVPbBzLhDVaEtZNdrQQBc2dnYR9q3UuvVRMVYgbXBdp6Gtc6OkqGzOY0PcGte3K29r9IDrWZpmOY2FfWxQRunnkbFGwXc95ytA3KRGeQ8WCbRUdbznoc4m5rJzmUOblzZsvrAb8rvJWaZjmPFjG3GGUjzFPVt5xps5kbXTvaeDgwGx7CrFFU8oDYNtphtY8R09U10jvVjeHQyOPBrXgFx7kmiqOcDfLKNbiuP0dLb0qpihJFw2R4DyOIbvPktRTM8oGuk25wprGSmsaGSOkax2SSznMy5wOj1Z2+au5V3DZYPjVNWMdLSTCZjHmNzmgjK8AOykEA7nA+KkxMc0GL4xTUkfO1UzYWFwaC8+s462AGpOh3cEiJnkjHg2O0ta176SYTNjIa8ta5oa4i4HSA6lZiY5kveVEK4qsyxkrTEsZVZQqgQCACBgVFZGlZbg7So1Bwo0r7lo/gB/Xh/3Lkt9ZqlVlJUFuGVcY3S1dC1w7A2V/wAWNXNPWhp33ITSN/fag+t+7wN+q3pOdbvOX8IXHenlCStpcCK+5ZKNrsPMtulFLC9p4EuyH3OK5LU9JYVfglQf2bi0N+iW4fJb6wqGtJ8iPJc1XWp+quq5Cv4ur/8AGZ/qBYvcoHU8tDv+nEdXPQf5lx2usKx2bx6SioMR5lxZLUyUMDXjRzG2qC9w4GwIB4kLnqpzVA9vJ9sMMTbLNLMYoYn818nl5x8uUOOrgQAA5vUd6lyvdGHbzY4Ya6J0UrpI5CWgvtzjJG6jVoAPEGw3Jbr3h2NLygStwH0guzVjJDQh7tc0lrtlI6zzZueJaeKxNvp47BX+z2zdbissr4jmIIdPPM42zu3XNiXONt3AdWi5aqopgdhtBsVLS4KY5XNklp531YMd7c2QGvGoHVc/dC4orzWmUch2J5aipoydJY2zsH14zld5h4/CrejhEkvNy04nzlXDTA9GCMyO4Z3mw8QG/wCJW1HDJDvuTDCvRsLgzCz6i9U/Sx+U9QHtDAwea47k5qZnm6olZZljcVWJISqyQqshUCAQCCQopgVFZGlRqJOCo3Cv+Wf+AH9eH/ct2+s3SrLDaQyYXXvaL8zPRTG3s/KMcfAPJ8FyzPShrtdbyIYqxk9TRPcAahkcsV9Mz48we3vyuBt9UrF2OESkrO2nx1tBTSVTo3y5AOhGNTc2uT9Fo6yuKmMzhIVNtlyhR4jQejiB0Ezpo87c3OM5pvSzB9hrcNFiFzU292rLWGmwSgd+x8VqbdFzqKBvaWTMe/yDmq1T0ogdFyFn98qx/Zmf6gWb3KCXT8s5/wCnd80HxKxa6yQplkZ9Fe/6IqYGfeMcxHuBXY7Vb/ZDYJ2KRSTNmZGYpeaLXxc662Vrg6+YWBuR90rNVzc4Ddy8kL4hmfXwxAm13Q82CeFzIs/Gz2GWt2q2f9Aw+OIVTKoSV3OZogA1pEBGU2cbnT3q01b1XLsHachf8FVH+2keHMxfqVi9zhJd9ilM2WJ7HC7XNc1w4tIsR5LhZfPmAyuw3F4s5tzFSYJCTa8Lrxl57Mrs3ku1PSpb7DVDDimMmMaipq+b/uGaEj+7YSkdGk5Q+hwAAGgWAAAA3ADcF13FJXFVmZISqzJCqyhVAgEAgEAgkFRTgqNHBUaiXA8sx/cB/Xh/3LVvrOSlpORukbNDiMTwHNd6O0tOoLS2QEFau9i1Oe2l2JrKGYy0zXyRNdnjkiuZorG4BDdbj2h7lqm5E81iWN/KJiuTmJJ2vNi28sEZltw3WPiD2q/Dp5rhpI8Eq3xPqG00nNRjM5/NljQOIGlx9ncrvRyyLO5PntxDB5cPNOYmRNfDz8Y+TmL7kuFz86Cbnq3br2HFcjdqykuJdhGLYTUc/Cx7XMzNE8DOejew2uHCx0Nho4dXYCuTepqhU4lWYzi72Mkjlmym7GMh5mFrt2YmwF9d7jxSIppHfYfyc5MJfRzOHpE7+fe9vSbFKAAxo4gAWPHM5cU3OlmEyr+kGL4PO50TJIi4ZXlsfP08zRuubEHfpuOvVquXNFcKyz0+M43MznI3yZdGufH6PTQg7ze1urtcmaaIOEOh2+2YNJh1FRU0b5zHO58jo43PL5HMeXPIaDYXNh2ABYoqzVMykS6DkVpJYqKpE0T4i6sLmiWN0RLeZiFwHAXFwdexS7MTMJUsFw6lxIo3lewrmqxlSB0Z2ZXf1WaX8Wlv4Sue1PDDUPbyJ4VnqZ61w0gjELOHOSauPeGi330uzwwlcrhJXE4pkhKrMyQlVkqqBAIBAIBAIBAwKimBUaVPywbQtcRhwjNxzM5lLtLdIZQ229cluntc1Edr38hkLhDWSkdB8sLGnqLmtcXW7szVLvOCqVnOYDvF1woT0aPflCB3RNIsRoimjjDRlaAAOoCwQDo2neAoJawDcEDKjGYmnqCgZrQNyohzAd4ugkIjwY5Xmnpp6gAExQzSNDvVLmsLgD2aKxHEUDtPtdU4o6JkjGDK68cUDXOc6Qi3WSXG3UF2aaIpckRhcvJ/gZocPihkFpnl08w4SPt0futDW+C4apzLhqqzLoSVGMkJVZKUQKgQCAQCAQCAQCCQVFaSv2SoaiXn6iBsslg27i49Ebha9uspmYbiuYbqjp44mNiiY2ONgs1jGhjWjsAWZMvQCi5MCo1lN1BN0UXQF0BdAXQF0EXQRdVMsczA4ZXC44ImXngooozeONrTxa0NPuVZmWYlVMlJVZKUQKgQCAQCAQCAQCAQCCQVFMCipBUXJg5RcpDkXJsyi5TmQyMyLkZkMjMiZRmQyguVTJS5EyglVMlJRCkqohVAgEAgEAgEAgEAgEAgEAgLqCboqboZTdRcpui5TdQynMhkZkMouhkXVMouiZRdUyW6Ii6IFQIBAIBAIBAIBAIBAIBAIBAIBAIJuoC6Km6AugLoC6CLoC6Ii6AVAgEAgEAgEAgEAgEAgEAgEAgEAgEAgEAgEEqAQQVQIBAIBAIBAIBAIBAIBAIP/9k=",
           "placement_assurance": true,
-          "projects": ["Interactive Form Validator", "Dynamic Content Loader"]
+          "projects": [
+            "Interactive Form Validator",
+            "Dynamic Content Loader"
+          ]
         },
         {
           "course_name": "Full-Stack Java Training Online",
@@ -6495,7 +6679,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/fjo.png",
           "placement_assurance": true,
-          "projects": ["E-commerce Platform", "Social Media Dashboard"]
+          "projects": [
+            "E-commerce Platform",
+            "Social Media Dashboard"
+          ]
         },
         {
           "course_name": "Python Full Stack Developer Online",
@@ -6591,7 +6778,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/pfo.png",
           "placement_assurance": true,
-          "projects": ["E-commerce Platform", "Social Media Application"]
+          "projects": [
+            "E-commerce Platform",
+            "Social Media Application"
+          ]
         },
         {
           "course_name": "PHP",
@@ -6659,7 +6849,10 @@
           "skill_level": "Beginner",
           "image": "https://img.freepik.com/premium-photo/php-programming-text_272306-140.jpg?semt=ais_hybrid",
           "placement_assurance": true,
-          "projects": ["Dynamic Web Application", "Content Management System"]
+          "projects": [
+            "Dynamic Web Application",
+            "Content Management System"
+          ]
         },
         {
           "course_name": "Groovy and Grails",
@@ -6866,7 +7059,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/gg.png",
           "placement_assurance": true,
-          "projects": ["Web Application", "RESTful Service"]
+          "projects": [
+            "Web Application",
+            "RESTful Service"
+          ]
         }
       ]
     },
@@ -7299,7 +7495,10 @@
           "skill_level": "Intermediate to Advanced",
           "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxATERUSExEWFRIWGBgXGBYWGBUYExsWFRgXFxcYGRgYHSggGxwnGxYXITEhJykrLi4uFx8zODMtOCgtLysBCgoKDg0OGxAQGy0lICUtLy0vLzUwLS8vLS8tLy0tLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLy0tLS0tLS8tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwQCBQYBB//EAEoQAAIBAwIDBAUJBAUKBwAAAAECAAMEERIhBTFBBlFxkRMiQmGBBxQyUqGxwdHhI1Pw8RVicpLTFhckM4KUorLD0jRDY3ODk8L/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAgMEAQUG/8QANREAAgIBAwIDBwMDBAMBAAAAAAECAxEEITESQRNRYRQiMnGBkfAFodFCseEzUmLxI6LBFf/aAAwDAQACEQMRAD8A4ue2fLiAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgHQcOqaqa+4Y8tvuxN9TzBHl3x6bH9yZpIrRgZEkiMzhNEbSJJGDThJEZkSaIzOEkYGRJIwM4SKsqLhAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQC5wy70Ng/RP2Hvl1VnS8Pgz6irrWVyjdGazzzBpwkiMyLJIwMiTRGZwkiMyJJGBnCaIzIkkYThIqyouEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAtWt8ybc17j+BlsLXHYpsojPfhl5OI0zzyPEflLldFmZ6ea43M/nCH2h5zvXHzI+HNdhmAYGcJIwMiSRG04SRg0iTRgZwkVJUXCAIAgCAIAgCAXLDh7VNzsvf1PhLq6nPfsZ7tQq9uWbelw+kvsA+9t/vmpVQXYwy1Fku5k9lSPsL8Bj7p11wfYir7F/UzW3vCsDUmSO7r8O+Z7KMbxNlOq6niZWs7B6m42XvP4d8rhVKZdbfGvZ8l9eDL1dvhgS/2ZeZletl2RDX4Ow3Rs+47HzkJadrhlkNYn8Swa1lIOCMEdJnawa001lHk4dEAQBAEAQBAEAQBAEAQBAEAQBACsRyOJ3OA1nkt0Ls8m8/zlkbPMonUuYloy0pRgZEkiMzhJGBkSRUlReIAgCAIAgCAS2lHW4Xv5+HMycI9UkiFk+iLkdOqgAADAHKeiljZHjNtvLPYOCAIAEAQBAKd9YCpg5wRzOOYlVlSmaKdQ68rlEa8Hp9Sx+I/KRWniTesn2wR1eDL7LEH34InHpl2ZKOsl/UjWXNq6HDDwPQzNODjybK7YzWYkMgWCAIAgCAIAgCAIAgCAIAgCAIBftXyvhtL4PKM1kcSM2nSKI2nCSMDIkipKi8QBAEAQBAEAv8ABB+0P9k/eJfp/jMus/0/qb6bTzBAEAQBAEAQBAEAQDCtSVlKsMgzkoqSwyUJuDyjmrmgUYqen2joZ5049LwexXNTipIikSYgCAIAgCAIAgCAIAgCAIAgFixbcjvH3Syt7lVq2yWmlhSjBpwkjAzhIpykvEAQBAEAQBAL/B6T6wwHqjIJ8Ry8ZfRF9WUZdVKKh0vk6awsqlZxTprqY5PQAAcySdgJqssjXHqkYaaZ3S6ILct1OA3AqLTwpLglSKlMqQoyx1ZwMe+VLU1uLl5ejNEtBcpqG2/G6xtyWrTgFRLigtZAaVRwuVYMp7xqQ7GVz1UZVycHul+cl1WgnC6CtWYt9nt90QjgdWpUq+iUCmlRk1MwVQQThcsdzjEn7TCEY9b3ayV+w2WWT8Ne6m1u8fTcio8CuGqPT0aWp41l2VVXPLLE436Y5yUtTWoqWeePUhDQ3SnKGMOPOeF9S7wfs1Ue5FKoAFXDOQ6H1CCRgg75x05ZlV2rjGrrjz22fJo036bOV/h2cLd7rj/J7ecEqVajeht0oomFOawZSx9YDWzYLaSuwnIaiMIrrk236f8AzB23RTtm/DgopbfFnfnnPOPIpW/ALp3qU1pHXTxrUlQRq5czgjrkdJdLVVRipN7PgzQ0F85Sgo7x547mVHs7csXAVQEOlmLoE1EA4DZwTgjlIy1daS9fR5JQ/Tr5NrC22bysZ+Z5a9n7mpq0quFYpkugUuPZUk4Y+E7PVVxxl+vD4OV/p9884XDxyufJeZr7ig9NijqVZTgg8wZdGSkuqPBlsrlXJxksNGk49T+i3iPxH4zPqVwzZopcxNTMpuEAQBAEAQBAEAQBAPWXHPx8+U61g4nkMpGPeM/h+EYCeTycOiAZ0XwwMlF4ZGSysGwMvMyIzIkkYThIpykvEAQBAEAQDKlTLMFHMnHnOpZeCMpKKbZ1FGkFUKOQnpRiorCPGlJyeWbjs3VqLWJR6SnQwIrHFNwcAoc9/wAOUo1Si4e8nz25XqbNBKcbH0uK2/q4fob1rSxFanqWilQ06hamKmq3FUY9EGYbKCNRIz0Hxxqd/Q8Zayt8b47npOvSq2LkoqWHtn3c9svtncsrcqi261DbU3F0rlaLIFCaCNbYJxvtnwlbg5Obj1NdON8854LVZGCrU+iL684TWMY5ZFSvKdWi9JPmzVFr1W01zhWV2Yh0IYAnfHh9snXKE1J9STiuO3oyMboW1uuHS2pN4lw0291uRU76u9asCbN8rTRqRf8AZuFBKlGY7sucHfY+Ek64RhFrrXLTxuvn8yuN1s7Zput7JNZ2eN9n5o9pUaFKrdVaOAqWpyFbWi1qu2lX9oD8T4Q5TnGEZ95fLKXmjsYVVWWzq4UPPKUn5PuUKNNbiypUUqU0qUncstRgmVfcOCeeOUuk3VfKbTaaXG/HYzQS1GkjXGSTi3lN457my4jxOiwuwtVSRQo0g2QPSMpOsr9bniUV0zTrbX9Tfy8jXdqa5K1RkvhivnjOceZrqNNbiypUUq00qUncslRgmoOchgTsccvP43ybqvlNptNLdb4x2MkIrUaWNcZJOLeU3jOe5ftXVrWnQX5pUqUWqKy1m9UhmJD02DAEY5/hKZpq1zfUlLHH9nsaqnGVEao9DcW85frytznOP3L1Lio7mmXOMmkc0zhQo0nJzsBN2ngoVpRzj15PI1tkrL5SljPpxx2Oa482yD3k/wAechqXskWaJbtmnmQ3iAIAgCAIAgCAIAgFujdhCTpDZUDfpgYMtjZ0vjsUTq61jOMNleodlHcPxJ/GQfCLUt3+djCRJCAIBctquRjqPulsJZ2KLI4eTMyRBGBnCRTlJoEAQBAEAQCzwz/Wp4n7jLKfjRTqP9JnST0DyBAEAQBAEA2VXi59B6BKaU1On0jKDrcpy1Env3wOsoVC8TxG2/L0ybJatunwoxSW2fN48zWy8xiAIAgHhONzyg6lk5u/udbk9OQ8BPPsn1SyevTX4cMFeVlogCAZ0aeo4yB72OB5yUVl4Iyl0rOCb5kf3lP++JPw/Vfcr8b/AIy+xHWoacespz9U5kZRx3ROE+rs180RSBMQDyAdVacKV1JWmpCrqYnGAB3k9Sdh3kgTc1XFLK5PMUrpuXS3tuyf+gvV1eiUjR6TG2oIWK6tPPGR5EHrOZqzjHfH1JdOo6erL4zzvjOM4/NjneL0lWoAoAyo2HfkiUXxSlhGjSzcoZk+5T0dxyZVg0ZMZw6IABgE63PeJNT8yt1+R76ce+d6kc6GV5WWiAIAgCAIB6jkEEcwc+U6nh5ONJrDOntq4dQw/ke6ejCSkso8aytwl0slkiAgCAIAgCAIAgETXNMHBdQR0JAkXOK2yTVc2spMiq8RpL7Wfcu/6SLugu5ZHT2S7GovuINU2Gy93U+P5TLZc57djdTp4178spyk0CAIAgE1p9L2OX/mfR/nJw57fUrt+Hv9OS3UOx3t+R5Df4bc5a+P6SiPK+M10zms6rg/CFrNTpqi6n0jJG2SBuSATibJeHCvrkux50PFtu8OL5ZtL7svSSmaqPRqhNIqBBurtnblgrt9LbMqrthKXTKGM8fL+fQ0XaeyEHOFnVjGcN7P+PU5DjNJVYaQBkdPExfFJ7DSSlKLy87nQWV9pQqCpV1AYHcHb1T/AGgdwfwJB0uMZYfkYlOcHKONnyvzuuxZq8WJZ2GhSyhBjmqBQulSTtlRgnnjPeZFVRSSb43+b53+pZLUTcpNLGVj5LjC+mzOX4y49KDnOFH3mU3v3zRpYvw38yiCAc5+HWUGl5exjOHRAEAQBAEAQBAEAQBAEAltrlkOVPiOh8ZOE3F5RCyuM1iRs6fGh7SHPuP5zQtSu6MctE+zLlleLUBwMY6Hn4y2uxT4M9tLrxksywpEAQCG4ukTGo4zIynGPJZCqU89Jj89pfvF85zxYeZ3wLP9rKd3xYAYp7nvPIfDrKZ6hcRNFWkeczNMTnc85kPQ4EAQBAEAQBAEAQBAOz7PcT9A9KqpzpAyNWMjAypM2TrjbV0t9jzqbpUX+Ilw39TZ3HGbdaL0rek1P0un0jGpnlnNNR1TfmTnvlcaZualZJPHH8/Mvs1Nca5Qpg11Yzv+y9DRr2vu/ohKBVSVH+jI2ynA9bO/KYZU9cm8vlnqw1TrhGKUeF6djL/K68/d0P8AdE/OR9lXmyXtz8o/cf5XXn7uh/uifnHsq82Pbn5R+5VPbm8zgUrbOcf+HTPlKfD3xuaPHeMvAr9troerotTtvigmBnO2evP+MTrqSfL+5yOolJZwvsaG2pgnB1Yx7IyZvik3ueRZJpZWPqWvmtPuq/3JZ0R9fsU+LP8A4/cG1p/+r/cjoj6/YeLP/j9yPRQ+s/kv5zmK/Nk83eS+5VbGduXSVly9ROAQBAEAQBAEAQBAJba4ZG1Dy6Ed0lCbi8ohZWpxwzf2t8j8jg9x5/rN0LYyPLsonD5FmWFJWur5E5nJ7hz/AElc7YxLq6Jz4WxoLq4Z21H4DoB3TFObk8s9SutQjhEUgTEAQBAEAQBAEAQBAEAQC7xKx0YYcj0PQ938d0utq6d0Z6L/ABMp8oo4lJoMqbNjYU8ZP0hRz/x7zP0tvt90a307Z6vp1f8AzY9csRj9lv3egB8xuJzofp91/ITit/e/9y18/q/UtP8A6LH/ALJzwvzqX8lvtC8v/V/waireMGbTpyc5IAwMnfSF2A6bdNpnlqHB4ibatHGyKlZnzxx9/wCBRqZkqrOsr1FPhvbg2Fs4DZJYDHNNj/KenFpPfP0PDsTawkvqWvnKfvK/mPzlnXHzkU+FP/bE8a5TB/aVviRj75xzj5sKuWfhiUZSaRAEAQBAEAQBAEA8zAPYAgHkAy1HvncnMIxnDp6BAPXQjmCPEYjJ1prk8g4IAgCAIAgCAIAgGdvSLsFHMyUY9TwiM5qEXJlvhVrqqZI2Tn49B5/dLaYZlv2KNTb0w27lrjlYYCdc6j9oH3/ZLNRLZRKdHB5cvoaeZDee0rgqMetzPJsDyxKlNrZZ+5plUpYbx9v8ntS5JBGH372JHliJTbWMP7/4ORrjF5yvt/krFTKel+RoU4+ZteGdlVr2tStTd2r0ww9CNAy2xRgT7OnVkcyRsR18y9OmST4ff+57+klHU1uUeV2/sVOG8AuMB6immG5agdW3evMeBwZ6Wi0rszLODxP1TXRqxHDf8+RszwU/vP8Ah/Wet7N6nzvtq/2/uUbuyenzG3eOUpnXKHJprujZwV5WWiAIBdEuM7PHoA8tjOOKZ1TaKjLg4MrawXJ5PJw6IAgFnhYzXpA8vSJ/zCRn8LLKvjXzPsXbnj1vw9qS/MKVX0gY+wmNJUfUOfpTz6a3Zn3j2NTdGnHu5yaDtXwSyuuHDiVpSFFlGWRQFUgNocFRsGBydQ5gdcjFtVk4WdEnkovprsq8WCwa+j8ntOnTpte31O2qVfoUyASDtsSWGSMjONhnnJvUtv3I5K46FJLxJYbFp8m7fO3tatxobR6Wk6pqWogbS2xYaWBK7b84ep93qSOLQ++4t/I13ZrsRUubm4oPU9ELfId9OoatRAABI2IVjnPIe+TsvUYpruV06RznKLeMFnhXYam9E3Ve8WhaliKbsuHddRCsQWGnOMgbn75GWoafSllk4aNNdcpYRLU7ItZ3djWSste2q3FDRVXbcurAEZI3AJBB3weU4ruuEk1h4Z32V1WQknlNo2/yi8ErXnFqVCljJt1JY/RVRUq5Y+YHiRIUWKFTb8y3VUu29RXl/JWqfJjSbXTo8Qp1LmmMtTIAx/aCuWTxIM77U+XHYi9BF7Rlua3st8n7XdKszVvQ1KNVqRQpqGpFUnLBhjc468pOzUdDWFnJVTovETbeGngn4l8na/NnuLS8S6FMHWFC76RltJVm3A30/b38jqX1dMlglPRLo6oSzgrcH7DI1st3eXaWtKpjRkAswbdTkkAZAyAM7b7Ts731dMFk5Xo04KdksZMeI9g3pXFtTFdalvcsFSugyNxnddWOW4wcETsdQnFvG67HJaPE4pPZ9yz2m+T5LOjUqteKzAA06ekK77qG5t0yeWeUjXqHNpYJW6KNcXJyOFmo88QBALPDaoWoCeW4z4yyqSjNNlOog5VtI6BaXreqBliM+PQzftFNnnQTsxE0XGKemsy5JIxk+8gHYdBvj4TzpScnlnqxioxSRsuE9jr25pirRpq6HrrQciRuCduRlEr4ReGaoaayazEtL8nvEulFT12qUz+Mgr64lj01sv8As5iohBKkYIJBB5gjYiaE8mRrB5Bw3HA7VtStrZckYCkjODtnHT3QoVWZjNZIe1W0yXhPDytzsL+nqRu8bjxG/wDHjK9PLpsRq1UPEqkvqaSewfNlPix/Yt8P+YSq/wCBmjS/6q/Oxz0wHqiAIBdEuM7MxJEWRXdPIz3fdITW2SdcsPBUlReIAgFjhrAVqRJAAqISTsAAwySZGfwsnU8TXzPr3bOz4ZftSZuKUKfowwwKlFs6iD1fblMFUrK84iz2L4VXYzNbfI0naftJZ21ivD7F/S8tVT6SgB/SMS3JmY92wBPLYSyuqc59cym6+uuvw69zpX7R295Sp1KN9b27geulwlN2HLIw7Kdj1GQZT4UoPDi38jT40LIpxkl8zi+0Pax04lRqC5S4p252emoXKVMCqhxsxwNiMjcdciaa6U62sYyY7tS43J5ykdR237R2VKzuDa1qT17pgrejqK7boEZiFOVHo0x4kSimuTmupbI0am6Ea24PdkXZbtNb1+H0rf51Striiqp+2VWQhBpBAcgNle45B93PttUozbxlM5RqIzrUcpNeZru0XHCLiyom/t69Ja9GpUNNFRaZSoN9SsVC4JyM5GCTzkq6/dk+lrYjbdiUI9Se6NjxHtbaUeMJV9KlSg9qKTVKbK6o3pXYZKZ7hkf1gZGNMnVjG+SU9RCN6edsY/c94bb8Ms7uvxD+kabip6QrTVkZh6Rg7fRYl9+QwMdcxJ2TiodJ2Cqrm7Ovkn7FXtO6tOI1ahNOlVrVix5FabUUBOR1C9e+cui4SilykjtE1ZCcnw2/tgpcMr2HCrOvpvadzVq5KqhXc6SqDSrNgc8sT+spKd01tghB16et+9llns/2loXFhRord0ba4pKiEV1RlOhdOVVyoIIGdjkSNlUozbxlE6b4zrSUkmvM1vF+PAXtlSa+oV6KVEqOyKqIjqGXdgSunDHbORjfpmca/ck+lplc7l4kI9SaOe+VW+pVr4PSqpVT0SDUjK65DOSMqSOvL3y7Sxahuu5l18lKxYedjj5oMQgCABAPsPBeH0KtClUFJF1IrYCrgEjcDbodpmnqpxbiaoaWt+9jc+Z9q6qtd1dKgBWKbddB058dpfBtxTZRYkpYR0nyXceNKq1szYSqDpzyD438wPs98o1EM4n5GrSWtNw8z6aNO+WQAd2ST4CZpWJLKyzbGtN4bSPnfa/soa9y1a3KqrgFlckHXyJGkHY7HxzOV65QjicX9iVn6U7Z5qnF/X/BpR2IuRuxplRuQrMScdBlRz5SX/6dPqRl+g6pRbTTeH9fTgypZVwCMFTuDtj4T0dLX15muD5izNclGaw8rZ7M6U7zMtj23uc4vKe6fKvk1/HHxTA72+4H9JRqH7uDVo1mbfoadKJKM/RSoP8Atavy+2Yj0iOAIBcWXGdkgnSLM8Z2kiPBrGGDiZ2bE8icAgCAIAgHkA9gCAIAgCAeQDfcH7V3FtbVrWmtM062vUWDFxrQUzpIYAbDqDvKp0xlJSfY0V6mUIOCXJoZaZz2AIAgCAb7s3a03OioM06oKE9UqA5Rgemxx/tb85NwfT1IgrV1uD+hr+M8LqW9Qo+45q3Rl7/HvHSQLGiolQjoJJSwQcclqhxSquBrYKOisRge7eMrO6DUsbNg3jocYRs76iM5z1zLOtx2wip1Rs3bf3PV4pUBBCoCNwQu4PnHjPyRxaeK7v7lt+PXGAwc45Hdsg+fI9IcljKivsFW84cpfc8/pyuFyW3P0R63xJ35dP5R1pLLS+w8PMsKT9d/2FPtPdLyqeeSPImZra6rPjhH7fwehpbNVW//ABWT++V9nlFqnfh11FwzsMtjnk89p6Wn6FBRjhY7HlaunUeK52p88vfP1OntKuaat7t/hPLsh0zcfU9eufVBS9DRLynsnzL5NLx2pllXuGfP+Ux6h7pHoaOOIt+ZZp22mxdjzdlI8AwA/E/GUdjX3NJOHRALiy4oZms6QZIskRZSvEw2e+UzWGaKnmJDIFggCAIAgCAIAgCAIAgCAIAgCAIAgCAXeGXvo2wfonn7j3y6qzoe/Bnvp8RZXKOkvrgXFD0b+sRvTqdQ3cT1B5H8cSydCfvQKatU4+7YceykHBGCOkzNY2NqaayjycOktJgRpPLoe4/kf1k087MhJNPqX/f+SNlIODsRItY2JJprKJbc4yx+jyI+tn2fxz08pKO274OdDskoR5f7ev5yQVqxYk+Xh0HlK5SbZ7NGhrrS6t3+fm5Dn4n3bmQbNmEkWLPh1eq2hEIz1YEL54kWyMrYxWWztrWi1vaLTcgvgjbOPWJO3gDLdPDrsXpueNrrkoya77IqFgBk8hPVbwfN4y8I01jaG5rE8kzlj/V5AeJA++edJ9Umz2YR6IJG07VVgtNKQ2yc4H1VGAPM/ZOM7E5l1IOCMGcaxydTTWUeTh0trLShkiyRFmazpFnlelqGOvSJRyhCXSzXspBwecoawak87o8nDogCAIAgCAIAgCAIAgCAIAgCAIAgCAT2l01M5B26joZOE3B7FdtUbFhk3FmUuGXkyg/aR+H2Sd7Tlld0V6ZNQcX2ZSlJoEA2HDrJrglQVVkUtljgFFxt7232/SScljcjGDy8fP8APz1KNepnlsoGw/jqZyTyaNGum1eZWMqPeN5Y8bakoVKNNV5+1k+8nOT4x0HmamcIvnL/ALHQ9l+LNc1xSZFUaWbK5z6o98rtXRHJRVPqeDnbjjtVzlgvhvgeG8212+GsRRhuq8SWZMrXPEXddOwHXHWdndKSwQr08IPJ0nAkWlbgnm2XPh0+zEhFFkio9PXUNapt9VT7Kjln39fdmaa6se9Iw3XuXuQ/7Oer1NTM3eSZlk8ts3wj0xUTCRJFtZaUszWSIMkWdIszEkRZ61NW5jMNJ8nFJx4IzYIepEj4SJ+PJHn9GD6x8o8H1HtL8jB+Ft0YH7Jx0PsSWpj3RUq0mU4YYlTi1yXxkpLKZhIkhAEAQBAEAQBAEAQBAEAQBAEAQBAPUUk4HMzqWdkcbSWWSVHA9VTsNye9u/wHT9ZJvGyIxWd3+fnciuagJzjB69xPfK5yyet+n6foj1v6fL8/YhMgeiXKZ1DSefsn/wDJ9x+w+MvW6wfMSTi8/f8Ak6L5Oh/pw/8AbqfdMuo+A16b4vocsvKXlD5PYOHWUT6iAfVX7hNtMNss8/U3b9C+pqOL32f2an+0fwkL7c+6ielox78voaqZTaIBaWWlLJBOkGZrJEWSCdIszEkRZIJIgyRZ0izNZIiz2pSVhhhkQ4qSwzkZOLyjRXlsabY6dD3iYpwcXg9OqxWRyQSBYIAgCAIAgCAIAgCAIAgCAIAgCATP6g0+0fpe4fV/Py75N+6sdyte889u38/x9yjXrsmSVyvQjp4/nKz0KqK7FlNntrUDet3Hke/8ZxLc16nUKEemPL/b87GV/VRSD0bfHUHqP1nZJZ2OaKx+FifK/f1Mqb5APeMzp5tqxN/M7X5N6LPdGpg+ojBm6HVsu/1ufiB7pTqpJw35JaSDU3jj+xyNzbPTdqbjDoSpB7xLU01lFck08MxopllHeQPM4korLSK5PEWzc8XuigCLsSPIctv46TXfZ0rpRg0tSm+uRpJjPREAQC0stKWZidIskEkRZms6QZIJIizMTpFkgkiDJFkiLM1nSLK/E6OqmT1XcfDn9krujmJbp59M16mhmI9MQBAEAQBAEAQBAEAQBAEAQDtOwPY+3vqdR6tZ1KMFCUygbGM6jqB2OcDb2TM190q2kkbdNp42Jts62n8ltkpyK1xnpvS2Pf8A6vnKVrJrfCL5aCuSxlmP+aqy/fXH96l/hzntc/JEvYa/U8/zU2X76486X+HHtc/JEo6SEXlNkZ+SOx06RXuQPc1If9Od9rn5Il7NBy6nuyFvkb4edzcXRPvel/hx7XLyX7/yW9BZp/JPYgACvcYH9al/hzntc/JFEtHCTy8nV8P4FQoUxTpDSg6DG56knG598plNyeWWqmMVhGv4/wBi7W7wamtXX200hyPqklSCPu85KF0ocEJ6WE+TTp8llkCCK1xkHP0qXT/45atXNPOEVPQVtY3Jrv5M7OodRq1wcY2NP3nqnvkp66yby0vz6kKv02qtYTf59DXcU+TKzp0alQXFVSiMwNQ09AwM+thAcfGcjqpt4wSloq0m8nymbjyz2Af/2Q==",
           "placement_assurance": true,
-          "projects": ["Custom CRM Module", "Integration with External ERP"]
+          "projects": [
+            "Custom CRM Module",
+            "Integration with External ERP"
+          ]
         },
         {
           "course_name": "Azure DevOps",
@@ -8570,7 +8769,10 @@
             },
             {
               "module": "vApps Management",
-              "subtopics": ["Create and manage vApps", "Power on/off vApps"]
+              "subtopics": [
+                "Create and manage vApps",
+                "Power on/off vApps"
+              ]
             },
             {
               "module": "Access Control & Permissions",
@@ -8638,7 +8840,9 @@
             },
             {
               "module": "vCenter Server Installation",
-              "subtopics": ["Install vCenter Server"]
+              "subtopics": [
+                "Install vCenter Server"
+              ]
             }
           ],
           "duration": "70–90 hours",
@@ -8757,11 +8961,19 @@
             },
             {
               "module": "Software Management",
-              "subtopics": ["tar Files", "Patch Files", "RPM"]
+              "subtopics": [
+                "tar Files",
+                "Patch Files",
+                "RPM"
+              ]
             },
             {
               "module": "Hardware Management",
-              "subtopics": ["Types of Devices", "/dev Namespace", "Modules"]
+              "subtopics": [
+                "Types of Devices",
+                "/dev Namespace",
+                "Modules"
+              ]
             },
             {
               "module": "Network Management",
@@ -8775,15 +8987,27 @@
             },
             {
               "module": "Network Services - Part I",
-              "subtopics": ["DHCP", "DNS", "SSH"]
+              "subtopics": [
+                "DHCP",
+                "DNS",
+                "SSH"
+              ]
             },
             {
               "module": "Network Services - Part II",
-              "subtopics": ["FTP", "NFS", "Samba"]
+              "subtopics": [
+                "FTP",
+                "NFS",
+                "Samba"
+              ]
             },
             {
               "module": "Network Services - Part III",
-              "subtopics": ["Sendmail", "Apache", "Squid Proxy Server"]
+              "subtopics": [
+                "Sendmail",
+                "Apache",
+                "Squid Proxy Server"
+              ]
             },
             {
               "module": "X Window System",
@@ -9289,11 +9513,16 @@
             },
             {
               "module": "Identity, Entitlement and Access Management",
-              "subtopics": ["IAM Standards for Cloud Computing"]
+              "subtopics": [
+                "IAM Standards for Cloud Computing"
+              ]
             },
             {
               "module": "Security as a Service and Related Technologies",
-              "subtopics": ["Security as a Service", "Related Technologies"]
+              "subtopics": [
+                "Security as a Service",
+                "Related Technologies"
+              ]
             }
           ],
           "duration": "40–50 hours",
@@ -9352,7 +9581,10 @@
             },
             {
               "module": "Asymmetric Encryption and Key Management",
-              "subtopics": ["Key Management", "What is OpenPGP/GnuPG?"]
+              "subtopics": [
+                "Key Management",
+                "What is OpenPGP/GnuPG?"
+              ]
             },
             {
               "module": "Data Integrity with Hashes",
@@ -10547,7 +10779,10 @@
           "skill_level": "Intermediate",
           "image": "https://wallpapercave.com/wp/wp13498907.jpg",
           "placement_assurance": true,
-          "projects": ["Cloud-Based Application", "Serverless Architecture"]
+          "projects": [
+            "Cloud-Based Application",
+            "Serverless Architecture"
+          ]
         },
         {
           "course_name": "DevOps",
@@ -10555,7 +10790,6 @@
           "meta_title": "DevOps Online Training | DevOps Certification Course with Projects",
           "meta_description": "Learn DevOps from scratch with hands-on training covering Git, Docker, Jenkins, Kubernetes, Terraform, Ansible, Puppet, ELK, and CI/CD pipelines.",
           "description": "Comprehensive DevOps training covering infrastructure setup, version control, CI/CD pipelines, automation, containerization, orchestration, monitoring, and infrastructure as code with real-world projects.",
-
           "what_youll_learn": [
             "Set up cloud-based DevOps lab environments",
             "Work with Git for version control and collaboration",
@@ -10567,7 +10801,6 @@
             "Monitor systems using ELK stack",
             "Implement IaC using Terraform"
           ],
-
           "syllabus": [
             {
               "module": "Infrastructure Setup",
@@ -10702,11 +10935,9 @@
               ]
             }
           ],
-
           "duration": "50–60 hours",
           "skill_level": "Beginner to Intermediate",
           "placement_assurance": true,
-
           "projects": [
             "Automated CI/CD pipeline using Jenkins",
             "Containerized multi-tier app using Docker & Docker Compose",
@@ -10928,14 +11159,16 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/cucs.png",
           "placement_assurance": true,
-          "projects": ["UCS Configuration Project", "High Availability Setup"]
+          "projects": [
+            "UCS Configuration Project",
+            "High Availability Setup"
+          ]
         }
       ]
     },
     {
       "category_name": "Cybersecurity & Ethical Hacking",
       "path": "cybersecurity-ethical-hacking",
-
       "sub_categories": [
         {
           "course_name": "Cyber Security",
@@ -11076,7 +11309,10 @@
           "skill_level": "Advanced",
           "image": "https://img.freepik.com/premium-photo/hacker-jacket-with-hood-with-laptop-sits-table_164357-56.jpg?semt=ais_hybrid",
           "placement_assurance": true,
-          "projects": ["Penetration Testing", "Security Audit"]
+          "projects": [
+            "Penetration Testing",
+            "Security Audit"
+          ]
         },
         {
           "course_name": "CISM Certification Online Training",
@@ -11246,7 +11482,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ca.png",
           "placement_assurance": true,
-          "projects": ["PAM Implementation", "Secure Session Management"]
+          "projects": [
+            "PAM Implementation",
+            "Secure Session Management"
+          ]
         },
         {
           "course_name": "Certified Information Systems Auditor (CISA)",
@@ -11364,7 +11603,10 @@
           "skill_level": "Advanced",
           "image": "/CourseDetails/cisa.png",
           "placement_assurance": true,
-          "projects": ["IT Audit Plan", "Risk Assessment"]
+          "projects": [
+            "IT Audit Plan",
+            "Risk Assessment"
+          ]
         },
         {
           "course_name": "Certified Information Security Manager (CISM)",
@@ -11439,7 +11681,10 @@
           "skill_level": "Advanced",
           "image": "/CourseDetails/cism.png",
           "placement_assurance": true,
-          "projects": ["Security Program Plan", "Incident Response Plan"]
+          "projects": [
+            "Security Program Plan",
+            "Incident Response Plan"
+          ]
         },
         {
           "course_name": "Blockchain Online",
@@ -11515,14 +11760,16 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/b.png",
           "placement_assurance": true,
-          "projects": ["Smart Contract Development", "ICO Token Creation"]
+          "projects": [
+            "Smart Contract Development",
+            "ICO Token Creation"
+          ]
         }
       ]
     },
     {
       "category_name": "Software Testing & Quality Assurance",
       "path": "software-testing-quality-assurance",
-
       "sub_categories": [
         {
           "course_name": "Selenium",
@@ -11583,7 +11830,10 @@
           "skill_level": "Beginner",
           "image": "https://www.edureka.co/blog/wp-content/uploads/2017/06/selenium.png",
           "placement_assurance": true,
-          "projects": ["Automated Test Suite", "Cross-Browser Testing"]
+          "projects": [
+            "Automated Test Suite",
+            "Cross-Browser Testing"
+          ]
         },
         {
           "course_name": "Manual Testing Course",
@@ -11644,7 +11894,10 @@
           "skill_level": "Beginner",
           "image": "https://wallpapercave.com/wp/wp10992152.jpg",
           "placement_assurance": true,
-          "projects": ["Test Plan Creation", "Bug Tracking System"]
+          "projects": [
+            "Test Plan Creation",
+            "Bug Tracking System"
+          ]
         },
         {
           "course_name": "JMeter Course",
@@ -11705,7 +11958,10 @@
           "skill_level": "Intermediate",
           "image": "https://img-c.udemycdn.com/course/480x270/6238313_ce0e_2.jpg",
           "placement_assurance": true,
-          "projects": ["Load Testing", "Performance Optimization"]
+          "projects": [
+            "Load Testing",
+            "Performance Optimization"
+          ]
         },
         {
           "course_name": "ETL Testing",
@@ -11766,7 +12022,10 @@
           "skill_level": "Intermediate",
           "image": "https://www.rogersoft.com/storage/attachments/1694680889.png",
           "placement_assurance": true,
-          "projects": ["Data Validation", "ETL Performance Testing"]
+          "projects": [
+            "Data Validation",
+            "ETL Performance Testing"
+          ]
         },
         {
           "course_name": "Software Testing Certification Course",
@@ -11946,7 +12205,10 @@
           "skill_level": "Intermediate",
           "image": "https://i.ytimg.com/vi/xQXfNBaHclQ/maxresdefault.jpg",
           "placement_assurance": true,
-          "projects": ["Load Testing", "Performance Optimization"]
+          "projects": [
+            "Load Testing",
+            "Performance Optimization"
+          ]
         },
         {
           "course_name": "SoapUI",
@@ -12007,14 +12269,16 @@
           "skill_level": "Intermediate",
           "image": "https://s3.eu-west-1.amazonaws.com/matrix.assets/ufhdyw7jnduozrwzeuok0h42z231",
           "placement_assurance": true,
-          "projects": ["API Testing", "Web Service Validation"]
+          "projects": [
+            "API Testing",
+            "Web Service Validation"
+          ]
         }
       ]
     },
     {
       "category_name": "Data Science & Artificial Intelligence",
       "path": "data-science-artificial-intelligence",
-
       "sub_categories": [
         {
           "course_name": "AI & Machine Learning",
@@ -12187,7 +12451,10 @@
           "skill_level": "Intermediate",
           "image": "https://s3.eu-west-1.amazonaws.com/matrix.assets/ufhdyw7jnduozrwzeuok0h42z231",
           "placement_assurance": true,
-          "projects": ["API Testing", "Web Service Validation"]
+          "projects": [
+            "API Testing",
+            "Web Service Validation"
+          ]
         },
         {
           "course_name": "Business Analyst Online Training",
@@ -12522,128 +12789,119 @@
           "skill_level": "Intermediate to Advanced",
           "image": "data:image/jpeg;base64,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",
           "placement_assurance": true,
-          "projects": ["Predictive Analytics System", "Image Recognition Model"]
+          "projects": [
+            "Predictive Analytics System",
+            "Image Recognition Model"
+          ]
         },
         {
-          "course_name": "Data Science With Python",
+          "course_name": "Data Science Course in India 2026",
           "path": "data-science-with-python-training",
-          "description": "Master Python for data science, machine learning, and visualization with real-world applications.",
+          "description": "Master Data Science with AI & ML training at ICLP Technologies. Comprehensive program covering Python, data analysis, machine learning, SQL, visualization, and real-world projects with placement support.",
           "what_youll_learn": [
-            "Python programming for data science",
-            "Data wrangling with Pandas and NumPy",
-            "Statistical analysis and visualization",
-            "Machine learning algorithms",
-            "Dimensionality reduction techniques",
-            "Time series analysis",
-            "Database integration and Tableau visualization"
+            "Python programming for Data Science",
+            "Data analysis & visualization with Pandas, NumPy, Power BI, Tableau",
+            "Machine Learning algorithms (regression, classification, clustering)",
+            "SQL for data management and extraction",
+            "Artificial Intelligence basics",
+            "Statistical analysis and predictive modeling",
+            "Business intelligence and real-time project implementation"
           ],
           "syllabus": [
             {
-              "module": "Introduction to Data Science and ML using Python",
+              "module": "Introduction to Data Science",
               "subtopics": [
-                "Overview of Python",
-                "Applications of Python",
-                "Python Scripts on UNIX/Windows",
-                "Variables, Loops, and Conditionals",
-                "Data Science Lifecycle"
+                "Data Science lifecycle and fundamentals",
+                "Role of statistics, probability, and business intelligence",
+                "Overview of Python, SQL, ML, AI, and data visualization",
+                "Setting up development environment"
               ]
             },
             {
-              "module": "Data Handling, Sequences and File Operations",
+              "module": "Python Programming Fundamentals",
               "subtopics": [
-                "Data Analysis Pipeline",
-                "Data Wrangling",
-                "Python I/O Operations",
-                "Strings, Lists, Dictionaries",
-                "Sets and Tuples"
+                "Python basics for analytics and machine learning",
+                "Data structures, functions, and libraries",
+                "NumPy arrays and Pandas DataFrames",
+                "Data wrangling and exploratory data analysis"
               ]
             },
             {
-              "module": "Functions, OOPs, Modules, Errors, and Exceptions",
+              "module": "Data Analysis and Visualization",
               "subtopics": [
-                "Functions and Lambda",
-                "Object Oriented Concepts",
-                "Standard Libraries",
-                "Error Handling",
-                "Package Installation"
+                "Data manipulation with Pandas and NumPy",
+                "Matplotlib, Seaborn, Tableau, Power BI",
+                "Data cleaning, transformation, and visualization techniques",
+                "Exploratory data analysis (EDA)"
               ]
             },
             {
-              "module": "Introduction to NumPy, Pandas, and Matplotlib",
+              "module": "Statistics and Probability",
               "subtopics": [
-                "NumPy Arrays",
-                "Pandas DataFrames",
-                "Data Visualization",
-                "Reading Excel/CSV",
-                "Plot Customization"
+                "Descriptive and inferential statistics",
+                "Hypothesis testing and distributions",
+                "Correlation, regression analysis",
+                "Statistical significance and A/B testing"
               ]
             },
             {
-              "module": "Data Manipulation",
+              "module": "SQL for Data Management",
               "subtopics": [
-                "Merging and Concatenation",
-                "Joins and Analysis",
-                "Dataset Exploration",
-                "Basic Data Operations"
+                "SQL queries for data extraction and management",
+                "Joins, subqueries, window functions",
+                "Database optimization and large dataset handling",
+                "Integration with Python"
               ]
             },
             {
-              "module": "Supervised Learning - I",
+              "module": "Machine Learning Fundamentals",
               "subtopics": [
-                "Classification Use Cases",
-                "Decision Trees",
-                "Random Forest",
-                "Confusion Matrix"
+                "Supervised learning: regression and classification",
+                "Unsupervised learning: clustering and dimensionality reduction",
+                "Decision trees, random forests, ensemble methods",
+                "Model evaluation, cross-validation, hyperparameter tuning"
               ]
             },
             {
-              "module": "Dimensionality Reduction",
-              "subtopics": ["PCA", "Factor Analysis", "Scaling Models", "LDA"]
-            },
-            {
-              "module": "Association Rules and Recommendation Systems",
+              "module": "Advanced Machine Learning and AI",
               "subtopics": [
-                "Association Rule Parameters",
-                "Collaborative Filtering",
-                "Content-Based Filtering",
-                "Recommendation Engines"
+                "Time series forecasting and ARIMA",
+                "Natural Language Processing basics",
+                "Recommendation systems",
+                "Introduction to deep learning and neural networks",
+                "AI concepts for automation and decision-making"
               ]
             },
             {
-              "module": "Time Series Analysis",
+              "module": "Real-Time Projects and Deployment",
               "subtopics": [
-                "TSA Components",
-                "ARIMA Model",
-                "Stationarity",
-                "ACF & PACF"
+                "Customer segmentation analysis",
+                "Sales forecasting models",
+                "Loan approval prediction systems",
+                "Business intelligence dashboards",
+                "Model deployment and cloud integration"
               ]
             },
             {
-              "module": "Database Integration with Python",
+              "module": "Career Preparation",
               "subtopics": [
-                "Python MySQL",
-                "CRUD Operations",
-                "MongoDB Queries",
-                "Index Management"
-              ]
-            },
-            {
-              "module": "Data Visualization in Tableau",
-              "subtopics": [
-                "Basic Charts",
-                "Calculations",
-                "Dashboards",
-                "Geographic Maps"
+                "Resume building and portfolio creation",
+                "Mock interviews and technical preparation",
+                "Placement assistance and industry trends",
+                "Soft skills for Data Science roles"
               ]
             }
           ],
-          "duration": "45 hours",
-          "skill_level": "Intermediate",
-          "image": "data:image/jpeg;base64,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",
+          "duration": "6 months (200+ hours)",
+          "skill_level": "Beginner to Advanced",
+          "image": "/CourseDetails/data-science-2026.png",
           "placement_assurance": true,
           "projects": [
-            "Customer Segmentation Analysis",
-            "Sales Forecasting Model"
+            "Customer segmentation analysis",
+            "Sales forecasting models",
+            "Predictive analytics systems",
+            "Business intelligence dashboards",
+            "Loan approval prediction models"
           ]
         },
         {
@@ -12811,14 +13069,19 @@
             },
             {
               "module": "Project Work",
-              "subtopics": ["3 Real-time Projects"]
+              "subtopics": [
+                "3 Real-time Projects"
+              ]
             }
           ],
           "duration": "30 hours",
           "skill_level": "Intermediate",
           "image": "data:image/jpeg;base64,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",
           "placement_assurance": true,
-          "projects": ["Financial Data Analysis", "Healthcare Predictive Model"]
+          "projects": [
+            "Financial Data Analysis",
+            "Healthcare Predictive Model"
+          ]
         },
         {
           "course_name": "Data Science Course",
@@ -12879,7 +13142,10 @@
           "skill_level": "Intermediate",
           "image": "https://acquisitioninternational.digital/wp-content/uploads/2022/12/Data-Science.jpg",
           "placement_assurance": true,
-          "projects": ["Predictive Modeling", "Data Analysis"]
+          "projects": [
+            "Predictive Modeling",
+            "Data Analysis"
+          ]
         },
         {
           "course_name": "Artificial Intelligence",
@@ -12942,7 +13208,10 @@
           "skill_level": "Advanced",
           "image": "https://cdn.vectorstock.com/i/500p/85/40/artificial-intelligence-logo-icon-symbol-vector-31118540.jpg",
           "placement_assurance": true,
-          "projects": ["AI Chatbot", "Image Recognition System"]
+          "projects": [
+            "AI Chatbot",
+            "Image Recognition System"
+          ]
         },
         {
           "course_name": "ChatGPT Online Course",
@@ -13089,14 +13358,16 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/c.png",
           "placement_assurance": true,
-          "projects": ["AI Chatbot", "Productivity Automation"]
+          "projects": [
+            "AI Chatbot",
+            "Productivity Automation"
+          ]
         }
       ]
     },
     {
       "category_name": "Database Management System",
       "path": "database-management-system",
-
       "sub_categories": [
         {
           "course_name": "MySQL",
@@ -17930,7 +18201,10 @@
           "skill_level": "Beginner to Intermediate",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJmSd3yVYwkqUz-Nli6Vbk2tN407MHKDnnyQ&s",
           "placement_assurance": true,
-          "projects": ["Custom CMS System", "Secure User Portal"]
+          "projects": [
+            "Custom CMS System",
+            "Secure User Portal"
+          ]
         },
         {
           "course_name": "PL and SQL",
@@ -18094,14 +18368,16 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/plsql.png",
           "placement_assurance": true,
-          "projects": ["Database Application", "Reporting System"]
+          "projects": [
+            "Database Application",
+            "Reporting System"
+          ]
         }
       ]
     },
     {
       "category_name": "Microsoft",
       "path": "microsoft",
-
       "sub_categories": [
         {
           "course_name": "Microsoft Excel",
@@ -18162,7 +18438,10 @@
           "skill_level": "Beginner",
           "image": "https://wallpapers.com/images/hd/excel-microsoft-spreadsheet-computer-application-enhdz9phqfeeurhx.jpg",
           "placement_assurance": true,
-          "projects": ["Financial Report", "Data Dashboard"]
+          "projects": [
+            "Financial Report",
+            "Data Dashboard"
+          ]
         },
         {
           "course_name": "Microsoft Dynamics 365",
@@ -18254,7 +18533,10 @@
           "skill_level": "Intermediate",
           "image": "data:image/png;base64,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",
           "placement_assurance": true,
-          "projects": ["Event Management Solution", "Custom CRM Implementation"]
+          "projects": [
+            "Event Management Solution",
+            "Custom CRM Implementation"
+          ]
         },
         {
           "course_name": "Microsoft Azure",
@@ -18323,7 +18605,10 @@
           "skill_level": "Intermediate",
           "image": "https://wallpapercave.com/wp/wp3734333.jpg",
           "placement_assurance": true,
-          "projects": ["Cloud Migration", "Azure-Based Web App"]
+          "projects": [
+            "Cloud Migration",
+            "Azure-Based Web App"
+          ]
         },
         {
           "course_name": "Excel Macros and VBA",
@@ -18400,24 +18685,24 @@
           "skill_level": "Intermediate",
           "image": "data:image/png;base64,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",
           "placement_assurance": true,
-          "projects": ["Data Cleaning Automation", "Custom Reporting Tool"]
+          "projects": [
+            "Data Cleaning Automation",
+            "Custom Reporting Tool"
+          ]
         }
       ]
     },
     {
       "category_name": "Digital Marketing & Business Tools",
       "path": "digital-marketing-business-tools",
-
       "sub_categories": [
         {
           "course_name": "Oracle Fusion Financials Training",
           "path": "oracle-fusion-financials",
           "image": "/oracle-fusion-courses.jpg",
-
           "meta_title": "Oracle Fusion Financials Online Training | Oracle Fusion Certification Course",
           "meta_description": "Master Oracle Fusion Financials with comprehensive online training. Learn GL, AP, AR, Assets, Tax, SLA, and more with real-time implementation guidance.",
           "description": "In-depth training on Oracle Fusion Financials covering General Ledger, Payables, Receivables, Assets, Tax, SLA, Payments, and enterprise structures with practical configuration scenarios.",
-
           "what_youll_learn": [
             "Implementing Oracle Fusion Financials end-to-end",
             "Configuring enterprise structures and financial modules",
@@ -18427,7 +18712,6 @@
             "Managing Assets, Depreciation, and Asset Books",
             "Advanced Collections and Cash Management setup"
           ],
-
           "syllabus": [
             {
               "module": "Introduction & Setup",
@@ -18450,7 +18734,9 @@
             },
             {
               "module": "Oracle Fusion General Ledger",
-              "subtopics": ["Configuring Oracle Fusion General Ledger"]
+              "subtopics": [
+                "Configuring Oracle Fusion General Ledger"
+              ]
             },
             {
               "module": "Oracle Fusion Tax",
@@ -18501,11 +18787,9 @@
               ]
             }
           ],
-
           "duration": "50–60 hours",
           "skill_level": "Intermediate to Advanced",
           "placement_assurance": true,
-
           "projects": [
             "General Ledger Configuration Project",
             "End-to-End Procure-to-Pay (P2P) Setup",
@@ -18518,11 +18802,9 @@
           "course_name": "Workday Integration Training",
           "path": "workday-integration-training",
           "image": "/workday-integration-training.jpg",
-
           "meta_title": "Workday Integration Online Training | Workday Integration Certification Course",
           "meta_description": "Master Workday Integration with hands-on training. Learn EIB, Core Connectors, Studio, Calculated Fields, Business Processes and integration architecture.",
           "description": "Comprehensive hands-on Workday Integration training covering EIB, Workday Studio, Core Connectors, Calculated Fields, security groups, data loads, business process configuration and real-time HR transaction automation.",
-
           "what_youll_learn": [
             "Understand Workday architecture, UI navigation and business objects",
             "Create and manage Workday Supervisory and Location Organization structures",
@@ -18535,7 +18817,6 @@
             "Use Workday iLoads for foundational and master data imports",
             "Implement Workday Studio integrations using assemblies and services"
           ],
-
           "syllabus": [
             {
               "module": "Core Concepts & Navigation",
@@ -18698,11 +18979,9 @@
               ]
             }
           ],
-
           "duration": "45–55 hours",
           "skill_level": "Intermediate",
           "placement_assurance": true,
-
           "projects": [
             "Employee hiring integration with EIB",
             "Workday Core Connector Worker implementation",
@@ -18888,7 +19167,9 @@
             },
             {
               "module": "SCADA Alarms & Events",
-              "subtopics": ["Creating Alarms & Events"]
+              "subtopics": [
+                "Creating Alarms & Events"
+              ]
             },
             {
               "module": "SCADA Communication & Connectivity",
@@ -19101,19 +19382,27 @@
           "syllabus": [
             {
               "module": "Introduction of Computer",
-              "subtopics": ["Computer fundamentals and components"]
+              "subtopics": [
+                "Computer fundamentals and components"
+              ]
             },
             {
               "module": "Generation of Computers",
-              "subtopics": ["Evolution of computing technology"]
+              "subtopics": [
+                "Evolution of computing technology"
+              ]
             },
             {
               "module": "Classification of Computers",
-              "subtopics": ["Types and categories of computers"]
+              "subtopics": [
+                "Types and categories of computers"
+              ]
             },
             {
               "module": "Parts of Computer (Units)",
-              "subtopics": ["CPU, memory, storage, and peripherals"]
+              "subtopics": [
+                "CPU, memory, storage, and peripherals"
+              ]
             },
             {
               "module": "Parts of Motherboard",
@@ -19256,7 +19545,9 @@
             },
             {
               "module": "Network Testing & Certification",
-              "subtopics": ["Network module testing"]
+              "subtopics": [
+                "Network module testing"
+              ]
             }
           ],
           "duration": "60–75 hours",
@@ -19389,7 +19680,9 @@
             },
             {
               "module": "Service Tax",
-              "subtopics": ["Service Tax Reports"]
+              "subtopics": [
+                "Service Tax Reports"
+              ]
             },
             {
               "module": "Technological Advantages in Tally ERP 9",
@@ -19406,7 +19699,9 @@
             },
             {
               "module": "Payroll Accounting in Tally ERP 9",
-              "subtopics": ["Payroll configuration and processing"]
+              "subtopics": [
+                "Payroll configuration and processing"
+              ]
             },
             {
               "module": "Generating Reports in Tally ERP 9",
@@ -19767,11 +20062,9 @@
           "course_name": "Workday Payroll Training",
           "path": "workday-payroll-training",
           "image": "/workday-payroll-training.jpg",
-
           "meta_title": "Workday Payroll Online Training | Advanced Payroll Configuration Course",
           "meta_description": "Learn Workday Payroll end-to-end including earnings, deductions, taxation, withholding orders, banking, settlement, payroll cycles and accounting.",
           "description": "Complete Workday Payroll training covering payroll frameworks, period schedules, tax setup, payroll accounting, banking configuration, security, processing workflow and real-time payroll operations.",
-
           "what_youll_learn": [
             "Configure Workday Payroll framework and period schedules",
             "Set up earnings, deductions, bonus plans and compensation costing",
@@ -19784,7 +20077,6 @@
             "Perform overrides, loan repayment and payroll adjustments",
             "Execute on-cycle and off-cycle payroll processing"
           ],
-
           "syllabus": [
             {
               "module": "Introduction to Workday Payroll",
@@ -19894,11 +20186,9 @@
               ]
             }
           ],
-
           "duration": "40–50 hours",
           "skill_level": "Intermediate to Advanced",
           "placement_assurance": true,
-
           "projects": [
             "Payroll tax configuration & validation",
             "Compensation earnings and deduction setup",
@@ -19925,7 +20215,9 @@
           "syllabus": [
             {
               "module": "Module 1: Basic Concepts",
-              "subtopics": ["What is Workday Studio?"]
+              "subtopics": [
+                "What is Workday Studio?"
+              ]
             },
             {
               "module": "Module 2: Workday Studio IDE Fundamentals",
@@ -19986,7 +20278,9 @@
             },
             {
               "module": "Module 5: Aggregator Component",
-              "subtopics": ["Using an Aggregator to merge files"]
+              "subtopics": [
+                "Using an Aggregator to merge files"
+              ]
             },
             {
               "module": "Module 6: Workday Public Web Service",
@@ -20177,7 +20471,11 @@
             },
             {
               "module": "Module 12: Settlement",
-              "subtopics": ["Overview", "Create Settlement Run", "Cash Flow"]
+              "subtopics": [
+                "Overview",
+                "Create Settlement Run",
+                "Cash Flow"
+              ]
             },
             {
               "module": "Module 13: Close and Report",
@@ -20190,7 +20488,10 @@
             },
             {
               "module": "Module 14: Workday Reporting",
-              "subtopics": ["Overview", "Reporting Terminology"]
+              "subtopics": [
+                "Overview",
+                "Reporting Terminology"
+              ]
             },
             {
               "module": "Module 15: Expenses",
@@ -20203,7 +20504,10 @@
             },
             {
               "module": "Module 16: Workday Reporting (Advanced)",
-              "subtopics": ["Overview", "Reporting Terminology"]
+              "subtopics": [
+                "Overview",
+                "Reporting Terminology"
+              ]
             }
           ],
           "duration": "50 hours",
@@ -20284,14 +20588,16 @@
           "skill_level": "Beginner",
           "image": "https://w0.peakpx.com/wallpaper/606/552/HD-wallpaper-digital-marketing-agency-developing-top-marketing-strategies-in-co-seo-marketing.jpg",
           "placement_assurance": true,
-          "projects": ["SEO Campaign", "Social Media Strategy"]
+          "projects": [
+            "SEO Campaign",
+            "Social Media Strategy"
+          ]
         }
       ]
     },
     {
       "category_name": "UI and UX",
       "path": "ui-and-ux",
-
       "sub_categories": [
         {
           "course_name": "AR & VR Technologies",
@@ -20418,14 +20724,16 @@
           "skill_level": "Intermediate",
           "image": "https://wallpapercave.com/wp/wp9775532.jpg",
           "placement_assurance": true,
-          "projects": ["Website Redesign", "Mobile App Prototype"]
+          "projects": [
+            "Website Redesign",
+            "Mobile App Prototype"
+          ]
         }
       ]
     },
     {
       "category_name": "CRM & Enterprise Solutions",
       "path": "crm-enterprise-solutions",
-
       "sub_categories": [
         {
           "course_name": "Salesforce",
@@ -20486,7 +20794,10 @@
           "skill_level": "Intermediate",
           "image": "https://wallpapers.com/images/featured/salesforce-background-fbkrxqtfk2eu67b4.jpg",
           "placement_assurance": true,
-          "projects": ["CRM Implementation", "Sales Automation"]
+          "projects": [
+            "CRM Implementation",
+            "Sales Automation"
+          ]
         },
         {
           "course_name": "Appian Online Training",
@@ -20583,7 +20894,9 @@
             },
             {
               "module": "Creating a Work Breakdown Structure",
-              "subtopics": ["Creating Multiple Levels"]
+              "subtopics": [
+                "Creating Multiple Levels"
+              ]
             },
             {
               "module": "Adding Activities",
@@ -20659,7 +20972,10 @@
             },
             {
               "module": "Baselining the Project Plan",
-              "subtopics": ["Selecting a Baseline", "Adding a Baseline"]
+              "subtopics": [
+                "Selecting a Baseline",
+                "Adding a Baseline"
+              ]
             },
             {
               "module": "Executing the Project Plan",
@@ -20698,11 +21014,9 @@
         }
       ]
     },
-
     {
       "category_name": "Networking",
       "path": "networking",
-
       "sub_categories": [
         {
           "course_name": "CCNA Online Training",
@@ -20786,7 +21100,10 @@
             },
             {
               "module": "Spanning Tree and EtherChannel",
-              "subtopics": ["Common Spanning Tree", "PVST and RSTP"]
+              "subtopics": [
+                "Common Spanning Tree",
+                "PVST and RSTP"
+              ]
             },
             {
               "module": "Layer 2 Security",
@@ -20851,7 +21168,10 @@
           "skill_level": "Beginner to Intermediate",
           "image": "/CourseDetails/ccna.png",
           "placement_assurance": true,
-          "projects": ["Network Design Project", "Troubleshooting Lab"]
+          "projects": [
+            "Network Design Project",
+            "Troubleshooting Lab"
+          ]
         },
         {
           "course_name": "CCNP",
@@ -21158,7 +21478,6 @@
     {
       "category_name": "Data Analytics",
       "path": "data-analytics",
-
       "sub_categories": [
         {
           "course_name": "SAS Course",
@@ -21237,11 +21556,18 @@
             },
             {
               "module": "Loops in SAS: Do Loops",
-              "subtopics": ["Do Loop", "Do While", "Do Until"]
+              "subtopics": [
+                "Do Loop",
+                "Do While",
+                "Do Until"
+              ]
             },
             {
               "module": "Array",
-              "subtopics": ["Definition of array", "Example of array"]
+              "subtopics": [
+                "Definition of array",
+                "Example of array"
+              ]
             },
             {
               "module": "PROCEDURES",
@@ -21319,14 +21645,16 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/sas1.png",
           "placement_assurance": true,
-          "projects": ["Clinical Trial Analysis", "Financial Report Generation"]
+          "projects": [
+            "Clinical Trial Analysis",
+            "Financial Report Generation"
+          ]
         }
       ]
     },
     {
       "category_name": "Data Integration",
       "path": "data-integration",
-
       "sub_categories": [
         {
           "course_name": "Informatica PowerCenter",
@@ -21497,7 +21825,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ifp.png",
           "placement_assurance": true,
-          "projects": ["ETL Pipeline", "Data Warehouse Implementation"]
+          "projects": [
+            "ETL Pipeline",
+            "Data Warehouse Implementation"
+          ]
         },
         {
           "course_name": "Informatica ILM",
@@ -21572,7 +21903,9 @@
             },
             {
               "module": "Seamless Access",
-              "subtopics": ["Describe and create a seamless access job"]
+              "subtopics": [
+                "Describe and create a seamless access job"
+              ]
             },
             {
               "module": "ILM Data Archive-Application Retirement",
@@ -21613,7 +21946,9 @@
             },
             {
               "module": "ILM File Archive Service (FAS)",
-              "subtopics": ["Describe features and architecture"]
+              "subtopics": [
+                "Describe features and architecture"
+              ]
             },
             {
               "module": "ILM Application Retirement Project",
@@ -21629,7 +21964,9 @@
             },
             {
               "module": "Handling External Attachments",
-              "subtopics": ["Describe how to manage attachments"]
+              "subtopics": [
+                "Describe how to manage attachments"
+              ]
             },
             {
               "module": "Data Discovery Retention Management and Legal Hold",
@@ -21644,7 +21981,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/inf.png",
           "placement_assurance": true,
-          "projects": ["Data Archiving Solution", "Application Retirement Plan"]
+          "projects": [
+            "Data Archiving Solution",
+            "Application Retirement Plan"
+          ]
         },
         {
           "course_name": "Informatica MDM Online Training",
@@ -21740,7 +22080,11 @@
             },
             {
               "module": "Configure Data Access Views",
-              "subtopics": ["Queries & Packages Overview", "Query", "Package"]
+              "subtopics": [
+                "Queries & Packages Overview",
+                "Query",
+                "Package"
+              ]
             },
             {
               "module": "Batch Processes and Data Management Tools",
@@ -22225,17 +22569,14 @@
     {
       "category_name": "System Administration",
       "path": "system-administration",
-
       "sub_categories": [
         {
           "course_name": "Kofax TotalAgility Online Training",
           "path": "kofax-totalagility-training",
           "image": "/kofax-courses.jpg",
-
           "meta_title": "Kofax TotalAgility Online Training | Kofax Certification Course",
           "meta_description": "Master Kofax TotalAgility with hands-on online training. Learn capture workflow, classification, extraction, forms, case management, and end-to-end automation.",
           "description": "Comprehensive training on Kofax TotalAgility covering installation, capture workflows, classification, extraction, forms, case-based processes, integration, mobile input, MFP setup and end-to-end automation.",
-
           "what_youll_learn": [
             "Install and configure Kofax TotalAgility",
             "Design capture workflows with classification and extraction",
@@ -22247,7 +22588,6 @@
             "Export data to external systems",
             "Integrate mobile devices and databases"
           ],
-
           "syllabus": [
             {
               "module": "Introduction to Kofax TotalAgility",
@@ -22412,7 +22752,10 @@
             },
             {
               "module": "Email & Watched Folder Input Sources",
-              "subtopics": ["Email integration", "Watched folder configuration"]
+              "subtopics": [
+                "Email integration",
+                "Watched folder configuration"
+              ]
             },
             {
               "module": "Exporting to Systems of Record",
@@ -22441,11 +22784,9 @@
               ]
             }
           ],
-
           "duration": "60–70 hours",
           "skill_level": "Intermediate",
           "placement_assurance": true,
-
           "projects": [
             "Capture Workflow Automation Project",
             "Loan Application Case-Based Process",
@@ -22740,7 +23081,12 @@
             },
             {
               "module": "Editors",
-              "subtopics": ["NANO", "PICO", "GEDIT", "Vi Editor"]
+              "subtopics": [
+                "NANO",
+                "PICO",
+                "GEDIT",
+                "Vi Editor"
+              ]
             },
             {
               "module": "AWK",
@@ -22777,7 +23123,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/u.png",
           "placement_assurance": true,
-          "projects": ["System Monitor", "Backup Automation"]
+          "projects": [
+            "System Monitor",
+            "Backup Automation"
+          ]
         }
       ]
     },
@@ -22811,27 +23160,39 @@
             },
             {
               "module": "Introduction to XSL & XML",
-              "subtopics": ["Creating an XSLT Stylesheet"]
+              "subtopics": [
+                "Creating an XSLT Stylesheet"
+              ]
             },
             {
               "module": "XML Firewall Service",
-              "subtopics": ["Content-based routing using XML firewalls"]
+              "subtopics": [
+                "Content-based routing using XML firewalls"
+              ]
             },
             {
               "module": "Multi Protocol Gateway Service",
-              "subtopics": ["Configuring a Multi-Protocol Gateway service"]
+              "subtopics": [
+                "Configuring a Multi-Protocol Gateway service"
+              ]
             },
             {
               "module": "Web Service Proxy Service",
-              "subtopics": ["Configuring a Web Service Proxy service"]
+              "subtopics": [
+                "Configuring a Web Service Proxy service"
+              ]
             },
             {
               "module": "Web Application Firewall Service",
-              "subtopics": ["Creating a Web Application firewall service"]
+              "subtopics": [
+                "Creating a Web Application firewall service"
+              ]
             },
             {
               "module": "DataPower Cryptographic Tools",
-              "subtopics": ["Creating Cryptographic objects"]
+              "subtopics": [
+                "Creating Cryptographic objects"
+              ]
             },
             {
               "module": "SSL Connectivity",
@@ -22847,19 +23208,30 @@
             },
             {
               "module": "Front Side Handler (FSH)",
-              "subtopics": ["Http FSH", "Https FSH", "MQ FSH"]
+              "subtopics": [
+                "Http FSH",
+                "Https FSH",
+                "MQ FSH"
+              ]
             },
             {
               "module": "Different Backend Connection With Datapower",
-              "subtopics": ["Static Backend", "Dynamic Backend"]
+              "subtopics": [
+                "Static Backend",
+                "Dynamic Backend"
+              ]
             },
             {
               "module": "XML Threat Protection",
-              "subtopics": ["Protecting against XML threats"]
+              "subtopics": [
+                "Protecting against XML threats"
+              ]
             },
             {
               "module": "XML And Web Services Security Overview",
-              "subtopics": ["Web service encryption and digital signatures"]
+              "subtopics": [
+                "Web service encryption and digital signatures"
+              ]
             },
             {
               "module": "Authentication, Authorization, And Auditing",
@@ -22882,19 +23254,31 @@
             },
             {
               "module": "Troubleshooting Mechanisms",
-              "subtopics": ["Usage of Probe", "System Logs", "Log Levels"]
+              "subtopics": [
+                "Usage of Probe",
+                "System Logs",
+                "Log Levels"
+              ]
             },
             {
               "module": "Logging Mechanism",
-              "subtopics": ["Log Category", "Log Target"]
+              "subtopics": [
+                "Log Category",
+                "Log Target"
+              ]
             },
             {
               "module": "Error Handling",
-              "subtopics": ["Exception Handling"]
+              "subtopics": [
+                "Exception Handling"
+              ]
             },
             {
               "module": "Configurations",
-              "subtopics": ["WSP Configuration", "MPGW Configuration"]
+              "subtopics": [
+                "WSP Configuration",
+                "MPGW Configuration"
+              ]
             },
             {
               "module": "Monitoring Objects",
@@ -23132,7 +23516,10 @@
             },
             {
               "module": "Dispatcher in detail",
-              "subtopics": ["All Services", "Properties of Services"]
+              "subtopics": [
+                "All Services",
+                "Properties of Services"
+              ]
             }
           ],
           "duration": "45 hours",
@@ -23214,7 +23601,9 @@
             },
             {
               "module": "Control Access",
-              "subtopics": ["Share assets & set access permissions"]
+              "subtopics": [
+                "Share assets & set access permissions"
+              ]
             }
           ],
           "duration": "25 hours",
@@ -23334,7 +23723,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ibm-spss.png",
           "placement_assurance": true,
-          "projects": ["Market Research Analysis", "Healthcare Data Study"]
+          "projects": [
+            "Market Research Analysis",
+            "Healthcare Data Study"
+          ]
         },
         {
           "course_name": "IBM Cloud Essentials",
@@ -23456,7 +23848,10 @@
           "skill_level": "Intermediate",
           "image": "/CourseDetails/ibm-bluemix.png",
           "placement_assurance": true,
-          "projects": ["Cloud-Native Application", "API-Driven Microservice"]
+          "projects": [
+            "Cloud-Native Application",
+            "API-Driven Microservice"
+          ]
         },
         {
           "course_name": "IBM QRadar SIEM",
@@ -23528,7 +23923,10 @@
             },
             {
               "module": "Managing Custom Log services",
-              "subtopics": ["Creating Rules", "Using Rules"]
+              "subtopics": [
+                "Creating Rules",
+                "Using Rules"
+              ]
             },
             {
               "module": "Assets & Vulnerability assessment",
@@ -23539,20 +23937,27 @@
             },
             {
               "module": "Risks management & Admin",
-              "subtopics": ["Risk Assessment", "QRadar Administration"]
+              "subtopics": [
+                "Risk Assessment",
+                "QRadar Administration"
+              ]
             },
             {
               "module": "Backup",
-              "subtopics": ["Types of backup"]
+              "subtopics": [
+                "Types of backup"
+              ]
             }
           ],
           "duration": "40 hours",
           "skill_level": "Advanced",
           "image": "/CourseDetails/ibm-qradar.png",
           "placement_assurance": true,
-          "projects": ["SIEM Implementation", "Threat Detection System"]
+          "projects": [
+            "SIEM Implementation",
+            "Threat Detection System"
+          ]
         },
-
         {
           "course_name": "IBM BPM Administration",
           "path": "ibm-bpm-administration",
@@ -23658,7 +24063,10 @@
           "skill_level": "Advanced",
           "image": "/CourseDetails/ibm-bpm.png",
           "placement_assurance": true,
-          "projects": ["Process Automation System", "BPM Migration Project"]
+          "projects": [
+            "Process Automation System",
+            "BPM Migration Project"
+          ]
         },
         {
           "course_name": "IBM Sterling",
@@ -23675,19 +24083,39 @@
           "syllabus": [
             {
               "module": "JOB STATEMENT",
-              "subtopics": ["CLASS", "PRTY", "MSGCLASS", "MSGLEVEL", "TYPRUN"]
+              "subtopics": [
+                "CLASS",
+                "PRTY",
+                "MSGCLASS",
+                "MSGLEVEL",
+                "TYPRUN"
+              ]
             },
             {
               "module": "JOBLIB/STEPLIB",
-              "subtopics": ["JOBLIB", "STEPLIB"]
+              "subtopics": [
+                "JOBLIB",
+                "STEPLIB"
+              ]
             },
             {
               "module": "EXEC STATEMENT",
-              "subtopics": ["PARM", "ACCT", "ADDRSPC", "DPRTY", "PERFORM", "RD"]
+              "subtopics": [
+                "PARM",
+                "ACCT",
+                "ADDRSPC",
+                "DPRTY",
+                "PERFORM",
+                "RD"
+              ]
             },
             {
               "module": "COMMON PARAMETER IN BOTH JOB AND EXEC STATEMENTS",
-              "subtopics": ["REGION", "COND", "TIME"]
+              "subtopics": [
+                "REGION",
+                "COND",
+                "TIME"
+              ]
             },
             {
               "module": "DD STATEMENT",
@@ -23734,11 +24162,17 @@
             },
             {
               "module": "Control Job Processing (IF THEN ELSE) in JCL",
-              "subtopics": ["Introduction", "Example JCL"]
+              "subtopics": [
+                "Introduction",
+                "Example JCL"
+              ]
             },
             {
               "module": "Restarting and checkpoint in JCL",
-              "subtopics": ["Introduction", "Example JCL"]
+              "subtopics": [
+                "Introduction",
+                "Example JCL"
+              ]
             }
           ],
           "duration": "30 hours",
@@ -24037,7 +24471,12 @@
             },
             {
               "module": "Scheduling",
-              "subtopics": ["Cron", "At", "Batch", "Real-time job discussions"]
+              "subtopics": [
+                "Cron",
+                "At",
+                "Batch",
+                "Real-time job discussions"
+              ]
             },
             {
               "module": "Backup And Restore",
@@ -24109,7 +24548,6 @@
             "High-Availability Storage Solution"
           ]
         },
-
         {
           "course_name": "IBM Mainframe Developer",
           "path": "ibm-mainframe-developer",
@@ -24126,19 +24564,39 @@
           "syllabus": [
             {
               "module": "JOB STATEMENT",
-              "subtopics": ["CLASS", "PRTY", "MSGCLASS", "MSGLEVEL", "TYPRUN"]
+              "subtopics": [
+                "CLASS",
+                "PRTY",
+                "MSGCLASS",
+                "MSGLEVEL",
+                "TYPRUN"
+              ]
             },
             {
               "module": "JOBLIB/STEPLIB",
-              "subtopics": ["JOBLIB", "STEPLIB"]
+              "subtopics": [
+                "JOBLIB",
+                "STEPLIB"
+              ]
             },
             {
               "module": "EXEC STATEMENT",
-              "subtopics": ["PARM", "ACCT", "ADDRSPC", "DPRTY", "PERFORM", "RD"]
+              "subtopics": [
+                "PARM",
+                "ACCT",
+                "ADDRSPC",
+                "DPRTY",
+                "PERFORM",
+                "RD"
+              ]
             },
             {
               "module": "COMMON PARAMETER IN BOTH JOB AND EXEC STATEMENTS",
-              "subtopics": ["REGION", "COND", "TIME"]
+              "subtopics": [
+                "REGION",
+                "COND",
+                "TIME"
+              ]
             },
             {
               "module": "DD STATEMENT",
@@ -24185,11 +24643,17 @@
             },
             {
               "module": "Control Job Processing (IF THEN ELSE) in JCL",
-              "subtopics": ["Introduction", "Example JCL"]
+              "subtopics": [
+                "Introduction",
+                "Example JCL"
+              ]
             },
             {
               "module": "Restarting and checkpoint in JCL",
-              "subtopics": ["Introduction", "Example JCL"]
+              "subtopics": [
+                "Introduction",
+                "Example JCL"
+              ]
             }
           ],
           "duration": "30 hours",
@@ -24571,7 +25035,6 @@
         }
       ]
     },
-
     {
       "category_name": "Cloud & DevOps",
       "path": "cloud-devops",
