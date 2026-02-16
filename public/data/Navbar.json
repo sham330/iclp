@@ -235,6 +235,10 @@
                 "name": "AWS Solutions Architect",
                 "path": "/course/aws-online-training"
               },
+               {
+                "name": "AWS DevOps",
+                "path": "/course/aws-devops-training"
+              },
               {
                 "name": "Microsoft Azure",
                 "path": "/course/microsoftazure-training"

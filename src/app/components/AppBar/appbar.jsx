@@ -68,6 +68,7 @@ const AppBar = () => {
       { name: "Salesforce", path: "salesforce-online-training" },
       { name: "Salesforce Developer", path: "salesforce-developer-training" },
       { name: "Azure DevOps", path: "azure-devops-training" },
+      {name:"AWS DevOps",path:"aws-devops-training"},
       { name: "Tableau", path: "tableau-certification-training" },
       { name: "Motion Graphics Training", path: "motion-graphics-training" },
       { name: "Penetration Testing", path: "advanced-pentest-certification-training" },

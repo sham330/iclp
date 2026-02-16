@@ -12905,6 +12905,192 @@
           ]
         },
         {
+  "course_name": "AWS DevOps Course in India 2026",
+  "path": "aws-devops-training",
+  "description": "Master AWS DevOps with comprehensive training at ICLP Technologies. Complete program covering Linux, AWS services, CI/CD, automation, infrastructure management, and DevOps tools with real-world projects and placement support.",
+  "what_youll_learn": [
+    "Linux fundamentals and command-line operations",
+    "AWS cloud services (EC2, S3, RDS, VPC, Lambda, and more)",
+    "DevOps principles and modern toolsets",
+    "Continuous Integration and Continuous Deployment (CI/CD)",
+    "Infrastructure as Code with configuration management tools",
+    "Auto-scaling, load balancing, and high availability architecture",
+    "Monitoring, security, and troubleshooting in AWS",
+    "Build automation with Maven, Ant, Jenkins, and Git"
+  ],
+  "syllabus": [
+    {
+      "module": "Linux Fundamentals",
+      "subtopics": [
+        "Basic commands and Vim editor modes",
+        "Filesystem hierarchy and file operations",
+        "User and group management",
+        "Linux permissions and software management",
+        "Services, daemons, and runlevels"
+      ]
+    },
+    {
+      "module": "Cloud Computing Fundamentals",
+      "subtopics": [
+        "Cloud computing concepts and benefits",
+        "Deployment models: Public, Private, Hybrid Cloud",
+        "Virtualization and Hypervisor types",
+        "Cloud service models: IaaS, PaaS, SaaS",
+        "Scaling strategies and cost models"
+      ]
+    },
+    {
+      "module": "AWS DevOps Overview",
+      "subtopics": [
+        "AWS features and marketplace",
+        "AWS Compute, Storage, Network, and Database services",
+        "Global Infrastructure: Regions and Availability Zones",
+        "AWS free tier account setup and management console",
+        "Overview of various AWS services"
+      ]
+    },
+    {
+      "module": "Identity and Access Management (IAM)",
+      "subtopics": [
+        "AWS authentication and password policies",
+        "User accounts, groups, and custom policies",
+        "Roles creation and policy association",
+        "Programmatic and console access management",
+        "Security best practices"
+      ]
+    },
+    {
+      "module": "EC2 (Elastic Compute Cloud)",
+      "subtopics": [
+        "AMI and AWS Marketplace templates",
+        "Instance types: Reserved, On-demand, Spot, Dedicated",
+        "Security groups and key pair management",
+        "EBS volumes: attach, detach, and snapshots",
+        "Custom AMI creation and cross-region deployment"
+      ]
+    },
+    {
+      "module": "Auto-scaling and Load Balancing",
+      "subtopics": [
+        "Auto-scaling groups and launch configurations",
+        "Dynamic scaling and lifecycle policies",
+        "Elastic Load Balancer (ELB) types",
+        "Application, Network, and Classic Load Balancers",
+        "Load balancer migration and components"
+      ]
+    },
+    {
+      "module": "Storage Services",
+      "subtopics": [
+        "EBS volume management and snapshots",
+        "S3 buckets: upload, download, permissions",
+        "S3 versioning and lifecycle policies",
+        "Storage Gateway, Transfer Acceleration, and Glacier",
+        "CloudFront distribution and content delivery"
+      ]
+    },
+    {
+      "module": "Networking with VPC",
+      "subtopics": [
+        "Virtual Private Cloud (VPC) fundamentals",
+        "IP addressing with CIDR notation",
+        "Public and private subnets",
+        "Security groups and Network ACLs",
+        "VPN connectivity and subnet configuration"
+      ]
+    },
+    {
+      "module": "Database Services",
+      "subtopics": [
+        "Relational Database Service (RDS) introduction",
+        "MySQL, Oracle, MS SQL RDS instances",
+        "Database configuration and backups",
+        "DynamoDB: NoSQL database management",
+        "Read/write consistency and alarm configuration"
+      ]
+    },
+    {
+      "module": "Monitoring and Security",
+      "subtopics": [
+        "CloudWatch monitoring and metrics",
+        "Alarms, thresholds, and notifications",
+        "CloudTrail for audit logging",
+        "Trust Advisor and security best practices",
+        "AWS shared responsibility model"
+      ]
+    },
+    {
+      "module": "Application Services",
+      "subtopics": [
+        "Simple Notification Service (SNS)",
+        "Simple Queue Service (SQS)",
+        "Simple Email Service (SES)",
+        "AWS Lambda serverless computing",
+        "Elastic Beanstalk application deployment"
+      ]
+    },
+    {
+      "module": "Route 53 and DNS Management",
+      "subtopics": [
+        "Hosted zones and domain management",
+        "Custom domain name configuration",
+        "Routing policies and DNS strategies",
+        "Website hosting with Route 53"
+      ]
+    },
+    {
+      "module": "Architecture and High Availability",
+      "subtopics": [
+        "AWS high availability design patterns",
+        "Backup and disaster recovery strategies",
+        "Best practices for DR and backups",
+        "Fault-tolerant architecture design"
+      ]
+    },
+    {
+      "module": "DevOps Fundamentals and Tools",
+      "subtopics": [
+        "DevOps principles and modern toolsets",
+        "Build tools: Apache Ant, Maven",
+        "Source code management: CVS, Git",
+        "Test automation with JUnit",
+        "Continuous Integration: Jenkins, TeamCity"
+      ]
+    },
+    {
+      "module": "Configuration Management",
+      "subtopics": [
+        "Infrastructure as Code concepts",
+        "Configuration management with Chef",
+        "Automation with Puppet",
+        "Ansible for configuration management",
+        "CI/CD pipeline automation"
+      ]
+    },
+    {
+      "module": "Troubleshooting and Best Practices",
+      "subtopics": [
+        "EC2 instance troubleshooting",
+        "CloudWatch-based diagnostics",
+        "ELB and CloudFront troubleshooting",
+        "Performance optimization techniques",
+        "AWS cost optimization strategies"
+      ]
+    }
+  ],
+  "duration": "6 months (200+ hours)",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/aws-devops-2026.png",
+  "placement_assurance": true,
+  "projects": [
+    "Automated CI/CD pipeline implementation",
+    "High availability web application deployment",
+    "Infrastructure automation with configuration management",
+    "Multi-tier application architecture on AWS",
+    "Disaster recovery and backup solution design"
+  ]
+        },
+        {
           "course_name": "Machine Learning with Python",
           "path": "machine-learning-using-python",
           "slug": "machine-learning-using-python",
