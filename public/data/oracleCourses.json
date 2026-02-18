@@ -51,102 +51,188 @@
             }
           ]
         },
-        {
-          "course_name": "Oracle SCM",
-          "path": "oracle-scm",
-           "meta_title": "Oracle SCM Course Online | Oracle SCM Training | Oracle SCM Certificate",
+{
+  "course_name": "Oracle SCM Training",
+  "path": "oracle-scm",
+  "meta_title": "Oracle SCM Course Online | Oracle SCM Training | Oracle SCM Certificate",
   "meta_description": "Master Oracle SCM with our online course. Get certified & boost your career with expert training. Check it out & enroll now!",
-          "description": "Learn Oracle Supply Chain Management covering Inventory, Order Management, Purchasing and Manufacturing.",
-          "what_youll_learn": [
-            "Oracle SCM implementation and configuration",
-            "Inventory management techniques",
-            "Order management processes",
-            "Purchasing and procurement",
-            "Manufacturing operations",
-            "Warehouse management",
-            "Integration with Financials"
-          ],
-          "syllabus": [
-            {
-              "module": "Inventory Management",
-              "subtopics": [
-                "Item master setup",
-                "Organization structure",
-                "Inventory transactions",
-                "Cycle counting",
-                "Inventory valuation"
-              ]
-            },
-            {
-              "module": "Order Management",
-              "subtopics": [
-                "Order entry and processing",
-                "Pricing and discounts",
-                "Shipping execution",
-                "Backorder management",
-                "Returns processing"
-              ]
-            },
-            {
-              "module": "Purchasing",
-              "subtopics": [
-                "Supplier management",
-                "Requisitioning",
-                "Purchase orders",
-                "Receiving",
-                "Invoice matching"
-              ]
-            }
-          ]
-        },
-        {
-          "course_name": "Oracle HCM",
-          "path": "oracle-hcm",
-           "meta_title": "Oracle HCM Course Online | Oracle HCM Training | Oracle HCM Certificate",
-  "meta_description": "Learn Oracle HCM online and get certified. Build HR tech expertise with hands-on training. Enroll today!",
-          "description": "Master Oracle Human Capital Management covering Core HR, Payroll, Talent Management and Self-Service.",
-          "what_youll_learn": [
-            "Oracle HCM implementation and configuration",
-            "Core HR processes",
-            "Payroll processing",
-            "Benefits administration",
-            "Talent management",
-            "Self-service functionality",
-            "Reporting and analytics"
-          ],
-          "syllabus": [
-            {
-              "module": "Core HR",
-              "subtopics": [
-                "Organization structure",
-                "Person and employment models",
-                "Workforce management",
-                "Absence management",
-                "HR reporting"
-              ]
-            },
-            {
-              "module": "Payroll",
-              "subtopics": [
-                "Payroll setup",
-                "Element configuration",
-                "Payroll processing",
-                "Tax reporting",
-                "Payroll reconciliation"
-              ]
-            },
-            {
-              "module": "Talent Management",
-              "subtopics": [
-                "Recruitment",
-                "Performance management",
-                "Career development",
-                "Succession planning",
-                "Learning management"
-              ]
-            }
-          ]
-        },
+  "description": "Learn Oracle Supply Chain Management covering Inventory, Order Management, Purchasing and Manufacturing.",
+  "courseDescription": "Master Oracle Supply Chain Management (Oracle SCM) Cloud with comprehensive training covering procurement, inventory management, order management, manufacturing, and logistics. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle SCM Functional Consultant.",
+  "what_youll_learn": [
+    "Oracle SCM Cloud implementation and configuration",
+    "Inventory management and optimization techniques",
+    "Order management and fulfillment processes",
+    "Purchasing and procurement operations",
+    "Manufacturing planning and execution",
+    "Warehouse management systems",
+    "Integration with Oracle Financials modules",
+    "Real-time business case scenarios and problem-solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle SCM Cloud",
+      "subtopics": [
+        "Oracle SCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Supply chain management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "Implementation methodology"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Item master setup and attributes",
+        "Organization structure and hierarchy",
+        "Inventory transactions and movements",
+        "Cycle counting and physical inventory",
+        "Inventory valuation methods",
+        "Stock locators and lot control"
+      ]
+    },
+    {
+      "module": "Order Management",
+      "subtopics": [
+        "Order entry and processing workflows",
+        "Pricing strategies and discount management",
+        "Shipping execution and fulfillment",
+        "Backorder management and allocation",
+        "Returns processing and RMA",
+        "Order orchestration and holds"
+      ]
+    },
+    {
+      "module": "Procurement and Purchasing",
+      "subtopics": [
+        "Supplier management and qualification",
+        "Purchase requisition creation",
+        "Purchase order processing and approval",
+        "Receiving and inspection procedures",
+        "Invoice matching and three-way match",
+        "Procurement analytics and reporting"
+      ]
+    },
+    {
+      "module": "Manufacturing Operations",
+      "subtopics": [
+        "Production planning and scheduling",
+        "Work order creation and management",
+        "Shop floor control and execution",
+        "Bill of materials (BOM) management",
+        "Routing and resource planning",
+        "Manufacturing cost accounting"
+      ]
+    },
+    {
+      "module": "Warehouse Management",
+      "subtopics": [
+        "Warehouse structure and setup",
+        "Receiving and putaway processes",
+        "Picking strategies and wave planning",
+        "Packing and shipping operations",
+        "Inventory accuracy and control",
+        "Mobile device integration"
+      ]
+    },
+    {
+      "module": "Supply Chain Integration",
+      "subtopics": [
+        "Integration with Oracle Financials",
+        "Cross-module business flows",
+        "Data migration and conversion",
+        "API and web services integration",
+        "Reporting and business intelligence",
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "module": "Implementation Best Practices",
+      "subtopics": [
+        "Requirement gathering and analysis",
+        "Configuration vs customization decisions",
+        "Testing strategies and UAT",
+        "Change management and training",
+        "Go-live preparation and support",
+        "Post-implementation optimization"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle SCM Training",
+    "description": "Oracle SCM plays a critical role in optimizing supply chain operations, reducing operational costs, and improving business efficiency. Organizations in manufacturing, retail, logistics, healthcare, and IT sectors rely on Oracle SCM Cloud to streamline their supply chain processes.",
+    "points": [
+      "<strong>High Demand:</strong> Strong market demand for Oracle SCM consultants across India",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹3.5 LPA to ₹18+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in multinational corporations and global enterprises",
+      "<strong>Cloud ERP Expertise:</strong> Gain expertise in leading cloud-based ERP technology",
+      "<strong>Career Transition:</strong> Perfect opportunity for supply chain professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹3.5 LPA – ₹6 LPA for beginners",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹8 LPA – ₹15 LPA",
+      "<strong>Senior Positions:</strong> Senior consultants command ₹18 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle SCM Training program is designed with an industry-oriented approach that focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Supply Chain Modules</strong>",
+    "description": "Master the fundamental Oracle SCM Cloud modules that form the backbone of enterprise supply chain operations.",
+    "topics": [
+      "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration",
+      "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation",
+      "<strong>Order Management:</strong> Order entry, processing, pricing, fulfillment, and shipping execution",
+      "<strong>Manufacturing Operations:</strong> Production planning, work orders, shop floor control, and BOM management",
+      "<strong>Warehouse Management:</strong> Receiving, putaway, picking, packing, and shipping processes",
+      "<strong>Logistics:</strong> Transportation management, delivery coordination, and supply chain visibility"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle SCM modules",
+      "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows",
+      "<strong>Integration:</strong> Connect Oracle SCM with Financials and other enterprise systems",
+      "<strong>Real-world Scenarios:</strong> Solve actual business challenges and implementation cases",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle SCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Performance Tuning:</strong> Optimization techniques and troubleshooting strategies",
+      "<strong>Data Migration:</strong> Master data conversion and migration methodologies"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle SCM career successfully.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle SCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation and optimization tailored for Oracle SCM roles",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions with expert feedback",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from experienced Oracle SCM industry professionals",
+      "<strong>Job Referral Assistance:</strong> Direct connections and referrals to Oracle SCM job opportunities",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle SCM consultant roles"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle SCM Training?",
+    "intro": "ICLP Technologies offers industry-focused Oracle SCM Training in India with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced industry professionals with hands-on Oracle SCM implementation experience. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live projects across various industries including manufacturing, retail, and logistics."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences:",
+      "options": [
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in India",
+        "<strong>Weekday Batches:</strong> Designed for students and full-time learners seeking intensive training",
+        "<strong>Weekend Batches:</strong> Perfect for working professionals balancing career and learning",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle ERP cloud environments",
+        "<strong>Recorded Sessions:</strong> Access to class recordings for revision and self-paced learning"
+      ]
+    }
+  }
+},
         {
   "course_name": "Oracle CPQ Training",
   "path": "oracle-cpq",
