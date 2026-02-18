@@ -129,6 +129,16 @@ const CourseDetails = () => {
     setOpenModule(openModule === index ? null : index);
   };
 
+  const renderWithStrong = (text) => {
+    if (!text) return null;
+    return text.split(/(<strong>.*?<\/strong>)/g).map((part, i) => {
+      if (part.startsWith('<strong>')) {
+        return <strong key={i} className="text-blue-500">{part.replace(/<\/?strong>/g, '')}</strong>;
+      }
+      return part;
+    });
+  };
+
 
   const downloadSyllabusPDF = () => {
     if (!course) return;
@@ -360,6 +370,183 @@ const CourseDetails = () => {
           </div>
         </div>
       </section>
+      {course.career_benefits && (
+        <section className="py-10 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2 className="text-4xl font-bold text-[#01377d] mb-4">
+              {renderWithStrong(course.career_benefits.heading)}
+            </h2>
+            <p
+              className="text-lg text-slate-700 mb-6 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.career_benefits.description }}
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.career_benefits.points.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white rounded-xl p-4 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all"
+                >
+                  <FaCheckCircle className="text-blue-500 text-xl flex-shrink-0 mt-1" />
+                  <span
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {course.curriculum_overview && (
+        <section className="py-10 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2
+              className="text-4xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.curriculum_overview.heading }}
+            />
+            <p
+              className="text-lg text-slate-700 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.curriculum_overview.intro }}
+            />
+          </div>
+        </section>
+      )}
+
+      {course.track_overview_primary && (
+        <section className="py-10 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3
+              className="text-3xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_primary.heading }}
+            />
+            <p
+              className="text-lg text-slate-700 mb-6"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_primary.description }}
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.track_overview_primary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-white rounded-lg p-4 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <FaCheckCircle className="text-blue-500 text-xl flex-shrink-0 mt-1" />
+                  <span
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {course.track_overview_secondary && (
+        <section className="py-10 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h3
+              className="text-3xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.heading }}
+            />
+            <p
+              className="text-lg text-slate-700 mb-6"
+              dangerouslySetInnerHTML={{ __html: course.track_overview_secondary.description }}
+            />
+            <div className="grid sm:grid-cols-2 gap-4">
+              {course.track_overview_secondary.topics.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-slate-50 rounded-lg p-4 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <FaCheckCircle className="text-blue-500 text-xl flex-shrink-0 mt-1" />
+                  <span
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {course.certification_info && (
+        <section className="py-10 bg-slate-50">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2
+              className="text-4xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.certification_info.heading }}
+            />
+            <p
+              className="text-lg text-slate-700 mb-6 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: course.certification_info.intro }}
+            />
+            <div className="space-y-4">
+              {course.certification_info.highlights.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-3 bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-blue-500 hover:shadow-lg transition-all"
+                >
+                  <FaCertificate className="text-blue-500 text-xl flex-shrink-0 mt-1" />
+                  <span
+                    className="text-slate-800"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {course.why_institute && (
+        <section className="py-10 bg-white">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
+            <h2
+              className="text-4xl font-bold text-[#01377d] mb-4"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
+            />
+            <p
+              className="text-lg text-slate-700 mb-6"
+              dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
+            />
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {course.why_institute.instructor_expertise && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <h3
+                    className="text-xl font-bold text-[#01377d] mb-3"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
+                  />
+                  <p
+                    className="text-slate-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
+                  />
+                </div>
+              )}
+
+              {course.why_institute.training_modes && (
+                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <h3
+                    className="text-xl font-bold text-[#01377d] mb-3"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
+                  />
+                  <p
+                    className="text-slate-700 mb-4"
+                    dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
+                  />
+                  <ul className="space-y-2">
+                    {course.why_institute.training_modes.options.map((item, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <FaCheckCircle className="text-blue-500 flex-shrink-0 mt-1" />
+                        <span
+                          className="text-slate-800"
+                          dangerouslySetInnerHTML={{ __html: item }}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
 
       {/* What You'll Learn Section - Reduced padding */}
@@ -573,6 +760,8 @@ const CourseDetails = () => {
 
       <CourseAdvantagesTools courseName={course.course_name} />
 
+      {/* Career Benefits */}
+   
 
       {/* Full Hiring Partners - Reduced padding */}
       <section className="py-10 bg-slate-50 hiring-partners-full">

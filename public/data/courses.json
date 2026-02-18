@@ -12798,6 +12798,76 @@
           "course_name": "Data Science Course in India 2026",
           "path": "data-science-with-python-training",
           "description": "Master Data Science with AI & ML training at ICLP Technologies. Comprehensive program covering Python, data analysis, machine learning, SQL, visualization, and real-world projects with placement support.",
+          "career_benefits": {
+  "heading": "Career Benefits of <strong>Data Science Training</strong>",
+  "description": "Data Science is one of the most in-demand careers globally. Our comprehensive training program prepares you for high-paying roles in analytics, machine learning, and AI across industries.",
+  "points": [
+    "<strong>High Salary Potential:</strong> Data Scientists earn ₹6-25 LPA in India, with senior roles commanding ₹30+ LPA",
+    "<strong>Industry Demand:</strong> 97,000+ Data Science job openings in India with demand growing 45% annually",
+    "<strong>Career Flexibility:</strong> Work across healthcare, finance, e-commerce, tech, consulting, and more",
+    "<strong>Future-Proof Skills:</strong> AI and ML expertise ensures long-term career relevance and growth",
+    "<strong>Remote Work Opportunities:</strong> Data Science roles offer excellent work-from-home flexibility",
+    "<strong>Innovation & Impact:</strong> Solve real-world problems using data-driven insights and predictive models"
+  ]
+},
+"curriculum_overview": {
+  "heading": "Comprehensive Data Science Curriculum",
+  "intro": "Our 200+ hour program covers the complete Data Science ecosystem - from Python fundamentals to advanced machine learning, AI concepts, and real-world project deployment. Learn industry-standard tools like Python, SQL, Tableau, Power BI, and cloud platforms."
+},
+"track_overview_primary": {
+  "heading": "Core Data Science Track",
+  "description": "Master the foundational and advanced concepts of Data Science with hands-on practice:",
+  "topics": [
+    "<strong>Python Programming:</strong> NumPy, Pandas, data structures, and analytics libraries",
+    "<strong>Statistics & Probability:</strong> Hypothesis testing, distributions, regression analysis",
+    "<strong>Data Visualization:</strong> Matplotlib, Seaborn, Tableau, Power BI dashboards",
+    "<strong>SQL Mastery:</strong> Database management, complex queries, optimization techniques",
+    "<strong>Machine Learning:</strong> Supervised & unsupervised learning, model evaluation",
+    "<strong>Deep Learning Basics:</strong> Neural networks, NLP, and recommendation systems"
+  ]
+},
+"track_overview_secondary": {
+  "heading": "Advanced Analytics & Deployment Track",
+  "description": "Go beyond theory with practical implementation and industry-ready skills:",
+  "topics": [
+    "<strong>Real-Time Projects:</strong> Customer segmentation, sales forecasting, loan prediction",
+    "<strong>Business Intelligence:</strong> Creating interactive dashboards and reports",
+    "<strong>Model Deployment:</strong> Cloud integration and production-ready ML systems",
+    "<strong>Time Series Analysis:</strong> ARIMA models and forecasting techniques",
+    "<strong>AI Automation:</strong> Building intelligent decision-making systems",
+    "<strong>Career Preparation:</strong> Portfolio building, mock interviews, placement support"
+  ]
+},
+"certification_info": {
+  "heading": "Data Science Certification & Recognition",
+  "intro": "Earn an industry-recognized Data Science certification from ICLP Technologies that validates your expertise in Python, ML, AI, and analytics.",
+  "highlights": [
+    "<strong>ISO-Certified Training:</strong> Globally recognized certification enhancing your resume",
+    "<strong>Project Portfolio:</strong> Showcase 5+ real-world Data Science projects to employers",
+    "<strong>LinkedIn Endorsement:</strong> Add verified skills and certification to your profile",
+    "<strong>Lifetime Access:</strong> Course materials, updates, and community support forever",
+    "<strong>Interview Preparation:</strong> Mock interviews and technical assessment practice",
+    "<strong>Placement Assistance:</strong> 100% job support with resume building and referrals"
+  ]
+},
+"why_institute": {
+  "heading": "Why Choose ICLP Technologies for Data Science?",
+  "intro": "ICLP Technologies offers India's most comprehensive Data Science training with expert mentors, hands-on projects, and guaranteed placement support.",
+  "instructor_expertise": {
+    "heading": "Expert Industry Mentors",
+    "description": "Learn from Data Scientists with 10+ years of experience in top companies like Amazon, Microsoft, and Accenture. Get personalized guidance, doubt-clearing sessions, and industry insights throughout your learning journey."
+  },
+  "training_modes": {
+    "heading": "Flexible Learning Options",
+    "description": "Choose the training mode that fits your schedule and learning style:",
+    "options": [
+      "<strong>Classroom Training:</strong> Interactive sessions in Hyderabad with hands-on labs",
+      "<strong>Online Live Classes:</strong> Real-time instruction with screen sharing and Q&A",
+      "<strong>Self-Paced Learning:</strong> Recorded videos with lifetime access and support",
+      "<strong>Corporate Training:</strong> Customized programs for teams and organizations"
+    ]
+  }
+},
           "what_youll_learn": [
             "Python programming for Data Science",
             "Data analysis & visualization with Pandas, NumPy, Power BI, Tableau",
