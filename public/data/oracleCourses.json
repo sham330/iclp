@@ -51,13 +51,13 @@
             }
           ]
         },
-{
-  "course_name": "Oracle SCM Training",
-  "path": "oracle-scm",
-  "meta_title": "Oracle SCM Course Online | Oracle SCM Training | Oracle SCM Certificate",
-  "meta_description": "Master Oracle SCM with our online course. Get certified & boost your career with expert training. Check it out & enroll now!",
-  "description": "Learn Oracle Supply Chain Management covering Inventory, Order Management, Purchasing and Manufacturing.",
-  "courseDescription": "Master Oracle Supply Chain Management (Oracle SCM) Cloud with comprehensive training covering procurement, inventory management, order management, manufacturing, and logistics. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle SCM Functional Consultant.",
+        {
+  "course_name": "Oracle SCM Training in Chennai",
+  "path": "oracle-scm-chennai",
+  "meta_title": "Best Oracle SCM Training Institute in Chennai with Placement | ICLP",
+  "meta_description": "Join the best Oracle SCM training institute in Chennai with 100% placement support. Expert-led classroom & online training. Enroll now at ICLP Technologies!",
+  "description": "Learn Oracle Supply Chain Management at Chennai's leading Oracle training institute covering Inventory, Order Management, Purchasing and Manufacturing with hands-on training and placement support.",
+  "courseDescription": "Chennai is one of India's fastest-growing IT and ERP hubs, with increasing demand for Oracle SCM professionals across manufacturing, retail, logistics, and consulting industries. Many companies in Chennai are adopting Oracle SCM Cloud to streamline procurement, inventory management, and supply chain planning processes. ICLP Technologies offers Oracle SCM Training in Chennai with live online instructor-led sessions and placement support. Our training program is designed to help students and working professionals in Chennai gain real-time implementation knowledge and job-ready skills. With flexible weekday and weekend batches, learners from Chennai and across Tamil Nadu can enroll in our Oracle SCM Course and build a successful ERP career.",
   "what_youll_learn": [
     "Oracle SCM Cloud implementation and configuration",
     "Inventory management and optimization techniques",
@@ -158,26 +158,211 @@
     }
   ],
   "career_benefits": {
-    "heading": "Career Benefits of Oracle SCM Training",
-    "description": "Oracle SCM plays a critical role in optimizing supply chain operations, reducing operational costs, and improving business efficiency. Organizations in manufacturing, retail, logistics, healthcare, and IT sectors rely on Oracle SCM Cloud to streamline their supply chain processes.",
+    "heading": "Career Benefits of Oracle SCM Training in Chennai",
+    "description": "Chennai's booming IT and ERP industry has created massive opportunities for Oracle SCM professionals. As one of India's fastest-growing technology hubs, Chennai hosts numerous MNCs, manufacturing units, and consulting firms that rely on Oracle SCM Cloud for supply chain optimization. The demand for skilled Oracle SCM consultants continues to grow across manufacturing, retail, logistics, healthcare, and IT services sectors in Chennai.",
     "points": [
-      "<strong>High Demand:</strong> Strong market demand for Oracle SCM consultants across India",
-      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹3.5 LPA to ₹18+ LPA based on experience",
-      "<strong>MNC Opportunities:</strong> Career prospects in multinational corporations and global enterprises",
-      "<strong>Cloud ERP Expertise:</strong> Gain expertise in leading cloud-based ERP technology",
-      "<strong>Career Transition:</strong> Perfect opportunity for supply chain professionals to move into consulting",
-      "<strong>Fresher Salaries:</strong> Starting packages of ₹3.5 LPA – ₹6 LPA for beginners",
-      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹8 LPA – ₹15 LPA",
-      "<strong>Senior Positions:</strong> Senior consultants command ₹18 LPA and above"
+      "<strong>Thriving IT Hub:</strong> Chennai is India's fastest-growing IT and ERP hub with increasing Oracle SCM adoption",
+      "<strong>High Demand Sectors:</strong> Opportunities in manufacturing, retail, logistics, and consulting industries across Chennai",
+      "<strong>Competitive Salaries:</strong> Earn ₹3.5 LPA – ₹6 LPA as fresher, ₹8 LPA – ₹15 LPA mid-level, ₹18+ LPA senior roles",
+      "<strong>MNC Opportunities:</strong> Work with Chennai's top companies like TCS, Infosys, Wipro, Cognizant, Accenture, and Capgemini",
+      "<strong>Cloud ERP Expertise:</strong> Master cutting-edge Oracle Cloud technology in Chennai's tech ecosystem",
+      "<strong>Manufacturing Hub:</strong> Leverage Chennai's automotive and industrial manufacturing sector opportunities",
+      "<strong>Career Growth:</strong> Strong career progression from consultant to architect roles in Chennai market",
+      "<strong>Pan-Tamil Nadu Access:</strong> Job opportunities across Chennai, Coimbatore, Madurai, and other Tamil Nadu cities"
     ]
   },
   "curriculum_overview": {
     "heading": "Comprehensive <strong>Curriculum Overview</strong>",
-    "intro": "Our Oracle SCM Training program is designed with an industry-oriented approach that focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
+    "intro": "Our Oracle SCM Training program in Chennai is designed with an industry-oriented approach specifically aligned with Chennai's IT and manufacturing sector requirements. The curriculum focuses on real-time business case studies from Chennai-based companies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
   },
   "track_overview_primary": {
     "heading": "Core <strong>Supply Chain Modules</strong>",
-    "description": "Master the fundamental Oracle SCM Cloud modules that form the backbone of enterprise supply chain operations.",
+    "description": "Master the fundamental Oracle SCM Cloud modules that power Chennai's leading manufacturing plants, logistics companies, and IT service providers.",
+    "topics": [
+      "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration for Chennai industries",
+      "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation techniques",
+      "<strong>Order Management:</strong> Order entry, processing, pricing, fulfillment, and shipping execution workflows",
+      "<strong>Manufacturing Operations:</strong> Production planning, work orders, shop floor control, and BOM management for Chennai's manufacturing sector",
+      "<strong>Warehouse Management:</strong> Receiving, putaway, picking, packing, and shipping processes for logistics companies",
+      "<strong>Logistics:</strong> Transportation management, delivery coordination, and supply chain visibility solutions"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios in Chennai's diverse industrial landscape including automotive, electronics, retail, and IT services.",
+    "topics": [
+      "<strong>Hands-on Configuration:</strong> Complete setup and configuration of Oracle SCM modules in live environment",
+      "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows for Chennai industries",
+      "<strong>System Integration:</strong> Connect Oracle SCM with Financials and other enterprise systems",
+      "<strong>Chennai-based Case Studies:</strong> Solve real business challenges from Chennai's manufacturing and IT sectors",
+      "<strong>Implementation Best Practices:</strong> Learn industry-standard approaches used by Chennai's top consulting firms",
+      "<strong>Testing & Validation:</strong> Comprehensive functional workflow practice and user acceptance testing",
+      "<strong>Performance Optimization:</strong> Advanced tuning techniques and troubleshooting strategies",
+      "<strong>Data Migration:</strong> Master data conversion and migration methodologies for Chennai enterprises"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Placement Support in Chennai",
+    "intro": "As the best Oracle SCM training institute in Chennai, ICLP Technologies provides comprehensive certification preparation and 100% placement assistance to help you launch your Oracle SCM career successfully in Chennai's competitive job market.",
+    "highlights": [
+      "<strong>Oracle Certification Prep:</strong> Complete guidance and study materials for Oracle SCM Cloud certification exams",
+      "<strong>Professional Resume Building:</strong> Chennai IT industry-optimized resume preparation and LinkedIn profile optimization",
+      "<strong>Mock Interview Training:</strong> Technical and HR interview practice with feedback from Chennai industry experts",
+      "<strong>Career Mentorship:</strong> One-on-one guidance from Oracle SCM professionals working in Chennai's top companies",
+      "<strong>100% Placement Assistance:</strong> Direct job referrals to Chennai's leading IT companies, MNCs, and consulting firms",
+      "<strong>Industry-Ready Skills:</strong> Practical training to confidently handle Oracle SCM consultant roles from day one",
+      "<strong>Company Tie-ups:</strong> Strong placement network with 150+ companies across Chennai and Tamil Nadu"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why ICLP Technologies is the <strong>Best Oracle SCM Training Institute in Chennai</strong>?",
+    "intro": "ICLP Technologies stands as Chennai's premier Oracle SCM training institute, offering industry-focused training with guaranteed placement support. Located in Chennai's IT corridor, we provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently in Chennai's thriving IT, manufacturing, and consulting sectors.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Industry Mentorship</strong>",
+      "description": "Learn from Chennai's most experienced Oracle SCM professionals with 10+ years of hands-on implementation experience in top MNCs and consulting firms. Our trainers have worked on live Oracle SCM projects across Chennai's automotive manufacturing giants, retail chains, logistics companies, and IT service providers. Benefit from personalized one-on-one doubt clarification, implementation best practices guidance, and insider insights into Chennai's Oracle job market and interview processes."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Training Options for Chennai Learners</strong>",
+      "description": "Best-in-class learning flexibility designed for Chennai's students and working professionals:",
+      "options": [
+        "<strong>Classroom Training in Chennai:</strong> Premium in-person training at our Chennai center with state-of-the-art Oracle lab facilities",
+        "<strong>Live Online Training:</strong> Interactive instructor-led virtual sessions accessible from anywhere in Chennai and Tamil Nadu",
+        "<strong>Weekday Morning Batches:</strong> 10 AM - 1 PM slots perfect for students and early learners in Chennai",
+        "<strong>Weekday Evening Batches:</strong> 7 PM - 9 PM sessions ideal for working professionals in Chennai",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday intensive training for busy professionals across Tamil Nadu",
+        "<strong>Practical Lab Access:</strong> 24/7 access to real Oracle ERP Cloud environment for hands-on practice"
+      ]
+    }
+  }
+},
+
+        {
+  "course_name": "Oracle SCM Training in Chennai",
+  "path": "oracle-scm-chennai",
+  "meta_title": "Oracle SCM Training in Chennai with Placement Support | ICLP Technologies",
+  "meta_description": "Join Oracle SCM training in Chennai with placement assistance. Get certified & advance your career with expert-led training. Enroll now!",
+  "description": "Learn Oracle Supply Chain Management in Chennai covering Inventory, Order Management, Purchasing and Manufacturing with hands-on training.",
+  "courseDescription": "Master Oracle Supply Chain Management (Oracle SCM) Cloud with comprehensive training in Chennai covering procurement, inventory management, order management, manufacturing, and logistics. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle SCM Functional Consultant in Chennai and across India.",
+  "what_youll_learn": [
+    "Oracle SCM Cloud implementation and configuration",
+    "Inventory management and optimization techniques",
+    "Order management and fulfillment processes",
+    "Purchasing and procurement operations",
+    "Manufacturing planning and execution",
+    "Warehouse management systems",
+    "Integration with Oracle Financials modules",
+    "Real-time business case scenarios and problem-solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle SCM Cloud",
+      "subtopics": [
+        "Oracle SCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Supply chain management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "Implementation methodology"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Item master setup and attributes",
+        "Organization structure and hierarchy",
+        "Inventory transactions and movements",
+        "Cycle counting and physical inventory",
+        "Inventory valuation methods",
+        "Stock locators and lot control"
+      ]
+    },
+    {
+      "module": "Order Management",
+      "subtopics": [
+        "Order entry and processing workflows",
+        "Pricing strategies and discount management",
+        "Shipping execution and fulfillment",
+        "Backorder management and allocation",
+        "Returns processing and RMA",
+        "Order orchestration and holds"
+      ]
+    },
+    {
+      "module": "Procurement and Purchasing",
+      "subtopics": [
+        "Supplier management and qualification",
+        "Purchase requisition creation",
+        "Purchase order processing and approval",
+        "Receiving and inspection procedures",
+        "Invoice matching and three-way match",
+        "Procurement analytics and reporting"
+      ]
+    },
+    {
+      "module": "Manufacturing Operations",
+      "subtopics": [
+        "Production planning and scheduling",
+        "Work order creation and management",
+        "Shop floor control and execution",
+        "Bill of materials (BOM) management",
+        "Routing and resource planning",
+        "Manufacturing cost accounting"
+      ]
+    },
+    {
+      "module": "Warehouse Management",
+      "subtopics": [
+        "Warehouse structure and setup",
+        "Receiving and putaway processes",
+        "Picking strategies and wave planning",
+        "Packing and shipping operations",
+        "Inventory accuracy and control",
+        "Mobile device integration"
+      ]
+    },
+    {
+      "module": "Supply Chain Integration",
+      "subtopics": [
+        "Integration with Oracle Financials",
+        "Cross-module business flows",
+        "Data migration and conversion",
+        "API and web services integration",
+        "Reporting and business intelligence",
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "module": "Implementation Best Practices",
+      "subtopics": [
+        "Requirement gathering and analysis",
+        "Configuration vs customization decisions",
+        "Testing strategies and UAT",
+        "Change management and training",
+        "Go-live preparation and support",
+        "Post-implementation optimization"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle SCM Training in Chennai",
+    "description": "Oracle SCM plays a critical role in optimizing supply chain operations, reducing operational costs, and improving business efficiency. Organizations in Chennai's thriving IT corridor, manufacturing hubs, retail, logistics, and healthcare sectors rely on Oracle SCM Cloud to streamline their supply chain processes.",
+    "points": [
+      "<strong>High Demand in Chennai:</strong> Strong market demand for Oracle SCM consultants in Chennai's IT industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹3.5 LPA to ₹18+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Chennai-based MNCs like TCS, Infosys, Wipro, Cognizant, and Capgemini",
+      "<strong>Cloud ERP Expertise:</strong> Gain expertise in leading cloud-based ERP technology in Chennai's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Chennai-based supply chain professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹3.5 LPA – ₹6 LPA for beginners in Chennai",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹8 LPA – ₹15 LPA in Chennai market",
+      "<strong>Senior Positions:</strong> Senior consultants in Chennai command ₹18 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle SCM Training program in Chennai is designed with an industry-oriented approach that focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Supply Chain Modules</strong>",
+    "description": "Master the fundamental Oracle SCM Cloud modules that form the backbone of enterprise supply chain operations in Chennai's manufacturing and IT sectors.",
     "topics": [
       "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration",
       "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation",
@@ -189,12 +374,12 @@
   },
   "track_overview_secondary": {
     "heading": "Advanced <strong>Implementation Skills</strong>",
-    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios.",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios in Chennai's industrial landscape.",
     "topics": [
       "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle SCM modules",
       "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows",
       "<strong>Integration:</strong> Connect Oracle SCM with Financials and other enterprise systems",
-      "<strong>Real-world Scenarios:</strong> Solve actual business challenges and implementation cases",
+      "<strong>Real-world Scenarios:</strong> Solve actual business challenges from Chennai-based industries",
       "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle SCM deployment",
       "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
       "<strong>Performance Tuning:</strong> Optimization techniques and troubleshooting strategies",
@@ -202,23 +387,399 @@
     ]
   },
   "certification_info": {
-    "heading": "<strong>Certification</strong> & Career Support",
-    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle SCM career successfully.",
+    "heading": "<strong>Certification</strong> & Career Support in Chennai",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle SCM career successfully in Chennai's competitive job market.",
     "highlights": [
       "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle SCM Cloud certification exams",
-      "<strong>Resume Building:</strong> Professional resume preparation and optimization tailored for Oracle SCM roles",
-      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions with expert feedback",
-      "<strong>Career Mentoring:</strong> One-on-one guidance from experienced Oracle SCM industry professionals",
-      "<strong>Job Referral Assistance:</strong> Direct connections and referrals to Oracle SCM job opportunities",
-      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle SCM consultant roles"
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Chennai's IT and manufacturing recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Chennai companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle SCM professionals working in Chennai",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle SCM opportunities in Chennai's top companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle SCM consultant roles in Chennai"
     ]
   },
   "why_institute": {
-    "heading": "Why Choose ICLP Technologies for Oracle SCM Training?",
-    "intro": "ICLP Technologies offers industry-focused Oracle SCM Training in India with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently.",
+    "heading": "Why Choose ICLP Technologies for Oracle SCM Training in Chennai?",
+    "intro": "ICLP Technologies offers industry-focused Oracle SCM Training in Chennai with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently in Chennai's thriving IT and manufacturing sectors.",
     "instructor_expertise": {
       "heading": "Expert Trainers & <strong>Mentorship</strong>",
-      "description": "Learn from experienced industry professionals with hands-on Oracle SCM implementation experience. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live projects across various industries including manufacturing, retail, and logistics."
+      "description": "Learn from experienced industry professionals with hands-on Oracle SCM implementation experience in Chennai-based companies. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live projects across various industries including automotive manufacturing, IT services, retail, and logistics in Chennai."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Chennai</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Chennai:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Chennai center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Chennai",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Chennai",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working professionals in Chennai",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle ERP cloud environments"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle SCM Training Near Me",
+  "path": "oracle-scm-near-me",
+  "meta_title": "Oracle SCM Training Near Me | Online Oracle SCM Course with Placement",
+  "meta_description": "Looking for Oracle SCM training near you? Join our online Oracle SCM course from anywhere in India. Live classes, expert trainers & placement support. Enroll now!",
+  "description": "Learn Oracle Supply Chain Management from anywhere with our online training program covering Inventory, Order Management, Purchasing and Manufacturing with live instructor-led sessions.",
+  "courseDescription": "Chennai is one of India's fastest-growing IT and ERP hubs, with increasing demand for Oracle SCM professionals across manufacturing, retail, logistics, and consulting industries. Many companies in Chennai are adopting Oracle SCM Cloud to streamline procurement, inventory management, and supply chain planning processes. ICLP Technologies offers Oracle SCM Training online with live instructor-led sessions and placement support, accessible from anywhere near you. Our training program is designed to help students and working professionals gain real-time implementation knowledge and job-ready skills from the comfort of their home or office. With flexible weekday and weekend batches, learners from Chennai, Tamil Nadu, and across India can enroll in our Oracle SCM Course and build a successful ERP career without geographical barriers.",
+  "what_youll_learn": [
+    "Oracle SCM Cloud implementation and configuration",
+    "Inventory management and optimization techniques",
+    "Order management and fulfillment processes",
+    "Purchasing and procurement operations",
+    "Manufacturing planning and execution",
+    "Warehouse management systems",
+    "Integration with Oracle Financials modules",
+    "Real-time business case scenarios and problem-solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle SCM Cloud",
+      "subtopics": [
+        "Oracle SCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Supply chain management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "Implementation methodology"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Item master setup and attributes",
+        "Organization structure and hierarchy",
+        "Inventory transactions and movements",
+        "Cycle counting and physical inventory",
+        "Inventory valuation methods",
+        "Stock locators and lot control"
+      ]
+    },
+    {
+      "module": "Order Management",
+      "subtopics": [
+        "Order entry and processing workflows",
+        "Pricing strategies and discount management",
+        "Shipping execution and fulfillment",
+        "Backorder management and allocation",
+        "Returns processing and RMA",
+        "Order orchestration and holds"
+      ]
+    },
+    {
+      "module": "Procurement and Purchasing",
+      "subtopics": [
+        "Supplier management and qualification",
+        "Purchase requisition creation",
+        "Purchase order processing and approval",
+        "Receiving and inspection procedures",
+        "Invoice matching and three-way match",
+        "Procurement analytics and reporting"
+      ]
+    },
+    {
+      "module": "Manufacturing Operations",
+      "subtopics": [
+        "Production planning and scheduling",
+        "Work order creation and management",
+        "Shop floor control and execution",
+        "Bill of materials (BOM) management",
+        "Routing and resource planning",
+        "Manufacturing cost accounting"
+      ]
+    },
+    {
+      "module": "Warehouse Management",
+      "subtopics": [
+        "Warehouse structure and setup",
+        "Receiving and putaway processes",
+        "Picking strategies and wave planning",
+        "Packing and shipping operations",
+        "Inventory accuracy and control",
+        "Mobile device integration"
+      ]
+    },
+    {
+      "module": "Supply Chain Integration",
+      "subtopics": [
+        "Integration with Oracle Financials",
+        "Cross-module business flows",
+        "Data migration and conversion",
+        "API and web services integration",
+        "Reporting and business intelligence",
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "module": "Implementation Best Practices",
+      "subtopics": [
+        "Requirement gathering and analysis",
+        "Configuration vs customization decisions",
+        "Testing strategies and UAT",
+        "Change management and training",
+        "Go-live preparation and support",
+        "Post-implementation optimization"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Online Oracle SCM Training",
+    "description": "With the digital transformation accelerating across India, Oracle SCM professionals are in high demand across manufacturing, retail, logistics, healthcare, and IT sectors nationwide. Our online Oracle SCM training removes geographical barriers, allowing you to access world-class training from anywhere near you while building a lucrative ERP career.",
+    "points": [
+      "<strong>Learn From Anywhere:</strong> Access live online Oracle SCM training from your home, office, or anywhere in India",
+      "<strong>No Commute Required:</strong> Save time and money by eliminating travel to training centers",
+      "<strong>National Job Opportunities:</strong> Access placement support for jobs across India, not just your local area",
+      "<strong>Competitive Salaries:</strong> Earn ₹3.5 LPA – ₹6 LPA as fresher, ₹8 LPA – ₹15 LPA mid-level, ₹18+ LPA senior roles",
+      "<strong>Flexible Learning:</strong> Choose weekday or weekend batches that fit your schedule",
+      "<strong>MNC Opportunities:</strong> Work with top companies like TCS, Infosys, Wipro, Cognizant, Accenture nationwide",
+      "<strong>Cloud ERP Expertise:</strong> Master cutting-edge Oracle Cloud technology from industry experts",
+      "<strong>Pan-India Access:</strong> Connect with learners and opportunities across Chennai, Bangalore, Hyderabad, Mumbai, Delhi, and more"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Online Curriculum</strong>",
+    "intro": "Our online Oracle SCM Training program is designed with an industry-oriented approach that delivers the same quality as classroom training through live interactive sessions. The curriculum focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment access from anywhere you are."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Supply Chain Modules</strong>",
+    "description": "Master the fundamental Oracle SCM Cloud modules through live online sessions that provide comprehensive coverage of enterprise supply chain operations.",
+    "topics": [
+      "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration",
+      "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation",
+      "<strong>Order Management:</strong> Order entry, processing, pricing, fulfillment, and shipping execution",
+      "<strong>Manufacturing Operations:</strong> Production planning, work orders, shop floor control, and BOM management",
+      "<strong>Warehouse Management:</strong> Receiving, putaway, picking, packing, and shipping processes",
+      "<strong>Logistics:</strong> Transportation management, delivery coordination, and supply chain visibility"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise through live online hands-on sessions in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios.",
+    "topics": [
+      "<strong>Live Configuration Sessions:</strong> Real-time hands-on setup and configuration of Oracle SCM modules",
+      "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows through interactive exercises",
+      "<strong>System Integration:</strong> Learn to connect Oracle SCM with Financials and other enterprise systems",
+      "<strong>Real-world Scenarios:</strong> Solve actual business challenges through live problem-solving sessions",
+      "<strong>Implementation Best Practices:</strong> Learn industry-standard approaches from experienced consultants",
+      "<strong>Interactive Testing:</strong> Comprehensive functional workflow practice and user acceptance testing online",
+      "<strong>Performance Optimization:</strong> Advanced tuning techniques demonstrated in live sessions",
+      "<strong>Data Migration:</strong> Master data conversion and migration methodologies through practical examples"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Online Placement Support",
+    "intro": "ICLP Technologies provides comprehensive online certification preparation and nationwide placement assistance to help you launch your Oracle SCM career successfully, regardless of your location.",
+    "highlights": [
+      "<strong>Oracle Certification Prep:</strong> Complete online guidance and study materials for Oracle SCM Cloud certification exams",
+      "<strong>Professional Resume Building:</strong> Online resume preparation and LinkedIn profile optimization for pan-India opportunities",
+      "<strong>Virtual Mock Interviews:</strong> Online technical and HR interview practice sessions with expert feedback",
+      "<strong>Career Mentorship:</strong> One-on-one online guidance from Oracle SCM professionals working across India",
+      "<strong>Pan-India Placement:</strong> Job referrals to companies across Chennai, Bangalore, Hyderabad, Mumbai, Pune, Delhi NCR",
+      "<strong>Industry-Ready Skills:</strong> Practical online training to confidently handle Oracle SCM consultant roles remotely",
+      "<strong>24/7 Support Access:</strong> Online doubt clarification and mentor support through dedicated learning portal"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose <strong>ICLP Technologies</strong> for Online Oracle SCM Training?",
+    "intro": "ICLP Technologies offers the most accessible Oracle SCM training near you through our comprehensive online program with live instructor-led sessions and placement support. Learn from anywhere in India without compromising on training quality, hands-on practice, or career support.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Online Mentorship</strong>",
+      "description": "Learn online from experienced Oracle SCM professionals with 10+ years of hands-on implementation experience in top MNCs and consulting firms. Our trainers deliver engaging live sessions with screen sharing, real-time demonstrations, and interactive Q&A. Benefit from personalized one-on-one online doubt clarification sessions, implementation best practices guidance through virtual labs, and direct mentor access via WhatsApp, email, and video calls from anywhere you are."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Online Learning Options</strong>",
+      "description": "World-class online training designed for maximum convenience and accessibility:",
+      "options": [
+        "<strong>Live Online Classes:</strong> Interactive instructor-led sessions with real-time doubt clearing from anywhere in India",
+        "<strong>Weekday Morning Batches:</strong> 10 AM - 1 PM slots perfect for students and early learners",
+        "<strong>Weekday Evening Batches:</strong> 7 PM - 9 PM sessions ideal for working professionals",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday intensive training for busy professionals nationwide",
+        "<strong>Recorded Sessions:</strong> Access class recordings for revision and learn at your own pace",
+        "<strong>24/7 Cloud Lab Access:</strong> Practice on real Oracle ERP Cloud environment anytime from your location",
+        "<strong>Mobile-Friendly Learning:</strong> Join classes from laptop, desktop, tablet, or smartphone"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle HCM Training",
+  "path": "oracle-hcm",
+  "meta_title": "Oracle HCM Training Online | Oracle HCM Course | Oracle HCM Certificate",
+  "meta_description": "Master Oracle HCM with our online course. Get certified & boost your HR career with expert training. Check it out & enroll now!",
+  "description": "Learn Oracle Human Capital Management covering Core HR, Payroll, Talent Management, and Workforce Management.",
+  "courseDescription": "Master Oracle Human Capital Management (Oracle HCM) Cloud with comprehensive training covering Core HR, payroll, talent management, recruitment, and workforce management. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle HCM Functional Consultant.",
+  "what_youll_learn": [
+    "Oracle HCM Cloud implementation and configuration",
+    "Core HR and workforce management",
+    "Global payroll processing and compliance",
+    "Talent management and recruitment",
+    "Learning and development modules",
+    "Compensation and benefits administration",
+    "Time and labor management",
+    "HCM analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle HCM Cloud",
+      "subtopics": [
+        "Oracle HCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Human capital management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "HCM implementation methodology"
+      ]
+    },
+    {
+      "module": "Core HR",
+      "subtopics": [
+        "Enterprise structure and organization setup",
+        "Workforce structures and assignments",
+        "Person management and employment records",
+        "Work relationships and assignments",
+        "Absence management",
+        "Profile management and competencies"
+      ]
+    },
+    {
+      "module": "Global Payroll",
+      "subtopics": [
+        "Payroll foundation setup",
+        "Salary basis and payment methods",
+        "Elements and formula configuration",
+        "Payroll processing and calculations",
+        "Statutory compliance and reporting",
+        "Year-end processing and tax forms"
+      ]
+    },
+    {
+      "module": "Talent Management",
+      "subtopics": [
+        "Performance management setup",
+        "Goal setting and tracking",
+        "Performance reviews and appraisals",
+        "Succession planning",
+        "Career development planning",
+        "Talent pools and calibration"
+      ]
+    },
+    {
+      "module": "Recruitment and Onboarding",
+      "subtopics": [
+        "Requisition creation and management",
+        "Candidate sourcing and screening",
+        "Interview scheduling and evaluation",
+        "Offer management and approval",
+        "Background checks and pre-employment",
+        "Onboarding processes and tasks"
+      ]
+    },
+    {
+      "module": "Learning Management",
+      "subtopics": [
+        "Learning catalog setup",
+        "Course and offering creation",
+        "Learning assignments and enrollments",
+        "Training delivery methods",
+        "Certification and compliance tracking",
+        "Learning analytics and reporting"
+      ]
+    },
+    {
+      "module": "Compensation and Benefits",
+      "subtopics": [
+        "Compensation plan design",
+        "Salary structures and grades",
+        "Benefits enrollment and administration",
+        "Flexible benefits configuration",
+        "Life events and eligibility rules",
+        "Total compensation statements"
+      ]
+    },
+    {
+      "module": "Time and Labor Management",
+      "subtopics": [
+        "Time entry methods and rules",
+        "Timecard processing and approval",
+        "Attendance tracking and schedules",
+        "Overtime calculations",
+        "Leave accruals and balances",
+        "Integration with payroll"
+      ]
+    },
+    {
+      "module": "HCM Analytics and Reporting",
+      "subtopics": [
+        "OTBI reports and dashboards",
+        "BIP report development",
+        "HCM extracts and data export",
+        "Workforce analytics",
+        "Custom report creation",
+        "Performance metrics and KPIs"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle HCM Training",
+    "description": "Oracle HCM plays a critical role in transforming HR operations, automating workforce processes, and enabling strategic talent management. Organizations across manufacturing, IT, healthcare, retail, and consulting sectors rely on Oracle HCM Cloud to manage their global workforce efficiently.",
+    "points": [
+      "<strong>High Demand:</strong> Strong market demand for Oracle HCM consultants across India and globally",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹4 LPA to ₹20+ LPA based on experience",
+      "<strong>Global Opportunities:</strong> Career prospects in multinational corporations and international HR consulting",
+      "<strong>Cloud HR Expertise:</strong> Gain expertise in leading cloud-based HR technology platform",
+      "<strong>HR Career Transition:</strong> Perfect opportunity for HR professionals to move into high-paying consulting roles",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹4 LPA – ₹7 LPA for beginners",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹9 LPA – ₹16 LPA",
+      "<strong>Senior Positions:</strong> Senior HCM consultants command ₹20 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle HCM Training program is designed with an industry-oriented approach that focuses on real-time HR business scenarios, implementation-focused learning, and process-based understanding of human capital management with hands-on HCM cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>HCM Modules</strong>",
+    "description": "Master the fundamental Oracle HCM Cloud modules that form the backbone of enterprise human capital management operations.",
+    "topics": [
+      "<strong>Core HR:</strong> Employee records, work relationships, assignments, and workforce structures",
+      "<strong>Global Payroll:</strong> Payroll processing, compliance, tax calculations, and statutory reporting",
+      "<strong>Talent Management:</strong> Performance management, goal setting, succession planning, and career development",
+      "<strong>Recruitment:</strong> Requisition management, candidate sourcing, interview scheduling, and onboarding",
+      "<strong>Learning Management:</strong> Training programs, course catalog, certifications, and compliance tracking",
+      "<strong>Compensation & Benefits:</strong> Salary structures, benefits enrollment, life events, and total rewards"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle HCM Cloud solutions for real HR business scenarios.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle HCM modules and features",
+      "<strong>Business Process Design:</strong> Design and optimize HR workflows and approval processes",
+      "<strong>Integration:</strong> Connect Oracle HCM with Payroll, Time & Labor, and third-party systems",
+      "<strong>Real-world HR Scenarios:</strong> Solve actual HR challenges and implementation cases",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle HCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Data Migration:</strong> Employee data conversion and migration methodologies",
+      "<strong>Security & Compliance:</strong> Role-based security, data privacy, and regulatory compliance"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle HCM career successfully.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle HCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation and optimization tailored for Oracle HCM roles",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions with expert feedback",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from experienced Oracle HCM industry professionals",
+      "<strong>Job Referral Assistance:</strong> Direct connections and referrals to Oracle HCM job opportunities",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle HCM consultant roles"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle HCM Training?",
+    "intro": "ICLP Technologies offers industry-focused Oracle HCM Training in India with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real HR business scenarios confidently.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced Oracle HCM professionals with hands-on implementation experience in global HR projects. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live HCM projects across various industries including IT services, manufacturing, healthcare, and consulting."
     },
     "training_modes": {
       "heading": "Flexible <strong>Learning Options</strong>",
@@ -226,8 +787,8 @@
       "options": [
         "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in India",
         "<strong>Weekday Batches:</strong> Designed for students and full-time learners seeking intensive training",
-        "<strong>Weekend Batches:</strong> Perfect for working professionals balancing career and learning",
-        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle ERP cloud environments",
+        "<strong>Weekend Batches:</strong> Perfect for working HR professionals balancing career and learning",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle HCM cloud environments",
         "<strong>Recorded Sessions:</strong> Access to class recordings for revision and self-paced learning"
       ]
     }

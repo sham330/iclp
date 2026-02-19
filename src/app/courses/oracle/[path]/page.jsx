@@ -8,7 +8,7 @@ export default async function CourseDetailsPage({ params }) {
   // Await params Promise FIRST (Next.js 15+ requirement)
   const resolvedParams = await params;
   const coursePath = resolvedParams?.path;
-
+console.log("course",coursePath);
   const filePath = path.join(process.cwd(), "public/data/oracleCourses.json");
   const fileContents = fs.readFileSync(filePath, "utf-8");
   const coursesData = JSON.parse(fileContents);

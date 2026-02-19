@@ -130,7 +130,7 @@ const OracleCourseDetailsPage = () => {
   },
   "oracle-order-management": {
     "courseDescription": "Comprehensive training in R12.x Oracle Order Management covering order processing, pricing, and fulfillment workflows."
-  }
+  },
 
   };
 
@@ -344,7 +344,7 @@ const OracleCourseDetailsPage = () => {
           </div>
 
           <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
-            {additionalContent.courseDescription}
+            {additionalContent.courseDescription || course.description}
           </p>
 
           <button
