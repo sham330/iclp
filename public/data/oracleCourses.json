@@ -418,6 +418,369 @@
     }
   }
 },{
+  "course_name": "Oracle SCM Training in Bangalore",
+  "path": "oracle-scm-bangalore",
+  "meta_title": "Oracle SCM Training in Bangalore with Placement Support | ICLP Technologies",
+  "meta_description": "Join the best Oracle SCM Training in Bangalore. Learn Oracle Fusion SCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
+  "description": "Learn Oracle Supply Chain Management in Bangalore covering Inventory, Order Management, Purchasing and Manufacturing with hands-on training.",
+  "courseDescription": "Master Oracle Supply Chain Management (Oracle SCM) Cloud with comprehensive training in Bangalore covering procurement, inventory management, order management, manufacturing, and logistics. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle SCM Functional Consultant in Bangalore and across India.",
+  "what_youll_learn": [
+    "Oracle SCM Cloud implementation and configuration",
+    "Inventory management and optimization techniques",
+    "Order management and fulfillment processes",
+    "Purchasing and procurement operations",
+    "Manufacturing planning and execution",
+    "Warehouse management systems",
+    "Integration with Oracle Financials modules",
+    "Real-time business case scenarios and problem-solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle SCM Cloud",
+      "subtopics": [
+        "Oracle SCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Supply chain management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "Implementation methodology"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Item master setup and attributes",
+        "Organization structure and hierarchy",
+        "Inventory transactions and movements",
+        "Cycle counting and physical inventory",
+        "Inventory valuation methods",
+        "Stock locators and lot control"
+      ]
+    },
+    {
+      "module": "Order Management",
+      "subtopics": [
+        "Order entry and processing workflows",
+        "Pricing strategies and discount management",
+        "Shipping execution and fulfillment",
+        "Backorder management and allocation",
+        "Returns processing and RMA",
+        "Order orchestration and holds"
+      ]
+    },
+    {
+      "module": "Procurement and Purchasing",
+      "subtopics": [
+        "Supplier management and qualification",
+        "Purchase requisition creation",
+        "Purchase order processing and approval",
+        "Receiving and inspection procedures",
+        "Invoice matching and three-way match",
+        "Procurement analytics and reporting"
+      ]
+    },
+    {
+      "module": "Manufacturing Operations",
+      "subtopics": [
+        "Production planning and scheduling",
+        "Work order creation and management",
+        "Shop floor control and execution",
+        "Bill of materials (BOM) management",
+        "Routing and resource planning",
+        "Manufacturing cost accounting"
+      ]
+    },
+    {
+      "module": "Warehouse Management",
+      "subtopics": [
+        "Warehouse structure and setup",
+        "Receiving and putaway processes",
+        "Picking strategies and wave planning",
+        "Packing and shipping operations",
+        "Inventory accuracy and control",
+        "Mobile device integration"
+      ]
+    },
+    {
+      "module": "Supply Chain Integration",
+      "subtopics": [
+        "Integration with Oracle Financials",
+        "Cross-module business flows",
+        "Data migration and conversion",
+        "API and web services integration",
+        "Reporting and business intelligence",
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "module": "Implementation Best Practices",
+      "subtopics": [
+        "Requirement gathering and analysis",
+        "Configuration vs customization decisions",
+        "Testing strategies and UAT",
+        "Change management and training",
+        "Go-live preparation and support",
+        "Post-implementation optimization"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle SCM Training in Bangalore",
+    "description": "Oracle SCM plays a critical role in optimizing supply chain operations, reducing operational costs, and improving business efficiency. Organizations in Bangalore's thriving IT corridor, manufacturing hubs, retail, logistics, and healthcare sectors rely on Oracle SCM Cloud to streamline their supply chain processes.",
+    "points": [
+      "<strong>High Demand in Bangalore:</strong> Strong market demand for Oracle SCM consultants in Bangalore's IT industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹4 LPA to ₹22+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Bangalore-based MNCs like Infosys, Wipro, TCS, Accenture, and IBM",
+      "<strong>Cloud ERP Expertise:</strong> Gain expertise in leading cloud-based ERP technology in Bangalore's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Bangalore-based supply chain professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹4 LPA – ₹7 LPA for beginners in Bangalore",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹10 LPA – ₹18 LPA in Bangalore market",
+      "<strong>Senior Positions:</strong> Senior consultants in Bangalore command ₹22 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle SCM Training program in Bangalore is designed with an industry-oriented approach that focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Supply Chain Modules</strong>",
+    "description": "Master the fundamental Oracle SCM Cloud modules that form the backbone of enterprise supply chain operations in Bangalore's manufacturing and IT sectors.",
+    "topics": [
+      "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration",
+      "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation",
+      "<strong>Order Management:</strong> Order entry, processing, pricing, fulfillment, and shipping execution",
+      "<strong>Manufacturing Operations:</strong> Production planning, work orders, shop floor control, and BOM management",
+      "<strong>Warehouse Management:</strong> Receiving, putaway, picking, packing, and shipping processes",
+      "<strong>Logistics:</strong> Transportation management, delivery coordination, and supply chain visibility"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios in Bangalore's industrial landscape.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle SCM modules",
+      "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows",
+      "<strong>Integration:</strong> Connect Oracle SCM with Financials and other enterprise systems",
+      "<strong>Real-world Scenarios:</strong> Solve actual business challenges from Bangalore-based industries",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle SCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Performance Tuning:</strong> Optimization techniques and troubleshooting strategies",
+      "<strong>Data Migration:</strong> Master data conversion and migration methodologies"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support in Bangalore",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle SCM career successfully in Bangalore's competitive job market.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle SCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Bangalore's IT and manufacturing recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Bangalore companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle SCM professionals working in Bangalore",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle SCM opportunities in Bangalore's top companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle SCM consultant roles in Bangalore"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle SCM Training in Bangalore?",
+    "intro": "ICLP Technologies offers industry-focused Oracle SCM Training in Bangalore with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently in Bangalore's thriving IT and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced industry professionals with hands-on Oracle SCM implementation experience in Bangalore-based companies. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live projects across various industries including automotive manufacturing, IT services, retail, and logistics in Bangalore."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Bangalore</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Bangalore:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Bangalore center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Bangalore",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Bangalore",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working professionals in Bangalore",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle ERP cloud environments"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle SCM Training in Hyderabad",
+  "path": "oracle-scm-hyderabad",
+  "meta_title": "Oracle SCM Training in Hyderabad with Placement Support | ICLP Technologies",
+  "meta_description": "Join the best Oracle SCM Training in Hyderabad. Learn Oracle Fusion SCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
+  "description": "Learn Oracle Supply Chain Management in Hyderabad covering Inventory, Order Management, Purchasing and Manufacturing with hands-on training.",
+  "courseDescription": "Master Oracle Supply Chain Management (Oracle SCM) Cloud with comprehensive training in Hyderabad covering procurement, inventory management, order management, manufacturing, and logistics. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle SCM Functional Consultant in Hyderabad and across India.",
+  "what_youll_learn": [
+    "Oracle SCM Cloud implementation and configuration",
+    "Inventory management and optimization techniques",
+    "Order management and fulfillment processes",
+    "Purchasing and procurement operations",
+    "Manufacturing planning and execution",
+    "Warehouse management systems",
+    "Integration with Oracle Financials modules",
+    "Real-time business case scenarios and problem-solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle SCM Cloud",
+      "subtopics": [
+        "Oracle SCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Supply chain management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "Implementation methodology"
+      ]
+    },
+    {
+      "module": "Inventory Management",
+      "subtopics": [
+        "Item master setup and attributes",
+        "Organization structure and hierarchy",
+        "Inventory transactions and movements",
+        "Cycle counting and physical inventory",
+        "Inventory valuation methods",
+        "Stock locators and lot control"
+      ]
+    },
+    {
+      "module": "Order Management",
+      "subtopics": [
+        "Order entry and processing workflows",
+        "Pricing strategies and discount management",
+        "Shipping execution and fulfillment",
+        "Backorder management and allocation",
+        "Returns processing and RMA",
+        "Order orchestration and holds"
+      ]
+    },
+    {
+      "module": "Procurement and Purchasing",
+      "subtopics": [
+        "Supplier management and qualification",
+        "Purchase requisition creation",
+        "Purchase order processing and approval",
+        "Receiving and inspection procedures",
+        "Invoice matching and three-way match",
+        "Procurement analytics and reporting"
+      ]
+    },
+    {
+      "module": "Manufacturing Operations",
+      "subtopics": [
+        "Production planning and scheduling",
+        "Work order creation and management",
+        "Shop floor control and execution",
+        "Bill of materials (BOM) management",
+        "Routing and resource planning",
+        "Manufacturing cost accounting"
+      ]
+    },
+    {
+      "module": "Warehouse Management",
+      "subtopics": [
+        "Warehouse structure and setup",
+        "Receiving and putaway processes",
+        "Picking strategies and wave planning",
+        "Packing and shipping operations",
+        "Inventory accuracy and control",
+        "Mobile device integration"
+      ]
+    },
+    {
+      "module": "Supply Chain Integration",
+      "subtopics": [
+        "Integration with Oracle Financials",
+        "Cross-module business flows",
+        "Data migration and conversion",
+        "API and web services integration",
+        "Reporting and business intelligence",
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "module": "Implementation Best Practices",
+      "subtopics": [
+        "Requirement gathering and analysis",
+        "Configuration vs customization decisions",
+        "Testing strategies and UAT",
+        "Change management and training",
+        "Go-live preparation and support",
+        "Post-implementation optimization"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle SCM Training in Hyderabad",
+    "description": "Oracle SCM plays a critical role in optimizing supply chain operations, reducing operational costs, and improving business efficiency. Organizations in Hyderabad's thriving IT corridor, pharmaceutical hubs, manufacturing, retail, and logistics sectors rely on Oracle SCM Cloud to streamline their supply chain processes.",
+    "points": [
+      "<strong>High Demand in Hyderabad:</strong> Strong market demand for Oracle SCM consultants in Hyderabad's IT and pharma industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹4 LPA to ₹20+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Hyderabad-based MNCs like TCS, Infosys, Deloitte, Tech Mahindra, and Dr. Reddy's",
+      "<strong>Cloud ERP Expertise:</strong> Gain expertise in leading cloud-based ERP technology in Hyderabad's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Hyderabad-based supply chain professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹4 LPA – ₹6.5 LPA for beginners in Hyderabad",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹9 LPA – ₹16 LPA in Hyderabad market",
+      "<strong>Senior Positions:</strong> Senior consultants in Hyderabad command ₹20 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle SCM Training program in Hyderabad is designed with an industry-oriented approach that focuses on real-time business case studies, implementation-focused learning, and process-based understanding of supply chain operations with hands-on ERP cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Supply Chain Modules</strong>",
+    "description": "Master the fundamental Oracle SCM Cloud modules that form the backbone of enterprise supply chain operations in Hyderabad's manufacturing, pharma, and IT sectors.",
+    "topics": [
+      "<strong>Procurement:</strong> Supplier management, requisitioning, purchase orders, and vendor collaboration",
+      "<strong>Inventory Management:</strong> Item master setup, organization structure, transactions, and valuation",
+      "<strong>Order Management:</strong> Order entry, processing, pricing, fulfillment, and shipping execution",
+      "<strong>Manufacturing Operations:</strong> Production planning, work orders, shop floor control, and BOM management",
+      "<strong>Warehouse Management:</strong> Receiving, putaway, picking, packing, and shipping processes",
+      "<strong>Logistics:</strong> Transportation management, delivery coordination, and supply chain visibility"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle SCM Cloud solutions for real business scenarios in Hyderabad's industrial landscape.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle SCM modules",
+      "<strong>Business Process Mapping:</strong> Design and optimize supply chain workflows",
+      "<strong>Integration:</strong> Connect Oracle SCM with Financials and other enterprise systems",
+      "<strong>Real-world Scenarios:</strong> Solve actual business challenges from Hyderabad-based industries",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle SCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Performance Tuning:</strong> Optimization techniques and troubleshooting strategies",
+      "<strong>Data Migration:</strong> Master data conversion and migration methodologies"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support in Hyderabad",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle SCM career successfully in Hyderabad's competitive job market.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle SCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Hyderabad's IT and pharma recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Hyderabad companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle SCM professionals working in Hyderabad",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle SCM opportunities in Hyderabad's top companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle SCM consultant roles in Hyderabad"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle SCM Training in Hyderabad?",
+    "intro": "ICLP Technologies offers industry-focused Oracle SCM Training in Hyderabad with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real business scenarios confidently in Hyderabad's thriving IT, pharma, and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced industry professionals with hands-on Oracle SCM implementation experience in Hyderabad-based companies. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live projects across various industries including pharmaceuticals, IT services, manufacturing, and logistics in Hyderabad."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Hyderabad</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Hyderabad:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Hyderabad center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Hyderabad",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Hyderabad",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working professionals in Hyderabad",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle ERP cloud environments"
+      ]
+    }
+  }
+},
+{
   "course_name": "Oracle SCM Training Online",
   "path": "oracle-scm-near-me",
   "meta_title": "Oracle SCM Training Near Me | Online Oracle SCM Course with Placement",
@@ -790,6 +1153,582 @@
         "<strong>Weekend Batches:</strong> Perfect for working HR professionals balancing career and learning",
         "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle HCM cloud environments",
         "<strong>Recorded Sessions:</strong> Access to class recordings for revision and self-paced learning"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle HCM Training in Chennai",
+  "path": "oracle-hcm-chennai",
+  "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Course with Placement | ICLP Technologies",
+  "meta_description": "Join the best Oracle HCM Training in Chennai. Learn Oracle Fusion HCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
+  "description": "Learn Oracle Human Capital Management in Chennai covering Core HR, Payroll, Talent Management, and Workforce Management with hands-on training.",
+  "courseDescription": "Master Oracle Human Capital Management (Oracle HCM) Cloud with comprehensive training in Chennai covering Core HR, payroll, talent management, recruitment, and workforce management. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle HCM Functional Consultant in Chennai and across India.",
+  "what_youll_learn": [
+    "Oracle HCM Cloud implementation and configuration",
+    "Core HR and workforce management",
+    "Global payroll processing and compliance",
+    "Talent management and recruitment",
+    "Learning and development modules",
+    "Compensation and benefits administration",
+    "Time and labor management",
+    "HCM analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle HCM Cloud",
+      "subtopics": [
+        "Oracle HCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Human capital management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "HCM implementation methodology"
+      ]
+    },
+    {
+      "module": "Core HR",
+      "subtopics": [
+        "Enterprise structure and organization setup",
+        "Workforce structures and assignments",
+        "Person management and employment records",
+        "Work relationships and assignments",
+        "Absence management",
+        "Profile management and competencies"
+      ]
+    },
+    {
+      "module": "Global Payroll",
+      "subtopics": [
+        "Payroll foundation setup",
+        "Salary basis and payment methods",
+        "Elements and formula configuration",
+        "Payroll processing and calculations",
+        "Statutory compliance and reporting",
+        "Year-end processing and tax forms"
+      ]
+    },
+    {
+      "module": "Talent Management",
+      "subtopics": [
+        "Performance management setup",
+        "Goal setting and tracking",
+        "Performance reviews and appraisals",
+        "Succession planning",
+        "Career development planning",
+        "Talent pools and calibration"
+      ]
+    },
+    {
+      "module": "Recruitment and Onboarding",
+      "subtopics": [
+        "Requisition creation and management",
+        "Candidate sourcing and screening",
+        "Interview scheduling and evaluation",
+        "Offer management and approval",
+        "Background checks and pre-employment",
+        "Onboarding processes and tasks"
+      ]
+    },
+    {
+      "module": "Learning Management",
+      "subtopics": [
+        "Learning catalog setup",
+        "Course and offering creation",
+        "Learning assignments and enrollments",
+        "Training delivery methods",
+        "Certification and compliance tracking",
+        "Learning analytics and reporting"
+      ]
+    },
+    {
+      "module": "Compensation and Benefits",
+      "subtopics": [
+        "Compensation plan design",
+        "Salary structures and grades",
+        "Benefits enrollment and administration",
+        "Flexible benefits configuration",
+        "Life events and eligibility rules",
+        "Total compensation statements"
+      ]
+    },
+    {
+      "module": "Time and Labor Management",
+      "subtopics": [
+        "Time entry methods and rules",
+        "Timecard processing and approval",
+        "Attendance tracking and schedules",
+        "Overtime calculations",
+        "Leave accruals and balances",
+        "Integration with payroll"
+      ]
+    },
+    {
+      "module": "HCM Analytics and Reporting",
+      "subtopics": [
+        "OTBI reports and dashboards",
+        "BIP report development",
+        "HCM extracts and data export",
+        "Workforce analytics",
+        "Custom report creation",
+        "Performance metrics and KPIs"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle HCM Training in Chennai",
+    "description": "Oracle HCM plays a critical role in transforming HR operations, automating workforce processes, and enabling strategic talent management. Organizations in Chennai's IT corridor, manufacturing, automotive, healthcare, and BPO sectors rely on Oracle HCM Cloud to manage their workforce efficiently.",
+    "points": [
+      "<strong>High Demand in Chennai:</strong> Strong market demand for Oracle HCM consultants in Chennai's IT and manufacturing industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹3.5 LPA to ₹18+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Chennai-based MNCs like TCS, Infosys, Cognizant, Accenture, and Hyundai",
+      "<strong>Cloud HR Expertise:</strong> Gain expertise in leading cloud-based HR technology in Chennai's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Chennai-based HR professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹3.5 LPA – ₹6 LPA for beginners in Chennai",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹8 LPA – ₹15 LPA in Chennai market",
+      "<strong>Senior Positions:</strong> Senior HCM consultants in Chennai command ₹18 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle HCM Training program in Chennai is designed with an industry-oriented approach that focuses on real-time HR business scenarios, implementation-focused learning, and process-based understanding of human capital management with hands-on HCM cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>HCM Modules</strong>",
+    "description": "Master the fundamental Oracle HCM Cloud modules that form the backbone of enterprise human capital management operations in Chennai's IT and manufacturing sectors.",
+    "topics": [
+      "<strong>Core HR:</strong> Employee records, work relationships, assignments, and workforce structures",
+      "<strong>Global Payroll:</strong> Payroll processing, compliance, tax calculations, and statutory reporting",
+      "<strong>Talent Management:</strong> Performance management, goal setting, succession planning, and career development",
+      "<strong>Recruitment:</strong> Requisition management, candidate sourcing, interview scheduling, and onboarding",
+      "<strong>Learning Management:</strong> Training programs, course catalog, certifications, and compliance tracking",
+      "<strong>Compensation & Benefits:</strong> Salary structures, benefits enrollment, life events, and total rewards"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle HCM Cloud solutions for real HR business scenarios in Chennai's industrial landscape.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle HCM modules and features",
+      "<strong>Business Process Design:</strong> Design and optimize HR workflows and approval processes",
+      "<strong>Integration:</strong> Connect Oracle HCM with Payroll, Time & Labor, and third-party systems",
+      "<strong>Real-world HR Scenarios:</strong> Solve actual HR challenges from Chennai-based industries",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle HCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Data Migration:</strong> Employee data conversion and migration methodologies",
+      "<strong>Security & Compliance:</strong> Role-based security, data privacy, and regulatory compliance"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support in Chennai",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle HCM career successfully in Chennai's competitive job market.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle HCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Chennai's IT and manufacturing recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Chennai companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle HCM professionals working in Chennai",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle HCM opportunities in Chennai's top companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle HCM consultant roles in Chennai"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle HCM Training in Chennai?",
+    "intro": "ICLP Technologies offers industry-focused Oracle HCM Training in Chennai with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real HR business scenarios confidently in Chennai's thriving IT and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced Oracle HCM professionals with hands-on implementation experience in Chennai-based companies. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live HCM projects across various industries including IT services, manufacturing, automotive, and BPO in Chennai."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Chennai</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Chennai:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Chennai center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Chennai",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Chennai",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working HR professionals in Chennai",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle HCM cloud environments"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle HCM Training in Bangalore",
+  "path": "oracle-hcm-bangalore",
+  "meta_title": "Oracle HCM Training in Bangalore | Oracle HCM Course with Placement | ICLP Technologies",
+  "meta_description": "Join the best Oracle HCM Training in Bangalore. Learn Oracle Fusion HCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
+  "description": "Learn Oracle Human Capital Management in Bangalore covering Core HR, Payroll, Talent Management, and Workforce Management with hands-on training.",
+  "courseDescription": "Master Oracle Human Capital Management (Oracle HCM) Cloud with comprehensive training in Bangalore covering Core HR, payroll, talent management, recruitment, and workforce management. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle HCM Functional Consultant in Bangalore and across India.",
+  "what_youll_learn": [
+    "Oracle HCM Cloud implementation and configuration",
+    "Core HR and workforce management",
+    "Global payroll processing and compliance",
+    "Talent management and recruitment",
+    "Learning and development modules",
+    "Compensation and benefits administration",
+    "Time and labor management",
+    "HCM analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle HCM Cloud",
+      "subtopics": [
+        "Oracle HCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Human capital management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "HCM implementation methodology"
+      ]
+    },
+    {
+      "module": "Core HR",
+      "subtopics": [
+        "Enterprise structure and organization setup",
+        "Workforce structures and assignments",
+        "Person management and employment records",
+        "Work relationships and assignments",
+        "Absence management",
+        "Profile management and competencies"
+      ]
+    },
+    {
+      "module": "Global Payroll",
+      "subtopics": [
+        "Payroll foundation setup",
+        "Salary basis and payment methods",
+        "Elements and formula configuration",
+        "Payroll processing and calculations",
+        "Statutory compliance and reporting",
+        "Year-end processing and tax forms"
+      ]
+    },
+    {
+      "module": "Talent Management",
+      "subtopics": [
+        "Performance management setup",
+        "Goal setting and tracking",
+        "Performance reviews and appraisals",
+        "Succession planning",
+        "Career development planning",
+        "Talent pools and calibration"
+      ]
+    },
+    {
+      "module": "Recruitment and Onboarding",
+      "subtopics": [
+        "Requisition creation and management",
+        "Candidate sourcing and screening",
+        "Interview scheduling and evaluation",
+        "Offer management and approval",
+        "Background checks and pre-employment",
+        "Onboarding processes and tasks"
+      ]
+    },
+    {
+      "module": "Learning Management",
+      "subtopics": [
+        "Learning catalog setup",
+        "Course and offering creation",
+        "Learning assignments and enrollments",
+        "Training delivery methods",
+        "Certification and compliance tracking",
+        "Learning analytics and reporting"
+      ]
+    },
+    {
+      "module": "Compensation and Benefits",
+      "subtopics": [
+        "Compensation plan design",
+        "Salary structures and grades",
+        "Benefits enrollment and administration",
+        "Flexible benefits configuration",
+        "Life events and eligibility rules",
+        "Total compensation statements"
+      ]
+    },
+    {
+      "module": "Time and Labor Management",
+      "subtopics": [
+        "Time entry methods and rules",
+        "Timecard processing and approval",
+        "Attendance tracking and schedules",
+        "Overtime calculations",
+        "Leave accruals and balances",
+        "Integration with payroll"
+      ]
+    },
+    {
+      "module": "HCM Analytics and Reporting",
+      "subtopics": [
+        "OTBI reports and dashboards",
+        "BIP report development",
+        "HCM extracts and data export",
+        "Workforce analytics",
+        "Custom report creation",
+        "Performance metrics and KPIs"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle HCM Training in Bangalore",
+    "description": "Oracle HCM plays a critical role in transforming HR operations, automating workforce processes, and enabling strategic talent management. Organizations in Bangalore's IT corridor, startups, fintech, healthcare, and product companies rely on Oracle HCM Cloud to manage their rapidly growing workforce.",
+    "points": [
+      "<strong>High Demand in Bangalore:</strong> Strong market demand for Oracle HCM consultants in Bangalore's IT industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹4 LPA to ₹22+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Bangalore-based MNCs like Infosys, Wipro, Accenture, IBM, and Flipkart",
+      "<strong>Cloud HR Expertise:</strong> Gain expertise in leading cloud-based HR technology in Bangalore's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Bangalore-based HR professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹4 LPA – ₹7 LPA for beginners in Bangalore",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹10 LPA – ₹18 LPA in Bangalore market",
+      "<strong>Senior Positions:</strong> Senior HCM consultants in Bangalore command ₹22 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle HCM Training program in Bangalore is designed with an industry-oriented approach that focuses on real-time HR business scenarios, implementation-focused learning, and process-based understanding of human capital management with hands-on HCM cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>HCM Modules</strong>",
+    "description": "Master the fundamental Oracle HCM Cloud modules that form the backbone of enterprise human capital management operations in Bangalore's IT and product company ecosystem.",
+    "topics": [
+      "<strong>Core HR:</strong> Employee records, work relationships, assignments, and workforce structures",
+      "<strong>Global Payroll:</strong> Payroll processing, compliance, tax calculations, and statutory reporting",
+      "<strong>Talent Management:</strong> Performance management, goal setting, succession planning, and career development",
+      "<strong>Recruitment:</strong> Requisition management, candidate sourcing, interview scheduling, and onboarding",
+      "<strong>Learning Management:</strong> Training programs, course catalog, certifications, and compliance tracking",
+      "<strong>Compensation & Benefits:</strong> Salary structures, benefits enrollment, life events, and total rewards"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle HCM Cloud solutions for real HR business scenarios in Bangalore's startup and tech landscape.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle HCM modules and features",
+      "<strong>Business Process Design:</strong> Design and optimize HR workflows and approval processes",
+      "<strong>Integration:</strong> Connect Oracle HCM with Payroll, Time & Labor, and third-party systems",
+      "<strong>Real-world HR Scenarios:</strong> Solve actual HR challenges from Bangalore-based tech companies",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle HCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Data Migration:</strong> Employee data conversion and migration methodologies",
+      "<strong>Security & Compliance:</strong> Role-based security, data privacy, and regulatory compliance"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support in Bangalore",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle HCM career successfully in Bangalore's competitive tech job market.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle HCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Bangalore's IT and tech recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Bangalore companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle HCM professionals working in Bangalore",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle HCM opportunities in Bangalore's top tech companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle HCM consultant roles in Bangalore"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle HCM Training in Bangalore?",
+    "intro": "ICLP Technologies offers industry-focused Oracle HCM Training in Bangalore with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real HR business scenarios confidently in Bangalore's thriving IT and startup ecosystem.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced Oracle HCM professionals with hands-on implementation experience in Bangalore-based tech companies and startups. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live HCM projects across IT services, fintech, product companies, and e-commerce in Bangalore."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Bangalore</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Bangalore:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Bangalore center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Bangalore",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Bangalore",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working HR professionals in Bangalore",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle HCM cloud environments"
+      ]
+    }
+  }
+},{
+  "course_name": "Oracle HCM Training in Hyderabad",
+  "path": "oracle-hcm-hyderabad",
+  "meta_title": "Oracle HCM Training in Hyderabad | Oracle HCM Course with Placement | ICLP Technologies",
+  "meta_description": "Join the best Oracle HCM Training in Hyderabad. Learn Oracle Fusion HCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
+  "description": "Learn Oracle Human Capital Management in Hyderabad covering Core HR, Payroll, Talent Management, and Workforce Management with hands-on training.",
+  "courseDescription": "Master Oracle Human Capital Management (Oracle HCM) Cloud with comprehensive training in Hyderabad covering Core HR, payroll, talent management, recruitment, and workforce management. Our industry-focused program provides real-time implementation knowledge and hands-on experience to build a successful career as an Oracle HCM Functional Consultant in Hyderabad and across India.",
+  "what_youll_learn": [
+    "Oracle HCM Cloud implementation and configuration",
+    "Core HR and workforce management",
+    "Global payroll processing and compliance",
+    "Talent management and recruitment",
+    "Learning and development modules",
+    "Compensation and benefits administration",
+    "Time and labor management",
+    "HCM analytics and reporting"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle HCM Cloud",
+      "subtopics": [
+        "Oracle HCM Cloud architecture overview",
+        "Navigation and user interface",
+        "Human capital management fundamentals",
+        "Oracle Cloud ERP ecosystem",
+        "HCM implementation methodology"
+      ]
+    },
+    {
+      "module": "Core HR",
+      "subtopics": [
+        "Enterprise structure and organization setup",
+        "Workforce structures and assignments",
+        "Person management and employment records",
+        "Work relationships and assignments",
+        "Absence management",
+        "Profile management and competencies"
+      ]
+    },
+    {
+      "module": "Global Payroll",
+      "subtopics": [
+        "Payroll foundation setup",
+        "Salary basis and payment methods",
+        "Elements and formula configuration",
+        "Payroll processing and calculations",
+        "Statutory compliance and reporting",
+        "Year-end processing and tax forms"
+      ]
+    },
+    {
+      "module": "Talent Management",
+      "subtopics": [
+        "Performance management setup",
+        "Goal setting and tracking",
+        "Performance reviews and appraisals",
+        "Succession planning",
+        "Career development planning",
+        "Talent pools and calibration"
+      ]
+    },
+    {
+      "module": "Recruitment and Onboarding",
+      "subtopics": [
+        "Requisition creation and management",
+        "Candidate sourcing and screening",
+        "Interview scheduling and evaluation",
+        "Offer management and approval",
+        "Background checks and pre-employment",
+        "Onboarding processes and tasks"
+      ]
+    },
+    {
+      "module": "Learning Management",
+      "subtopics": [
+        "Learning catalog setup",
+        "Course and offering creation",
+        "Learning assignments and enrollments",
+        "Training delivery methods",
+        "Certification and compliance tracking",
+        "Learning analytics and reporting"
+      ]
+    },
+    {
+      "module": "Compensation and Benefits",
+      "subtopics": [
+        "Compensation plan design",
+        "Salary structures and grades",
+        "Benefits enrollment and administration",
+        "Flexible benefits configuration",
+        "Life events and eligibility rules",
+        "Total compensation statements"
+      ]
+    },
+    {
+      "module": "Time and Labor Management",
+      "subtopics": [
+        "Time entry methods and rules",
+        "Timecard processing and approval",
+        "Attendance tracking and schedules",
+        "Overtime calculations",
+        "Leave accruals and balances",
+        "Integration with payroll"
+      ]
+    },
+    {
+      "module": "HCM Analytics and Reporting",
+      "subtopics": [
+        "OTBI reports and dashboards",
+        "BIP report development",
+        "HCM extracts and data export",
+        "Workforce analytics",
+        "Custom report creation",
+        "Performance metrics and KPIs"
+      ]
+    }
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle HCM Training in Hyderabad",
+    "description": "Oracle HCM plays a critical role in transforming HR operations, automating workforce processes, and enabling strategic talent management. Organizations in Hyderabad's IT corridor, pharmaceutical hubs, manufacturing, healthcare, and BFSI sectors rely on Oracle HCM Cloud to manage their growing workforce efficiently.",
+    "points": [
+      "<strong>High Demand in Hyderabad:</strong> Strong market demand for Oracle HCM consultants in Hyderabad's IT and pharma industry",
+      "<strong>Salary Growth:</strong> Competitive packages ranging from ₹4 LPA to ₹20+ LPA based on experience",
+      "<strong>MNC Opportunities:</strong> Career prospects in Hyderabad-based MNCs like TCS, Infosys, Deloitte, Tech Mahindra, and Dr. Reddy's",
+      "<strong>Cloud HR Expertise:</strong> Gain expertise in leading cloud-based HR technology in Hyderabad's tech ecosystem",
+      "<strong>Career Transition:</strong> Perfect opportunity for Hyderabad-based HR professionals to move into consulting",
+      "<strong>Fresher Salaries:</strong> Starting packages of ₹4 LPA – ₹6.5 LPA for beginners in Hyderabad",
+      "<strong>Mid-level Growth:</strong> Professionals with 2-5 years earn ₹9 LPA – ₹16 LPA in Hyderabad market",
+      "<strong>Senior Positions:</strong> Senior HCM consultants in Hyderabad command ₹20 LPA and above"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Curriculum Overview</strong>",
+    "intro": "Our Oracle HCM Training program in Hyderabad is designed with an industry-oriented approach that focuses on real-time HR business scenarios, implementation-focused learning, and process-based understanding of human capital management with hands-on HCM cloud environment exposure."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>HCM Modules</strong>",
+    "description": "Master the fundamental Oracle HCM Cloud modules that form the backbone of enterprise human capital management operations in Hyderabad's IT, pharma, and manufacturing sectors.",
+    "topics": [
+      "<strong>Core HR:</strong> Employee records, work relationships, assignments, and workforce structures",
+      "<strong>Global Payroll:</strong> Payroll processing, compliance, tax calculations, and statutory reporting",
+      "<strong>Talent Management:</strong> Performance management, goal setting, succession planning, and career development",
+      "<strong>Recruitment:</strong> Requisition management, candidate sourcing, interview scheduling, and onboarding",
+      "<strong>Learning Management:</strong> Training programs, course catalog, certifications, and compliance tracking",
+      "<strong>Compensation & Benefits:</strong> Salary structures, benefits enrollment, life events, and total rewards"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>Implementation Skills</strong>",
+    "description": "Gain practical expertise in configuring, implementing, and optimizing Oracle HCM Cloud solutions for real HR business scenarios in Hyderabad's industrial landscape.",
+    "topics": [
+      "<strong>Configuration:</strong> Hands-on setup and configuration of Oracle HCM modules and features",
+      "<strong>Business Process Design:</strong> Design and optimize HR workflows and approval processes",
+      "<strong>Integration:</strong> Connect Oracle HCM with Payroll, Time & Labor, and third-party systems",
+      "<strong>Real-world HR Scenarios:</strong> Solve actual HR challenges from Hyderabad-based industries",
+      "<strong>Best Practices:</strong> Learn industry-standard approaches for Oracle HCM deployment",
+      "<strong>Testing & Validation:</strong> Functional workflow practice and user acceptance testing",
+      "<strong>Data Migration:</strong> Employee data conversion and migration methodologies",
+      "<strong>Security & Compliance:</strong> Role-based security, data privacy, and regulatory compliance"
+    ]
+  },
+  "certification_info": {
+    "heading": "<strong>Certification</strong> & Career Support in Hyderabad",
+    "intro": "ICLP Technologies provides comprehensive certification preparation and structured placement assistance to help you launch your Oracle HCM career successfully in Hyderabad's competitive job market.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Complete guidance and resources for Oracle HCM Cloud certification exams",
+      "<strong>Resume Building:</strong> Professional resume preparation optimized for Hyderabad's IT and pharma recruiters",
+      "<strong>Mock Interviews:</strong> Technical and HR interview practice sessions tailored for Hyderabad companies",
+      "<strong>Career Mentoring:</strong> One-on-one guidance from Oracle HCM professionals working in Hyderabad",
+      "<strong>Job Referral Assistance:</strong> Direct connections to Oracle HCM opportunities in Hyderabad's top companies",
+      "<strong>Industry-Ready Training:</strong> Practical knowledge to confidently handle Oracle HCM consultant roles in Hyderabad"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle HCM Training in Hyderabad?",
+    "intro": "ICLP Technologies offers industry-focused Oracle HCM Training in Hyderabad with placement support, designed to provide real-time implementation knowledge and practical expertise that prepares learners to handle real HR business scenarios confidently in Hyderabad's thriving IT, pharma, and manufacturing sectors.",
+    "instructor_expertise": {
+      "heading": "Expert Trainers & <strong>Mentorship</strong>",
+      "description": "Learn from experienced Oracle HCM professionals with hands-on implementation experience in Hyderabad-based companies. Benefit from one-on-one doubt clarification sessions, personalized guidance on implementation best practices, and real-world insights from consultants who have worked on live HCM projects across various industries including pharmaceuticals, IT services, manufacturing, and BFSI in Hyderabad."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options in Hyderabad</strong>",
+      "description": "We provide learning flexibility to suit your schedule and preferences in Hyderabad:",
+      "options": [
+        "<strong>Classroom Training:</strong> In-person training at our Hyderabad center with hands-on lab sessions",
+        "<strong>Live Online Training:</strong> Interactive instructor-led sessions accessible from anywhere in Hyderabad",
+        "<strong>Weekday Batches:</strong> Morning and evening batches for students and full-time learners in Hyderabad",
+        "<strong>Weekend Batches:</strong> Saturday-Sunday classes perfect for working HR professionals in Hyderabad",
+        "<strong>Practical Exposure:</strong> Hands-on practice with real Oracle HCM cloud environments"
       ]
     }
   }
