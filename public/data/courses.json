@@ -20777,78 +20777,169 @@
             "Period Close & Reconciliation Mini Project"
           ]
         },
-        {
-          "course_name": "Digital Marketing",
-          "path": "digital-marketing-online-training",
-          "description": "Learn digital marketing strategies to grow businesses online.",
-          "what_youll_learn": [
-            "Understand digital marketing channels and strategies (funnel optimization)",
-            "Optimize websites for SEO (on-page/technical SEO, keyword research)",
-            "Create and manage social media campaigns (Meta, LinkedIn, TikTok)",
-            "Run PPC advertising campaigns (Google Ads, Microsoft Advertising)",
-            "Analyze web traffic and campaign performance (Google Analytics 4)",
-            "Develop data-driven content strategies (audience personas, content calendars)",
-            "Automate marketing workflows (email sequences, CRM integration)",
-            "Master conversion rate optimization (A/B testing, heatmaps)"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to Digital Marketing",
-              "subtopics": [
-                "Overview of digital marketing and its importance",
-                "Digital marketing channels",
-                "Setting up the digital marketing environment"
-              ]
-            },
-            {
-              "module": "Search Engine Optimization (SEO)",
-              "subtopics": [
-                "On-page and off-page SEO",
-                "Keyword research and optimization",
-                "SEO tools and techniques"
-              ]
-            },
-            {
-              "module": "Social Media Marketing",
-              "subtopics": [
-                "Creating and managing social media campaigns",
-                "Social media analytics",
-                "Social media advertising"
-              ]
-            },
-            {
-              "module": "Pay-Per-Click (PPC) Advertising",
-              "subtopics": [
-                "Creating and managing PPC campaigns",
-                "PPC analytics and optimization",
-                "Google Ads and Facebook Ads"
-              ]
-            },
-            {
-              "module": "Web Analytics",
-              "subtopics": [
-                "Introduction to Google Analytics",
-                "Analyzing web traffic and user behavior",
-                "Optimizing website performance"
-              ]
-            },
-            {
-              "module": "Project Work",
-              "subtopics": [
-                "Hands-on digital marketing projects",
-                "Final project presentations"
-              ]
-            }
-          ],
-          "duration": "30 hours",
-          "skill_level": "Beginner",
-          "image": "https://w0.peakpx.com/wallpaper/606/552/HD-wallpaper-digital-marketing-agency-developing-top-marketing-strategies-in-co-seo-marketing.jpg",
-          "placement_assurance": true,
-          "projects": [
-            "SEO Campaign",
-            "Social Media Strategy"
-          ]
-        }
+   {
+  "course_name": "Digital Marketing Online Training in Chennai",
+  "path": "digital-marketing-online-training",
+  "description": "Join the best Digital Marketing Online Training in Chennai with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Digital Marketing Training</strong> in Chennai",
+    "description": "Chennai's booming IT and business hub demands skilled digital marketers. Build a high-demand career with remote flexibility, freelancing, and roles in startups, agencies, and e-commerce.",
+    "points": [
+      "<strong>High Demand in Chennai:</strong> IT companies, startups, and agencies actively hiring SEO, PPC, and social media experts",
+      "<strong>Attractive Salaries:</strong> Freshers earn ₹2.5-4 LPA; experienced pros ₹5-10+ LPA, freelancers even higher",
+      "<strong>Career Flexibility:</strong> Remote work, freelancing for Chennai clients, and roles across industries",
+      "<strong>Job Security:</strong> Fastest-growing field in Chennai's digital economy with scalable opportunities",
+      "<strong>Entry-Level Friendly:</strong> No technical background needed; quick path to job-ready skills",
+      "<strong>Global Reach:</strong> Skills applicable worldwide from Chennai-based remote setups"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive Digital Marketing Curriculum",
+    "intro": "Our 2-4 month program delivers 100% practical, industry-focused training with live classes, real-time projects, Google Ads campaigns, SEO implementation, and Chennai-specific strategies."
+  },
+  "track_overview_primary": {
+    "heading": "Core Digital Marketing Track",
+    "description": "Master essential skills with hands-on practice:",
+    "topics": [
+      "<strong>Search Engine Optimization (SEO):</strong> On-page, off-page, technical SEO for Chennai businesses",
+      "<strong>Google Ads:</strong> Search, Display, YouTube campaigns with live execution",
+      "<strong>Social Media Marketing:</strong> Facebook, Instagram, LinkedIn strategies and ads",
+      "<strong>Content Marketing & Blogging:</strong> Strategy, creation, and optimization",
+      "<strong>Email Marketing:</strong> Campaigns, automation, and lead nurturing",
+      "<strong>Google Analytics:</strong> Reporting, tracking, and performance analysis"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Lead Generation & Optimization Track",
+    "description": "Apply skills to real-world scenarios and get job-ready:",
+    "topics": [
+      "<strong>Lead Generation Techniques:</strong> Funnels, landing pages, conversion strategies",
+      "<strong>Conversion Optimization:</strong> A/B testing, CRO best practices",
+      "<strong>Real-Time Projects:</strong> Live campaigns, SEO audits, social media strategies",
+      "<strong>Chennai-Focused Strategies:</strong> Local business marketing and client projects",
+      "<strong>Resume & Interview Prep:</strong> Portfolio building, mock interviews",
+      "<strong>Placement Support:</strong> Job referrals in Chennai IT firms and agencies"
+    ]
+  },
+  "certification_info": {
+    "heading": "Digital Marketing Certification & Recognition",
+    "intro": "Receive a course completion certificate plus guidance for Google Certifications to boost your Chennai job prospects.",
+    "highlights": [
+      "<strong>Course Completion Certificate:</strong> Validates hands-on training and projects",
+      "<strong>Google Certification Guidance:</strong> Prep for Analytics, Ads, and other official certs",
+      "<strong>Project Portfolio:</strong> Showcase live campaigns and strategies to employers",
+      "<strong>Placement Assistance:</strong> Resume building, interview support, Chennai job referrals",
+      "<strong>Internship Opportunities:</strong> Gain real agency experience",
+      "<strong>Flexible Learning:</strong> Live online classes with recordings and support"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose Our Digital Marketing Training in Chennai?",
+    "intro": "Chennai-focused online training with experienced trainers, practical projects, live campaign execution, updated curriculum, and dedicated placement support.",
+    "instructor_expertise": {
+      "heading": "Experienced Industry Trainers",
+      "description": "Learn from digital marketing pros with real-world experience in SEO, Google Ads, and social media for Chennai businesses. Get personalized guidance and doubt-clearing."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Tailored for Chennai students and professionals:",
+      "options": [
+        "<strong>Live Interactive Classes:</strong> Real-time sessions with Q&A and screen sharing",
+        "<strong>Real-Time Projects:</strong> Hands-on Google Ads, SEO, and social campaigns",
+        "<strong>Flexible Batch Timings:</strong> Fits working pros and students",
+        "<strong>Recorded Access:</strong> Review sessions anytime with lifetime support"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Search Engine Optimization (SEO)",
+    "Google Ads (Search, Display & YouTube)",
+    "Social Media Marketing (Facebook, Instagram, LinkedIn)",
+    "Content Marketing & Blogging",
+    "Email Marketing & Automation",
+    "Google Analytics & Reporting",
+    "Lead Generation & Conversion Optimization"
+  ],
+  "syllabus": [
+    {
+      "module": "Digital Marketing Fundamentals",
+      "subtopics": [
+        "Digital marketing overview and Chennai opportunities",
+        "SEO basics: keywords, on-page, off-page optimization",
+        "Google Ads fundamentals and campaign setup",
+        "Social media platforms and strategies"
+      ]
+    },
+    {
+      "module": "SEO Practical Implementation",
+      "subtopics": [
+        "Technical SEO and site audits",
+        "Local SEO for Chennai businesses",
+        "Content optimization and link building",
+        "SEO tools: Google Search Console, Ahrefs"
+      ]
+    },
+    {
+      "module": "Google Ads Mastery",
+      "subtopics": [
+        "Search, Display, and YouTube campaigns",
+        "Keyword research and bid management",
+        "Live campaign creation and optimization",
+        "Remarketing and conversion tracking"
+      ]
+    },
+    {
+      "module": "Social Media & Content Marketing",
+      "subtopics": [
+        "Facebook/Instagram Ads and organic growth",
+        "LinkedIn for B2B marketing",
+        "Content strategy, blogging, email campaigns",
+        "Influencer and viral marketing"
+      ]
+    },
+    {
+      "module": "Analytics & Lead Generation",
+      "subtopics": [
+        "Google Analytics setup and reporting",
+        "Lead funnels and conversion optimization",
+        "A/B testing and performance metrics",
+        "CRM integration basics"
+      ]
+    },
+    {
+      "module": "Real Projects & Campaigns",
+      "subtopics": [
+        "Live Google Ads execution",
+        "SEO audit for real websites",
+        "Social media strategy projects",
+        "Chennai business case studies"
+      ]
+    },
+    {
+      "module": "Career Preparation",
+      "subtopics": [
+        "Resume and portfolio building",
+        "Mock interviews and job applications",
+        "Chennai placement support",
+        "Freelancing and agency prep"
+      ]
+    }
+  ],
+  "duration": "2-4 Months (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (No Prerequisites)",
+  "image": "/CourseDetails/digital-marketing-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Live Google Ads Campaigns",
+    "SEO Audit & Optimization",
+    "Social Media Strategy Projects",
+    "Lead Generation Funnels",
+    "Chennai Business Case Studies"
+  ],
+  "meta_title": "Best Digital Marketing Course Online with Placement Assistance | ICLP Technologies",
+  "meta_description": "Join the best Digital Marketing Online Training in Chennai with SEO, Google Ads & Social Media. 100% practical learning with certification and placement support."
+}
+
       ]
     },
     {
