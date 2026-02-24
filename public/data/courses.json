@@ -21397,10 +21397,7 @@
             "Website Redesign",
             "Mobile App Prototype"
           ]
-        }
-      ]
-    },
-    {
+        }, {
   "course_name": "Best Salesforce Admin Training in India 2026 | Certification & Placement",
   "path": "salesforce-admin-training-india-certification",
   "description": "Master Salesforce Admin Certification with ICLP Technologies' Best Salesforce Admin Training in India. No coding required. Real-time CRM projects, mock exams, 100% placement support for freshers & career switchers.",
@@ -21722,7 +21719,10 @@
   ],
   "meta_title": "Salesforce Admin Training in Chennai with Placement | ICLP Technologies",
   "meta_description": "Best Salesforce Admin Training in Chennai - No Coding. Live projects, 100% certification, MNC placements (TCS/Cognizant). ₹4-20 LPA careers for freshers!"
-},
+}
+      ]
+    },
+   
     {
       "category_name": "CRM & Enterprise Solutions",
       "path": "crm-enterprise-solutions",

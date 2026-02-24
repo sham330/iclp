@@ -5,14 +5,19 @@ export async function getAllCoursePaths() {
   
   const paths = [];
   
-  coursesData.categories.forEach((category) => {
-    category.sub_categories.forEach((sub) => {
-      paths.push({
-        path: sub.path,
-        courseName: sub.course_name
-      });
+  if (coursesData?.categories) {
+    coursesData.categories.forEach((category) => {
+      // Safe guard for sub_categories + skip if missing
+      if (category?.sub_categories) {
+        category.sub_categories.forEach((sub) => {
+          paths.push({
+            path: sub.path,
+            courseName: sub.course_name
+          });
+        });
+      }
     });
-  });
+  }
   
   return paths;
 }
