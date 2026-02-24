@@ -21401,6 +21401,329 @@
       ]
     },
     {
+  "course_name": "Best Salesforce Admin Training in India 2026 | Certification & Placement",
+  "path": "salesforce-admin-training-india-certification",
+  "description": "Master Salesforce Admin Certification with ICLP Technologies' Best Salesforce Admin Training in India. No coding required. Real-time CRM projects, mock exams, 100% placement support for freshers & career switchers.",
+  "career_benefits": {
+    "heading": "Why <strong>Salesforce Admin Certification</strong> is 2026's Smartest Career Move",
+    "description": "Salesforce powers 150K+ global enterprises. Certified Admins manage CRM for Fortune 500 companies with no coding required.",
+    "points": [
+      "<strong>High Global Demand:</strong> Every Salesforce customer needs 3-5 certified admins",
+      "<strong>India Salaries:</strong> Freshers ₹5-8 LPA | 2+ yrs ₹12-25 LPA | Architects ₹40+ LPA",
+      "<strong>No Coding Required:</strong> Perfect for non-technical freshers & career switchers",
+      "<strong>150K+ Companies:</strong> TCS, Accenture, Deloitte, banks all need Salesforce admins",
+      "<strong>Global Remote Work:</strong> US/UK clients hire Indian Salesforce talent",
+      "<strong>Fast Certification:</strong> 45 days to Admin cert + job-ready skills"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Complete Salesforce Admin Certification Syllabus",
+    "intro": "45-day program covering 100% Salesforce Admin exam blueprint + real corporate CRM projects. Hands-on configuration from scratch."
+  },
+  "track_overview_primary": {
+    "heading": "Core Salesforce Admin Track",
+    "description": "Master essential Admin skills for enterprise CRM management:",
+    "topics": [
+      "<strong>Salesforce Foundation:</strong> Lightning Experience, data model, company setup",
+      "<strong>User Management:</strong> Profiles, permission sets, roles, hierarchies",
+      "<strong>Security Model:</strong> OWD, sharing rules, field-level security",
+      "<strong>Automation:</strong> Flow Builder, Process Builder, Workflow Rules",
+      "<strong>Reports & Dashboards:</strong> Custom reports, joined reports, dynamic dashboards",
+      "<strong>Data Management:</strong> Import wizard, Data Loader, mass delete"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Admin + Certification Track",
+    "description": "Enterprise skills + exam mastery for 100% certification success:",
+    "topics": [
+      "<strong>Sales Cloud Config:</strong> Lead management, opportunity processes, campaigns",
+      "<strong>Service Cloud Setup:</strong> Case management, entitlement processes, SLAs",
+      "<strong>App Customization:</strong> Custom objects, page layouts, record types",
+      "<strong>Exam Mastery:</strong> 60+ mock questions, scenario-based practice",
+      "<strong>Real Projects:</strong> End-to-end CRM implementation simulation",
+      "<strong>Placement Prep:</strong> TCS/Accenture interview scenarios"
+    ]
+  },
+  "certification_info": {
+    "heading": "Salesforce Certified Administrator Certification",
+    "intro": "100% exam success guarantee with official Salesforce Admin certification prep.",
+    "highlights": [
+      "<strong>Salesforce Admin Certification:</strong> Official Trailhead + exam voucher guidance",
+      "<strong>60+ Mock Exams:</strong> Exact exam pattern + scenario questions",
+      "<strong>Corporate Portfolio:</strong> 5+ enterprise CRM projects for interviews",
+      "<strong>100% Placement Support:</strong> Resume + LinkedIn + MNC referrals",
+      "<strong>Lifetime Access:</strong> Trailhead Superbadge support + updates",
+      "<strong>Interview Guarantee:</strong> Mock technical + HR interviews"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why ICLP for <strong>Best Salesforce Admin Training</strong>?",
+    "intro": "India's #1 Salesforce training with 500+ corporate project experience and 95% placement rate.",
+    "instructor_expertise": {
+      "heading": "Enterprise Salesforce Architects",
+      "description": "Learn from 15+ years experienced architects who implemented CRM for HDFC, ICICI, Reliance across 50+ Fortune 500 clients."
+    },
+    "training_modes": {
+      "heading": "Flexible Salesforce Training Batches",
+      "description": "Perfect for working professionals & freshers:",
+      "options": [
+        "<strong>Live Online Weekends:</strong> Sat-Sun 9 AM-1 PM (recorded)",
+        "<strong>Weekday Evenings:</strong> Mon-Fri 7:30-9:30 PM IST",
+        "<strong>Fast-Track 30 Days:</strong> Full-time immersive certification",
+        "<strong>Corporate Training:</strong> TCS/Accenture employee upskilling"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Salesforce Lightning configuration & customization",
+    "User management, security model, sharing rules",
+    "Flow Builder automation & Process Builder",
+    "Advanced reports, dashboards, forecasting",
+    "Sales Cloud + Service Cloud administration",
+    "Data management & migration strategies",
+    "Salesforce Admin certification mastery"
+  ],
+  "syllabus": [
+    {
+      "module": "Salesforce Foundation & Navigation",
+      "subtopics": [
+        "Salesforce architecture & data model",
+        "Lightning Experience navigation",
+        "Company information & setup",
+        "Standard objects overview"
+      ]
+    },
+    {
+      "module": "User Management & Security",
+      "subtopics": [
+        "Profiles, permission sets, roles",
+        "OWD, role hierarchy, sharing rules",
+        "Field-level security & login security",
+        "Session settings & IP restrictions"
+      ]
+    },
+    {
+      "module": "Data Management & Import",
+      "subtopics": [
+        "Data import wizard & Data Loader",
+        "Data quality & deduplication",
+        "Mass transfer, delete, export",
+        "Backup & recovery strategies"
+      ]
+    },
+    {
+      "module": "Automation Masterclass",
+      "subtopics": [
+        "Flow Builder declarative automation",
+        "Process Builder & Workflow Rules",
+        "Approval processes configuration",
+        "Scheduled & record-triggered flows"
+      ]
+    },
+    {
+      "module": "Sales Cloud Configuration",
+      "subtopics": [
+        "Lead management & conversion",
+        "Opportunity stages & forecasting",
+        "Account & contact management",
+        "Campaign hierarchy & ROI tracking"
+      ]
+    },
+    {
+      "module": "Service Cloud + Reports",
+      "subtopics": [
+        "Case management & escalation",
+        "Entitlements & SLAs configuration",
+        "Custom reports & dashboards",
+        "Report types & joined reports"
+      ]
+    },
+    {
+      "module": "Certification & Placement Prep",
+      "subtopics": [
+        "Admin exam blueprint coverage",
+        "60+ scenario-based practice questions",
+        "TCS/Accenture interview preparation",
+        "Resume building & MNC referrals"
+      ]
+    }
+  ],
+  "duration": "45 Days (100+ Hours) - Weekend/Weekday",
+  "skill_level": "Beginner (No Coding Required)",
+  "image": "/CourseDetails/salesforce-admin-certification-india.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-end CRM implementation",
+    "Enterprise security model design",
+    "Automated lead qualification system",
+    "Sales forecasting dashboard",
+    "Customer service portal configuration"
+  ],
+  "meta_title": "Salesforce Admin Training in India with Placement | ICLP Technologies",
+  "meta_description": "Best Salesforce Admin Training in India - No Coding Required. Live practical sessions, 100% certification success, dedicated MNC placements. Start your ₹5-25 LPA CRM career today!"
+},{
+  "course_name": "Best Salesforce Admin Training in Chennai 2026 | Certification & Placement",
+  "path": "salesforce-admin-training-chennai-certification",
+  "description": "Master Salesforce Admin Certification with ICLP Technologies' Best Salesforce Admin Training in Chennai. No coding required. Real-time CRM projects, mock exams, 100% placement support for Chennai freshers & career switchers.",
+  "career_benefits": {
+    "heading": "Why <strong>Salesforce Admin Certification</strong> is Chennai's Smartest 2026 Career Move",
+    "description": "Salesforce powers 150K+ global enterprises. Certified Admins manage CRM for Chennai MNCs like TCS, Cognizant with no coding needed.",
+    "points": [
+      "<strong>Chennai Job Boom:</strong> 5K+ Salesforce openings in TCS, Cognizant, Zoho, startups",
+      "<strong>Chennai Salaries:</strong> Freshers ₹4-7 LPA | 2+ yrs ₹10-20 LPA | Seniors ₹25+ LPA",
+      "<strong>No Coding Required:</strong> Ideal for Chennai B.Com, BCA freshers & switchers",
+      "<strong>Local MNCs:</strong> TCS, Cognizant, Accenture, Infosys need 100s of admins yearly",
+      "<strong>Remote Global Work:</strong> Chennai talent serves US/UK Salesforce clients",
+      "<strong>Fast Certification:</strong> 45 days to Admin cert + Chennai job-ready"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Complete Salesforce Admin Certification Syllabus - Chennai Edition",
+    "intro": "45-day program: 100% Salesforce Admin exam blueprint + real Chennai IT company CRM projects. Hands-on from scratch."
+  },
+  "track_overview_primary": {
+    "heading": "Core Salesforce Admin Track",
+    "description": "Essential skills for Chennai enterprise CRM roles:",
+    "topics": [
+      "<strong>Salesforce Foundation:</strong> Lightning Experience, data model, company setup",
+      "<strong>User Management:</strong> Profiles, permission sets, roles, hierarchies",
+      "<strong>Security Model:</strong> OWD, sharing rules, field-level security",
+      "<strong>Automation:</strong> Flow Builder, Process Builder, Workflow Rules",
+      "<strong>Reports & Dashboards:</strong> Custom reports, joined reports, dynamic dashboards",
+      "<strong>Data Management:</strong> Import wizard, Data Loader, mass delete"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Admin + Chennai Placement Track",
+    "description": "MNC skills + exam mastery for TCS/Cognizant success:",
+    "topics": [
+      "<strong>Sales Cloud Config:</strong> Lead management, opportunity processes, campaigns",
+      "<strong>Service Cloud Setup:</strong> Case management, entitlement processes, SLAs",
+      "<strong>App Customization:</strong> Custom objects, page layouts, record types",
+      "<strong>Exam Mastery:</strong> 60+ mock questions, scenario-based practice",
+      "<strong>Real Projects:</strong> End-to-end CRM for Chennai banking/IT clients",
+      "<strong>Placement Prep:</strong> TCS/Cognizant/Zoho interview scenarios"
+    ]
+  },
+  "certification_info": {
+    "heading": "Salesforce Certified Administrator Certification",
+    "intro": "100% exam success + Chennai MNC placement guarantee.",
+    "highlights": [
+      "<strong>Salesforce Admin Certification:</strong> Official Trailhead + exam voucher support",
+      "<strong>60+ Mock Exams:</strong> Exact pattern + Chennai MNC scenarios",
+      "<strong>Corporate Portfolio:</strong> 5+ enterprise projects for interviews",
+      "<strong>100% Placement Support:</strong> Chennai-focused resumes + MNC referrals",
+      "<strong>Lifetime Access:</strong> Trailhead Superbadges + course updates",
+      "<strong>Interview Guarantee:</strong> TCS/Cognizant mock technical/HR rounds"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why ICLP for <strong>Best Salesforce Admin Training in Chennai</strong>?",
+    "intro": "Chennai's #1 Salesforce institute: 500+ corporate projects, 95% MNC placement rate.",
+    "instructor_expertise": {
+      "heading": "Chennai Salesforce Architects",
+      "description": "Trainers with 15+ years experience: Implemented CRM for TCS, Cognizant, Zoho, banking clients across Chennai IT corridor."
+    },
+    "training_modes": {
+      "heading": "Chennai Flexible Batches",
+      "description": "Designed for Chennai working pros & students:",
+      "options": [
+        "<strong>Live Online Weekends:</strong> Sat-Sun 9 AM-1 PM (recorded)",
+        "<strong>Weekday Evenings:</strong> Mon-Fri 7:30-9:30 PM IST",
+        "<strong>Chennai Classroom:</strong> OMR/ECR weekend batches",
+        "<strong>Fast-Track 30 Days:</strong> Intensive certification program"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Salesforce Lightning configuration & customization",
+    "User management, security model, sharing rules",
+    "Flow Builder automation & Process Builder",
+    "Advanced reports, dashboards, forecasting",
+    "Sales Cloud + Service Cloud administration",
+    "Data management & migration strategies",
+    "Chennai MNC interview + certification mastery"
+  ],
+  "syllabus": [
+    {
+      "module": "Salesforce Foundation & Navigation",
+      "subtopics": [
+        "Salesforce architecture & data model",
+        "Lightning Experience navigation",
+        "Company information & setup",
+        "Standard objects overview"
+      ]
+    },
+    {
+      "module": "User Management & Security",
+      "subtopics": [
+        "Profiles, permission sets, roles",
+        "OWD, role hierarchy, sharing rules",
+        "Field-level security & login security",
+        "Session settings & IP restrictions"
+      ]
+    },
+    {
+      "module": "Data Management & Import",
+      "subtopics": [
+        "Data import wizard & Data Loader",
+        "Data quality & deduplication",
+        "Mass transfer, delete, export",
+        "Backup & recovery strategies"
+      ]
+    },
+    {
+      "module": "Automation Masterclass",
+      "subtopics": [
+        "Flow Builder declarative automation",
+        "Process Builder & Workflow Rules",
+        "Approval processes configuration",
+        "Scheduled & record-triggered flows"
+      ]
+    },
+    {
+      "module": "Sales Cloud Configuration",
+      "subtopics": [
+        "Lead management & conversion",
+        "Opportunity stages & forecasting",
+        "Account & contact management",
+        "Campaign hierarchy & ROI tracking"
+      ]
+    },
+    {
+      "module": "Service Cloud + Reports",
+      "subtopics": [
+        "Case management & escalation",
+        "Entitlements & SLAs configuration",
+        "Custom reports & dashboards",
+        "Report types & joined reports"
+      ]
+    },
+    {
+      "module": "Certification & Chennai Placement Prep",
+      "subtopics": [
+        "Admin exam blueprint coverage",
+        "60+ scenario-based practice questions",
+        "TCS/Cognizant/Chennai MNC preparation",
+        "Resume building & local referrals"
+      ]
+    }
+  ],
+  "duration": "45 Days (100+ Hours) - Weekend/Weekday/Chennai Classroom",
+  "skill_level": "Beginner (No Coding Required)",
+  "image": "/CourseDetails/salesforce-admin-certification-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "End-to-end CRM implementation",
+    "Chennai banking security model",
+    "Automated lead system for IT services",
+    "Sales forecasting dashboard",
+    "Customer service portal for retail"
+  ],
+  "meta_title": "Salesforce Admin Training in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Best Salesforce Admin Training in Chennai - No Coding. Live projects, 100% certification, MNC placements (TCS/Cognizant). ₹4-20 LPA careers for freshers!"
+},
+    {
       "category_name": "CRM & Enterprise Solutions",
       "path": "crm-enterprise-solutions",
       "sub_categories": [
