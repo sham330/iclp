@@ -235,176 +235,60 @@
 // };
 
 // export default CourseReviewsSlider;
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
 
-const CourseReviewsSlider = ({ courseName = "Java" }) => {
-  const [reviews, setReviews] = useState([]);
-  const [loading, setLoading] = useState(true);
+const defaultReviews = [
+  {
+    id: 1,
+    name: "Aarav Sharma",
+    role: "Software Engineer",
+    review: "Excellent training program! The instructors were knowledgeable and the course content was comprehensive. Highly recommend to anyone looking to advance their career.",
+    stars: 5,
+    date: "March 2024"
+  },
+  {
+    id: 2,
+    name: "Priya Patel",
+    role: "Full Stack Developer",
+    review: "This course transformed my career. The hands-on projects and real-world examples made learning engaging and practical. Worth every penny!",
+    stars: 5,
+    date: "February 2024"
+  },
+  {
+    id: 3,
+    name: "Rahul Kumar",
+    role: "Data Analyst",
+    review: "Outstanding learning experience! The curriculum was well-structured and the support from instructors was exceptional. I landed my dream job after completing this course.",
+    stars: 5,
+    date: "January 2024"
+  }
+];
+
+const CourseReviewsSlider = ({ 
+  reviews, 
+  title = "Student Reviews",
+  averageRating = "4.8/5",
+  totalReviews = "1,000+ learners"
+}) => {
+  const displayReviews = reviews && reviews.length > 0 ? reviews : defaultReviews;
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const indianNames = [
-    "Aarav Sharma",
-    "Aanya Patel",
-    "Advait Joshi",
-    "Ananya Gupta",
-    "Arjun Singh",
-    "Diya Reddy",
-    "Ishaan Kumar",
-    "Kavya Mishra",
-    "Reyansh Choudhary",
-    "Saanvi Desai",
-    "Vihaan Malhotra",
-    "Anika Agarwal",
-    "Dhruv Saxena",
-    "Ira Chatterjee",
-    "Kabir Khanna",
-    "Myra Bajaj",
-    "Pranav Mehra",
-    "Riya Kapoor",
-    "Shaurya Nair",
-    "Tara Srinivasan",
-  ];
-
-  const getRoles = (course) => {
-    const roles = {
-      Java: [
-        "Java Developer",
-        "Backend Engineer",
-        "Full Stack Developer",
-        "Spring Boot Developer",
-        "Software Engineer",
-      ],
-      Python: [
-        "Data Scientist",
-        "Python Developer",
-        "ML Engineer",
-        "Data Analyst",
-        "Automation Engineer",
-      ],
-      SAP: [
-        "SAP Consultant",
-        "SAP Analyst",
-        "SAP Developer",
-        "SAP Administrator",
-        "SAP Functional Consultant",
-      ],
-      "Data Science": [
-        "Data Scientist",
-        "ML Engineer",
-        "AI Researcher",
-        "Data Analyst",
-        "Business Analyst",
-      ],
-      default: [
-        "Software Engineer",
-        "IT Consultant",
-        "System Analyst",
-        "Developer",
-        "Tech Lead",
-      ],
-    };
-    return roles[course] || roles["default"];
-  };
-
-  const generateReviews = (course) => {
-    const courseReviews = [];
-    const roles = getRoles(course);
-    const months = ["January", "February", "March", "April", "May", "June"];
-    const currentYear = new Date().getFullYear();
-    const companies = ["TCS", "Infosys", "Wipro", "Accenture", "Cognizant"];
-    const techCompanies = ["Amazon", "Google", "Microsoft", "Flipkart", "Paytm"];
-
-    const templates = {
-      Java: [
-        `The ${course} course helped me master Spring Boot and microservices. Got a significant salary hike!`,
-        `Excellent coverage of Java features. The projects were challenging but rewarding.`,
-        `After this course, I landed a job at ${companies[Math.floor(Math.random() * companies.length)]}.`,
-        `Perfect balance of theory and practical exercises. Completed multiple real-world projects.`,
-        `The training prepared me well for my role at ${techCompanies[Math.floor(Math.random() * techCompanies.length)]}.`,
-      ],
-      Python: [
-        `The ${course} course helped me automate most of my daily tasks at work.`,
-        `Learned essential Python frameworks from scratch. Now using them daily in my role.`,
-        `The projects were excellent preparation for my current job.`,
-        `After completing this course, I secured multiple freelance projects.`,
-        `The modules were game-changers for my career advancement.`,
-      ],
-      default: [
-        `This ${course} course gave me the skills to transition into my current role.`,
-        `After completing the projects, I received a substantial salary increase.`,
-        `The training was exactly what I needed for my career growth.`,
-        `Now working at a leading tech company thanks to this course.`,
-        `The certification helped me stand out in job interviews.`,
-      ],
-    };
-
-    const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-
-    for (let i = 0; i < 10; i++) {
-      const name = indianNames[rand(0, indianNames.length - 1)];
-      const role = roles[rand(0, roles.length - 1)];
-      const month = months[rand(0, months.length - 1)];
-      const templateList = templates[course] || templates["default"];
-      const reviewText = templateList[rand(0, templateList.length - 1)];
-
-      courseReviews.push({
-        id: i + 1,
-        name,
-        role,
-        review: reviewText,
-        stars: rand(4, 5),
-        date: `${month} ${currentYear}`,
-      });
-    }
-
-    return courseReviews;
-  };
-
-  useEffect(() => {
-    setLoading(true);
-    const generatedReviews = generateReviews(courseName);
-    setReviews(generatedReviews);
-    setLoading(false);
-  }, [courseName]);
-
-  const reviewHighlights = {
-    Java: "4.9/5 (1,200+ learners)",
-    Python: "4.8/5 (950+ learners)",
-    SAP: "4.7/5 (800+ learners)",
-    "Data Science": "4.9/5 (1,100+ learners)",
-    default: "4.8/5 (1,000+ learners)",
-  };
-
-  const courseHighlight = reviewHighlights[courseName] || reviewHighlights["default"];
-
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % reviews.length);
+    setCurrentIndex((prev) => (prev + 1) % displayReviews.length);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + reviews.length) % reviews.length);
+    setCurrentIndex((prev) => (prev - 1 + displayReviews.length) % displayReviews.length);
   };
 
   const getVisibleReviews = () => {
     const visible = [];
     for (let i = 0; i < 3; i++) {
-      visible.push(reviews[(currentIndex + i) % reviews.length]);
+      visible.push(displayReviews[(currentIndex + i) % displayReviews.length]);
     }
     return visible;
   };
-
-  if (loading) {
-    return (
-      <section className="bg-gradient-to-br from-blue-50 to-white py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-blue-900">Loading Reviews...</h2>
-          </div>
-        </div>
-      </section>
-    );
-  }
 
   return (
     <section className="bg-gradient-to-br from-blue-50 to-white py-12 sm:py-16 px-4">
@@ -412,10 +296,11 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 mb-3">
-           <span className="text-blue-600">Reviews</span>
+            {title}
           </h2>
           <p className="text-base sm:text-lg text-gray-600">
-            Average rating: <strong className="text-blue-700">{courseHighlight}</strong>
+            Average rating: <strong className="text-blue-700">{averageRating}</strong>
+            <span className="text-gray-500 ml-2">({totalReviews})</span>
           </p>
         </div>
 
@@ -424,7 +309,7 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
           <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-blue-600">
             <Quote className="w-10 h-10 text-blue-200 mb-4" />
             <p className="text-gray-700 text-base mb-6 leading-relaxed">
-              {reviews[currentIndex]?.review}
+              {displayReviews[currentIndex]?.review}
             </p>
             
             <div className="flex items-center gap-2 mb-6">
@@ -432,30 +317,30 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
                 <Star
                   key={i}
                   className={`w-5 h-5 ${
-                    i < reviews[currentIndex]?.stars
+                    i < displayReviews[currentIndex]?.stars
                       ? "fill-yellow-400 text-yellow-400"
                       : "text-gray-300"
                   }`}
                 />
               ))}
               <span className="text-sm font-semibold text-gray-700 ml-1">
-                {reviews[currentIndex]?.stars}.0
+                {displayReviews[currentIndex]?.stars}.0
               </span>
             </div>
 
             <div className="flex items-center gap-3 pt-6 border-t border-gray-100">
               <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold flex-shrink-0">
-                {reviews[currentIndex]?.name.charAt(0)}
+                {displayReviews[currentIndex]?.name.charAt(0)}
               </div>
               <div className="flex-1 min-w-0">
                 <h4 className="font-semibold text-gray-900 truncate">
-                  {reviews[currentIndex]?.name}
+                  {displayReviews[currentIndex]?.name}
                 </h4>
                 <p className="text-sm text-blue-600 truncate">
-                  {reviews[currentIndex]?.role}
+                  {displayReviews[currentIndex]?.role}
                 </p>
                 <p className="text-xs text-gray-500">
-                  {reviews[currentIndex]?.date}
+                  {displayReviews[currentIndex]?.date}
                 </p>
               </div>
             </div>
@@ -471,7 +356,7 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
               <ChevronLeft className="w-5 h-5" />
             </button>
             <span className="text-sm text-gray-600 font-medium">
-              {currentIndex + 1} / {reviews.length}
+              {currentIndex + 1} / {displayReviews.length}
             </span>
             <button
               onClick={nextSlide}
@@ -550,7 +435,7 @@ const CourseReviewsSlider = ({ courseName = "Java" }) => {
 
           {/* Dots Indicator */}
           <div className="flex justify-center gap-2 mt-8">
-            {reviews.map((_, idx) => (
+            {displayReviews.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}

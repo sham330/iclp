@@ -867,7 +867,11 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
 
       {/* Dynamic Components - Lazy Loaded */}
       <CourseAdvantagesTools />
-      <CourseReviews />
+      <CourseReviews 
+        title={`${course.course_name} Reviews`}
+        averageRating="4.9/5"
+        totalReviews="1,200+ learners"
+      />
       <RelatedCoursesSlider />
 
       {/* Modal */}

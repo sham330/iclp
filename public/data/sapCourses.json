@@ -2594,7 +2594,7 @@
         {
           "course_name": "SAP ABAP",
           "path": "sap-abap",
-          "meta_title": "SAP ABAP Course Online | SAP ABAP Training | SAP ABAP Certificate",
+          "meta_title": "SAP ABAP Course Online – Certification & Placement | ICLP Tech",
           "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
           "description": "Learn SAP ABAP programming language for custom development and enhancements.",
           "curriculum_overview": {
@@ -2703,7 +2703,32 @@
                 "Interfaces and Inheritance"
               ]
             }
-          ]
+          ],  "reviews": [
+    {
+      "id": 1,
+      "name": "Rajesh Kumar",
+      "role": "ABAP Developer",
+      "review": "The SAP ABAP training was exceptional! The hands-on approach and real-world projects helped me secure a position at TCS. The instructors were knowledgeable and always available for doubt clarification.",
+      "stars": 5,
+      "date": "March 2024"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "role": "SAP Technical Consultant",
+      "review": "Best ABAP course I've taken! The curriculum covered everything from basics to advanced OOP concepts. The live SAP system access made all the difference in my learning experience.",
+      "stars": 5,
+      "date": "February 2024"
+    },
+    {
+      "id": 3,
+      "name": "Amit Patel",
+      "role": "Senior ABAP Developer",
+      "review": "Outstanding training program! The focus on enhancement frameworks and BADIs was particularly valuable. I got placed at Infosys within 2 weeks of completing the course.",
+      "stars": 5,
+      "date": "January 2024"
+    }
+  ]
         },
         {
           "course_name": "SAP Business Technology Platform (BTP)",
