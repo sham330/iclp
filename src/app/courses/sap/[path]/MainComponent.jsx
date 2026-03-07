@@ -22,6 +22,10 @@ const CourseAdvantagesTools = dynamic(() => import("@/app/components/CourseAdvan
   loading: () => <div className="h-64 bg-slate-50" />
 });
 
+const CourseFAQ = dynamic(() => import("@/app/components/CourseFAQ/CourseFAQ"), {
+  loading: () => <div className="h-64 bg-slate-50" />
+});
+
 const SapCourseDetailsPage = ({ getcourse, path }) => {
   const [course, setCourse] = useState(getcourse);
   console.log(getcourse); // ✅ Show skeleton immediately
@@ -868,10 +872,12 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
       {/* Dynamic Components - Lazy Loaded */}
       <CourseAdvantagesTools />
       <CourseReviews 
+        reviews={course.reviews}
         title={`${course.course_name} Reviews`}
         averageRating="4.9/5"
         totalReviews="1,200+ learners"
       />
+      <CourseFAQ faqs={course.faqs} />
       <RelatedCoursesSlider />
 
       {/* Modal */}

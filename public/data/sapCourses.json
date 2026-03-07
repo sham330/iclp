@@ -2728,7 +2728,73 @@
       "stars": 5,
       "date": "January 2024"
     }
-  ]
+  ],"faqs": [
+  {
+    "question": "What is SAP ABAP and why is it used?",
+    "answer": "SAP ABAP (Advanced Business Application Programming) is a programming language used to develop and customize applications within SAP ERP systems. It is mainly used for reports, enhancements, interfaces, and enterprise application development."
+  },
+  {
+    "question": "Is SAP ABAP a good career choice in 2026?",
+    "answer": "Yes. SAP ABAP developers are in high demand, especially with companies migrating to SAP S/4HANA. Skilled professionals continue to have strong job opportunities and long-term career growth."
+  },
+  {
+    "question": "Who can enroll in this SAP ABAP course online?",
+    "answer": "This SAP ABAP online course is suitable for fresh graduates, IT professionals, working professionals, and anyone interested in SAP development. No prior SAP experience is required."
+  },
+  {
+    "question": "What are the prerequisites for learning SAP ABAP?",
+    "answer": "There are no strict prerequisites. Basic programming knowledge is helpful but not mandatory. The training starts from fundamentals and gradually moves to advanced SAP ABAP concepts."
+  },
+  {
+    "question": "Is SAP ABAP difficult to learn for beginners?",
+    "answer": "SAP ABAP is beginner-friendly when taught with proper guidance. With structured training, practical exercises, and real-time projects, beginners can confidently learn SAP ABAP programming."
+  },
+  {
+    "question": "What is the duration of the SAP ABAP training?",
+    "answer": "The SAP ABAP training includes 40+ hours of instructor-led sessions along with practical assignments and real-time project exposure."
+  },
+  {
+    "question": "Does this SAP ABAP course include real-time projects?",
+    "answer": "Yes. The course includes hands-on real-time projects that simulate industry scenarios, helping learners gain practical SAP ABAP development experience."
+  },
+  {
+    "question": "Will I receive certification after completing the SAP ABAP course?",
+    "answer": "Yes. You will receive an industry-recognized course completion certificate. The training also prepares you for official SAP ABAP certification exams."
+  },
+  {
+    "question": "Does the SAP ABAP training include placement assistance?",
+    "answer": "Yes. The program includes placement support, resume building, interview preparation, and career mentoring to help learners secure SAP ABAP developer roles."
+  },
+  {
+    "question": "What job roles can I apply for after completing SAP ABAP training?",
+    "answer": "After completing the course, you can apply for roles such as: SAP ABAP Developer, SAP Technical Consultant, SAP Support Consultant, and SAP S/4HANA ABAP Developer."
+  },
+  {
+    "question": "What is the salary of an SAP ABAP developer in India?",
+    "answer": "SAP ABAP developers in India earn competitive entry-level salaries, with significant growth based on experience, certification, and expertise in SAP S/4HANA environments."
+  },
+  {
+    "question": "Is this SAP ABAP course instructor-led or self-paced?",
+    "answer": "This is a live instructor-led SAP ABAP online training program with interactive sessions, mentor guidance, and lifetime access to learning materials."
+  },
+  {
+    "question": "What tools are covered in the SAP ABAP course?",
+    "answer": "The course covers SAP GUI, SAP NetWeaver, SAP HANA, SAP Fiori, Eclipse with ABAP tools, SAP Gateway, and other essential SAP development tools."
+  },
+  {
+    "question": "What is the difference between SAP ABAP and SAP S/4HANA ABAP?",
+    "answer": "SAP ABAP is the core programming language used in SAP systems. SAP S/4HANA ABAP includes advanced development features optimized specifically for the S/4HANA platform."
+  },
+  {
+    "question": "Can freshers get a job after learning SAP ABAP?",
+    "answer": "Yes. With hands-on training, real-time projects, and interview preparation support, freshers can apply for entry-level SAP ABAP developer positions."
+  },
+  {
+    "question": "How do I enroll in the SAP ABAP course?",
+    "answer": "You can enroll by contacting the training team, booking a free consultation, or registering online before the next batch begins."
+  }
+]
+
         },
         {
           "course_name": "SAP Business Technology Platform (BTP)",
