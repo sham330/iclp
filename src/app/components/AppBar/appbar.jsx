@@ -20,6 +20,7 @@ const AppBar = () => {
   const [activeSuggestion, setActiveSuggestion] = useState(-1);
   const searchInputRef = useRef(null);
   const suggestionsRef = useRef(null);
+  const debounceTimerRef = useRef(null);
 
   const socialLinks = {
     instagram:
@@ -269,23 +270,42 @@ const AppBar = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
 
+  const normalizeText = (text) => {
+    return text.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+  };
+
+  const calculateMatchScore = (courseName, searchQuery) => {
+    const normalizedCourse = normalizeText(courseName);
+    const normalizedQuery = normalizeText(searchQuery);
+    const courseWords = normalizedCourse.split(' ');
+    const queryWords = normalizedQuery.split(' ');
+
+    if (normalizedCourse === normalizedQuery) return 1000;
+    if (normalizedCourse.startsWith(normalizedQuery)) return 900;
+    if (courseWords.some(word => word === normalizedQuery)) return 800;
+    if (courseWords.some(word => word.startsWith(normalizedQuery))) return 700;
+    
+    const matchingWords = queryWords.filter(qWord => 
+      courseWords.some(cWord => cWord.includes(qWord))
+    ).length;
+    if (matchingWords > 0) return 600 + (matchingWords * 50);
+    
+    if (normalizedCourse.includes(normalizedQuery)) return 500;
+    
+    return 0;
+  };
+
   const findBestMatch = (input) => {
-    const exactMatch = allCourses.find(
-      (course) => course.name.toLowerCase() === input.toLowerCase(),
-    );
-    if (exactMatch) return exactMatch;
+    const normalizedInput = normalizeText(input);
+    const scoredCourses = allCourses
+      .map(course => ({
+        course,
+        score: calculateMatchScore(course.name, normalizedInput)
+      }))
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score);
 
-    const partialMatches = allCourses.filter((course) =>
-      course.name.toLowerCase().includes(input.toLowerCase()),
-    );
-    if (partialMatches.length > 0) return partialMatches[0];
-
-    const fuzzyMatches = allCourses.filter((course) =>
-      course.name.toLowerCase().startsWith(input.toLowerCase().charAt(0)),
-    );
-    if (fuzzyMatches.length > 0) return fuzzyMatches[0];
-
-    return null;
+    return scoredCourses.length > 0 ? scoredCourses[0].course : null;
   };
 
   const navigateToCourse = (course) => {
@@ -332,14 +352,28 @@ const AppBar = () => {
   const handleInputChange = (e) => {
     const value = e.target.value;
     setSearchTerm(value);
-    setActiveSuggestion(-1); // Reset active suggestion when typing
+    setActiveSuggestion(-1);
 
-    if (value.length > 0) {
-      const filtered = allCourses.filter((course) =>
-        course.name.toLowerCase().includes(value.toLowerCase()),
-      );
-      setSuggestions(filtered);
-      setShowSuggestions(true);
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+
+    if (value.trim().length > 0) {
+      debounceTimerRef.current = setTimeout(() => {
+        const normalizedInput = normalizeText(value);
+        const scoredResults = allCourses
+          .map(course => ({
+            course,
+            score: calculateMatchScore(course.name, normalizedInput)
+          }))
+          .filter(item => item.score > 0)
+          .sort((a, b) => b.score - a.score)
+          .slice(0, 10)
+          .map(item => item.course);
+
+        setSuggestions(scoredResults);
+        setShowSuggestions(scoredResults.length > 0);
+      }, 150);
     } else {
       setSuggestions([]);
       setShowSuggestions(false);
