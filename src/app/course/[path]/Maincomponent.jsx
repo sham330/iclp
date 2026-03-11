@@ -793,7 +793,19 @@ const CourseDetails = () => {
       </section>
 
 
-      <CourseReviews />
+      {course.reviews && course.reviews.length > 0 && (
+        <CourseReviews 
+          reviews={course.reviews}
+          title={`${course.course_name} Reviews`}
+          averageRating="4.9/5"
+          totalReviews="1,200+ learners"
+        />
+      )}
+
+      {course.faqs && course.faqs.length > 0 && (
+        <CourseFAQs faqs={course.faqs} />
+      )}
+
 <UpgradeCareer/>
 
       {/* CTA Section - Reduced padding */}

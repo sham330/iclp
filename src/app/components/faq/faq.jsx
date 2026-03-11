@@ -2,50 +2,14 @@
 import React, { useState, useEffect } from "react";
 import "./faq.css";
 
-const CourseFAQs = ({ courseName }) => {
-  const [faqs, setFaqs] = useState([]);
-  const [activeIndex, setActiveIndex] = useState(null);
-  const [loading, setLoading] = useState(true);
+const CourseFAQs = ({ faqs, courseName }) => {
+  const [activeFAQ, setActiveFAQ] = useState(null);
 
-  useEffect(() => {
-    const fetchFAQs = async () => {
-      try {
-        // Simulate API call
-        await new Promise((resolve) => setTimeout(resolve, 800));
-        const response = await fetch("/data/faq.json");
-        const data = await response.json();
-        
-        // Find course by exact name match first, then fallback to case-insensitive
-        let courseData = data.courses.find(
-          (course) => course.name === courseName
-        );
-        
-        // If no exact match, try case-insensitive matching
-        if (!courseData) {
-          courseData = data.courses.find(
-            (course) => course.name.toLowerCase() === courseName.toLowerCase()
-          );
-        }
-        
-        console.log("Looking for course:", courseName);
-        console.log("Available courses:", data.courses.map(c => c.name));
-        console.log("Found course data:", courseData);
-        
-        setFaqs(courseData?.faqs || []);
-      } catch (error) {
-        console.error("Error loading FAQs:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (courseName) {
-      fetchFAQs();
-    }
-  }, [courseName]);
+  // Use provided faqs or empty array
+  const faqList = faqs || [];
 
   const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setActiveFAQ(activeFAQ === index ? null : index);
   };
 
   // SVG Illustrations with matching color scheme
@@ -138,89 +102,10 @@ const CourseFAQs = ({ courseName }) => {
     </svg>
   );
 
-  // Show loading state if courseName is not provided
-  if (!courseName) {
-    return (
-      <div className="faq-empty-state">
-        <div className="faq-empty-illustration">
-          <NoFAQsIllustration />
-        </div>
-        <h3 className="faq-empty-title">Course Name Not Provided</h3>
-        <p className="faq-empty-message">
-          Unable to load FAQs without course information.
-        </p>
-      </div>
-    );
+  // Show empty state if no FAQs provided
+  if (!faqList || faqList.length === 0) {
+    return null; // Don't render anything if no FAQs
   }
-
-  if (loading)
-    return (
-      <div className="faq-loading-container">
-        <div className="faq-loading-spinner">
-          <div
-            className="faq-spinner-track"
-            style={{ "--color": "#1a2a6c" }}
-          ></div>
-          <div className="faq-spinner-path" style={{ "--color": "#1FAA59" }}>
-            <svg viewBox="0 0 50 50">
-              <path
-                d="M25,5 A20,20 0 0,1 45,25 A20,20 0 0,1 25,45 A20,20 0 0,1 5,25 A20,20 0 0,1 25,5 Z"
-                stroke="var(--color)"
-                strokeWidth="3"
-                fill="none"
-                strokeLinecap="round"
-              >
-                <animateTransform
-                  attributeName="transform"
-                  type="rotate"
-                  from="0 25 25"
-                  to="360 25 25"
-                  dur="1.5s"
-                  repeatCount="indefinite"
-                />
-              </path>
-            </svg>
-          </div>
-        </div>
-        <p className="faq-loading-text">Loading {courseName} FAQs...</p>
-      </div>
-    );
-
-  if (!faqs.length)
-    return (
-      <div className="faq-empty-state">
-        <div className="faq-empty-illustration">
-          <NoFAQsIllustration />
-        </div>
-        <h3 className="faq-empty-title">No FAQs Available Yet</h3>
-        <p className="faq-empty-message">
-          We're currently preparing the best content for this course. Check back
-          soon!
-        </p>
-        <button
-          className="faq-empty-button"
-          style={{ "--color": "#1a2a6c", "--hover": "#1FAA59" }}
-          onClick={() => window.location.reload()}
-        >
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.536 4 7.33243 5.11429 5.86404 6.86404M5.86404 6.86404V3M5.86404 6.86404H2M5.86404 6.86404H9.37868"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          Refresh Page
-        </button>
-      </div>
-    );
 
   return (
     <div className="faq-container">
@@ -240,7 +125,7 @@ const CourseFAQs = ({ courseName }) => {
       <div className="faq-header">
         <div className="faq-header-content">
           <h1 className="faq-main-title">
-            <span className="faq-title-highlight">{courseName}</span> FAQs
+            <span className="faq-title-highlight">{courseName || "Course"}</span> FAQs
           </h1>
           <p className="faq-subtitle">
             Find answers to common questions about this course
@@ -253,15 +138,15 @@ const CourseFAQs = ({ courseName }) => {
 
       {/* FAQ Accordion */}
       <div className="faq-accordion">
-        {faqs.map((faq, index) => (
+        {faqList.map((faq, index) => (
           <div
-            className={`faq-item ${activeIndex === index ? "active" : ""}`}
+            className={`faq-item ${activeFAQ === index ? "active" : ""}`}
             key={index}
           >
             <button
               className="faq-question"
               onClick={() => toggleFAQ(index)}
-              aria-expanded={activeIndex === index}
+              aria-expanded={activeFAQ === index}
             >
               <span className="faq-question-number">Q{index + 1}</span>
               <span className="faq-question-text">{faq.question}</span>

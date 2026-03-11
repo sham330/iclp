@@ -108,6 +108,7 @@ const AppBar = () => {
       { name: "DevOps", path: "devops-training" },
       { name: "Workday Integration Training", path: "workday-integration-training", },
       { name: "Workday Payroll Training", path: "workday-payroll-training", },
+      {name:"Pega",path: "pega-online-training"},
       {
         name: "Primavera P6", path: "primavera-p6-online-training",
       },

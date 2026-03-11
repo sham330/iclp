@@ -20939,6 +20939,390 @@
   "meta_title": "Best Digital Marketing Course Online with Placement Assistance | ICLP Technologies",
   "meta_description": "Join the best Digital Marketing Online Training in Chennai with SEO, Google Ads & Social Media. 100% practical learning with certification and placement support."
 },{
+  "course_name": "Pega Training in Chennai",
+  "path": "pega-training-in-chennai",
+  "description": "Join the best Pega Training in Chennai at ICLP Technologies with live instructor-led sessions covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps. 100% practical learning with real-time projects, certification guidance, and placement support for students, professionals, and entrepreneurs.",
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Pega Training</strong> in Chennai",
+    "description": "The growing IT sector in Chennai demands skilled Pega professionals. Build a high-demand career with remote flexibility, consulting opportunities, and roles in top MNCs, banks, insurance firms, and healthcare companies.",
+    "points": [
+      "<strong>High Industry Demand:</strong> Multinational companies and IT enterprises actively hiring Pega developers and system architects",
+      "<strong>Attractive Salaries:</strong> Freshers earn ₹3.5-6 LPA; experienced pros ₹8-18+ LPA, consultants even higher",
+      "<strong>Low-Code Advantage:</strong> Build enterprise applications faster with minimal coding using Pega's visual development tools",
+      "<strong>Global Career Opportunities:</strong> Pega skills recognized worldwide across banking, healthcare, and telecommunications industries",
+      "<strong>Entry-Level Friendly:</strong> Beginners can start learning Pega with proper training and hands-on guidance",
+      "<strong>Diverse Job Roles:</strong> Work as Pega Developer, System Architect, Business Architect, Consultant, or Application Developer"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive Pega Training Curriculum",
+    "intro": "Our 4-8 week program delivers 100% practical, industry-focused training with live instructor-led sessions, real-time projects, case management implementation, BPM automation, and certification preparation support."
+  },
+  "track_overview_primary": {
+    "heading": "Core Pega Development Track",
+    "description": "Master essential Pega skills with hands-on practice:",
+    "topics": [
+      "<strong>Introduction to Pega Platform:</strong> Architecture, key concepts, and terminology",
+      "<strong>Pega Application Development:</strong> Building, designing, and developing enterprise applications",
+      "<strong>Case Management:</strong> Creating case types, managing cases and case lifecycles",
+      "<strong>Business Process Management (BPM):</strong> Process modeling, automation, and workflow design",
+      "<strong>Rule-Based Development:</strong> Decision rules, strategies, data transforms and data pages",
+      "<strong>UI/UX Development:</strong> Harnesses, sections, UI rules and interface customization"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Integration, Analytics & DevOps Track",
+    "description": "Apply Pega skills to real-world enterprise scenarios and get job-ready:",
+    "topics": [
+      "<strong>Integration & Data Modeling:</strong> Connectors, services, and database integration with external systems",
+      "<strong>Reporting & Analytics:</strong> Dashboards, report definition rules, and data analytics in Pega",
+      "<strong>Security & Access Control:</strong> Access control policies, authentication, and authorization",
+      "<strong>Deployment & DevOps:</strong> Application packaging, version control, testing and debugging",
+      "<strong>Resume & Interview Prep:</strong> Portfolio building, mock interviews, and Pega certification guidance",
+      "<strong>Placement Support:</strong> Job referrals in Chennai IT firms, MNCs, and BFSI companies"
+    ]
+  },
+  "certification_info": {
+    "heading": "Pega Certification & Recognition",
+    "intro": "Receive a course completion certificate plus guidance for globally recognized Pega certifications to boost your job prospects in the IT industry.",
+    "highlights": [
+      "<strong>Course Completion Certificate:</strong> Validates hands-on training and real-time project work",
+      "<strong>Pega CSA Guidance:</strong> Prep for the Certified System Architect (CSA) exam",
+      "<strong>Pega CSSA & CLSA Support:</strong> Guidance for Certified Senior and Lead System Architect certifications",
+      "<strong>Project Portfolio:</strong> Showcase live Pega applications and BPM workflows to employers",
+      "<strong>Placement Assistance:</strong> Resume building, interview support, and job referrals",
+      "<strong>Flexible Learning:</strong> Live online classes with recordings and lifetime support"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Pega Training in Chennai?",
+    "intro": "ICLP Technologies is committed to providing industry-relevant Pega training with experienced trainers, practical project-based learning, certification preparation support, and dedicated career guidance.",
+    "instructor_expertise": {
+      "heading": "Experienced Industry Trainers",
+      "description": "Learn from Pega-certified professionals with real-world experience in BPM, workflow automation, and enterprise application development for global clients. Get personalized guidance and doubt-clearing sessions."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Tailored for Chennai students and IT professionals at all levels:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Real-time sessions with Q&A, screen sharing, and hands-on labs",
+        "<strong>Real-Time Projects:</strong> Hands-on case management, BPM automation, and Pega app development",
+        "<strong>Flexible Batch Timings:</strong> Fits working professionals, fresh graduates, and beginners",
+        "<strong>Recorded Access:</strong> Review sessions anytime with lifetime doubt-clearing support"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Pega Platform Architecture & Core Concepts",
+    "Pega Application Development & UI/UX Design",
+    "Case Management & Case Lifecycle",
+    "Business Process Management (BPM) & Workflow Automation",
+    "Rule-Based Development (Decision Rules, Data Transforms)",
+    "Integration, Data Modeling & Connectors",
+    "Reporting, Analytics, Security & DevOps"
+  ],
+  "who_can_learn": [
+    "Fresh graduates who want to start a career in IT",
+    "Software developers who want to learn automation technologies",
+    "Business analysts and system architects",
+    "Professionals interested in workflow automation and enterprise applications"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Pega",
+      "subtopics": [
+        "Overview of Pega Platform",
+        "Pega architecture",
+        "Key concepts and terminology"
+      ]
+    },
+    {
+      "module": "Pega Application Development",
+      "subtopics": [
+        "Building applications using Pega",
+        "Application design and development",
+        "User interface design"
+      ]
+    },
+    {
+      "module": "Case Management",
+      "subtopics": [
+        "Introduction to case management",
+        "Creating case types",
+        "Managing cases and case lifecycles"
+      ]
+    },
+    {
+      "module": "Business Process Management (BPM)",
+      "subtopics": [
+        "BPM fundamentals",
+        "Process modeling and automation",
+        "Workflow design in Pega"
+      ]
+    },
+    {
+      "module": "Rule-Based Development",
+      "subtopics": [
+        "Working with Pega rules",
+        "Decision rules and strategies",
+        "Data transforms and data pages"
+      ]
+    },
+    {
+      "module": "User Experience (UI/UX) Development",
+      "subtopics": [
+        "Designing and customizing user interfaces",
+        "Harnesses and sections",
+        "UI rules and best practices"
+      ]
+    },
+    {
+      "module": "Integration and Data Modeling",
+      "subtopics": [
+        "Integrating Pega applications with other systems",
+        "Data modeling and database integration",
+        "Connectors and services"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Building reports and dashboards",
+        "Report definition rules",
+        "Data analytics in Pega"
+      ]
+    },
+    {
+      "module": "Security and Access Control",
+      "subtopics": [
+        "Implementing security in Pega applications",
+        "Access control policies",
+        "Authentication and authorization"
+      ]
+    },
+    {
+      "module": "Deployment and DevOps",
+      "subtopics": [
+        "Application packaging and deployment",
+        "Version control and DevOps best practices",
+        "Testing and debugging in Pega"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Pega used for?",
+      "answer": "Pega is used for business process automation, workflow management, and enterprise application development."
+    },
+    {
+      "question": "Is Pega a good career option?",
+      "answer": "Yes, Pega is widely used by large organizations and offers excellent career opportunities in the IT industry."
+    },
+    {
+      "question": "How long does Pega training take?",
+      "answer": "Most training programs take between 4 to 8 weeks depending on the course structure."
+    },
+    {
+      "question": "Can beginners learn Pega?",
+      "answer": "Yes, beginners can learn Pega with proper training and hands-on practice."
+    },
+    {
+      "question": "Are there job opportunities after Pega training?",
+      "answer": "Yes, many companies hire Pega developers and system architects for enterprise automation projects."
+    }
+  ],
+  "duration": "4-8 Weeks (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (No Strict Prerequisites)",
+  "image": "/CourseDetails/pega-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Pega Case Management Application",
+    "BPM Workflow Automation Project",
+    "Enterprise Application with UI/UX Customization",
+    "Integration with External Systems using Connectors",
+    "Reporting Dashboard & Analytics Implementation"
+  ],
+  "meta_title": "Pega Training in Chennai – Certification Course with Real-Time Projects | ICLP Technologies",
+  "meta_description": "Join Pega Training in Chennai at ICLP Technologies. Learn Case Management, BPM, Rule-Based Development, UI/UX & DevOps with real-time projects, certification guidance, and placement support."
+},{
+  "course_name": "Pega Online Training",
+  "path": "pega-online-training",
+  "description": "Join the best Pega Online Training with live instructor-led sessions covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Pega Training</strong>",
+    "description": "The growing IT sector demands skilled Pega professionals. Build a high-demand career with remote flexibility, consulting opportunities, and roles in top MNCs, banks, insurance firms, and healthcare companies.",
+    "points": [
+      "<strong>High Demand Across Industries:</strong> IT companies, BFSI sector, and enterprises actively hiring Pega developers and architects",
+      "<strong>Attractive Salaries:</strong> Freshers earn ₹3.5-6 LPA; experienced pros ₹8-18+ LPA, consultants even higher",
+      "<strong>Career Flexibility:</strong> Remote work, freelance consulting, and roles across BFSI, healthcare, and telecom industries",
+      "<strong>Job Security:</strong> Pega is a leading BPM and CRM platform with consistent enterprise adoption worldwide",
+      "<strong>Entry-Level Friendly:</strong> Basic Java or OOP knowledge helpful but not mandatory; structured path to job-ready skills",
+      "<strong>Global Reach:</strong> Pega skills applicable to global MNCs and Fortune 500 companies from anywhere in the world"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive Pega Training Curriculum",
+    "intro": "Our 2-4 month program delivers 100% practical, industry-focused training with live classes, real-time projects, case management implementation, BPM automation, and career-focused strategies."
+  },
+  "track_overview_primary": {
+    "heading": "Core Pega Development Track",
+    "description": "Master essential Pega skills with hands-on practice:",
+    "topics": [
+      "<strong>Introduction to Pega Platform:</strong> Architecture, key concepts, and terminology",
+      "<strong>Pega Application Development:</strong> Building, designing, and developing enterprise applications",
+      "<strong>Case Management:</strong> Creating case types, managing cases and case lifecycles",
+      "<strong>Business Process Management (BPM):</strong> Process modeling, automation, and workflow design",
+      "<strong>Rule-Based Development:</strong> Decision rules, strategies, data transforms and data pages",
+      "<strong>UI/UX Development:</strong> Harnesses, sections, UI rules and interface customization"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Integration, Analytics & DevOps Track",
+    "description": "Apply Pega skills to real-world enterprise scenarios and get job-ready:",
+    "topics": [
+      "<strong>Integration & Data Modeling:</strong> Connectors, services, and database integration with external systems",
+      "<strong>Reporting & Analytics:</strong> Dashboards, report definition rules, and data analytics in Pega",
+      "<strong>Security & Access Control:</strong> Access control policies, authentication, and authorization",
+      "<strong>Deployment & DevOps:</strong> Application packaging, version control, testing and debugging",
+      "<strong>Resume & Interview Prep:</strong> Portfolio building, mock interviews, and Pega certification guidance",
+      "<strong>Placement Support:</strong> Job referrals in top IT firms, MNCs, and BFSI companies"
+    ]
+  },
+  "certification_info": {
+    "heading": "Pega Certification & Recognition",
+    "intro": "Receive a course completion certificate plus guidance for Pega Certified System Architect (CSA) and other official Pega certifications to boost your career prospects.",
+    "highlights": [
+      "<strong>Course Completion Certificate:</strong> Validates hands-on training and real-time project work",
+      "<strong>Pega CSA Certification Guidance:</strong> Prep for Pega Certified System Architect and Senior System Architect exams",
+      "<strong>Project Portfolio:</strong> Showcase live Pega applications and BPM workflows to employers",
+      "<strong>Placement Assistance:</strong> Resume building, interview support, and job referrals",
+      "<strong>Internship Opportunities:</strong> Gain real enterprise and agency experience",
+      "<strong>Flexible Learning:</strong> Live online classes with recordings and lifetime support"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose Our Pega Online Training?",
+    "intro": "Industry-focused online training with experienced Pega-certified trainers, real-time enterprise projects, live application development, updated curriculum aligned with Pega Infinity, and dedicated placement support.",
+    "instructor_expertise": {
+      "heading": "Experienced Industry Trainers",
+      "description": "Learn from Pega-certified professionals with real-world experience in BPM, CRM, and enterprise application development for global clients. Get personalized guidance and doubt-clearing sessions."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Tailored for students and IT professionals at all levels:",
+      "options": [
+        "<strong>Live Interactive Classes:</strong> Real-time sessions with Q&A, screen sharing, and hands-on labs",
+        "<strong>Real-Time Projects:</strong> Hands-on case management, BPM automation, and Pega app development",
+        "<strong>Flexible Batch Timings:</strong> Fits working professionals and freshers",
+        "<strong>Recorded Access:</strong> Review sessions anytime with lifetime doubt-clearing support"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Pega Platform Architecture & Core Concepts",
+    "Pega Application Development & UI/UX Design",
+    "Case Management & Case Lifecycle",
+    "Business Process Management (BPM) & Workflow Automation",
+    "Rule-Based Development (Decision Rules, Data Transforms)",
+    "Integration, Data Modeling & Connectors",
+    "Reporting, Analytics, Security & DevOps"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Pega",
+      "subtopics": [
+        "Overview of Pega Platform",
+        "Pega architecture",
+        "Key concepts and terminology"
+      ]
+    },
+    {
+      "module": "Pega Application Development",
+      "subtopics": [
+        "Building applications using Pega",
+        "Application design and development",
+        "User interface design"
+      ]
+    },
+    {
+      "module": "Case Management",
+      "subtopics": [
+        "Introduction to case management",
+        "Creating case types",
+        "Managing cases and case lifecycles"
+      ]
+    },
+    {
+      "module": "Business Process Management (BPM)",
+      "subtopics": [
+        "BPM fundamentals",
+        "Process modeling and automation",
+        "Workflow design in Pega"
+      ]
+    },
+    {
+      "module": "Rule-Based Development",
+      "subtopics": [
+        "Working with Pega rules",
+        "Decision rules and strategies",
+        "Data transforms and data pages"
+      ]
+    },
+    {
+      "module": "User Experience (UI/UX) Development",
+      "subtopics": [
+        "Designing and customizing user interfaces",
+        "Harnesses and sections",
+        "UI rules and best practices"
+      ]
+    },
+    {
+      "module": "Integration and Data Modeling",
+      "subtopics": [
+        "Integrating Pega applications with other systems",
+        "Data modeling and database integration",
+        "Connectors and services"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "Building reports and dashboards",
+        "Report definition rules",
+        "Data analytics in Pega"
+      ]
+    },
+    {
+      "module": "Security and Access Control",
+      "subtopics": [
+        "Implementing security in Pega applications",
+        "Access control policies",
+        "Authentication and authorization"
+      ]
+    },
+    {
+      "module": "Deployment and DevOps",
+      "subtopics": [
+        "Application packaging and deployment",
+        "Version control and DevOps best practices",
+        "Testing and debugging in Pega"
+      ]
+    }
+  ],
+  "duration": "2-4 Months (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (Basic Programming Knowledge Helpful)",
+  "image": "/CourseDetails/pega-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Pega Case Management Application",
+    "BPM Workflow Automation Project",
+    "Enterprise Application with UI/UX Customization",
+    "Integration with External Systems using Connectors",
+    "Reporting Dashboard & Analytics Implementation"
+  ],
+  "meta_title": "Best Pega Online Training with Placement Assistance | ICLP Technologies",
+  "meta_description": "Join the best Pega Online Training covering Case Management, BPM, Rule-Based Development, UI/UX, Integration & DevOps. 100% practical learning with certification and placement support."
+},{
   "course_name": "Digital Marketing Online Training in Bangalore",
   "path": "digital-marketing-online-training-bangalore",
   "description": "Join the best Digital Marketing Online Training in Bangalore with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs in India's Silicon Valley.",
