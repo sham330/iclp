@@ -28,6 +28,13 @@ export default async function Head({ course }) {
       <meta name="keywords" content={`${course.course_name}, SAP ${course.course_name}, ICLP Tech, SAP training India`} />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={`https://iclptech.in/courses/sap/${course.path}`} />
+
+      {course.schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(course.schema) }}
+        />
+      )}
     </>
   );
 }

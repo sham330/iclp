@@ -20,6 +20,12 @@ export default function Head({ course }) {
          <meta name="keywords" content={`${course.course_name}, ${course.course_name}, ICLP Tech, Course training India`} />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={`https://iclptech.in/course/${course.path}`} />
+       {course.schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(course.schema) }}
+        />
+      )}
     </>
   );
 }

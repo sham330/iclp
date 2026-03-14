@@ -12030,6 +12030,225 @@
         {
           "course_name": "Software Testing Certification Course",
           "path": "software-testing-certification-course",
+          "schema":{
+"@context":"https://schema.org",
+"@graph":[
+
+{
+"@type":"EducationalOrganization",
+"@id":"https://iclptech.in/#organization",
+"name":"ICLP Technologies",
+"url":"https://iclptech.in",
+"logo":"https://iclptech.in/favicon.png",
+"sameAs":[
+"https://www.instagram.com/iclp_technologies",
+"https://facebook.com/iclp-technologies",
+"http://linkedin.com/company/iclp-technologies",
+"https://twitter.com/iclp_tech",
+"https://youtube.com/@iclp_technologies"
+],
+"areaServed":{
+"@type":"Place",
+"name":"Chennai"
+},
+"contactPoint":{
+"@type":"ContactPoint",
+"telephone":"+91-8681026181",
+"contactType":"customer support",
+"areaServed":"IN",
+"availableLanguage":"English"
+}
+},
+
+{
+"@type":"Service",
+"@id":"https://iclptech.in/course/software-testing-certification-course/#software-testing-training-service",
+"name":"Software Testing Training",
+"provider":{
+"@id":"https://iclptech.in/#organization"
+},
+"areaServed":"India",
+"serviceType":"Software Testing Certification Training"
+},
+
+{
+"@type":"Course",
+"@id":"https://iclptech.in/course/software-testing-certification-course/#course",
+"name":"Software Testing Course in Chennai",
+"description":"Instructor-led software testing training covering testing fundamentals, SDLC, STLC, test case design, manual testing techniques, and defect tracking. Includes hands-on training, practical exercises, certification, and placement assistance.",
+"provider":{
+"@id":"https://iclptech.in/#organization"
+},
+"courseMode":"Offline",
+"inLanguage":"English",
+"educationalLevel":"Beginner to Advanced",
+"occupationalCredentialAwarded":"Software Testing Course Completion Certificate",
+"timeRequired":"PT40H",
+"keywords":"Software Testing Course in Chennai, Manual Testing Training, QA Testing Course, Software Testing Certification, Software Testing Training Institute Chennai",
+"about":[
+{
+"@type":"Thing",
+"name":"Software Testing"
+},
+{
+"@type":"Thing",
+"name":"Quality Assurance"
+},
+{
+"@type":"Thing",
+"name":"Manual Testing"
+}
+],
+"audience":{
+"@type":"EducationalAudience",
+"educationalRole":"student"
+},
+"hasCourseInstance":{
+"@type":"CourseInstance",
+"courseMode":"Offline",
+"inLanguage":"English",
+"location":{
+"@type":"Place",
+"name":"Chennai"
+}
+},
+"offers":{
+"@type":"Offer",
+"url":"https://iclptech.in/course/software-testing-certification-course",
+"availability":"https://schema.org/InStock"
+},
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"4.8",
+"ratingCount":"3796"
+}
+},
+
+{
+"@type":"BreadcrumbList",
+"@id":"https://iclptech.in/course/software-testing-certification-course/#breadcrumb",
+"itemListElement":[
+{
+"@type":"ListItem",
+"position":1,
+"name":"Home",
+"item":"https://iclptech.in"
+},
+{
+"@type":"ListItem",
+"position":2,
+"name":"Courses",
+"item":"https://iclptech.in/courses/"
+},
+{
+"@type":"ListItem",
+"position":3,
+"name":"Software Testing Course",
+"item":"https://iclptech.in/course/software-testing-certification-course"
+}
+]
+},
+
+{
+"@type":"FAQPage",
+"@id":"https://iclptech.in/course/software-testing-certification-course/#faq",
+"mainEntity":[
+
+{
+"@type":"Question",
+"name":"What is a Software Testing Course?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"A Software Testing Course teaches how to identify bugs and verify that software works correctly before release. It covers testing concepts, test case creation, defect tracking, and quality assurance practices used in real projects."
+}
+},
+
+{
+"@type":"Question",
+"name":"Who can join a Software Testing Course in Chennai?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Students, fresh graduates, and working professionals can join a Software Testing Course. It is suitable for candidates from IT and non-IT backgrounds who want to start a career in software quality assurance."
+}
+},
+
+{
+"@type":"Question",
+"name":"Do I need coding knowledge to learn Software Testing?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"No. Coding knowledge is not required to start learning software testing. Beginners usually begin with manual testing and later learn automation tools if needed."
+}
+},
+
+{
+"@type":"Question",
+"name":"What topics are covered in a Software Testing Course?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"The course typically covers software testing fundamentals, SDLC, STLC, test case writing, manual testing techniques, defect tracking, and testing tools used in real software projects."
+}
+},
+
+{
+"@type":"Question",
+"name":"How long does it take to complete a Software Testing Course?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Most software testing training programs take between four to eight weeks depending on the course schedule and practical sessions."
+}
+},
+
+{
+"@type":"Question",
+"name":"Is Software Testing a good career option?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Yes. Software testing is an important part of software development and skilled testers are required in IT companies, startups, and product-based organizations."
+}
+},
+
+{
+"@type":"Question",
+"name":"What job roles can I get after completing a Software Testing Course?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"After completing the course, learners can apply for roles such as Software Tester, QA Analyst, Test Engineer, Manual Tester, and Quality Assurance Executive."
+}
+},
+
+{
+"@type":"Question",
+"name":"What is the salary of a Software Tester in Chennai?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Entry-level software testers in Chennai typically earn between ₹3 LPA and ₹6 LPA depending on their skills and project experience."
+}
+},
+
+{
+"@type":"Question",
+"name":"Does the Software Testing Course include practical training?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Yes. Most training programs include hands-on exercises such as writing test cases, identifying defects, and working on real project scenarios."
+}
+},
+
+{
+"@type":"Question",
+"name":"Will I receive a certificate after completing the Software Testing Course?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Yes. After successfully completing the course, learners receive a certification that validates their software testing knowledge and skills."
+}
+}
+
+]
+}
+
+]
+},
           "description": "Learn the core concepts of software testing, testing environments, variables, arrays, strings, operators, conditionals, and loops with hands-on examples.",
           "what_youll_learn": [
             "Fundamentals of software testing and certification",

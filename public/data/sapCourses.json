@@ -2594,6 +2594,264 @@
         {
           "course_name": "SAP ABAP",
           "path": "sap-abap",
+          "schema":{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://iclptech.in/#organization",
+      "name": "ICLP Technologies",
+      "url": "https://iclptech.in",
+      "logo": "https://iclptech.in/favicon.png",
+      "sameAs": [
+        "https://www.instagram.com/iclp_technologies",
+        "https://facebook.com/iclp-technologies",
+        "http://linkedin.com/company/iclp-technologies",
+        "https://twitter.com/iclp_tech",
+        "https://youtube.com/@iclp_technologies"
+      ],
+      "areaServed": {
+        "@type": "Place",
+        "name": "Chennai"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-8681026181",
+        "contactType": "customer support",
+        "areaServed": "IN",
+        "availableLanguage": "English"
+      }
+    },
+
+    {
+      "@type": "Service",
+      "@id": "https://iclptech.in/sap-abap-course/#sap-abap-training-service",
+      "name": "SAP ABAP Training",
+      "provider": {
+        "@id": "https://iclptech.in/#organization"
+      },
+      "areaServed": "India",
+      "serviceType": "Online SAP ABAP Certification Training"
+    },
+
+    {
+      "@type": "Course",
+      "@id": "https://iclptech.in/sap-abap-course/#course",
+      "name": "SAP ABAP Online Course",
+      "description": "Instructor-led SAP ABAP online training covering ABAP fundamentals, data dictionary, modularization, reports, enhancements, and SAP S/4HANA ABAP development. Includes 40+ hours of live training, real-time projects, certification, and placement assistance.",
+      "provider": {
+        "@id": "https://iclptech.in/#organization"
+      },
+      "courseMode": "Online",
+      "inLanguage": "English",
+      "educationalLevel": "Beginner to Advanced",
+      "occupationalCredentialAwarded": "SAP ABAP Course Completion Certificate",
+      "timeRequired": "PT40H",
+      "keywords": "SAP ABAP Online Training, SAP ABAP Course in Chennai, SAP ABAP Certification, SAP S/4HANA ABAP Training, SAP ABAP Developer Course",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "SAP ABAP"
+        },
+        {
+          "@type": "Thing",
+          "name": "SAP S/4HANA"
+        },
+        {
+          "@type": "Thing",
+          "name": "Enterprise Resource Planning"
+        }
+      ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "student"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://iclptech.in/sap-abap-course/"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://iclptech.in/sap-abap-course/",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2065"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iclptech.in/sap-abap-course/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://iclptech.in"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Courses",
+          "item": "https://iclptech.in/courses/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SAP ABAP Course",
+          "item": "https://iclptech.in/sap-abap-course/"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://iclptech.in/sap-abap-course/#faq",
+      "mainEntity": [
+
+        {
+          "@type": "Question",
+          "name": "What is SAP ABAP and why is it used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAP ABAP is a programming language used to develop and customize applications within SAP ERP systems. It is mainly used for reports, enhancements, interfaces, and enterprise application development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is SAP ABAP a good career choice in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. SAP ABAP developers are in high demand, especially with companies migrating to SAP S/4HANA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can enroll in this SAP ABAP course online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fresh graduates, IT professionals, working professionals, and anyone interested in SAP development can enroll. No prior SAP experience is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the prerequisites for learning SAP ABAP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are no strict prerequisites. Basic programming knowledge is helpful but not mandatory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is SAP ABAP difficult to learn for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAP ABAP is beginner-friendly when taught with structured guidance and real-time projects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the duration of the SAP ABAP training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The SAP ABAP training includes 40+ hours of instructor-led sessions along with practical assignments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this SAP ABAP course include real-time projects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The course includes hands-on real-time projects simulating real industry scenarios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I receive certification after completing the SAP ABAP course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Learners receive an industry-recognized course completion certificate and preparation support for official SAP exams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the SAP ABAP training include placement assistance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The program includes resume support, interview preparation, and placement assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What job roles can I apply for after completing SAP ABAP training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can apply for roles such as SAP ABAP Developer, SAP Technical Consultant, SAP Support Consultant, and SAP S/4HANA ABAP Developer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the salary of an SAP ABAP developer in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAP ABAP developers in India earn competitive salaries with strong growth based on experience and certification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this SAP ABAP course instructor-led or self-paced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is a live instructor-led SAP ABAP online training program with interactive mentor guidance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tools are covered in the SAP ABAP course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The course covers SAP GUI, SAP NetWeaver, SAP HANA, SAP Fiori, Eclipse with ABAP tools, and SAP Gateway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between SAP ABAP and SAP S/4HANA ABAP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAP ABAP is the core programming language, while SAP S/4HANA ABAP includes advanced development features optimized for S/4HANA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can freshers get a job after learning SAP ABAP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. With hands-on training and placement support, freshers can apply for entry-level SAP ABAP developer roles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I enroll in the SAP ABAP course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can enroll by contacting the training team, booking a free consultation, or registering online."
+          }
+        }
+
+      ]
+    }
+
+  ]
+},
           "meta_title": "SAP ABAP Course Online – Certification & Placement | ICLP Tech",
           "meta_description": "Get trained in SAP ABAP with live online sessions & certificate. Start your journey to become an ABAP expert. Enroll today!",
           "description": "Learn SAP ABAP programming language for custom development and enhancements.",
