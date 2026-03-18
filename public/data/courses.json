@@ -12354,7 +12354,48 @@
                 "Non-Reifiable Formal Parameters"
               ]
             }
-          ],
+          ],"faqs": [
+  {
+    "question": "What is a Software Testing Course?",
+    "answer": "A Software Testing Course teaches how to identify bugs and verify that software works correctly before release. It covers testing concepts, test case creation, defect tracking, and quality assurance practices used in real projects."
+  },
+  {
+    "question": "Who can join a Software Testing Course in Chennai?",
+    "answer": "Students, fresh graduates, and working professionals can join a Software Testing Course. It is suitable for candidates from IT and non-IT backgrounds who want to start a career in software quality assurance."
+  },
+  {
+    "question": "Do I need coding knowledge to learn Software Testing?",
+    "answer": "No. Coding knowledge is not required to start learning software testing. Beginners usually begin with manual testing and later learn automation tools if needed."
+  },
+  {
+    "question": "What topics are covered in a Software Testing Course?",
+    "answer": "The course typically covers software testing fundamentals, SDLC, STLC, test case writing, manual testing techniques, defect tracking, and testing tools used in real software projects."
+  },
+  {
+    "question": "How long does it take to complete a Software Testing Course?",
+    "answer": "Most software testing training programs take between four to eight weeks depending on the course schedule and practical sessions."
+  },
+  {
+    "question": "Is Software Testing a good career option?",
+    "answer": "Yes. Software testing is an important part of software development and skilled testers are required in IT companies, startups, and product-based organizations."
+  },
+  {
+    "question": "What job roles can I get after completing a Software Testing Course?",
+    "answer": "After completing the course, learners can apply for roles such as Software Tester, QA Analyst, Test Engineer, Manual Tester, and Quality Assurance Executive."
+  },
+  {
+    "question": "What is the salary of a Software Tester in Chennai?",
+    "answer": "Entry-level software testers in Chennai typically earn between ₹3 LPA and ₹6 LPA depending on their skills and project experience."
+  },
+  {
+    "question": "Does the Software Testing Course include practical training?",
+    "answer": "Yes. Most training programs include hands-on exercises such as writing test cases, identifying defects, and working on real project scenarios."
+  },
+  {
+    "question": "Will I receive a certificate after completing the Software Testing Course?",
+    "answer": "Yes. After successfully completing the course, learners receive a certification that validates their software testing knowledge and skills."
+  }
+],
           "duration": "45 hours",
           "skill_level": "Beginner to Intermediate",
           "image": "/CourseDetails/software-testing.png",
