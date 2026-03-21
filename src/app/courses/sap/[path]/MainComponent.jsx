@@ -31,7 +31,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
   console.log(getcourse); // ✅ Show skeleton immediately
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
-  const [showBookingModal, setShowBookingModal] = useState(false);
+  const [showBookingModal, setShowBookingModal] = useState(true);
   useEffect(() => {
     if (course?.course_name) {
       localStorage.setItem('currentCourseName', course.course_name);

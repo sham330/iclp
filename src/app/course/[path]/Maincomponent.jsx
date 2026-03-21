@@ -42,7 +42,7 @@ const CourseDetails = () => {
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [showBookingModal, setShowBookingModal] = useState(false);
+  const [showBookingModal, setShowBookingModal] = useState(true);
 
  useEffect(() => {  // ✅ Safe: runs only client-side after mount
     if (course?.course_name) {  // ✅ Null check

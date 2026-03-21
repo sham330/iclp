@@ -66,14 +66,17 @@ const ModalBooking = ({ onClose }) => {
     { name: "Oracle SCM", type: "oracle" },
     { name: "Oracle HCM", type: "oracle" },
   ];
-    const savedCourseName = localStorage.getItem('currentCourseName') || '';
-
-const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    course: savedCourseName||"",
+    course: "",
   });
+
+  useEffect(() => {
+    const savedCourseName = localStorage.getItem('currentCourseName') || '';
+    setFormData((prev) => ({ ...prev, course: savedCourseName }));
+  }, []);
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -237,42 +240,21 @@ const [formData, setFormData] = useState({
                 </div>
 
                 <div className="mb-input-group">
-                  <select
+                  <input
+                    type="text"
                     name="course"
+                    list="course-list"
+                    placeholder="Select or type a course"
                     className="mb-input"
                     value={formData.course}
                     onChange={handleChange}
                     required
-                  >
-                    <option value="">Select a Course</option>
-                    <optgroup label="Regular Courses">
-                      {courses
-                        .filter((c) => c.type === "regular")
-                        .map((course, index) => (
-                          <option key={`regular-${index}`} value={course.name}>
-                            {course.name}
-                          </option>
-                        ))}
-                    </optgroup>
-                    <optgroup label="SAP Courses">
-                      {courses
-                        .filter((c) => c.type === "sap")
-                        .map((course, index) => (
-                          <option key={`sap-${index}`} value={course.name}>
-                            {course.name}
-                          </option>
-                        ))}
-                    </optgroup>
-                    <optgroup label="Oracle Courses">
-                      {courses
-                        .filter((c) => c.type === "oracle")
-                        .map((course, index) => (
-                          <option key={`oracle-${index}`} value={course.name}>
-                            {course.name}
-                          </option>
-                        ))}
-                    </optgroup>
-                  </select>
+                  />
+                  <datalist id="course-list">
+                    {courses.map((course, index) => (
+                      <option key={index} value={course.name} />
+                    ))}
+                  </datalist>
                 </div>
 
                 <button
