@@ -4719,6 +4719,17 @@
           "course_name": "Python",
           "path": "python-development-online-training",
           "description": "Master Python programming for data analysis, AI, and web development.",
+              "schema": {
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Python Development",
+            "description": "Master Python programming for data analysis, AI, and web development.",
+            "provider": {
+              "@type": "Organization",
+              "name": "ICLP",
+              "sameAs": "https://iclp.in"
+            }
+          },
           "what_youll_learn": [
             "Learn Python basics and syntax",
             "Work with sequences and file operations",
@@ -12407,6 +12418,384 @@
           ]
         },
         {
+"course_name": "Informatica Data Governance Course",
+"path": "informatica-data-governance-course",
+"schema": {
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "EducationalOrganization",
+"@id": "https://iclptech.in/#organization",
+"name": "ICLP Technologies",
+"url": "https://iclptech.in",
+"logo": "https://iclptech.in/favicon.png",
+"sameAs": [
+"https://www.instagram.com/iclp_technologies",
+"https://facebook.com/iclp-technologies",
+"http://linkedin.com/company/iclp-technologies",
+"https://twitter.com/iclp_tech",
+"https://youtube.com/@iclp_technologies"
+],
+"areaServed": {
+"@type": "Place",
+"name": "Chennai"
+},
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+91-8681026181",
+"contactType": "customer support",
+"areaServed": "IN",
+"availableLanguage": "English"
+}
+},
+{
+"@type": "Service",
+"@id": "https://iclptech.in/course/informatica-data-governance-course/#data-governance-training-service",
+"name": "Informatica Data Governance Training",
+"provider": {
+"@id": "https://iclptech.in/#organization"
+},
+"areaServed": "India",
+"serviceType": "Informatica Data Governance Certification Training"
+},
+{
+"@type": "Course",
+"@id": "https://iclptech.in/course/informatica-data-governance-course/#course",
+"name": "Informatica Data Governance Course",
+"description": "Comprehensive training on Informatica Data Governance covering Axon, EDC, data quality management, lineage analysis, metadata management, and enterprise data governance frameworks with hands-on implementation.",
+"provider": {
+"@id": "https://iclptech.in/#organization"
+},
+"courseMode": "Online",
+"inLanguage": "English",
+"educationalLevel": "Intermediate to Advanced",
+"occupationalCredentialAwarded": "Informatica Data Governance Course Completion Certificate",
+"timeRequired": "PT40H",
+"keywords": "Informatica Data Governance Course, Axon Data Governance, Informatica EDC, Data Quality Management, Data Lineage Training, Enterprise Data Catalog",
+"about": [
+{
+"@type": "Thing",
+"name": "Data Governance"
+},
+{
+"@type": "Thing",
+"name": "Informatica Axon"
+},
+{
+"@type": "Thing",
+"name": "Enterprise Data Catalog"
+}
+],
+"audience": {
+"@type": "EducationalAudience",
+"educationalRole": "professional"
+},
+"hasCourseInstance": {
+"@type": "CourseInstance",
+"courseMode": "Online",
+"inLanguage": "English",
+"location": {
+"@type": "VirtualLocation",
+"name": "Online"
+}
+},
+"offers": {
+"@type": "Offer",
+"url": "https://iclptech.in/course/informatica-data-governance-course",
+"availability": "https://schema.org/InStock"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.8",
+"ratingCount": "3796"
+}
+},
+{
+"@type": "BreadcrumbList",
+"@id": "https://iclptech.in/course/informatica-data-governance-course/#breadcrumb",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "Home",
+"item": "https://iclptech.in"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Courses",
+"item": "https://iclptech.in/courses/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Informatica Data Governance Course",
+"item": "https://iclptech.in/course/informatica-data-governance-course"
+}
+]
+},
+{
+"@type": "FAQPage",
+"@id": "https://iclptech.in/course/informatica-data-governance-course/#faq",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is Informatica Data Governance?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
+}
+},
+{
+"@type": "Question",
+"name": "Who should take the Informatica Data Governance Course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
+}
+},
+{
+"@type": "Question",
+"name": "What are the prerequisites for this course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
+}
+},
+{
+"@type": "Question",
+"name": "What Informatica tools are covered?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
+}
+},
+{
+"@type": "Question",
+"name": "How long is the Informatica Data Governance Course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
+}
+},
+{
+"@type": "Question",
+"name": "Is Data Governance a good career choice?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
+}
+},
+{
+"@type": "Question",
+"name": "What job roles after completion?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
+}
+},
+{
+"@type": "Question",
+"name": "What is the salary range for Data Governance roles?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
+}
+},
+{
+"@type": "Question",
+"name": "Does the course include hands-on practice?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
+}
+},
+{
+"@type": "Question",
+"name": "Will I receive certification?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
+}
+}
+]
+}
+]
+},
+"description": "Master Informatica Data Governance with hands-on training on Axon, EDC, data lineage, quality management, metadata management, and enterprise governance frameworks.",
+"what_youll_learn": [
+"Data governance fundamentals, frameworks, and enterprise roles",
+"Informatica Axon for business glossary and governance workflows",
+"Enterprise Data Catalog (EDC) for data discovery and lineage",
+"Data quality management with Informatica IDQ",
+"Metadata management and classification techniques",
+"End-to-end data lineage and impact analysis",
+"Security, compliance, and role-based access control",
+"Integration strategies across Informatica ecosystem",
+"Governance dashboards, KPIs, and reporting"
+],
+"syllabus": [
+{
+"module": "Data Governance Fundamentals",
+"subtopics": [
+"Introduction to Data Governance",
+"Importance in modern enterprises",
+"Data Governance vs Data Management",
+"Roles: Data Owner, Data Steward, Data Custodian",
+"Governance frameworks & policies"
+]
+},
+{
+"module": "Introduction to Informatica Platform",
+"subtopics": [
+"Overview of Informatica",
+"Informatica Intelligent Data Management Cloud (IDMC)",
+"Core components of Informatica ecosystem",
+"Integration with enterprise systems"
+]
+},
+{
+"module": "Informatica Axon Data Governance",
+"subtopics": [
+"Introduction to Informatica Axon Data Governance",
+"Axon architecture & key features",
+"Data governance framework implementation",
+"Business glossary creation & management",
+"Data domains, systems, and attributes",
+"Roles & responsibilities in Axon"
+]
+},
+{
+"module": "Business Glossary & Metadata Management",
+"subtopics": [
+"Glossary design best practices",
+"Creating business terms & definitions",
+"Metadata management concepts",
+"Linking business and technical metadata",
+"Data classification & tagging"
+]
+},
+{
+"module": "Informatica Enterprise Data Catalog (EDC)",
+"subtopics": [
+"Overview of Informatica Enterprise Data Catalog",
+"Data discovery & profiling",
+"Metadata extraction",
+"Data lineage tracking",
+"Impact analysis",
+"Integration with Axon"
+]
+},
+{
+"module": "Data Lineage & Impact Analysis",
+"subtopics": [
+"End-to-end data lineage concepts",
+"Data flow visualization",
+"Upstream & downstream impact analysis",
+"Regulatory compliance tracking"
+]
+},
+{
+"module": "Data Quality Management",
+"subtopics": [
+"Introduction to Informatica Data Quality",
+"Data profiling techniques",
+"Data validation rules",
+"Data cleansing & standardization",
+"Scorecards and monitoring"
+]
+},
+{
+"module": "Workflow & Change Management",
+"subtopics": [
+"Governance workflows in Axon",
+"Change request lifecycle",
+"Approval workflows",
+"Notifications & audit tracking"
+]
+},
+{
+"module": "Security & Access Management",
+"subtopics": [
+"Role-based access control",
+"User permissions",
+"Data security policies",
+"Compliance standards (GDPR basics)"
+]
+},
+{
+"module": "Integration & Implementation",
+"subtopics": [
+"Integrating Axon with EDC & IDQ",
+"Real-time use cases",
+"Data governance implementation lifecycle",
+"Deployment strategies"
+]
+},
+{
+"module": "Reporting & Analytics",
+"subtopics": [
+"Governance dashboards",
+"KPI tracking",
+"Data quality reports",
+"Business insights generation"
+]
+}
+],
+"faqs": [
+{
+"question": "What is Informatica Data Governance?",
+"answer": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
+},
+{
+"question": "Who should take the Informatica Data Governance Course?",
+"answer": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
+},
+{
+"question": "What are the prerequisites for this course?",
+"answer": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
+},
+{
+"question": "What Informatica tools are covered?",
+"answer": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
+},
+{
+"question": "How long is the Informatica Data Governance Course?",
+"answer": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
+},
+{
+"question": "Is Data Governance a good career choice?",
+"answer": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
+},
+{
+"question": "What job roles after completion?",
+"answer": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
+},
+{
+"question": "What is the salary range for Data Governance roles?",
+"answer": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
+},
+{
+"question": "Does the course include hands-on practice?",
+"answer": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
+},
+{
+"question": "Will I receive certification?",
+"answer": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
+}
+],
+"duration": "40 hours",
+"skill_level": "Intermediate to Advanced",
+"image": "/CourseDetails/informatica-data-governance.png",
+"placement_assurance": true,
+"projects": [
+"Enterprise Business Glossary Implementation",
+"Data Lineage Mapping Project",
+"Data Quality Scorecard Dashboard",
+"Governance Workflow Automation"
+]
+},
+        {
           "course_name": "LoadRunner",
           "path": "load-runner-online-training",
           "description": "Learn LoadRunner for performance and load testing of applications.",
@@ -13603,6 +13992,17 @@
           "course_name": "Data Science Course",
           "path": "data-science-course-online",
           "description": "Master data science concepts and techniques for data analysis and machine learning.",
+          "schema": {
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Data Science Course",
+            "description": "Master data science concepts and techniques for data analysis and machine learning.",
+            "provider": {
+              "@type": "Organization",
+              "name": "ICLP",
+              "sameAs": "https://iclp.in"
+            }
+          },
           "what_youll_learn": [
             "Understand data science fundamentals (CRISP-DM, OSEMN frameworks)",
             "Work with data manipulation and visualization (Pandas, Matplotlib, Seaborn)",
@@ -21041,6 +21441,17 @@
   "course_name": "Digital Marketing Online Training in Chennai",
   "path": "digital-marketing-online-training",
   "description": "Join the best Digital Marketing Online Training in Chennai with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
+    "schema": {
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Digital Marketing Online Training in Chennai",
+            "description": "Join the best Digital Marketing Online Training in Chennai with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
+            "provider": {
+              "@type": "Organization",
+              "name": "ICLP",
+              "sameAs": "https://iclp.in"
+            }
+          },
   "career_benefits": {
     "heading": "Career Benefits of <strong>Digital Marketing Training</strong> in Chennai",
     "description": "Chennai's booming IT and business hub demands skilled digital marketers. Build a high-demand career with remote flexibility, freelancing, and roles in startups, agencies, and e-commerce.",
@@ -23841,6 +24252,17 @@
           "course_name": "Data Analytics Course",
           "path": "data-analytics-course",
           "description": "Master data analytics, statistical methods, data mining, machine learning, and time series analysis using SAS and R with real-world case studies.",
+          "schema":{
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": "Data Analytics Course",
+            "description": "Master data analytics, statistical methods, data mining, machine learning, and time series analysis using SAS and R with real-world case studies.",
+            "provider": {
+              "@type": "Organization",
+              "name": "ICLP Tech",
+              "sameAs": "https://iclptech.in"
+          }
+        },
           "what_youll_learn": [
             "Foundations of data science and analytics methodology",
             "Data collection, data preparation, and exploration",

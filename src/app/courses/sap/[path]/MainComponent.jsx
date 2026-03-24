@@ -32,6 +32,10 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
   const [showBookingModal, setShowBookingModal] = useState(true);
+
+  const toggleModule = (index) => {
+    setOpenModule(openModule === index ? null : index);
+  };
   useEffect(() => {
     if (course?.course_name) {
       localStorage.setItem('currentCourseName', course.course_name);

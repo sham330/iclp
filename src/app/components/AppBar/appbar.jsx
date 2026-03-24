@@ -94,6 +94,7 @@ const AppBar = () => {
       { name: "Hardware Network training", path: "hardware-networking-training" },
       { name: "AutoCAD", path: "autocad-training" },
       { name: "PLC & SCADA", path: "plc-scada-training" },
+      {name:"Informatica Data Governance",path: "informatica-data-governance-course",},
       { name: "Cyber Law", path: "cyber-law-training" },
       { name: "Postgresql", path: "postgresql-admin-online-training" },
       { name: "Medical Coding", path: "medical-coding-cpc-course" },
