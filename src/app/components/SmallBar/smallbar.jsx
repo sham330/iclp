@@ -314,6 +314,9 @@ const SmallBar = () => {
                   <Link href="/reviews" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all">
                     Reviews
                   </Link>
+                   <Link href="/testimonials" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all">
+                    Testimonials
+                  </Link>
                   <Link href="/tutorial" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all rounded-b-lg">
                     Tutorial
                   </Link>
