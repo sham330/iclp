@@ -444,7 +444,7 @@ const AppBar = () => {
         {/* Title (Now comes first) */}
         {/* Title with Subtitle */}
         <div className="title-container" onClick={handleHomeClick}>
-          <h1 className="headingText">ICLP</h1>
+          <p className="headingText">ICLP</p>
           <p className="subtitle">Upgrade to New Era</p>
         </div>
 
