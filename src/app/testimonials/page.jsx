@@ -60,10 +60,10 @@ function ReelCard({ reel }) {
   const thumb = videoId ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` : null;
 
   return (
-    <div className="reel-card relative rounded-2xl overflow-hidden bg-gray-100 shadow-lg border-2 border-[#01377d]">
+    <div className="reel-card relative rounded-2xl overflow-hidden bg-gray-100 shadow-lg border-2 border-[#01377d] w-48">
       {hasVideo && playing ? (
         <iframe
-          src={`${reel.src}?autoplay=1&rel=0`}
+          src={`${reel.src}?autoplay=1&rel=0&cc_load_policy=0&iv_load_policy=3&modestbranding=1`}
           className="absolute inset-0 w-full h-full"
           allow="autoplay; encrypted-media"
           allowFullScreen
@@ -90,7 +90,7 @@ function ReelCard({ reel }) {
 
 function ReelsGrid({ reels }) {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div className="flex flex-wrap justify-center gap-6">
       {reels.map((reel) => <ReelCard key={reel.id} reel={reel} />)}
     </div>
   );
@@ -126,7 +126,9 @@ export default function Testimonials() {
             <p className="text-gray-600">Watch real experiences shared by our students</p>
           </div>
 
-          <ReelsGrid reels={reels} />
+          <div className="flex justify-center">
+            <ReelsGrid reels={reels} />
+          </div>
         </div>
       </section>
 
