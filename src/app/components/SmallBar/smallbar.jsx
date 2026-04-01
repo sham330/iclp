@@ -72,8 +72,8 @@ const SmallBar = () => {
     setIsDropdown2Open(false);
     setIsMobileMenuOpen(false);
   };
-    const handleSteamsClick = (path) => {
-    router.push(`/course/${path}`);
+    const handleSteamsClick = (path, type) => {
+    router.push(type === 'sap' ? `/courses/sap/${path}` : `/course/${path}`);
     setIsDropdownOpen(false);
     setIsDropdown2Open(false);
     setIsMobileMenuOpen(false);
@@ -252,7 +252,7 @@ const SmallBar = () => {
                           {selectedStream.courses.map((courseItem, i) => (
                             <button
                               key={i}
-                              onClick={() => handleSteamsClick(courseItem.path)}
+                              onClick={() => handleSteamsClick(courseItem.path,courseItem.type)}
                               className="text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-4 rounded border-2 border-[#014a9f]/10 hover:border-[#014a9f]/30 transition-all"
                             >
                               {courseItem.course}
@@ -391,8 +391,8 @@ const SmallBar = () => {
                         {stream.courses.map((courseItem, i) => (
                           <button
                             key={i}
-                            onClick={() => handleSteamsClick(courseItem.path)}
-                                onTouchEnd={() => handleSteamsClick(courseItem.path)}
+                            onClick={() => handleSteamsClick(courseItem.path, courseItem?.type)}
+                                onTouchEnd={() => handleSteamsClick(courseItem.path, courseItem?.type)}
                                 style={{ cursor: 'pointer', WebkitTapHighlightColor: 'transparent' }}
                             className="block w-full text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-4 rounded transition-all my-1"
                           >
