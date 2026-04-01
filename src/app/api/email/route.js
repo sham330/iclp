@@ -10,9 +10,9 @@ export async function POST(request) {
     const body = await request.json();
     console.log("📦 Received:", body);
 
-    const { name, email, phone, course } = body;
+    const { name, email, phone, course, qualification, experience, notes } = body;
 
-    // 🔍 Validate fields
+    // 🔍 Validate required fields
     if (!name || !email || !phone || !course) {
       return NextResponse.json(
         {
@@ -130,6 +130,21 @@ const mailOptions = {
         <span style="font-weight: 600; color: #475569;">📘 Course:</span>
         <div style="font-size: 1rem; color: #0f172a;">${course}</div>
       </div>
+
+      ${qualification ? `<div style="margin-top: 16px;">
+        <span style="font-weight: 600; color: #475569;">🎓 Qualification:</span>
+        <div style="font-size: 1rem; color: #0f172a;">${qualification}</div>
+      </div>` : ''}
+
+      ${experience ? `<div style="margin-top: 16px;">
+        <span style="font-weight: 600; color: #475569;">💼 Experience:</span>
+        <div style="font-size: 1rem; color: #0f172a;">${experience}</div>
+      </div>` : ''}
+
+      ${notes ? `<div style="margin-top: 16px;">
+        <span style="font-weight: 600; color: #475569;">📝 Notes:</span>
+        <div style="font-size: 1rem; color: #0f172a;">${notes}</div>
+      </div>` : ''}
 
     </div>
 
