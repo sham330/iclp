@@ -133,14 +133,14 @@ const HomeAboutDialog = () => {
   };
 
   const inputCls = (field) =>
-    `w-full p-[11px] rounded-[8px] border text-sm bg-white ${errors[field] ? 'border-red-500' : 'border-[#ddd]'}`;
+    `w-full p-[9px] rounded-[8px] border text-sm bg-white ${errors[field] ? 'border-red-500' : 'border-[#ddd]'}`;
 
   if (!isOpen) return null;
 
   return (
     <>
       <div className="fixed inset-0 bg-black/50 z-[1000] flex justify-center items-center p-4 overflow-y-auto">
-        <div className="bg-white rounded-[16px] w-full max-w-[900px] shadow-[0_20px_50px_rgba(0,0,0,0.2)] relative flex flex-col md:flex-row overflow-hidden my-auto">
+        <div className="bg-white rounded-[16px] w-full max-w-[760px] shadow-[0_20px_50px_rgba(0,0,0,0.2)] relative flex flex-col md:flex-row overflow-hidden my-auto">
 
           {/* Close Button */}
           <button
@@ -151,7 +151,7 @@ const HomeAboutDialog = () => {
           </button>
 
           {/* LEFT - FORM */}
-          <div className="w-full md:w-1/2 p-[28px] flex flex-col gap-[14px] pt-14">
+          <div className="w-full md:w-1/2 p-[20px] flex flex-col gap-[10px] pt-10">
             {submitSuccess ? (
               <div className="flex flex-col items-center justify-center flex-1 gap-4 py-16">
                 <FaCheckCircle size={40} color="#22c55e" />
@@ -160,10 +160,10 @@ const HomeAboutDialog = () => {
               </div>
             ) : (
               <>
-                <h2 className="text-xl font-bold leading-snug">Start Your IT Career with Expert Guidance</h2>
-                <p className="text-gray-500 text-sm -mt-2">Get personalized course recommendations from industry experts</p>
+                <h2 className="text-lg font-bold leading-snug">Start Your IT Career with Expert Guidance</h2>
+                <p className="text-gray-500 text-xs -mt-2">Get personalized course recommendations from industry experts</p>
 
-                <form onSubmit={sendEmail} className="space-y-[10px]">
+                <form onSubmit={sendEmail} className="space-y-[8px]">
                   <input
                     type="text" name="name" placeholder="Full Name"
                     value={formData.name} onChange={handleChange} required
@@ -224,7 +224,7 @@ const HomeAboutDialog = () => {
                   <textarea
                     name="notes" placeholder="Tell us your goal (optional)"
                     value={formData.notes} onChange={handleChange} rows={3}
-                    className="w-full p-[11px] rounded-[8px] border border-[#ddd] text-sm resize-none"
+                    className="w-full p-[9px] rounded-[8px] border border-[#ddd] text-sm resize-none"
                   />
 
                   <button
@@ -241,7 +241,7 @@ const HomeAboutDialog = () => {
           </div>
 
           {/* RIGHT - INFO PANEL */}
-          <div className="w-full md:w-1/2 bg-gradient-to-br from-blue-600 to-teal-500 text-white p-[28px] flex flex-col justify-between">
+          <div className="w-full md:w-1/2 bg-gradient-to-br from-blue-600 to-teal-500 text-white p-[20px] flex flex-col justify-between">
             <div>
               <h3 className="text-lg font-semibold mb-4">Why Choose Us?</h3>
               <ul className="space-y-3 text-sm">
