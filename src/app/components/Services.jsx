@@ -106,10 +106,10 @@ const ServiceAreas = () => {
           <p className="text-gray-600 mb-4">
             Can't find your area? We're expanding rapidly!
           </p>
-          <button className="inline-flex items-center gap-2 px-8 py-4 bg-blue-500 hover:bg-[#3b82f6] text-white font-semibold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+          <a href="/contact" className="inline-flex items-center gap-2 px-8 py-4 bg-blue-500 hover:bg-[#3b82f6] text-white font-semibold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
             <MapPin className="w-5 h-5" />
             Contact Us for More Locations
-          </button>
+          </a>
         </div>
       </div>
     </section>

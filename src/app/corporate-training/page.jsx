@@ -1,9 +1,14 @@
 "use client";
 
-import Image from "next/image";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { CheckCircle, Users, Award, BookOpen, Clock, TrendingUp, Star } from "lucide-react";
+import HomeAboutDialog from "../components/Dialogbox/dialog";
 
 export default function CorporateTraining() {
+  const [showDialog, setShowDialog] = useState(false);
+  const router = useRouter();
+
   return (
     <main className="w-full bg-white">
       {/* HERO SECTION */}
@@ -26,10 +31,10 @@ export default function CorporateTraining() {
               Unlock your team's potential with industry-leading training programs designed to drive growth and innovation in your organization.
             </p>
             <div className="flex gap-4">
-              <button className="bg-[#39FF14] hover:bg-[#2ecc10] text-[#01377d] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
+              <button onClick={() => setShowDialog(true)} className="bg-[#39FF14] hover:bg-[#2ecc10] text-[#01377d] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
                 Enquire Now
               </button>
-              <button className="border-2 border-[#97e7f5] hover:bg-[#97e7f5] hover:text-[#01377d] text-white px-8 py-4 rounded-lg font-semibold transition-all">
+              <button onClick={() => router.push("/courses")} className="border-2 border-[#97e7f5] hover:bg-[#97e7f5] hover:text-[#01377d] text-white px-8 py-4 rounded-lg font-semibold transition-all">
                 View Programs
               </button>
             </div>
@@ -278,7 +283,7 @@ export default function CorporateTraining() {
               ))}
             </ul>
 
-            <button className="bg-[#39FF14] hover:bg-[#2ecc10] text-[#01377d] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
+            <button onClick={() => setShowDialog(true)} className="bg-[#39FF14] hover:bg-[#2ecc10] text-[#01377d] px-8 py-4 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl">
               Enquire Now
             </button>
           </div>
@@ -365,6 +370,7 @@ export default function CorporateTraining() {
           </div>
         </div>
       </section>
+      {showDialog && <HomeAboutDialog onClose={() => setShowDialog(false)} />}
     </main>
   );
 }

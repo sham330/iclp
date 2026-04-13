@@ -339,14 +339,8 @@ const Footer = () => {
           <a href="/privacy-policy" className="hover:text-blue-400 transition-colors">
             Privacy Policy
           </a>
-          <span className="text-gray-600">|</span>
-          <a href="/terms-of-service" className="hover:text-blue-400 transition-colors">
-            Terms of Service
-          </a>
-          <span className="text-gray-600">|</span>
-          <a href="/cookie-policy" className="hover:text-blue-400 transition-colors">
-            Cookie Policy
-          </a>
+       
+         
         </div>
 
         {/* Copyright */}

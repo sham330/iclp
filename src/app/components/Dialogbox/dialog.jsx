@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaTimes, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
 
-const HomeAboutDialog = () => {
+const HomeAboutDialog = ({ onClose } = {}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -83,7 +83,10 @@ const HomeAboutDialog = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleClose = () => setIsOpen(false);
+  const handleClose = () => {
+    setIsOpen(false);
+    if (onClose) onClose();
+  };
 
   const validate = () => {
     const errs = {};
