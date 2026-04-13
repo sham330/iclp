@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ✅ Static HTML export (pure HTML files)
-  // output: 'export',
-   
-  // ✅ Required for static export - disables image optimization
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -23,14 +19,7 @@ const nextConfig = {
       { protocol: 'http', hostname: 'localhost', port: '3000', pathname: '/**' }
     ],
   },
-      // qualities: ['75', '80'], // ✅ Add 80 here!
-
-  
-  // ✅ Clean URLs (blog/slug → blog/slug/index.html)
   trailingSlash: true,
-  
-  // ✅ Skip Node.js server generation
-  distDir: 'out'
 };
 
 export default nextConfig;
