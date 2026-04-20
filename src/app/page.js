@@ -13,6 +13,7 @@ import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
 import WhyInventateq from "./components/HomeSections/WhyUs";
+import HomeTestimonials from "./components/HomeSections/HomeTestimonials";
 import ServiceAreas from "./components/Services";
 import Head from "./Head"
 
@@ -42,6 +43,8 @@ export default function Home() {
         <ServiceAreas/>
         <br></br>
         <ExpertConnectBanner />
+        <br></br>
+        <HomeTestimonials />
         <RelatedCoursesSlider />
       </main>
 

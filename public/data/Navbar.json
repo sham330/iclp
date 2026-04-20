@@ -220,7 +220,7 @@
               },
               {
                 "name": "Mobile App Development (Android / iOS / Flutter / Kotlin)",
-                "path": "/course/mobile-development-training"
+                "path": "/course/mobile-app-development-certification-course"
               },
               {
                 "name": "Advanced JavaScript Frameworks (React / Angular / Vue)",
@@ -347,7 +347,7 @@
                 "path": "/course/chatgpt-online-course"
               },
               { "name": "LLM Development", "path": "" },
-              { "name": "RAG Systems", "path": "" },
+              { "name": "RAG Systems", "path": "/course/rag-systems-ai-certification-course" },
               {
                 "name": "AI for Automation",
                 "path": "/course/ai-for-automation-course"

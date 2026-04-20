@@ -12677,6 +12677,1496 @@
           ]
         },
         {
+  "course_name": "RAG Systems AI Course (No Coding Required)",
+  "path": "rag-systems-ai-certification-course",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#rag-training-service",
+        "name": "RAG Systems AI Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Retrieval-Augmented Generation AI Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#course",
+        "name": "RAG Systems AI Course in Chennai (No Coding)",
+        "description": "Non-coding friendly RAG Systems training covering AI fundamentals, LLMs, vector databases, RAG architecture, prompt engineering, project building with no-code tools, deployment, and industry applications with 100% placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "RAG Systems AI Course Completion Certificate",
+        "timeRequired": "PT45H",
+        "keywords": "RAG Systems Course Chennai, Retrieval Augmented Generation Training, No-Code AI Course, Vector Database Training, LangChain Course, AI Chatbot Training Chennai",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "RAG Systems"
+          },
+          {
+            "@type": "Thing",
+            "name": "Retrieval-Augmented Generation"
+          },
+          {
+            "@type": "Thing",
+            "name": "Vector Databases"
+          },
+          {
+            "@type": "Thing",
+            "name": "No-Code AI"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/rag-systems-ai-certification-course",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3796"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "RAG Systems AI Course",
+            "item": "https://iclptech.in/course/rag-systems-ai-certification-course"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is RAG Systems AI Course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non-coding friendly 45-hour training teaching Retrieval-Augmented Generation (RAG) systems - AI chatbots that use your own data (PDFs, websites, databases) instead of hallucinating answers. Build production-ready AI assistants."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding skills for this course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No coding required! Uses no-code/low-code platforms, drag-and-drop interfaces, and visual workflow builders. Perfect for business users, managers, analysts, and non-technical professionals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What will I be able to build?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HR chatbots, customer support bots, knowledge base assistants, e-learning tutors, company policy finders, document Q&A systems using your own PDFs/websites without coding."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools will I learn?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LangChain (visual), LlamaIndex, Pinecone, FAISS, Weaviate vector databases, OpenAI APIs, no-code platforms like Flowise, Dify, VectorShift for building RAG applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should take this RAG course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Business analysts, HR professionals, customer support managers, content managers, product owners, non-technical managers who want to build AI solutions using company data without developers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is placement assistance provided?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "100% placement support for AI roles: AI Business Analyst, RAG Specialist, No-Code AI Developer, AI Solutions Architect, Chatbot Implementation Specialist, Vector Database Administrator."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the course duration?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "45 hours online instructor-led training with hands-on projects, live RAG demos, portfolio building, and dedicated support sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I get hands-on projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Build 4+ production-ready RAG projects: HR Policy Bot, Customer Support Assistant, Company Knowledge Base, Document Q&A System - all deployable and portfolio-ready."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What salary range for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Freshers: ₹5-8 LPA | 2+ years: ₹12-25 LPA for RAG/AI roles in IT services, product companies, startups, and AI consultancies in Chennai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I deploy my RAG applications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Complete deployment training for cloud hosting, API integration, chat UI creation, monitoring, and scaling your RAG applications for production use."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Non-coding RAG Systems AI training: Build intelligent chatbots using company data (PDFs, websites, databases) without writing code. Master vector databases, LangChain, prompt engineering, and deploy production AI assistants.",
+  "what_youll_learn": [
+    "RAG fundamentals and why it beats traditional AI chatbots",
+    "How Large Language Models work and their limitations",
+    "Data preparation for AI (PDFs, websites, databases)",
+    "Text embeddings and similarity search concepts",
+    "Vector databases (Pinecone, FAISS, Weaviate) - no SQL needed",
+    "Complete RAG architecture and workflow",
+    "No-code tools: LangChain visual, LlamaIndex, Flowise",
+    "Advanced prompt engineering for accurate AI responses",
+    "Building and deploying production RAG chatbots",
+    "Industry applications: HR, customer support, knowledge bases"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to AI & RAG",
+      "subtopics": [
+        "What is Artificial Intelligence?",
+        "Basics of Generative AI",
+        "What is RAG (Retrieval-Augmented Generation)?",
+        "RAG vs Traditional AI models",
+        "Real-world use cases"
+      ]
+    },
+    {
+      "module": "Understanding Large Language Models (LLMs)",
+      "subtopics": [
+        "How LLMs work (basic concept)",
+        "Tokens, prompts, and responses",
+        "Limitations (hallucination, outdated data)",
+        "Why RAG is needed"
+      ]
+    },
+    {
+      "module": "Data Sources for RAG",
+      "subtopics": [
+        "Types of data: PDFs, Websites, Databases",
+        "Data collection methods",
+        "Data cleaning & preprocessing (basic)"
+      ]
+    },
+    {
+      "module": "Text Embeddings (Core Concept)",
+      "subtopics": [
+        "What are embeddings?",
+        "How text is converted into vectors",
+        "Similarity search concept",
+        "Introduction to vector search"
+      ]
+    },
+    {
+      "module": "Vector Databases",
+      "subtopics": [
+        "What is a vector database?",
+        "Popular tools: Pinecone, FAISS, Weaviate",
+        "Storing & retrieving embeddings"
+      ]
+    },
+    {
+      "module": "RAG Architecture",
+      "subtopics": [
+        "Step-by-step RAG workflow: Query input, Retrieval, Context building, Response generation",
+        "Chunking techniques",
+        "Top-K retrieval"
+      ]
+    },
+    {
+      "module": "Tools & Frameworks",
+      "subtopics": [
+        "LangChain (basics)",
+        "LlamaIndex",
+        "OpenAI / API usage",
+        "No-code AI tools"
+      ]
+    },
+    {
+      "module": "Prompt Engineering for RAG",
+      "subtopics": [
+        "Writing effective prompts",
+        "Context injection",
+        "Improving answer accuracy",
+        " Reducing hallucinations"
+      ]
+    },
+    {
+      "module": "Building a RAG Project",
+      "subtopics": [
+        "Create a chatbot using: PDF / website data",
+        "Step-by-step implementation",
+        "Testing & debugging"
+      ]
+    },
+    {
+      "module": "Advanced Concepts",
+      "subtopics": [
+        "Hybrid search (keyword + vector)",
+        "RAG with multiple data sources",
+        "Real-time data integration",
+        "Performance optimization"
+      ]
+    },
+    {
+      "module": "Deployment Basics",
+      "subtopics": [
+        "Hosting the application",
+        "API integration",
+        "Simple UI (chat interface)",
+        "Monitoring responses"
+      ]
+    },
+    {
+      "module": "Use Cases & Industry Applications",
+      "subtopics": [
+        "HR chatbot",
+        "Customer support bot",
+        "E-learning assistant",
+        "Business knowledge system"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes this RAG course different?",
+      "answer": "100% no-coding approach using visual tools and drag-and-drop interfaces. Build production RAG chatbots with company data in 45 hours without writing a single line of code."
+    },
+    {
+      "question": "Who is this course for?",
+      "answer": "Business analysts, managers, HR professionals, customer support teams, content managers - anyone who wants to build AI solutions using company documents without technical skills."
+    },
+    {
+      "question": "What RAG projects will I build?",
+      "answer": "4 production-ready projects: HR Policy Chatbot, Customer Support Assistant, Company Knowledge Base Q&A, Document Search Assistant - all using real company data."
+    },
+    {
+      "question": "Which tools are covered?",
+      "answer": "LangChain (visual builder), LlamaIndex, Pinecone/FAISS/Weaviate vector DBs, OpenAI APIs, Flowise, Dify - all through no-code interfaces and visual workflows."
+    },
+    {
+      "question": "Can I deploy my RAG chatbots?",
+      "answer": "Complete deployment training: cloud hosting, chat UI creation, API endpoints, monitoring, scaling - everything needed for production deployment."
+    },
+    {
+      "question": "What jobs can I get after this course?",
+      "answer": "AI Business Analyst, RAG Specialist, No-Code AI Developer, Chatbot Implementation Consultant, Vector Database Administrator, AI Solutions Architect."
+    },
+    {
+      "question": "Is placement assistance included?",
+      "answer": "100% placement support with portfolio projects, resume optimization, interview preparation, and direct connections to AI companies and consultancies."
+    },
+    {
+      "question": "What is the salary range?",
+      "answer": "Freshers: ₹5-8 LPA | Experienced: ₹12-25 LPA for RAG/AI roles across IT services, product companies, startups, and AI consultancies."
+    },
+    {
+      "question": "Do I need AI/ML background?",
+      "answer": "No AI/ML background needed. Course explains all concepts from scratch with practical demos and visual explanations."
+    },
+    {
+      "question": "Will I understand vector databases?",
+      "answer": "Yes! Visual explanations of embeddings, similarity search, vector storage, retrieval - no math formulas, just practical understanding through working examples."
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/rag-systems-ai.png",
+  "placement_assurance": true,
+  "projects": [
+    "HR Policy & Documents Chatbot",
+    "Customer Support Knowledge Base",
+    "Company Documents Q&A Assistant",
+    "E-Learning Content Search Bot"
+  ]
+},
+        {
+  "course_name": "Mobile App Development Certification Course",
+  "path": "mobile-app-development-certification-course",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#mobile-dev-training-service",
+        "name": "Mobile App Development Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Mobile App Development Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#course",
+        "name": "Mobile App Development Course in Chennai",
+        "description": "Comprehensive online training covering Android/iOS development, UI/UX design, programming fundamentals, database integration, API connectivity, testing, deployment, and advanced features with hands-on projects and 100% placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Mobile App Development Course Completion Certificate",
+        "timeRequired": "PT45H",
+        "keywords": "Mobile App Development Course Chennai, Android Training Chennai, iOS Development Course, Flutter Training, React Native Course, App Development Certification",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Mobile App Development"
+          },
+          {
+            "@type": "Thing",
+            "name": "Android Development"
+          },
+          {
+            "@type": "Thing",
+            "name": "iOS Development"
+          },
+          {
+            "@type": "Thing",
+            "name": "Cross-Platform Development"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/mobile-app-development-certification-course",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3796"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Mobile App Development Course",
+            "item": "https://iclptech.in/course/mobile-app-development-certification-course"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Mobile App Development Course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Comprehensive 45-hour training covering Android/iOS development, UI/UX design principles, programming fundamentals, database integration, API connectivity, testing strategies, app store deployment, and advanced features like push notifications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should join Mobile App Development training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "B.Tech/B.E CSE/IT, BCA, MCA students, working professionals, career changers, and anyone interested in building mobile applications for Android, iOS, or cross-platform development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What platforms are covered in the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Android (Java/Kotlin), iOS (Swift), and cross-platform frameworks like Flutter, React Native for building apps that work on both platforms with single codebase."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior programming experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No prior experience required. Course starts from programming fundamentals and gradually progresses to advanced mobile app development concepts and real-world projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What job roles can I get after completion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mobile App Developer, Android Developer, iOS Developer, Flutter Developer, React Native Developer, Full Stack Mobile Developer, App Store Optimization Specialist."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is placement assistance provided?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "100% placement support with resume building, GitHub portfolio creation, technical interview preparation, mock interviews, and connections to top IT companies and startups in Chennai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the course duration and format?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "45 hours online instructor-led training with live coding sessions, recorded videos, hands-on projects, code reviews, and dedicated doubt-clearing sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools and technologies are taught?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Android Studio, Xcode, Flutter, React Native, Firebase, SQLite, REST APIs, Figma (UI/UX), Git, App Store Connect, Google Play Console, debugging tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I get a portfolio of projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, students build 4+ real-world apps (E-commerce, Social Media, Todo, Weather) and publish them on GitHub and app stores to showcase during interviews."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary range for freshers in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Freshers: ₹4-7 LPA | 2+ years: ₹10-20 LPA in product companies, startups, IT services, and mobile app development agencies."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Master mobile app development with 45-hour comprehensive training covering Android/iOS development, UI/UX design, database integration, API connectivity, testing, deployment to app stores, and advanced features with portfolio projects and 100% placement assistance.",
+  "what_youll_learn": [
+    "Mobile app development fundamentals and career opportunities",
+    "UI/UX design principles, prototyping, and wireframing",
+    "Programming fundamentals (Java, Kotlin, Swift, Dart)",
+    "Android Studio, Xcode, Flutter, React Native development",
+    "Database integration with SQLite, Firebase Realtime Database",
+    "REST API integration, authentication, and data synchronization",
+    "Testing strategies, debugging, and performance optimization",
+    "App store deployment (Google Play, Apple App Store)",
+    "Advanced features: push notifications, geolocation, sensors",
+    "App monetization strategies and portfolio building"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Mobile App Development",
+      "subtopics": [
+        "Overview of mobile app development platforms",
+        "The significance of mobile apps in today's digital landscape",
+        "Exploring career opportunities in mobile app development"
+      ]
+    },
+    {
+      "module": "App Design and User Experience (UX)",
+      "subtopics": [
+        "Principles of mobile app design",
+        "User interface (UI) design guidelines",
+        "Creating user-friendly and visually appealing app interfaces",
+        "Prototyping and wireframing tools"
+      ]
+    },
+    {
+      "module": "Programming Fundamentals",
+      "subtopics": [
+        "Introduction to programming languages (Java, Kotlin, Swift)",
+        "Data types, variables, and control structures",
+        "Basics of object-oriented programming"
+      ]
+    },
+    {
+      "module": "Platform-Specific Development",
+      "subtopics": [
+        "Android app development",
+        "iOS app development",
+        "Cross-platform development with frameworks"
+      ]
+    },
+    {
+      "module": "Database Integration",
+      "subtopics": [
+        "Working with databases for storing app data",
+        "SQLite, Firebase, or other database options",
+        "Data modeling and database design for mobile apps"
+      ]
+    },
+    {
+      "module": "API Integration",
+      "subtopics": [
+        "Connecting mobile apps to external APIs",
+        "Retrieving and displaying data from web services",
+        "Authentication and security considerations"
+      ]
+    },
+    {
+      "module": "Testing and Debugging",
+      "subtopics": [
+        "Debugging techniques and tools",
+        "Unit testing and test-driven development",
+        "User testing and beta testing"
+      ]
+    },
+    {
+      "module": "Deployment and App Stores",
+      "subtopics": [
+        "Preparing apps for release",
+        "Publishing apps on Android and iOS",
+        "App store guidelines and submission process"
+      ]
+    },
+    {
+      "module": "Advanced Topics",
+      "subtopics": [
+        "Mobile app optimization for performance and battery efficiency",
+        "Integrating advanced features like push notifications, geolocation, and sensors",
+        "Monetization strategies"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does Mobile App Development Course cover?",
+      "answer": "45-hour comprehensive training including Android/iOS development, UI/UX design, programming fundamentals, database integration, API connectivity, testing, app store deployment, and advanced features like push notifications."
+    },
+    {
+      "question": "Which platforms will I learn to develop for?",
+      "answer": "Android (Java/Kotlin), iOS (Swift), and cross-platform development using Flutter/React Native to build apps that work on both platforms with single codebase."
+    },
+    {
+      "question": "Do I need prior coding experience?",
+      "answer": "No prior experience needed. Course starts from programming basics and progresses to building complete mobile applications with real-world projects."
+    },
+    {
+      "question": "What job roles can I apply for after completion?",
+      "answer": "Mobile App Developer, Android Developer, iOS Developer, Flutter Developer, React Native Developer, Full Stack Mobile Developer, App Store Optimization Specialist."
+    },
+    {
+      "question": "Will I build real apps during training?",
+      "answer": "Yes, students build 4+ production-ready apps (E-commerce, Social Media, Todo List, Weather App) and publish them on GitHub and app stores for portfolio."
+    },
+    {
+      "question": "Is placement assistance included?",
+      "answer": "100% placement support with resume optimization, GitHub portfolio creation, technical interview preparation, mock interviews, and company connections."
+    },
+    {
+      "question": "What tools will I learn?",
+      "answer": "Android Studio, Xcode, Flutter, React Native, Firebase, SQLite, REST APIs, Figma (UI/UX), Git version control, Google Play Console, App Store Connect."
+    },
+    {
+      "question": "What is the course format and duration?",
+      "answer": "45 hours online instructor-led live sessions with coding exercises, recorded videos, hands-on projects, code reviews, and dedicated doubt resolution."
+    },
+    {
+      "question": "What salary can freshers expect in Chennai?",
+      "answer": "Freshers: ₹4-7 LPA | 2+ years experience: ₹10-20 LPA across product companies, startups, IT services, and mobile app development agencies."
+    },
+    {
+      "question": "Will I learn app store publishing?",
+      "answer": "Yes, complete training on Google Play Store and Apple App Store submission processes, guidelines compliance, app review preparation, and ASO techniques."
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/mobile-app-development.png",
+  "placement_assurance": true,
+  "projects": [
+    "E-commerce Mobile Application",
+    "Social Media App with Firebase",
+    "Weather App with API Integration",
+    "Todo List with Offline Sync"
+  ]
+},
+        {
+  "course_name": "Hospital Administration Certification Course",
+  "path": "hospital-administration-certification-course",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/hospital-administration-certification-course/#hospital-admin-training-service",
+        "name": "Hospital Administration Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Hospital Administration Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/hospital-administration-certification-course/#course",
+        "name": "Hospital Administration Course in Chennai",
+        "description": "Comprehensive online training covering hospital management, patient care operations, NABH standards, medical records, billing & insurance, HR management, healthcare laws, digital tools, and quality assurance with 100% placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Hospital Administration Course Completion Certificate",
+        "timeRequired": "PT45H",
+        "keywords": "Hospital Administration Course Chennai, Hospital Management Training, NABH Training Chennai, Healthcare Administration Course, Hospital Admin Certification, HMS Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Hospital Administration"
+          },
+          {
+            "@type": "Thing",
+            "name": "Healthcare Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "NABH Standards"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medical Records Management"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/hospital-administration-certification-course",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3796"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/hospital-administration-certification-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Hospital Administration Course",
+            "item": "https://iclptech.in/course/hospital-administration-certification-course"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/hospital-administration-certification-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Hospital Administration Course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Comprehensive training covering hospital operations, patient management, NABH standards, medical records, billing & insurance, HR management, healthcare laws, digital HMS tools, quality assurance, and accreditation preparation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should join Hospital Administration training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BBA, BBM, BHA graduates, healthcare professionals, nursing staff, medical graduates, MBA students, and working professionals seeking careers in hospital management, administration, and healthcare operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What job roles are available after completion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hospital Administrator, Front Office Manager, Medical Records Officer, Billing Executive, Ward Manager, Quality Coordinator, NABH Coordinator, Healthcare Operations Executive."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What topics are covered in the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hospital organization, patient management, EMR/MRD, operations management, NABH standards, billing & insurance, HR management, healthcare laws, digital HMS tools, quality assurance, and soft skills."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is NABH accreditation training included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, complete NABH standards training covering quality assurance, patient safety protocols, infection control, documentation standards, and accreditation preparation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is placement assistance provided?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "100% placement assistance with resume preparation, interview training, mock interviews, and connections to hospitals, healthcare chains, and diagnostic centers in Chennai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the course duration?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "45 hours online instructor-led training with live sessions, recorded lectures, practical assignments, hospital case studies, and doubt-clearing sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need healthcare experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No prior experience required. Suitable for fresh graduates and career changers. Basic healthcare knowledge helpful but not mandatory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What certification is awarded?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hospital Administration Course Completion Certificate from ICLP Technologies, recognized by hospitals and healthcare organizations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What salary can freshers expect?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Freshers: ₹3-5.5 LPA | 2+ years: ₹6-12 LPA in hospitals, diagnostic centers, healthcare chains, and corporate healthcare providers in Chennai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Master hospital administration with 45-hour comprehensive training covering operations management, NABH standards, patient care, billing & insurance, HR, digital HMS tools, quality assurance, and healthcare laws with 100% placement support.",
+  "what_youll_learn": [
+    "Healthcare industry overview and hospital organization structure",
+    "Patient management, front office operations, and OPD/IPD processes",
+    "Electronic medical records (EMR), documentation, and confidentiality",
+    "Hospital operations including bed/ward management and biomedical waste",
+    "NABH standards, quality assurance, patient safety, and infection control",
+    "Hospital billing, insurance claims processing, TPA, and medical coding",
+    "HR management, staff recruitment, training, and hospital policies",
+    "Healthcare laws, patient rights, medical ethics, and legal compliance",
+    "Hospital Management Software (HMS), telemedicine, and digital tools",
+    "Professional communication, conflict resolution, and leadership skills"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Healthcare & Hospital Administration",
+      "subtopics": [
+        "Overview of Healthcare Industry",
+        "Types of Hospitals (Government / Private / Corporate)",
+        "Roles of Hospital Administrator",
+        "Healthcare Delivery System in India"
+      ]
+    },
+    {
+      "module": "Hospital Organization & Management",
+      "subtopics": [
+        "Hospital Structure & Departments",
+        "Roles of Medical & Non-Medical Staff",
+        "Hospital Policies & Procedures",
+        "Leadership & Management Skills"
+      ]
+    },
+    {
+      "module": "Front Office & Patient Management",
+      "subtopics": [
+        "Patient Registration Process",
+        "Appointment Scheduling",
+        "OPD / IPD Management",
+        "Patient Handling & Communication Skills"
+      ]
+    },
+    {
+      "module": "Medical Records Management (MRD)",
+      "subtopics": [
+        "Electronic Medical Records (EMR)",
+        "Documentation Standards",
+        "Record Maintenance & Confidentiality",
+        "Discharge Summary Process"
+      ]
+    },
+    {
+      "module": "Hospital Operations Management",
+      "subtopics": [
+        "Bed Management",
+        "Ward Management",
+        "Inventory & Supply Chain",
+        "Biomedical Waste Management"
+      ]
+    },
+    {
+      "module": "Healthcare Quality & Accreditation",
+      "subtopics": [
+        "NABH Standards (India)",
+        "Quality Assurance in Hospitals",
+        "Patient Safety Protocols",
+        "Infection Control"
+      ]
+    },
+    {
+      "module": "Billing & Insurance Management",
+      "subtopics": [
+        "Hospital Billing Process",
+        "Insurance Claims & TPA",
+        "Cashless & Reimbursement Process",
+        "Medical Coding Basics (ICD)"
+      ]
+    },
+    {
+      "module": "Human Resource Management in Hospitals",
+      "subtopics": [
+        "Staff Recruitment",
+        "Training & Development",
+        "Payroll Basics",
+        "Staff Scheduling"
+      ]
+    },
+    {
+      "module": "Healthcare Laws & Ethics",
+      "subtopics": [
+        "Legal Aspects in Healthcare",
+        "Patient Rights & Responsibilities",
+        "Medical Negligence",
+        "Ethical Practices"
+      ]
+    },
+    {
+      "module": "Digital Healthcare & Tools",
+      "subtopics": [
+        "Hospital Management Software (HMS)",
+        "Telemedicine",
+        "Data Privacy & Security",
+        "Basic Excel for Hospital Admin"
+      ]
+    },
+    {
+      "module": "Communication & Soft Skills",
+      "subtopics": [
+        "Patient Interaction Skills",
+        "Conflict Handling",
+        "Professional Communication",
+        "Team Coordination"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Hospital Administration Course?",
+      "answer": "45-hour comprehensive training covering hospital operations, patient management, NABH standards, medical records management, billing & insurance processing, HR management, healthcare laws, digital HMS tools, and quality assurance."
+    },
+    {
+      "question": "Who should enroll in this course?",
+      "answer": "BBA, BBM, BHA graduates, healthcare/nursing professionals, medical graduates, MBA students, and career changers seeking hospital management and healthcare administration roles."
+    },
+    {
+      "question": "What job opportunities are available?",
+      "answer": "Hospital Administrator, Front Office Manager, Medical Records Officer, Billing Executive, Ward Supervisor, NABH Coordinator, Quality Officer, Healthcare Operations Manager."
+    },
+    {
+      "question": "Does the course cover NABH accreditation?",
+      "answer": "Yes, complete NABH standards training including quality management systems, patient safety, documentation standards, infection control, and accreditation readiness."
+    },
+    {
+      "question": "Is placement support provided?",
+      "answer": "100% placement assistance with resume building, interview preparation, mock interviews, and connections to hospitals, healthcare chains, diagnostic centers in Chennai."
+    },
+    {
+      "question": "What is the training format and duration?",
+      "answer": "45 hours online live instructor-led sessions with recorded videos, practical assignments, hospital case studies, HMS software training, and dedicated support."
+    },
+    {
+      "question": "Is prior healthcare experience required?",
+      "answer": "No experience needed. Suitable for fresh graduates and professionals from any background. Basic management knowledge helpful but not mandatory."
+    },
+    {
+      "question": "What certification is awarded?",
+      "answer": "Hospital Administration Course Completion Certificate from ICLP Technologies, recognized by hospitals, healthcare providers, and diagnostic chains."
+    },
+    {
+      "question": "What salary range for freshers in Chennai?",
+      "answer": "Freshers: ₹3-5.5 LPA | Experienced: ₹6-12 LPA across multi-specialty hospitals, corporate chains, diagnostic centers, and healthcare consultancies."
+    },
+    {
+      "question": "Are practical projects included?",
+      "answer": "Yes, hands-on projects: hospital operations simulation, NABH audit preparation, billing & insurance case studies, EMR implementation, and HMS software training."
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/hospital-administration.png",
+  "placement_assurance": true,
+  "projects": [
+    "Hospital Operations Management Simulation",
+    "NABH Standards Audit Preparation",
+    "Insurance Claims Processing Case Study",
+    "Hospital Management Software (HMS) Implementation"
+  ]
+},
+        {
+  "course_name": "Clinical Research & Pharmacovigilance Certification Course",
+  "path": "clinical-research-pharmacovigilance-certification-course",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course/#clinical-research-training-service",
+        "name": "Clinical Research & Pharmacovigilance Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Clinical Research & Pharmacovigilance Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course/#course",
+        "name": "Clinical Research & Pharmacovigilance Course in Chennai",
+        "description": "Comprehensive online training covering clinical research fundamentals, ICH-GCP guidelines, drug development, clinical data management, pharmacovigilance, drug safety case processing, regulatory reporting, and hands-on tools training with placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Clinical Research & Pharmacovigilance Course Completion Certificate",
+        "timeRequired": "PT45H",
+        "keywords": "Clinical Research Course Chennai, Pharmacovigilance Training Chennai, ICH-GCP Training, CRA Training Chennai, CDM Training, Argus Safety Training, Drug Safety Course",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Clinical Research"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pharmacovigilance"
+          },
+          {
+            "@type": "Thing",
+            "name": "ICH-GCP"
+          },
+          {
+            "@type": "Thing",
+            "name": "Clinical Data Management"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3796"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Clinical Research & Pharmacovigilance",
+            "item": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/clinical-research-pharmacovigilance-certification-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Clinical Research & Pharmacovigilance Course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Comprehensive training covering clinical research fundamentals, ICH-GCP guidelines, drug development process, clinical data management, pharmacovigilance, drug safety case processing, regulatory reporting, and hands-on industry tools training."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can join Clinical Research training in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Life science graduates (B.Pharm, M.Pharm, B.Sc, M.Sc Life Sciences), medical professionals, pharmacy students, and working professionals seeking careers in clinical research, pharmacovigilance, CRA, CDM, or drug safety roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What job roles are available after this course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clinical Research Associate (CRA), Pharmacovigilance Associate, Clinical Data Coordinator, Drug Safety Associate, Medical Coder, Regulatory Affairs Executive, Quality Assurance Analyst."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which tools are covered in the training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Argus Safety (Oracle), ArisG, Veeva Vault, MedDRA Dictionary, EDC Systems, and other industry-standard pharmacovigilance and clinical data management tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is placement assistance provided?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, 100% placement assistance with resume building, interview preparation, mock interviews, and direct connections to top clinical research organizations and CROs in Chennai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the course duration?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "45 hours of comprehensive training including theory sessions, practical assignments, case studies, and hands-on tool training."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No prior experience required. Designed for fresh graduates and beginners with life sciences/pharmacy background. Covers concepts from basics to advanced level."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What certification do I receive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clinical Research & Pharmacovigilance Course Completion Certificate from ICLP Technologies, recognized by clinical research organizations and CROs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary range for freshers in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Freshers earn ₹3.5 LPA to ₹6 LPA. With 2+ years experience: ₹8 LPA to ₹15 LPA depending on skills, role, and organization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the training online or classroom?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Online instructor-led training with live sessions, recorded videos for revision, practical assignments, projects, and dedicated doubt-clearing sessions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Master clinical research and pharmacovigilance with comprehensive 45-hour training covering ICH-GCP, drug safety, ICSR processing, regulatory reporting, Argus Safety, and hands-on industry projects with 100% placement assistance.",
+  "what_youll_learn": [
+    "Clinical research fundamentals, trial phases, and protocol development",
+    "ICH-GCP guidelines, ethical principles, and regulatory compliance",
+    "Drug development lifecycle, IND/NDA applications, FDA/CDSCO/EMA regulations",
+    "Clinical data management, EDC tools, and database lock processes",
+    "Pharmacovigilance basics, ADR classification, and causality assessment",
+    "ICSR case processing, MedDRA coding, narrative writing, and case triage",
+    "Argus Safety, ArisG, Veeva Vault practical hands-on training",
+    "Clinical trial monitoring, CRA responsibilities, and quality assurance"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Clinical Research",
+      "subtopics": [
+        "Overview of Clinical Research",
+        "History & Evolution of Clinical Trials",
+        "Phases of Clinical Trials (Phase I–IV)",
+        "Roles & Responsibilities in Clinical Research",
+        "Introduction to ICH-GCP Guidelines"
+      ]
+    },
+    {
+      "module": "Drug Development Process",
+      "subtopics": [
+        "Drug Discovery & Development Lifecycle",
+        "Preclinical Studies",
+        "IND (Investigational New Drug) Application",
+        "NDA (New Drug Application)",
+        "Regulatory Authorities: US FDA, CDSCO (India), EMA"
+      ]
+    },
+    {
+      "module": "Clinical Trial Process",
+      "subtopics": [
+        "Clinical Trial Design",
+        "Protocol Development",
+        "Case Report Forms (CRF)",
+        "Informed Consent Process (ICF)",
+        "Site Selection & Feasibility"
+      ]
+    },
+    {
+      "module": "Good Clinical Practice (GCP)",
+      "subtopics": [
+        "ICH-GCP Guidelines",
+        "Ethical Principles in Clinical Trials",
+        "Investigator Responsibilities",
+        "Sponsor Responsibilities",
+        "Monitoring & Auditing"
+      ]
+    },
+    {
+      "module": "Clinical Data Management (CDM)",
+      "subtopics": [
+        "Data Collection & Entry",
+        "Data Validation",
+        "Query Management",
+        "Database Lock",
+        "Introduction to EDC Tools"
+      ]
+    },
+    {
+      "module": "Pharmacovigilance (PV) Basics",
+      "subtopics": [
+        "Introduction to Pharmacovigilance",
+        "Adverse Drug Reactions (ADR)",
+        "Types of ADRs",
+        "Serious vs Non-Serious Events",
+        "Causality Assessment"
+      ]
+    },
+    {
+      "module": "Drug Safety & Case Processing",
+      "subtopics": [
+        "Individual Case Safety Reports (ICSR)",
+        "MedDRA Coding",
+        "Narrative Writing",
+        "Case Triage",
+        "Follow-up Procedures"
+      ]
+    },
+    {
+      "module": "Regulatory Reporting",
+      "subtopics": [
+        "Expedited Reporting",
+        "Periodic Safety Reports (PSUR, PBRER)",
+        "Signal Detection & Risk Management",
+        "Global PV Regulations (FDA, EMA, WHO)"
+      ]
+    },
+    {
+      "module": "Tools & Software",
+      "subtopics": [
+        "Argus Safety (Oracle)",
+        "ArisG",
+        "Veeva Vault",
+        "MedDRA Dictionary",
+        "EDC Systems"
+      ]
+    },
+    {
+      "module": "Clinical Trial Monitoring",
+      "subtopics": [
+        "Role of CRA (Clinical Research Associate)",
+        "Site Monitoring Visits (SMV)",
+        "Source Data Verification (SDV)",
+        "Audit & Inspection Preparation"
+      ]
+    },
+    {
+      "module": "Quality Assurance (QA)",
+      "subtopics": [
+        "Quality Control vs Quality Assurance",
+        "SOPs in Clinical Research",
+        "Audit Process",
+        "CAPA (Corrective & Preventive Actions)"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Clinical Research & Pharmacovigilance Course?",
+      "answer": "Comprehensive 45-hour training covering clinical research fundamentals, ICH-GCP guidelines, drug development, clinical data management, pharmacovigilance, ICSR processing, regulatory reporting, and hands-on industry tools."
+    },
+    {
+      "question": "Who is eligible for this Clinical Research course?",
+      "answer": "B.Pharm, M.Pharm, B.Sc/M.Sc Life Sciences, Pharmacy, Biotechnology, Microbiology graduates, medical professionals, and working professionals seeking clinical research/pharmacovigilance careers."
+    },
+    {
+      "question": "What job roles can I get after completion?",
+      "answer": "CRA, Pharmacovigilance Associate, Clinical Data Coordinator, Drug Safety Associate, Medical Coder, Regulatory Affairs Executive, Quality Assurance Analyst in CROs/pharma companies."
+    },
+    {
+      "question": "Which software tools are taught?",
+      "answer": "Argus Safety, ArisG, Veeva Vault, MedDRA Dictionary, EDC systems with hands-on practical training and real project case studies."
+    },
+    {
+      "question": "Is placement assistance provided?",
+      "answer": "100% placement support with resume building, interview preparation, mock interviews, and direct connections to Chennai-based clinical research organizations and CROs."
+    },
+    {
+      "question": "What is the course duration and format?",
+      "answer": "45 hours online instructor-led training with live sessions, recorded videos, practical assignments, projects, and dedicated doubt resolution sessions."
+    },
+    {
+      "question": "Do I need prior clinical research experience?",
+      "answer": "No prior experience needed. Course designed for fresh graduates with life sciences background, covering basics to advanced concepts with practical training."
+    },
+    {
+      "question": "What certification is provided?",
+      "answer": "Clinical Research & Pharmacovigilance Course Completion Certificate from ICLP Technologies, recognized by clinical research organizations and Contract Research Organizations (CROs)."
+    },
+    {
+      "question": "What salary can freshers expect in Chennai?",
+      "answer": "Freshers: ₹3.5-6 LPA | 2+ years experience: ₹8-15 LPA depending on role, skills, and organization (CROs, pharma companies, hospitals)."
+    },
+    {
+      "question": "Are there practical projects included?",
+      "answer": "Yes, hands-on projects including clinical trial protocol development, ICSR case processing, pharmacovigilance signal detection, and Argus Safety database operations."
+    }
+  ],
+  "duration": "45 hours",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/clinical-research-pharmacovigilance.png",
+  "placement_assurance": true,
+  "projects": [
+    "Clinical Trial Protocol Development Project",
+    "ICSR Case Processing & MedDRA Coding",
+    "Pharmacovigilance Signal Detection Analysis",
+    "Argus Safety Database Hands-on Project"
+  ]
+},
+        {
 "course_name": "Informatica Data Governance Course",
 "path": "informatica-data-governance-course",
 "schema": {

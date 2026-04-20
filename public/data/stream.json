@@ -9,14 +9,10 @@
         },
         {
           "course": "Clinical Research & Pharmacovigilance",
-          "path": ""
+          "path": "clinical-research-pharmacovigilance-certification-course"
         },
         {
           "course": "Biotechnology Courses",
-          "path": ""
-        },
-        {
-          "course": "Lab Technician Programs",
           "path": ""
         },
         {
@@ -41,7 +37,7 @@
       "streamName": "Science Stream - Computer Science",
       "courses": [
         {
-          "course": "Python / Java Programming",
+          "course": "Python Programming",
           "path": "python-development-online-training"
         },
         {
@@ -49,7 +45,7 @@
           "path": "full-stack-developer-online-training"
         },
         {
-          "course": "Cloud (AWS, Azure, GCP)",
+          "course": "Cloud (AWS)",
           "path": "aws-online-training"
         },
         {
@@ -57,8 +53,12 @@
           "path": "devops-training"
         },
         {
-          "course": "Data Science, AI, ML",
+          "course": "Data Science",
           "path": "data-science-course-online"
+        },
+        {
+          "course":"AI & ML",
+          "path":"ai-ml-training"
         },
         {
           "course": "Cybersecurity",
@@ -127,8 +127,16 @@
           "path": "tally-gst-erp"
         },
         {
-          "course": "SAP FICO / MM / SD / HR",
-          "path": "sap-fico-mm-sd-hr"
+          "course": "SAP FICO ",
+          "path": "sap-fico"
+        },
+        {
+          "course": "SAP MM",
+          "path": "sap-mm"
+        },
+        {
+          "course": "SAP SD ",
+          "path": "sap-sd"
         },
         {
           "course": "Advanced Excel, MIS",
@@ -404,7 +412,7 @@
         },
         {
           "course": "Hospital Administration",
-          "path": "hospital-administration"
+          "path": "hospital-administration-certification-course"
         },
         {
           "course": "SAP Healthcare",
@@ -430,10 +438,6 @@
         {
           "course": "Food Technology",
           "path": "food-technology-course"
-        },
-        {
-          "course": "Lab Technician Courses",
-          "path": "lab-technician-courses"
         },
         {
           "course": "Clinical Data Management",
