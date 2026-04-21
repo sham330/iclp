@@ -197,6 +197,7 @@ const AppBar = () => {
       { name: "SAP SD", type: "sap", path: "sap-sd" },
       {name:"SAP WM",type:"sap",path:"sap-wm"},
       { name: "SAP Banking", type: "sap", path: "sap-banking", },
+      {name:"SAP Integration Suite (CPI)",type:"sap",path:"sap-integration-suite-cpi"},
       {name:"SAP EWM",type:"sap", path: "sap-ewm"},
       { name: "SAP PP", type: "sap", path: "sap-pp" },
       { name: "SAP ABAP", type: "sap", path: "sap-abap" },

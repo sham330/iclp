@@ -414,7 +414,7 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
               </div>
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-8"
-              dangerouslySetInnerHTML={{ __html: additionalContent?.courseDescription || "" }}
+              dangerouslySetInnerHTML={{ __html: additionalContent?.courseDescription||course.description || "" }}
               /> 
 
               <button

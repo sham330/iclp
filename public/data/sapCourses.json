@@ -3221,6 +3221,422 @@
 
         },
         {
+  "course_name": "SAP Integration Suite (SAP CPI) Online Training",
+  "path": "sap-integration-suite-cpi",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-course/#cpi-training-service",
+        "name": "SAP Integration Suite (SAP CPI) Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Online SAP Integration Suite CPI Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-course/#course",
+        "name": "SAP Integration Suite (SAP CPI) Online Course",
+        "description": "Online SAP CPI training covering SAP Integration Suite, integration flows, message mapping, adapters, API management, security, troubleshooting, and advanced integration scenarios. Includes 40+ hours of live sessions, real-time projects, certification support, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "SAP Integration Suite (SAP CPI) Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "SAP CPI Training, SAP Integration Suite Course, SAP CPI Online Training Chennai, SAP CPI Certification, SAP CPI Developer Course",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "SAP CPI"
+          },
+          {
+            "@type": "Thing",
+            "name": "SAP Integration Suite"
+          },
+          {
+            "@type": "Thing",
+            "name": "Cloud Integration"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://iclptech.in/sap-integration-suite-cpi-course/"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/sap-integration-suite-cpi-course/",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2453"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SAP Integration Suite (SAP CPI) Course",
+            "item": "https://iclptech.in/sap-integration-suite-cpi-course/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP Integration Suite and SAP CPI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP Integration Suite is SAP’s cloud integration platform. SAP CPI (Cloud Platform Integration) is its core integration engine used to build and manage cloud‑to‑cloud and cloud‑to‑on‑premise integration flows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should take this SAP CPI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Integration consultants, technofunctional consultants, EAI specialists, Middleware developers, and IT professionals looking to work on SAP Cloud Integration projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is prior SAP experience required?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic awareness of SAP or any enterprise integration platform is helpful but not mandatory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What will I learn in this SAP CPI training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will learn integration flow design, message mapping, adapters (SOAP, REST, IDoc, OData), API management, security, error handling, troubleshooting, and advanced integration scenarios on SAP Integration Suite."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does this course include live SAP CPI environment access?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You get hands‑on practice with live SAP CPI integration flows and real‑time project work on the SAP Integration Suite platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will there be real-time projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The course includes multiple end‑to‑end integration projects between SAP and non‑SAP systems, such as ECC–S/4HANA, S/4HANA–SuccessFactors, and SaaS–on‑premise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I get certification support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You receive a course completion certificate and exam preparation guidance for SAP CPI‑related certification exams."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The program includes placement support, resume building, interview preparation, and placement assistance for SAP CPI and integration‑related roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What job roles can I apply for after this course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can apply for roles such as SAP CPI Developer, SAP Integration Consultant, SAP Integration Suite Specialist, EAI / Middleware Engineer, and SAP Cloud Integration Architect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the course duration and format?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The SAP CPI training is 40+ hours of instructor‑led online sessions, with flexible batches and lifetime access to recorded material."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta_title": "SAP Integration Suite (SAP CPI) Course Online – Certification & Placement | ICLP Tech",
+  "meta_description": "Master SAP CPI with live online SAP Integration Suite training. Build integration flows, APIs, and cloud‑to‑cloud integrations with real‑time projects and job support.",
+  "description": "Learn SAP Integration Suite and SAP CPI for designing, building, and maintaining cloud‑based integration flows between SAP and non‑SAP systems.",
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP CPI Course Curriculum: From Fundamentals to Advanced Integration</strong>",
+    "intro": "Our <strong>SAP CPI Online Training</strong> program is structured to meet top employer expectations, ensuring you gain real‑world <strong>expertise</strong> in cloud integration, iFlows, mapping, and API management."
+  },
+  "track_overview_primary": {
+    "heading": "Module Highlights: <strong>Mastering SAP Integration Suite (CPI)</strong>",
+    "description": "These core <strong>SAP CPI modules</strong> build your foundation from basics to advanced integration skills:",
+    "topics": [
+      "<strong>Integration Suite & CPI Fundamentals:</strong> Overview of SAP Integration Suite, CPI landscape, components, and end‑to‑end integration scenarios",
+      "<strong>Integration Flow Design:</strong> Creating CPI iFlows, designing routing, mapping, and error‑handling strategies",
+      "<strong>Message Mapping & Transformation:</strong> Message mapping tools, XSLT, Groovy, JSON‑XML transformations, and complex message structures",
+      "<strong>Adapters & Connectivity:</strong> Configuring SOAP, REST, IDoc, OData adapters and custom adapters for SAP–non‑SAP integration",
+      "<strong>API Management:</strong> Publishing, securing, and monitoring APIs in SAP CPI including authentication and rate limiting",
+      "<strong>Security & Compliance:</strong> Encryption, secure data transfer, OAuth, SAML, and compliance‑oriented integration patterns",
+      "<strong>Troubleshooting & Advanced Scenarios:</strong> Error handling, monitoring, log analysis, and real‑time vs batch integration"
+    ]
+  },
+  "certification_info": {
+    "heading": "Achieve Your <strong>SAP CPI Certification</strong> & Career Goals (E‑E‑A‑T)",
+    "intro": "Choosing the right <strong>SAP CPI Training</strong> provider is essential for earning a globally recognized <strong>SAP CPI Certification</strong> and accelerating your career.",
+    "highlights": [
+      "<strong>Expert Instruction (Expertise):</strong> Delivered by certified SAP CPI consultants with 10+ years of integration project experience",
+      "<strong>Hands‑on Experience:</strong> Full access to live SAP Integration Suite and CPI for practical exercises and real‑time projects",
+      "<strong>Targeted Placement Support (Trustworthiness):</strong> Resume building, mock interviews, and placement guidance tailored for the Indian IT job market"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Our <strong>SAP Integration Suite (SAP CPI) Training</strong> Stands Out",
+    "intro": "Experience unmatched quality and convenience with one of India’s top <strong>SAP CPI Online Training</strong> platforms.",
+    "training_modes": {
+      "heading": "Flexible <strong>Learning Options</strong>",
+      "description": "Designed for both working professionals and fresh graduates:",
+      "options": [
+        "<strong>Flexible online class schedules</strong> with weekday/weekend batches",
+        "<strong>24/7 technical support</strong> and expert doubt‑clarification sessions"
+      ]
+    },
+    "instructor_expertise": {
+      "heading": "<strong>Real‑Time Learning</strong>",
+      "description": "Exclusive access to CPI iFlow labs, coding assignments, and end‑to‑end integration case studies that mirror real SAP projects."
+    },
+    "placement_support": {
+      "heading": "<strong>Career Launch Support</strong>",
+      "description": "Start your SAP integration career confidently with complete placement assistance designed for aspiring SAP CPI developers."
+    }
+  },
+  "what_youll_learn": [
+    "SAP Integration Suite and SAP CPI fundamentals",
+    "Integration flow (iFlow) design and configuration",
+    "Message mapping and data transformation",
+    "SAP CPI adapters (SOAP, REST, IDoc, OData)",
+    "API management and API security in SAP CPI",
+    "Error handling and troubleshooting techniques",
+    "Advanced integration patterns and real‑time scenarios",
+    "SAP CPI certification exam preparation"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP Integration Suite and SAP CPI",
+      "subtopics": [
+        "Overview of SAP Integration Suite",
+        "Introduction to SAP Cloud Platform Integration (CPI)",
+        "Key components and functionalities",
+        "Use cases and integration scenarios"
+      ]
+    },
+    {
+      "module": "Integration Flow Design",
+      "subtopics": [
+        "Creating and configuring integration flows",
+        "Using the Integration Flow Designer",
+        "Data mapping and transformation",
+        "Error handling and monitoring"
+      ]
+    },
+    {
+      "module": "Message Mapping and Transformation",
+      "subtopics": [
+        "Fundamentals of message mapping",
+        "Using mapping tools and techniques",
+        "Data transformation strategies",
+        "Handling complex mappings and structures"
+      ]
+    },
+    {
+      "module": "Adapters and Connectivity",
+      "subtopics": [
+        "Overview of SAP CPI adapters",
+        "Configuring SOAP, REST, and IDoc adapters",
+        "Using OData adapters for CRUD operations",
+        "Developing and configuring custom adapters"
+      ]
+    },
+    {
+      "module": "API Management in SAP CPI",
+      "subtopics": [
+        "Introduction to API management concepts",
+        "Creating and managing APIs in SAP CPI",
+        "API security, authentication, and authorization",
+        "Monitoring and analyzing API performance"
+      ]
+    },
+    {
+      "module": "Integration Patterns and Best Practices",
+      "subtopics": [
+        "Common integration patterns (e.g., point‑to‑point, hub‑and‑spoke)",
+        "Designing and implementing effective integration solutions",
+        "Best practices for performance and reliability",
+        "Managing and optimizing integration processes"
+      ]
+    },
+    {
+      "module": "Security and Compliance",
+      "subtopics": [
+        "Implementing security measures in SAP CPI",
+        "Data encryption and secure data transfer",
+        "Authentication and authorization best practices",
+        "Ensuring compliance with regulatory requirements"
+      ]
+    },
+    {
+      "module": "Troubleshooting and Error Handling",
+      "subtopics": [
+        "Common integration issues and troubleshooting methods",
+        "Configuring and using error handling mechanisms",
+        "Analyzing and resolving integration errors",
+        "Best practices for maintaining system reliability"
+      ]
+    },
+    {
+      "module": "Advanced Integration Scenarios",
+      "subtopics": [
+        "Complex integration use cases and scenarios",
+        "Integrating with external systems and services",
+        "Handling large data volumes and performance optimization",
+        "Real‑time and batch processing techniques"
+      ]
+    },
+    {
+      "module": "Certification Preparation and Best Practices",
+      "subtopics": [
+        "Overview of SAP CPI certification exams",
+        "Study resources and materials",
+        "Exam preparation strategies and practice exams",
+        "Maintaining certification and ongoing professional development"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Arjun Mehta",
+      "role": "SAP Integration Consultant",
+      "review": "The SAP CPI training was extremely practical. The hands‑on iFlow labs and end‑to‑end integration projects helped me land a role in a major SAP partner. Highly recommended.",
+      "stars": 5,
+      "date": "March 2024"
+    },
+    {
+      "id": 2,
+      "name": "Sunita Verma",
+      "role": "Middleware Developer",
+      "review": "Best SAP CPI course I've taken. The API management and security module was very detailed and aligned with real client projects. Great trainer support.",
+      "stars": 5,
+      "date": "February 2024"
+    },
+    {
+      "id": 3,
+      "name": "Karthik Nair",
+      "role": "SAP CPI Developer",
+      "review": "The troubleshooting and advanced scenario sessions were outstanding. Within a month of completing the course, I got placed at a leading SAP implementation firm.",
+      "stars": 5,
+      "date": "January 2024"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP Integration Suite and SAP CPI?",
+      "answer": "SAP Integration Suite is SAP’s cloud integration platform. SAP CPI (Cloud Platform Integration) is its core integration engine used to build and manage cloud‑to‑cloud and cloud‑to‑on‑premise integration flows."
+    },
+    {
+      "question": "Who should take this SAP CPI course?",
+      "answer": "Integration consultants, technofunctional consultants, EAI specialists, Middleware developers, and IT professionals looking to work on SAP Cloud Integration projects."
+    },
+    {
+      "question": "Is prior SAP experience required?",
+      "answer": "Basic awareness of SAP or any enterprise integration platform is helpful but not mandatory."
+    },
+    {
+      "question": "What will I learn in this SAP CPI training?",
+      "answer": "You will learn integration flow design, message mapping, adapters (SOAP, REST, IDoc, OData), API management, security, error handling, troubleshooting, and advanced integration scenarios on SAP Integration Suite."
+    },
+    {
+      "question": "Does this course include live SAP CPI environment access?",
+      "answer": "Yes. You get hands‑on practice with live SAP CPI integration flows and real‑time project work on the SAP Integration Suite platform."
+    },
+    {
+      "question": "Will there be real-time projects?",
+      "answer": "Yes. The course includes multiple end‑to‑end integration projects between SAP and non‑SAP systems, such as ECC–S/4HANA, S/4HANA–SuccessFactors, and SaaS–on‑premise."
+    },
+    {
+      "question": "Will I get certification support?",
+      "answer": "Yes. You receive a course completion certificate and exam preparation guidance for SAP CPI‑related certification exams."
+    },
+    {
+      "question": "Is there placement assistance?",
+      "answer": "Yes. The program includes placement support, resume building, interview preparation, and career mentoring for SAP CPI and integration‑related roles."
+    }
+  ]},
+        {
           "course_name": "SAP Business Technology Platform (BTP)",
           "path": "sap-btp-training",
           "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
