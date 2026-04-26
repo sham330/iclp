@@ -1,13 +1,25 @@
 import fs from "fs";
 import path from "path";
+import { redirect } from "next/navigation";
 import Head from "next/head";
 import FootCourseDet from "./MainComponent";
+
+const redirectMap = {
+  python: "/course/python-development-online-training/",
+  reactjs: "/course/react-js-online-training/",
+  javascript: "/course/java-script-online-training/",
+  aws: "/course/aws-online-training/",
+  php: "/course/sql-with-php-online-training/",
+  devops: "/course/devops-training/",
+  "r programming": "/course/r-programming-online-training/",
+};
 
 // ✅ Force this route to be dynamic (no static build)
 export const dynamic = "force-dynamic";
 
-export default function FCoursePage({ params }) {
-  const { path: courseKey } = params; // ✅ works in server component
+export default async function FCoursePage({ params }) {
+  const resolvedParams = await params;
+  const courseKey = resolvedParams?.path;
 
   // Read JSON
   const filePath = path.join(process.cwd(), "public/data/fcd.json");
@@ -16,6 +28,7 @@ export default function FCoursePage({ params }) {
 
   // Decode and lowercase param
   const decodedKey = decodeURIComponent(courseKey).toLowerCase();
+  if (redirectMap[decodedKey]) redirect(redirectMap[decodedKey]);
 
   // ✅ Convert JSON keys to lowercase for safe mapping
   const lowercasedData = Object.keys(data).reduce((acc, key) => {

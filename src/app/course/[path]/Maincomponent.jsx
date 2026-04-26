@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import {
@@ -38,6 +38,7 @@ const CourseDetails = () => {
   const courseName = params?.courseName;
 
 
+  const router = useRouter();
   const [course, setCourse] = useState(null);
   const [additionalContent, setAdditionalContent] = useState(null);
   const [openModule, setOpenModule] = useState(null);
@@ -254,13 +255,8 @@ const CourseDetails = () => {
 
 
   if (!course) {
-    return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-2xl text-slate-400 font-semibold">Course not found</p>
-        </div>
-      </div>
-    );
+    router.replace("/courses/");
+    return null;
   }
 
 
