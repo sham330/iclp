@@ -16005,6 +16005,338 @@
             "Healthcare Predictive Model"
           ]
         },
+        {
+  "course_name": "Certified Scrum Master Training",
+  "path": "certified-scrum-master-training-chennai",
+  "meta_title": "Certified Scrum Master (CSM) Training in Chennai | Scrum Alliance Certified",
+  "meta_description": "Get Certified Scrum Master (CSM) certification in Chennai. Live training covering Agile, Scrum framework, roles, ceremonies, artifacts, and scaling Scrum with exam preparation and placement support.",
+  "description": "Become a Certified Scrum Master (CSM) with comprehensive training covering Agile principles, Scrum framework, roles, ceremonies, artifacts, and scaling techniques for enterprise Agile transformation.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/images/logo.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chennai",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/certified-scrum-master-training-chennai/#service",
+        "name": "Certified Scrum Master Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "CSM Certification Training in Chennai"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/certified-scrum-master-training-chennai/#course",
+        "name": "Certified Scrum Master Course in Chennai",
+        "description": "Live instructor-led Certified Scrum Master (CSM) training approved by Scrum Alliance. Covers Agile Manifesto, Scrum roles, ceremonies, artifacts, scaling techniques, and exam preparation with 16 PDUs/SEUs for PMP/PMI-ACP renewal.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Offline"],
+        "inLanguage": "English",
+        "educationalLevel": "Intermediate",
+        "occupationalCredentialAwarded": "Certified ScrumMaster (CSM) Certificate from Scrum Alliance",
+        "timeRequired": "PT16H",
+        "keywords": "Certified Scrum Master Chennai, CSM Training Chennai, Scrum Master Certification, Agile Scrum Training, Scrum Alliance Certification",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Certified Scrum Master"
+          },
+          {
+            "@type": "Thing",
+            "name": "Agile Methodology"
+          },
+          {
+            "@type": "Thing",
+            "name": "Scrum Framework"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "professional"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": ["Online", "Offline"],
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/certified-scrum-master-training-chennai",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1892"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/certified-scrum-master-training-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Certified Scrum Master",
+            "item": "https://iclptech.in/course/certified-scrum-master-training-chennai"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/certified-scrum-master-training-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Certified Scrum Master (CSM) certification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CSM is the most recognized Scrum certification from Scrum Alliance, validating your ability to facilitate Scrum teams, remove impediments, and drive Agile transformation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is prior Agile experience required for CSM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No prior experience required. The 16-hour training covers all fundamentals from Agile Manifesto to scaling Scrum frameworks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long is CSM certification valid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CSM certification is valid for 2 years. Renewal requires 20 SEUs/PDUs through Scrum Alliance activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the CSM exam format?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "50 multiple-choice questions, 60 minutes, 74% passing score (37/50 correct). Two attempts within 90 days included."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should take CSM certification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Project managers, team leads, developers, QA, business analysts, and anyone transitioning to Agile/Scrum roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does CSM help with salary growth?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Certified Scrum Masters earn 20-30% higher salaries than non-certified professionals in Chennai IT companies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Scrum Master salary expectations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fresh CSM certified professionals earn ₹6-12 LPA; experienced Scrum Masters earn ₹15-25+ LPA in Chennai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the training available online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Live interactive online training with Chennai-based trainers, recordings, and 16 PDUs for PMP renewal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Dedicated placement cell connects you with Chennai IT companies seeking certified Scrum Masters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes your CSM training different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scrum Alliance approved trainers, real-world case studies, Chennai enterprise examples, exam simulators, and 100% pass guarantee."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Certified Scrum Master (CSM) certification?",
+      "answer": "CSM is the most recognized Scrum certification from Scrum Alliance, validating your ability to facilitate Scrum teams, remove impediments, and drive Agile transformation."
+    },
+    {
+      "question": "Is prior Agile experience required for CSM?",
+      "answer": "No prior experience required. The 16-hour training covers all fundamentals from Agile Manifesto to scaling Scrum frameworks."
+    },
+    {
+      "question": "How long is CSM certification valid?",
+      "answer": "CSM certification is valid for 2 years. Renewal requires 20 SEUs/PDUs through Scrum Alliance activities."
+    },
+    {
+      "question": "What is the CSM exam format?",
+      "answer": "50 multiple-choice questions, 60 minutes, 74% passing score (37/50 correct). Two attempts within 90 days included."
+    },
+    {
+      "question": "Who should take CSM certification?",
+      "answer": "Project managers, team leads, developers, QA, business analysts, and anyone transitioning to Agile/Scrum roles."
+    },
+    {
+      "question": "Does CSM help with salary growth?",
+      "answer": "Yes. Certified Scrum Masters earn 20-30% higher salaries than non-certified professionals in Chennai IT companies."
+    },
+    {
+      "question": "What are Scrum Master salary expectations?",
+      "answer": "Fresh CSM certified professionals earn ₹6-12 LPA; experienced Scrum Masters earn ₹15-25+ LPA in Chennai."
+    },
+    {
+      "question": "Is the training available online?",
+      "answer": "Yes. Live interactive online training with Chennai-based trainers, recordings, and 16 PDUs for PMP renewal."
+    },
+    {
+      "question": "Do you provide placement support?",
+      "answer": "Yes. Dedicated placement cell connects you with Chennai IT companies seeking certified Scrum Masters."
+    },
+    {
+      "question": "What makes your CSM training different?",
+      "answer": "Scrum Alliance approved trainers, real-world case studies, Chennai enterprise examples, exam simulators, and 100% pass guarantee."
+    }
+  ],
+  "what_youll_learn": [
+    "Agile Manifesto principles and Scrum framework fundamentals",
+    "Scrum roles: Scrum Master, Product Owner, Development Team responsibilities",
+    "Scrum ceremonies: Sprint Planning, Daily Scrum, Sprint Review, Retrospective",
+    "Scrum artifacts: Product Backlog, Sprint Backlog, Increment, Definition of Done",
+    "Scaling Scrum for multiple teams and distributed environments",
+    "Facilitation techniques and servant leadership skills",
+    "CSM exam preparation with practice questions and simulators",
+    "Real-world Scrum implementation case studies"
+  ],
+  "syllabus": [
+    {
+      "module": "General Knowledge",
+      "subtopics": [
+        "Agile Manifesto",
+        "Scrum Foundations",
+        "Empirical and Defined Processes",
+        "Sprint",
+        "The Significance of 'Done'",
+        "The Five Scrum Values",
+        "Applicability of Scrum"
+      ]
+    },
+    {
+      "module": "Scrum Roles",
+      "subtopics": [
+        "Overview of Scrum Roles",
+        "Scrum Master responsibilities",
+        "Product Owner responsibilities",
+        "Teamwork and team characteristics",
+        "Impact on traditional roles"
+      ]
+    },
+    {
+      "module": "Scrum Meetings",
+      "subtopics": [
+        "Sprint Planning Meeting",
+        "Daily Scrum Meeting",
+        "Sprint Review Meeting",
+        "Sprint Retrospective Meeting",
+        "Release Planning Meeting"
+      ]
+    },
+    {
+      "module": "Scrum Artifacts",
+      "subtopics": [
+        "Product Backlog management and refinement",
+        "Item readiness and estimation techniques",
+        "Product Increment and Definition of Done (DoD)",
+        "Sprint Backlog creation",
+        "Burndown Charts (Sprint and Release)"
+      ]
+    },
+    {
+      "module": "Scaling Scrum",
+      "subtopics": [
+        "Working with multiple Scrum teams",
+        "Scaling Product Owners and Product Backlog",
+        "Scaling sprint meetings",
+        "Distributed Scrum teams challenges",
+        "Infrastructure and engineering practices"
+      ]
+    }
+  ],
+  "duration": "16 hours (2 days)",
+  "skill_level": "Intermediate (No prerequisites)",
+  "image": "/CourseDetails/csm-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Sprint Planning Simulation",
+    "Product Backlog Refinement Workshop",
+    "Retrospective Facilitation Practice",
+    "Scaling Scrum Case Study"
+  ]
+},
        {
 "course_name": "Data Science Course",
 "path": "data-science-course-online",

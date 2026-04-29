@@ -165,6 +165,7 @@ const AppBar = () => {
       { name: "Microsoft Azure", path: "microsoft-azure-online-training" },
       { name: "Excel Macros and VBA", path: "excel-macros-and-vba-online-training" },
       { name: "Digital Marketing", path: "digital-marketing-online-training" },
+      {path:"certified-scrum-master-training-chennai", name:"Certified Scrum Master"},
       { name: "UI/UX", path: "ui-and-ux-online-training" },
       { name: "Salesforce", path: "salesforce-online-training" },
       { name: "CCNA", path: "ccna-online-training" },
