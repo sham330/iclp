@@ -109,14 +109,30 @@ const HomeAbout = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    if (name === "phone") {
+      if (!/^\d*$/.test(value) || value.length > 10) return;
+    }
     setFormData((prev) => ({ ...prev, [name]: value }));
+    setErrors((prev) => ({ ...prev, [name]: "" }));
+  };
+
+  const validate = () => {
+    const newErrors = {};
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email))
+      newErrors.email = "Enter a valid email address";
+    if (formData.phone.length !== 10)
+      newErrors.phone = "Phone number must be exactly 10 digits";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    if (!validate()) return;
     setIsSubmitting(true);
 
     try {
@@ -282,20 +298,23 @@ const HomeAbout = () => {
                         value={formData.email} 
                         onChange={handleChange} 
                         required 
-                        className="w-full px-4 py-3.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all duration-200 text-slate-900 placeholder:text-slate-400"
+                        className={`w-full px-4 py-3.5 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all duration-200 text-slate-900 placeholder:text-slate-400 ${errors.email ? "border-red-500" : "border-slate-200"}`}
                       />
+                      {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
                     </div>
                     
                     <div>
                       <input 
                         type="tel" 
                         name="phone" 
-                        placeholder="Phone Number" 
+                        placeholder="Phone Number (10 digits)" 
                         value={formData.phone} 
                         onChange={handleChange} 
                         required 
-                        className="w-full px-4 py-3.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all duration-200 text-slate-900 placeholder:text-slate-400"
+                        maxLength={10}
+                        className={`w-full px-4 py-3.5 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-500 transition-all duration-200 text-slate-900 placeholder:text-slate-400 ${errors.phone ? "border-red-500" : "border-slate-200"}`}
                       />
+                      {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
                     </div>
                     
                     <div>
