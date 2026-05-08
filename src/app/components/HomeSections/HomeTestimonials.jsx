@@ -5,6 +5,8 @@ import { Play } from "lucide-react";
 const REELS = [
   { id: "WaqdIrpAVH8", label: "Student Success Story" },
   { id: "q4FytP95PQQ", label: "Student Success Story" },
+    { id: "KkDINvLDJco", label: "Student Success Story" },
+
 ];
 
 function ReelCard({ id, label }) {

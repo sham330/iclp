@@ -6,6 +6,8 @@ import "./testimonials.css";
 const reels = [
   { id: 1, src: "https://www.youtube.com/embed/WaqdIrpAVH8", label: "Student Success Story" },
   { id: 2, src: "https://www.youtube.com/embed/q4FytP95PQQ", label: "Student Success Story" },
+  { id: 3, src: "https://www.youtube.com/embed/KkDINvLDJco", label: "Student Success Story" },
+
 ];
 
 const testimonials = [
