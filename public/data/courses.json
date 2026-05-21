@@ -23840,197 +23840,348 @@
             "Inbound Integration: Employee Leave Loader"
           ]
         },
-        {
-          "course_name": "Workday Financial Training",
-          "path": "workday-financial-training",
-          "description": "Master Workday Financials including core navigation, organizations, accounting setup, journals, security, suppliers, customers, settlements, reporting, and expenses.",
-          "what_youll_learn": [
-            "Workday core concepts and navigation",
-            "Setting up organizations, cost centers, and worktags",
-            "Financial accounting configuration and ledger management",
-            "Creating and processing journals and EIBs",
-            "Period close, allocation, revaluation, consolidation, and translation",
-            "Workday security, domain policies, and business process security",
-            "Supplier and customer setup with invoices and payments",
-            "Settlement processing and bank reconciliation",
-            "Financial reporting and Workday reporting tools",
-            "Expense processing, travel expenses, and spend authorizations"
-          ],
-          "syllabus": [
-            {
-              "module": "Module 1: Core Concept and Navigation",
-              "subtopics": [
-                "Core Concepts",
-                "Tenant",
-                "Basic Navigation",
-                "Functional Area"
-              ]
-            },
-            {
-              "module": "Module 2: Organization and Worktags",
-              "subtopics": [
-                "Overview",
-                "Security Policies",
-                "Organization",
-                "Reorganization",
-                "Create Company",
-                "Bank Setup",
-                "Create Bank Routing Rule",
-                "Organization Hierarchy",
-                "Cost Center Organization",
-                "Worktags"
-              ]
-            },
-            {
-              "module": "Module 3: Financial Accounting Setup",
-              "subtopics": [
-                "Setup Currency",
-                "Fiscal Schedule",
-                "Account Set",
-                "Account Control Rule Set",
-                "Accounting Posting Rule Set",
-                "Account Translation Rule Set",
-                "Default Reporting Book",
-                "Journal Reversal Option",
-                "Company Accounting Details",
-                "Create Ledger",
-                "Ledger Period",
-                "Maintain Ledger Period",
-                "Custom Validation"
-              ]
-            },
-            {
-              "module": "Module 4: Process Accounting Journals",
-              "subtopics": [
-                "Overview",
-                "Financial Accounting Flow",
-                "Financial Transaction Flow",
-                "Accounting Journals",
-                "Create Journal",
-                "Copy, Repost, Cancel Journal",
-                "Journal Approval Procedure",
-                "Create Recurring Journal Entry Template",
-                "Journal Setup"
-              ]
-            },
-            {
-              "module": "Module 5: Create and Process Journal EIB",
-              "subtopics": [
-                "Create Journal EIB",
-                "Populate Journal Information",
-                "Load Journal EIB",
-                "Process Journal"
-              ]
-            },
-            {
-              "module": "Module 6: Review Period Close",
-              "subtopics": [
-                "Allocation",
-                "Revaluation",
-                "Consolidation",
-                "Translation",
-                "Balance Carry Forward"
-              ]
-            },
-            {
-              "module": "Module 7: Security",
-              "subtopics": [
-                "Functional Areas",
-                "Domain Security Policies for Functional Area",
-                "Business Process Security Policies for Functional Area",
-                "Create Security Group",
-                "View Security Group",
-                "Security Analysis for Workday Account"
-              ]
-            },
-            {
-              "module": "Module 8: Suppliers",
-              "subtopics": [
-                "Overview",
-                "Supplier Setup",
-                "Create Supplier",
-                "Spend Categories and Purchase Item"
-              ]
-            },
-            {
-              "module": "Module 9: Supplier Invoices",
-              "subtopics": [
-                "Overview",
-                "Security Policies",
-                "Create Supplier Invoice and Adjustment"
-              ]
-            },
-            {
-              "module": "Module 10: Customer",
-              "subtopics": [
-                "Overview",
-                "Customer Setup",
-                "Create Customer",
-                "Revenue Categories and Sales Item",
-                "Customer Validation"
-              ]
-            },
-            {
-              "module": "Module 11: Customer Invoices and Customer Receipts",
-              "subtopics": [
-                "Overview",
-                "Create Customer Invoices and Adjustment",
-                "Record Customer Payment - On Account, Short Payment",
-                "Create Customer Refund"
-              ]
-            },
-            {
-              "module": "Module 12: Settlement",
-              "subtopics": [
-                "Overview",
-                "Create Settlement Run",
-                "Cash Flow"
-              ]
-            },
-            {
-              "module": "Module 13: Close and Report",
-              "subtopics": [
-                "Overview",
-                "Period Close",
-                "Bank Reconciliation",
-                "Financial Reporting"
-              ]
-            },
-            {
-              "module": "Module 14: Workday Reporting",
-              "subtopics": [
-                "Overview",
-                "Reporting Terminology"
-              ]
-            },
-            {
-              "module": "Module 15: Expenses",
-              "subtopics": [
-                "Create Expense Report",
-                "Settlement of Expense Report",
-                "Create Travel Expense Report",
-                "Create Spend Authorizations"
-              ]
-            },
-            {
-              "module": "Module 16: Workday Reporting (Advanced)",
-              "subtopics": [
-                "Overview",
-                "Reporting Terminology"
-              ]
-            }
-          ],
-          "duration": "50 hours",
-          "skill_level": "Beginner to Advanced",
-          "image": "/CourseDetails/workday-financial-training.png",
-          "placement_assurance": true,
-          "projects": [
-            "Workday Financial Accounting Setup Project",
-            "Journal EIB Automation Task",
-            "Supplier & Customer Invoice Management Project",
-            "Period Close & Reconciliation Mini Project"
-          ]
+       {
+  "course_name": "Workday Financial Training in Chennai",
+  "path": "workday-financial-training",
+  "description": "Join the best Workday Financial Training in Chennai at ICLP Technologies with live instructor-led sessions covering Workday core concepts, organization setup, worktags, financial accounting configuration, journals, suppliers, customers, settlements, expense management, security, and reporting. 100% practical learning with real-time projects, certification guidance, and placement support for freshers, finance professionals, ERP consultants, and working professionals.",
+  "meta_title": "Workday Financial Training in Chennai | Workday Financial Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join Workday Financial Training in Chennai at ICLP Technologies. Learn Workday Financials with real-time projects, certification guidance, expert trainers, online classes, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
         },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/workday-financial-training/#service",
+        "name": "Workday Financial Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Workday Financial Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/workday-financial-training/#course",
+        "name": "Workday Financial Training in Chennai",
+        "description": "Join Workday Financial Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Workday Financial Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Workday Financial Training in Chennai, Workday Financial Online Training, Workday Financial Course, Workday Financial Certification Training, Workday Financial Placement Training, Workday ERP Financial Training, Workday Financial Functional Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Workday Financial Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "ERP Financial Training"
+          },
+          {
+            "@type": "Thing",
+            "name": "Workday Reporting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Expense Management"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/workday-financial-training/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2983"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/workday-financial-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Workday Financial Training",
+            "item": "https://iclptech.in/course/workday-financial-training/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/workday-financial-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Workday Financial Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Workday Financial Training helps students learn Workday ERP Financial Management modules including accounting setup, reporting, journals, suppliers, customers, expenses, security, and settlements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Workday Financial good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from commerce, finance, accounting, and ERP backgrounds can start a career in Workday Financial Management."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Online Workday Financial Training with live instructor-led sessions is available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Workday Financial Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, experience, and company requirements. Skilled Workday professionals receive attractive salary packages in ERP and finance domains."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn Workday Financial?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Workday Financial Training mainly focuses on finance, ERP processes, business workflows, reporting, and configuration concepts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Workday Financial Training?",
+      "answer": "Workday Financial Training helps students learn Workday ERP Financial Management modules including accounting setup, reporting, journals, suppliers, customers, expenses, security, and settlements."
+    },
+    {
+      "question": "Is Workday Financial good for freshers?",
+      "answer": "Yes. Freshers from commerce, finance, accounting, and ERP backgrounds can start a career in Workday Financial Management."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online training available?",
+      "answer": "Yes. Online Workday Financial Training with live instructor-led sessions is available."
+    },
+    {
+      "question": "What is the salary after Workday Financial Training?",
+      "answer": "Salary depends on skills, experience, and company requirements. Skilled Workday professionals receive attractive salary packages in ERP and finance domains."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Workday Financial Training mainly focuses on finance, ERP processes, business workflows, reporting, and configuration concepts."
+    }
+  ],
+  "what_youll_learn": [
+    "Workday Core Concepts and Navigation",
+    "Organization Setup and Worktags",
+    "Financial Accounting Configuration",
+    "Journal Processing and EIB Management",
+    "Supplier and Customer Management",
+    "Supplier Invoices and Customer Receipts",
+    "Settlement and Bank Reconciliation",
+    "Security and Domain Policies",
+    "Workday Expense Management",
+    "Financial Reporting and Dashboards",
+    "Advanced Workday Reporting",
+    "Period Close Activities",
+    "Allocation and Revaluation",
+    "Consolidation and Translation"
+  ],
+  "syllabus": [
+    {
+      "module": "Workday Core Concepts",
+      "subtopics": [
+        "Introduction to Workday Financial Management",
+        "Workday navigation and user interface",
+        "Core concepts and business process flow",
+        "Overview of finance and ERP use cases"
+      ]
+    },
+    {
+      "module": "Organization Setup and Worktags",
+      "subtopics": [
+        "Organization structure in Workday",
+        "Worktags and financial dimensions",
+        "Company and ledger setup concepts",
+        "Configuration basics for financial structure"
+      ]
+    },
+    {
+      "module": "Financial Accounting Configuration",
+      "subtopics": [
+        "Accounting setup and configuration",
+        "Ledger accounts and posting logic",
+        "Financial business process alignment",
+        "Configuration best practices"
+      ]
+    },
+    {
+      "module": "Journal Processing and EIB",
+      "subtopics": [
+        "Journal creation and processing",
+        "Journal validations and approvals",
+        "EIB management and data uploads",
+        "Practical journal transaction scenarios"
+      ]
+    },
+    {
+      "module": "Supplier and Customer Management",
+      "subtopics": [
+        "Supplier account setup",
+        "Customer account configuration",
+        "Supplier invoice processing",
+        "Customer receipts and settlements"
+      ]
+    },
+    {
+      "module": "Settlement and Expense Management",
+      "subtopics": [
+        "Settlement processing workflows",
+        "Bank reconciliation concepts",
+        "Expense management setup",
+        "Employee expense process handling"
+      ]
+    },
+    {
+      "module": "Security and Domain Policies",
+      "subtopics": [
+        "Security groups and roles",
+        "Domain security policies",
+        "Access control concepts",
+        "Permission management in Workday"
+      ]
+    },
+    {
+      "module": "Reporting and Dashboards",
+      "subtopics": [
+        "Financial reporting fundamentals",
+        "Custom reports and dashboards",
+        "Advanced Workday reporting",
+        "Report analysis and business insights"
+      ]
+    },
+    {
+      "module": "Period Close and Advanced Finance",
+      "subtopics": [
+        "Period close activities",
+        "Allocation and revaluation",
+        "Consolidation processes",
+        "Translation and closing workflows"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Real-time implementation scenarios",
+        "Case studies and practical assignments",
+        "Certification guidance and interview preparation",
+        "Placement assistance and resume support"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (No Coding Required)",
+  "image": "/CourseDetails/workday-financial-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Workday Financial Configuration Project",
+    "Journal Processing and EIB Implementation",
+    "Supplier and Customer Management Scenario",
+    "Expense Management and Settlement Workflow",
+    "Financial Reporting and Dashboard Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Workday Financial Training</strong> in Chennai",
+    "description": "Workday Financial Management is one of the fastest-growing cloud ERP technologies used by global organizations for finance and accounting operations. Build a strong career with placement-focused training, practical exposure, and opportunities in ERP, finance, and Workday consulting domains.",
+    "points": [
+      "<strong>High Demand in Global Companies:</strong> Companies across India, the USA, Canada, Singapore, UAE, and the UK are actively hiring skilled Workday Financial professionals",
+      "<strong>Attractive Salary Packages:</strong> Skilled Workday professionals receive competitive salaries in ERP and finance-related roles",
+      "<strong>Strong Career Growth:</strong> Move into roles like Workday Financial Consultant, Functional Consultant, Reporting Analyst, and Financial Systems Consultant",
+      "<strong>Cloud ERP Technology Exposure:</strong> Gain practical experience in one of the fastest-growing cloud-based financial management platforms",
+      "<strong>International Job Opportunities:</strong> Workday skills are valuable across multinational consulting and enterprise environments",
+      "<strong>Beginner-Friendly Path:</strong> Freshers from commerce, accounting, finance, and ERP backgrounds can start without advanced coding knowledge"
+    ]
+  }
+},
  {
 "course_name": "Digital Marketing",
 "path": "digital-marketing-online-training",
