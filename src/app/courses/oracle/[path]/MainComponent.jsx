@@ -9,6 +9,7 @@ import RelatedCoursesSlider from "@/app/components/RelatedCourses/RelatedCourses
 import CourseReviews from "@/app/components/CourseReviews/CourseReviews";
 import CourseAdvantagesTools from "@/app/components/CourseAdvantagesTools/CourseAdvantagesTools";
 import CourseFAQs from "@/app/components/faq/faq";
+import CourseFAQ from "@/app/components/CourseFAQ/CourseFAQ";
 import {
   FaStar,
   FaDownload,
@@ -396,7 +397,7 @@ const OracleCourseDetailsPage = () => {
       {course.career_benefits && (
         <section className="py-8 bg-slate-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
-            <h2
+           <h2
               className="text-3xl md:text-4xl font-bold text-[#01377d] mb-4"
             >
             {renderWithStrong(course.career_benefits.heading)}
@@ -812,7 +813,14 @@ const OracleCourseDetailsPage = () => {
     </div>
   </section>
 
-  <CourseReviews />
+  <CourseReviews 
+    reviews={course.reviews}
+    title={`${course.course_name} Reviews`}
+    averageRating="4.9/5"
+    totalReviews="1,200+ learners"
+  />
+
+  <CourseFAQ faqs={course.faqs} courseName={course.course_name} />
 
   {/* CTA Section */}
   <section className="py-16 bg-gradient-to-r from-[#01377d] to-[#014a9f]">
