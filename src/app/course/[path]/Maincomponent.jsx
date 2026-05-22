@@ -491,24 +491,29 @@ const CourseDetails = () => {
       )}
 
       {course.why_institute && (
-        <section className="py-10 bg-white">
+        <section className="py-10 bg-gradient-to-br from-[#f0f6ff] to-slate-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
             <h2
-              className="text-4xl font-bold text-[#01377d] mb-4"
+              className="text-4xl font-bold text-[#01377d] mb-3"
               dangerouslySetInnerHTML={{ __html: course.why_institute.heading }}
             />
             <p
-              className="text-lg text-slate-700 mb-6"
+              className="text-lg text-slate-600 mb-8 max-w-3xl"
               dangerouslySetInnerHTML={{ __html: course.why_institute.intro }}
             />
 
             <div className="grid md:grid-cols-2 gap-6">
               {course.why_institute.instructor_expertise && (
-                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
-                  <h3
-                    className="text-xl font-bold text-[#01377d] mb-3"
-                    dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
-                  />
+                <div className="bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="bg-blue-500 text-white p-2 rounded-lg">
+                      <FaGraduationCap className="text-xl" />
+                    </div>
+                    <h3
+                      className="text-xl font-bold text-[#01377d]"
+                      dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.heading }}
+                    />
+                  </div>
                   <p
                     className="text-slate-700 leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.instructor_expertise.description }}
@@ -517,11 +522,16 @@ const CourseDetails = () => {
               )}
 
               {course.why_institute.training_modes && (
-                <div className="bg-slate-50 rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
-                  <h3
-                    className="text-xl font-bold text-[#01377d] mb-3"
-                    dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
-                  />
+                <div className="bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="bg-blue-500 text-white p-2 rounded-lg">
+                      <FaBriefcase className="text-xl" />
+                    </div>
+                    <h3
+                      className="text-xl font-bold text-[#01377d]"
+                      dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.heading }}
+                    />
+                  </div>
                   <p
                     className="text-slate-700 mb-4"
                     dangerouslySetInnerHTML={{ __html: course.why_institute.training_modes.description }}
@@ -539,6 +549,24 @@ const CourseDetails = () => {
                   </ul>
                 </div>
               )}
+
+              {course.why_institute.highlights?.map((item, index) => (
+                <div key={index} className="bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-500 hover:shadow-lg transition-all">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="bg-blue-500 text-white p-2 rounded-lg">
+                      <FaCheckCircle className="text-xl" />
+                    </div>
+                    <h3
+                      className="text-xl font-bold text-[#01377d]"
+                      dangerouslySetInnerHTML={{ __html: item.heading }}
+                    />
+                  </div>
+                  <p
+                    className="text-slate-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </section>
