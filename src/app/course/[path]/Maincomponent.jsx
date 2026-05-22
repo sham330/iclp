@@ -275,7 +275,7 @@ const CourseDetails = () => {
                 ONLINE COURSE
               </span>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                {course.course_name}
+                {course.name ||course.course_name}
               </h1>
 
 
