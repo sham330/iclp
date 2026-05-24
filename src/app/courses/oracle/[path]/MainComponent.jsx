@@ -311,7 +311,7 @@ const OracleCourseDetailsPage = () => {
             ORACLE TRAINING
           </span>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            {course.course_name}
+            {course.name ||course.course_name}
           </h1>
 
           {/* Rating and Learners */}
@@ -345,7 +345,7 @@ const OracleCourseDetailsPage = () => {
           </div>
 
           <p className="text-[#97e7f5] text-lg leading-relaxed mb-8">
-            {additionalContent.courseDescription || course.description}
+            { course.description || additionalContent.courseDescription}
           </p>
 
           <button
