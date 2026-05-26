@@ -16657,222 +16657,387 @@
 "Predictive Modeling",
 "Data Analysis"
 ] },
-        {
-          "course_name": "Artificial Intelligence",
-          "path": "artificial-intelligence-course-online",
-          "meta_title": "AI Course Online | Artificial Intelligence Training | AI Certificate",
-          "meta_description": "Learn AI online with expert training & certificate. Build your future with AI skills. Enroll now and start your journey today!",
-          "description": "Learn artificial intelligence concepts and techniques for building intelligent systems.",
-          "what_youll_learn": [
-            "Understand AI fundamentals (neural networks, backpropagation)",
-            "Work with machine learning and deep learning (CNNs, RNNs, Transformers)",
-            "Build AI models and algorithms (supervised/unsupervised/reinforcement learning)",
-            "Use Python and TensorFlow/PyTorch for AI development (GPU acceleration)",
-            "Deploy AI solutions (APIs, edge devices, cloud services)",
-            "Preprocess and optimize datasets for AI (feature engineering, data augmentation)",
-            "Fine-tune LLMs and generative AI (prompt engineering, LoRA adapters)",
-            "Implement MLOps practices (model monitoring, drift detection)"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to Artificial Intelligence",
-              "subtopics": [
-                "Overview of AI and its applications",
-                "AI lifecycle",
-                "Setting up the AI environment"
-              ]
-            },
-            {
-              "module": "Machine Learning",
-              "subtopics": [
-                "Supervised and unsupervised learning",
-                "Building predictive models",
-                "Evaluating model performance"
-              ]
-            },
-            {
-              "module": "Deep Learning",
-              "subtopics": [
-                "Introduction to neural networks",
-                "Building deep learning models",
-                "Using TensorFlow and Keras"
-              ]
-            },
-            {
-              "module": "AI Deployment",
-              "subtopics": [
-                "Deploying AI models",
-                "AI in production environments",
-                "Monitoring and optimizing AI solutions"
-              ]
-            },
-            {
-              "module": "Project Work",
-              "subtopics": [
-                "Hands-on AI projects",
-                "Final project presentations"
-              ]
-            }
-          ],
-          "duration": "35 hours",
-          "skill_level": "Advanced",
-          "image": "https://cdn.vectorstock.com/i/500p/85/40/artificial-intelligence-logo-icon-symbol-vector-31118540.jpg",
-          "placement_assurance": true,
-          "projects": [
-            "AI Chatbot",
-            "Image Recognition System"
-          ]
+       {
+  "course_name": "Artificial Intelligence",
+  "name":"Artificial Intelligence Course Online with Placement Assistance",
+  "path": "artificial-intelligence-course-online",
+  "description": "ICLP Technologies offers industry-focused Artificial Intelligence Course Online designed for freshers, software professionals, non-IT candidates, and working professionals who want to build a successful career in Artificial Intelligence and Machine Learning. Our AI Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Machine Learning, Deep Learning, Python, ChatGPT, Prompt Engineering, Generative AI, NLP, and AI automation tools.",
+  "meta_title": "Artificial Intelligence Course Online | AI Training in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Artificial Intelligence Course Online at ICLP Technologies. Learn AI, Machine Learning, Deep Learning, Python, Gen AI, and ChatGPT with real-time projects, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
         },
-        {
-          "course_name": "ChatGPT Online Course",
-          "path": "chatgpt-online-course",
-          "description": "Master AI interaction and prompt engineering with ChatGPT.",
-          "what_youll_learn": [
-            "Generative AI fundamentals",
-            "Prompt engineering techniques",
-            "ChatGPT for productivity",
-            "API integration",
-            "GPT model architecture"
-          ],
-          "syllabus": [
-            {
-              "module": "Interacting with Superintelligence",
-              "subtopics": [
-                "Introduction to Generative AI",
-                "Overview of ChatGPT and OpenAI",
-                "ChatGPT Capabilities",
-                "ChatGPT Applications",
-                "Future of Human-AI Collaboration",
-                "Interacting with ChatGPT"
-              ]
-            },
-            {
-              "module": "Prompt Engineering and ChatGPT Plugins",
-              "subtopics": [
-                "Overview of Prompt Engineering",
-                "Why Prompt Engineering?",
-                "What is Prompt Engineering?",
-                "Prompt Engineering Applications",
-                "Types of Prompting",
-                "Priming Prompts",
-                "Decomposing Prompts",
-                "How to get responses from ChatGPT",
-                "ChatGPT Plugins"
-              ]
-            },
-            {
-              "module": "ChatGPT for Productivity",
-              "subtopics": [
-                "Using ChatGPT for Productivity",
-                "Learning Excel using ChatGPT",
-                "Analysing Data in PowerBI using ChatGPT",
-                "Creating the Content Marketing Plan",
-                "Social Media Marketing through ChatGPT",
-                "SEO and Keyword Search using ChatGPT",
-                "Generating Content with ChatGPT",
-                "Using ChatGPT for Customer Service",
-                "Email Marketing using ChatGPT",
-                "Building a Project Management Plan through ChatGPT"
-              ]
-            },
-            {
-              "module": "ChatGPT for the Developers and Exploring the ChatGPT API",
-              "subtopics": [
-                "ChatGPT to create programs",
-                "Using ChatGPT for Debugging",
-                "Using ChatGPT for Integrating New Features",
-                "ChatGPT for Testing",
-                "Documenting the Code through ChatGPT",
-                "Concepts of Essential Application Programming Interface",
-                "OpenAI and ChatGPT API"
-              ]
-            },
-            {
-              "module": "GPT Models, Pre-Processing, and Fine-Tuning the ChatGPT",
-              "subtopics": [
-                "Introduction to Language Models",
-                "ChatGPT Model Architecture",
-                "Advantages and Disadvantages of GPT Model",
-                "Pre-Trained GPT Models",
-                "Model Architecture",
-                "Data Preparation",
-                "Hyperparameter Tuning"
-              ]
-            },
-            {
-              "module": "Building the AI-Powered ChatGPT",
-              "subtopics": [
-                "Creating the Chatbot using the Chatterbot",
-                "Developing the Interactive Chatbot through Rasa",
-                "Developing the Chatbot through ChatGPT API"
-              ]
-            },
-            {
-              "module": "Deploying and Integrating ChatGPT in Business Applications",
-              "subtopics": [
-                "Integrating ChatGPT with Power Automate",
-                "Integrating ChatGPT with Excel and Power Apps",
-                "Creating a Serverless REST API with the ChatGPT"
-              ]
-            },
-            {
-              "module": "GPT-3",
-              "subtopics": [
-                "Overview of GPT-3",
-                "Democratizing the NLP",
-                "Prompts, Completions, and Tokens",
-                "Playground",
-                "GPT-3 use cases",
-                "GPT-3 Risks"
-              ]
-            },
-            {
-              "module": "Developing and Deploying GPT-3 Powered Application",
-              "subtopics": [
-                "Setting up the GPT-3 API and Integrating it into the Projects",
-                "Developing Conversational API for e-commerce and finance domain",
-                "Limitations and Strengths of GPT-3 in Developing Conversational AI",
-                "Scaling and Deploying GPT-3 Models to Production"
-              ]
-            },
-            {
-              "module": "Building Web Applications using ChatGPT",
-              "subtopics": [
-                "Developing web development architecture",
-                "Building backend server",
-                "Configuring the database",
-                "Configuring React-based client-side application",
-                "Writing user API requests to MongoDB with Express and React",
-                "Fetching and Updating the Database with MongoDB API and Routing with the Express",
-                "Routing to React-based client-side application",
-                "Debugging the client-side coding",
-                "Building the website and creating landing page content"
-              ]
-            },
-            {
-              "module": "Some Famous Generative AI Tools",
-              "subtopics": [
-                "MidJourney",
-                "Dall-E 2",
-                "Hugging Face",
-                "NLG Cloud",
-                "Bard",
-                "Copy.ai",
-                "Codeium",
-                "Tome",
-                "WriteSonic"
-              ]
-            }
-          ],
-          "duration": "30 hours",
-          "skill_level": "Intermediate",
-          "image": "/CourseDetails/c.png",
-          "placement_assurance": true,
-          "projects": [
-            "AI Chatbot",
-            "Productivity Automation"
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
           ]
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#service",
+        "name": "Artificial Intelligence Course Online",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Artificial Intelligence Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#course",
+        "name": "Artificial Intelligence Course Online",
+        "description": "Join Artificial Intelligence Course Online at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Artificial Intelligence Course Completion Certificate",
+        "timeRequired": "PT60H",
+        "keywords": "Artificial Intelligence Course Online, AI Training in Chennai, Artificial Intelligence Course, AI Certification Training, Artificial Intelligence Placement Training, AI Course with Placement, AI Online Course, Machine Learning Training, Deep Learning Course, Gen AI Training, ChatGPT Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Artificial Intelligence"
+          },
+          {
+            "@type": "Thing",
+            "name": "Machine Learning"
+          },
+          {
+            "@type": "Thing",
+            "name": "Deep Learning"
+          },
+          {
+            "@type": "Thing",
+            "name": "Generative AI"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/artificial-intelligence-course-online/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2610"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Artificial Intelligence Course Online",
+            "item": "https://iclptech.in/course/artificial-intelligence-course-online/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Artificial Intelligence Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Artificial Intelligence Training helps students learn AI technologies including Machine Learning, Deep Learning, NLP, ChatGPT, Python, and Generative AI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is AI good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in Artificial Intelligence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online AI training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide Artificial Intelligence Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic programming knowledge is helpful but not mandatory for beginners."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can learn Artificial Intelligence with proper training and practical project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after AI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI professionals receive attractive salary packages depending on skills, projects, and experience."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Artificial Intelligence Training?",
+      "answer": "Artificial Intelligence Training helps students learn AI technologies including Machine Learning, Deep Learning, NLP, ChatGPT, Python, and Generative AI."
+    },
+    {
+      "question": "Is AI good for freshers?",
+      "answer": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in Artificial Intelligence."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online AI training available?",
+      "answer": "Yes. We provide Artificial Intelligence Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "Basic programming knowledge is helpful but not mandatory for beginners."
+    },
+    {
+      "question": "Can non-IT students learn AI?",
+      "answer": "Yes. Non-IT candidates can learn Artificial Intelligence with proper training and practical project guidance."
+    },
+    {
+      "question": "What is the salary after AI course?",
+      "answer": "AI professionals receive attractive salary packages depending on skills, projects, and experience."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Artificial Intelligence",
+    "Python for AI",
+    "Machine Learning Algorithms",
+    "Deep Learning Concepts",
+    "Natural Language Processing",
+    "Neural Networks",
+    "Generative AI",
+    "ChatGPT and Prompt Engineering",
+    "AI Automation Tools",
+    "Computer Vision Basics",
+    "AI Model Deployment",
+    "AI Real-Time Projects",
+    "Data Visualization",
+    "AI Project Implementation",
+    "Interview Preparation"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Artificial Intelligence",
+      "subtopics": [
+        "Overview of Artificial Intelligence",
+        "AI applications across industries",
+        "Types of AI and intelligent systems",
+        "Foundations of machine intelligence"
+      ]
+    },
+    {
+      "module": "Python for AI",
+      "subtopics": [
+        "Python basics for AI development",
+        "Working with data structures and functions",
+        "NumPy, Pandas, and data handling",
+        "Python environments and AI libraries"
+      ]
+    },
+    {
+      "module": "Machine Learning Algorithms",
+      "subtopics": [
+        "Supervised and unsupervised learning",
+        "Regression and classification algorithms",
+        "Model training and evaluation",
+        "Feature engineering and model improvement"
+      ]
+    },
+    {
+      "module": "Deep Learning Concepts",
+      "subtopics": [
+        "Introduction to deep learning",
+        "Layers, activation functions, and optimization",
+        "Training deep learning models",
+        "Deep learning use cases"
+      ]
+    },
+    {
+      "module": "Natural Language Processing",
+      "subtopics": [
+        "Text preprocessing and tokenization",
+        "NLP workflows and language models",
+        "Sentiment analysis and text classification",
+        "Applications of NLP in AI systems"
+      ]
+    },
+    {
+      "module": "Neural Networks",
+      "subtopics": [
+        "Artificial neural network concepts",
+        "Forward and backward propagation",
+        "Building neural network models",
+        "Performance tuning basics"
+      ]
+    },
+    {
+      "module": "Generative AI and ChatGPT",
+      "subtopics": [
+        "Introduction to Generative AI",
+        "ChatGPT use cases and workflows",
+        "Prompt Engineering fundamentals",
+        "Content and automation use cases with Gen AI"
+      ]
+    },
+    {
+      "module": "AI Automation and Computer Vision",
+      "subtopics": [
+        "AI automation tools overview",
+        "Workflow automation with AI tools",
+        "Computer vision basics",
+        "Image-related AI implementation concepts"
+      ]
+    },
+    {
+      "module": "Model Deployment and Visualization",
+      "subtopics": [
+        "AI model deployment basics",
+        "Real-world implementation workflows",
+        "Data visualization for AI insights",
+        "Presenting model outputs and dashboards"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "AI real-time project implementation",
+        "Case studies and project assignments",
+        "Interview preparation and mock sessions",
+        "Certification guidance and placement assistance"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (Basic Programming Helpful but Not Mandatory)",
+  "image": "/CourseDetails/artificial-intelligence-course-online.png",
+  "placement_assurance": true,
+  "projects": [
+    "Machine Learning Prediction Project",
+    "Deep Learning Model Implementation",
+    "ChatGPT and Prompt Engineering Use Case",
+    "NLP Text Processing Project",
+    "AI Model Deployment and Visualization Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Artificial Intelligence Training</strong> in Chennai",
+    "description": "Artificial Intelligence is one of the fastest-growing technologies used by multinational companies across healthcare, finance, IT, automation, retail, and cloud computing industries. Build a future-ready career with practical AI skills, real-time projects, and placement-focused learning.",
+    "points": [
+      "<strong>High Demand in Global Industries:</strong> Organizations are actively hiring AI professionals for automation, analytics, predictive systems, and intelligent business solutions",
+      "<strong>Attractive Salary Packages:</strong> AI professionals receive strong salary potential based on skills, project exposure, and experience",
+      "<strong>Future-Proof Career Path:</strong> Artificial Intelligence continues to expand across software, analytics, automation, and enterprise systems",
+      "<strong>Wide Career Opportunities:</strong> Students can move into AI Engineer, Machine Learning Engineer, Data Scientist, NLP Engineer, and Generative AI roles",
+      "<strong>Real-Time Project Exposure:</strong> Hands-on training builds practical confidence in implementation, deployment, and AI workflows",
+      "<strong>Global Job Opportunities:</strong> Companies across India, USA, Canada, UAE, Singapore, and Europe are actively hiring AI talent"
+    ]
+  },"why_institute": {
+  "heading": "Why Choose ICLP Technologies for Artificial Intelligence Training?",
+  "intro": "ICLP Technologies provides industry-focused Artificial Intelligence Course Online with practical learning, real-time projects, certification guidance, and placement support, designed for freshers, software professionals, non-IT candidates, and working professionals.",
+  "instructor_expertise": {
+    "heading": "Industry Expert Trainers",
+    "description": "Learn from experienced AI professionals with real-time project and corporate training exposure. Get personalized guidance and doubt-clearing sessions throughout the course."
+  },
+  "training_modes": {
+    "heading": "Flexible Learning Options",
+    "description": "Tailored for Chennai students and IT professionals at all levels:",
+    "options": [
+      "<strong>Online Training:</strong> Learn from anywhere with live instructor-led sessions and recorded access.",
+      "<strong>Classroom Training:</strong> In‑center practical training in Chennai.",
+      "<strong>Weekday & Weekend Batches:</strong> Fit working professionals, fresh graduates, and beginners.",
+      "<strong>Real-Time Projects:</strong> Hands-on AI, ML, and Gen AI projects to build a strong portfolio."
+    ]
+  },
+  "support_features": {
+    "heading": "Placement & Learning Support",
+    "points": [
+      "<strong>Placement Assistance:</strong> Resume preparation, mock interviews, LinkedIn optimization, and job referral support.",
+      "<strong>Practical Learning Methodology:</strong> Lecture + hands-on implementation with AI/ML lab sessions.",
+      "<strong>Lifetime Learning Support:</strong> Access to recordings, project files, interview materials, and study documents even after course completion."
+    ]
+  }
+}
+}
       ]
     },
     {
@@ -24553,7 +24718,365 @@
 } },{
   "course_name": "Pega Training in Chennai",
   "path": "pega-training-in-chennai",
-  "description": "Join the best Pega Training in Chennai at ICLP Technologies with live instructor-led sessions covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps. 100% practical learning with real-time projects, certification guidance, and placement support for students, professionals, and entrepreneurs.",
+  "description": "Join Pega Training in Chennai at ICLP Technologies with live instructor-led sessions covering Pega BPM, Pega PRPC architecture, case management, application development, workflow automation, business rules, integrations, reporting, security, and deployment concepts. 100% practical learning with real-time projects, certification guidance, and placement assistance for freshers, software professionals, BPM consultants, and working professionals.",
+  "meta_title": "Pega Training in Chennai | Pega Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join Pega Training in Chennai at ICLP Technologies. Learn Pega BPM, Pega PRPC, case management, real-time projects, certification guidance, and placement assistance from industry experts.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/pega-training-in-chennai/#service",
+        "name": "Pega Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Pega Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/pega-training-in-chennai/#course",
+        "name": "Pega Training in Chennai",
+        "description": "Join Pega Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Pega Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Pega Training in Chennai, Pega Online Training, Pega Course, Pega BPM Training, Pega Placement Training, Pega PRPC Training, Pega CSA Certification Training, Pega CSSA Training, Pega Developer Training, Pega Workflow Automation Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Pega BPM"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pega PRPC"
+          },
+          {
+            "@type": "Thing",
+            "name": "Case Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Workflow Automation"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/pega-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3000"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/pega-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Pega Training",
+            "item": "https://iclptech.in/courses/pega-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/pega-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Pega Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pega Training helps students learn workflow automation, BPM concepts, case management, and low-code application development using the Pega platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Pega good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, software, and business backgrounds can start a successful career in Pega technologies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Pega training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide Pega Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge for Pega?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic programming knowledge is helpful, but beginners can also learn Pega because it is a low-code development platform."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Pega Training?",
+      "answer": "Pega Training helps students learn workflow automation, BPM concepts, case management, and low-code application development using the Pega platform."
+    },
+    {
+      "question": "Is Pega good for freshers?",
+      "answer": "Yes. Freshers from IT, software, and business backgrounds can start a successful career in Pega technologies."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online Pega training available?",
+      "answer": "Yes. We provide Pega Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge for Pega?",
+      "answer": "Basic programming knowledge is helpful, but beginners can also learn Pega because it is a low-code development platform."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Pega BPM",
+    "Pega PRPC Architecture",
+    "Case Management",
+    "Application Development",
+    "User Interface Design",
+    "Workflow Automation",
+    "Business Rules and Decisioning",
+    "Integrations and Services",
+    "Reports and Dashboards",
+    "Security and Access Management",
+    "Deployment Concepts",
+    "Real-Time Implementation Scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Pega BPM Fundamentals",
+      "subtopics": [
+        "Introduction to Pega Platform",
+        "Overview of BPM and workflow automation",
+        "Pega architecture and core concepts",
+        "Enterprise use cases and implementation overview"
+      ]
+    },
+    {
+      "module": "Pega PRPC Architecture",
+      "subtopics": [
+        "PRPC components and platform structure",
+        "Rules, classes, and inheritance",
+        "Pega application layers",
+        "Development environment and portal overview"
+      ]
+    },
+    {
+      "module": "Case Management",
+      "subtopics": [
+        "Case lifecycle and stages",
+        "Case types and process flows",
+        "Assignments and approvals",
+        "Case management implementation scenarios"
+      ]
+    },
+    {
+      "module": "Application Development",
+      "subtopics": [
+        "Building applications in Pega",
+        "App Studio and Dev Studio basics",
+        "Forms, sections, and user interactions",
+        "Low-code development best practices"
+      ]
+    },
+    {
+      "module": "User Interface and Workflow Automation",
+      "subtopics": [
+        "UI design and portals",
+        "Harnesses and sections",
+        "Workflow configuration",
+        "Automation of business processes"
+      ]
+    },
+    {
+      "module": "Business Rules and Decisioning",
+      "subtopics": [
+        "Decision tables and decision trees",
+        "Business rules implementation",
+        "Routing and SLA configuration",
+        "Decision strategies and automation logic"
+      ]
+    },
+    {
+      "module": "Integrations and Services",
+      "subtopics": [
+        "REST and SOAP integration basics",
+        "Connectors and services in Pega",
+        "Data pages and data transforms",
+        "Integration with external enterprise systems"
+      ]
+    },
+    {
+      "module": "Reports, Dashboards, and Security",
+      "subtopics": [
+        "Creating reports and dashboards",
+        "Report definitions and data insights",
+        "Access groups, roles, and privileges",
+        "Application security and access control"
+      ]
+    },
+    {
+      "module": "Deployment and Implementation Concepts",
+      "subtopics": [
+        "Packaging and deployment basics",
+        "Testing and debugging concepts",
+        "Versioning and migration overview",
+        "Real-time implementation practices"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Live Pega project scenarios",
+        "Hands-on assignments and case studies",
+        "CSA/CSSA certification guidance",
+        "Interview preparation and placement support"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/pega-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Pega Case Management Project",
+    "Workflow Automation Implementation",
+    "Business Rules and Decisioning Scenario",
+    "Pega Integration with External Services",
+    "Reports and Dashboard Development Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Pega Training</strong> in Chennai",
+    "description": "Pega is one of the most in-demand BPM and low-code automation platforms used by multinational companies across banking, insurance, healthcare, telecom, and enterprise industries. Build a strong career with practical learning, certification guidance, and placement-focused training.",
+    "points": [
+      "<strong>High Demand in BPM and Automation Industries:</strong> Organizations actively hire Pega developers, BPM consultants, and system architects for workflow automation projects",
+      "<strong>Excellent Salary Opportunities:</strong> Skilled Pega professionals receive competitive salary packages in development, consulting, and automation roles",
+      "<strong>Global Career Opportunities:</strong> Pega skills are in demand across India and international enterprise markets",
+      "<strong>Strong Demand Across Industries:</strong> Banking, insurance, healthcare, telecom, and IT sectors use Pega for business process transformation",
+      "<strong>Exposure to Low-Code Application Development:</strong> Learn how enterprise apps are built faster using low-code tools and workflow-driven architectures",
+      "<strong>Career Growth in Multinational Companies:</strong> Build a path toward roles in consulting, architecture, support, and workflow automation leadership"
+    ]
+  },
+  "who_can_learn": [
+    "Freshers",
+    "IT Professionals",
+    "Software Developers",
+    "BPM Professionals",
+    "Business Analysts",
+    "Working Professionals",
+    "Career Switchers"
+  ],
+  "curriculum_overview": {
+    "heading": "Comprehensive Pega Training Curriculum",
+    "intro": "Our Pega training program delivers 100% practical, industry-focused learning with live instructor-led sessions, workflow automation scenarios, case management projects, and certification-oriented preparation for enterprise BPM careers."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Pega Training</strong>?",
+    "intro": "ICLP Technologies offers industry-oriented Pega Training in Chennai with practical learning, real-time projects, expert mentorship, certification guidance, and placement support for freshers, software professionals, BPM consultants, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced Pega Trainers",
+      "description": "Learn from experienced trainers with real-world exposure to Pega BPM, PRPC architecture, case management, workflow automation, decisioning, application development, and enterprise integration scenarios."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Pega training is designed for students and professionals who need flexible, practical, and job-oriented learning:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Interactive real-time sessions with Q&amp;A, practical explanations, and guided learning",
+        "<strong>Real-Time Project Training:</strong> Hands-on exposure through live projects, case studies, assignments, and implementation scenarios",
+        "<strong>Flexible Batch Timings:</strong> Weekday and weekend batches suitable for freshers, software professionals, and career switchers",
+        "<strong>Recorded Access:</strong> Access to recorded classes, learning materials, certification guidance, and continuous doubt-clearing support"
+      ]
+    }
+  }
+},{
+  "course_name": "Pega Online Training",
+  "path": "pega-online-training",
+  "description": "Join the best Pega Online Training at ICLP Technologies with live instructor-led sessions covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps. 100% practical learning with real-time projects, certification guidance, and placement support for students, professionals, and entrepreneurs.",
   "career_benefits": {
     "heading": "Career Benefits of <strong>Pega Training</strong> in Chennai",
     "description": "The growing IT sector in Chennai demands skilled Pega professionals. Build a high-demand career with remote flexibility, consulting opportunities, and roles in top MNCs, banks, insurance firms, and healthcare companies.",
@@ -24745,184 +25268,6 @@
   ],
   "duration": "4-8 Weeks (Flexible Batches)",
   "skill_level": "Beginner to Advanced (No Strict Prerequisites)",
-  "image": "/CourseDetails/pega-training-chennai.png",
-  "placement_assurance": true,
-  "projects": [
-    "Pega Case Management Application",
-    "BPM Workflow Automation Project",
-    "Enterprise Application with UI/UX Customization",
-    "Integration with External Systems using Connectors",
-    "Reporting Dashboard & Analytics Implementation"
-  ],
-  "meta_title": "Pega Training in Chennai – Certification Course with Real-Time Projects | ICLP Technologies",
-  "meta_description": "Join Pega Training in Chennai at ICLP Technologies. Learn Case Management, BPM, Rule-Based Development, UI/UX & DevOps with real-time projects, certification guidance, and placement support."
-},{
-  "course_name": "Pega Online Training",
-  "path": "pega-online-training",
-  "description": "Join the best Pega Online Training with live instructor-led sessions covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
-  "career_benefits": {
-    "heading": "Career Benefits of <strong>Pega Training</strong>",
-    "description": "The growing IT sector demands skilled Pega professionals. Build a high-demand career with remote flexibility, consulting opportunities, and roles in top MNCs, banks, insurance firms, and healthcare companies.",
-    "points": [
-      "<strong>High Demand Across Industries:</strong> IT companies, BFSI sector, and enterprises actively hiring Pega developers and architects",
-      "<strong>Attractive Salaries:</strong> Freshers earn ₹3.5-6 LPA; experienced pros ₹8-18+ LPA, consultants even higher",
-      "<strong>Career Flexibility:</strong> Remote work, freelance consulting, and roles across BFSI, healthcare, and telecom industries",
-      "<strong>Job Security:</strong> Pega is a leading BPM and CRM platform with consistent enterprise adoption worldwide",
-      "<strong>Entry-Level Friendly:</strong> Basic Java or OOP knowledge helpful but not mandatory; structured path to job-ready skills",
-      "<strong>Global Reach:</strong> Pega skills applicable to global MNCs and Fortune 500 companies from anywhere in the world"
-    ]
-  },
-  "curriculum_overview": {
-    "heading": "Comprehensive Pega Training Curriculum",
-    "intro": "Our 2-4 month program delivers 100% practical, industry-focused training with live classes, real-time projects, case management implementation, BPM automation, and career-focused strategies."
-  },
-  "track_overview_primary": {
-    "heading": "Core Pega Development Track",
-    "description": "Master essential Pega skills with hands-on practice:",
-    "topics": [
-      "<strong>Introduction to Pega Platform:</strong> Architecture, key concepts, and terminology",
-      "<strong>Pega Application Development:</strong> Building, designing, and developing enterprise applications",
-      "<strong>Case Management:</strong> Creating case types, managing cases and case lifecycles",
-      "<strong>Business Process Management (BPM):</strong> Process modeling, automation, and workflow design",
-      "<strong>Rule-Based Development:</strong> Decision rules, strategies, data transforms and data pages",
-      "<strong>UI/UX Development:</strong> Harnesses, sections, UI rules and interface customization"
-    ]
-  },
-  "track_overview_secondary": {
-    "heading": "Advanced Integration, Analytics & DevOps Track",
-    "description": "Apply Pega skills to real-world enterprise scenarios and get job-ready:",
-    "topics": [
-      "<strong>Integration & Data Modeling:</strong> Connectors, services, and database integration with external systems",
-      "<strong>Reporting & Analytics:</strong> Dashboards, report definition rules, and data analytics in Pega",
-      "<strong>Security & Access Control:</strong> Access control policies, authentication, and authorization",
-      "<strong>Deployment & DevOps:</strong> Application packaging, version control, testing and debugging",
-      "<strong>Resume & Interview Prep:</strong> Portfolio building, mock interviews, and Pega certification guidance",
-      "<strong>Placement Support:</strong> Job referrals in top IT firms, MNCs, and BFSI companies"
-    ]
-  },
-  "certification_info": {
-    "heading": "Pega Certification & Recognition",
-    "intro": "Receive a course completion certificate plus guidance for Pega Certified System Architect (CSA) and other official Pega certifications to boost your career prospects.",
-    "highlights": [
-      "<strong>Course Completion Certificate:</strong> Validates hands-on training and real-time project work",
-      "<strong>Pega CSA Certification Guidance:</strong> Prep for Pega Certified System Architect and Senior System Architect exams",
-      "<strong>Project Portfolio:</strong> Showcase live Pega applications and BPM workflows to employers",
-      "<strong>Placement Assistance:</strong> Resume building, interview support, and job referrals",
-      "<strong>Internship Opportunities:</strong> Gain real enterprise and agency experience",
-      "<strong>Flexible Learning:</strong> Live online classes with recordings and lifetime support"
-    ]
-  },
-  "why_institute": {
-    "heading": "Why Choose Our Pega Online Training?",
-    "intro": "Industry-focused online training with experienced Pega-certified trainers, real-time enterprise projects, live application development, updated curriculum aligned with Pega Infinity, and dedicated placement support.",
-    "instructor_expertise": {
-      "heading": "Experienced Industry Trainers",
-      "description": "Learn from Pega-certified professionals with real-world experience in BPM, CRM, and enterprise application development for global clients. Get personalized guidance and doubt-clearing sessions."
-    },
-    "training_modes": {
-      "heading": "Flexible Online Learning",
-      "description": "Tailored for students and IT professionals at all levels:",
-      "options": [
-        "<strong>Live Interactive Classes:</strong> Real-time sessions with Q&A, screen sharing, and hands-on labs",
-        "<strong>Real-Time Projects:</strong> Hands-on case management, BPM automation, and Pega app development",
-        "<strong>Flexible Batch Timings:</strong> Fits working professionals and freshers",
-        "<strong>Recorded Access:</strong> Review sessions anytime with lifetime doubt-clearing support"
-      ]
-    }
-  },
-  "what_youll_learn": [
-    "Pega Platform Architecture & Core Concepts",
-    "Pega Application Development & UI/UX Design",
-    "Case Management & Case Lifecycle",
-    "Business Process Management (BPM) & Workflow Automation",
-    "Rule-Based Development (Decision Rules, Data Transforms)",
-    "Integration, Data Modeling & Connectors",
-    "Reporting, Analytics, Security & DevOps"
-  ],
-  "syllabus": [
-    {
-      "module": "Introduction to Pega",
-      "subtopics": [
-        "Overview of Pega Platform",
-        "Pega architecture",
-        "Key concepts and terminology"
-      ]
-    },
-    {
-      "module": "Pega Application Development",
-      "subtopics": [
-        "Building applications using Pega",
-        "Application design and development",
-        "User interface design"
-      ]
-    },
-    {
-      "module": "Case Management",
-      "subtopics": [
-        "Introduction to case management",
-        "Creating case types",
-        "Managing cases and case lifecycles"
-      ]
-    },
-    {
-      "module": "Business Process Management (BPM)",
-      "subtopics": [
-        "BPM fundamentals",
-        "Process modeling and automation",
-        "Workflow design in Pega"
-      ]
-    },
-    {
-      "module": "Rule-Based Development",
-      "subtopics": [
-        "Working with Pega rules",
-        "Decision rules and strategies",
-        "Data transforms and data pages"
-      ]
-    },
-    {
-      "module": "User Experience (UI/UX) Development",
-      "subtopics": [
-        "Designing and customizing user interfaces",
-        "Harnesses and sections",
-        "UI rules and best practices"
-      ]
-    },
-    {
-      "module": "Integration and Data Modeling",
-      "subtopics": [
-        "Integrating Pega applications with other systems",
-        "Data modeling and database integration",
-        "Connectors and services"
-      ]
-    },
-    {
-      "module": "Reporting and Analytics",
-      "subtopics": [
-        "Building reports and dashboards",
-        "Report definition rules",
-        "Data analytics in Pega"
-      ]
-    },
-    {
-      "module": "Security and Access Control",
-      "subtopics": [
-        "Implementing security in Pega applications",
-        "Access control policies",
-        "Authentication and authorization"
-      ]
-    },
-    {
-      "module": "Deployment and DevOps",
-      "subtopics": [
-        "Application packaging and deployment",
-        "Version control and DevOps best practices",
-        "Testing and debugging in Pega"
-      ]
-    }
-  ],
-  "duration": "2-4 Months (Flexible Batches)",
-  "skill_level": "Beginner to Advanced (Basic Programming Knowledge Helpful)",
   "image": "/CourseDetails/pega-online-training.png",
   "placement_assurance": true,
   "projects": [
@@ -24932,8 +25277,174 @@
     "Integration with External Systems using Connectors",
     "Reporting Dashboard & Analytics Implementation"
   ],
-  "meta_title": "Best Pega Online Training with Placement Assistance | ICLP Technologies",
-  "meta_description": "Join the best Pega Online Training covering Case Management, BPM, Rule-Based Development, UI/UX, Integration & DevOps. 100% practical learning with certification and placement support."
+  "meta_title": "Pega Online Training – Certification Course with Real-Time Projects | Pega Online Course in Chennai",
+  "meta_description": "Join Pega Online Training at ICLP Technologies. Learn Case Management, BPM, Rule-Based Development, UI/UX, and DevOps with real-time projects, certification guidance, and placement support. Live classes from Chennai.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/pega-online-training/#service",
+        "name": "Pega Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Pega Online Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/pega-online-training/#course",
+        "name": "Pega Online Training",
+        "description": "Live online Pega training covering Pega Platform, Case Management, BPM, Rule-Based Development, UI/UX, Integration, Reporting, Security, and DevOps with real-time projects and placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Pega Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Pega Online Training, Pega Online Course Chennai, Pega Certification Training, Pega Case Management, BPM Training, Pega Developer Course, Pega Online Classes",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Pega Platform"
+          },
+          {
+            "@type": "Thing",
+            "name": "Business Process Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Case Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Low-Code Development"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/pega-online-training",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2610"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/pega-online-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Pega Online Training",
+            "item": "https://iclptech.in/course/pega-online-training"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/pega-online-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Pega used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pega is used for business process automation, workflow management, and enterprise application development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Pega a good career option?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Pega is widely used by large organizations and offers excellent career opportunities in the IT industry."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does Pega training take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most training programs take between 4 to 8 weeks depending on the course structure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can beginners learn Pega?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, beginners can learn Pega with proper training and hands-on practice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there job opportunities after Pega training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, many companies hire Pega developers and system architects for enterprise automation projects."
+            }
+          }
+        ]
+      }
+    ]
+  }
 },{
   "course_name": "Digital Marketing Online Training in Bangalore",
   "path": "digital-marketing-online-training-bangalore",

@@ -3,6 +3,7 @@ import BodyHead from "./components/BodyPart/BodyHead/bodyHead";
 import HomeAbout from "./components/BodyPart/HomeAbout/homeAbout";
 import TopCategories from "./components/categories/topCategories";
 import Accreditations from "./components/Accreditations/Accreditations";
+import CertificationSection from "./components/CertificationSection/CertificationSection";
 import SuccessfulCommunity from "./components/successfullCommunity/successfullCommunity";
 import Features from "./components/BodyPart/Features/features";
 import TieUps from "./components/TieUps/TieUps";
@@ -36,6 +37,7 @@ export default function Home() {
                 <br></br>
 
         <Accreditations />
+        <CertificationSection />
         <SuccessfulCommunity />
         <Features />
          <br></br>

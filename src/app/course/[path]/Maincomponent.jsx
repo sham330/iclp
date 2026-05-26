@@ -292,8 +292,7 @@ const CourseDetails = () => {
                 </div>
               </div>
 
-
-              {/* Profile Pics */}
+{/* 
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex -space-x-3">
                   {profilePics.map((pic, index) => (
@@ -309,11 +308,11 @@ const CourseDetails = () => {
                 <span className="text-[#97e7f5] font-semibold">
                   +{(learnerCount - 3).toLocaleString()} enrolled
                 </span>
-              </div>
+              </div> */}
 
 
               <p className="text-[#97e7f5] text-lg leading-relaxed mb-6">
-                {additionalContent?.courseDescription || course.description}
+              {course.description || additionalContent?.courseDescription}
               </p>
 
 

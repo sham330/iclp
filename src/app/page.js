@@ -16,6 +16,7 @@ import WhyInventateq from "./components/HomeSections/WhyUs";
 import HomeTestimonials from "./components/HomeSections/HomeTestimonials";
 import ServiceAreas from "./components/Services";
 import Head from "./Head"
+import CertificationSection from "./components/CertificationSection/CertificationSection";
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
         <br></br>
         <ServiceAreas/>
         <br></br>
+                 <CertificationSection />
+<br></br>
         <ExpertConnectBanner />
         <br></br>
         <HomeTestimonials />
