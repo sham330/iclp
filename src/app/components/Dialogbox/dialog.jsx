@@ -2,8 +2,65 @@
 import React, { useEffect, useState } from 'react';
 import { FaTimes, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
 
+const courses = [
+  { name: "Java", type: "regular" },
+  { name: "Python", type: "regular" },
+  { name: "R Programming", type: "regular" },
+  { name: "JavaScript", type: "regular" },
+  { name: "PHP", type: "regular" },
+  { name: "Full Stack Developer", type: "regular" },
+  { name: "Node.js", type: "regular" },
+  { name: "ReactJS", type: "regular" },
+  { name: "Microsoft Azure", type: "regular" },
+  { name: "AWS", type: "regular" },
+  { name: "DevOps", type: "regular" },
+  { name: "Cyber Security", type: "regular" },
+  { name: "Ethical Hacking", type: "regular" },
+  { name: "Selenium", type: "regular" },
+  { name: "Manual Testing Course", type: "regular" },
+  { name: "JMeter Course", type: "regular" },
+  { name: "ETL Testing", type: "regular" },
+  { name: "LoadRunner", type: "regular" },
+  { name: "SoapUI", type: "regular" },
+  { name: "Data Science Course", type: "regular" },
+  { name: "Artificial Intelligence", type: "regular" },
+  { name: "Digital Marketing", type: "regular" },
+  { name: "Excel", type: "regular" },
+  { name: "HTML", type: "regular" },
+  { name: "UI and UX", type: "regular" },
+  { name: "Salesforce", type: "regular" },
+  { name: "C Sharp", type: "regular" },
+  { name: "UNIX SHELL Scripting", type: "regular" },
+  { name: "Workday HCM", type: "regular" },
+  { name: "Salesforce Online Training", type: "regular" },
+  { name: "Salesforce Developer", type: "regular" },
+  { name: "Azure DevOps", type: "regular" },
+  { name: "Angular", type: "regular" },
+  { name: "WordPress", type: "regular" },
+  { name: "CSS Online", type: "regular" },
+  { name: "Machine Learning", type: "regular" },
+  { name: "Data Science With Python", type: "regular" },
+  { name: "Machine Learning with Python", type: "regular" },
+  { name: "Machine Learning using R", type: "regular" },
+  { name: "MySQL", type: "regular" },
+  { name: "SQL with PHP", type: "regular" },
+  { name: "Microsoft Dynamics 365", type: "regular" },
+  { name: "Microsoft Excel", type: "regular" },
+  { name: "Excel Macros and VBA", type: "regular" },
+  { name: "jQuery", type: "regular" },
+  { name: "SAP FICO", type: "sap" },
+  { name: "SAP MM", type: "sap" },
+  { name: "SAP SD", type: "sap" },
+  { name: "SAP PP", type: "sap" },
+  { name: "SAP ABAP", type: "sap" },
+  { name: "Oracle Financials", type: "oracle" },
+  { name: "Oracle SCM", type: "oracle" },
+  { name: "Oracle HCM", type: "oracle" },
+];
+
 const HomeAboutDialog = ({ onClose } = {}) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [extraCourse, setExtraCourse] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -13,83 +70,18 @@ const HomeAboutDialog = ({ onClose } = {}) => {
     experience: '',
     notes: '',
   });
-  const [courseInput, setCourseInput] = useState('');
-  const [showCourseDropdown, setShowCourseDropdown] = useState(false);
-
-  const allCourseNames = courses.map((c) => c.name);
-  const filteredCourses = courseInput
-    ? allCourseNames.filter((n) => n.toLowerCase().includes(courseInput.toLowerCase()))
-    : allCourseNames;
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  const courses = [
-    // Your exact same courses array
-    { name: "Java", type: "regular" },
-    { name: "Python", type: "regular" },
-    { name: "R Programming", type: "regular" },
-    { name: "JavaScript", type: "regular" },
-    { name: "PHP", type: "regular" },
-    { name: "Full Stack Developer", type: "regular" },
-    { name: "Node.js", type: "regular" },
-    { name: "ReactJS", type: "regular" },
-    { name: "Microsoft Azure", type: "regular" },
-    { name: "AWS", type: "regular" },
-    { name: "DevOps", type: "regular" },
-    { name: "Cyber Security", type: "regular" },
-    { name: "Ethical Hacking", type: "regular" },
-    { name: "Selenium", type: "regular" },
-    { name: "Manual Testing Course", type: "regular" },
-    { name: "JMeter Course", type: "regular" },
-    { name: "ETL Testing", type: "regular" },
-    { name: "LoadRunner", type: "regular" },
-    { name: "SoapUI", type: "regular" },
-    { name: "Data Science Course", type: "regular" },
-    { name: "Artificial Intelligence", type: "regular" },
-    { name: "Digital Marketing", type: "regular" },
-    { name: "Excel", type: "regular" },
-    { name: "HTML", type: "regular" },
-    { name: "UI and UX", type: "regular" },
-    { name: "Salesforce", type: "regular" },
-    { name: "C Sharp", type: "regular" },
-    { name: "UNIX SHELL Scripting", type: "regular" },
-    { name: "Workday HCM", type: "regular" },
-    { name: "Salesforce Online Training", type: "regular" },
-    { name: "Salesforce Developer", type: "regular" },
-    { name: "Azure DevOps", type: "regular" },
-    { name: "Angular", type: "regular" },
-    { name: "WordPress", type: "regular" },
-    { name: "CSS Online", type: "regular" },
-    { name: "Machine Learning", type: "regular" },
-    { name: "Data Science With Python", type: "regular" },
-    { name: "Machine Learning with Python", type: "regular" },
-    { name: "Machine Learning using R", type: "regular" },
-    { name: "MySQL", type: "regular" },
-    { name: "SQL with PHP", type: "regular" },
-    { name: "Microsoft Dynamics 365", type: "regular" },
-    { name: "Microsoft Excel", type: "regular" },
-    { name: "Excel Macros and VBA", type: "regular" },
-    { name: "jQuery", type: "regular" },
-    // SAP Courses
-    { name: "SAP FICO", type: "sap" },
-    { name: "SAP MM", type: "sap" },
-    { name: "SAP SD", type: "sap" },
-    { name: "SAP PP", type: "sap" },
-    { name: "SAP ABAP", type: "sap" },
-    // Oracle Courses
-    { name: "Oracle Financials", type: "oracle" },
-    { name: "Oracle SCM", type: "oracle" },
-    { name: "Oracle HCM", type: "oracle" },
-  ];
-
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 100);
-    const savedCourseName = localStorage.getItem('currentCourseName') || '';
-    setFormData((prev) => ({ ...prev, course: savedCourseName }));
-    setCourseInput(savedCourseName);
+    const timer = setTimeout(() => setIsOpen(true), 100);
+    const saved = localStorage.getItem('currentCourseName') || '';
+    if (saved) {
+      const exists = courses.some((c) => c.name === saved);
+      if (!exists) setExtraCourse(saved);
+      setFormData((prev) => ({ ...prev, course: saved }));
+    }
     return () => clearTimeout(timer);
   }, []);
 
@@ -155,7 +147,6 @@ const HomeAboutDialog = ({ onClose } = {}) => {
       <div className="fixed inset-0 bg-black/50 z-[1000] flex justify-center items-center p-4 overflow-y-auto">
         <div className="bg-white rounded-[16px] w-full max-w-[760px] shadow-[0_20px_50px_rgba(0,0,0,0.2)] relative flex flex-col md:flex-row overflow-hidden my-auto">
 
-          {/* Close Button */}
           <button
             className="absolute top-[12px] right-[12px] bg-transparent border-none cursor-pointer z-10 text-gray-500 hover:text-black"
             onClick={handleClose}
@@ -201,31 +192,19 @@ const HomeAboutDialog = ({ onClose } = {}) => {
                     {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
                   </div>
 
-                  <div className="relative">
-                    <input
-                      type="text"
-                      placeholder="Search or select a course"
-                      value={courseInput}
-                      onChange={(e) => { setCourseInput(e.target.value); setFormData((prev) => ({ ...prev, course: e.target.value })); setShowCourseDropdown(true); }}
-                      onFocus={() => setShowCourseDropdown(true)}
-                      onBlur={() => setTimeout(() => setShowCourseDropdown(false), 150)}
-                      required
-                      className={inputCls('course')}
-                    />
-                    {showCourseDropdown && filteredCourses.length > 0 && (
-                      <ul className="absolute z-50 w-full bg-white border border-[#ddd] rounded-[8px] max-h-48 overflow-y-auto shadow-lg mt-1">
-                        {filteredCourses.map((name, i) => (
-                          <li
-                            key={i}
-                            onMouseDown={() => { setCourseInput(name); setFormData((prev) => ({ ...prev, course: name })); setShowCourseDropdown(false); }}
-                            className="px-3 py-2 text-sm cursor-pointer hover:bg-blue-50"
-                          >
-                            {name}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
+                  <select name="course" value={formData.course} onChange={handleChange} required className={inputCls('course')}>
+                    <option value="">Select Your Course</option>
+                    {extraCourse && <option value={extraCourse}>{extraCourse}</option>}
+                    <optgroup label="Regular Courses">
+                      {courses.filter(c => c.type === 'regular').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
+                    </optgroup>
+                    <optgroup label="SAP Courses">
+                      {courses.filter(c => c.type === 'sap').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
+                    </optgroup>
+                    <optgroup label="Oracle Courses">
+                      {courses.filter(c => c.type === 'oracle').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
+                    </optgroup>
+                  </select>
 
                   <div className="flex gap-2">
                     <select name="qualification" value={formData.qualification} onChange={handleChange} required className={inputCls('qualification')}>
