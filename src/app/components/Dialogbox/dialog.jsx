@@ -13,6 +13,13 @@ const HomeAboutDialog = ({ onClose } = {}) => {
     experience: '',
     notes: '',
   });
+  const [courseInput, setCourseInput] = useState('');
+  const [showCourseDropdown, setShowCourseDropdown] = useState(false);
+
+  const allCourseNames = courses.map((c) => c.name);
+  const filteredCourses = courseInput
+    ? allCourseNames.filter((n) => n.toLowerCase().includes(courseInput.toLowerCase()))
+    : allCourseNames;
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -80,6 +87,9 @@ const HomeAboutDialog = ({ onClose } = {}) => {
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 100);
+    const savedCourseName = localStorage.getItem('currentCourseName') || '';
+    setFormData((prev) => ({ ...prev, course: savedCourseName }));
+    setCourseInput(savedCourseName);
     return () => clearTimeout(timer);
   }, []);
 
@@ -191,18 +201,31 @@ const HomeAboutDialog = ({ onClose } = {}) => {
                     {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
                   </div>
 
-                  <select name="course" value={formData.course} onChange={handleChange} required className={inputCls('course')}>
-                    <option value="">Select Your Course</option>
-                    <optgroup label="Regular Courses">
-                      {courses.filter(c => c.type === 'regular').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
-                    </optgroup>
-                    <optgroup label="SAP Courses">
-                      {courses.filter(c => c.type === 'sap').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
-                    </optgroup>
-                    <optgroup label="Oracle Courses">
-                      {courses.filter(c => c.type === 'oracle').map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
-                    </optgroup>
-                  </select>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder="Search or select a course"
+                      value={courseInput}
+                      onChange={(e) => { setCourseInput(e.target.value); setFormData((prev) => ({ ...prev, course: e.target.value })); setShowCourseDropdown(true); }}
+                      onFocus={() => setShowCourseDropdown(true)}
+                      onBlur={() => setTimeout(() => setShowCourseDropdown(false), 150)}
+                      required
+                      className={inputCls('course')}
+                    />
+                    {showCourseDropdown && filteredCourses.length > 0 && (
+                      <ul className="absolute z-50 w-full bg-white border border-[#ddd] rounded-[8px] max-h-48 overflow-y-auto shadow-lg mt-1">
+                        {filteredCourses.map((name, i) => (
+                          <li
+                            key={i}
+                            onMouseDown={() => { setCourseInput(name); setFormData((prev) => ({ ...prev, course: name })); setShowCourseDropdown(false); }}
+                            className="px-3 py-2 text-sm cursor-pointer hover:bg-blue-50"
+                          >
+                            {name}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
 
                   <div className="flex gap-2">
                     <select name="qualification" value={formData.qualification} onChange={handleChange} required className={inputCls('qualification')}>

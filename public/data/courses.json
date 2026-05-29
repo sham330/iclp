@@ -6954,373 +6954,356 @@
             "Social Media Dashboard"
           ]
         },
-       {
-"course_name": "Python Full Stack Developer Online",
-"path": "python-full-stack-developer-online-training",
-"meta_title": "Best Python Full Stack Developer Course in Chennai | Training + Placement",
-"meta_description": "Want to become a Python Full Stack Developer? Learn comprehensive front-end, back-end, databases, and deployment with real projects, hands-on training, and placement support in Chennai.",
-"description": "Comprehensive training to become a Python Full Stack Developer covering front-end, back-end, and database technologies.",
-"schema": {
-"@context": "https://schema.org",
-"@graph": [
-{
-"@type": "EducationalOrganization",
-"@id": "https://iclptech.in/#organization",
-"name": "ICLP Technologies",
-"url": "https://iclptech.in",
-"logo": "https://iclptech.in/images/logo.png",
-"sameAs": [
-"https://www.instagram.com/iclp_technologies",
-"https://facebook.com/iclp-technologies",
-"http://linkedin.com/company/iclp-technologies",
-"https://twitter.com/iclp_tech",
-"https://youtube.com/@iclp_technologies"
-],
-"areaServed": {
-"@type": "Place",
-"name": "Chennai"
+      {
+  "course_name": "Python Full Stack",
+  "name":"Python Full Stack Developer Online Training with Placement Assistance",
+  "path": "python-full-stack-developer-online-training",
+  "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
+  "meta_title": "Python Full Stack Developer Online Training | Python Full Stack Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Python Full Stack Developer Online Training at ICLP Technologies. Learn Python, Django, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#service",
+        "name": "Python Full Stack Developer Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Python Full Stack Developer Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#course",
+        "name": "Python Full Stack Developer Online Training",
+        "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Python Full Stack Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Python Full Stack Developer Online Training, Python Full Stack Course in Chennai, Python Full Stack Training, Full Stack Developer Course with Placement, Best Python Full Stack Institute in Chennai, Python Full Stack Certification Training, Python Django Training, React JS Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Python Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "Django Framework"
+          },
+          {
+            "@type": "Thing",
+            "name": "React JS"
+          },
+          {
+            "@type": "Thing",
+            "name": "Full Stack Web Development"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/python-full-stack-developer-online-training/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1650"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Python Full Stack Developer Online Training",
+            "item": "https://iclptech.in/course/python-full-stack-developer-online-training/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Python Full Stack Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Python Full Stack good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Python Full Stack training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can learn Python Full Stack Development from basic concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Python Full Stack?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Python Full Stack course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Python Full Stack Training?",
+      "answer": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+    },
+    {
+      "question": "Is Python Full Stack good for freshers?",
+      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online Python Full Stack training available?",
+      "answer": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can learn Python Full Stack Development from basic concepts."
+    },
+    {
+      "question": "Can non-IT students learn Python Full Stack?",
+      "answer": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+    },
+    {
+      "question": "What is the salary after Python Full Stack course?",
+      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+    }
+  ],
+  "what_youll_learn": [
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "React JS",
+    "Responsive Web Design",
+    "Python Programming",
+    "Django Framework",
+    "REST API Development",
+    "Authentication & Authorization",
+    "API Integration",
+    "SQL",
+    "MySQL Database",
+    "Database Design",
+    "CRUD Operations",
+    "Git & GitHub",
+    "VS Code",
+    "Deployment Techniques",
+    "Debugging & Testing"
+  ],
+  "syllabus": [
+    {
+      "module": "Frontend Development Fundamentals",
+      "subtopics": [
+        "HTML5 structure and semantic tags",
+        "CSS3 styling and layouts",
+        "Bootstrap components and responsive design",
+        "JavaScript basics and DOM manipulation"
+      ]
+    },
+    {
+      "module": "Advanced Frontend with React JS",
+      "subtopics": [
+        "React JS fundamentals",
+        "Components, props, and state",
+        "React forms and event handling",
+        "Responsive UI development"
+      ]
+    },
+    {
+      "module": "Python Programming",
+      "subtopics": [
+        "Python syntax and core programming concepts",
+        "Functions, modules, and file handling",
+        "Object-oriented programming",
+        "Error handling and debugging"
+      ]
+    },
+    {
+      "module": "Django Framework",
+      "subtopics": [
+        "Introduction to Django architecture",
+        "Models, views, and templates",
+        "URL routing and app structure",
+        "Admin panel and project setup"
+      ]
+    },
+    {
+      "module": "Backend Development and APIs",
+      "subtopics": [
+        "REST API development",
+        "Authentication and authorization",
+        "API integration techniques",
+        "Backend business logic implementation"
+      ]
+    },
+    {
+      "module": "Database Management",
+      "subtopics": [
+        "SQL fundamentals",
+        "MySQL database setup and usage",
+        "Database design concepts",
+        "CRUD operations with backend integration"
+      ]
+    },
+    {
+      "module": "Version Control and Developer Tools",
+      "subtopics": [
+        "Git basics and version control workflow",
+        "GitHub repository management",
+        "VS Code productivity setup",
+        "Testing and debugging practices"
+      ]
+    },
+    {
+      "module": "Deployment and Real-Time Projects",
+      "subtopics": [
+        "Full stack application deployment",
+        "Project structure and production setup",
+        "Live web application development",
+        "Portfolio and dashboard application projects"
+      ]
+    },
+    {
+      "module": "Career Preparation",
+      "subtopics": [
+        "Resume building for developer roles",
+        "Coding interview questions and mock interviews",
+        "GitHub portfolio guidance",
+        "LinkedIn optimization and placement assistance"
+      ]
+    }
+  ],
+  "duration": "40+ Hours of Mastery",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/python-full-stack-developer-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Full Stack Web Applications",
+    "E-Commerce Projects",
+    "Portfolio Projects",
+    "Dashboard Applications"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Python Full Stack Training</strong> in Chennai",
+    "description": "Python Full Stack Development is one of the fastest-growing career opportunities in the software industry. Build job-ready skills in frontend and backend technologies, work on real-time projects, and prepare for developer roles in startups, product companies, and global IT firms.",
+    "points": [
+      "<strong>High Demand in IT Companies:</strong> Companies actively hire Full Stack Developers to build scalable web applications and business platforms",
+      "<strong>Attractive Salary Packages:</strong> Skilled Python Full Stack Developers receive competitive compensation based on project and technical skills",
+      "<strong>Strong Career Growth:</strong> Progress into roles such as Python Developer, Django Developer, React JS Developer, and Software Engineer",
+      "<strong>Global Job Opportunities:</strong> Companies across India, USA, UAE, Canada, Singapore, and Europe are hiring Full Stack Developers",
+      "<strong>Freelancing and Remote Work:</strong> Full stack skills open opportunities for freelance web development and remote software roles",
+      "<strong>Exposure to Frontend and Backend:</strong> Learn end-to-end development including UI, APIs, databases, authentication, and deployment"
+    ]
+  }
 },
-"address": {
-"@type": "PostalAddress",
-"addressLocality": "Chennai",
-"addressCountry": "IN"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-8681026181",
-"contactType": "customer support",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-{
-"@type": "Service",
-"@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#service",
-"name": "Python Full Stack Developer Online Training",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"areaServed": "India",
-"serviceType": "Python Full Stack Developer Course in Chennai"
-},
-{
-"@type": "Course",
-"@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#course",
-"name": "Python Full Stack Developer Course in Chennai",
-"description": "Learn Python full stack development online with hands-on training covering front-end (HTML, CSS, JS, React), back-end (Django/Flask), databases, APIs, Git, deployment, testing, and real-time projects. Ideal for intermediate learners seeking placement support.",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"courseMode": ["Online","Offline"],
-"inLanguage": "English",
-"educationalLevel": "Intermediate",
-"occupationalCredentialAwarded": "Python Full Stack Developer Course Completion Certificate",
-"timeRequired": "PT65H",
-"keywords": "Python Full Stack Course in Chennai, Python Full Stack Training Chennai, Django Flask Course, Full Stack Python Developer, REST API Training, Web Development Course with Placement",
-"about": [
-{
-"@type": "Thing",
-"name": "Python Full Stack Development"
-},
-{
-"@type": "Thing",
-"name": "Web Development"
-},
-{
-"@type": "Thing",
-"name": "Django Flask Frameworks"
-}
-],
-"audience": {
-"@type": "EducationalAudience",
-"educationalRole": "student"
-},
-"hasCourseInstance": {
-"@type": "CourseInstance",
-"courseMode": ["Online","Offline"],
-"inLanguage": "English",
-"location": {
-"@type": "Place",
-"name": "Chennai"
-}
-},
-"offers": {
-"@type": "Offer",
-"url": "https://iclptech.in/course/python-full-stack-developer-online-training",
-"price": "Contact for fees",
-"priceCurrency": "INR",
-"availability": "https://schema.org/InStock"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.8",
-"ratingCount": "3782"
-}
-},
-{
-"@type": "BreadcrumbList",
-"@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#breadcrumb",
-"itemListElement": [
-{
-"@type": "ListItem",
-"position": 1,
-"name": "Home",
-"item": "https://iclptech.in"
-},
-{
-"@type": "ListItem",
-"position": 2,
-"name": "Courses",
-"item": "https://iclptech.in/courses/"
-},
-{
-"@type": "ListItem",
-"position": 3,
-"name": "Python Full Stack Developer Online",
-"item": "https://iclptech.in/course/python-full-stack-developer-online-training"
-}
-]
-},
-{
-"@type": "FAQPage",
-"@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#faq",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "Is a Python full stack developer course worth it?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, a Python full stack course is highly valuable for job-ready skills in front-end, back-end, APIs, and deployment, leading to roles like Full Stack Developer."
-
-}
-},
-{
-"@type": "Question",
-"name": "Can beginners learn Python full stack development?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "While intermediate level, courses start with fundamentals and build to advanced topics, suitable for those with basic programming knowledge."
-
-}
-},
-{
-"@type": "Question",
-"name": "Django or Flask for Python full stack?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Both Django and Flask are covered; Django for full-featured apps, Flask for lightweight APIs—choice depends on project needs."
-
-}
-},
-{
-"@type": "Question",
-"name": "How to start Python full stack development?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Begin with Python basics, front-end (HTML/CSS/JS), then frameworks like Django/Flask, databases, APIs, and projects for practical experience."
-}
-},
-{
-"@type": "Question",
-"name": "What topics in Python full stack course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Covers Python, front-end (HTML/CSS/JS/React), back-end (Django/Flask), databases (SQL), REST APIs, Git, deployment, and testing."
-}
-},
-{
-"@type": "Question",
-"name": "How long for Python full stack course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Typically 2-5 months or 60-65 hours, depending on schedule and hands-on sessions."
-
-}
-},
-{
-"@type": "Question",
-"name": "Job after Python full stack course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, with projects and placement support, target roles like Python Full Stack Developer, Backend Developer."
-
-}
-},
-{
-"@type": "Question",
-"name": "Python full stack developer salary in Chennai?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Freshers expect ₹3.5-6 LPA in Chennai, rising with experience and skills."
-
-}
-},
-{
-"@type": "Question",
-"name": "Best Python full stack course in Chennai?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Top courses offer hands-on projects, experienced trainers, frameworks like Django/Flask, and 100% placement assistance."
-
-}
-},
-{
-"@type": "Question",
-"name": "Is Python full stack suitable for career switch?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, Python's simplicity and high demand make it ideal for switching to development roles with structured training."
-
-}
-}
-]
-}
-]
-},
-"faqs": [
-{
-"question": "Is a Python full stack developer course worth it?",
-"answer": "Yes, a Python full stack course is highly valuable for job-ready skills in front-end, back-end, APIs, and deployment, leading to roles like Full Stack Developer."
-
-},
-{
-"question": "Can beginners learn Python full stack development?",
-"answer": "While intermediate level, courses start with fundamentals and build to advanced topics, suitable for those with basic programming knowledge."
-
-},
-{
-"question": "Django or Flask for Python full stack?",
-"answer": "Both Django and Flask are covered; Django for full-featured apps, Flask for lightweight APIs—choice depends on project needs."
-
-},
-{
-"question": "How to start Python full stack development?",
-"answer": "Begin with Python basics, front-end (HTML/CSS/JS), then frameworks like Django/Flask, databases, APIs, and projects for practical experience."
-},
-{
-"question": "What topics in Python full stack course?",
-"answer": "Covers Python, front-end (HTML/CSS/JS/React), back-end (Django/Flask), databases (SQL), REST APIs, Git, deployment, and testing."
-},
-{
-"question": "How long for Python full stack course?",
-"answer": "Typically 2-5 months or 60-65 hours, depending on schedule and hands-on sessions."
-
-},
-{
-"question": "Job after Python full stack course?",
-"answer": "Yes, with projects and placement support, target roles like Python Full Stack Developer, Backend Developer."
-
-},
-{
-"question": "Python full stack developer salary in Chennai?",
-"answer": "Freshers expect ₹3.5-6 LPA in Chennai, rising with experience and skills."
-
-},
-{
-"question": "Best Python full stack course in Chennai?",
-"answer": "Top courses offer hands-on projects, experienced trainers, frameworks like Django/Flask, and 100% placement assistance."
-
-},
-{
-"question": "Is Python full stack suitable for career switch?",
-"answer": "Yes, Python's simplicity and high demand make it ideal for switching to development roles with structured training."
-
-}
-],
-"what_youll_learn": [
-"Master Python programming fundamentals",
-"Develop web applications using Django or Flask",
-"Implement front-end technologies (HTML, CSS, JavaScript)",
-"Work with databases and ORM",
-"Build RESTful APIs",
-"Use version control with Git",
-"Deploy web applications",
-"Implement testing and debugging techniques"
-],
-"syllabus": [
-{
-"module": "Introduction to Python and Web Development",
-"subtopics": [
-"Overview of Python programming language",
-"Basics of HTML",
-"Basics of CSS",
-"Basics of JavaScript",
-"Introduction to web development frameworks like Django or Flask"
-]
-},
-{
-"module": "Front-End Development",
-"subtopics": [
-"Introduction to HTML5 covering semantic markup, forms, and multimedia",
-"Introduction to CSS3 focusing on styling, layout techniques, and responsive design",
-"Introduction to JavaScript including DOM manipulation, event handling, and AJAX"
-]
-},
-{
-"module": "Back-End Development with Python",
-"subtopics": [
-"Introduction to Django or Flask framework",
-"Routing, views, and templates",
-"Models, databases, and ORM (Object-Relational Mapping)",
-"User authentication and authorization"
-]
-},
-{
-"module": "Database Management",
-"subtopics": [
-"SQL fundamentals",
-"Working with relational databases",
-"Database design and normalization"
-]
-},
-{
-"module": "RESTful APIs",
-"subtopics": [
-"Designing and implementing RESTful APIs with Django REST Framework",
-"Authentication and authorization for APIs",
-"Consuming APIs using Python libraries"
-]
-},
-{
-"module": "Version Control with Git",
-"subtopics": [
-"Basics of version control",
-"Working with Git repositories, branching, merging, and resolving conflicts"
-]
-},
-{
-"module": "Deployment and Hosting",
-"subtopics": [
-"Deployment strategies for web applications",
-"Configuring web servers and WSGI servers",
-"Hosting options"
-]
-},
-{
-"module": "Front-End Frameworks",
-"subtopics": [
-"Introduction to front-end frameworks like React or Angular",
-"Building single-page applications (SPAs) with Python backend and JavaScript front-end"
-]
-},
-{
-"module": "Testing and Debugging",
-"subtopics": [
-"Writing unit tests",
-"Integration tests for Python code",
-"Debugging techniques for front-end development",
-"Debugging techniques for back-end development"
-]
-}
-],
-"duration": "65 hours",
-"skill_level": "Intermediate",
-"image": "/CourseDetails/pfo.png",
-"placement_assurance": true,
-"projects": [
-"E-commerce Platform",
-"Social Media Application"
-] },
         {
           "course_name": "PHP",
           "path": "php-online-training",
@@ -24368,354 +24351,427 @@
   }
 },
  {
-"course_name": "Digital Marketing",
-"path": "digital-marketing-online-training",
-"description": "Join the best Digital Marketing Online Training in Chennai with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs.",
-"meta_title": "Best Digital Marketing Course Online with Placement Assistance",
-"meta_description": "Want to build a career in digital marketing? Learn SEO, Google Ads, and social media with real projects, live training, and placement support in Chennai.",
-"schema": {
-"@context": "https://schema.org",
-"@graph": [
-{
-"@type": "EducationalOrganization",
-"@id": "https://iclptech.in/#organization",
-"name": "ICLP Technologies",
-"url": "https://iclptech.in",
-"logo": "https://iclptech.in/favicon.png",
-"sameAs": [
-"https://www.instagram.com/iclp_technologies",
-"https://facebook.com/iclp-technologies",
-"http://linkedin.com/company/iclp-technologies",
-"https://twitter.com/iclp_tech",
-"https://youtube.com/@iclp_technologies"
-],
-"areaServed": {
-"@type": "Place",
-"name": "Chennai"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-8681026181",
-"contactType": "customer support",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-{
-"@type": "Service",
-"@id": "https://iclptech.in/course/digital-marketing-online-training/#service",
-"name": "Digital Marketing Training in Chennai",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"areaServed": "India",
-"serviceType": "Digital Marketing Course with Placement Support"
-},
-{
-"@type": "Course",
-"@id": "https://iclptech.in/course/digital-marketing-online-training/#course",
-"name": "Digital Marketing Course in Chennai",
-"description": "Live online digital marketing training covering SEO, Google Ads, social media marketing, content marketing, analytics, and lead generation with real-time projects and placement support.",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"courseMode": ["Online"],
-"inLanguage": "English",
-"educationalLevel": "Beginner to Advanced",
-"occupationalCredentialAwarded": "Digital Marketing Course Completion Certificate",
-"timeRequired": "PT40H",
-"keywords": "Digital Marketing Course in Chennai, Online Digital Marketing Training, SEO Course Chennai, Google Ads Training, Social Media Marketing Course",
-"about": [
-{
-"@type": "Thing",
-"name": "Digital Marketing"
-},
-{
-"@type": "Thing",
-"name": "Search Engine Optimization"
-},
-{
-"@type": "Thing",
-"name": "Google Ads"
-},
-{
-"@type": "Thing",
-"name": "Social Media Marketing"
-}
-],
-"audience": {
-"@type": "EducationalAudience",
-"educationalRole": "student"
-},
-"hasCourseInstance": {
-"@type": "CourseInstance",
-"courseMode": "Online",
-"inLanguage": "English"
-},
-"offers": {
-"@type": "Offer",
-"url": "https://iclptech.in/course/digital-marketing-online-training",
-"price": "Contact for fees",
-"priceCurrency": "INR",
-"availability": "https://schema.org/InStock"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.8",
-"ratingCount": "2610"
-}
-},
-{
-"@type": "BreadcrumbList",
-"@id": "https://iclptech.in/course/digital-marketing-online-training/#breadcrumb",
-"itemListElement": [
-{
-"@type": "ListItem",
-"position": 1,
-"name": "Home",
-"item": "https://iclptech.in"
-},
-{
-"@type": "ListItem",
-"position": 2,
-"name": "Courses",
-"item": "https://iclptech.in/courses/"
-},
-{
-"@type": "ListItem",
-"position": 3,
-"name": "Digital Marketing Course",
-"item": "https://iclptech.in/course/digital-marketing-online-training"
-}
-]
-},
-{
-"@type": "FAQPage",
-"@id": "https://iclptech.in/course/digital-marketing-online-training/#faq",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "Which is the best digital marketing course for beginners?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "The best digital marketing course for beginners includes live training, real projects, and placement support to make you job-ready quickly."
-}
-},
-{
-"@type": "Question",
-"name": "How do beginners start learning digital marketing?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Beginners should start with SEO basics, social media strategies, and Google Ads fundamentals, then practice with live projects for hands-on experience."
-}
-},
-{
-"@type": "Question",
-"name": "Can I learn digital marketing by myself?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Self-learning is possible, but structured courses with expert mentorship and real campaigns accelerate your progress and provide job-ready skills."
-}
-},
-{
-"@type": "Question",
-"name": "How long does it take to complete a digital marketing course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Digital marketing courses typically take 2-4 months with flexible schedules, combining theory, practical sessions, and project work."
-}
-},
-{
-"@type": "Question",
-"name": "Is digital marketing easy to learn online?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, online digital marketing training is highly effective with live interactive classes, recorded sessions, and hands-on campaign execution."
-}
-},
-{
-"@type": "Question",
-"name": "Is digital marketing a good career in Chennai?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Digital marketing offers excellent career prospects in Chennai's IT hubs, startups, and agencies with high demand for SEO, PPC, and social media experts."
-}
-},
-{
-"@type": "Question",
-"name": "Do digital marketing courses help in getting jobs?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, courses with practical projects, certifications, and placement assistance significantly improve job prospects in Chennai companies."
-}
-},
-{
-"@type": "Question",
-"name": "Does this course include placement support in Chennai?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, comprehensive placement support includes resume building, interview preparation, and job referrals specifically for Chennai opportunities."
-}
-},
-{
-"@type": "Question",
-"name": "Will I work on real projects during the course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Absolutely, you'll execute live Google Ads campaigns, perform real SEO audits, and develop social media strategies for actual business cases."
-}
-},
-{
-"@type": "Question",
-"name": "What should I do after completing the course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Apply for digital marketing jobs, start freelancing, build your portfolio with live campaigns, and pursue Google certifications for career advancement."
-}
-}
-]
-}
-]
-},
-"faqs": [
-{
-"question": "Which is the best digital marketing course for beginners?",
-"answer": "The best digital marketing course for beginners includes live training, real projects, and placement support to make you job-ready quickly."
-},
-{
-"question": "How do beginners start learning digital marketing?",
-"answer": "Beginners should start with SEO basics, social media strategies, and Google Ads fundamentals, then practice with live projects for hands-on experience."
-},
-{
-"question": "Can I learn digital marketing by myself?",
-"answer": "Self-learning is possible, but structured courses with expert mentorship and real campaigns accelerate your progress and provide job-ready skills."
-},
-{
-"question": "How long does it take to complete a digital marketing course?",
-"answer": "Digital marketing courses typically take 2-4 months with flexible schedules, combining theory, practical sessions, and project work."
-},
-{
-"question": "Is digital marketing easy to learn online?",
-"answer": "Yes, online digital marketing training is highly effective with live interactive classes, recorded sessions, and hands-on campaign execution."
-},
-{
-"question": "Is digital marketing a good career in Chennai?",
-"answer": "Digital marketing offers excellent career prospects in Chennai's IT hubs, startups, and agencies with high demand for SEO, PPC, and social media experts."
-},
-{
-"question": "Do digital marketing courses help in getting jobs?",
-"answer": "Yes, courses with practical projects, certifications, and placement assistance significantly improve job prospects in Chennai companies."
-},
-{
-"question": "Does this course include placement support in Chennai?",
-"answer": "Yes, comprehensive placement support includes resume building, interview preparation, and job referrals specifically for Chennai opportunities."
-},
-{
-"question": "Will I work on real projects during the course?",
-"answer": "Absolutely, you'll execute live Google Ads campaigns, perform real SEO audits, and develop social media strategies for actual business cases."
-},
-{
-"question": "What should I do after completing the course?",
-"answer": "Apply for digital marketing jobs, start freelancing, build your portfolio with live campaigns, and pursue Google certifications for career advancement."
-}
-],
-"what_youll_learn": [
-"Search Engine Optimization (SEO)",
-"Google Ads (Search, Display & YouTube)",
-"Social Media Marketing (Facebook, Instagram, LinkedIn)",
-"Content Marketing & Blogging",
-"Email Marketing & Automation",
-"Google Analytics & Reporting",
-"Lead Generation & Conversion Optimization"
-],
-"syllabus": [
-{
-"module": "Digital Marketing Fundamentals",
-"subtopics": [
-"Digital marketing overview and Chennai opportunities",
-"SEO basics: keywords, on-page, off-page optimization",
-"Google Ads fundamentals and campaign setup",
-"Social media platforms and strategies"
-]
-},
-{
-"module": "SEO Practical Implementation",
-"subtopics": [
-"Technical SEO and site audits",
-"Local SEO for Chennai businesses",
-"Content optimization and link building",
-"SEO tools: Google Search Console, Ahrefs"
-]
-},
-{
-"module": "Google Ads Mastery",
-"subtopics": [
-"Search, Display, and YouTube campaigns",
-"Keyword research and bid management",
-"Live campaign creation and optimization",
-"Remarketing and conversion tracking"
-]
-},
-{
-"module": "Social Media & Content Marketing",
-"subtopics": [
-"Facebook/Instagram Ads and organic growth",
-"LinkedIn for B2B marketing",
-"Content strategy, blogging, email campaigns",
-"Influencer and viral marketing"
-]
-},
-{
-"module": "Analytics & Lead Generation",
-"subtopics": [
-"Google Analytics setup and reporting",
-"Lead funnels and conversion optimization",
-"A/B testing and performance metrics",
-"CRM integration basics"
-]
-},
-{
-"module": "Real Projects & Campaigns",
-"subtopics": [
-"Live Google Ads execution",
-"SEO audit for real websites",
-"Social media strategy projects",
-"Chennai business case studies"
-]
-},
-{
-"module": "Career Preparation",
-"subtopics": [
-"Resume and portfolio building",
-"Mock interviews and job applications",
-"Chennai placement support",
-"Freelancing and agency prep"
-]
-}
-],
-"duration": "2-4 Months (Flexible Batches)",
-"skill_level": "Beginner to Advanced (No Prerequisites)",
-"image": "/CourseDetails/digital-marketing-chennai.png",
-"placement_assurance": true,
-"projects": [
-"Live Google Ads Campaigns",
-"SEO Audit & Optimization",
-"Social Media Strategy Projects",
-"Lead Generation Funnels",
-"Chennai Business Case Studies"
-],
-"career_benefits": {
-"heading": "Career Benefits of <strong>Digital Marketing Training</strong> in Chennai",
-"description": "Chennai's booming IT and business hub demands skilled digital marketers. Build a high-demand career with remote flexibility, freelancing, and roles in startups, agencies, and e-commerce.",
-"points": [
-"<strong>High Demand in Chennai:</strong> IT companies, startups, and agencies actively hiring SEO, PPC, and social media experts",
-"<strong>Attractive Salaries:</strong> Freshers earn ₹2.5-4 LPA; experienced pros ₹5-10+ LPA, freelancers even higher",
-"<strong>Career Flexibility:</strong> Remote work, freelancing for Chennai clients, and roles across industries",
-"<strong>Job Security:</strong> Fastest-growing field in Chennai's digital economy with scalable opportunities",
-"<strong>Entry-Level Friendly:</strong> No technical background needed; quick path to job-ready skills",
-"<strong>Global Reach:</strong> Skills applicable worldwide from Chennai-based remote setups"
-]
-} },{
+  "course_name": "Digital Marketing Online Training",
+  "name":"Digital Marketing Online Training with Placement Assistance",
+  "path": "digital-marketing-online-training",
+  "description": "ICLP Technologies provides industry-focused Digital Marketing Online Training designed for freshers, entrepreneurs, freelancers, business owners, non-IT candidates, and working professionals who want to build a successful career in digital marketing. Our Digital Marketing Course in Chennai helps students master SEO, Google Ads, Social Media Marketing, Meta Ads, Content Marketing, Email Marketing, PPC Advertising, Google Analytics 4, AI Marketing Tools, and Marketing Automation with practical real-time projects. The course is designed by industry experts with hands-on implementation experience and placement-focused learning methodology. Students gain practical exposure through live campaigns, real-world assignments, and interview preparation sessions.",
+  "meta_title": "Digital Marketing Online Training | Digital Marketing Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Digital Marketing Online Training at ICLP Technologies. Learn SEO, Google Ads, Social Media Marketing, PPC, GA4, Content Marketing, and AI Marketing tools with real-time projects and placement assistance.",
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Digital Marketing Training</strong> in Chennai",
+    "description": "Digital Marketing is one of the fastest-growing industries worldwide. Businesses increasingly depend on SEO, paid advertising, analytics, social media, and lead generation, creating strong demand for skilled digital marketers across startups, agencies, e-commerce brands, and global companies.",
+    "points": [
+      "<strong>High Demand Across Industries:</strong> Companies actively hire digital marketers for SEO, PPC, content marketing, analytics, and lead generation roles",
+      "<strong>Work-from-Home Opportunities:</strong> Many digital marketing roles support remote work and flexible career models",
+      "<strong>Freelancing Potential:</strong> Build a client base and offer SEO, ad management, content, and growth services independently",
+      "<strong>Attractive Salary Packages:</strong> Skilled professionals can grow into well-paying specialist and performance marketing roles",
+      "<strong>Business Growth Advantage:</strong> Entrepreneurs and business owners can use digital marketing skills to scale their own brands",
+      "<strong>Global Career Opportunities:</strong> Companies across India, UAE, Singapore, Canada, and remote-first teams are hiring digital marketing talent"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive Digital Marketing Curriculum",
+    "intro": "Our practical digital marketing program focuses on job-ready skills through live instructor-led sessions, campaign execution, SEO implementation, paid ad strategy, analytics, AI marketing tools, and real-time project learning."
+  },
+  "track_overview_primary": {
+    "heading": "Core Digital Marketing Track",
+    "description": "Master the essential digital marketing skills with practical implementation:",
+    "topics": [
+      "<strong>Introduction to Digital Marketing:</strong> Core concepts, channels, strategy, and industry overview",
+      "<strong>Search Engine Optimization (SEO):</strong> On-page SEO, technical SEO, keyword research, and ranking strategies",
+      "<strong>Google Search Console & GA4:</strong> Website performance tracking, indexing, analytics, and reporting",
+      "<strong>Social Media Marketing:</strong> Organic growth strategies for Facebook, Instagram, LinkedIn, and YouTube",
+      "<strong>Content Marketing:</strong> Blog strategy, content planning, audience targeting, and content optimization",
+      "<strong>Email Marketing:</strong> Email campaigns, audience segmentation, nurturing flows, and automation basics"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Ads, AI Tools & Growth Track",
+    "description": "Apply digital marketing skills to real-world business growth and become placement-ready:",
+    "topics": [
+      "<strong>Google Ads & PPC Advertising:</strong> Search ads, campaign setup, bidding strategy, and optimization",
+      "<strong>Meta Ads:</strong> Facebook and Instagram ad campaigns, targeting, creatives, and lead generation",
+      "<strong>AI Marketing Tools:</strong> ChatGPT for marketing, AI content generation, prompt-based campaign support, and automation",
+      "<strong>Marketing Automation:</strong> Automation tools, conversion flows, and campaign efficiency techniques",
+      "<strong>Lead Generation & Conversion Optimization:</strong> Funnel design, landing pages, audience targeting, and CRO basics",
+      "<strong>Freelancing & Client Handling:</strong> Working with clients, reporting, service packaging, and account management"
+    ]
+  },
+  "certification_info": {
+    "heading": "Digital Marketing Certification & Recognition",
+    "intro": "Receive a course completion certificate along with practical project exposure and guidance to strengthen your profile for job applications, freelance work, and marketing career growth.",
+    "highlights": [
+      "<strong>Course Completion Certificate:</strong> Validates your practical digital marketing training and project work",
+      "<strong>Project Portfolio Building:</strong> Showcase SEO work, Google Ads campaigns, Meta Ads strategy, and reporting samples",
+      "<strong>Interview Preparation:</strong> Get support for SEO, PPC, and digital marketing interview questions",
+      "<strong>Placement Assistance:</strong> Resume building, mock interviews, LinkedIn optimization, and career guidance",
+      "<strong>Freelancing Readiness:</strong> Learn client communication, campaign reporting, and service-based delivery",
+      "<strong>Flexible Learning Support:</strong> Access to recordings, templates, resources, and study materials"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Digital Marketing Training?",
+    "intro": "ICLP Technologies delivers industry-focused Digital Marketing Online Training with practical learning, real-time campaign exposure, placement support, and expert mentorship designed for freshers, entrepreneurs, freelancers, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced Industry Trainers",
+      "description": "Learn from experienced digital marketing professionals with real-time campaign management expertise across SEO, Google Ads, Meta Ads, analytics, and growth marketing. Get guidance through live examples, doubt-clearing, and practical implementation sessions."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Designed for students, job seekers, business owners, and professionals across Chennai and beyond:",
+      "options": [
+        "<strong>Online Training:</strong> Live instructor-led classes with practical campaign learning and recorded access",
+        "<strong>Classroom Training:</strong> In-person learning option for students who prefer direct trainer interaction",
+        "<strong>Weekday & Weekend Batches:</strong> Suitable for freshers, working professionals, freelancers, and entrepreneurs",
+        "<strong>Real-Time Project Training:</strong> Work on SEO implementation, Google Ads, Meta Ads, analytics, and campaign strategy"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Introduction to Digital Marketing",
+    "Search Engine Optimization (SEO)",
+    "On-Page SEO",
+    "Technical SEO",
+    "Keyword Research",
+    "Google Search Console",
+    "Google Analytics 4 (GA4)",
+    "Social Media Marketing",
+    "Meta Ads (Facebook & Instagram Ads)",
+    "Google Ads & PPC Advertising",
+    "YouTube Marketing",
+    "Content Marketing",
+    "Email Marketing",
+    "Affiliate Marketing",
+    "AI Marketing Tools",
+    "Marketing Automation",
+    "Conversion Optimization",
+    "Lead Generation Strategies",
+    "Freelancing & Client Handling",
+    "Real-Time Project Implementation"
+  ],
+  "who_can_learn": [
+    "Freshers",
+    "Non-IT Candidates",
+    "Business Owners",
+    "Entrepreneurs",
+    "Freelancers",
+    "Working Professionals",
+    "Career Gap Candidates",
+    "Students",
+    "Marketing Professionals"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Digital Marketing",
+      "subtopics": [
+        "Digital marketing overview and channels",
+        "Career scope and marketing fundamentals",
+        "Customer journey and funnel basics",
+        "Introduction to campaign planning"
+      ]
+    },
+    {
+      "module": "Search Engine Optimization (SEO)",
+      "subtopics": [
+        "SEO fundamentals and ranking concepts",
+        "On-page SEO techniques",
+        "Technical SEO implementation",
+        "Keyword research and competitor analysis"
+      ]
+    },
+    {
+      "module": "Google Search Console and GA4",
+      "subtopics": [
+        "Google Search Console setup and indexing",
+        "Tracking website performance",
+        "GA4 setup and event understanding",
+        "Traffic and conversion analysis"
+      ]
+    },
+    {
+      "module": "Social Media Marketing",
+      "subtopics": [
+        "Facebook, Instagram, and LinkedIn strategies",
+        "Organic social media growth",
+        "Audience engagement planning",
+        "YouTube marketing basics"
+      ]
+    },
+    {
+      "module": "Google Ads and PPC Advertising",
+      "subtopics": [
+        "Search campaign setup",
+        "Keyword targeting and bidding strategy",
+        "PPC ad optimization",
+        "Campaign reporting and ROI improvement"
+      ]
+    },
+    {
+      "module": "Meta Ads and Paid Campaigns",
+      "subtopics": [
+        "Facebook Ads and Instagram Ads setup",
+        "Audience targeting and remarketing",
+        "Creative strategy and lead generation",
+        "Campaign analysis and optimization"
+      ]
+    },
+    {
+      "module": "Content and Email Marketing",
+      "subtopics": [
+        "Content marketing strategy",
+        "Blogging and content planning",
+        "Email campaign creation",
+        "Audience segmentation and nurturing"
+      ]
+    },
+    {
+      "module": "AI Marketing Tools and Automation",
+      "subtopics": [
+        "ChatGPT for marketing use cases",
+        "AI content support workflows",
+        "Marketing automation tools",
+        "AI prompt marketing basics"
+      ]
+    },
+    {
+      "module": "Lead Generation and Conversion Optimization",
+      "subtopics": [
+        "Lead generation strategy",
+        "Landing page optimization",
+        "Conversion funnel basics",
+        "Performance improvement techniques"
+      ]
+    },
+    {
+      "module": "Freelancing, Projects and Career Preparation",
+      "subtopics": [
+        "Client handling and service packaging",
+        "Real-time project implementation",
+        "Interview preparation and mock sessions",
+        "Resume building, LinkedIn optimization, and placement assistance"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Digital Marketing Training?",
+      "answer": "Digital Marketing Training helps students learn SEO, Google Ads, Social Media Marketing, PPC, Content Marketing, Email Marketing, and Analytics tools."
+    },
+    {
+      "question": "Is Digital Marketing good for freshers?",
+      "answer": "Yes. Freshers from any educational background can start a successful career in Digital Marketing."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, and interview guidance."
+    },
+    {
+      "question": "Is online Digital Marketing training available?",
+      "answer": "Yes. We provide online Digital Marketing Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Coding knowledge is not mandatory for learning Digital Marketing."
+    },
+    {
+      "question": "Can non-IT students learn Digital Marketing?",
+      "answer": "Yes. Non-IT candidates can easily learn Digital Marketing and start freelancing or full-time careers."
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (No Coding Required)",
+  "image": "/CourseDetails/digital-marketing-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "SEO Optimization Project",
+    "Google Ads Campaign Setup",
+    "Meta Ads Lead Generation Campaign",
+    "GA4 Reporting and Traffic Analysis",
+    "Content Marketing and Social Media Strategy Project"
+  ],
+  "cta": {
+    "heading": "Start Your Digital Marketing Career Today 🚀",
+    "link": "https://iclptech.in/contact/"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training/#service",
+        "name": "Digital Marketing Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Digital Marketing Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training/#course",
+        "name": "Digital Marketing Online Training",
+        "description": "Join Digital Marketing Online Training at ICLP Technologies with SEO, Google Ads, Meta Ads, PPC, Analytics, AI Marketing tools, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Digital Marketing Course Completion Certificate",
+        "timeRequired": "PT60H",
+        "keywords": "Digital Marketing Online Training, Digital Marketing Course in Chennai, SEO Training in Chennai, Google Ads Training, Social Media Marketing Course, PPC Training, GA4 Training, AI Digital Marketing Course",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Digital Marketing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Search Engine Optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Google Ads"
+          },
+          {
+            "@type": "Thing",
+            "name": "Social Media Marketing"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/digital-marketing-online-training/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1200"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Digital Marketing Online Training",
+            "item": "https://iclptech.in/course/digital-marketing-online-training/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Digital Marketing Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Digital Marketing Training helps students learn SEO, Google Ads, Social Media Marketing, PPC, Content Marketing, Email Marketing, and Analytics tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Digital Marketing good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from any educational background can start a successful career in Digital Marketing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Digital Marketing training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Digital Marketing Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Coding knowledge is not mandatory for learning Digital Marketing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Digital Marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Digital Marketing and start freelancing or full-time careers."
+            }
+          }
+        ]
+      }
+    ]
+  }
+},{
   "course_name": "Pega Training in Chennai",
   "path": "pega-training-in-chennai",
   "description": "Join Pega Training in Chennai at ICLP Technologies with live instructor-led sessions covering Pega BPM, Pega PRPC architecture, case management, application development, workflow automation, business rules, integrations, reporting, security, and deployment concepts. 100% practical learning with real-time projects, certification guidance, and placement assistance for freshers, software professionals, BPM consultants, and working professionals.",
@@ -27700,359 +27756,422 @@
             "Hierarchy Management Implementation"
           ]
         },
-       {
-"course_name": "Data Analytics Course",
-"path": "data-analytics-course",
-"meta_title": "Data Analytics Course in Chennai | Placement Support & Real Projects",
-"meta_description": "Thinking about a career in data analytics? Learn by working on real projects, get expert guidance, and build job-ready skills with ICLP in Chennai.",
-"description": "Master data analytics, statistical methods, data mining, machine learning, and time series analysis using SAS and R with real-world case studies.",
-"schema": {
-"@context": "https://schema.org",
-"@graph": [
-{
-"@type": "EducationalOrganization",
-"@id": "https://iclptech.in/#organization",
-"name": "ICLP Technologies",
-"url": "https://iclptech.in",
-"logo": "https://iclptech.in/images/logo.png",
-"sameAs": [
-"https://www.instagram.com/iclp_technologies",
-"https://facebook.com/iclp-technologies",
-"http://linkedin.com/company/iclp-technologies",
-"https://twitter.com/iclp_tech",
-"https://youtube.com/@iclp_technologies"
-],
-"areaServed": {
-"@type": "Place",
-"name": "Chennai"
+      {
+  "name": "Data Analytics Course in Chennai with Placement Assistance",
+  "course_name": "Data Analytics Course",
+  "path": "data-analytics-course",
+  "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools. Students gain practical exposure through real-time analytics projects, dashboard creation, report automation, and business data analysis techniques used by top multinational companies. Whether you are looking for Data Analytics Online Training, Power BI Training, Tableau Certification Course, or placement-oriented Data Analyst Training, ICLP Technologies helps you become industry-ready with practical learning and career guidance.",
+  "meta_title": "Data Analytics Course in Chennai | Data Analyst Training with Placement | ICLP Technologies",
+  "meta_description": "Join Data Analytics Course in Chennai at ICLP Technologies. Learn Excel, SQL, Power BI, Tableau, Python, Data Visualization, and Analytics with real-time projects, certification guidance, and placement assistance.",
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Data Analytics Training</strong> in Chennai",
+    "description": "Data Analytics is one of the fastest-growing career opportunities worldwide. Organizations use analytics tools to make business decisions, improve operations, increase revenue, and understand customer behavior, creating strong demand for skilled analysts across industries.",
+    "points": [
+      "<strong>High Demand in All Industries:</strong> Companies actively hire analysts in IT, finance, retail, healthcare, logistics, and consulting",
+      "<strong>Attractive Salary Packages:</strong> Skilled Data Analysts, BI professionals, and reporting specialists earn strong compensation based on tools and project exposure",
+      "<strong>Strong Career Growth:</strong> Data Analytics creates a pathway into Business Intelligence, Data Science, Reporting, and decision-support roles",
+      "<strong>Global Job Opportunities:</strong> Organizations across India, USA, UAE, Singapore, Canada, and Europe hire analytics professionals",
+      "<strong>Work-from-Home Opportunities:</strong> Many analytics and dashboard-related roles support hybrid or remote work models",
+      "<strong>Business Intelligence Exposure:</strong> Learn in-demand tools like Power BI, Tableau, SQL, Excel, and Python used in modern reporting environments"
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive Data Analytics Curriculum",
+    "intro": "Our Data Analytics Training program focuses on practical, job-oriented learning through live instructor-led sessions, dashboard development, reporting automation, business case studies, and real-time analytics project implementation."
+  },
+  "track_overview_primary": {
+    "heading": "Core Analytics and Reporting Track",
+    "description": "Build strong fundamentals in analytics, reporting, and dashboard development:",
+    "topics": [
+      "<strong>Introduction to Data Analytics:</strong> Core analytics concepts, business use cases, and data-driven decision making",
+      "<strong>Advanced Excel for Analytics:</strong> Data cleaning, formulas, pivot tables, lookup functions, and reporting techniques",
+      "<strong>SQL for Data Analysis:</strong> Queries, joins, aggregations, filtering, and business data extraction",
+      "<strong>Power BI Dashboard Development:</strong> Dashboard building, KPI tracking, visualization, and interactive reports",
+      "<strong>Tableau Visualization:</strong> Storytelling through data, chart creation, and business insight presentation",
+      "<strong>Data Visualization:</strong> Best practices for charts, reports, dashboards, and visual business communication"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced Tools, Python and Career Readiness Track",
+    "description": "Apply analytics tools in real-world scenarios and become placement-ready:",
+    "topics": [
+      "<strong>Python for Data Analytics:</strong> Python basics, data handling, analysis workflows, and reporting support",
+      "<strong>Data Cleaning Techniques:</strong> Preparing raw business data for analysis and dashboarding",
+      "<strong>Business Intelligence Concepts:</strong> Reporting frameworks, performance tracking, and insight generation",
+      "<strong>Reporting & Dashboard Automation:</strong> Automated reporting processes and recurring analytics workflows",
+      "<strong>Statistical Analysis Basics:</strong> Introductory analytical concepts for interpreting trends and performance",
+      "<strong>Interview Preparation & Placement Support:</strong> Resume building, mock interviews, LinkedIn optimization, and job guidance"
+    ]
+  },
+  "certification_info": {
+    "heading": "Data Analytics Certification & Recognition",
+    "intro": "Receive a course completion certificate along with practical project exposure and industry-oriented learning designed to strengthen your profile for analytics, reporting, BI, and entry-level data roles.",
+    "highlights": [
+      "<strong>Course Completion Certificate:</strong> Validates practical learning in Excel, SQL, Power BI, Tableau, Python, and analytics workflows",
+      "<strong>Project Portfolio:</strong> Build dashboards, reports, and analytics case studies to showcase to employers",
+      "<strong>Interview Preparation:</strong> Get support for analytics interviews, reporting questions, and BI tool discussions",
+      "<strong>Placement Assistance:</strong> Resume building, job referral support, mock interviews, and career guidance sessions",
+      "<strong>Practical Assignments:</strong> Work on hands-on reporting and dashboard tasks to strengthen job readiness",
+      "<strong>Flexible Learning Support:</strong> Access recorded sessions, assignments, templates, and interview materials"
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Data Analytics Training?",
+    "intro": "ICLP Technologies provides industry-focused Data Analytics Training with practical implementation, real-time projects, live dashboards, business reporting exercises, and placement-oriented learning for freshers, non-IT learners, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced Industry Trainers",
+      "description": "Learn from experienced Data Analytics professionals with real-time project and corporate training exposure. Get mentor support for dashboarding, reporting, analytics workflows, and business interpretation techniques."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Designed for students, job seekers, and professionals across Chennai and beyond:",
+      "options": [
+        "<strong>Online Training:</strong> Live instructor-led sessions with recorded access and interactive practical classes",
+        "<strong>Classroom Training:</strong> In-person sessions for learners who prefer direct trainer support",
+        "<strong>Weekday & Weekend Batches:</strong> Suitable for freshers, career switchers, and working professionals",
+        "<strong>Real-Time Project Training:</strong> Gain hands-on exposure through dashboard development, analytics case studies, and reporting exercises"
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Introduction to Data Analytics",
+    "Advanced Excel for Analytics",
+    "SQL for Data Analysis",
+    "Power BI Dashboard Development",
+    "Tableau Visualization",
+    "Python for Data Analytics",
+    "Data Cleaning Techniques",
+    "Data Visualization",
+    "Business Intelligence Concepts",
+    "Reporting & Dashboard Automation",
+    "Statistical Analysis Basics",
+    "KPI Reporting",
+    "Data Interpretation",
+    "Real-Time Analytics Projects",
+    "Analytics Case Studies",
+    "Interview Preparation"
+  ],
+  "who_can_learn": [
+    "Freshers",
+    "Non-IT Candidates",
+    "Engineering Students",
+    "Commerce Graduates",
+    "MBA Students",
+    "Working Professionals",
+    "Career Gap Candidates",
+    "Finance Professionals",
+    "IT Professionals"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Data Analytics",
+      "subtopics": [
+        "Overview of data analytics and business intelligence",
+        "Importance of analytics in decision making",
+        "Types of analytics and industry applications",
+        "Analytics workflow and project lifecycle"
+      ]
+    },
+    {
+      "module": "Advanced Excel for Analytics",
+      "subtopics": [
+        "Data cleaning and formatting in Excel",
+        "Advanced formulas and functions",
+        "Pivot tables and dashboards",
+        "Excel-based reporting techniques"
+      ]
+    },
+    {
+      "module": "SQL for Data Analysis",
+      "subtopics": [
+        "SQL basics and database concepts",
+        "Filtering, sorting, and grouping data",
+        "Joins, subqueries, and aggregations",
+        "SQL queries for reporting and analytics"
+      ]
+    },
+    {
+      "module": "Power BI Dashboard Development",
+      "subtopics": [
+        "Power BI interface and data loading",
+        "Data transformation and modeling",
+        "Dashboard creation and KPI tracking",
+        "Interactive reports and data storytelling"
+      ]
+    },
+    {
+      "module": "Tableau Visualization",
+      "subtopics": [
+        "Tableau fundamentals",
+        "Charts, dashboards, and storytelling",
+        "Business visualizations and filters",
+        "Insight presentation techniques"
+      ]
+    },
+    {
+      "module": "Python for Data Analytics",
+      "subtopics": [
+        "Python basics for analytics",
+        "Working with datasets",
+        "Data manipulation and analysis concepts",
+        "Using Python in reporting workflows"
+      ]
+    },
+    {
+      "module": "Data Cleaning and Preparation",
+      "subtopics": [
+        "Handling missing and duplicate data",
+        "Data transformation basics",
+        "Preparing structured datasets",
+        "Improving data quality for analysis"
+      ]
+    },
+    {
+      "module": "Business Intelligence and Reporting",
+      "subtopics": [
+        "BI concepts and business use cases",
+        "Reporting frameworks and performance tracking",
+        "KPI reporting and interpretation",
+        "Dashboard automation concepts"
+      ]
+    },
+    {
+      "module": "Statistical Analysis and Interpretation",
+      "subtopics": [
+        "Basic statistical concepts",
+        "Trend and pattern analysis",
+        "Data interpretation methods",
+        "Business insight generation"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Real-time analytics projects",
+        "Dashboard and case study implementation",
+        "Interview preparation and mock sessions",
+        "Resume building, LinkedIn optimization, and placement support"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Data Analytics Training?",
+      "answer": "Data Analytics Training helps students learn data analysis, dashboard creation, reporting, visualization, Power BI, Tableau, SQL, and analytics tools."
+    },
+    {
+      "question": "Is Data Analytics good for freshers?",
+      "answer": "Yes. Freshers from engineering, commerce, IT, and non-IT backgrounds can start a successful career in Data Analytics."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online Data Analytics training available?",
+      "answer": "Yes. We provide online Data Analytics Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Basic knowledge is helpful but not mandatory for beginners."
+    },
+    {
+      "question": "Can non-IT students learn Data Analytics?",
+      "answer": "Yes. Non-IT candidates can easily learn Data Analytics with proper practical training and project guidance."
+    },
+    {
+      "question": "What is the salary after Data Analytics course?",
+      "answer": "Salary depends on skills, experience, certifications, and company requirements. Skilled Data Analysts receive attractive salary packages."
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Required)",
+  "image": "/CourseDetails/data-analytics-course.png",
+  "placement_assurance": true,
+  "projects": [
+    "Power BI Dashboard Development Project",
+    "Tableau Visualization Project",
+    "SQL Reporting and Data Analysis Project",
+    "Excel Analytics and KPI Reporting Project",
+    "Python-Based Data Analytics Project"
+  ],
+  "student_benefits": {
+    "heading": "Student Benefits",
+    "points": [
+      "Course Completion Certificate",
+      "Practical Assignments",
+      "Real-Time Projects",
+      "Dashboard Development Experience",
+      "Expert Mentor Support",
+      "Career Guidance",
+      "Placement Preparation",
+      "Interview Materials"
+    ]
+  },
+  "cta": {
+    "heading": "🚀 Start Your Data Analytics Career Today",
+    "subheading": "Become a Job-Ready Data Analyst with Real-Time Training, Live Projects, Certification Guidance, and Placement Assistance.",
+    "link": "https://iclptech.in/contact/"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/data-analytics-course/#service",
+        "name": "Data Analytics Course in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Data Analytics Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/data-analytics-course/#course",
+        "name": "Data Analytics Course in Chennai",
+        "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Data Analytics Course Completion Certificate",
+        "timeRequired": "PT60H",
+        "keywords": "Data Analytics Course in Chennai, Data Analyst Training, Data Analytics Online Training, Data Analytics Course with Placement, Power BI Training, Tableau Training, SQL Training, Excel for Data Analytics, Python Data Analytics Course",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Data Analytics"
+          },
+          {
+            "@type": "Thing",
+            "name": "Power BI"
+          },
+          {
+            "@type": "Thing",
+            "name": "Tableau"
+          },
+          {
+            "@type": "Thing",
+            "name": "Business Intelligence"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/data-analytics-course/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1800"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/data-analytics-course/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Data Analytics Course",
+            "item": "https://iclptech.in/course/data-analytics-course/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/data-analytics-course/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Data Analytics Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Data Analytics Training helps students learn data analysis, dashboard creation, reporting, visualization, Power BI, Tableau, SQL, and analytics tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Data Analytics good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from engineering, commerce, IT, and non-IT backgrounds can start a successful career in Data Analytics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Data Analytics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Data Analytics with practical training and project guidance."
+            }
+          }
+        ]
+      }
+    ]
+  }
 },
-"address": {
-"@type": "PostalAddress",
-"addressLocality": "Chennai",
-"addressCountry": "IN"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-8681026181",
-"contactType": "customer support",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-{
-"@type": "Service",
-"@id": "https://iclptech.in/course/data-analytics-course/#data-analytics-training-service",
-"name": "Data Analytics Training",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"areaServed": "India",
-"serviceType": "Data Analytics Certification Training"
-},
-{
-"@type": "Course",
-"@id": "https://iclptech.in/course/data-analytics-course/#course",
-"name": "Data Analytics Course in Chennai",
-"description": "Instructor-led data analytics training available in online and classroom formats. Covers Excel, SQL, Power BI, SAS, R, data mining, and machine learning with real-time projects, certification, and placement support.",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"courseMode": ["Online", "Offline"],
-"inLanguage": "English",
-"educationalLevel": "Intermediate",
-"occupationalCredentialAwarded": "Data Analytics Course Completion Certificate",
-"timeRequired": "PT60H",
-"keywords": "Data Analytics Course in Chennai, Data Analytics Training Chennai, SAS R Training, Data Analyst Course with Placement, Power BI SQL Course",
-"about": [
-{
-"@type": "Thing",
-"name": "Data Analytics"
-},
-{
-"@type": "Thing",
-"name": "SAS Programming"
-},
-{
-"@type": "Thing",
-"name": "R Programming"
-},
-{
-"@type": "Thing",
-"name": "Machine Learning"
-}
-],
-"audience": {
-"@type": "EducationalAudience",
-"educationalRole": "student"
-},
-"hasCourseInstance": {
-"@type": "CourseInstance",
-"courseMode": ["Online", "Offline"],
-"inLanguage": "English",
-"location": {
-"@type": "Place",
-"name": "Chennai"
-}
-},
-"offers": {
-"@type": "Offer",
-"url": "https://iclptech.in/course/data-analytics-course",
-"price": "Contact for fees",
-"priceCurrency": "INR",
-"availability": "https://schema.org/InStock"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.8",
-"ratingCount": "2734"
-}
-},
-{
-"@type": "BreadcrumbList",
-"@id": "https://iclptech.in/course/data-analytics-course/#breadcrumb",
-"itemListElement": [
-{
-"@type": "ListItem",
-"position": 1,
-"name": "Home",
-"item": "https://iclptech.in"
-},
-{
-"@type": "ListItem",
-"position": 2,
-"name": "Courses",
-"item": "https://iclptech.in/courses/"
-},
-{
-"@type": "ListItem",
-"position": 3,
-"name": "Data Analytics Course",
-"item": "https://iclptech.in/course/data-analytics-course"
-}
-]
-},
-{
-"@type": "FAQPage",
-"@id": "https://iclptech.in/course/data-analytics-course/#faq",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "How can I become a data analyst?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Start with Excel, SQL, Power BI for basics, then master SAS/R for advanced analytics and machine learning through structured training and projects."
-}
-},
-{
-"@type": "Question",
-"name": "Is data analytics a good career in Chennai?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, Chennai's IT hub has high demand for data analysts across finance, healthcare, and tech with excellent growth opportunities."
-}
-},
-{
-"@type": "Question",
-"name": "Is data analytics difficult for beginners?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Intermediate level course starts with fundamentals and builds progressively with hands-on SAS/R projects for steady learning."
-}
-},
-{
-"@type": "Question",
-"name": "What tools are used in data analytics?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Core tools include Excel, SQL, Power BI for visualization, SAS for enterprise analytics, and R for statistical modeling."
-}
-},
-{
-"@type": "Question",
-"name": "Do I need coding for data analytics?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Basic SQL required; SAS/R coding taught from basics. No prior programming experience needed for this structured course."
-}
-},
-{
-"@type": "Question",
-"name": "What do data analysts do daily?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Data analysts clean data, perform statistical analysis using SAS/R, create Power BI dashboards, and deliver business insights."
-}
-},
-{
-"@type": "Question",
-"name": "Can non-IT professionals learn data analytics?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, professionals from commerce, finance backgrounds successfully transition with this practical, project-based training."
-}
-},
-{
-"@type": "Question",
-"name": "How long to master data analytics?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "60 hours of intensive training with SAS, R, and real projects makes you job-ready in 2-3 months."
-}
-},
-{
-"@type": "Question",
-"name": "What skills for data analytics jobs?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Excel, SQL, Power BI, SAS/R programming, statistical analysis, machine learning, and business communication skills."
-}
-},
-{
-"@type": "Question",
-"name": "Does the course offer placement support?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, comprehensive placement assistance with resume building, mock interviews, and Chennai IT company referrals."
-}
-}
-]
-}
-]
-},
-"faqs": [
-{
-"question": "How can I become a data analyst?",
-"answer": "Start with Excel, SQL, Power BI for basics, then master SAS/R for advanced analytics and machine learning through structured training and projects."
-},
-{
-"question": "Is data analytics a good career in Chennai?",
-"answer": "Yes, Chennai's IT hub has high demand for data analysts across finance, healthcare, and tech with excellent growth opportunities."
-},
-{
-"question": "Is data analytics difficult for beginners?",
-"answer": "Intermediate level course starts with fundamentals and builds progressively with hands-on SAS/R projects for steady learning."
-},
-{
-"question": "What tools are used in data analytics?",
-"answer": "Core tools include Excel, SQL, Power BI for visualization, SAS for enterprise analytics, and R for statistical modeling."
-},
-{
-"question": "Do I need coding for data analytics?",
-"answer": "Basic SQL required; SAS/R coding taught from basics. No prior programming experience needed for this structured course."
-},
-{
-"question": "What do data analysts do daily?",
-"answer": "Data analysts clean data, perform statistical analysis using SAS/R, create Power BI dashboards, and deliver business insights."
-},
-{
-"question": "Can non-IT professionals learn data analytics?",
-"answer": "Yes, professionals from commerce, finance backgrounds successfully transition with this practical, project-based training."
-},
-{
-"question": "How long to master data analytics?",
-"answer": "60 hours of intensive training with SAS, R, and real projects makes you job-ready in 2-3 months."
-},
-{
-"question": "What skills for data analytics jobs?",
-"answer": "Excel, SQL, Power BI, SAS/R programming, statistical analysis, machine learning, and business communication skills."
-},
-{
-"question": "Does the course offer placement support?",
-"answer": "Yes, comprehensive placement assistance with resume building, mock interviews, and Chennai IT company referrals."
-}
-],
-"what_youll_learn": [
-"Foundations of data science and analytics methodology",
-"Data collection, data preparation, and exploration",
-"Statistical analysis using SAS and R",
-"Regression, clustering, association rules, and dimensionality reduction",
-"Machine learning techniques including SVM, Decision Trees, Neural Networks, and Ensemble Methods",
-"Text analytics, sentiment analysis, and optimization techniques",
-"Time series forecasting using ARIMA",
-"Hands-on case studies for real-world analytics projects"
-],
-"syllabus": [
-{
-"module": "Introduction to Data Science & Data Exploration",
-"subtopics": [
-"Introduction to Data Science",
-"Analytical Terminology, Analytical Methodology",
-"Introduction to SAS, R, R-Studio Interface",
-"Data Collection and Creating Datasets",
-"Reading Data from External Files (.txt, .xls, .csv)",
-"Data Exploration using Proc Print and Proc Contents",
-"Data Exploration using Proc Gchart and Proc Gplot",
-"Statistical Terminology",
-"Understanding Probability",
-"Analyzing Categorical Data (ProcFreq)",
-"Hypothesis Testing and Types of Errors",
-"Data Preparation: Proc Sort, Proc Format",
-"Keeping, Dropping, Renaming, Transposing Data",
-"Using SAS Functions",
-"Conditional Processing and By-group Processing",
-"Combining Datasets",
-"Do-Loops and Arrays",
-"Statistics: ProcFreq",
-"Statistics: Proc Ttest, Proc Anova",
-"Proc Npar1way"
-]
-},
-{
-"module": "Data Mining & Dimensionality Reduction",
-"subtopics": [
-"Introduction to Data Mining",
-"Introduction to Regression: ProcCorr, ProcReg",
-"Dimensionality Reduction: Proc Factor",
-"Dimensionality Reduction: Proc Princomp",
-"Dimensionality Reduction: Proc Discrim",
-"Introduction to Clustering",
-"Clustering Case Study",
-"Association Rules – Introduction",
-"Association Rules – Case Study",
-"Density Estimation: Proc KDE"
-]
-},
-{
-"module": "Machine Learning Models & Ensemble Methods",
-"subtopics": [
-"ProcReg: Case Study",
-"ProcReg: Model Diagnostics",
-"Introduction to Logistic Regression",
-"Proc Logistic – Case Study",
-"Introduction to Decision Trees",
-"Proc Dtree – Case Study",
-"Introduction to SVM and Naive Bayes – Case Study",
-"Introduction to Neural Networks",
-"Neural Networks – Case Study",
-"Introduction to KNN – Case Study",
-"Introduction to Bagging and Boosting",
-"Ensemble Methods – Case Study",
-"Reinforcement Learning"
-]
-},
-{
-"module": "Time Series, Text Analytics & Optimization",
-"subtopics": [
-"Introduction to Time Series",
-"Proc Arima – Case Study",
-"Introduction to Text Analytics",
-"Sentiment Analysis in R – Case Study",
-"Introduction to Optimization",
-"Optimization – Case Study"
-]
-}
-],
-"duration": "60 hours",
-"skill_level": "Intermediate",
-"image": "/CourseDetails/data-analytics.png",
-"placement_assurance": true,
-"projects": [
-"Data Exploration & Cleaning Project",
-"Regression & Classification Case Studies",
-"Clustering and Dimensionality Reduction Project",
-"Time Series Forecasting",
-"Text Analytics & Sentiment Analysis"
-] },
         {
           "course_name": "Collibra Online Training",
           "path": "collibra-online-training-course",

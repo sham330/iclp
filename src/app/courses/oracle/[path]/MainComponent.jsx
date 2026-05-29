@@ -158,6 +158,7 @@ const OracleCourseDetailsPage = () => {
 
         if (foundCourse) {
           setCourse(foundCourse);
+          localStorage.setItem('currentCourseName', foundCourse.course_name);
           setAdditionalContent(oracleAdditionalContent[foundCourse.course_name] || {});
         } else {
           console.error("Course not found:", courseName);
@@ -168,7 +169,6 @@ const OracleCourseDetailsPage = () => {
       .catch((error) => console.error("Error fetching data:", error))
       .finally(() => setLoading(false));
   }, [path]);
-
   const toggleModule = (index) => {
     if (openModule === index) {
       setOpenModule(null);

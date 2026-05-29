@@ -70,10 +70,15 @@ const ModalBooking = ({ onClose }) => {
     experience: "",
     notes: "",
   });
+  const [extraCourse, setExtraCourse] = useState(null);
 
   useEffect(() => {
-    const savedCourseName = localStorage.getItem("currentCourseName") || "";
-    setFormData((prev) => ({ ...prev, course: savedCourseName }));
+    const saved = localStorage.getItem("currentCourseName") || "";
+    if (saved) {
+      const exists = courses.some((c) => c.name === saved);
+      if (!exists) setExtraCourse(saved);
+      setFormData((prev) => ({ ...prev, course: saved }));
+    }
   }, []);
 
   const [errors, setErrors] = useState({});
@@ -200,6 +205,7 @@ const ModalBooking = ({ onClose }) => {
 
                 <select name="course" value={formData.course} onChange={handleChange} required className={inputCls("course")}>
                   <option value="">Select Your Course</option>
+                  {extraCourse && <option value={extraCourse}>{extraCourse}</option>}
                   <optgroup label="Regular Courses">
                     {courses.filter((c) => c.type === "regular").map((c, i) => <option key={i} value={c.name}>{c.name}</option>)}
                   </optgroup>
