@@ -13308,6 +13308,802 @@
     "Company Documents Q&A Assistant",
     "E-Learning Content Search Bot"
   ]
+},{
+  "course_name": "Software Testing Online Training",
+  "path": "software-testing-online-training",
+  "description": "Join the best Software Testing Online Training at ICLP Technologies with live instructor-led sessions covering Manual Testing, Automation Testing, Selenium with Java, API Testing, SQL, Agile Methodology, Test Case Writing, Defect Tracking, JIRA, and Real-Time Projects. 100% practical learning with certification guidance and placement support for freshers, non-IT candidates, graduates, working professionals, and career-switching candidates.",
+  "meta_title": "Software Testing Online Training | Software Testing Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Software Testing Online Training at ICLP Technologies. Learn Manual Testing, Automation Testing, Selenium, Java, API Testing, SQL, Agile, and Real-Time Projects with placement assistance across Chennai and India.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/software-testing-online-training/#service",
+        "name": "Software Testing Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Software Testing Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/software-testing-online-training/#course",
+        "name": "Software Testing Course in Chennai",
+        "description": "Live online software testing training covering Manual Testing, Automation Testing, Selenium with Java, API Testing, SQL, Agile Methodology, Test Case Writing, Defect Tracking, JIRA, and Real-Time Projects with placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Software Testing Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Software Testing Online Training, Software Testing Course in Chennai, Software Testing Training, Manual Testing Course, Automation Testing Training, Software Testing Placement Training, Selenium Training, API Testing Training, QA Testing Course",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Software Testing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Manual Testing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Automation Testing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Selenium"
+          },
+          {
+            "@type": "Thing",
+            "name": "API Testing"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/software-testing-online-training",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2983"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/software-testing-online-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Software Testing Online Training",
+            "item": "https://iclptech.in/course/software-testing-online-training"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/software-testing-online-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Software Testing Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Software Testing Training helps students learn Manual Testing, Automation Testing, Selenium, API Testing, SQL, Agile, and quality assurance processes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Software Testing good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from any educational background can start a successful career in Software Testing and QA Automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online training available for Software Testing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Online Software Testing Training with live instructor-led sessions is available across Chennai and India."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What tools are covered in Software Testing Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course covers Selenium, Java, API Testing with Postman, SQL, JIRA, Git/GitHub, TestNG, Maven, and Automation Frameworks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT candidates learn Software Testing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates, freshers, and career switchers can join Software Testing Training with no prior technical background required."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Software Testing Training?",
+      "answer": "Software Testing Training helps students learn Manual Testing, Automation Testing, Selenium, API Testing, SQL, Agile, and quality assurance processes."
+    },
+    {
+      "question": "Is Software Testing good for freshers?",
+      "answer": "Yes. Freshers from any educational background can start a successful career in Software Testing and QA Automation."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online training available for Software Testing?",
+      "answer": "Yes. Online Software Testing Training with live instructor-led sessions is available across Chennai and India."
+    },
+    {
+      "question": "What tools are covered in Software Testing Training?",
+      "answer": "The course covers Selenium, Java, API Testing with Postman, SQL, JIRA, Git/GitHub, TestNG, Maven, and Automation Frameworks."
+    },
+    {
+      "question": "Can non-IT candidates learn Software Testing?",
+      "answer": "Yes. Non-IT candidates, freshers, and career switchers can join Software Testing Training with no prior technical background required."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Software Testing",
+    "SDLC & STLC",
+    "Manual Testing",
+    "Test Case Writing",
+    "Bug Life Cycle",
+    "Defect Tracking Tools",
+    "Agile Testing",
+    "Selenium Training",
+    "Selenium WebDriver",
+    "Java Basics for Testing",
+    "Automation Framework",
+    "TestNG",
+    "Maven",
+    "API Testing",
+    "Postman Tool",
+    "SQL for Testers",
+    "JIRA Tool",
+    "Git & GitHub",
+    "Real-Time Project Implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Software Testing",
+      "subtopics": [
+        "Overview of Software Testing",
+        "Testing principles and objectives",
+        "Importance of quality assurance",
+        "Testing types and levels"
+      ]
+    },
+    {
+      "module": "SDLC & STLC",
+      "subtopics": [
+        "Software Development Life Cycle (SDLC)",
+        "Software Testing Life Cycle (STLC)",
+        "SDLC models: Waterfall, Agile, Iterative",
+        "Integration of testing in SDLC"
+      ]
+    },
+    {
+      "module": "Manual Testing",
+      "subtopics": [
+        "Manual testing fundamentals",
+        "Test planning and strategy",
+        "Test case design techniques",
+        "Test execution and reporting"
+      ]
+    },
+    {
+      "module": "Test Case Writing",
+      "subtopics": [
+        "Writing effective test cases",
+        "Test case templates and formats",
+        "Test data preparation",
+        "Test case documentation best practices"
+      ]
+    },
+    {
+      "module": "Bug Life Cycle & Defect Tracking",
+      "subtopics": [
+        "Bug life cycle stages",
+        "Defect severity and priority",
+        "Defect tracking tools overview",
+        "Bug reporting and management"
+      ]
+    },
+    {
+      "module": "Agile Testing",
+      "subtopics": [
+        "Agile methodology fundamentals",
+        "Agile testing principles",
+        "Scrum framework and testing",
+        "Sprint planning and testing activities"
+      ]
+    },
+    {
+      "module": "Selenium Training",
+      "subtopics": [
+        "Introduction to Selenium",
+        "Selenium IDE, WebDriver, and Grid",
+        "Selenium WebDriver architecture",
+        "Setting up Selenium environment"
+      ]
+    },
+    {
+      "module": "Selenium WebDriver",
+      "subtopics": [
+        "Locators and XPath",
+        "Web element interactions",
+        "Handling dropdowns, alerts, and windows",
+        "Synchronization and waits"
+      ]
+    },
+    {
+      "module": "Java Basics for Testing",
+      "subtopics": [
+        "Java fundamentals for automation",
+        "Variables, data types, and operators",
+        "Control flow and loops",
+        "Object-oriented programming concepts"
+      ]
+    },
+    {
+      "module": "Automation Framework",
+      "subtopics": [
+        "Automation framework types",
+        "Building a hybrid framework",
+        "Framework architecture and design",
+        "Best practices for framework development"
+      ]
+    },
+    {
+      "module": "TestNG",
+      "subtopics": [
+        "Introduction to TestNG",
+        "Annotations and test configuration",
+        "Test grouping and prioritization",
+        "Reporting and assertions in TestNG"
+      ]
+    },
+    {
+      "module": "Maven",
+      "subtopics": [
+        "Introduction to Maven",
+        "Project Object Model (POM)",
+        "Dependencies and build lifecycle",
+        "Integrating Maven with automation projects"
+      ]
+    },
+    {
+      "module": "API Testing",
+      "subtopics": [
+        "API testing fundamentals",
+        "REST and SOAP APIs",
+        "HTTP methods and status codes",
+        "API testing best practices"
+      ]
+    },
+    {
+      "module": "Postman Tool",
+      "subtopics": [
+        "Postman interface and setup",
+        "Creating and sending API requests",
+        "Writing tests in Postman",
+        "Collections and environments"
+      ]
+    },
+    {
+      "module": "SQL for Testers",
+      "subtopics": [
+        "SQL basics for testers",
+        "SELECT, INSERT, UPDATE, DELETE queries",
+        "Joins and subqueries",
+        "Database testing scenarios"
+      ]
+    },
+    {
+      "module": "JIRA Tool",
+      "subtopics": [
+        "Introduction to JIRA",
+        "Creating and managing issues",
+        "Workflow and boards in JIRA",
+        "Reporting and dashboards"
+      ]
+    },
+    {
+      "module": "Git & GitHub",
+      "subtopics": [
+        "Version control fundamentals",
+        "Git commands and workflows",
+        "Branching and merging",
+        "GitHub repository management"
+      ]
+    },
+    {
+      "module": "Real-Time Project Implementation",
+      "subtopics": [
+        "End-to-end testing project",
+        "Manual and automation testing integration",
+        "Real-world testing scenarios",
+        "Project presentation and documentation"
+      ]
+    }
+  ],
+  "duration": "2-4 Months (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (No Prerequisites)",
+  "image": "/CourseDetails/software-testing-online-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Manual Testing Project with Test Cases",
+    "Selenium Automation Framework",
+    "API Testing with Postman",
+    "Database Testing with SQL",
+    "End-to-End QA Testing Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Software Testing Training</strong>",
+    "description": "Software Testing and Automation Testing continue to be among the most valuable and fast-growing career opportunities in the IT industry. Companies actively hire professionals skilled in Manual Testing, Selenium Automation, API Testing, Agile Testing, and QA processes. Build a strong career with placement-focused training and practical exposure.",
+    "points": [
+      "<strong>High Demand Across IT Industries:</strong> Companies across India and globally actively hire软件测试 engineers and QA automation professionals",
+      "<strong>Excellent Career Opportunities:</strong> Roles include Software Test Engineer, QA Analyst, Automation Test Engineer, Selenium Tester, and QA Automation Engineer",
+      "<strong>Strong Salary Growth:</strong> Freshers and experienced professionals receive competitive salaries in manual and automation testing domains",
+      "<strong>Work-from-Home Opportunities:</strong> Software testing offers flexible remote work options across Chennai, Bangalore, Hyderabad, Pune, Mumbai, and globally",
+      "<strong>Easy Entry for Freshers:</strong> No prior technical background required; ideal for freshers, non-IT candidates, and career switchers",
+      "<strong>Global Software Testing Demand:</strong> Automation testing skills are in high demand across MNCs, startups, and consulting firms worldwide"
+    ]
+  }
+},{
+  "course_name": "R12.2 Oracle Order Management Fundamentals Certification Online Training",
+  "path": "r12-2-oracle-order-management-fundamentals-certification-online-training",
+  "description": "Join the best R12.2 Oracle Order Management Fundamentals Certification Online Training at ICLP Technologies with live instructor-led sessions covering Oracle Order Management overview, Order Entities and Flows, Order Processing, MOAC Setup, Oracle Inventory Setup, Oracle Receivables Setup, Order Management Setup, Holds and Exception Management, Basic Pricing Setup, and Shipping Execution. 100% practical learning with real-time projects, certification guidance, and placement support for ERP professionals, functional consultants, and students.",
+  "meta_title": "R12.2 Oracle Order Management Fundamentals Certification Online Training | ICLP Technologies",
+  "meta_description": "Join R12.2 Oracle Order Management Fundamentals Certification Online Training at ICLP Technologies. Learn Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, Pricing, Shipping Execution with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#service",
+        "name": "Oracle Order Management Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Oracle Order Management Certification Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#course",
+        "name": "R12.2 Oracle Order Management Fundamentals Certification Course",
+        "description": "Live online Oracle Order Management Fundamentals certification training covering Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, MOAC, Pricing, Shipping Execution with real-time projects and placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Oracle Order Management Fundamentals Certification",
+        "timeRequired": "PT40H",
+        "keywords": "R12.2 Oracle Order Management, Oracle Order Management Fundamentals, Oracle Order Management Certification, Order to Cash Lifecycle, Oracle Order Processing, Oracle Inventory Setup, Oracle Receivables Setup, Oracle Shipping Execution, Oracle ERP Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Oracle Order Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Order to Cash Lifecycle"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle ERP R12.2"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle Inventory"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle Receivables"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2983"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Oracle Order Management Fundamentals",
+            "item": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Oracle Order Management Fundamentals training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oracle Order Management Fundamentals training covers Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, MOAC, Pricing, and Shipping Execution in Oracle ERP R12.2."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Oracle Order Management good for ERP professionals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Oracle Order Management is widely used by enterprises and offers excellent career opportunities for ERP functional consultants and professionals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance for Oracle Order Management professionals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online training available for Oracle Order Management?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Online Oracle Order Management Training with live instructor-led sessions is available across Chennai and India."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the prerequisites for Oracle Order Management training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic understanding of ERP concepts and business processes is helpful. The course is designed for beginners to advanced learners."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I work on real projects during the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The training includes real-time project implementation scenarios and hands-on practice with Oracle Order Management modules."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Oracle Order Management Fundamentals training?",
+      "answer": "Oracle Order Management Fundamentals training covers Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, MOAC, Pricing, and Shipping Execution in Oracle ERP R12.2."
+    },
+    {
+      "question": "Is Oracle Order Management good for ERP professionals?",
+      "answer": "Yes. Oracle Order Management is widely used by enterprises and offers excellent career opportunities for ERP functional consultants and professionals."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance for Oracle Order Management professionals."
+    },
+    {
+      "question": "Is online training available for Oracle Order Management?",
+      "answer": "Yes. Online Oracle Order Management Training with live instructor-led sessions is available across Chennai and India."
+    },
+    {
+      "question": "What are the prerequisites for Oracle Order Management training?",
+      "answer": "Basic understanding of ERP concepts and business processes is helpful. The course is designed for beginners to advanced learners."
+    },
+    {
+      "question": "Will I work on real projects during the course?",
+      "answer": "Yes. The training includes real-time project implementation scenarios and hands-on practice with Oracle Order Management modules."
+    }
+  ],
+  "what_youll_learn": [
+    "Overview of Oracle Order Management and Capabilities",
+    "Order to Cash Lifecycle",
+    "Order Entities and Order Flows",
+    "Drop Shipments and Back-to-Back Orders",
+    "Sales Agreements and Negotiation Agreements",
+    "Entering and Booking Orders",
+    "Applying Sales Credits and Splitting Orders",
+    "Multiple Organization Access Control (MOAC) Setup",
+    "Oracle Inventory Setup for Order Management",
+    "Oracle Receivables Setup for Order Management",
+    "Order Management Setup Steps and Profile Options",
+    "Holds, Order Purge, and Exception Management",
+    "Basic Pricing Setup and Price List Maintenance",
+    "Overview of Shipping Execution"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Overview of Oracle Order Management",
+      "subtopics": [
+        "What is Oracle Order Management?",
+        "Order Capture and Order Fulfillment",
+        "Oracle Order Management Capabilities",
+        "Order to Cash Lifecycle",
+        "Integration with Other Products"
+      ]
+    },
+    {
+      "module": "Module 2: Order Entities and Order Flows",
+      "subtopics": [
+        "Order to Cash Lifecycle with Standard Items",
+        "Order to Cash Lifecycle with PTO Models and PTO Kits",
+        "Drop Shipments",
+        "Drop Shipments Across Ledgers",
+        "Back-to-Back Orders",
+        "Managing IR-ISO Changes",
+        "Sales Agreements",
+        "Negotiation Agreement"
+      ]
+    },
+    {
+      "module": "Module 3: Order Processing",
+      "subtopics": [
+        "Entering Order Header Main Information",
+        "Entering Order Header Additional Information",
+        "Entering Order Lines",
+        "Booking an Order",
+        "Applying Sales Credits",
+        "Splitting Orders",
+        "Copying Orders",
+        "Using Order Organizer"
+      ]
+    },
+    {
+      "module": "Module 4: Multiple Organization Access Control Setup",
+      "subtopics": [
+        "Organization Structure in Oracle Applications",
+        "Using MOAC in Oracle Order Management",
+        "Setting Up MOAC"
+      ]
+    },
+    {
+      "module": "Module 5: Oracle Inventory Setup for Oracle Order Management",
+      "subtopics": [
+        "Receipt to Issue Lifecycle",
+        "Inventory Organizations",
+        "Setting Up Locations",
+        "Inventory Organization Structure",
+        "Interorganization Shipping Networks",
+        "Shipping Method",
+        "Units of Measure",
+        "Uses of Units of Measure"
+      ]
+    },
+    {
+      "module": "Module 6: Oracle Receivables Setup for Oracle Order Management",
+      "subtopics": [
+        "Overview of Trading Community Architecture",
+        "Key Customer Related Concepts in TCA",
+        "Adding Customers in Order Management",
+        "Defining Payment Terms",
+        "Defining Invoicing and Accounting Rules",
+        "Overview of Credit Checking",
+        "Defining Credit Checking on the Customers Page - Profile Tab",
+        "Defining Credit Checking on the Customers Page - Profile Amounts Tab"
+      ]
+    },
+    {
+      "module": "Module 7: Order Management Setup Steps",
+      "subtopics": [
+        "Profile Options and System Parameters",
+        "Overview of QuickCode or Lookup Types",
+        "Defining QuickCode or Lookup Types",
+        "Overview of Order Header and Order Line Processing Flows",
+        "Overview of Transaction Types Window",
+        "Workflow in Transaction Types",
+        "Overview of Document Sequences for Order Numbering"
+      ]
+    },
+    {
+      "module": "Module 8: Holds, Order Purge, and Exception Management Setup",
+      "subtopics": [
+        "Holds",
+        "Seeded Holds",
+        "Automatic Holds",
+        "Generic Holds",
+        "Specifying Holds Framework",
+        "Hold Sources",
+        "Order and Quote Purge",
+        "Purge Sets"
+      ]
+    },
+    {
+      "module": "Module 9: Basic Pricing Setup",
+      "subtopics": [
+        "Overview of Pricing in the Order to Cash Process",
+        "Creating a Price List",
+        "Secondary Price List",
+        "Copy Price List",
+        "Price List Maintenance: Overview",
+        "Add Items to Price List",
+        "Manual Price List Updates",
+        "Implementation Steps: Setting Key Profile Options"
+      ]
+    },
+    {
+      "module": "Module 10: Overview of Shipping Execution",
+      "subtopics": [
+        "Shipping Execution Flow",
+        "Delivery and Delivery Lines",
+        "Trips and Stops",
+        "Delivery Leg",
+        "Containers/LPNs",
+        "Pick Release",
+        "Move Orders",
+        "Pick Confirmation"
+      ]
+    }
+  ],
+  "duration": "4-6 Weeks (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (ERP Knowledge Helpful)",
+  "image": "/CourseDetails/r12-2-oracle-order-management-fundamentals-certification.png",
+  "placement_assurance": true,
+  "projects": [
+    "Order to Cash Lifecycle Implementation",
+    "Drop Shipment and Back-to-Back Order Setup",
+    "MOAC and Inventory Configuration",
+    "Pricing Setup and Price List Creation",
+    "Shipping Execution and Pick Release Workflow"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>R12.2 Oracle Order Management Fundamentals Certification</strong>",
+    "description": "Oracle Order Management is widely used by enterprises for order capture, fulfillment, and order-to-cash processes. Build a high-demand career with placement-focused training, practical exposure, and opportunities in ERP functional consulting, implementation projects, and enterprise software domains.",
+    "points": [
+      "<strong>High Demand in Enterprise Organizations:</strong> Multinational companies and IT enterprises actively hiring Oracle ERP functional consultants and Order Management specialists",
+      "<strong>Attractive Salary Packages:</strong> Freshers earn ₹3.5-6 LPA; experienced ERP professionals ₹8-15+ LPA, consultants even higher",
+      "<strong>ERP Functional Consulting Career:</strong> Work as Oracle Order Management Consultant, ERP Functional Consultant, Implementation Specialist, or Support Analyst",
+      "<strong>Global Career Opportunities:</strong> Oracle ERP skills recognized worldwide across manufacturing, retail, healthcare, and service industries",
+      "<strong>Project-Based Work:</strong> Opportunities in Oracle implementation projects, upgrades, and support engagements",
+      "<strong>Entry-Level Friendly:</strong> Beginners with basic ERP understanding can start learning Oracle Order Management with proper training and hands-on guidance"
+    ]
+  }
 },
         {
   "course_name": "Mobile App Development Certification Course",
@@ -28171,6 +28967,328 @@
       }
     ]
   }
+},{
+  "course_name": "Collibra Training",
+  "path": "collibra-training-in-chennai",
+  "description": "Join the best Collibra Training in Chennai with hands-on practical learning covering Data Governance, Data Catalog, Metadata Management, Data Quality, Workflow Automation, Data Lineage, and Business Glossary implementation. 100% practical learning with real-time projects, certification guidance, and placement support for freshers, data professionals, business analysts, IT consultants, and working professionals.",
+  "meta_title": "Collibra Training in Chennai | Collibra Online Course with Hands-On Training | ICLP Technologies",
+  "meta_description": "Join Collibra Training in Chennai at ICLP Technologies and master Data Governance, Data Catalog, Metadata Management, Data Quality, and Workflow Automation with hands-on practical training, real-time projects, certification guidance, and placement assistance in Chennai.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://iclptech.in/#localbusiness",
+        "name": "ICLP Technologies",
+        "image": "https://iclptech.in/assets/logo/logo2.png",
+        "url": "https://iclptech.in/",
+        "telephone": "+91-8681026181",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chennai",
+          "addressRegion": "Tamil Nadu",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#service",
+        "name": "Collibra Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Collibra Course with Hands-On Training and Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#course",
+        "name": "Collibra Course in Chennai",
+        "description": "Hands-on Collibra training in Chennai covering Data Governance, Metadata Management, Business Glossary, Data Lineage, Workflow Automation, and real-time projects with certification guidance and placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Collibra Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Collibra Training in Chennai, Collibra Online Course, Collibra Hands-On Training, Data Governance Training, Metadata Management Training, Data Catalog Training, Data Quality Training, Workflow Automation Training, Collibra Certification Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "which is the course intro"
+          },
+          {
+            "@type": "Thing",
+            "name": "Collibra"
+          },
+          {
+            "@type": "Thing",
+            "name": "Data Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Metadata Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Data Lineage"
+          },
+          {
+            "@type": "Thing",
+            "name": "Workflow Automation"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2610"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Collibra Training",
+            "item": "https://iclptech.in/course/collibra-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Collibra Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Collibra Training helps students learn Data Governance, Metadata Management, Data Lineage, Workflow Automation, and Business Glossary concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide hands-on training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides hands-on practical training with live projects and real-time implementation scenarios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Collibra good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, data analytics, and business analysis backgrounds can start a successful career in Collibra."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Collibra training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online instructor-led Collibra Training with recorded classes and flexible schedules."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Collibra Training?",
+      "answer": "Collibra Training helps students learn Data Governance, Metadata Management, Business Glossary, Workflow Automation, and Data Stewardship concepts using the Collibra platform."
+    },
+    {
+      "question": "Is Collibra good for freshers?",
+      "answer": "Yes. Freshers from IT, data analytics, computer science, database management, and business analysis backgrounds can start a successful career in Collibra and Data Governance."
+    },
+    {
+      "question": "Do you provide hands-on training?",
+      "answer": "Yes. ICLP Technologies provides hands-on practical training with live projects, real-time implementation scenarios, assignments, and lab sessions."
+    },
+    {
+      "question": "Is online Collibra training available?",
+      "answer": "Yes. We provide online instructor-led Collibra Training with recorded classes and flexible schedules."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Collibra Platform",
+    "Data Governance Fundamentals",
+    "Business Glossary Management",
+    "Metadata Management",
+    "Data Lineage",
+    "Workflow Automation",
+    "Data Stewardship",
+    "Policy Management",
+    "Data Quality Concepts",
+    "Reference Data Management",
+    "Collibra Administration",
+    "Security & User Management",
+    "Integration Concepts",
+    "Real-Time Use Cases",
+    "Hands-On Lab Sessions"
+  ],
+  "syllabus": [
+    {
+      "module": "Collibra Platform Fundamentals",
+      "subtopics": [
+        "Introduction to Collibra platform",
+        "Overview of data governance concepts",
+        "Collibra architecture and navigation",
+        "Enterprise data management use cases"
+      ]
+    },
+    {
+      "module": "Data Governance and Stewardship",
+      "subtopics": [
+        "Data governance fundamentals",
+        "Roles and responsibilities in governance",
+        "Data stewardship concepts",
+        "Policy and governance workflows"
+      ]
+    },
+    {
+      "module": "Business Glossary and Metadata Management",
+      "subtopics": [
+        "Business glossary setup",
+        "Metadata management concepts",
+        "Asset relationships and classifications",
+        "Glossary implementation exercises"
+      ]
+    },
+    {
+      "module": "Data Lineage and Reference Data",
+      "subtopics": [
+        "Data lineage fundamentals",
+        "Lineage use cases and mapping",
+        "Reference data management",
+        "Enterprise data visibility concepts"
+      ]
+    },
+    {
+      "module": "Workflow Automation",
+      "subtopics": [
+        "Workflow automation concepts",
+        "Workflow creation exercises",
+        "Approval and task management",
+        "Automation scenarios in Collibra"
+      ]
+    },
+    {
+      "module": "Data Quality and Administration",
+      "subtopics": [
+        "Data quality concepts",
+        "Collibra administration basics",
+        "Security and user management",
+        "Platform configuration practices"
+      ]
+    },
+    {
+      "module": "Integration and Real-Time Use Cases",
+      "subtopics": [
+        "Integration concepts",
+        "Real-time implementation scenarios",
+        "Enterprise-level use cases",
+        "Industry-oriented assignments"
+      ]
+    },
+    {
+      "module": "Hands-On Projects and Career Preparation",
+      "subtopics": [
+        "Hands-on lab sessions",
+        "Live project-based training",
+        "Interview preparation support",
+        "Certification guidance and placement assistance"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (No Strict Prerequisites)",
+  "image": "/CourseDetails/collibra-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Business Glossary Implementation Project",
+    "Metadata Management Scenario",
+    "Workflow Automation Exercise",
+    "Data Governance Case Study",
+    "Collibra Real-Time Use Case Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Collibra Training</strong> in Chennai",
+    "description": "Collibra is one of the most in-demand Data Governance platforms used by multinational companies across banking, healthcare, insurance, retail, finance, and enterprise domains. Build practical skills in enterprise data management and prepare for high-growth roles in Data Governance.",
+    "points": [
+      "<strong>High Demand in Data Governance:</strong> Companies increasingly need skilled professionals for data governance, cataloging, and metadata management",
+      "<strong>Excellent Salary Packages:</strong> Collibra and data governance roles offer attractive salary opportunities in enterprise organizations",
+      "<strong>Strong Career Growth:</strong> Build your path toward roles like Collibra Developer, Data Governance Analyst, and Metadata Management Consultant",
+      "<strong>Enterprise Tool Exposure:</strong> Gain practical knowledge of governance workflows, lineage, glossary, and administration concepts",
+      "<strong>Opportunities in MNCs:</strong> Top companies such as Accenture, Infosys, Cognizant, Capgemini, Deloitte, and IBM hire Collibra professionals",
+      "<strong>Hands-On Learning Advantage:</strong> Real-time projects, lab sessions, and implementation exercises help you become industry-ready"
+    ]
+  }
 },
         {
           "course_name": "Collibra Online Training",
@@ -30913,6 +32031,725 @@
       "category_name": "Cloud & DevOps",
       "path": "cloud-devops",
       "sub_categories": [
+        {
+  "course_name": "DevOps Engineer",
+  "path": "devops-course-online-bangalore",
+  "description": "Join the best DevOps Course Online in Bangalore with live instructor-led sessions covering AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, Terraform, Ansible, Git, cloud automation, and real-time DevOps projects. 100% practical learning with certification and placement support for freshers, software professionals, non-IT candidates, and working professionals in Whitefield, Marathahalli, Electronic City, BTM Layout, Koramangala, HSR Layout, Indiranagar, JP Nagar, Jayanagar, and Rajajinagar.",
+  "meta_title": "DevOps Course Online | DevOps Training in Bangalore with Placement | ICLP Technologies",
+  "meta_description": "Join DevOps Course Online at ICLP Technologies Bangalore. Learn DevOps tools, AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, and Cloud Automation with real-time projects, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Bangalore"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/devops-course-online-bangalore/#service",
+        "name": "DevOps Training in Bangalore",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "DevOps Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/devops-course-online-bangalore/#course",
+        "name": "DevOps Course in Bangalore",
+        "description": "Live online DevOps training in Bangalore covering AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, Terraform, Ansible, Git, cloud automation, and real-time DevOps projects with placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "DevOps Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "DevOps Course Online, DevOps Training in Bangalore, DevOps Course, DevOps Certification Training, DevOps Placement Training, DevOps Course with Placement, Best DevOps Training Institute in Bangalore, DevOps Online Course, AWS DevOps Training, Docker and Kubernetes Training, Jenkins Training, CI/CD Training, DevOps Course for Beginners, DevOps Course for Freshers, DevOps Real-Time Project Training, Cloud DevOps Course, DevOps Course Online with Placement in Bangalore, DevOps Training for Non IT Students, DevOps Certification Course Online, Online DevOps Course with Real-Time Projects, DevOps Training Institute in Bangalore, DevOps Course Online - Bangalore, DevOps Course Online with Placement Assistance in Bangalore, DevOps Training in Whitefield, DevOps Course in Whitefield Bangalore, AWS DevOps Training in Whitefield, DevOps Institute in Whitefield, DevOps Training in Marathahalli, DevOps Course in Marathahalli, Best DevOps Institute in Marathahalli, DevOps Training in Electronic City, DevOps Course in Electronic City Bangalore, AWS DevOps Course in Electronic City, DevOps Training in BTM Layout, DevOps Course in BTM, DevOps Institute in BTM Layout, DevOps Training in Koramangala, DevOps Course in Koramangala, Best DevOps Classes in Koramangala, DevOps Training in HSR Layout, DevOps Course in HSR Layout, DevOps Institute in HSR Layout, DevOps Training in Indiranagar, DevOps Course in Indiranagar Bangalore, DevOps Training in JP Nagar, DevOps Course in JP Nagar Bangalore, DevOps Training in Jayanagar, DevOps Course in Jayanagar, DevOps Training in Rajajinagar, DevOps Institute in Rajajinagar",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "which is the course intro"
+          },
+          {
+            "@type": "Thing",
+            "name": "DevOps"
+          },
+          {
+            "@type": "Thing",
+            "name": "AWS Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "Docker"
+          },
+          {
+            "@type": "Thing",
+            "name": "Kubernetes"
+          },
+          {
+            "@type": "Thing",
+            "name": "CI/CD Pipelines"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/devops-course-online-bangalore/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2610"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/devops-course-online-bangalore/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "DevOps Course",
+            "item": "https://iclptech.in/course/devops-course-online-bangalore/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/devops-course-online-bangalore/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is DevOps Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DevOps Training helps students learn automation, cloud deployment, CI/CD pipelines, Docker, Kubernetes, AWS, Linux, Jenkins, and infrastructure management tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is DevOps good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in DevOps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, mock interviews, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online DevOps training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online DevOps Course with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior IT experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners and non-IT candidates can learn DevOps with practical training and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after DevOps training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled DevOps Engineers receive attractive salary packages in cloud and automation roles."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is DevOps Training?",
+      "answer": "DevOps Training helps students learn automation, cloud deployment, CI/CD pipelines, Docker, Kubernetes, AWS, Linux, Jenkins, and infrastructure management tools."
+    },
+    {
+      "question": "Is DevOps good for freshers?",
+      "answer": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in DevOps."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, mock interviews, and career assistance."
+    },
+    {
+      "question": "Is online DevOps training available?",
+      "answer": "Yes. We provide online DevOps Course with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need prior IT experience?",
+      "answer": "No. Beginners and non-IT candidates can learn DevOps with practical training and project guidance."
+    },
+    {
+      "question": "What is the salary after DevOps training?",
+      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled DevOps Engineers receive attractive salary packages in cloud and automation roles."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to DevOps",
+    "Linux Administration",
+    "AWS Cloud Basics",
+    "Git and GitHub",
+    "Jenkins Automation",
+    "Docker Containerization",
+    "Kubernetes Orchestration",
+    "CI/CD Pipeline Implementation",
+    "Terraform Infrastructure Automation",
+    "Ansible Configuration Management",
+    "Monitoring Tools",
+    "Cloud Deployment",
+    "Server Management",
+    "Deployment Automation",
+    "Interview Preparation"
+  ],
+  "syllabus": [
+    {
+      "module": "DevOps Fundamentals",
+      "subtopics": [
+        "Introduction to DevOps concepts and culture",
+        "DevOps lifecycle and methodologies",
+        "DevOps tools overview",
+        "DevOps career paths"
+      ]
+    },
+    {
+      "module": "Linux Administration",
+      "subtopics": [
+        "Linux fundamentals and commands",
+        "User and permission management",
+        "System administration basics",
+        "Shell scripting for automation"
+      ]
+    },
+    {
+      "module": "AWS Cloud Basics",
+      "subtopics": [
+        "Introduction to AWS services",
+        "EC2, S3, and VPC basics",
+        "IAM and security concepts",
+        "Cloud deployment models"
+      ]
+    },
+    {
+      "module": "Git and Version Control",
+      "subtopics": [
+        "Git fundamentals",
+        "GitHub repository management",
+        "Branching and merging workflows",
+        "Collaboration and code review"
+      ]
+    },
+    {
+      "module": "Jenkins Automation",
+      "subtopics": [
+        "Introduction to Jenkins",
+        "Installation and configuration",
+        "Building and managing jobs",
+        "Pipeline creation and automation"
+      ]
+    },
+    {
+      "module": "Docker Containerization",
+      "subtopics": [
+        "Docker basics and architecture",
+        "Creating Docker images",
+        "Running containers",
+        "Docker networking and volumes"
+      ]
+    },
+    {
+      "module": "Kubernetes Orchestration",
+      "subtopics": [
+        "Kubernetes fundamentals",
+        "Pods, services, and deployments",
+        "Cluster management basics",
+        "Scaling and health monitoring"
+      ]
+    },
+    {
+      "module": "CI/CD Pipeline Implementation",
+      "subtopics": [
+        "CI/CD concepts and best practices",
+        "Building automated pipelines",
+        "Deployment strategies",
+        "Pipeline monitoring and logging"
+      ]
+    },
+    {
+      "module": "Infrastructure Automation",
+      "subtopics": [
+        "Terraform basics and state management",
+        "Provisioning cloud infrastructure",
+        "Ansible configuration management",
+        "Automating server setups"
+      ]
+    },
+    {
+      "module": "Monitoring and Cloud Operations",
+      "subtopics": [
+        "Monitoring tools and concepts",
+        "Log management and alerting",
+        "Cloud deployment and management",
+        "Server management best practices"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Prep",
+      "subtopics": [
+        "DevOps real-time implementation scenarios",
+        "Cloud automation projects",
+        "CI/CD pipeline projects",
+        "Resume building and interview preparation"
+      ]
+    }
+  ],
+  "duration": "40+ Hours of Mastery",
+  "skill_level": "Beginner to Advanced (No Prerequisites)",
+  "image": "/CourseDetails/devops-course-online-bangalore.png",
+  "placement_assurance": true,
+  "projects": [
+    "DevOps Real-Time Projects",
+    "CI/CD Pipeline Implementation",
+    "Cloud Automation Projects",
+    "Docker & Kubernetes Deployment",
+    "AWS DevOps Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>DevOps Training</strong> in Bangalore",
+    "description": "DevOps is a future-proof technology career with high demand in Bangalore IT industries. Build strong skills in cloud automation, CI/CD pipelines, and infrastructure management with real-time project exposure and placement support.",
+    "points": [
+      "<strong>High Demand in Bangalore IT Industries:</strong> Companies worldwide actively hiring DevOps Engineers, Cloud Engineers, and SREs",
+      "<strong>Attractive Salary Packages:</strong> Skilled DevOps professionals receive competitive compensation in cloud and automation roles",
+      "<strong>Future-Proof Career:</strong> DevOps and Cloud Computing are among the fastest-growing technology domains",
+      "<strong>Global Job Opportunities:</strong> Opportunities across India, USA, UAE, Canada, Singapore, and Europe",
+      "<strong>Exposure to Real-Time Projects:</strong> Hands-on experience with AWS, Docker, Kubernetes, Jenkins, Terraform, and CI/CD pipelines",
+      "<strong>Career Flexibility:</strong> Roles in DevOps Engineering, Cloud Engineering, SRE, Linux Administration, and Infrastructure Automation"
+    ]
+  }
+},
+        {
+  "course_name": "DevOps Engineer",
+  "path": "devops-course-online",
+  "name":"DevOps Course Online with Placement Assistance",
+  "description": "Join the best DevOps Course Online in Chennai with live instructor-led sessions covering AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, Terraform, Ansible, Git, cloud automation, and real-time DevOps projects. 100% practical learning with certification and placement support for freshers, software professionals, non-IT candidates, and working professionals.",
+  "meta_title": "DevOps Course Online | DevOps Training in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join DevOps Course Online at ICLP Technologies. Learn DevOps tools, AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, and Cloud Automation with real-time projects, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/devops-course-online/#service",
+        "name": "DevOps Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "DevOps Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/devops-course-online/#course",
+        "name": "DevOps Course in Chennai",
+        "description": "Live online DevOps training covering AWS, Docker, Kubernetes, Jenkins, CI/CD, Linux, Terraform, Ansible, Git, cloud automation, and real-time DevOps projects with placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "DevOps Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "DevOps Course Online, DevOps Training in Chennai, DevOps Course, DevOps Certification Training, DevOps Placement Training, DevOps Course with Placement, AWS DevOps Training, Docker and Kubernetes Training, Jenkins Training, CI/CD Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "which is the course intro"
+          },
+          {
+            "@type": "Thing",
+            "name": "DevOps"
+          },
+          {
+            "@type": "Thing",
+            "name": "AWS Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "Docker"
+          },
+          {
+            "@type": "Thing",
+            "name": "Kubernetes"
+          },
+          {
+            "@type": "Thing",
+            "name": "CI/CD Pipelines"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/devops-course-online/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2610"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/devops-course-online/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "DevOps Course",
+            "item": "https://iclptech.in/course/devops-course-online/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/devops-course-online/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is DevOps Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DevOps Training helps students learn automation, cloud deployment, CI/CD pipelines, Docker, Kubernetes, AWS, Linux, Jenkins, and infrastructure management tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is DevOps good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in DevOps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, mock interviews, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online DevOps training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online DevOps Course with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior IT experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners and non-IT candidates can learn DevOps with practical training and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after DevOps training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled DevOps Engineers receive attractive salary packages in cloud and automation roles."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is DevOps Training?",
+      "answer": "DevOps Training helps students learn automation, cloud deployment, CI/CD pipelines, Docker, Kubernetes, AWS, Linux, Jenkins, and infrastructure management tools."
+    },
+    {
+      "question": "Is DevOps good for freshers?",
+      "answer": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in DevOps."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, mock interviews, and career assistance."
+    },
+    {
+      "question": "Is online DevOps training available?",
+      "answer": "Yes. We provide online DevOps Course with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need prior IT experience?",
+      "answer": "No. Beginners and non-IT candidates can learn DevOps with practical training and project guidance."
+    },
+    {
+      "question": "What is the salary after DevOps training?",
+      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled DevOps Engineers receive attractive salary packages in cloud and automation roles."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to DevOps",
+    "Linux Administration",
+    "AWS Cloud Basics",
+    "Git and GitHub",
+    "Jenkins Automation",
+    "Docker Containerization",
+    "Kubernetes Orchestration",
+    "CI/CD Pipeline Implementation",
+    "Terraform Infrastructure Automation",
+    "Ansible Configuration Management",
+    "Monitoring Tools",
+    "Cloud Deployment",
+    "Server Management",
+    "Deployment Automation",
+    "Interview Preparation"
+  ],
+  "syllabus": [
+    {
+      "module": "DevOps Fundamentals",
+      "subtopics": [
+        "Introduction to DevOps concepts and culture",
+        "DevOps lifecycle and methodologies",
+        "DevOps tools overview",
+        "DevOps career paths"
+      ]
+    },
+    {
+      "module": "Linux Administration",
+      "subtopics": [
+        "Linux fundamentals and commands",
+        "User and permission management",
+        "System administration basics",
+        "Shell scripting for automation"
+      ]
+    },
+    {
+      "module": "AWS Cloud Basics",
+      "subtopics": [
+        "Introduction to AWS services",
+        "EC2, S3, and VPC basics",
+        "IAM and security concepts",
+        "Cloud deployment models"
+      ]
+    },
+    {
+      "module": "Git and Version Control",
+      "subtopics": [
+        "Git fundamentals",
+        "GitHub repository management",
+        "Branching and merging workflows",
+        "Collaboration and code review"
+      ]
+    },
+    {
+      "module": "Jenkins Automation",
+      "subtopics": [
+        "Introduction to Jenkins",
+        "Installation and configuration",
+        "Building and managing jobs",
+        "Pipeline creation and automation"
+      ]
+    },
+    {
+      "module": "Docker Containerization",
+      "subtopics": [
+        "Docker basics and architecture",
+        "Creating Docker images",
+        "Running containers",
+        "Docker networking and volumes"
+      ]
+    },
+    {
+      "module": "Kubernetes Orchestration",
+      "subtopics": [
+        "Kubernetes fundamentals",
+        "Pods, services, and deployments",
+        "Cluster management basics",
+        "Scaling and health monitoring"
+      ]
+    },
+    {
+      "module": "CI/CD Pipeline Implementation",
+      "subtopics": [
+        "CI/CD concepts and best practices",
+        "Building automated pipelines",
+        "Deployment strategies",
+        "Pipeline monitoring and logging"
+      ]
+    },
+    {
+      "module": "Infrastructure Automation",
+      "subtopics": [
+        "Terraform basics and state management",
+        "Provisioning cloud infrastructure",
+        "Ansible configuration management",
+        "Automating server setups"
+      ]
+    },
+    {
+      "module": "Monitoring and Cloud Operations",
+      "subtopics": [
+        "Monitoring tools and concepts",
+        "Log management and alerting",
+        "Cloud deployment and management",
+        "Server management best practices"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Prep",
+      "subtopics": [
+        "DevOps real-time implementation scenarios",
+        "Cloud automation projects",
+        "CI/CD pipeline projects",
+        "Resume building and interview preparation"
+      ]
+    }
+  ],
+  "duration": "40+ Hours of Mastery",
+  "skill_level": "Beginner to Advanced (No Prerequisites)",
+  "image": "/CourseDetails/devops-course-online.png",
+  "placement_assurance": true,
+  "projects": [
+    "DevOps Real-Time Projects",
+    "CI/CD Pipeline Implementation",
+    "Cloud Automation Projects",
+    "Docker & Kubernetes Deployment",
+    "AWS DevOps Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>DevOps Training</strong> in Chennai",
+    "description": "DevOps is a future-proof technology career with high demand in global industries. Build strong skills in cloud automation, CI/CD pipelines, and infrastructure management with real-time project exposure and placement support.",
+    "points": [
+      "<strong>High Demand in Global Industries:</strong> Companies worldwide actively hiring DevOps Engineers, Cloud Engineers, and SREs",
+      "<strong>Attractive Salary Packages:</strong> Skilled DevOps professionals receive competitive compensation in cloud and automation roles",
+      "<strong>Future-Proof Career:</strong> DevOps and Cloud Computing are among the fastest-growing technology domains",
+      "<strong>Global Job Opportunities:</strong> Opportunities across India, USA, UAE, Canada, Singapore, and Europe",
+      "<strong>Exposure to Real-Time Projects:</strong> Hands-on experience with AWS, Docker, Kubernetes, Jenkins, Terraform, and CI/CD pipelines",
+      "<strong>Career Flexibility:</strong> Roles in DevOps Engineering, Cloud Engineering, SRE, Linux Administration, and Infrastructure Automation"
+    ]
+  }
+},
         {
           "course_name": "AWS DevOps",
           "path": "aws-devops",
