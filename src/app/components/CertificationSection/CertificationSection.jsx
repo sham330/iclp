@@ -13,7 +13,7 @@ export default function CertificationSection() {
       <div className="max-w-6xl mx-auto bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 md:p-10 flex flex-col md:flex-row items-center gap-8 shadow-lg">
 
         {/* Left Logo */}
-        <div className="bg-white rounded-xl p-4 flex items-center justify-center w-36 h-36 md:w-44 md:h-44 shadow shrink-0">
+        <div className="bg-white rounded-xl p-4 flex items-center justify-center w-36 h-36 md:w-44 md:h-44 shadow shrink-0 hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-pointer">
           <img
             src="/logo.png"
             alt="Certification"
@@ -48,9 +48,9 @@ export default function CertificationSection() {
             {features.map(({ label, icon: Icon }, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 bg-white/10 text-white px-4 py-2 rounded-full text-sm backdrop-blur"
+                className="flex items-center gap-2 bg-white/10 hover:bg-white hover:text-blue-700 text-white px-4 py-2 rounded-full text-sm backdrop-blur transition-all duration-300 cursor-default group"
               >
-                <Icon size={16} className="text-green-400" />
+                <Icon size={16} className="text-green-400 group-hover:text-blue-600 transition-colors duration-300" />
                 {label}
               </div>
             ))}

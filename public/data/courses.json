@@ -6758,202 +6758,376 @@
             "Dynamic Content Loader"
           ]
         },
-        {
-          "course_name": "Full-Stack Java Training Online",
-          "path": "full-stack-java-training-online",
-          "description": "Comprehensive training in Full-Stack Java development covering front-end, back-end, and database technologies.",
-          "what_youll_learn": [
-            "Master HTML5, CSS3, and JavaScript for front-end development",
-            "Learn Bootstrap for responsive web design",
-            "Understand JavaScript and jQuery for interactive web applications",
-            "Work with AJAX and JSON for asynchronous communication",
-            "Implement ES6 features and TypeScript",
-            "Develop applications using AngularJS and ReactJS",
-            "Build complete full-stack Java applications"
-          ],
-          "syllabus": [
-            {
-              "module": "HTML",
-              "subtopics": [
-                "Html Introduction And Its Use In Websites",
-                "Introduction Of Html",
-                "Differences Between Html4 & Html5",
-                "Elements / Tags",
-                "Attributes And With Practical Examples",
-                "Forms",
-                "Tables",
-                "Audio And Video",
-                "Html5 New Elements"
-              ]
-            },
-            {
-              "module": "CSS",
-              "subtopics": [
-                "Css Introduction And Its Use In Websites",
-                "Css Implementations In Html",
-                "Animation Properties",
-                "Background Properties",
-                "Text Properties",
-                "Layout Properties",
-                "Selectors",
-                "Elements",
-                "Attributes",
-                "Psuedo Classes",
-                "Animation Effects"
-              ]
-            },
-            {
-              "module": "Bootstrap",
-              "subtopics": [
-                "Bootstrap Basic",
-                "Fixed Layouts",
-                "Responsive Layouts",
-                "Tables",
-                "Images",
-                "Buttons",
-                "Forms",
-                "Glypicons",
-                "Navigations",
-                "Breadcrumbs",
-                "Dropdowns",
-                "Paginations",
-                "Helper Classes",
-                "Modal Dialog Boxes",
-                "Carousels"
-              ]
-            },
-            {
-              "module": "Javascript",
-              "subtopics": [
-                "Introduction",
-                "Basic Concepts",
-                "Conditional Statements",
-                "Loop Statements",
-                "Functions",
-                "Dom And Event Handlers",
-                "Working With Forms",
-                "Object Oriented Programming",
-                "Advanced Concepts – Prototype, Closures, Apply(), Call() Etc."
-              ]
-            },
-            {
-              "module": "Jquery",
-              "subtopics": [
-                "Introduction",
-                "Basic Concepts",
-                "Conditional Statements",
-                "Loop Statements",
-                "Functions",
-                "Dom And Event Handlers",
-                "Working With Forms",
-                "Object-Oriented Programming",
-                "Advanced Concepts – Prototype, Closures, Apply(), Call() Etc."
-              ]
-            },
-            {
-              "module": "Ajax",
-              "subtopics": [
-                "$.Ajax() Method",
-                "Jqxhr (Jquery Xmlhttprequest) Vs. Xhr (Xmlhttprequest)",
-                "Invoking Jquery Ajax Http Methods",
-                "Synchronous Vs. Asynchronous Communication",
-                "Jquery Ajax Global Event Handlers"
-              ]
-            },
-            {
-              "module": "Json",
-              "subtopics": [
-                "Introduction",
-                "Json Vs Xml",
-                "Json Object",
-                "Json Array",
-                "Ajax Json"
-              ]
-            },
-            {
-              "module": "Es6",
-              "subtopics": [
-                "Let, Var, Const",
-                "Arrow Functions",
-                "Default Parameters",
-                "For Loop",
-                "Spread Attributes",
-                "Maps",
-                "Sets",
-                "Static Methods",
-                "Getters And Setters"
-              ]
-            },
-            {
-              "module": "Typescript",
-              "subtopics": [
-                "Single Page Apps VS Conventional Web Applications",
-                "Where Angular Fits",
-                "Angular-9 is arrived (what's new)"
-              ]
-            },
-            {
-              "module": "Bootstrap Scaffolding",
-              "subtopics": [
-                "What Is Bootstrap?",
-                "Bootstrap File Structure",
-                "Basic HTML Template",
-                "Global Styles",
-                "Default Grid System",
-                "Fluid Grid System",
-                "Bootstrap CSS",
-                "Typography",
-                "Code",
-                "Tables",
-                "Forms",
-                "Buttons",
-                "Images",
-                "Icons"
-              ]
-            },
-            {
-              "module": "Angularjs",
-              "subtopics": [
-                "Templates",
-                "Bindings",
-                "Event Bindings",
-                "Two-way Binding",
-                "Class and Style Bindings",
-                "Built-in Directives",
-                "Component Data Binding",
-                "Component Events",
-                "Ng-model",
-                "Introduction to webpack/systemJS"
-              ]
-            },
-            {
-              "module": "Reactjs",
-              "subtopics": [
-                "Reactjs Introduction",
-                "Installation / Setup An Environment",
-                "Displaying An Output",
-                "Working With Loops",
-                "Working With Inline, External Styles",
-                "Naming Convention - Classname - Class = '...'",
-                "Event Handling",
-                "User-Defined Methods",
-                "Property Binding",
-                "Routing",
-                "Working With Forms And Instant Field Validation",
-                "Working With File Upload",
-                "Working With Rest Api's"
-              ]
-            }
-          ],
-          "duration": "60 hours",
-          "skill_level": "Intermediate",
-          "image": "/CourseDetails/fjo.png",
-          "placement_assurance": true,
-          "projects": [
-            "E-commerce Platform",
-            "Social Media Dashboard"
-          ]
+      {
+  "course_name": "Full Stack Java Training",
+  "name":"Full Stack Java Training Online with Placement Assistance",
+  "path": "full-stack-java-training-online",
+  "description": "ICLP Technologies offers industry-focused Full Stack Java Training Online designed for freshers, working professionals, non-IT candidates, engineering graduates, and career switchers who want to build a successful career in Full Stack Java Development.Our Java Full Stack Developer Course in Chennai provides practical learning with real-time projects, live web application development, frontend and backend integration, database management, API development, and deployment techniques used in modern software companies. Students gain hands-on experience in Java Programming, Core Java, Advanced Java, Spring Boot, Hibernate, React JS, HTML5, CSS3, JavaScript, SQL, REST APIs, GitHub, and Full Stack Application Development.",
+  "meta_title": "Full Stack Java Training Online | Java Full Stack Developer Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Full Stack Java Training Online at ICLP Technologies. Learn Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
         },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online/#service",
+        "name": "Full Stack Java Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Full Stack Java Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online/#course",
+        "name": "Full Stack Java Training Online",
+        "description": "Join Full Stack Java Training Online at ICLP Technologies with Java, Spring Boot, Hibernate, React JS, SQL, REST APIs, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Full Stack Java Training Online, Java Full Stack Developer Course in Chennai, Java Full Stack Training, Full Stack Java Course with Placement, Best Java Full Stack Institute in Chennai, Java Full Stack Certification Training, Spring Boot Training, React JS Training, Hibernate Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Full Stack Java Development"
+          },
+          {
+            "@type": "Thing",
+            "name": "Java Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "Spring Boot"
+          },
+          {
+            "@type": "Thing",
+            "name": "Hibernate"
+          },
+          {
+            "@type": "Thing",
+            "name": "React JS"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/full-stack-java-training-online/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "2100"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Full Stack Java Training Online",
+            "item": "https://iclptech.in/course/full-stack-java-training-online/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Full Stack Java Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Full Stack Java Training helps students learn frontend and backend development using Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, and REST APIs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Full Stack Java good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Java Development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, coding guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Full Stack Java training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Full Stack Java Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can learn Full Stack Java Development from basic programming concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Full Stack Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Full Stack Java Development with practical training and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Full Stack Java course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, certifications, project knowledge, and company requirements. Skilled Full Stack Java Developers receive attractive salary packages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Full Stack Java Training?",
+      "answer": "Full Stack Java Training helps students learn frontend and backend development using Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, and REST APIs."
+    },
+    {
+      "question": "Is Full Stack Java good for freshers?",
+      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Java Development."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, coding guidance, and career assistance."
+    },
+    {
+      "question": "Is online Full Stack Java training available?",
+      "answer": "Yes. We provide online Full Stack Java Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can learn Full Stack Java Development from basic programming concepts."
+    },
+    {
+      "question": "Can non-IT students learn Full Stack Java?",
+      "answer": "Yes. Non-IT candidates can easily learn Full Stack Java Development with practical training and project guidance."
+    },
+    {
+      "question": "What is the salary after Full Stack Java course?",
+      "answer": "Salary depends on skills, certifications, project knowledge, and company requirements. Skilled Full Stack Java Developers receive attractive salary packages."
+    }
+  ],
+  "what_youll_learn": [
+    "Java Fundamentals",
+    "OOPs Concepts",
+    "Collections Framework",
+    "Exception Handling",
+    "Multithreading",
+    "File Handling",
+    "Java Streams",
+    "Lambda Expressions",
+    "JDBC",
+    "Servlets",
+    "JSP",
+    "MVC Architecture",
+    "Spring Core",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Security",
+    "Spring Data JPA",
+    "ORM Concepts",
+    "Entity Mapping",
+    "CRUD Operations",
+    "Database Integration",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "React JS",
+    "SQL",
+    "MySQL",
+    "Database Design",
+    "Query Optimization",
+    "Git & GitHub",
+    "Maven",
+    "Postman",
+    "VS Code",
+    "Eclipse IDE",
+    "Full Stack Application Development"
+  ],
+  "syllabus": [
+    {
+      "module": "Core Java Concepts",
+      "subtopics": [
+        "Java Fundamentals",
+        "OOPs Concepts",
+        "Collections Framework",
+        "Exception Handling",
+        "Multithreading",
+        "File Handling",
+        "Java Streams",
+        "Lambda Expressions"
+      ]
+    },
+    {
+      "module": "Advanced Java",
+      "subtopics": [
+        "JDBC",
+        "Servlets",
+        "JSP",
+        "MVC Architecture"
+      ]
+    },
+    {
+      "module": "Spring Framework",
+      "subtopics": [
+        "Spring Core",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Security",
+        "Spring Data JPA"
+      ]
+    },
+    {
+      "module": "Hibernate",
+      "subtopics": [
+        "ORM Concepts",
+        "Entity Mapping",
+        "CRUD Operations",
+        "Database Integration"
+      ]
+    },
+    {
+      "module": "Frontend Technologies",
+      "subtopics": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript",
+        "React JS"
+      ]
+    },
+    {
+      "module": "Database Technologies",
+      "subtopics": [
+        "SQL",
+        "MySQL",
+        "Database Design",
+        "Query Optimization"
+      ]
+    },
+    {
+      "module": "Development Tools",
+      "subtopics": [
+        "Git & GitHub",
+        "Maven",
+        "Postman",
+        "VS Code",
+        "Eclipse IDE"
+      ]
+    },
+    {
+      "module": "Real-Time Projects",
+      "subtopics": [
+        "E-Commerce Application",
+        "Employee Management System",
+        "Online Booking System",
+        "Full Stack Enterprise Projects"
+      ]
+    }
+  ],
+  "duration": "3-6 Months (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (No Advanced Programming Knowledge Required)",
+  "image": "/CourseDetails/full-stack-java-training-online.png",
+  "placement_assurance": true,
+  "projects": [
+    "E-Commerce Application",
+    "Employee Management System",
+    "Online Booking System",
+    "REST API Development Project",
+    "Full Stack Enterprise Application"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Full Stack Java Training</strong>",
+    "description": "Full Stack Java Development is one of the most in-demand career opportunities in the software industry. Organizations actively hire Full Stack Java Developers for enterprise applications, cloud platforms, banking systems, and business software solutions.",
+    "points": [
+      "<strong>High Demand in MNC Companies:</strong> Companies across India and global markets actively hire Full Stack Java Developers for enterprise and web application roles",
+      "<strong>Attractive Salary Packages:</strong> Skilled Java Full Stack Developers receive competitive salaries based on project experience and technical expertise",
+      "<strong>Strong Career Growth:</strong> Build a career as Full Stack Java Developer, Backend Developer, Spring Boot Developer, React JS Developer, or Software Engineer",
+      "<strong>Global Job Opportunities:</strong> Companies in India, USA, UAE, Canada, Singapore, UK, and Europe are hiring Full Stack Java professionals",
+      "<strong>Enterprise Application Exposure:</strong> Learn technologies widely used in banking, cloud, e-commerce, and business software systems",
+      "<strong>Remote and Freelance Opportunities:</strong> Full Stack Java skills support remote jobs, freelance work, and long-term demand in modern development teams"
+    ]
+  }
+},
       {
   "course_name": "Python Full Stack",
   "name":"Python Full Stack Developer Online Training with Placement Assistance",
