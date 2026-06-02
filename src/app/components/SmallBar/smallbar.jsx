@@ -5,6 +5,27 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaHome, FaBars, FaChevronDown } from "react-icons/fa";
 
+const MobileAccordion = ({ title, children }) => {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border-b border-[#014a9f]/10 last:border-0">
+      <button
+        onPointerDown={(e) => { e.preventDefault(); setOpen(!open); }}
+        style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
+        className="w-full flex items-center justify-between px-4 py-3 text-[13px] font-semibold text-[#014a9f] bg-[#014a9f]/5 hover:bg-[#014a9f]/10 transition-all"
+      >
+        {title}
+        <FaChevronDown className={`text-xs transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && (
+        <div className="px-2 py-2 bg-white" style={{ touchAction: 'pan-y' }}>
+          {children}
+        </div>
+      )}
+    </div>
+  );
+};
+
 const SmallBar = () => {
   const [skillPrograms, setSkillPrograms] = useState(null);
   const [streamWiseCourses, setStreamWiseCourses] = useState([]);
@@ -333,7 +354,8 @@ const SmallBar = () => {
               {/* Mobile Skill Programs */}
               <li>
                 <button
-                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  onPointerDown={(e) => { e.preventDefault(); setIsDropdownOpen(!isDropdownOpen); }}
+                  style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
                   className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1"
                 >
                   Skill Programs
@@ -341,29 +363,26 @@ const SmallBar = () => {
                 </button>
 
                 {isDropdownOpen && skillPrograms && (
-                  <div className="pl-4 space-y-1 mt-2 max-h-96 overflow-y-auto">
-                    {skillPrograms.categories.map((category, index) => (
-                      <div key={index} className="border-l-2 border-[#014a9f]/20 pl-4 py-2 bg-[#014a9f]/5 rounded-r my-2.5 mx-2">
-                        <div className="text-xs font-bold text-[#014a9f] uppercase mb-2">
+                  <div style={{ touchAction: 'pan-y' }}>
+                    {skillPrograms.categories.map((category, catIndex) => (
+                      <div key={catIndex} className="mb-2">
+                        <div className="text-xs font-bold text-[#014a9f] uppercase px-4 py-2 bg-[#d6efff]">
                           {category.title}
                         </div>
                         {category.sections.map((section, sectionIndex) => (
-                          <div key={sectionIndex} className="mb-3">
-                            <div className="text-[10px] font-bold text-[#014a9f]/80 uppercase mb-1.5">
-                              {section.title}
-                            </div>
+                          <MobileAccordion key={sectionIndex} title={section.title}>
                             {section.courses.map((course, courseIndex) => (
-                              <button
-                                key={courseIndex}
-                                onClick={() => handleSubcategoryClick(course.path)}
-                                onTouchEnd={() => handleSubcategoryClick(course.path)}
-                                style={{ cursor: 'pointer', WebkitTapHighlightColor: 'transparent' }}
-                                className="block w-full text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] rounded transition-all my-1 hover:bg-[#014a9f] hover:text-white"
-                              >
-                                {course.name}
-                              </button>
+                              <div key={courseIndex} className="py-1 px-2">
+                                <span
+                                  onPointerDown={(e) => { e.preventDefault(); handleSubcategoryClick(course.path); }}
+                                  style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                                  className="inline-block text-[12px] font-medium text-[#014a9f] border border-[#014a9f]/20 rounded px-2 py-1 hover:bg-[#014a9f] hover:text-white transition-all"
+                                >
+                                  {course.name}
+                                </span>
+                              </div>
                             ))}
-                          </div>
+                          </MobileAccordion>
                         ))}
                       </div>
                     ))}
@@ -374,7 +393,8 @@ const SmallBar = () => {
               {/* Mobile Degree Programs */}
               <li>
                 <button
-                  onClick={() => setIsDropdown2Open(!isDropdown2Open)}
+                  onPointerDown={(e) => { e.preventDefault(); setIsDropdown2Open(!isDropdown2Open); }}
+                  style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
                   className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1"
                 >
                   Degree Programs
@@ -382,57 +402,79 @@ const SmallBar = () => {
                 </button>
 
                 {isDropdown2Open && streamWiseCourses.length > 0 && (
-                  <div className="pl-4 space-y-1 mt-2 max-h-96 overflow-y-auto">
+                  <div style={{ touchAction: 'pan-y' }}>
                     {streamWiseCourses.map((stream, index) => (
-                      <div key={index} className="border-l-2 border-[#014a9f]/20 pl-4 py-2 bg-[#014a9f]/5 rounded-r my-2.5 mx-2">
-                        <div className="text-xs font-bold text-[#014a9f] uppercase mb-2">
-                          {stream.streamName}
-                        </div>
+                      <MobileAccordion key={index} title={stream.streamName}>
                         {stream.courses.map((courseItem, i) => (
-                          <button
-                            key={i}
-                            onClick={() => handleSteamsClick(courseItem.path, courseItem?.type)}
-                                onTouchEnd={() => handleSteamsClick(courseItem.path, courseItem?.type)}
-                                style={{ cursor: 'pointer', WebkitTapHighlightColor: 'transparent' }}
-                            className="block w-full text-left px-3 py-2 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-4 rounded transition-all my-1"
-                          >
-                            {courseItem.course}
-                          </button>
+                          <div key={i} className="py-1 px-2">
+                            <span
+                              onPointerDown={(e) => { e.preventDefault(); handleSteamsClick(courseItem.path, courseItem?.type); }}
+                              style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                              className="inline-block text-[12px] font-medium text-[#014a9f] border border-[#014a9f]/20 rounded px-2 py-1 hover:bg-[#014a9f] hover:text-white transition-all"
+                            >
+                              {courseItem.course}
+                            </span>
+                          </div>
                         ))}
-                      </div>
+                      </MobileAccordion>
                     ))}
                   </div>
                 )}
               </li>
 
               <li>
-                <Link href="/about" className="block px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1">
-                  About Us
-                </Link>
+                <div className="px-4 py-2">
+                  <span
+                    onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); router.push('/about'); }}
+                    style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                    className="inline-block text-[15px] font-semibold text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f]/10 transition-all"
+                  >
+                    About Us
+                  </span>
+                </div>
               </li>
 
               <li>
-                <Link href="/corporate-training" className="block px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1">
-                  Corporate Training
-                </Link>
+                <div className="px-4 py-2">
+                  <span
+                    onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); router.push('/corporate-training'); }}
+                    style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                    className="inline-block text-[15px] font-semibold text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f]/10 transition-all"
+                  >
+                    Corporate Training
+                  </span>
+                </div>
               </li>
 
               <li>
-                <Link href="/contact" className="block px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1">
-                  Contact Us
-                </Link>
+                <div className="px-4 py-2">
+                  <span
+                    onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); router.push('/contact'); }}
+                    style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                    className="inline-block text-[15px] font-semibold text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f]/10 transition-all"
+                  >
+                    Contact Us
+                  </span>
+                </div>
               </li>
 
               <li>
-                <Link href="/" className="block px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1">
-                  Services
-                </Link>
+                <div className="px-4 py-2">
+                  <span
+                    onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); router.push('/'); }}
+                    style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                    className="inline-block text-[15px] font-semibold text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f]/10 transition-all"
+                  >
+                    Services
+                  </span>
+                </div>
               </li>
 
               {/* Mobile More Dropdown */}
               <li>
                 <button
-                  onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
+                  onPointerDown={(e) => { e.preventDefault(); setIsMoreDropdownOpen(!isMoreDropdownOpen); }}
+                  style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
                   className="w-full flex items-center justify-between px-4 py-3.5 text-[15px] font-semibold text-[#014a9f] hover:bg-[#014a9f]/10 rounded-lg my-1"
                 >
                   More
@@ -440,25 +482,25 @@ const SmallBar = () => {
                 </button>
 
                 {isMoreDropdownOpen && (
-                  <div className="pl-4 space-y-1 mt-2">
-                    <Link href="/freelance-trainee" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-5 rounded transition-all">
-                      Freelancers
-                    </Link>
-                    <Link href="/interview-questions" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-5 rounded transition-all">
-                      Interview Questions
-                    </Link>
-                    <Link href="/blog" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-5 rounded transition-all">
-                      Blog
-                    </Link>
-                    <Link href="/reviews" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-5 rounded transition-all">
-                      Reviews
-                    </Link>
-                    <Link href="/testimonials" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all">
-                    Testimonials
-                  </Link>
-                    <Link href="/tutorial" className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:text-white hover:bg-[#014a9f] hover:pl-5 rounded transition-all">
-                      Tutorial
-                    </Link>
+                  <div className="pl-4 space-y-2 mt-2 py-2" style={{ touchAction: 'pan-y' }}>
+                    {[
+                      { href: '/freelance-trainee', label: 'Freelancers' },
+                      { href: '/interview-questions', label: 'Interview Questions' },
+                      { href: '/blog', label: 'Blog' },
+                      { href: '/reviews', label: 'Reviews' },
+                      { href: '/testimonials', label: 'Testimonials' },
+                      { href: '/tutorial', label: 'Tutorial' },
+                    ].map(({ href, label }) => (
+                      <div key={href} className="px-2">
+                        <span
+                          onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); setIsMoreDropdownOpen(false); router.push(href); }}
+                          style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent', cursor: 'pointer' }}
+                          className="inline-block text-[13px] font-medium text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f] hover:text-white transition-all"
+                        >
+                          {label}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 )}
               </li>

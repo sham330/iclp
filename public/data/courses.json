@@ -29142,9 +29142,10 @@
     ]
   }
 },{
-  "course_name": "Collibra Training",
-  "path": "collibra-training-in-chennai",
-  "description": "Join the best Collibra Training in Chennai with hands-on practical learning covering Data Governance, Data Catalog, Metadata Management, Data Quality, Workflow Automation, Data Lineage, and Business Glossary implementation. 100% practical learning with real-time projects, certification guidance, and placement support for freshers, data professionals, business analysts, IT consultants, and working professionals.",
+  "course_name": "Collibra Training in Chennai",
+  "name":"Best Collibra Training in Chennai with Hands-On Practical Learning",
+  "path": "collibra-online-training-course",
+  "description": "Chennai is one of India’s fastest-growing IT hubs with increasing demand for Data Governance and Data Management professionals. If you are looking for the best Collibra Training in Chennai, ICLP Technologies provides industry-oriented training designed for freshers, data professionals, business analysts, IT consultants, and working professionals. Our Collibra Training in Chennai focuses on hands-on practical learning with real-time implementation scenarios, live projects, and enterprise-level use cases to help students gain practical exposure in Data Governance and Metadata Management. The course is delivered by experienced industry experts who provide certification guidance, interview preparation, practical assignments, and placement-oriented learning.",
   "meta_title": "Collibra Training in Chennai | Collibra Online Course with Hands-On Training | ICLP Technologies",
   "meta_description": "Join Collibra Training in Chennai at ICLP Technologies and master Data Governance, Data Catalog, Metadata Management, Data Quality, and Workflow Automation with hands-on practical training, real-time projects, certification guidance, and placement assistance in Chennai.",
   "schema": {
@@ -29154,8 +29155,8 @@
         "@type": "EducationalOrganization",
         "@id": "https://iclptech.in/#organization",
         "name": "ICLP Technologies",
-        "url": "https://iclptech.in",
-        "logo": "https://iclptech.in/favicon.png",
+        "url": "https://iclptech.in/",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
         "sameAs": [
           "https://www.instagram.com/iclp_technologies",
           "https://facebook.com/iclp-technologies",
@@ -29205,25 +29206,23 @@
       {
         "@type": "Course",
         "@id": "https://iclptech.in/course/collibra-training-in-chennai/#course",
-        "name": "Collibra Course in Chennai",
-        "description": "Hands-on Collibra training in Chennai covering Data Governance, Metadata Management, Business Glossary, Data Lineage, Workflow Automation, and real-time projects with certification guidance and placement support.",
+        "name": "Collibra Training in Chennai",
+        "description": "Hands-on Collibra Training in Chennai with real-time projects, certification guidance, and placement support.",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
+        "url": "https://iclptech.in/course/collibra-training-in-chennai/",
         "courseMode": [
           "Online",
           "Classroom"
         ],
         "inLanguage": "English",
         "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Collibra Course Completion Certificate",
+        "educationalCredentialAwarded": "Course Completion Certificate",
+        "occupationalCredentialAwarded": "Course Completion Certificate",
         "timeRequired": "PT40H",
-        "keywords": "Collibra Training in Chennai, Collibra Online Course, Collibra Hands-On Training, Data Governance Training, Metadata Management Training, Data Catalog Training, Data Quality Training, Workflow Automation Training, Collibra Certification Training",
+        "keywords": "Collibra Training in Chennai, Collibra Online Course, Data Governance Training, Metadata Management Training, Data Catalog Training, Data Quality Training, Workflow Automation Training, Collibra Certification Training",
         "about": [
-          {
-            "@type": "Thing",
-            "name": "which is the course intro"
-          },
           {
             "@type": "Thing",
             "name": "Collibra"
@@ -29238,7 +29237,7 @@
           },
           {
             "@type": "Thing",
-            "name": "Data Lineage"
+            "name": "Business Glossary"
           },
           {
             "@type": "Thing",
@@ -29256,15 +29255,10 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/",
+          "url": "https://iclptech.in/course/collibra-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "2610"
         }
       },
       {
@@ -29275,18 +29269,18 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://iclptech.in"
+            "item": "https://iclptech.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Courses",
-            "item": "https://iclptech.in/courses/"
+            "item": "https://iclptech.in/course/"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Collibra Training",
+            "name": "Collibra Training in Chennai",
             "item": "https://iclptech.in/course/collibra-training-in-chennai/"
           }
         ]
@@ -29300,15 +29294,7 @@
             "name": "What is Collibra Training?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Collibra Training helps students learn Data Governance, Metadata Management, Data Lineage, Workflow Automation, and Business Glossary concepts."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide hands-on training?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides hands-on practical training with live projects and real-time implementation scenarios."
+              "text": "Collibra Training helps students learn Data Governance, Metadata Management, Business Glossary, Workflow Automation, and Data Stewardship concepts using the Collibra platform."
             }
           },
           {
@@ -29316,7 +29302,15 @@
             "name": "Is Collibra good for freshers?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Freshers from IT, data analytics, and business analysis backgrounds can start a successful career in Collibra."
+              "text": "Yes. Freshers from IT, data analytics, computer science, database management, and business analysis backgrounds can start a successful career in Collibra and Data Governance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide hands-on training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides hands-on practical training with live projects, real-time implementation scenarios, assignments, and lab sessions."
             }
           },
           {
@@ -29370,78 +29364,88 @@
     {
       "module": "Collibra Platform Fundamentals",
       "subtopics": [
-        "Introduction to Collibra platform",
-        "Overview of data governance concepts",
-        "Collibra architecture and navigation",
-        "Enterprise data management use cases"
+        "Introduction to Collibra Platform",
+        "Navigation and platform overview",
+        "Understanding enterprise use cases",
+        "Overview of Collibra components"
       ]
     },
     {
-      "module": "Data Governance and Stewardship",
+      "module": "Data Governance Foundations",
       "subtopics": [
-        "Data governance fundamentals",
-        "Roles and responsibilities in governance",
-        "Data stewardship concepts",
-        "Policy and governance workflows"
+        "Data Governance Fundamentals",
+        "Governance operating models",
+        "Roles and responsibilities",
+        "Governance implementation concepts"
       ]
     },
     {
-      "module": "Business Glossary and Metadata Management",
+      "module": "Business Glossary and Metadata",
       "subtopics": [
-        "Business glossary setup",
-        "Metadata management concepts",
-        "Asset relationships and classifications",
-        "Glossary implementation exercises"
+        "Business Glossary Management",
+        "Metadata Management",
+        "Asset relationships and domains",
+        "Business and technical metadata handling"
       ]
     },
     {
-      "module": "Data Lineage and Reference Data",
+      "module": "Data Lineage and Stewardship",
       "subtopics": [
-        "Data lineage fundamentals",
-        "Lineage use cases and mapping",
-        "Reference data management",
-        "Enterprise data visibility concepts"
+        "Data Lineage concepts",
+        "Data Stewardship processes",
+        "Tracking data flow and dependencies",
+        "Governance ownership and stewardship use cases"
       ]
     },
     {
-      "module": "Workflow Automation",
+      "module": "Workflow and Policy Management",
       "subtopics": [
-        "Workflow automation concepts",
+        "Workflow Automation",
         "Workflow creation exercises",
-        "Approval and task management",
-        "Automation scenarios in Collibra"
+        "Policy Management",
+        "Approval and governance workflow scenarios"
       ]
     },
     {
-      "module": "Data Quality and Administration",
+      "module": "Data Quality and Reference Data",
       "subtopics": [
-        "Data quality concepts",
-        "Collibra administration basics",
-        "Security and user management",
-        "Platform configuration practices"
+        "Data Quality Concepts",
+        "Reference Data Management",
+        "Quality monitoring concepts",
+        "Enterprise data standardization practices"
+      ]
+    },
+    {
+      "module": "Administration and Security",
+      "subtopics": [
+        "Collibra Administration",
+        "Security & User Management",
+        "Roles, permissions, and access control",
+        "Administrative best practices"
       ]
     },
     {
       "module": "Integration and Real-Time Use Cases",
       "subtopics": [
-        "Integration concepts",
-        "Real-time implementation scenarios",
-        "Enterprise-level use cases",
-        "Industry-oriented assignments"
+        "Integration Concepts",
+        "Real-Time Use Cases",
+        "Industry-oriented assignments",
+        "Enterprise-level implementation scenarios"
       ]
     },
     {
-      "module": "Hands-On Projects and Career Preparation",
+      "module": "Hands-On Practical Training",
       "subtopics": [
-        "Hands-on lab sessions",
+        "Hands-On Lab Sessions",
         "Live project-based training",
-        "Interview preparation support",
-        "Certification guidance and placement assistance"
+        "Metadata management scenarios",
+        "Business glossary implementation",
+        "Data governance case studies"
       ]
     }
   ],
-  "duration": "Flexible Batches",
-  "skill_level": "Beginner to Advanced (No Strict Prerequisites)",
+  "duration": "4-8 Weeks (Flexible Batches)",
+  "skill_level": "Beginner to Advanced",
   "image": "/CourseDetails/collibra-training-chennai.png",
   "placement_assurance": true,
   "projects": [
@@ -29449,180 +29453,48 @@
     "Metadata Management Scenario",
     "Workflow Automation Exercise",
     "Data Governance Case Study",
-    "Collibra Real-Time Use Case Project"
+    "Hands-On Enterprise Use Case Project"
   ],
   "career_benefits": {
     "heading": "Career Benefits of <strong>Collibra Training</strong> in Chennai",
-    "description": "Collibra is one of the most in-demand Data Governance platforms used by multinational companies across banking, healthcare, insurance, retail, finance, and enterprise domains. Build practical skills in enterprise data management and prepare for high-growth roles in Data Governance.",
+    "description": "Collibra is one of the most in-demand Data Governance platforms used by multinational companies across banking, healthcare, insurance, retail, finance, and enterprise domains. Build a strong career with hands-on training, real-time projects, expert guidance, and placement-oriented learning.",
     "points": [
-      "<strong>High Demand in Data Governance:</strong> Companies increasingly need skilled professionals for data governance, cataloging, and metadata management",
-      "<strong>Excellent Salary Packages:</strong> Collibra and data governance roles offer attractive salary opportunities in enterprise organizations",
-      "<strong>Strong Career Growth:</strong> Build your path toward roles like Collibra Developer, Data Governance Analyst, and Metadata Management Consultant",
-      "<strong>Enterprise Tool Exposure:</strong> Gain practical knowledge of governance workflows, lineage, glossary, and administration concepts",
-      "<strong>Opportunities in MNCs:</strong> Top companies such as Accenture, Infosys, Cognizant, Capgemini, Deloitte, and IBM hire Collibra professionals",
-      "<strong>Hands-On Learning Advantage:</strong> Real-time projects, lab sessions, and implementation exercises help you become industry-ready"
+      "<strong>High Demand in Data Governance Domain:</strong> Organizations increasingly need professionals skilled in Collibra, data governance, metadata management, and enterprise data stewardship",
+      "<strong>Excellent Salary Packages:</strong> Collibra and data governance roles offer competitive salary opportunities in enterprise and consulting environments",
+      "<strong>Strong Career Growth:</strong> Build a career as Collibra Developer, Data Governance Analyst, Collibra Administrator, Metadata Management Consultant, or Data Steward",
+      "<strong>Enterprise Tool Exposure:</strong> Gain practical experience with widely used enterprise data governance and metadata management tools",
+      "<strong>Opportunities in Top Companies:</strong> Companies such as Accenture, Infosys, Cognizant, Capgemini, Deloitte, and IBM hire Collibra professionals",
+      "<strong>Placement-Oriented Practical Learning:</strong> Hands-on projects, real-time assignments, interview preparation, and certification guidance help students become industry-ready"
+    ]
+  },"why_institute": {
+  "heading": "Why Choose ICLP Technologies for Collibra Training in Chennai?",
+  "intro": "ICLP Technologies provides industry-focused Collibra Training with practical implementation, real-time projects, data governance workflows, policy management exercises, and placement-oriented learning for freshers, data professionals, and working professionals.",
+  "instructor_expertise": {
+    "heading": "Experienced Industry Trainers",
+    "description": "Learn from experienced Collibra and data governance professionals with real-time project and corporate training exposure. Get mentor support for data governance workflows, policy management, data cataloging, lineage tracking, and business glossary implementation."
+  },
+  "training_modes": {
+    "heading": "Flexible Learning Options",
+    "description": "Designed for students, job seekers, and professionals across Chennai and beyond:",
+    "options": [
+      "<strong>Online Training:</strong> Live instructor-led sessions with recorded access and interactive practical classes",
+      "<strong>Classroom Training:</strong> In-person sessions for learners who prefer direct trainer support",
+      "<strong>Weekday & Weekend Batches:</strong> Suitable for freshers, career switchers, and working professionals",
+      "<strong>Real-Time Project Training:</strong> Gain hands-on exposure through Collibra data governance projects, policy workflows, and data cataloging exercises"
     ]
   }
 },
-        {
-          "course_name": "Collibra Online Training",
-          "path": "collibra-online-training-course",
-          "description": "Learn enterprise data governance, metadata management, data quality, and Collibra platform operations with real-world use cases.",
-          "what_youll_learn": [
-            "Data governance and data management fundamentals",
-            "Data governance frameworks, policies, and stewardship models",
-            "Metadata management, business glossary, data dictionary, and data classification",
-            "Collibra DGC, Catalog, Policy Manager, Helpdesk, and metamodel",
-            "Assets, domains, communities, relations, and workflows in Collibra",
-            "Integrations using REST APIs, MySQL, AWS, and Snowflake",
-            "Collibra cloud/on-prem setup and infrastructure",
-            "Lineage, custom workflows, console management, and operating models",
-            "Real-world Collibra use cases and hands-on project work"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction And Data Management Fundamentals",
-              "subtopics": [
-                "Introduction to Data Management and Governance",
-                "Data & Data Lifecycle",
-                "What is Data Management & Data Governance",
-                "Why Data Governance is Important",
-                "Problems faced by organizations without proper Data Governance",
-                "How Data Governance solves organizational problems",
-                "Challenges in implementing successful Data Governance",
-                "Conclusion"
-              ]
-            },
-            {
-              "module": "Data Governance Deep-Dive",
-              "subtopics": [
-                "Data Governance Framework",
-                "Pillars of Data Governance: People, Process, Technology, Governance",
-                "Data Governance Strategy",
-                "Data Governance Policies & Procedures",
-                "Data Governance Organization and Stewardship Model",
-                "Data Governance Organizational Structure",
-                "Roles and Responsibilities in Data Governance",
-                "Implementing and Operationalizing a Stewardship Model"
-              ]
-            },
-            {
-              "module": "Other Data Management Areas",
-              "subtopics": [
-                "Metadata Management",
-                "Business Glossary",
-                "Data Dictionary",
-                "Data Classification",
-                "Data Classification Rules & Regulations",
-                "Data Classification Standards",
-                "Benefits of Proper Data Classification",
-                "Data Quality",
-                "Benefits of Data Quality Implementation",
-                "Data Quality Dimensions",
-                "Data Quality Rules and Metrics"
-              ]
-            },
-            {
-              "module": "DG Tool – Collibra",
-              "subtopics": [
-                "Introduction to Collibra",
-                "What is Collibra",
-                "Benefits of Collibra over other DG Tools",
-                "Products of Collibra",
-                "Deep-dive into Collibra DGC",
-                "Functionality of Collibra products (Catalog, Policy Manager, Helpdesk)",
-                "Metamodel Structure and Hierarchy in Collibra",
-                "Defining Structure and Hierarchy",
-                "Community in Collibra",
-                "Domain in Collibra",
-                "Types of Domains and Custom Domain Types",
-                "Template Structure and Views",
-                "Assets, Attributes, Relations & Roles",
-                "Asset Types and Asset Structure",
-                "Attributes in Collibra",
-                "Types of Relations and Out-of-the-box Relations",
-                "Roles and Responsibilities in Collibra"
-              ]
-            },
-            {
-              "module": "Integration",
-              "subtopics": [
-                "Basics of Integration",
-                "What is Integration",
-                "Need for Integration",
-                "Benefits of Integration",
-                "API and REST API",
-                "Collibra API Recap",
-                "Types of Integration",
-                "MySQL Integration",
-                "AWS Integration using Collibra Catalog",
-                "Snowflake Integration",
-                "Template Structure and Template Views in Collibra",
-                "Best Practices for Integration"
-              ]
-            },
-            {
-              "module": "Collibra Infrastructure",
-              "subtopics": [
-                "Collibra On-Prem and Cloud",
-                "What is On-Prem and Cloud Infrastructure",
-                "Difference between Collibra Cloud and On-Prem",
-                "Benefits of each Infrastructure type",
-                "Setting up Collibra",
-                "Installing Collibra on Cloud",
-                "Installing Collibra On-Prem",
-                "Key Considerations and Installation Process"
-              ]
-            },
-            {
-              "module": "Collibra Deep-Dive",
-              "subtopics": [
-                "Lineage in Collibra",
-                "Enterprise-level benefits of Lineage",
-                "How to use Lineage in Collibra",
-                "Custom Lineage Views and Benefits",
-                "Workflows in Collibra",
-                "Automated Workflows",
-                "Out-of-the-box Workflows",
-                "Customized BPMN Workflows Scope",
-                "Collibra Console",
-                "Use of Collibra Console",
-                "Nodes and Logs in Collibra Console",
-                "Backup Settings",
-                "Complete Operating Model in Collibra",
-                "End-to-End Operating Model Demo",
-                "Collibra Desktop and On-the-Go"
-              ]
-            },
-            {
-              "module": "Collibra Use Case And Hands-On",
-              "subtopics": [
-                "Possible Collibra Use Cases",
-                "Example Use Cases (4-5 examples)",
-                "Hands-on Assignment",
-                "Assignments aligned with real project scenarios",
-                "Review and feedback on assignments"
-              ]
-            },
-            {
-              "module": "Additional Topics",
-              "subtopics": [
-                "Domain-specific Use Cases",
-                "Collibra Certification Assistance",
-                "Data Governance Framework Knowledge Transfer"
-              ]
-            }
-          ],
-          "duration": "45 hours",
-          "skill_level": "Intermediate",
-          "image": "/CourseDetails/collibra.png",
-          "placement_assurance": true,
-          "projects": [
-            "Data Governance Operating Model Implementation",
-            "Collibra Catalog & Workflow Automation Project"
-          ]
-        },
-        {
+"tools_covered": [
+  { "name": "Core Collibra Tools", "icon": "" },
+  { "name": "Collibra Data Intelligence Cloud", "icon": "" },
+  { "name": "Collibra Data Catalog", "icon": "" },
+  { "name": "Collibra Data Governance Center (DGC)", "icon": "" },
+  { "name": "Collibra Data Lineage", "icon": "" },
+  { "name": "Collibra Workflow Designer", "icon": "" },
+  { "name": "Collibra Business Glossary", "icon": "" },
+  { "name": "Collibra Data Helpdesk", "icon": "" }
+]
+},    {
           "course_name": "Alation Data Catalog",
           "path": "alation-data-catalog-course",
           "description": "Master enterprise data governance, metadata management, and collaboration using Alation Data Catalog.",

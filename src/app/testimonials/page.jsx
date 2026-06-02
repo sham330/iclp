@@ -7,6 +7,7 @@ const reels = [
   { id: 1, src: "https://www.youtube.com/embed/WaqdIrpAVH8", label: "Student Success Story" },
   { id: 2, src: "https://www.youtube.com/embed/q4FytP95PQQ", label: "Student Success Story" },
   { id: 3, src: "https://www.youtube.com/embed/KkDINvLDJco", label: "Student Success Story" },
+  { id: 4, src: "https://www.youtube.com/embed/XgG9miWnX1k", label: "Student Success Story" },
 
 ];
 

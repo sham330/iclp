@@ -6,6 +6,7 @@ const REELS = [
   { id: "WaqdIrpAVH8", label: "Student Success Story" },
   { id: "q4FytP95PQQ", label: "Student Success Story" },
     { id: "KkDINvLDJco", label: "Student Success Story" },
+    { id: "XgG9miWnX1k", label: "Student Success Story" },
 
 ];
 

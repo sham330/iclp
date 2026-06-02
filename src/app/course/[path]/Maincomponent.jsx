@@ -781,7 +781,7 @@ const CourseDetails = () => {
       </section>
 
 
-      <CourseAdvantagesTools courseName={course.course_name} />
+      <CourseAdvantagesTools course={course} />
 
       {/* Career Benefits */}
    
