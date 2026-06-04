@@ -3,334 +3,420 @@
     {
       "name": "SAP",
       "sub_categories": [
-        {
-          "course_name": "SAP FICO",
-          "path": "sap-fico",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-fico",
-          "schema":{
-  "@context": "https://schema.org",
-  "@graph": [
-
-    {
-      "@type": "EducationalOrganization",
-      "@id": "https://iclptech.in/#organization",
-      "name": "ICLP Technologies",
-      "url": "https://iclptech.in",
-      "logo": "https://iclptech.in/favicon.png",
-      "sameAs": [
-        "https://www.instagram.com/iclp_technologies",
-        "https://facebook.com/iclp-technologies",
-        "http://linkedin.com/company/iclp-technologies",
-        "https://twitter.com/iclp_tech",
-        "https://youtube.com/@iclp_technologies"
-      ],
-      "areaServed": {
-        "@type": "Place",
-        "name": "Chennai"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-8681026181",
-        "contactType": "customer support",
-        "areaServed": "IN",
-        "availableLanguage": "English"
-      }
-    },
-
-    {
-      "@type": "Service",
-      "@id": "https://iclptech.in/courses/sap/sap-fico/#sap-fico-training-service",
-      "name": "SAP FICO Training",
-      "provider": {
-        "@id": "https://iclptech.in/#organization"
-      },
-      "areaServed": "India",
-      "serviceType": "SAP FICO Certification Training"
-    },
-
-    {
-      "@type": "Course",
-      "@id": "https://iclptech.in/courses/sap/sap-fico/#course",
-      "name": "SAP FICO Course Online",
-      "description": "Instructor-led SAP FICO training covering Financial Accounting (FI), Controlling (CO), general ledger, accounts payable/receivable, asset accounting, cost & profit center accounting, product costing, and material ledger. Includes hands-on exercises, real-time projects, certification, and placement assistance.",
-      "provider": {
-        "@id": "https://iclptech.in/#organization"
-      },
-      "courseMode": "Online",
-      "inLanguage": "English",
-      "educationalLevel": "Beginner to Advanced",
-      "occupationalCredentialAwarded": "SAP FICO Certificate",
-      "timeRequired": "PT40H",
-      "keywords": "SAP FICO Course, SAP FICO Training, Financial Accounting, Controlling, SAP Certification, SAP FICO Online Course",
-      "about": [
-        { "@type": "Thing", "name": "Financial Accounting (FI)" },
-        { "@type": "Thing", "name": "Controlling (CO)" },
-        { "@type": "Thing", "name": "SAP FICO Configuration" }
-      ],
-      "audience": {
-        "@type": "EducationalAudience",
-        "educationalRole": "student"
-      },
-      "hasCourseInstance": {
-        "@type": "CourseInstance",
-        "courseMode": "Online",
-        "inLanguage": "English",
-        "location": {
+       {
+  "course_name": "SAP FICO",
+  "path": "sap-fico",
+  "name":"SAP FICO Training in Chennai with Placement Assistance",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
           "@type": "Place",
           "name": "Chennai"
         },
-        "curriculum": [
-          "Introduction to SAP FICO",
-          "General Ledger Accounting",
-          "Accounts Payable",
-          "Accounts Receivable",
-          "Asset Accounting",
-          "SAP Controlling (CO) – Cost Controlling",
-          "Activity-Based Costing (ABC)",
-          "Actual Costing & Material Ledger"
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/sap/sap-fico/#sap-fico-training-service",
+        "name": "SAP FICO Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "SAP FICO Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/sap/sap-fico/#course",
+        "name": "SAP FICO Course Online",
+        "description": "Instructor-led SAP FICO training covering Financial Accounting (FI), Controlling (CO), general ledger, accounts payable/receivable, asset accounting, cost & profit center accounting, product costing, and material ledger. Includes hands-on exercises, real-time projects, certification, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "SAP FICO Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "SAP FICO Course, SAP FICO Training, Financial Accounting, Controlling, SAP Certification, SAP FICO Online Course",
+        "about": [
+          { "@type": "Thing", "name": "Financial Accounting (FI)" },
+          { "@type": "Thing", "name": "Controlling (CO)" },
+          { "@type": "Thing", "name": "SAP FICO Configuration" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Introduction to SAP FICO",
+            "General Ledger Accounting",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Asset Accounting",
+            "SAP Controlling (CO) – Cost Controlling",
+            "Activity-Based Costing (ABC)",
+            "Actual Costing & Material Ledger"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/sap/sap-fico",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1200"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/sap/sap-fico/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "SAP FICO Course", "item": "https://iclptech.in/courses/sap/sap-fico" }
         ]
       },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://iclptech.in/courses/sap/sap-fico",
-        "availability": "https://schema.org/InStock"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "ratingCount": "1200"
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/sap/sap-fico/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP FICO and why is it important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP FICO (Financial Accounting & Controlling) is a core SAP module that manages enterprise financial operations. Learning FICO opens high-paying global finance and IT consulting roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should enroll in the SAP FICO course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Finance professionals, accountants, IT consultants, and beginners looking for SAP FICO training online in India can benefit from this course."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What skills will I gain from this SAP FICO training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will master General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Product Costing, and handle real-time SAP FICO projects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this course online or classroom-based?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include hands-on projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the course emphasizes real-world SAP FICO implementation scenarios and hands-on projects to make learners job-ready."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I receive SAP FICO certification after completion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Completing the course grants a globally recognized SAP FICO certification from ICLP Technologies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to complete the SAP FICO course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance after the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We connect graduates with top hiring partners for SAP FICO roles and provide guidance to help secure employment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I learn SAP FICO without prior accounting knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. The course is structured to take beginners through foundational accounting concepts before diving into SAP FICO configuration and implementation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes ICLP Tech’s SAP FICO course different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
+            }
+          }
+        ]
       }
+    ]
+  },
+  "meta_title": "SAP FICO Training in Chennai — Online & Classroom | ICLP Technologies",
+  "meta_description": "Master SAP FICO with ICLP Tech’s expert-led training in Chennai. Gain skills, earn your SAP FICO certification online, and secure placement as a certified consultant. Enroll now to learn more!",
+  "description": "ICLP Technologies offers industry-focused SAP FICO Training in Chennai designed for commerce graduates, MBA Finance students, accountants, finance professionals, ERP consultants, and freshers who want to build a successful career in SAP Financial Accounting and Controlling. Our SAP FICO Course provides hands-on training in SAP Financial Accounting (FI), SAP Controlling (CO), SAP S/4HANA Finance, General Ledger Accounting, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Center Accounting, Profit Center Accounting, Product Costing, and Financial Reporting. Students gain practical exposure through real-time SAP implementation scenarios, business process configurations, case studies, and project-based learning aligned with industry requirements. SAP FICO remains one of the most critical SAP modules because it manages core financial processes and integrates with other SAP modules such as MM and SD.",
+  "career_benefits": {
+    "heading": "Why SAP FICO Training is Essential for Your Career",
+    "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
+    "points": [
+      "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
+      "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
+      "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP FICO Course Curriculum</strong>",
+    "intro": "Our <strong>SAP FICO course</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "<strong>General Ledger (GL) Accounting</strong>",
+      "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+      "<strong>Asset Accounting</strong>",
+      "Taxes, Financial Statements, and Closing Procedures"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "<strong>Cost Element and Cost Center Accounting</strong>",
+      "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+      "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
+      "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP FICO Certificate</strong>",
+    "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training</strong> is structured to align perfectly with the official SAP certification syllabus.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
+      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
+      "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO</strong> in India",
+    "intro": "We are recognized as the premier <strong>SAP FICO training</strong> provider, dedicated to turning students into industry-ready professionals right here in India.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
     },
-
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://iclptech.in/courses/sap/sap-fico/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
-        { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-        { "@type": "ListItem", "position": 3, "name": "SAP FICO Course", "item": "https://iclptech.in/courses/sap/sap-fico" }
-      ]
-    },
-
-    {
-      "@type": "FAQPage",
-      "@id": "https://iclptech.in/courses/sap/sap-fico/#faq",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is SAP FICO and why is it important?", "acceptedAnswer": { "@type": "Answer", "text": "SAP FICO (Financial Accounting & Controlling) is a core SAP module that manages enterprise financial operations. Learning FICO opens high-paying global finance and IT consulting roles." } },
-        { "@type": "Question", "name": "Who should enroll in the SAP FICO course?", "acceptedAnswer": { "@type": "Answer", "text": "Finance professionals, accountants, IT consultants, and beginners looking for SAP FICO training online in India can benefit from this course." } },
-        { "@type": "Question", "name": "What skills will I gain from this SAP FICO training?", "acceptedAnswer": { "@type": "Answer", "text": "You will master General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Product Costing, and handle real-time SAP FICO projects." } },
-        { "@type": "Question", "name": "Is this course online or classroom-based?", "acceptedAnswer": { "@type": "Answer", "text": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference." } },
-        { "@type": "Question", "name": "Does the course include hands-on projects?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the course emphasizes real-world SAP FICO implementation scenarios and hands-on projects to make learners job-ready." } },
-        { "@type": "Question", "name": "Will I receive SAP FICO certification after completion?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Completing the course grants a globally recognized SAP FICO certification from ICLP Technologies." } },
-        { "@type": "Question", "name": "How long does it take to complete the SAP FICO course?", "acceptedAnswer": { "@type": "Answer", "text": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)." } },
-        { "@type": "Question", "name": "Do you provide placement assistance after the course?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We connect graduates with top hiring partners for SAP FICO roles and provide guidance to help secure employment." } },
-        { "@type": "Question", "name": "Can I learn SAP FICO without prior accounting knowledge?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. The course is structured to take beginners through foundational accounting concepts before diving into SAP FICO configuration and implementation." } },
-        { "@type": "Question", "name": "What makes ICLP Tech’s SAP FICO course different?", "acceptedAnswer": { "@type": "Answer", "text": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready." } }
+    "training_modes": {
+      "heading": "Flexible <strong>SAP FICO Training</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in India",
+        "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
       ]
     }
-
+  },
+  "tools_covered": [
+    { "name": "SAP ERP", "icon": "" },
+    { "name": "SAP FICO", "icon": "" },
+    { "name": "SAP FI (Financial Accounting)", "icon": "" },
+    { "name": "SAP CO (Controlling)", "icon": "" },
+    { "name": "SAP S/4HANA Finance", "icon": "" },
+    { "name": "General Ledger (GL)", "icon": "" },
+    { "name": "Accounts Payable (AP)", "icon": "" },
+    { "name": "Accounts Receivable (AR)", "icon": "" },
+    { "name": "Asset Accounting", "icon": "" },
+    { "name": "Bank Accounting", "icon": "" },
+    { "name": "Cost Center Accounting", "icon": "" },
+    { "name": "Profit Center Accounting", "icon": "" },
+    { "name": "Internal Orders", "icon": "" },
+    { "name": "Product Costing", "icon": "" },
+    { "name": "Profitability Analysis (CO-PA)", "icon": "" },
+    { "name": "Activity-Based Costing (ABC)", "icon": "" },
+    { "name": "Actual Costing & Material Ledger", "icon": "" },
+    { "name": "SAP MM Integration", "icon": "" },
+    { "name": "SAP SD Integration", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "SAP FICO configuration and implementation",
+    "General Ledger, Accounts Payable & Receivable",
+    "Asset Accounting and Bank Accounting",
+    "Cost Element and Cost Center Accounting",
+    "Profit Center Accounting and Internal Orders",
+    "Product Costing and Profitability Analysis",
+    "Integration with other SAP modules",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP FICO",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP FICO Architecture",
+        "Organizational Structure in SAP",
+        "Client, Company Code, Chart of Accounts",
+        "Fiscal Year Variant, Posting Periods"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting",
+      "subtopics": [
+        "Chart of Accounts Design",
+        "GL Account Master Data",
+        "Document Types and Number Ranges",
+        "Posting Transactions",
+        "Parked and Held Documents",
+        "Account Balances and Reports"
+      ]
+    },
+    {
+      "module": "Accounts Payable",
+      "subtopics": [
+        "Vendor Master Data",
+        "Invoice Processing",
+        "Payment Program Configuration",
+        "Automatic Payment Methods",
+        "Down Payments and Special GL Transactions",
+        "Account Analysis and Reconciliation"
+      ]
+    },
+    {
+      "module": "Accounts Receivable",
+      "subtopics": [
+        "Customer Master Data",
+        "Invoice and Credit Memo Processing",
+        "Payment Processing",
+        "Dunning Configuration",
+        "Lockbox Processing",
+        "Credit Management"
+      ]
+    },
+    {
+      "module": "Asset Accounting",
+      "subtopics": [
+        "Asset Master Data",
+        "Acquisition and Retirement",
+        "Depreciation Calculation",
+        "Asset Transfers",
+        "Asset Reports",
+        "Integration with Fixed Assets"
+      ]
+    },
+    {
+      "module": "SAP Controlling (CO) – Cost Controlling",
+      "subtopics": [
+        "Introduction to SAP CO",
+        "Integration with FI",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting",
+        "Product Costing",
+        "Profitability Analysis (CO-PA)",
+        "Real-time cost controlling scenarios & reporting"
+      ]
+    },
+    {
+      "module": "Activity-Based Costing(ABC)",
+      "subtopics": [
+        "Overhead allocation based on business activities",
+        "Accurate cost tracking for products and services",
+        "Used for strategic cost management and decision-making"
+      ]
+    },
+    {
+      "module": "Actual Costing & Material Ledger",
+      "subtopics": [
+        "Comparison of Standard Cost vs Actual Cost ",
+        "Cost variances and inventory revaluation",
+        "Integration with FI for real-time financial impact analysis"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP FICO and why is it important?",
+      "answer": "SAP FICO (Financial Accounting & Controlling) is a core SAP module that manages enterprise financial operations. Learning FICO opens high-paying global finance and IT consulting roles."
+    },
+    {
+      "question": "Who should enroll in the SAP FICO course?",
+      "answer": "Finance professionals, accountants, IT consultants, and beginners looking for SAP FICO training online in India can benefit from this course."
+    },
+    {
+      "question": "What skills will I gain from this SAP FICO training?",
+      "answer": "You will master General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Product Costing, and handle real-time SAP FICO projects."
+    },
+    {
+      "question": "Is this course online or classroom-based?",
+      "answer": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference."
+    },
+    {
+      "question": "Does the course include hands-on projects?",
+      "answer": "Yes, the course emphasizes real-world SAP FICO implementation scenarios and hands-on projects to make learners job-ready."
+    },
+    {
+      "question": "Will I receive SAP FICO certification after completion?",
+      "answer": "Yes. Completing the course grants a globally recognized SAP FICO certification from ICLP Technologies."
+    },
+    {
+      "question": "How long does it take to complete the SAP FICO course?",
+      "answer": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)."
+    },
+    {
+      "question": "Do you provide placement assistance after the course?",
+      "answer": "Yes. We connect graduates with top hiring partners for SAP FICO roles and provide guidance to help secure employment."
+    },
+    {
+      "question": "Can I learn SAP FICO without prior accounting knowledge?",
+      "answer": "Absolutely. The course is structured to take beginners through foundational accounting concepts before diving into SAP FICO configuration and implementation."
+    },
+    {
+      "question": "What makes ICLP Tech's SAP FICO course different?",
+      "answer": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
+    }
   ]
 },
-          "meta_title": "SAP FICO Training in Chennai — Online & Classroom | ICLP Technologies",
-          "meta_description": "Master SAP FICO with ICLP Tech’s expert-led training in Chennai. Gain skills, earn your SAP FICO certification online, and secure placement as a certified consultant. Enroll now to learn more!",
-          "description": "Master SAP Financial Accounting (FI) and Controlling (CO) modules with hands-on training from industry experts.",
-          "career_benefits": {
-            "heading": "Why SAP FICO Training is Essential for Your Career",
-            "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is the most critical module in SAP, managing all core financial processes of an enterprise. Mastering this module is crucial for high-paying roles in finance, accounting, and IT consulting.",
-            "points": [
-              "<strong>Global Demand:</strong> Expertise in SAP FICO is universally required by large and medium-sized enterprises.",
-              "<strong>Career Growth:</strong> Positions like FICO Consultant, Finance Analyst, and SAP Support Specialist offer exceptional stability and salary potential.",
-              "<strong>Skill Mastery:</strong> Our FICO training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
-            ]
-          },
-          "curriculum_overview": {
-            "heading": "Comprehensive <strong>SAP FICO Course Curriculum</strong>",
-            "intro": "Our <strong>SAP FICO course</strong> structure is divided into two major components, ensuring you gain deep, functional expertise in both financial reporting and management accounting."
-          },
-          "track_overview_primary": {
-            "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
-            "description": "We cover core aspects of external accounting, including:",
-            "topics": [
-              "<strong>General Ledger (GL) Accounting</strong>",
-              "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
-              "<strong>Asset Accounting</strong>",
-              "Taxes, Financial Statements, and Closing Procedures"
-            ]
-          },
-          "track_overview_secondary": {
-            "heading": "Controlling (<strong>CO</strong>) Modules Covered",
-            "description": "This section focuses on internal reporting and cost management:",
-            "topics": [
-              "<strong>Cost Element and Cost Center Accounting</strong>",
-              "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
-              "<strong>Product Costing</strong> and <strong>Profitability Analysis (PA)</strong>",
-              "<strong>Integration:</strong> Understanding the seamless integration between FI, CO, and other SAP modules (e.g., SD, MM)."
-            ]
-          },
-          "certification_info": {
-            "heading": "Earn Your Professional <strong>SAP FICO Certificate</strong>",
-            "intro": "Achieving your <strong>SAP FICO certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>SAP FICO training</strong> is structured to align perfectly with the official SAP certification syllabus.",
-            "highlights": [
-              "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
-              "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
-              "<strong>Globally Recognized:</strong> Your FICO certificate from ICLP Tech is a testament to high-quality, professional training."
-            ]
-          },
-          "why_institute": {
-            "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>SAP FICO</strong> in India",
-            "intro": "We are recognized as the premier <strong>SAP FICO training</strong> provider, dedicated to turning students into industry-ready professionals right here in India.",
-            "instructor_expertise": {
-              "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
-              "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran SAP FICO Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
-            },
-            "training_modes": {
-              "heading": "Flexible <strong>SAP FICO Training</strong> Options (Online & Classroom)",
-              "description": "We cater to your busy schedule:",
-              "options": [
-                "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in India",
-                "<strong>SAP FICO Course Online:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
-              ]
-            }
-          },
-          "what_youll_learn": [
-            "SAP FICO configuration and implementation",
-            "General Ledger, Accounts Payable & Receivable",
-            "Asset Accounting and Bank Accounting",
-            "Cost Element and Cost Center Accounting",
-            "Profit Center Accounting and Internal Orders",
-            "Product Costing and Profitability Analysis",
-            "Integration with other SAP modules",
-            "Real-time project scenarios"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to SAP FICO",
-              "subtopics": [
-                "Overview of SAP ERP",
-                "SAP FICO Architecture",
-                "Organizational Structure in SAP",
-                "Client, Company Code, Chart of Accounts",
-                "Fiscal Year Variant, Posting Periods"
-              ]
-            },
-            {
-              "module": "General Ledger Accounting",
-              "subtopics": [
-                "Chart of Accounts Design",
-                "GL Account Master Data",
-                "Document Types and Number Ranges",
-                "Posting Transactions",
-                "Parked and Held Documents",
-                "Account Balances and Reports"
-              ]
-            },
-            {
-              "module": "Accounts Payable",
-              "subtopics": [
-                "Vendor Master Data",
-                "Invoice Processing",
-                "Payment Program Configuration",
-                "Automatic Payment Methods",
-                "Down Payments and Special GL Transactions",
-                "Account Analysis and Reconciliation"
-              ]
-            },
-            {
-              "module": "Accounts Receivable",
-              "subtopics": [
-                "Customer Master Data",
-                "Invoice and Credit Memo Processing",
-                "Payment Processing",
-                "Dunning Configuration",
-                "Lockbox Processing",
-                "Credit Management"
-              ]
-            },
-            {
-              "module": "Asset Accounting",
-              "subtopics": [
-                "Asset Master Data",
-                "Acquisition and Retirement",
-                "Depreciation Calculation",
-                "Asset Transfers",
-                "Asset Reports",
-                "Integration with Fixed Assets"
-              ]
-            },
-            {
-              "module": "SAP Controlling (CO) – Cost Controlling",
-              "subtopics": [
-                "Introduction to SAP CO",
-                "Integration with FI",
-                "Cost Element Accounting",
-                "Cost Center Accounting",
-                "Internal Orders",
-                "Profit Center Accounting",
-                "Product Costing",
-                "Profitability Analysis (CO-PA)",
-                "Real-time cost controlling scenarios & reporting"
-              ]
-            },
-            {
-              "module": "Activity-Based Costing(ABC)",
-              "subtopics": [
-                "Overhead allocation based on business activities",
-                "Accurate cost tracking for products and services",
-                "Used for strategic cost management and decision-making"
-              ]
-            },
-            {
-              "module": "Actual Costing & Material Ledger",
-              "subtopics": [
-                "Comparison of Standard Cost vs Actual Cost ",
-                "Cost variances and inventory revaluation",
-                "Integration with FI for real-time financial impact analysis"
-              ]
-            }
-          ],"faqs": [
-  {
-    "question": "What is SAP FICO and why is it important?",
-    "answer": "SAP FICO (Financial Accounting & Controlling) is a core SAP module that manages enterprise financial operations. Learning FICO opens high-paying global finance and IT consulting roles."
-  },
-  {
-    "question": "Who should enroll in the SAP FICO course?",
-    "answer": "Finance professionals, accountants, IT consultants, and beginners looking for SAP FICO training online in India can benefit from this course."
-  },
-  {
-    "question": "What skills will I gain from this SAP FICO training?",
-    "answer": "You will master General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Product Costing, and handle real-time SAP FICO projects."
-  },
-  {
-    "question": "Is this course online or classroom-based?",
-    "answer": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference."
-  },
-  {
-    "question": "Does the course include hands-on projects?",
-    "answer": "Yes, the course emphasizes real-world SAP FICO implementation scenarios and hands-on projects to make learners job-ready."
-  },
-  {
-    "question": "Will I receive SAP FICO certification after completion?",
-    "answer": "Yes. Completing the course grants a globally recognized SAP FICO certification from ICLP Technologies."
-  },
-  {
-    "question": "How long does it take to complete the SAP FICO course?",
-    "answer": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)."
-  },
-  {
-    "question": "Do you provide placement assistance after the course?",
-    "answer": "Yes. We connect graduates with top hiring partners for SAP FICO roles and provide guidance to help secure employment."
-  },
-  {
-    "question": "Can I learn SAP FICO without prior accounting knowledge?",
-    "answer": "Absolutely. The course is structured to take beginners through foundational accounting concepts before diving into SAP FICO configuration and implementation."
-  },
-  {
-    "question": "What makes ICLP Tech's SAP FICO course different?",
-    "answer": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
-  }
-]
-
-        },
         {
           "course_name": "SAP EWM",
           "path": "sap-ewm",

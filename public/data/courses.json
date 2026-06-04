@@ -17290,326 +17290,410 @@
     "Scaling Scrum Case Study"
   ]
 },
-       {
-"course_name": "Data Science Course",
-"path": "data-science-course-online",
-"meta_title": "Data Science Course in Chennai with Placement",
-"meta_description": "Trying to build a career in data science? At ICLP Chennai, you’ll learn by doing real projects and get proper guidance to step into the industry.",
-"description": "Master data science concepts and techniques for data analysis and machine learning.",
-"schema": {
-"@context": "https://schema.org",
-"@graph": [
-{
-"@type": "EducationalOrganization",
-"@id": "https://iclptech.in/#organization",
-"name": "ICLP Technologies",
-"url": "https://iclptech.in",
-"logo": "https://iclptech.in/images/logo.png",
-"sameAs": [
-"https://www.instagram.com/iclp_technologies",
-"https://facebook.com/iclp-technologies",
-"http://linkedin.com/company/iclp-technologies",
-"https://twitter.com/iclp_tech",
-"https://youtube.com/@iclp_technologies"
-],
-"areaServed": {
-"@type": "Place",
-"name": "Chennai"
-},
-"address": {
-"@type": "PostalAddress",
-"addressLocality": "Chennai",
-"addressCountry": "IN"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-8681026181",
-"contactType": "customer support",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-{
-"@type": "Service",
-"@id": "https://iclptech.in/course/data-science-course-online/#data-science-training-service",
-"name": "Data Science Training",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"areaServed": "India",
-"serviceType": "Data Science Certification Training"
-},
-{
-"@type": "Course",
-"@id": "https://iclptech.in/course/data-science-course-online/#course",
-"name": "Data Science Course in Chennai",
-"description": "Instructor-led data science training covering Python, data analysis, machine learning, and data visualization. Includes real-time projects, hands-on practice, certification, and placement support.",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"courseMode": ["Online", "Offline"],
-"inLanguage": "English",
-"educationalLevel": "Intermediate",
-"occupationalCredentialAwarded": "Data Science Course Completion Certificate",
-"timeRequired": "PT35H",
-"keywords": "Data Science Course in Chennai, Data Science Training Chennai, Machine Learning Course Chennai, Python Data Science Course, Data Science Institute Chennai",
-"about": [
-{
-"@type": "Thing",
-"name": "Data Science"
-},
-{
-"@type": "Thing",
-"name": "Machine Learning"
-},
-{
-"@type": "Thing",
-"name": "Python Programming"
-},
-{
-"@type": "Thing",
-"name": "Data Visualization"
-}
-],
-"audience": {
-"@type": "EducationalAudience",
-"educationalRole": "student"
-},
-"hasCourseInstance": {
-"@type": "CourseInstance",
-"courseMode": ["Online", "Offline"],
-"inLanguage": "English",
-"location": {
-"@type": "Place",
-"name": "Chennai"
-}
-},
-"offers": {
-"@type": "Offer",
-"url": "https://iclptech.in/course/data-science-course-online",
-"price": "Contact for fees",
-"priceCurrency": "INR",
-"availability": "https://schema.org/InStock"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.8",
-"ratingCount": "2336"
-}
-},
-{
-"@type": "BreadcrumbList",
-"@id": "https://iclptech.in/course/data-science-course-online/#breadcrumb",
-"itemListElement": [
-{
-"@type": "ListItem",
-"position": 1,
-"name": "Home",
-"item": "https://iclptech.in"
-},
-{
-"@type": "ListItem",
-"position": 2,
-"name": "Courses",
-"item": "https://iclptech.in/courses/"
-},
-{
-"@type": "ListItem",
-"position": 3,
-"name": "Data Science Course",
-"item": "https://iclptech.in/course/data-science-course-online"
-}
+ {
+  "course_name": "Data Science Course",
+  "name":"Data Science Course Online with Placement Assistance",
+  "path": "data-science-course-online",
+  "canonical_url": "https://iclptech.in/course/data-science-course-online/",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in/",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/data-science-course-online/#data-science-training-service",
+        "name": "Data Science Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Data Science Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/data-science-course-online/#course",
+        "name": "Data Science Course Online",
+        "description": "Learn Data Science, Python, Machine Learning, Artificial Intelligence, Deep Learning, Power BI, SQL, Data Analytics, and Generative AI through instructor-led training, real-time projects, business case studies, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Classroom"],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "educationalCredentialAwarded": "Course Completion Certificate",
+        "keywords": "Data Science Course Online, Data Science Training in Chennai, Data Science Course with Placement, Data Science Certification Training, Online Data Science Training, Machine Learning Training, Artificial Intelligence Course, Generative AI Course",
+        "about": [
+          { "@type": "Thing", "name": "Data Science" },
+          { "@type": "Thing", "name": "Machine Learning" },
+          { "@type": "Thing", "name": "Artificial Intelligence" },
+          { "@type": "Thing", "name": "Deep Learning" },
+          { "@type": "Thing", "name": "Data Analytics" },
+          { "@type": "Thing", "name": "Generative AI" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": ["Online", "Classroom"],
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Python Programming",
+            "Statistics for Data Science",
+            "Data Analytics",
+            "SQL for Data Science",
+            "Data Visualization",
+            "Machine Learning",
+            "Deep Learning",
+            "Artificial Intelligence",
+            "Generative AI",
+            "Capstone Projects"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/data-science-course-online/",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "2500"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/data-science-course-online/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Data Science Course Online",
+            "item": "https://iclptech.in/course/data-science-course-online/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/data-science-course-online/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Data Science?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Data Science combines statistics, programming, analytics, and machine learning techniques to extract valuable insights from data and support business decisions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Data Science good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from engineering, science, commerce, and non-IT backgrounds can build successful careers in Data Science with proper training and project experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, resume guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Data Science training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Data Science Training with live instructor-led classes and recorded sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can start learning Data Science from basic Python and analytics concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Data Science training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, certifications, project experience, and company requirements. Skilled Data Science professionals receive attractive salary packages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Generative AI included in the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The course covers Generative AI concepts, Prompt Engineering, ChatGPT applications, and AI tools."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta_title": "Data Science Course Online | Data Science Training in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Data Science Course Online at ICLP Technologies. Learn Python, Machine Learning, Artificial Intelligence, Deep Learning, Power BI, SQL, Data Analytics, and Generative AI with real-time projects and placement assistance.",
+  "description": "ICLP Technologies offers an industry-focused Data Science Course Online designed for freshers, working professionals, career switchers, and non-IT candidates who want to build a successful career in Data Science, Artificial Intelligence, Machine Learning, and Analytics. Our comprehensive Data Science Training program helps learners gain practical experience in Python Programming, Statistics, Machine Learning, Deep Learning, Artificial Intelligence, SQL, Data Visualization, Power BI, Tableau, and Generative AI technologies. Students learn through real-time projects, business case studies, live datasets, and industry-based assignments that prepare them for high-demand Data Science careers. The program combines hands-on implementation with placement-focused training and career guidance. Data Science continues to be one of the fastest-growing technology domains with strong demand across industries.",
+  "career_benefits": {
+    "heading": "Why Data Science Training is Essential for Your Career",
+    "description": "<strong>Data Science</strong> is one of the fastest-growing technology domains, helping organizations make informed decisions through analytics, machine learning, and AI-driven insights. Mastering Data Science is essential for high-growth careers in analytics, artificial intelligence, business intelligence, and data-driven software roles.",
+    "points": [
+      "<strong>High Demand:</strong> Data Science professionals are needed across healthcare, finance, banking, retail, manufacturing, and IT sectors.",
+      "<strong>Career Growth:</strong> Roles such as Data Scientist, Data Analyst, Machine Learning Engineer, AI Engineer, and BI Developer offer strong salary potential and long-term career stability.",
+      "<strong>Practical Skill Development:</strong> Our training emphasizes coding, analytics, model building, visualization, and real-time projects instead of theory alone."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Data Science Course Curriculum</strong>",
+    "intro": "Our <strong>Data Science course online</strong> is designed to build strong foundations in programming, analytics, machine learning, visualization, and AI so learners can become job-ready through practical, project-based training."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Data Science</strong> Modules Covered",
+    "description": "We cover essential concepts and tools required for modern Data Science roles, including:",
+    "topics": [
+      "<strong>Python Programming</strong> for data handling and automation",
+      "<strong>Statistics</strong>, <strong>Data Cleaning</strong>, and <strong>Exploratory Data Analysis</strong>",
+      "<strong>SQL</strong>, <strong>Power BI</strong>, and <strong>Tableau</strong> for business reporting and dashboards",
+      "<strong>Machine Learning</strong>, <strong>Deep Learning</strong>, and <strong>Artificial Intelligence</strong> implementation"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Advanced <strong>AI & Analytics</strong> Topics Covered",
+    "description": "This section focuses on practical implementation and modern industry skills:",
+    "topics": [
+      "<strong>Supervised and Unsupervised Machine Learning</strong>",
+      "<strong>Neural Networks</strong>, <strong>TensorFlow</strong>, <strong>Keras</strong>, <strong>CNN</strong>, and <strong>RNN</strong>",
+      "<strong>Generative AI</strong>, <strong>Prompt Engineering</strong>, and <strong>LLM Applications</strong>",
+      "<strong>Capstone Projects:</strong> Business analytics, sales prediction, customer segmentation, fraud detection, and AI/ML deployment"
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>Data Science Certificate</strong>",
+    "intro": "Achieving your <strong>Data Science certification</strong> validates your practical skills in analytics, machine learning, and AI. Our <strong>Data Science certification training</strong> is structured to help learners gain implementation experience along with career-focused preparation.",
+    "highlights": [
+      "<strong>Certification Support:</strong> Receive a course completion certificate after successful training.",
+      "<strong>Project-Based Learning:</strong> Work on real-time assignments, live datasets, and capstone projects to demonstrate practical expertise.",
+      "<strong>Career-Oriented Learning:</strong> Build a portfolio that strengthens your profile for Data Science, AI, and analytics job roles."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Technologies</strong> is the Right Choice for <strong>Data Science Training</strong>",
+    "intro": "ICLP Technologies provides practical, placement-focused <strong>Data Science training in Chennai</strong> and online, helping freshers and professionals build industry-ready skills through expert guidance and real-world projects.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Learn from experienced Data Scientists, AI Engineers, and analytics professionals with real-world project exposure. The training is designed around practical implementation, business use cases, and industry expectations."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Data Science Training</strong> Options (Online & Classroom)",
+      "description": "We support different learning needs and schedules:",
+      "options": [
+        "<strong>Online Training:</strong> Live instructor-led classes, recorded sessions, practical assignments, and interactive doubt-clearing support.",
+        "<strong>Classroom Training:</strong> Structured in-person learning for students who prefer direct guidance and hands-on mentorship in Chennai."
+      ]
+    }
+  },
+  "what_youll_learn": [
+    "Python programming for Data Science",
+    "Statistics and probability concepts",
+    "Data cleaning and data wrangling",
+    "Exploratory data analysis and business analytics",
+    "SQL for data extraction and querying",
+    "Power BI and Tableau for data visualization",
+    "Machine Learning model development",
+    "Deep Learning with TensorFlow and Keras",
+    "Artificial Intelligence fundamentals and applications",
+    "Generative AI, Prompt Engineering, and LLM use cases",
+    "Capstone projects using live datasets",
+    "AI and ML project deployment"
+  ],
+  "syllabus": [
+    {
+      "module": "Python Programming",
+      "subtopics": [
+        "Python Fundamentals",
+        "Functions and Modules",
+        "OOP Concepts",
+        "File Handling",
+        "Exception Handling"
+      ]
+    },
+    {
+      "module": "Statistics for Data Science",
+      "subtopics": [
+        "Descriptive Statistics",
+        "Probability Concepts",
+        "Hypothesis Testing",
+        "Data Distribution",
+        "Statistical Analysis"
+      ]
+    },
+    {
+      "module": "Data Analytics",
+      "subtopics": [
+        "Data Cleaning",
+        "Data Wrangling",
+        "Exploratory Data Analysis",
+        "Business Analytics"
+      ]
+    },
+    {
+      "module": "SQL for Data Science",
+      "subtopics": [
+        "Database Concepts",
+        "SQL Queries",
+        "Data Extraction",
+        "Database Optimization"
+      ]
+    },
+    {
+      "module": "Data Visualization",
+      "subtopics": [
+        "Power BI",
+        "Tableau",
+        "Interactive Dashboards",
+        "Business Reporting"
+      ]
+    },
+    {
+      "module": "Machine Learning",
+      "subtopics": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Regression Models",
+        "Classification Models",
+        "Clustering Techniques"
+      ]
+    },
+    {
+      "module": "Deep Learning",
+      "subtopics": [
+        "Neural Networks",
+        "TensorFlow",
+        "Keras",
+        "CNN",
+        "RNN"
+      ]
+    },
+    {
+      "module": "Artificial Intelligence",
+      "subtopics": [
+        "AI Fundamentals",
+        "AI Applications",
+        "AI Model Development",
+        "AI Deployment"
+      ]
+    },
+    {
+      "module": "Generative AI",
+      "subtopics": [
+        "Prompt Engineering",
+        "Large Language Models (LLMs)",
+        "ChatGPT Applications",
+        "AI Automation",
+        "Gen AI Tools"
+      ]
+    },
+    {
+      "module": "Capstone Projects",
+      "subtopics": [
+        "Business Analytics Project",
+        "Sales Prediction Project",
+        "Customer Segmentation",
+        "Fraud Detection",
+        "AI & ML Project Deployment"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Data Science?",
+      "answer": "Data Science combines statistics, programming, analytics, and machine learning techniques to extract valuable insights from data and support business decisions."
+    },
+    {
+      "question": "Is Data Science good for freshers?",
+      "answer": "Yes. Freshers from engineering, science, commerce, and non-IT backgrounds can build successful careers in Data Science with proper training and project experience."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, resume guidance, and career assistance."
+    },
+    {
+      "question": "Is online Data Science training available?",
+      "answer": "Yes. We provide online Data Science Training with live instructor-led classes and recorded sessions."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can start learning Data Science from basic Python and analytics concepts."
+    },
+    {
+      "question": "What is the salary after Data Science training?",
+      "answer": "Salary depends on skills, certifications, project experience, and company requirements. Skilled Data Science professionals receive attractive salary packages."
+    },
+    {
+      "question": "Is Generative AI included in the course?",
+      "answer": "Yes. The course covers Generative AI concepts, Prompt Engineering, ChatGPT applications, and AI tools."
+    }
+  ],"tools_covered": [
+  { "name": "Python (Pandas, NumPy, Scikit-Learn)", "icon": "" },
+  { "name": "Statistics & Hypothesis Testing", "icon": "" },
+  { "name": "Data Cleaning & Wrangling Tools", "icon": "" },
+  { "name": "SQL (MySQL, PostgreSQL)", "icon": "" },
+  { "name": "Power BI", "icon": "" },
+  { "name": "Tableau", "icon": "" },
+  { "name": "Machine Learning Libraries (Scikit-Learn)", "icon": "" },
+  { "name": "Deep Learning Frameworks (TensorFlow, Keras)", "icon": "" },
+  { "name": "Artificial Intelligence Tools", "icon": "" },
+  { "name": "Generative AI & LLM Tools (ChatGPT, Prompt Engineering)", "icon": "" },
+  { "name": "Capstone Project Platforms (Jupyter, VS Code)", "icon": "" }
 ]
 },
-{
-"@type": "FAQPage",
-"@id": "https://iclptech.in/course/data-science-course-online/#faq",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "Is data science a good career in India right now?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes. Data science remains one of India's fastest-growing careers with strong demand across IT, finance, healthcare, and e-commerce sectors."
-}
-},
-{
-"@type": "Question",
-"name": "Does data science pay well for freshers?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes. Freshers with strong Python, ML projects, and practical skills command competitive starting salaries in Chennai's IT hub."
-}
-},
-{
-"@type": "Question",
-"name": "Is data science difficult for beginners?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Intermediate course designed with progressive learning - starts with Python basics, builds to advanced ML through hands-on projects."
-}
-},
-{
-"@type": "Question",
-"name": "Do I need strong maths for data science?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Basic statistics and linear algebra sufficient. Course teaches mathematical concepts alongside practical Python implementation."
-}
-},
-{
-"@type": "Question",
-"name": "Data science vs data analysis difference?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Data science builds predictive ML models; data analysis focuses on descriptive insights and visualization of existing data."
-}
-},
-{
-"@type": "Question",
-"name": "Can I switch to data science from non-IT background?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes. Professionals from commerce, finance successfully transition through structured Python+ML training and portfolio projects."
-}
-},
-{
-"@type": "Question",
-"name": "How to start learning data science from scratch?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Begin with Python programming, data manipulation (Pandas), visualization (Matplotlib), then supervised ML algorithms and projects."
-}
-},
-{
-"@type": "Question",
-"name": "What skills required to become data scientist?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Python, Pandas/NumPy, scikit-learn, data visualization, ML algorithms, SQL, model deployment, and business communication."
-}
-},
-{
-"@type": "Question",
-"name": "Will AI replace data science jobs?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "No. Data scientists who build, deploy, and maintain AI systems remain essential as AI adoption accelerates."
-}
-},
-{
-"@type": "Question",
-"name": "Do you provide placement support after course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes. Complete placement assistance with resume optimization, mock interviews, GitHub portfolio, and Chennai IT referrals."
-}
-}
-]
-}
-]
-},
-"faqs": [
-{
-"question": "Is data science a good career in India right now?",
-"answer": "Yes. Data science remains one of India's fastest-growing careers with strong demand across IT, finance, healthcare, and e-commerce sectors."
-},
-{
-"question": "Does data science pay well for freshers?",
-"answer": "Yes. Freshers with strong Python, ML projects, and practical skills command competitive starting salaries in Chennai's IT hub."
-},
-{
-"question": "Is data science difficult for beginners?",
-"answer": "Intermediate course designed with progressive learning - starts with Python basics, builds to advanced ML through hands-on projects."
-},
-{
-"question": "Do I need strong maths for data science?",
-"answer": "Basic statistics and linear algebra sufficient. Course teaches mathematical concepts alongside practical Python implementation."
-},
-{
-"question": "Data science vs data analysis difference?",
-"answer": "Data science builds predictive ML models; data analysis focuses on descriptive insights and visualization of existing data."
-},
-{
-"question": "Can I switch to data science from non-IT background?",
-"answer": "Yes. Professionals from commerce, finance successfully transition through structured Python+ML training and portfolio projects."
-},
-{
-"question": "How to start learning data science from scratch?",
-"answer": "Begin with Python programming, data manipulation (Pandas), visualization (Matplotlib), then supervised ML algorithms and projects."
-},
-{
-"question": "What skills required to become data scientist?",
-"answer": "Python, Pandas/NumPy, scikit-learn, data visualization, ML algorithms, SQL, model deployment, and business communication."
-},
-{
-"question": "Will AI replace data science jobs?",
-"answer": "No. Data scientists who build, deploy, and maintain AI systems remain essential as AI adoption accelerates."
-},
-{
-"question": "Do you provide placement support after course?",
-"answer": "Yes. Complete placement assistance with resume optimization, mock interviews, GitHub portfolio, and Chennai IT referrals."
-}
-],
-"what_youll_learn": [
-"Understand data science fundamentals (CRISP-DM, OSEMN frameworks)",
-"Work with data manipulation and visualization (Pandas, Matplotlib, Seaborn)",
-"Build predictive models and machine learning algorithms (scikit-learn, TensorFlow)",
-"Use Python and R for data analysis (Jupyter, RStudio)",
-"Deploy data science solutions (Flask, Docker, MLflow)",
-"Preprocess and clean real-world datasets (missing values, outliers)",
-"Optimize models with hyperparameter tuning (GridSearch, Bayesian Optimization)",
-"Communicate insights effectively (storytelling, dashboards with Tableau/Power BI)"
-],
-"syllabus": [
-{
-"module": "Introduction to Data Science",
-"subtopics": [
-"Overview of data science and its applications",
-"Data science lifecycle",
-"Setting up the data science environment"
-]
-},
-{
-"module": "Data Manipulation",
-"subtopics": [
-"Data cleaning and transformation",
-"Working with Pandas and NumPy",
-"Data aggregation and summarization"
-]
-},
-{
-"module": "Data Visualization",
-"subtopics": [
-"Introduction to Matplotlib and Seaborn",
-"Creating visualizations with Python",
-"Interactive visualizations with Plotly"
-]
-},
-{
-"module": "Machine Learning",
-"subtopics": [
-"Introduction to machine learning",
-"Supervised and unsupervised learning",
-"Building predictive models"
-]
-},
-{
-"module": "Project Work",
-"subtopics": [
-"Hands-on data science projects",
-"Final project presentations"
-]
-}
-],
-"duration": "35 hours",
-"skill_level": "Intermediate",
-"image": "https://acquisitioninternational.digital/wp-content/uploads/2022/12/Data-Science.jpg",
-"placement_assurance": true,
-"projects": [
-"Predictive Modeling",
-"Data Analysis"
-] },
        {
   "course_name": "Artificial Intelligence",
   "name":"Artificial Intelligence Course Online with Placement Assistance",
@@ -29494,7 +29578,360 @@
   { "name": "Collibra Business Glossary", "icon": "" },
   { "name": "Collibra Data Helpdesk", "icon": "" }
 ]
-},    {
+},  {
+  "course_name": "Collibra Training in Chennai",
+  "name":"Best Collibra Training in Chennai with Hands-On Practical Learning",
+  "path": "collibra-training-in-chennai",
+  "description": "Chennai is one of India’s fastest-growing IT hubs with increasing demand for Data Governance and Data Management professionals. If you are looking for the best Collibra Training in Chennai, ICLP Technologies provides industry-oriented training designed for freshers, data professionals, business analysts, IT consultants, and working professionals. Our Collibra Training in Chennai focuses on hands-on practical learning with real-time implementation scenarios, live projects, and enterprise-level use cases to help students gain practical exposure in Data Governance and Metadata Management. The course is delivered by experienced industry experts who provide certification guidance, interview preparation, practical assignments, and placement-oriented learning.",
+  "meta_title": "Collibra Training in Chennai | Collibra Online Course with Hands-On Training | ICLP Technologies",
+  "meta_description": "Join Collibra Training in Chennai at ICLP Technologies and master Data Governance, Data Catalog, Metadata Management, Data Quality, and Workflow Automation with hands-on practical training, real-time projects, certification guidance, and placement assistance in Chennai.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in/",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://iclptech.in/#localbusiness",
+        "name": "ICLP Technologies",
+        "image": "https://iclptech.in/assets/logo/logo2.png",
+        "url": "https://iclptech.in/",
+        "telephone": "+91-8681026181",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chennai",
+          "addressRegion": "Tamil Nadu",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#service",
+        "name": "Collibra Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Collibra Course with Hands-On Training and Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#course",
+        "name": "Collibra Training in Chennai",
+        "description": "Hands-on Collibra Training in Chennai with real-time projects, certification guidance, and placement support.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "url": "https://iclptech.in/course/collibra-training-in-chennai/",
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "educationalCredentialAwarded": "Course Completion Certificate",
+        "occupationalCredentialAwarded": "Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Collibra Training in Chennai, Collibra Online Course, Data Governance Training, Metadata Management Training, Data Catalog Training, Data Quality Training, Workflow Automation Training, Collibra Certification Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Collibra"
+          },
+          {
+            "@type": "Thing",
+            "name": "Data Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Metadata Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Business Glossary"
+          },
+          {
+            "@type": "Thing",
+            "name": "Workflow Automation"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/collibra-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Collibra Training in Chennai",
+            "item": "https://iclptech.in/course/collibra-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/collibra-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Collibra Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Collibra Training helps students learn Data Governance, Metadata Management, Business Glossary, Workflow Automation, and Data Stewardship concepts using the Collibra platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Collibra good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, data analytics, computer science, database management, and business analysis backgrounds can start a successful career in Collibra and Data Governance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide hands-on training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides hands-on practical training with live projects, real-time implementation scenarios, assignments, and lab sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Collibra training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online instructor-led Collibra Training with recorded classes and flexible schedules."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Collibra Training?",
+      "answer": "Collibra Training helps students learn Data Governance, Metadata Management, Business Glossary, Workflow Automation, and Data Stewardship concepts using the Collibra platform."
+    },
+    {
+      "question": "Is Collibra good for freshers?",
+      "answer": "Yes. Freshers from IT, data analytics, computer science, database management, and business analysis backgrounds can start a successful career in Collibra and Data Governance."
+    },
+    {
+      "question": "Do you provide hands-on training?",
+      "answer": "Yes. ICLP Technologies provides hands-on practical training with live projects, real-time implementation scenarios, assignments, and lab sessions."
+    },
+    {
+      "question": "Is online Collibra training available?",
+      "answer": "Yes. We provide online instructor-led Collibra Training with recorded classes and flexible schedules."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Collibra Platform",
+    "Data Governance Fundamentals",
+    "Business Glossary Management",
+    "Metadata Management",
+    "Data Lineage",
+    "Workflow Automation",
+    "Data Stewardship",
+    "Policy Management",
+    "Data Quality Concepts",
+    "Reference Data Management",
+    "Collibra Administration",
+    "Security & User Management",
+    "Integration Concepts",
+    "Real-Time Use Cases",
+    "Hands-On Lab Sessions"
+  ],
+  "syllabus": [
+    {
+      "module": "Collibra Platform Fundamentals",
+      "subtopics": [
+        "Introduction to Collibra Platform",
+        "Navigation and platform overview",
+        "Understanding enterprise use cases",
+        "Overview of Collibra components"
+      ]
+    },
+    {
+      "module": "Data Governance Foundations",
+      "subtopics": [
+        "Data Governance Fundamentals",
+        "Governance operating models",
+        "Roles and responsibilities",
+        "Governance implementation concepts"
+      ]
+    },
+    {
+      "module": "Business Glossary and Metadata",
+      "subtopics": [
+        "Business Glossary Management",
+        "Metadata Management",
+        "Asset relationships and domains",
+        "Business and technical metadata handling"
+      ]
+    },
+    {
+      "module": "Data Lineage and Stewardship",
+      "subtopics": [
+        "Data Lineage concepts",
+        "Data Stewardship processes",
+        "Tracking data flow and dependencies",
+        "Governance ownership and stewardship use cases"
+      ]
+    },
+    {
+      "module": "Workflow and Policy Management",
+      "subtopics": [
+        "Workflow Automation",
+        "Workflow creation exercises",
+        "Policy Management",
+        "Approval and governance workflow scenarios"
+      ]
+    },
+    {
+      "module": "Data Quality and Reference Data",
+      "subtopics": [
+        "Data Quality Concepts",
+        "Reference Data Management",
+        "Quality monitoring concepts",
+        "Enterprise data standardization practices"
+      ]
+    },
+    {
+      "module": "Administration and Security",
+      "subtopics": [
+        "Collibra Administration",
+        "Security & User Management",
+        "Roles, permissions, and access control",
+        "Administrative best practices"
+      ]
+    },
+    {
+      "module": "Integration and Real-Time Use Cases",
+      "subtopics": [
+        "Integration Concepts",
+        "Real-Time Use Cases",
+        "Industry-oriented assignments",
+        "Enterprise-level implementation scenarios"
+      ]
+    },
+    {
+      "module": "Hands-On Practical Training",
+      "subtopics": [
+        "Hands-On Lab Sessions",
+        "Live project-based training",
+        "Metadata management scenarios",
+        "Business glossary implementation",
+        "Data governance case studies"
+      ]
+    }
+  ],
+  "duration": "4-8 Weeks (Flexible Batches)",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/collibra-training-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Business Glossary Implementation Project",
+    "Metadata Management Scenario",
+    "Workflow Automation Exercise",
+    "Data Governance Case Study",
+    "Hands-On Enterprise Use Case Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Collibra Training</strong> in Chennai",
+    "description": "Collibra is one of the most in-demand Data Governance platforms used by multinational companies across banking, healthcare, insurance, retail, finance, and enterprise domains. Build a strong career with hands-on training, real-time projects, expert guidance, and placement-oriented learning.",
+    "points": [
+      "<strong>High Demand in Data Governance Domain:</strong> Organizations increasingly need professionals skilled in Collibra, data governance, metadata management, and enterprise data stewardship",
+      "<strong>Excellent Salary Packages:</strong> Collibra and data governance roles offer competitive salary opportunities in enterprise and consulting environments",
+      "<strong>Strong Career Growth:</strong> Build a career as Collibra Developer, Data Governance Analyst, Collibra Administrator, Metadata Management Consultant, or Data Steward",
+      "<strong>Enterprise Tool Exposure:</strong> Gain practical experience with widely used enterprise data governance and metadata management tools",
+      "<strong>Opportunities in Top Companies:</strong> Companies such as Accenture, Infosys, Cognizant, Capgemini, Deloitte, and IBM hire Collibra professionals",
+      "<strong>Placement-Oriented Practical Learning:</strong> Hands-on projects, real-time assignments, interview preparation, and certification guidance help students become industry-ready"
+    ]
+  },"why_institute": {
+  "heading": "Why Choose ICLP Technologies for Collibra Training in Chennai?",
+  "intro": "ICLP Technologies provides industry-focused Collibra Training with practical implementation, real-time projects, data governance workflows, policy management exercises, and placement-oriented learning for freshers, data professionals, and working professionals.",
+  "instructor_expertise": {
+    "heading": "Experienced Industry Trainers",
+    "description": "Learn from experienced Collibra and data governance professionals with real-time project and corporate training exposure. Get mentor support for data governance workflows, policy management, data cataloging, lineage tracking, and business glossary implementation."
+  },
+  "training_modes": {
+    "heading": "Flexible Learning Options",
+    "description": "Designed for students, job seekers, and professionals across Chennai and beyond:",
+    "options": [
+      "<strong>Online Training:</strong> Live instructor-led sessions with recorded access and interactive practical classes",
+      "<strong>Classroom Training:</strong> In-person sessions for learners who prefer direct trainer support",
+      "<strong>Weekday & Weekend Batches:</strong> Suitable for freshers, career switchers, and working professionals",
+      "<strong>Real-Time Project Training:</strong> Gain hands-on exposure through Collibra data governance projects, policy workflows, and data cataloging exercises"
+    ]
+  }
+},
+"tools_covered": [
+  { "name": "Core Collibra Tools", "icon": "" },
+  { "name": "Collibra Data Intelligence Cloud", "icon": "" },
+  { "name": "Collibra Data Catalog", "icon": "" },
+  { "name": "Collibra Data Governance Center (DGC)", "icon": "" },
+  { "name": "Collibra Data Lineage", "icon": "" },
+  { "name": "Collibra Workflow Designer", "icon": "" },
+  { "name": "Collibra Business Glossary", "icon": "" },
+  { "name": "Collibra Data Helpdesk", "icon": "" }
+]
+},  {
           "course_name": "Alation Data Catalog",
           "path": "alation-data-catalog-course",
           "description": "Master enterprise data governance, metadata management, and collaboration using Alation Data Catalog.",
