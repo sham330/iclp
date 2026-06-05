@@ -94,17 +94,15 @@ const sendEmail = async (e) => {
     });
 
     if (res.ok) {
-        showConfetti();
-        setFormData({ name: "", email: "", phone: "", course: "" });
-        setTimeout(() => { window.location.href = "/thank-you"; }, 500);
+      window.location.href = "/thank-you";
     } else {
       const data = await res.json();
       alert(`❌ ${data.message || "Failed to send booking details."}`);
+      setIsSubmitting(false);
     }
   } catch (error) {
     console.error("❌ Network error:", error);
     alert("Failed to send booking details. Please try again.");
-  } finally {
     setIsSubmitting(false);
   }
 };

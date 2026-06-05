@@ -117,14 +117,7 @@ const HomeAboutDialog = ({ onClose } = {}) => {
       });
 
       if (res.ok) {
-        setSubmitSuccess(true);
-        setTimeout(() => {
-          setFormData({ name: '', email: '', phone: '', course: '', qualification: '', experience: '', notes: '' });
-          setErrors({});
-          setIsSubmitting(false);
-          setSubmitSuccess(false);
-          handleClose();
-        }, 3000);
+        window.location.href = '/thank-you';
       } else {
         const data = await res.json();
         alert(`❌ ${data.message || 'Failed to send booking details.'}`);
