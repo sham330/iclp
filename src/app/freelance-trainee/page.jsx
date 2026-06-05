@@ -686,24 +686,8 @@ const FreelanceTrainer = () => {
       };
 
       await emailjs.send("service_9uysd3c", "template_luo4vus", templateParams);
-
-      setSubmitStatus({
-        success: true,
-        message:
-          "Application submitted successfully! Please email your resume to iclphr@gmail.com",
-      });
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        location: "",
-        languages: "",
-        technologies: "",
-        domainExperience: "",
-        trainingExperience: "",
-        availability: "",
-        resumeLink: "",
-      });
+      setFormData({ name: "", email: "", phone: "", location: "", languages: "", technologies: "", domainExperience: "", trainingExperience: "", availability: "", resumeLink: "" });
+      window.location.href = "/thank-you";
     } catch (error) {
       console.error("Error sending email:", error);
       setSubmitStatus({

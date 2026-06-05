@@ -313,16 +313,8 @@ const Contact = () => {
       const data = await res.json();
 
       if (res.ok) {
-        alert("✅ Your enquiry has been sent successfully!");
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          course: "",
-          state: "",
-          city: "",
-          contact: "",
-        });
+        setFormData({ name: "", email: "", phone: "", course: "", state: "", city: "", contact: "" });
+        window.location.href = "/thank-you";
       } else {
         alert(`❌ Failed: ${data.message || "Please try again."}`);
       }

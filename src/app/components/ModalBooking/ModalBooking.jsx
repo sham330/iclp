@@ -119,7 +119,8 @@ const ModalBooking = ({ onClose }) => {
           setIsSubmitting(false);
           setSubmitSuccess(false);
           onClose();
-        }, 3000);
+          window.location.href = "/thank-you";
+        }, 500);
       } else {
         const data = await res.json();
         alert(`❌ ${data.message || "Failed to send booking details."}`);

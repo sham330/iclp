@@ -94,8 +94,9 @@ const sendEmail = async (e) => {
     });
 
     if (res.ok) {
-      showConfetti();
-      setFormData({ name: "", email: "", phone: "", course: "" });
+        showConfetti();
+        setFormData({ name: "", email: "", phone: "", course: "" });
+        setTimeout(() => { window.location.href = "/thank-you"; }, 500);
     } else {
       const data = await res.json();
       alert(`❌ ${data.message || "Failed to send booking details."}`);
