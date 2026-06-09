@@ -832,12 +832,11 @@ const SapCourseDetailsPage = ({ getcourse, path }) => {
               <Image
                 src="/certification.png"
                 alt="SAP Certification"
-                width={448}              // ✅ max-w-md = ~448px on desktop
-                height={252}             // ✅ 16:9 aspect ratio for certification badges
-                className="w-full max-w-md rounded-xl shadow-2xl"
-  loading="lazy"  // ADD THIS instead
-                  quality={80}
-          // ✅ Above-the-fold hero image
+                width={140}
+                height={185}
+                className="w-72 h-96 object-cover rounded-xl shadow-2xl"
+                loading="lazy"
+                quality={80}
               />
             </div>
           </div>

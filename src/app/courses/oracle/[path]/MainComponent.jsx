@@ -759,26 +759,13 @@ const OracleCourseDetailsPage = () => {
           </button>
         </div>
 
-        <div
-          onClick={() => setShowBookingModal(true)}
-          className="cursor-pointer group"
-        >
-           <div
-    className="
-      relative w-full 
-      max-w-sm sm:max-w-md lg:max-w-lg 
-      max-h-[260px] sm:max-h-[320px] lg:max-h-[380px]
-      rounded-2xl overflow-hidden shadow-2xl 
-      border-4 border-[#39FF14] 
-      group-hover:scale-105 transition-transform duration-300
-    "
-  >
-    <img
-      src="/certification.png"
-      alt="SAP Certification"
-      className="w-full h-full object-contain"
-    />
-  </div>
+        <div className="flex justify-center">
+          <img
+            src="/certification.png"
+            alt="Oracle Certification"
+            className="w-72 h-96 object-cover rounded-xl shadow-2xl"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
