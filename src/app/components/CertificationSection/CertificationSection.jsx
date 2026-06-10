@@ -16,7 +16,7 @@ export default function CertificationSection() {
         {/* Left Logo */}
         <div className="bg-white rounded-xl p-4 flex items-center justify-center w-36 h-36 md:w-44 md:h-44 shadow shrink-0 hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-pointer">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             alt="Certification"
             className="w-full h-full object-contain"
           />

@@ -37,6 +37,8 @@ const AppBar = () => {
       { name: "Java", path: "java-online-training" },
       { name: "Python", path: "python-development-online-training" },
       { name: "C Sharp", path: "c-sharp-online-training" },
+      { name: "Control-M", path: "control-m-training-chennai" },
+      {   path: "android-development-training-chennai", name: "Android Development" },
       { name: "R Programming", path: "r-programming-online-training" },
       { name: "JavaScript", path: "java-script-online-training" },
       { name: "Perl Scripting", path: "perl-scripting-online-training" },
