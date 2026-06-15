@@ -1,0 +1,34 @@
+import fs from "fs";
+import path from "path";
+import { redirect } from "next/navigation";
+import CourseDetails from "./Maincomponent";
+import Head from "./Head";
+import { getAllCoursePaths } from "@/app/lib/course";
+export const dynamic = 'force-dynamic';
+
+export async function generateStaticParams() {
+  return await getAllCoursePaths();
+}
+export default async function CourseDetailsPage({ params }) {
+  const resolvedParams = await params;
+  const coursePath = resolvedParams?.path;
+  if (!coursePath) redirect("/courses/");
+  const filePath = path.join(process.cwd(), "public/data/courses.json");
+  const fileContents = fs.readFileSync(filePath, "utf-8");
+  const coursesData = JSON.parse(fileContents);
+
+  let foundCourse = null;
+  for (const category of coursesData.categories) {
+    foundCourse = category.sub_categories.find(sub => sub.path === coursePath);
+    if (foundCourse) break;
+  }
+
+  if (!foundCourse) redirect("/courses/");
+
+  return (
+    <>
+      <Head course={foundCourse} />
+      <CourseDetails course={foundCourse} />
+    </>
+  );
+}
