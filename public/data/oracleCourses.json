@@ -5,7 +5,7 @@
       "sub_categories": [
         {
           "course_name": "Oracle Financials",
-          "path": "oracle-financials",
+          "path": "oracle-financials-chennai",
            "meta_title": "Oracle Financial Course Online | Oracle Financial Training | Oracle Financial Certificate",
   "meta_description": "Learn Oracle Financials online. Become a certified consultant with job-ready training. Enroll today & start learning!",
           "description": "Comprehensive training on Oracle Financials covering General Ledger, AP, AR, FA and Cash Management.",
@@ -53,7 +53,7 @@
         },
        {
   "course_name": "Oracle SCM Training in Chennai",
-  "path": "oracle-scm",
+  "path": "oracle-scm-chennai",
 
   "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Oracle Supply Chain Management modules including procurement, inventory management, order management, supply chain planning, and logistics with hands-on implementation scenarios.",
   "meta_title": "Oracle SCM Training in Chennai | Oracle SCM Online Course with Placement | ICLP Technologies",
@@ -91,7 +91,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#service",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#service",
         "name": "Oracle SCM Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -101,7 +101,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#course",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#course",
         "name": "Oracle SCM Training in Chennai",
         "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
         "provider": {
@@ -145,7 +145,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/oracle/oracle-scm/",
+          "url": "https://iclptech.in/courses/oracle/oracle-scm-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -158,7 +158,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#breadcrumb",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -176,13 +176,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Oracle SCM Training",
-            "item": "https://iclptech.in/courses/oracle/oracle-scm/"
+            "item": "https://iclptech.in/courses/oracle/oracle-scm-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#faq",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -1313,7 +1313,7 @@
   }
 },{
   "course_name": "Oracle HCM",
-  "path": "oracle-hcm",
+  "path": "oracle-hcm-chennai",
   "name": "Oracle HCM Training in Chennai with Placement Assistance",
   "description": "ICLP Technologies offers industry-focused Oracle HCM Training in Chennai designed for freshers, HR professionals, ERP consultants, and working professionals who want to build a successful career in Oracle Human Capital Management. Our Oracle HCM Course provides practical training with real-time implementation scenarios, live projects, and hands-on exercises to help students understand workforce management, payroll, recruitment, talent management, HR operations, and Oracle HCM Cloud concepts. ",
   "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Online Course with Placement | ICLP Technologies",
@@ -1351,7 +1351,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm/#service",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#service",
         "name": "Oracle HCM Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -1361,7 +1361,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm/#course",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#course",
         "name": "Oracle HCM Training in Chennai",
         "description": "Join Oracle HCM Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
         "provider": {
@@ -1405,7 +1405,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/oracle/oracle-hcm/",
+          "url": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -1418,7 +1418,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm/#breadcrumb",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -1436,13 +1436,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Oracle HCM Training",
-            "item": "https://iclptech.in/courses/oracle/oracle-hcm/"
+            "item": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm/#faq",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -2254,7 +2254,7 @@
 },
         {
   "course_name": "Oracle CPQ Training",
-  "path": "oracle-cpq",
+  "path": "oracle-cpq-chennai",
   "description": "Comprehensive training in Oracle Configure, Price, Quote (CPQ) Cloud solutions covering product configuration, commerce processes, and document generation.",
   "what_youll_learn": [
     "Oracle CPQ Cloud fundamentals",
@@ -2732,7 +2732,7 @@
 },
 {
   "course_name": "Oracle SQL & PL/SQL",
-  "path": "oracle-sql-plsql",
+  "path": "oracle-sql-plsql-chennai",
   "description": "Comprehensive training in Oracle database programming covering SQL querying and PL/SQL development for robust database applications.",
   "what_youll_learn": [
     "SQL fundamentals and advanced techniques",
@@ -3063,7 +3063,7 @@
 },
 {
   "course_name": "Oracle PeopleSoft HRMS/HCM",
-  "path": "oracle-peoplesoft",
+  "path": "oracle-peoplesoft-chennai",
   "description": "Comprehensive training in PeopleSoft Human Resources and Payroll modules covering core tables, processes, and reporting for enterprise HR solutions.",
   "what_youll_learn": [
     "PeopleSoft architecture",

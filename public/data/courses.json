@@ -4463,7 +4463,7 @@
       "sub_categories": [
         {
           "course_name": "Java",
-          "path": "java-online-training",
+          "path": "java-online-training-chennai",
           "description": "Learn Java programming from scratch and build robust applications.",
           "what_youll_learn": [
             "Master Java basics and syntax",
@@ -4583,7 +4583,7 @@
         },
         {
           "course_name": "Spring Boot Online Training",
-          "path": "spring-boot-online-training",
+          "path": "spring-boot-online-training-chennai",
           "description": "Comprehensive Spring Boot training covering REST APIs, microservices, JPA, Spring Security, testing, deployment, and best practices.",
           "what_youll_learn": [
             "Spring Boot fundamentals and architecture",
@@ -5601,7 +5601,7 @@
         },
         {
           "course_name": "R Programming",
-          "path": "r-programming-online-training",
+          "path": "r-programming-online-training-chennai",
           "description": "Learn R programming for data analysis and statistical computing.",
           "what_youll_learn": [
             "Understand R basics and syntax",
@@ -5680,7 +5680,7 @@
         },
         {
           "course_name": "JavaScript",
-          "path": "java-script-online-training",
+          "path": "java-script-online-training-chennai",
           "description": "Master JavaScript for web development and interactive web applications.",
           "what_youll_learn": [
             "Understand JavaScript basics and syntax",
@@ -6015,7 +6015,7 @@
         },
         {
           "course_name": "C and C++ Programming",
-          "path": "c-cpp-programming-course",
+          "path": "c-cpp-programming-course-training-chennai",
           "description": "Master the fundamentals of C programming and transition to object-oriented programming with C++. Learn to build efficient, high-performance applications.",
           "what_youll_learn": [
             "C programming fundamentals",
@@ -6279,7 +6279,7 @@
         },
         {
           "course_name": "Node.js",
-          "path": "node-js-online-training",
+          "path": "node-js-online-training-chennai",
           "description": "Learn Node.js for server-side development and building scalable web applications.",
           "what_youll_learn": [
             "Understand Node.js basics and event-driven architecture",
@@ -6350,7 +6350,7 @@
         },
         {
           "course_name": "ReactJS",
-          "path": "react-js-online-training",
+          "path": "react-js-online-training-chennai",
           "description": "Master ReactJS for building dynamic and interactive user interfaces.",
           "what_youll_learn": [
             "Understand React basics and component-based architecture",
@@ -6421,7 +6421,7 @@
         },
         {
           "course_name": "Angular",
-          "path": "angular-developer-online-training",
+          "path": "angular-developer-online-training-chennai",
           "description": "Build dynamic web applications with Angular, covering components, services, routing, and deployment.",
           "what_youll_learn": [
             "Set up Angular development environment",
@@ -6586,7 +6586,7 @@
         },
         {
           "course_name": "WordPress",
-          "path": "wordpress",
+          "path": "wordpress-online-training-chennai",
           "description": "Create and manage WordPress websites, from installation to deployment and SEO optimization.",
           "what_youll_learn": [
             "Install and configure WordPress",
@@ -6698,7 +6698,7 @@
         },
         {
           "course_name": "HTML",
-          "path": "html-developer-online-training",
+          "path": "html-developer-online-training-chennai",
           "description": "Master HTML5 to build modern, semantic, and interactive web pages.",
           "what_youll_learn": [
             "Use HTML5 semantic elements",
@@ -6919,7 +6919,7 @@
         },
         {
           "course_name": "jQuery",
-          "path": "j-query-developer-online-training",
+          "path": "j-query-developer-online-training-chennnai",
           "description": "Master jQuery to simplify DOM manipulation, event handling, and AJAX interactions.",
           "what_youll_learn": [
             "Use jQuery selectors and filters",
@@ -7113,7 +7113,7 @@
       {
   "course_name": "Full Stack Java Training",
   "name":"Full Stack Java Training Online with Placement Assistance",
-  "path": "full-stack-java-training-online",
+  "path": "full-stack-java-training-online-chennai",
   "description": "ICLP Technologies offers industry-focused Full Stack Java Training Online designed for freshers, working professionals, non-IT candidates, engineering graduates, and career switchers who want to build a successful career in Full Stack Java Development.Our Java Full Stack Developer Course in Chennai provides practical learning with real-time projects, live web application development, frontend and backend integration, database management, API development, and deployment techniques used in modern software companies. Students gain hands-on experience in Java Programming, Core Java, Advanced Java, Spring Boot, Hibernate, React JS, HTML5, CSS3, JavaScript, SQL, REST APIs, GitHub, and Full Stack Application Development.",
   "meta_title": "Full Stack Java Training Online | Java Full Stack Developer Course in Chennai with Placement | ICLP Technologies",
   "meta_description": "Join Full Stack Java Training Online at ICLP Technologies. Learn Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
@@ -7150,7 +7150,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/full-stack-java-training-online/#service",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online-chennai/#service",
         "name": "Full Stack Java Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -7160,7 +7160,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/full-stack-java-training-online/#course",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online-chennai/#course",
         "name": "Full Stack Java Training Online",
         "description": "Join Full Stack Java Training Online at ICLP Technologies with Java, Spring Boot, Hibernate, React JS, SQL, REST APIs, real-time projects, and placement assistance.",
         "provider": {
@@ -7208,7 +7208,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/full-stack-java-training-online/",
+          "url": "https://iclptech.in/course/full-stack-java-training-online-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -7221,7 +7221,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/full-stack-java-training-online/#breadcrumb",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -7245,7 +7245,7 @@
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/full-stack-java-training-online/#faq",
+        "@id": "https://iclptech.in/course/full-stack-java-training-online-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -7483,7 +7483,7 @@
       {
   "course_name": "Python Full Stack",
   "name":"Python Full Stack Developer Online Training with Placement Assistance",
-  "path": "python-full-stack-developer-online-training",
+  "path": "python-full-stack-developer-online-training-chennai",
   "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
   "meta_title": "Python Full Stack Developer Online Training | Python Full Stack Course in Chennai with Placement | ICLP Technologies",
   "meta_description": "Join Python Full Stack Developer Online Training at ICLP Technologies. Learn Python, Django, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
@@ -7520,7 +7520,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#service",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/#service",
         "name": "Python Full Stack Developer Online Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -7530,7 +7530,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#course",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/#course",
         "name": "Python Full Stack Developer Online Training",
         "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
         "provider": {
@@ -7574,7 +7574,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/python-full-stack-developer-online-training/",
+          "url": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -7587,7 +7587,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#breadcrumb",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -7605,13 +7605,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Python Full Stack Developer Online Training",
-            "item": "https://iclptech.in/course/python-full-stack-developer-online-training/"
+            "item": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training/#faq",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -7832,7 +7832,7 @@
 },{
   "course_name": "Python Full Stack",
   "name":"Python Full Stack Developer Online Training with Placement Assistance",
-  "path": "python-development-online-training",
+  "path": "python-development-online-training-chennai",
   "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
   "meta_title": "Python Full Stack Developer Online Training | Python Full Stack Course in Chennai with Placement | ICLP Technologies",
   "meta_description": "Join Python Full Stack Developer Online Training at ICLP Technologies. Learn Python, Django, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
@@ -7869,7 +7869,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/python-development-online-training/#service",
+        "@id": "https://iclptech.in/course/python-development-online-training-chennai/#service",
         "name": "Python Full Stack Developer Online Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -7879,7 +7879,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/python-development-online-training/#course",
+        "@id": "https://iclptech.in/course/python-development-online-training-chennai/#course",
         "name": "Python Full Stack Developer Online Training",
         "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
         "provider": {
@@ -7923,7 +7923,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/python-development-online-training/",
+          "url": "https://iclptech.in/course/python-development-online-training-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -7936,7 +7936,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/python-development-online-training/#breadcrumb",
+        "@id": "https://iclptech.in/course/python-development-online-training-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -7954,13 +7954,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Python Full Stack Developer Online Training",
-            "item": "https://iclptech.in/course/python-development-online-training/"
+            "item": "https://iclptech.in/course/python-development-online-training-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/python-development-online-training/#faq",
+        "@id": "https://iclptech.in/course/python-development-online-training-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -8181,7 +8181,7 @@
 },
         {
           "course_name": "PHP",
-          "path": "php-online-training",
+          "path": "php-online-training-chennai",
           "description": "Learn PHP for server-side web development and dynamic web applications.",
           "what_youll_learn": [
             "Understand PHP basics and syntax",
@@ -8468,7 +8468,7 @@
       "sub_categories": [
         {
           "course_name": "Workday HCM",
-          "path": "workday-hcm-online-course",
+          "path": "workday-hcm-online-course-chennai",
           "meta_title": "Workday HCM Course Online | Workday HCM Training | Workday HCM Certificate",
           "meta_description": "Become a Workday HCM expert with our online training & certification. Learn from industry trainers. Enroll now!",
           "description": "Master Workday Human Capital Management (HCM) for organizational management, security, and business processes.",
@@ -8666,7 +8666,7 @@
         },
         {
           "course_name": "Salesforce Online Training",
-          "path": "salesforce-online-training",
+          "path": "salesforce-online-training-chennai",
           "description": "Master Salesforce CRM, administration, and development to build scalable business solutions.",
           "what_youll_learn": [
             "Navigate Salesforce setup and user interface",
@@ -8898,7 +8898,7 @@
         },
         {
           "course_name": "Azure DevOps",
-          "path": "azure-devops-training",
+          "path": "azure-devops-training-chennai",
           "description": "Master Azure DevOps to build, deploy, and manage cloud applications with Microsoft Azure.",
           "what_youll_learn": [
             "Understand cloud computing and Azure services",
@@ -9057,7 +9057,7 @@
         },
         {
           "course_name": "MERN Stack Online Training",
-          "path": "mern-stack-training",
+          "path": "mern-stack-training-chennnai",
           "description": "Master full-stack web development with MongoDB, Express.js, React.js, and Node.js. Build production-ready applications with modern JavaScript (ES6+), REST APIs, JWT authentication, Redux state management, performance optimization, Docker deployment, CI/CD pipelines, and enterprise-grade capstone projects for full-stack developer careers.",
           "what_youll_learn": [
             "Build complete full-stack applications using MongoDB, Express, React, and Node.js",
@@ -9560,7 +9560,7 @@
         },
         {
           "course_name": "Azure Data Factory Certification Training",
-          "path": "azure-data-factory-training",
+          "path": "azure-data-factory-training-chennai",
           "description": "Master Azure Data Factory (ADF) and Azure Synapse Analytics for enterprise ETL/ELT pipelines. Learn data ingestion, orchestration, incremental loads, mapping/wrangling data flows, hybrid data movement, Synapse SQL pools, MPP architecture, PolyBase, performance optimization, and production data lakehouse deployment for Azure data engineering careers.",
           "what_youll_learn": [
             "Design and orchestrate complex ADF pipelines with triggers, parameters, and activities",
@@ -9669,7 +9669,7 @@
         },
         {
           "course_name": "Apache Spark Certification Training",
-          "path": "apache-spark-training",
+          "path": "apache-spark-training-chennai",
           "description": "Master Apache Spark for big data processing and analytics. Learn RDDs, DataFrames, Spark SQL, MLlib machine learning, Spark Streaming, Kafka/Flume integration, performance optimization, parallel processing, scheduling, and production deployment for big data engineer and data scientist careers.",
           "what_youll_learn": [
             "Implement Spark RDD operations, transformations, actions, and persistence strategies",
@@ -9813,7 +9813,7 @@
         },
         {
           "course_name": "Figma Advanced",
-          "path": "figma-advanced-training",
+          "path": "figma-advanced-training-chennai",
           "description": "Master advanced Figma for professional UI/UX design workflows. Learn design systems, Auto Layout, complex prototyping, team collaboration, responsive design, developer handoff, plugins automation, micro-interactions, real-world projects (dashboard, mobile app, e-commerce), and portfolio preparation for senior UI/UX designer careers.",
           "what_youll_learn": [
             "Create scalable design systems with reusable components, shared libraries, and design tokens",
@@ -10057,7 +10057,7 @@
         },
         {
           "course_name": "VMware vSphere Administration",
-          "path": "vmware-vsphere-training",
+          "path": "vmware-vsphere-training-chennai",
           "description": "Master VMware vSphere enterprise virtualization administration. Learn ESXi installation, vCenter Server deployment, virtual machine lifecycle management, networking, storage (iSCSI/NFS/VMFS), vMotion, HA, DRS, Fault Tolerance, resource pools, alarms, access control, Update Manager, and production cluster management for virtualization engineer careers.",
           "what_youll_learn": [
             "Install and configure VMware ESXi hosts and vCenter Server Appliance",
@@ -10437,7 +10437,7 @@
         },
         {
           "course_name": "Tableau Certification Training",
-          "path": "tableau-certification-training",
+          "path": "tableau-certification-training-chennai",
           "description": "Master Tableau for business intelligence and data visualization certification. Learn data connections, advanced calculations, interactive dashboards, LOD expressions, performance optimization, Tableau Server/Cloud deployment, real-world analytics projects, and certification preparation for data analyst and BI developer careers.",
           "what_youll_learn": [
             "Connect and prepare data from Excel, SQL databases, CSV with live/extract connections",
@@ -10579,7 +10579,7 @@
         },
         {
           "course_name": "Certified Ethical Hacker (CEH) - Advanced",
-          "path": "ceh-advanced-training",
+          "path": "ceh-advanced-training-chennai",
           "description": "Master Certified Ethical Hacker (CEH) certification with advanced offensive security skills. Learn footprinting, enumeration, network scanning, system hacking, Metasploit exploitation, web application attacks, SQL injection, wireless cracking, social engineering, cryptography, cloud security, and evasion techniques for elite cybersecurity penetration testing careers.",
           "what_youll_learn": [
             "Execute complete ethical hacking methodology through 5 phases of CEH framework",
@@ -10792,7 +10792,7 @@
         },
         {
           "course_name": "Cloud Security Knowledge (CCSK) Foundation",
-          "path": "ccsk-foundation-training",
+          "path": "ccsk-foundation-training-chennai",
           "description": "Master CCSK certification with comprehensive cloud security knowledge. Learn cloud architectures, governance, legal compliance (GDPR), risk management, audit strategies, data security lifecycle, infrastructure security, incident response, application security, encryption, IAM, and Security-as-a-Service for cloud security architect and compliance careers.",
           "what_youll_learn": [
             "Understand cloud computing models, architectures, and security responsibilities",
@@ -10935,7 +10935,7 @@
         },
         {
           "course_name": "System and Network Security Introduction",
-          "path": "system-network-security-training",
+          "path": "system-network-security-training-chennai",
           "description": "Master foundational cybersecurity concepts for enterprise security. Learn threat analysis, cryptography (AES, DES, PGP), authentication methods, intrusion detection, OS hardening, vulnerability scanning (Nessus), firewalls, WAF deployment, wireless security, IPSec, and network defense strategies for cybersecurity analyst and network security careers.",
           "what_youll_learn": [
             "Identify real cyber threats including eavesdropping, spoofing, sniffing, Trojans, and viruses",
@@ -11090,7 +11090,7 @@
         },
         {
           "course_name": "Certified Advanced Penetration Tester (CAPT)",
-          "path": "advanced-pentest-certification-training",
+          "path": "advanced-pentest-certification-training-chennai",
           "description": "Master advanced penetration testing for CAPT certification. Learn Kali Linux, Metasploit exploitation, vulnerability assessment, privilege escalation, password cracking, web app pentesting, wireless attacks, social engineering, DoS attacks, evasion techniques, and professional reporting for elite cybersecurity penetration testing careers.",
           "what_youll_learn": [
             "Set up professional pentesting lab with Kali Linux, VMware, and network configuration",
@@ -11270,7 +11270,7 @@
         },
         {
           "course_name": "Certified SOC Analyst (CSA)",
-          "path": "soc-analyst-csa-training",
+          "path": "soc-analyst-csa-training-chennai",
           "description": "Master Security Operations Center (SOC) analyst skills for CSA certification. Learn SOC fundamentals, cyber threat detection, SIEM deployment, incident response, threat intelligence integration, log analysis, alert triaging, network/host/application attack detection, and incident handling for cybersecurity analyst careers.",
           "what_youll_learn": [
             "Understand SOC operations, components, and implementation strategies",
@@ -11513,7 +11513,7 @@
         },
         {
           "course_name": "Git and GitHub",
-          "path": "git-github-training",
+          "path": "git-github-training-chennai",
           "description": "Master Git version control and GitHub collaboration from fundamentals to advanced workflows. Learn Git commands, branching strategies, pull requests, CI/CD with GitHub Actions, repository security, open-source contribution, project management, and production-ready workflows for modern software development careers.",
           "what_youll_learn": [
             "Master Git fundamentals including commits, branching, merging, and conflict resolution",
@@ -11657,7 +11657,7 @@
         },
         {
           "course_name": "Terraform with Placement",
-          "path": "terraform-training",
+          "path": "terraform-training-chennai",
           "description": "Master Terraform Infrastructure as Code (IaC) for multi-cloud automation. Learn Terraform CLI, HCL syntax, providers, state management, modules, cloud infrastructure provisioning (AWS/Azure/GCP), advanced workflows, Terraform Cloud/Enterprise, security best practices, and production projects for Cloud DevOps and Infrastructure Engineer careers.",
           "what_youll_learn": [
             "Master Terraform HCL syntax, variables, outputs, locals, and conditional expressions",
@@ -11789,7 +11789,7 @@
         },
         {
           "course_name": "Kubernetes (Beginner to Advanced)",
-          "path": "kubernetes-training",
+          "path": "kubernetes-training-chennai",
           "description": "Master Kubernetes orchestration from fundamentals to production deployment. Learn cluster architecture, pods, deployments, services, networking, storage, security (RBAC), monitoring (Prometheus/Grafana), autoscaling, CI/CD integration, cloud platforms (EKS/AKS/GKE), and GitOps for cloud-native DevOps and SRE careers.",
           "what_youll_learn": [
             "Understand Kubernetes architecture, control plane, and worker nodes",
@@ -11955,7 +11955,7 @@
         },
         {
           "course_name": "Docker (Beginner to Advanced)",
-          "path": "docker-training",
+          "path": "docker-training-chennai",
           "description": "Master Docker containerization from basics to production deployment. Learn Docker installation, images, containers, Dockerfiles, volumes, networking, Docker Compose, security, registries, logging, DevOps integration, cloud platforms, and Kubernetes intro for modern DevOps and cloud-native development careers.",
           "what_youll_learn": [
             "Understand containerization fundamentals and Docker architecture",
@@ -12110,7 +12110,7 @@
         },
         {
           "course_name": "AWS",
-          "path": "aws-online-training",
+          "path": "aws-online-training-chennai",
           "description": "Learn Amazon Web Services (AWS) for cloud computing and deployment.",
           "what_youll_learn": [
             "Understand cloud computing fundamentals (IaaS, PaaS, SaaS)",
@@ -12182,7 +12182,7 @@
         },
         {
           "course_name": "DevOps",
-          "path": "devops-training",
+          "path": "devops-training-chennai",
           "meta_title": "DevOps Online Training | DevOps Certification Course with Projects",
           "meta_description": "Learn DevOps from scratch with hands-on training covering Git, Docker, Jenkins, Kubernetes, Terraform, Ansible, Puppet, ELK, and CI/CD pipelines.",
           "description": "Comprehensive DevOps training covering infrastructure setup, version control, CI/CD pipelines, automation, containerization, orchestration, monitoring, and infrastructure as code with real-world projects.",
@@ -12568,7 +12568,7 @@
       "sub_categories": [
         {
           "course_name": "Cyber Security",
-          "path": "cyber-security-online-training",
+          "path": "cyber-security-online-training-chennai",
           "description": "Master cybersecurity concepts to protect systems and data.",
           "what_youll_learn": [
             "Understand cybersecurity principles and threats (attack vectors, OWASP Top 10)",
@@ -12640,7 +12640,7 @@
         },
         {
           "course_name": "Ethical Hacking",
-          "path": "ethical-hacking--online-training",
+          "path": "ethical-hacking--online-training-chennai",
           "description": "Learn ethical hacking techniques to secure systems and networks.",
           "what_youll_learn": [
             "Understand ethical hacking concepts and methodologies (OSINT, kill chain)",
@@ -12712,7 +12712,7 @@
         },
         {
           "course_name": "CISM Certification Online Training",
-          "path": "cism-certification-online-training",
+          "path": "cism-certification-online-training-chennai",
           "description": "Prepare for the Certified Information Security Manager (CISM) certification with comprehensive training.",
           "what_youll_learn": [
             "Establish and maintain an information security governance framework",
@@ -13169,7 +13169,7 @@
       "sub_categories": [
         {
           "course_name": "Selenium",
-          "path": "selenium-training-online",
+          "path": "selenium-training-chennai",
           "description": "Master Selenium for automated testing of web applications.",
           "what_youll_learn": [
             "Automate web testing with Selenium WebDriver (Java/Python)",
@@ -13233,7 +13233,7 @@
         },
         {
           "course_name": "Manual Testing Course",
-          "path": "manual-testing-course-online",
+          "path": "manual-testing-course-online-training-chennai",
           "description": "Learn manual testing techniques to ensure software quality.",
           "what_youll_learn": [
             "Understand software testing fundamentals (SDLC, STLC, testing types)",
@@ -13297,7 +13297,7 @@
         },
         {
           "course_name": "JMeter Course",
-          "path": "j-meter-course-online",
+          "path": "jmeter-online-training-chennai",
           "description": "Learn JMeter for performance and load testing of web applications.",
           "what_youll_learn": [
             "Understand performance testing concepts (load/stress/soak testing)",
@@ -13361,7 +13361,7 @@
         },
         {
           "course_name": "ETL Testing",
-          "path": "etl-testing-online-training",
+          "path": "etl-testing-online-training-chennai",
           "description": "Learn ETL testing techniques for data warehousing and business intelligence.",
           "what_youll_learn": [
             "Understand ETL concepts and processes (extract, transform, load)",
@@ -13425,7 +13425,7 @@
         },
         {
           "course_name": "Software Testing Certification Course",
-          "path": "software-testing-certification-course",
+          "path": "software-testing-certification-course-chennai",
           "schema":{
 "@context":"https://schema.org",
 "@graph":[
@@ -13458,7 +13458,7 @@
 
 {
 "@type":"Service",
-"@id":"https://iclptech.in/course/software-testing-certification-course/#software-testing-training-service",
+"@id":"https://iclptech.in/course/software-testing-certification-course-chennai/#software-testing-training-service",
 "name":"Software Testing Training",
 "provider":{
 "@id":"https://iclptech.in/#organization"
@@ -13469,7 +13469,7 @@
 
 {
 "@type":"Course",
-"@id":"https://iclptech.in/course/software-testing-certification-course/#course",
+"@id":"https://iclptech.in/course/software-testing-certification-course-chennai/#course",
 "name":"Software Testing Course in Chennai",
 "description":"Instructor-led software testing training covering testing fundamentals, SDLC, STLC, test case design, manual testing techniques, and defect tracking. Includes hands-on training, practical exercises, certification, and placement assistance.",
 "provider":{
@@ -13510,7 +13510,7 @@
 },
 "offers":{
 "@type":"Offer",
-"url":"https://iclptech.in/course/software-testing-certification-course",
+"url":"https://iclptech.in/course/software-testing-certification-course-chennai",
 "availability":"https://schema.org/InStock"
 },
 "aggregateRating":{
@@ -13522,7 +13522,7 @@
 
 {
 "@type":"BreadcrumbList",
-"@id":"https://iclptech.in/course/software-testing-certification-course/#breadcrumb",
+"@id":"https://iclptech.in/course/software-testing-certification-course-chennai/#breadcrumb",
 "itemListElement":[
 {
 "@type":"ListItem",
@@ -13540,14 +13540,14 @@
 "@type":"ListItem",
 "position":3,
 "name":"Software Testing Course",
-"item":"https://iclptech.in/course/software-testing-certification-course"
+"item":"https://iclptech.in/course/software-testing-certification-course-chennai"
 }
 ]
 },
 
 {
 "@type":"FAQPage",
-"@id":"https://iclptech.in/course/software-testing-certification-course/#faq",
+"@id":"https://iclptech.in/course/software-testing-certification-course-chennai/#faq",
 "mainEntity":[
 
 {
@@ -13804,7 +13804,7 @@
         },
         {
   "course_name": "RAG Systems AI Course (No Coding Required)",
-  "path": "rag-systems-ai-certification-course",
+  "path": "rag-systems-ai-certification-course-chennai",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -13835,7 +13835,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#rag-training-service",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course-chennai/#rag-training-service",
         "name": "RAG Systems AI Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -13845,7 +13845,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#course",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course-chennai/#course",
         "name": "RAG Systems AI Course in Chennai (No Coding)",
         "description": "Non-coding friendly RAG Systems training covering AI fundamentals, LLMs, vector databases, RAG architecture, prompt engineering, project building with no-code tools, deployment, and industry applications with 100% placement assistance.",
         "provider": {
@@ -13890,7 +13890,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/rag-systems-ai-certification-course",
+          "url": "https://iclptech.in/course/rag-systems-ai-certification-course-chennai",
           "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -13901,7 +13901,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#breadcrumb",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -13925,7 +13925,7 @@
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course/#faq",
+        "@id": "https://iclptech.in/course/rag-systems-ai-certification-course-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -14982,7 +14982,7 @@
 },
         {
   "course_name": "Mobile App Development Certification Course",
-  "path": "mobile-app-development-certification-course",
+  "path": "mobile-app-development-certification-course-training-chennai",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -15013,7 +15013,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#mobile-dev-training-service",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai/#mobile-dev-training-service",
         "name": "Mobile App Development Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -15023,7 +15023,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#course",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai/#course",
         "name": "Mobile App Development Course in Chennai",
         "description": "Comprehensive online training covering Android/iOS development, UI/UX design, programming fundamentals, database integration, API connectivity, testing, deployment, and advanced features with hands-on projects and 100% placement assistance.",
         "provider": {
@@ -15068,7 +15068,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/mobile-app-development-certification-course",
+          "url": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai",
           "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -15079,7 +15079,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#breadcrumb",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -15097,13 +15097,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Mobile App Development Course",
-            "item": "https://iclptech.in/course/mobile-app-development-certification-course"
+            "item": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/mobile-app-development-certification-course/#faq",
+        "@id": "https://iclptech.in/course/mobile-app-development-certification-course-training-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -16468,7 +16468,7 @@
 },
         {
           "course_name": "LoadRunner",
-          "path": "load-runner-online-training",
+          "path": "loadrunner-online-training-chennai",
           "description": "Learn LoadRunner for performance and load testing of applications.",
           "what_youll_learn": [
             "Understand performance testing concepts (baselining, benchmarking)",
@@ -16532,7 +16532,7 @@
         },
         {
           "course_name": "SoapUI",
-          "path": "soap-ui-online-training",
+          "path": "soap-ui-online-training-chennai",
           "description": "Learn SoapUI for API testing and web service validation.",
           "what_youll_learn": [
             "Understand API testing concepts (endpoints, methods, status codes)",
@@ -16993,7 +16993,7 @@
         },
         {
           "course_name": "Machine Learning",
-          "path": "machine-learning-online-course",
+          "path": "machine-learning-online-course-chennai",
           "description": "Master machine learning algorithms, deep learning, and model deployment for real-world applications.",
           "what_youll_learn": [
             "Understand ML algorithms and their applications",
@@ -17116,7 +17116,7 @@
         },
         {
           "course_name": "Data Science Course in India 2026",
-          "path": "data-science-with-python-training",
+          "path": "data-science-with-python-training-chennai",
           "description": "Master Data Science with AI & ML training at ICLP Technologies. Comprehensive program covering Python, data analysis, machine learning, SQL, visualization, and real-world projects with placement support.",
           "career_benefits": {
   "heading": "Career Benefits of <strong>Data Science Training</strong>",
@@ -17296,7 +17296,7 @@
         },
         {
   "course_name": "AWS DevOps Course in India 2026",
-  "path": "aws-devops-training",
+  "path": "aws-devops-training-chennai",
   "description": "Master AWS DevOps with comprehensive training at ICLP Technologies. Complete program covering Linux, AWS services, CI/CD, automation, infrastructure management, and DevOps tools with real-world projects and placement support.",
   "what_youll_learn": [
     "Linux fundamentals and command-line operations",
@@ -18398,7 +18398,7 @@
        {
   "course_name": "Artificial Intelligence",
   "name":"Artificial Intelligence Course Online with Placement Assistance",
-  "path": "artificial-intelligence-course-online",
+  "path": "artificial-intelligence-course-online-chennai",
   "description": "ICLP Technologies offers industry-focused Artificial Intelligence Course Online designed for freshers, software professionals, non-IT candidates, and working professionals who want to build a successful career in Artificial Intelligence and Machine Learning. Our AI Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Machine Learning, Deep Learning, Python, ChatGPT, Prompt Engineering, Generative AI, NLP, and AI automation tools.",
   "meta_title": "Artificial Intelligence Course Online | AI Training in Chennai with Placement | ICLP Technologies",
   "meta_description": "Join Artificial Intelligence Course Online at ICLP Technologies. Learn AI, Machine Learning, Deep Learning, Python, Gen AI, and ChatGPT with real-time projects, certification guidance, and placement assistance.",
@@ -18435,7 +18435,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#service",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-chennai/#service",
         "name": "Artificial Intelligence Course Online",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -18445,7 +18445,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#course",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-chennai/#course",
         "name": "Artificial Intelligence Course Online",
         "description": "Join Artificial Intelligence Course Online at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
         "provider": {
@@ -18489,7 +18489,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/artificial-intelligence-course-online/",
+          "url": "https://iclptech.in/course/artificial-intelligence-course-online-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -18520,13 +18520,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Artificial Intelligence Course Online",
-            "item": "https://iclptech.in/course/artificial-intelligence-course-online/"
+            "item": "https://iclptech.in/course/artificial-intelligence-course-online-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#faq",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -18784,7 +18784,7 @@
       "sub_categories": [
         {
           "course_name": "MySQL",
-          "path": "msql-online-training",
+          "path": "msql-online-training-chennai",
           "description": "Master MySQL database management, from fundamentals to advanced administration and optimization.",
           "what_youll_learn": [
             "Design and implement relational databases",
@@ -19114,7 +19114,7 @@
         },
         {
           "course_name": "OOPS Concepts",
-          "path": "oops-concepts-training",
+          "path": "oops-concepts-training-chennnai",
           "description": "Master object-oriented programming principles including classes, objects, encapsulation, inheritance, polymorphism, and advanced OOPS concepts with practical coding examples.",
           "what_youll_learn": [
             "Understand the fundamentals of object-oriented programming",
@@ -20275,7 +20275,7 @@
         },
         {
           "course_name": "AI for Automation – Course",
-          "path": "ai-for-automation-course",
+          "path": "ai-for-automation-course-chennai",
           "description": "Master AI-driven automation with comprehensive training covering machine learning, intelligent RPA, NLP, computer vision, and cloud integration to build end-to-end automated workflows that transform business processes.",
           "what_youll_learn": [
             "Understand AI, machine learning, and intelligent automation fundamentals",
@@ -20470,7 +20470,7 @@
         },
         {
           "course_name": "Linux Certification Training",
-          "path": "linux-certification-training",
+          "path": "linux-certification-training-chennai",
           "description": "Master Linux system administration with comprehensive training covering fundamentals, file systems, shell scripting, networking, security, and system management to prepare for Linux certification exams and real-world administration tasks.",
           "what_youll_learn": [
             "Understand Linux operating system architecture and distributions",
@@ -20693,7 +20693,7 @@
         },
         {
           "course_name": "API Testing Certification Training",
-          "path": "api-testing-certification-training",
+          "path": "api-testing-certification-training-chennai",
           "description": "Master API testing with hands-on training covering RESTful API fundamentals, WooCommerce API testing, pytest framework, database validation, and real-world e-commerce project implementation for comprehensive API test automation.",
           "what_youll_learn": [
             "Understand RESTful API architecture and principles",
@@ -20896,7 +20896,7 @@
         },
         {
           "course_name": "Automation Testing Online Course",
-          "path": "automation-testing-online-course",
+          "path": "automation-testing-online-course-chennai",
           "description": "Master automation testing with comprehensive training covering Selenium WebDriver, test frameworks, CI/CD integration, API and mobile testing, and industry best practices for building robust automated test suites.",
           "what_youll_learn": [
             "Understand automation testing fundamentals and when to automate",
@@ -21100,7 +21100,7 @@
         },
         {
           "course_name": "PostgreSQL Admin Online Training Course",
-          "path": "postgresql-admin-online-training",
+          "path": "postgresql-admin-online-training-chennai",
           "description": "Master PostgreSQL database administration with comprehensive training covering installation, configuration, performance tuning, backup and recovery, replication, high availability, and cloud deployment on AWS.",
           "what_youll_learn": [
             "Understand PostgreSQL architecture and core features",
@@ -21430,7 +21430,7 @@
         },
         {
           "course_name": "ASP.NET Course",
-          "path": "asp-net-course-training",
+          "path": "asp-net-course-training-chennai",
           "description": "Master ASP.NET web development with comprehensive training covering web forms, MVC architecture, database integration, security, and deployment for building robust server-side web applications.",
           "what_youll_learn": [
             "Understand server-side and client-side web programming fundamentals",
@@ -21611,7 +21611,7 @@
         },
         {
           "course_name": "Bootstrap Course",
-          "path": "bootstrap-course-training",
+          "path": "bootstrap-course-training-chennai",
           "description": "Master Bootstrap framework to build responsive, mobile-first websites with comprehensive training covering grid system, components, typography, and JavaScript plug-ins for modern web development.",
           "what_youll_learn": [
             "Understand Bootstrap framework fundamentals and mobile-first strategy",
@@ -21786,7 +21786,7 @@
         },
         {
           "course_name": "Databricks Spark Certification Training",
-          "path": "databricks-spark-certification-training",
+          "path": "databricks-spark-certification-training-chennai",
           "description": "Master Apache Spark on Databricks platform with comprehensive training covering Spark architecture, DataFrame operations, performance optimization, and advanced SQL functions to prepare for Databricks Spark certification exams.",
           "what_youll_learn": [
             "Understand Spark architecture components including Driver, Executor, and partitions",
@@ -21940,7 +21940,7 @@
         },
         {
           "course_name": "Snowflake Certification Training",
-          "path": "snowflake-certification-training",
+          "path": "snowflake-certification-training-chennai",
           "description": "Master Snowflake data cloud platform with comprehensive training covering architecture, data loading, SQL querying, security, performance optimization, and advanced features to prepare for Snowflake certification exams.",
           "what_youll_learn": [
             "Understand Snowflake's unique architecture and cloud-native features",
@@ -22911,7 +22911,7 @@
         },
         {
           "course_name": "Basic Graphic Designing",
-          "path": "basic-graphic-designing-course",
+          "path": "basic-graphic-designing-course-chennai",
           "description": "Learn the fundamentals of graphic design, including design principles, color theory, and practical skills in Photoshop, Illustrator, and layout tools for print and digital media.",
           "what_youll_learn": [
             "Understand the role and types of graphic design work",
@@ -23038,7 +23038,7 @@
         },
         {
           "course_name": "Basic Web Designing",
-          "path": "basic-web-designing-course",
+          "path": "basic-web-designing-course-chennai",
           "description": "Learn the fundamentals of web designing using HTML, CSS, JavaScript, and essential web tools to create and publish responsive, beginner-friendly websites.",
           "what_youll_learn": [
             "Understand how websites work and the role of frontend vs backend",
@@ -23167,7 +23167,7 @@
         },
         {
           "course_name": "Internet & Network Basics",
-          "path": "internet-and-network-basics-training",
+          "path": "internet-and-network-basics-training-chennai",
           "description": "Learn the fundamentals of the internet, computer networks, devices, IP addressing, services, security, and troubleshooting for real-world use.",
           "what_youll_learn": [
             "Core concepts of the internet and computer networks",
@@ -23291,7 +23291,7 @@
         },
         {
           "course_name": "Computer Fundamentals Training",
-          "path": "computer-fundamentals-training",
+          "path": "computer-fundamentals-training-chennai",
           "description": "Learn the essential concepts of computers, operating systems, office tools, internet, networking, and cyber safety for practical day-to-day use.",
           "what_youll_learn": [
             "Core concepts, types, and applications of computers",
@@ -23621,7 +23621,7 @@
         },
         {
           "course_name": "PL and SQL",
-          "path": "pl-and-sql-online-training",
+          "path": "pl-and-sql-online-training-chennai",
           "description": "Master Oracle database programming with PL/SQL.",
           "what_youll_learn": [
             "PL/SQL blocks",
@@ -23794,7 +23794,7 @@
       "sub_categories": [
         {
           "course_name": "Microsoft Excel",
-          "path": "microsoft-excel-online-training",
+          "path": "microsoft-excel-online-training-chennai",
           "description": "Master Excel for data analysis, reporting, and visualization.",
           "what_youll_learn": [
             "Use Excel for data analysis and reporting (Power Query integration)",
@@ -23953,7 +23953,7 @@
         },
         {
           "course_name": "Microsoft Azure",
-          "path": "microsoft-azure-online-training",
+          "path": "microsoft-azure-online-training-chennai",
           "description": "Master Microsoft Azure for cloud computing and enterprise solutions.",
           "what_youll_learn": [
             "Understand Azure services and architecture (IaaS, PaaS, SaaS)",
@@ -26108,7 +26108,7 @@
  {
   "course_name": "Digital Marketing Online Training",
   "name":"Digital Marketing Online Training with Placement Assistance",
-  "path": "digital-marketing-online-training",
+  "path": "digital-marketing-online-training-chennai",
   "description": "ICLP Technologies provides industry-focused Digital Marketing Online Training designed for freshers, entrepreneurs, freelancers, business owners, non-IT candidates, and working professionals who want to build a successful career in digital marketing. Our Digital Marketing Course in Chennai helps students master SEO, Google Ads, Social Media Marketing, Meta Ads, Content Marketing, Email Marketing, PPC Advertising, Google Analytics 4, AI Marketing Tools, and Marketing Automation with practical real-time projects. The course is designed by industry experts with hands-on implementation experience and placement-focused learning methodology. Students gain practical exposure through live campaigns, real-world assignments, and interview preparation sessions.",
   "meta_title": "Digital Marketing Online Training | Digital Marketing Course in Chennai with Placement | ICLP Technologies",
   "meta_description": "Join Digital Marketing Online Training at ICLP Technologies. Learn SEO, Google Ads, Social Media Marketing, PPC, GA4, Content Marketing, and AI Marketing tools with real-time projects and placement assistance.",
@@ -26381,7 +26381,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/digital-marketing-online-training/#service",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training-chennai/#service",
         "name": "Digital Marketing Online Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -26391,7 +26391,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/digital-marketing-online-training/#course",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training-chennai/#course",
         "name": "Digital Marketing Online Training",
         "description": "Join Digital Marketing Online Training at ICLP Technologies with SEO, Google Ads, Meta Ads, PPC, Analytics, AI Marketing tools, real-time projects, and placement assistance.",
         "provider": {
@@ -26435,7 +26435,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/digital-marketing-online-training/",
+          "url": "https://iclptech.in/course/digital-marketing-online-training-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -26448,7 +26448,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/digital-marketing-online-training/#breadcrumb",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -26466,13 +26466,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Digital Marketing Online Training",
-            "item": "https://iclptech.in/course/digital-marketing-online-training/"
+            "item": "https://iclptech.in/course/digital-marketing-online-training-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/digital-marketing-online-training/#faq",
+        "@id": "https://iclptech.in/course/digital-marketing-online-training-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -27654,7 +27654,7 @@
         },
         {
           "course_name": "UI and UX",
-          "path": "ui-and-ux-online-training",
+          "path": "ui-ux-designer-online-training-chennai",
           "description": "Master UI/UX design principles to create user-friendly interfaces.",
           "what_youll_learn": [
             "Understand user experience design principles (heuristics, accessibility)",
@@ -28047,7 +28047,7 @@
       "sub_categories": [
         {
           "course_name": "Salesforce",
-          "path": "salesforce-online-training",
+          "path": "salesforce-online-training-chennai",
           "description": "Master Salesforce for customer relationship management and enterprise solutions.",
           "what_youll_learn": [
             "Understand Salesforce basics and architecture (Objects, Relationships)",
@@ -28330,7 +28330,7 @@
       "sub_categories": [
         {
           "course_name": "CCNA Online Training",
-          "path": "ccna-online-training",
+          "path": "ccna-online-training-chennai",
           "description": "Comprehensive training for Cisco Certified Network Associate (CCNA) certification.",
           "what_youll_learn": [
             "Understand networking fundamentals and OSI model",
@@ -29514,7 +29514,7 @@
       {
   "name": "Data Analytics Course in Chennai with Placement Assistance",
   "course_name": "Data Analytics Course",
-  "path": "data-analytics-course",
+  "path": "data-analytics-course-chennai",
   "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools. Students gain practical exposure through real-time analytics projects, dashboard creation, report automation, and business data analysis techniques used by top multinational companies. Whether you are looking for Data Analytics Online Training, Power BI Training, Tableau Certification Course, or placement-oriented Data Analyst Training, ICLP Technologies helps you become industry-ready with practical learning and career guidance.",
   "meta_title": "Data Analytics Course in Chennai | Data Analyst Training with Placement | ICLP Technologies",
   "meta_description": "Join Data Analytics Course in Chennai at ICLP Technologies. Learn Excel, SQL, Power BI, Tableau, Python, Data Visualization, and Analytics with real-time projects, certification guidance, and placement assistance.",
@@ -29797,7 +29797,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/data-analytics-course/#service",
+        "@id": "https://iclptech.in/course/data-analytics-course-chennai/#service",
         "name": "Data Analytics Course in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -29807,7 +29807,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/data-analytics-course/#course",
+        "@id": "https://iclptech.in/course/data-analytics-course-chennai/#course",
         "name": "Data Analytics Course in Chennai",
         "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools.",
         "provider": {
@@ -29851,7 +29851,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/data-analytics-course/",
+          "url": "https://iclptech.in/course/data-analytics-course-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -29864,7 +29864,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/data-analytics-course/#breadcrumb",
+        "@id": "https://iclptech.in/course/data-analytics-course-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -29882,13 +29882,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Data Analytics Course",
-            "item": "https://iclptech.in/course/data-analytics-course/"
+            "item": "https://iclptech.in/course/data-analytics-course-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/data-analytics-course/#faq",
+        "@id": "https://iclptech.in/course/data-analytics-course-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -31090,7 +31090,7 @@
         },
         {
           "course_name": "UNIX Shell Scripting",
-          "path": "unix-shell-scripting-online-training",
+          "path": "unix-shell-scripting-online-training-chennai",
           "description": "Automate system tasks with UNIX shell scripting.",
           "what_youll_learn": [
             "Bash scripting",
