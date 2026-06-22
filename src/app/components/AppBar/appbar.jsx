@@ -101,6 +101,8 @@ const AppBar = () => {
       { name: "Cyber Law", path: "cyber-law-training" },
       { name: "Postgresql", path: "postgresql-admin-online-training-chennai" },
       { name: "Medical Coding", path: "medical-coding-cpc-course" },
+      {  path: "ibm-maximo-training-chennai", name: "IBM Maximo Training" },
+      {  path: "salesforce-developer-training-chennai", name: "Salesforce Developer Training" },
       { name: "Appian ", path: "appian-online-training" },
       { name: "ASP .Net", path: "asp-net-course-training-chennai" },
       { name: "Basics of Automation Testing", path: "automation-testing-online-course-chennai" },
@@ -204,6 +206,7 @@ const AppBar = () => {
       { name: "SAP PP", type: "sap", path: "sap-pp-training-chennai" },
       { name: "SAP ABAP", type: "sap", path: "sap-abap-training-chennai" },
       { path: "sap-ps", type: "sap", name: "SAP PS" },
+      {  path: "sap-fica-online-training-chennai", type: "sap", name: "SAP FICA" },
       { name: "SAP ui5 fiori", type: "sap", path: "sap-ui5-fiori-training-chennai", },
       { name: "SAP BPC", type: "sap", path: "sap-bpc" },
       { name: "SAP SCM", type: "sap", path: "sap-scm" },
@@ -317,20 +320,27 @@ const AppBar = () => {
   };
 
   const navigateToCourse = (course) => {
-    if (course.type === "sap") {
-      // Use path if available, otherwise fallback to name
-      const urlPath = course.path || encodeURIComponent(course.name);
-      router.push(`/courses/sap/${urlPath}`);
-    } else if (course.type === "oracle") {
-      // Use path if available, otherwise fallback to name
-      const urlPath = course.path || encodeURIComponent(course.name);
-      router.push(`/courses/oracle/${urlPath}`);
+    const navigate = () => {
+      if (course.type === "sap") {
+        const urlPath = course.path || encodeURIComponent(course.name);
+        router.push(`/courses/sap/${urlPath}`);
+      } else if (course.type === "oracle") {
+        const urlPath = course.path || encodeURIComponent(course.name);
+        router.push(`/courses/oracle/${urlPath}`);
+      } else {
+        router.push(`/courses/${encodeURIComponent(course.path)}`);
+      }
+      setSearchTerm("");
+      setShowSuggestions(false);
+      setActiveSuggestion(-1);
+    };
+
+    const isMobile = window.innerWidth <= 767;
+    if (isMobile) {
+      setTimeout(navigate, 200);
     } else {
-      router.push(`/courses/${encodeURIComponent(course.path)}`);
+      navigate();
     }
-    setSearchTerm("");
-    setShowSuggestions(false);
-    setActiveSuggestion(-1);
   };
 
   const handleSearch = (e) => {
@@ -500,7 +510,7 @@ const AppBar = () => {
         </div>
 
         {/* Button Container */}
-        <div className="button-container">
+        <div className="button-container" style={showSuggestions ? { pointerEvents: 'none' } : {}}>
           {/* About Button */}
           <button className="about-button" onClick={handleAboutClick}>
             <FaInfoCircle className="about-icon" /> Freelance Trainer

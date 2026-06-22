@@ -2791,7 +2791,7 @@
           "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
           "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
           "career_benefits": {
-            "heading": "Why <strong>SAP PP Training</strong> is Crucial for Your Career Growth",
+            "heading": "Why SAP PP Training is Crucial for Your Career Growth",
             "description": "Specializing in <strong>SAP Production Planning (PP)</strong> is one of the fastest routes to securing <strong>high-value roles</strong> in India's manufacturing, supply chain, and SAP consulting sectors. With industries shifting toward automation and global production standards, <strong>SAP PP professionals</strong> are in extremely high demand.",
             "points": [
               "<strong>Industry Focus:</strong> Our SAP PP training covers both <strong>Discrete and Repetitive Manufacturing</strong>, addressing a wide range of industry requirements.",
@@ -2835,7 +2835,7 @@
             ]
           },
           "why_institute": {
-            "heading": "Why <strong>ICLP Tech</strong> is the Best Choice for <strong>SAP PP Training in India</strong>",
+            "heading": "Why ICLP Tech is the Best Choice for <strong>SAP PP Training in India</strong>",
             "intro": "ICLP Tech offers highly practical, industry-focused <strong>SAP PP training</strong> that prepares you for global careers in manufacturing and SAP consulting.",
             "instructor_expertise": {
               "heading": "Experience & Expertise",
@@ -3379,6 +3379,396 @@
 ]
 
         },
+        {
+  "course_name": "SAP FICA Online Training",
+  "path": "sap-fica-online-training-chennai",
+  "description": "Join SAP FICA Online Training at ICLP Technologies with live instructor-led sessions covering FI-CA fundamentals, Contract Account Payables and Receivables, Collections Management, Dunning, Incoming Payments, Clearing Control, Security Deposits, Interest Calculations, and real-time implementation scenarios. 100% practical learning with real-time projects, certification guidance, and placement assistance for freshers, SAP professionals, finance consultants, and working professionals.",
+  "meta_title": "SAP FICA Online Training | SAP FI-CA Course with Placement | ICLP Technologies",
+  "meta_description": "Join SAP FICA Online Training at ICLP Technologies. Learn FI-CA Contract Accounts, Collections Management, Dunning, Payments, Clearing Control, Security Deposits with real-time projects, certification guidance, and placement assistance from industry experts.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#service",
+        "name": "SAP FICA Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "SAP FICA Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#course",
+        "name": "SAP FICA Online Training",
+        "description": "Join SAP FICA Online Training at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance covering FI-CA fundamentals, Collections Management, Dunning, Payments, and Security Deposits.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Classroom"],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "SAP FICA Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "SAP FICA Online Training, SAP FI-CA Course, SAP Contract Accounts Training, SAP Collections Management, SAP Dunning Training, SAP FICA Certification, SAP FICA Placement Training, SAP FICA Online Course",
+        "about": [
+          { "@type": "Thing", "name": "SAP FI-CA" },
+          { "@type": "Thing", "name": "Contract Account Payables and Receivables" },
+          { "@type": "Thing", "name": "Collections Management" },
+          { "@type": "Thing", "name": "Dunning" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/sap-fica-online-training-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2800"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "SAP FICA Online Training", "item": "https://iclptech.in/courses/sap-fica-online-training-chennai/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP FICA Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP FICA Training helps students and professionals learn Contract Account Payables and Receivables, Collections Management, Dunning, Incoming Payments, Clearing Control, Security Deposits, and Interest Calculations using the SAP FI-CA module."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP FICA good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from finance, accounting, IT, and SAP backgrounds can start a successful career in SAP FI-CA with proper training and hands-on practice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance for SAP FICA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for SAP FICA trainees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP FICA online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide SAP FICA Online Training with live instructor-led sessions and recorded classes for flexible learning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need SAP FI knowledge before learning SAP FICA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic knowledge of SAP FI or accounting concepts is helpful, but beginners with proper guidance can also learn SAP FICA effectively."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is SAP FICA Training?",
+      "answer": "SAP FICA Training helps students and professionals learn Contract Account Payables and Receivables, Collections Management, Dunning, Incoming Payments, Clearing Control, Security Deposits, and Interest Calculations using the SAP FI-CA module."
+    },
+    {
+      "question": "Is SAP FICA good for freshers?",
+      "answer": "Yes. Freshers from finance, accounting, IT, and SAP backgrounds can start a successful career in SAP FI-CA with proper training and hands-on practice."
+    },
+    {
+      "question": "Do you provide placement assistance for SAP FICA?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for SAP FICA trainees."
+    },
+    {
+      "question": "Is SAP FICA online training available?",
+      "answer": "Yes. We provide SAP FICA Online Training with live instructor-led sessions and recorded classes for flexible learning."
+    },
+    {
+      "question": "Do I need SAP FI knowledge before learning SAP FICA?",
+      "answer": "Basic knowledge of SAP FI or accounting concepts is helpful, but beginners with proper guidance can also learn SAP FICA effectively."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to FI-CA and Contract Accounts",
+    "Company Code Setup for Contract Account Payables and Receivables",
+    "Collections Management and Dunning by Collection Strategy",
+    "Business Rules Framework for FI-CA Collections Management",
+    "SAP FICA Basics: Master Data, Event Technology, and Parallel Mass Processes",
+    "Document Lifecycle, Posting, and General Ledger Integration",
+    "Transactions and Account Determination",
+    "Incoming Payments, Payment Lots, and Cash Desk Processing",
+    "Payment Run and Payment Program Configuration",
+    "Returns Processing and Configuration",
+    "Clearing Control and Clearing Strategy",
+    "Dunning Configuration and Collections Execution",
+    "Interest Calculations and Processing",
+    "Deferral and Installment Plan Processing",
+    "Other Business Transactions: Write Off, Document Transfer, Value Adjustment",
+    "Security Deposits: Cash and Non-Cash Processing"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction of FI-CA",
+      "subtopics": [
+        "Contract Accounts",
+        "Account Balance Display",
+        "Payment, Returns and Clarification List",
+        "Credit Management: Creditworthiness, Security Deposits, Installment Plans and Deferrals",
+        "Collection Management: Dunning",
+        "Reconciliation Keys",
+        "Accounting in General Ledger"
+      ]
+    },
+    {
+      "module": "Module 2: Set up Company Codes for Contract Account Payable and Receivable",
+      "subtopics": [
+        "Company code configuration for FI-CA",
+        "Contract account payable and receivable setup",
+        "Organizational structure in FI-CA"
+      ]
+    },
+    {
+      "module": "Module 3: Presentation of Collections Management",
+      "subtopics": [
+        "Overview of Collections Management in FI-CA",
+        "Collections Management processes and scope",
+        "Key concepts and functional areas"
+      ]
+    },
+    {
+      "module": "Module 4: Dunning by Collection Strategy",
+      "subtopics": [
+        "Define Collection Strategy",
+        "Set up Master Data Groups",
+        "Dunning Charges",
+        "Dunning Activities",
+        "Dunning Lock Reasons",
+        "Define Collection Step",
+        "Define Capacity Planning for Dunning Activities",
+        "Define Time-Dependent Creditworthiness Weightings"
+      ]
+    },
+    {
+      "module": "Module 5: Set up the Business Rules Framework for FI-CA Collections Management",
+      "subtopics": [
+        "Understand the Main FI-CA Processes",
+        "Understand the Scope of Collections Management Based on SAP",
+        "Configure the Processes Related to Collections Management",
+        "Understand How Business Rules Framework is Embedded into FI-CA and What It Can Be Used For",
+        "Configure Business Rules Framework for Collection Strategy"
+      ]
+    },
+    {
+      "module": "Module 6: SAP FICA Basics",
+      "subtopics": [
+        "Concept and Special Functions in FI-CA",
+        "Event Technology",
+        "Parallel Mass Processes in FI-CA",
+        "Master Data Objects in FI-CA"
+      ]
+    },
+    {
+      "module": "Module 7: Documents",
+      "subtopics": [
+        "Lifecycle of Documents",
+        "Document Structures",
+        "Posting Documents",
+        "Integration with General Ledger Accounting",
+        "Account Balance Display"
+      ]
+    },
+    {
+      "module": "Module 8: Transactions and Account Determination",
+      "subtopics": [
+        "Structure of Transactions",
+        "Transactions in IS-U",
+        "General Ledger Account Determination",
+        "Tax Determination in IS-U"
+      ]
+    },
+    {
+      "module": "Module 9: Incoming Payments",
+      "subtopics": [
+        "Processing Incoming and Outgoing Payments",
+        "Payment Lots and Check Lot",
+        "Clarification Processing",
+        "Cash Desk/Cash Journal"
+      ]
+    },
+    {
+      "module": "Module 10: Payment Run",
+      "subtopics": [
+        "Prerequisites of Payment Settlement",
+        "Payment Program",
+        "Payment Cards"
+      ]
+    },
+    {
+      "module": "Module 11: Returns Processing",
+      "subtopics": [
+        "Configuration of Returns",
+        "Processing of Returns"
+      ]
+    },
+    {
+      "module": "Module 12: Clearing Control",
+      "subtopics": [
+        "Terminology and Definitions",
+        "Configurations of Clearing Strategy"
+      ]
+    },
+    {
+      "module": "Module 13: Dunning and Collections",
+      "subtopics": [
+        "Dunning – Terminology",
+        "Configuration and Execution of Dunning Run",
+        "Submission to External Collection"
+      ]
+    },
+    {
+      "module": "Module 14: Interest Calculations",
+      "subtopics": [
+        "Calculation of Interest on Items",
+        "Interest Keys and Calculation Rules",
+        "Processing of Interest Calculation"
+      ]
+    },
+    {
+      "module": "Module 15: Deferral/Installment Plan",
+      "subtopics": [
+        "Deferral: Definition and Processing",
+        "Installment Plan: Definition and Processing"
+      ]
+    },
+    {
+      "module": "Module 16: Other Business Transactions",
+      "subtopics": [
+        "Account Maintenance",
+        "Reversing Documents and Resetting Clearing",
+        "Document Transfer",
+        "Mark as Doubtful/Individual Value Adjustment",
+        "Write Off"
+      ]
+    },
+    {
+      "module": "Module 17: Security Deposits",
+      "subtopics": [
+        "Cash and Non-Cash Security Deposit",
+        "Request, Payment and Settlement of Cash Security Deposit"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/sap-fica-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "FI-CA Contract Account Setup and Configuration Project",
+    "Collections Management and Dunning Run Implementation",
+    "Incoming Payments and Clearing Control Scenario",
+    "Interest Calculation and Installment Plan Processing Project",
+    "Security Deposit and Write-Off Business Transaction Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>SAP FICA Training</strong>",
+    "description": "SAP FI-CA is a specialized module used by utilities, telecommunications, insurance, and public sector companies worldwide. Build a strong career with practical learning, certification guidance, and placement-focused training.",
+    "points": [
+      "<strong>High Demand in Utilities and Telecom Industries:</strong> Organizations in energy, water, telecom, and insurance actively hire SAP FICA consultants and developers",
+      "<strong>Excellent Salary Opportunities:</strong> Skilled SAP FICA professionals receive competitive packages in functional consulting and implementation roles",
+      "<strong>Global Career Opportunities:</strong> SAP FI-CA skills are in demand across India and international SAP enterprise markets",
+      "<strong>Strong Domain Exposure:</strong> Work with billing, collections, dunning, and payment processes for large-scale enterprise clients",
+      "<strong>Specialized SAP Niche:</strong> FI-CA is a high-value niche skill with fewer trained professionals, giving you a competitive edge",
+      "<strong>Career Growth in MNCs and SAP Partners:</strong> Build a path toward roles in SAP consulting, implementation, support, and project management"
+    ]
+  },
+  "who_can_learn": [
+    "Freshers with Finance or Accounting Background",
+    "SAP FI Professionals",
+    "Finance and Accounting Professionals",
+    "SAP Functional Consultants",
+    "Business Analysts",
+    "Working Professionals Seeking SAP Specialization",
+    "Career Switchers from IT or Finance Domains"
+  ],
+  "curriculum_overview": {
+    "heading": "Comprehensive SAP FICA Training Curriculum",
+    "intro": "Our SAP FICA training program delivers 100% practical, industry-focused learning with live instructor-led sessions, real-time configuration scenarios, collections management projects, and certification-oriented preparation for SAP FI-CA careers."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>SAP FICA Training</strong>?",
+    "intro": "ICLP Technologies offers industry-oriented SAP FICA Online Training with practical learning, real-time projects, expert mentorship, certification guidance, and placement support for freshers, SAP professionals, finance consultants, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced SAP FICA Trainers",
+      "description": "Learn from experienced SAP consultants with real-world exposure to FI-CA implementation, contract account management, collections, dunning, payment processing, and enterprise integration scenarios across utilities, telecom, and insurance projects."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our SAP FICA training is designed for students and professionals who need flexible, practical, and job-oriented learning:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Interactive real-time sessions with Q&amp;A, practical explanations, and guided learning",
+        "<strong>Real-Time Project Training:</strong> Hands-on exposure through live projects, configuration scenarios, case studies, and implementation exercises",
+        "<strong>Flexible Batch Timings:</strong> Weekday and weekend batches suitable for freshers, SAP professionals, and career switchers",
+        "<strong>Recorded Access:</strong> Access to recorded classes, learning materials, certification guidance, and continuous doubt-clearing support"
+      ]
+    }
+  }
+},
         {
   "course_name": "SAP Integration Suite (SAP CPI) Online Training",
   "path": "sap-integration-suite-cpi-training-chennai",

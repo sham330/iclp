@@ -41,7 +41,7 @@ export default function Home() {
         <Booking />
         <ProcessChart />
         <br></br>
-        <ServiceAreas/>
+        {/* <ServiceAreas/> */}
         <br></br>
                  <CertificationSection />
 <br></br>

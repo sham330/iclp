@@ -131,8 +131,8 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: <FaEnvelope />,
-      text: "helpdesk.iclp@gmail.com",
-      url: "mailto:helpdesk.iclp@gmail.com",
+      text: "careerhub@iclptech.in",
+      url: "mailto:careerhub@iclptech.in",
     },
     { icon: <FaPhone />, text: "+91 86810 26181", url: "tel:+918681026181" },
     { icon: <FaPhone />, text: "+91 93441 40385", url: "tel:+919344140385" },

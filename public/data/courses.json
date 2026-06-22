@@ -27257,6 +27257,757 @@
     ]
   }
 },{
+  "course_name": "Salesforce Developer Training",
+  "path": "salesforce-developer-training-chennai",
+  "description": "Join Salesforce Developer Training at ICLP Technologies with live instructor-led sessions covering Salesforce Architecture, Apex Programming, Visualforce, Lightning Web Components (LWC), Salesforce APIs, Data Management, Integration, Testing, Debugging, Performance Optimization, and real-time project implementation. 100% practical learning with certification guidance and placement assistance for freshers, IT professionals, CRM consultants, and working professionals.",
+  "meta_title": "Salesforce Developer Training | Salesforce Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join Salesforce Developer Training at ICLP Technologies. Learn Apex, Visualforce, Lightning Web Components, Salesforce APIs, Integration, and Testing with real-time projects, certification guidance, and placement assistance from industry experts.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-chennai/#service",
+        "name": "Salesforce Developer Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Salesforce Developer Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-chennai/#course",
+        "name": "Salesforce Developer Training",
+        "description": "Join Salesforce Developer Training at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance covering Apex, Visualforce, Lightning Web Components, Salesforce APIs, Integration, Testing, and Performance Optimization.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Classroom"],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Salesforce Developer Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Salesforce Developer Training, Salesforce Online Training, Salesforce Apex Training, Salesforce LWC Training, Salesforce Lightning Web Components Course, Salesforce Developer Certification Training, Salesforce Online Course Chennai, Salesforce API Integration Training",
+        "about": [
+          { "@type": "Thing", "name": "Salesforce Development" },
+          { "@type": "Thing", "name": "Apex Programming" },
+          { "@type": "Thing", "name": "Lightning Web Components" },
+          { "@type": "Thing", "name": "Visualforce" },
+          { "@type": "Thing", "name": "Salesforce APIs" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/salesforce-developer-training-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "3100"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "Salesforce Developer Training", "item": "https://iclptech.in/courses/salesforce-developer-training-chennai/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Salesforce Developer Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salesforce Developer Training helps students and professionals learn Apex programming, Visualforce pages, Lightning Web Components, Salesforce APIs, data management, integration, testing, and performance optimization on the Salesforce platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Salesforce Developer training good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, software development, and computer science backgrounds can build a successful career as Salesforce Developers with proper training and hands-on practice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance for Salesforce Developer training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for Salesforce Developer trainees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Salesforce Developer online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide Salesforce Developer Online Training with live instructor-led sessions and recorded classes for flexible learning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior programming knowledge to learn Salesforce development?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic programming knowledge is helpful, but motivated beginners with proper guidance can also learn Salesforce development effectively through our structured training program."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Salesforce Developer Training?",
+      "answer": "Salesforce Developer Training helps students and professionals learn Apex programming, Visualforce pages, Lightning Web Components, Salesforce APIs, data management, integration, testing, and performance optimization on the Salesforce platform."
+    },
+    {
+      "question": "Is Salesforce Developer training good for freshers?",
+      "answer": "Yes. Freshers from IT, software development, and computer science backgrounds can build a successful career as Salesforce Developers with proper training and hands-on practice."
+    },
+    {
+      "question": "Do you provide placement assistance for Salesforce Developer training?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for Salesforce Developer trainees."
+    },
+    {
+      "question": "Is Salesforce Developer online training available?",
+      "answer": "Yes. We provide Salesforce Developer Online Training with live instructor-led sessions and recorded classes for flexible learning."
+    },
+    {
+      "question": "Do I need prior programming knowledge to learn Salesforce development?",
+      "answer": "Basic programming knowledge is helpful, but motivated beginners with proper guidance can also learn Salesforce development effectively through our structured training program."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Salesforce Development and Platform Overview",
+    "Salesforce Architecture: Objects, Fields, and Relationships",
+    "Apex Programming: Classes, Triggers, DML, and Governor Limits",
+    "Visualforce Pages and Controllers: Standard and Custom",
+    "Lightning Web Components (LWC) and Aura Components",
+    "Salesforce Lightning Component Framework and Integration",
+    "Salesforce Data Management: Data Loader, Reports, and Dashboards",
+    "Salesforce APIs and External System Integration",
+    "Salesforce Connect and External Objects",
+    "Testing and Debugging: Test Classes, Unit Tests, and Integration Tests",
+    "Performance Optimization and Deployment Best Practices",
+    "Change Sets, Deployment Plans, and Release Management",
+    "Security Best Practices in Salesforce Development",
+    "Real-World Salesforce Application Development and Design Patterns"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to Salesforce Development",
+      "subtopics": [
+        "An overview of the Salesforce system",
+        "Salesforce's development and history",
+        "Configuring the Salesforce development environment",
+        "Introducing Visualforce and Apex"
+      ]
+    },
+    {
+      "module": "Module 2: Architecture of Salesforce",
+      "subtopics": [
+        "An outline of the Salesforce application architecture",
+        "Understanding fields, relationships, and objects in Salesforce",
+        "An overview of Salesforce Lightning frameworks and elements"
+      ]
+    },
+    {
+      "module": "Module 3: Programming Apex",
+      "subtopics": [
+        "The principles of the Apex programming language",
+        "Developing and applying Apex classes and triggers",
+        "Data manipulation and DML operations available in Apex",
+        "Managing exceptions and understanding governor restrictions"
+      ]
+    },
+    {
+      "module": "Module 4: Controllers and Pages for Visualforce",
+      "subtopics": [
+        "How to create and use Visualforce pages",
+        "Using both custom and standard Visualforce controllers",
+        "Implementing Visualforce expressions and components",
+        "Connecting with Apex and binding data"
+      ]
+    },
+    {
+      "module": "Module 5: Salesforce Lightning Components",
+      "subtopics": [
+        "Introduction to Lightning components",
+        "Building Lightning Web Components (LWC)",
+        "Using the Lightning Component Framework and Aura Components",
+        "Integrating Lightning components with Salesforce data"
+      ]
+    },
+    {
+      "module": "Module 6: Salesforce Data Management",
+      "subtopics": [
+        "Utilizing Salesforce Data Loader for data import, export, and management",
+        "Building and maintaining dashboards and reports in Salesforce",
+        "Methods for data deduplication and data validation"
+      ]
+    },
+    {
+      "module": "Module 7: Salesforce Integration and APIs",
+      "subtopics": [
+        "Introduction to Salesforce APIs",
+        "Creating and managing integrations with external systems",
+        "Using Salesforce Connect and External Objects",
+        "Managing errors and API limits"
+      ]
+    },
+    {
+      "module": "Module 8: Testing and Debugging",
+      "subtopics": [
+        "An overview of Salesforce testing techniques",
+        "Creating and executing test classes for Apex",
+        "Tools and methods for debugging Salesforce applications",
+        "Executing and verifying integration and unit tests"
+      ]
+    },
+    {
+      "module": "Module 9: Implementation and Performance Enhancement",
+      "subtopics": [
+        "Salesforce application performance optimization techniques",
+        "Constructing and implementing Salesforce solutions",
+        "Handling deployment plans and change sets",
+        "Best practices for implementing Salesforce applications"
+      ]
+    },
+    {
+      "module": "Module 10: Best Practices and Real-World Applications",
+      "subtopics": [
+        "Creating an end-to-end Salesforce solution from scratch",
+        "Incorporating third-party tools and integrations",
+        "Security considerations in Salesforce application development",
+        "Design patterns and best practices for Salesforce development"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/salesforce-developer-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Salesforce Apex Triggers and Class Development Project",
+    "Lightning Web Components (LWC) Application Build",
+    "Salesforce API Integration with External Systems",
+    "Custom Visualforce Pages and Controller Implementation",
+    "End-to-End Salesforce CRM Solution Development Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Salesforce Developer Training</strong>",
+    "description": "Salesforce is the world's leading CRM platform used across sales, service, marketing, finance, and healthcare industries globally. Build a high-demand career with hands-on Apex, LWC, and API skills, certification guidance, and placement-focused training.",
+    "points": [
+      "<strong>High Demand Across Industries:</strong> Companies across retail, banking, healthcare, telecom, and IT actively hire Salesforce Developers and CRM specialists",
+      "<strong>Excellent Salary Opportunities:</strong> Skilled Salesforce Developers command competitive salaries in development, consulting, and CRM implementation roles",
+      "<strong>Global Career Opportunities:</strong> Salesforce developer skills are recognized and in demand across India and international enterprise markets",
+      "<strong>Diverse Job Roles:</strong> Work as a Salesforce Developer, LWC Developer, Salesforce Consultant, Integration Specialist, or CRM Solution Architect",
+      "<strong>Fastest Growing CRM Platform:</strong> Salesforce holds the largest share of the global CRM market, ensuring long-term career stability and growth",
+      "<strong>Career Growth in MNCs and Salesforce Partners:</strong> Build a career path toward roles in Salesforce consulting, development, architecture, and project leadership"
+    ]
+  },
+  "who_can_learn": [
+    "Freshers with IT or Computer Science Background",
+    "Software Developers Seeking CRM and Cloud Skills",
+    "Salesforce Administrators Looking to Advance to Development",
+    "Java or .NET Developers Transitioning to Salesforce",
+    "Business Analysts and Functional Consultants",
+    "Working Professionals Seeking Salesforce Specialization",
+    "Career Switchers from IT or Software Development Domains"
+  ],
+  "curriculum_overview": {
+    "heading": "Comprehensive Salesforce Developer Training Curriculum",
+    "intro": "Our Salesforce Developer training program delivers 100% practical, industry-focused learning with live instructor-led sessions, real-time Apex and LWC development scenarios, API integration projects, and certification-oriented preparation for enterprise CRM careers."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Salesforce Developer Training</strong>?",
+    "intro": "ICLP Technologies offers industry-oriented Salesforce Developer Training with practical learning, real-time projects, expert mentorship, certification guidance, and placement support for freshers, software developers, CRM consultants, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced Salesforce Developer Trainers",
+      "description": "Learn from experienced Salesforce-certified professionals with real-world exposure to Apex development, Lightning Web Components, API integrations, Visualforce, data management, and enterprise CRM solution delivery across global projects."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Salesforce Developer training is designed for students and professionals who need flexible, practical, and job-oriented learning:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Interactive real-time sessions with Q&amp;A, code walkthroughs, and guided hands-on development",
+        "<strong>Real-Time Project Training:</strong> Hands-on exposure through live Salesforce development projects, API integration scenarios, and end-to-end CRM solution builds",
+        "<strong>Flexible Batch Timings:</strong> Weekday and weekend batches suitable for freshers, software developers, and career switchers",
+        "<strong>Recorded Access:</strong> Access to recorded classes, learning materials, certification guidance, and continuous doubt-clearing support"
+      ]
+    }
+  }
+},
+{
+  "course_name": "IBM Maximo Training",
+  "path": "ibm-maximo-training-chennai",
+  "description": "Join IBM Maximo Training at ICLP Technologies with live instructor-led sessions covering Maximo Fundamentals, Maximo Application Suite (MAS), Asset Management, Inventory Management, Work Management, Preventive Maintenance, Procurement, Workflow Automation, Integration Framework, Reporting, and real-time industry projects. 100% practical learning with certification guidance and placement assistance for freshers, IT professionals, asset management consultants, and working professionals.",
+  "meta_title": "IBM Maximo Training | IBM Maximo Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join IBM Maximo Training at ICLP Technologies. Learn Maximo MAS, Asset Management, Work Management, Preventive Maintenance, Integration Framework, and Reporting with real-time projects, certification guidance, and placement assistance from industry experts.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/ibm-maximo-training-chennai/#service",
+        "name": "IBM Maximo Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "IBM Maximo Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/ibm-maximo-training-chennai/#course",
+        "name": "IBM Maximo Training",
+        "description": "Join IBM Maximo Training at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance covering Maximo MAS, Asset Management, Work Management, Preventive Maintenance, Integration Framework, and Reporting.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Classroom"],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "IBM Maximo Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "IBM Maximo Training, IBM Maximo Online Training, Maximo MAS Training, IBM Maximo Asset Management Course, Maximo Work Management Training, Maximo Certification Training, IBM Maximo Online Course, Maximo EAM Training",
+        "about": [
+          { "@type": "Thing", "name": "IBM Maximo" },
+          { "@type": "Thing", "name": "Maximo Application Suite" },
+          { "@type": "Thing", "name": "Asset Management" },
+          { "@type": "Thing", "name": "Work Management" },
+          { "@type": "Thing", "name": "Preventive Maintenance" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/ibm-maximo-training-chennai /",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2900"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/ibm-maximo-training-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "IBM Maximo Training", "item": "https://iclptech.in/courses/ibm-maximo-training-chennai/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/ibm-maximo-training-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is IBM Maximo Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IBM Maximo Training helps students and professionals learn enterprise asset management, work order management, preventive maintenance, inventory, procurement, workflow automation, and integration using the IBM Maximo platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is IBM Maximo good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, engineering, and asset management backgrounds can build a successful career in IBM Maximo with proper training and hands-on practice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance for IBM Maximo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for IBM Maximo trainees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is IBM Maximo online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide IBM Maximo Online Training with live instructor-led sessions and recorded classes for flexible learning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior technical knowledge to learn IBM Maximo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic IT or engineering knowledge is helpful, but beginners with proper training and guidance can also learn IBM Maximo effectively."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is IBM Maximo Training?",
+      "answer": "IBM Maximo Training helps students and professionals learn enterprise asset management, work order management, preventive maintenance, inventory, procurement, workflow automation, and integration using the IBM Maximo platform."
+    },
+    {
+      "question": "Is IBM Maximo good for freshers?",
+      "answer": "Yes. Freshers from IT, engineering, and asset management backgrounds can build a successful career in IBM Maximo with proper training and hands-on practice."
+    },
+    {
+      "question": "Do you provide placement assistance for IBM Maximo?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance for IBM Maximo trainees."
+    },
+    {
+      "question": "Is IBM Maximo online training available?",
+      "answer": "Yes. We provide IBM Maximo Online Training with live instructor-led sessions and recorded classes for flexible learning."
+    },
+    {
+      "question": "Do I need prior technical knowledge to learn IBM Maximo?",
+      "answer": "Basic IT or engineering knowledge is helpful, but beginners with proper training and guidance can also learn IBM Maximo effectively."
+    }
+  ],
+  "what_youll_learn": [
+    "IBM Maximo Fundamentals and Platform Overview",
+    "Maximo Application Suite (MAS) Architecture and Features",
+    "Organizations, Sites, and Sets Configuration",
+    "Security Administration and User Management",
+    "Asset Management and Asset Lifecycle",
+    "Location Management and Hierarchies",
+    "Inventory Management and Item Master",
+    "Procurement Management and Purchase Orders",
+    "Work Management and Work Orders",
+    "Preventive Maintenance (PM) Configuration and Execution",
+    "Scheduler Management and Resource Planning",
+    "Service Management and Service Requests",
+    "Financial Configuration in Maximo",
+    "Workflow and Process Automation",
+    "Application Designer and Database Configuration",
+    "Integration Framework (MIF) and External System Connectivity",
+    "Reporting and Analytics in Maximo",
+    "Maximo Administration and System Configuration",
+    "Work Safety Management",
+    "Real-Time Industry Project and Certification Preparation"
+  ],
+  "syllabus": [
+    {
+      "module": "Module 1: IBM Maximo Fundamentals",
+      "subtopics": [
+        "Introduction to IBM Maximo and EAM concepts",
+        "Maximo platform architecture and navigation",
+        "Key terminology and core application areas",
+        "Overview of Maximo modules and industry use cases"
+      ]
+    },
+    {
+      "module": "Module 2: Maximo Application Suite (MAS)",
+      "subtopics": [
+        "Introduction to Maximo Application Suite (MAS)",
+        "MAS architecture and deployment overview",
+        "MAS Manage, Monitor, and Health capabilities",
+        "Differences between Maximo 7.6.x and MAS"
+      ]
+    },
+    {
+      "module": "Module 3: Organizations, Sites & Sets",
+      "subtopics": [
+        "Configuring organizations and sites in Maximo",
+        "Understanding item sets, company sets, and GL account sets",
+        "Multi-site and multi-organization setup",
+        "Organizational hierarchy and data sharing"
+      ]
+    },
+    {
+      "module": "Module 4: Security Administration",
+      "subtopics": [
+        "User and group security configuration",
+        "Security profiles and application permissions",
+        "Data restrictions and row-level security",
+        "Password policies and authentication setup"
+      ]
+    },
+    {
+      "module": "Module 5: Asset Management",
+      "subtopics": [
+        "Creating and managing assets in Maximo",
+        "Asset hierarchies and parent-child relationships",
+        "Asset specifications and classification",
+        "Asset lifecycle management and status tracking"
+      ]
+    },
+    {
+      "module": "Module 6: Location Management",
+      "subtopics": [
+        "Defining and managing locations",
+        "Location hierarchies and systems",
+        "Operating locations and storerooms",
+        "Linking assets to locations"
+      ]
+    },
+    {
+      "module": "Module 7: Inventory Management",
+      "subtopics": [
+        "Item master and inventory setup",
+        "Storeroom and bin management",
+        "Inventory transactions: issues, receipts, and transfers",
+        "ABC analysis, reorder points, and economic order quantity"
+      ]
+    },
+    {
+      "module": "Module 8: Procurement Management",
+      "subtopics": [
+        "Purchase requisitions and purchase orders",
+        "Vendor and company management",
+        "Receiving and invoicing processes",
+        "Procurement configuration and approval workflows"
+      ]
+    },
+    {
+      "module": "Module 9: Work Management",
+      "subtopics": [
+        "Work order lifecycle and statuses",
+        "Creating and managing work orders",
+        "Job plans and task management",
+        "Labor, materials, services, and tools tracking"
+      ]
+    },
+    {
+      "module": "Module 10: Preventive Maintenance (PM)",
+      "subtopics": [
+        "Introduction to Preventive Maintenance in Maximo",
+        "PM records: frequency, sequence, and seasonal setup",
+        "Generating work orders from PM schedules",
+        "Meter-based and time-based PM configuration"
+      ]
+    },
+    {
+      "module": "Module 11: Scheduler Management",
+      "subtopics": [
+        "Introduction to Maximo Scheduler",
+        "Resource and crew management",
+        "Scheduling work orders and assignments",
+        "Gantt chart views and schedule optimization"
+      ]
+    },
+    {
+      "module": "Module 12: Service Management",
+      "subtopics": [
+        "Service requests and ticket management",
+        "Service level agreements (SLAs) and escalations",
+        "Incident, problem, and change management",
+        "Help desk and service catalog configuration"
+      ]
+    },
+    {
+      "module": "Module 13: Financial Configuration",
+      "subtopics": [
+        "Chart of accounts and GL account setup",
+        "Cost management and financial tracking in Maximo",
+        "Currency, exchange rates, and financial periods",
+        "Budget configuration and financial reporting"
+      ]
+    },
+    {
+      "module": "Module 14: Workflow & Process Automation",
+      "subtopics": [
+        "Introduction to Maximo Workflow",
+        "Designing and configuring workflow processes",
+        "Workflow actions, conditions, and assignments",
+        "Automation scripting and process automation overview"
+      ]
+    },
+    {
+      "module": "Module 15: Application Designer & Database Configuration",
+      "subtopics": [
+        "Introduction to Maximo Application Designer",
+        "Customizing application screens and layouts",
+        "Database Configuration for attributes and domains",
+        "Adding custom fields, tabs, and sections"
+      ]
+    },
+    {
+      "module": "Module 16: Integration Framework (MIF)",
+      "subtopics": [
+        "Overview of Maximo Integration Framework (MIF)",
+        "Object structures, publish channels, and enterprise services",
+        "Integration with external ERP and enterprise systems",
+        "End-to-end integration scenarios and configuration"
+      ]
+    },
+    {
+      "module": "Module 17: Reporting & Analytics",
+      "subtopics": [
+        "Maximo reporting tools and report types",
+        "Creating and configuring KPI reports",
+        "BIRT and Query-Based reporting in Maximo",
+        "Data analytics, dashboards, and portlets"
+      ]
+    },
+    {
+      "module": "Module 18: Maximo Administration",
+      "subtopics": [
+        "System properties and Maximo configuration settings",
+        "Cron task configuration and batch processing",
+        "Logging, monitoring, and system health checks",
+        "Patch management and upgrade considerations"
+      ]
+    },
+    {
+      "module": "Module 19: Work Safety Management",
+      "subtopics": [
+        "Safety plans and hazard identification",
+        "Lock-out/Tag-out (LOTO) procedures in Maximo",
+        "Safety precautions linked to work orders and assets",
+        "Compliance and regulatory safety configuration"
+      ]
+    },
+    {
+      "module": "Module 20: Real-Time Industry Project & Certification Preparation",
+      "subtopics": [
+        "Live IBM Maximo industry project scenarios",
+        "Hands-on assignments and end-to-end implementation",
+        "IBM Maximo certification exam guidance and preparation",
+        "Resume building, mock interviews, and placement support"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/CourseDetails/ibm-maximo-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "IBM Maximo Asset Lifecycle Management Project",
+    "Work Order and Preventive Maintenance Implementation",
+    "Inventory and Procurement Management Scenario",
+    "Workflow Automation and Integration Framework Project",
+    "Reporting, Dashboards, and KPI Analytics Implementation"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>IBM Maximo Training</strong>",
+    "description": "IBM Maximo is the world's leading Enterprise Asset Management (EAM) platform used across utilities, oil and gas, manufacturing, transportation, facilities management, and public sector industries. Build a high-demand career with practical skills, certification guidance, and placement-focused training.",
+    "points": [
+      "<strong>High Demand Across Asset-Intensive Industries:</strong> Utilities, oil and gas, manufacturing, transportation, and facilities companies actively hire IBM Maximo consultants and administrators",
+      "<strong>Excellent Salary Opportunities:</strong> Skilled IBM Maximo professionals command competitive salaries in functional consulting, administration, and implementation roles",
+      "<strong>Global Career Opportunities:</strong> IBM Maximo skills are recognized and in demand across India and international enterprise markets",
+      "<strong>Broad Industry Exposure:</strong> Work with asset management, work orders, procurement, and safety processes for large-scale enterprise clients",
+      "<strong>Specialized EAM Niche:</strong> IBM Maximo is a high-value niche skill with strong demand and fewer trained professionals, giving you a competitive edge",
+      "<strong>Career Growth in MNCs and IBM Partners:</strong> Build a career path toward roles in EAM consulting, Maximo administration, solution architecture, and project management"
+    ]
+  },
+  "who_can_learn": [
+    "Freshers with IT or Engineering Background",
+    "IBM Maximo Administrators and Users",
+    "SAP or Oracle Professionals Seeking EAM Skills",
+    "Asset Management and Maintenance Engineers",
+    "IT Functional Consultants",
+    "Working Professionals Seeking IBM Maximo Specialization",
+    "Career Switchers from IT, Engineering, or Operations Domains"
+  ],
+  "curriculum_overview": {
+    "heading": "Comprehensive IBM Maximo Training Curriculum",
+    "intro": "Our IBM Maximo training program delivers 100% practical, industry-focused learning with live instructor-led sessions, real-time configuration scenarios, asset and work management projects, and certification-oriented preparation for enterprise EAM careers."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>IBM Maximo Training</strong>?",
+    "intro": "ICLP Technologies offers industry-oriented IBM Maximo Training with practical learning, real-time projects, expert mentorship, certification guidance, and placement support for freshers, IT professionals, asset management consultants, and working professionals.",
+    "instructor_expertise": {
+      "heading": "Experienced IBM Maximo Trainers",
+      "description": "Learn from experienced IBM Maximo consultants with real-world exposure to Maximo MAS, asset lifecycle management, work order management, preventive maintenance, integration framework, and enterprise deployment scenarios across utilities, oil and gas, and manufacturing projects."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our IBM Maximo training is designed for students and professionals who need flexible, practical, and job-oriented learning:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Interactive real-time sessions with Q&amp;A, practical explanations, and guided system demonstrations",
+        "<strong>Real-Time Project Training:</strong> Hands-on exposure through live projects, configuration scenarios, case studies, and end-to-end implementation exercises",
+        "<strong>Flexible Batch Timings:</strong> Weekday and weekend batches suitable for freshers, working professionals, and career switchers",
+        "<strong>Recorded Access:</strong> Access to recorded classes, learning materials, certification guidance, and continuous doubt-clearing support"
+      ]
+    }
+  }
+},{
   "course_name": "Digital Marketing Online Training in Bangalore",
   "path": "digital-marketing-online-training-bangalore",
   "description": "Join the best Digital Marketing Online Training in Bangalore with live instructor-led sessions covering SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation. 100% practical learning with certification and placement support for students, professionals, and entrepreneurs in India's Silicon Valley.",
