@@ -9,7 +9,7 @@ export default function Head({ course }) {
 
       <meta property="og:title" content={course.meta_title || course.course_name} />
       <meta property="og:description" content={course.meta_description || course.description} />
-      <meta property="og:url" content={`https://iclptech.in/course/${course.path}`} />
+      <meta property="og:url" content={`https://iclptech.in/courses/${course.path}`} />
       <meta property="og:image" content="/favicon.png" />
       <meta property="og:type" content="website" />
 
@@ -19,7 +19,7 @@ export default function Head({ course }) {
       <meta name="twitter:image" content= "/favicon.png" />
          <meta name="keywords" content={`${course.course_name}, ${course.course_name}, ICLP Tech, Course training India`} />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={`https://iclptech.in/course/${course.path}`} />
+      <link rel="canonical" href={`https://iclptech.in/courses/${course.path}`} />
        {course.schema && (
         <script
           type="application/ld+json"
