@@ -323,7 +323,7 @@ const AppBar = () => {
     const navigate = () => {
       if (course.type === "sap") {
         const urlPath = course.path || encodeURIComponent(course.name);
-        router.push(`/courses/sap/${urlPath}`);
+        router.push(`/courses/${urlPath}`);
       } else if (course.type === "oracle") {
         const urlPath = course.path || encodeURIComponent(course.name);
         router.push(`/courses/oracle/${urlPath}`);
