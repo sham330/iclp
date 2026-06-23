@@ -160,7 +160,7 @@
           { "name": "MySQL", "path": "/courses/msql-online-training-chennai" },
           { "name": "PostgreSQL", "path": "/courses/postgresql-admin-online-training-chennai" },
           { "name": "PL/SQL", "path": "/courses/pl-and-sql-online-training-chennai" },
-          { "name": "Oracle SQL / PL SQL", "path": "/courses/oracle/oracle-sql-plsql-chennai" },
+          { "name": "Oracle SQL / PL SQL", "path": "/courses/oracle-sql-plsql-chennai" },
           { "name": "MongoDB", "path": "/courses/mongodb-online-training-chennai" },
           { "name": "Snowflake", "path": "/courses/snowflake-certification-training-chennai" },
           { "name": "Databricks", "path": "/courses/databricks-spark-certification-training-chennai" },
@@ -222,11 +222,11 @@
           { "name": "Salesforce Developer", "path": "/courses/salesforce-developer-online-training-chennai" },
           { "name": "Microsoft Dynamics 365", "path": "/courses/microsoft-dynamics-crm-online-training-chennai" },
           { "name": "Workday HCM", "path": "/courses/workday-hcm-online-course-chennai" },
-          { "name": "Oracle Financials", "path": "/courses/oracle/oracle-financials-chennai" },
-          { "name": "Oracle SCM", "path": "/courses/oracle/oracle-scm-chennai" },
-          { "name": "Oracle HCM", "path": "/courses/oracle/oracle-hcm-chennai" },
-          { "name": "Oracle PeopleSoft", "path": "/courses/oracle/oracle-peoplesoft-chennai" },
-          { "name": "Oracle CPQ", "path": "/courses/oracle/oracle-cpq-chennai" }
+          { "name": "Oracle Financials", "path": "/courses/oracle-financials-chennai" },
+          { "name": "Oracle SCM", "path": "/courses/oracle-scm-chennai" },
+          { "name": "Oracle HCM", "path": "/courses/oracle-hcm-chennai" },
+          { "name": "Oracle PeopleSoft", "path": "/courses/oracle-peoplesoft-chennai" },
+          { "name": "Oracle CPQ", "path": "/courses/oracle-cpq-chennai" }
         ]
       },
       {

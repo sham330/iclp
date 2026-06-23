@@ -326,7 +326,7 @@ const AppBar = () => {
         router.push(`/courses/${urlPath}`);
       } else if (course.type === "oracle") {
         const urlPath = course.path || encodeURIComponent(course.name);
-        router.push(`/courses/oracle/${urlPath}`);
+        router.push(`/courses/${urlPath}`);
       } else {
         router.push(`/courses/${encodeURIComponent(course.path)}`);
       }
