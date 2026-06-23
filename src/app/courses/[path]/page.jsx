@@ -23,7 +23,6 @@ export default async function CourseDetailsPage({ params }) {
     if (foundCourse) break;
   }
 
-  if (!foundCourse) redirect("/courses/");
 
   return (
     <>

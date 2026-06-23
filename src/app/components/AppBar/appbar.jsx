@@ -102,7 +102,7 @@ const AppBar = () => {
       { name: "Postgresql", path: "postgresql-admin-online-training-in-chennai" },
       { name: "Medical Coding", path: "medical-coding-cpc-course" },
       {  path: "ibm-maximo-training-chennai", name: "IBM Maximo Training" },
-      {  path: "salesforce-developer-training-in-chennai-chennai", name: "Salesforce Developer Training" },
+      {  path: "salesforce-developer-training-in-chennai", name: "Salesforce Developer Training" },
       { name: "Appian ", path: "appian-online-training" },
       { name: "ASP .Net", path: "asp-net-course-training-in-chennai" },
       { name: "Basics of Automation Testing", path: "automation-testing-online-training-in-chennai" },

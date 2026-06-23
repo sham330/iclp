@@ -45,11 +45,17 @@ const CourseDetails = () => {
   const [loading, setLoading] = useState(true);
   const [showBookingModal, setShowBookingModal] = useState(true);
 
- useEffect(() => {  // ✅ Safe: runs only client-side after mount
-    if (course?.course_name) {  // ✅ Null check
+  useEffect(() => {
+    if (course?.course_name) {
       localStorage.setItem('currentCourseName', course.course_name);
     }
   }, [course]);
+
+  useEffect(() => {
+    if (!loading && !course) {
+      router.replace(`/not-found?q=${path}`);
+    }
+  }, [loading, course, router, path]);
   // Memoize static data to prevent recalculation
   const learnerCount = useMemo(() => Math.floor(Math.random() * 4000) + 1000, []);
   
@@ -253,11 +259,7 @@ const CourseDetails = () => {
     );
   }
 
-
-  if (!course) {
-    router.replace("/courses/");
-    return null;
-  }
+  if (!course) return null;
 
 
   return (

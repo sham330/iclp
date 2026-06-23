@@ -34729,7 +34729,7 @@
   }
 },{
   "course_name": "Salesforce Developer Training",
-  "path": "salesforce-developer-training-in-chennai-chennai",
+  "path": "salesforce-developer-training-in-chennai",
   "description": "Join Salesforce Developer Training at ICLP Technologies with live instructor-led sessions covering Salesforce Architecture, Apex Programming, Visualforce, Lightning Web Components (LWC), Salesforce APIs, Data Management, Integration, Testing, Debugging, Performance Optimization, and real-time project implementation. 100% practical learning with certification guidance and placement assistance for freshers, IT professionals, CRM consultants, and working professionals.",
   "meta_title": "Salesforce Developer Training | Salesforce Online Course with Placement | ICLP Technologies",
   "meta_description": "Join Salesforce Developer Training at ICLP Technologies. Learn Apex, Visualforce, Lightning Web Components, Salesforce APIs, Integration, and Testing with real-time projects, certification guidance, and placement assistance from industry experts.",
@@ -34763,7 +34763,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/#service",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/#service",
         "name": "Salesforce Developer Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -34773,7 +34773,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/#course",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/#course",
         "name": "Salesforce Developer Training",
         "description": "Join Salesforce Developer Training at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance covering Apex, Visualforce, Lightning Web Components, Salesforce APIs, Integration, Testing, and Performance Optimization.",
         "provider": {
@@ -34803,7 +34803,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/",
+          "url": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -34816,16 +34816,16 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
           { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-          { "@type": "ListItem", "position": 3, "name": "Salesforce Developer Training", "item": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/" }
+          { "@type": "ListItem", "position": 3, "name": "Salesforce Developer Training", "item": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai-chennai/#faq",
+        "@id": "https://iclptech.in/courses/salesforce-developer-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",

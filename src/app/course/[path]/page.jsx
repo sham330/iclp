@@ -1,7 +1,7 @@
 // app/course/[path]/page.tsx
 import fs from "fs";
 import path from "path";
-import { redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import CourseDetails from "./Maincomponent";
 import Head from "./Head";
 import { getAllCoursePaths } from "@/app/lib/course";
@@ -11,10 +11,9 @@ export async function generateStaticParams() {
   return await getAllCoursePaths();
 }
 export default async function CourseDetailsPage({ params }) {
-  // Await params Promise FIRST (Next.js 15+ requirement)
   const resolvedParams = await params;
   const coursePath = resolvedParams?.path;
-  if (!coursePath) redirect("/courses/");
+  if (!coursePath) notFound();
   const filePath = path.join(process.cwd(), "public/data/courses.json");
   const fileContents = fs.readFileSync(filePath, "utf-8");
   const coursesData = JSON.parse(fileContents);
@@ -25,13 +24,11 @@ export default async function CourseDetailsPage({ params }) {
     if (foundCourse) break;
   }
 
-  if (!foundCourse) redirect("/courses/");
+  if (!foundCourse) notFound();
 
   return (
     <>
-      <Head
-        course={foundCourse}
-      />
+      <Head course={foundCourse} />
       <CourseDetails course={foundCourse} />
     </>
   );
