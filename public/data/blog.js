@@ -4895,7 +4895,7 @@ export  const blogs = [
   "metaTitle": "Best ERP Courses in Chennai 2026 – High Paying Career Options | ICLP Technologies",
   "metaDescription": "Explore the best ERP courses in Chennai 2026 including SAP MM, SAP SD, Oracle SCM, Oracle HCM Cloud, and Oracle Finance Cloud. Start your high-paying ERP career today.",
   "url": "https://iclptech.in/blog/best-erp-courses-in-chennai-2026",
-  "intro": "In today's competitive job market, ERP courses are becoming the top choice for graduates and working professionals. Companies across manufacturing, IT, healthcare, and retail rely on ERP systems to manage operations efficiently. If you are looking for the <a href=\"https://iclptech.in/courses/oracle/oracle-scm-chennai/\">best ERP courses in Chennai</a>, this guide by ICLP Technologies covers everything you need to know to make the right career decision in 2026.",
+  "intro": "In today's competitive job market, ERP courses are becoming the top choice for graduates and working professionals. Companies across manufacturing, IT, healthcare, and retail rely on ERP systems to manage operations efficiently. If you are looking for the <a href=\"https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/\">best ERP courses in Chennai</a>, this guide by ICLP Technologies covers everything you need to know to make the right career decision in 2026.",
   "sections": [
     {
       "heading": "Why ERP Courses Are in High Demand",
@@ -4914,7 +4914,7 @@ export  const blogs = [
         "SAP MM – Materials Management",
         "SAP SD – Sales and Distribution",
         "Oracle Finance Cloud",
-        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-chennai/\">Oracle SCM Training in Chennai</a>",
+        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/\">Oracle SCM Training in Chennai</a>",
         "Oracle HCM Cloud",
         "Among these, Oracle SCM Training in Chennai is gaining strong demand due to supply chain digitization"
       ]
@@ -4927,7 +4927,7 @@ export  const blogs = [
         "High industry demand across global enterprises",
         "Cloud-based platform with real-time visibility",
         "Integrates seamlessly with Oracle ERP and Finance modules",
-        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-chennai/\">One of the highest-paying ERP specializations in 2026</a>"
+        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/\">One of the highest-paying ERP specializations in 2026</a>"
       ]
     },
     {
@@ -4960,7 +4960,7 @@ export  const blogs = [
         "Interview preparation and placement support",
         "Flexible batch timings for working professionals",
         "Comprehensive course curriculum aligned with industry needs",
-        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-chennai/\">Proven track record of successful ERP placements</a>"
+        "<a href=\"https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/\">Proven track record of successful ERP placements</a>"
       ]
     }
   ],
@@ -4998,7 +4998,7 @@ export  const blogs = [
       "a": "Yes, ICLP Technologies provides comprehensive placement support including resume preparation, mock interviews, and job referrals to help you land your first ERP role."
     }
   ],
-  "conclusion": "ERP courses are among the best career investments you can make in 2026. With companies across industries adopting platforms like Oracle Fusion SCM, the demand for skilled ERP professionals is at an all-time high. If you are planning a career in ERP, explore the complete details of our <a href=\"https://iclptech.in/courses/oracle/oracle-scm-chennai/\">Oracle SCM Training in Chennai</a> program at ICLP Technologies. Take the next step toward a high-paying ERP career—<a href=\"https://iclptech.in/contact\">enroll today and transform your career!</a>"
+  "conclusion": "ERP courses are among the best career investments you can make in 2026. With companies across industries adopting platforms like Oracle Fusion SCM, the demand for skilled ERP professionals is at an all-time high. If you are planning a career in ERP, explore the complete details of our <a href=\"https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/\">Oracle SCM Training in Chennai</a> program at ICLP Technologies. Take the next step toward a high-paying ERP career—<a href=\"https://iclptech.in/contact\">enroll today and transform your career!</a>"
 },{
   "id": 36,
   "title": "Digital Marketing Online Training in Chennai – Live Course with Certification & Placement Support",

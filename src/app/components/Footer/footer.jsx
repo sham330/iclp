@@ -90,7 +90,7 @@ const Footer = () => {
     { name: "UNIX SHELL Scripting", url: "/course/unix-shell-scripting-online-training/" },
     { name: "Workday HCM", url: "/course/workday-hcm-online-course/" },
     { name: "Salesforce Online Training", url: "/course/salesforce-online-training/" },
-    { name: "Salesforce Developer", url: "/course/salesforce-developer-training/" },
+    { name: "Salesforce Developer", url: "/course/salesforce-developer-training-in-chennai/" },
     { name: "Azure DevOps", url: "/course/azure-devops-training/" },
     { name: "Angular", url: "/course/angular-developer-online-training/" },
     { name: "WordPress", url: "/course/wordpress/" },

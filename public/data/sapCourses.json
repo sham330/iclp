@@ -5,9 +5,9 @@
       "sub_categories": [
        {
   "course_name": "SAP FICO",
-  "path": "sap-fico-training-chennai",
+  "path": "sap-fico-training-in-chennai",
   "name":"SAP FICO Training in Chennai with Placement Assistance",
-  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-training-chennai",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -38,7 +38,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/sap/sap-fico-training-chennai/#sap-fico-training-service",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai/#sap-fico-training-service",
         "name": "SAP FICO Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -48,7 +48,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/sap/sap-fico-training-chennai/#course",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai/#course",
         "name": "SAP FICO Course Online",
         "description": "Instructor-led SAP FICO training covering Financial Accounting (FI), Controlling (CO), general ledger, accounts payable/receivable, asset accounting, cost & profit center accounting, product costing, and material ledger. Includes hands-on exercises, real-time projects, certification, and placement assistance.",
         "provider": {
@@ -90,7 +90,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/sap/sap-fico-training-chennai",
+          "url": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai",
           "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -101,16 +101,16 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/sap/sap-fico-training-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
           { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-          { "@type": "ListItem", "position": 3, "name": "SAP FICO Training", "item": "https://iclptech.in/courses/sap/sap-fico-training-chennai" }
+          { "@type": "ListItem", "position": 3, "name": "SAP FICO Training", "item": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/sap/sap-fico-training-chennai/#faq",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -419,8 +419,8 @@
 },
         {
           "course_name": "SAP EWM",
-          "path": "sap-ewm-training-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-ewm-training-chennai",
+          "path": "sap-ewm-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-ewm-training-in-chennai",
           "meta_title": "SAP EWM Training in India | SAP Extended Warehouse Management Certification",
           "meta_description": "Master SAP Extended Warehouse Management (EWM) with expert-led training & certification. Advanced warehouse optimization and automation. Enroll now!",
           "description": "Master SAP Extended Warehouse Management (EWM) for advanced warehouse automation, process optimization, and seamless integration with SAP ERP systems.",
@@ -1590,7 +1590,7 @@
         },
         {
           "course_name": "SAP SuccessFactors Online Training",
-          "path": "sap-successfactors-online-training-chennai",
+          "path": "sap-successfactors-online-training-in-chennai",
           "meta_title": "SAP SuccessFactors Online Training | SAP SuccessFactors Certification Course | ICLP Technologies",
           "meta_description": "Join SAP SuccessFactors Online Training at ICLP Technologies. Learn Employee Central, Recruitment, Performance Management, Compensation, LMS, and SAP SuccessFactors Certification with Placement Support",
           "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
@@ -2273,8 +2273,8 @@
 },
       {
   "course_name": "SAP MM",
-  "path": "sap-mm-training-chennai",
-  "canonical_url": "https://iclptech.in/courses/sap/sap-mm-training-chennai",
+  "path": "sap-mm-training-in-chennai",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-mm-training-in-chennai",
   "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
   "meta_description": "Master SAP MM with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
   "description": "Master SAP Materials Management (MM) module with hands-on training from industry experts.",
@@ -2422,7 +2422,7 @@
       },
         {
           "course_name": "SAP SD",
-          "path": "sap-sd-training-chennai",
+          "path": "sap-sd-training-in-chennai",
           "meta_title": "SAP SD Course Online | SAP SD Training | SAP SD Certificate",
           "meta_description": "Become a certified SAP SD consultant with our online course. Expert training, flexible schedule. Learn more & enroll today!",
           "description": "Comprehensive training on SAP Sales and Distribution module covering order-to-cash processes.",
@@ -2554,8 +2554,8 @@
         },
         {
           "course_name": "SAP Transportation Management Online Training",
-  "path": "sap-transportation-management-training-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-transportation-management-training-chennai",
+  "path": "sap-transportation-management-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-transportation-management-training-in-chennai",
           "meta_title": "SAP TM Online Training | SAP Transportation Management Course | Certification",
           "meta_description": "Master SAP Transportation Management (TM) with expert online training & certification. Learn end-to-end logistics processes. Enroll now!",
           "description": "Master SAP TM 9.x with comprehensive online training covering transportation planning, freight management, charge calculation, and ECC integration from industry experts.",
@@ -2786,7 +2786,7 @@
         },
         {
           "course_name": "SAP PP",
-          "path": "sap-pp-training-chennai",
+          "path": "sap-pp-training-in-chennai",
           "meta_title": "SAP PP Course Online | SAP PP Training | SAP PP Certificate",
           "meta_description": "Learn SAP PP online with certification & expert support. Build in-demand skills and become a consultant. Enroll now!",
           "description": "Learn SAP Production Planning module covering manufacturing processes and MRP.",
@@ -2918,7 +2918,7 @@
         },
         {
           "course_name": "SAP ABAP",
-          "path": "sap-abap-training-chennai",
+          "path": "sap-abap-training-in-chennai",
           "schema":{
   "@context": "https://schema.org",
   "@graph": [
@@ -2951,7 +2951,7 @@
 
     {
       "@type": "Service",
-      "@id": "https://iclptech.in/sap-abap-training-chennai/#sap-abap-training-service",
+      "@id": "https://iclptech.in/sap-abap-training-in-chennai/#sap-abap-training-service",
       "name": "SAP ABAP Training",
       "provider": {
         "@id": "https://iclptech.in/#organization"
@@ -2962,7 +2962,7 @@
 
     {
       "@type": "Course",
-      "@id": "https://iclptech.in/sap-abap-training-chennai/#course",
+      "@id": "https://iclptech.in/sap-abap-training-in-chennai/#course",
       "name": "SAP ABAP Online Course",
       "description": "Instructor-led SAP ABAP online training covering ABAP fundamentals, data dictionary, modularization, reports, enhancements, and SAP S/4HANA ABAP development. Includes 40+ hours of live training, real-time projects, certification, and placement assistance.",
       "provider": {
@@ -2998,12 +2998,12 @@
         "inLanguage": "English",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://iclptech.in/sap-abap-training-chennai/"
+          "url": "https://iclptech.in/sap-abap-training-in-chennai/"
         }
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://iclptech.in/sap-abap-training-chennai/",
+        "url": "https://iclptech.in/sap-abap-training-in-chennai/",
         "availability": "https://schema.org/InStock"
       },
       "aggregateRating": {
@@ -3015,7 +3015,7 @@
 
     {
       "@type": "BreadcrumbList",
-      "@id": "https://iclptech.in/sap-abap-training-chennai/#breadcrumb",
+      "@id": "https://iclptech.in/sap-abap-training-in-chennai/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -3033,14 +3033,14 @@
           "@type": "ListItem",
           "position": 3,
           "name": "SAP ABAP Course",
-          "item": "https://iclptech.in/sap-abap-training-chennai/"
+          "item": "https://iclptech.in/sap-abap-training-in-chennai/"
         }
       ]
     },
 
     {
       "@type": "FAQPage",
-      "@id": "https://iclptech.in/sap-abap-training-chennai/#faq",
+      "@id": "https://iclptech.in/sap-abap-training-in-chennai/#faq",
       "mainEntity": [
 
         {
@@ -3771,7 +3771,7 @@
 },
         {
   "course_name": "SAP Integration Suite (SAP CPI) Online Training",
-  "path": "sap-integration-suite-cpi-training-chennai",
+  "path": "sap-integration-suite-cpi-training-in-chennai",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -3802,7 +3802,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/#cpi-training-service",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/#cpi-training-service",
         "name": "SAP Integration Suite (SAP CPI) Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -3812,7 +3812,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/#course",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/#course",
         "name": "SAP Integration Suite (SAP CPI) Online Course",
         "description": "Online SAP CPI training covering SAP Integration Suite, integration flows, message mapping, adapters, API management, security, troubleshooting, and advanced integration scenarios. Includes 40+ hours of live sessions, real-time projects, certification support, and placement assistance.",
         "provider": {
@@ -3848,12 +3848,12 @@
           "inLanguage": "English",
           "location": {
             "@type": "VirtualLocation",
-            "url": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/"
+            "url": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/"
           }
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/",
+          "url": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/",
           "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -3864,7 +3864,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -3882,13 +3882,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "SAP Integration Suite (SAP CPI) Course",
-            "item": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/"
+            "item": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-chennai/#faq",
+        "@id": "https://iclptech.in/sap-integration-suite-cpi-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -4187,7 +4187,7 @@
   ]},
         {
           "course_name": "SAP Business Technology Platform (BTP)",
-          "path": "sap-btp-training-chennai",
+          "path": "sap-btp-training-in-chennai",
           "meta_title": "SAP BTP Online Training | Certification Course by ICLP",
           "meta_description": "Master SAP Business Technology Platform with expert-led training at ICLP. Get real-time projects, career support & certification prep. Join today!",
           "career_benefits": {
@@ -4360,7 +4360,7 @@
         },
         {
           "course_name": "SAP IS Utilities Training",
-          "path": "sap-is-utilities-training-chennai",
+          "path": "sap-is-utilities-training-in-chennai",
           "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
           "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
           "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
@@ -4737,7 +4737,7 @@
         },
         {
           "course_name": "SAP UI5 & Fiori Training",
-          "path": "sap-ui5-fiori-training-chennai",
+          "path": "sap-ui5-fiori-training-in-chennai",
           "meta_title": "SAP UI5 & Fiori Course Online | SAP UI5 Fiori Training | SAP Fiori Certification",
           "meta_description": "Master SAP UI5, OData, and Fiori with end-to-end hands-on training. Learn UI5 development, OData services, Fiori apps, and Fiori Launchpad configuration.",
           "description": "Comprehensive SAP UI5 & Fiori training covering UI5 fundamentals, MVC architecture, routing, layouts, models, OData services, custom and standard Fiori app development, and Fiori Launchpad configuration with real-time projects.",
@@ -5191,7 +5191,7 @@
         },
         {
           "course_name": "SAP Security GRC Training",
-          "path": "sap-security-grc-training-chennai",
+          "path": "sap-security-grc-training-in-chennai",
           "description": "Master SAP's Governance, Risk, and Compliance solutions with hands-on training in access control, risk analysis, privileged user management, and compliance automation.",
           "what_youll_learn": [
             "GRC Access Control architecture",
@@ -5277,7 +5277,7 @@
         },
         {
           "course_name": "SAP Analytics Cloud Online Training",
-          "path": "sap-analytic-cloud-training-chennai",
+          "path": "sap-analytic-cloud-training-in-chennai",
           "description": "Master SAP's unified cloud analytics solution covering business intelligence, planning, predictive analytics, and augmented intelligence with hands-on story design and data modeling.",
           "what_youll_learn": [
             "SAP Analytics Cloud architecture and deployment options",
@@ -5364,7 +5364,7 @@
         },
         {
           "course_name": "SAP BI/BW Training",
-          "path": "sap-bibw-training-chennai",
+          "path": "sap-bibw-training-in-chennai",
           "description": "Comprehensive training in SAP's data warehousing and business intelligence solutions covering data modeling, extraction, reporting, and HANA integration for enterprise analytics.",
           "what_youll_learn": [
             "Data warehousing concepts and SAP BW architecture",
@@ -5951,7 +5951,7 @@
         },
         {
           "course_name": "SAP CRM Training",
-          "path": "sap-crm-training-chennai",
+          "path": "sap-crm-training-in-chennai",
           "description": "Comprehensive training in SAP Customer Relationship Management covering architecture, marketing, sales, service, and middleware integration. Gain hands-on experience with Web UI and Interaction Center.",
           "what_youll_learn": [
             "CRM architecture and organizational model",
@@ -6097,7 +6097,7 @@
         },
         {
           "course_name": "SAP Quality Management (QM)",
-          "path": "sap-quality-management-(qm)-training-chennai",
+          "path": "sap-quality-management-(qm)-training-in-chennai",
           "meta_title": "SAP Quality Management Course Online | SAP QM Training | SAP QM Certificate",
           "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
           "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
@@ -6280,7 +6280,7 @@
         },
         {
           "course_name": "SAP Ariba Training",
-          "path": "sap-ariba-training-chennai",
+          "path": "sap-ariba-training-in-chennai",
           "meta_title": "SAP Ariba Course Online | SAP Ariba Training | SAP Ariba Certificate",
           "meta_description": "Get SAP Ariba training online. Learn sourcing & procurement with certification. Start your expert journey – enroll now!",
           "description": "Comprehensive training in SAP Ariba covering procurement, sourcing, contracts, supplier management, and network integration for end-to-end supply chain collaboration.",
@@ -6523,7 +6523,7 @@
         },
         {
           "course_name": "SAP Master Data Governance (MDG) on S/4HANA",
-          "path": "sap-master-data-governance-(mdg)-on-s-4hana-training-chennai",
+          "path": "sap-master-data-governance-(mdg)-on-s-4hana-training-in-chennai",
           "meta_title": "SAP Master data governance Course Online | SAP MDG Training | SAP MDG Certificate",
           "meta_description": "Learn SAP MDG on S/4HANA online. Get certified & become a governance expert. Enroll now for training with real-world use cases!",
           "description": "Comprehensive training in SAP MDG covering master data domains, data modeling, governance workflows, and integration with S/4HANA for enterprise data management.",
@@ -6861,7 +6861,7 @@
         },
         {
           "course_name": "SAP BASIS Administration",
-          "path": "sap-basis-administration-training-chennai",
+          "path": "sap-basis-administration-training-in-chennai",
           "meta_title": "SAP Basis Course Online | SAP Basis Training | SAP Basis Certificate",
           "meta_description": "Master SAP Basis administration online. Get certification & hands-on training. Start your consultant journey – enroll today!",
           "description": "Comprehensive training in SAP BASIS administration covering system installation, configuration, user management, transport system, database administration, and performance monitoring.",
@@ -7799,7 +7799,7 @@
         },
         {
           "course_name": "SAP PM Course",
-          "path": "sap-pm-training-chennai",
+          "path": "sap-pm-training-in-chennai",
           "meta_title": "SAP PM Course Course Online | SAP PM Course Online Training | SAP PM Course Certificate",
           "meta_description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
           "description": "Learn SAP PM with practical training and certification. Gain maintenance planning skills. Join the course now!",
@@ -7963,7 +7963,7 @@
         },
         {
           "course_name": "SAP Hybris E-Commerce Online Training",
-          "path": "sap-hybris-ecommerce-training-chennai",
+          "path": "sap-hybris-ecommerce-training-in-chennai",
           "meta_title": "SAP Hybris E-Commerce Course Online | SAP Hybris E-Commerce Online Training | SAP Hybris E-Commerce Certificate",
           "meta_description": "Learn SAP Hybris eCommerce with expert training and certification. Build your career in digital commerce.",
           "description": "Complete training in SAP Hybris Commerce covering omni-channel commerce, product management, and customer experience for digital commerce professionals.",
@@ -8047,7 +8047,7 @@
         },
         {
           "course_name": "SAP BO",
-          "path": "sap-bo-training-chennai",
+          "path": "sap-bo-training-in-chennai",
           "meta_title": "SAP BO Course Online | SAP BO Online Training | SAP BO Certificate",
           "meta_description": "Join SAP BO training and certification program. Learn to create impactful business intelligence reports.",
           "description": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development for BI professionals.",

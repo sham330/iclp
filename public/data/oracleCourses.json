@@ -5,7 +5,7 @@
       "sub_categories": [
         {
           "course_name": "Oracle Financials",
-          "path": "oracle-financials-chennai",
+          "path": "oracle-financials-training-in-chennai",
            "meta_title": "Oracle Financial Course Online | Oracle Financial Training | Oracle Financial Certificate",
   "meta_description": "Learn Oracle Financials online. Become a certified consultant with job-ready training. Enroll today & start learning!",
           "description": "Comprehensive training on Oracle Financials covering General Ledger, AP, AR, FA and Cash Management.",
@@ -53,7 +53,7 @@
         },
        {
   "course_name": "Oracle SCM Training in Chennai",
-  "path": "oracle-scm-chennai",
+  "path": "oracle-scm-training-in-chennai",
 
   "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Oracle Supply Chain Management modules including procurement, inventory management, order management, supply chain planning, and logistics with hands-on implementation scenarios.",
   "meta_title": "Oracle SCM Training in Chennai | Oracle SCM Online Course with Placement | ICLP Technologies",
@@ -91,7 +91,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#service",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/#service",
         "name": "Oracle SCM Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -101,7 +101,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#course",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/#course",
         "name": "Oracle SCM Training in Chennai",
         "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
         "provider": {
@@ -145,7 +145,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/oracle/oracle-scm-chennai/",
+          "url": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -158,7 +158,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -176,13 +176,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Oracle SCM Training",
-            "item": "https://iclptech.in/courses/oracle/oracle-scm-chennai/"
+            "item": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm-chennai/#faq",
+        "@id": "https://iclptech.in/courses/oracle/oracle-scm-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -356,7 +356,7 @@
   ],
   "duration": "Flexible Batches",
   "skill_level": "Beginner to Advanced (No Coding Required)",
-  "image": "/CourseDetails/oracle-scm-chennai.png",
+  "image": "/CourseDetails/oracle-scm-training-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Oracle Procurement Cloud Scenario",
@@ -410,7 +410,7 @@
   }
 },{
   "course_name": "Oracle SCM Training in Chennai",
-  "path": "oracle-scm-chennai",
+  "path": "oracle-scm-training-in-chennai",
   "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Oracle Supply Chain Management modules including procurement, inventory management, order management, supply chain planning, and logistics with hands-on implementation scenarios.",
   "meta_title": "Oracle SCM Training in Chennai | Oracle SCM Online Course with Placement | ICLP Technologies",
   "meta_description": "Join Oracle SCM Training in Chennai at ICLP Technologies. Learn Oracle Supply Chain Management with real-time projects, online classes, certification guidance, and placement assistance.",
@@ -712,7 +712,7 @@
   ],
   "duration": "Flexible Batches",
   "skill_level": "Beginner to Advanced (No Coding Required)",
-  "image": "/CourseDetails/oracle-scm-chennai.png",
+  "image": "/CourseDetails/oracle-scm-training-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Oracle Procurement Cloud Scenario",
@@ -1313,7 +1313,7 @@
   }
 },{
   "course_name": "Oracle HCM",
-  "path": "oracle-hcm-chennai",
+  "path": "oracle-hcm-training-in-chennai",
   "name": "Oracle HCM Training in Chennai with Placement Assistance",
   "description": "ICLP Technologies offers industry-focused Oracle HCM Training in Chennai designed for freshers, HR professionals, ERP consultants, and working professionals who want to build a successful career in Oracle Human Capital Management. Our Oracle HCM Course provides practical training with real-time implementation scenarios, live projects, and hands-on exercises to help students understand workforce management, payroll, recruitment, talent management, HR operations, and Oracle HCM Cloud concepts. ",
   "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Online Course with Placement | ICLP Technologies",
@@ -1351,7 +1351,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#service",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/#service",
         "name": "Oracle HCM Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -1361,7 +1361,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#course",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/#course",
         "name": "Oracle HCM Training in Chennai",
         "description": "Join Oracle HCM Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
         "provider": {
@@ -1405,7 +1405,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/",
+          "url": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -1418,7 +1418,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -1436,13 +1436,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Oracle HCM Training",
-            "item": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/"
+            "item": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-chennai/#faq",
+        "@id": "https://iclptech.in/courses/oracle/oracle-hcm-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -1622,7 +1622,7 @@
   ],
   "duration": "Flexible Batches",
   "skill_level": "Beginner to Advanced (No Coding Required)",
-  "image": "/CourseDetails/oracle-hcm-chennai.png",
+  "image": "/CourseDetails/oracle-hcm-training-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Core HR and Workforce Structure Configuration",
@@ -1677,7 +1677,7 @@
   }
 },{
   "course_name": "Oracle HCM Training in Chennai",
-  "path": "oracle-hcm-chennai",
+  "path": "oracle-hcm-training-in-chennai",
   "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Course with Placement | ICLP Technologies",
   "meta_description": "Join the best Oracle HCM Training in Chennai. Learn Oracle Fusion HCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
   "description": "Learn Oracle Human Capital Management in Chennai covering Core HR, Payroll, Talent Management, and Workforce Management with hands-on training.",
@@ -2254,7 +2254,7 @@
 },
         {
   "course_name": "Oracle CPQ Training",
-  "path": "oracle-cpq-chennai",
+  "path": "oracle-cpq-training-in-chennai",
   "description": "Comprehensive training in Oracle Configure, Price, Quote (CPQ) Cloud solutions covering product configuration, commerce processes, and document generation.",
   "what_youll_learn": [
     "Oracle CPQ Cloud fundamentals",
@@ -2732,7 +2732,7 @@
 },
 {
   "course_name": "Oracle SQL & PL/SQL",
-  "path": "oracle-sql-plsql-chennai",
+  "path": "oracle-sql-plsql-training-in-chennai",
   "description": "Comprehensive training in Oracle database programming covering SQL querying and PL/SQL development for robust database applications.",
   "what_youll_learn": [
     "SQL fundamentals and advanced techniques",
@@ -3063,7 +3063,7 @@
 },
 {
   "course_name": "Oracle PeopleSoft HRMS/HCM",
-  "path": "oracle-peoplesoft-chennai",
+  "path": "oracle-peoplesoft-training-in-chennai",
   "description": "Comprehensive training in PeopleSoft Human Resources and Payroll modules covering core tables, processes, and reporting for enterprise HR solutions.",
   "what_youll_learn": [
     "PeopleSoft architecture",
