@@ -320,27 +320,17 @@ const AppBar = () => {
   };
 
   const navigateToCourse = (course) => {
-    const navigate = () => {
-      if (course.type === "sap") {
-        const urlPath = course.path || encodeURIComponent(course.name);
-        router.push(`/courses/${urlPath}`);
-      } else if (course.type === "oracle") {
-        const urlPath = course.path || encodeURIComponent(course.name);
-        router.push(`/courses/${urlPath}`);
-      } else {
-        router.push(`/courses/${encodeURIComponent(course.path)}`);
+    const getUrl = () => {
+      if (course.type === "sap" || course.type === "oracle") {
+        return `/courses/${course.path || encodeURIComponent(course.name)}`;
       }
-      setSearchTerm("");
-      setShowSuggestions(false);
-      setActiveSuggestion(-1);
+      return `/courses/${encodeURIComponent(course.path)}`;
     };
 
-    const isMobile = window.innerWidth <= 767;
-    if (isMobile) {
-      setTimeout(navigate, 200);
-    } else {
-      navigate();
-    }
+    setSearchTerm("");
+    setShowSuggestions(false);
+    setActiveSuggestion(-1);
+    window.open(getUrl(), "_blank");
   };
 
   const handleSearch = (e) => {

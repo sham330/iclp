@@ -60,7 +60,7 @@ const SmallBar = () => {
   }, []);
 
   const handleCourseClick = (path) => {
-    router.push(path);
+    window.open(path, "_blank");
     setIsDropdownOpen(false);
     setIsMobileMenuOpen(false);
   };
@@ -149,17 +149,17 @@ const SmallBar = () => {
 
             {/* Static links */}
             <li>
-              <Link href="/about" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+              <Link href="/about" target="_blank" rel="noopener noreferrer" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/corporate-training" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+              <Link href="/corporate-training" target="_blank" rel="noopener noreferrer" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
                 Corporate Training
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
+              <Link href="/contact" target="_blank" rel="noopener noreferrer" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
                 Contact Us
               </Link>
             </li>
@@ -187,6 +187,8 @@ const SmallBar = () => {
                     <Link
                       key={href}
                       href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all first:rounded-t-lg last:rounded-b-lg"
                     >
                       {label}
@@ -243,7 +245,7 @@ const SmallBar = () => {
                 <li key={href}>
                   <div className="px-4 py-2">
                     <span
-                      onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); router.push(href); }}
+                      onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); window.open(href, "_blank"); }}
                       style={{ touchAction: "manipulation", WebkitTapHighlightColor: "transparent", cursor: "pointer" }}
                       className="inline-block text-[15px] font-semibold text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f]/10 transition-all"
                     >
@@ -276,7 +278,7 @@ const SmallBar = () => {
                     ].map(({ href, label }) => (
                       <div key={href} className="px-2">
                         <span
-                          onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); setIsMoreDropdownOpen(false); router.push(href); }}
+                          onPointerDown={(e) => { e.preventDefault(); setIsMobileMenuOpen(false); setIsMoreDropdownOpen(false); window.open(href, "_blank"); }}
                           style={{ touchAction: "manipulation", WebkitTapHighlightColor: "transparent", cursor: "pointer" }}
                           className="inline-block text-[13px] font-medium text-[#014a9f] border border-[#014a9f]/20 rounded px-3 py-1.5 hover:bg-[#014a9f] hover:text-white transition-all"
                         >
