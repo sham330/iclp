@@ -7,8 +7,13 @@ import Footer from "./components/Footer/footer";
 import AppBar from "./components/AppBar/appbar";
 
 export const metadata = {
+  metadataBase: new URL("https://iclptech.in"),
   icons: {
-    icon: "/favicon.png", // Favicon for the site
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: "/favicon.png",
+    shortcut: "/favicon.png",
   },
 };
 
@@ -41,13 +46,6 @@ export default function RootLayout({ children }) {
   href="https://fonts.googleapis.com/css2?family=Cinzel+Text:wght@400;500;600;700&display=swap"
 />
 
-
-        <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
-<link rel="apple-touch-icon" href="/favicon.png" />
-
-
-        {/* Favicon */}
-        <link rel="icon" type="image/png" href="/favicon.png" />
 
         {/* Structured Data for Google */}
         <script
