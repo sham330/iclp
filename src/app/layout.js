@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "ICLP Technologies",
               url: "https://iclptech.in",
-              logo: "https://iclptech.in/Logo.png",
+              logo: "https://iclptech.in/favicon.png",
             }),
           }}
         />
