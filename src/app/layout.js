@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta charSet="UTF-8" />
         <meta
           name="google-site-verification"
           content="Lb5NP0CkzxorHnaM5c3wjKo4IPBG9TF10PKfg3-9cno"
@@ -33,21 +32,18 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="gwgv7x-EZlzPSSWS4lnQT7hCW7YhQkaOdp7Vj3sy6bk"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       
-    <link
-  rel="stylesheet"
-  href="https://api.fontshare.com/v2/css?f[]=Bevellier@400,500,600&display=swap"
-/>
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap"
-/>
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Cinzel+Text:wght@400;500;600;700&display=swap"
-/>
-
+        <link
+          rel="stylesheet"
+          href="https://api.fontshare.com/v2/css?f[]=Bevellier@400,500,600&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cinzel+Text:wght@400;500;600;700&display=swap"
+        />
 
         {/* Structured Data for Google */}
         <script
@@ -58,7 +54,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "ICLP Technologies",
               url: "https://iclptech.in",
-              logo: "https://iclptech.in/favicon.png",
+              logo: "https://iclptech.in/Logo.png",
             }),
           }}
         />
