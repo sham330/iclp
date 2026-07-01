@@ -9,7 +9,7 @@ export default function Head({ course }) {
 
       <meta property="og:title" content={course.meta_title || course.course_name} />
       <meta property="og:description" content={course.meta_description || course.description} />
-      <meta property="og:url" content={`https://iclptech.in/courses/${course.path}`} />
+      <meta property="og:url" content={`https://iclptech.in/courses/${course.path}/`} />
       <meta property="og:image" content="/favicon.png" />
       <meta property="og:type" content="website" />
 

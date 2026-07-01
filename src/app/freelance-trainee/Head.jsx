@@ -17,7 +17,7 @@ export default function Head() {
         property="og:description"
         content="We're hiring skilled freelance trainers to teach students online. Share your expertise in programming, design, business, and more. Partner with a top-rated online learning institute and inspire the next generation."
       />
-      <meta property="og:url" content="https://iclptech.in/freelance-trainee" />
+      <meta property="og:url" content="https://iclptech.in/freelance-trainee/" />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card */}

@@ -17,7 +17,7 @@ export default function Head() {
         property="og:description"
         content="Need quick information? Contact us now for fast responses on course details, enrolment, and offers. Get instant answers to your enquiries and take the first step toward your learning journey today!"
       />
-      <meta property="og:url" content="https://iclptech.in/contact" />
+      <meta property="og:url" content="https://iclptech.in/contact/" />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card */}

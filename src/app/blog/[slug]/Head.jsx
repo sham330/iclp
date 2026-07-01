@@ -16,7 +16,7 @@ console.log(course.metaTitle);
       <meta property="og:description" content={course.metaDescription} />
       <meta
         property="og:url"
-        content={`https://iclptech.in/blog/${course.slug}`}
+        content={`https://iclptech.in/blog/${course.slug}/`}
       />
       <meta property="og:image" content={`https://iclptech.in${course.image}` || "/Logo.png"} />
       <meta property="og:type" content="website" />

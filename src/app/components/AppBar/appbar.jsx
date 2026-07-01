@@ -322,9 +322,9 @@ const AppBar = () => {
   const navigateToCourse = (course) => {
     const getUrl = () => {
       if (course.type === "sap" || course.type === "oracle") {
-        return `/courses/${course.path || encodeURIComponent(course.name)}`;
+        return `/courses/${course.path || encodeURIComponent(course.name)}/`;
       }
-      return `/courses/${encodeURIComponent(course.path)}`;
+      return `/courses/${encodeURIComponent(course.path)}/`;
     };
 
     setSearchTerm("");

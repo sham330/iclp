@@ -19,7 +19,7 @@ export default function Head() {
       />
       <meta
         property="og:url"
-        content="https://iclptech.in/coursedetails/Full%20Stack%20Developer"
+        content="https://iclptech.in/certifications/"
       />
       <meta
         property="og:image"

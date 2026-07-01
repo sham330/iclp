@@ -17,7 +17,7 @@ export default function Head() {
         property="og:description"
         content="Explore expert tips, student success stories, and course updates from the best online learning institute. Stay ahead in programming, design, business, and more with our latest blog posts."
       />
-      <meta property="og:url" content="https://iclptech.in/blog" />
+      <meta property="og:url" content="https://iclptech.in/blog/" />
       <meta
         property="og:image"
         content="https://drive.google.com/uc?export=view&id=1SxfUxy5nkpMbPMkit0Szg2eL7TmknHIv"

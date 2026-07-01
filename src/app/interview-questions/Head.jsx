@@ -17,7 +17,7 @@ export default function Head() {
         property="og:description"
         content="Crack your next interview with our expert-curated interview questions and answers. Find the most asked questions in programming, web development, data science, and more – all from the best online learning institute."
       />
-      <meta property="og:url" content="https://iclptech.in/interview-questions" />
+      <meta property="og:url" content="https://iclptech.in/interview-questions/" />
       <meta
         property="og:image"
         content="https://drive.google.com/uc?export=view&id=1SxfUxy5nkpMbPMkit0Szg2eL7TmknHIv"

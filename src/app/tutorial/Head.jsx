@@ -17,7 +17,7 @@ export default function Head() {
         property="og:description"
         content="Watch free video tutorials from expert instructors in programming, design, marketing, and more. Learn step-by-step with high-quality videos from the best online learning institute."
       />
-      <meta property="og:url" content="https://iclptech.in/tutorial" />
+      <meta property="og:url" content="https://iclptech.in/tutorial/" />
       <meta
         property="og:image"
         content="https://drive.google.com/uc?export=view&id=1SxfUxy5nkpMbPMkit0Szg2eL7TmknHIv"
