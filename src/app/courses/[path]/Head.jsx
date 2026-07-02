@@ -19,7 +19,7 @@ export default function Head({ course }) {
       <meta name="twitter:image" content= "/favicon.png" />
          <meta name="keywords" content={`${course.course_name}, ${course.course_name}, ICLP Tech, Course training India`} />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={`https://iclptech.in/courses/${course.path}`} />
+      <link rel="canonical" href={`https://iclptech.in/courses/${course.path}/`} />
        {course.schema && (
         <script
           type="application/ld+json"
