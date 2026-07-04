@@ -8,6 +8,8 @@ import AppBar from "./components/AppBar/appbar";
 
 export const metadata = {
   metadataBase: new URL("https://iclptech.in"),
+  themeColor: "#0d47a1",
+  manifest: "/site.webmanifest",
   icons: {
     icon: [
       { url: "/favicon.ico", type: "image/x-icon" },
