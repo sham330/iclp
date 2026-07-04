@@ -1,9 +1,9 @@
 export default function Head() {
   const title =
-    "Online Software Courses | Online Courses Certificate | Online Courses Training - ICLP";
+    "Best Software Training Institute in Chennai with Placement Support | ICLP Technologies";
 
   const description =
-    "Explore online software courses with certification & expert training. Boost your career with flexible learning. Enroll now to get started!";
+    "Best software training institute in Chennai offering online and classroom IT courses, real-time projects, certification guidance, internships, and placement support.";
 
   const canonicalUrl = "https://iclptech.in/";
 

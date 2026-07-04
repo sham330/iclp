@@ -35,16 +35,12 @@ const TechHero = () => {
           <div className="space-y-4 sm:space-y-6 lg:space-y-8 text-white text-center lg:text-left">
             <h1 className="font-bold leading-tight">
               <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-1 sm:mb-2">
-                India's{" "}
+                Best Software Training{" "}
                 <span className="bg-gradient-to-r from-cyan-300 to-blue-200 bg-clip-text text-transparent">
-                  Trusted & Leading
-                </span>
-              </span>
-              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-1 sm:mb-2">
-                Software Training Institute
+ Institute in Chennai for                </span>
               </span>
               <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-200">
-                for Job-Ready Skills
+Job-Oriented IT Training
               </span>
             </h1>
 

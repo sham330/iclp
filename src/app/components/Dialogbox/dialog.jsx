@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { FaTimes, FaCheckCircle, FaArrowRight } from 'react-icons/fa';
+import { FaTimes, FaCheckCircle, FaArrowRight, FaUsers, FaUserTie, FaClock, FaCalendarAlt, FaBriefcase, FaLaptop, FaRupeeSign, FaShieldAlt, FaCommentDots } from 'react-icons/fa';
 
 const courses = [
   { name: "Java", type: "regular" },
@@ -239,30 +239,62 @@ const HomeAboutDialog = ({ onClose } = {}) => {
           </div>
 
           {/* RIGHT - INFO PANEL */}
-          <div className="w-full md:w-1/2 bg-gradient-to-br from-blue-600 to-teal-500 text-white p-[20px] flex flex-col justify-between">
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Why Choose Us?</h3>
-              <ul className="space-y-3 text-sm">
-                {['1000+ Students Trained', 'Placement Assistance Available', 'Industry Expert Trainers', 'Your data is safe & confidential'].map((item, i) => (
-                  <li key={i} className="flex items-center gap-2">
-                    <FaCheckCircle className="text-green-300 shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+          <div className="w-full md:w-1/2 flex flex-col overflow-hidden">
+
+            {/* Top half — photo with logo overlay */}
+            <div className="relative h-40 md:h-48 shrink-0">
+              <img
+                src="/dialog-box.jpeg"
+                alt="Students learning with expert trainer"
+                className="w-full h-full object-cover"
+              />
+              
             </div>
 
-            <div className="mt-8">
-              <p className="text-sm text-white/80 mb-3">Have questions? Chat with us directly</p>
-              <a
-                href="https://wa.me/918681026181"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center bg-white text-green-600 py-2 px-4 rounded-lg font-semibold hover:bg-green-50 transition-all"
-              >
-                💬 Chat on WhatsApp
-              </a>
+            {/* Bottom half — white card */}
+            <div className="flex flex-col flex-1 bg-white p-4 gap-3">
+              <h3 className="text-sm font-bold text-[#01377d]">Why Choose Us?</h3>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {[
+                  { icon: <FaUsers />,       line1: '1000+ Students',          line2: 'Successfully Trained' },
+                  { icon: <FaUserTie />,     line1: 'Industry',                line2: 'Expert Trainers' },
+                  { icon: <FaBriefcase />,   line1: 'Placement Assistance &',  line2: 'Interview Support' },
+                  { icon: <FaLaptop />,      line1: 'Live Projects &',         line2: 'Real-Time Training' },
+                  { icon: <FaClock />,       line1: 'Flexible Timings @',      line2: 'Flexible Language' },
+                  { icon: <FaRupeeSign />,   line1: 'Affordable Fees',         line2: 'with Split Options' },
+                  { icon: <FaCalendarAlt />, line1: 'Weekend & Weekday',       line2: 'Batches Available' },
+                  { icon: <FaShieldAlt />,   line1: 'Your Data is 100%',       line2: 'Safe & Confidential' },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-full bg-[#01377d] flex items-center justify-center text-white text-xs shrink-0">
+                      {item.icon}
+                    </div>
+                    <div className="leading-tight">
+                      <p className="text-xs font-semibold text-slate-800">{item.line1}</p>
+                      <p className="text-xs text-slate-500">{item.line2}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* WhatsApp CTA */}
+              <div className="mt-auto pt-2 border-t border-slate-100 flex items-center justify-between gap-2">
+                <div className="flex items-center gap-1 text-xs text-slate-500">
+                  <FaCommentDots className="text-[#01377d] shrink-0" />
+                  <span>Have questions? Chat with us directly</span>
+                </div>
+                <a
+                  href="https://wa.me/918681026181"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="shrink-0 bg-green-500 hover:bg-green-600 text-white text-xs font-semibold py-1.5 px-3 rounded-full transition-all"
+                >
+                  Chat on WhatsApp
+                </a>
+              </div>
             </div>
+
           </div>
 
         </div>
