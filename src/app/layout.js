@@ -30,6 +30,13 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="Lb5NP0CkzxorHnaM5c3wjKo4IPBG9TF10PKfg3-9cno"
         />
+         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/Fav.png" type="image/png" sizes="48x48" />
+        <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
+        <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="hkOSvJh_qs0N_Unfi9KrCxYRLfY38RmIP48Kr5cT8Gs" />
         <meta
           name="google-site-verification"
