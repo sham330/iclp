@@ -40,34 +40,24 @@ export default async function BlogDetailPage({ params }) {
       </div>
     );
   }
-const schema = blog.schema || {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: blog.title,
-  description: blog.metaDescription,
-  image: blog.image
-    ? `https://iclptech.in${blog.image}`
-    : "https://iclptech.in/Logo.png",
-  author: {
-    "@type": "Organization",
-    name: "ICLP Technologies",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "ICLP Technologies",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://iclptech.in/Logo.png",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": `https://iclptech.in/blog/${blog.slug}/`,
-  },
-  url: `https://iclptech.in/blog/${blog.slug}/`,
-};
   const blog = blogs.find(b => b?.slug === decodeURIComponent(slug));
-if (!blog) notFound();
+  if (!blog) notFound();
+
+  const schema = blog.schema || {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: blog.title,
+    description: blog.metaDescription,
+    image: blog.image ? `https://iclptech.in${blog.image}` : "https://iclptech.in/Logo.png",
+    author: { "@type": "Organization", name: "ICLP Technologies" },
+    publisher: {
+      "@type": "Organization",
+      name: "ICLP Technologies",
+      logo: { "@type": "ImageObject", url: "https://iclptech.in/Logo.png" },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `https://iclptech.in/blog/${blog.slug}/` },
+    url: `https://iclptech.in/blog/${blog.slug}/`,
+  };
 
   return (
  <>
