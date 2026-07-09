@@ -11,6 +11,7 @@ console.log(course.metaTitle);
         name="description"
         content={course.metaDescription }
       />
+      <link rel="canonical" href={`https://iclptech.in/blog/${course.slug}/`} />
 
       <meta property="og:title" content={course.title} />
       <meta property="og:description" content={course.metaDescription} />
