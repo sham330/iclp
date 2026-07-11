@@ -48,7 +48,6 @@ export default function Home() {
         <ExpertConnectBanner />
         <br></br>
         <HomeTestimonials />
-        <RelatedCoursesSlider />
       </main>
 
       <ChatBot />
