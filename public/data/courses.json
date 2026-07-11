@@ -3793,6 +3793,775 @@
       "answer": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
     }
   ]
+},{
+  "course_name": "SAP FICO",
+  "path": "online-sap-fico-training-usa",
+  "name": "SAP FICO Online Training in USA with Placement Assistance",
+  "canonical_url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "United States"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#sap-fico-training-service",
+        "name": "SAP FICO Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "United States",
+        "serviceType": "SAP FICO Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#course",
+        "name": "SAP FICO Online Training in USA",
+        "description": "Instructor-led live online SAP FICO training for the USA covering Financial Accounting (FI), Controlling (CO), SAP S/4HANA Finance, General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Internal Orders, Product Costing, and Profitability Analysis. Includes live SAP server access, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "SAP FICO Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "SAP FICO Online Training USA, SAP FICO Course, Financial Accounting, Controlling, SAP S/4HANA Finance, SAP FICO Certification",
+        "about": [
+          { "@type": "Thing", "name": "Financial Accounting (FI)" },
+          { "@type": "Thing", "name": "Controlling (CO)" },
+          { "@type": "Thing", "name": "SAP S/4HANA Finance" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa"
+          },
+          "curriculum": [
+            "Introduction to SAP FICO",
+            "General Ledger Accounting",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Asset Accounting",
+            "Bank Accounting",
+            "SAP Controlling (CO) – Cost Controlling",
+            "Internal Orders & Profit Center Accounting",
+            "Product Costing & Profitability Analysis (CO-PA)",
+            "SAP S/4HANA Finance Essentials"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1200"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "SAP FICO Online Training USA", "item": "https://iclptech.in/courses/sap/online-sap-fico-training-usa" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP FICO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP FICO (Financial Accounting and Controlling) is a core SAP ERP module used to manage financial accounting, reporting, cost management, budgeting, and internal controlling processes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What will I learn in the SAP FICO Online Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course covers Financial Accounting (FI), Controlling (CO), General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Bank Accounting, Cost Center Accounting, Profit Center Accounting, Internal Orders, Product Costing, Profitability Analysis (CO-PA), and SAP S/4HANA Finance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this course suitable for beginners?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The training starts from the fundamentals of SAP FICO and gradually progresses to advanced configuration and implementation topics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need an accounting background to learn SAP FICO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Basic accounting knowledge is helpful, but trainers explain finance concepts alongside SAP functionality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the training conducted online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. All sessions are delivered live through instructor-led online classes, accessible from anywhere in the USA or globally."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are weekday and weekend batches available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Flexible weekday, weekend, fast-track, and customized batch schedules are offered."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I get hands-on SAP practice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Learners gain hands-on experience through guided exercises, live SAP server access, and implementation-based activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include SAP S/4HANA Finance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The curriculum includes Universal Journal (ACDOCA), Business Partner, SAP Fiori, Financial Closing, and Embedded Analytics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is placement assistance provided?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Support includes resume preparation, LinkedIn profile optimization, mock interviews, interview guidance, and career mentoring."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I receive a course completion certificate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Upon successful completion, learners receive a Course Completion Certificate from ICLP Technologies."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta_title": "SAP FICO Online Training in USA | ICLP Technologies",
+  "meta_description": "Become a certified SAP Finance Consultant with ICLP Technologies' live SAP FICO Online Training in USA. Learn FI, CO, and S/4HANA Finance with real-time projects and placement support.",
+  "description": "ICLP Technologies offers industry-focused SAP FICO Online Training in USA designed for finance professionals, accountants, ERP consultants, and freshers seeking a career in SAP Financial Accounting and Controlling. Our SAP FICO course provides hands-on training in Financial Accounting (FI), Controlling (CO), SAP S/4HANA Finance, General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Bank Accounting, Cost Center Accounting, Profit Center Accounting, Internal Orders, Product Costing, and Profitability Analysis. Learners get live SAP server access, real-world business scenarios, and placement-oriented career support delivered through live instructor-led online classes.",
+  "career_benefits": {
+    "heading": "Why SAP FICO Training is Essential for Your Career in the USA",
+    "description": "<strong>SAP FICO (Financial Accounting and Controlling)</strong> is one of the most sought-after SAP ERP modules, helping organizations manage financial transactions, cost control, and reporting. With growing SAP S/4HANA adoption across US industries, skilled SAP Finance consultants are in high demand.",
+    "points": [
+      "<strong>Global Demand:</strong> Manufacturing, healthcare, banking, retail, pharmaceuticals, and logistics companies across the USA rely on SAP FICO expertise.",
+      "<strong>Career Growth:</strong> Roles like SAP FICO Consultant, SAP Business Analyst, and SAP S/4HANA Finance Consultant offer strong salary and stability.",
+      "<strong>Skill Mastery:</strong> Training focuses on configuration, integration with MM/SD/PP/HCM, and real-time troubleshooting."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP FICO Online Course Curriculum</strong>",
+    "intro": "Our <strong>SAP FICO Online Training in USA</strong> is structured into Financial Accounting and Controlling components, along with SAP S/4HANA Finance essentials, ensuring deep functional expertise."
+  },
+  "track_overview_primary": {
+    "heading": "Financial Accounting (<strong>FI</strong>) Modules Covered",
+    "description": "We cover core aspects of external accounting, including:",
+    "topics": [
+      "<strong>General Ledger (GL) Accounting</strong>",
+      "<strong>Accounts Payable (AP)</strong> and <strong>Accounts Receivable (AR)</strong>",
+      "<strong>Asset Accounting</strong> and <strong>Bank Accounting</strong>",
+      "Financial Closing Activities"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Controlling (<strong>CO</strong>) Modules Covered",
+    "description": "This section focuses on internal reporting and cost management:",
+    "topics": [
+      "<strong>Cost Element and Cost Center Accounting</strong>",
+      "<strong>Internal Orders</strong> and <strong>Profit Center Accounting</strong>",
+      "<strong>Product Costing</strong> and <strong>Profitability Analysis (CO-PA)</strong>",
+      "<strong>Integration:</strong> SAP FI integration with MM, SD, PP, and HCM modules."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>SAP FICO Course Completion Certificate</strong>",
+    "intro": "While SAP certification is optional, our <strong>SAP FICO training</strong> aligns with the official syllabus and includes dedicated certification guidance to strengthen your professional profile.",
+    "highlights": [
+      "<strong>Certification Guidance:</strong> Study approaches, practice questions, and exam strategies from expert trainers.",
+      "<strong>Project-Based Learning:</strong> Real-time implementation projects demonstrating practical mastery.",
+      "<strong>Course Completion Certificate:</strong> Awarded from ICLP Technologies upon successful completion."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Technologies</strong> is the Top Choice for <strong>SAP FICO</strong> in the USA",
+    "intro": "We are recognized for delivering live, instructor-led SAP FICO online training that turns learners into industry-ready professionals for the US job market.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our trainers are experienced SAP consultants with years of practical experience in SAP implementation, consulting, production support, migration, and rollout projects across multiple industries."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP FICO Online Training</strong> Batches",
+      "description": "We cater to busy US schedules and time zones:",
+      "options": [
+        "<strong>Weekday Batches:</strong> Morning and evening live sessions for working professionals.",
+        "<strong>Weekend & Fast-Track Batches:</strong> Live, interactive sessions with access to cloud-based SAP servers, allowing you to learn from anywhere."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "SAP ERP", "icon": "" },
+    { "name": "SAP FICO", "icon": "" },
+    { "name": "SAP FI (Financial Accounting)", "icon": "" },
+    { "name": "SAP CO (Controlling)", "icon": "" },
+    { "name": "SAP S/4HANA Finance", "icon": "" },
+    { "name": "General Ledger (GL)", "icon": "" },
+    { "name": "Accounts Payable (AP)", "icon": "" },
+    { "name": "Accounts Receivable (AR)", "icon": "" },
+    { "name": "Asset Accounting", "icon": "" },
+    { "name": "Bank Accounting", "icon": "" },
+    { "name": "Cost Center Accounting", "icon": "" },
+    { "name": "Profit Center Accounting", "icon": "" },
+    { "name": "Internal Orders", "icon": "" },
+    { "name": "Product Costing", "icon": "" },
+    { "name": "Profitability Analysis (CO-PA)", "icon": "" },
+    { "name": "Universal Journal (ACDOCA)", "icon": "" },
+    { "name": "SAP Fiori", "icon": "" },
+    { "name": "SAP MM Integration", "icon": "" },
+    { "name": "SAP SD Integration", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Configure SAP Financial Accounting (FI) modules",
+    "Manage General Ledger, Accounts Payable & Receivable",
+    "Configure Bank Accounting and Electronic Bank Statements",
+    "Perform Asset Accounting and Financial Closing activities",
+    "Configure Cost Center Accounting and Internal Orders",
+    "Implement Profit Center Accounting",
+    "Perform Product Cost Planning and Cost Object Controlling",
+    "Conduct Profitability Analysis (CO-PA)",
+    "Integrate SAP FI with MM, SD, PP, and HCM modules",
+    "Work with SAP S/4HANA Finance and Universal Journal (ACDOCA)"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP FICO",
+      "subtopics": [
+        "Overview of SAP ERP",
+        "SAP FICO Architecture",
+        "Organizational Structure in SAP",
+        "Client, Company Code, Chart of Accounts",
+        "Fiscal Year Variant, Posting Periods"
+      ]
+    },
+    {
+      "module": "General Ledger Accounting",
+      "subtopics": [
+        "Chart of Accounts Design",
+        "GL Account Master Data",
+        "Document Types and Number Ranges",
+        "Posting Transactions",
+        "New General Ledger Concepts",
+        "Account Balances and Reports"
+      ]
+    },
+    {
+      "module": "Accounts Payable",
+      "subtopics": [
+        "Vendor Master Data",
+        "Invoice Processing",
+        "Payment Program Configuration",
+        "Automatic Payment Methods",
+        "Down Payments and Special GL Transactions",
+        "Account Analysis and Reconciliation"
+      ]
+    },
+    {
+      "module": "Accounts Receivable",
+      "subtopics": [
+        "Customer Master Data",
+        "Invoice and Credit Memo Processing",
+        "Payment Processing",
+        "Dunning Configuration",
+        "Lockbox Processing",
+        "Credit Management"
+      ]
+    },
+    {
+      "module": "Asset Accounting",
+      "subtopics": [
+        "Asset Master Data",
+        "Acquisition and Retirement",
+        "Depreciation Calculation",
+        "Asset Transfers",
+        "Asset Reports",
+        "Integration with Fixed Assets"
+      ]
+    },
+    {
+      "module": "Bank Accounting",
+      "subtopics": [
+        "Bank Master Data",
+        "Electronic Bank Statements",
+        "Manual and Automatic Bank Reconciliation",
+        "Check Management"
+      ]
+    },
+    {
+      "module": "SAP Controlling (CO) – Cost Controlling",
+      "subtopics": [
+        "Introduction to SAP CO",
+        "Integration with FI",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting",
+        "Product Costing",
+        "Profitability Analysis (CO-PA)",
+        "Real-time cost controlling scenarios & reporting"
+      ]
+    },
+    {
+      "module": "SAP S/4HANA Finance Essentials",
+      "subtopics": [
+        "Universal Journal (ACDOCA)",
+        "New General Ledger",
+        "SAP Fiori Applications",
+        "Business Partner Integration",
+        "Financial Closing Cockpit",
+        "Embedded Analytics",
+        "Central Finance Concepts"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP FICO?",
+      "answer": "SAP FICO (Financial Accounting and Controlling) is a core SAP ERP module used to manage financial accounting, reporting, cost management, budgeting, and internal controlling processes."
+    },
+    {
+      "question": "What will I learn in the SAP FICO Online Training?",
+      "answer": "The course covers Financial Accounting (FI), Controlling (CO), General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Bank Accounting, Cost Center Accounting, Profit Center Accounting, Internal Orders, Product Costing, Profitability Analysis (CO-PA), SAP S/4HANA Finance, and real-world implementation scenarios."
+    },
+    {
+      "question": "Is this course suitable for beginners?",
+      "answer": "Yes. The training starts from the fundamentals of SAP FICO and gradually progresses to advanced configuration and implementation topics, making it suitable for beginners, finance professionals, and working professionals."
+    },
+    {
+      "question": "Do I need an accounting background to learn SAP FICO?",
+      "answer": "No. While basic accounting knowledge is helpful, our trainers explain finance concepts alongside SAP functionality, making the course accessible to learners from various educational and professional backgrounds."
+    },
+    {
+      "question": "Is the training conducted online?",
+      "answer": "Yes. All sessions are delivered live through instructor-led online classes. Learners can participate from anywhere in the USA or globally."
+    },
+    {
+      "question": "Are weekday and weekend batches available?",
+      "answer": "Yes. We offer flexible weekday, weekend, fast-track, and customized batch schedules to accommodate students and working professionals."
+    },
+    {
+      "question": "Will I get hands-on SAP practice?",
+      "answer": "Yes. Practical learning is a core part of our program. Learners gain hands-on experience with SAP through guided exercises, real-world scenarios, assignments, and implementation-based activities."
+    },
+    {
+      "question": "Does the course include SAP S/4HANA Finance?",
+      "answer": "Yes. The curriculum includes SAP S/4HANA Finance concepts such as Universal Journal (ACDOCA), Business Partner, SAP Fiori, Financial Closing, and Embedded Analytics."
+    },
+    {
+      "question": "Will I receive study materials?",
+      "answer": "Yes. Participants receive digital course materials, assignments, interview questions, case studies, and recorded sessions to support their learning."
+    },
+    {
+      "question": "Is placement assistance provided?",
+      "answer": "Yes. We provide placement assistance, including resume preparation, LinkedIn profile optimization, mock interviews, interview guidance, and career mentoring."
+    },
+    {
+      "question": "Can working professionals join this course?",
+      "answer": "Absolutely. The course is designed for working professionals with flexible learning schedules and practical, career-focused content."
+    },
+    {
+      "question": "What career opportunities are available after SAP FICO training?",
+      "answer": "Learners can pursue roles such as SAP FICO Consultant, SAP Finance Consultant, SAP Functional Consultant, SAP Support Consultant, SAP Business Analyst, SAP S/4HANA Finance Consultant, and ERP Finance Consultant."
+    },
+    {
+      "question": "Which industries hire SAP FICO professionals?",
+      "answer": "SAP FICO professionals are employed across manufacturing, banking, healthcare, retail, automotive, pharmaceuticals, logistics, consulting, telecommunications, energy, insurance, and government organizations."
+    },
+    {
+      "question": "Will I receive a course completion certificate?",
+      "answer": "Yes. Upon successful completion of the training program, learners receive a Course Completion Certificate from ICLP Technologies."
+    },
+    {
+      "question": "How can I enroll?",
+      "answer": "You can contact our admissions team through our website, phone, WhatsApp, or email to enroll in the next available batch."
+    }
+  ]
+},{
+  "course_name": "Medical Coding",
+  "path": "medical-coding-training-in-chennai",
+  "name": "Medical Coding Training in Chennai with CPC Certification & Placement",
+  "canonical_url": "https://iclptech.in/course/medical-coding-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/medical-coding-training-in-chennai/#medical-coding-training-service",
+        "name": "Medical Coding Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Medical Coding Certification Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/medical-coding-training-in-chennai/#course",
+        "name": "Medical Coding Training with CPC Certification",
+        "description": "Instructor-led Medical Coding training covering ICD-10-CM, CPT, HCPCS Level II coding, medical terminology, anatomy, physiology, insurance and claims, and HIPAA compliance. Includes live coding practice, real-time case studies, CPC certification preparation, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Blended",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "CPC Certification",
+        "timeRequired": "PT40H",
+        "keywords": "Medical Coding Training, CPC Course, ICD-10-CM, CPT Coding, HCPCS Level II, Medical Coding Certification, Medical Coding Chennai",
+        "about": [
+          { "@type": "Thing", "name": "ICD-10-CM Diagnosis Coding" },
+          { "@type": "Thing", "name": "CPT Procedural Coding" },
+          { "@type": "Thing", "name": "Medical Billing & Reimbursement" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Blended",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Medical Terminology",
+            "Human Anatomy & Physiology",
+            "ICD-10-CM Diagnosis Coding",
+            "CPT Coding",
+            "HCPCS Level II",
+            "Insurance & Claims",
+            "Compliance & HIPAA",
+            "Practical Case Studies"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/medical-coding-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1200"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/medical-coding-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "Medical Coding Training", "item": "https://iclptech.in/course/medical-coding-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/medical-coding-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Medical Coding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Medical coding is the process of converting medical diagnoses, procedures, and treatments into standardized alphanumeric codes used for healthcare billing and insurance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Medical Coding a good career?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Medical coding offers excellent career opportunities in hospitals, insurance companies, healthcare BPOs, and multinational organizations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can learn Medical Coding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Life science graduates, pharmacy graduates, nursing graduates, physiotherapists, and healthcare professionals can pursue medical coding."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, mock interviews, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is CPC Certification included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide complete CPC certification preparation and guidance."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta_title": "Medical Coding Training in Chennai | CPC Course | Placement",
+  "meta_description": "Join the best Medical Coding Training in Chennai with CPC certification, live projects, expert trainers, interview preparation, and placement assistance. Enroll today.",
+  "description": "ICLP Technologies provides industry-focused Medical Coding Training in Chennai designed for fresh graduates, life science students, pharmacy graduates, nurses, physiotherapists, and healthcare professionals. Our comprehensive CPC certification program covers ICD-10-CM, CPT, HCPCS Level II coding, medical terminology, anatomy, physiology, reimbursement processes, and real-time medical case studies. Expert trainers deliver practical learning with live coding exercises, mock interviews, resume preparation, certification guidance, and placement assistance to help students launch successful careers in healthcare BPOs, hospitals, insurance companies, and multinational organizations.",
+  "career_benefits": {
+    "heading": "Why Medical Coding Training is Essential for Your Career",
+    "description": "<strong>Medical Coding</strong> is a high-demand healthcare support career that translates diagnoses, procedures, and treatments into standardized codes for billing and insurance. Mastering CPC-aligned coding skills opens doors to stable, well-paying roles in healthcare and BPO organizations.",
+    "points": [
+      "<strong>Global Demand:</strong> Hospitals, insurance companies, and healthcare BPOs across India and internationally require certified medical coders.",
+      "<strong>Career Growth:</strong> Roles like Medical Coder, Coding Auditor, and Revenue Cycle Executive offer strong entry-level opportunities and growth paths.",
+      "<strong>Skill Mastery:</strong> Our training goes beyond theory, focusing on live coding practice, real-time case studies, and CPC exam readiness."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Medical Coding Course Curriculum</strong>",
+    "intro": "Our <strong>Medical Coding course</strong> is structured to build strong foundational knowledge in anatomy and terminology, then advance into ICD-10-CM, CPT, and HCPCS Level II coding systems along with billing and compliance."
+  },
+  "track_overview_primary": {
+    "heading": "Foundational <strong>Clinical Knowledge</strong> Covered",
+    "description": "We cover the core clinical foundation required for accurate coding, including:",
+    "topics": [
+      "<strong>Medical Terminology</strong>",
+      "<strong>Human Anatomy & Physiology</strong>",
+      "Body Systems Relevant to Coding",
+      "Clinical Documentation Basics"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Coding & <strong>Billing Systems</strong> Covered",
+    "description": "This section focuses on coding standards and reimbursement processes:",
+    "topics": [
+      "<strong>ICD-10-CM</strong> Diagnosis Coding",
+      "<strong>CPT Coding</strong> for Physician Services",
+      "<strong>HCPCS Level II</strong> for Supplies & Equipment",
+      "<strong>Insurance & Claims:</strong> Medical billing workflow, reimbursement, Compliance & HIPAA."
+    ]
+  },
+  "certification_info": {
+    "heading": "Earn Your Professional <strong>CPC Certification</strong>",
+    "intro": "Achieving your <strong>CPC certification</strong> validates your expertise and significantly enhances your profile. Our <strong>Medical Coding training</strong> is structured to align with the CPC certification exam requirements.",
+    "highlights": [
+      "<strong>Certification Preparation:</strong> Dedicated mock tests and doubt-clearing sessions to prepare you for the CPC exam.",
+      "<strong>Practical Case Studies:</strong> Real-time coding scenarios to build confidence and job-readiness.",
+      "<strong>Recognized Credential:</strong> Complete exam-oriented coaching to help you earn a globally recognized CPC certification."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Technologies</strong> is the Top Choice for <strong>Medical Coding</strong> in Chennai",
+    "intro": "We are recognized as a leading <strong>Medical Coding training</strong> provider, dedicated to turning students into industry-ready professionals for the healthcare sector.",
+    "instructor_expertise": {
+      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
+      "description": "Our success is built on the expertise of our faculty. All instructors are experienced <strong>medical coding professionals</strong> with real-world knowledge of healthcare billing, compliance, and reimbursement processes. You learn coding accuracy and best practices directly from practitioners who have handled real cases."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Medical Coding Training</strong> Options",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our center in Chennai",
+        "<strong>Online Training:</strong> Live, interactive sessions, plus Weekend Batches and Fast Track Course options for flexible learning."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "ICD-10-CM", "icon": "" },
+    { "name": "CPT Coding", "icon": "" },
+    { "name": "HCPCS Level II", "icon": "" },
+    { "name": "Medical Terminology", "icon": "" },
+    { "name": "Human Anatomy & Physiology", "icon": "" },
+    { "name": "Medical Billing", "icon": "" },
+    { "name": "Insurance & Claims Processing", "icon": "" },
+    { "name": "HIPAA Compliance", "icon": "" },
+    { "name": "Reimbursement Methodology", "icon": "" },
+    { "name": "Revenue Cycle Management", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Medical Terminology and clinical vocabulary",
+    "Human Anatomy & Physiology for accurate coding",
+    "ICD-10-CM diagnosis coding standards",
+    "CPT coding for physician services",
+    "HCPCS Level II coding for supplies and equipment",
+    "Insurance & claims and medical billing workflow",
+    "Compliance & HIPAA regulations and documentation standards",
+    "Practical, real-time medical coding case studies"
+  ],
+  "syllabus": [
+    {
+      "module": "Medical Terminology",
+      "subtopics": [
+        "Word roots, prefixes, and suffixes",
+        "Clinical vocabulary used by healthcare professionals",
+        "Abbreviations and documentation terms"
+      ]
+    },
+    {
+      "module": "Human Anatomy & Physiology",
+      "subtopics": [
+        "Overview of body systems",
+        "Anatomy relevant to diagnosis and procedure coding",
+        "Common disease processes and conditions"
+      ]
+    },
+    {
+      "module": "ICD-10-CM",
+      "subtopics": [
+        "Diagnosis coding guidelines",
+        "Coding conventions and structure",
+        "Chapter-specific coding rules",
+        "Sequencing of diagnosis codes"
+      ]
+    },
+    {
+      "module": "CPT Coding",
+      "subtopics": [
+        "Procedural coding for physician services",
+        "Evaluation & Management (E/M) coding",
+        "Surgery, Radiology, and Pathology coding sections",
+        "Modifiers and coding guidelines"
+      ]
+    },
+    {
+      "module": "HCPCS Level II",
+      "subtopics": [
+        "Coding for supplies, equipment, and healthcare services",
+        "Durable medical equipment (DME) coding",
+        "Drug and injection coding"
+      ]
+    },
+    {
+      "module": "Insurance & Claims",
+      "subtopics": [
+        "Medical billing workflow",
+        "Reimbursement processes",
+        "Claims submission and processing",
+        "Denial management basics"
+      ]
+    },
+    {
+      "module": "Compliance & HIPAA",
+      "subtopics": [
+        "Healthcare regulations",
+        "HIPAA documentation standards",
+        "Patient privacy and data security"
+      ]
+    },
+    {
+      "module": "Practical Case Studies",
+      "subtopics": [
+        "Real-time coding scenarios",
+        "Case-based coding exercises",
+        "Building coding accuracy and confidence"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Medical Coding?",
+      "answer": "Medical coding is the process of converting medical diagnoses, procedures, and treatments into standardized alphanumeric codes used for healthcare billing and insurance."
+    },
+    {
+      "question": "Is Medical Coding a good career?",
+      "answer": "Yes. Medical coding offers excellent career opportunities in hospitals, insurance companies, healthcare BPOs, and multinational organizations."
+    },
+    {
+      "question": "Who can learn Medical Coding?",
+      "answer": "Life science graduates, pharmacy graduates, nursing graduates, physiotherapists, and healthcare professionals can pursue medical coding."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, mock interviews, and career guidance."
+    },
+    {
+      "question": "Is CPC Certification included?",
+      "answer": "We provide complete CPC certification preparation and guidance."
+    }
+  ]
 },
         {
           "course_name": "SAP EWM",
@@ -15939,7 +16708,7 @@
       "sub_categories": [
         {
           "course_name": "Workday HCM",
-          "path": "workday-hcm-online-course-training-in-chennai",
+          "path": "workday-hcm--training-in-chennai",
           "meta_title": "Workday HCM Course Online | Workday HCM Training | Workday HCM Certificate",
           "meta_description": "Become a Workday HCM expert with our online training & certification. Learn from industry trainers. Enroll now!",
           "description": "Master Workday Human Capital Management (HCM) for organizational management, security, and business processes.",
@@ -38153,7 +38922,7 @@
   "name":"Best Collibra Training in Chennai with Hands-On Practical Learning",
   "path": "collibra-online-training-course",
   "description": "Chennai is one of India’s fastest-growing IT hubs with increasing demand for Data Governance and Data Management professionals. If you are looking for the best Collibra Training in Chennai, ICLP Technologies provides industry-oriented training designed for freshers, data professionals, business analysts, IT consultants, and working professionals. Our Collibra Training in Chennai focuses on hands-on practical learning with real-time implementation scenarios, live projects, and enterprise-level use cases to help students gain practical exposure in Data Governance and Metadata Management. The course is delivered by experienced industry experts who provide certification guidance, interview preparation, practical assignments, and placement-oriented learning.",
-  "meta_title": "Collibra Training in Chennai |Collibra Online Course | Collibra Certification | ICLP Tech",
+  "meta_title": "Collibra Training in Chennai |Collibra Online Course in Chennai | Collibra Certification in Chennai | ICLP Tech",
   "meta_description": "Join Collibra Training in Chennai at ICLP Technologies and master Data Governance, Data Catalog, Metadata Management, Data Quality, and Workflow Automation with hands-on practical training, real-time projects, certification guidance, and placement assistance in Chennai.",
   "schema": {
     "@context": "https://schema.org",
@@ -44950,7 +45719,7 @@
         },
         {
           "course_name": "IBM Sterling",
-          "path": "ibm-sterling",
+          "path": "ibm-sterling-training-in-chennai",
           "description": "Specialized training in IBM Sterling technologies for job control language and enterprise integration.",
           "what_youll_learn": [
             "JCL programming",
@@ -45057,7 +45826,7 @@
           ],
           "duration": "30 hours",
           "skill_level": "Intermediate",
-          "image": "/CourseDetails/ibm-sterling.png",
+          "image": "/CourseDetails/ibm-sterling-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Enterprise Job Automation",

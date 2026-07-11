@@ -86,7 +86,7 @@ const Footer = () => {
     { name: "UI and UX", url: "/courses/ui-ux-designer-online-training-in-chennai/" },
     { name: "Salesforce", url: "/courses/salesforce-online-training-in-chennai/" },
     { name: "UNIX SHELL Scripting", url: "/courses/unix-shell-scripting-online-training-in-chennai/" },
-    { name: "Workday HCM", url: "/courses/workday-hcm-online-course-training-in-chennai/" },
+    { name: "Workday HCM", url: "/courses/workday-hcm--training-in-chennai/" },
     { name: "Salesforce Online Training", url: "/courses/salesforce-online-training-in-chennai/" },
     { name: "Salesforce Developer", url: "/courses/salesforce-developer-training-in-chennai/" },
     { name: "Azure DevOps", url: "/courses/azure-devops-training-in-chennai/" },
