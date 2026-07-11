@@ -41,7 +41,7 @@ export default function CategoryCoursesPage() {
   }, [path]);
 
   const handleCardClick = (course) => {
-    if (course?.path) router.push(`/course/${course.path}`);
+    if (course?.path) router.push(`/courses/${course.path}`);
   };
 
   const renderCourseImage = (image) => {
