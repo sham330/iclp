@@ -48,7 +48,7 @@ const TopCategories = () => {
 
 
   const handleCardClick = (path) => {
-    router.push(`/category/${path}`);
+    router.push(`/courses/${path}`);
   };
 
 

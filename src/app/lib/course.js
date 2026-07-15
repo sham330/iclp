@@ -11,10 +11,7 @@ export async function getAllCoursePaths() {
     coursesData.categories.forEach((category) => {
       if (category?.sub_categories) {
         category.sub_categories.forEach((sub) => {
-          paths.push({
-            path: sub.path,
-            courseName: sub.course_name,
-          });
+          if (sub.path) paths.push({ path: sub.path });
         });
       }
     });
