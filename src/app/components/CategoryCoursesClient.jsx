@@ -22,7 +22,7 @@ export default function CategoryCoursesClient({ categoryPath }) {
   }, [categoryPath]);
 
   const handleCardClick = (course) => {
-    if (course?.path) router.push(`/courses/${course.path}`);
+    if (course?.path) router.push(`/courses/${categoryPath}/${course.path}`);
   };
 
   const renderCourseImage = (image) => {

@@ -20,8 +20,9 @@ const staticPages = [
 
 function urlEntry({ loc, priority = "0.8", changefreq = "monthly", lastmod }) {
   const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : "";
+  const normalizedLoc = loc.endsWith("/") ? loc : `${loc}/`;
   return `  <url>
-    <loc>${BASE_URL}${loc}</loc>${lastmodTag}
+    <loc>${BASE_URL}${normalizedLoc}</loc>${lastmodTag}
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;
@@ -38,8 +39,9 @@ const coursesData = JSON.parse(
 );
 const coursePaths = [];
 for (const category of coursesData.categories ?? []) {
+  if (!category.path) continue;
   for (const sub of category.sub_categories ?? []) {
-    if (sub.path) coursePaths.push(sub.path);
+    if (sub.path) coursePaths.push(`${category.path}/${sub.path}`);
   }
 }
 const uniqueCoursePaths = [...new Set(coursePaths)];

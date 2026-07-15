@@ -31,9 +31,40 @@ const AppBar = () => {
 
   const phoneNumber = "86810 26181";
 
-  // Load all course names from your JSON data
+  // Load all course names from courses.json and build category map
   useEffect(() => {
-    const courses = [
+    // Build path→categoryPath map from Navbar.json
+    const navbarCatMap = {};
+    fetch("/data/Navbar.json")
+      .then((r) => r.json())
+      .then((navData) => {
+        for (const cat of navData.skillPrograms?.categories ?? []) {
+          for (const course of cat.courses ?? []) {
+            // path is like "/courses/sap-courses/sap-fico-training-in-chennai"
+            const parts = course.path?.split("/").filter(Boolean);
+            if (parts && parts.length >= 3) {
+              navbarCatMap[parts[2]] = parts[1]; // coursePath → categoryPath
+            }
+          }
+        }
+      })
+      .catch(() => {});
+
+    fetch("/data/courses.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const built = [];
+        const catMap = {};
+        for (const cat of data.categories ?? []) {
+          if (!cat.path) continue;
+          for (const sub of cat.sub_categories ?? []) {
+            if (sub.path) catMap[sub.path] = cat.path;
+            if (sub.course_name && sub.path)
+              built.push({ name: sub.course_name, path: sub.path, categoryPath: cat.path });
+          }
+        }
+        // merge with static list so nothing is lost
+        const staticCourses = [
       { name: "Java", path: "java-online-training-in-chennai" },
       { name: "Python", path: "python-development-online-training" },
       { name: "C Sharp", path: "c-sharp-online-training" },
@@ -265,8 +296,25 @@ const AppBar = () => {
       { name: "R12.2 Oracle E-Business Tax", type: "oracle", path: "oracle-tax-reporting" },
       { name: "R12.x Oracle Order Management", type: "oracle", path: "oracle-order-management" }
     ];
-
-    setAllCourses(courses);
+        // merge: prefer JSON-sourced entries, fall back to static for any not in JSON
+        const merged = [...built];
+        for (const sc of staticCourses) {
+          if (sc.path && !merged.find((c) => c.path === sc.path)) {
+            merged.push({ ...sc, categoryPath: catMap[sc.path] || navbarCatMap[sc.path] || null });
+          }
+        }
+        // also patch categoryPath for built entries using navbarCatMap
+        for (const entry of merged) {
+          if (!entry.categoryPath && entry.path) {
+            entry.categoryPath = navbarCatMap[entry.path] || null;
+          }
+        }
+        setAllCourses(merged);
+      })
+      .catch(() => {
+        // fallback: use static list only
+        setAllCourses(staticCourses.map((c) => ({ ...c, categoryPath: navbarCatMap[c.path] || null })));
+      });
   }, []);
 
   const handleHomeClick = () => {
@@ -320,17 +368,17 @@ const AppBar = () => {
   };
 
   const navigateToCourse = (course) => {
-    const getUrl = () => {
-      if (course.type === "sap" || course.type === "oracle") {
-        return `/courses/${course.path || encodeURIComponent(course.name)}/`;
-      }
-      return `/courses/${encodeURIComponent(course.path)}/`;
-    };
-
+    const slug = course.path || encodeURIComponent(course.name);
+    const categoryPath = course.categoryPath;
+    if (!categoryPath) {
+      alert("Course page not found. Please try another search term.");
+      return;
+    }
+    const url = `/courses/${categoryPath}/${slug}`;
     setSearchTerm("");
     setShowSuggestions(false);
     setActiveSuggestion(-1);
-    window.open(getUrl(), "_blank");
+    window.open(url, "_blank");
   };
 
   const handleSearch = (e) => {

@@ -34,7 +34,7 @@ const CourseAdvantagesTools = dynamic(() => import("../../components/CourseAdvan
 
 const CourseDetails = () => {
   const params = useParams();
-  const path = params?.path;
+  const path = params?.coursePath || params?.path;
   const courseName = params?.courseName;
 
 

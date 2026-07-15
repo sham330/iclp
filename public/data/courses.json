@@ -2,6 +2,7 @@
   "categories": [
     {
       "name": "Oracle",
+      "path":"oracle",
       "sub_categories": [
         {
           "course_name": "Oracle Financials",
