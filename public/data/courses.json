@@ -3383,6 +3383,7 @@
    "sub_categories": [
        {
   "course_name": "SAP FICO",
+                      "image": "/sap-fico.jpeg",
   "path": "sap-fico-training-in-chennai",
   "name":"SAP FICO Training in Chennai with Placement Assistance",
   "canonical_url": "https://iclptech.in/courses/sap/sap-fico-training-in-chennai",
@@ -3570,7 +3571,9 @@
               "text": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
             }
           }
-        ]
+        ],
+                            "image": "/sap-fico.jpeg"
+
       }
     ]
   },
@@ -3796,9 +3799,10 @@
   ]
 },{
   "course_name": "SAP FICO",
-  "path": "online-sap-fico-training-usa",
+                      "image": "/sap-fico.jpeg",
+  "path": "sap-fico-training-in-usa",
   "name": "SAP FICO Online Training in USA with Placement Assistance",
-  "canonical_url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-fico-training-in-usa",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -3829,7 +3833,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#sap-fico-training-service",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-usa/#sap-fico-training-service",
         "name": "SAP FICO Online Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -3839,7 +3843,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#course",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-usa/#course",
         "name": "SAP FICO Online Training in USA",
         "description": "Instructor-led live online SAP FICO training for the USA covering Financial Accounting (FI), Controlling (CO), SAP S/4HANA Finance, General Ledger, Accounts Payable/Receivable, Asset Accounting, Cost & Profit Center Accounting, Internal Orders, Product Costing, and Profitability Analysis. Includes live SAP server access, real-time projects, and placement assistance.",
         "provider": {
@@ -3866,7 +3870,7 @@
           "inLanguage": "English",
           "location": {
             "@type": "VirtualLocation",
-            "url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa"
+            "url": "https://iclptech.in/courses/sap/sap-fico-training-in-usa"
           },
           "curriculum": [
             "Introduction to SAP FICO",
@@ -3883,7 +3887,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/sap/online-sap-fico-training-usa",
+          "url": "https://iclptech.in/courses/sap/sap-fico-training-in-usa",
           "availability": "https://schema.org/InStock"
         },
         "aggregateRating": {
@@ -3894,16 +3898,16 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#breadcrumb",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-usa/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
           { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-          { "@type": "ListItem", "position": 3, "name": "SAP FICO Online Training USA", "item": "https://iclptech.in/courses/sap/online-sap-fico-training-usa" }
+          { "@type": "ListItem", "position": 3, "name": "SAP FICO Online Training USA", "item": "https://iclptech.in/courses/sap/sap-fico-training-in-usa" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/sap/online-sap-fico-training-usa/#faq",
+        "@id": "https://iclptech.in/courses/sap/sap-fico-training-in-usa/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -3985,7 +3989,9 @@
               "text": "Yes. Upon successful completion, learners receive a Course Completion Certificate from ICLP Technologies."
             }
           }
-        ]
+        ],
+                            "image": "/sap-fico.jpeg"
+
       }
     ]
   },
@@ -4566,6 +4572,7 @@
 },
         {
           "course_name": "SAP EWM",
+                      "image": "/sap-ewm.jfif",
           "path": "sap-ewm-training-in-chennai",
           "canonical_url": "https://iclptech.in/courses/sap/sap-ewm-training-in-chennai",
           "meta_title": "SAP EWM Training in India | SAP Extended Warehouse Management Certification",
@@ -5092,7 +5099,9 @@
                 "Integration with FI for real-time financial impact analysis"
               ]
             }
-          ]
+          ],
+                              "image": "/sap-fico.jpeg"
+
         },
         {
           "course_name": "SAP FICO Bangalore",
@@ -5254,7 +5263,9 @@
                 "Integration with FI for real-time financial impact analysis"
               ]
             }
-          ]
+          ],
+                              "image": "/sap-fico.jpeg"
+
         },
         {
           "course_name": "SAP FICO Chennai",
@@ -5416,7 +5427,9 @@
                 "Integration with FI for real-time financial impact analysis"
               ]
             }
-          ]
+          ],
+                    "image": "/sap-fico.jpeg"
+
         },
         {
           "course_name": "SAP BPC",
@@ -5974,6 +5987,7 @@
         {
   "course_name": "SAP MM",
   "path": "sap-mm-hyderabad",
+  "image": "/sap-mm.jfif",
   "canonical_url": "https://iclptech.in/courses/sap/sap-mm-hyderabad",
   "meta_title": "SAP MM Course in Hyderabad | SAP MM Training Hyderabad | SAP MM Certificate",
   "meta_description": "Master SAP MM with our expert-led course & certification in Hyderabad. Become a certified consultant. Enroll now to learn more!",
@@ -6123,6 +6137,7 @@
         {
   "course_name": "SAP MM",
   "path": "sap-mm-bangalore",
+    "image": "/sap-mm.jfif",
   "canonical_url": "https://iclptech.in/courses/sap/sap-mm-bangalore",
   "meta_title": "SAP MM Course in Bangalore | SAP MM Training Bangalore | SAP MM Certificate",
   "meta_description": "Master SAP MM with our expert-led course & certification in Bangalore. Become a certified consultant. Enroll now to learn more!",
@@ -6272,6 +6287,7 @@
         {
   "course_name": "SAP MM in Chennai",
   "path": "sap-mm-chennai",
+    "image": "/sap-mm.jfif",
   "canonical_url": "https://iclptech.in/courses/sap/sap-mm-chennai",
   "meta_title": "SAP MM Course in Chennai | SAP MM Training Chennai | SAP MM Certificate",
   "meta_description": "Master SAP MM with our expert-led course & certification in Chennai. Become a certified consultant. Enroll now to learn more!",
@@ -6421,6 +6437,7 @@
       {
   "course_name": "SAP MM",
   "path": "sap-mm-training-in-chennai",
+    "image": "/sap-mm.jfif",
   "canonical_url": "https://iclptech.in/courses/sap/sap-mm-training-in-chennai",
   "meta_title": "SAP MM Course Online | SAP MM Training | SAP MM Certificate",
   "meta_description": "Master SAP MM with our expert-led online course & certification. Become a certified consultant. Enroll now to learn more!",
@@ -6570,6 +6587,7 @@
         {
           "course_name": "SAP SD",
           "path": "sap-sd-training-in-chennai",
+            "image": "/sap-sd.jfif",
           "meta_title": "SAP SD Course Online | SAP SD Training | SAP SD Certificate",
           "meta_description": "Become a certified SAP SD consultant with our online course. Expert training, flexible schedule. Learn more & enroll today!",
           "description": "Comprehensive training on SAP Sales and Distribution module covering order-to-cash processes.",
@@ -7061,7 +7079,8 @@
                 "Reporting in PP"
               ]
             }
-          ]
+          ],
+          "image":"/sap-pp.jfif"
         },
         {
           "course_name": "SAP ABAP",
@@ -7523,8 +7542,8 @@
     "question": "How do I enroll in the SAP ABAP course?",
     "answer": "You can enroll by contacting the training team, booking a free consultation, or registering online before the next batch begins."
   }
-]
-
+],
+"image":"/sap-abap.jfif"
         },
         {
   "course_name": "SAP FICA Online Training",
@@ -8873,7 +8892,7 @@
           ],
           "duration": "60-70 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-scm.png",
+          "image": "/sap-scm.jfif",
           "placement_assurance": true,
           "projects": [
             "Demand and Supply Planning Model Implementation",
@@ -9754,7 +9773,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate to Advanced",
-          "image": "../CourseDetails/sap-ibp.png",
+          "image": "/sap-ibp.jfif",
           "placement_assurance": true,
           "projects": [
             "End-to-End S&OP Process Configuration",
@@ -10087,7 +10106,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-fscm-retail.png",
+          "image": "/sap-fscm.jfif",
           "placement_assurance": true,
           "projects": [
             "End-to-End Retail Merchandising Scenario",
@@ -10417,7 +10436,7 @@
           ],
           "duration": "45 hours",
           "skill_level": "Intermediate",
-          "image": "https://example.com/sap-qm.jpg",
+          "image": "/sap-qm.jfif",
           "placement_assurance": true,
           "projects": [
             "Implementing QM for manufacturing process",
@@ -10659,7 +10678,7 @@
           ],
           "duration": "50 hours",
           "skill_level": "Intermediate to Advanced",
-          "image": "https://example.com/sap-ariba.jpg",
+          "image": "/sap-ariba.jfif",
           "placement_assurance": true,
           "projects": [
             "Implementing Ariba Procurement for an enterprise",
@@ -10868,7 +10887,7 @@
           ],
           "duration": "55 hours",
           "skill_level": "Advanced",
-          "image": "https://example.com/sap-mdg.jpg",
+          "image": "/sap-mdg.jfif",
           "placement_assurance": true,
           "projects": [
             "Implementing Material Master governance",
@@ -11774,7 +11793,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-healthcare.png",
+          "image": "/sap-health.jfif",
           "placement_assurance": true,
           "projects": [
             "Patient Management System Setup",
