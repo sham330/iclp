@@ -14448,6 +14448,2280 @@
         }
       ]
     },
+      {
+      "category_name": "Full Stack Development",
+      "path": "full-stack-development",
+      "sub_categories": [
+        {
+          "course_name": "Full Stack Developer",
+          "path": "full-stack-developer-online-training",
+          "description": "Become a Full Stack Developer with expertise in Node.js and React.js.",
+          "what_youll_learn": [
+            "Build responsive websites with HTML, CSS, and Bootstrap",
+            "Master JavaScript and jQuery",
+            "Understand ES6 and modern JavaScript features",
+            "Develop dynamic web applications with React.js",
+            "Create RESTful APIs with Node.js",
+            "Implement state management with Redux or Context API",
+            "Work with databases using MongoDB and Mongoose",
+            "Deploy full-stack applications to cloud platforms"
+          ],
+          "syllabus": [
+            {
+              "module": "HTML",
+              "subtopics": [
+                "HTML Introduction and its use in websites",
+                "Introduction of HTML",
+                "Differences between HTML4 and HTML5",
+                "Elements/Tags, Attributes, Forms, Tables",
+                "Audio, Video, and HTML5 new elements"
+              ]
+            },
+            {
+              "module": "CSS",
+              "subtopics": [
+                "CSS Introduction and its use in websites",
+                "CSS Implementations in HTML",
+                "Animation Properties, Background Properties",
+                "Text Properties, Layout Properties",
+                "Selectors, Elements, Attributes, Pseudo Classes"
+              ]
+            },
+            {
+              "module": "Bootstrap",
+              "subtopics": [
+                "Bootstrap Basics",
+                "Fixed Layouts, Responsive Layouts",
+                "Tables, Images, Buttons, Forms",
+                "Glyphicons, Navigations, Breadcrumbs",
+                "Dropdowns, Paginations, Helper Classes"
+              ]
+            },
+            {
+              "module": "JavaScript",
+              "subtopics": [
+                "JavaScript Introduction",
+                "Basic Concepts, Conditional Statements",
+                "Loop Statements, Functions",
+                "DOM and Event Handlers",
+                "Working with Forms, Object-Oriented Programming"
+              ]
+            },
+            {
+              "module": "React.js",
+              "subtopics": [
+                "Introduction to React.js",
+                "Components and Props",
+                "State and Lifecycle",
+                "Hooks (useState, useEffect)",
+                "Routing with React Router"
+              ]
+            },
+            {
+              "module": "Node.js",
+              "subtopics": [
+                "Introduction to Node.js",
+                "Creating RESTful APIs",
+                "Working with Express.js",
+                "Database Integration",
+                "Deployment and Optimization"
+              ]
+            }
+          ],
+          "duration": "35 hours",
+          "skill_level": "Intermediate",
+          "image": "https://news.gala.com/wp-content/uploads/2024/08/Gala-Devspeak-Back-End-Front-End-Full-Stack-Blog-Banner-1920x1080-1.jpg",
+          "placement_assurance": true,
+          "projects": [
+            "E-commerce Website",
+            "Social Media App"
+          ]
+        },
+        {
+          "course_name": "Node.js",
+          "path": "node-js-online-training-in-chennai",
+          "description": "Learn Node.js for server-side development and building scalable web applications.",
+          "what_youll_learn": [
+            "Understand Node.js basics and event-driven architecture",
+            "Build RESTful APIs with Express.js",
+            "Work with databases like MongoDB (Mongoose ORM)",
+            "Deploy and scale Node.js applications",
+            "Implement JWT authentication and authorization",
+            "Optimize performance with caching (Redis) and clustering",
+            "Containerize applications using Docker"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to Node.js",
+              "subtopics": [
+                "Overview of Node.js and its features",
+                "Setting up the Node.js environment",
+                "Writing and running your first Node.js program"
+              ]
+            },
+            {
+              "module": "Node.js Basics",
+              "subtopics": [
+                "Modules and NPM",
+                "Event-driven architecture",
+                "File system operations"
+              ]
+            },
+            {
+              "module": "Express.js",
+              "subtopics": [
+                "Introduction to Express.js",
+                "Routing and middleware",
+                "Building RESTful APIs"
+              ]
+            },
+            {
+              "module": "Database Integration",
+              "subtopics": [
+                "Introduction to MongoDB",
+                "Connecting Node.js with MongoDB",
+                "CRUD operations"
+              ]
+            },
+            {
+              "module": "Deployment and Scaling",
+              "subtopics": [
+                "Deploying Node.js applications",
+                "Scaling with load balancers",
+                "Performance optimization"
+              ]
+            },
+            {
+              "module": "Project Work",
+              "subtopics": [
+                "Hands-on Node.js projects",
+                "Final project presentations"
+              ]
+            }
+          ],
+          "duration": "30 hours",
+          "skill_level": "Intermediate",
+          "image": "https://s3.ap-south-1.amazonaws.com/stage.radixweb.com/When_to_Consider_Using_Node_js_0d84032172.jpg",
+          "placement_assurance": true,
+          "projects": [
+            "RESTful API",
+            "Scalable Web Application"
+          ]
+        },
+        {
+          "course_name": "ReactJS",
+          "path": "react-js-online-training-in-chennai",
+          "description": "Master ReactJS for building dynamic and interactive user interfaces.",
+          "what_youll_learn": [
+            "Understand React basics and component-based architecture",
+            "Build reusable components and manage state (useState, useEffect)",
+            "Work with React Router for navigation",
+            "Integrate APIs and deploy React applications",
+            "Master state management with Redux Toolkit or Context API",
+            "Optimize performance with memoization and code splitting",
+            "Test React apps using Jest and React Testing Library"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to ReactJS",
+              "subtopics": [
+                "Overview of ReactJS and its features",
+                "Setting up the React environment",
+                "Writing and running your first React program"
+              ]
+            },
+            {
+              "module": "React Basics",
+              "subtopics": [
+                "Components and Props",
+                "State and Lifecycle",
+                "Handling Events"
+              ]
+            },
+            {
+              "module": "React Router",
+              "subtopics": [
+                "Introduction to React Router",
+                "Routing and navigation",
+                "Nested routes and route parameters"
+              ]
+            },
+            {
+              "module": "State Management",
+              "subtopics": [
+                "Introduction to Redux",
+                "Managing state with Redux",
+                "Using Redux with React"
+              ]
+            },
+            {
+              "module": "API Integration",
+              "subtopics": [
+                "Fetching data from APIs",
+                "Working with Axios",
+                "Handling API responses"
+              ]
+            },
+            {
+              "module": "Project Work",
+              "subtopics": [
+                "Hands-on React projects",
+                "Final project presentations"
+              ]
+            }
+          ],
+          "duration": "28 hours",
+          "skill_level": "Intermediate",
+          "image": "https://media.licdn.com/dms/image/v2/D5612AQFGwpK48J3nlQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1683494761628?e=2147483647&v=beta&t=pvgPIx9p39857-gFSVrPOo9lUyMAhmXzOXJFx0JRdTI",
+          "placement_assurance": true,
+          "projects": [
+            "Interactive User Interface",
+            "Single Page Application"
+          ]
+        },
+        {
+          "course_name": "Angular",
+          "path": "angular-developer-online-training-in-chennai",
+          "description": "Build dynamic web applications with Angular, covering components, services, routing, and deployment.",
+          "what_youll_learn": [
+            "Set up Angular development environment",
+            "Create components and data bindings",
+            "Use directives and pipes",
+            "Implement services and dependency injection",
+            "Handle HTTP requests with RxJS",
+            "Navigate with Angular Router",
+            "Validate forms and implement authentication",
+            "Deploy applications with Docker"
+          ],
+          "syllabus": [
+            {
+              "module": "Getting Started with Angular",
+              "subtopics": [
+                "Building Blocks of Web Application Development",
+                "Introduction to Angular",
+                "Angular Architecture",
+                "Building blocks of Angular",
+                "Angular Installation",
+                "Angular CLI",
+                "Angular CLI commands",
+                "Understanding files in Angular"
+              ]
+            },
+            {
+              "module": "Angular Components and Data Binding",
+              "subtopics": [
+                "Working of Angular Applications",
+                "Angular App Bootstrapping",
+                "Angular Modules",
+                "Decorators and its types",
+                "Angular Components",
+                "Creating A Component Through Angular CLI",
+                "Ways to specify selectors",
+                "Template and styles",
+                "Installing bootstrap to design application"
+              ]
+            },
+            {
+              "module": "Angular Directives and Pipes",
+              "subtopics": [
+                "Understanding Angular Directives",
+                "@Component Directive",
+                "Structural Directives",
+                "Attribute Directives",
+                "Custom Directives",
+                "Pipes",
+                "Built-in Pipes",
+                "Chaining pipes",
+                "Custom pipes",
+                "PipeTransform Interface & Transform Function"
+              ]
+            },
+            {
+              "module": "Angular Services and Dependency Injection",
+              "subtopics": [
+                "Angular service",
+                "Need for a service",
+                "Dependency Injection",
+                "Creating a service",
+                "Hierarchical Injector",
+                "Injecting a Service into Another Service",
+                "Observables"
+              ]
+            },
+            {
+              "module": "RxJS and HTTPClient",
+              "subtopics": [
+                "RxJS Library",
+                "Angular's Interaction with Backend",
+                "Parts of an Http Request",
+                "HttpClient"
+              ]
+            },
+            {
+              "module": "Angular Routes and Navigation",
+              "subtopics": [
+                "Angular Router",
+                "Setting Up Routes",
+                "Adding Routes Using RouterLink",
+                "Wildcard and Redirecting Routes",
+                "Adding Navigation Programmatically",
+                "Passing Route Parameters",
+                "Extracting Parameters Using ActivatedRoute",
+                "Optional Route Parameters",
+                "Child Routes",
+                "Route Guards",
+                "Location Strategies"
+              ]
+            },
+            {
+              "module": "Handling forms in Angular",
+              "subtopics": [
+                "Angular forms",
+                "Types of forms",
+                "Underlying building blocks of the form model",
+                "Template-driven vs Reactive forms",
+                "Template-driven forms",
+                "Reactive Forms",
+                "Dynamically adding data to a form"
+              ]
+            },
+            {
+              "module": "Validating Angular Forms",
+              "subtopics": [
+                "What is Form Validation?",
+                "Types of Form Validation",
+                "Built-in Validators",
+                "Form control's status and validity",
+                "Form Validation methods",
+                "CSS classes for Form control",
+                "Custom validators in Template Driven Forms"
+              ]
+            },
+            {
+              "module": "Authentication with JWT and Security",
+              "subtopics": [
+                "What is Authentication?",
+                "Authentication and authorization",
+                "Types of Authentication",
+                "Where to store tokens?",
+                "JSON Web Tokens (JWT)",
+                "Authentication in Angular application",
+                "Security threats in web application"
+              ]
+            },
+            {
+              "module": "Testing and Application Deployment In Angular",
+              "subtopics": [
+                "Testing",
+                "Why should we perform testing?",
+                "Types of testing",
+                "Testing Angular application using Jasmine and Karma",
+                "Maintaining application code using Git",
+                "Version control system",
+                "Why should we use Git?",
+                "Git file workflow",
+                "Running application on production server: Nginx",
+                "Architecture of Nginx",
+                "How to configure Nginx?",
+                "Deployment of an application using Docker",
+                "Problems before containers",
+                "How containers solve the problems",
+                "What is Docker?",
+                "Docker file",
+                "Docker image",
+                "Docker containers",
+                "Docker hub",
+                "Basic Docker commands"
+              ]
+            }
+          ],
+          "duration": "35 hours",
+          "skill_level": "Intermediate",
+          "image": "https://stream-blog-v2.imgix.net/blog/wp-content/uploads/f9547f9b9ba2dfa409118a00d2b7691d/Angular.png?auto=format&auto=compress",
+          "placement_assurance": true,
+          "projects": [
+            "E-Commerce Dashboard",
+            "User Authentication System"
+          ]
+        },
+        {
+          "course_name": "WordPress",
+          "path": "wordpress-online-training-in-chennai",
+          "description": "Create and manage WordPress websites, from installation to deployment and SEO optimization.",
+          "what_youll_learn": [
+            "Install and configure WordPress",
+            "Design websites with themes and plugins",
+            "Optimize content for SEO",
+            "Create blogs and image galleries",
+            "Add contact forms and social media integration",
+            "Deploy WordPress sites on web servers",
+            "Perform website auditing and maintenance"
+          ],
+          "syllabus": [
+            {
+              "module": "Overview",
+              "subtopics": [
+                "Introduction",
+                "Web designing tools and CMS",
+                "What is WordPress",
+                "Domain & Hosting"
+              ]
+            },
+            {
+              "module": "Setting up and Installing WordPress",
+              "subtopics": [
+                "Domain Purchase",
+                "SSL Certificate",
+                "Installation of Server",
+                "Installation of WordPress",
+                "Installation of My SQL and PHP",
+                "WordPress installation -- Alternatives"
+              ]
+            },
+            {
+              "module": "A Brief on HTML5 and CSS3",
+              "subtopics": [
+                "Introduction",
+                "Overview of Website SEO",
+                "Meta Tags in WordPress",
+                "Code -- Cheat sheet"
+              ]
+            },
+            {
+              "module": "Designing",
+              "subtopics": [
+                "Developing Colour Scheme",
+                "Developing Font",
+                "Dashboard creation",
+                "Website Branding",
+                "Menu creation",
+                "Navigation"
+              ]
+            },
+            {
+              "module": "WordPress",
+              "subtopics": [
+                "WordPress -- An overview",
+                "Where to Start",
+                "Image Library",
+                "Plugins",
+                "Image SEO",
+                "Introduction to Blogging",
+                "Blog SEO",
+                "Blog site creation"
+              ]
+            },
+            {
+              "module": "Website Creation",
+              "subtopics": [
+                "How to choose your Theme",
+                "Create Menu",
+                "How to add Category",
+                "Add one more post",
+                "Create About page",
+                "Create a Contact Form",
+                "Add Social Sharing Buttons",
+                "Add About the Author",
+                "Add About Me on Sidebar",
+                "Add Social Media Links on Sidebar",
+                "Add Read More section",
+                "How to add a Live Chat to your Website",
+                "How to add Google Map in WordPress",
+                "How to add Translate option in Website",
+                "Create Image Gallery"
+              ]
+            },
+            {
+              "module": "Website Validation",
+              "subtopics": [
+                "Know your Success",
+                "How to do Website Auditing",
+                "WordPress site Maintenance"
+              ]
+            },
+            {
+              "module": "Deployment",
+              "subtopics": [
+                "Deploying application on Web Server",
+                "Implement WordPress Site"
+              ]
+            }
+          ],
+          "duration": "25 hours",
+          "skill_level": "Beginner",
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATIAAAClCAMAAADoDIG4AAAAk1BMVEX///8yNzy4ubogJi0RGiIkKjBMT1MAEBoWHiUqMDUdJCsOGCAbIikuMzgnLTMZIShnam329vbCw8TX2Njl5eaHiYu1tre+v8CeoKEAAAAIFB3e399zdnk+Q0fJysuGiIqpqqyRk5VdYGM3PEHt7e5PU1dwcnWWl5mipKXP0NF9f4Gtrq8AAA49QUZoa25OUlYABhRVo+zvAAAPwUlEQVR4nO1d6ZqjOg4NMQ5bMCF7AVkgS2Wppd//6caSV1LpvvebSXeqB58fVWGNOUiyJMtOr+fg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODwFEzX1+Vss5ktr+vps9vyF2C6HcWBhXi0dbT9Avl2FRSBVy0X55LjvFhWHt+x2ubPbtk3xX6WJMFovr/ZOx8FSTLb37+m26iDJD3dFaf8lCZB/afb8+2xZkk011vTyXjRH5+NFZtHCVs/o13fF5egeJUfz/UhCbOYkDgLk0OtiHotgsuzWvcNsV/5KyFR5SbOWOpppCyLNyUemvKTnEWTKGkhBKgcFcz7AlY0grRLQctntvP7oPSLE/zPL0X0lTBAVFTYL5wK33HGMQ0DtPtrekfCtKQRtGnzIHSObS+nBTJWFz8nDBDM4Kx5QZ1bO0iW8O84/DVjdLWcwHnLZPDc9j4fG7+CfyP6a8Zi7clW/uZ5rf0OOAc7+FeRXzMWjcwlu+D8rNZ+C3gBqNsy+zVjXjYxl0wC72nN/QZYJmDU1y9xzF390AdZY37Iff84JnIfdqOJfdFMWL9uIveH8G+8WIzXk3KaL4jHNr19OVnzXbhv39uwW8p6Q7+7veZrcmpt70OP9m/OmYPoha1I6ZS89roKklkby/qyA8Ws6qUSoumyrrArpVd9GpCXkT/Zyu+ERWEnwUaxCJcilmzVvh9M7Et3+jS4pC4Wf66V3wpNwKOfqYqAFtrRSLW3elFBJ9mqXQcuZtOg+dNt/R7IA6DmVZuzRPsUiaJxHatd2uI3YMcGQTc7gEUBzsJupbaPOo9BtXnXDhur5J4D6Oiyo5q5ATd26ut8zkKLlJeqc7RmeoU8DUVwEnQzalr5/M+VMt0HhJqyUMVEax2tR0LM8oRu+T9/9eV2XUDxyf9UkRepHUYzmU7zmwRHgeZrkiF3n8Wfb+/zUeLwxy71MiVSY6OZvjrrovOO8Ri2tzR9h91BF9Oz6wCsf8FVTouU6TNjZd6NZoo+oYk8ELBl0MUhuj7kr/dgv0K1q9KaabI9WvJQWfNERE/z4Daw6gKuAZekEigj6vEtzSxUVKk1E20YRJwh18lFcP3Jbf+fsQ3GYM3BpdC+vOkzdU7snNlSdkhF8mwcbJ/R5ifjCpShlHmJEimtmcbz6Kk4inLTtwdrB1I27qSUoWJOkTKqgiatmaFJw26Y6TFPkNeAcbluKiY+de6js68dU19Sxt1/1SUqzfS5KK6g9gDCTeS7czhj/ZPgKFRelgyQQC8DdaLQTMj/TPFs6GDrTo6Z7INjT9hzy3RJzeR6OX5TYiY0E05Zgl6mB77vGHSyoiWGnMRMWCqqdg5Vf1kRlbsQmgkxwg74ZTDCsouf0uRno4GklxSrTIkUaiZIVGjGSJDVGOpdVDeQdzTHuCzGyv6rPIUMkLheLmLj4YIkQlRVI3dg/cdFN8flRNJrJAx+otKsQ9FffkTGwwXNBNlKdSiFqbYugsAopkwsElUoywMkrpd5YXu4XLp4LH5GH24ICY3ODjHNQDOFpTIixTWT62Wf2B7ujEUfqqeA7Nq4mD2nxU/HJAAl2wq/S4tUnHpSXTEzhieGYNdwRBOHmkZd1UvulGGiMNUhJOKS1ZjjAUuvmImKvLfOZFjQK4PDc9r7DTAuwJsd+8q7R6xfJqKqQLpggNlBZoF8UOUjKnRHMUANO7JWJM49sEbWsSsP93wSXSnjJo3rc5cLGc/49HmU2iJ1Fjke7B6VhztFnzdl8HnQyfhSo8JasRJLi43jsFU5suhozozkWOYyqb7ep0PICfYA60B5XIhPPb/EVJJxwcMhkjIg3Swu0FgHETCwKCyRmpqRJu3hco8XiwryqJNjSy28iqr0tZ/KwV2Ze5WpRuVOjJiPVA06XI6ncfTR8Z/uKJHJ6ZU170uONOVvO6wGavzjT27TKTSCs94l+MT/pW8YUx7u9tI6tfNo/IGot/Awn720p01IDxdFLB84xhQuBRGuFmrhztJLK2jqnUnhJrFqnIJA5yYmL4Shb+ulESM+VX3mLAhOP7m8k5h4Sarcsum8Hq1YPKTvzWyuSkDHaeJ1Nn3xE9RBMfipx7UeFG4Jg6+YfgTF7nRnrG1/2hXBh5u6eg9lVRTB5/JsBUT5efkZFEXVxQK8f4f82gRFEERNNavrWdVEAd9srh0PKv8J+bhuWCHWSCpYU48dX/8K+b6cTMq9Y8vBwcHBwcHBQWO+Gww+FQYrT7lKO1URfdInDAbvD87LTzzryz8/D81l+RcMYU5eL16YCiRNrTgZ+2ocY81PIHDU311eHzzwP32dHRLx3YxyMEazYf03OLhzkYyPrWTCMUqsnAMUAMe/aaxsgsPA0WXD0WTU82j2N4zKXWO7NhOQ2OswwIQH/7dpzNZeKOMV3t5fUfM/SO05gDgQm1oFS2UY/b5B/z2wpFd6m0PJ1N9QwQ7VmbpArifm51qa2Sf+b8wAEpsymJBp5uZ/Z4Bm+pojLKO2NLOirRq582lz/OB9wYPsNIi4oQyr3pP//tbT6+wyu8ICHQfzzvN+fZltIY95eJiBgXo4s7wHlgSbKYG9kBj6ykuWDcMQlodKGm2o691qoHE4Wlmwvmcfaap6fpuBbVqUoZ5m5559w8+mMt5Hs7KOSGip3I8KkoV+WDT7+k3fc1PEQ74zGUwWbw/r9KEc31ivj6hV3TqO9VvPq4JFfrPsL64XQqNwIJ9/fZoxhs6CzxHTuNjIS8pt/U7Rj4AjfjgkYfTaEiKom7VWrYS67Hjcu54qHy8jcBWhYSRfW/90ySI4QMUNM5pGqoav9CMW1ddtFdKYqXvmHk2Hl+t2Q+iQxY/zk0KLozzxUlszj1QJ3IQwb/ihqDz5Xlps9S2g1CL6mJbl+TVOPUoNC2Lpgiksvt6/cEeCtlYoa1OWS8rg2+Aj3fLr1hX/GGqx3+NCaDXccHJebLJUrruRD1Mo7YYzGqbvOYhSMVrfu8TeAymDiTKKoz6J+9TSzESVNEGZWGg9bcm7N18PpkFhuuxZ95y91NSJiYmsaqvmqhdbxrFNGZ4rlyOBI/IZ+3w30SUuMA9F1yv39lTOeKqpN1Q7P1N5z0XmZcoWVI+UMqy7lM8xoh+21C1iWeUExYisVQNwTvjjbeUGPKxyRuB21IxM+jZlvT7fZKYetk0ZVlJJqYHqDfWMWOWoBodhySVDWe/0JhrI5VwvUVX68p78QlP4Fw8fGMAYjvKE9FGXpNH/UHoJxRRR+yqIC9SSFnuLMiwWNuemLcpwUgTV3Lcpg1LkeCs+Q+G2ogxWVDLltsMWZdMX8XKJvXhcU4h78t7FRC71I4u9K80R98Jy4akhVbkv9fJE7F5VAAqFlXCCa6IpA8/BuArvaYsyfD9qkZ82ZYfIksC+RRlMudZLRcAsf0lZDd8uB45BPgfqS68vYie8/Ejd/vzyQMoMRyMKLSuUe9RX/SVp1bZKwPPK4p0WZasWZasbysCn0SoOtxhO9hyTEywBR1fqun9FWdO+baSWLtzL32OAgCz1ZYVMfnqkT644Qr0UjgaK10jqZdsPUbhSrS8tysJWOHFLGS7/plYcwck5wtWjXkqt+Us2ZWgdVaLFomxgLUlbBlgZ/95alkRMb6TsN5QVKY7mBK099n8NMij0Enop9mU6FjReltXZlAGTsWnkLWXYLaoJ50gZJQR+NCF5f7XiS5sycHgDJSJIGdx+P8ssynozMakn9ubWzr5YnZvGD5/jqThqUC/Fy+FS1yeyv4TgDxfKagGddbHokUXZmlPCrPW0binDqxQZI7zxot9fjCdtvbcoq8G06wznRFBD/JDZCx9z1RR5rDSOrETMNpDTqMIHp0glR3khZ+OOhNQpvUSDTuZ3rxLRKXxMm8W8vx1xxoYD6/FvKcOr1KxfNP93cxdAGav78/nrO1dZU9UnKGNhGHPPf9S+JJZlpfHOBGZnL5akPdAtU00nC+wvAdDD8/ZoPxbWIqA/oSzXH6OQ8EAqDb3W0iD3KVuY772/zL+YtZnxO6asaKyAGihjs3Ky3q7o6OaiE5OrSNgTCPrvmSDtsZWSyFH1odqAE3PJiap+D7wQ+sUcTM3SUcjD4AId1Ogm9L6lDK8aSg5+TVnawCrubNkSQ8v8s1vKuCH1xEzjwr5mPAiRtIfOxECOeBis+huczsYi1Ylv6U3mVrRE+ybKlkFafHjTrlvKwBXVIe2vKeOqNOIdz65l5SzKNpaTcVYc9T1QTxFvTvTyogNM0Dx00XIx5a/QviAKuDZfOI0mur0Go70tflTmf8OvK9ppqVvKICrSq9r8I2UQdkTv9oFbV1bixWjdJlSPMjCTL7a4CtMjS3KRI2NOxRRAzSAasy/f5xn/VveY4MG3f7flljLsSpS1a9L26vUGSNlCLGwT2ZM0LcpKfDk5NiGzJG5J5F0banaOw3td2P8A5IgYPxCeJTKtmBRfNRNmNxPZdSNl8Epz+KUle7yqt2vHmLhWQWQfvD9+BdYVO4kxJARsDcxa63lx5wLbQOxhMf5a8AU39kgPN8gPpQzlyMohgz9qfwFoXNIWBx486hnQEJYLswYpj5RZzQfLwswmxPdmnmrYzppbgAaII6/g+xtDDzF66+0JkSV2noWbDNSQxkqawEt4qGJCOGa7OfviJgt/YLx7sHdU3F3KFDVnk72ALiAlWjeFy6e3BpDH0Ryhj3V/BAsyHlKYoAvQmU7k0qznyyl8Q4eFeL55w8dIaEiTEiOP3Ih+Mcf/EzhHLbE9pFF7UtGBcKEyGldxionexPVnZBQEAuklihYMKaXG709x5DHfuJQia+7f82VBGlWkCp/ZTkoIdlQmHzdmYriYf42KvyEmE0tH8HMztRZyzpX1oXoJ+t+Sqi29VfxZkabJBpuy30bMyxp9/lwEMSvBGXQBXjxYwOG1WMNmeDgeR6lPI1JcTMK2kt56urhNkuwrnMZPxcm4tlmaVFyf81o4q5SOquo4Gvix7D6IN4ziQZ+zn8+pJ35jjFMWM+rhb72ud+nw0eN9p2HLMZz6xe1zTA4Jo1m2e6chYVmqVzrK3gKCGL4FYC1yGvONLHiJoh8/YnEog2xFWDRbrcovb2++OEbi4OXtw/oiFqpD/ksGnd74B278+EHeEnUN3pBHB+QNX1TM9seEEp9EPJQK5NtuirIOKAmHUTikj5/DMn1pS9XqzmS/sl4l0FI/qox2ned9A/yh1am9R8P+TUz4BdbWwbndbbYOiV9Yu3dDdQK+2hfud0yqLMwyn9XqvUB2aD+jfGc4vPyGKRmztlQt7kcXeXk+T75hEcBYtKlc2y9Gfp6ez4/MLjo4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OPzt+A+yWQJkDO3gZQAAAABJRU5ErkJggg==",
+          "placement_assurance": true,
+          "projects": [
+            "Personal Blog",
+            "Business Website"
+          ]
+        },
+        {
+          "course_name": "HTML",
+          "path": "html-developer-online-training-in-chennai",
+          "description": "Master HTML5 to build modern, semantic, and interactive web pages.",
+          "what_youll_learn": [
+            "Use HTML5 semantic elements",
+            "Create forms with validation",
+            "Embed audio and video content",
+            "Draw graphics with Canvas and SVG",
+            "Implement client-side storage",
+            "Apply CSS3 styles and animations",
+            "Design layouts with Flexbox and Grid"
+          ],
+          "syllabus": [
+            {
+              "module": "Overview of HTML5",
+              "subtopics": [
+                "New in HTML5",
+                "New DOCTYPE and Character Set",
+                "New and Depreciated Elements",
+                "Semantic Markup",
+                "Simplifying Selection using the Selectors API",
+                "JavaScript Logging and Debugging",
+                "Window.JSON",
+                "DOM Level"
+              ]
+            },
+            {
+              "module": "Using HTML5",
+              "subtopics": [
+                "Currently available features",
+                "Browser Support",
+                "Detective native availability of features",
+                "Working with emulation",
+                "Create a web page that verifies the availability of new HTML5 features."
+              ]
+            },
+            {
+              "module": "Understanding HTML5 Markup",
+              "subtopics": [
+                "HTML5 Page Structure",
+                "HTML5 DOCTYPE",
+                "HTML5 markup structural elements",
+                "Semantic elements",
+                "Create a web page that make usage of new structural and semantic elements like main, section, aside, article, header, footer and other semantic elements."
+              ]
+            },
+            {
+              "module": "HTML5 Forms",
+              "subtopics": [
+                "HTML Forms VsXForms",
+                "Functional Forms",
+                "New Form Attributes and Functions",
+                "Placeholder Attribute",
+                "Autocomplete Attribute",
+                "Autofocus Attribute",
+                "List Attribute and datalist Element",
+                "Min and Max attributes",
+                "ValueAsNumber attribute",
+                "Required Attribute",
+                "Checking Forms with Validation",
+                "Validation Feedback",
+                "Develop a product entry form which uses HTML5 form elements and validation attributes."
+              ]
+            },
+            {
+              "module": "HTML 5 Audio & Video",
+              "subtopics": [
+                "The Audio and Video Elements",
+                "Understanding Audio and Video",
+                "Working with Audio and Video Containers",
+                "Understanding Audio and Video Codecs",
+                "Create a web page that displays multiple video and audio using HTML5 video and audio elements."
+              ]
+            },
+            {
+              "module": "HTML5 Canvas & SVG",
+              "subtopics": [
+                "Overview of Canvas Vs. SVG",
+                "Canvas coordinates",
+                "Context",
+                "Pixel Data",
+                "Working with Canvas APIs",
+                "Drawing Operations",
+                "Canvas Transforms",
+                "Understanding and Working with SVG",
+                "Create a web page that makes use of basic Canvas API and also displays svg graphics and drawings."
+              ]
+            },
+            {
+              "module": "HTML 5 Storage",
+              "subtopics": [
+                "Overview of HTML5 Web Storage",
+                "Browser Support for HTML4 Web Storage",
+                "Using the HTML5 Web Storage",
+                "Checking for Browser Support",
+                "Setting and Retrieving Values",
+                "Plugging Data Leaks",
+                "Create a web page that sites and gets data Run HTML5 web storage."
+              ]
+            },
+            {
+              "module": "CSS3 Overview",
+              "subtopics": [
+                "Introducing CSS3",
+                "CSS3 Colors, Gradients and Multiple Backgrounds",
+                "Rounded Corners and Border-Radius",
+                "CSS3 Transforms",
+                "Transitions",
+                "Animations & 2D Transformations",
+                "Web Fonts with @font-face",
+                "CSS3 Multicolumn Layouts",
+                "Develop a web page that enhances the richness of the page using CSS3,colours,gradients,border radius,animation,transformations and transitions."
+              ]
+            },
+            {
+              "module": "CSS3 Flexbox",
+              "subtopics": [
+                "Introduction",
+                "Box Model basics",
+                "Container",
+                "Direction",
+                "Wrapping",
+                "Justifying & Alignments",
+                "Display order",
+                "Flexibility",
+                "Alignment",
+                "Create a page that displays product gallery layout coded with flexbox."
+              ]
+            },
+            {
+              "module": "CSS Grid",
+              "subtopics": [
+                "Introduction",
+                "Grid Layout",
+                "Grid Elements",
+                "Placing Grid Lines",
+                "Attaching Elements to the Grid",
+                "Order and Align Items in Grid Layout",
+                "Grid Flow",
+                "Opening Grid Spaces",
+                "Create a page that displays product gallery layout coded with CSS grid."
+              ]
+            }
+          ],
+          "duration": "20 hours",
+          "skill_level": "Beginner",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5K08rKxUEHZsgxTHElnQc6bFEmuVzD6FUg&s",
+          "placement_assurance": true,
+          "projects": [
+            "Personal Portfolio",
+            "Interactive Form"
+          ]
+        },
+        {
+          "course_name": "CSS Online",
+          "path": "css-online-training",
+          "description": "Learn CSS3 to style and design responsive web layouts with Flexbox and Grid.",
+          "what_youll_learn": [
+            "Apply CSS3 colors, gradients, and animations",
+            "Create rounded corners and transformations",
+            "Use web fonts with @font-face",
+            "Design multicolumn layouts",
+            "Implement Flexbox for flexible layouts",
+            "Build complex layouts with CSS Grid",
+            "Enhance UI with transitions and effects"
+          ],
+          "syllabus": [
+            {
+              "module": "CSS3 Overview",
+              "subtopics": [
+                "Introducing CSS3",
+                "CSS3 Colors, Gradients and Multiple Backgrounds",
+                "Rounded Corners and Border-Radius",
+                "CSS3 Transforms",
+                "Transitions",
+                "Animations & 2D Transformations",
+                "Web Fonts with @font-face",
+                "CSS3 Multicolumn Layouts",
+                "Develop a web page that enhances the richness of the page using CSS3,colours,gradients,border radius,animation,transformations and transitions."
+              ]
+            },
+            {
+              "module": "CSS3 Flexbox",
+              "subtopics": [
+                "Introduction",
+                "Box Model basics",
+                "Container",
+                "Direction",
+                "Wrapping",
+                "Justifying & Alignments",
+                "Display order",
+                "Flexibility",
+                "Alignment",
+                "Create a page that displays product gallery layout coded with flexbox."
+              ]
+            },
+            {
+              "module": "CSS Grid",
+              "subtopics": [
+                "Introduction",
+                "Grid Layout",
+                "Grid Elements",
+                "Placing Grid Lines",
+                "Attaching Elements to the Grid",
+                "Order and Align Items in Grid Layout",
+                "Grid Flow",
+                "Opening Grid Spaces",
+                "Create a page that displays product gallery layout coded with CSS grid."
+              ]
+            }
+          ],
+          "duration": "15 hours",
+          "skill_level": "Beginner to Intermediate",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVjOKsxevuJrGJC1s8BSbUzGjEI8BeaX-Fg&s",
+          "placement_assurance": true,
+          "projects": [
+            "Responsive Product Gallery",
+            "Modern Dashboard Layout"
+          ]
+        },
+        {
+          "course_name": "jQuery",
+          "path": "j-query-developer-online-training-chennnai",
+          "description": "Master jQuery to simplify DOM manipulation, event handling, and AJAX interactions.",
+          "what_youll_learn": [
+            "Use jQuery selectors and filters",
+            "Manipulate DOM elements",
+            "Handle events and animations",
+            "Create AJAX requests",
+            "Parse JSON data",
+            "Develop jQuery plugins",
+            "Integrate jQuery UI widgets"
+          ],
+          "syllabus": [
+            {
+              "module": "jQuery Certification Introduction",
+              "subtopics": [
+                "Target Background",
+                "References",
+                "Unit Topics",
+                "What Is jQuery Certification ?",
+                "Benefits of Using a JavaScript Library",
+                "jQuery Certification Example",
+                "CSS Selectors",
+                "How to Use jQuery Certification",
+                "Practical Usage Notes",
+                "Background -- DOM",
+                "Background - DOM Ready Events",
+                "Background - JavaScript Functions",
+                "The jQuery Certification Function Object",
+                "What Does the $() Function Take as Argument?",
+                "What Does the $() Function do?",
+                "The jQuery Certification Wrapper",
+                "The jQuery Certification Wrapper as an Array-Like Object",
+                "Note: innerHTML() vs. .html()",
+                "jQuery Certification Wrapper Chaining",
+                "API Function Notation",
+                "Handling DOM Ready Event",
+                "xhtml Note"
+              ]
+            },
+            {
+              "module": "Selectors",
+              "subtopics": [
+                "Background: The Sizzle Selector Engine",
+                "Selecting Elements by Attribute",
+                "Pseudo-Selectors",
+                "Form Pseudo-Selectors",
+                "Faster Selection",
+                "Selecting Elements Using Relationships",
+                "Selecting Elements Using Filters",
+                "More on Chaining: .end()",
+                "Testing Elements",
+                "Is the Selection Empty?",
+                "Saving Selections",
+                "Iterating Through Selected Elements Using .each()",
+                "JavaScript Methods",
+                "JavaScript \"this\"",
+                "Function Context",
+                "The Function call() Method",
+                ".each() Revisited"
+              ]
+            },
+            {
+              "module": "Style Class Manipulation",
+              "subtopics": [
+                "Two Options",
+                "Specifying Style Properties",
+                "Setting Style Properties",
+                ".addClass() / .removeClass()",
+                "Defining a Stylesheet",
+                "Setting & Getting Dimensions",
+                "Attributes"
+              ]
+            },
+            {
+              "module": "DOM Manipulation",
+              "subtopics": [
+                "The $ Function Revisited",
+                "Getters and Setters",
+                "The text() Element Method",
+                "Appending DOM Elements",
+                "Removing DOM Elements",
+                "Performance"
+              ]
+            },
+            {
+              "module": "Events",
+              "subtopics": [
+                "Event Overview",
+                "Old School: Event Handling Using HTML Element Attributes",
+                "Unobtrusive JavaScript",
+                "Unobtrusive JavaScript Example",
+                "Multiple Handlers",
+                "Using jQuery Certification Wrapper Event Registration Methods",
+                "The .bind() Method",
+                "Event Propagation",
+                "Handlers for Elements Before They Exist!",
+                "The Event Object",
+                "Triggering Events"
+              ]
+            },
+            {
+              "module": "Utility Functions",
+              "subtopics": [
+                "The jQuery Certification Object Revisited",
+                "Functions May Have Methods",
+                "A jQuery Certification Utility Function: $.trim()",
+                "$.each()",
+                "Example jQuery Certification Utility Functions"
+              ]
+            },
+            {
+              "module": "Ajax",
+              "subtopics": [
+                "Ajax Overview",
+                "The Browser & the Server",
+                "The Ajax Request",
+                "The Ajax Response",
+                "Sending an Ajax Request With jQuery Certification - The General Case",
+                "When this code is executed...",
+                "Sending an Ajax Request With jQuery Certification - Simpler, Typical Case",
+                "Data Types",
+                "The .data() method"
+              ]
+            },
+            {
+              "module": "Advanced Ajax",
+              "subtopics": [
+                "A Form Example",
+                "An Ajax Form Example",
+                "Serialize()",
+                "Get vs. Post",
+                "More on Query Strings",
+                "ajaxStart() and ajaxError()"
+              ]
+            },
+            {
+              "module": "Animations and Effects with jQuery Certification and jQuery UI",
+              "subtopics": [
+                "What is jQuery Certification UI?",
+                "Can I do Animations and Effects using jQuery Certification only?",
+                "Hiding Elements with jQuery Certification",
+                "Using .hide() and .show() in jQuery Certification",
+                "Alternating an Element's Visibility in jQuery Certification",
+                "Adjusting the Speed in jQuery Certification",
+                "Providing a Handler in jQuery Certification",
+                "Using .slideUp() / .slideDown() methods in jQuery Certification",
+                "jQuery Certification UI Categories",
+                "jQuery Certification UI Interactions: Droppable and Draggable",
+                "Droppable and Draggable More Complete Example",
+                "jQuery Certification UI Widgets: Datepicker",
+                "jQuery Certification UI Widgets: Autocomplete"
+              ]
+            },
+            {
+              "module": "Parsing JSON",
+              "subtopics": [
+                "JSON",
+                "Reading JSON from the Server Using Ajax",
+                "Example file contents",
+                "Using the Results",
+                "Optimized Version",
+                "Getting More From the Response",
+                "jqXHR Methods",
+                "POST vs. GET",
+                "Invalid JSON",
+                "Using $.ajaxSetup()"
+              ]
+            },
+            {
+              "module": "Plugins",
+              "subtopics": [
+                "What is a plugin?",
+                "Goal",
+                "Self-Executing Anonymous Functions",
+                "Meeting Our Goal",
+                "Prototype Objects",
+                "The jQuery Certification Wrapper Class Revisited",
+                "Example Plugin",
+                "Using the Plugin"
+              ]
+            }
+          ],
+          "duration": "25 hours",
+          "skill_level": "Beginner to Intermediate",
+          "image": "data:image/jpeg;base64,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",
+          "placement_assurance": true,
+          "projects": [
+            "Interactive Form Validator",
+            "Dynamic Content Loader"
+          ]
+        },
+      {
+  "course_name": "Full Stack Java Training",
+  "name":"Full Stack Java Training Online with Placement Assistance",
+  "path": "full-stack-java-training-in-chennai",
+  "description": "ICLP Technologies offers industry-focused Full Stack Java Training Online designed for freshers, working professionals, non-IT candidates, engineering graduates, and career switchers who want to build a successful career in Full Stack Java Development.Our Java Full Stack Developer Course in Chennai provides practical learning with real-time projects, live web application development, frontend and backend integration, database management, API development, and deployment techniques used in modern software companies. Students gain hands-on experience in Java Programming, Core Java, Advanced Java, Spring Boot, Hibernate, React JS, HTML5, CSS3, JavaScript, SQL, REST APIs, GitHub, and Full Stack Application Development.",
+  "meta_title": "Full Stack Java Training Online | Java Full Stack Developer Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Full Stack Java Training Online at ICLP Technologies. Learn Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/full-stack-java-training-in-chennai/#service",
+        "name": "Full Stack Java Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Full Stack Java Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/full-stack-java-training-in-chennai/#course",
+        "name": "Full Stack Java Training Online",
+        "description": "Join Full Stack Java Training Online at ICLP Technologies with Java, Spring Boot, Hibernate, React JS, SQL, REST APIs, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Full Stack Java Training Online, Java Full Stack Developer Course in Chennai, Java Full Stack Training, Full Stack Java Course with Placement, Best Java Full Stack Institute in Chennai, Java Full Stack Certification Training, Spring Boot Training, React JS Training, Hibernate Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Full Stack Java Development"
+          },
+          {
+            "@type": "Thing",
+            "name": "Java Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "Spring Boot"
+          },
+          {
+            "@type": "Thing",
+            "name": "Hibernate"
+          },
+          {
+            "@type": "Thing",
+            "name": "React JS"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/full-stack-java-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "2100"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/full-stack-java-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Full Stack Java Training Online",
+            "item": "https://iclptech.in/course/full-stack-java-training-online/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/full-stack-java-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Full Stack Java Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Full Stack Java Training helps students learn frontend and backend development using Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, and REST APIs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Full Stack Java good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Java Development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, interview preparation, coding guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Full Stack Java training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Full Stack Java Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can learn Full Stack Java Development from basic programming concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Full Stack Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Full Stack Java Development with practical training and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Full Stack Java course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, certifications, project knowledge, and company requirements. Skilled Full Stack Java Developers receive attractive salary packages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Full Stack Java Training?",
+      "answer": "Full Stack Java Training helps students learn frontend and backend development using Java, Spring Boot, Hibernate, React JS, HTML, CSS, JavaScript, SQL, and REST APIs."
+    },
+    {
+      "question": "Is Full Stack Java good for freshers?",
+      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Java Development."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, coding guidance, and career assistance."
+    },
+    {
+      "question": "Is online Full Stack Java training available?",
+      "answer": "Yes. We provide online Full Stack Java Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can learn Full Stack Java Development from basic programming concepts."
+    },
+    {
+      "question": "Can non-IT students learn Full Stack Java?",
+      "answer": "Yes. Non-IT candidates can easily learn Full Stack Java Development with practical training and project guidance."
+    },
+    {
+      "question": "What is the salary after Full Stack Java course?",
+      "answer": "Salary depends on skills, certifications, project knowledge, and company requirements. Skilled Full Stack Java Developers receive attractive salary packages."
+    }
+  ],
+  "what_youll_learn": [
+    "Java Fundamentals",
+    "OOPs Concepts",
+    "Collections Framework",
+    "Exception Handling",
+    "Multithreading",
+    "File Handling",
+    "Java Streams",
+    "Lambda Expressions",
+    "JDBC",
+    "Servlets",
+    "JSP",
+    "MVC Architecture",
+    "Spring Core",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Security",
+    "Spring Data JPA",
+    "ORM Concepts",
+    "Entity Mapping",
+    "CRUD Operations",
+    "Database Integration",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "React JS",
+    "SQL",
+    "MySQL",
+    "Database Design",
+    "Query Optimization",
+    "Git & GitHub",
+    "Maven",
+    "Postman",
+    "VS Code",
+    "Eclipse IDE",
+    "Full Stack Application Development"
+  ],
+  "syllabus": [
+    {
+      "module": "Core Java Concepts",
+      "subtopics": [
+        "Java Fundamentals",
+        "OOPs Concepts",
+        "Collections Framework",
+        "Exception Handling",
+        "Multithreading",
+        "File Handling",
+        "Java Streams",
+        "Lambda Expressions"
+      ]
+    },
+    {
+      "module": "Advanced Java",
+      "subtopics": [
+        "JDBC",
+        "Servlets",
+        "JSP",
+        "MVC Architecture"
+      ]
+    },
+    {
+      "module": "Spring Framework",
+      "subtopics": [
+        "Spring Core",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Security",
+        "Spring Data JPA"
+      ]
+    },
+    {
+      "module": "Hibernate",
+      "subtopics": [
+        "ORM Concepts",
+        "Entity Mapping",
+        "CRUD Operations",
+        "Database Integration"
+      ]
+    },
+    {
+      "module": "Frontend Technologies",
+      "subtopics": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript",
+        "React JS"
+      ]
+    },
+    {
+      "module": "Database Technologies",
+      "subtopics": [
+        "SQL",
+        "MySQL",
+        "Database Design",
+        "Query Optimization"
+      ]
+    },
+    {
+      "module": "Development Tools",
+      "subtopics": [
+        "Git & GitHub",
+        "Maven",
+        "Postman",
+        "VS Code",
+        "Eclipse IDE"
+      ]
+    },
+    {
+      "module": "Real-Time Projects",
+      "subtopics": [
+        "E-Commerce Application",
+        "Employee Management System",
+        "Online Booking System",
+        "Full Stack Enterprise Projects"
+      ]
+    }
+  ],
+  "duration": "3-6 Months (Flexible Batches)",
+  "skill_level": "Beginner to Advanced (No Advanced Programming Knowledge Required)",
+  "image": "/CourseDetails/full-stack-java-training-online.png",
+  "placement_assurance": true,
+  "projects": [
+    "E-Commerce Application",
+    "Employee Management System",
+    "Online Booking System",
+    "REST API Development Project",
+    "Full Stack Enterprise Application"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Full Stack Java Training</strong>",
+    "description": "Full Stack Java Development is one of the most in-demand career opportunities in the software industry. Organizations actively hire Full Stack Java Developers for enterprise applications, cloud platforms, banking systems, and business software solutions.",
+    "points": [
+      "<strong>High Demand in MNC Companies:</strong> Companies across India and global markets actively hire Full Stack Java Developers for enterprise and web application roles",
+      "<strong>Attractive Salary Packages:</strong> Skilled Java Full Stack Developers receive competitive salaries based on project experience and technical expertise",
+      "<strong>Strong Career Growth:</strong> Build a career as Full Stack Java Developer, Backend Developer, Spring Boot Developer, React JS Developer, or Software Engineer",
+      "<strong>Global Job Opportunities:</strong> Companies in India, USA, UAE, Canada, Singapore, UK, and Europe are hiring Full Stack Java professionals",
+      "<strong>Enterprise Application Exposure:</strong> Learn technologies widely used in banking, cloud, e-commerce, and business software systems",
+      "<strong>Remote and Freelance Opportunities:</strong> Full Stack Java skills support remote jobs, freelance work, and long-term demand in modern development teams"
+    ]
+  }
+},
+      {
+  "course_name": "Python Full Stack",
+  "name":"Python Full Stack Developer Online Training with Placement Assistance",
+  "path": "python-full-stack-developer-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
+  "meta_title": "Python Full Stack Developer Online Training | Python Full Stack Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Python Full Stack Developer Online Training at ICLP Technologies. Learn Python, Django, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#service",
+        "name": "Python Full Stack Developer Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Python Full Stack Developer Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#course",
+        "name": "Python Full Stack Developer Online Training",
+        "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Python Full Stack Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Python Full Stack Developer Online Training, Python Full Stack Course in Chennai, Python Full Stack Training, Full Stack Developer Course with Placement, Best Python Full Stack Institute in Chennai, Python Full Stack Certification Training, Python Django Training, React JS Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Python Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "Django Framework"
+          },
+          {
+            "@type": "Thing",
+            "name": "React JS"
+          },
+          {
+            "@type": "Thing",
+            "name": "Full Stack Web Development"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1650"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Python Full Stack Developer Online Training",
+            "item": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Python Full Stack Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Python Full Stack good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Python Full Stack training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can learn Python Full Stack Development from basic concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Python Full Stack?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Python Full Stack course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Python Full Stack Training?",
+      "answer": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+    },
+    {
+      "question": "Is Python Full Stack good for freshers?",
+      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online Python Full Stack training available?",
+      "answer": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can learn Python Full Stack Development from basic concepts."
+    },
+    {
+      "question": "Can non-IT students learn Python Full Stack?",
+      "answer": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+    },
+    {
+      "question": "What is the salary after Python Full Stack course?",
+      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+    }
+  ],
+  "what_youll_learn": [
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "React JS",
+    "Responsive Web Design",
+    "Python Programming",
+    "Django Framework",
+    "REST API Development",
+    "Authentication & Authorization",
+    "API Integration",
+    "SQL",
+    "MySQL Database",
+    "Database Design",
+    "CRUD Operations",
+    "Git & GitHub",
+    "VS Code",
+    "Deployment Techniques",
+    "Debugging & Testing"
+  ],
+  "syllabus": [
+    {
+      "module": "Frontend Development Fundamentals",
+      "subtopics": [
+        "HTML5 structure and semantic tags",
+        "CSS3 styling and layouts",
+        "Bootstrap components and responsive design",
+        "JavaScript basics and DOM manipulation"
+      ]
+    },
+    {
+      "module": "Advanced Frontend with React JS",
+      "subtopics": [
+        "React JS fundamentals",
+        "Components, props, and state",
+        "React forms and event handling",
+        "Responsive UI development"
+      ]
+    },
+    {
+      "module": "Python Programming",
+      "subtopics": [
+        "Python syntax and core programming concepts",
+        "Functions, modules, and file handling",
+        "Object-oriented programming",
+        "Error handling and debugging"
+      ]
+    },
+    {
+      "module": "Django Framework",
+      "subtopics": [
+        "Introduction to Django architecture",
+        "Models, views, and templates",
+        "URL routing and app structure",
+        "Admin panel and project setup"
+      ]
+    },
+    {
+      "module": "Backend Development and APIs",
+      "subtopics": [
+        "REST API development",
+        "Authentication and authorization",
+        "API integration techniques",
+        "Backend business logic implementation"
+      ]
+    },
+    {
+      "module": "Database Management",
+      "subtopics": [
+        "SQL fundamentals",
+        "MySQL database setup and usage",
+        "Database design concepts",
+        "CRUD operations with backend integration"
+      ]
+    },
+    {
+      "module": "Version Control and Developer Tools",
+      "subtopics": [
+        "Git basics and version control workflow",
+        "GitHub repository management",
+        "VS Code productivity setup",
+        "Testing and debugging practices"
+      ]
+    },
+    {
+      "module": "Deployment and Real-Time Projects",
+      "subtopics": [
+        "Full stack application deployment",
+        "Project structure and production setup",
+        "Live web application development",
+        "Portfolio and dashboard application projects"
+      ]
+    },
+    {
+      "module": "Career Preparation",
+      "subtopics": [
+        "Resume building for developer roles",
+        "Coding interview questions and mock interviews",
+        "GitHub portfolio guidance",
+        "LinkedIn optimization and placement assistance"
+      ]
+    }
+  ],
+  "duration": "40+ Hours of Mastery",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/python-full-stack-developer-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Full Stack Web Applications",
+    "E-Commerce Projects",
+    "Portfolio Projects",
+    "Dashboard Applications"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Python Full Stack Training</strong> in Chennai",
+    "description": "Python Full Stack Development is one of the fastest-growing career opportunities in the software industry. Build job-ready skills in frontend and backend technologies, work on real-time projects, and prepare for developer roles in startups, product companies, and global IT firms.",
+    "points": [
+      "<strong>High Demand in IT Companies:</strong> Companies actively hire Full Stack Developers to build scalable web applications and business platforms",
+      "<strong>Attractive Salary Packages:</strong> Skilled Python Full Stack Developers receive competitive compensation based on project and technical skills",
+      "<strong>Strong Career Growth:</strong> Progress into roles such as Python Developer, Django Developer, React JS Developer, and Software Engineer",
+      "<strong>Global Job Opportunities:</strong> Companies across India, USA, UAE, Canada, Singapore, and Europe are hiring Full Stack Developers",
+      "<strong>Freelancing and Remote Work:</strong> Full stack skills open opportunities for freelance web development and remote software roles",
+      "<strong>Exposure to Frontend and Backend:</strong> Learn end-to-end development including UI, APIs, databases, authentication, and deployment"
+    ]
+  }
+},{
+  "course_name": "Python Full Stack",
+  "name":"Python Full Stack Developer Online Training with Placement Assistance",
+  "path": "python-development-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
+  "meta_title": "Python Full Stack Developer Online Training | Python Full Stack Course in Chennai with Placement | ICLP Technologies",
+  "meta_description": "Join Python Full Stack Developer Online Training at ICLP Technologies. Learn Python, Django, React JS, HTML, CSS, JavaScript, SQL, APIs, and Full Stack Development with real-time projects and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/python-development-online-training-in-chennai/#service",
+        "name": "Python Full Stack Developer Online Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Python Full Stack Developer Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/python-development-online-training-in-chennai/#course",
+        "name": "Python Full Stack Developer Online Training",
+        "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Python Full Stack Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Python Full Stack Developer Online Training, Python Full Stack Course in Chennai, Python Full Stack Training, Full Stack Developer Course with Placement, Best Python Full Stack Institute in Chennai, Python Full Stack Certification Training, Python Django Training, React JS Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Python Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "Django Framework"
+          },
+          {
+            "@type": "Thing",
+            "name": "React JS"
+          },
+          {
+            "@type": "Thing",
+            "name": "Full Stack Web Development"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/python-development-online-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1650"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/python-development-online-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Python Full Stack Developer Online Training",
+            "item": "https://iclptech.in/course/python-development-online-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/python-development-online-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Python Full Stack Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Python Full Stack good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Python Full Stack training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Beginners can learn Python Full Stack Development from basic concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students learn Python Full Stack?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after Python Full Stack course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Python Full Stack Training?",
+      "answer": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+    },
+    {
+      "question": "Is Python Full Stack good for freshers?",
+      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+    },
+    {
+      "question": "Is online Python Full Stack training available?",
+      "answer": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge?",
+      "answer": "No. Beginners can learn Python Full Stack Development from basic concepts."
+    },
+    {
+      "question": "Can non-IT students learn Python Full Stack?",
+      "answer": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
+    },
+    {
+      "question": "What is the salary after Python Full Stack course?",
+      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+    }
+  ],
+  "what_youll_learn": [
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "React JS",
+    "Responsive Web Design",
+    "Python Programming",
+    "Django Framework",
+    "REST API Development",
+    "Authentication & Authorization",
+    "API Integration",
+    "SQL",
+    "MySQL Database",
+    "Database Design",
+    "CRUD Operations",
+    "Git & GitHub",
+    "VS Code",
+    "Deployment Techniques",
+    "Debugging & Testing"
+  ],
+  "syllabus": [
+    {
+      "module": "Frontend Development Fundamentals",
+      "subtopics": [
+        "HTML5 structure and semantic tags",
+        "CSS3 styling and layouts",
+        "Bootstrap components and responsive design",
+        "JavaScript basics and DOM manipulation"
+      ]
+    },
+    {
+      "module": "Advanced Frontend with React JS",
+      "subtopics": [
+        "React JS fundamentals",
+        "Components, props, and state",
+        "React forms and event handling",
+        "Responsive UI development"
+      ]
+    },
+    {
+      "module": "Python Programming",
+      "subtopics": [
+        "Python syntax and core programming concepts",
+        "Functions, modules, and file handling",
+        "Object-oriented programming",
+        "Error handling and debugging"
+      ]
+    },
+    {
+      "module": "Django Framework",
+      "subtopics": [
+        "Introduction to Django architecture",
+        "Models, views, and templates",
+        "URL routing and app structure",
+        "Admin panel and project setup"
+      ]
+    },
+    {
+      "module": "Backend Development and APIs",
+      "subtopics": [
+        "REST API development",
+        "Authentication and authorization",
+        "API integration techniques",
+        "Backend business logic implementation"
+      ]
+    },
+    {
+      "module": "Database Management",
+      "subtopics": [
+        "SQL fundamentals",
+        "MySQL database setup and usage",
+        "Database design concepts",
+        "CRUD operations with backend integration"
+      ]
+    },
+    {
+      "module": "Version Control and Developer Tools",
+      "subtopics": [
+        "Git basics and version control workflow",
+        "GitHub repository management",
+        "VS Code productivity setup",
+        "Testing and debugging practices"
+      ]
+    },
+    {
+      "module": "Deployment and Real-Time Projects",
+      "subtopics": [
+        "Full stack application deployment",
+        "Project structure and production setup",
+        "Live web application development",
+        "Portfolio and dashboard application projects"
+      ]
+    },
+    {
+      "module": "Career Preparation",
+      "subtopics": [
+        "Resume building for developer roles",
+        "Coding interview questions and mock interviews",
+        "GitHub portfolio guidance",
+        "LinkedIn optimization and placement assistance"
+      ]
+    }
+  ],
+  "duration": "40+ Hours of Mastery",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/python-full-stack-developer-online-training.png",
+  "placement_assurance": true,
+  "projects": [
+    "Full Stack Web Applications",
+    "E-Commerce Projects",
+    "Portfolio Projects",
+    "Dashboard Applications"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Python Full Stack Training</strong> in Chennai",
+    "description": "Python Full Stack Development is one of the fastest-growing career opportunities in the software industry. Build job-ready skills in frontend and backend technologies, work on real-time projects, and prepare for developer roles in startups, product companies, and global IT firms.",
+    "points": [
+      "<strong>High Demand in IT Companies:</strong> Companies actively hire Full Stack Developers to build scalable web applications and business platforms",
+      "<strong>Attractive Salary Packages:</strong> Skilled Python Full Stack Developers receive competitive compensation based on project and technical skills",
+      "<strong>Strong Career Growth:</strong> Progress into roles such as Python Developer, Django Developer, React JS Developer, and Software Engineer",
+      "<strong>Global Job Opportunities:</strong> Companies across India, USA, UAE, Canada, Singapore, and Europe are hiring Full Stack Developers",
+      "<strong>Freelancing and Remote Work:</strong> Full stack skills open opportunities for freelance web development and remote software roles",
+      "<strong>Exposure to Frontend and Backend:</strong> Learn end-to-end development including UI, APIs, databases, authentication, and deployment"
+    ]
+  }
+},
+        {
+          "course_name": "PHP",
+          "path": "php-online-training-in-chennai",
+          "description": "Learn PHP for server-side web development and dynamic web applications.",
+          "what_youll_learn": [
+            "Understand PHP basics and syntax",
+            "Work with forms and databases (MySQL, PostgreSQL)",
+            "Build dynamic web applications with sessions and cookies",
+            "Use PHP frameworks like Laravel or Symfony",
+            "Develop RESTful APIs for mobile and front-end apps",
+            "Secure PHP applications against SQL injection and XSS attacks",
+            "Optimize performance with caching and code profiling"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction to PHP",
+              "subtopics": [
+                "Overview of PHP and its features",
+                "Setting up the development environment",
+                "Writing and running your first PHP program"
+              ]
+            },
+            {
+              "module": "PHP Basics",
+              "subtopics": [
+                "Variables, data types, and operators",
+                "Control flow (if-else, switch, loops)",
+                "Functions and scope"
+              ]
+            },
+            {
+              "module": "Working with Forms",
+              "subtopics": [
+                "Handling form data",
+                "Validating user input",
+                "File uploads and handling"
+              ]
+            },
+            {
+              "module": "Database Integration",
+              "subtopics": [
+                "Introduction to MySQL",
+                "Connecting PHP with MySQL",
+                "CRUD operations"
+              ]
+            },
+            {
+              "module": "PHP Frameworks",
+              "subtopics": [
+                "Introduction to Laravel",
+                "Building web applications with Laravel",
+                "Routing and API integration"
+              ]
+            },
+            {
+              "module": "Project Work",
+              "subtopics": [
+                "Hands-on PHP projects",
+                "Final project presentations"
+              ]
+            }
+          ],
+          "duration": "30 hours",
+          "skill_level": "Beginner",
+          "image": "https://img.freepik.com/premium-photo/php-programming-text_272306-140.jpg?semt=ais_hybrid",
+          "placement_assurance": true,
+          "projects": [
+            "Dynamic Web Application",
+            "Content Management System"
+          ]
+        },
+        {
+          "course_name": "Groovy and Grails",
+          "path": "groovy-and-grails-online-training",
+          "description": "Build Java applications faster with Groovy and Grails framework.",
+          "what_youll_learn": [
+            "Groovy syntax",
+            "Grails architecture",
+            "GORM",
+            "REST APIs",
+            "Testing"
+          ],
+          "syllabus": [
+            {
+              "module": "Installation and Introduction to Groovy",
+              "subtopics": [
+                "Installing sdkman",
+                "Installing groovy development kit using sdkman",
+                "Understanding the various tools like groovyc, groovy shell and groovy console",
+                "Writing very basic commands on the groovy shell",
+                "How groovy compares to other JVM languages like Java"
+              ]
+            },
+            {
+              "module": "Variables & Operators",
+              "subtopics": [
+                "Defining variables using the 'def' keyword",
+                "Dynamic typing",
+                "Explicitly defining data types for a variable",
+                "Arithmetic, relational, logical operators",
+                "Elvis and spaceship operators in groovy"
+              ]
+            },
+            {
+              "module": "Functions",
+              "subtopics": [
+                "Defining functions in groovy",
+                "Function with implicit and explicit returns",
+                "Default arguments in functions",
+                "Closures",
+                "Functional programming in groovy",
+                "Functions that take groovy map as argument"
+              ]
+            },
+            {
+              "module": "Branching & Looping",
+              "subtopics": [
+                "'if' , 'if-else if-else' selection statements for branching",
+                "The groovy 'switch' statement to achieve branching",
+                "Looping using 'while' and 'for'",
+                "'break' and 'continue' statements"
+              ]
+            },
+            {
+              "module": "Object Oriented Programming",
+              "subtopics": [
+                "Classes and objects",
+                "Difference between instance variables and static variables.",
+                "Instance and static functions",
+                "Constructors",
+                "Groovy bean class",
+                "On demand encapsulation of object attributes in groovy",
+                "Operator overloading in groovy classes",
+                "Composition",
+                "Inheritance",
+                "Abstract classes",
+                "Interfaces",
+                "Traits",
+                "Organizing groovy code in packages",
+                "Default packages imported in groovy code"
+              ]
+            },
+            {
+              "module": "Collections",
+              "subtopics": [
+                "Using the List data type of groovy",
+                "Functional programming on list data structure using groovy closures",
+                "Meta programming on list data structure",
+                "Map data structure in groovy and various operations on a map"
+              ]
+            },
+            {
+              "module": "Expectation Handling",
+              "subtopics": [
+                "Flow of a program in the event of an exception thrown in the program",
+                "Exception handling using try-catch",
+                "Defining custom exceptions and throwing them",
+                "The finally block",
+                "How groovy exception handling is different from java exception handling"
+              ]
+            },
+            {
+              "module": "Metaprogramming",
+              "subtopics": [
+                "Meta Object protocol (MOP)",
+                "MetaClass",
+                "Adding dynamic methods to build in groovy classes at run time",
+                "Adding dynamic methods in custom groovy classes at run time"
+              ]
+            },
+            {
+              "module": "Builders",
+              "subtopics": [
+                "Introduction to the builder pattern",
+                "Designing domain specific language (DSL) to initialize objects in groovy",
+                "JSON builder",
+                "Object graph builder",
+                "Other builders available in the groovy programming language"
+              ]
+            },
+            {
+              "module": "Introduction and Installation of Grails",
+              "subtopics": [
+                "Install grails 3.x latest version using sdkman",
+                "Create your first grails project and open it in an IDE of your choice that has grails support",
+                "Understanding the dependency management and build system",
+                "Tour of the grails documentation"
+              ]
+            },
+            {
+              "module": "Model Layer",
+              "subtopics": [
+                "Introduction to ORM",
+                "Grails ORM models and how to define them",
+                "Connecting grails project to a MYSQL database",
+                "'constraints' closure",
+                "'mapping' closure",
+                "GORM model relationships - one to one, one to many, many to many",
+                "GORM saving, updating, deleting entities",
+                "Querying for GORM entities using dynamic finders, createCriteria and detached where",
+                "Handling model schema changes using database migration plugin"
+              ]
+            },
+            {
+              "module": "Controllers",
+              "subtopics": [
+                "Defining a grails controller",
+                "Defining actions in a controller",
+                "Mapping of urls to controllers and actions in the controller",
+                "Sending model from action to views",
+                "Redirecting to views",
+                "Storing flash messages",
+                "Implicit request object",
+                "Data binding of incoming request data - To parameters in the action function, command objects",
+                "Handling file uploads"
+              ]
+            },
+            {
+              "module": "View Layers",
+              "subtopics": [
+                "Introduction to groovy server pages (GSP)",
+                "GSP 'if', 'else', 'elseif' branching tags",
+                "GSP looping using the 'each' tag",
+                "Layouting gsp pages",
+                "GSP form tags",
+                "Static resource management tags",
+                "Link tags",
+                "GSP tags for displaying the model errors",
+                "Using GSP tags as method calls",
+                "Internationalization support"
+              ]
+            },
+            {
+              "module": "Service Layer",
+              "subtopics": [
+                "Writing business logic in service component of grails",
+                "Introduction to the Dependency injection (DI)",
+                "Injecting service components in other service components and controller components",
+                "Transaction support in grails services"
+              ]
+            },
+            {
+              "module": "Profiles",
+              "subtopics": [
+                "Purpose behind profiles",
+                "Introduction to web services and REST",
+                "REST profile in grails",
+                "Introducing other built in profiles in grails"
+              ]
+            },
+            {
+              "module": "Other Common Web Concerns",
+              "subtopics": [
+                "Declaring constraints in model classes",
+                "Validation on the constraints",
+                "Sharing constraints between multiple classes",
+                "Cookies",
+                "Http Sessions",
+                "Creating interceptors",
+                "Building CRUD interfaces using scaffolding in grails"
+              ]
+            },
+            {
+              "module": "Testing",
+              "subtopics": [
+                "Introduction to the testing framework and test support in grails",
+                "Writing unit tests for grails services",
+                "Writing integration tests for complex business scenarios",
+                "Introduction to functional testing"
+              ]
+            }
+          ],
+          "duration": "45 hours",
+          "skill_level": "Intermediate",
+          "image": "/CourseDetails/gg.png",
+          "placement_assurance": true,
+          "projects": [
+            "Web Application",
+            "RESTful Service"
+          ]
+        }
+      ]
+    },
     {
       "category_name": "Web Development",
       "path": "web-development",

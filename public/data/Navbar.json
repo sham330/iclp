@@ -56,19 +56,19 @@
       },
       {
         "title": "Full Stack Development",
-        "cat_path": "web-development",
+        "cat_path": "fullstack-development",
         "description": "End-to-end web application development with modern stacks and frameworks.",
         "courses": [
-          { "name": "MERN Stack", "path": "/courses/web-development/mern-stack-training-in-chennnai" },
-          { "name": "MEAN Stack", "path": "/courses/web-development/mean-stack-training-in-chennnai" },
-          { "name": "Java Full Stack", "path": "/courses/web-development/full-stack-java-training-in-chennai" },
-          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/web-development/python-full-stack-developer-online-training-in-chennai" },
-          { "name": "React.js", "path": "/courses/web-development/react-js-online-training-in-chennai" },
-          { "name": "Node.js", "path": "/courses/web-development/node-js-online-training-in-chennai" },
-          { "name": "Angular", "path": "/courses/web-development/angular-developer-online-training-in-chennai" },
-          { "name": "Mobile App Development (Android / iOS / Flutter)", "path": "/courses/web-development/mobile-app-development-certification-course-training-in-chennai" },
-          { "name": "REST API Development", "path": "/courses/web-development/api-testing-certification-training-in-chennai" },
-          { "name": "Microservices Architecture", "path": "/courses/web-development/microservices-training-in-chennai" }
+          { "name": "MERN Stack", "path": "/courses/fullstack-development/mern-stack-training-in-chennnai" },
+          { "name": "MEAN Stack", "path": "/courses/fullstack-development/mean-stack-training-in-chennnai" },
+          { "name": "Java Full Stack", "path": "/courses/fullstack-development/full-stack-java-training-in-chennai" },
+          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/fullstack-development/python-full-stack-developer-online-training-in-chennai" },
+          { "name": "React.js", "path": "/courses/fullstack-development/react-js-online-training-in-chennai" },
+          { "name": "Node.js", "path": "/courses/fullstack-development/node-js-online-training-in-chennai" },
+          { "name": "Angular", "path": "/courses/fullstack-development/angular-developer-online-training-in-chennai" },
+          { "name": "Mobile App Development (Android / iOS / Flutter)", "path": "/courses/fullstack-development/mobile-app-development-certification-course-training-in-chennai" },
+          { "name": "REST API Development", "path": "/courses/fullstack-development/api-testing-certification-training-in-chennai" },
+          { "name": "Microservices Architecture", "path": "/courses/fullstack-development/microservices-training-in-chennai" }
         ]
       },
       {
