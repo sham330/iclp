@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import {
   AiOutlineCode,
   AiOutlineMobile,
@@ -28,7 +28,6 @@ const iconMapping = {
 const TopCategories = () => {
   const [categories, setCategories] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const router = useRouter();
   const pathname = usePathname();
 
 
@@ -47,13 +46,8 @@ const TopCategories = () => {
   }, []);
 
 
-  const handleCardClick = (path) => {
-    router.push(`/courses/${path}`);
-  };
-
-
   const handleSeeAllClick = () => {
-    router.push(`/courses`);
+    window.open(`/courses`, "_blank");
   };
 
 
@@ -141,12 +135,14 @@ const TopCategories = () => {
         >
           {displayedCategories.length > 0 ? (
             displayedCategories.map((category, index) => (
-              <motion.button
+              <motion.a
                 key={index}
+                href={`/courses/${category.path}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-2 border-slate-100 hover:border-transparent overflow-hidden"
                 whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => handleCardClick(category.path)}
               >
                 {/* Blue Gradient Border on Hover */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-cyan-500/0 to-blue-500/0 group-hover:from-blue-500/10 group-hover:via-cyan-500/10 group-hover:to-blue-500/10 rounded-2xl transition-all duration-300"></div>
@@ -177,7 +173,7 @@ const TopCategories = () => {
 
                 {/* Bottom Accent Line */}
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#01377d] via-blue-500 to-cyan-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-              </motion.button>
+              </motion.a>
             ))
           ) : (
             <div className="col-span-full text-center py-12">

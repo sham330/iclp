@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Oracle",
+      "category_name": "Oracle",
       "path":"oracle",
       "sub_categories": [
         {
