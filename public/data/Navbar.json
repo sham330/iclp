@@ -4,6 +4,7 @@
     "categories": [
       {
         "title": "SAP Courses",
+        "cat_path":"sap-courses",
         "description": "Industry-leading SAP module training for finance, logistics, analytics and more.",
         "courses": [
           { "name": "SAP FICO", "path": "/courses/sap-courses/sap-fico-training-in-chennai" },
@@ -36,6 +37,7 @@
       },
       {
         "title": "Programming Courses",
+        "cat_path": "programming",
         "description": "Core and advanced programming languages for software development careers.",
         "courses": [
           { "name": "C Programming", "path": "/courses/programming/c-cpp-programming-course-training-in-chennai" },
@@ -54,6 +56,7 @@
       },
       {
         "title": "Full Stack Development",
+        "cat_path": "web-development",
         "description": "End-to-end web application development with modern stacks and frameworks.",
         "courses": [
           { "name": "MERN Stack", "path": "/courses/web-development/mern-stack-training-in-chennnai" },
@@ -70,6 +73,7 @@
       },
       {
         "title": "Web Development",
+        "cat_path": "web-development",
         "description": "Frontend and backend technologies for building modern websites.",
         "courses": [
           { "name": "HTML & CSS", "path": "/courses/web-development/html-developer-online-training-in-chennai" },
@@ -86,6 +90,7 @@
       },
       {
         "title": "Cloud & DevOps",
+        "cat_path": "cloud-computing-devops",
         "description": "Cloud platforms and DevOps tools for modern infrastructure and deployment.",
         "courses": [
           { "name": "AWS Solutions Architect", "path": "/courses/cloud-computing-devops/aws-online-training-in-chennai" },
@@ -103,6 +108,7 @@
       },
       {
         "title": "Cyber Security",
+        "cat_path": "cybersecurity-ethical-hacking",
         "description": "Security, ethical hacking, compliance and threat analysis programs.",
         "courses": [
           { "name": "Cyber Security Analyst", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-online-training-in-chennai" },
@@ -119,6 +125,7 @@
       },
       {
         "title": "Software Testing",
+        "cat_path": "software-testing-quality-assurance",
         "description": "Manual, automation and performance testing for quality assurance careers.",
         "courses": [
           { "name": "Software Testing", "path": "/courses/software-testing-quality-assurance/software-testing-certification-course-in-chennai" },
@@ -135,6 +142,7 @@
       },
       {
         "title": "Data Science & AI",
+        "cat_path": "data-science-artificial-intelligence",
         "description": "Data science, machine learning, AI and analytics for data-driven careers.",
         "courses": [
           { "name": "Data Science Master Program", "path": "/courses/data-science-artificial-intelligence/data-science-with-python-training-in-chennai" },
@@ -152,6 +160,7 @@
       },
       {
         "title": "Database Courses",
+        "cat_path": "database-management-system",
         "description": "Relational, NoSQL and cloud database administration and development.",
         "courses": [
           { "name": "MySQL", "path": "/courses/database-management-system/msql-online-training-in-chennai" },
@@ -167,6 +176,7 @@
       },
       {
         "title": "Microsoft Courses",
+        "cat_path": "microsoft",
         "description": "Microsoft tools, Azure, Office and enterprise platform training.",
         "courses": [
           { "name": "Microsoft Azure", "path": "/courses/microsoft/microsoft-azure-online-training-in-chennai" },
@@ -182,6 +192,7 @@
       },
       {
         "title": "Digital Marketing",
+        "cat_path": "digital-marketing-business-tools",
         "description": "SEO, social media, ads and digital strategy for online growth.",
         "courses": [
           { "name": "Digital Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
@@ -198,6 +209,7 @@
       },
       {
         "title": "UI & UX Courses",
+        "cat_path": "ui-and-ux",
         "description": "Design, prototyping and user experience for modern digital products.",
         "courses": [
           { "name": "UI & UX Design", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" },
@@ -213,6 +225,7 @@
       },
       {
         "title": "CRM & Enterprise Solutions",
+        "cat_path": "crm-enterprise-solutions",
         "description": "Salesforce, Oracle ERP, Workday and enterprise platform training.",
         "courses": [
           { "name": "Salesforce Admin", "path": "/courses/crm-enterprise-solutions/salesforce-online-training-in-chennai" },
@@ -228,6 +241,7 @@
       },
       {
         "title": "Networking & System Administration",
+        "cat_path": "networking",
         "description": "Network infrastructure, OS administration and system management.",
         "courses": [
           { "name": "CCNA", "path": "/courses/networking/ccna-online-training-in-chennai" },

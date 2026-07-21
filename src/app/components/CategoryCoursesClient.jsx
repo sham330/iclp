@@ -1,11 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import "@/app/category/[path]/categoryCourses.css";
 
 export default function CategoryCoursesClient({ categoryPath }) {
-  const router = useRouter();
   const [courses, setCourses] = useState([]);
   const [categoryName, setCategoryName] = useState("");
 
@@ -21,10 +19,6 @@ export default function CategoryCoursesClient({ categoryPath }) {
       .catch(console.error);
   }, [categoryPath]);
 
-  const handleCardClick = (course) => {
-    if (course?.path) router.push(`/courses/${categoryPath}/${course.path}`);
-  };
-
   const renderCourseImage = (image) => {
     if (!image) return "/placeholder.png";
     if (image.startsWith("data:image") || /^https?:\/\//i.test(image) || image.startsWith("/")) return image;
@@ -37,7 +31,14 @@ export default function CategoryCoursesClient({ categoryPath }) {
       <div className="courses-grid">
         {courses.length > 0 ? (
           courses.map((course, index) => (
-            <div key={index} className="course-card" onClick={() => handleCardClick(course)}>
+            <a
+              key={index}
+              href={course?.path ? `/courses/${categoryPath}/${course.path}` : "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="course-card"
+              style={{ textDecoration: "none", display: "block" }}
+            >
               <div className="course-image-container">
                 <img
                   src={renderCourseImage(course.image)}
@@ -52,7 +53,7 @@ export default function CategoryCoursesClient({ categoryPath }) {
               <div className="course-hover-content">
                 <button className="view-course-btn">View Course</button>
               </div>
-            </div>
+            </a>
           ))
         ) : (
           <p className="no-courses-message">No courses found for this category.</p>

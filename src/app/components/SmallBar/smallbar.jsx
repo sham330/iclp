@@ -100,18 +100,21 @@ const SmallBar = () => {
                     <div className="w-2/5 bg-[#014a9f]/5 border-r-2 border-[#014a9f]/10 rounded-l-lg flex flex-col">
                       <div className="overflow-y-auto p-3 flex-1" style={{ maxHeight: "380px" }}>
                         {navData.categories.map((category, i) => (
-                          <button
+                          <Link
                             key={i}
-                            onClick={() => setSelectedCategory(category)}
+                            href={category.cat_path ? `/courses/${category.cat_path}` : "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => setIsDropdownOpen(false)}
                             onMouseEnter={() => setSelectedCategory(category)}
-                            className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all mb-1 ${
+                            className={`w-full text-left px-2.5 py-2 text-[12px] font-medium rounded transition-all mb-1 flex items-center justify-between group ${
                               selectedCategory?.title === category.title
                                 ? "bg-[#014a9f] text-white shadow-md"
                                 : "text-[#014a9f] hover:bg-[#014a9f]/10 hover:pl-3.5"
                             }`}
                           >
                             {category.title}
-                          </button>
+                          </Link>
                         ))}
                       </div>
                     </div>
