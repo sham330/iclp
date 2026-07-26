@@ -164,7 +164,7 @@ const AppBar = () => {
       { name: "Workday Studio Training", path: "workday-studio-training" },
       { name: "Software Testing", path: "software-testing-certification-course-in-chennai" },
       { name: "Data Analytics Course", path: "data-analytics-course-in-chennai" },
-      { name: "Workday financial training", path: "workday-financial-training" },
+      { name: "Workday financial training", path: "workday-financial-training-in-chennai" },
       { name: "Collibra", path: "collibra-online-training-course" },
       { name: "Spring boot online training", path: "spring-boot-online-training-in-chennai" },
       { name: "ETL Testing", path: "etl-testing-online-training-in-chennai" },

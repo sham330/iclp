@@ -3602,7 +3602,7 @@ export  const blogs = [
   "metaTitle": "Workday Financials Guide for Beginners | Modules, Features & Career Benefits",
   "metaDescription": "Discover Workday Financials—modules, features, benefits & career scope. Perfect beginner guide for learners starting a finance or ERP career.",
   "url": "https://iclptech.in/blog/workday-financials-beginners-guide-modules-features-benefits",
-  "intro": "Workday Financials is a modern cloud-based ERP financial management system designed to give businesses real-time visibility, automated workflows, and complete control over finance operations. As companies move away from traditional on-premise systems, <a href=\"https://iclptech.in/course/workday-financial-training\">Workday Financials has become one of the most in-demand digital finance platforms worldwide</a>. If you're planning to build a career in finance technology or ERP consulting, learning Workday Financials is one of the smartest decisions you can make today.",
+  "intro": "Workday Financials is a modern cloud-based ERP financial management system designed to give businesses real-time visibility, automated workflows, and complete control over finance operations. As companies move away from traditional on-premise systems, <a href=\"https://iclptech.in/course/workday-financial-training-in-chennai\">Workday Financials has become one of the most in-demand digital finance platforms worldwide</a>. If you're planning to build a career in finance technology or ERP consulting, learning Workday Financials is one of the smartest decisions you can make today.",
   "sections": [
     {
       "heading": "Why Workday Financials Matters Today",
@@ -3656,7 +3656,7 @@ export  const blogs = [
         "ERP beginners wanting modern platforms",
         "IT professionals switching to finance-tech",
         "Job seekers targeting overseas opportunities",
-        "<a href=\"https://iclptech.in/course/workday-financial-training\">Beginner-friendly learning path</a>"
+        "<a href=\"https://iclptech.in/course/workday-financial-training-in-chennai\">Beginner-friendly learning path</a>"
       ]
     },
     {
@@ -3705,7 +3705,7 @@ export  const blogs = [
       "a": "Yes, US/UK/Europe companies actively hire trained Workday freshers for global implementations."
     }
   ],
-  "conclusion": "Workday Financials represents the future of enterprise financial management with its cloud-native architecture, real-time insights, and automation capabilities. The combination of beginner-friendly design, high global demand, and premium salary packages makes it the perfect ERP platform for career starters. <a href=\"https://iclptech.in/course/workday-financial-training\">ICLP Tech's Workday Financials Training</a> delivers hands-on expertise across all core modules with certification guidance. Secure your position in the world's fastest-growing cloud ERP ecosystem—<a href=\"https://iclptech.in/contact\">start your Workday journey today</a>!"
+  "conclusion": "Workday Financials represents the future of enterprise financial management with its cloud-native architecture, real-time insights, and automation capabilities. The combination of beginner-friendly design, high global demand, and premium salary packages makes it the perfect ERP platform for career starters. <a href=\"https://iclptech.in/course/workday-financial-training-in-chennai\">ICLP Tech's Workday Financials Training</a> delivers hands-on expertise across all core modules with certification guidance. Secure your position in the world's fastest-growing cloud ERP ecosystem—<a href=\"https://iclptech.in/contact\">start your Workday journey today</a>!"
 },{
   "id": 29,
   "title": "Why Students Choose ICLP Technologies for SAP FICO Training | Expert-Led Course",
