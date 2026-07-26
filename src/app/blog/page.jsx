@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { useRouter } from "next/navigation";
 import { FaSearch } from "react-icons/fa";
 import Head from "./Head";
 import { blogs } from "../../../public/data/blog.js";
@@ -9,7 +8,6 @@ import { blogs } from "../../../public/data/blog.js";
 const categories = ["All", ...Array.from(new Set(blogs.map((b) => b.category).filter(Boolean)))];
 
 export default function Blog() {
-  const router = useRouter();
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -81,9 +79,11 @@ export default function Blog() {
         ) : (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((blog) => (
-              <div
+              <a
                 key={blog.id}
-                onClick={() => router.push(`/blog/${encodeURIComponent(blog.slug)}`)}
+                href={`/blog/${encodeURIComponent(blog.slug)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white rounded-2xl border-2 border-slate-100 hover:border-blue-400 hover:shadow-xl transition-all cursor-pointer group flex flex-col overflow-hidden"
               >
                 {/* Image */}
@@ -115,7 +115,7 @@ export default function Blog() {
                     Read More →
                   </span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         )}

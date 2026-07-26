@@ -5,23 +5,40 @@ import { useRouter, usePathname } from "next/navigation";
 import {
   AiOutlineCode,
   AiOutlineMobile,
-  AiOutlineSketch,
   AiOutlineRobot,
+  AiOutlineDatabase,
+  AiOutlineCloud,
+  AiOutlineBarChart,
 } from "react-icons/ai";
-import { MdSecurity, MdCloud, MdStorage } from "react-icons/md";
+import { MdSecurity, MdStorage, MdOutlineDesignServices, MdOutlineCampaign, MdOutlineAdminPanelSettings, MdOutlineNetworkCheck } from "react-icons/md";
+import { FaJava, FaSalesforce, FaMicrosoft, FaLayerGroup } from "react-icons/fa";
+import { SiOracle, SiSap } from "react-icons/si";
+import { BiTestTube } from "react-icons/bi";
 import "./topCategories.css";
 
 // Icon mapping for each category
 const iconMapping = {
+  Oracle: <SiOracle />,
+  "SAP Courses": <SiSap />,
   Programming: <AiOutlineCode />,
-  "Full Stack": <AiOutlineCode />,
-  "Cloud Computing": <MdCloud />,
-  "DevOps & Automation": <AiOutlineRobot />,
+  "Full Stack Development": <FaLayerGroup />,
+  "Web Development": <AiOutlineCode />,
+  "Cloud Computing & DevOps": <AiOutlineCloud />,
+  "Cloud & DevOps": <AiOutlineCloud />,
   "Cybersecurity & Ethical Hacking": <MdSecurity />,
-  "Software Testing": <AiOutlineCode />,
-  "Data & AI": <MdStorage />,
-  "UI/UX & Design": <AiOutlineSketch />,
-  "Digital Marketing": <AiOutlineMobile />,
+  "Software Testing & Quality Assurance": <BiTestTube />,
+  "Data Science & Artificial Intelligence": <AiOutlineRobot />,
+  "Database Management System": <AiOutlineDatabase />,
+  Microsoft: <FaMicrosoft />,
+  "Digital Marketing & Business Tools": <MdOutlineCampaign />,
+  "UI and UX": <MdOutlineDesignServices />,
+  "CRM & Enterprise Solutions": <FaSalesforce />,
+  Networking: <MdOutlineNetworkCheck />,
+  "Data Analytics": <AiOutlineBarChart />,
+  "Data Integration": <MdStorage />,
+  "System Administration": <MdOutlineAdminPanelSettings />,
+  IBM: <MdStorage />,
+  "Corel Draw": <MdOutlineDesignServices />,
 };
 
 const TopCategories = () => {
@@ -43,10 +60,6 @@ const TopCategories = () => {
       })
       .catch((error) => console.error("Error fetching JSON data:", error));
   }, []);
-
-  const handleCardClick = (path) => {
-    router.push(`/courses/${path}`);
-  };
 
   const handleSeeAllClick = () => {
     router.push(`/courses`);
@@ -100,17 +113,20 @@ const displayedCategories = isCoursesPage
         >
           {displayedCategories.length > 0 ? (
             displayedCategories.map((category, index) => (
-              <motion.button
+              <motion.a
                 key={index}
+                href={`/courses/${category.path}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="category-card"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => handleCardClick(category.path)}
+                style={{ textDecoration: "none", display: "block" }}
               >
                 <div className="category-icon">{category.icon}</div>
                 {category.name}
                 <p className="category-subtext">Click to explore</p>
-              </motion.button>
+              </motion.a>
             ))
           ) : (
             <p className="no-results">No matching categories found.</p>

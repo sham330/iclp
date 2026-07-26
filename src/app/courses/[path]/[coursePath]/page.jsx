@@ -7,6 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function NestedCourseDetailsPage({ params }) {
   const resolvedParams = await params;
+  const categoryPath = resolvedParams?.path;
   const coursePath = resolvedParams?.coursePath;
   if (!coursePath) redirect("/courses/");
 
@@ -21,9 +22,11 @@ export default async function NestedCourseDetailsPage({ params }) {
 
   if (!foundCourse) redirect("/courses/");
 
+  const canonical = `https://iclptech.in/courses/${categoryPath}/${coursePath}/`;
+
   return (
     <>
-      <Head course={foundCourse} />
+      <Head course={foundCourse} canonicalUrl={canonical} />
       <CourseDetails course={foundCourse} />
     </>
   );
