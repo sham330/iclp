@@ -16,8 +16,8 @@ export default async function NestedCourseDetailsPage({ params }) {
 
   let foundCourse = null;
   for (const category of coursesData.categories) {
-    foundCourse = (category.sub_categories || []).find((sub) => sub.path === coursePath);
-    if (foundCourse) break;
+    const match = (category.sub_categories || []).find((sub) => sub.path === coursePath);
+    if (match) { foundCourse = match; break; }
   }
 
   if (!foundCourse) redirect("/courses/");

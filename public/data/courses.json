@@ -36280,7 +36280,7 @@
        {
   "course_name": "Workday Financial Training in Chennai",
  "name":"Workday Financial Training in Chennai with Placement Assistance", 
-  "path": "workday-financial-training-in-chennai-in-chennai",
+  "path": "workday-financial-training-in-chennai",
   "description": "ICLP Technologies offers industry-focused Workday Financial Training in Chennai designed for freshers, finance professionals, ERP consultants, and working professionals who want to build a successful career in Workday Financial Management. Our practical training program helps students gain hands-on experience in Workday Financials, accounting setup, journals, security, reporting, suppliers, customers, settlements, and expense management. Our Workday Financial Online Training program is created by experienced industry experts with real-time project exposure and interview-focused learning. Students receive complete guidance from basic to advanced concepts with practical implementation scenarios.",
   "meta_title": "Workday Financial Training in Chennai | Workday Financial Online Course with Placement | ICLP Technologies",
   "meta_description": "Join Workday Financial Training in Chennai at ICLP Technologies. Learn Workday Financials with real-time projects, certification guidance, expert trainers, online classes, and placement assistance.",
@@ -36317,7 +36317,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai-in-chennai/#service",
+        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai/#service",
         "name": "Workday Financial Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
