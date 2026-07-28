@@ -5,17 +5,16 @@ const BASE_URL = "https://iclptech.in";
 const today = new Date().toISOString().split("T")[0];
 
 const staticPages = [
-  { loc: "/", priority: "1.0", changefreq: "monthly", lastmod: today },
-  { loc: "/about", priority: "0.8", changefreq: "monthly" },
-  { loc: "/contact", priority: "0.8", changefreq: "monthly" },
-  { loc: "/courses", priority: "0.9", changefreq: "monthly" },
-  { loc: "/blog", priority: "0.9", changefreq: "monthly" },
-  { loc: "/reviews", priority: "0.7", changefreq: "monthly" },
-  { loc: "/tutorial", priority: "0.9", changefreq: "monthly" },
-  { loc: "/interview-questions", priority: "0.9", changefreq: "monthly" },
-  { loc: "/corporate-training", priority: "0.8", changefreq: "monthly" },
-  { loc: "/certifications", priority: "0.8", changefreq: "monthly" },
-  { loc: "/privacy-policy", priority: "0.5", changefreq: "yearly" },
+  { loc: "/", priority: "1.0000", changefreq: "daily", lastmod: today },
+  { loc: "/about", priority: "0.8000", changefreq: "daily", lastmod: today },
+  { loc: "/corporate-training", priority: "0.8000", changefreq: "daily", lastmod: today },
+  { loc: "/contact", priority: "0.8000", changefreq: "daily", lastmod: today },
+  { loc: "/courses", priority: "0.6400", changefreq: "daily", lastmod: today },
+  { loc: "/interview-questions", priority: "0.6400", changefreq: "daily", lastmod: today },
+  { loc: "/tutorial", priority: "0.6400", changefreq: "daily", lastmod: today },
+  { loc: "/freelance-trainee", priority: "0.6400", changefreq: "daily", lastmod: today },
+  { loc: "/blog", priority: "0.6400", changefreq: "daily", lastmod: today },
+  { loc: "/privacy-policy", priority: "0.6400", changefreq: "daily", lastmod: today },
 ];
 
 function urlEntry({ loc, priority = "0.8", changefreq = "monthly", lastmod }) {
@@ -49,10 +48,10 @@ const uniqueCoursePaths = [...new Set(coursePaths)];
 const entries = [
   ...staticPages.map((p) => urlEntry(p)),
   ...blogSlugs.map((slug) =>
-    urlEntry({ loc: `/blog/${slug}`, priority: "0.9", changefreq: "weekly", lastmod: today })
+    urlEntry({ loc: `/blog/${slug}`, priority: "0.4096", changefreq: "daily", lastmod: today })
   ),
   ...uniqueCoursePaths.map((p) =>
-    urlEntry({ loc: `/courses/${p}`, priority: "0.9", changefreq: "monthly" })
+    urlEntry({ loc: `/courses/${p}`, priority: "0.3277", changefreq: "daily", lastmod: today })
   ),
 ];
 
