@@ -167,6 +167,11 @@ const AppBar = () => {
       { name: "Data Analytics Course", path: "data-analytics-course-in-chennai" },
       { name: "Workday financial training", path: "workday-financial-training-in-chennai" },
       { name: "Collibra", path: "collibra-training-in-chennai" },
+      {  path: "oracle-integration-cloud-training-in-chennai",
+        name: "Oracle Integration Cloud Training"
+      },
+      { path: "power-bi-otif-dashboard-training-in-chennai",
+        name: "Power BI OTIF Dashboard Training" },
       { name: "Spring boot online training", path: "spring-boot-online-training-in-chennai" },
       { name: "ETL Testing", path: "etl-testing-online-training-in-chennai" },
       { name: "LoadRunner", path: "loadrunner-online-training-in-chennai" },

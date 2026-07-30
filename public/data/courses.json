@@ -2894,6 +2894,424 @@
   ]
 },
 {
+  "course_name": "Oracle Integration Cloud (OIC) Training in Chennai",
+  "path": "oracle-integration-cloud-training-in-chennai",
+
+  "description": "Join Oracle Integration Cloud (OIC) Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn OIC integrations, adapters, data mapping, REST/SOAP web services, error handling, and Oracle SaaS integrations with hands-on implementation scenarios.",
+  "meta_title": "Oracle Integration Cloud (OIC) Training in Chennai | OIC Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join Oracle Integration Cloud (OIC) Training in Chennai at ICLP Technologies. Learn OIC integrations, adapters, and Oracle SaaS integration with real-time projects, online classes, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/#service",
+        "name": "Oracle Integration Cloud (OIC) Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Oracle Integration Cloud Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/#course",
+        "name": "Oracle Integration Cloud (OIC) Training in Chennai",
+        "description": "Join Oracle Integration Cloud (OIC) Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Oracle Integration Cloud Course Completion Certificate",
+        "timeRequired": "PT44H",
+        "keywords": "Oracle Integration Cloud Training in Chennai, OIC Training in Chennai, OIC Online Training, Oracle Integration Cloud Course, OIC Adapters Training, OIC REST SOAP Training, Oracle Integration Cloud Certification Course, OIC Training Institute",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Oracle Integration Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "OIC Adapters and Connections"
+          },
+          {
+            "@type": "Thing",
+            "name": "REST and SOAP Web Services"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle SaaS Integration"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": 2850
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Oracle Integration Cloud Training",
+            "item": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/oracle/oracle-integration-cloud-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Oracle Integration Cloud (OIC) Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oracle Integration Cloud (OIC) Training helps students learn how to build, manage, and monitor integrations between Oracle SaaS applications and third-party systems using adapters, REST/SOAP services, and data mapping with hands-on implementation scenarios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is OIC good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from IT, ERP, integration, and computer science backgrounds can start a successful career in Oracle Integration Cloud."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online OIC training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide Oracle Integration Cloud Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge for OIC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic knowledge of REST/SOAP APIs and XML/JSON is helpful, but OIC is largely a low-code integration platform focused on visual integration flows and configuration."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Oracle Integration Cloud (OIC) Training?",
+      "answer": "Oracle Integration Cloud (OIC) Training helps students learn how to build, manage, and monitor integrations between Oracle SaaS applications and third-party systems using adapters, REST/SOAP services, and data mapping with hands-on implementation scenarios."
+    },
+    {
+      "question": "Is OIC good for freshers?",
+      "answer": "Yes. Freshers from IT, ERP, integration, and computer science backgrounds can start a successful career in Oracle Integration Cloud."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online OIC training available?",
+      "answer": "Yes. We provide Oracle Integration Cloud Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge for OIC?",
+      "answer": "Basic knowledge of REST/SOAP APIs and XML/JSON is helpful, but OIC is largely a low-code integration platform focused on visual integration flows and configuration."
+    }
+  ],
+  "what_youll_learn": [
+    "Oracle Integration Cloud Architecture and Components",
+    "Connections and Adapters (REST, SOAP, FTP, Database, ERP, HCM)",
+    "Building App-Driven and Scheduled Integrations",
+    "Data Mapping and Transformation Techniques",
+    "Working with Files and Databases",
+    "REST & SOAP Web Services Development",
+    "Advanced Integration Actions and Patterns",
+    "Error Handling and Integration Monitoring",
+    "Security, Administration, and Deployment",
+    "Oracle SaaS Integrations (ERP, HCM, SCM)"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle Integration Cloud",
+      "subtopics": [
+        "Oracle Cloud Overview",
+        "What is Oracle Integration Cloud (OIC)?",
+        "OIC Architecture and Components",
+        "Integration Types",
+        "OIC User Interface",
+        "Creating and Managing OIC Instances",
+        "OIC Dashboard Overview",
+        "Real-Time Integration Use Cases"
+      ]
+    },
+    {
+      "module": "OIC Connections and Adapters",
+      "subtopics": [
+        "Introduction to Connections",
+        "Creating and Configuring Connections",
+        "REST Adapter",
+        "SOAP Adapter",
+        "File Adapter",
+        "FTP/SFTP Adapter",
+        "Database Adapter",
+        "Oracle ERP Cloud Adapter",
+        "Oracle HCM Cloud Adapter",
+        "Testing Connections",
+        "Hands-on: Configure REST, Database, and FTP connections"
+      ]
+    },
+    {
+      "module": "Building Integrations",
+      "subtopics": [
+        "App-Driven Integrations",
+        "Scheduled Integrations",
+        "Basic Integration Flow",
+        "Trigger and Invoke Connections",
+        "Business Identifiers",
+        "Integration Activation",
+        "Testing Integrations",
+        "Hands-on: Create and deploy your first integration"
+      ]
+    },
+    {
+      "module": "Data Mapping and Transformation",
+      "subtopics": [
+        "Mapper Overview",
+        "Data Mapping Techniques",
+        "XML and JSON Processing",
+        "Variables",
+        "Assign Action",
+        "Lookups",
+        "Expression Builder",
+        "Data Transformation Functions",
+        "Hands-on: Map REST request data to database fields"
+      ]
+    },
+    {
+      "module": "Working with Files and Databases",
+      "subtopics": [
+        "Stage File Action",
+        "Reading CSV, XML, and Flat Files",
+        "Writing Files",
+        "Database Adapter Operations",
+        "Insert, Update, Delete, and Select",
+        "Stored Procedures",
+        "File Transfers using FTP/SFTP",
+        "Hands-on: Import CSV data into an Oracle database"
+      ]
+    },
+    {
+      "module": "REST & SOAP Web Services",
+      "subtopics": [
+        "REST API Concepts",
+        "HTTP Methods (GET, POST, PUT, DELETE)",
+        "Consuming REST APIs",
+        "Exposing REST APIs",
+        "SOAP Web Services",
+        "WSDL Concepts",
+        "Authentication (Basic & OAuth)",
+        "API Testing using Postman",
+        "Hands-on: Build and test a REST API integration"
+      ]
+    },
+    {
+      "module": "Advanced Integration Actions",
+      "subtopics": [
+        "Switch Action",
+        "Scope",
+        "For-Each Loop",
+        "While Loop",
+        "Parallel Processing",
+        "Notification Action",
+        "Wait Action",
+        "Reusable Integrations",
+        "Integration Patterns",
+        "Hands-on: Create a workflow with looping and conditional logic"
+      ]
+    },
+    {
+      "module": "Error Handling and Monitoring",
+      "subtopics": [
+        "Fault Handling",
+        "Scope Fault Handler",
+        "Global Fault Handler",
+        "Retry Mechanism",
+        "Logging",
+        "Notifications",
+        "Integration Monitoring",
+        "Instance Tracking",
+        "Troubleshooting Failed Integrations",
+        "Hands-on: Simulate and resolve integration failures"
+      ]
+    },
+    {
+      "module": "Security and Administration",
+      "subtopics": [
+        "User Roles and Permissions",
+        "Certificates",
+        "OAuth Configuration",
+        "Connectivity Agent",
+        "Environment Management",
+        "Export and Import Integrations",
+        "Backup and Deployment Best Practices",
+        "Hands-on: Configure secure connections and migrate integrations"
+      ]
+    },
+    {
+      "module": "Oracle SaaS Integrations",
+      "subtopics": [
+        "Oracle ERP Cloud Integration",
+        "Oracle HCM Cloud Integration",
+        "Oracle SCM Cloud Integration",
+        "Business Events",
+        "BI Publisher Reports",
+        "Common Enterprise Integration Scenarios",
+        "Hands-on: Integrate Oracle ERP with an external REST service"
+      ]
+    },
+    {
+      "module": "Performance Optimization and Best Practices",
+      "subtopics": [
+        "Performance Tuning",
+        "Naming Conventions",
+        "Reusable Components",
+        "Payload Optimization",
+        "Logging Best Practices",
+        "Deployment Strategy",
+        "Real-Time Project Standards"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/oracle-integration.png",
+  "placement_assurance": true,
+  "projects": [
+    "REST to Database Integration Project",
+    "Oracle ERP Cloud to External REST Service Integration",
+    "CSV to Oracle Database File Integration",
+    "Error Handling and Fault Monitoring Implementation",
+    "End-to-End SaaS Integration Scenario (ERP/HCM/SCM)"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Oracle Integration Cloud (OIC) Training in Chennai",
+    "description": "Oracle Integration Cloud is a leading integration platform-as-a-service (iPaaS) used by multinational companies to connect Oracle SaaS applications with third-party systems, on-premises applications, and cloud services. Build a strong career in OIC with practical exposure, certification guidance, and placement support.",
+    "points": [
+      "<strong>High Demand in Cloud Integration:</strong> Large organizations actively hiring OIC Developers, Integration Consultants, and Middleware Consultants.",
+      "<strong>Attractive Salary Packages:</strong> Freshers and professionals earn competitive packages in integration and cloud ERP roles.",
+      "<strong>Global Job Opportunities:</strong> OIC skills are valued across India, the USA, Europe, Middle East, and Asia‑Pacific markets.",
+      "<strong>Cloud iPaaS Technology Exposure:</strong> Gain hands‑on experience with Oracle's modern cloud-based integration platform.",
+      "<strong>Entry‑Level Friendly:</strong> Freshers from IT, ERP, integration, and computer science backgrounds can build a successful career in OIC.",
+      "<strong>Diverse Career Roles:</strong> Work as OIC Developer, Integration Consultant, Middleware Consultant, Techno-Functional Consultant, or Support Consultant."
+    ]
+  },
+  "who_can_learn": [
+    "IT Graduates",
+    "Integration and Middleware Professionals",
+    "ERP Consultants",
+    "Software Developers",
+    "Freshers",
+    "Working Professionals",
+    "Techno-Functional Consultants"
+  ],
+  "curriculum_overview": {
+    "heading": "Oracle Integration Cloud (OIC) Training Curriculum",
+    "intro": "Our Oracle Integration Cloud Training program delivers 100% practical, industry‑focused learning with real‑time projects, end‑to‑end integration workflows, and placement‑oriented guidance to make you job‑ready in OIC."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Oracle Integration Cloud (OIC) Training?",
+    "intro": "ICLP Technologies is one of the best Oracle Integration Cloud Training institutes in Chennai, offering experienced trainers, hands‑on project‑based learning, certification support, and dedicated placement assistance.",
+    "instructor_expertise": {
+      "heading": "Experienced OIC Trainers",
+      "description": "Learn from Oracle‑certified integration professionals with real‑world implementation experience in multinational companies and consulting firms."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Choose classroom training, online training, weekday batches, or weekend batches based on your schedule.",
+      "options": [
+        "<strong>Live Instructor‑Led Classes:</strong> Interactive sessions with Q&A, screen sharing, and hands‑on labs.",
+        "<strong>Real‑Time Projects:</strong> Practical implementation scenarios in adapters, data mapping, and SaaS integrations.",
+        "<strong>Flexible Batch Timings:</strong> Suitable for working professionals, fresh graduates, and career switchers.",
+        "<strong>Recorded Access:</strong> Lifetime access to recorded sessions, assignments, and interview preparation materials."
+      ]
+    }
+  }
+},
+{
   "course_name": "R12.2 Oracle E-Business Tax",
   "path": "oracle-tax-reporting",
   "description": "Comprehensive training in Oracle E-Business Tax covering tax configuration, determination rules, reporting, and compliance for global operations.",
@@ -43593,6 +44011,438 @@
             "Business Analytics Dashboard"
           ]
         },
+        {
+  "course_name": "Power BI OTIF Dashboard Training in Chennai",
+  "path": "power-bi-otif-dashboard-training-in-chennai",
+
+  "description": "Join Power BI OTIF Dashboard Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Power BI data modeling, DAX, OTIF KPI calculations, and executive dashboard design for supply chain analytics with hands-on implementation scenarios.",
+  "meta_title": "Power BI OTIF Dashboard Training in Chennai | Power BI Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join Power BI OTIF Dashboard Training in Chennai at ICLP Technologies. Learn Power BI, DAX, and OTIF KPI dashboards with real-time projects, online classes, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/#service",
+        "name": "Power BI OTIF Dashboard Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Power BI Supply Chain Analytics Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/#course",
+        "name": "Power BI OTIF Dashboard Training in Chennai",
+        "description": "Join Power BI OTIF Dashboard Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "Power BI OTIF Dashboard Course Completion Certificate",
+        "timeRequired": "PT48H",
+        "keywords": "Power BI OTIF Dashboard Training in Chennai, Power BI Online Training, Power BI Course, OTIF KPI Training, Power BI DAX Training, Power BI Supply Chain Analytics, Power BI Certification Course, Power BI Training Institute",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Power BI"
+          },
+          {
+            "@type": "Thing",
+            "name": "DAX"
+          },
+          {
+            "@type": "Thing",
+            "name": "OTIF (On Time In Full) Analytics"
+          },
+          {
+            "@type": "Thing",
+            "name": "Supply Chain Dashboard Design"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": 2850
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Power BI OTIF Dashboard Training",
+            "item": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/power-bi/power-bi-otif-dashboard-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Power BI OTIF Dashboard Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Power BI OTIF Dashboard Training helps students learn data modeling, DAX, and dashboard design to track On Time In Full (OTIF) delivery performance, supplier scorecards, and other supply chain KPIs with hands-on implementation scenarios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Power BI good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from supply chain, analytics, business, and IT backgrounds can start a successful career in Power BI and data visualization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online Power BI training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide Power BI Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge for Power BI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No prior coding experience is required. Power BI mainly uses DAX formulas and Power Query, which are easy to learn with practice."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Power BI OTIF Dashboard Training?",
+      "answer": "Power BI OTIF Dashboard Training helps students learn data modeling, DAX, and dashboard design to track On Time In Full (OTIF) delivery performance, supplier scorecards, and other supply chain KPIs with hands-on implementation scenarios."
+    },
+    {
+      "question": "Is Power BI good for freshers?",
+      "answer": "Yes. Freshers from supply chain, analytics, business, and IT backgrounds can start a successful career in Power BI and data visualization."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online Power BI training available?",
+      "answer": "Yes. We provide Power BI Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need coding knowledge for Power BI?",
+      "answer": "No prior coding experience is required. Power BI mainly uses DAX formulas and Power Query, which are easy to learn with practice."
+    }
+  ],
+  "what_youll_learn": [
+    "Power BI Desktop and Supply Chain Analytics Fundamentals",
+    "Data Import and Power Query Transformation",
+    "Data Modeling (Star Schema, Relationships, Hierarchies)",
+    "DAX Fundamentals and Advanced DAX (Time Intelligence)",
+    "OTIF KPI Calculations (On-Time, In-Full, Fill Rate)",
+    "Executive Dashboard Design and Visualization",
+    "Supplier and Customer Performance Analysis",
+    "Interactive Reports (Drill Down, Drill Through, Bookmarks)",
+    "Power BI Service (Publishing, RLS, Scheduled Refresh)",
+    "Performance Optimization and Best Practices"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Power BI & Supply Chain Analytics",
+      "subtopics": [
+        "Introduction to Power BI",
+        "Power BI Desktop Installation",
+        "Supply Chain KPIs Overview",
+        "What is OTIF (On Time In Full)?",
+        "Business Use Cases",
+        "Power BI Interface",
+        "Data Sources",
+        "Power BI Workflow"
+      ]
+    },
+    {
+      "module": "Data Import & Power Query",
+      "subtopics": [
+        "Import Excel, CSV, SQL Server Data",
+        "Power Query Editor",
+        "Data Cleaning",
+        "Remove Duplicates",
+        "Merge & Append Queries",
+        "Data Type Conversion",
+        "Creating Calendar Table",
+        "Loading Data Model",
+        "Hands-on: Import OTIF Order & Delivery Dataset"
+      ]
+    },
+    {
+      "module": "Data Modeling",
+      "subtopics": [
+        "Star Schema",
+        "Fact & Dimension Tables",
+        "Relationships",
+        "Active vs Inactive Relationships",
+        "Date Tables",
+        "Hierarchies",
+        "Model Optimization"
+      ]
+    },
+    {
+      "module": "DAX Fundamentals",
+      "subtopics": [
+        "Calculated Columns",
+        "Measures",
+        "Variables",
+        "CALCULATE()",
+        "FILTER()",
+        "IF()",
+        "SWITCH()",
+        "DIVIDE()",
+        "RELATED()",
+        "DISTINCTCOUNT()",
+        "Hands-on: Create basic OTIF KPI measures"
+      ]
+    },
+    {
+      "module": "OTIF KPI Calculations",
+      "subtopics": [
+        "On-Time Delivery %",
+        "In-Full Delivery %",
+        "OTIF %",
+        "Late Deliveries",
+        "Partial Deliveries",
+        "Fill Rate",
+        "Delivery Lead Time",
+        "Perfect Order Rate",
+        "Customer Service Level",
+        "Hands-on: Build OTIF KPI Dashboard using DAX"
+      ]
+    },
+    {
+      "module": "Dashboard Design",
+      "subtopics": [
+        "KPI Cards",
+        "Bar Charts",
+        "Line Charts",
+        "Matrix Visuals",
+        "Donut Charts",
+        "Maps",
+        "Slicers",
+        "Drill-through",
+        "Bookmarks",
+        "Tooltips",
+        "Hands-on: Design Executive OTIF Dashboard"
+      ]
+    },
+    {
+      "module": "Advanced DAX",
+      "subtopics": [
+        "Time Intelligence",
+        "YTD, MTD, QTD",
+        "Previous Month Comparison",
+        "Year-over-Year Analysis",
+        "Dynamic Measures",
+        "Ranking Functions",
+        "Conditional Formatting",
+        "Dynamic Titles"
+      ]
+    },
+    {
+      "module": "Supplier & Customer Performance Analysis",
+      "subtopics": [
+        "Supplier OTIF Analysis",
+        "Customer Delivery Performance",
+        "Warehouse Performance",
+        "Regional Analysis",
+        "Product Category Analysis",
+        "Delay Reasons",
+        "Root Cause Analysis",
+        "Hands-on: Supplier Performance Scorecard"
+      ]
+    },
+    {
+      "module": "Interactive Reports",
+      "subtopics": [
+        "Drill Down",
+        "Drill Through",
+        "Cross Filtering",
+        "Cross Highlighting",
+        "Report Navigation",
+        "Buttons",
+        "Bookmarks",
+        "Dynamic Filters"
+      ]
+    },
+    {
+      "module": "Power BI Service",
+      "subtopics": [
+        "Publishing Reports",
+        "Workspaces",
+        "Dashboards",
+        "Scheduled Refresh",
+        "Data Gateway",
+        "Sharing Reports",
+        "Row-Level Security (RLS)",
+        "Mobile Layout"
+      ]
+    },
+    {
+      "module": "Performance Optimization & Best Practices",
+      "subtopics": [
+        "DAX Optimization",
+        "Data Model Optimization",
+        "Query Performance",
+        "Report Performance Analyzer",
+        "Dashboard Design Best Practices",
+        "Naming Standards",
+        "Documentation"
+      ]
+    },
+    {
+      "module": "Real-Time OTIF Dashboard Project",
+      "subtopics": [
+        "Import Sales, Orders, Deliveries, and Customer Data",
+        "Build Data Model",
+        "Create DAX Measures",
+        "Develop Executive Dashboard",
+        "Supplier Performance Dashboard",
+        "Warehouse Performance Dashboard",
+        "Customer Delivery Dashboard",
+        "Publish to Power BI Service",
+        "Present Business Insights"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "//power-bi-otf.jfif",
+  "placement_assurance": true,
+  "projects": [
+    "Executive OTIF Dashboard",
+    "Supplier Performance Scorecard",
+    "Warehouse Performance Dashboard",
+    "Customer Delivery Performance Dashboard",
+    "End-to-End OTIF Analytics Project with Power BI Service Publishing"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of Power BI OTIF Dashboard Training in Chennai",
+    "description": "Power BI is one of the most widely adopted business intelligence tools used by multinational companies to track supply chain performance, delivery metrics, and operational KPIs like OTIF. Build a strong career in Power BI analytics with practical exposure, certification guidance, and placement support.",
+    "points": [
+      "<strong>High Demand in BI and Supply Chain Analytics:</strong> Large organizations actively hiring Power BI Developers, Supply Chain Analysts, and BI Consultants.",
+      "<strong>Attractive Salary Packages:</strong> Freshers and professionals earn competitive packages in analytics and BI roles.",
+      "<strong>Global Job Opportunities:</strong> Power BI skills are valued across India, the USA, Europe, Middle East, and Asia‑Pacific markets.",
+      "<strong>Business Intelligence Technology Exposure:</strong> Gain hands‑on experience with Power BI Desktop, DAX, Power Query, and Power BI Service.",
+      "<strong>Entry‑Level Friendly:</strong> Freshers from supply chain, business, analytics, and IT backgrounds can build a successful career in Power BI.",
+      "<strong>Diverse Career Roles:</strong> Work as Power BI Developer, Supply Chain Analyst, BI Consultant, Data Analyst, or Reporting Analyst."
+    ]
+  },
+  "who_can_learn": [
+    "Supply Chain Professionals",
+    "Business Analysts",
+    "Data Analysts",
+    "MBA Graduates",
+    "Freshers",
+    "Working Professionals",
+    "Operations and Logistics Professionals"
+  ],
+  "curriculum_overview": {
+    "heading": "Power BI OTIF Dashboard Training Curriculum",
+    "intro": "Our Power BI OTIF Dashboard Training program delivers 100% practical, industry‑focused learning with real‑time projects, end‑to‑end supply chain analytics workflows, and placement‑oriented guidance to make you job‑ready in Power BI."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for Power BI OTIF Dashboard Training?",
+    "intro": "ICLP Technologies is one of the best Power BI Training institutes in Chennai, offering experienced trainers, hands‑on project‑based learning, certification support, and dedicated placement assistance.",
+    "instructor_expertise": {
+      "heading": "Experienced Power BI Trainers",
+      "description": "Learn from experienced Power BI and supply chain analytics professionals with real‑world dashboard implementation experience across multinational companies and consulting firms."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Choose classroom training, online training, weekday batches, or weekend batches based on your schedule.",
+      "options": [
+        "<strong>Live Instructor‑Led Classes:</strong> Interactive sessions with Q&A, screen sharing, and hands‑on labs.",
+        "<strong>Real‑Time Projects:</strong> Practical implementation scenarios in OTIF KPI dashboards, supplier scorecards, and executive reporting.",
+        "<strong>Flexible Batch Timings:</strong> Suitable for working professionals, fresh graduates, and career switchers.",
+        "<strong>Recorded Access:</strong> Lifetime access to recorded sessions, assignments, and interview preparation materials."
+      ]
+    }
+  }
+},
         {
   "course_name": "Power BI Online Course",
   "path": "power-bi-online-training-in-chennai",

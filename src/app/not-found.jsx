@@ -5,14 +5,14 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { FaHome, FaArrowRight, FaBookOpen, FaFire } from "react-icons/fa";
 
 const POPULAR = [
-  { name: "SAP FICO", route: "/courses/sap/sap-fico" },
-  { name: "SAP MM", route: "/courses/sap/sap-mm" },
-  { name: "SAP SD", route: "/courses/sap/sap-sd" },
-  { name: "SAP ABAP", route: "/courses/sap/sap-abap" },
-  { name: "Oracle Financials", route: "/courses/oracle/oracle-financials" },
-  { name: "Full Stack Java", route: "/course/full-stack-java-training-online" },
-  { name: "Python", route: "/course/python-development-online-training" },
-  { name: "Data Science", route: "/course/data-science-course-online" },
+  { name: "SAP FICO", route: "/sap-courses/sap-fico-training-in-chennai" },
+  { name: "SAP MM", route: "/sap-courses/sap-mm-training-in-chennai" },
+  { name: "SAP SD", route: "/sap-courses/sap-sd-training-in-chennai" },
+  { name: "SAP ABAP", route: "/sap-courses/sap-abap-training-in-chennai" },
+  { name: "Oracle Financials", route: "/oracle/oracle-financials-training-in-chennai" },
+  { name: "Full Stack Java", route: "/category/full-stack-java-training-online" },
+  { name: "Python", route: "/category/python-development-online-training" },
+  { name: "Data Science", route: "/category/data-science-course-online" },
 ];
 
 function similarity(a, b) {
@@ -25,10 +25,8 @@ function similarity(a, b) {
   return union === 0 ? 0 : inter / union;
 }
 
-function getRoute(path) {
-  if (/^sap-/.test(path)) return `/courses/sap/${path}`;
-  if (/^oracle-/.test(path)) return `/courses/oracle/${path}`;
-  return `/course/${path}`;
+function getRoute(path, categoryPath) {
+  return `/${categoryPath}/${path}`;
 }
 
 function NotFoundContent() {
@@ -47,7 +45,7 @@ function NotFoundContent() {
         const all = [];
         data.categories.forEach((cat) =>
           cat.sub_categories.forEach((sub) =>
-            all.push({ name: sub.course_name, route: getRoute(sub.path) })
+            all.push({ name: sub.course_name, route: getRoute(sub.path, cat.path) })
           )
         );
         const scored = all
