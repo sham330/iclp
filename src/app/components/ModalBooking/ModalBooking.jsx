@@ -261,7 +261,7 @@ const ModalBooking = ({ onClose }) => {
         <div className="w-full md:w-1/2 flex flex-col overflow-hidden">
 
           {/* Top half — photo with logo overlay */}
-          <div className="relative h-40 md:h-48 shrink-0">
+          <div className="relative h-52 md:h-64 shrink-0">
             <img
               src="/dialog-box.jpeg"
               alt="Students learning with expert trainer"
@@ -270,7 +270,7 @@ const ModalBooking = ({ onClose }) => {
           </div>
 
           {/* Bottom half — white card */}
-          <div className="flex flex-col flex-1 bg-white p-4 gap-3">
+          <div className="flex flex-col flex-1 bg-white p-4 gap-2">
             <h3 className="text-sm font-bold text-[#01377d]">Why Choose Us?</h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -297,7 +297,7 @@ const ModalBooking = ({ onClose }) => {
             </div>
 
             {/* WhatsApp CTA */}
-            <div className="mt-auto pt-2 border-t border-slate-100 flex items-center justify-between gap-2">
+            <div className="pt-1 border-t border-slate-100 flex items-center justify-between gap-2">
               <div className="flex items-center gap-1 text-xs text-slate-500">
                 <FaCommentDots className="text-[#01377d] shrink-0" />
                 <span>Have questions? Chat with us directly</span>
