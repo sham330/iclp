@@ -410,362 +410,6 @@
     }
   }
 },{
-  "course_name": "Oracle SCM Training in Chennai",
-  "path": "oracle-scm-training-in-chennai",
-  "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Oracle Supply Chain Management modules including procurement, inventory management, order management, supply chain planning, and logistics with hands-on implementation scenarios.",
-  "meta_title": "Oracle SCM Training in Chennai | Oracle SCM Online Course with Placement | ICLP Technologies",
-  "meta_description": "Join Oracle SCM Training in Chennai at ICLP Technologies. Learn Oracle Supply Chain Management with real-time projects, online classes, certification guidance, and placement assistance.",
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "EducationalOrganization",
-        "@id": "https://iclptech.in/#organization",
-        "name": "ICLP Technologies",
-        "url": "https://iclptech.in",
-        "logo": "https://iclptech.in/assets/logo/logo2.png",
-        "sameAs": [
-          "https://www.instagram.com/iclp_technologies",
-          "https://facebook.com/iclp-technologies",
-          "http://linkedin.com/company/iclp-technologies",
-          "https://twitter.com/iclp_tech",
-          "https://youtube.com/@iclp_technologies"
-        ],
-        "areaServed": {
-          "@type": "Place",
-          "name": "Chennai"
-        },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+91-8681026181",
-          "contactType": "customer support",
-          "areaServed": "IN",
-          "availableLanguage": [
-            "English",
-            "Tamil"
-          ]
-        }
-      },
-      {
-        "@type": "Service",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#service",
-        "name": "Oracle SCM Training in Chennai",
-        "provider": {
-          "@id": "https://iclptech.in/#organization"
-        },
-        "areaServed": "India",
-        "serviceType": "Oracle SCM Functional Course with Placement Support"
-      },
-      {
-        "@type": "Course",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#course",
-        "name": "Oracle SCM Training in Chennai",
-        "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
-        "provider": {
-          "@id": "https://iclptech.in/#organization"
-        },
-        "courseMode": [
-          "Online",
-          "Classroom"
-        ],
-        "inLanguage": "English",
-        "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Oracle SCM Course Completion Certificate",
-        "timeRequired": "PT40H",
-        "keywords": "Oracle SCM Training in Chennai, Oracle SCM Online Training, Oracle SCM Course, Oracle SCM Functional Training, Oracle SCM Placement Training, Oracle Supply Chain Management Training, Oracle SCM Cloud Training, Oracle SCM Certification Course, Oracle SCM Cloud Training Institute",
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Oracle SCM Cloud"
-          },
-          {
-            "@type": "Thing",
-            "name": "Oracle Procurement Cloud"
-          },
-          {
-            "@type": "Thing",
-            "name": "Oracle SCM Functional Training"
-          },
-          {
-            "@type": "Thing",
-            "name": "Supply Chain Management"
-          }
-        ],
-        "audience": {
-          "@type": "EducationalAudience",
-          "educationalRole": "student"
-        },
-        "hasCourseInstance": {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "inLanguage": "English"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": "https://iclptech.in/courses/oracle/oracle-scm/",
-          "price": "Contact for fees",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": 2850
-        }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://iclptech.in/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Courses",
-            "item": "https://iclptech.in/courses/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Oracle SCM Training",
-            "item": "https://iclptech.in/courses/oracle/oracle-scm/"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/oracle/oracle-scm/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Oracle SCM Training?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oracle SCM Training helps students learn Oracle Supply Chain Management modules including procurement, inventory management, logistics, planning, and order management with hands-on implementation scenarios."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Oracle SCM good for freshers?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Freshers from supply chain, logistics, ERP, operations, and business backgrounds can start a successful career in Oracle SCM."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide placement assistance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is online Oracle SCM training available?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We provide Oracle SCM Online Training with live instructor-led sessions and recorded classes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do I need coding knowledge for Oracle SCM?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Oracle SCM Training mainly focuses on supply chain workflows, ERP business processes, and functional implementation concepts."
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "faqs": [
-    {
-      "question": "What is Oracle SCM Training?",
-      "answer": "Oracle SCM Training helps students learn Oracle Supply Chain Management modules including procurement, inventory management, logistics, planning, and order management with hands-on implementation scenarios."
-    },
-    {
-      "question": "Is Oracle SCM good for freshers?",
-      "answer": "Yes. Freshers from supply chain, logistics, ERP, operations, and business backgrounds can start a successful career in Oracle SCM."
-    },
-    {
-      "question": "Do you provide placement assistance?",
-      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
-    },
-    {
-      "question": "Is online Oracle SCM training available?",
-      "answer": "Yes. We provide Oracle SCM Online Training with live instructor-led sessions and recorded classes."
-    },
-    {
-      "question": "Do I need coding knowledge for Oracle SCM?",
-      "answer": "No. Oracle SCM Training mainly focuses on supply chain workflows, ERP business processes, and functional implementation concepts."
-    }
-  ],
-  "what_youll_learn": [
-    "Oracle SCM Cloud Overview",
-    "Oracle Procurement Cloud",
-    "Supplier Management",
-    "Inventory Management",
-    "Order Management",
-    "Supply Chain Planning",
-    "Logistics Management",
-    "SCM Reporting and Dashboards",
-    "Security and User Management",
-    "Real-Time SCM Implementation Scenarios"
-  ],
-  "syllabus": [
-    {
-      "module": "Oracle SCM Cloud Fundamentals",
-      "subtopics": [
-        "Introduction to Oracle Supply Chain Management",
-        "Cloud SCM architecture and components",
-        "Overview of SCM functional modules",
-        "Use cases in manufacturing, retail, and logistics"
-      ]
-    },
-    {
-      "module": "Oracle Procurement Cloud",
-      "subtopics": [
-        "Procurement business process",
-        "Requisition to purchase order flow",
-        "Supplier collaboration and self-service",
-        "Sourcing and catalog management"
-      ]
-    },
-    {
-      "module": "Supplier Management",
-      "subtopics": [
-        "Supplier setup and master data",
-        "Supplier onboarding and evaluation",
-        "Supplier performance and analytics",
-        "Vendor collaboration scenarios"
-      ]
-    },
-    {
-      "module": "Inventory Management",
-      "subtopics": [
-        "Inventory organization and items",
-        "Inventory transactions and movements",
-        "Reservation and cycle counting",
-        "Inventory reporting and reconciliation"
-      ]
-    },
-    {
-      "module": "Order Management",
-      "subtopics": [
-        "Order entry and fulfillment",
-        "Order orchestration and workflows",
-        "Order promising and scheduling",
-        "Order management in end‑to‑end SCM"
-      ]
-    },
-    {
-      "module": "Supply Chain Planning",
-      "subtopics": [
-        "Demand planning fundamentals",
-        "Supply planning and planning hierarchies",
-        "Global order promising",
-        "Planning data and analytics"
-      ]
-    },
-    {
-      "module": "Logistics and Transportation",
-      "subtopics": [
-        "Shipping and logistics workflows",
-        "Vehicle and shipment management",
-        "Carrier and rate management",
-        "Transportation execution and tracking"
-      ]
-    },
-    {
-      "module": "SCM Reporting and Dashboards",
-      "subtopics": [
-        "SCM reporting concepts",
-        "Standard and custom reports",
-        "Dashboards for inventory, orders, and logistics",
-        "Analytical insights for decision‑making"
-      ]
-    },
-    {
-      "module": "Security and User Management",
-      "subtopics": [
-        "User roles and security groups",
-        "Data access and responsibilities",
-        "Role‑based dashboards and menus",
-        "SCM configuration best practices"
-      ]
-    },
-    {
-      "module": "Real-Time Projects and Career Prep",
-      "subtopics": [
-        "End‑to‑end SCM implementation scenarios",
-        "Live case studies and assignments",
-        "Certification guidance and mock interviews",
-        "Placement support and resume building"
-      ]
-    }
-  ],
-  "duration": "Flexible Batches",
-  "skill_level": "Beginner to Advanced (No Coding Required)",
-  "image": "/CourseDetails/oracle-scm-training-in-chennai.png",
-  "placement_assurance": true,
-  "projects": [
-    "Oracle Procurement Cloud Scenario",
-    "End‑to‑End Order Management Case Study",
-    "Inventory Management Implementation",
-    "Supplier and Logistics Management Project",
-    "SCM Reporting and Dashboard Implementation"
-  ],
-  "career_benefits": {
-    "heading": "Career Benefits of Oracle SCM Training in Chennai",
-    "description": "Oracle SCM is one of the most in‑demand cloud ERP and supply chain technologies used by multinational companies across manufacturing, logistics, retail, healthcare, and enterprise domains. Build a strong career in Oracle SCM with practical exposure, certification guidance, and placement support.",
-    "points": [
-      "<strong>High Demand in ERP and Supply Chain:</strong> Large organizations actively hiring Oracle SCM Functional Consultants, Procurement Consultants, and Support Consultants.",
-      "<strong>Attractive Salary Packages:</strong> Freshers and professionals earn competitive packages in SCM and ERP roles.",
-      "<strong>Global Job Opportunities:</strong> Oracle SCM skills are valued across India, the USA, Europe, Middle East, and Asia‑Pacific markets.",
-      "<strong>Cloud ERP Technology Exposure:</strong> Gain hands‑on experience with Oracle’s modern cloud‑based supply chain platform.",
-      "<strong>Entry‑Level Friendly:</strong> Freshers from supply chain, logistics, operations, business, and ERP backgrounds can build a successful career in Oracle SCM.",
-      "<strong>Diverse Career Roles:</strong> Work as Oracle SCM Functional Consultant, Support Consultant, Procurement Consultant, Business Analyst, or Supply Chain Analyst."
-    ]
-  },
-  "who_can_learn": [
-    "MBA Graduates",
-    "Supply Chain Professionals",
-    "ERP Consultants",
-    "Logistics Professionals",
-    "Freshers",
-    "Working Professionals",
-    "Operations and Business Analysts"
-  ],
-  "curriculum_overview": {
-    "heading": "Oracle SCM Functional Training Curriculum",
-    "intro": "Our Oracle SCM Functional Training program delivers 100% practical, industry‑focused learning with real‑time projects, end‑to‑end SCM workflows, and placement‑oriented guidance to make you job‑ready in Oracle SCM."
-  },
-  "why_institute": {
-    "heading": "Why Choose ICLP Technologies for Oracle SCM Training?",
-    "intro": "ICLP Technologies is one of the best Oracle SCM Training institutes in Chennai, offering experienced trainers, hands‑on project‑based learning, certification support, and dedicated placement assistance.",
-    "instructor_expertise": {
-      "heading": "Experienced Oracle SCM Trainers",
-      "description": "Learn from Oracle‑certified SCM professionals with real‑world implementation experience in multinational companies and consulting firms."
-    },
-    "training_modes": {
-      "heading": "Flexible Learning Options",
-      "description": "Choose classroom training, online training, weekday batches, or weekend batches based on your schedule.",
-      "options": [
-        "<strong>Live Instructor‑Led Classes:</strong> Interactive sessions with Q&A, screen sharing, and hands‑on labs.",
-        "<strong>Real‑Time Projects:</strong> Practical implementation scenarios in procurement, order management, inventory, and planning.",
-        "<strong>Flexible Batch Timings:</strong> Suitable for working professionals, fresh graduates, and career switchers.",
-        "<strong>Recorded Access:</strong> Lifetime access to recorded sessions, assignments, and interview preparation materials."
-      ]
-    }
-  }
-},{
   "course_name": "Oracle SCM Training in Bangalore",
   "path": "oracle-scm-bangalore",
   "meta_title": "Oracle SCM Training in Bangalore with Placement Support | ICLP Technologies",
@@ -13696,11 +13340,406 @@
       "answer": "ICLP Tech offers the best Android development training in India with expert trainers, real-time project exposure, portfolio building, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
     }
   ]
+},{
+  "course_name": "LabVIEW Training in Chennai",
+  "path": "labview-training-in-chennai",
+
+  "description": "Join LabVIEW Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn LabVIEW graphical programming, data acquisition, instrument control, and industrial automation with hands-on implementation scenarios.",
+  "meta_title": "LabVIEW Training in Chennai | LabVIEW Online Course with Placement | ICLP Technologies",
+  "meta_description": "Join LabVIEW Training in Chennai at ICLP Technologies. Learn LabVIEW programming, DAQ, and instrument control with real-time projects, online classes, certification guidance, and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/labview/labview-training-in-chennai/#service",
+        "name": "LabVIEW Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "LabVIEW Programming Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/labview/labview-training-in-chennai/#course",
+        "name": "LabVIEW Training in Chennai",
+        "description": "Join LabVIEW Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "LabVIEW Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "LabVIEW Training in Chennai, LabVIEW Online Training, LabVIEW Course, LabVIEW Programming Training, LabVIEW Placement Training, LabVIEW DAQ Training, LabVIEW Certification Course, LabVIEW Automation Training Institute",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "LabVIEW Graphical Programming"
+          },
+          {
+            "@type": "Thing",
+            "name": "NI-DAQmx"
+          },
+          {
+            "@type": "Thing",
+            "name": "Instrument Control"
+          },
+          {
+            "@type": "Thing",
+            "name": "Industrial Automation"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/labview/labview-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": 2850
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/labview/labview-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "LabVIEW Training",
+            "item": "https://iclptech.in/courses/labview/labview-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/labview/labview-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is LabVIEW Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LabVIEW Training helps students learn graphical programming, data acquisition (DAQ), instrument control, and industrial automation using National Instruments' LabVIEW software with hands-on implementation scenarios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is LabVIEW good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from electronics, instrumentation, electrical, and engineering backgrounds can start a successful career in LabVIEW programming and automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online LabVIEW training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide LabVIEW Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need prior coding knowledge for LabVIEW?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. LabVIEW uses graphical dataflow programming, so basic logical thinking is enough to get started; prior coding experience is helpful but not mandatory."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is LabVIEW Training?",
+      "answer": "LabVIEW Training helps students learn graphical programming, data acquisition (DAQ), instrument control, and industrial automation using National Instruments' LabVIEW software with hands-on implementation scenarios."
+    },
+    {
+      "question": "Is LabVIEW good for freshers?",
+      "answer": "Yes. Freshers from electronics, instrumentation, electrical, and engineering backgrounds can start a successful career in LabVIEW programming and automation."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online LabVIEW training available?",
+      "answer": "Yes. We provide LabVIEW Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need prior coding knowledge for LabVIEW?",
+      "answer": "No. LabVIEW uses graphical dataflow programming, so basic logical thinking is enough to get started; prior coding experience is helpful but not mandatory."
+    }
+  ],
+  "what_youll_learn": [
+    "LabVIEW Graphical Programming Fundamentals",
+    "Front Panel and Block Diagram Design",
+    "Programming Structures (Loops, Case, Sequence, Event)",
+    "Arrays, Clusters, and String Handling",
+    "Graphs, Charts, and UI Design",
+    "SubVIs and Modular Programming",
+    "Error Handling Techniques",
+    "NI-DAQ Hardware and Data Acquisition",
+    "Instrument Control and VISA Communication",
+    "Real-Time Industrial Automation Applications"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to LabVIEW",
+      "subtopics": [
+        "Introduction to LabVIEW",
+        "Features and Applications of LabVIEW",
+        "Understanding Graphical Programming",
+        "Dataflow Programming Concept",
+        "Virtual Instruments (VIs)",
+        "Installing and Configuring LabVIEW",
+        "Creating Your First LabVIEW Program"
+      ]
+    },
+    {
+      "module": "LabVIEW Interface and Programming",
+      "subtopics": [
+        "Front Panel and Block Diagram",
+        "Controls, Indicators, and Functions Palette",
+        "Data Types (Numeric, Boolean, String)",
+        "Wires and Terminals",
+        "Constants and Variables",
+        "Basic Arithmetic and Logical Operations",
+        "Debugging Techniques"
+      ]
+    },
+    {
+      "module": "Programming Structures",
+      "subtopics": [
+        "While Loop",
+        "For Loop",
+        "Case Structure",
+        "Sequence Structure",
+        "Event Structure",
+        "Shift Registers",
+        "Timing Functions",
+        "Auto Indexing"
+      ]
+    },
+    {
+      "module": "Data Handling and File Operations",
+      "subtopics": [
+        "Arrays and Array Functions",
+        "Clusters and Cluster Operations",
+        "Strings and String Functions",
+        "Type Conversion",
+        "Reading and Writing Text Files",
+        "CSV and Spreadsheet File Operations",
+        "Report Generation"
+      ]
+    },
+    {
+      "module": "Graphs, Charts, and User Interface Design",
+      "subtopics": [
+        "Waveform Charts",
+        "Waveform Graphs",
+        "XY Graphs",
+        "Intensity Graphs",
+        "Customizing Graphs",
+        "Property Nodes",
+        "User Interface Best Practices",
+        "Building Interactive Applications"
+      ]
+    },
+    {
+      "module": "Modular Programming and Error Handling",
+      "subtopics": [
+        "Creating SubVIs",
+        "Connector Pane and Custom Icons",
+        "Local Variables",
+        "Global Variables",
+        "Functional Global Variables",
+        "Error Clusters",
+        "Error Handling Techniques",
+        "Code Reusability and Best Practices"
+      ]
+    },
+    {
+      "module": "Data Acquisition (DAQ) and Instrument Control",
+      "subtopics": [
+        "Introduction to NI-DAQ Hardware",
+        "NI-DAQmx Programming",
+        "Analog Input and Output",
+        "Digital Input and Output",
+        "Counter and Timer Operations",
+        "VISA Communication",
+        "Serial (RS232), USB, and GPIB Communication",
+        "Instrument Driver Integration"
+      ]
+    },
+    {
+      "module": "Advanced LabVIEW Programming",
+      "subtopics": [
+        "State Machine Architecture",
+        "Event-Driven Programming",
+        "Producer–Consumer Design Pattern",
+        "Queues and Notifiers",
+        "Shared Variables",
+        "Dynamic Events",
+        "Multithreading Concepts",
+        "Application Performance Optimization"
+      ]
+    },
+    {
+      "module": "Real-Time Applications and Industrial Automation",
+      "subtopics": [
+        "Signal Processing Basics",
+        "Data Logging Techniques",
+        "PLC Communication",
+        "SCADA Integration",
+        "Test and Measurement Systems",
+        "Industrial Automation Applications",
+        "Executable and Installer Creation",
+        "Deployment Strategies"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Temperature Monitoring System",
+        "Data Acquisition System",
+        "Industrial Machine Monitoring",
+        "Instrument Automation Project",
+        "Sensor Data Logging System",
+        "Process Control Application",
+        "Certification guidance and mock interviews",
+        "Placement support and resume building"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced",
+  "image": "/lab-view.jfif",
+  "placement_assurance": true,
+  "projects": [
+    "Temperature Monitoring System",
+    "Data Acquisition System",
+    "Industrial Machine Monitoring Application",
+    "Instrument Automation Project",
+    "Sensor Data Logging System",
+    "Process Control Application"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of LabVIEW Training in Chennai",
+    "description": "LabVIEW is one of the most widely used graphical programming platforms for test, measurement, and industrial automation, adopted by multinational companies across electronics, aerospace, manufacturing, and research domains. Build a strong career in LabVIEW with practical exposure, certification guidance, and placement support.",
+    "points": [
+      "<strong>High Demand in Automation and Test Engineering:</strong> Large organizations actively hiring LabVIEW Developers, Test Engineers, and Automation Engineers.",
+      "<strong>Attractive Salary Packages:</strong> Freshers and professionals earn competitive packages in embedded, automation, and test engineering roles.",
+      "<strong>Global Job Opportunities:</strong> LabVIEW skills are valued across India, the USA, Europe, Middle East, and Asia‑Pacific markets.",
+      "<strong>Hardware and Software Integration Exposure:</strong> Gain hands‑on experience with NI-DAQ hardware, instrument control, and real-time automation systems.",
+      "<strong>Entry‑Level Friendly:</strong> Freshers from electronics, instrumentation, electrical, and engineering backgrounds can build a successful career in LabVIEW.",
+      "<strong>Diverse Career Roles:</strong> Work as LabVIEW Developer, Test Automation Engineer, DAQ Engineer, Instrumentation Engineer, or Embedded Test Engineer."
+    ]
+  },
+  "who_can_learn": [
+    "Engineering Graduates",
+    "Electronics and Instrumentation Professionals",
+    "Electrical Engineers",
+    "Embedded Systems Professionals",
+    "Freshers",
+    "Working Professionals",
+    "Test and Automation Engineers"
+  ],
+  "curriculum_overview": {
+    "heading": "LabVIEW Programming Training Curriculum",
+    "intro": "Our LabVIEW Training program delivers 100% practical, industry‑focused learning with real‑time projects, end‑to‑end automation and DAQ workflows, and placement‑oriented guidance to make you job‑ready in LabVIEW."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for LabVIEW Training?",
+    "intro": "ICLP Technologies is one of the best LabVIEW Training institutes in Chennai, offering experienced trainers, hands‑on project‑based learning, certification support, and dedicated placement assistance.",
+    "instructor_expertise": {
+      "heading": "Experienced LabVIEW Trainers",
+      "description": "Learn from experienced LabVIEW professionals with real‑world implementation experience in test automation, DAQ systems, and industrial automation across multinational companies."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Choose classroom training, online training, weekday batches, or weekend batches based on your schedule.",
+      "options": [
+        "<strong>Live Instructor‑Led Classes:</strong> Interactive sessions with Q&A, screen sharing, and hands‑on labs.",
+        "<strong>Real‑Time Projects:</strong> Practical implementation scenarios in DAQ, instrument control, and industrial automation.",
+        "<strong>Flexible Batch Timings:</strong> Suitable for working professionals, fresh graduates, and career switchers.",
+        "<strong>Recorded Access:</strong> Lifetime access to recorded sessions, assignments, and interview preparation materials."
+      ]
+    }
+  }
 },
        
         {
           "course_name": "C Sharp",
-          "path": "c-sharp-online-training",
+          "path": "c-sharp-training-in-chennai",
           "description": "Learn C# programming and object-oriented principles with .NET framework and Visual Studio.",
           "what_youll_learn": [
             "Understand Object-Oriented Programming (OOP) principles",

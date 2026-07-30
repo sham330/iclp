@@ -25,7 +25,7 @@ const redirectMap = {
   "etl testing": "/course/etl-testing-online-training/",
   "soapui": "/course/soap-ui-online-training/",
   "cyber security": "/course/cyber-security-online-training/",
-  "c sharp": "/course/c-sharp-online-training/",
+  "c sharp": "/course/c-sharp-training-in-chennai/",
   "digital marketing": "/course/digital-marketing-online-training/",
   "python": "/course/python-development-online-training/",
   "css online": "/course/css-online-training/",

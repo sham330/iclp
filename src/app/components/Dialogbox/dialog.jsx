@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
 import { FaTimes, FaCheckCircle, FaArrowRight, FaUsers, FaUserTie, FaClock, FaCalendarAlt, FaBriefcase, FaLaptop, FaRupeeSign, FaShieldAlt, FaCommentDots } from 'react-icons/fa';
+
+const ModalBooking = dynamic(() => import('../ModalBooking/ModalBooking'), { ssr: false });
 
 const courses = [
   { name: "Java", type: "regular" },
@@ -242,7 +245,7 @@ const HomeAboutDialog = ({ onClose } = {}) => {
           <div className="w-full md:w-1/2 flex flex-col overflow-hidden">
 
             {/* Top half — photo with logo overlay */}
-            <div className="relative h-40 md:h-48 shrink-0">
+            <div className="relative flex-1 shrink-0">
               <img
                 src="/dialog-box.jpeg"
                 alt="Students learning with expert trainer"

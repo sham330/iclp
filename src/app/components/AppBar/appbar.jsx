@@ -67,7 +67,7 @@ const AppBar = () => {
         const staticCourses = [
       { name: "Java", path: "java-online-training-in-chennai" },
       { name: "Python", path: "python-development-online-training" },
-      { name: "C Sharp", path: "c-sharp-online-training" },
+      { name: "C Sharp", path: "c-sharp-training-in-chennai" },
       { name: "Control-M", path: "control-m-training-chennai" },
       {   path: "android-development-training-chennai", name: "Android Development" },
       { name: "R Programming", path: "r-programming-online-training-in-chennai" },
@@ -160,6 +160,7 @@ const AppBar = () => {
       { name: "Blockchain", path: "blockchain-online-training" },
       { name: "Selenium", path: "selenium-training-in-chennai" },
       { name: "Manual Testing", path: "manual-testing-course-online-training-in-chennai" },
+      {  name:"LabVIEW",path: "labview-training-in-chennai",},
       { name: "JMeter", path: "jmeter-online-training-in-chennai" },
       { name: "Workday Studio Training", path: "workday-studio-training" },
       { name: "Software Testing", path: "software-testing-certification-course-in-chennai" },
