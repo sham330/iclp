@@ -37,11 +37,11 @@ const TechHero = () => {
               <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-1 sm:mb-2">
                 Best Software Training{" "}
                 <span className="bg-gradient-to-r from-cyan-300 to-blue-200 bg-clip-text text-transparent">
- Institute in Chennai for                </span>
+ Institute in Chennai             </span>
               </span>
-              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-200">
+              {/* <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-blue-200">
 Job-Oriented IT Training
-              </span>
+              </span> */}
             </h1>
 
             {/* BUTTONS */}
