@@ -46,7 +46,7 @@ export async function POST(request) {
       service: "gmail",
       auth: {
         user: "info.iclptech@gmail.com",
-        pass: "knjj pzhr loiu qlir", // ⚠️ Use an App Password, not your Gmail password
+        pass: "gmbg gnsy ymaa xihu", // ⚠️ Use an App Password, not your Gmail password
       },
     });
 

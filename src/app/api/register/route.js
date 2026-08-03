@@ -21,7 +21,7 @@ export async function POST(request) {
       service: "gmail",
       auth: {
         user: process.env.GMAIL_USER || "info.iclptech@gmail.com",
-        pass: process.env.GMAIL_APP_PASS || "knjj pzhr loiu qlir", // replace with env var
+        pass: process.env.GMAIL_APP_PASS || "gmbg gnsy ymaa xihu", // replace with env var
       },
     });
 
