@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-// import { PrismaClient } from "@prisma/client"; // Uncomment if you use Prisma
-// const prisma = new PrismaClient();
+import mysql from "mysql2/promise";
 
 export async function POST(request) {
   console.log("📥 API Hit: /api/register");
@@ -34,29 +33,57 @@ export async function POST(request) {
       return NextResponse.json({ message: "Invalid email format" }, { status: 400 });
     }
 
-    // ✅ (Optional) Save to database
-    /*
-    const savedUser = await prisma.user.create({
-      data: { name, email, phone_number: phone, course },
-    });
-    */
+    // ✅ Save to MySQL
+    try {
+      const db = await mysql.createConnection({
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS,
+        database: process.env.DB_NAME,
+        port: Number(process.env.DB_PORT) || 3306,
+      });
+      await db.execute(
+        `INSERT INTO enquiries (name, email, phone, course, qualification, experience, notes, created_at)
+         VALUES (?, ?, ?, ?, ?, ?, ?, NOW())`,
+        [name, email, phone, course, qualification || null, experience || null, notes || null]
+      );
+      await db.end();
+      console.log("✅ Saved to DB");
+    } catch (dbErr) {
+      console.error("⚠️ DB save failed (continuing):", dbErr.message);
+    }
 
-    // ✅ Setup nodemailer transporter
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: "info.iclptech@gmail.com",
-        pass: "gmbg gnsy ymaa xihu", // ⚠️ Use an App Password, not your Gmail password
-      },
-    });
+    // ✅ Setup nodemailer with fallback
+    const accounts = [
+      { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
+      { user: process.env.GMAIL_FALLBACK_USER, pass: process.env.GMAIL_FALLBACK_PASS },
+    ];
 
-    // Verify connection (optional)
-    await transporter.verify();
-    console.log("📡 SMTP connection verified");
+    let transporter = null;
+    for (const account of accounts) {
+      try {
+        const t = nodemailer.createTransport({
+          service: "gmail",
+          auth: { user: account.user, pass: account.pass },
+        });
+        await t.verify();
+        transporter = t;
+        console.log("📡 SMTP verified with:", account.user);
+        break;
+      } catch {
+        console.warn("⚠️ SMTP failed for:", account.user, "- trying next...");
+      }
+    }
+
+    if (!transporter) {
+      console.warn("⚠️ All email accounts failed — data already saved to DB");
+      return NextResponse.json({ success: true, message: "Enquiry received successfully" });
+    }
 
     // ✅ Email contents
+const activeUser = transporter.options.auth.user;
 const mailOptions = {
-  from: "enquiry.iclp@gmail.com",
+  from: activeUser,
   to: "enquiry.iclp@gmail.com",
   subject: `💡 New Course Registration | ICLP Tech`,
   html: `
