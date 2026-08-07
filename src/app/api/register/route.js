@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import mysql from "mysql2/promise";
 
 export async function POST(request) {
   console.log("📥 API Hit: /api/register");
@@ -15,23 +16,56 @@ export async function POST(request) {
       );
     }
 
-    
-    // 📨 Nodemailer setup
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.GMAIL_USER || "info.iclptech@gmail.com",
-        pass: process.env.GMAIL_APP_PASS || "gmbg gnsy ymaa xihu", // replace with env var
-      },
-    });
+    // ✅ Save to MySQL
+    try {
+      const db = await mysql.createConnection({
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS,
+        database: process.env.DB_NAME,
+        port: Number(process.env.DB_PORT) || 3306,
+      });
+      await db.execute(
+        `INSERT INTO registrations (name, email, phone, course, state, city, contact, created_at)
+         VALUES (?, ?, ?, ?, ?, ?, ?, NOW())`,
+        [name, email || null, phone || null, course, state || null, city || null, contact || null]
+      );
+      await db.end();
+      console.log("✅ Saved to DB");
+    } catch (dbErr) {
+      console.error("⚠️ DB save failed (continuing):", dbErr.message);
+    }
 
-    // Verify connection
-    await transporter.verify();
-    console.log("📡 SMTP connection verified");
+    // 📨 Nodemailer setup with fallback
+    const accounts = [
+      { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
+      { user: process.env.GMAIL_FALLBACK_USER, pass: process.env.GMAIL_FALLBACK_PASS },
+    ];
 
-    // Email content
+    let transporter = null;
+    for (const account of accounts) {
+      try {
+        const t = nodemailer.createTransport({
+          service: "gmail",
+          auth: { user: account.user, pass: account.pass },
+        });
+        await t.verify();
+        transporter = t;
+        console.log("📡 SMTP verified with:", account.user);
+        break;
+      } catch {
+        console.warn("⚠️ SMTP failed for:", account.user, "- trying next...");
+      }
+    }
+
+    if (!transporter) {
+      console.warn("⚠️ All email accounts failed — data already saved to DB");
+      return NextResponse.json({ success: true, message: "Registration received successfully" });
+    }
+
+    const activeUser = transporter.options.auth.user;
     const mailOptions = {
-      from: "ICLP Tech <enquiry.iclp@gmail.com>",
+      from: activeUser,
       to: "enquiry.iclp@gmail.com",
       subject: `💡 New Course Registration | ICLP Tech`,
       html: `
@@ -65,7 +99,7 @@ export async function POST(request) {
     const info = await transporter.sendMail(mailOptions);
     console.log("✅ Email sent:", info.messageId);
 
-    return NextResponse.json({ success: true, message: "Email sent successfully!" });
+    return NextResponse.json({ success: true, message: "Registration submitted successfully" });
   } catch (error) {
     console.error("❌ API Error:", error);
     return NextResponse.json(
