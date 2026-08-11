@@ -23,14 +23,14 @@
           { "name": "SAP Ariba", "path": "/courses/sap-courses/sap-ariba-training-in-chennai" },
           { "name": "SAP HCM", "path": "/courses/sap-courses/sap-hcm-training-in-chennai" },
           { "name": "SAP BO", "path": "/courses/sap-courses/sap-bo-training-in-chennai" },
-          { "name": "SAP S/4HANA", "path": "/courses/sap-courses/sap-master-data-governance-(mdg)-on-s-4hana-training-in-chennai" },
+          { "name": "SAP S/4HANA", "path": "/courses/sap-courses/sap-mdg-training-in-chennai" },
           { "name": "SAP QM", "path": "/courses/sap-courses/sap-quality-management-(qm)-training-in-chennai" },
           { "name": "SAP PM", "path": "/courses/sap-courses/sap-pm-training-in-chennai" },
           { "name": "SAP TM", "path": "/courses/sap-courses/sap-transportation-management-training-in-chennai" },
           { "name": "SAP ABO", "path": "/courses/sap-courses/sap-abo-training-in-chennai" },
           { "name": "SAP IS-U", "path": "/courses/sap-courses/sap-is-utilities-training-in-chennai" },
           { "name": "SAP Hybris", "path": "/courses/sap-courses/sap-hybris-ecommerce-training-in-chennai" },
-          { "name": "SAP MDG", "path": "/courses/sap-courses/sap-master-data-governance-(mdg)-on-s-4hana-training-in-chennai" },
+          { "name": "SAP MDG", "path": "/courses/sap-courses/sap-mdg-training-in-chennai" },
           { "name": "SAP CPI", "path": "/courses/sap-courses/sap-integration-suite-cpi-training-in-chennai" },
           { "name": "SAP Fiori", "path": "/courses/sap-courses/sap-ui5-fiori-training-in-chennai" }
         ]

@@ -251,7 +251,7 @@ const AppBar = () => {
       { name: "SAP SuccessFactors Online Training", type: "sap", path: "sap-successfactors-online-training-in-chennai" },
       { name: "SAP Quality Management (QM)", type: "sap", path: "sap-quality-management-(qm)-training-in-chennai" },
       { name: "SAP Ariba Training", type: "sap", path: "sap-ariba-training-in-chennai" },
-      { name: "SAP Master Data Governance (MDG) on S/4HANA", type: "sap", path: "sap-master-data-governance-(mdg)-on-s-4hana-training-in-chennai" },
+      { name: "SAP Master Data Governance (MDG) on S/4HANA", type: "sap", path: "sap-mdg-training-in-chennai" },
       { name: "Adobe Photoshop Certification", type: "sap" },
       { name: "SAP BASIS Administration", type: "sap", path: "sap-basis-administration-training-in-chennai" },
       { name: "SAP Sales Cloud (C4C) Training", type: "sap", path: "sap-sales-cloud-(c4c)-training" },
