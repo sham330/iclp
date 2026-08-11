@@ -20,6 +20,17 @@ const nextConfig = {
     ],
   },
   trailingSlash: true,
+
+  // ⚠️ TEMPORARY REDIRECTS — remove when no longer needed
+  async redirects() {
+    return [
+      {
+        source: '/courses/collibra-online-training-course',
+        destination: '/courses/data-integration/collibra-training-in-chennai',
+        permanent: false, // 307 — change to true for permanent 308
+      },
+    ];
+  },
 };
 
 export default nextConfig;
