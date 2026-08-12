@@ -40303,7 +40303,24 @@
     {
       "question": "Is online Collibra training available?",
       "answer": "Yes. We provide online instructor-led Collibra Training with recorded classes and flexible schedules."
-    }
+    },
+  {
+    "question": "What topics are covered in the Collibra course syllabus?",
+    "answer": "A Collibra course covers data governance fundamentals, the Collibra platform, data catalog, business glossary, metadata management, assets and domains, data quality, data lineage, workflows, roles and responsibilities, integrations, APIs, and practical project scenarios. The exact syllabus may vary depending on the training program and learner level."
+  },
+  {
+    "question": "Does ICLP Technologies provide Collibra Training in Chennai?",
+    "answer": "Yes. ICLP Technologies offers Collibra Training in Chennai for learners who want to build skills in data governance and the Collibra platform. You can contact the institute to check the latest batch schedules, training modes, and course availability."
+  },
+  {
+    "question": "What is the fee for Collibra Training in Chennai?",
+    "answer": "The fee for Collibra Training in Chennai depends on factors such as course duration, training mode, syllabus coverage, projects, and additional learning resources. Contact ICLP Technologies for the latest course fee, offers, and payment options."
+  },
+  {
+    "question": "How can I join Collibra Training in Chennai?",
+    "answer": "You can join Collibra Training in Chennai by contacting ICLP Technologies to enquire about the current batch schedule, course syllabus, training mode, fees, and registration process. The admissions team will help you choose the course that best matches your learning and career goals."
+  }
+
   ],
   "what_youll_learn": [
     "Introduction to Collibra Platform",
