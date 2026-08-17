@@ -204,6 +204,27 @@ export default async function BlogDetailPage({ params }) {
     ))}
 
 
+    {/* Top-level FAQs */}
+    {blog.faqs && blog.faqs.length > 0 && (
+      <div className="mb-10">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+        {blog.faqs.map((faq, i) => (
+          <div key={i} className="blog-content border-b border-gray-200 pb-6 mb-6 last:border-b-0">
+            <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-start gap-3">
+              <span className="flex-shrink-0 w-6 h-6 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">
+                Q
+              </span>
+              {faq.q}
+            </h4>
+            <div className="ml-9">
+              <p className="text-gray-700 leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a }} />
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
+
+
     {/* Conclusion */}
     <article className="blog-content bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 mb-10">
       <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
