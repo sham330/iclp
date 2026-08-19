@@ -2324,7 +2324,7 @@
 },
 {
   "course_name": "Oracle Procure to Pay Training",
-  "path": "oracle-procure-to-pay",
+  "path": "oracle-procure-to-pay-in-chennai",
   "description": "Comprehensive training in Oracle Purchasing and Payables solutions covering supplier management, requisitioning, purchase orders, invoice processing, and payment workflows.",
   "what_youll_learn": [
     "Oracle Purchasing fundamentals",
@@ -2458,7 +2458,7 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-procure-to-pay.png",
+  "image": "../CourseDetails/oracle-procure-to-pay-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Procure-to-Pay Process Implementation",
@@ -2469,7 +2469,7 @@
 },
 {
   "course_name": "Oracle Hyperion EPM Training",
-  "path": "oracle-hyperion-epm",
+  "path": "oracle-hyperion-epm-in-chennai",
   "description": "Comprehensive training in Oracle Hyperion Enterprise Performance Management solutions covering financial consolidation, planning, budgeting, and reporting.",
   "what_youll_learn": [
     "Hyperion Financial Management",
@@ -2537,7 +2537,7 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/oracle-hyperion-epm.png",
+  "image": "../CourseDetails/oracle-hyperion-epm-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Financial Consolidation Process Implementation",
@@ -2548,7 +2548,7 @@
 },
 {
   "course_name": "Oracle GRC Controls Suite Fundamentals",
-  "path": "oracle-grc-control-suit-fundamentals-vers",
+  "path": "oracle-grc-control-suit-fundamentals-vers-in-chennai",
   "description": "Comprehensive training in Oracle Governance, Risk and Compliance (GRC) Controls Suite covering continuous controls monitoring, access governance, and risk management.",
   "what_youll_learn": [
     "GRC Controls Suite architecture",
@@ -2653,7 +2653,7 @@
 },
 {
   "course_name": "Oracle Developer Course",
-  "path": "oracle-developer",
+  "path": "oracle-developer-in-chennai",
   "description": "Comprehensive training in Oracle Developer tools covering SQL, PL/SQL, Forms, and Reports development for database applications.",
   "what_youll_learn": [
     "SQL fundamentals and advanced queries",
@@ -2721,7 +2721,7 @@
   ],
   "duration": "70-80 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-developer.png",
+  "image": "../CourseDetails/oracle-developer-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Database Application Development",
@@ -2803,7 +2803,7 @@
 },
 {
   "course_name": "Oracle Forms and Reports",
-  "path": "oracle-application-framework",
+  "path": "oracle-application-framework-in-chennai",
   "description": "Comprehensive training in Oracle Forms and Reports development covering application creation, data presentation, and business reporting solutions.",
   "what_youll_learn": [
     "Forms Developer environment",
@@ -2874,7 +2874,7 @@
 },
 {
   "course_name": "Oracle Application Framework (OAF)",
-  "path": "oracle-oaf",
+  "path": "oracle-oaf-in-chennai",
   "description": "Comprehensive training in Oracle Application Framework covering MVC architecture, JDeveloper tools, and custom application development for Oracle E-Business Suite.",
   "what_youll_learn": [
     "OAF architecture and MVC pattern",
@@ -2926,7 +2926,7 @@
   ],
   "duration": "40-50 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-oaf.png",
+  "image": "../CourseDetails/oracle-oaf-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Custom OAF Page Development",
@@ -2937,7 +2937,7 @@
 },
 {
   "course_name": "Oracle Cloud Infrastructure (OCI)",
-  "path": "oracle-cloud-infrastructure",
+  "path": "oracle-cloud-infrastructure-in-chennai",
   "description": "Comprehensive training in Oracle Cloud Infrastructure covering compute, storage, networking, databases, and security services for cloud solutions.",
   "what_youll_learn": [
     "OCI architecture and regions",
@@ -3000,7 +3000,7 @@
 },
 {
   "course_name": "WebLogic Server",
-  "path": "oracle-weblogic-server",
+  "path": "oracle-weblogic-server-in-chennai",
   "description": "Comprehensive training in Oracle WebLogic Server covering installation, configuration, clustering, security, and performance tuning for enterprise Java applications.",
   "what_youll_learn": [
     "WebLogic architecture",
@@ -3126,7 +3126,7 @@
 },
 {
   "course_name": "Oracle Customer Care & Billing (CC&B)",
-  "path": "oracle-customercare",
+  "path": "oracle-customercare-in-chennai",
   "description": "Comprehensive training in Oracle CC&B covering customer management, billing processes, payments, and field service operations for utility companies.",
   "what_youll_learn": [
     "CC&B architecture and UI standards",
@@ -3187,7 +3187,7 @@
 },
 {
   "course_name": "R12.x Oracle Inventory Management",
-  "path": "oracle-r12",
+  "path": "oracle-r12-in-chennai",
   "description": "Comprehensive training in Oracle Inventory covering organization setup, item management, transactions, replenishment, and accuracy for supply chain operations.",
   "what_youll_learn": [
     "Inventory organization structure",
@@ -3250,7 +3250,7 @@
 },
 {
   "course_name": "R12.2 Oracle E-Business Tax",
-  "path": "oracle-tax-reporting",
+  "path": "oracle-tax-reporting-in-chennai",
   "description": "Comprehensive training in Oracle E-Business Tax covering tax configuration, determination rules, reporting, and compliance for global operations.",
   "what_youll_learn": [
     "E-Business Tax architecture",
@@ -3313,7 +3313,7 @@
 },
 {
   "course_name": "R12.x Oracle Order Management",
-  "path": "oracle-order-management",
+  "path": "oracle-order-management-in-chennai",
   "description": "Comprehensive training in Oracle Order Management covering order capture, fulfillment, pricing, shipping, and integration for the order-to-cash cycle.",
   "what_youll_learn": [
     "Order management architecture",

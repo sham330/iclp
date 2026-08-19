@@ -35,6 +35,7 @@ const SmallBar = () => {
 
   const dropdownRef = useRef(null);
   const moreDropdownRef = useRef(null);
+  const closeTimerRef = useRef(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -83,7 +84,12 @@ const SmallBar = () => {
             </li>
 
             {/* Courses Mega Menu */}
-            <li className="relative" ref={dropdownRef} onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => { setTimeout(() => setIsDropdownOpen(false), 1000); }}>
+            <li
+              className="relative"
+              ref={dropdownRef}
+              onMouseEnter={() => { clearTimeout(closeTimerRef.current); setIsDropdownOpen(true); }}
+              onMouseLeave={() => { closeTimerRef.current = setTimeout(() => setIsDropdownOpen(false), 300); }}
+            >
               <a
                 href="/courses"
                 target="_blank"
@@ -91,11 +97,18 @@ const SmallBar = () => {
                 className="inline-flex items-center gap-1.5 px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95"
               >
                 Courses
-                <FaChevronDown className={`text-xs transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
+                <FaChevronDown
+                  className={`text-xs transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
+                  onClick={(e) => { e.preventDefault(); setIsDropdownOpen(!isDropdownOpen); }}
+                />
               </a>
 
               {isDropdownOpen && navData && selectedCategory && (
-                <div className="absolute left-0 mt-2 w-screen max-w-3xl bg-white rounded-lg shadow-2xl border-2 border-[#014a9f]/20 z-50">
+                <div
+                  className="absolute left-0 mt-2 w-screen max-w-3xl bg-white rounded-lg shadow-2xl border-2 border-[#014a9f]/20 z-50"
+                  onMouseEnter={() => clearTimeout(closeTimerRef.current)}
+                  onMouseLeave={() => { closeTimerRef.current = setTimeout(() => setIsDropdownOpen(false), 300); }}
+                >
                   <div className="flex" style={{ maxHeight: "420px" }}>
 
                     {/* Left — categories */}

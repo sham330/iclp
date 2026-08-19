@@ -73,16 +73,16 @@ const OracleCourseDetailsPage = () => {
   "oracle-cpq": {
     "courseDescription": "Master Oracle Configure, Price, Quote (CPQ) Cloud with comprehensive training in product configuration, pricing strategies, and automated quote generation for sales teams."
   },
-  "oracle-procure-to-pay": {
+  "oracle-procure-to-pay-in-chennai": {
     "courseDescription": "Become an expert in Oracle's end-to-end procurement process covering supplier management, purchase orders, invoice processing, and payment workflows."
   },
-  "oracle-hyperion-epm": {
+  "oracle-hyperion-epm-in-chennai": {
     "courseDescription": "Gain expertise in Oracle Hyperion Enterprise Performance Management for financial consolidation, planning, budgeting, and reporting solutions."
   },
-  "oracle-grc-control-suit-fundamentals-vers": {
+  "oracle-grc-control-suit-fundamentals-vers-in-chennai": {
     "courseDescription": "Master Oracle Governance, Risk and Compliance controls for access management, continuous monitoring, and risk remediation in enterprise environments."
   },
-  "oracle-developer": {
+  "oracle-developer-in-chennai": {
     "courseDescription": "Comprehensive training in Oracle Developer tools including Forms, Reports, and PL/SQL for building enterprise database applications."
   },
   "oracle-sql-plsql": {
@@ -91,28 +91,28 @@ const OracleCourseDetailsPage = () => {
   "oracle-forms-and-reports": {
     "courseDescription": "Professional training in Oracle Forms and Reports development for creating business applications and enterprise reporting solutions."
   },
-  "oracle-application-framework": {
+  "oracle-application-framework-in-chennai": {
     "courseDescription": "Advanced training in Oracle Application Framework (OAF) for customizing and extending Oracle E-Business Suite applications."
   },
-  "oracle-cloud-infrastructure": {
+  "oracle-cloud-infrastructure-in-chennai": {
     "courseDescription": "Comprehensive OCI training covering compute, storage, networking, and database services in Oracle's cloud platform."
   },
-  "oracle-weblogic-server": {
+  "oracle-weblogic-server-in-chennai": {
     "courseDescription": "Master Oracle WebLogic Server administration including installation, configuration, clustering, and performance tuning."
   },
   "oracle-peoplesoft": {
     "courseDescription": "End-to-end training in Oracle PeopleSoft HRMS/HCM covering core HR, payroll, benefits, and talent management modules."
   },
-  "oracle-customercare": {
+  "oracle-customercare-in-chennai": {
     "courseDescription": "Specialized training in Oracle Customer Care & Billing (CC&B) for utilities customer service and billing operations."
   },
-  "oracle-r12": {
+  "oracle-r12-in-chennai": {
     "courseDescription": "In-depth training in R12.x Oracle Inventory Management covering inventory controls, costing, and supply chain integration."
   },
-  "oracle-tax-reporting": {
+  "oracle-tax-reporting-in-chennai": {
     "courseDescription": "Expert training in R12.2 Oracle E-Business Tax for global tax configuration, calculation, and reporting requirements."
   },
-  "oracle-order-management": {
+  "oracle-order-management-in-chennai": {
     "courseDescription": "Comprehensive training in R12.x Oracle Order Management covering order processing, pricing, and fulfillment workflows."
   }
 

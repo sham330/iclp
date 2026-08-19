@@ -2863,7 +2863,7 @@
   },
   
   "SAP BPC Online Training": {
-    "courseImage": "/CourseDetails/sap-bpc-course.jpg",
+    "courseImage": "/CourseDetails/sap-bpc-in-chennai-course.jpg",
     "courseDescription": "Professional training for finance specialists covering planning, consolidation and financial reporting. Learn from certified BPC consultants with industry experience.",
     "section1": {
       "title": "SAP BPC Course Content",
@@ -3270,7 +3270,7 @@
   },
   
   "Oracle Procure to Pay Training": {
-    "courseImage": "/CourseDetails/oracle-procure-to-pay-course.jpg",
+    "courseImage": "/CourseDetails/oracle-procure-to-pay-in-chennai-course.jpg",
     "courseDescription": "Specialized Oracle training for procurement and accounts payable professionals covering the complete procure-to-pay lifecycle from requisitioning to payment processing.",
     "section1": {
       "title": "Oracle Procure to Pay Course Content",
@@ -3304,7 +3304,7 @@
   },
   
   "Oracle Hyperion EPM Training": {
-    "courseImage": "/CourseDetails/oracle-hyperion-epm-course.jpg",
+    "courseImage": "/CourseDetails/oracle-hyperion-epm-in-chennai-course.jpg",
     "courseDescription": "Specialized Oracle EPM training for finance professionals covering financial consolidation, planning, budgeting, and reporting using Hyperion solutions.",
     "section1": {
       "title": "Oracle Hyperion EPM Course Content",
@@ -3372,7 +3372,7 @@
   },
   
   "Oracle Developer Course": {
-    "courseImage": "/CourseDetails/oracle-developer-course.jpg",
+    "courseImage": "/CourseDetails/oracle-developer-in-chennai-course.jpg",
     "courseDescription": "Comprehensive Oracle Developer training covering database programming with SQL/PLSQL and application development with Forms and Reports.",
     "section1": {
       "title": "Oracle Developer Course Content",
@@ -3474,7 +3474,7 @@
   },
   
   "Oracle Application Framework (OAF)": {
-    "courseImage": "/CourseDetails/oracle-oaf-course.jpg",
+    "courseImage": "/CourseDetails/oracle-oaf-in-chennai-course.jpg",
     "courseDescription": "Specialized OAF training for E-Business Suite developers covering custom application development using Oracle's MVC framework.",
     "section1": {
       "title": "OAF Course Content",

@@ -583,8 +583,8 @@
         },
         {
           "course_name": "SAP WM",
-          "path": "sap-wm",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-wm",
+          "path": "sap-wm-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-wm-in-chennai",
           "meta_title": "SAP WM Training in India | SAP Warehouse Management Certification",
           "meta_description": "Master SAP Warehouse Management (WM) with expert-led training & certification. Optimize warehouse operations and inventory control. Enroll now!",
           "description": "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training.",
@@ -1273,8 +1273,8 @@
         },
         {
           "course_name": "SAP BPC",
-          "path": "sap-bpc",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc",
+          "path": "sap-bpc-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc-in-chennai",
           "meta_title": "SAP BPC Course in India | BPC Training & SAP BPC Certification",
           "meta_description": "Master SAP Business Planning and Consolidation with expert-led training & certification. Excel in financial planning, budgeting & consolidation. Enroll now!",
           "description": "Master SAP Business Planning and Consolidation (BPC) for financial planning, budgeting, forecasting, and consolidation with hands-on, industry-aligned training.",
@@ -1432,8 +1432,8 @@
         },
         {
           "course_name": "SAP Banking",
-          "path": "sap-banking",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-banking",
+          "path": "sap-banking-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-banking-in-chennai",
           "meta_title": "SAP Banking Training in India | SAP Banking Certification Course",
           "meta_description": "Master SAP IS-Banking modules with expert-led training & certification. Gain practical skills for banking IT roles. Enroll now!",
           "description": "Master SAP IS-Banking modules with hands-on training designed for banking professionals, covering core banking operations, regulatory compliance, and customer services.",
@@ -7788,7 +7788,7 @@
           ],
           "duration": "55-65 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-bpc.png",
+          "image": "../CourseDetails/sap-bpc-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Financial Reporting Implementation",

@@ -6,8 +6,9 @@
       "sub_categories": [
         {
           "course_name": "Oracle Financials",
+            "name":"Oracle Financials Training in Chennai ",
           "path": "oracle-financials-training-in-chennai",
-           "meta_title": "Oracle Financial Course Online | Oracle Financial Training | Oracle Financial Certificate",
+           "meta_title": "Oracle Financial Course Training in Chennai | Oracle Financial Training in Chennai | Oracle Financial Certificate in Chennai",
   "meta_description": "Learn Oracle Financials online. Become a certified consultant with job-ready training. Enroll today & start learning!",
           "description": "Comprehensive training on Oracle Financials covering General Ledger, AP, AR, FA and Cash Management.",
           "what_youll_learn": [
@@ -53,7 +54,9 @@
           ]
         },
        {
-  "course_name": "Oracle SCM Training in Chennai",
+  "course_name": "Oracle SCM Training",
+              "name":"Oracle SCM Training in Chennai ",
+
   "path": "oracle-scm-training-in-chennai",
 
   "description": "Join Oracle SCM Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn Oracle Supply Chain Management modules including procurement, inventory management, order management, supply chain planning, and logistics with hands-on implementation scenarios.",
@@ -959,7 +962,7 @@
 },{
   "course_name": "Oracle HCM",
   "path": "oracle-hcm-training-in-chennai",
-  "name": "Oracle HCM Training in Chennai with Placement Assistance",
+  "name": "Oracle HCM Training in Chennai ",
   "description": "ICLP Technologies offers industry-focused Oracle HCM Training in Chennai designed for freshers, HR professionals, ERP consultants, and working professionals who want to build a successful career in Oracle Human Capital Management. Our Oracle HCM Course provides practical training with real-time implementation scenarios, live projects, and hands-on exercises to help students understand workforce management, payroll, recruitment, talent management, HR operations, and Oracle HCM Cloud concepts. ",
   "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Online Course with Placement | ICLP Technologies",
   "meta_description": "Join Oracle HCM Training in Chennai at ICLP Technologies. Learn Oracle Human Capital Management with real-time projects, certification guidance, online classes, and placement assistance.",
@@ -1321,7 +1324,8 @@
     }
   }
 },{
-  "course_name": "Oracle HCM Training in Chennai",
+  "course_name": "Oracle HCM Training",
+  "name":"Oracle HCM Training in Chennai ",
   "path": "oracle-hcm-training-in-chennai",
   "meta_title": "Oracle HCM Training in Chennai | Oracle HCM Course with Placement | ICLP Technologies",
   "meta_description": "Join the best Oracle HCM Training in Chennai. Learn Oracle Fusion HCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
@@ -1899,6 +1903,7 @@
 },
         {
   "course_name": "Oracle CPQ Training",
+  "name":"Oracle CPQ Training in Chennai ",
   "path": "oracle-cpq-training-in-chennai",
   "description": "Comprehensive training in Oracle Configure, Price, Quote (CPQ) Cloud solutions covering product configuration, commerce processes, and document generation.",
   "what_youll_learn": [
@@ -1969,7 +1974,8 @@
 },
 {
   "course_name": "Oracle Procure to Pay Training",
-  "path": "oracle-procure-to-pay",
+  "name":"Oracle Procure to Pay Training in Chennai ",
+  "path": "oracle-procure-to-pay-in-chennai",
   "description": "Comprehensive training in Oracle Purchasing and Payables solutions covering supplier management, requisitioning, purchase orders, invoice processing, and payment workflows.",
   "what_youll_learn": [
     "Oracle Purchasing fundamentals",
@@ -2103,7 +2109,7 @@
   ],
   "duration": "60-70 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-procure-to-pay.png",
+  "image": "../CourseDetails/oracle-procure-to-pay-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "End-to-End Procure-to-Pay Process Implementation",
@@ -2113,8 +2119,8 @@
   ]
 },
 {
-  "course_name": "Oracle Hyperion EPM Training",
-  "path": "oracle-hyperion-epm",
+  "course_name": "Oracle Hyperion EPM Training in Chennai",
+  "path": "oracle-hyperion-epm-in-chennai",
   "description": "Comprehensive training in Oracle Hyperion Enterprise Performance Management solutions covering financial consolidation, planning, budgeting, and reporting.",
   "what_youll_learn": [
     "Hyperion Financial Management",
@@ -2182,7 +2188,7 @@
   ],
   "duration": "50-60 hours",
   "skill_level": "Advanced",
-  "image": "../CourseDetails/oracle-hyperion-epm.png",
+  "image": "../CourseDetails/oracle-hyperion-epm-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Financial Consolidation Process Implementation",
@@ -2192,8 +2198,8 @@
   ]
 },
 {
-  "course_name": "Oracle GRC Controls Suite Fundamentals",
-  "path": "oracle-grc-control-suit-fundamentals-vers",
+  "course_name": "Oracle GRC Controls Suite Fundamentals in Chennai",
+  "path": "oracle-grc-control-suit-fundamentals-vers-in-chennai",
   "description": "Comprehensive training in Oracle Governance, Risk and Compliance (GRC) Controls Suite covering continuous controls monitoring, access governance, and risk management.",
   "what_youll_learn": [
     "GRC Controls Suite architecture",
@@ -2297,8 +2303,8 @@
   ]
 },
 {
-  "course_name": "Oracle Developer Course",
-  "path": "oracle-developer",
+  "course_name": "Oracle Developer Course in Chennai",
+  "path": "oracle-developer-in-chennai",
   "description": "Comprehensive training in Oracle Developer tools covering SQL, PL/SQL, Forms, and Reports development for database applications.",
   "what_youll_learn": [
     "SQL fundamentals and advanced queries",
@@ -2366,7 +2372,7 @@
   ],
   "duration": "70-80 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-developer.png",
+  "image": "../CourseDetails/oracle-developer-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Database Application Development",
@@ -2447,8 +2453,8 @@
   ]
 },
 {
-  "course_name": "Oracle Forms and Reports",
-  "path": "oracle-application-framework",
+  "course_name": "Oracle Forms and Reports in Chennai",
+  "path": "oracle-application-framework-in-chennai",
   "description": "Comprehensive training in Oracle Forms and Reports development covering application creation, data presentation, and business reporting solutions.",
   "what_youll_learn": [
     "Forms Developer environment",
@@ -2518,8 +2524,8 @@
   ]
 },
 {
-  "course_name": "Oracle Application Framework (OAF)",
-  "path": "oracle-oaf",
+  "course_name": "Oracle Application Framework (OAF) in Chennai",
+  "path": "oracle-oaf-in-chennai",
   "description": "Comprehensive training in Oracle Application Framework covering MVC architecture, JDeveloper tools, and custom application development for Oracle E-Business Suite.",
   "what_youll_learn": [
     "OAF architecture and MVC pattern",
@@ -2571,7 +2577,7 @@
   ],
   "duration": "40-50 hours",
   "skill_level": "Intermediate",
-  "image": "../CourseDetails/oracle-oaf.png",
+  "image": "../CourseDetails/oracle-oaf-in-chennai.png",
   "placement_assurance": true,
   "projects": [
     "Custom OAF Page Development",
@@ -2581,8 +2587,8 @@
   ]
 },
 {
-  "course_name": "Oracle Cloud Infrastructure (OCI)",
-  "path": "oracle-cloud-infrastructure",
+  "course_name": "Oracle Cloud Infrastructure (OCI) in Chennai",
+  "path": "oracle-cloud-infrastructure-in-chennai",
   "description": "Comprehensive training in Oracle Cloud Infrastructure covering compute, storage, networking, databases, and security services for cloud solutions.",
   "what_youll_learn": [
     "OCI architecture and regions",
@@ -2644,8 +2650,8 @@
   ]
 },
 {
-  "course_name": "WebLogic Server",
-  "path": "oracle-weblogic-server",
+  "course_name": "WebLogic Server in Chennai",
+  "path": "oracle-weblogic-server-in-chennai",
   "description": "Comprehensive training in Oracle WebLogic Server covering installation, configuration, clustering, security, and performance tuning for enterprise Java applications.",
   "what_youll_learn": [
     "WebLogic architecture",
@@ -2707,7 +2713,7 @@
   ]
 },
 {
-  "course_name": "Oracle PeopleSoft HRMS/HCM",
+  "course_name": "Oracle PeopleSoft HRMS/HCM in Chennai",
   "path": "oracle-peoplesoft-training-in-chennai",
   "description": "Comprehensive training in PeopleSoft Human Resources and Payroll modules covering core tables, processes, and reporting for enterprise HR solutions.",
   "what_youll_learn": [
@@ -2770,8 +2776,8 @@
   ]
 },
 {
-  "course_name": "Oracle Customer Care & Billing (CC&B)",
-  "path": "oracle-customercare",
+  "course_name": "Oracle Customer Care & Billing (CC&B) in Chennai",
+  "path": "oracle-customercare-in-chennai",
   "description": "Comprehensive training in Oracle CC&B covering customer management, billing processes, payments, and field service operations for utility companies.",
   "what_youll_learn": [
     "CC&B architecture and UI standards",
@@ -2831,8 +2837,8 @@
   ]
 },
 {
-  "course_name": "R12.x Oracle Inventory Management",
-  "path": "oracle-r12",
+  "course_name": "R12.x Oracle Inventory Management in Chennai",
+  "path": "oracle-r12-in-chennai",
   "description": "Comprehensive training in Oracle Inventory covering organization setup, item management, transactions, replenishment, and accuracy for supply chain operations.",
   "what_youll_learn": [
     "Inventory organization structure",
@@ -3312,8 +3318,8 @@
   }
 },
 {
-  "course_name": "R12.2 Oracle E-Business Tax",
-  "path": "oracle-tax-reporting",
+  "course_name": "R12.2 Oracle E-Business Tax in Chennai",
+  "path": "oracle-tax-reporting-in-chennai",
   "description": "Comprehensive training in Oracle E-Business Tax covering tax configuration, determination rules, reporting, and compliance for global operations.",
   "what_youll_learn": [
     "E-Business Tax architecture",
@@ -3375,8 +3381,8 @@
   ]
 },
 {
-  "course_name": "R12.x Oracle Order Management",
-  "path": "oracle-order-management",
+  "course_name": "R12.x Oracle Order Management in Chennai",
+  "path": "oracle-order-management-in-chennai",
   "description": "Comprehensive training in Oracle Order Management covering order capture, fulfillment, pricing, shipping, and integration for the order-to-cash cycle.",
   "what_youll_learn": [
     "Order management architecture",
@@ -4354,8 +4360,8 @@
         },
         {
           "course_name": "SAP WM",
-          "path": "sap-wm",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-wm",
+          "path": "sap-wm-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-wm-in-chennai",
           "meta_title": "SAP WM Training in India | SAP Warehouse Management Certification",
           "meta_description": "Master SAP Warehouse Management (WM) with expert-led training & certification. Optimize warehouse operations and inventory control. Enroll now!",
           "description": "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training.",
@@ -5050,8 +5056,8 @@
         },
         {
           "course_name": "SAP BPC",
-          "path": "sap-bpc",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc",
+          "path": "sap-bpc-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc-in-chennai",
           "meta_title": "SAP BPC Course in India | BPC Training & SAP BPC Certification",
           "meta_description": "Master SAP Business Planning and Consolidation with expert-led training & certification. Excel in financial planning, budgeting & consolidation. Enroll now!",
           "description": "Master SAP Business Planning and Consolidation (BPC) for financial planning, budgeting, forecasting, and consolidation with hands-on, industry-aligned training.",
@@ -5208,10 +5214,10 @@
           ]
         },
         {
-          "course_name": "SAP Banking",
-          "path": "sap-banking",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-banking",
-          "meta_title": "SAP Banking Training in India | SAP Banking Certification Course",
+          "course_name": "SAP Banking in Chennai",
+          "path": "sap-banking-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-banking-in-chennai",
+          "meta_title": "SAP Banking Training in Chernnai | SAP Banking Certification Course",
           "meta_description": "Master SAP IS-Banking modules with expert-led training & certification. Gain practical skills for banking IT roles. Enroll now!",
           "description": "Master SAP IS-Banking modules with hands-on training designed for banking professionals, covering core banking operations, regulatory compliance, and customer services.",
           "career_benefits": {
@@ -11571,7 +11577,7 @@
           ],
           "duration": "55-65 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-bpc.png",
+          "image": "../CourseDetails/sap-bpc-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Financial Reporting Implementation",
@@ -24032,7 +24038,7 @@
   }
 },{
   "course_name": "R12.2 Oracle Order Management Fundamentals Certification Online Training",
-  "path": "r12-2-oracle-order-management-fundamentals-certification-online-training",
+  "path": "r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training",
   "description": "Join the best R12.2 Oracle Order Management Fundamentals Certification Online Training at ICLP Technologies with live instructor-led sessions covering Oracle Order Management overview, Order Entities and Flows, Order Processing, MOAC Setup, Oracle Inventory Setup, Oracle Receivables Setup, Order Management Setup, Holds and Exception Management, Basic Pricing Setup, and Shipping Execution. 100% practical learning with real-time projects, certification guidance, and placement support for ERP professionals, functional consultants, and students.",
   "meta_title": "R12.2 Oracle Order Management Fundamentals Certification Online Training | ICLP Technologies",
   "meta_description": "Join R12.2 Oracle Order Management Fundamentals Certification Online Training at ICLP Technologies. Learn Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, Pricing, Shipping Execution with real-time projects and placement assistance.",
@@ -24069,7 +24075,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#service",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training/#service",
         "name": "Oracle Order Management Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -24079,7 +24085,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#course",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training/#course",
         "name": "R12.2 Oracle Order Management Fundamentals Certification Course",
         "description": "Live online Oracle Order Management Fundamentals certification training covering Order to Cash Lifecycle, Order Processing, Inventory Setup, Receivables Setup, MOAC, Pricing, Shipping Execution with real-time projects and placement support.",
         "provider": {
@@ -24126,7 +24132,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training",
+          "url": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -24139,7 +24145,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#breadcrumb",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -24157,13 +24163,13 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Oracle Order Management Fundamentals",
-            "item": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training"
+            "item": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-fundamentals-certification-online-training/#faq",
+        "@id": "https://iclptech.in/course/r12-2-oracle-order-management-in-chennai-fundamentals-certification-online-training/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -24384,7 +24390,7 @@
   ],
   "duration": "4-6 Weeks (Flexible Batches)",
   "skill_level": "Beginner to Advanced (ERP Knowledge Helpful)",
-  "image": "/CourseDetails/r12-2-oracle-order-management-fundamentals-certification.png",
+  "image": "/CourseDetails/r12-2-oracle-order-management-in-chennai-fundamentals-certification.png",
   "placement_assurance": true,
   "projects": [
     "Order to Cash Lifecycle Implementation",
