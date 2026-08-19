@@ -2250,7 +2250,7 @@
   },
 
   "SAP IBP Online Training": {
-    "courseImage": "/CourseDetails/sap-ibp-course.jpg",
+    "courseImage": "/CourseDetails/sap-ibp-training-in-chennai-course.jpg",
     "courseDescription": "This SAP IBP online training provides end-to-end knowledge of cloud-based supply chain planning with hands-on exercises in demand sensing, inventory optimization, and integrated business planning using real HANA-powered scenarios.",
     "section1": {
       "title": "SAP IBP Course Content",
@@ -2284,7 +2284,7 @@
   },
 
   "SAP APO Online Training": {
-    "courseImage": "/CourseDetails/sap-apo-course.jpg",
+    "courseImage": "/CourseDetails/sap-apo-training-in-chennai-course.jpg",
     "courseDescription": "This SAP APO online training provides comprehensive knowledge of supply chain planning tools with hands-on exercises in demand forecasting, network optimization, and production scheduling using real-world scenarios.",
     "section1": {
       "title": "SAP APO Course Content",
@@ -2693,7 +2693,7 @@
   },
   
   "SAP IS Insurance Training": {
-    "courseImage": "/CourseDetails/sap-is-insurance-course.jpg",
+    "courseImage": "/CourseDetails/sap-is-insurance-in-chennai-course.jpg",
     "courseDescription": "Specialized SAP training for insurance professionals covering policy lifecycle, claims processing, and regulatory compliance. Learn from certified IS-Insurance consultants with industry experience.",
     "section1": {
       "title": "SAP IS Insurance Course Content",
@@ -2727,7 +2727,7 @@
   },
   
   "SAP PLM Training": {
-    "courseImage": "/CourseDetails/sap-plm-course.jpg",
+    "courseImage": "/CourseDetails/sap-plm-training-in-chennai-course.jpg",
     "courseDescription": "Specialized SAP training for product development professionals covering engineering changes, compliance and manufacturing integration. Learn from certified PLM consultants with industry experience.",
     "section1": {
       "title": "SAP PLM Course Content",

@@ -109,10 +109,10 @@ const SapCourseDetailsPage = () => {
     "sap-srm": {
       courseDescription: "Learn SAP Supplier Relationship Management with our comprehensive training program. Master procurement processes and supplier collaboration.",
     },
-    "sap-apo": {
+    "sap-apo-training-in-chennai": {
       courseDescription: "Gain expertise in SAP Advanced Planning and Optimization. Learn demand planning, supply network planning, and production scheduling.",
     },
-    "sap-ibp": {
+    "sap-ibp-training-in-chennai": {
       courseDescription: "Master SAP Integrated Business Planning with our training program. Learn sales and operations planning, demand, and inventory optimization.",
     },
     "sap-bibw": {
@@ -130,7 +130,7 @@ const SapCourseDetailsPage = () => {
     "sap-is-utilities": {
       "courseDescription": "Specialized SAP training for utility professionals covering customer lifecycle management, meter-to-cash processes, and regulatory compliance."
     },
-    "sap-plm": {
+    "sap-plm-training-in-chennai": {
       "courseDescription": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
     },
     "sap-le": {

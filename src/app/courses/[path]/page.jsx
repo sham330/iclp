@@ -1,8 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { redirect } from "next/navigation";
-import CourseDetails from "./Maincomponent";
-import Head from "./Head";
 import CategoryCoursesClient from "@/app/components/CategoryCoursesClient";
 export const dynamic = 'force-dynamic';
 
@@ -39,21 +37,10 @@ export default async function CourseDetailsPage({ params }) {
     );
   }
 
-  let foundCourse = null;
-  let foundCategoryPath = null;
   for (const category of coursesData.categories) {
     const match = category.sub_categories.find(sub => sub.path === coursePath);
-    if (match) { foundCourse = match; foundCategoryPath = category.path; break; }
+    if (match) redirect(`/courses/${category.path}/${coursePath}/`);
   }
 
-  const canonical = foundCategoryPath
-    ? `https://iclptech.in/courses/${foundCategoryPath}/${coursePath}/`
-    : `https://iclptech.in/courses/${coursePath}/`;
-
-  return (
-    <>
-      <Head course={foundCourse} canonicalUrl={canonical} />
-      <CourseDetails course={foundCourse} />
-    </>
-  );
+  redirect("/courses/");
 }

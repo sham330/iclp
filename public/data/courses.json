@@ -6342,8 +6342,8 @@
         },
         {
           "course_name": "SAP Transportation Management Online Training",
-  "path": "sap-transportation-management-training-in-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-transportation-management-training-in-chennai",
+  "path": "sap-tm-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-tm-training-in-chennai",
           "meta_title": "SAP TM Online Training | SAP Transportation Management Course | Certification",
           "meta_description": "Master SAP Transportation Management (TM) with expert online training & certification. Learn end-to-end logistics processes. Enroll now!",
           "description": "Master SAP TM 9.x with comprehensive online training covering transportation planning, freight management, charge calculation, and ECC integration from industry experts.",
@@ -8148,9 +8148,9 @@
           ]
         },
         {
-          "course_name": "SAP IS Utilities Training",
+          "course_name": "SAP IS Utilities Training in Chennai",
           "path": "sap-is-utilities-training-in-chennai",
-          "meta_title": "SAP IS Utilities Course Online | SAP IS Utilities Online Training | SAP IS Utilities Certificate",
+          "meta_title": "SAP IS Utilities Course Online in Chennai| SAP IS Utilities Online Training in Chennai | SAP IS Utilities Certificate",
           "meta_description": "Get certified in SAP IS Utilities. Enroll in expert-led training to advance your career in the utility sector.",
           "description": "Comprehensive training in SAP for Utilities solutions covering market structures, device management, meter reading, billing, and financial accounting for utility companies.",
           "career_benefits": {
@@ -8731,8 +8731,8 @@
           ]
         },
         {
-          "course_name": "SAP PS Training",
-          "path": "sap-ps",
+          "course_name": "SAP PS Training in Chennai",
+          "path": "sap-ps-training-in-chennai",
           "meta_title": "SAP PS Course Online | SAP Project System Online Training | SAP PS Certification",
           "meta_description": "Master SAP Project System (PS) with hands-on training. Learn project structures, planning, budgeting, execution, reporting, and period-end closing.",
           "description": "Comprehensive SAP PS training covering project structuring, planning functions, budgeting, execution, period-end closing, and reporting to efficiently manage enterprise-level projects.",
@@ -8810,7 +8810,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-ps.png",
+          "image": "../CourseDetails/sap-ps-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Enterprise Project Structure and WBS Configuration",
@@ -9262,8 +9262,8 @@
           ]
         },
         {
-          "course_name": "SAP IBP Online Training",
-          "path": "sap-ibp",
+          "course_name": "SAP IBP Online Training in Chennai",
+          "path": "sap-ibp-training-in-chennai",
           "description": "Master SAP's cloud-based supply chain planning solution covering demand planning, inventory optimization, supply planning, and sales & operations planning (S&OP) with hands-on HANA-powered scenarios.",
           "what_youll_learn": [
             "SAP IBP architecture and solution strategy",
@@ -9396,7 +9396,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate to Advanced",
-          "image": "/sap-ibp.jfif",
+          "image": "/sap-ibp-training-in-chennai.jfif",
           "placement_assurance": true,
           "projects": [
             "End-to-End S&OP Process Configuration",
@@ -9406,8 +9406,8 @@
           ]
         },
         {
-          "course_name": "SAP APO Online Training",
-          "path": "sap-apo",
+          "course_name": "SAP APO Online Training in Chennai",
+          "path": "sap-apo-training-in-chennai",
           "description": "Master SAP's supply chain planning suite covering Demand Planning, Supply Network Planning, Global ATP, and Production Scheduling. Learn to optimize end-to-end supply chain processes.",
           "what_youll_learn": [
             "Demand planning and forecasting techniques",
@@ -9484,7 +9484,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-apo.png",
+          "image": "../CourseDetails/sap-apo-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Demand Planning Simulation",
@@ -9885,9 +9885,9 @@
           ]
         },
         {
-          "course_name": "SAP Quality Management (QM)",
-          "path": "sap-quality-management-(qm)-training-in-chennai",
-          "meta_title": "SAP Quality Management Course Online | SAP QM Training | SAP QM Certificate",
+          "course_name": "SAP Quality Management (QM) in Chennai",
+          "path": "sap-qm-training-in-chennai",
+          "meta_title": "SAP Quality Management Course  in Chennai | SAP QM Training in Chennai | SAP QM Certificate",
           "meta_description": "Learn SAP QM online with certification. Get expert-led training and become a quality management consultant. Enroll today!",
           "description": "Comprehensive training in SAP QM module covering quality processes in procurement, production, and inventory management with integration to other SAP modules.",
           "career_benefits": {
@@ -11103,8 +11103,8 @@
           ]
         },
         {
-          "course_name": "SAP IS Insurance Training",
-          "path": "sap-is-insurance",
+          "course_name": "SAP IS Insurance Training in Chennai",
+          "path": "sap-is-insurance-in-chennai",
           "description": "Comprehensive training in SAP Insurance Solutions covering collections, disbursements, claims management, and commission processing for insurance providers.",
           "what_youll_learn": [
             "Insurance master data management",
@@ -11178,7 +11178,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-is-insurance.png",
+          "image": "../CourseDetails/sap-is-insurance-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Claims Processing Implementation",
@@ -11188,9 +11188,9 @@
           ]
         },
         {
-          "course_name": "SAP PLM Training",
-          "path": "sap-plm",
-          "meta_title": "SAP PLM Course Online | SAP PLM Online Training | SAP PLM Certificate",
+          "course_name": "SAP PLM Training in Chennai",
+          "path": "sap-plm-training-in-chennai",
+          "meta_title": "SAP PLM Course Online in Chennai | SAP PLM Online Training in Chennai | SAP PLM Certificate in Chennai",
           "meta_description": "Boost your career with SAP PLM training and certification. Learn to manage product lifecycles effectively. Enroll today!",
           "description": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance for manufacturing industries.",
           "what_youll_learn": [
@@ -11262,7 +11262,7 @@
           ],
           "duration": "60-70 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-plm.png",
+          "image": "../CourseDetails/sap-plm-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Product Development Process",
