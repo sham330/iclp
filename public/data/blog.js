@@ -5002,7 +5002,7 @@ export  const blogs = [
 },{
   "id": 36,
   "title": "Digital Marketing Online Training in Chennai – Live Course with Certification & Placement Support",
-  "slug": "digital-marketing-online-training-in-chennai",
+  "slug": "digital-marketing-training-in-chennai",
   "image": "/blog-36.png",
   "schema": {
     "@context": "https://schema.org",
@@ -5052,7 +5052,7 @@ export  const blogs = [
   },
   "metaTitle": "Digital Marketing Online Training in Chennai | Live Course with Placement",
   "metaDescription": "Join the best Digital Marketing Online Training in Chennai with SEO, Google Ads & Social Media. 100% practical learning with certification and placement support.",
-  "url": "https://iclptech.in/blog/digital-marketing-online-training-in-chennai",
+  "url": "https://iclptech.in/blog/digital-marketing-training-in-chennai",
   "intro": "Looking for the best <a href=\"https://iclptech.in/courses/digital-marketing/\">Digital Marketing Online Training in Chennai</a> to start your career from home? Our instructor-led live online digital marketing course is specially designed for students, job seekers, working professionals, and entrepreneurs in Chennai who want to build high-demand digital skills. This course covers SEO, Google Ads, Social Media Marketing, Content Marketing, Analytics, and Lead Generation with practical training and real-time projects.",
   "sections": [
     {

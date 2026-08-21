@@ -2386,7 +2386,7 @@
   },
   
   "SAP IS Retail Training": {
-    "courseImage": "/CourseDetails/sap-is-retail-course.jpg",
+    "courseImage": "/CourseDetails/sap-is-retail-training-in-chennai-course.jpg",
     "courseDescription": "Master SAP's retail-specific solutions with hands-on training in merchandise planning, store operations, and omnichannel integration. Learn from certified SAP Retail consultants with industry experience.",
     "section1": {
       "title": "SAP IS Retail Course Content",
@@ -3913,7 +3913,7 @@
     }
   },
   "IBM Bluemix": {
-    "courseImage": "/CourseDetails/ibm-bluemix.jpg",
+    "courseImage": "/CourseDetails/ibm-bluemix-training-in-chennai.jpg",
     "courseDescription": "Our IBM Bluemix course teaches application development and deployment on IBM's cloud platform. You'll learn to leverage Cloud Foundry, Docker, and managed services to build scalable cloud applications.",
     "section1": {
       "title": "Bluemix Course Content",

@@ -5032,7 +5032,7 @@
         },
         {
           "course_name": "SAP IS Retail Training",
-          "path": "sap-is-retail",
+          "path": "sap-is-retail-training-in-chennai",
           "description": "Comprehensive training in SAP for Retail solutions covering navigation, merchandise planning, replenishment, promotions, and store operations with hands-on retail scenarios.",
           "meta_title": "SAP IS Retail Course Online | SAP IS Retail Online Training | SAP IS Retail Certificate",
           "meta_description": "Master SAP IS Retail with practical training and certification. Learn to optimize retail operations. Join now!",
@@ -5180,7 +5180,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-is-retail.png",
+          "image": "../CourseDetails/sap-is-retail-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Merchandise Planning Scenario",

@@ -45,9 +45,9 @@
           { "name": "Core Java", "path": "/courses/programming/java-online-training-in-chennai" },
           { "name": "Advanced Java (Spring / Hibernate)", "path": "/courses/programming/spring-boot-online-training-in-chennai" },
           { "name": "Python Programming", "path": "/courses/programming/python-development-online-training-in-chennai" },
-          { "name": "R Programming", "path": "/courses/programming/r-programming-online-training-in-chennai" },
-          { "name": "JavaScript", "path": "/courses/programming/java-script-online-training-in-chennai" },
-          { "name": "PHP", "path": "/courses/programming/php-online-training-in-chennai" },
+          { "name": "R Programming", "path": "/courses/programming/r-programming-training-in-chennai" },
+          { "name": "JavaScript", "path": "/courses/programming/java-script-training-in-chennai" },
+          { "name": "PHP", "path": "/courses/programming/php-training-in-chennai" },
           { "name": "C# (.NET)", "path": "/courses/programming/asp-net-course-training-in-chennai" },
           { "name": "UNIX Shell Scripting", "path": "/courses/programming/unix-shell-scripting-online-training-in-chennai" },
           { "name": "jQuery", "path": "/courses/programming/j-query-developer-online-training-in-chennai" },
@@ -77,13 +77,13 @@
         "description": "Frontend and backend technologies for building modern websites.",
         "courses": [
           { "name": "HTML & CSS", "path": "/courses/web-development/html-developer-online-training-in-chennai" },
-          { "name": "JavaScript", "path": "/courses/web-development/java-script-online-training-in-chennai" },
+          { "name": "JavaScript", "path": "/courses/web-development/java-script-training-in-chennai" },
           { "name": "Bootstrap", "path": "/courses/web-development/bootstrap-course-training-in-chennai" },
           { "name": "Tailwind CSS", "path": "/courses/web-development/tailwind-css-training-in-chennai" },
           { "name": "Vue.js", "path": "/courses/web-development/vue-js-training-in-chennai" },
           { "name": "Web Designing", "path": "/courses/web-development/basic-web-designing-course-in-chennai" },
           { "name": "WordPress", "path": "/courses/web-development/wordpress-online-training-in-chennai" },
-          { "name": "PHP & MySQL", "path": "/courses/web-development/php-online-training-in-chennai" },
+          { "name": "PHP & MySQL", "path": "/courses/web-development/php-training-in-chennai" },
           { "name": "ASP.NET", "path": "/courses/web-development/asp-net-course-training-in-chennai" },
           { "name": "Spring Boot", "path": "/courses/web-development/spring-boot-online-training-in-chennai" }
         ]
@@ -93,9 +93,9 @@
         "cat_path": "cloud-computing-devops",
         "description": "Cloud platforms and DevOps tools for modern infrastructure and deployment.",
         "courses": [
-          { "name": "AWS Solutions Architect", "path": "/courses/cloud-computing-devops/aws-online-training-in-chennai" },
+          { "name": "AWS Solutions Architect", "path": "/courses/cloud-computing-devops/aws-training-in-chennai" },
           { "name": "AWS DevOps", "path": "/courses/cloud-computing-devops/aws-devops-training-in-chennai" },
-          { "name": "Microsoft Azure", "path": "/courses/cloud-computing-devops/microsoft-azure-online-training-in-chennai" },
+          { "name": "Microsoft Azure", "path": "/courses/cloud-computing-devops/microsoft-azure-training-in-chennai" },
           { "name": "Azure DevOps", "path": "/courses/cloud-computing-devops/azure-devops-training-in-chennai" },
           { "name": "Google Cloud Platform", "path": "/courses/cloud-computing-devops/google-cloud-online-training-in-chennai" },
           { "name": "DevOps Master Program", "path": "/courses/cloud-computing-devops/devops-training-in-chennai" },
@@ -111,7 +111,7 @@
         "cat_path": "cybersecurity-ethical-hacking",
         "description": "Security, ethical hacking, compliance and threat analysis programs.",
         "courses": [
-          { "name": "Cyber Security Analyst", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-online-training-in-chennai" },
+          { "name": "Cyber Security Analyst", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" },
           { "name": "Ethical Hacking", "path": "/courses/cybersecurity-ethical-hacking/ethical-hacking--online-training-in-chennai" },
           { "name": "SOC Analyst", "path": "/courses/cybersecurity-ethical-hacking/soc-analyst-csa-training-in-chennai" },
           { "name": "Penetration Testing", "path": "/courses/cybersecurity-ethical-hacking/advanced-pentest-certification-training-in-chennai" },
@@ -119,8 +119,8 @@
           { "name": "Cloud Security", "path": "/courses/cybersecurity-ethical-hacking/ccsk-foundation-training-in-chennai" },
           { "name": "CEH Preparation", "path": "/courses/cybersecurity-ethical-hacking/ceh-advanced-training-in-chennai" },
           { "name": "CISM", "path": "/courses/cybersecurity-ethical-hacking/cism-certification-online-training-in-chennai" },
-          { "name": "Malware Analysis", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-online-training-in-chennai" },
-          { "name": "Red Team / Blue Team Training", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-online-training-in-chennai" }
+          { "name": "Malware Analysis", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" },
+          { "name": "Red Team / Blue Team Training", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" }
         ]
       },
       {
@@ -128,13 +128,13 @@
         "cat_path": "software-testing-quality-assurance",
         "description": "Manual, automation and performance testing for quality assurance careers.",
         "courses": [
-          { "name": "Software Testing", "path": "/courses/software-testing-quality-assurance/software-testing-certification-course-in-chennai" },
+          { "name": "Software Testing", "path": "/courses/software-testing-quality-assurance/software-testing-training-in-chennai" },
           { "name": "Manual Testing", "path": "/courses/software-testing-quality-assurance/manual-testing-course-online-training-in-chennai" },
           { "name": "Selenium", "path": "/courses/software-testing-quality-assurance/selenium-training-in-chennai" },
-          { "name": "JMeter", "path": "/courses/software-testing-quality-assurance/jmeter-online-training-in-chennai" },
+          { "name": "JMeter", "path": "/courses/software-testing-quality-assurance/jmeter-training-in-chennai" },
           { "name": "LoadRunner", "path": "/courses/software-testing-quality-assurance/loadrunner-online-training-in-chennai" },
-          { "name": "SoapUI", "path": "/courses/software-testing-quality-assurance/soap-ui-online-training-in-chennai" },
-          { "name": "ETL Testing", "path": "/courses/software-testing-quality-assurance/etl-testing-online-training-in-chennai" },
+          { "name": "SoapUI", "path": "/courses/software-testing-quality-assurance/soap-ui-training-in-chennai" },
+          { "name": "ETL Testing", "path": "/courses/software-testing-quality-assurance/etl-testing-training-in-chennai" },
           { "name": "API Testing (Postman)", "path": "/courses/software-testing-quality-assurance/api-testing-certification-training-in-chennai" },
           { "name": "Automation Testing", "path": "/courses/software-testing-quality-assurance/automation-testing-online-training-in-chennai" },
           { "name": "Mobile Testing", "path": "/courses/software-testing-quality-assurance/mobile-testing-online-training-in-chennai" }
@@ -145,14 +145,14 @@
         "cat_path": "data-science-artificial-intelligence",
         "description": "Data science, machine learning, AI and analytics for data-driven careers.",
         "courses": [
-          { "name": "Data Science Master Program", "path": "/courses/data-science-artificial-intelligence/data-science-with-python-training-in-chennai" },
-          { "name": "Machine Learning", "path": "/courses/data-science-artificial-intelligence/machine-learning-online-course-chennai" },
-          { "name": "AI Fundamentals", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-course-online-training-in-chennai" },
-          { "name": "Data Analytics", "path": "/courses/data-science-artificial-intelligence/data-analytics-course-in-chennai" },
-          { "name": "Power BI", "path": "/courses/data-science-artificial-intelligence/power-bi-online-training-in-chennai" },
+          { "name": "Data Science Master Program", "path": "/courses/data-science-artificial-intelligence/data-science-training-in-chennai" },
+          { "name": "Machine Learning", "path": "/courses/data-science-artificial-intelligence/machine-learning-training-chennai" },
+          { "name": "AI Fundamentals", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
+          { "name": "Data Analytics", "path": "/courses/data-science-artificial-intelligence/data-analytics-training-in-chennai" },
+          { "name": "Power BI", "path": "/courses/data-science-artificial-intelligence/power-bi-training-in-chennai" },
           { "name": "Tableau", "path": "/courses/data-science-artificial-intelligence/tableau-certification-training-in-chennai" },
           { "name": "Big Data (Hadoop, Spark)", "path": "/courses/data-science-artificial-intelligence/hadoop-online-training-in-chennai" },
-          { "name": "Generative AI", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-course-online-training-in-chennai" },
+          { "name": "Generative AI", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
           { "name": "ChatGPT + Prompt Engineering", "path": "/courses/data-science-artificial-intelligence/chatgpt-online-course-training-in-chennai" },
           { "name": "RAG Systems", "path": "/courses/data-science-artificial-intelligence/rag-systems-ai-certification-course-training-in-chennai" },
           { "name": "AI for Automation", "path": "/courses/data-science-artificial-intelligence/ai-for-automation-course-training-in-chennai" }
@@ -163,7 +163,7 @@
         "cat_path": "database-management-system",
         "description": "Relational, NoSQL and cloud database administration and development.",
         "courses": [
-          { "name": "MySQL", "path": "/courses/database-management-system/msql-online-training-in-chennai" },
+          { "name": "MySQL", "path": "/courses/database-management-system/msql-training-in-chennai" },
           { "name": "PostgreSQL", "path": "/courses/database-management-system/postgresql-admin-online-training-in-chennai" },
           { "name": "PL/SQL", "path": "/courses/database-management-system/pl-and-sql-online-training-in-chennai" },
           { "name": "Oracle SQL / PL SQL", "path": "/courses/database-management-system/oracle-sql-plsql-training-in-chennai" },
@@ -179,14 +179,14 @@
         "cat_path": "microsoft",
         "description": "Microsoft tools, Azure, Office and enterprise platform training.",
         "courses": [
-          { "name": "Microsoft Azure", "path": "/courses/microsoft/microsoft-azure-online-training-in-chennai" },
+          { "name": "Microsoft Azure", "path": "/courses/microsoft/microsoft-azure-training-in-chennai" },
           { "name": "Azure DevOps", "path": "/courses/microsoft/azure-devops-training-in-chennai" },
-          { "name": "Microsoft Excel", "path": "/courses/microsoft/microsoft-excel-online-training-in-chennai" },
+          { "name": "Microsoft Excel", "path": "/courses/microsoft/microsoft-excel-training-in-chennai" },
           { "name": "Excel Macros & VBA", "path": "/courses/microsoft/excel-macros-vba-online-training-in-chennai" },
           { "name": "MS Office (Word, Excel, PowerPoint)", "path": "/courses/microsoft/computer-fundamentals-training-in-chennai" },
           { "name": "Microsoft Dynamics 365", "path": "/courses/microsoft/microsoft-dynamics-crm-online-training-in-chennai" },
           { "name": "Windows Server", "path": "/courses/microsoft/windows-server-training-in-chennai" },
-          { "name": "Power BI", "path": "/courses/microsoft/power-bi-online-training-in-chennai" },
+          { "name": "Power BI", "path": "/courses/microsoft/power-bi-training-in-chennai" },
           { "name": "SharePoint", "path": "/courses/microsoft/sharepoint-online-training-in-chennai" }
         ]
       },
@@ -195,16 +195,16 @@
         "cat_path": "digital-marketing-business-tools",
         "description": "SEO, social media, ads and digital strategy for online growth.",
         "courses": [
-          { "name": "Digital Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "SEO (Search Engine Optimization)", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Social Media Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Google Ads / PPC", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Email Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Content Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Google Analytics", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "YouTube Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "Affiliate Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" },
-          { "name": "E-commerce Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-online-training-in-chennai" }
+          { "name": "Digital Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "SEO (Search Engine Optimization)", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Social Media Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Google Ads / PPC", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Email Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Content Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Google Analytics", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "YouTube Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "Affiliate Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
+          { "name": "E-commerce Marketing", "path": "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" }
         ]
       },
       {
@@ -212,15 +212,15 @@
         "cat_path": "ui-and-ux",
         "description": "Design, prototyping and user experience for modern digital products.",
         "courses": [
-          { "name": "UI & UX Design", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" },
+          { "name": "UI & UX Design", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
           { "name": "Figma", "path": "/courses/ui-and-ux/figma-advanced-training-in-chennai" },
-          { "name": "Adobe XD", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" },
+          { "name": "Adobe XD", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
           { "name": "Canva", "path": "/courses/ui-and-ux/figma-advanced-training-in-chennai" },
           { "name": "Basic Graphic Designing", "path": "/courses/ui-and-ux/basic-graphic-designing-course-in-chennai" },
           { "name": "Web Designing", "path": "/courses/ui-and-ux/basic-web-designing-course-in-chennai" },
-          { "name": "Prototyping & Wireframing", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" },
-          { "name": "User Research", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" },
-          { "name": "Design Thinking", "path": "/courses/ui-and-ux/ui-ux-designer-online-training-in-chennai" }
+          { "name": "Prototyping & Wireframing", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
+          { "name": "User Research", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
+          { "name": "Design Thinking", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" }
         ]
       },
       {
@@ -228,7 +228,7 @@
         "cat_path": "crm-enterprise-solutions",
         "description": "Salesforce, Oracle ERP, Workday and enterprise platform training.",
         "courses": [
-          { "name": "Salesforce Admin", "path": "/courses/crm-enterprise-solutions/salesforce-online-training-in-chennai" },
+          { "name": "Salesforce Admin", "path": "/courses/crm-enterprise-solutions/salesforce-training-in-chennai" },
           { "name": "Salesforce Developer", "path": "/courses/crm-enterprise-solutions/salesforce-developer-training-in-chennai" },
           { "name": "Microsoft Dynamics 365", "path": "/courses/crm-enterprise-solutions/microsoft-dynamics-crm-online-training-in-chennai" },
           { "name": "Workday HCM", "path": "/courses/crm-enterprise-solutions/workday-hcm--training-in-chennai" },
@@ -244,7 +244,7 @@
         "cat_path": "networking",
         "description": "Network infrastructure, OS administration and system management.",
         "courses": [
-          { "name": "CCNA", "path": "/courses/networking/ccna-online-training-in-chennai" },
+          { "name": "CCNA", "path": "/courses/networking/ccna-training-in-chennai" },
           { "name": "Network Security", "path": "/courses/networking/system-network-security-training-in-chennai" },
           { "name": "Internet & Networking Basics", "path": "/courses/networking/internet-and-network-basics-training-in-chennai" },
           { "name": "Linux Administration", "path": "/courses/networking/linux-certification-training-in-chennai" },

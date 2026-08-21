@@ -124,7 +124,7 @@ const SapCourseDetailsPage = () => {
     "sap-security-grc": {
       courseDescription: "Gain expertise in SAP Security and Governance, Risk & Compliance. Learn user administration, access control, and risk management in SAP.",
     },
-    "sap-is-retail": {
+    "sap-is-retail-training-in-chennai": {
       "courseDescription": "Comprehensive training in SAP for Retail solutions covering merchandise management, supply chain, and point-of-sale systems for retail businesses."
     },
     "sap-is-utilities": {
