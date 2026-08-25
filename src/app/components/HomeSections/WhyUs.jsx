@@ -1,95 +1,113 @@
 "use client";
 
-
+import { useState } from "react";
 import { motion } from "framer-motion";
+import {
+  BadgeCheck,
+  BriefcaseBusiness,
+  CalendarClock,
+  FlaskConical,
+  FolderKanban,
+  UsersRound,
+} from "lucide-react";
 
-
-const features = [
+const benefits = [
   {
-    title: "Experienced Expert Instructors",
-    gif: "/instructor.gif"
+    title: "Industry-Experienced Trainers",
+    description: "Learn from trainers who bring practical technology knowledge into the classroom.",
+    icon: UsersRound,
   },
   {
-    title: "Assured 100% Placement Support",
-    gif: "/placement.gif"
+    title: "Hands-On Learning",
+    description: "Practice concepts through assignments, labs and guided technical exercises.",
+    icon: FlaskConical,
   },
   {
-    title: "Industry Focused Curriculum",
-    gif: "/curriculam.gif"
+    title: "Real-Time Projects",
+    description: "Apply your knowledge through practical project scenarios and build project experience.",
+    icon: FolderKanban,
   },
   {
-    title: "Dedicated Mentor Connect",
-    gif: "/mentor.gif"
+    title: "Career Support",
+    description: "Prepare for interviews with resume guidance, mock interviews and career mentoring.",
+    icon: BriefcaseBusiness,
   },
   {
-    title: "Best Industry Projects",
-    gif: "/projects.gif"
+    title: "Flexible Learning",
+    description: "Choose available classroom, online, weekday or weekend learning options.",
+    icon: CalendarClock,
+  },
+  {
+    title: "Certification",
+    description: "Complete your selected program and receive applicable course certification.",
+    icon: BadgeCheck,
   },
 ];
 
-
 export default function WhyInventateq() {
+  const [selectedBenefit, setSelectedBenefit] = useState(0);
+
   return (
-    <section className="bg-gradient-to-br from-white via-blue-50/30 to-cyan-50/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        {/* Heading */}
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
+    <section
+      className="relative overflow-hidden bg-gradient-to-br from-white via-[#eaf7ff] to-[#effcf6] !py-20 sm:!py-24 lg:!py-28"
+      aria-labelledby="why-iclp-heading"
+    >
+      <div className="pointer-events-none absolute -left-24 top-16 h-72 w-72 rounded-full bg-[#01377d]/10 blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-[#00a878]/10 blur-3xl" />
+
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <motion.header
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          transition={{ duration: 0.5 }}
+          className="mx-auto mb-12 max-w-3xl text-center sm:mb-14"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#01377d] to-blue-600">ICLP</span> is the best?
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            ICLP delivers India's best training with guaranteed career placement and industry-ready skills.
+          <p className="mb-3 inline-flex rounded-full border border-[#00a878]/30 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-[#087f5b] shadow-sm">
+            Why ICLP
           </p>
-          
-          {/* Decorative Divider */}
-          <div className="flex items-center justify-center gap-3 mt-6">
-            <div className="h-px w-20 bg-gradient-to-r from-transparent to-blue-300"></div>
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <div className="h-px w-20 bg-gradient-to-l from-transparent to-cyan-300"></div>
-          </div>
-        </motion.div>
+          <h2 id="why-iclp-heading" className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
+            Why Choose ICLP Technologies for IT Training in Chennai?
+          </h2>
+          <p className="mt-5 text-base leading-relaxed text-slate-600 sm:text-lg">
+            Build practical skills through guided learning, real project experience and career-focused support.
+          </p>
+        </motion.header>
 
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+          {benefits.map(({ title, description, icon: Icon }, index) => {
+            const isSelected = selectedBenefit === index;
 
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-          {features.map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ scale: 1.05, y: -5 }}
-              className="group relative bg-white rounded-xl p-6 text-center border-2 border-slate-200 hover:border-blue-500 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-blue-500/10"
-            >
-              {/* Gradient Overlay on Hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/5 group-hover:to-cyan-500/5 rounded-xl transition-all duration-300"></div>
-              
-              {/* GIF Container with Blue Accent */}
-              <div className="relative w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-xl p-3 group-hover:scale-110 transition-transform duration-300">
-                <img 
-                  src={item.gif}
-                  alt={item.title}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-
-
-              {/* Title */}
-              <h3 className="relative text-base font-semibold text-gray-900 group-hover:text-[#01377d] transition-colors duration-300">
-                {item.title}
-              </h3>
-              
-              {/* Bottom Accent Line */}
-              <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#01377d] to-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-center rounded-b-xl"></div>
-            </motion.div>
-          ))}
+            return (
+              <motion.button
+                key={title}
+                type="button"
+                onClick={() => setSelectedBenefit(index)}
+                onFocus={() => setSelectedBenefit(index)}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.06 }}
+                whileHover={{ y: -4 }}
+                className={`group relative flex min-h-[230px] flex-col items-start overflow-hidden rounded-2xl border bg-white p-6 text-left shadow-sm transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00a878] focus-visible:ring-offset-4 motion-reduce:transition-none motion-reduce:hover:transform-none ${isSelected ? "border-[#00a878] shadow-xl shadow-[#00a878]/15" : "border-slate-200 hover:border-[#01377d]/40 hover:shadow-xl hover:shadow-[#01377d]/10"}`}
+                aria-pressed={isSelected}
+              >
+                <span className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#01377d] to-[#00a878] transition-opacity duration-300 motion-reduce:transition-none ${isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`} />
+                <span className={`flex h-14 w-14 items-center justify-center rounded-xl text-2xl text-white shadow-md transition-all duration-300 motion-reduce:transition-none ${isSelected ? "scale-105 bg-gradient-to-br from-[#01377d] to-[#00a878]" : "bg-gradient-to-br from-[#01377d] to-[#087f5b] group-hover:from-[#00a878] group-hover:to-[#01377d]"}`}>
+                  <Icon aria-hidden="true" />
+                </span>
+                <span className={`mt-5 text-lg font-bold transition-colors duration-200 motion-reduce:transition-none ${isSelected ? "text-[#01377d]" : "text-slate-900 group-hover:text-[#01377d]"}`}>
+                  {title}
+                </span>
+                <span className={`mt-2 text-sm leading-relaxed transition-colors duration-200 motion-reduce:transition-none ${isSelected ? "text-slate-700" : "text-slate-600"}`}>
+                  {description}
+                </span>
+                <span className={`mt-auto pt-4 text-xs font-bold uppercase tracking-[0.16em] text-[#087f5b] transition-opacity duration-200 motion-reduce:transition-none ${isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}>
+                  Selected benefit
+                </span>
+              </motion.button>
+            );
+          })}
         </div>
       </div>
     </section>

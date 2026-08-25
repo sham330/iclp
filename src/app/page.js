@@ -5,16 +5,21 @@ import Accreditations from "./components/Accreditations/Accreditations";
 import SuccessfulCommunity from "./components/successfullCommunity/successfullCommunity";
 import Features from "./components/BodyPart/Features/features";
 import TieUps from "./components/TieUps/TieUps";
-import Booking from "./components/Booking/booking";
 import ProcessChart from "./components/ProcessChart/processChart";
 import ExpertConnectBanner from "./components/ExpertConnectBanner/ExpertConnectBanner";
 import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCoursesSlider";
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
+import HomeChennaiIntroduction from "./components/HomeSections/HomeChennaiIntroduction";
 import WhyInventateq from "./components/HomeSections/WhyUs";
+import HomePopularCourses from "./components/HomeSections/HomePopularCourses";
+import HomePlacementSupport from "./components/HomeSections/HomePlacementSupport";
+import HomeAudience from "./components/HomeSections/HomeAudience";
+import HomeChennaiLocations from "./components/HomeSections/HomeChennaiLocations";
+import HomeWhyChennai from "./components/HomeSections/HomeWhyChennai";
 import HomeTestimonials from "./components/HomeSections/HomeTestimonials";
-import ServiceAreas from "./components/Services";
+import HomeFAQ from "./components/HomeSections/HomeFAQ";
 import Head from "./Head"
 import CertificationSection from "./components/CertificationSection/CertificationSection";
 
@@ -28,26 +33,24 @@ export default function Home() {
         <BodyHead />
         <br/>
         <TopCategories />
+        <HomeChennaiIntroduction />
                 <br></br>
 
         <Accreditations />
         <WhyInventateq/>
-        {/* <SuccessfulCommunity /> */}
-        <Features />
-         <br></br>
-        <br></br>
-       
-        <TieUps />
-        <Booking />
+        <HomePopularCourses />
         <ProcessChart />
-        <br></br>
-        {/* <ServiceAreas/> */}
-        <br></br>
-                 <CertificationSection />
-<br></br>
-        <ExpertConnectBanner />
-        <br></br>
+        <HomePlacementSupport />
+                    <TieUps />
+                    <HomeAudience />
+                    <HomeChennaiLocations />
+                    <HomeWhyChennai />
         <HomeTestimonials />
+        <HomeFAQ />
+
+     
+                 <CertificationSection />
+
       </main>
 
       <ChatBot />

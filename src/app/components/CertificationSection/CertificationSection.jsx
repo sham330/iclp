@@ -9,8 +9,10 @@ const features = [
 
 export default function CertificationSection() {
   return (
-    <div className="w-full px-4 py-10">
-      <div className="max-w-6xl mx-auto bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 md:p-10 flex flex-col md:flex-row items-center gap-8 shadow-lg">
+    <section className="relative w-full overflow-hidden bg-gradient-to-br from-[#020c2b] via-[#01377d] to-[#062f50] !py-16 sm:!py-20 lg:!py-24" aria-labelledby="certification-heading">
+      <div className="pointer-events-none absolute -left-24 top-8 h-72 w-72 rounded-full bg-[#00a878]/15 blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 bottom-8 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
+      <div className="relative mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-4 sm:px-6 md:flex-row lg:gap-12 lg:px-8">
 
         {/* Left Logo */}
         <div className="bg-white rounded-xl p-4 flex items-center justify-center w-36 h-36 md:w-44 md:h-44 shadow shrink-0 hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-pointer">
@@ -31,7 +33,7 @@ export default function CertificationSection() {
           </span>
 
           {/* Title */}
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+          <h2 id="certification-heading" className="mb-3 text-2xl font-bold text-white md:text-3xl">
             ISO 9001:2015 Certified Institution
           </h2>
 
@@ -57,6 +59,6 @@ export default function CertificationSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

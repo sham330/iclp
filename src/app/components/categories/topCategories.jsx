@@ -1,214 +1,146 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
+
+import { useState } from "react";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import {
   AiOutlineCode,
-  AiOutlineMobile,
-  AiOutlineSketch,
   AiOutlineRobot,
+  AiOutlineCloud,
 } from "react-icons/ai";
-import { MdSecurity, MdCloud, MdStorage } from "react-icons/md";
+import { MdSecurity, MdStorage } from "react-icons/md";
+import { BiTestTube } from "react-icons/bi";
 
+const careerPaths = [
+  {
+    title: "Software Development",
+    icon: AiOutlineCode,
+    accent: "from-[#01377d] to-[#00a878]",
+    courses: ["Python", "Java", "Full Stack Development", "ReactJS", "Node.js", "JavaScript"],
+    href: "/courses/programming",
+    cta: "Explore Development Courses",
+  },
+  {
+    title: "Data & AI",
+    icon: AiOutlineRobot,
+    accent: "from-[#00a878] to-[#0e7490]",
+    courses: ["Data Science", "Machine Learning", "Artificial Intelligence", "Data Analytics"],
+    href: "/courses/data-science-artificial-intelligence",
+    cta: "Explore Data & AI Courses",
+  },
+  {
+    title: "Cloud & DevOps",
+    icon: AiOutlineCloud,
+    accent: "from-[#0369a1] to-[#00a878]",
+    courses: ["AWS", "Microsoft Azure", "DevOps", "Azure DevOps"],
+    href: "/courses/cloud-computing-devops",
+    cta: "Explore Cloud & DevOps Courses",
+  },
+  {
+    title: "Software Testing",
+    icon: BiTestTube,
+    accent: "from-[#014a9f] to-[#16a34a]",
+    courses: ["Selenium", "Manual Testing", "JMeter", "ETL Testing", "LoadRunner", "API Testing"],
+    href: "/courses/software-testing-quality-assurance",
+    cta: "Explore Testing Courses",
+  },
+  {
+    title: "Enterprise Technologies",
+    icon: MdStorage,
+    accent: "from-[#01377d] to-[#16a34a]",
+    courses: ["SAP FICO", "SAP MM", "SAP SD", "SAP ABAP", "Oracle Financials", "Oracle SCM", "Oracle HCM"],
+    href: "/courses/sap-courses",
+    cta: "Explore Enterprise Courses",
+  },
+  {
+    title: "Cybersecurity",
+    icon: MdSecurity,
+    accent: "from-[#0e7490] to-[#15803d]",
+    courses: ["Cybersecurity", "Ethical Hacking", "Network Security"],
+    href: "/courses/cybersecurity-ethical-hacking",
+    cta: "Explore Cybersecurity Courses",
+  },
+];
 
-// Icon mapping for each category
-const iconMapping = {
-  Programming: <AiOutlineCode />,
-  "Full Stack": <AiOutlineCode />,
-  "Cloud Computing": <MdCloud />,
-  "DevOps & Automation": <AiOutlineRobot />,
-  "Cybersecurity & Ethical Hacking": <MdSecurity />,
-  "Software Testing": <AiOutlineCode />,
-  "Data & AI": <MdStorage />,
-  "UI/UX & Design": <AiOutlineSketch />,
-  "Digital Marketing": <AiOutlineMobile />,
-};
+function CareerPathCard({ title, icon: Icon, accent, courses, href, cta, isActive, onSelect }) {
+  return (
+    <article className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border bg-white p-6 transition-all duration-300  motion-reduce:transition-none ${isActive ? "border-[#00a878] shadow-xl shadow-[#00a878]/15" : "border-slate-200 shadow-sm hover:-translate-y-1 hover:border-[#01377d]/40 hover:shadow-xl hover:shadow-[#01377d]/10"}`}>
+      <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${accent}`} />
 
+      <div className="flex items-start justify-between gap-4">
+        <div className={`flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br ${accent} text-2xl text-white shadow-md transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none`}>
+          <Icon aria-hidden="true" />
+        </div>
+        <button
+          type="button"
+          onClick={onSelect}
+          aria-pressed={isActive}
+          className={`rounded-full border px-3 py-1 text-xs font-semibold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00a878] focus-visible:ring-offset-2 motion-reduce:transition-none ${isActive ? "border-[#00a878] bg-[#00a878] text-white" : "border-[#00a878]/30 bg-[#00a878]/[0.06] text-[#087f5b] hover:bg-[#00a878]/15"}`}
+        >
+          {isActive ? "Selected" : "View path"}
+        </button>
+      </div>
 
-const TopCategories = () => {
-  const [categories, setCategories] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
-  const pathname = usePathname();
+      <h3 className="mt-6 text-xl font-bold tracking-tight text-slate-900">{title}</h3>
+      <p className="mt-2 text-sm text-slate-500">Build practical skills for your next technology role.</p>
 
+      <ul className="mt-5 flex flex-wrap gap-2" aria-label={`${title} courses`}>
+        {courses.map((course) => (
+          <li
+            key={course}
+            className={`rounded-md border px-2.5 py-1 text-xs font-medium leading-5 transition-colors duration-200 motion-reduce:transition-none ${isActive ? "border-[#00a878]/30 bg-[#00a878]/[0.08] text-[#087f5b]" : "border-slate-200 bg-slate-50 text-slate-600"}`}
+          >
+            {course}
+          </li>
+        ))}
+      </ul>
 
-  useEffect(() => {
-    fetch("/data/courses.json")
-      .then((response) => response.json())
-      .then((data) => {
-        const extractedCategories = data.categories.map((category) => ({
-          name: category.category_name,
-          icon: iconMapping[category.category_name] || <AiOutlineCode />,
-          path: category.path
-        }));
-        setCategories(extractedCategories);
-      })
-      .catch((error) => console.error("Error fetching JSON data:", error));
-  }, []);
+      <div className="mt-auto pt-4">
+        <Link
+          href={href}
+          aria-label={`${cta} — ${title}`}
+          className="group/link inline-flex items-center gap-2 self-start rounded-md bg-[#01377d] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors duration-200 hover:bg-[#00a878] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00a878] focus-visible:ring-offset-4 motion-reduce:transition-none"
+        >
+          {cta}
+          <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover/link:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
+        </Link>
+      </div>
+    </article>
+  );
+}
 
-
-  const handleSeeAllClick = () => {
-    window.open(`/courses`, "_blank");
-  };
-
-
-  const filteredCategories = (categories || []).filter((category) => {
-    const name = category?.name || category?.category_name || category?.course_name || "";
-    return name.toLowerCase().includes((searchTerm || "").toLowerCase());
-  });
-
-
-  const isCoursesPage = pathname === "/courses";
-
-
-  const displayedCategories = isCoursesPage
-    ? filteredCategories
-    : filteredCategories.slice(0, 8);
-
+export default function TopCategories() {
+  const [activePath, setActivePath] = useState(careerPaths[0].title);
 
   return (
-    <div className="relative py-20 lg:py-28 bg-gradient-to-br from-white via-blue-50/20 to-cyan-50/30 overflow-hidden">
-      {/* Subtle Background Decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-40">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-blue-100/40 rounded-full blur-3xl"></div>
-        <div className="absolute top-40 right-20 w-32 h-32 bg-cyan-100/40 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-32 left-1/4 w-24 h-24 bg-blue-100/40 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-1/3 w-28 h-28 bg-cyan-100/30 rounded-full blur-3xl"></div>
+    <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#eaf7ff] to-[#effcf6] py-20 sm:py-24 lg:py-28" aria-labelledby="career-paths-heading">
+      <div className="pointer-events-none absolute -right-24 top-10 h-72 w-72 rounded-full bg-[#00a878]/10 blur-3xl" />
+      <div className="pointer-events-none absolute -left-24 bottom-10 h-72 w-72 rounded-full bg-[#01377d]/10 blur-3xl" />
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header className="mx-auto mb-12 max-w-2xl text-center sm:mb-16">
+          <p className="mb-3 inline-flex rounded-full border border-[#00a878]/30 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-[#087f5b] shadow-sm">
+            Career Paths
+          </p>
+          <h2 id="career-paths-heading" className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl">
+            Choose the Right IT Course for Your Career
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-slate-600 sm:text-lg">
+            Whether you're starting your IT career, upgrading your technical skills or moving into a new technology,
+            choose a learning path that matches your goals.
+          </p>
+        </header>
+
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 pb-12">
+          {careerPaths.map((careerPath) => (
+            <CareerPathCard
+              key={careerPath.title}
+              {...careerPath}
+              isActive={activePath === careerPath.title}
+              onSelect={() => setActivePath(careerPath.title)}
+            />
+          ))}
+        </div>
       </div>
-
-
-      {/* Decorative Top Border */}
-
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {!isCoursesPage && (
-          <div className="text-center mb-16 space-y-6">
-            <h1 className="text-4xl lg:text-5xl font-bold text-slate-900">
-              All{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#01377d] via-blue-600 to-cyan-600">
-                Skills
-              </span>{" "}
-              in One
-            </h1>
-            <h3 className="text-xl lg:text-2xl text-slate-700 max-w-3xl mx-auto">
-              <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
-                From Basic to Pro
-              </span>
-              , ICLP makes your path smooth
-            </h3>
-            
-            {/* Decorative Divider */}
-            <div className="flex items-center justify-center gap-4 pt-4">
-              <div className="h-px w-24 bg-gradient-to-r from-transparent to-blue-300"></div>
-              <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-              <div className="h-px w-24 bg-gradient-to-l from-transparent to-cyan-300"></div>
-            </div>
-          </div>
-        )}
-
-
-        {/* Search Bar (only on /courses page) */}
-        {isCoursesPage && (
-          <div className="mb-12 max-w-2xl mx-auto">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Search for a category..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-6 py-4 bg-white border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-400 transition-all duration-200 text-slate-900 placeholder:text-slate-400 shadow-sm"
-              />
-              <div className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        )}
-
-
-        <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          {displayedCategories.length > 0 ? (
-            displayedCategories.map((category, index) => (
-              <motion.a
-                key={index}
-                href={`/courses/${category.path}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border-2 border-slate-100 hover:border-transparent overflow-hidden"
-                whileHover={{ scale: 1.05, y: -5 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                {/* Blue Gradient Border on Hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 via-cyan-500/0 to-blue-500/0 group-hover:from-blue-500/10 group-hover:via-cyan-500/10 group-hover:to-blue-500/10 rounded-2xl transition-all duration-300"></div>
-                
-                {/* Accent Corner */}
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-blue-100/50 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-
-                <div className="relative space-y-4">
-                  {/* Icon with Blue Colors */}
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-blue-100 via-cyan-100 to-blue-100 text-[#01377d] text-3xl shadow-sm group-hover:shadow-md group-hover:scale-110 transition-all duration-300">
-                    {category.icon}
-                  </div>
-
-
-                  {/* Category Name */}
-                  <h3 className="font-bold text-lg text-slate-900 group-hover:text-[#01377d] transition-colors duration-300">
-                    {category.name}
-                  </h3>
-
-
-                  {/* Subtext */}
-                  <p className="text-sm text-slate-500 group-hover:text-slate-700 transition-colors duration-300">
-                    Click to explore
-                  </p>
-                </div>
-
-
-                {/* Bottom Accent Line */}
-                <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#01377d] via-blue-500 to-cyan-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-              </motion.a>
-            ))
-          ) : (
-            <div className="col-span-full text-center py-12">
-              <p className="text-slate-500 text-lg">No matching categories found.</p>
-            </div>
-          )}
-        </motion.div>
-
-
-        {/* "See All" Button (only on home page) */}
-        {!isCoursesPage && (
-          <div className="text-center mt-12">
-            <button
-              onClick={handleSeeAllClick}
-              className="group inline-flex items-center gap-3 px-10 py-4 bg-blue-500 hover:bg-[#3b82f6] text-white font-semibold text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-blue-400/30"
-            >
-              <span>See All Categories</span>
-              <svg 
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </button>
-          </div>
-        )}
-      </div>
-
-
-      {/* Decorative Bottom Border */}
-    </div>
+    </section>
   );
-};
-
-
-export default TopCategories;
+}
