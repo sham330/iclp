@@ -30,11 +30,13 @@ const SmallBar = () => {
   const [navData, setNavData] = useState(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
+  const [isLocationDropdownOpen, setIsLocationDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   const dropdownRef = useRef(null);
   const moreDropdownRef = useRef(null);
+  const locationDropdownRef = useRef(null);
   const closeTimerRef = useRef(null);
   const router = useRouter();
 
@@ -55,6 +57,8 @@ const SmallBar = () => {
         setIsDropdownOpen(false);
       if (moreDropdownRef.current && !moreDropdownRef.current.contains(event.target))
         setIsMoreDropdownOpen(false);
+      if (locationDropdownRef.current && !locationDropdownRef.current.contains(event.target))
+        setIsLocationDropdownOpen(false);
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
@@ -168,6 +172,39 @@ const SmallBar = () => {
                 About Us
               </Link>
             </li>
+
+            {/* Location dropdown */}
+            <li className="relative" ref={locationDropdownRef}>
+              <button
+                onClick={() => setIsLocationDropdownOpen(!isLocationDropdownOpen)}
+                className="inline-flex items-center gap-1.5 px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95"
+              >
+                Location
+                <FaChevronDown className={`text-xs transition-transform ${isLocationDropdownOpen ? "rotate-180" : ""}`} />
+              </button>
+              {isLocationDropdownOpen && (
+                <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-2xl border-2 border-[#014a9f]/20 z-50">
+                  <Link
+                    href="/best-software-training-institute-in-chennai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsLocationDropdownOpen(false)}
+                    className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all rounded-t-lg"
+                  >
+                    Chennai
+                  </Link>
+                  <Link
+                    href="/best-software-training-institute-in-hyderabad/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsLocationDropdownOpen(false)}
+                    className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all rounded-b-lg"
+                  >
+                    Hyderabad
+                  </Link>
+                </div>
+              )}
+            </li>
             <li>
               <Link href="/corporate-training" target="_blank" rel="noopener noreferrer" className="px-3 py-2.5 text-[13px] font-semibold text-[#014a9f] hover:bg-[#014a9f] hover:text-white rounded-md transition-all hover:-translate-y-0.5 active:scale-95 block">
                 Corporate Training
@@ -256,6 +293,8 @@ const SmallBar = () => {
 
               {[
                 { href: "/about", label: "About Us" },
+                { href: "/best-software-training-institute-in-chennai/", label: "Location – Chennai" },
+                { href: "/best-software-training-institute-in-hyderabad/", label: "Location – Hyderabad" },
                 { href: "/corporate-training", label: "Corporate Training" },
                 { href: "/contact", label: "Contact Us" },
               ].map(({ href, label }) => (
