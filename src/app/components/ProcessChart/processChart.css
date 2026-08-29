@@ -2,7 +2,7 @@
 .roadmap-container {
   position: relative;
   overflow: hidden;
-  padding: 5rem 1rem;
+  padding: 2.5rem 1rem;
   font-family: "Inter", sans-serif;
   max-width: 1200px;
   margin: 0 auto;
@@ -21,9 +21,8 @@
 .roadmap-content {
   position: relative;
   z-index: 1;
-  margin-top: 20px;
-    margin-bottom: 90px;
-
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* Heading Styles */

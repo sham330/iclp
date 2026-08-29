@@ -64,7 +64,7 @@ const Features = () => {
 
 
   return (
-    <div className="relative py-20 lg:py-28 bg-gradient-to-br from-[#01377d] via-[#014a9f] to-[#01377d] overflow-hidden">
+    <div className="relative py-12 lg:py-16 bg-gradient-to-br from-[#01377d] via-[#014a9f] to-[#01377d] overflow-hidden">
       <SEO
         title="Comprehensive Online Courses – Save Time, Money & Gain Knowledge with Expert Support"
         description="Enroll in our diverse range of online courses across various categories, including Programming (Java, Python, JavaScript), Data Science, AI, SAP, Oracle, and more. Save time with flexible learning schedules, save money with special discounts, and gain in-depth knowledge with expert instructors. Get personalized support with our user-friendly chatbot to help you with course selection, enrollment, and more. Start learning today and advance your career efficiently with our top-rated courses and resources!"
@@ -92,7 +92,7 @@ const Features = () => {
       {/* Elegant Top Border */}
 
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         {/* Header */}
         <div className="text-center mb-16 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-white">

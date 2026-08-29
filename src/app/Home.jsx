@@ -34,15 +34,11 @@ export default function Home() {
         <BodyHead />
         <HomeAbout />
         <TopCategories />
-                <br></br>
 
         <Accreditations />
         <CertificationSection />
         <SuccessfulCommunity />
         <Features />
-         <br></br>
-        <br></br>
-       
         <TieUps />
         <Booking />
         <ProcessChart />

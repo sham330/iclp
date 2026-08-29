@@ -176,7 +176,7 @@ const HomeAbout = () => {
   };
 
   return (
-    <section className="relative py-20 lg:py-28 bg-gradient-to-br from-slate-50 via-red-50/30 to-amber-50/20 overflow-hidden" ref={sectionRef}>
+    <section className="relative py-12 lg:py-16 bg-gradient-to-br from-slate-50 via-red-50/30 to-amber-50/20 overflow-hidden" ref={sectionRef}>
       {/* Subtle Christmas Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Soft Snowflakes */}

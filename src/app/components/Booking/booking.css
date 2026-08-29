@@ -39,8 +39,8 @@
 
 /* Card Container */
 .bs-card-wrapper {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 1000px;
   height: auto;
