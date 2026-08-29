@@ -66,7 +66,6 @@ const AppBar = () => {
         // merge with static list so nothing is lost
         const staticCourses = [
       { name: "Java", path: "java-online-training-in-chennai" },
-      { name: "Python", path: "python-development-online-training" },
       { name: "C Sharp", path: "c-sharp-training-in-chennai" },
       { name: "Control-M", path: "control-m-training-chennai" },
       {   path: "android-development-training-chennai", name: "Android Development" },
