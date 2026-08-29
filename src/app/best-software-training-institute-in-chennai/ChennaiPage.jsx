@@ -8,6 +8,9 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const ModalBooking = dynamic(() => import("@/app/components/ModalBooking/ModalBooking"), { ssr: false });
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
 
@@ -76,6 +79,7 @@ const faqSchema = {
 export default function ChennaiPage() {
   const [openFaq, setOpenFaq] = useState(null);
   const [selectedWhy, setSelectedWhy] = useState(0);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div className="overflow-hidden">
@@ -106,10 +110,11 @@ export default function ChennaiPage() {
                   className="inline-flex items-center gap-2 rounded-xl bg-[#00a878] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#087f5b] hover:shadow-xl">
                   Explore Courses <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link href="/contact" target="_blank" rel="noopener noreferrer"
+                <button
+                  onClick={() => setShowModal(true)}
                   className="inline-flex items-center gap-2 rounded-xl border-2 border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:bg-white/20">
                   <Phone className="h-4 w-4" /> Talk to a Career Mentor
-                </Link>
+                </button>
               </div>
             </div>
             {/* Hero Image */}
@@ -362,10 +367,11 @@ export default function ChennaiPage() {
                 ))}
               </ul>
               <div className="mt-8">
-                <Link href="/contact" target="_blank" rel="noopener noreferrer"
+                <button
+                  onClick={() => setShowModal(true)}
                   className="inline-flex items-center gap-2 rounded-xl bg-[#00a878] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#087f5b]">
                   <Phone className="h-4 w-4" /> Talk to a Career Mentor
-                </Link>
+                </button>
               </div>
             </div>
             <div className="relative hidden lg:block">
@@ -424,6 +430,7 @@ export default function ChennaiPage() {
           </div>
         </div>
       </section>
+      {showModal && <ModalBooking onClose={() => setShowModal(false)} />}
     </div>
   );
 }

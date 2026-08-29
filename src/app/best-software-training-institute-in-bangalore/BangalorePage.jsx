@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, Check, MapPin, Phone, ArrowRight } from "lucide-react";
+import { ChevronDown, MapPin, Phone, ArrowRight } from "lucide-react";
 import {
   UsersRound, FlaskConical, FolderKanban, BriefcaseBusiness,
   CalendarClock, BadgeCheck, GraduationCap, UserRound, RefreshCw, Route,
@@ -21,52 +21,55 @@ const trustStats = [
 ];
 
 const whyUs = [
-  { title: "Practical IT Training", desc: "Learn concepts through practical exercises and technology-focused training.", icon: FlaskConical },
-  { title: "Experienced Trainers", desc: "Learn from trainers with practical knowledge of the technologies they teach.", icon: UsersRound },
-  { title: "Project-Based Learning", desc: "Apply your skills through guided projects and real-world scenarios.", icon: FolderKanban },
-  { title: "Interview Preparation", desc: "Prepare for technical and HR interviews with structured guidance.", icon: MessageSquare },
-  { title: "Flexible Batches", desc: "Choose from available weekday, weekend, classroom and online options.", icon: CalendarClock },
-  { title: "Career Mentoring", desc: "Get guidance on technology selection, job preparation and career development.", icon: Compass },
+  { title: "Industry-Focused Curriculum", desc: "Learn technology concepts aligned with practical software development and IT workflows.", icon: FlaskConical },
+  { title: "Expert Trainers", desc: "Learn through structured sessions led by experienced trainers.", icon: UsersRound },
+  { title: "Hands-On Projects", desc: "Apply concepts through practical assignments and project-based learning.", icon: FolderKanban },
+  { title: "Career Preparation", desc: "Prepare for technical interviews, HR interviews and job applications.", icon: MessageSquare },
+  { title: "Flexible Training", desc: "Choose available weekday, weekend, classroom or online batches.", icon: CalendarClock },
+  { title: "Certification", desc: "Complete your program and receive applicable course certification.", icon: BadgeCheck },
 ];
 
 const courses = [
-  { name: "Python Training in Hyderabad", desc: "Build Python programming skills through structured training and practical projects.", path: "/courses/programming-courses/python-development-online-training", img: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&q=80" },
-  { name: "Java Training in Hyderabad", desc: "Learn Java programming concepts and application development fundamentals.", path: "/courses/programming-courses/java-online-training-in-chennai", img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80" },
-  { name: "Full Stack Development in Hyderabad", desc: "Develop frontend and backend skills for modern web application development.", path: "/courses/programming-courses/full-stack-developer-online-training", img: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600&q=80" },
-  { name: "AWS Training in Hyderabad", desc: "Learn cloud concepts and AWS services through practical training.", path: "/courses/cloud-devops-courses/aws-training-in-chennai", img: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&q=80" },
-  { name: "DevOps Training in Hyderabad", desc: "Develop knowledge of DevOps tools, automation and modern software delivery.", path: "/courses/cloud-devops-courses/devops-training-in-chennai", img: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80" },
-  { name: "Software Testing Training in Hyderabad", desc: "Learn manual and automation testing concepts through practical exercises.", path: "/courses/testing-courses/software-testing-training-in-chennai", img: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80" },
-  { name: "Data Science Training in Hyderabad", desc: "Build skills in Python, data analysis and machine learning.", path: "/courses/data-science-courses/data-science-training-in-chennai", img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" },
-  { name: "Artificial Intelligence Training in Hyderabad", desc: "Learn AI fundamentals and explore practical applications of artificial intelligence.", path: "/courses/data-science-courses/artificial-intelligence-training-in-chennai", img: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" },
-  { name: "SAP Training in Hyderabad", desc: "Explore SAP FICO, SAP MM, SAP SD and SAP ABAP training.", path: "/courses/sap-courses", img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" },
-  { name: "Oracle Training in Hyderabad", desc: "Develop Oracle technology skills through structured instructor-led training.", path: "/courses/oracle-courses", img: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80" },
+  { name: "Python Training in Bangalore", desc: "Learn Python programming through structured concepts, exercises and practical projects.", path: "/courses/programming-courses/python-development-online-training", img: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&q=80" },
+  { name: "Java Training in Bangalore", desc: "Build Java programming skills for software development and application development roles.", path: "/courses/programming-courses/java-online-training-in-chennai", img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80" },
+  { name: "Full Stack Development in Bangalore", desc: "Learn frontend and backend technologies to develop complete web applications.", path: "/courses/programming-courses/full-stack-developer-online-training", img: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600&q=80" },
+  { name: "AWS Training in Bangalore", desc: "Develop practical cloud computing skills with AWS services and concepts.", path: "/courses/cloud-devops-courses/aws-training-in-chennai", img: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&q=80" },
+  { name: "DevOps Training in Bangalore", desc: "Learn DevOps tools, practices, automation and software delivery workflows.", path: "/courses/cloud-devops-courses/devops-training-in-chennai", img: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80" },
+  { name: "Software Testing Training in Bangalore", desc: "Develop skills in manual and automation testing with practical exercises.", path: "/courses/testing-courses/software-testing-training-in-chennai", img: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&q=80" },
+  { name: "Data Science Training in Bangalore", desc: "Learn Python, data analysis, statistics and machine learning concepts.", path: "/courses/data-science-courses/data-science-training-in-chennai", img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" },
+  { name: "Artificial Intelligence Training in Bangalore", desc: "Understand AI concepts and practical applications used across modern technology.", path: "/courses/data-science-courses/artificial-intelligence-training-in-chennai", img: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80" },
+  { name: "SAP Training in Bangalore", desc: "Explore SAP FICO, SAP MM, SAP SD and SAP ABAP training.", path: "/courses/sap-courses", img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" },
+  { name: "Oracle Training in Bangalore", desc: "Develop Oracle technology skills through structured training.", path: "/courses/oracle-courses", img: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80" },
 ];
 
 const audiences = [
-  { title: "For Students", desc: "Build technology skills while completing your education and gain practical exposure before entering the job market.", icon: GraduationCap },
-  { title: "For Graduates", desc: "Develop job-oriented technical skills and prepare for interviews and entry-level IT opportunities.", icon: UserRound },
-  { title: "For Working Professionals", desc: "Upgrade your existing skills or learn a new technology to support your career progression.", icon: BriefcaseBusiness },
-  { title: "For Career Changers", desc: "Build a structured technology foundation and explore opportunities to transition into IT.", icon: RefreshCw },
-  { title: "For Non-IT Professionals", desc: "Choose a suitable technology learning path based on your existing background and career goals.", icon: Route },
+  { title: "Students", desc: "Build technology skills before entering the IT industry.", icon: GraduationCap },
+  { title: "Graduates", desc: "Develop practical technical skills and improve job readiness.", icon: UserRound },
+  { title: "Working Professionals", desc: "Upgrade your skills or move into another technology.", icon: BriefcaseBusiness },
+  { title: "Career Switchers", desc: "Build a technology foundation for an IT career transition.", icon: RefreshCw },
 ];
 
-const localities = ["Ameerpet", "HITEC City", "Gachibowli", "Madhapur", "Kukatpally", "Kondapur", "Banjara Hills", "Secunderabad", "Financial District"];
+const localities = [
+  "Marathahalli", "Whitefield", "Electronic City", "HSR Layout",
+  "BTM Layout", "Indiranagar", "Jayanagar", "Rajajinagar", "Hebbal", "Kalyan Nagar",
+];
 
 const careerSupport = [
-  { label: "Resume Preparation", icon: FileText },
-  { label: "Interview Preparation", icon: MessageSquare },
+  { label: "Resume Guidance", icon: FileText },
+  { label: "Technical Interview Preparation", icon: MessageSquare },
+  { label: "HR Interview Preparation", icon: UserRound },
   { label: "Mock Interviews", icon: Video },
   { label: "Project Guidance", icon: FolderKanban },
   { label: "Career Mentoring", icon: Compass },
-  { label: "Job Opportunity Support", icon: BriefcaseBusiness },
+  { label: "Job Opportunity Guidance", icon: BriefcaseBusiness },
 ];
 
 const faqs = [
-  { q: "What IT courses does ICLP offer in Hyderabad?", a: "ICLP offers technology training across programming, Full Stack Development, cloud and DevOps, software testing, data, AI, SAP, Oracle and other IT areas." },
-  { q: "Which IT course should I choose?", a: "Your choice should depend on your education, existing skills, career goals and preferred technology. ICLP counsellors can help you identify an appropriate learning path." },
-  { q: "Does ICLP provide placement assistance?", a: "ICLP provides career and placement assistance such as resume guidance, interview preparation, mock interviews and career mentoring, subject to the relevant course and eligibility." },
-  { q: "Are classroom courses available in Hyderabad?", a: "Please contact ICLP directly for current classroom batch availability in Hyderabad." },
-  { q: "Are online courses available?", a: "Selected programs can be offered through online instructor-led training depending on current batches." },
+  { q: "Which software courses are popular in Bangalore?", a: "Python, Java, Full Stack Development, AWS, DevOps, Software Testing, Data Science, AI, SAP and Oracle are among the technology areas learners commonly explore." },
+  { q: "Does ICLP offer software training in Bangalore?", a: "ICLP provides online instructor-led training for learners in Bangalore across a wide range of software and IT programs. Please contact us for current batch availability and training formats." },
+  { q: "Does ICLP provide placement assistance?", a: "ICLP provides career and placement assistance such as interview preparation, resume guidance and career mentoring, subject to course and eligibility." },
+  { q: "Can working professionals join?", a: "Yes, available weekday, weekend and online schedules are offered where applicable to suit working professionals." },
+  { q: "Is online training available?", a: "Online instructor-led training is available for selected programs and batches." },
 ];
 
 const faqSchema = {
@@ -79,7 +82,7 @@ const faqSchema = {
   })),
 };
 
-export default function HyderabadPage() {
+export default function BangalorePage() {
   const [openFaq, setOpenFaq] = useState(null);
   const [selectedWhy, setSelectedWhy] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -96,7 +99,7 @@ export default function HyderabadPage() {
           <div className="relative hidden lg:block">
             <Image
               src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=900&q=80"
-              alt="IT training session at ICLP Technologies Hyderabad"
+              alt="IT training session at ICLP Technologies Bangalore"
               fill
               className="object-cover brightness-75"
               priority
@@ -106,22 +109,22 @@ export default function HyderabadPage() {
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#00a878]/15 text-[#087f5b] text-xl font-bold">✓</span>
               <div>
                 <p className="text-xs font-bold text-[#01377d]">Job-Oriented Training</p>
-                <p className="text-[11px] text-slate-500">Hyderabad&apos;s IT Hub</p>
+                <p className="text-[11px] text-slate-500">Bangalore&apos;s Tech Hub</p>
               </div>
             </div>
           </div>
           <div className="flex flex-col justify-center px-8 py-16 sm:px-12 lg:px-16 lg:py-20">
             <p className="mb-4 inline-flex w-fit rounded-full border border-white/30 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-white/90">
-              Hyderabad&apos;s IT Training Destination
+              Bangalore&apos;s IT Training Destination
             </p>
             <h1 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Best Software Training Institute in Hyderabad
+              Best Software Training Institute in Bangalore
             </h1>
             <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-              Build practical, job-ready IT skills with ICLP Technologies. Explore software development, Full Stack Development, Python, Java, AWS, DevOps, Software Testing, Data Science, Artificial Intelligence, SAP and Oracle training.
+              Build job-ready IT skills with industry-focused software training in Bangalore. ICLP Technologies offers practical training across software development, full stack development, cloud computing, DevOps, software testing, data science, AI, SAP and Oracle.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-white/70">
-              Learn through expert-led sessions, hands-on practice, projects and career-focused guidance.
+              Learn through expert-led sessions, hands-on practice, project-based learning and career guidance.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link href="/courses" className="inline-flex items-center gap-2 rounded-xl bg-[#00a878] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#087f5b] hover:shadow-xl">
@@ -129,7 +132,8 @@ export default function HyderabadPage() {
               </Link>
               <button
                 onClick={() => setShowModal(true)}
-                className="inline-flex items-center gap-2 rounded-xl border-2 border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:bg-white/20">
+                className="inline-flex items-center gap-2 rounded-xl border-2 border-white/40 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:bg-white/20"
+              >
                 <Phone className="h-4 w-4" /> Talk to a Career Mentor
               </button>
             </div>
@@ -162,16 +166,16 @@ export default function HyderabadPage() {
                 Why ICLP
               </p>
               <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
-                Why Choose ICLP Technologies in Hyderabad?
+                Why Choose ICLP for Software Training in Bangalore?
               </h2>
               <p className="mt-5 text-base leading-relaxed text-slate-600 sm:text-lg">
-                ICLP Technologies combines structured learning with practical training and career guidance to help you build skills for today&apos;s technology-driven workplace.
+                ICLP Technologies combines structured learning with practical training and career guidance to help you build skills for Bangalore&apos;s technology-driven workplace.
               </p>
             </div>
             <div className="relative hidden lg:block">
               <Image
                 src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=700&q=80"
-                alt="Expert trainer at ICLP Technologies Hyderabad"
+                alt="Expert trainer at ICLP Technologies Bangalore"
                 width={540}
                 height={360}
                 className="rounded-2xl object-cover shadow-xl ring-2 ring-[#01377d]/10 w-full"
@@ -210,7 +214,7 @@ export default function HyderabadPage() {
               Courses
             </p>
             <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
-              Popular IT Courses in Hyderabad
+              Popular Software Courses in Bangalore
             </h2>
           </header>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
@@ -218,10 +222,7 @@ export default function HyderabadPage() {
               <Link key={name} href={path}
                 className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#00a878] hover:shadow-xl">
                 <div className="relative h-44 w-full overflow-hidden">
-                  <Image
-                    src={img}
-                    alt={name}
-                    fill
+                  <Image src={img} alt={name} fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
@@ -240,50 +241,92 @@ export default function HyderabadPage() {
         </div>
       </section>
 
-      {/* ── BUILD YOUR IT CAREER ── */}
+      {/* ── IT CAREER IN BANGALORE ── */}
       <section className="relative overflow-hidden bg-white py-20 sm:py-24">
         <div className="pointer-events-none absolute -left-24 top-12 h-72 w-72 rounded-full bg-[#01377d]/10 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <div>
               <p className="mb-3 inline-flex rounded-full border border-[#00a878]/30 bg-[#effcf6] px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-[#087f5b] shadow-sm">
-                Hyderabad Tech Ecosystem
+                Bangalore Tech Ecosystem
               </p>
               <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
-                Build Your IT Career in Hyderabad
+                IT Career Training in Bangalore
               </h2>
               <p className="mt-6 text-base leading-relaxed text-slate-600 sm:text-lg">
-                Hyderabad has developed into a major technology and enterprise hub, with established IT activity around areas such as HITEC City, Gachibowli, Madhapur and the Financial District.
+                Bangalore is one of India&apos;s major technology and startup ecosystems, with strong activity across software development, cloud computing, SaaS, AI, data engineering and enterprise technology.
               </p>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                ICLP&apos;s training programs help learners build practical skills across:
+                ICLP&apos;s training programs connect learners with these technology and career intents through practical, job-oriented courses:
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                {["Software Development", "Cloud Computing", "DevOps", "Data Science", "AI", "Software Testing", "Cybersecurity", "SAP", "Oracle"].map((t) => (
+                {["Software Development", "Cloud Computing", "DevOps", "Data Science", "AI", "Software Testing", "SAP", "Oracle", "Full Stack"].map((t) => (
                   <span key={t} className="rounded-full border border-[#00a878]/30 bg-[#effcf6] px-3 py-1 text-xs font-semibold text-[#087f5b]">{t}</span>
                 ))}
               </div>
               <Link href="/courses"
                 className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#01377d] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#014a9f] hover:shadow-xl">
-                Explore Hyderabad IT Courses <ArrowRight className="h-4 w-4" />
+                Explore Bangalore IT Courses <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
-                alt="Hyderabad HITEC City technology hub"
+                alt="Bangalore technology hub"
                 width={640}
                 height={440}
                 className="w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#01377d]/60 to-transparent" />
-              <p className="absolute bottom-4 left-5 text-lg font-bold text-white">Hyderabad, Telangana</p>
+              <p className="absolute bottom-4 left-5 text-lg font-bold text-white">Bangalore, Karnataka</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── AUDIENCE ── */}
+      {/* ── AREAS WE SERVE ── */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#020c2b] via-[#01377d] to-[#062f50] py-16 sm:py-20">
+        <div className="pointer-events-none absolute -left-24 top-12 h-72 w-72 rounded-full bg-[#00a878]/15 blur-3xl" />
+        <div className="pointer-events-none absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#7ff0c9]/40 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-[#7ff0c9]">
+                <MapPin className="h-4 w-4" /> Bangalore Coverage
+              </p>
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+                Areas We Serve in Bangalore
+              </h2>
+              <p className="mt-5 text-base leading-relaxed text-blue-100">
+                ICLP Technologies serves learners looking for software and IT training across Bangalore, including key technology and residential areas:
+              </p>
+              <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {localities.map((loc) => (
+                  <li key={loc} className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-[#00a878] hover:bg-white/20">
+                    <MapPin className="h-4 w-4 shrink-0 text-[#00a878]" />
+                    {loc}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="relative hidden lg:block">
+              <Image
+                src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80"
+                alt="Bangalore city technology district"
+                width={580}
+                height={420}
+                className="w-full rounded-3xl object-cover shadow-2xl ring-2 ring-white/10"
+              />
+              <div className="absolute -bottom-4 -right-4 rounded-2xl bg-[#00a878] px-5 py-3 text-white shadow-lg">
+                <p className="text-lg font-bold">10 Areas</p>
+                <p className="text-xs text-white/80">Across Bangalore</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHO CAN JOIN ── */}
       <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#eaf7ff] to-[#effcf6] py-20 sm:py-24 lg:py-28">
         <div className="pointer-events-none absolute -right-24 top-12 h-72 w-72 rounded-full bg-[#00a878]/10 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -291,7 +334,7 @@ export default function HyderabadPage() {
             <div className="relative hidden lg:block">
               <Image
                 src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80"
-                alt="Students and professionals learning IT skills in Hyderabad"
+                alt="Students and professionals learning IT skills in Bangalore"
                 width={580}
                 height={640}
                 className="w-full rounded-3xl object-cover shadow-2xl ring-2 ring-[#01377d]/10"
@@ -304,10 +347,10 @@ export default function HyderabadPage() {
             <div>
               <header className="mb-10">
                 <p className="mb-3 inline-flex rounded-full border border-[#00a878]/30 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-[#087f5b] shadow-sm">
-                  Who Is This For
+                  Who Can Join
                 </p>
                 <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
-                  Software Training for Every Career Stage
+                  Who Can Join?
                 </h2>
               </header>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -322,48 +365,6 @@ export default function HyderabadPage() {
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── LOCATIONS ── */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#020c2b] via-[#01377d] to-[#062f50] py-16 sm:py-20">
-        <div className="pointer-events-none absolute -left-24 top-12 h-72 w-72 rounded-full bg-[#00a878]/15 blur-3xl" />
-        <div className="pointer-events-none absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-            <div>
-              <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#7ff0c9]/40 bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-[#7ff0c9]">
-                <MapPin className="h-4 w-4" /> Hyderabad Coverage
-              </p>
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-                Areas We Serve in Hyderabad
-              </h2>
-              <p className="mt-5 text-base leading-relaxed text-blue-100">
-                ICLP Technologies serves learners looking for software and IT training across Hyderabad, including key technology hubs:
-              </p>
-              <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-                {localities.map((loc) => (
-                  <li key={loc} className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:border-[#00a878] hover:bg-white/20">
-                    <MapPin className="h-4 w-4 shrink-0 text-[#00a878]" />
-                    {loc}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="relative hidden lg:block">
-              <Image
-                src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80"
-                alt="Hyderabad city technology district"
-                width={580}
-                height={420}
-                className="w-full rounded-3xl object-cover shadow-2xl ring-2 ring-white/10"
-              />
-              <div className="absolute -bottom-4 -right-4 rounded-2xl bg-[#00a878] px-5 py-3 text-white shadow-lg">
-                <p className="text-lg font-bold">9 Areas</p>
-                <p className="text-xs text-white/80">Across Hyderabad</p>
               </div>
             </div>
           </div>
@@ -393,10 +394,10 @@ export default function HyderabadPage() {
                 Career Support
               </p>
               <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl">
-                Career Support
+                Career Support in Bangalore
               </h2>
               <p className="mt-4 text-base leading-relaxed text-slate-600">
-                Prepare for the job-search process with structured career support from ICLP:
+                ICLP supports learners with structured career preparation:
               </p>
               <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {careerSupport.map(({ label, icon: Icon }) => (
@@ -410,9 +411,47 @@ export default function HyderabadPage() {
               </div>
               <button
                 onClick={() => setShowModal(true)}
-                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#00a878] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#087f5b]">
-                <Phone className="h-4 w-4" /> Talk to a Career Mentor
+                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#00a878] px-7 py-3.5 text-sm font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-[#087f5b]"
+              >
+                <Phone className="h-4 w-4" /> Book a Career Consultation
               </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── STARTUP HUB BANNER ── */}
+      <section className="relative overflow-hidden bg-gradient-to-r from-[#00a878] via-[#087f5b] to-[#01377d] py-14 sm:py-16">
+        <div className="pointer-events-none absolute -left-20 top-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+        <div className="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center gap-6 text-center lg:flex-row lg:justify-between lg:text-left">
+            <div>
+              <p className="mb-2 inline-flex rounded-full border border-white/30 bg-white/15 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-white/90">
+                🚀 India&apos;s Silicon Valley
+              </p>
+              <h2 className="text-2xl font-bold text-white sm:text-3xl lg:text-4xl">
+                Train in Bangalore — India&apos;s Startup Capital
+              </h2>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/80 sm:text-base">
+                Bangalore hosts 40%+ of India&apos;s tech startups and unicorns. Get trained with skills that Bangalore&apos;s top companies are actively hiring for.
+              </p>
+              <div className="mt-4 flex flex-wrap justify-center gap-3 lg:justify-start">
+                {["Startups", "MNCs", "Product Companies", "IT Services", "R&D Labs"].map((t) => (
+                  <span key={t} className="rounded-full border border-white/30 bg-white/15 px-3 py-1 text-xs font-semibold text-white">{t}</span>
+                ))}
+              </div>
+            </div>
+            <div className="flex shrink-0 flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
+              <button
+                onClick={() => setShowModal(true)}
+                className="inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3.5 text-sm font-bold text-[#01377d] shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-xl">
+                <Phone className="h-4 w-4" /> Book Free Demo
+              </button>
+              <Link href="/courses"
+                className="inline-flex items-center gap-2 rounded-xl border-2 border-white/50 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:bg-white/20">
+                View All Courses <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
           </div>
         </div>
@@ -428,7 +467,7 @@ export default function HyderabadPage() {
               Need to Know
             </p>
             <h2 className="text-3xl font-bold tracking-tight text-[#01377d] sm:text-4xl lg:text-5xl">
-              FAQ – Software Training Institute in Hyderabad
+              FAQ – Software Training Institute in Bangalore
             </h2>
           </header>
           <div className="space-y-3">
@@ -457,6 +496,8 @@ export default function HyderabadPage() {
           </div>
         </div>
       </section>
+
+      {/* ── MODAL ── */}
       {showModal && <ModalBooking onClose={() => setShowModal(false)} />}
     </div>
   );

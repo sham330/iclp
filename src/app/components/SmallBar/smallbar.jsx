@@ -198,9 +198,18 @@ const SmallBar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsLocationDropdownOpen(false)}
-                    className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all rounded-b-lg"
+                    className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all"
                   >
                     Hyderabad
+                  </Link>
+                  <Link
+                    href="/best-software-training-institute-in-bangalore/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsLocationDropdownOpen(false)}
+                    className="block px-4 py-2.5 text-[12px] font-medium text-[#014a9f] hover:bg-[#014a9f] hover:text-white hover:pl-5 transition-all rounded-b-lg"
+                  >
+                    Bangalore
                   </Link>
                 </div>
               )}
@@ -295,6 +304,7 @@ const SmallBar = () => {
                 { href: "/about", label: "About Us" },
                 { href: "/best-software-training-institute-in-chennai/", label: "Location – Chennai" },
                 { href: "/best-software-training-institute-in-hyderabad/", label: "Location – Hyderabad" },
+                { href: "/best-software-training-institute-in-bangalore/", label: "Location – Bangalore" },
                 { href: "/corporate-training", label: "Corporate Training" },
                 { href: "/contact", label: "Contact Us" },
               ].map(({ href, label }) => (
