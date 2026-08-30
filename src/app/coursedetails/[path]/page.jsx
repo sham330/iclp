@@ -28,7 +28,7 @@ const redirectMap = {
   "c sharp": "/course/c-sharp-training-in-chennai/",
   "digital marketing": "/course/digital-marketing-online-training/",
   "python": "/course/python-development-online-training/",
-  "css online": "/course/css-online-training/",
+  "css online": "/course/css-training-in-chennai/",
   "data science with python": "/course/data-science-with-python-training/",
   "salesforce": "/course/salesforce-online-training/",
   "microsoft excel": "/course/microsoft-excel-online-training/",

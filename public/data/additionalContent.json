@@ -2318,7 +2318,7 @@
   },
 
   "SAP SRM Training": {
-    "courseImage": "/CourseDetails/sap-srm-course.jpg",
+    "courseImage": "/CourseDetails/sap-srm-training-in-chennai-course.jpg",
     "courseDescription": "Master SAP Supplier Relationship Management with hands-on training in procurement processes, technical configurations, and supplier collaboration tools. Learn from certified SAP SRM consultants with real implementation experience.",
     "section1": {
       "title": "SAP SRM Course Content",
@@ -2693,7 +2693,7 @@
   },
   
   "SAP IS Insurance Training": {
-    "courseImage": "/CourseDetails/sap-is-insurance-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/sap-is-insurance-training-in-chennai-course.jpg",
     "courseDescription": "Specialized SAP training for insurance professionals covering policy lifecycle, claims processing, and regulatory compliance. Learn from certified IS-Insurance consultants with industry experience.",
     "section1": {
       "title": "SAP IS Insurance Course Content",
@@ -2761,7 +2761,7 @@
   },
   
   "SAP LE Certification Training": {
-    "courseImage": "/CourseDetails/sap-le-course.jpg",
+    "courseImage": "/CourseDetails/sap-le-training-in-chennai-course.jpg",
     "courseDescription": "Professional training for legal operations specialists covering entity management, compliance monitoring and legal workflow automation. Learn from certified LE consultants with industry experience.",
     "section1": {
       "title": "SAP LE Course Content",
@@ -2829,7 +2829,7 @@
   },
   
   "SAP IS Banking Training": {
-    "courseImage": "/CourseDetails/sap-is-banking-course.jpg",
+    "courseImage": "/CourseDetails/sap-is-banking-training-in-chennai-course.jpg",
     "courseDescription": "Specialized SAP training for banking professionals covering loans, payments and financial product management. Learn from certified IS-Banking consultants with industry experience.",
     "section1": {
       "title": "SAP IS Banking Course Content",
@@ -2863,7 +2863,7 @@
   },
   
   "SAP BPC Online Training": {
-    "courseImage": "/CourseDetails/sap-bpc-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/sap-bpc-training-in-chennai-course.jpg",
     "courseDescription": "Professional training for finance specialists covering planning, consolidation and financial reporting. Learn from certified BPC consultants with industry experience.",
     "section1": {
       "title": "SAP BPC Course Content",
@@ -2965,7 +2965,7 @@
   },
   
   "SAP ESS Online": {
-    "courseImage": "/CourseDetails/sap-ess-course.jpg",
+    "courseImage": "/CourseDetails/sap-ess-training-in-chennai-course.jpg",
     "courseDescription": "Professional training in SAP Employee Self-Service covering portal navigation, personal data management, and HR workflows for employees and managers.",
     "section1": {
       "title": "SAP ESS Course Content",
@@ -3067,7 +3067,7 @@
   },
   
   "SAP BOBJ Training": {
-    "courseImage": "/CourseDetails/sap-bobj-course.jpg",
+    "courseImage": "/CourseDetails/sap-bobj-training-in-chennai-course.jpg",
     "courseDescription": "Advanced training in SAP BusinessObjects BI platform covering data modeling, advanced reporting, and enterprise analytics for BI professionals.",
     "section1": {
       "title": "SAP BOBJ Course Content",
@@ -3100,7 +3100,7 @@
     },
     
   "SAP Fieldglass": {
-    "courseImage": "/CourseDetails/sap-fieldglass-course.jpg",
+    "courseImage": "/CourseDetails/sap-fieldglass-training-in-chennai-course.jpg",
     "courseDescription": "Specialized training in SAP Fieldglass covering contingent workforce, services procurement, and SOW management for HR and procurement professionals.",
     "section1": {
       "title": "SAP Fieldglass Course Content",
@@ -3134,7 +3134,7 @@
   },
   
   "SAP Data Archiving": {
-    "courseImage": "/CourseDetails/sap-data-archiving-course.jpg",
+    "courseImage": "/CourseDetails/sap-data-archiving-training-in-chennai-course.jpg",
     "courseDescription": "Professional training in SAP Data Archiving covering compliance, retention policies, and system optimization for SAP basis and data managers.",
     "section1": {
       "title": "SAP Data Archiving Course Content",
@@ -3168,7 +3168,7 @@
   },
   
   "SAP Solution Manager": {
-    "courseImage": "/CourseDetails/sap-solution-manager-course.jpg",
+    "courseImage": "/CourseDetails/sap-solution-manager-training-in-chennai-course.jpg",
     "courseDescription": "Comprehensive training in SAP Solution Manager covering system monitoring, change control, and implementation methodologies for SAP administrators.",
     "section1": {
       "title": "SAP SolMan Course Content",
@@ -3202,7 +3202,7 @@
   },
   
   "SAP Aerospace & Defense": {
-    "courseImage": "/CourseDetails/sap-aerospace-and-defense-course.jpg",
+    "courseImage": "/CourseDetails/sap-aerospace-and-defense-training-in-chennai-course.jpg",
     "courseDescription": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance for A&D industry professionals.",
     "section1": {
       "title": "SAP A&D Course Content",
@@ -3270,7 +3270,7 @@
   },
   
   "Oracle Procure to Pay Training": {
-    "courseImage": "/CourseDetails/oracle-procure-to-pay-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/oracle-procure-to-pay-training-in-chennai-course.jpg",
     "courseDescription": "Specialized Oracle training for procurement and accounts payable professionals covering the complete procure-to-pay lifecycle from requisitioning to payment processing.",
     "section1": {
       "title": "Oracle Procure to Pay Course Content",
@@ -3304,7 +3304,7 @@
   },
   
   "Oracle Hyperion EPM Training": {
-    "courseImage": "/CourseDetails/oracle-hyperion-epm-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/oracle-hyperion-epm-training-in-chennai-course.jpg",
     "courseDescription": "Specialized Oracle EPM training for finance professionals covering financial consolidation, planning, budgeting, and reporting using Hyperion solutions.",
     "section1": {
       "title": "Oracle Hyperion EPM Course Content",
@@ -3372,7 +3372,7 @@
   },
   
   "Oracle Developer Course": {
-    "courseImage": "/CourseDetails/oracle-developer-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/oracle-developer-training-in-chennai-course.jpg",
     "courseDescription": "Comprehensive Oracle Developer training covering database programming with SQL/PLSQL and application development with Forms and Reports.",
     "section1": {
       "title": "Oracle Developer Course Content",
@@ -3474,7 +3474,7 @@
   },
   
   "Oracle Application Framework (OAF)": {
-    "courseImage": "/CourseDetails/oracle-oaf-in-chennai-course.jpg",
+    "courseImage": "/CourseDetails/oracle-oaf-training-in-chennai-course.jpg",
     "courseDescription": "Specialized OAF training for E-Business Suite developers covering custom application development using Oracle's MVC framework.",
     "section1": {
       "title": "OAF Course Content",

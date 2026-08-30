@@ -583,8 +583,8 @@
         },
         {
           "course_name": "SAP WM",
-          "path": "sap-wm-in-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-wm-in-chennai",
+          "path": "sap-wm-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-wm-training-in-chennai",
           "meta_title": "SAP WM Training in India | SAP Warehouse Management Certification",
           "meta_description": "Master SAP Warehouse Management (WM) with expert-led training & certification. Optimize warehouse operations and inventory control. Enroll now!",
           "description": "Master SAP Warehouse Management (WM) module for optimizing warehouse operations, inventory control, and logistics processes with comprehensive hands-on training.",
@@ -1273,8 +1273,8 @@
         },
         {
           "course_name": "SAP BPC",
-          "path": "sap-bpc-in-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc-in-chennai",
+          "path": "sap-bpc-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-bpc-training-in-chennai",
           "meta_title": "SAP BPC Course in India | BPC Training & SAP BPC Certification",
           "meta_description": "Master SAP Business Planning and Consolidation with expert-led training & certification. Excel in financial planning, budgeting & consolidation. Enroll now!",
           "description": "Master SAP Business Planning and Consolidation (BPC) for financial planning, budgeting, forecasting, and consolidation with hands-on, industry-aligned training.",
@@ -1432,8 +1432,8 @@
         },
         {
           "course_name": "SAP Banking",
-          "path": "sap-banking-in-chennai",
-          "canonical_url": "https://iclptech.in/courses/sap/sap-banking-in-chennai",
+          "path": "sap-banking-training-in-chennai",
+          "canonical_url": "https://iclptech.in/courses/sap/sap-banking-training-in-chennai",
           "meta_title": "SAP Banking Training in India | SAP Banking Certification Course",
           "meta_description": "Master SAP IS-Banking modules with expert-led training & certification. Gain practical skills for banking IT roles. Enroll now!",
           "description": "Master SAP IS-Banking modules with hands-on training designed for banking professionals, covering core banking operations, regulatory compliance, and customer services.",
@@ -1590,7 +1590,7 @@
         },
         {
           "course_name": "SAP SuccessFactors Online Training",
-          "path": "sap-successfactors-online-training-in-chennai",
+          "path": "sap-successfactors-training-in-chennai",
           "meta_title": "SAP SuccessFactors Online Training | SAP SuccessFactors Certification Course | ICLP Technologies",
           "meta_description": "Join SAP SuccessFactors Online Training at ICLP Technologies. Learn Employee Central, Recruitment, Performance Management, Compensation, LMS, and SAP SuccessFactors Certification with Placement Support",
           "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
@@ -3381,7 +3381,7 @@
         },
         {
   "course_name": "SAP FICA Online Training",
-  "path": "sap-fica-online-training-chennai",
+  "path": "sap-fica-training-in-chennai",
   "description": "Join SAP FICA Online Training at ICLP Technologies with live instructor-led sessions covering FI-CA fundamentals, Contract Account Payables and Receivables, Collections Management, Dunning, Incoming Payments, Clearing Control, Security Deposits, Interest Calculations, and real-time implementation scenarios. 100% practical learning with real-time projects, certification guidance, and placement assistance for freshers, SAP professionals, finance consultants, and working professionals.",
   "meta_title": "SAP FICA Online Training | SAP FI-CA Course with Placement | ICLP Technologies",
   "meta_description": "Join SAP FICA Online Training at ICLP Technologies. Learn FI-CA Contract Accounts, Collections Management, Dunning, Payments, Clearing Control, Security Deposits with real-time projects, certification guidance, and placement assistance from industry experts.",
@@ -3415,7 +3415,7 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#service",
+        "@id": "https://iclptech.in/courses/sap-fica-training-in-chennai/#service",
         "name": "SAP FICA Online Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
@@ -3425,7 +3425,7 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#course",
+        "@id": "https://iclptech.in/courses/sap-fica-training-in-chennai/#course",
         "name": "SAP FICA Online Training",
         "description": "Join SAP FICA Online Training at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance covering FI-CA fundamentals, Collections Management, Dunning, Payments, and Security Deposits.",
         "provider": {
@@ -3454,7 +3454,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/sap-fica-online-training-chennai/",
+          "url": "https://iclptech.in/courses/sap-fica-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -3467,16 +3467,16 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/courses/sap-fica-training-in-chennai/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in/" },
           { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-          { "@type": "ListItem", "position": 3, "name": "SAP FICA Online Training", "item": "https://iclptech.in/courses/sap-fica-online-training-chennai/" }
+          { "@type": "ListItem", "position": 3, "name": "SAP FICA Online Training", "item": "https://iclptech.in/courses/sap-fica-training-in-chennai/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/sap-fica-online-training-chennai/#faq",
+        "@id": "https://iclptech.in/courses/sap-fica-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -4554,7 +4554,7 @@
         },
         {
           "course_name": "SAP SCM Training",
-          "path": "sap-scm",
+          "path": "sap-scm-training-in-chennai",
           "meta_title": "SAP SCM Course Online | SAP Supply Chain Management Online Training | SAP SCM Certification",
           "meta_description": "Master SAP Supply Chain Management (SCM) with our hands-on training. Learn demand planning, production execution, integration, forecasting, and optimization.",
           "description": "Comprehensive SAP SCM training covering demand management, material requirement planning, production execution, integration, forecasting, and supply network optimization for efficient supply chain operations.",
@@ -4726,7 +4726,7 @@
           ],
           "duration": "60-70 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-scm.png",
+          "image": "../CourseDetails/sap-scm-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Demand and Supply Planning Model Implementation",
@@ -5706,7 +5706,7 @@
         },
         {
           "course_name": "SAP SRM Training",
-          "path": "sap-srm",
+          "path": "sap-srm-training-in-chennai",
           "description": "Comprehensive training in SAP Supplier Relationship Management covering procurement processes, technical configurations, workflow automation, and supplier integration.",
           "what_youll_learn": [
             "Enterprise Buyer Professional (EBP) scenarios",
@@ -5837,7 +5837,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-srm.png",
+          "image": "../CourseDetails/sap-srm-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Procurement Process Implementation",
@@ -6732,7 +6732,7 @@
         },
         {
           "course_name": "Adobe Photoshop Certification",
-          "path": "photoshop-certification",
+          "path": "photoshop-certification-training-in-chennai",
           "description": "Comprehensive training in Adobe Photoshop covering photo editing, retouching, compositing, graphic design, and digital imaging techniques for professional certification.",
           "what_youll_learn": [
             "Master Photoshop interface and essential tools",
@@ -6849,7 +6849,7 @@
           ],
           "duration": "40 hours",
           "skill_level": "Beginner to Advanced",
-          "image": "https://example.com/photoshop-certification.jpg",
+          "image": "https://example.com/photoshop-certification-training-in-chennai.jpg",
           "placement_assurance": true,
           "projects": [
             "Professional photo retouching portfolio",
@@ -7093,7 +7093,7 @@
         },
         {
           "course_name": "SAP Sales Cloud (C4C) Training",
-          "path": "sap-sales-cloud-(c4c)-training",
+          "path": "sap-sales-cloud-(c4c)-training-in-chennai",
           "meta_title": "SAP Sales Cloud Course Online | SAP Sales Cloud Training | SAP Sales Cloud Certificate",
           "meta_description": "Learn SAP Sales Cloud (C4C) online with certification. Become a CRM expert with flexible training. Enroll now!",
           "description": "Comprehensive training in SAP Sales Cloud (part of SAP CX suite) covering lead-to-cash processes, CRM configuration, and integration with S/4HANA for modern sales teams.",
@@ -7315,7 +7315,7 @@
         },
         {
           "course_name": "SAP IS Insurance Training",
-          "path": "sap-is-insurance-in-chennai",
+          "path": "sap-is-insurance-training-in-chennai",
           "description": "Comprehensive training in SAP Insurance Solutions covering collections, disbursements, claims management, and commission processing for insurance providers.",
           "what_youll_learn": [
             "Insurance master data management",
@@ -7389,7 +7389,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-is-insurance-in-chennai.png",
+          "image": "../CourseDetails/sap-is-insurance-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "End-to-End Claims Processing Implementation",
@@ -7484,7 +7484,7 @@
         },
         {
           "course_name": "SAP LE Certification Training",
-          "path": "sap-le",
+          "path": "sap-le-training-in-chennai",
           "meta_title": "SAP LE Certification Course Online | SAP LE Certification Online Training | SAP LE Certification Certificate",
           "meta_description": "Learn SAP LE with hands-on training and certification. Streamline logistics and elevate your SAP skills. Start now!",
           "description": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations.",
@@ -7550,7 +7550,7 @@
           ],
           "duration": "40-50 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-le.png",
+          "image": "../CourseDetails/sap-le-training-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Legal Entity Compliance Setup",
@@ -7638,7 +7638,7 @@
         },
         {
           "course_name": "SAP IS Banking Training",
-          "path": "sap-is-banking",
+          "path": "sap-is-banking-training-in-chennai",
           "meta_title": "SAP IS Banking Course Online | SAP IS Banking Online Training | SAP IS Banking Certificate",
           "meta_description": "Join SAP IS Banking training and get certified. Learn core banking functions with SAP solutions. Enroll today!",
           "description": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, financial conditions and product configuration for financial institutions.",
@@ -7704,7 +7704,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-is-banking.png",
+          "image": "../CourseDetails/sap-is-banking-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Loan Processing System Setup",
@@ -7715,7 +7715,7 @@
         },
         {
           "course_name": "SAP BPC Online Training",
-          "path": "sap-is-bpc",
+          "path": "sap-is-bpc-training-in-chennai",
           "meta_title": "SAP BPC Course Online | SAP BPC Online Training | SAP BPC Certificate",
           "meta_description": "Master SAP BPC with certification. Get industry-ready with in-depth training on planning and consolidation tools.",
           "description": "Complete training in SAP Business Planning and Consolidation covering reporting, data acquisition, transformation, and consolidation for financial professionals.",
@@ -7788,7 +7788,7 @@
           ],
           "duration": "55-65 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-bpc-in-chennai.png",
+          "image": "../CourseDetails/sap-bpc-training-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Financial Reporting Implementation",
@@ -7882,7 +7882,7 @@
         },
         {
           "course_name": "SAP ESS Online",
-          "path": "sap-ess",
+          "path": "sap-ess-training-in-chennai",
           "meta_title": "SAP ESS Course Online | SAP ESS Online Training | SAP ESS Certificate",
           "meta_description": "Enroll in SAP ESS training and earn certification. Enhance your skills in employee self-service solutions.",
           "description": "Comprehensive training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management for HR professionals.",
@@ -7953,7 +7953,7 @@
           ],
           "duration": "30-40 hours",
           "skill_level": "Beginner",
-          "image": "../CourseDetails/sap-ess.png",
+          "image": "../CourseDetails/sap-ess-training-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Employee Portal Configuration",
@@ -8131,7 +8131,7 @@
         },
         {
           "course_name": "SAP BOBJ Training",
-          "path": "sap-bobj",
+          "path": "sap-bobj-training-in-chennai",
           "meta_title": "SAP BOBJ Course Online | SAP BOBJ Online Training | SAP BOBJ Certificate",
           "meta_description": "Master SAP BOBJ with training and certification. Learn business intelligence reporting tools. Enroll now!",
           "description": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration for enterprise BI solutions.",
@@ -8204,7 +8204,7 @@
           ],
           "duration": "70-80 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-bobj.png",
+          "image": "../CourseDetails/sap-bobj-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Enterprise Reporting Solution",
@@ -8215,7 +8215,7 @@
         },
         {
           "course_name": "SAP Fieldglass",
-          "path": "sap-fieldglass",
+          "path": "sap-fieldglass-training-in-chennai",
           "meta_title": "SAP Fieldglass Course Online | SAP Fieldglass Online Training | SAP Fieldglass Certificate",
           "meta_description": "Get certified in SAP Fieldglass. Hands-on training to manage external workforce efficiently. Enroll today!",
           "description": "Comprehensive training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement for HR and procurement professionals.",
@@ -8288,7 +8288,7 @@
           ],
           "duration": "45-55 hours",
           "skill_level": "Intermediate",
-          "image": "../CourseDetails/sap-fieldglass.png",
+          "image": "../CourseDetails/sap-fieldglass-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Contingent Workforce Program Setup",
@@ -8299,7 +8299,7 @@
         },
         {
           "course_name": "SAP Data Archiving",
-          "path": "sap-data-archiving",
+          "path": "sap-data-archiving-training-in-chennai",
           "meta_title": "SAP Data Archiving Course Online | SAP Data Archiving Online Training | SAP Data Archiving Certificate",
           "meta_description": "Learn SAP Data Archiving with training and certification. Optimize storage and improve performance.",
           "description": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance for system administrators and data managers.",
@@ -8372,7 +8372,7 @@
           ],
           "duration": "35-45 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-data-archiving.png",
+          "image": "../CourseDetails/sap-data-archiving-training-in-chennai.png",
           "placement_assurance": false,
           "projects": [
             "Enterprise Archiving Strategy",
@@ -8383,7 +8383,7 @@
         },
         {
           "course_name": "SAP Solution Manager",
-          "path": "sap-solution-manager",
+          "path": "sap-solution-manager-training-in-chennai",
           "meta_title": "SAP Solution Manager Course Online | SAP Solution Manager Online Training | SAP Solution Manager Certificate",
           "meta_description": "Enroll in SAP Solution Manager training with certification. Learn to manage and support SAP landscapes.",
           "description": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, change management, and implementation for SAP administrators.",
@@ -8456,7 +8456,7 @@
           ],
           "duration": "50-60 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-solution-manager.png",
+          "image": "../CourseDetails/sap-solution-manager-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Enterprise Monitoring System Setup",
@@ -8467,7 +8467,7 @@
         },
         {
           "course_name": "SAP Aerospace & Defense",
-          "path": "sap-aerospace-and-defense",
+          "path": "sap-aerospace-and-defense-training-in-chennai",
           "meta_title": "SAP Aerospace & Defense Course Online | SAP Aerospace & Defense Online Training | SAP Aerospace & Defense Certificate",
           "meta_description": "Join SAP Aerospace & Defense training with certification. Learn to manage complex defense processes.",
           "description": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, compliance, and project management for A&D professionals.",
@@ -8540,7 +8540,7 @@
           ],
           "duration": "55-65 hours",
           "skill_level": "Advanced",
-          "image": "../CourseDetails/sap-aerospace-and-defense.png",
+          "image": "../CourseDetails/sap-aerospace-and-defense-training-in-chennai.png",
           "placement_assurance": true,
           "projects": [
             "Aircraft Manufacturing Process",

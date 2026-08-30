@@ -94,7 +94,7 @@ const SapCourseDetailsPage = () => {
     "sap-basis-administration": {
       courseDescription: "Become an SAP BASIS administrator with our comprehensive training. Learn system installation, configuration, monitoring, and troubleshooting.",
     },
-    "sap-sales-cloud-(c4c)-training": {
+    "sap-sales-cloud-(c4c)-training-in-chennai": {
       courseDescription: "Learn SAP Customer Experience solutions with our Sales Cloud training. Master CRM processes in the cloud environment.",
     },
     "sap-fscm": {
@@ -106,7 +106,7 @@ const SapCourseDetailsPage = () => {
     "sap-crm": {
       courseDescription: "Become an SAP CRM professional with our hands-on training. Learn customer relationship management processes and implementation.",
     },
-    "sap-srm": {
+    "sap-srm-training-in-chennai": {
       courseDescription: "Learn SAP Supplier Relationship Management with our comprehensive training program. Master procurement processes and supplier collaboration.",
     },
     "sap-apo-training-in-chennai": {
@@ -133,22 +133,22 @@ const SapCourseDetailsPage = () => {
     "sap-plm-training-in-chennai": {
       "courseDescription": "Complete training in SAP Product Lifecycle Management covering product development, document management, engineering changes, and compliance."
     },
-    "sap-le": {
+    "sap-le-training-in-chennai": {
       "courseDescription": "Professional training in SAP Legal Entity management tools covering compliance, monitoring, integration and automation for corporate legal operations."
     },
     "sap-healthcare": {
       "courseDescription": "Specialized training in SAP Healthcare solutions covering patient management, clinical processes, medical documentation and billing."
     },
-    "sap-is-banking": {
+    "sap-is-banking-training-in-chennai": {
       "courseDescription": "Comprehensive training in SAP for Banking solutions covering loans management, payment processing, and financial product configuration."
     },
-    "sap-is-bpc": {
+    "sap-is-bpc-training-in-chennai": {
       "courseDescription": "Professional training in SAP Business Planning and Consolidation covering financial planning, budgeting, forecasting and consolidation."
     },
     "sap-pm": {
       "courseDescription": "Comprehensive training in SAP Plant Maintenance covering breakdown maintenance, planned maintenance, and technical objects management."
     },
-    "sap-ess": {
+    "sap-ess-training-in-chennai": {
       "courseDescription": "Training in SAP Employee Self-Service covering personnel information, working time management, benefits, and travel management."
     },
     "sap-hybris-ecommerce": {
@@ -157,19 +157,19 @@ const SapCourseDetailsPage = () => {
     "sap-bo": {
       "courseDescription": "Comprehensive training in SAP Business Objects covering data warehousing, universe design, web intelligence, and dashboard development."
     },
-    "sap-bobj": {
+    "sap-bobj-training-in-chennai": {
       "courseDescription": "Advanced training in SAP BusinessObjects BI platform covering data modeling, reporting, analytics, and administration."
     },
-    "sap-fieldglass": {
+    "sap-fieldglass-training-in-chennai": {
       "courseDescription": "Training in SAP Fieldglass covering contingent workforce management, SOW management, and services procurement."
     },
-    "sap-data-archiving": {
+    "sap-data-archiving-training-in-chennai": {
       "courseDescription": "Specialized training in SAP Data Archiving covering archive object configuration, data retention, and compliance."
     },
-    "sap-solution-manager": {
+    "sap-solution-manager-training-in-chennai": {
       "courseDescription": "Comprehensive training in SAP Solution Manager covering system monitoring, service desk, and implementation methodologies."
     },
-    "sap-aerospace-and-defense": {
+    "sap-aerospace-and-defense-training-in-chennai": {
       "courseDescription": "Specialized training in SAP solutions for Aerospace & Defense covering manufacturing, MRO, and compliance requirements."
     }
   };

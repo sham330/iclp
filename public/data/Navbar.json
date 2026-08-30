@@ -13,7 +13,7 @@
           { "name": "SAP PP", "path": "/courses/sap-courses/sap-pp-training-in-chennai" },
           { "name": "SAP ABAP", "path": "/courses/sap-courses/sap-abap-training-in-chennai" },
           { "name": "SAP BTP", "path": "/courses/sap-courses/sap-btp-training-in-chennai" },
-          { "name": "SAP SuccessFactors", "path": "/courses/sap-courses/sap-successfactors-online-training-in-chennai" },
+          { "name": "SAP SuccessFactors", "path": "/courses/sap-courses/sap-successfactors-training-in-chennai" },
           { "name": "SAP BI/BW", "path": "/courses/sap-courses/sap-bibw-training-in-chennai" },
           { "name": "SAP Analytics Cloud", "path": "/courses/sap-courses/sap-analytic-cloud-training-in-chennai" },
           { "name": "SAP Basis Administration", "path": "/courses/sap-courses/sap-basis-administration-training-in-chennai" },
@@ -40,10 +40,10 @@
         "cat_path": "programming",
         "description": "Core and advanced programming languages for software development careers.",
         "courses": [
-          { "name": "C Programming", "path": "/courses/programming/c-cpp-programming-course-training-in-chennai" },
-          { "name": "C++ Programming", "path": "/courses/programming/c-cpp-programming-course-training-in-chennai" },
-          { "name": "Core Java", "path": "/courses/programming/java-online-training-in-chennai" },
-          { "name": "Advanced Java (Spring / Hibernate)", "path": "/courses/programming/spring-boot-online-training-in-chennai" },
+          { "name": "C Programming", "path": "/courses/programming/c-cpp-programming-training-in-chennai" },
+          { "name": "C++ Programming", "path": "/courses/programming/c-cpp-programming-training-in-chennai" },
+          { "name": "Core Java", "path": "/courses/programming/java-training-in-chennai" },
+          { "name": "Advanced Java (Spring / Hibernate)", "path": "/courses/programming/spring-boot-training-in-chennai" },
           { "name": "Python Programming", "path": "/courses/programming/python-development-online-training-in-chennai" },
           { "name": "R Programming", "path": "/courses/programming/r-programming-training-in-chennai" },
           { "name": "JavaScript", "path": "/courses/programming/java-script-training-in-chennai" },
@@ -62,10 +62,10 @@
           { "name": "MERN Stack", "path": "/courses/full-stack-development/mern-stack-training-in-chennnai" },
           { "name": "MEAN Stack", "path": "/courses/full-stack-development/mean-stack-training-in-chennnai" },
           { "name": "Java Full Stack", "path": "/courses/full-stack-development/full-stack-java-training-in-chennai" },
-          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/full-stack-development/python-full-stack-developer-online-training-in-chennai" },
-          { "name": "React.js", "path": "/courses/full-stack-development/react-js-online-training-in-chennai" },
-          { "name": "Node.js", "path": "/courses/full-stack-development/node-js-online-training-in-chennai" },
-          { "name": "Angular", "path": "/courses/full-stack-development/angular-developer-online-training-in-chennai" },
+          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/full-stack-development/python-full-stack-developer-training-in-chennai" },
+          { "name": "React.js", "path": "/courses/full-stack-development/react-js-training-in-chennai" },
+          { "name": "Node.js", "path": "/courses/full-stack-development/node-js-training-in-chennai" },
+          { "name": "Angular", "path": "/courses/full-stack-development/angular-developer-training-in-chennai" },
           { "name": "Mobile App Development (Android / iOS / Flutter)", "path": "/courses/full-stack-development/mobile-app-development-certification-course-training-in-chennai" },
           { "name": "REST API Development", "path": "/courses/full-stack-development/api-testing-certification-training-in-chennai" },
           { "name": "Microservices Architecture", "path": "/courses/full-stack-development/microservices-training-in-chennai" }
@@ -76,16 +76,16 @@
         "cat_path": "web-development",
         "description": "Frontend and backend technologies for building modern websites.",
         "courses": [
-          { "name": "HTML & CSS", "path": "/courses/web-development/html-developer-online-training-in-chennai" },
+          { "name": "HTML & CSS", "path": "/courses/web-development/html-developer-training-in-chennai" },
           { "name": "JavaScript", "path": "/courses/web-development/java-script-training-in-chennai" },
           { "name": "Bootstrap", "path": "/courses/web-development/bootstrap-course-training-in-chennai" },
           { "name": "Tailwind CSS", "path": "/courses/web-development/tailwind-css-training-in-chennai" },
           { "name": "Vue.js", "path": "/courses/web-development/vue-js-training-in-chennai" },
           { "name": "Web Designing", "path": "/courses/web-development/basic-web-designing-course-in-chennai" },
-          { "name": "WordPress", "path": "/courses/web-development/wordpress-online-training-in-chennai" },
+          { "name": "WordPress", "path": "/courses/web-development/wordpress-training-in-chennai" },
           { "name": "PHP & MySQL", "path": "/courses/web-development/php-training-in-chennai" },
           { "name": "ASP.NET", "path": "/courses/web-development/asp-net-course-training-in-chennai" },
-          { "name": "Spring Boot", "path": "/courses/web-development/spring-boot-online-training-in-chennai" }
+          { "name": "Spring Boot", "path": "/courses/web-development/spring-boot-training-in-chennai" }
         ]
       },
       {

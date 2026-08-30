@@ -24,14 +24,14 @@ const popularCourses = [
     description: "Build Java programming skills and learn concepts used in modern application development.",
     icon: Code2,
     category: "Development",
-    href: "/courses/programming/java-online-training-in-chennai",
+    href: "/courses/programming/java-training-in-chennai",
   },
   {
     title: "Full Stack Development",
     description: "Learn frontend and backend technologies required to build complete web applications.",
     icon: Code2,
     category: "Development",
-    href: "/courses/web-development/full-stack-developer-online-training",
+    href: "/courses/web-development/full-stack-developer-training-in-chennai",
   },
   {
     title: "AWS Training",
