@@ -9,7 +9,7 @@ const redirectMap = {
   reactjs: "/course/react-js-online-training/",
   javascript: "/course/java-script-online-training/",
   aws: "/course/aws-online-training/",
-  php: "/course/sql-with-php-online-training/",
+  php: "/course/sql-with-php-training-in-chennai/",
   devops: "/course/devops-training/",
   "r programming": "/course/r-programming-online-training/",
 };

@@ -49,7 +49,7 @@
           { "name": "JavaScript", "path": "/courses/programming/java-script-training-in-chennai" },
           { "name": "PHP", "path": "/courses/programming/php-training-in-chennai" },
           { "name": "C# (.NET)", "path": "/courses/programming/asp-net-course-training-in-chennai" },
-          { "name": "UNIX Shell Scripting", "path": "/courses/programming/unix-shell-scripting-online-training-in-chennai" },
+          { "name": "UNIX Shell Scripting", "path": "/courses/programming/unix-shell-scripting-training-in-chennai" },
           { "name": "jQuery", "path": "/courses/programming/j-query-developer-online-training-in-chennai" },
           { "name": "OOPS Concepts", "path": "/courses/programming/oops-concepts-training-in-chennnai" }
         ]
@@ -66,7 +66,7 @@
           { "name": "React.js", "path": "/courses/full-stack-development/react-js-training-in-chennai" },
           { "name": "Node.js", "path": "/courses/full-stack-development/node-js-training-in-chennai" },
           { "name": "Angular", "path": "/courses/full-stack-development/angular-developer-training-in-chennai" },
-          { "name": "Mobile App Development (Android / iOS / Flutter)", "path": "/courses/full-stack-development/mobile-app-development-certification-course-training-in-chennai" },
+          { "name": "Mobile App Development (Android / iOS / Flutter)", "path": "/courses/full-stack-development/mobile-app-development-training-in-chennai" },
           { "name": "REST API Development", "path": "/courses/full-stack-development/api-testing-certification-training-in-chennai" },
           { "name": "Microservices Architecture", "path": "/courses/full-stack-development/microservices-training-in-chennai" }
         ]
@@ -78,10 +78,10 @@
         "courses": [
           { "name": "HTML & CSS", "path": "/courses/web-development/html-developer-training-in-chennai" },
           { "name": "JavaScript", "path": "/courses/web-development/java-script-training-in-chennai" },
-          { "name": "Bootstrap", "path": "/courses/web-development/bootstrap-course-training-in-chennai" },
+          { "name": "Bootstrap", "path": "/courses/web-development/bootstrap-training-in-chennai" },
           { "name": "Tailwind CSS", "path": "/courses/web-development/tailwind-css-training-in-chennai" },
           { "name": "Vue.js", "path": "/courses/web-development/vue-js-training-in-chennai" },
-          { "name": "Web Designing", "path": "/courses/web-development/basic-web-designing-course-in-chennai" },
+          { "name": "Web Designing", "path": "/courses/web-development/basic-web-designing-training-in-chennai" },
           { "name": "WordPress", "path": "/courses/web-development/wordpress-training-in-chennai" },
           { "name": "PHP & MySQL", "path": "/courses/web-development/php-training-in-chennai" },
           { "name": "ASP.NET", "path": "/courses/web-development/asp-net-course-training-in-chennai" },
@@ -112,13 +112,13 @@
         "description": "Security, ethical hacking, compliance and threat analysis programs.",
         "courses": [
           { "name": "Cyber Security Analyst", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" },
-          { "name": "Ethical Hacking", "path": "/courses/cybersecurity-ethical-hacking/ethical-hacking--online-training-in-chennai" },
+          { "name": "Ethical Hacking", "path": "/courses/cybersecurity-ethical-hacking/ethical-hacking-training-in-chennai" },
           { "name": "SOC Analyst", "path": "/courses/cybersecurity-ethical-hacking/soc-analyst-csa-training-in-chennai" },
           { "name": "Penetration Testing", "path": "/courses/cybersecurity-ethical-hacking/advanced-pentest-certification-training-in-chennai" },
           { "name": "Network Security", "path": "/courses/cybersecurity-ethical-hacking/system-network-security-training-in-chennai" },
           { "name": "Cloud Security", "path": "/courses/cybersecurity-ethical-hacking/ccsk-foundation-training-in-chennai" },
           { "name": "CEH Preparation", "path": "/courses/cybersecurity-ethical-hacking/ceh-advanced-training-in-chennai" },
-          { "name": "CISM", "path": "/courses/cybersecurity-ethical-hacking/cism-certification-online-training-in-chennai" },
+          { "name": "CISM", "path": "/courses/cybersecurity-ethical-hacking/cism-certification-training-in-chennai" },
           { "name": "Malware Analysis", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" },
           { "name": "Red Team / Blue Team Training", "path": "/courses/cybersecurity-ethical-hacking/cyber-security-training-in-chennai" }
         ]
@@ -129,14 +129,14 @@
         "description": "Manual, automation and performance testing for quality assurance careers.",
         "courses": [
           { "name": "Software Testing", "path": "/courses/software-testing-quality-assurance/software-testing-training-in-chennai" },
-          { "name": "Manual Testing", "path": "/courses/software-testing-quality-assurance/manual-testing-course-online-training-in-chennai" },
+          { "name": "Manual Testing", "path": "/courses/software-testing-quality-assurance/manual-testing-training-in-chennai" },
           { "name": "Selenium", "path": "/courses/software-testing-quality-assurance/selenium-training-in-chennai" },
           { "name": "JMeter", "path": "/courses/software-testing-quality-assurance/jmeter-training-in-chennai" },
-          { "name": "LoadRunner", "path": "/courses/software-testing-quality-assurance/loadrunner-online-training-in-chennai" },
+          { "name": "LoadRunner", "path": "/courses/software-testing-quality-assurance/loadrunner-training-in-chennai" },
           { "name": "SoapUI", "path": "/courses/software-testing-quality-assurance/soap-ui-training-in-chennai" },
           { "name": "ETL Testing", "path": "/courses/software-testing-quality-assurance/etl-testing-training-in-chennai" },
           { "name": "API Testing (Postman)", "path": "/courses/software-testing-quality-assurance/api-testing-certification-training-in-chennai" },
-          { "name": "Automation Testing", "path": "/courses/software-testing-quality-assurance/automation-testing-online-training-in-chennai" },
+          { "name": "Automation Testing", "path": "/courses/software-testing-quality-assurance/automation-testing-training-in-chennai" },
           { "name": "Mobile Testing", "path": "/courses/software-testing-quality-assurance/mobile-testing-online-training-in-chennai" }
         ]
       },
@@ -146,7 +146,7 @@
         "description": "Data science, machine learning, AI and analytics for data-driven careers.",
         "courses": [
           { "name": "Data Science Master Program", "path": "/courses/data-science-artificial-intelligence/data-science-training-in-chennai" },
-          { "name": "Machine Learning", "path": "/courses/data-science-artificial-intelligence/machine-learning-training-chennai" },
+          { "name": "Machine Learning", "path": "/courses/data-science-artificial-intelligence/machine-learning-training-in-chennai" },
           { "name": "AI Fundamentals", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
           { "name": "Data Analytics", "path": "/courses/data-science-artificial-intelligence/data-analytics-training-in-chennai" },
           { "name": "Power BI", "path": "/courses/data-science-artificial-intelligence/power-bi-training-in-chennai" },
@@ -164,8 +164,8 @@
         "description": "Relational, NoSQL and cloud database administration and development.",
         "courses": [
           { "name": "MySQL", "path": "/courses/database-management-system/msql-training-in-chennai" },
-          { "name": "PostgreSQL", "path": "/courses/database-management-system/postgresql-admin-online-training-in-chennai" },
-          { "name": "PL/SQL", "path": "/courses/database-management-system/pl-and-sql-online-training-in-chennai" },
+          { "name": "PostgreSQL", "path": "/courses/database-management-system/postgresql-admin-training-in-chennai" },
+          { "name": "PL/SQL", "path": "/courses/database-management-system/pl-and-sql-training-in-chennai" },
           { "name": "Oracle SQL / PL SQL", "path": "/courses/database-management-system/oracle-sql-plsql-training-in-chennai" },
           { "name": "MongoDB", "path": "/courses/database-management-system/mongodb-online-training-in-chennai" },
           { "name": "Snowflake", "path": "/courses/database-management-system/snowflake-certification-training-in-chennai" },
@@ -216,8 +216,8 @@
           { "name": "Figma", "path": "/courses/ui-and-ux/figma-advanced-training-in-chennai" },
           { "name": "Adobe XD", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
           { "name": "Canva", "path": "/courses/ui-and-ux/figma-advanced-training-in-chennai" },
-          { "name": "Basic Graphic Designing", "path": "/courses/ui-and-ux/basic-graphic-designing-course-in-chennai" },
-          { "name": "Web Designing", "path": "/courses/ui-and-ux/basic-web-designing-course-in-chennai" },
+          { "name": "Basic Graphic Designing", "path": "/courses/ui-and-ux/basic-graphic-designing-training-in-chennai" },
+          { "name": "Web Designing", "path": "/courses/ui-and-ux/basic-web-designing-training-in-chennai" },
           { "name": "Prototyping & Wireframing", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
           { "name": "User Research", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
           { "name": "Design Thinking", "path": "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" }
@@ -249,7 +249,7 @@
           { "name": "Internet & Networking Basics", "path": "/courses/networking/internet-and-network-basics-training-in-chennai" },
           { "name": "Linux Administration", "path": "/courses/networking/linux-certification-training-in-chennai" },
           { "name": "Windows Server", "path": "/courses/networking/windows-server-training-in-chennai" },
-          { "name": "Unix Shell Scripting", "path": "/courses/networking/unix-shell-scripting-online-training-in-chennai" },
+          { "name": "Unix Shell Scripting", "path": "/courses/networking/unix-shell-scripting-training-in-chennai" },
           { "name": "VMware / Virtualization", "path": "/courses/networking/vmware-vsphere-training-in-chennai" },
           { "name": "Active Directory", "path": "/courses/networking/windows-server-training-in-chennai" }
         ]

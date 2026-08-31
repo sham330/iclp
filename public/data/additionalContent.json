@@ -3781,7 +3781,7 @@
     }
   },
   "IBM Cognos": {
-    "courseImage": "/CourseDetails/ibm-cognos.jpg",
+    "courseImage": "/CourseDetails/ibm-cognos-training-in-chennai.jpg",
     "courseDescription": "Our IBM Cognos course delivers hands-on training in business intelligence, data warehousing, and reporting. You'll master Framework Manager modeling, Report Studio development, and dashboard creation for enterprise analytics.",
     "section1": {
       "title": "IBM Cognos Course Content",
@@ -3847,7 +3847,7 @@
     }
   },
   "IBM SPSS": {
-    "courseImage": "/CourseDetails/ibm-spss.jpg",
+    "courseImage": "/CourseDetails/ibm-spss-training-in-chennai.jpg",
     "courseDescription": "Our IBM SPSS course provides comprehensive training in statistical analysis, from basic data management to advanced predictive modeling. You'll learn to transform raw data into meaningful insights using IBM's premier statistical software.",
     "section1": {
       "title": "SPSS Course Content",
@@ -4079,7 +4079,7 @@
     }
   },
   "IBM AIX": {
-    "courseImage": "/CourseDetails/ibm-aix.jpg",
+    "courseImage": "/CourseDetails/ibm-aix-training-in-chennai.jpg",
     "courseDescription": "Our IBM AIX course provides comprehensive training in AIX operating system administration, from basic operations to advanced system management and troubleshooting.",
     "section1": {
       "title": "AIX Course Content",
@@ -4146,7 +4146,7 @@
     }
   },
   "IBM Tivoli": {
-    "courseImage": "/CourseDetails/ibm-tivoli.jpg",
+    "courseImage": "/CourseDetails/ibm-tivoli-training-in-chennai.jpg",
     "courseDescription": "Our IBM Tivoli course delivers expert training in system monitoring, configuration management, and automation using IBM's comprehensive Tivoli suite.",
     "section1": {
       "title": "Tivoli Course Content",

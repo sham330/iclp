@@ -5285,7 +5285,7 @@ export  const blogs = [
         "Chennai Placement Support with job referrals",
         "Certification-Oriented Curriculum (CSA & SSA tracks)",
         "Updated Course Content aligned with latest Pega versions",
-        "<a href=\"https://iclptech.in/course/pega-online-training/\">Internship Opportunities and Affordable Course Fees</a>"
+        "<a href=\"https://iclptech.in/course/pega-online-training-in-chennai/\">Internship Opportunities and Affordable Course Fees</a>"
       ]
     }
   ],
@@ -5323,7 +5323,7 @@ export  const blogs = [
       "a": "Yes. After successful completion of the Pega Training in Chennai, you will receive a course completion certificate. We also guide students to prepare for Pegasystems' official certification exams."
     }
   ],
-  "conclusion": "Pega is one of the most powerful and in-demand enterprise platforms shaping the future of business automation and low-code development. With Chennai's IT sector growing rapidly and organizations across banking, healthcare, insurance, and telecom investing heavily in Pega, the career opportunities for trained professionals have never been better. If you are ready to take the next step in your IT career, explore our complete <a href=\"https://iclptech.in/course/pega-online-training/\">Pega Training in Chennai</a> program. Build industry-relevant skills, earn your certification, and unlock high-paying career opportunities—<a href=\"https://iclptech.in/contact\">enroll today and transform your IT career!</a>"
+  "conclusion": "Pega is one of the most powerful and in-demand enterprise platforms shaping the future of business automation and low-code development. With Chennai's IT sector growing rapidly and organizations across banking, healthcare, insurance, and telecom investing heavily in Pega, the career opportunities for trained professionals have never been better. If you are ready to take the next step in your IT career, explore our complete <a href=\"https://iclptech.in/course/pega-online-training-in-chennai/\">Pega Training in Chennai</a> program. Build industry-relevant skills, earn your certification, and unlock high-paying career opportunities—<a href=\"https://iclptech.in/contact\">enroll today and transform your IT career!</a>"
 },{
   "id": 38,
   "title": "Why Collibra Training in Chennai is the Gateway to a Successful Data Governance Career in 2026",
