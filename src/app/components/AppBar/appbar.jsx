@@ -96,6 +96,7 @@ const AppBar = () => {
       { name: "JQuery", path: "j-query-developer-training-chennnai" },
       { name: "Full Stack Java", path: "full-stack-java-training-in-chennai" },
       { name: "Python Full Stack", path: "python-full-stack-developer-training-in-chennai" },
+      {name:"Python",path:"python-training-in-chennai"},
       { name: "Groovy and Grails", path: "groovy-and-grails-training-in-chennai" },
       { name: "Workday HCM", path: "workday-hcm--training-in-chennai" },
       { name: "Salesforce", path: "salesforce-training-in-chennai" },

@@ -90,7 +90,7 @@ export default function Blog() {
                 <div className="h-48 overflow-hidden bg-slate-100">
                   <img
                     src={blog.image}
-                    alt={blog.title}
+                    alt={blog.imageAlt || blog.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

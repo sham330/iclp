@@ -4,6 +4,7 @@ export  const blogs = [
     "title": "Java Online Training by ICLP Tech: Hands-On Projects & Certification",
     "slug":"java-online-training-iclp-tech",
     "image": "/blog-java.png",
+    "imageAlt": "Java Online Training by ICLP Tech: Hands-On Projects & Certification",
      "metaTitle": "Java Online Training with Certification & Projects | ICLP Tech",
   "metaDescription": "Master Java with ICLP Tech’s online training. Learn from basics to Spring & Hibernate, build real projects & get placement support with certification.",
   "schema": {
@@ -135,6 +136,7 @@ export  const blogs = [
   "title": "Top Platforms for SAP Online Learning in 2025: Where to Invest for Real Career Gains",
   "slug": "top-platforms-for-sap-online-learning-2025",
   "image": "/blog-3.jpg",
+  "imageAlt": "Top Platforms for SAP Online Learning in 2025: Where to Invest for Real Career Gains",
   "metaTitle": "Best SAP Online Courses 2025 | Top Training Platforms",
   "metaDescription": "Compare SAP training platforms in 2025. Get hands-on practice, certification prep, and job support to boost your SAP career.",
   "schema": {
@@ -345,6 +347,7 @@ export  const blogs = [
   "title": "Most In-Demand SAP Modules to Learn Online in 2025",
   "slug": "in-demand-sap-modules-2025",
   "image": "/blog-5.jpg",
+  "imageAlt": "Most In-Demand SAP Modules to Learn Online in 2025",
   "intro": "SAP continues to dominate the enterprise software market, helping companies streamline processes, improve efficiency, and gain a competitive edge. In 2025, demand for SAP professionals is higher than ever. Choosing the right module can open doors to high-paying jobs worldwide. we’ll cover the <a href=\"https://iclptech.in/blog/in-demand-sap-modules-2025\">most in-demand SAP modules</a>  to learn online in 2025",
   "schema": {
   "@context": "https://schema.org",
@@ -502,6 +505,7 @@ export  const blogs = [
   "title": "Best Java Online Course for Beginners – Learn Java with Projects & Placement",
   "slug":"java-online-course-for-beginners",
   "image": "/blog-1.jpg",
+  "imageAlt": "Best Java Online Course for Beginners – Learn Java with Projects & Placement",
   "metaTitle": "Best Java Online Course for Beginners | Projects & Placement",
   "metaDescription": "Join ICLPTech’s Java online course for beginners. Learn Core Java to Spring, build real projects, earn certification & get 100% placement support.",
  "schema": {
@@ -671,6 +675,7 @@ export  const blogs = [
   "title": "Top Mistakes to Avoid When Choosing an SAP Online Course",
   "slug": "mistakes-to-avoid-choosing-sap-online-course",
   "image": "/blog-6.png",
+  "imageAlt": "Top Mistakes to Avoid When Choosing an SAP Online Course",
   "schema": {
   "@context": "https://schema.org",
   "@graph": [
@@ -807,6 +812,7 @@ export  const blogs = [
   "title": "Step-by-Step Guide to Becoming SAP Certified Through Online Courses",
   "slug": "sap-certification-online-guide-2025",
   "image": "/blog-7.jpeg",
+  "imageAlt": "Step-by-Step Guide to Becoming SAP Certified Through Online Courses",
   "schema": {
   "@context": "https://schema.org",
   "@graph": [
@@ -981,6 +987,7 @@ export  const blogs = [
   "title": "Can You Learn SAP Online Without IT Background? Beginner-Friendly Options",
   "slug": "learn-sap-online-without-it-background",
   "image": "/blog-8.jpg",
+  "imageAlt": "Can You Learn SAP Online Without IT Background? Beginner-Friendly Options",
   "schema": {
   "@context": "https://schema.org",
   "@graph": [
@@ -1139,6 +1146,7 @@ export  const blogs = [
   "title": "SAP Online Courses with Certification: A Complete Guide",
   "slug": "sap-online-courses-with-certification-guide",
   "image": "/blog-9.png",
+  "imageAlt": "SAP Online Courses with Certification: A Complete Guide",
   "schema": {
   "@context": "https://schema.org",
   "@graph": [
@@ -1279,6 +1287,7 @@ export  const blogs = [
   "title": "Why Enroll in an SAP ABAP Online Course With Certificate & Placement in 2026 | ICLP Technologies",
   "slug": "sap-abap-online-course-with-certificate-placement-2026",
   "image": "/blog-10.png",
+  "imageAlt": "Why Enroll in an SAP ABAP Online Course With Certificate & Placement in 2026 | ICLP Technologies",
   "metaTitle": "SAP ABAP Online Course 2026 | Certificate & Placement",
   "metaDescription": "Boost your IT career with ICLP Technologies’ SAP ABAP Online Course 2026. Get certified, gain hands-on skills, and secure placement support today!",
   "url": "https://iclptech.in/blog/sap-abap-online-course-with-certificate-placement-2026",
@@ -1374,6 +1383,7 @@ export  const blogs = [
   "title": "Top 10 Features to Look for in a SAP ABAP Online Course | ICLPTechnologies",
   "slug": "top-10-features-to-look-for-in-a-sap-abap-online-course",
   "image": "/blog-11.png",
+  "imageAlt": "Top 10 Features to Look for in a SAP ABAP Online Course | ICLPTechnologies",
   "metaTitle": " Top 10 Features in SAP ABAP Online Course | ICLPTechnologies",
   "metaDescription": "Looking for the best SAP ABAP online course? Discover 10 must-have features that make ICLPTechnologies your top choice for expert ABAP training and placement.",
   "url": "https://iclptech.in/blog/top-10-features-to-look-for-in-a-sap-abap-online-course",
@@ -1512,6 +1522,7 @@ export  const blogs = [
   "title": "How Placement Support Works in SAP ABAP Training: From Course Completion to Job Offer",
   "slug": "how-placement-support-works-in-sap-abap-training-from-course-completion-to-job-offer",
   "image": "/blog-12.png",
+  "imageAlt": "How Placement Support Works in SAP ABAP Training: From Course Completion to Job Offer",
   "metaTitle": " SAP ABAP Training with Placement Support | ICLPTechnologies",
   "metaDescription": " Join ICLPTechnologies for SAP ABAP training with 100% placement support. Learn real-time projects, get expert guidance, and secure your dream SAP ABAP developer job.",
   "url": "https://iclptech.in/blog/how-placement-support-works-in-sap-abap-training-from-course-completion-to-job-offer",
@@ -1583,6 +1594,7 @@ export  const blogs = [
   "title": "SAP ABAP Online vs Offline Training: Which Is Better for Certification & Placements?",
   "slug": "sap-abap-online-vs-offline-training-certification-placements",
   "image": "/blog-13.png",
+  "imageAlt": "SAP ABAP Online vs Offline Training: Which Is Better for Certification & Placements?",
    "schema": {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -1720,6 +1732,7 @@ export  const blogs = [
   "title": "Future of Java Full Stack Development: What’s Next in 2026 & Beyond",
   "slug": "future-of-java-full-stack-development-Whats-next-in-2026-beyond",
   "image": "/blog-14.png",
+  "imageAlt": "Future of Java Full Stack Development: What's Next in 2026 & Beyond",
   "schema":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -1862,6 +1875,7 @@ export  const blogs = [
   "title": "Why Enroll in an SAP ABAP Online Course With Certificate & Placement in 2026",
   "slug": "sap-abap-online-course-certificate-placement-2026",
   "image": "/blog-16.png",
+  "imageAlt": "Why Enroll in an SAP ABAP Online Course With Certificate & Placement in 2026",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2033,6 +2047,7 @@ export  const blogs = [
   "title": "How Placement Support Works in SAP ABAP Training: From Course Completion to Job Offer",
   "slug": "sap-abap-training-placement-support-2026",
   "image": "/blog-17.png",
+  "imageAlt": "How Placement Support Works in SAP ABAP Training: From Course Completion to Job Offer",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2163,6 +2178,7 @@ export  const blogs = [
   "title": "SAP ABAP Online vs Offline Training: Which Is Better for Certification & Placements?",
   "slug": "sap-abap-online-vs-offline-training-certification-placements",
   "image": "/blog-18.png",
+  "imageAlt": "SAP ABAP Online vs Offline Training: Which Is Better for Certification & Placements?",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2304,6 +2320,7 @@ export  const blogs = [
   "title": "Full Stack Java Training: Tools & Technologies You Must Master in 2026",
   "slug": "full-stack-java-training-tools-technologies-2026",
   "image": "/blog-19.png",
+  "imageAlt": "Full Stack Java Training: Tools & Technologies You Must Master in 2026",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2464,6 +2481,7 @@ export  const blogs = [
   "title": "Full Stack Java for Non-IT Graduates: How Certification + Training Can Help You Switch Careers",
   "slug": "full-stack-java-for-non-it-graduates-career-change-with-certification",
   "image": "/blog-15.png",
+  "imageAlt": "Full Stack Java for Non-IT Graduates: How Certification + Training Can Help You Switch Careers",
   "metaTitle": "Full Stack Java for Non-IT Graduates — Career Change with Certification",
   "metaDescription": "Discover how non-IT graduates can become Full Stack Java developers through certification and training. Learn skills, career paths, and placement options with ICLP Tech.",
   "url": "https://iclptech.in/blog/full-stack-java-for-non-it-graduates-career-change-with-certification",
@@ -2551,6 +2569,7 @@ export  const blogs = [
   "title": "Best SAP FICO Online Course with Certification & 100% Placement Support (ICLP Technologies)",
   "slug": "best-sap-fico-online-course-certification-placement-support",
   "image": "/blog-20.jpeg",
+  "imageAlt": "Best SAP FICO Online Course with Certification & 100% Placement Support (ICLP Technologies)",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2705,6 +2724,7 @@ export  const blogs = [
   "title": "Full Stack Java Training: Tools & Technologies You Must Master in 2026",
   "slug": "full-stack-java-training-tools-technologies-2026",
   "image": "/blog-21.png",
+  "imageAlt": "Full Stack Java Training: Tools & Technologies You Must Master in 2026",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -2876,6 +2896,7 @@ export  const blogs = [
   "title": "SAP SD with S/4HANA: Why You Should Learn the Latest Version for Better Job Opportunities",
   "slug": "sap-sd-s4hana-job-opportunities-2026",
   "image": "/blog-23.jfif",
+  "imageAlt": "SAP SD with S/4HANA: Why You Should Learn the Latest Version for Better Job Opportunities",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3041,6 +3062,7 @@ export  const blogs = [
   "title": "Best SAP Ariba Module to Learn for Freshers: Sourcing, Procurement or Contracts?",
   "slug": "best-sap-ariba-module-freshers-sourcing-procurement-contracts",
   "image": "/blog-25.jfif",
+  "imageAlt": "Best SAP Ariba Module to Learn for Freshers: Sourcing, Procurement or Contracts?",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3202,6 +3224,7 @@ export  const blogs = [
   "title": "Why SAP BASIS Is Still High in Demand in 2025: Market Trends & Industry Insight",
   "slug": "sap-basis-demand-2025-market-trends-career-insights",
   "image": "/blog-26.jfif",
+  "imageAlt": "Why SAP BASIS Is Still High in Demand in 2025: Market Trends & Industry Insight",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -3371,6 +3394,7 @@ export  const blogs = [
   "title": "Most Important Oracle Financials Modules Every Learner Must Understand",
   "slug": "oracle-financials-modules-learners-must-know",
   "image": "/blog-27.jfif",
+  "imageAlt": "Most Important Oracle Financials Modules Every Learner Must Understand",
   "schema": {
     "@context": "https://schema.org",
     "@type": "FAQPage",

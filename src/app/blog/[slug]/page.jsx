@@ -81,7 +81,7 @@ export default async function BlogDetailPage({ params }) {
       <div className="w-full h-[280px] sm:h-[380px] lg:h-[480px]  rounded-2xl overflow-hidden shadow-xl bg-gray-100">
   <img
     src={blog.image}
-    alt={blog.title}
+    alt={blog.imageAlt || blog.title}
     width={800}
     height={450}
     loading="eager"
