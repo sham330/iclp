@@ -7,6 +7,7 @@ import Features from "./components/BodyPart/Features/features";
 import TieUps from "./components/TieUps/TieUps";
 import ProcessChart from "./components/ProcessChart/processChart";
 import ExpertConnectBanner from "./components/ExpertConnectBanner/ExpertConnectBanner";
+import TrainingBanner from "./components/TrainingBanner/TrainingBanner";
 import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCoursesSlider";
 import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
@@ -31,6 +32,7 @@ export default function Home() {
         
         <HomeAboutDialog/>
         <BodyHead />
+        <TrainingBanner />
         <br/>
         <TopCategories />
         <HomeChennaiIntroduction />
