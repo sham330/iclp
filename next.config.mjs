@@ -29,6 +29,11 @@ const nextConfig = {
         destination: '/courses/data-integration/collibra-training-in-chennai',
         permanent: false, // 307 — change to true for permanent 308
       },
+      {
+        source: '/course/workday-financial-training',
+        destination: '/courses/digital-marketing-business-tools/workday-financial-training-in-chennai',
+        permanent: true,
+      },
     ];
   },
 };
