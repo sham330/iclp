@@ -1,7 +1,7 @@
 [
   {
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP FICO",
     "image": "/sap-fico.jpeg",
     "path": "sap-fico-training-in-bangalore",
@@ -208,7 +208,7 @@
   },
   {
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP MM",
     "image": "/sap-mm.jfif",
     "path": "sap-mm-training-in-bangalore",
@@ -401,7 +401,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP SD",
     "image": "/sap-sd.jfif",
     "path": "sap-sd-training-in-bangalore",
@@ -595,7 +595,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP PP",
     "image": "/sap-pp.jfif",
     "path": "sap-pp-training-in-bangalore",
@@ -789,7 +789,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP ABAP",
     "image": "/sap-abap.jfif",
     "path": "sap-abap-training-in-bangalore",
@@ -983,7 +983,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP Ariba",
     "image": "/sap-ariba.jfif",
     "path": "sap-ariba-training-in-bangalore",
@@ -1177,7 +1177,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP IBP",
     "image": "/sap-ibp.jfif",
     "path": "sap-ibp-training-in-bangalore",
@@ -1371,7 +1371,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP MDG",
     "image": "/sap-mdg.jfif",
     "path": "sap-mdg-training-in-bangalore",
@@ -1566,7 +1566,7 @@
   },
   {
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP IS-U",
     "image": "/sap-is-u.jfif",
     "path": "sap-is-u-training-in-bangalore",
@@ -1761,7 +1761,7 @@
   },
   {
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP APO",
     "image": "/sap-apo.jfif",
     "path": "sap-apo-training-in-bangalore",
@@ -1955,7 +1955,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP PS",
     "image": "/sap-ps.jfif",
     "path": "sap-ps-training-in-bangalore",
@@ -2149,7 +2149,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP PLM",
     "image": "/sap-plm.jfif",
     "path": "sap-plm-training-in-bangalore",
@@ -2343,7 +2343,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP TM",
     "image": "/sap-tm.jfif",
     "path": "sap-tm-training-in-bangalore",
@@ -2537,7 +2537,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP QM",
     "image": "/sap-qm.jfif",
     "path": "sap-qm-training-in-bangalore",
@@ -2731,7 +2731,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP IS Retail",
     "image": "/sap-is-retail.jfif",
     "path": "sap-is-retail-training-in-bangalore",
@@ -2925,7 +2925,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP BTP",
     "image": "/sap-btp.jfif",
     "path": "sap-btp-training-in-bangalore",
@@ -3119,7 +3119,7 @@
     ]
   },{
     "type": "bangalore",
-    "category": "sap",
+    "category": "sap-courses",
     "course_name": "SAP SuccessFactors",
     "image": "/sap-successfactors.jfif",
     "path": "sap-successfactors-training-in-bangalore",
