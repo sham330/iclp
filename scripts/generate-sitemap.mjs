@@ -45,6 +45,23 @@ for (const category of coursesData.categories ?? []) {
 }
 const uniqueCoursePaths = [...new Set(coursePaths)];
 
+// Extract city course paths (bangalore.json, pune.json, etc.)
+const cityFiles = ["bangalore.json", "pune.json"];
+const cityCounts = {};
+for (const file of cityFiles) {
+  const filePath = path.resolve(`public/data/${file}`);
+  if (!fs.existsSync(filePath)) continue;
+  const cityData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const cityName = file.replace(".json", "");
+  cityCounts[cityName] = 0;
+  for (const course of cityData) {
+    if (course.category && course.path) {
+      uniqueCoursePaths.push(`${course.category}/${course.path}`);
+      cityCounts[cityName]++;
+    }
+  }
+}
+
 const entries = [
   ...staticPages.map((p) => urlEntry(p)),
   ...blogSlugs.map((slug) =>
@@ -64,3 +81,6 @@ fs.writeFileSync(path.resolve("public/sitemap.xml"), xml, "utf-8");
 console.log(
   `sitemap.xml generated: ${staticPages.length} static + ${blogSlugs.length} blog + ${uniqueCoursePaths.length} course URLs`
 );
+for (const [city, count] of Object.entries(cityCounts)) {
+  console.log(`  → ${city}: ${count} URLs`);
+}
