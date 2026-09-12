@@ -1,65 +1,68 @@
 "use client";
 
 import { useEffect, useState, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { FaHome, FaArrowRight, FaBookOpen, FaFire } from "react-icons/fa";
 
 const POPULAR = [
-  { name: "SAP FICO", route: "/sap-courses/sap-fico-training-in-chennai" },
-  { name: "SAP MM", route: "/sap-courses/sap-mm-training-in-chennai" },
-  { name: "SAP SD", route: "/sap-courses/sap-sd-training-in-chennai" },
-  { name: "SAP ABAP", route: "/sap-courses/sap-abap-training-in-chennai" },
-  { name: "Oracle Financials", route: "/oracle/oracle-financials-training-in-chennai" },
-  { name: "Full Stack Java", route: "/category/full-stack-java-training-online" },
-  { name: "Python", route: "/category/python-development-online-training" },
-  { name: "Data Science", route: "/category/data-science-course-online" },
+  { name: "SAP FICO", route: "/courses/sap-courses/sap-fico-training-in-chennai" },
+  { name: "SAP MM", route: "/courses/sap-courses/sap-mm-training-in-chennai" },
+  { name: "SAP SD", route: "/courses/sap-courses/sap-sd-training-in-chennai" },
+  { name: "SAP ABAP", route: "/courses/sap-courses/sap-abap-training-in-chennai" },
+  { name: "Oracle Financials", route: "/courses/oracle/oracle-financials-training-in-chennai" },
+  { name: "Full Stack Java", route: "/courses/full-stack-development/full-stack-java-training-in-chennai" },
+  { name: "Python", route: "/courses/programming/python-training-in-chennai" },
+  { name: "Data Science", route: "/courses/data-science-artificial-intelligence/data-science-training-in-chennai" },
 ];
 
-function similarity(a, b) {
-  a = a.toLowerCase().replace(/[-_/]/g, " ").trim();
-  b = b.toLowerCase().replace(/[-_/]/g, " ").trim();
-  const aW = new Set(a.split(/\s+/));
-  const bW = new Set(b.split(/\s+/));
-  const inter = [...aW].filter((w) => bW.has(w)).length;
-  const union = new Set([...aW, ...bW]).size;
-  return union === 0 ? 0 : inter / union;
+const STOP_WORDS = new Set(["training", "in", "course", "online", "certification", "the", "and", "for", "with", "a", "an"]);
+
+function tokenize(str) {
+  return str.toLowerCase().replace(/[-_/]/g, " ").split(/\s+/).filter((w) => w.length > 1 && !STOP_WORDS.has(w));
 }
 
-function getRoute(path, categoryPath) {
-  return `/${categoryPath}/${path}`;
+function similarity(tokensA, b) {
+  const tokensB = new Set(tokenize(b));
+  const matches = tokensA.filter((w) => tokensB.has(w)).length;
+  const union = new Set([...tokensA, ...tokensB]).size;
+  return union === 0 ? 0 : matches / union;
 }
 
 function NotFoundContent() {
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
-  const query = searchParams.get("q") || "";
+  const query = searchParams.get("q") || pathname || "";
 
   const [courses, setCourses] = useState(POPULAR);
   const [label, setLabel] = useState("Popular Courses");
 
   useEffect(() => {
-    if (!query) return;
+    const queryTokens = tokenize(query);
+    if (queryTokens.length === 0) return;
+
     fetch("/data/courses.json")
       .then((r) => r.json())
       .then((data) => {
         const all = [];
         data.categories.forEach((cat) =>
-          cat.sub_categories.forEach((sub) =>
-            all.push({ name: sub.course_name, route: getRoute(sub.path, cat.path) })
-          )
+          cat.sub_categories.forEach((sub) => {
+            const route = `/courses/${cat.path}/${sub.path}`;
+            const nameScore = similarity(queryTokens, sub.course_name || "");
+            const pathScore = similarity(queryTokens, sub.path || "");
+            const catScore = similarity(queryTokens, cat.category_name || "") * 0.6;
+            all.push({ name: sub.course_name, route, score: Math.max(nameScore, pathScore, catScore) });
+          })
         );
+
         const scored = all
-          .map((c) => ({
-            ...c,
-            score: Math.max(similarity(query, c.route), similarity(query, c.name || "")),
-          }))
           .filter((c) => c.score > 0)
           .sort((a, b) => b.score - a.score)
           .slice(0, 8);
 
         if (scored.length > 0) {
           setCourses(scored);
-          setLabel(`Courses similar to "${query}"`);
+          setLabel("Courses similar to what you were looking for");
         }
       })
       .catch(() => {});
@@ -90,11 +93,7 @@ function NotFoundContent() {
               Page Not Found
             </h1>
             <p className="text-slate-500 text-base max-w-md mx-auto">
-              {query ? (
-                <>Couldn't find <span className="font-semibold text-[#01377d]">"{query}"</span> — but here are some courses you might like.</>
-              ) : (
-                "That page doesn't exist, but your next course does."
-              )}
+              That page doesn&apos;t exist, but your next course does.
             </p>
           </div>
         </div>
