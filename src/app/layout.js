@@ -8,8 +8,11 @@ import AppBar from "./components/AppBar/appbar";
 
 export const metadata = {
   metadataBase: new URL("https://iclptech.in"),
-  themeColor: "#0d47a1",
   manifest: "/site.webmanifest",
+};
+
+export const viewport = {
+  themeColor: "#0d47a1",
 };
 
 export default function RootLayout({ children }) {
