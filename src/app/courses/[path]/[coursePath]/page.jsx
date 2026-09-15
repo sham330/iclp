@@ -3,10 +3,13 @@ import path from "path";
 import { redirect } from "next/navigation";
 import CourseDetails from "../Maincomponent";
 import BangaloreMainComponent from "../BangaloreMainComponent";
+import HyderabadMainComponent from "../HyderabadMainComponent";
+import PuneMainComponent from "../PuneMainComponent";
 import Head from "../Head";
 
 const CITY_FILES = {
   bangalore: "bangalore.json",
+  hyderabad: "hyderabad.json",
   pune: "pune.json",
 };
 
@@ -59,10 +62,11 @@ export default async function NestedCourseDetailsPage({ params }) {
     const foundCourse = cityData?.find((c) => c.path === coursePath);
     if (!foundCourse) redirect("/courses/");
     const canonical = `https://iclptech.in/courses/${categoryPath}/${coursePath}/`;
+    const CityComponent = city === "pune" ? PuneMainComponent : city === "hyderabad" ? HyderabadMainComponent : BangaloreMainComponent;
     return (
       <>
         <Head course={foundCourse} canonicalUrl={canonical} />
-        <BangaloreMainComponent course={foundCourse} />
+        <CityComponent course={foundCourse} />
       </>
     );
   }
