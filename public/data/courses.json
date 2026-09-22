@@ -1527,7 +1527,109 @@
       ]
     }
   }
-},
+}, {
+          "course_name": "Oracle Fusion Financials Training",
+          "name": "Oracle Fusion Financials Training in Chennai",
+          "path": "oracle-fusion-financials-training-in-chennai",
+          "image": "/oracle-fusion-courses.jpg",
+          "meta_title": "Oracle Fusion Financials Training in Chennai | Oracle Fusion Certification Course in Chennai",
+          "meta_description": "Master Oracle Fusion Financials with comprehensive online training. Learn GL, AP, AR, Assets, Tax, SLA, and more with real-time implementation guidance.",
+          "description": "In-depth training on Oracle Fusion Financials covering General Ledger, Payables, Receivables, Assets, Tax, SLA, Payments, and enterprise structures with practical configuration scenarios.",
+          "what_youll_learn": [
+            "Implementing Oracle Fusion Financials end-to-end",
+            "Configuring enterprise structures and financial modules",
+            "Setting up Oracle General Ledger",
+            "Configuring Oracle Payables, Receivables, and Payments",
+            "Implementing Oracle Fusion Tax and SLA",
+            "Managing Assets, Depreciation, and Asset Books",
+            "Advanced Collections and Cash Management setup"
+          ],
+          "syllabus": [
+            {
+              "module": "Introduction & Setup",
+              "subtopics": [
+                "Introduction to Implementing Oracle Fusion Financials",
+                "Common Financials Configuration Overview",
+                "Understanding Functional Setup Manager",
+                "Implementation Overview",
+                "Browsing and Configuring Offerings"
+              ]
+            },
+            {
+              "module": "Enterprise Configuration",
+              "subtopics": [
+                "Overview of Common Applications Configuration",
+                "Defining Enterprise Structures",
+                "Defining and Maintaining Intercompany Processing Rules",
+                "Infusion Corporation Case Study Overview"
+              ]
+            },
+            {
+              "module": "Oracle Fusion General Ledger",
+              "subtopics": [
+                "Configuring Oracle Fusion General Ledger"
+              ]
+            },
+            {
+              "module": "Oracle Fusion Tax",
+              "subtopics": [
+                "Understanding Oracle Fusion Tax",
+                "Setting Up Foundation Tax Configuration",
+                "Setting Up Advanced Tax Configuration",
+                "Setting Up Tax Reporting Configuration",
+                "Verifying Tax Configuration"
+              ]
+            },
+            {
+              "module": "Oracle Subledger Accounting (SLA)",
+              "subtopics": [
+                "Subledger Accounting Overview",
+                "Managing Subledger Accounting Rules",
+                "Configuring Oracle Fusion Subledger Accounting"
+              ]
+            },
+            {
+              "module": "Payables, Payments & Expenses",
+              "subtopics": [
+                "Configuring Oracle Fusion Payables",
+                "Implementing Oracle Fusion Payments",
+                "Implementing Oracle Fusion Expenses"
+              ]
+            },
+            {
+              "module": "Oracle Fusion Assets",
+              "subtopics": [
+                "Understanding Oracle Fusion Assets",
+                "Managing Assets Key Flexfields and Value Sets",
+                "Managing System Controls",
+                "Managing Fiscal Years and Calendars",
+                "Managing Asset Locations",
+                "Managing Depreciation Rules",
+                "Managing Asset Books",
+                "Managing Asset Categories"
+              ]
+            },
+            {
+              "module": "Receivables, Collections & Cash Management",
+              "subtopics": [
+                "Configuring Oracle Fusion Receivables",
+                "Implementing Oracle Fusion Payments",
+                "Configuring Oracle Fusion Advanced Collections",
+                "Common Application Components"
+              ]
+            }
+          ],
+          "duration": "50–60 hours",
+          "skill_level": "Intermediate to Advanced",
+          "placement_assurance": true,
+          "projects": [
+            "General Ledger Configuration Project",
+            "End-to-End Procure-to-Pay (P2P) Setup",
+            "Order-to-Cash (O2C) Implementation",
+            "Asset Management and Depreciation Setup",
+            "Tax and Subledger Accounting Rules Configuration"
+          ]
+        },
         {
   "course_name": "Oracle CPQ Training",
   "name":"Oracle CPQ Training in Chennai",
@@ -3534,6 +3636,453 @@
       "answer": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
     }
   ]
+},{
+  "course_name": "SAP GRC Process Control",
+  "name": "SAP GRC Process Control Training in Chennai",
+  "path": "sap-grc-process-control-training-in-chennai",
+
+  "description": "Join SAP GRC Process Control Training in Chennai at ICLP Technologies with real-time projects, live instructor-led online classes, certification guidance, and placement assistance. Learn SAP GRC Process Control modules including risk management, internal control management, control testing, automated monitoring, and issue remediation with hands-on implementation scenarios.",
+  "meta_title": "SAP GRC Process Control Training in Chennai",
+  "meta_description": "Take your governance, risk, and compliance career forward with SAP GRC Process Control Training in Chennai covering risk management, controls, testing, monitoring, and remediation.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/assets/logo/logo2.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/#service",
+        "name": "SAP GRC Process Control Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "SAP GRC Process Control Functional Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/#course",
+        "name": "SAP GRC Process Control Training in Chennai",
+        "description": "Join SAP GRC Process Control Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "SAP GRC Process Control Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "SAP GRC Process Control Training in Chennai, SAP GRC Online Training, SAP GRC Process Control Course, SAP GRC Functional Training, SAP GRC Placement Training, SAP Governance Risk and Compliance Training, SAP GRC Process Control Certification Course, SAP GRC Training Institute",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "SAP GRC"
+          },
+          {
+            "@type": "Thing",
+            "name": "SAP GRC Process Control"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risk and Compliance Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Internal Control Management"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": 2850
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/courses/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SAP GRC Process Control Training",
+            "item": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/sap/sap-grc-process-control-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP GRC Process Control Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP GRC Process Control Training helps students learn how to manage risks, controls, testing, monitoring, and compliance within SAP systems, covering end-to-end governance, risk, and compliance workflows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP GRC Process Control good for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers from finance, audit, IT, ERP, and compliance backgrounds can start a successful career in SAP GRC Process Control."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is online SAP GRC Process Control training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We provide SAP GRC Process Control Online Training with live instructor-led sessions and recorded classes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need SAP ABAP or coding knowledge for GRC Process Control?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. SAP GRC Process Control Training mainly focuses on risk and control workflows, business process configuration, and functional implementation concepts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is SAP GRC Process Control Training?",
+      "answer": "SAP GRC Process Control Training helps students learn how to manage risks, controls, testing, monitoring, and compliance within SAP systems, covering end-to-end governance, risk, and compliance workflows."
+    },
+    {
+      "question": "Is SAP GRC Process Control good for freshers?",
+      "answer": "Yes. Freshers from finance, audit, IT, ERP, and compliance backgrounds can start a successful career in SAP GRC Process Control."
+    },
+    {
+      "question": "Do you provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
+    },
+    {
+      "question": "Is online SAP GRC Process Control training available?",
+      "answer": "Yes. We provide SAP GRC Process Control Online Training with live instructor-led sessions and recorded classes."
+    },
+    {
+      "question": "Do I need SAP ABAP or coding knowledge for GRC Process Control?",
+      "answer": "No. SAP GRC Process Control Training mainly focuses on risk and control workflows, business process configuration, and functional implementation concepts."
+    }
+  ],
+  "what_youll_learn": [
+    "SAP GRC Process Control Overview",
+    "Organization and Master Data Management",
+    "Risk Management and Risk-Control Mapping",
+    "Internal Control Management",
+    "Control Testing and Assessment",
+    "Automated and Continuous Monitoring",
+    "Issue and Remediation Management",
+    "Surveys, Certification and Compliance",
+    "Workflow and BRF+ Configuration",
+    "Reporting, Dashboards, Integration and Security"
+  ],
+  "syllabus": [
+    {
+      "module": "SAP GRC Process Control Overview",
+      "subtopics": [
+        "Introduction to SAP GRC",
+        "GRC Process Control concepts",
+        "GRC components",
+        "Process Control vs Access Control",
+        "Architecture and system landscape",
+        "SAP ECC & S/4HANA integration",
+        "Process Control lifecycle"
+      ]
+    },
+    {
+      "module": "Organization & Master Data",
+      "subtopics": [
+        "Organization hierarchy",
+        "Business processes",
+        "Sub-processes",
+        "Process owners",
+        "Control owners",
+        "Control performers",
+        "Reviewers and approvers",
+        "Master data synchronization"
+      ]
+    },
+    {
+      "module": "Risk Management",
+      "subtopics": [
+        "Risk concepts",
+        "Risk identification",
+        "Risk assessment",
+        "Risk impact and probability",
+        "Risk rating",
+        "Risk-to-process mapping",
+        "Risk-to-control mapping",
+        "Risk mitigation",
+        "Residual risk"
+      ]
+    },
+    {
+      "module": "Internal Control Management",
+      "subtopics": [
+        "Internal control concepts",
+        "Preventive and detective controls",
+        "Manual and automated controls",
+        "Key controls",
+        "Control objectives",
+        "Control attributes",
+        "Control owners and performers",
+        "Control documentation",
+        "Control effectiveness"
+      ]
+    },
+    {
+      "module": "Control Testing & Assessment",
+      "subtopics": [
+        "Control testing concepts",
+        "Test plans",
+        "Test procedures",
+        "Test samples",
+        "Evidence collection",
+        "Test execution",
+        "Test results",
+        "Control self-assessment",
+        "Review and approval",
+        "Control effectiveness assessment"
+      ]
+    },
+    {
+      "module": "Automated & Continuous Monitoring",
+      "subtopics": [
+        "Automated control monitoring",
+        "Monitoring strategies",
+        "Monitoring parameters",
+        "Exception detection",
+        "Exception analysis",
+        "Continuous control monitoring",
+        "Monitoring jobs",
+        "Alerts and notifications",
+        "Manual vs automated monitoring"
+      ]
+    },
+    {
+      "module": "Issue & Remediation Management",
+      "subtopics": [
+        "Issue management",
+        "Control deficiencies",
+        "Issue creation",
+        "Issue classification",
+        "Issue severity",
+        "Issue owners",
+        "Corrective actions",
+        "Remediation plans",
+        "Evidence submission",
+        "Issue closure",
+        "Escalation"
+      ]
+    },
+    {
+      "module": "Surveys, Certification & Compliance",
+      "subtopics": [
+        "Surveys and questionnaires",
+        "Risk assessments",
+        "Control assessments",
+        "Management certification",
+        "Control certification",
+        "Certification workflow",
+        "Compliance assessments",
+        "Review and approval",
+        "Certification reporting"
+      ]
+    },
+    {
+      "module": "Workflow & BRF+",
+      "subtopics": [
+        "GRC workflow concepts",
+        "MSMP workflow",
+        "Workflow stages and paths",
+        "Agents and approvers",
+        "Agent determination",
+        "Approval and rejection",
+        "Escalation",
+        "BRF+ fundamentals",
+        "Decision tables",
+        "Dynamic agent determination",
+        "Workflow troubleshooting"
+      ]
+    },
+    {
+      "module": "Reporting & Dashboards",
+      "subtopics": [
+        "Process Control reporting",
+        "Risk reports",
+        "Control reports",
+        "Testing reports",
+        "Issue reports",
+        "Remediation reports",
+        "Compliance reports",
+        "Management dashboards",
+        "KPI monitoring",
+        "Exception reporting"
+      ]
+    },
+    {
+      "module": "Integration, Security & Administration",
+      "subtopics": [
+        "SAP ECC integration",
+        "SAP S/4HANA integration",
+        "RFC and connectors",
+        "Data synchronization",
+        "GRC security roles",
+        "Process/control owner roles",
+        "Background jobs",
+        "Application logs",
+        "Workflow monitoring",
+        "Common troubleshooting",
+        "Production support"
+      ]
+    },
+    {
+      "module": "Real-Time Implementation Project",
+      "subtopics": [
+        "End-to-end GRC Process Control implementation",
+        "Organization setup",
+        "Business process creation",
+        "Risk creation",
+        "Control creation",
+        "Risk-control mapping",
+        "Control testing",
+        "Automated monitoring",
+        "Issue creation",
+        "Remediation",
+        "Workflow configuration",
+        "BRF+ configuration",
+        "Reporting and dashboards",
+        "UAT and production scenarios"
+      ]
+    }
+  ],
+  "duration": "Flexible Batches",
+  "skill_level": "Beginner to Advanced (No Coding Required)",
+  "image": "/CourseDetails/sap-grc-process-control-training-in-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Risk Identification and Risk-Control Mapping Scenario",
+    "End-to-End Control Testing and Assessment Case Study",
+    "Automated Continuous Monitoring Implementation",
+    "Issue and Remediation Management Project",
+    "MSMP Workflow and BRF+ Configuration Project",
+    "GRC Reporting and Dashboard Implementation"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of SAP GRC Process Control Training in Chennai",
+    "description": "SAP GRC Process Control is one of the most in-demand governance, risk, and compliance technologies used by multinational companies across finance, manufacturing, banking, healthcare, and enterprise domains. Build a strong career in SAP GRC with practical exposure, certification guidance, and placement support.",
+    "points": [
+      "<strong>High Demand in Governance, Risk and Compliance:</strong> Large organizations actively hiring SAP GRC Process Control Consultants, Risk Analysts, and Compliance Consultants.",
+      "<strong>Attractive Salary Packages:</strong> Freshers and professionals earn competitive packages in GRC and risk management roles.",
+      "<strong>Global Job Opportunities:</strong> SAP GRC skills are valued across India, the USA, Europe, Middle East, and Asia-Pacific markets.",
+      "<strong>Enterprise Risk Technology Exposure:</strong> Gain hands-on experience with SAP's governance, risk, and compliance platform.",
+      "<strong>Entry-Level Friendly:</strong> Freshers from finance, audit, IT, ERP, and compliance backgrounds can build a successful career in SAP GRC.",
+      "<strong>Diverse Career Roles:</strong> Work as SAP GRC Process Control Consultant, Risk and Compliance Analyst, Internal Audit Consultant, or GRC Support Consultant."
+    ]
+  },
+  "who_can_learn": [
+    "MBA Graduates",
+    "Finance and Audit Professionals",
+    "ERP Consultants",
+    "Risk and Compliance Professionals",
+    "Freshers",
+    "Working Professionals",
+    "IT and Business Analysts"
+  ],
+  "curriculum_overview": {
+    "heading": "SAP GRC Process Control Functional Training Curriculum",
+    "intro": "Our SAP GRC Process Control Functional Training program delivers 100% practical, industry-focused learning with real-time projects, end-to-end risk and control workflows, and placement-oriented guidance to make you job-ready in SAP GRC."
+  },
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for SAP GRC Process Control Training?",
+    "intro": "ICLP Technologies is one of the best SAP GRC Process Control Training institutes in Chennai, offering experienced trainers, hands-on project-based learning, certification support, and dedicated placement assistance.",
+    "instructor_expertise": {
+      "heading": "Experienced SAP GRC Trainers",
+      "description": "Learn from SAP-certified GRC professionals with real-world implementation experience in multinational companies and consulting firms."
+    },
+    "training_modes": {
+      "heading": "Flexible Learning Options",
+      "description": "Choose classroom training, online training, weekday batches, or weekend batches based on your schedule.",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Interactive sessions with Q&A, screen sharing, and hands-on labs.",
+        "<strong>Real-Time Projects:</strong> Practical implementation scenarios in risk management, controls, testing, monitoring, and remediation.",
+        "<strong>Flexible Batch Timings:</strong> Suitable for working professionals, fresh graduates, and career switchers.",
+        "<strong>Recorded Access:</strong> Lifetime access to recorded sessions, assignments, and interview preparation materials."
+      ]
+    }
+  }
 },{
   "course_name": "Medical Coding",
   "path": "medical-coding-training-in-chennai",
@@ -31313,109 +31862,6 @@
       "category_name": "Digital Marketing & Business Tools",
       "path": "digital-marketing-business-tools",
       "sub_categories": [
-        {
-          "course_name": "Oracle Fusion Financials Training",
-          "name": "Oracle Fusion Financials Training in Chennai",
-          "path": "oracle-fusion-financials-training-in-chennai",
-          "image": "/oracle-fusion-courses.jpg",
-          "meta_title": "Oracle Fusion Financials Training in Chennai | Oracle Fusion Certification Course in Chennai",
-          "meta_description": "Master Oracle Fusion Financials with comprehensive online training. Learn GL, AP, AR, Assets, Tax, SLA, and more with real-time implementation guidance.",
-          "description": "In-depth training on Oracle Fusion Financials covering General Ledger, Payables, Receivables, Assets, Tax, SLA, Payments, and enterprise structures with practical configuration scenarios.",
-          "what_youll_learn": [
-            "Implementing Oracle Fusion Financials end-to-end",
-            "Configuring enterprise structures and financial modules",
-            "Setting up Oracle General Ledger",
-            "Configuring Oracle Payables, Receivables, and Payments",
-            "Implementing Oracle Fusion Tax and SLA",
-            "Managing Assets, Depreciation, and Asset Books",
-            "Advanced Collections and Cash Management setup"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction & Setup",
-              "subtopics": [
-                "Introduction to Implementing Oracle Fusion Financials",
-                "Common Financials Configuration Overview",
-                "Understanding Functional Setup Manager",
-                "Implementation Overview",
-                "Browsing and Configuring Offerings"
-              ]
-            },
-            {
-              "module": "Enterprise Configuration",
-              "subtopics": [
-                "Overview of Common Applications Configuration",
-                "Defining Enterprise Structures",
-                "Defining and Maintaining Intercompany Processing Rules",
-                "Infusion Corporation Case Study Overview"
-              ]
-            },
-            {
-              "module": "Oracle Fusion General Ledger",
-              "subtopics": [
-                "Configuring Oracle Fusion General Ledger"
-              ]
-            },
-            {
-              "module": "Oracle Fusion Tax",
-              "subtopics": [
-                "Understanding Oracle Fusion Tax",
-                "Setting Up Foundation Tax Configuration",
-                "Setting Up Advanced Tax Configuration",
-                "Setting Up Tax Reporting Configuration",
-                "Verifying Tax Configuration"
-              ]
-            },
-            {
-              "module": "Oracle Subledger Accounting (SLA)",
-              "subtopics": [
-                "Subledger Accounting Overview",
-                "Managing Subledger Accounting Rules",
-                "Configuring Oracle Fusion Subledger Accounting"
-              ]
-            },
-            {
-              "module": "Payables, Payments & Expenses",
-              "subtopics": [
-                "Configuring Oracle Fusion Payables",
-                "Implementing Oracle Fusion Payments",
-                "Implementing Oracle Fusion Expenses"
-              ]
-            },
-            {
-              "module": "Oracle Fusion Assets",
-              "subtopics": [
-                "Understanding Oracle Fusion Assets",
-                "Managing Assets Key Flexfields and Value Sets",
-                "Managing System Controls",
-                "Managing Fiscal Years and Calendars",
-                "Managing Asset Locations",
-                "Managing Depreciation Rules",
-                "Managing Asset Books",
-                "Managing Asset Categories"
-              ]
-            },
-            {
-              "module": "Receivables, Collections & Cash Management",
-              "subtopics": [
-                "Configuring Oracle Fusion Receivables",
-                "Implementing Oracle Fusion Payments",
-                "Configuring Oracle Fusion Advanced Collections",
-                "Common Application Components"
-              ]
-            }
-          ],
-          "duration": "50–60 hours",
-          "skill_level": "Intermediate to Advanced",
-          "placement_assurance": true,
-          "projects": [
-            "General Ledger Configuration Project",
-            "End-to-End Procure-to-Pay (P2P) Setup",
-            "Order-to-Cash (O2C) Implementation",
-            "Asset Management and Depreciation Setup",
-            "Tax and Subledger Accounting Rules Configuration"
-          ]
-        },
         {
           "course_name": "Workday Integration Training",
           "name": "Workday Integration Training in Chennai",
