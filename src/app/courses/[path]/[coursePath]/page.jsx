@@ -5,12 +5,14 @@ import CourseDetails from "../Maincomponent";
 import BangaloreMainComponent from "../BangaloreMainComponent";
 import HyderabadMainComponent from "../HyderabadMainComponent";
 import PuneMainComponent from "../PuneMainComponent";
+import OnlineMainComponent from "../OnlineMainComponent";
 import Head from "../Head";
 
 const CITY_FILES = {
   bangalore: "bangalore.json",
   hyderabad: "hyderabad.json",
   pune: "pune.json",
+  online: "online.json",
 };
 
 function loadCityData(city) {
@@ -52,9 +54,10 @@ export default async function NestedCourseDetailsPage({ params }) {
   const coursePath = resolvedParams?.coursePath;
   if (!coursePath) redirect("/courses/");
 
-  // Detect city from slug
-  const cityMatch = coursePath.match(/-in-([a-z]+)$/);
-  const city = cityMatch?.[1];
+  // Detect city from slug (also handles -online-training suffix)
+  const onlineMatch = coursePath.endsWith("-online-training");
+  const cityMatch = !onlineMatch && coursePath.match(/-in-([a-z]+)$/);
+  const city = onlineMatch ? "online" : cityMatch?.[1];
 
   // City page (non-chennai)
   if (city && CITY_FILES[city]) {
@@ -62,7 +65,11 @@ export default async function NestedCourseDetailsPage({ params }) {
     const foundCourse = cityData?.find((c) => c.path === coursePath);
     if (!foundCourse) redirect("/courses/");
     const canonical = `https://iclptech.in/courses/${categoryPath}/${coursePath}/`;
-    const CityComponent = city === "pune" ? PuneMainComponent : city === "hyderabad" ? HyderabadMainComponent : BangaloreMainComponent;
+    const CityComponent =
+      city === "online" ? OnlineMainComponent :
+      city === "pune" ? PuneMainComponent :
+      city === "hyderabad" ? HyderabadMainComponent :
+      BangaloreMainComponent;
     return (
       <>
         <Head course={foundCourse} canonicalUrl={canonical} />

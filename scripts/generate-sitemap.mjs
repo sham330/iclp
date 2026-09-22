@@ -46,7 +46,7 @@ for (const category of coursesData.categories ?? []) {
 const uniqueCoursePaths = [...new Set(coursePaths)];
 
 // Extract city course paths (bangalore.json, pune.json, etc.)
-const cityFiles = ["bangalore.json", "hyderabad.json", "pune.json"];
+const cityFiles = ["bangalore.json", "hyderabad.json", "pune.json", "online.json"];
 const cityCounts = {};
 for (const file of cityFiles) {
   const filePath = path.resolve(`public/data/${file}`);
