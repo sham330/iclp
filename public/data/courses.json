@@ -5103,243 +5103,272 @@
             }
           ]
         },
-        {
-          "course_name": "SAP SuccessFactors",
-                    "name": "SAP SuccessFactors Training in Chennai",
-          "path": "sap-successfactors-training-in-chennai",
-          "meta_title": "SAP SuccessFactors Training in Chennai | SAP SuccessFactors Certification Course in Chennai | ICLP Technologies",
-          "meta_description": "Advance your HR technology career with SAP SuccessFactors Training in Chennai covering Employee Central, recruiting, performance and compensation.",
-          "description": "Comprehensive training in SAP SuccessFactors, covering core HCM modules, Employee Central, and advanced configuration for cloud-based HR solutions.",
-          "career_benefits": {
-            "heading": "Why Choose Our Expert SAP SuccessFactors Course?",
-            "description": "The demand for certified professionals in <strong>SAP SuccessFactors</strong> is rapidly increasing across India. Our <strong>SAP SF course</strong> delivers high-quality training designed around E-E-A-T principles—<strong>Expertise, Experience, Authority, and Trust</strong>. You learn directly from certified SAP SuccessFactors consultants with decades of hands-on implementation experience.",
-            "points": [
-              "<strong>Comprehensive Module Coverage:</strong> Includes Employee Central, Talent Management, Recruiting, and more.",
-              "<strong>Real-World Case Studies:</strong> Every part of the SAP SuccessFactors course is supported by scenario-based learning.",
-              "<strong>Trusted Learning Path:</strong> Our SAP SF course (SFSC) is built for HR and IT professionals seeking accelerated career growth."
-            ]
-          },
-          "curriculum_overview": {
-            "heading": "Key Features of Our <strong>SAP SuccessFactors Training Online</strong>",
-            "intro": "Our <strong>SAP SuccessFactors training online (SFTO)</strong> is structured for working professionals and fresh graduates alike, offering a high-quality and flexible learning experience."
-          },
-          "track_overview_primary": {
-            "heading": "Core Highlights of <strong>SAP SF Training</strong>",
-            "description": "These features define the strength and professional quality of our <strong>SAP SuccessFactors training (SFT)</strong>:",
-            "topics": [
-              "<strong>Expert Instruction (Expertise & Authority):</strong> Training delivered by 15+ year experienced SAP SuccessFactors consultants",
-              "<strong>Hands-on Learning (Experience):</strong> Full-cycle implementation simulations and practical HR scenarios",
-              "<strong>Flexible Access:</strong> Attend SAP SuccessFactors training online from anywhere in India at your convenience",
-              "<strong>Certification Readiness:</strong> Dedicated preparation to help you clear your official SAP SF certification exam",
-              "<strong>Placement Support:</strong> Tailored career assistance aligned with the Indian HR & IT job market"
-            ]
-          },
-          "track_overview_secondary": {
-            "heading": "Advanced <strong>SAP SuccessFactors Skill Development</strong>",
-            "description": "This section focuses on in-depth HR transformation skills across the SuccessFactors suite:",
-            "topics": [
-              "<strong>Employee Central Mastery</strong>",
-              "<strong>Talent Management Planning & Execution</strong>",
-              "<strong>Recruiting & Onboarding Processes</strong>",
-              "<strong>Performance & Goal Management</strong>",
-              "<strong>Real-Time HR Analytics</strong> with SuccessFactors"
-            ]
-          },
-          "certification_info": {
-            "heading": "Earn Your <strong>SAP SuccessFactors Certification</strong>",
-            "intro": "Our <strong>SAP SF course</strong> aligns with the official SuccessFactors certification syllabus, giving you complete readiness to clear your exam confidently.",
-            "highlights": [
-              "<strong>Certification Guidance:</strong> Mock tests and structured exam preparation modules",
-              "<strong>Practical Projects:</strong> Real-world HR workflow and system configuration exercises",
-              "<strong>Industry Recognition:</strong> SAP SuccessFactors certification is valued by top HR, IT, consulting, and multinational companies in India"
-            ]
-          },
-          "why_institute": {
-            "heading": "Why We Are India’s Most Trusted <strong>SAP SuccessFactors Training Provider</strong>",
-            "intro": "Our <strong>SAP SuccessFactors training online</strong> combines expert mentorship, real-world learning, and strong career support to ensure professional success.",
-            "instructor_expertise": {
-              "heading": "Experience & Expertise",
-              "description": "All SAP SF trainers are <strong>certified consultants</strong> with over <strong>15 years</strong> of implementation experience across global HR transformation projects."
-            },
-            "training_modes": {
-              "heading": "Flexible <strong>SAP SF Learning Options</strong>",
-              "description": "Choose the training mode that fits your schedule:",
-              "options": [
-                "<strong>SAP SF Online Training:</strong> Live classes with hands-on access to SAP SuccessFactors environments",
-                "<strong>Self-paced modules</strong> with continuous expert support and session recordings"
-              ]
-            },
-            "placement_support": {
-              "heading": "Career & <strong>Placement Assistance</strong>",
-              "description": "We offer resume enhancement, mock interviews, and placement guidance aligned with leading HR & IT recruitment demands."
-            }
-          },
-          "enrollment_section": {
-            "heading": "Enroll Today for the Premier SAP SF Training in India",
-            "description": "Don’t miss your chance to gain in-demand SAP SuccessFactors skills. Enroll in our next batch and transform your career with India’s most comprehensive SAP SuccessFactors training online (SFTO)."
-          },
-          "what_youll_learn": [
-            "Understand SAP SuccessFactors architecture and cloud provisioning",
-            "Master Employee Central configuration and data models",
-            "Implement Role-Based Permissions (RBP)",
-            "Configure workflows, picklists, and rating scales",
-            "Manage employee data, ESS/MSS, and security",
-            "Set up Position Management and Absence Management",
-            "Work with Metadata Framework (MDF) and business rules",
-            "Customize foundation data and country-specific files",
-            "Perform mass data changes and integrations",
-            "Generate reports and configure organizational charts"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to Mastery Topics",
-              "subtopics": [
-                "Cloud and SF Architecture",
-                "Instance, Provisioning explanation",
-                "Technical Architecture",
-                "Integration Technology/Tools",
-                "Bizxpert Methodology – Implementation Methodology",
-                "Basic company settings in Provisioning",
-                "Creating administrators in Provisioning",
-                "Creating administrators in Instance",
-                "Instance basic settings – Passwords, Home Page, Welcome Menu, Company info, Employee files",
-                "Administrator tools",
-                "Commonly used terms",
-                "Admin Privileges",
-                "Proxy Management",
-                "Setting up company Logos",
-                "Manage Data User Records",
-                "Employee Data File",
-                "Permissions",
-                "Role Based Permissioning (RBP)",
-                "Pick list Management",
-                "Text Customization in Instance",
-                "XML and Data models",
-                "People Search",
-                "Rating Scales",
-                "Route Maps (Workflow)",
-                "Launching forms",
-                "Employee Profile"
-              ]
-            },
-            {
-              "module": "Employee Central Mastery – Core HCM module",
-              "subtopics": [
-                "Introduction and basic provisioning set up exercises",
-                "Data models",
-                "Employee Central Structure",
-                "Data model Management",
-                "Data model Associations",
-                "Enable employee central and RBP",
-                "Update employee details",
-                "ESS/MSS functionality",
-                "Understanding security",
-                "Managing security with RBP",
-                "EC as a system of record",
-                "EC Customizing and Populating Basic Foundation data",
-                "Customizing Country specific files in Foundation tables",
-                "Creating and modifying associations",
-                "Propagations",
-                "Importing users and data",
-                "Mass Changes",
-                "Customizing employee files",
-                "Customizing CSF for employee files",
-                "Position Management",
-                "Absence Management",
-                "Employee Central Reporting and Integration",
-                "MDF Overview",
-                "MDF Objects creation",
-                "Manage Business Configuration Rules setup",
-                "Manage Workflow Requests/groups",
-                "Org Chart",
-                "Manage Sequence",
-                "Monitor Job"
-              ]
-            }
-          ],"faqs": [
-  {
-    "question": "What is SAP SuccessFactors?",
-    "answer": "SAP SuccessFactors is a cloud-based Human Capital Management (HCM) solution that helps organizations manage HR processes such as recruitment, employee central, performance management, compensation, learning management, and workforce analytics. It is widely used by global enterprises to streamline HR operations."
+       {
+  "course_name": "SAP SCM",
+  "name": "SAP SCM Training in Chennai with Live Online Training & Career Support",
+  "path": "sap-scm-training-in-chennai",
+  "meta_title": "SAP SCM Training in Chennai | SAP SCM Course | ICLP Technologies",
+  "meta_description": "Join SAP SCM Training in Chennai with ICLP Technologies. Learn SAP Supply Chain Management through live training, hands-on practice, real-time scenarios, projects, and career support. Online & classroom options available.",
+  "description": "ICLP Technologies offers comprehensive SAP SCM Training in Chennai designed for students, working professionals, SAP consultants, supply chain professionals, and career switchers who want to build practical expertise in SAP Supply Chain Management. Our SAP SCM Course focuses on real-world supply chain processes, SAP business scenarios, hands-on practice, functional concepts, process integration, and project-oriented learning. The training is structured to help learners understand how SAP supports supply chain planning, procurement, inventory, production, logistics, and order fulfillment processes. Key areas covered include Supply Chain Planning, Demand Planning, Supply and Inventory Planning, Procurement & Purchasing, Inventory Management, Warehouse & Logistics Processes, Production Planning Concepts, Transportation & Distribution, Order Fulfillment, Supply Chain Execution, SAP Integration Concepts, Reporting & Analytics, and Real-Time Supply Chain Visibility.",
+  "career_benefits": {
+    "heading": "Why Learn <strong>SAP SCM</strong>?",
+    "description": "Modern organizations require connected supply chains that can respond quickly to changing demand, inventory requirements, procurement conditions, production schedules, and logistics operations. <strong>SAP SCM (Supply Chain Management)</strong> helps organizations plan, coordinate, execute, and monitor supply-chain activities across different business functions.",
+    "points": [
+      "<strong>Wide Skill Relevance:</strong> Build skills relevant to supply chain planning, procurement operations, inventory management, logistics management, production planning, warehouse processes, and distribution operations.",
+      "<strong>Career Growth:</strong> Prepare for roles such as SAP SCM Consultant, SAP Supply Chain Analyst, SAP Functional Consultant, SAP Planning Consultant, and SAP Logistics Consultant.",
+      "<strong>Skill Mastery:</strong> Our SAP SCM training goes beyond theory, focusing on end-to-end process flow, cross-module integration, and practical business scenarios.",
+      "<strong>Consulting Pathway:</strong> Strengthen your ERP consulting profile with skills in ERP implementation, business process analysis, and supply chain transformation."
+    ]
   },
-  {
-    "question": "Who can learn SAP SuccessFactors?",
-    "answer": "SAP SuccessFactors is suitable for HR professionals, SAP consultants, fresh graduates, MBA HR candidates, payroll specialists, recruiters, and professionals looking to build a career in SAP HCM and cloud-based HR solutions."
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP SCM Course Curriculum</strong>",
+    "intro": "Our <strong>SAP SCM course</strong> is structured across nine modules, taking you from supply chain fundamentals through planning, procurement, production, logistics, warehouse processes, integration, analytics, and advanced SAP supply-chain concepts."
   },
-  {
-    "question": "What are the prerequisites for learning SAP SuccessFactors?",
-    "answer": "There are no strict prerequisites. Basic knowledge of Human Resources, payroll, employee lifecycle management, or SAP HCM can be beneficial but is not mandatory."
+  "track_overview_primary": {
+    "heading": "Planning, Procurement & Production Modules Covered",
+    "description": "We cover the core planning and sourcing aspects of the supply chain, including:",
+    "topics": [
+      "<strong>Supply Chain Planning</strong>: demand planning, supply planning, forecasting, and demand-supply balancing",
+      "<strong>Procurement & Inventory Management</strong>: purchase requisition, purchase order, goods receipt, and stock management",
+      "<strong>Production & Manufacturing Integration</strong>: BOM, work centers, routing, production orders, and capacity requirements",
+      "<strong>Master Data & Business Processes</strong> underpinning end-to-end supply chain flow"
+    ]
   },
-  {
-    "question": "What modules are covered in SAP SuccessFactors Training?",
-    "answer": "The training typically covers: Employee Central, Recruitment Management, Onboarding, Performance & Goals, Compensation Management, Learning Management System (LMS), Succession & Development, and Workforce Analytics and Reporting."
+  "track_overview_secondary": {
+    "heading": "Execution, Logistics & Integration Modules Covered",
+    "description": "This section focuses on fulfillment, visibility, and cross-module integration:",
+    "topics": [
+      "<strong>Logistics & Distribution</strong>: outbound/inbound delivery, shipment, transportation, and order fulfillment",
+      "<strong>Warehouse & Inventory Processes</strong>: picking, putaway, stock transfer, and inventory visibility",
+      "<strong>SAP SCM Integration:</strong> Understanding how SCM integrates with SAP ERP, MM, SD, PP, and warehouse processes.",
+      "<strong>Analytics & Visibility</strong>: supply chain monitoring, KPI concepts, and operational reporting"
+    ]
   },
-  {
-    "question": "Is SAP SuccessFactors a good career option in 2026?",
-    "answer": "Yes. As organizations continue to adopt cloud-based HR solutions, the demand for SAP SuccessFactors Consultants is increasing globally. It offers excellent career opportunities in implementation, support, consulting, and project management roles."
+  "certification_info": {
+    "heading": "SAP SCM <strong>Certification Guidance</strong>",
+    "intro": "ICLP Technologies can provide guidance on relevant SAP learning and certification pathways based on the learner's selected SAP SCM track. Learners interested in SAP certification should verify the current certification code, exam format, prerequisites, and validity directly through SAP, as certification offerings can change over time.",
+    "highlights": [
+      "<strong>Pathway Guidance:</strong> Help in identifying relevant official SAP certification pathways for your chosen track.",
+      "<strong>Project-Based Learning:</strong> Work through real-time scenarios and projects to demonstrate practical understanding.",
+      "<strong>Course Completion Documentation:</strong> Provided where applicable. Official SAP certification must be obtained through SAP's current certification process."
+    ]
   },
-  {
-    "question": "What is the average salary of a SAP SuccessFactors Consultant in India?",
-    "answer": "The salary varies based on experience and specialization. Entry-level professionals can earn between ₹4 LPA and ₹8 LPA, while experienced consultants and implementation specialists can earn significantly higher packages."
+  "why_institute": {
+    "heading": "Why Choose <strong>ICLP Technologies</strong> for <strong>SAP SCM</strong> Training?",
+    "intro": "ICLP Technologies delivers practical, scenario-driven SAP SCM training that combines concept explanation, SAP demonstrations, practical exercises, business scenarios, and project-oriented learning.",
+    "instructor_expertise": {
+      "heading": "Practical <strong>Learning Approach</strong> and Support",
+      "description": "Our SAP SCM course is designed around practical learning rather than theory alone. You get live instructor-led training, hands-on exercises, doubt-clearing support, study materials, session recordings, resume preparation guidance, mock interview preparation, and career guidance. Training is suitable for beginners and professionals, with customized learning based on experience and both individual and batch options."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP SCM Training</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Live Online SAP SCM Training:</strong> Instructor-led classes from anywhere with interactive sessions, demonstrations, practical exercises, and mentor support.",
+        "<strong>Classroom SAP SCM Training in Chennai:</strong> Instructor-led offline sessions with direct interaction, arranged for learners who prefer classroom learning.",
+        "<strong>Weekend SAP SCM Training:</strong> Weekend batches suited to working professionals.",
+        "<strong>Fast-Track SAP SCM Training:</strong> Accelerated options for professionals with prior SAP or supply-chain experience.",
+        "<strong>Self-Paced Learning:</strong> Recorded sessions and learning materials for revision and flexible learning, according to the selected training plan."
+      ]
+    },
+    "placement_support": {
+      "heading": "Career & <strong>Career Support</strong>",
+      "description": "ICLP Technologies provides career guidance, resume preparation, interview preparation, and job-assistance support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance, and hiring organization."
+    }
   },
-  {
-    "question": "Does ICLP Technologies provide placement assistance?",
-    "answer": "Yes. ICLP Technologies provides placement assistance, resume preparation guidance, interview support, mock interviews, and job-oriented training to help learners prepare for career opportunities in SAP SuccessFactors."
+  "enrollment_section": {
+    "heading": "Enroll in SAP SCM Training in Chennai",
+    "description": "Build practical knowledge of SAP Supply Chain Management with ICLP Technologies. Learn supply-chain planning, procurement, inventory, manufacturing, logistics, warehouse processes, integration, and real-time business scenarios through a structured SAP SCM training program. Contact the ICLP Technologies training team for the syllabus, batch timings, training mode, fees, and enrollment details."
   },
-  {
-    "question": "Will I receive a course completion certificate?",
-    "answer": "Yes. Learners will receive a course completion certificate upon successfully completing the SAP SuccessFactors Online Training program."
-  },
-  {
-    "question": "Is this SAP SuccessFactors Training conducted online?",
-    "answer": "Yes. The training is conducted through live instructor-led online sessions with practical demonstrations, real-time scenarios, study materials, and recorded sessions for future reference."
-  },
-  {
-    "question": "Are real-time projects included in the training?",
-    "answer": "Yes. The course includes practical exercises, business use cases, and real-time project-based learning to help participants gain hands-on experience with SAP SuccessFactors applications."
-  },
-  {
-    "question": "How long does it take to complete SAP SuccessFactors Training?",
-    "answer": "The course duration typically ranges from 6 to 8 weeks depending on the selected batch schedule, learning pace, and module coverage."
-  },
-  {
-    "question": "Can freshers get jobs after learning SAP SuccessFactors?",
-    "answer": "Yes. Freshers with HR, management, or business backgrounds can start their careers in SAP SuccessFactors by acquiring practical skills, certification knowledge, and industry exposure through training and projects."
-  },
-  {
-    "question": "What are the job roles available after SAP SuccessFactors Training?",
-    "answer": "After completing the course, learners can pursue roles such as: SAP SuccessFactors Consultant, SAP HCM Consultant, Employee Central Consultant, HR Technology Specialist, SAP Support Consultant, and SAP Functional Consultant."
-  },
-  {
-    "question": "Why choose ICLP Technologies for SAP SuccessFactors Online Training?",
-    "answer": "ICLP Technologies offers expert trainers, hands-on practical sessions, flexible schedules, real-time project exposure, study materials, recorded sessions, certification guidance, and placement support to help learners achieve their career goals."
-  },
-  {
-    "question": "How can I enroll in the SAP SuccessFactors Online Training program?",
-    "answer": "You can contact the ICLP Technologies team through the website, phone, WhatsApp, or email to receive the course syllabus, batch schedule, fee details, and enrollment guidance."
-  },
-  {
-    "question": "What is the difference between SAP HCM and SAP SuccessFactors?",
-    "answer": "SAP HCM is an on-premise HR solution, whereas SAP SuccessFactors is a cloud-based Human Capital Management platform that offers enhanced scalability, flexibility, and modern workforce management capabilities."
-  },
-  {
-    "question": "Is SAP SuccessFactors certification worth it?",
-    "answer": "Yes. SAP SuccessFactors certification validates your expertise, enhances your professional credibility, and improves job opportunities in the competitive SAP consulting market."
-  },
-  {
-    "question": "Which SAP SuccessFactors module is most in demand?",
-    "answer": "Employee Central, Recruitment Management, Performance & Goals, and Compensation Management are among the most in-demand SAP SuccessFactors modules across industries."
-  }
-],
-          "duration": "40 hours",
-          "skill_level": "Intermediate to Advanced",
-          "image": "https://example.com/sap-successfactors.jpg",
-          "placement_assurance": true,
-          "projects": [
-            "Implementing Employee Central for a multinational company",
-            "Designing RBP for HR roles",
-            "Building custom MDF objects for HR processes"
-          ]
-        },
+  "what_youll_learn": [
+    "End-to-end supply chain process flow in SAP",
+    "Demand planning, supply planning and forecasting concepts",
+    "Procurement and inventory management processes",
+    "Production planning, BOM, routing and capacity concepts",
+    "Logistics, outbound delivery and distribution processes",
+    "Warehouse processes: picking, putaway and stock transfer",
+    "SAP SCM and ERP integration across MM, SD, PP and warehouse",
+    "Supply chain analytics, KPIs and visibility",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP SCM",
+      "subtopics": [
+        "Introduction to Supply Chain Management",
+        "SAP SCM overview",
+        "Supply chain business processes",
+        "SAP ERP and SCM integration",
+        "End-to-end supply chain flow",
+        "SAP SCM architecture overview",
+        "Supply chain planning and execution",
+        "Master data concepts"
+      ]
+    },
+    {
+      "module": "Supply Chain Planning",
+      "subtopics": [
+        "Demand planning concepts",
+        "Supply planning",
+        "Demand and supply balancing",
+        "Forecasting concepts",
+        "Planning strategies",
+        "Material requirements planning concepts",
+        "Capacity planning",
+        "Planning scenarios",
+        "Supply chain planning integration"
+      ]
+    },
+    {
+      "module": "Procurement & Inventory Management",
+      "subtopics": [
+        "Procurement process overview",
+        "Purchase requisition",
+        "Purchase order",
+        "Goods receipt",
+        "Inventory movements",
+        "Stock management",
+        "Material availability",
+        "Inventory planning",
+        "Supplier-related processes",
+        "Procurement integration"
+      ]
+    },
+    {
+      "module": "Production & Manufacturing Integration",
+      "subtopics": [
+        "Production planning concepts",
+        "Material requirements planning",
+        "Production orders",
+        "Bill of Materials",
+        "Work centers",
+        "Routing concepts",
+        "Capacity requirements",
+        "Production execution",
+        "Manufacturing integration with supply chain"
+      ]
+    },
+    {
+      "module": "Logistics & Distribution",
+      "subtopics": [
+        "Logistics processes",
+        "Outbound delivery",
+        "Inbound logistics",
+        "Transportation concepts",
+        "Distribution processes",
+        "Delivery scheduling",
+        "Shipment processes",
+        "Order fulfillment",
+        "Logistics execution"
+      ]
+    },
+    {
+      "module": "Warehouse & Inventory Processes",
+      "subtopics": [
+        "Warehouse management concepts",
+        "Storage processes",
+        "Goods movement",
+        "Inventory visibility",
+        "Stock transfer",
+        "Warehouse operations",
+        "Picking and putaway concepts",
+        "Warehouse integration with logistics"
+      ]
+    },
+    {
+      "module": "SAP SCM Integration",
+      "subtopics": [
+        "SAP SCM and SAP ERP integration",
+        "Integration with procurement",
+        "Integration with sales and distribution",
+        "Integration with materials management",
+        "Integration with production planning",
+        "Integration with warehouse processes",
+        "Cross-functional business processes",
+        "Data flow across SAP modules"
+      ]
+    },
+    {
+      "module": "SAP SCM Analytics & Visibility",
+      "subtopics": [
+        "Supply chain monitoring",
+        "Operational reporting",
+        "KPI concepts",
+        "Supply chain visibility",
+        "Planning analytics",
+        "Inventory analytics",
+        "Performance monitoring",
+        "Business decision support"
+      ]
+    },
+    {
+      "module": "Advanced SAP SCM Concepts",
+      "subtopics": [
+        "SAP Advanced Planning concepts",
+        "APO-related concepts",
+        "Supply Network Collaboration",
+        "Supply Chain Event Management",
+        "SAP EWM/WM integration",
+        "SAP S/4HANA supply-chain processes",
+        "Modern SAP supply-chain planning",
+        "SAP Business AI and intelligent supply-chain concepts"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP SCM?",
+      "answer": "SAP SCM stands for SAP Supply Chain Management. It covers technologies and business processes used to plan, coordinate, execute, and monitor supply-chain operations."
+    },
+    {
+      "question": "What is SAP SCM Training?",
+      "answer": "SAP SCM Training teaches learners how SAP supports supply-chain processes such as planning, procurement, inventory, manufacturing, logistics, warehousing, distribution, and supply-chain visibility."
+    },
+    {
+      "question": "Is SAP SCM difficult to learn?",
+      "answer": "SAP SCM can involve multiple business processes and integrations. A structured course with practical scenarios can help beginners understand the concepts progressively."
+    },
+    {
+      "question": "Who should learn SAP SCM?",
+      "answer": "Supply-chain professionals, procurement professionals, logistics professionals, manufacturing professionals, ERP professionals, SAP beginners, working professionals, and career switchers can consider SAP SCM training."
+    },
+    {
+      "question": "Does ICLP Technologies provide SAP SCM online training?",
+      "answer": "Yes. ICLP Technologies provides live online SAP SCM training with instructor-led sessions, practical learning, and flexible scheduling."
+    },
+    {
+      "question": "Is SAP SCM training available in Chennai?",
+      "answer": "Yes. ICLP Technologies offers SAP SCM training for learners in Chennai through available online and classroom training options."
+    },
+    {
+      "question": "Can working professionals join SAP SCM training?",
+      "answer": "Yes. Flexible weekday, evening, weekend, and customized schedules can be discussed based on the training requirement."
+    },
+    {
+      "question": "Does the SAP SCM course include practical training?",
+      "answer": "The training is designed to include practical demonstrations, business scenarios, exercises, and project-oriented learning."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement support?",
+      "answer": "ICLP Technologies provides career guidance, resume preparation, interview preparation, and job-assistance support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance, and hiring organization."
+    },
+    {
+      "question": "Does ICLP Technologies provide SAP certification?",
+      "answer": "ICLP Technologies can provide course completion documentation where applicable and guide learners toward relevant official SAP certification pathways. Official SAP certification should be obtained through SAP's current certification process."
+    }
+  ],
+  "duration": "",
+  "skill_level": "Beginner to Advanced",
+  "image": "",
+  "placement_assurance": false,
+  "projects": [
+    "Project 1 – Supply Chain Planning: configure and analyze a planning scenario involving demand, supply, material availability, and planning requirements",
+    "Project 2 – Procurement & Inventory: requirement creation through purchasing, goods receipt, and stock management",
+    "Project 3 – Production Planning: materials, BOM, planning requirements, capacity, and production execution",
+    "Project 4 – Logistics & Distribution: sales order, delivery, shipment, inventory, and distribution",
+    "Project 5 – SAP SCM Integration: how SCM interacts with procurement, sales, production, inventory, warehouse, and logistics"
+  ]
+},
          {
   "course_name": "SAP MM",
     "name": "SAP MM Training in Chennai",
@@ -7634,190 +7663,548 @@
             "Utility Financial Accounting Setup"
           ]
         },
-        {
-          "course_name": "SAP SCM",
-                    "name": "SAP SCM Training in Chennai",
-          "path": "sap-scm-training-in-chennai",
-          "meta_title": "SAP SCM Training in Chennai | SAP Supply Chain Management Training in Chennai | SAP SCM Certification",
-          "meta_description": "Master SAP Supply Chain Management (SCM) with our hands-on training. Learn demand planning, production execution, integration, forecasting, and optimization.",
-          "description": "Comprehensive SAP SCM training covering demand management, material requirement planning, production execution, integration, forecasting, and supply network optimization for efficient supply chain operations.",
-          "what_youll_learn": [
-            "Understand SAP SCM architecture and integration with SAP ERP",
-            "Configure and execute demand management and material planning",
-            "Perform production execution and goods movements in SCM",
-            "Set up and monitor integration models between SAP R/3 and SCM",
-            "Manage master data including locations, materials, and resources",
-            "Configure and model supply chain networks using PPM and PDS",
-            "Implement demand planning and forecasting using APO tools",
-            "Optimize supply network planning and deployment processes"
-          ],
-          "syllabus": [
-            {
-              "module": "Demand Management",
-              "subtopics": [
-                "PIR creation",
-                "PIR consumption"
-              ]
-            },
-            {
-              "module": "Material Requirement Planning",
-              "subtopics": [
-                "Planned order creation/Purchase requisition creation",
-                "Planned order conversion"
-              ]
-            },
-            {
-              "module": "Production Execution",
-              "subtopics": [
-                "Order creation",
-                "Order release",
-                "Goods Issue",
-                "Order confirmation",
-                "Goods receipt",
-                "Order closure"
-              ]
-            },
-            {
-              "module": "Integration in SAP SCM",
-              "subtopics": [
-                "Generating and Activating Integration Models",
-                "Monitoring and Error handling tools for integrating SAP R/3 and SAP SCM",
-                "Incremental Transfers for Master Data Changes",
-                "Organizing Integration Models"
-              ]
-            },
-            {
-              "module": "Integrated SCM Master Data",
-              "subtopics": [
-                "Locations in SAP SCM",
-                "Material Masters in SAP SCM",
-                "Resources in SAP SCM",
-                "Production Process Models (PPM)",
-                "Production Data Structure (PDS)",
-                "Purchasing Information Records",
-                "Transportation Lanes",
-                "Master Recipes and the PPM"
-              ]
-            },
-            {
-              "module": "Modeling in mySAP SCM",
-              "subtopics": [
-                "Models",
-                "Versions in SAP SCM",
-                "Modeling with the Supply Chain Engineer"
-              ]
-            },
-            {
-              "module": "Integrating Transactional Data",
-              "subtopics": [
-                "Setting up Transactional Data Transfer",
-                "Generating and Activating Integration Models"
-              ]
-            },
-            {
-              "module": "Demand Planning Configuration",
-              "subtopics": [
-                "Planning Object Structure",
-                "Characteristic Value Combinations",
-                "Planning Areas",
-                "Product Interchangeability",
-                "Proportional Factors",
-                "Version Management"
-              ]
-            },
-            {
-              "module": "Planning Books and Data Views",
-              "subtopics": [
-                "Creating Planning Books and Data Views",
-                "Macros"
-              ]
-            },
-            {
-              "module": "Interactive Planning",
-              "subtopics": [
-                "Navigation in the Interactive Planning Table",
-                "Additional Features of the Interactive Planning Table"
-              ]
-            },
-            {
-              "module": "Forecasting",
-              "subtopics": [
-                "Executing a Univariate Forecast",
-                "Composite Forecast",
-                "Consensus Based Forecasting (Optional)",
-                "Forecast Alert Profile (Optional)",
-                "Lifecycle Planning",
-                "Promotion Planning",
-                "Info Cubes"
-              ]
-            },
-            {
-              "module": "Master Data and Transaction Data in SNP",
-              "subtopics": [
-                "Working with Master Data",
-                "APO Product Master",
-                "APO Resource Master",
-                "Introducing the Production Process Model",
-                "Introducing Quota Arrangements",
-                "Transactional Data used in Supply Network Planning"
-              ]
-            },
-            {
-              "module": "SNP Configuration",
-              "subtopics": [
-                "Planning Areas",
-                "Planning Books",
-                "Macros and Alerts",
-                "Navigation in the Planning Table",
-                "Introducing Quota Arrangements",
-                "Transactional Data used in Supply Network Planning"
-              ]
-            },
-            {
-              "module": "The Supply Network Planning Heuristic",
-              "subtopics": [
-                "SNP Heuristic Run",
-                "Capacity Check and Leveling",
-                "Planning Supplier Constraints using the SNP Heuristic",
-                "SNP Heuristic Scheduling",
-                "Hierarchical Planning"
-              ]
-            },
-            {
-              "module": "SNP Run Using Capable to Match",
-              "subtopics": [
-                "CTM Process",
-                "Alternative PPMs in CTM"
-              ]
-            },
-            {
-              "module": "Interchangeability",
-              "subtopics": []
-            },
-            {
-              "module": "Safety Stock Planning",
-              "subtopics": []
-            },
-            {
-              "module": "Deployment and the Transport Load Builder",
-              "subtopics": []
-            },
-            {
-              "module": "Optimization",
-              "subtopics": []
-            }
-          ],
-          "duration": "60-70 hours",
-          "skill_level": "Advanced",
-          "image": "/sap-scm-training-in-chennai.jfif",
-          "placement_assurance": true,
-          "projects": [
-            "Demand and Supply Planning Model Implementation",
-            "Integration of SAP ERP with SCM for Real-time Data",
-            "Forecasting and Planning Book Configuration",
-            "Supply Network Optimization using SNP"
+{
+  "course_name": "SAP SCM",
+  "path": "sap-scm-training-in-chennai",
+                 "image": "/sap-scm-training-in-chennai.jfif",
+  "name": "SAP SCM Training in Chennai with Live Online Training & Career Support",
+  "canonical_url": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai/#sap-scm-training-service",
+        "name": "SAP SCM Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "SAP SCM Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai/#course",
+        "name": "SAP SCM Course Online",
+        "description": "Instructor-led SAP SCM training covering supply chain planning, demand and supply planning, procurement, inventory management, production planning concepts, logistics and distribution, warehouse processes, SAP integration, and supply chain analytics. Includes hands-on practice, real-time business scenarios, project-oriented learning, and career guidance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": ["Online", "Onsite"],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "keywords": "SAP SCM Course, SAP SCM Training, SAP Supply Chain Management, SAP SCM Online Training, SAP SCM Course in Chennai",
+        "about": [
+          { "@type": "Thing", "name": "Supply Chain Planning" },
+          { "@type": "Thing", "name": "Procurement & Inventory Management" },
+          { "@type": "Thing", "name": "Logistics & Distribution" },
+          { "@type": "Thing", "name": "SAP Integration" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Introduction to SAP SCM",
+            "Supply Chain Planning",
+            "Procurement & Inventory Management",
+            "Production & Manufacturing Integration",
+            "Logistics & Distribution",
+            "Warehouse & Inventory Processes",
+            "SAP SCM Integration",
+            "SAP SCM Analytics & Visibility",
+            "Advanced SAP SCM Concepts"
           ]
         },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "SAP SCM Training", "item": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/sap/sap-scm-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP SCM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP SCM stands for SAP Supply Chain Management. It covers technologies and business processes used to plan, coordinate, execute, and monitor supply-chain operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is SAP SCM Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP SCM Training teaches learners how SAP supports supply-chain processes such as planning, procurement, inventory, manufacturing, logistics, warehousing, distribution, and supply-chain visibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP SCM difficult to learn?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP SCM can involve multiple business processes and integrations. A structured course with practical scenarios can help beginners understand the concepts progressively."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should learn SAP SCM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Supply-chain professionals, procurement professionals, logistics professionals, manufacturing professionals, ERP professionals, SAP beginners, working professionals, and career switchers can consider SAP SCM training."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide SAP SCM online training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides live online SAP SCM training with instructor-led sessions, practical learning, and flexible scheduling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP SCM training available in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers SAP SCM training for learners in Chennai through available online and classroom training options."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can working professionals join SAP SCM training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Flexible weekday, evening, weekend, and customized schedules can be discussed based on the training requirement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the SAP SCM course include practical training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The training is designed to include practical demonstrations, business scenarios, exercises, and project-oriented learning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ICLP Technologies provides career guidance, resume preparation, interview preparation, and job-assistance support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance, and hiring organization."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide SAP certification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ICLP Technologies can provide course completion documentation where applicable and guide learners toward relevant official SAP certification pathways. Official SAP certification should be obtained through SAP's current certification process."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta_title": "SAP SCM Training in Chennai | SAP SCM Course | ICLP Technologies",
+  "meta_description": "Join SAP SCM Training in Chennai with ICLP Technologies. Learn SAP Supply Chain Management through live training, hands-on practice, real-time scenarios, projects, and career support. Online & classroom options available.",
+  "description": "ICLP Technologies offers comprehensive SAP SCM Training in Chennai designed for students, working professionals, SAP consultants, supply chain professionals, and career switchers who want to build practical expertise in SAP Supply Chain Management. Our SAP SCM Course focuses on real-world supply chain processes, SAP business scenarios, hands-on practice, functional concepts, process integration, and project-oriented learning. The training is structured to help learners understand how SAP supports supply chain planning, procurement, inventory, production, logistics, and order fulfillment processes. Key areas covered include Supply Chain Planning, Demand Planning, Supply and Inventory Planning, Procurement & Purchasing, Inventory Management, Warehouse & Logistics Processes, Production Planning Concepts, Transportation & Distribution, Order Fulfillment, Supply Chain Execution, SAP Integration Concepts, Reporting & Analytics, and Real-Time Supply Chain Visibility.",
+  "career_benefits": {
+    "heading": "Why Learn <strong>SAP SCM</strong>?",
+    "description": "Modern organizations require connected supply chains that can respond quickly to changing demand, inventory requirements, procurement conditions, production schedules, and logistics operations. <strong>SAP SCM (Supply Chain Management)</strong> helps organizations plan, coordinate, execute, and monitor supply-chain activities across different business functions.",
+    "points": [
+      "<strong>Wide Skill Relevance:</strong> Build skills relevant to supply chain planning, procurement operations, inventory management, logistics management, production planning, warehouse processes, and distribution operations.",
+      "<strong>Career Growth:</strong> Prepare for roles such as SAP SCM Consultant, SAP Supply Chain Analyst, SAP Functional Consultant, SAP Planning Consultant, and SAP Logistics Consultant.",
+      "<strong>Skill Mastery:</strong> Our SAP SCM training goes beyond theory, focusing on end-to-end process flow, cross-module integration, and practical business scenarios.",
+      "<strong>Consulting Pathway:</strong> Strengthen your ERP consulting profile with skills in ERP implementation, business process analysis, and supply chain transformation."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>SAP SCM Course Curriculum</strong>",
+    "intro": "Our <strong>SAP SCM course</strong> is structured across nine modules, taking you from supply chain fundamentals through planning, procurement, production, logistics, warehouse processes, integration, analytics, and advanced SAP supply-chain concepts."
+  },
+  "track_overview_primary": {
+    "heading": "Planning, Procurement & Production Modules Covered",
+    "description": "We cover the core planning and sourcing aspects of the supply chain, including:",
+    "topics": [
+      "<strong>Supply Chain Planning</strong>: demand planning, supply planning, forecasting, and demand-supply balancing",
+      "<strong>Procurement & Inventory Management</strong>: purchase requisition, purchase order, goods receipt, and stock management",
+      "<strong>Production & Manufacturing Integration</strong>: BOM, work centers, routing, production orders, and capacity requirements",
+      "<strong>Master Data & Business Processes</strong> underpinning end-to-end supply chain flow"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "Execution, Logistics & Integration Modules Covered",
+    "description": "This section focuses on fulfillment, visibility, and cross-module integration:",
+    "topics": [
+      "<strong>Logistics & Distribution</strong>: outbound/inbound delivery, shipment, transportation, and order fulfillment",
+      "<strong>Warehouse & Inventory Processes</strong>: picking, putaway, stock transfer, and inventory visibility",
+      "<strong>SAP SCM Integration:</strong> Understanding how SCM integrates with SAP ERP, MM, SD, PP, and warehouse processes.",
+      "<strong>Analytics & Visibility</strong>: supply chain monitoring, KPI concepts, and operational reporting"
+    ]
+  },
+  "certification_info": {
+    "heading": "SAP SCM <strong>Certification Guidance</strong>",
+    "intro": "ICLP Technologies can provide guidance on relevant SAP learning and certification pathways based on the learner's selected SAP SCM track. Learners interested in SAP certification should verify the current certification code, exam format, prerequisites, and validity directly through SAP, as certification offerings can change over time.",
+    "highlights": [
+      "<strong>Pathway Guidance:</strong> Help in identifying relevant official SAP certification pathways for your chosen track.",
+      "<strong>Project-Based Learning:</strong> Work through real-time scenarios and projects to demonstrate practical understanding.",
+      "<strong>Course Completion Documentation:</strong> Provided where applicable. Official SAP certification must be obtained through SAP's current certification process."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why Choose <strong>ICLP Technologies</strong> for <strong>SAP SCM</strong> Training?",
+    "intro": "ICLP Technologies delivers practical, scenario-driven SAP SCM training that combines concept explanation, SAP demonstrations, practical exercises, business scenarios, and project-oriented learning.",
+    "instructor_expertise": {
+      "heading": "Practical <strong>Learning Approach</strong> and Support",
+      "description": "Our SAP SCM course is designed around practical learning rather than theory alone. You get live instructor-led training, hands-on exercises, doubt-clearing support, study materials, session recordings, resume preparation guidance, mock interview preparation, and career guidance. Training is suitable for beginners and professionals, with customized learning based on experience and both individual and batch options."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>SAP SCM Training</strong> Options (Online & Classroom)",
+      "description": "We cater to your busy schedule:",
+      "options": [
+        "<strong>Live Online SAP SCM Training:</strong> Instructor-led classes from anywhere with interactive sessions, demonstrations, practical exercises, and mentor support.",
+        "<strong>Classroom SAP SCM Training in Chennai:</strong> Instructor-led offline sessions with direct interaction, arranged for learners who prefer classroom learning.",
+        "<strong>Weekend SAP SCM Training:</strong> Weekend batches suited to working professionals.",
+        "<strong>Fast-Track SAP SCM Training:</strong> Accelerated options for professionals with prior SAP or supply-chain experience.",
+        "<strong>Self-Paced Learning:</strong> Recorded sessions and learning materials for revision and flexible learning, according to the selected training plan."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "SAP SCM", "icon": "" },
+    { "name": "SAP ERP", "icon": "" },
+    { "name": "SAP S/4HANA Supply Chain Processes", "icon": "" },
+    { "name": "SAP Advanced Planning (APO) Concepts", "icon": "" },
+    { "name": "Demand Planning", "icon": "" },
+    { "name": "Supply & Inventory Planning", "icon": "" },
+    { "name": "Material Requirements Planning (MRP)", "icon": "" },
+    { "name": "Procurement & Purchasing", "icon": "" },
+    { "name": "Inventory Management", "icon": "" },
+    { "name": "Production Planning", "icon": "" },
+    { "name": "Warehouse Management (SAP EWM/WM)", "icon": "" },
+    { "name": "Logistics Execution", "icon": "" },
+    { "name": "Supply Network Collaboration", "icon": "" },
+    { "name": "Supply Chain Event Management", "icon": "" },
+    { "name": "Reporting & Analytics", "icon": "" },
+    { "name": "SAP MM Integration", "icon": "" },
+    { "name": "SAP SD Integration", "icon": "" },
+    { "name": "SAP PP Integration", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "End-to-end supply chain process flow in SAP",
+    "Demand planning, supply planning and forecasting concepts",
+    "Procurement and inventory management processes",
+    "Production planning, BOM, routing and capacity concepts",
+    "Logistics, outbound delivery and distribution processes",
+    "Warehouse processes: picking, putaway and stock transfer",
+    "SAP SCM and ERP integration across MM, SD, PP and warehouse",
+    "Supply chain analytics, KPIs and visibility",
+    "Real-time project scenarios"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to SAP SCM",
+      "subtopics": [
+        "Introduction to Supply Chain Management",
+        "SAP SCM overview",
+        "Supply chain business processes",
+        "SAP ERP and SCM integration",
+        "End-to-end supply chain flow",
+        "SAP SCM architecture overview",
+        "Supply chain planning and execution",
+        "Master data concepts"
+      ]
+    },
+    {
+      "module": "Supply Chain Planning",
+      "subtopics": [
+        "Demand planning concepts",
+        "Supply planning",
+        "Demand and supply balancing",
+        "Forecasting concepts",
+        "Planning strategies",
+        "Material requirements planning concepts",
+        "Capacity planning",
+        "Planning scenarios",
+        "Supply chain planning integration"
+      ]
+    },
+    {
+      "module": "Procurement & Inventory Management",
+      "subtopics": [
+        "Procurement process overview",
+        "Purchase requisition",
+        "Purchase order",
+        "Goods receipt",
+        "Inventory movements",
+        "Stock management",
+        "Material availability",
+        "Inventory planning",
+        "Supplier-related processes",
+        "Procurement integration"
+      ]
+    },
+    {
+      "module": "Production & Manufacturing Integration",
+      "subtopics": [
+        "Production planning concepts",
+        "Material requirements planning",
+        "Production orders",
+        "Bill of Materials",
+        "Work centers",
+        "Routing concepts",
+        "Capacity requirements",
+        "Production execution",
+        "Manufacturing integration with supply chain"
+      ]
+    },
+    {
+      "module": "Logistics & Distribution",
+      "subtopics": [
+        "Logistics processes",
+        "Outbound delivery",
+        "Inbound logistics",
+        "Transportation concepts",
+        "Distribution processes",
+        "Delivery scheduling",
+        "Shipment processes",
+        "Order fulfillment",
+        "Logistics execution"
+      ]
+    },
+    {
+      "module": "Warehouse & Inventory Processes",
+      "subtopics": [
+        "Warehouse management concepts",
+        "Storage processes",
+        "Goods movement",
+        "Inventory visibility",
+        "Stock transfer",
+        "Warehouse operations",
+        "Picking and putaway concepts",
+        "Warehouse integration with logistics"
+      ]
+    },
+    {
+      "module": "SAP SCM Integration",
+      "subtopics": [
+        "SAP SCM and SAP ERP integration",
+        "Integration with procurement",
+        "Integration with sales and distribution",
+        "Integration with materials management",
+        "Integration with production planning",
+        "Integration with warehouse processes",
+        "Cross-functional business processes",
+        "Data flow across SAP modules"
+      ]
+    },
+    {
+      "module": "SAP SCM Analytics & Visibility",
+      "subtopics": [
+        "Supply chain monitoring",
+        "Operational reporting",
+        "KPI concepts",
+        "Supply chain visibility",
+        "Planning analytics",
+        "Inventory analytics",
+        "Performance monitoring",
+        "Business decision support"
+      ]
+    },
+    {
+      "module": "Advanced SAP SCM Concepts",
+      "subtopics": [
+        "SAP Advanced Planning concepts",
+        "APO-related concepts",
+        "Supply Network Collaboration",
+        "Supply Chain Event Management",
+        "SAP EWM/WM integration",
+        "SAP S/4HANA supply-chain processes",
+        "Modern SAP supply-chain planning",
+        "SAP Business AI and intelligent supply-chain concepts"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP SCM?",
+      "answer": "SAP SCM stands for SAP Supply Chain Management. It covers technologies and business processes used to plan, coordinate, execute, and monitor supply-chain operations."
+    },
+    {
+      "question": "What is SAP SCM Training?",
+      "answer": "SAP SCM Training teaches learners how SAP supports supply-chain processes such as planning, procurement, inventory, manufacturing, logistics, warehousing, distribution, and supply-chain visibility."
+    },
+    {
+      "question": "Is SAP SCM difficult to learn?",
+      "answer": "SAP SCM can involve multiple business processes and integrations. A structured course with practical scenarios can help beginners understand the concepts progressively."
+    },
+    {
+      "question": "Who should learn SAP SCM?",
+      "answer": "Supply-chain professionals, procurement professionals, logistics professionals, manufacturing professionals, ERP professionals, SAP beginners, working professionals, and career switchers can consider SAP SCM training."
+    },
+    {
+      "question": "Does ICLP Technologies provide SAP SCM online training?",
+      "answer": "Yes. ICLP Technologies provides live online SAP SCM training with instructor-led sessions, practical learning, and flexible scheduling."
+    },
+    {
+      "question": "Is SAP SCM training available in Chennai?",
+      "answer": "Yes. ICLP Technologies offers SAP SCM training for learners in Chennai through available online and classroom training options."
+    },
+    {
+      "question": "Can working professionals join SAP SCM training?",
+      "answer": "Yes. Flexible weekday, evening, weekend, and customized schedules can be discussed based on the training requirement."
+    },
+    {
+      "question": "Does the SAP SCM course include practical training?",
+      "answer": "The training is designed to include practical demonstrations, business scenarios, exercises, and project-oriented learning."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement support?",
+      "answer": "ICLP Technologies provides career guidance, resume preparation, interview preparation, and job-assistance support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance, and hiring organization."
+    },
+    {
+      "question": "Does ICLP Technologies provide SAP certification?",
+      "answer": "ICLP Technologies can provide course completion documentation where applicable and guide learners toward relevant official SAP certification pathways. Official SAP certification should be obtained through SAP's current certification process."
+    }
+  ],
+  "real_time_projects": [
+    {
+      "title": "Project 1 – Supply Chain Planning",
+      "description": "Configure and analyze a supply-chain planning scenario involving demand, supply, material availability, and planning requirements."
+    },
+    {
+      "title": "Project 2 – Procurement & Inventory",
+      "description": "Understand the complete procurement and inventory flow from requirement creation through purchasing, goods receipt, and stock management."
+    },
+    {
+      "title": "Project 3 – Production Planning",
+      "description": "Work through a production planning scenario covering materials, BOM, planning requirements, capacity, and production execution."
+    },
+    {
+      "title": "Project 4 – Logistics & Distribution",
+      "description": "Understand an end-to-end logistics process involving sales order, delivery, shipment, inventory, and distribution."
+    },
+    {
+      "title": "Project 5 – SAP SCM Integration",
+      "description": "Analyze how SCM processes interact with procurement, sales, production, inventory, warehouse, and logistics functions."
+    }
+  ],
+  "hands_on_training": [
+    "Procure-to-stock processes",
+    "Plan-to-produce processes",
+    "Order-to-delivery processes",
+    "Inventory planning",
+    "Demand and supply planning",
+    "Warehouse processes",
+    "Logistics execution",
+    "Production planning",
+    "Supply chain monitoring",
+    "Cross-module integration scenarios"
+  ],
+  "who_can_join": [
+    "Fresh graduates",
+    "Working professionals",
+    "Supply chain professionals",
+    "Procurement professionals",
+    "Logistics professionals",
+    "Warehouse professionals",
+    "Manufacturing professionals",
+    "ERP professionals",
+    "SAP beginners",
+    "SAP functional consultants",
+    "Career switchers",
+    "Professionals looking to move into SAP consulting"
+  ],
+  "career_opportunities": [
+    "SAP SCM Consultant",
+    "SAP Supply Chain Analyst",
+    "SAP Functional Consultant",
+    "SAP Planning Consultant",
+    "SAP Logistics Consultant",
+    "SAP Supply Chain Business Analyst",
+    "SAP MM/SCM Consultant",
+    "SAP EWM/SCM Consultant",
+    "Supply Chain Functional Analyst",
+    "Supply Chain Process Consultant",
+    "SAP Implementation Consultant"
+  ],
+  "corporate_training": {
+    "heading": "SAP SCM Corporate Training",
+    "description": "ICLP Technologies also provides customized SAP SCM Corporate Training for organizations and teams, tailored to:",
+    "factors": [
+      "Business processes",
+      "SAP environment",
+      "Employee experience",
+      "Project requirements",
+      "Functional requirements",
+      "Team size",
+      "Training duration",
+      "Preferred delivery mode"
+    ]
+  },
+  "seo": {
+    "primary_keyword": "SAP SCM Training in Chennai",
+    "secondary_keywords": [
+      "SAP SCM Course in Chennai",
+      "SAP Supply Chain Management Training in Chennai",
+      "SAP SCM Online Training",
+      "SAP SCM Training Institute in Chennai",
+      "SAP SCM Course Online",
+      "SAP SCM Certification Training",
+      "SAP SCM Functional Training",
+      "SAP Supply Chain Management Course",
+      "SAP SCM Training for Working Professionals",
+      "SAP SCM Classes in Chennai"
+    ]
+  }
+},
         {
           "course_name": "SAP UI5 & Fiori",
           "name": "SAP UI5 & Fiori Training in Chennai",
