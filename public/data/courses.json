@@ -1,5 +1,393 @@
 {
   "categories": [
+     {
+      "category_name": "Data Catalogue",
+      "path":"data-catalogue",
+      "sub_categories": [
+         {
+"course_name": "Informatica Data Governance",
+"name":"Informatica Data Governance Training in Chennai",
+"path": "informatica-data-governance-training-in-chennai",
+"meta_title":"Informatica Data Governance Training in Chennai | ICLP Technologies",
+"meta_description":"Enroll in the Best Informatica Data Governance Training in Chennai at ICLP Technologies. Learn Axon, EDC, Data Quality, Lineage & Metadata Management with 100% Placement Assistance.",
+"schema": {
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "EducationalOrganization",
+"@id": "https://iclptech.in/#organization",
+"name": "ICLP Technologies",
+"url": "https://iclptech.in",
+"logo": "https://iclptech.in/favicon.png",
+"sameAs": [
+"https://www.instagram.com/iclp_technologies",
+"https://facebook.com/iclp-technologies",
+"http://linkedin.com/company/iclp-technologies",
+"https://twitter.com/iclp_tech",
+"https://youtube.com/@iclp_technologies"
+],
+"areaServed": {
+"@type": "Place",
+"name": "Chennai"
+},
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+91-8681026181",
+"contactType": "customer support",
+"areaServed": "IN",
+"availableLanguage": "English"
+}
+},
+{
+"@type": "Service",
+"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#data-governance-training-service",
+"name": "Informatica Data Governance Training",
+"provider": {
+"@id": "https://iclptech.in/#organization"
+},
+"areaServed": "India",
+"serviceType": "Informatica Data Governance Certification Training"
+},
+{
+"@type": "Course",
+"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#course",
+"name": "Informatica Data Governance Course",
+"description": "Comprehensive training on Informatica Data Governance covering Axon, EDC, data quality management, lineage analysis, metadata management, and enterprise data governance frameworks with hands-on implementation.",
+"provider": {
+"@id": "https://iclptech.in/#organization"
+},
+"courseMode": "Online",
+"inLanguage": "English",
+"educationalLevel": "Intermediate to Advanced",
+"occupationalCredentialAwarded": "Informatica Data Governance Course Completion Certificate",
+"timeRequired": "PT40H",
+"keywords": "Informatica Data Governance Course, Axon Data Governance, Informatica EDC, Data Quality Management, Data Lineage Training, Enterprise Data Catalog",
+"about": [
+{
+"@type": "Thing",
+"name": "Data Governance"
+},
+{
+"@type": "Thing",
+"name": "Informatica Axon"
+},
+{
+"@type": "Thing",
+"name": "Enterprise Data Catalog"
+}
+],
+"audience": {
+"@type": "EducationalAudience",
+"educationalRole": "professional"
+},
+"hasCourseInstance": {
+"@type": "CourseInstance",
+"courseMode": "Online",
+"inLanguage": "English",
+"location": {
+"@type": "VirtualLocation",
+"name": "Online"
+}
+},
+"offers": {
+"@type": "Offer",
+"url": "https://iclptech.in/course/informatica-data-governance-training-in-chennai",
+"availability": "https://schema.org/InStock"
+},
+"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.8",
+"ratingCount": "3796"
+}
+},
+{
+"@type": "BreadcrumbList",
+"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#breadcrumb",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "Home",
+"item": "https://iclptech.in"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Courses",
+"item": "https://iclptech.in/courses/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Informatica Data Governance Course",
+"item": "https://iclptech.in/course/informatica-data-governance-training-in-chennai"
+}
+]
+},
+{
+"@type": "FAQPage",
+"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#faq",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is Informatica Data Governance?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
+}
+},
+{
+"@type": "Question",
+"name": "Who should take the Informatica Data Governance Course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
+}
+},
+{
+"@type": "Question",
+"name": "What are the prerequisites for this course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
+}
+},
+{
+"@type": "Question",
+"name": "What Informatica tools are covered?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
+}
+},
+{
+"@type": "Question",
+"name": "How long is the Informatica Data Governance Course?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
+}
+},
+{
+"@type": "Question",
+"name": "Is Data Governance a good career choice?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
+}
+},
+{
+"@type": "Question",
+"name": "What job roles after completion?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
+}
+},
+{
+"@type": "Question",
+"name": "What is the salary range for Data Governance roles?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
+}
+},
+{
+"@type": "Question",
+"name": "Does the course include hands-on practice?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
+}
+},
+{
+"@type": "Question",
+"name": "Will I receive certification?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
+}
+}
+]
+}
+]
+},
+"description": "Master Informatica Data Governance with hands-on training on Axon, EDC, data lineage, quality management, metadata management, and enterprise governance frameworks.",
+"what_youll_learn": [
+"Data governance fundamentals, frameworks, and enterprise roles",
+"Informatica Axon for business glossary and governance workflows",
+"Enterprise Data Catalog (EDC) for data discovery and lineage",
+"Data quality management with Informatica IDQ",
+"Metadata management and classification techniques",
+"End-to-end data lineage and impact analysis",
+"Security, compliance, and role-based access control",
+"Integration strategies across Informatica ecosystem",
+"Governance dashboards, KPIs, and reporting"
+],
+"syllabus": [
+{
+"module": "Data Governance Fundamentals",
+"subtopics": [
+"Introduction to Data Governance",
+"Importance in modern enterprises",
+"Data Governance vs Data Management",
+"Roles: Data Owner, Data Steward, Data Custodian",
+"Governance frameworks & policies"
+]
+},
+{
+"module": "Introduction to Informatica Platform",
+"subtopics": [
+"Overview of Informatica",
+"Informatica Intelligent Data Management Cloud (IDMC)",
+"Core components of Informatica ecosystem",
+"Integration with enterprise systems"
+]
+},
+{
+"module": "Informatica Axon Data Governance",
+"subtopics": [
+"Introduction to Informatica Axon Data Governance",
+"Axon architecture & key features",
+"Data governance framework implementation",
+"Business glossary creation & management",
+"Data domains, systems, and attributes",
+"Roles & responsibilities in Axon"
+]
+},
+{
+"module": "Business Glossary & Metadata Management",
+"subtopics": [
+"Glossary design best practices",
+"Creating business terms & definitions",
+"Metadata management concepts",
+"Linking business and technical metadata",
+"Data classification & tagging"
+]
+},
+{
+"module": "Informatica Enterprise Data Catalog (EDC)",
+"subtopics": [
+"Overview of Informatica Enterprise Data Catalog",
+"Data discovery & profiling",
+"Metadata extraction",
+"Data lineage tracking",
+"Impact analysis",
+"Integration with Axon"
+]
+},
+{
+"module": "Data Lineage & Impact Analysis",
+"subtopics": [
+"End-to-end data lineage concepts",
+"Data flow visualization",
+"Upstream & downstream impact analysis",
+"Regulatory compliance tracking"
+]
+},
+{
+"module": "Data Quality Management",
+"subtopics": [
+"Introduction to Informatica Data Quality",
+"Data profiling techniques",
+"Data validation rules",
+"Data cleansing & standardization",
+"Scorecards and monitoring"
+]
+},
+{
+"module": "Workflow & Change Management",
+"subtopics": [
+"Governance workflows in Axon",
+"Change request lifecycle",
+"Approval workflows",
+"Notifications & audit tracking"
+]
+},
+{
+"module": "Security & Access Management",
+"subtopics": [
+"Role-based access control",
+"User permissions",
+"Data security policies",
+"Compliance standards (GDPR basics)"
+]
+},
+{
+"module": "Integration & Implementation",
+"subtopics": [
+"Integrating Axon with EDC & IDQ",
+"Real-time use cases",
+"Data governance implementation lifecycle",
+"Deployment strategies"
+]
+},
+{
+"module": "Reporting & Analytics",
+"subtopics": [
+"Governance dashboards",
+"KPI tracking",
+"Data quality reports",
+"Business insights generation"
+]
+}
+],
+"faqs": [
+{
+"question": "What is Informatica Data Governance?",
+"answer": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
+},
+{
+"question": "Who should take the Informatica Data Governance Course?",
+"answer": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
+},
+{
+"question": "What are the prerequisites for this course?",
+"answer": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
+},
+{
+"question": "What Informatica tools are covered?",
+"answer": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
+},
+{
+"question": "How long is the Informatica Data Governance Course?",
+"answer": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
+},
+{
+"question": "Is Data Governance a good career choice?",
+"answer": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
+},
+{
+"question": "What job roles after completion?",
+"answer": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
+},
+{
+"question": "What is the salary range for Data Governance roles?",
+"answer": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
+},
+{
+"question": "Does the course include hands-on practice?",
+"answer": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
+},
+{
+"question": "Will I receive certification?",
+"answer": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
+}
+],
+"duration": "40 hours",
+"skill_level": "Intermediate to Advanced",
+"image": "/CourseDetails/informatica-data-governance.png",
+"placement_assurance": true,
+"projects": [
+"Enterprise Business Glossary Implementation",
+"Data Lineage Mapping Project",
+"Data Quality Scorecard Dashboard",
+"Governance Workflow Automation"
+]
+}
+
+      ]
+    },
     {
       "category_name": "Oracle",
       "path":"oracle",
@@ -3635,6 +4023,353 @@
       "question": "What makes ICLP Tech's SAP FICO course different?",
       "answer": "ICLP Tech offers the best SAP FICO training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
     }
+  ]
+},{
+  "course_name": "SAP HCM",
+  "name": "SAP HCM Training in Chennai",
+  "path": "sap-hcm-training-in-chennai",
+  "meta_title": "SAP HCM Training in Chennai | SAP HR Course | ICLP Technologies",
+  "meta_description": "Learn SAP HR/HCM at ICLP Technologies in Chennai. Covers Organization Management, Personnel Administration, Time Management, Payroll, Recruitment and more with hands-on practice.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/sap-hcm-training-in-chennai/#sap-hcm-training-service",
+        "name": "SAP HCM Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "SAP HR/HCM Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/sap-hcm-training-in-chennai/#course",
+        "name": "SAP HCM Course",
+        "description": "Comprehensive SAP HR/HCM training covering Organization Management, Personnel Administration, Time Management, Payroll, Recruitment, Training & Event Management, Personnel Development, and ABAP HR concepts with hands-on configuration practice.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "keywords": "SAP HCM Course, SAP HR Training, SAP HCM Payroll, Organization Management, Personnel Administration, Time Management, SAP HR Online Training",
+        "about": [
+          { "@type": "Thing", "name": "SAP HCM" },
+          { "@type": "Thing", "name": "Personnel Administration" },
+          { "@type": "Thing", "name": "SAP Payroll" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "professional"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "VirtualLocation",
+            "name": "Online"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/sap-hcm-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/sap-hcm-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "SAP HCM Course", "item": "https://iclptech.in/course/sap-hcm-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/sap-hcm-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SAP HCM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SAP HCM (Human Capital Management), also known as SAP HR, is the SAP module used to manage HR processes such as organization structure, employee master data, time management, payroll, recruitment, training and personnel development."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should take the SAP HCM course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HR professionals, payroll professionals, fresh graduates, SAP beginners, ERP professionals and anyone looking to build a career in SAP HR/HCM consulting or support."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the prerequisites for this course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are no strict prerequisites. The course begins with ERP and SAP fundamentals. Basic knowledge of HR processes can be helpful but is not mandatory."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What modules are covered in SAP HCM training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course covers Organization Management, Personnel Administration, Time Management, Payroll, Recruitment, Training & Event Management, Personnel Development and ABAP HR concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include hands-on practice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The training includes practical configuration and scenarios such as building an organizational structure, configuring personnel actions, setting up work schedules, creating wage types and running payroll."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ICLP Technologies provides career guidance, resume preparation and interview support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance and hiring organization, and is not guaranteed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SAP certification included with the training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Certification guidance can be provided. Any official SAP certification exam and credential should be completed according to SAP's current certification requirements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the SAP HCM training available online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers instructor-led SAP HCM training with practical demonstrations. Contact the team for current batch timings and training modes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Learn SAP HR/HCM with hands-on training on Organization Management, Personnel Administration, Time Management, Payroll, Recruitment, Training & Event Management, Personnel Development and ABAP HR concepts.",
+  "what_youll_learn": [
+    "SAP HR system landscape, ASAP methodology and implementation roadmap",
+    "Organizational structure creation using expert mode and simple maintenance",
+    "Enterprise and personnel structure assignment in Personnel Administration",
+    "HR master data, infotypes, features and personnel actions",
+    "Work schedules, absences, attendances and quotas in Time Management",
+    "Time evaluation, CATS, schemas and personnel calculation rules (PCRs)",
+    "Wage type creation, payments, deductions and off-cycle payroll",
+    "Recruitment, training and event management processes",
+    "Personnel development: qualifications, rating scales and appraisals",
+    "Custom infotype creation using ABAP HR concepts"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction",
+      "subtopics": [
+        "Introduction to ERP & SAP",
+        "Overview of SAP HR sub modules",
+        "System landscape – three tier architecture",
+        "ASAP methodology",
+        "System navigation",
+        "Implementation road map"
+      ]
+    },
+    {
+      "module": "Organization Management",
+      "subtopics": [
+        "Introduction to Organizational Management",
+        "Structures in SAP HCM",
+        "Objects",
+        "Relationships",
+        "Creation of organizational structure methods: Expert mode, Simple maintenance, Organizational and Staffing",
+        "Infotypes in OM",
+        "Plan version",
+        "Evaluation path",
+        "Reports"
+      ]
+    },
+    {
+      "module": "Personnel Administration",
+      "subtopics": [
+        "Enterprise structure assignment: Company, Company code, Personnel area, Personnel sub area",
+        "Personnel structure assignment: Employee group, Employee sub group, Payroll accounting area",
+        "Integration settings with OM & PA",
+        "HR master data",
+        "Accounting global settings: Period parameters, Fiscal year setting, Posting periods",
+        "Employee attributes",
+        "Infotypes in PA",
+        "Features",
+        "Infotype ranges in HR",
+        "Number ranges for employee personnel numbers",
+        "Reports",
+        "Customizing user procedures",
+        "Configuration of personnel actions: Infogroup, Action menu, Dynamic actions",
+        "Administration group",
+        "Payroll area, Control record, Period parameters, Date modifiers, Payroll period",
+        "Pay scale structure: Pay scale area, Pay scale type, Pay scale groups & levels, Employee sub group grouping for CAP"
+      ]
+    },
+    {
+      "module": "Time Management",
+      "subtopics": [
+        "Time Management infotypes",
+        "Public holidays, Holiday calendar, Factory calendar",
+        "Work schedules: Break schedules, Daily work schedules, Period work schedules, Work schedule rules",
+        "Absences & attendances",
+        "Absence types",
+        "Absence quotas & attendance quotas",
+        "Generate absence quotas",
+        "Time evaluation",
+        "CATS",
+        "Features",
+        "Functions & operations",
+        "PCRs",
+        "Schemas"
+      ]
+    },
+    {
+      "module": "Payroll",
+      "subtopics": [
+        "Payroll infotypes",
+        "Payroll area, Control record, Period parameters, Date modifiers, Payroll period",
+        "Pay scale structure: Pay scale area, Pay scale type, Pay scale groups & levels, Employee sub group grouping for CAP",
+        "Creation of wage types: Primary wage types, Technical / Secondary wage types, Customer wage types",
+        "Indirect evaluation mode",
+        "Wage type characteristics",
+        "Wage type models",
+        "Payments & deductions",
+        "Garnishments",
+        "Factoring",
+        "Off-cycle payroll",
+        "Posting to Financial Accounting (symbolic accounts)"
+      ]
+    },
+    {
+      "module": "Recruitment",
+      "subtopics": [
+        "Infotypes",
+        "Workforce requirement & advertisement",
+        "Applicant administration",
+        "Applicant selection",
+        "Applicant data",
+        "Transferring of applicant data to Personnel Administration"
+      ]
+    },
+    {
+      "module": "Training & Event Management",
+      "subtopics": [
+        "Infotypes",
+        "Training & event introduction",
+        "Training requirement",
+        "Defining cost of training",
+        "Location for the training or business event",
+        "Business event group",
+        "Business event type",
+        "Maintaining employee data for business event type"
+      ]
+    },
+    {
+      "module": "Personnel Development",
+      "subtopics": [
+        "Planning",
+        "Setting up of qualifications catalog",
+        "Setting up of rating scales",
+        "Appraisals",
+        "Old appraisals",
+        "Appraisal catalog",
+        "Appraisal system",
+        "Employee appraisal"
+      ]
+    },
+    {
+      "module": "ABAP HR Concepts",
+      "subtopics": [
+        "Creation of customer infotypes",
+        "Creation of infotype menu tab",
+        "Screen modifications",
+        "Header modifications"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is SAP HCM?",
+      "answer": "SAP HCM (Human Capital Management), also known as SAP HR, is the SAP module used to manage HR processes such as organization structure, employee master data, time management, payroll, recruitment, training and personnel development."
+    },
+    {
+      "question": "Who should take the SAP HCM course?",
+      "answer": "HR professionals, payroll professionals, fresh graduates, SAP beginners, ERP professionals and anyone looking to build a career in SAP HR/HCM consulting or support."
+    },
+    {
+      "question": "What are the prerequisites for this course?",
+      "answer": "There are no strict prerequisites. The course begins with ERP and SAP fundamentals. Basic knowledge of HR processes can be helpful but is not mandatory."
+    },
+    {
+      "question": "What modules are covered in SAP HCM training?",
+      "answer": "The course covers Organization Management, Personnel Administration, Time Management, Payroll, Recruitment, Training & Event Management, Personnel Development and ABAP HR concepts."
+    },
+    {
+      "question": "Does the course include hands-on practice?",
+      "answer": "Yes. The training includes practical configuration and scenarios such as building an organizational structure, configuring personnel actions, setting up work schedules, creating wage types and running payroll."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "ICLP Technologies provides career guidance, resume preparation and interview support as applicable to the selected training program. Employment depends on the candidate's skills, experience, interview performance and hiring organization, and is not guaranteed."
+    },
+    {
+      "question": "Is SAP certification included with the training?",
+      "answer": "Certification guidance can be provided. Any official SAP certification exam and credential should be completed according to SAP's current certification requirements."
+    },
+    {
+      "question": "Is the SAP HCM training available online?",
+      "answer": "Yes. ICLP Technologies offers instructor-led SAP HCM training with practical demonstrations. Contact the team for current batch timings and training modes."
+    }
+  ],
+  "duration": "",
+  "skill_level": "Beginner to Advanced",
+  "image": "",
+  "placement_assurance": false,
+  "projects": [
+    "Organizational Structure Creation using Expert Mode and Simple Maintenance",
+    "Enterprise and Personnel Structure Setup with Personnel Actions",
+    "Work Schedule, Absence Quota and Time Evaluation Configuration",
+    "Wage Type Creation and Payroll Run with Posting to Financial Accounting"
   ]
 },{
   "course_name": "SAP GRC Process Control",
@@ -24845,387 +25580,7 @@
     "Argus Safety Database Hands-on Project"
   ]
 },
-        {
-"course_name": "Informatica Data Governance",
-"name":"Informatica Data Governance Training in Chennai",
-"path": "informatica-data-governance-training-in-chennai",
-"meta_title":"Informatica Data Governance Training in Chennai | ICLP Technologies",
-"meta_description":"Enroll in the Best Informatica Data Governance Training in Chennai at ICLP Technologies. Learn Axon, EDC, Data Quality, Lineage & Metadata Management with 100% Placement Assistance.",
-"schema": {
-"@context": "https://schema.org",
-"@graph": [
-{
-"@type": "EducationalOrganization",
-"@id": "https://iclptech.in/#organization",
-"name": "ICLP Technologies",
-"url": "https://iclptech.in",
-"logo": "https://iclptech.in/favicon.png",
-"sameAs": [
-"https://www.instagram.com/iclp_technologies",
-"https://facebook.com/iclp-technologies",
-"http://linkedin.com/company/iclp-technologies",
-"https://twitter.com/iclp_tech",
-"https://youtube.com/@iclp_technologies"
-],
-"areaServed": {
-"@type": "Place",
-"name": "Chennai"
-},
-"contactPoint": {
-"@type": "ContactPoint",
-"telephone": "+91-8681026181",
-"contactType": "customer support",
-"areaServed": "IN",
-"availableLanguage": "English"
-}
-},
-{
-"@type": "Service",
-"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#data-governance-training-service",
-"name": "Informatica Data Governance Training",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"areaServed": "India",
-"serviceType": "Informatica Data Governance Certification Training"
-},
-{
-"@type": "Course",
-"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#course",
-"name": "Informatica Data Governance Course",
-"description": "Comprehensive training on Informatica Data Governance covering Axon, EDC, data quality management, lineage analysis, metadata management, and enterprise data governance frameworks with hands-on implementation.",
-"provider": {
-"@id": "https://iclptech.in/#organization"
-},
-"courseMode": "Online",
-"inLanguage": "English",
-"educationalLevel": "Intermediate to Advanced",
-"occupationalCredentialAwarded": "Informatica Data Governance Course Completion Certificate",
-"timeRequired": "PT40H",
-"keywords": "Informatica Data Governance Course, Axon Data Governance, Informatica EDC, Data Quality Management, Data Lineage Training, Enterprise Data Catalog",
-"about": [
-{
-"@type": "Thing",
-"name": "Data Governance"
-},
-{
-"@type": "Thing",
-"name": "Informatica Axon"
-},
-{
-"@type": "Thing",
-"name": "Enterprise Data Catalog"
-}
-],
-"audience": {
-"@type": "EducationalAudience",
-"educationalRole": "professional"
-},
-"hasCourseInstance": {
-"@type": "CourseInstance",
-"courseMode": "Online",
-"inLanguage": "English",
-"location": {
-"@type": "VirtualLocation",
-"name": "Online"
-}
-},
-"offers": {
-"@type": "Offer",
-"url": "https://iclptech.in/course/informatica-data-governance-training-in-chennai",
-"availability": "https://schema.org/InStock"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.8",
-"ratingCount": "3796"
-}
-},
-{
-"@type": "BreadcrumbList",
-"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#breadcrumb",
-"itemListElement": [
-{
-"@type": "ListItem",
-"position": 1,
-"name": "Home",
-"item": "https://iclptech.in"
-},
-{
-"@type": "ListItem",
-"position": 2,
-"name": "Courses",
-"item": "https://iclptech.in/courses/"
-},
-{
-"@type": "ListItem",
-"position": 3,
-"name": "Informatica Data Governance Course",
-"item": "https://iclptech.in/course/informatica-data-governance-training-in-chennai"
-}
-]
-},
-{
-"@type": "FAQPage",
-"@id": "https://iclptech.in/course/informatica-data-governance-training-in-chennai/#faq",
-"mainEntity": [
-{
-"@type": "Question",
-"name": "What is Informatica Data Governance?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
-}
-},
-{
-"@type": "Question",
-"name": "Who should take the Informatica Data Governance Course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
-}
-},
-{
-"@type": "Question",
-"name": "What are the prerequisites for this course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
-}
-},
-{
-"@type": "Question",
-"name": "What Informatica tools are covered?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
-}
-},
-{
-"@type": "Question",
-"name": "How long is the Informatica Data Governance Course?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
-}
-},
-{
-"@type": "Question",
-"name": "Is Data Governance a good career choice?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
-}
-},
-{
-"@type": "Question",
-"name": "What job roles after completion?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
-}
-},
-{
-"@type": "Question",
-"name": "What is the salary range for Data Governance roles?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
-}
-},
-{
-"@type": "Question",
-"name": "Does the course include hands-on practice?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
-}
-},
-{
-"@type": "Question",
-"name": "Will I receive certification?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
-}
-}
-]
-}
-]
-},
-"description": "Master Informatica Data Governance with hands-on training on Axon, EDC, data lineage, quality management, metadata management, and enterprise governance frameworks.",
-"what_youll_learn": [
-"Data governance fundamentals, frameworks, and enterprise roles",
-"Informatica Axon for business glossary and governance workflows",
-"Enterprise Data Catalog (EDC) for data discovery and lineage",
-"Data quality management with Informatica IDQ",
-"Metadata management and classification techniques",
-"End-to-end data lineage and impact analysis",
-"Security, compliance, and role-based access control",
-"Integration strategies across Informatica ecosystem",
-"Governance dashboards, KPIs, and reporting"
-],
-"syllabus": [
-{
-"module": "Data Governance Fundamentals",
-"subtopics": [
-"Introduction to Data Governance",
-"Importance in modern enterprises",
-"Data Governance vs Data Management",
-"Roles: Data Owner, Data Steward, Data Custodian",
-"Governance frameworks & policies"
-]
-},
-{
-"module": "Introduction to Informatica Platform",
-"subtopics": [
-"Overview of Informatica",
-"Informatica Intelligent Data Management Cloud (IDMC)",
-"Core components of Informatica ecosystem",
-"Integration with enterprise systems"
-]
-},
-{
-"module": "Informatica Axon Data Governance",
-"subtopics": [
-"Introduction to Informatica Axon Data Governance",
-"Axon architecture & key features",
-"Data governance framework implementation",
-"Business glossary creation & management",
-"Data domains, systems, and attributes",
-"Roles & responsibilities in Axon"
-]
-},
-{
-"module": "Business Glossary & Metadata Management",
-"subtopics": [
-"Glossary design best practices",
-"Creating business terms & definitions",
-"Metadata management concepts",
-"Linking business and technical metadata",
-"Data classification & tagging"
-]
-},
-{
-"module": "Informatica Enterprise Data Catalog (EDC)",
-"subtopics": [
-"Overview of Informatica Enterprise Data Catalog",
-"Data discovery & profiling",
-"Metadata extraction",
-"Data lineage tracking",
-"Impact analysis",
-"Integration with Axon"
-]
-},
-{
-"module": "Data Lineage & Impact Analysis",
-"subtopics": [
-"End-to-end data lineage concepts",
-"Data flow visualization",
-"Upstream & downstream impact analysis",
-"Regulatory compliance tracking"
-]
-},
-{
-"module": "Data Quality Management",
-"subtopics": [
-"Introduction to Informatica Data Quality",
-"Data profiling techniques",
-"Data validation rules",
-"Data cleansing & standardization",
-"Scorecards and monitoring"
-]
-},
-{
-"module": "Workflow & Change Management",
-"subtopics": [
-"Governance workflows in Axon",
-"Change request lifecycle",
-"Approval workflows",
-"Notifications & audit tracking"
-]
-},
-{
-"module": "Security & Access Management",
-"subtopics": [
-"Role-based access control",
-"User permissions",
-"Data security policies",
-"Compliance standards (GDPR basics)"
-]
-},
-{
-"module": "Integration & Implementation",
-"subtopics": [
-"Integrating Axon with EDC & IDQ",
-"Real-time use cases",
-"Data governance implementation lifecycle",
-"Deployment strategies"
-]
-},
-{
-"module": "Reporting & Analytics",
-"subtopics": [
-"Governance dashboards",
-"KPI tracking",
-"Data quality reports",
-"Business insights generation"
-]
-}
-],
-"faqs": [
-{
-"question": "What is Informatica Data Governance?",
-"answer": "Informatica Data Governance provides enterprise-wide data governance solutions using Axon for business glossary, EDC for cataloging, and IDQ for quality management to ensure data trust and compliance."
-},
-{
-"question": "Who should take the Informatica Data Governance Course?",
-"answer": "Data governance professionals, data stewards, data architects, analysts, and IT managers looking to implement enterprise data governance frameworks using Informatica tools."
-},
-{
-"question": "What are the prerequisites for this course?",
-"answer": "Basic understanding of data management concepts, SQL, and enterprise data architecture. Familiarity with data quality tools is beneficial but not mandatory."
-},
-{
-"question": "What Informatica tools are covered?",
-"answer": "Course covers Informatica Axon (governance framework), Enterprise Data Catalog (EDC), Informatica Data Quality (IDQ), and IDMC platform integration."
-},
-{
-"question": "How long is the Informatica Data Governance Course?",
-"answer": "The course spans 40 hours typically delivered over 6-8 weeks with live sessions, hands-on labs, and implementation projects."
-},
-{
-"question": "Is Data Governance a good career choice?",
-"answer": "Yes, data governance is critical for regulatory compliance, data monetization, and digital transformation. High demand for certified professionals across enterprises."
-},
-{
-"question": "What job roles after completion?",
-"answer": "Data Governance Analyst, Data Steward, Data Governance Manager, Metadata Manager, Data Quality Engineer, Compliance Analyst."
-},
-{
-"question": "What is the salary range for Data Governance roles?",
-"answer": "Entry-level data governance professionals earn ₹8-15 LPA, while experienced specialists earn ₹18-35+ LPA in India."
-},
-{
-"question": "Does the course include hands-on practice?",
-"answer": "Yes, includes practical labs on Axon business glossary creation, EDC data cataloging, data lineage mapping, and governance workflow implementation."
-},
-{
-"question": "Will I receive certification?",
-"answer": "Yes, course completion certificate validating Informatica Data Governance skills, recognized by enterprises implementing Informatica solutions."
-}
-],
-"duration": "40 hours",
-"skill_level": "Intermediate to Advanced",
-"image": "/CourseDetails/informatica-data-governance.png",
-"placement_assurance": true,
-"projects": [
-"Enterprise Business Glossary Implementation",
-"Data Lineage Mapping Project",
-"Data Quality Scorecard Dashboard",
-"Governance Workflow Automation"
-]
-},
+       
         {
           "course_name": "LoadRunner",
           "name":"LoadRunner Training in Chennai",
