@@ -91,7 +91,7 @@ const Footer = () => {
     { name: "Digital Marketing", url: "/courses/digital-marketing-business-tools/digital-marketing-training-in-chennai" },
     { name: "UI and UX", url: "/courses/ui-and-ux/ui-ux-designer-training-in-chennai" },
     { name: "Salesforce", url: "/courses/crm-enterprise-solutions/salesforce-training-in-chennai" },
-    { name: "Workday HCM", url: "/courses/crm-enterprise-solutions/workday-hcm--training-in-chennai" },
+    { name: "Workday HCM", url: "/courses/crm-enterprise-solutions/workday-hcm-training-in-chennai" },
     { name: "Azure DevOps", url: "/courses/cloud-computing-devops/azure-devops-training-in-chennai" },
     { name: "MySQL", url: "/courses/database-management-system/msql-training-in-chennai" },
     { name: "Excel", url: "/courses/microsoft/microsoft-excel-training-in-chennai" },

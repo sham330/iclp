@@ -985,7 +985,7 @@
 },{
   "course_name": "Oracle SCM",
   "name":"Oracle SCM Training in Hyderabad",
-  "path": "oracle-scm-hyderabad",
+  "path": "oracle-scm-training-in-hyderabad",
   "meta_title": "Oracle SCM Training in Hyderabad | ICLP Technologies",
   "meta_description": "Join the best Oracle SCM Training in Hyderabad. Learn Oracle Fusion SCM Cloud with real-time projects, certification guidance & placement support at ICLP Technologies.",
   "description": "Learn Oracle Supply Chain Management in Hyderabad covering Inventory, Order Management, Purchasing and Manufacturing with hands-on training.",
@@ -14029,11 +14029,12 @@
             "Spring Security JWT Authentication Project"
           ]
         },
-        {
-  "course_name": "CONTROL-M",
-    "name": "CONTROL-M TRAINING IN CHENNAI",
+       {
+  "course_name": "Control-M",
+  "name": "Control-M Training in Chennai",
   "path": "control-m-training-in-chennai",
-  "canonical_url": "https://iclptech.in/courses/control-m/control-m-training-in-chennai",
+  "meta_title": "Control-M Training in Chennai | Control-M Course with Hands-On Training",
+  "meta_description": "Learn Control-M Training in Chennai with hands-on job scheduling, workload automation, workflow orchestration, monitoring, troubleshooting, Control-M Automation API and real-time use cases. Enquire for online and classroom training.",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -14064,36 +14065,34 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/courses/control-m/control-m-training-in-chennai/#control-m-training-service",
+        "@id": "https://iclptech.in/course/control-m-training-in-chennai/#control-m-training-service",
         "name": "Control-M Training",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
         "areaServed": "India",
-        "serviceType": "Control-M Certification Training"
+        "serviceType": "Control-M Workload Automation Training"
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/courses/control-m/control-m-training-in-chennai/#course",
-        "name": "Control-M Training Course Online",
-        "description": "Instructor-led Control-M training covering job scheduling, workflow automation, monitoring, administration, security, high availability, clustering, cloud integration, and DevOps tools. Includes hands-on exercises, real-time projects, certification, and placement assistance.",
+        "@id": "https://iclptech.in/course/control-m-training-in-chennai/#course",
+        "name": "Control-M Course",
+        "description": "Hands-on Control-M training covering workload automation concepts, job creation and scheduling, dependencies, calendars, monitoring, troubleshooting, workflow automation, file transfer, application integrations and Control-M Automation API with real-time use cases.",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
-        "courseMode": "Online",
+        "courseMode": ["Online", "Onsite"],
         "inLanguage": "English",
         "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Control-M Certificate",
-        "timeRequired": "PT40H",
-        "keywords": "Control-M Course, Control-M Training, Job Scheduling, Workflow Automation, Control-M Certification, Control-M Online Course, Control-M Chennai",
+        "keywords": "Control-M Training, Control-M Course, Workload Automation, Job Scheduling, Control-M Automation API, Workflow Orchestration, Control-M Online Training",
         "about": [
+          { "@type": "Thing", "name": "Workload Automation" },
           { "@type": "Thing", "name": "Job Scheduling" },
-          { "@type": "Thing", "name": "Workflow Automation" },
-          { "@type": "Thing", "name": "Control-M Configuration" }
+          { "@type": "Thing", "name": "Control-M Automation API" }
         ],
         "audience": {
           "@type": "EducationalAudience",
-          "educationalRole": "student"
+          "educationalRole": "professional"
         },
         "hasCourseInstance": {
           "@type": "CourseInstance",
@@ -14102,298 +14101,322 @@
           "location": {
             "@type": "Place",
             "name": "Chennai"
-          },
-          "curriculum": [
-            "Introduction to Control-M",
-            "Job Scheduling and Calendars",
-            "Workflow Automation and Job Flows",
-            "Monitoring and Troubleshooting",
-            "Administration and User Management",
-            "Security and Access Control",
-            "High Availability and Clustering",
-            "Cloud Integration and DevOps"
-          ]
+          }
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/courses/control-m/control-m-training-in-chennai",
+          "url": "https://iclptech.in/course/control-m-training-in-chennai",
           "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "1200"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/courses/control-m/control-m-training-in-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/course/control-m-training-in-chennai/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
           { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
-          { "@type": "ListItem", "position": 3, "name": "Control-M Training", "item": "https://iclptech.in/courses/control-m/control-m-training-in-chennai" }
+          { "@type": "ListItem", "position": 3, "name": "Control-M Course", "item": "https://iclptech.in/course/control-m-training-in-chennai" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/courses/control-m/control-m-training-in-chennai/#faq",
+        "@id": "https://iclptech.in/course/control-m-training-in-chennai/#faq",
         "mainEntity": [
-          { "@type": "Question", "name": "What is Control-M and why is it important?", "acceptedAnswer": { "@type": "Answer", "text": "Control-M is enterprise workload automation software that manages job scheduling, workflow automation, and system monitoring. Learning Control-M opens high-paying roles in IT operations, automation consulting, and enterprise systems." } },
-          { "@type": "Question", "name": "Who should enroll in the Control-M course?", "acceptedAnswer": { "@type": "Answer", "text": "IT operations professionals, system administrators, automation engineers, and beginners looking for Control-M training online in India can benefit from this course." } },
-          { "@type": "Question", "name": "What skills will I gain from this Control-M training?", "acceptedAnswer": { "@type": "Answer", "text": "You will master job scheduling, workflow automation, monitoring, administration, security, high availability, clustering, cloud integration, and handle real-time Control-M projects." } },
-          { "@type": "Question", "name": "Is this course online or classroom-based?", "acceptedAnswer": { "@type": "Answer", "text": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference." } },
-          { "@type": "Question", "name": "Does the course include hands-on projects?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the course emphasizes real-world Control-M implementation scenarios and hands-on projects to make learners job-ready." } },
-          { "@type": "Question", "name": "Will I receive Control-M certification after completion?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Completing the course grants a globally recognized Control-M certification from ICLP Technologies." } },
-          { "@type": "Question", "name": "How long does it take to complete the Control-M course?", "acceptedAnswer": { "@type": "Answer", "text": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)." } },
-          { "@type": "Question", "name": "Do you provide placement assistance after the course?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We connect graduates with top hiring partners for Control-M roles and provide guidance to help secure employment." } },
-          { "@type": "Question", "name": "Can I learn Control-M without prior automation knowledge?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. The course is structured to take beginners through foundational concepts before diving into Control-M configuration and implementation." } },
-          { "@type": "Question", "name": "What makes ICLP Tech's Control-M course different?", "acceptedAnswer": { "@type": "Answer", "text": "ICLP Tech offers the best Control-M training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready." } }
+          {
+            "@type": "Question",
+            "name": "What is Control-M?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Control-M is a workload automation solution used to schedule, automate and monitor business workflows across applications and platforms."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Control-M easy to learn?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fundamentals can be learned progressively. Understanding scheduling, jobs, dependencies and workflow concepts makes it easier to advance into administration and automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should learn Control-M?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Control-M can be useful for IT operations professionals, production support engineers, system administrators, application support professionals, DevOps professionals and freshers interested in enterprise automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Control-M suitable for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Beginners can start with Control-M fundamentals and gradually learn job scheduling, workflow automation, monitoring and troubleshooting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need programming knowledge to learn Control-M?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Advanced programming is not mandatory for understanding the core concepts. However, Linux, scripting, SQL and API knowledge can be useful for advanced automation scenarios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What will I learn in Control-M Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can learn Control-M architecture, job creation, scheduling, calendars, dependencies, events, monitoring, troubleshooting, workflow automation, integrations and Automation API concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Control-M Automation API?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Control-M Automation API provides programmatic interfaces that allow developers and DevOps teams to work with Control-M capabilities, including building, testing and deploying job workflows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the career opportunities after Control-M Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depending on your previous experience, possible roles include Control-M Administrator, Control-M Support Engineer, Workload Automation Engineer, Scheduler, Production Support Engineer and Automation Engineer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP provide online Control-M Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ICLP Technologies can provide online instructor-led training based on available batches and trainer schedules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Control-M training available for corporate teams?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Customized corporate training can be structured around an organization's workload automation requirements and technical environment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the Control-M syllabus be customized?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Training modules can be adjusted based on the learner's experience, project requirements and intended job role."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include practical training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course can include hands-on exercises, workflow scenarios, job scheduling practice, monitoring exercises and troubleshooting use cases depending on the selected training plan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ICLP Technologies an official BMC certification authority?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. ICLP Technologies provides training and career-oriented learning support. Learners interested in certification can explore relevant certification options separately based on the current certification structure and eligibility requirements."
+            }
+          }
         ]
       }
     ]
   },
-  "meta_title": "Control-M Training in Chennai| ICLP Technologies",
-  "meta_description": "Master Control-M with ICLP Tech's expert-led training in Chennai. Gain skills, earn your Control-M certification online, and secure placement as a certified consultant. Enroll now to learn more!",
-  "description": "Master Control-M workload automation with hands-on training from industry experts covering job scheduling, workflow automation, monitoring, administration, security, and cloud integration.",
-  "career_benefits": {
-    "heading": "Why Control-M Training is Essential for Your Career",
-    "description": "<strong>Control-M</strong> is enterprise workload automation software that manages critical job scheduling, workflow automation, and system monitoring for large organizations. Mastering this module is crucial for high-paying roles in IT operations, automation engineering, and enterprise systems consulting.",
-    "points": [
-      "<strong>Global Demand:</strong> Expertise in Control-M is universally required by large enterprises for automated workload management.",
-      "<strong>Career Growth:</strong> Positions like Control-M Consultant, Automation Engineer, IT Operations Specialist, and Systems Administrator offer exceptional stability and salary potential.",
-      "<strong>Skill Mastery:</strong> Our Control-M training goes beyond theory, focusing on configuration, integration, and real-time troubleshooting scenarios."
-    ]
-  },
-  "curriculum_overview": {
-    "heading": "Comprehensive <strong>Control-M Course Curriculum</strong>",
-    "intro": "Our <strong>Control-M course</strong> structure is divided into eight major components, ensuring you gain deep, functional expertise in workload automation and enterprise system management."
-  },
-  "track_overview_primary": {
-    "heading": "Core <strong>Control-M</strong> Modules Covered",
-    "description": "We cover core aspects of job scheduling and workflow automation, including:",
-    "topics": [
-      "<strong>Job Scheduling</strong> (Jobs, Calendars, Dependencies, Conditions)",
-      "<strong>Workflow Automation</strong> (Job Flows, Events, Alerts, File Transfers, APIs)",
-      "<strong>Monitoring</strong> (Logs, Alerts, Monitoring Tools, Troubleshooting, Performance)",
-      "<strong>Administration</strong> (Users, Roles, Permissions, Audit, Maintenance)"
-    ]
-  },
-  "track_overview_secondary": {
-    "heading": "Advanced <strong>Control-M</strong> Modules Covered",
-    "description": "This section focuses on enterprise scalability and integration:",
-    "topics": [
-      "<strong>Security</strong> (Access Control, Encryption, Compliance, Policies, Monitoring)",
-      "<strong>Advanced Features</strong> (High Availability, Clustering, Backup, Recovery, Optimization)",
-      "<strong>Integration</strong> (Cloud Integration, DevOps Tools, APIs, Third-party Apps, Automation)",
-      "<strong>Integration:</strong> Understanding the seamless integration between Control-M and other enterprise systems."
-    ]
-  },
-  "certification_info": {
-    "heading": "Earn Your Professional <strong>Control-M Certificate</strong>",
-    "intro": "Achieving your <strong>Control-M certificate</strong> validates your expertise and significantly enhances your profile. Our <strong>Control-M training</strong> is structured to align perfectly with the official certification syllabus.",
-    "highlights": [
-      "<strong>Certification Preparation:</strong> Dedicated modules and mock tests to prepare you for the certification exam.",
-      "<strong>Project-Based Learning:</strong> Complete real-time implementation projects to demonstrate your practical mastery.",
-      "<strong>Globally Recognized:</strong> Your Control-M certificate from ICLP Tech is a testament to high-quality, professional training."
-    ]
-  },
-  "why_institute": {
-    "heading": "Why <strong>ICLP Tech</strong> is the Top Choice for <strong>Control-M Training</strong> in India",
-    "intro": "We are recognized as the premier <strong>Control-M training</strong> provider, dedicated to turning students into industry-ready professionals right here in India.",
-    "instructor_expertise": {
-      "heading": "Instructor <strong>Expertise</strong> and Industry Experience",
-      "description": "Our success is built on the expertise of our faculty. All instructors are <strong>10+ year veteran Control-M Consultants</strong> who have worked on large-scale, international implementation projects. You learn configuration and best practices directly from those who have successfully delivered them."
-    },
-    "training_modes": {
-      "heading": "Flexible <strong>Control-M Training</strong> Options (Online & Classroom)",
-      "description": "We cater to your busy schedule:",
-      "options": [
-        "<strong>Classroom Training:</strong> Immersive, face-to-face learning at our state-of-the-art center in India",
-        "<strong>Control-M Course Online:</strong> Live, interactive sessions with access to cloud-based Control-M servers, allowing you to learn from anywhere."
-      ]
-    }
-  },
+  "description": "Learn Control-M with hands-on training on job scheduling, workload automation, workflow orchestration, dependencies, monitoring, troubleshooting, file transfer automation, integrations and Control-M Automation API.",
   "what_youll_learn": [
-    "Control-M configuration and implementation",
-    "Job scheduling with calendars and dependencies",
-    "Workflow automation and job flows",
-    "Monitoring logs, alerts, and performance",
-    "User management and roles administration",
-    "Security, access control, and encryption",
-    "High availability and clustering",
-    "Cloud integration and DevOps tools",
-    "Real-time project scenarios"
+    "Control-M architecture and workload automation concepts",
+    "Job creation and scheduling",
+    "Job dependencies, events and conditions",
+    "Calendars and scheduling criteria",
+    "Job monitoring, alerts and notifications",
+    "Error handling and troubleshooting",
+    "Control-M Enterprise Manager, Server and Agent concepts",
+    "Workflow automation and file transfer automation",
+    "Application integrations",
+    "Control-M Automation API and Jobs-as-Code concepts",
+    "Reporting and operational monitoring"
   ],
   "syllabus": [
     {
-      "module": "Module 1: Introduction to Control-M",
+      "module": "Introduction to Workload Automation & Control-M",
       "subtopics": [
-        "Overview of Control-M",
-        "Control-M Architecture",
-        "Control-M Components",
-        "Installation",
-        "User Interface (UI)",
-        "Accessing Control-M Environment",
-        "Job Flow Concepts",
-        "Terminology and Navigation"
+        "What is Control-M",
+        "Workload automation concepts",
+        "Batch processing and job scheduling overview",
+        "Control-M architecture",
+        "Control-M/Enterprise Manager",
+        "Control-M/Server concepts",
+        "Control-M/Agent",
+        "Workflow example: Job A → Job B → Job C → Report Generation → Notification"
       ]
     },
     {
-      "module": "Module 2: Job Scheduling",
+      "module": "Job Creation & Scheduling",
       "subtopics": [
-        "Jobs",
-        "Calendars",
-        "Dependencies",
-        "Conditions",
-        "Job Types",
-        "Scheduling",
-        "Scheduling Fundamentals",
-        "Creating Jobs",
-        "Job Definitions",
-        "Manual Scheduling",
-        "Automatic Scheduling"
+        "Job creation",
+        "Job definitions",
+        "Scheduling criteria",
+        "Job execution according to business requirements"
       ]
     },
     {
-      "module": "Module 3: Workflow Automation",
+      "module": "Job Dependencies, Events & Conditions",
       "subtopics": [
-        "Job Flows",
-        "Events",
-        "Alerts",
-        "File Transfers",
-        "APIs",
-        "System Variables",
-        "User Variables",
-        "Passing Variables to Jobs/JCL",
-        "Event Handling",
-        "Workflow Design",
-        "Job Dependencies",
-        "Schedule Modifications"
+        "Job dependencies",
+        "Events and conditions",
+        "Sequential job execution based on successful completion",
+        "Workflow logic"
       ]
     },
     {
-      "module": "Module 4: Monitoring",
+      "module": "Calendars",
       "subtopics": [
-        "Logs",
-        "Alerts",
-        "Monitoring Tools",
-        "Troubleshooting",
-        "Performance",
-        "Active Jobs Monitoring",
-        "Control-M Database Files",
-        "Log Management",
-        "Problem Resolution",
-        "Alert Management",
-        "Performance Monitoring"
+        "Calendar concepts",
+        "Scheduling jobs according to calendars",
+        "Business-driven scheduling requirements"
       ]
     },
     {
-      "module": "Module 5: Administration",
+      "module": "Job Monitoring, Alerts & Notifications",
       "subtopics": [
-        "Users",
-        "Roles",
-        "Permissions",
-        "Audit",
-        "Maintenance",
-        "User Management",
-        "Roles & Permissions",
-        "Access Control",
-        "System Configuration",
-        "Service Management",
-        "Audit & Compliance",
-        "Troubleshooting",
-        "New Day Processing",
-        "Online Utilities",
-        "Utility Management",
-        "Report Generation",
-        "Keystroke Reporting Language",
-        "Operational Maintenance"
+        "Job status and execution information",
+        "Job logs",
+        "Alerts and notifications",
+        "Monitoring active jobs and identifying failures"
       ]
     },
     {
-      "module": "Module 6: Security",
+      "module": "Error Handling & Troubleshooting",
       "subtopics": [
-        "Access Control",
-        "Encryption",
-        "Compliance",
-        "Policies",
-        "Monitoring",
-        "User Management",
-        "System Configuration"
+        "Error handling",
+        "Troubleshooting approaches",
+        "Job failure analysis",
+        "Rerun and recovery scenarios"
       ]
     },
     {
-      "module": "Module 7: Advanced Features",
+      "module": "Workflow Automation & File Transfer",
       "subtopics": [
-        "High Availability",
-        "Clustering",
-        "Backup",
-        "Recovery",
-        "Optimization",
-        "Performance Tuning",
-        "Automation API",
-        "Enterprise Scalability",
-        "Advanced Workflow Automation"
+        "Workflow automation",
+        "Workflow orchestration",
+        "File-based workflows",
+        "Managed file transfer automation",
+        "Post-processing actions"
       ]
     },
     {
-      "module": "Module 8: Integration",
+      "module": "Application Integrations",
       "subtopics": [
-        "Cloud Integration",
-        "DevOps Tools",
-        "APIs",
-        "Third-party Apps",
-        "Automation",
-        "DevOps Integration",
-        "Third-Party Integrations",
-        "File Transfer Automation",
-        "API Integration",
-        "Enterprise Connectivity",
-        "End-to-End Workflow Automation"
+        "Application integration concepts",
+        "Application Integrator",
+        "Cloud integration",
+        "Database workflows",
+        "SAP integration concepts",
+        "Informatica integration concepts"
+      ]
+    },
+    {
+      "module": "Control-M Automation API & Jobs-as-Code",
+      "subtopics": [
+        "Control-M Automation API fundamentals",
+        "REST API concepts",
+        "Command Line Interface",
+        "Jobs-as-Code concepts",
+        "Building, testing and deploying job definitions",
+        "DevOps and CI/CD concepts"
+      ]
+    },
+    {
+      "module": "Reporting & Operational Monitoring",
+      "subtopics": [
+        "Reporting",
+        "Operational monitoring",
+        "Execution and failure analysis"
+      ]
+    },
+    {
+      "module": "Supporting Technologies",
+      "subtopics": [
+        "Linux / UNIX concepts",
+        "Windows concepts",
+        "Shell scripting fundamentals",
+        "SQL fundamentals"
       ]
     }
   ],
   "faqs": [
     {
-      "question": "What is Control-M and why is it important?",
-      "answer": "Control-M is enterprise workload automation software that manages job scheduling, workflow automation, and system monitoring. Learning Control-M opens high-paying roles in IT operations, automation consulting, and enterprise systems."
+      "question": "What is Control-M?",
+      "answer": "Control-M is a workload automation solution used to schedule, automate and monitor business workflows across applications and platforms."
     },
     {
-      "question": "Who should enroll in the Control-M course?",
-      "answer": "IT operations professionals, system administrators, automation engineers, and beginners looking for Control-M training online in India can benefit from this course."
+      "question": "Is Control-M easy to learn?",
+      "answer": "The fundamentals can be learned progressively. Understanding scheduling, jobs, dependencies and workflow concepts makes it easier to advance into administration and automation."
     },
     {
-      "question": "What skills will I gain from this Control-M training?",
-      "answer": "You will master job scheduling, workflow automation, monitoring, administration, security, high availability, clustering, cloud integration, and handle real-time Control-M projects."
+      "question": "Who should learn Control-M?",
+      "answer": "Control-M can be useful for IT operations professionals, production support engineers, system administrators, application support professionals, DevOps professionals and freshers interested in enterprise automation."
     },
     {
-      "question": "Is this course online or classroom-based?",
-      "answer": "We offer both online interactive sessions and classroom training in Chennai, India. You can choose based on your schedule and preference."
+      "question": "Is Control-M suitable for freshers?",
+      "answer": "Yes. Beginners can start with Control-M fundamentals and gradually learn job scheduling, workflow automation, monitoring and troubleshooting."
     },
     {
-      "question": "Does the course include hands-on projects?",
-      "answer": "Yes, the course emphasizes real-world Control-M implementation scenarios and hands-on projects to make learners job-ready."
+      "question": "Do I need programming knowledge to learn Control-M?",
+      "answer": "Advanced programming is not mandatory for understanding the core concepts. However, Linux, scripting, SQL and API knowledge can be useful for advanced automation scenarios."
     },
     {
-      "question": "Will I receive Control-M certification after completion?",
-      "answer": "Yes. Completing the course grants a globally recognized Control-M certification from ICLP Technologies."
+      "question": "What will I learn in Control-M Training?",
+      "answer": "You can learn Control-M architecture, job creation, scheduling, calendars, dependencies, events, monitoring, troubleshooting, workflow automation, integrations and Automation API concepts."
     },
     {
-      "question": "How long does it take to complete the Control-M course?",
-      "answer": "The course duration typically ranges from 6 to 12 weeks depending on your learning pace and chosen mode (online or classroom)."
+      "question": "What is Control-M Automation API?",
+      "answer": "Control-M Automation API provides programmatic interfaces that allow developers and DevOps teams to work with Control-M capabilities, including building, testing and deploying job workflows."
     },
     {
-      "question": "Do you provide placement assistance after the course?",
-      "answer": "Yes. We connect graduates with top hiring partners for Control-M roles and provide guidance to help secure employment."
+      "question": "What are the career opportunities after Control-M Training?",
+      "answer": "Depending on your previous experience, possible roles include Control-M Administrator, Control-M Support Engineer, Workload Automation Engineer, Scheduler, Production Support Engineer and Automation Engineer."
     },
     {
-      "question": "Can I learn Control-M without prior automation knowledge?",
-      "answer": "Absolutely. The course is structured to take beginners through foundational concepts before diving into Control-M configuration and implementation."
+      "question": "Does ICLP provide online Control-M Training?",
+      "answer": "ICLP Technologies can provide online instructor-led training based on available batches and trainer schedules."
     },
     {
-      "question": "What makes ICLP Tech's Control-M course different?",
-      "answer": "ICLP Tech offers the best Control-M training in India with expert trainers, real-time project exposure, flexible learning options, and full certification preparation, ensuring graduates are job-ready."
+      "question": "Is Control-M training available for corporate teams?",
+      "answer": "Yes. Customized corporate training can be structured around an organization's workload automation requirements and technical environment."
+    },
+    {
+      "question": "Can the Control-M syllabus be customized?",
+      "answer": "Yes. Training modules can be adjusted based on the learner's experience, project requirements and intended job role."
+    },
+    {
+      "question": "Does the course include practical training?",
+      "answer": "The course can include hands-on exercises, workflow scenarios, job scheduling practice, monitoring exercises and troubleshooting use cases depending on the selected training plan."
+    },
+    {
+      "question": "Is ICLP Technologies an official BMC certification authority?",
+      "answer": "No. ICLP Technologies provides training and career-oriented learning support. Learners interested in certification can explore relevant certification options separately based on the current certification structure and eligibility requirements."
     }
+  ],
+  "duration": "",
+  "skill_level": "Beginner to Advanced",
+  "image": "",
+  "placement_assurance": false,
+  "projects": [
+    "Enterprise Job Scheduling: workflow with multiple jobs, predefined schedules and dependencies",
+    "Automated Batch Processing: sequential jobs based on successful completion of preceding jobs",
+    "Workflow Monitoring: monitor active jobs, identify failed processes and analyze execution information",
+    "File-Based Workflow: workflow based on the arrival or processing of files",
+    "Failure & Recovery: simulate job failures and practice troubleshooting, rerun and recovery",
+    "Control-M Automation API: create, test and deploy job definitions using Automation API concepts"
   ]
 },{
   "course_name": "ANDROID DEVELOPMENT",
@@ -18256,7 +18279,7 @@
         {
           "course_name": "Workday HCM",
                     "name": "Workday HCM Training in Chennai",
-          "path": "workday-hcm--training-in-chennai",
+          "path": "workday-hcm-training-in-chennai",
           "meta_title": "Workday HCM Training in Chennai",
           "meta_description": "Explore modern HR technology with Workday HCM Training in Chennai covering business processes, reporting, security and employee management.",
           "description": "Master Workday Human Capital Management (HCM) for organizational management, security, and business processes.",

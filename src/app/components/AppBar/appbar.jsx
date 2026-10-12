@@ -100,7 +100,7 @@ const AppBar = () => {
       {name:"VLSI",path:"vlsi-training-in-chennai"},
       {name:"SAP HCM",path:"sap-hcm-training-in-chennai"},
       { name: "Groovy and Grails", path: "groovy-and-grails-training-in-chennai" },
-      { name: "Workday HCM", path: "workday-hcm--training-in-chennai" },
+      { name: "Workday HCM", path: "workday-hcm-training-in-chennai" },
       { name: "Salesforce", path: "salesforce-training-in-chennai" },
       { name: "Salesforce Developer", path: "salesforce-developer-training-in-chennai" },
       { name: "Azure DevOps", path: "azure-devops-training-in-chennai" },
