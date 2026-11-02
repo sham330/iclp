@@ -10509,7 +10509,7 @@
         },
         {
           "course_name": "SAP Ariba",
-          "name": "SAP Ariba Training in Chennai",
+          "name": "SAP Ariba Training in Chennai – Online Course with Placement Assistance",
           "path": "sap-ariba-training-in-chennai",
           "meta_title": "SAP Ariba Training in Chennai",
           "meta_description": "Gain procurement expertise through SAP Ariba Training in Chennai, covering sourcing, supplier management, contracts and digital purchasing processes.",
@@ -25859,6 +25859,725 @@
           ]
         },
         {
+  "course_name": "Gen AI",
+  "image": "/gen-ai.jpeg",
+  "path": "gen-ai-training-in-chennai",
+  "name": "Gen AI Training in Chennai ",
+  "canonical_url": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai/#gen-ai-training-service",
+        "name": "Gen AI Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Generative AI Application Development Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai/#course",
+        "name": "Gen AI Course Online",
+        "description": "Mentor-led 40-hour Generative AI training covering large language models (LLMs), prompt engineering, GPT models, OpenAI API, LangChain, vector stores, Retrieval-Augmented Generation (RAG), and AI chatbot and agent concepts. Includes hands-on labs, guided practical exercises, project work, and technical review.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "timeRequired": "PT40H",
+        "keywords": "Gen AI Course, Gen AI Training, Generative AI, LLM, Prompt Engineering, OpenAI API, LangChain, RAG, Gen AI Online Course",
+        "about": [
+          { "@type": "Thing", "name": "Large Language Models (LLMs)" },
+          { "@type": "Thing", "name": "Prompt Engineering" },
+          { "@type": "Thing", "name": "Retrieval-Augmented Generation (RAG)" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Generative AI Fundamentals & Environment Setup",
+            "LLM Core Concepts & Prompt Engineering",
+            "OpenAI API, LangChain & AI Applications",
+            "Vector Stores, RAG & Advanced Workflows",
+            "AI Chatbot / Agent Project & Review"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "Gen AI Training", "item": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/gen-ai-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Generative AI and why is it important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Generative AI uses large language models (LLMs) to create text and other content and to power applications such as chatbots and AI agents. Learning how to build with these models is a useful skill as organizations explore AI-powered applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should enroll in the Gen AI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Software developers, technical consultants, IT professionals, and learners who want to start building Generative AI applications can benefit from this course."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What skills will I gain from this Gen AI training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will learn LLM concepts, prompt engineering, working with GPT models, using the OpenAI API, LangChain workflows, vector stores, Retrieval-Augmented Generation (RAG), and AI chatbot and agent concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long is the Gen AI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The program is a 40-hour mentor-led training plan organized into 5 modules of 8 hours each."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include hands-on projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The course includes hands-on labs, guided practical exercises, and a final AI chatbot or agent project with technical review."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is covered in the RAG module?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The module introduces vector stores and semantic retrieval, RAG architecture and how it grounds LLM responses with information, connecting retrieval workflows with LLM-based applications, and workflow optimization and production-readiness considerations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I build a project during the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In the final module you plan and implement a guided GenAI application or chatbot use case, test outputs, review the implementation, and identify improvements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is interview preparation included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The final module includes a project walkthrough, technical review, and interview-preparation questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which tools and technologies are used in the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course covers Generative AI, LLMs, prompt engineering, GPT models, the OpenAI API, LangChain, vector stores, RAG, and AI chatbots and agents. Specific tools, project scope, and session sequence may be finalized with the assigned mentor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes ICLP Tech's Gen AI course different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course is mentor-led and practical, combining hands-on labs, guided exercises, an end-to-end chatbot or agent project, and technical review in a focused 40-hour plan."
+            }
+          }
+        ],
+        "image": "/gen-ai.jpeg"
+      }
+    ]
+  },
+  "meta_title": "Gen AI Training in Chennai",
+  "meta_description": "Looking for Gen AI Training in Chennai? Learn LLMs, prompt engineering, OpenAI API, LangChain, vector stores, RAG and AI chatbot development.",
+  "description": "ICLP Technologies offers a mentor-led, 40-hour Gen AI Training in Chennai designed for software developers, technical consultants, IT professionals, and learners who want to build Generative AI applications. Our Gen AI Course provides hands-on training in Generative AI fundamentals, Large Language Models (LLMs), Prompt Engineering, GPT models, OpenAI API, LangChain, Vector Stores, Retrieval-Augmented Generation (RAG), and AI Chatbots and Agents. Learners gain practical exposure through guided lab exercises, implementation scenarios, project work, and review activities. Generative AI application development combines model capabilities with retrieval, workflows, and careful handling of outputs, which makes practical, project-based learning essential.",
+  "career_benefits": {
+    "heading": "Why Gen AI Training is Essential for Your Career",
+    "description": "<strong>Generative AI</strong> is changing how applications are built, from chatbots to AI-powered workflows. Learning to build with large language models can open doors to roles in AI application development, consulting, and software engineering.",
+    "points": [
+      "<strong>Growing Relevance:</strong> LLM-based applications are being explored across many types of organizations and products.",
+      "<strong>Career Growth:</strong> Areas such as GenAI Application Developer, AI/LLM Application Engineer, Technical Consultant, and AI Solutions Developer build on these skills.",
+      "<strong>Skill Mastery:</strong> Our Gen AI training goes beyond theory, focusing on prompt engineering, API integration, retrieval workflows, and hands-on troubleshooting."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Gen AI Course Curriculum</strong>",
+    "intro": "Our <strong>Gen AI course</strong> is organized into 5 modules and 40 hours, ensuring you gain practical expertise from LLM fundamentals to building an end-to-end chatbot or agent project."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>LLM and Application Development</strong> Topics Covered",
+    "description": "We cover the foundations of building Generative AI applications, including:",
+    "topics": [
+      "<strong>Generative AI and Large Language Models (LLMs)</strong>",
+      "<strong>Prompt Engineering</strong> principles and techniques",
+      "<strong>GPT Models</strong> and structuring model instructions",
+      "<strong>OpenAI API</strong> and <strong>LangChain</strong> application workflows"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "<strong>RAG, Chatbots and Agents</strong> Covered",
+    "description": "This section focuses on retrieval workflows and complete AI applications:",
+    "topics": [
+      "<strong>Vector Stores</strong> and semantic retrieval concepts",
+      "<strong>Retrieval-Augmented Generation (RAG)</strong> architecture and grounding LLM responses",
+      "<strong>AI Chatbots and Agents</strong> built from guided use cases",
+      "<strong>Production Readiness:</strong> Workflow optimization, responsible handling, and production-readiness considerations."
+    ]
+  },
+  "certification_info": {
+    "heading": "Build and Review Your <strong>Gen AI Project</strong>",
+    "intro": "Completing a hands-on <strong>Gen AI project</strong> helps you demonstrate what you can build. Our <strong>Gen AI training</strong> ends with a guided project, technical review, and interview-preparation questions.",
+    "highlights": [
+      "<strong>Project-Based Learning:</strong> Plan and implement a guided GenAI application or chatbot use case and combine course concepts into an end-to-end workflow.",
+      "<strong>Technical Review:</strong> Test outputs, review the implementation, and identify improvements through code and implementation feedback.",
+      "<strong>Interview Preparation:</strong> Project walkthrough and technical assessment questions to help you explain your work."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is a Strong Choice for <strong>Gen AI</strong> Training",
+    "intro": "We focus on practical, mentor-led <strong>Gen AI training</strong> that helps learners move from concepts to working applications.",
+    "instructor_expertise": {
+      "heading": "Mentor-Led <strong>Training</strong> and Practical Guidance",
+      "description": "Our program is delivered through mentor-led sessions with hands-on labs and project work. Learners receive guidance, implementation feedback, and technical review, and specific tools, project scope, and session sequence may be finalized with the assigned mentor."
+    },
+    "training_modes": {
+      "heading": "Practical <strong>Gen AI Training</strong> Format",
+      "description": "The program is built around active practice:",
+      "options": [
+        "<strong>Mentor-Led Training:</strong> Structured 40-hour sessions guided by a mentor across 5 modules",
+        "<strong>Hands-On Labs & Project:</strong> Guided practical exercises, implementation scenarios, and an end-to-end chatbot or agent project."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "Generative AI", "icon": "" },
+    { "name": "Large Language Models (LLMs)", "icon": "" },
+    { "name": "Prompt Engineering", "icon": "" },
+    { "name": "GPT Models", "icon": "" },
+    { "name": "OpenAI API", "icon": "" },
+    { "name": "LangChain", "icon": "" },
+    { "name": "Vector Stores", "icon": "" },
+    { "name": "Retrieval-Augmented Generation (RAG)", "icon": "" },
+    { "name": "AI Chatbots", "icon": "" },
+    { "name": "AI Agents", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Generative AI and LLM fundamentals",
+    "Prompt engineering principles and techniques",
+    "Working with GPT models and structuring model instructions",
+    "Using the OpenAI API in GenAI applications",
+    "LangChain concepts and application workflow",
+    "Vector stores and semantic retrieval",
+    "RAG architecture and grounding LLM responses",
+    "AI chatbot and agent project implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Generative AI Fundamentals & Environment Setup (8 Hours)",
+      "subtopics": [
+        "Introduction to Generative AI and large language models (LLMs)",
+        "Conceptual framework and high-level architecture of GenAI applications",
+        "Overview of the development environment and required tools",
+        "Guided introductory lab exercises and practical scenarios"
+      ]
+    },
+    {
+      "module": "LLM Core Concepts & Prompt Engineering (8 Hours)",
+      "subtopics": [
+        "Understanding LLM capabilities and common application patterns",
+        "Prompt engineering principles and techniques",
+        "Working with GPT models and structuring model instructions",
+        "Practice exercises to refine prompts and evaluate outputs"
+      ]
+    },
+    {
+      "module": "OpenAI API, LangChain & AI Applications (8 Hours)",
+      "subtopics": [
+        "Introduction to using the OpenAI API in GenAI applications",
+        "LangChain concepts and application workflow",
+        "Building blocks for AI-powered applications and chatbot experiences",
+        "Hands-on implementation exercises and troubleshooting"
+      ]
+    },
+    {
+      "module": "Vector Stores, RAG & Advanced Workflows (8 Hours)",
+      "subtopics": [
+        "Introduction to vector stores and semantic retrieval concepts",
+        "RAG architecture and its role in grounding LLM responses with information",
+        "Connecting retrieval workflows with LLM-based applications",
+        "Workflow optimization, responsible handling and production-readiness considerations"
+      ]
+    },
+    {
+      "module": "AI Chatbot / Agent Project & Review (8 Hours)",
+      "subtopics": [
+        "Plan and implement a guided GenAI application or chatbot use case",
+        "Combine relevant course concepts into an end-to-end workflow",
+        "Test outputs, review implementation and identify improvements",
+        "Project walkthrough, technical review and interview-preparation questions"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Generative AI and why is it important?",
+      "answer": "Generative AI uses large language models (LLMs) to create text and other content and to power applications such as chatbots and AI agents. Learning how to build with these models is a useful skill as organizations explore AI-powered applications."
+    },
+    {
+      "question": "Who should enroll in the Gen AI course?",
+      "answer": "Software developers, technical consultants, IT professionals, and learners who want to start building Generative AI applications can benefit from this course."
+    },
+    {
+      "question": "What skills will I gain from this Gen AI training?",
+      "answer": "You will learn LLM concepts, prompt engineering, working with GPT models, using the OpenAI API, LangChain workflows, vector stores, Retrieval-Augmented Generation (RAG), and AI chatbot and agent concepts."
+    },
+    {
+      "question": "How long is the Gen AI course?",
+      "answer": "The program is a 40-hour mentor-led training plan organized into 5 modules of 8 hours each."
+    },
+    {
+      "question": "Does the course include hands-on projects?",
+      "answer": "Yes. The course includes hands-on labs, guided practical exercises, and a final AI chatbot or agent project with technical review."
+    },
+    {
+      "question": "What is covered in the RAG module?",
+      "answer": "The module introduces vector stores and semantic retrieval, RAG architecture and how it grounds LLM responses with information, connecting retrieval workflows with LLM-based applications, and workflow optimization and production-readiness considerations."
+    },
+    {
+      "question": "Will I build a project during the course?",
+      "answer": "Yes. In the final module you plan and implement a guided GenAI application or chatbot use case, test outputs, review the implementation, and identify improvements."
+    },
+    {
+      "question": "Is interview preparation included?",
+      "answer": "The final module includes a project walkthrough, technical review, and interview-preparation questions."
+    },
+    {
+      "question": "Which tools and technologies are used in the course?",
+      "answer": "The course covers Generative AI, LLMs, prompt engineering, GPT models, the OpenAI API, LangChain, vector stores, RAG, and AI chatbots and agents. Specific tools, project scope, and session sequence may be finalized with the assigned mentor."
+    },
+    {
+      "question": "What makes ICLP Tech's Gen AI course different?",
+      "answer": "The course is mentor-led and practical, combining hands-on labs, guided exercises, an end-to-end chatbot or agent project, and technical review in a focused 40-hour plan."
+    }
+  ]
+},{
+  "course_name": "Agentic AI",
+  "image": "/agentic-ai.jpeg",
+  "path": "agentic-ai-training-in-chennai",
+  "name": "Agentic AI Training in Chennai ",
+  "canonical_url": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai/#agentic-ai-training-service",
+        "name": "Agentic AI Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Agentic AI Application Development Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai/#course",
+        "name": "Agentic AI Course Online",
+        "description": "Mentor-led 40-hour Agentic AI training covering AI agents, LLMs, prompt design, tool and function calling, API integration, agent memory, Retrieval-Augmented Generation (RAG), workflow orchestration, multi-agent concepts, evaluation, and guardrails. Includes hands-on labs, a guided capstone project, and technical review.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "timeRequired": "PT40H",
+        "keywords": "Agentic AI Course, Agentic AI Training, AI Agents, LLM, Tool Calling, RAG, Workflow Orchestration, Multi-Agent Systems, Agentic AI Online Course",
+        "about": [
+          { "@type": "Thing", "name": "AI Agents" },
+          { "@type": "Thing", "name": "Tool / Function Calling" },
+          { "@type": "Thing", "name": "Multi-Agent Systems" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Agentic AI Fundamentals & Development Setup",
+            "LLMs, Prompt Design & Tool Calling",
+            "Agent Workflows, Memory & RAG",
+            "Orchestration, Multi-Agent Patterns & Guardrails",
+            "Agentic AI Application Capstone & Review"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "Agentic AI Training", "item": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/artificial-intelligence/agentic-ai-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Agentic AI and why is it important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Agentic AI refers to AI systems that can plan tasks, use tools, work with external information, and execute multi-step workflows. Learning how to design these systems is a useful skill as organizations explore AI-powered automation and applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should enroll in the Agentic AI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Software developers, AI and automation engineers, technical consultants, IT professionals, and learners who want to build AI agent-based applications can benefit from this course."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What skills will I gain from this Agentic AI training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will learn AI agent fundamentals, prompt design, tool and function calling, API integration, agent memory, Retrieval-Augmented Generation (RAG), workflow orchestration, multi-agent concepts, evaluation, and guardrails."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long is the Agentic AI course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The program is a 40-hour mentor-led training plan organized into 5 modules of 8 hours each."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include hands-on projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The course includes guided hands-on labs, workflow design and troubleshooting exercises, and a capstone agentic application project with technical review."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between an LLM chatbot and an agentic workflow?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The first module explains this difference, covering core agent components such as goals, instructions, tools, state, and execution loops, along with use cases, architecture patterns, and limitations of agent-based systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course cover multi-agent systems and guardrails?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Module 4 introduces multi-agent collaboration patterns and task delegation, along with human-in-the-loop review, permissions, guardrails, safe tool use, debugging, tracing, failure handling, and performance evaluation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is interview preparation included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The final module includes a project walkthrough, implementation review, and technical interview-preparation questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which tools and frameworks are used in the course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course covers LLMs, prompt design, tool and function calling, API integration, RAG, vector stores, agent memory, and workflow orchestration. Specific frameworks, tools, project scope, and session sequence can be finalized with the assigned mentor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes ICLP Tech's Agentic AI course different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course is mentor-led and practical, combining hands-on labs, workflow design, tool integration, guardrails, and a guided capstone project in a focused 40-hour plan."
+            }
+          }
+        ],
+        "image": "/agentic-ai.jpeg"
+      }
+    ]
+  },
+  "meta_title": "Agentic AI Training in Chennai",
+  "meta_description": "Looking for Agentic AI Training in Chennai? Learn AI agents, tool calling, RAG, workflow orchestration, multi-agent systems and guardrails.",
+  "description": "ICLP Technologies offers a mentor-led, 40-hour Agentic AI Training in Chennai designed for software developers, AI and automation engineers, technical consultants, IT professionals, and learners who want to build AI agent-based applications. Our Agentic AI Course provides hands-on training in AI agent fundamentals, Large Language Models (LLMs), Prompt Design, Tool and Function Calling, API Integration, Retrieval-Augmented Generation (RAG), Vector Stores, Agent Memory, Workflow Orchestration, Multi-Agent Concepts, and Evaluation and Guardrails. Learners gain practical exposure through guided labs, workflow design exercises, troubleshooting, and a capstone project. Agentic AI systems plan tasks, use tools, and execute multi-step workflows, which makes careful design, testing, and safe tool use essential.",
+  "career_benefits": {
+    "heading": "Why Agentic AI Training is Essential for Your Career",
+    "description": "<strong>Agentic AI</strong> extends large language models from answering questions to planning tasks, using tools, and completing multi-step workflows. Learning to design these systems can support roles in AI application development, automation, and software engineering.",
+    "points": [
+      "<strong>Growing Relevance:</strong> AI agents and workflow automation are being explored across many types of organizations and products.",
+      "<strong>Career Growth:</strong> Areas such as Agentic AI Developer, Generative AI Engineer, LLM Application Developer, AI Solutions Developer, and Automation / AI Workflow Engineer build on these skills.",
+      "<strong>Skill Mastery:</strong> Our Agentic AI training goes beyond theory, focusing on tool calling, workflow design, guardrails, and hands-on troubleshooting."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Agentic AI Course Curriculum</strong>",
+    "intro": "Our <strong>Agentic AI course</strong> is organized into 5 modules and 40 hours, ensuring you gain practical expertise from agent fundamentals to building and reviewing a capstone agentic application."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Agent Development</strong> Topics Covered",
+    "description": "We cover the building blocks used to design AI agents, including:",
+    "topics": [
+      "<strong>AI Agent Fundamentals:</strong> goals, instructions, tools, state and execution loops",
+      "<strong>LLMs and Prompt Design</strong> with structured outputs",
+      "<strong>Tool / Function Calling</strong> and <strong>API Integration</strong>",
+      "<strong>Agent Memory, State and RAG</strong> for grounding responses in retrieved information"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "<strong>Orchestration, Multi-Agent Patterns and Guardrails</strong> Covered",
+    "description": "This section focuses on coordinating workflows and building reliable, safe agents:",
+    "topics": [
+      "<strong>Workflow Orchestration</strong> with sequential and conditional agent workflows",
+      "<strong>Multi-Agent Collaboration</strong> patterns and task delegation",
+      "<strong>Guardrails:</strong> Human-in-the-loop review, permissions, and safe tool-use considerations",
+      "<strong>Evaluation and Reliability:</strong> Debugging, tracing, failure handling, and performance evaluation."
+    ]
+  },
+  "certification_info": {
+    "heading": "Build and Review Your <strong>Agentic AI Project</strong>",
+    "intro": "Completing a hands-on <strong>Agentic AI project</strong> helps you demonstrate what you can build. Our <strong>Agentic AI training</strong> ends with a guided capstone, implementation review, and technical interview-preparation questions.",
+    "highlights": [
+      "<strong>Project-Based Learning:</strong> Select a practical use case, define the agent's goal, tools and workflow, and build a guided agentic application.",
+      "<strong>Testing and Refinement:</strong> Test task completion, inspect failures, and refine prompts or workflow logic.",
+      "<strong>Interview Preparation:</strong> Project walkthrough, implementation review, and technical questions to help you explain your work."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is a Strong Choice for <strong>Agentic AI</strong> Training",
+    "intro": "We focus on practical, mentor-led <strong>Agentic AI training</strong> that helps learners move from concepts to working agent-based applications.",
+    "instructor_expertise": {
+      "heading": "Mentor-Led <strong>Training</strong> and Practical Guidance",
+      "description": "Our program is delivered through mentor-led sessions with guided hands-on labs and project work. Learners receive guidance, implementation feedback, and technical review, and specific frameworks, tools, project scope, and session sequence can be finalized with the assigned mentor."
+    },
+    "training_modes": {
+      "heading": "Practical <strong>Agentic AI Training</strong> Format",
+      "description": "The program is built around active practice:",
+      "options": [
+        "<strong>Mentor-Led Training:</strong> Structured 40-hour sessions guided by a mentor across 5 modules",
+        "<strong>Hands-On Labs & Project:</strong> Guided practical exercises, workflow design, tool integration, and a capstone agentic application."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "Agentic AI", "icon": "" },
+    { "name": "AI Agents", "icon": "" },
+    { "name": "Large Language Models (LLMs)", "icon": "" },
+    { "name": "Prompt Design", "icon": "" },
+    { "name": "Tool / Function Calling", "icon": "" },
+    { "name": "API Integration", "icon": "" },
+    { "name": "Retrieval-Augmented Generation (RAG)", "icon": "" },
+    { "name": "Vector Stores", "icon": "" },
+    { "name": "Agent Memory", "icon": "" },
+    { "name": "Workflow Orchestration", "icon": "" },
+    { "name": "Multi-Agent Systems", "icon": "" },
+    { "name": "Evaluation & Guardrails", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Agentic AI fundamentals and agent components",
+    "Prompt design and structured outputs for agents",
+    "Tool / function calling and API integration",
+    "Agent workflows, state, and memory approaches",
+    "RAG, document retrieval, and vector stores",
+    "Workflow orchestration and multi-agent patterns",
+    "Guardrails, human-in-the-loop review, and safe tool use",
+    "Agentic AI application capstone project"
+  ],
+  "syllabus": [
+    {
+      "module": "Agentic AI Fundamentals & Development Setup (8 Hours)",
+      "subtopics": [
+        "Introduction to AI agents and the difference between LLM chat applications and agentic workflows",
+        "Core agent components: goals, instructions, tools, state and execution loops",
+        "Use cases, architecture patterns and limitations of agent-based systems",
+        "Development environment overview and introductory hands-on exercises"
+      ]
+    },
+    {
+      "module": "LLMs, Prompt Design & Tool Calling (8 Hours)",
+      "subtopics": [
+        "LLM fundamentals for agentic applications and structured outputs",
+        "Writing system instructions, task prompts and constraints for agents",
+        "Tool/function calling concepts and connecting agents to utility functions or APIs",
+        "Handling tool results, errors and multi-step task execution through guided labs"
+      ]
+    },
+    {
+      "module": "Agent Workflows, Memory & RAG (8 Hours)",
+      "subtopics": [
+        "Designing sequential and conditional agent workflows",
+        "State, conversation context and memory approaches for agent applications",
+        "Retrieval-Augmented Generation (RAG), document retrieval and vector-store concepts",
+        "Grounding agent responses in retrieved information and testing retrieval workflows"
+      ]
+    },
+    {
+      "module": "Orchestration, Multi-Agent Patterns & Guardrails (8 Hours)",
+      "subtopics": [
+        "Workflow orchestration and coordinating multiple steps or specialized agents",
+        "Introduction to multi-agent collaboration patterns and task delegation",
+        "Human-in-the-loop review, permissions, guardrails and safe tool-use considerations",
+        "Debugging, tracing, failure handling, reliability and performance evaluation"
+      ]
+    },
+    {
+      "module": "Agentic AI Application Capstone & Review (8 Hours)",
+      "subtopics": [
+        "Select a practical use case and define the agent's goal, tools and workflow",
+        "Build a guided agentic application integrating suitable tools or external information",
+        "Test task completion, inspect failures and refine prompts or workflow logic",
+        "Project walkthrough, implementation review and technical interview-preparation questions"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Agentic AI and why is it important?",
+      "answer": "Agentic AI refers to AI systems that can plan tasks, use tools, work with external information, and execute multi-step workflows. Learning how to design these systems is a useful skill as organizations explore AI-powered automation and applications."
+    },
+    {
+      "question": "Who should enroll in the Agentic AI course?",
+      "answer": "Software developers, AI and automation engineers, technical consultants, IT professionals, and learners who want to build AI agent-based applications can benefit from this course."
+    },
+    {
+      "question": "What skills will I gain from this Agentic AI training?",
+      "answer": "You will learn AI agent fundamentals, prompt design, tool and function calling, API integration, agent memory, Retrieval-Augmented Generation (RAG), workflow orchestration, multi-agent concepts, evaluation, and guardrails."
+    },
+    {
+      "question": "How long is the Agentic AI course?",
+      "answer": "The program is a 40-hour mentor-led training plan organized into 5 modules of 8 hours each."
+    },
+    {
+      "question": "Does the course include hands-on projects?",
+      "answer": "Yes. The course includes guided hands-on labs, workflow design and troubleshooting exercises, and a capstone agentic application project with technical review."
+    },
+    {
+      "question": "What is the difference between an LLM chatbot and an agentic workflow?",
+      "answer": "The first module explains this difference, covering core agent components such as goals, instructions, tools, state, and execution loops, along with use cases, architecture patterns, and limitations of agent-based systems."
+    },
+    {
+      "question": "Does the course cover multi-agent systems and guardrails?",
+      "answer": "Yes. Module 4 introduces multi-agent collaboration patterns and task delegation, along with human-in-the-loop review, permissions, guardrails, safe tool use, debugging, tracing, failure handling, and performance evaluation."
+    },
+    {
+      "question": "Is interview preparation included?",
+      "answer": "The final module includes a project walkthrough, implementation review, and technical interview-preparation questions."
+    },
+    {
+      "question": "Which tools and frameworks are used in the course?",
+      "answer": "The course covers LLMs, prompt design, tool and function calling, API integration, RAG, vector stores, agent memory, and workflow orchestration. Specific frameworks, tools, project scope, and session sequence can be finalized with the assigned mentor."
+    },
+    {
+      "question": "What makes ICLP Tech's Agentic AI course different?",
+      "answer": "The course is mentor-led and practical, combining hands-on labs, workflow design, tool integration, guardrails, and a guided capstone project in a focused 40-hour plan."
+    }
+  ]
+},
+        {
           "course_name": "Business Analyst",
           "name":"Business Analyst Training in Chennai",
           "path": "business-analyst-training-in-chennai",
@@ -34186,11 +34905,11 @@
           ]
         },
        {
-  "course_name": "Workday Financial",
- "name":"Workday Financial Training in Chennai", 
+  "course_name": "Workday Finance",
+ "name":"Workday Finance Training in Chennai", 
   "path": "workday-financial-training-in-chennai",
   "description": "ICLP Technologies offers industry-focused Workday Financial Training in Chennai designed for freshers, finance professionals, ERP consultants, and working professionals who want to build a successful career in Workday Financial Management. Our practical training program helps students gain hands-on experience in Workday Financials, accounting setup, journals, security, reporting, suppliers, customers, settlements, and expense management. Our Workday Financial Online Training program is created by experienced industry experts with real-time project exposure and interview-focused learning. Students receive complete guidance from basic to advanced concepts with practical implementation scenarios.",
-  "meta_title": "Workday Financial Training in Chennai | Workday Financial Online Course with Placement | ICLP Technologies",
+  "meta_title": "Workday Finance Training in Chennai | Workday Finance Online Course with Placement | ICLP Technologies",
   "meta_description": "Develop cloud finance expertise through Workday Finance Training in Chennai covering accounting, expenses, reporting and financial business processes.",
   "schema": {
     "@context": "https://schema.org",
@@ -36892,7 +37611,512 @@
             "SAIL Interface Design with Records and Reports",
             "System Integration using Web APIs"
           ]
+        },{
+  "course_name": "PMP Certification",
+  "image": "/pmp-certification.jpeg",
+  "path": "pmp-certification-training-in-chennai",
+  "name": "PMP Certification Training in Chennai ",
+  "canonical_url": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
         },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai/#pmp-certification-training-service",
+        "name": "PMP Certification Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "PMP Certification Exam Preparation Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai/#course",
+        "name": "PMP Certification Course Online",
+        "description": "PMP certification training covering project integration, scope, schedule, cost, quality, resource, communications, risk, procurement and stakeholder management, Agile and hybrid approaches, performance domains, business environment, leadership and professional responsibility. Includes scenario-based question analysis, practice tests, mock examinations and exam readiness assessment.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "keywords": "PMP Certification Training, PMP Course, Project Management Professional, PMP Exam Preparation, Agile Project Management, PMP Online Course",
+        "about": [
+          { "@type": "Thing", "name": "Project Management" },
+          { "@type": "Thing", "name": "Agile and Hybrid Project Management" },
+          { "@type": "Thing", "name": "PMP Exam Preparation" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Introduction to Project Management",
+            "Project Integration Management",
+            "Project Scope Management",
+            "Project Schedule Management",
+            "Project Cost Management",
+            "Project Quality Management",
+            "Project Resource Management",
+            "Project Communications Management",
+            "Project Risk Management",
+            "Project Procurement Management",
+            "Project Stakeholder Management",
+            "Agile Project Management",
+            "Project Management Performance Domains",
+            "Business Environment and Strategic Alignment",
+            "Leadership and Professional Responsibility",
+            "PMP Exam Preparation"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "PMP Certification Training", "item": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/project-management/pmp-certification-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is PMP certification and why is it important?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PMP (Project Management Professional) is a project management certification. Preparing for it builds structured knowledge of planning, executing, monitoring and closing projects, which is valuable for project management careers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should enroll in the PMP certification course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Project managers, team leads, IT and non-IT professionals, and anyone preparing for the PMP certification examination or looking to strengthen project management skills can benefit from this course."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What skills will I gain from this PMP training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will learn to manage scope, schedule, cost, quality, resources, communications, risks, procurement and stakeholders, apply Agile, predictive and hybrid approaches, and strengthen leadership, communication and decision-making skills."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course cover Agile and hybrid project management?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The course includes Agile principles and mindset, the Agile Manifesto, Scrum, Kanban and Lean, backlog and sprint planning, user stories, Agile estimation, iterative delivery and hybrid approaches."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course cover the project management performance domains?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. It covers the stakeholder, team, development approach and life cycle, planning, project work, delivery, measurement and uncertainty performance domains."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the course help with PMP exam preparation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The final module covers the exam structure, scenario-based question analysis, predictive, Agile and hybrid scenarios, practice tests and mock examinations, performance analysis and knowledge gap identification, and a final revision and exam readiness assessment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course guarantee PMP certification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The course prepares you for the PMP examination, but the certification is awarded by the Project Management Institute (PMI) after you meet its eligibility requirements and pass the exam. Results depend on your preparation and performance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course cover leadership and ethics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. It includes leadership styles, emotional intelligence, team collaboration and motivation, ethical decision-making, conflict resolution, and professional conduct and responsibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the course online or classroom-based?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Please contact ICLP Technologies for the current delivery formats, schedule, duration and fees for the PMP Certification Training."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes ICLP Tech's PMP certification course different?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course combines a complete 16-module syllabus covering predictive, Agile and hybrid approaches with scenario-based practice, mock examinations and knowledge gap analysis focused on exam readiness."
+            }
+          }
+        ],
+        "image": "/pmp-certification.jpeg"
+      }
+    ]
+  },
+  "meta_title": "PMP Certification Training in Chennai",
+  "meta_description": "Looking for PMP Certification Training in Chennai? Learn project management, Agile, risk, cost, scope, stakeholder management and PMP exam preparation.",
+  "description": "ICLP Technologies offers industry-focused PMP Certification Training in Chennai designed for project managers, team leads, IT and non-IT professionals, and aspiring project managers who want to strengthen their project management skills and prepare for the PMP certification examination. Our PMP Course provides structured training in Project Integration, Scope, Schedule, Cost, Quality, Resource, Communications, Risk, Procurement and Stakeholder Management, along with Agile Project Management, Project Management Performance Domains, Business Environment and Strategic Alignment, and Leadership and Professional Responsibility. Learners practise with scenario-based question analysis, predictive, Agile and hybrid project scenarios, practice tests and mock examinations. Project management combines planning, delivery, people and governance, which makes a structured, exam-focused approach essential.",
+  "career_benefits": {
+    "heading": "Why PMP Certification Training is Essential for Your Career",
+    "description": "<strong>PMP (Project Management Professional)</strong> preparation builds a structured understanding of how projects are planned, executed, monitored and closed. Strong project management knowledge supports roles across industries where projects must be delivered on time, within budget and aligned with business goals.",
+    "points": [
+      "<strong>Broad Relevance:</strong> Project management skills apply across IT, engineering, construction, healthcare, finance and many other sectors.",
+      "<strong>Career Growth:</strong> Knowledge of predictive, Agile and hybrid approaches supports roles such as Project Manager, Project Coordinator, Scrum Master and Program Manager, depending on your experience.",
+      "<strong>Skill Mastery:</strong> Our PMP training goes beyond theory, focusing on scenario-based analysis, leadership, decision-making and exam readiness."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>PMP Certification Course Curriculum</strong>",
+    "intro": "Our <strong>PMP certification course</strong> is organized into 16 modules, ensuring you gain thorough knowledge of project management knowledge areas, Agile and hybrid approaches, performance domains, leadership and exam preparation."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>Project Management Knowledge Areas</strong> Covered",
+    "description": "We cover the essential areas of planning and controlling projects, including:",
+    "topics": [
+      "<strong>Integration, Scope and Schedule Management</strong>",
+      "<strong>Cost, Quality and Resource Management</strong>",
+      "<strong>Communications, Risk and Procurement Management</strong>",
+      "<strong>Stakeholder Management</strong> and engagement planning"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "<strong>Agile, Performance Domains and Leadership</strong> Covered",
+    "description": "This section focuses on modern approaches, strategic alignment and professional skills:",
+    "topics": [
+      "<strong>Agile Project Management:</strong> Scrum, Kanban, Lean and hybrid approaches",
+      "<strong>Project Management Performance Domains:</strong> Stakeholder, team, planning, delivery, measurement and uncertainty",
+      "<strong>Business Environment:</strong> Strategic alignment, benefits management, governance and organizational change",
+      "<strong>Leadership and Ethics:</strong> Emotional intelligence, conflict resolution and professional responsibility."
+    ]
+  },
+  "certification_info": {
+    "heading": "Prepare for the <strong>PMP Certification Exam</strong>",
+    "intro": "Preparing for the <strong>PMP certification exam</strong> requires understanding concepts and applying them to scenarios. Our <strong>PMP training</strong> includes dedicated exam preparation with practice tests, mock examinations and readiness assessment.",
+    "highlights": [
+      "<strong>Scenario-Based Practice:</strong> Analyze exam-style questions across predictive, Agile and hybrid project scenarios.",
+      "<strong>Mock Examinations:</strong> Practice tests and mock exams to build familiarity with the exam structure.",
+      "<strong>Gap Analysis:</strong> Performance analysis and knowledge gap identification, followed by final revision and an exam readiness assessment."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is a Strong Choice for <strong>PMP</strong> Training",
+    "intro": "We focus on structured, exam-oriented <strong>PMP certification training</strong> that helps professionals apply project management principles with confidence.",
+    "instructor_expertise": {
+      "heading": "Structured <strong>Training</strong> and Exam-Focused Guidance",
+      "description": "Our program follows a complete 16-module syllabus covering project management knowledge areas, Agile and hybrid approaches, leadership and exam preparation, with scenario-based practice and performance analysis to help you identify and close knowledge gaps."
+    },
+    "training_modes": {
+      "heading": "Practical <strong>PMP Training</strong> Format",
+      "description": "The program is built around applying concepts to realistic scenarios:",
+      "options": [
+        "<strong>Structured Syllabus:</strong> 16 modules from project management fundamentals to final exam readiness assessment",
+        "<strong>Practice & Mock Exams:</strong> Scenario-based questions, practice tests, mock examinations and performance analysis."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "Project Integration Management", "icon": "" },
+    { "name": "Work Breakdown Structure (WBS)", "icon": "" },
+    { "name": "Critical Path Method (CPM)", "icon": "" },
+    { "name": "Earned Value Management (EVM)", "icon": "" },
+    { "name": "Risk Analysis & Response Planning", "icon": "" },
+    { "name": "Procurement & Contract Types", "icon": "" },
+    { "name": "Stakeholder Engagement Planning", "icon": "" },
+    { "name": "Scrum", "icon": "" },
+    { "name": "Kanban & Lean", "icon": "" },
+    { "name": "Product Backlog & User Stories", "icon": "" },
+    { "name": "Hybrid Project Management", "icon": "" },
+    { "name": "Performance Domains", "icon": "" },
+    { "name": "Quality Management Tools", "icon": "" },
+    { "name": "Mock Examinations", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Project management principles, terminology and life cycles",
+    "Scope, schedule and cost management with WBS, CPM and EVM",
+    "Quality, resource and communications management",
+    "Risk, procurement and stakeholder management",
+    "Agile, Scrum, Kanban, Lean and hybrid approaches",
+    "Performance domains and strategic alignment",
+    "Leadership, ethics and conflict resolution",
+    "PMP exam strategy with practice tests and mock examinations"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Project Management",
+      "subtopics": [
+        "Fundamentals of Project Management",
+        "Project Management Terminology and Concepts",
+        "Project Life Cycles and Development Approaches",
+        "Organizational Structures and Project Environments",
+        "Role and Responsibilities of a Project Manager",
+        "PMP Certification Overview and Exam Preparation"
+      ]
+    },
+    {
+      "module": "Project Integration Management",
+      "subtopics": [
+        "Develop Project Charter",
+        "Develop Project Management Plan",
+        "Direct and Manage Project Work",
+        "Manage Project Knowledge",
+        "Monitor and Control Project Work",
+        "Perform Integrated Change Control",
+        "Close Project or Phase"
+      ]
+    },
+    {
+      "module": "Project Scope Management",
+      "subtopics": [
+        "Plan Scope Management",
+        "Collect Requirements",
+        "Define Project Scope",
+        "Create Work Breakdown Structure (WBS)",
+        "Validate Scope",
+        "Control Scope"
+      ]
+    },
+    {
+      "module": "Project Schedule Management",
+      "subtopics": [
+        "Plan Schedule Management",
+        "Define and Sequence Activities",
+        "Estimate Activity Durations",
+        "Develop Project Schedule",
+        "Critical Path Method (CPM)",
+        "Schedule Monitoring and Control"
+      ]
+    },
+    {
+      "module": "Project Cost Management",
+      "subtopics": [
+        "Plan Cost Management",
+        "Estimate Project Costs",
+        "Determine Project Budget",
+        "Cost Baseline Development",
+        "Earned Value Management (EVM)",
+        "Monitor and Control Project Costs"
+      ]
+    },
+    {
+      "module": "Project Quality Management",
+      "subtopics": [
+        "Plan Quality Management",
+        "Quality Assurance and Control",
+        "Quality Management Tools and Techniques",
+        "Continuous Improvement",
+        "Quality Metrics and Performance Evaluation"
+      ]
+    },
+    {
+      "module": "Project Resource Management",
+      "subtopics": [
+        "Plan Resource Management",
+        "Estimate Resource Requirements",
+        "Acquire Project Resources",
+        "Develop and Manage Project Teams",
+        "Leadership and Team Motivation",
+        "Conflict Management and Resolution"
+      ]
+    },
+    {
+      "module": "Project Communications Management",
+      "subtopics": [
+        "Plan Communications Management",
+        "Manage Project Communications",
+        "Monitor Communications Effectiveness",
+        "Stakeholder Communication Strategies",
+        "Reporting and Information Distribution"
+      ]
+    },
+    {
+      "module": "Project Risk Management",
+      "subtopics": [
+        "Plan Risk Management",
+        "Identify Project Risks",
+        "Qualitative and Quantitative Risk Analysis",
+        "Plan Risk Responses",
+        "Implement Risk Responses",
+        "Monitor and Control Risks"
+      ]
+    },
+    {
+      "module": "Project Procurement Management",
+      "subtopics": [
+        "Plan Procurement Management",
+        "Procurement Strategies and Contract Types",
+        "Conduct Procurements",
+        "Control Procurements",
+        "Vendor and Supplier Management",
+        "Close Procurement Activities"
+      ]
+    },
+    {
+      "module": "Project Stakeholder Management",
+      "subtopics": [
+        "Identify Stakeholders",
+        "Analyze Stakeholder Expectations",
+        "Plan Stakeholder Engagement",
+        "Manage Stakeholder Engagement",
+        "Monitor Stakeholder Relationships"
+      ]
+    },
+    {
+      "module": "Agile Project Management",
+      "subtopics": [
+        "Introduction to Agile Principles and Mindset",
+        "Agile Manifesto and Values",
+        "Scrum Framework and Roles",
+        "Kanban and Lean Principles",
+        "Product Backlog and Sprint Planning",
+        "User Stories and Acceptance Criteria",
+        "Agile Estimation and Prioritization",
+        "Iterative Delivery and Continuous Improvement",
+        "Hybrid Project Management Approaches"
+      ]
+    },
+    {
+      "module": "Project Management Performance Domains",
+      "subtopics": [
+        "Stakeholder Performance Domain",
+        "Team Performance Domain",
+        "Development Approach and Life Cycle",
+        "Planning Performance Domain",
+        "Project Work Performance Domain",
+        "Delivery Performance Domain",
+        "Measurement Performance Domain",
+        "Uncertainty Performance Domain"
+      ]
+    },
+    {
+      "module": "Business Environment and Strategic Alignment",
+      "subtopics": [
+        "Project Alignment with Organizational Strategy",
+        "Business Value and Benefits Management",
+        "Compliance and Governance",
+        "Organizational Change Management",
+        "Project Outcomes and Value Delivery"
+      ]
+    },
+    {
+      "module": "Leadership and Professional Responsibility",
+      "subtopics": [
+        "Leadership Styles and Management Skills",
+        "Emotional Intelligence",
+        "Team Collaboration and Motivation",
+        "Ethical Decision-Making",
+        "Conflict Resolution",
+        "Professional Conduct and Responsibility"
+      ]
+    },
+    {
+      "module": "PMP Exam Preparation",
+      "subtopics": [
+        "PMP Examination Structure and Overview",
+        "Scenario-Based Question Analysis",
+        "Predictive, Agile and Hybrid Project Scenarios",
+        "Practice Tests and Mock Examinations",
+        "Performance Analysis and Knowledge Gap Identification",
+        "Final Revision and Exam Readiness Assessment"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is PMP certification and why is it important?",
+      "answer": "PMP (Project Management Professional) is a project management certification. Preparing for it builds structured knowledge of planning, executing, monitoring and closing projects, which is valuable for project management careers."
+    },
+    {
+      "question": "Who should enroll in the PMP certification course?",
+      "answer": "Project managers, team leads, IT and non-IT professionals, and anyone preparing for the PMP certification examination or looking to strengthen project management skills can benefit from this course."
+    },
+    {
+      "question": "What skills will I gain from this PMP training?",
+      "answer": "You will learn to manage scope, schedule, cost, quality, resources, communications, risks, procurement and stakeholders, apply Agile, predictive and hybrid approaches, and strengthen leadership, communication and decision-making skills."
+    },
+    {
+      "question": "Does the course cover Agile and hybrid project management?",
+      "answer": "Yes. The course includes Agile principles and mindset, the Agile Manifesto, Scrum, Kanban and Lean, backlog and sprint planning, user stories, Agile estimation, iterative delivery and hybrid approaches."
+    },
+    {
+      "question": "Does the course cover the project management performance domains?",
+      "answer": "Yes. It covers the stakeholder, team, development approach and life cycle, planning, project work, delivery, measurement and uncertainty performance domains."
+    },
+    {
+      "question": "How does the course help with PMP exam preparation?",
+      "answer": "The final module covers the exam structure, scenario-based question analysis, predictive, Agile and hybrid scenarios, practice tests and mock examinations, performance analysis and knowledge gap identification, and a final revision and exam readiness assessment."
+    },
+    {
+      "question": "Does the course guarantee PMP certification?",
+      "answer": "No. The course prepares you for the PMP examination, but the certification is awarded by the Project Management Institute (PMI) after you meet its eligibility requirements and pass the exam. Results depend on your preparation and performance."
+    },
+    {
+      "question": "Does the course cover leadership and ethics?",
+      "answer": "Yes. It includes leadership styles, emotional intelligence, team collaboration and motivation, ethical decision-making, conflict resolution, and professional conduct and responsibility."
+    },
+    {
+      "question": "Is the course online or classroom-based?",
+      "answer": "Please contact ICLP Technologies for the current delivery formats, schedule, duration and fees for the PMP Certification Training."
+    },
+    {
+      "question": "What makes ICLP Tech's PMP certification course different?",
+      "answer": "The course combines a complete 16-module syllabus covering predictive, Agile and hybrid approaches with scenario-based practice, mock examinations and knowledge gap analysis focused on exam readiness."
+    }
+  ]
+},
         {
           "course_name": "Primavera P6",
           "name":"Primavera P6 Training in Chennai",
@@ -38044,224 +39268,539 @@
             "Application Retirement Plan"
           ]
         },
-        {
-          "course_name": "Informatica MDM Online Training",
-          "name":"Informatica MDM Training in Chennai",
-          "path": "informatica-mdm-training-in-chennai",
-          "meta_title":"Informatica MDM Training in Chennai",
-          "meta_description":"Discover Informatica MDM Training in Chennai, covering master data management, data modeling, staging, loading, and hierarchy management for comprehensive data governance.",
-          "description": "Learn to design, configure, and manage master data using Informatica MDM Hub.",
-          "what_youll_learn": [
-            "Master Data Management fundamentals",
-            "Data modeling and relationship configuration",
-            "Staging, loading, and merging processes",
-            "User exits and batch processing",
-            "Hierarchy management and security access"
-          ],
-          "syllabus": [
-            {
-              "module": "Introduction to Informatica MDM Hub",
-              "subtopics": [
-                "Master Data",
-                "Master Data Management",
-                "A Reliable Foundation Of Master Reference Data",
-                "Components of MDM Hub",
-                "Application Server Tier",
-                "Database Server Tier",
-                "Batch Data Process Flow",
-                "Trust Framework",
-                "Consolidation Flag"
-              ]
-            },
-            {
-              "module": "Define the Data Model",
-              "subtopics": [
-                "Data Model Elements",
-                "Data Model",
-                "Relationships",
-                "Relationship Types",
-                "Lookups",
-                "Global Business Identifier (GBID) Flag"
-              ]
-            },
-            {
-              "module": "Configuring Stage and Load Process",
-              "subtopics": []
-            },
-            {
-              "module": "Configure the Stage Process",
-              "subtopics": [
-                "Basic Mappings",
-                "Complex Mappings",
-                "Cleansing and Transforming Data",
-                "Execution Component",
-                "Testing Mappings",
-                "Reusable Cleanse Components",
-                "External Data Cleansing",
-                "Delta Detection & Audit Trail",
-                "Rejects",
-                "Cleanse Match Servers",
-                "High-Level Stage Process Flow",
-                "Detailed Stage Process Flow"
-              ]
-            },
-            {
-              "module": "Configure the Load Process",
-              "subtopics": [
-                "Trust",
-                "Validation Rule",
-                "Trust & Validation Rules: Things to note",
-                "Cell Level Update",
-                "Allow NULL Update",
-                "Allow NULL Foreign Key",
-                "How the Load works"
-              ]
-            },
-            {
-              "module": "Configuring Merge Process and Data Access",
-              "subtopics": []
-            },
-            {
-              "module": "Configure the Match & Merge Process",
-              "subtopics": [
-                "Match & Merge Overview",
-                "Key Activities for Configuring Rules",
-                "Match/Search Strategy for Base Object",
-                "Population",
-                "Match Path, Columns and Match Key",
-                "Match Rules and Rule Sets",
-                "Primary Key Match Rules",
-                "Match Rules using Primary Key Match",
-                "Match Keys Distribution",
-                "Merge Settings",
-                "Match/Merge Properties: Merge Style Base Object",
-                "External Match",
-                "Match Server Architecture"
-              ]
-            },
-            {
-              "module": "Configure Data Access Views",
-              "subtopics": [
-                "Queries & Packages Overview",
-                "Query",
-                "Package"
-              ]
-            },
-            {
-              "module": "Batch Processes and Data Management Tools",
-              "subtopics": []
-            },
-            {
-              "module": "Batch Processes",
-              "subtopics": [
-                "Batch Viewer",
-                "Batch Group",
-                "Executing Stored Procedures",
-                "Scheduling Considerations",
-                "Job Status & Job Statistics"
-              ]
-            },
-            {
-              "module": "Data Management Tools",
-              "subtopics": [
-                "Data Stewardship",
-                "Recap: Consolidation Flags",
-                "Merge Manager",
-                "Data Manager",
-                "Unmerge and Tree Unmerge"
-              ]
-            },
-            {
-              "module": "User Exits and Log Files",
-              "subtopics": []
-            },
-            {
-              "module": "User Exit Procedures",
-              "subtopics": [
-                "User Objects",
-                "User Object Registry Tool",
-                "User Exit & User Exit Procedure",
-                "Demo User Exit Procedure (using TOAD)",
-                "User Exits in the STAGE Process",
-                "User Exits in the LOAD Process",
-                "User Exits in the MATCH Process",
-                "User Exits in the MERGE Process",
-                "User Exits in the UNMERGE Process",
-                "Other Logs Exit Procedures"
-              ]
-            },
-            {
-              "module": "Log Files",
-              "subtopics": [
-                "Enterprise Manager",
-                "Hub Server Tab",
-                "Cleanse Servers Tab",
-                "Environment Report Tab",
-                "ORS Databases Tab",
-                "Database Log File",
-                "Application Server Log",
-                "Cleanse/Match Server Logs",
-                "Console Log"
-              ]
-            },
-            {
-              "module": "Hierarchy Management and Security Access Manager",
-              "subtopics": []
-            },
-            {
-              "module": "Hierarchy Management",
-              "subtopics": [
-                "Entities & Entity Type",
-                "HM Relationships",
-                "HM Hierarchies",
-                "Hierarchy Management",
-                "HM Profiles",
-                "HM Packages"
-              ]
-            },
-            {
-              "module": "Security Access Manager (SAM)",
-              "subtopics": [
-                "Users, Resources, Privileges & Roles",
-                "Resources",
-                "Resource Groups",
-                "Privileges",
-                "Roles"
-              ]
-            },
-            {
-              "module": "Informatica Data Director",
-              "subtopics": []
-            },
-            {
-              "module": "IDD Configuration",
-              "subtopics": [
-                "Business Data Director – User Interface",
-                "Create, Manage, Consume And Monitor",
-                "Data Model Elements",
-                "Configuration File",
-                "Subject Area",
-                "Subject Area Groups",
-                "BDD Data Display",
-                "Relationships",
-                "Application Validation",
-                "Importing an Application",
-                "Match Paths",
-                "Lookup",
-                "Cleansing",
-                "Resources and Privileges"
-              ]
-            }
-          ],
-          "duration": "45 hours",
-          "skill_level": "Advanced",
-          "image": "/CourseDetails/mdm.png",
-          "placement_assurance": true,
-          "projects": [
-            "MDM Data Integration Project",
-            "Hierarchy Management Implementation"
+       {
+  "course_name": "Informatica MDM",
+  "image": "/informatica-mdm.jpeg",
+  "path": "informatica-mdm-training-in-chennai",
+  "name": "Informatica MDM Training in Chennai ",
+  "canonical_url": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai/#informatica-mdm-training-service",
+        "name": "Informatica MDM Training",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Informatica Master Data Management Training"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai/#course",
+        "name": "Informatica MDM Course Online",
+        "description": "Informatica MDM training covering master data management fundamentals, MDM architecture, data modeling and configuration, data loading and staging, match and merge, data quality and standardization, data stewardship, hierarchy management, data governance, enterprise integration, advanced concepts and implementation best practices. Includes practical exercises and enterprise-style project scenarios.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": "Online",
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "keywords": "Informatica MDM Training, Informatica MDM Course, Master Data Management, Match and Merge, Data Quality, Data Governance, Informatica MDM Online Course",
+        "about": [
+          { "@type": "Thing", "name": "Master Data Management (MDM)" },
+          { "@type": "Thing", "name": "Match and Merge" },
+          { "@type": "Thing", "name": "Data Quality and Governance" }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English",
+          "location": {
+            "@type": "Place",
+            "name": "Chennai"
+          },
+          "curriculum": [
+            "Introduction to Master Data Management",
+            "Informatica MDM Architecture",
+            "Data Modeling and Configuration",
+            "Data Loading and Staging",
+            "Match and Merge",
+            "Data Quality and Standardization",
+            "Data Stewardship and Workflows",
+            "Hierarchy and Relationship Management",
+            "Data Governance and Master Data Management",
+            "Integration with Enterprise Systems",
+            "Advanced Informatica MDM Concepts",
+            "Testing and Implementation Best Practices"
           ]
         },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iclptech.in" },
+          { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://iclptech.in/courses/" },
+          { "@type": "ListItem", "position": 3, "name": "Informatica MDM Training", "item": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/courses/data-management/informatica-mdm-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the fee for Informatica MDM training in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The course fee depends on the syllabus, duration, training format, and practical coverage. Contact ICLP Technologies for the current fee and available offers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to learn Informatica MDM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The duration depends on your existing database knowledge and the selected syllabus. A program covering architecture, data modeling, match and merge, data quality, integration, and projects requires more learning time than a fundamentals-only program."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the prerequisites for Informatica MDM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic database knowledge and SQL are recommended. Understanding ETL and data integration can also help learners understand MDM implementation concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can freshers learn Informatica MDM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers can begin with database fundamentals, SQL, and master data concepts before progressing to MDM configuration and practical exercises."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Informatica MDM training available online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Online training may be available according to the current batch schedule. Contact ICLP Technologies to confirm the training format and session timings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include certification?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Certification availability depends on the training plan. Confirm whether the program includes a course completion certificate or guidance for an external certification."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What jobs can I apply for after Informatica MDM training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depending on your experience and technical skills, you can explore Informatica MDM Developer, MDM Consultant, Data Quality Analyst, Data Governance Analyst, and related data integration roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Informatica MDM a good career option?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be a relevant specialization for professionals interested in enterprise data quality, data governance, master data consolidation, and data integration. Career opportunities depend on employer demand and your practical expertise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is SQL required for Informatica MDM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SQL is strongly recommended because database queries and relational data concepts are useful for understanding data models, validating records, and troubleshooting data issues."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a golden record in Informatica MDM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A golden record is a consolidated, trusted representation of an entity created from relevant source records according to matching, merging, survivorship, and validation rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Informatica MDM and PowerCenter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Informatica MDM focuses on managing and consolidating trusted master data. Informatica PowerCenter is primarily a data integration and ETL platform used to extract, transform, and load data. They can be used together in certain enterprise implementations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the course include real-time projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The selected syllabus may include practical exercises and enterprise-style projects. Ask the training team to confirm the project list and whether a suitable MDM environment is available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I learn Informatica MDM in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can contact ICLP Technologies to enquire about Informatica MDM Training in Chennai, online training options, syllabus coverage, fees, and upcoming batches."
+            }
+          }
+        ],
+        "image": "/informatica-mdm.jpeg"
+      }
+    ]
+  },
+  "meta_title": "Informatica MDM Training in Chennai",
+  "meta_description": "Learn Informatica MDM Training in Chennai with practical projects covering data modeling, match and merge, data quality, workflows, and master data management.",
+  "description": "ICLP Technologies offers Informatica MDM Training in Chennai designed for freshers, graduates, Informatica PowerCenter and ETL developers, data integration developers, data engineers, SQL developers, database administrators, data quality analysts, data governance professionals, and business and data analysts who want to build skills in enterprise master data management. Our Informatica MDM Course introduces MDM architecture, data modeling, base objects, landing tables, staging processes, match and merge rules, survivorship, trust and validation concepts, data quality and standardization, data stewardship, hierarchy management, data governance, and integration workflows. Learners practise with customer, product, and supplier master data scenarios to understand how organizations build trusted golden records and maintain consistent business information across CRM, ERP, and other enterprise systems. Informatica MDM knowledge is relevant in industries such as banking, healthcare, retail, insurance, manufacturing, and telecommunications.",
+  "career_benefits": {
+    "heading": "Why Informatica MDM Training is Essential for Your Career",
+    "description": "<strong>Informatica MDM (Master Data Management)</strong> helps organizations consolidate, standardize, and maintain accurate master data across multiple business systems. Understanding how enterprise data is matched, validated, consolidated, and governed is valuable for data management, data integration, and governance-related roles.",
+    "points": [
+      "<strong>Enterprise Relevance:</strong> MDM knowledge is useful in industries that manage large volumes of business-critical data, including banking, healthcare, retail, insurance, manufacturing, and telecommunications.",
+      "<strong>Career Growth:</strong> Roles such as Informatica MDM Developer, MDM Consultant, Master Data Management Specialist, Data Quality Analyst, and Data Governance Analyst build on these skills, depending on your experience and employer requirements.",
+      "<strong>Skill Mastery:</strong> Our Informatica MDM training goes beyond theory, focusing on data modeling, match and merge, data quality, and practical troubleshooting scenarios."
+    ]
+  },
+  "curriculum_overview": {
+    "heading": "Comprehensive <strong>Informatica MDM Course Curriculum</strong>",
+    "intro": "Our <strong>Informatica MDM course</strong> is organized into 12 modules, introducing core master data concepts before progressing to configuration, data quality, integration, and implementation scenarios."
+  },
+  "track_overview_primary": {
+    "heading": "Core <strong>MDM Configuration and Processing</strong> Covered",
+    "description": "We cover the essential building blocks of an MDM implementation, including:",
+    "topics": [
+      "<strong>MDM Architecture:</strong> MDM Hub components, Hub Store, source and target systems, and data flow",
+      "<strong>Data Modeling:</strong> Base objects, landing tables, staging tables, lookup tables, cross-reference records, and relationships",
+      "<strong>Data Loading and Staging:</strong> Loading, validation, standardization, and batch processing",
+      "<strong>Match and Merge:</strong> Match rules, fuzzy matching, survivorship, trust settings, and golden record creation"
+    ]
+  },
+  "track_overview_secondary": {
+    "heading": "<strong>Data Quality, Governance and Integration</strong> Covered",
+    "description": "This section focuses on keeping master data accurate, governed, and shared across systems:",
+    "topics": [
+      "<strong>Data Quality:</strong> Profiling, cleansing, standardization, validation, and monitoring",
+      "<strong>Data Stewardship and Governance:</strong> Record review, approval workflows, ownership, and auditability",
+      "<strong>Hierarchy Management:</strong> Parent-child relationships, product hierarchies, organization structures, and reference data",
+      "<strong>Integration:</strong> Batch and API-based integration, publishing master data, downstream synchronization, and an introduction to Informatica IDMC."
+    ]
+  },
+  "certification_info": {
+    "heading": "Build Your <strong>Informatica MDM Project</strong> Experience",
+    "intro": "Hands-on practice helps you demonstrate what you can build. Our <strong>Informatica MDM training</strong> includes enterprise-style project scenarios and a final implementation review. Certification availability depends on the training plan, so confirm with ICLP Technologies whether a course completion certificate or guidance for an external certification is included.",
+    "highlights": [
+      "<strong>Project-Based Learning:</strong> Work through customer, product, and supplier master data scenarios and an end-to-end MDM implementation.",
+      "<strong>Testing and Validation:</strong> Verify match and merge results, golden records, data quality rules, and integrations.",
+      "<strong>Interview and Resume Support:</strong> Practise MDM concepts and scenario-based interview questions, and learn to present your project experience."
+    ]
+  },
+  "why_institute": {
+    "heading": "Why <strong>ICLP Tech</strong> is a Strong Choice for <strong>Informatica MDM</strong> Training",
+    "intro": "We focus on structured, practical <strong>Informatica MDM training</strong> that helps learners move from master data concepts to implementation-oriented scenarios.",
+    "instructor_expertise": {
+      "heading": "Structured <strong>Training</strong> and Trainer Guidance",
+      "description": "Our program starts with MDM fundamentals before progressing to data modeling, match and merge, data quality, and implementation concepts. Learners can enquire about trainer experience, practical demonstrations, and the level of individual support available. Before enrolling, request confirmation of the training environment, project coverage, recordings, and other included features."
+    },
+    "training_modes": {
+      "heading": "Flexible <strong>Informatica MDM Training</strong> Options",
+      "description": "Depending on the selected batch and available facilities, training may include:",
+      "options": [
+        "<strong>Online Training:</strong> Live instructor-led sessions subject to batch availability, with weekday, weekend, and flexible timings available to enquire about.",
+        "<strong>Hands-On Practice and Support:</strong> Practical exercises, project-based learning, doubt-clearing support, interview preparation, resume guidance, and career guidance."
+      ]
+    }
+  },
+  "tools_covered": [
+    { "name": "Informatica Multidomain MDM", "icon": "" },
+    { "name": "MDM Hub", "icon": "" },
+    { "name": "Base Objects & Relationships", "icon": "" },
+    { "name": "Landing & Staging Tables", "icon": "" },
+    { "name": "Match Rules & Merge Logic", "icon": "" },
+    { "name": "Survivorship & Trust Settings", "icon": "" },
+    { "name": "Data Quality & Standardization", "icon": "" },
+    { "name": "Data Stewardship & Approval Workflows", "icon": "" },
+    { "name": "Hierarchy Management", "icon": "" },
+    { "name": "SQL", "icon": "" },
+    { "name": "Oracle / SQL Server", "icon": "" },
+    { "name": "Informatica PowerCenter Integration", "icon": "" },
+    { "name": "REST API Fundamentals", "icon": "" },
+    { "name": "Informatica IDMC", "icon": "" }
+  ],
+  "what_youll_learn": [
+    "Master data concepts, golden records, and MDM architecture",
+    "Data modeling with base objects, landing and staging tables",
+    "Data loading, validation, and standardization",
+    "Match and merge, survivorship, and trust settings",
+    "Data quality profiling, cleansing, and monitoring",
+    "Data stewardship workflows and data governance",
+    "Hierarchy and relationship management",
+    "Integration, testing, and implementation best practices"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Master Data Management",
+      "subtopics": [
+        "Introduction to enterprise data management",
+        "What is master data?",
+        "Master data versus transactional data",
+        "Types of master data",
+        "Common data quality challenges",
+        "Duplicate records and inconsistent information",
+        "Golden record concepts",
+        "Benefits and applications of MDM",
+        "Overview of Informatica MDM"
+      ]
+    },
+    {
+      "module": "Informatica MDM Architecture",
+      "subtopics": [
+        "Informatica MDM architecture overview",
+        "Multidomain MDM concepts",
+        "MDM Hub components",
+        "Source systems and target systems",
+        "Data flow and processing lifecycle",
+        "Hub Store fundamentals",
+        "MDM environments",
+        "Metadata and configuration concepts",
+        "Security and access fundamentals"
+      ]
+    },
+    {
+      "module": "Data Modeling and Configuration",
+      "subtopics": [
+        "Understanding business entities",
+        "Domain and data model design",
+        "Base objects and relationships",
+        "Landing tables",
+        "Staging tables",
+        "Lookup tables",
+        "Cross-reference records",
+        "Data relationships and hierarchies",
+        "Configuring business entities",
+        "Understanding metadata dependencies"
+      ]
+    },
+    {
+      "module": "Data Loading and Staging",
+      "subtopics": [
+        "Introduction to source data",
+        "Loading source records",
+        "Landing and staging processes",
+        "Data transformation fundamentals",
+        "Data validation",
+        "Data standardization",
+        "Handling invalid records",
+        "Batch processing concepts",
+        "Troubleshooting loading issues"
+      ]
+    },
+    {
+      "module": "Match and Merge",
+      "subtopics": [
+        "Introduction to record matching",
+        "Duplicate record identification",
+        "Exact matching",
+        "Fuzzy matching concepts",
+        "Match rule configuration",
+        "Match columns and comparison logic",
+        "Merge processing",
+        "Survivorship rules",
+        "Trust settings and validation concepts",
+        "Golden record creation",
+        "Reviewing and resolving duplicate records"
+      ]
+    },
+    {
+      "module": "Data Quality and Standardization",
+      "subtopics": [
+        "Data quality fundamentals",
+        "Data profiling concepts",
+        "Data cleansing",
+        "Standardization rules",
+        "Data validation",
+        "Missing and inconsistent data",
+        "Duplicate detection",
+        "Address and contact data quality",
+        "Data enrichment concepts",
+        "Data quality monitoring"
+      ]
+    },
+    {
+      "module": "Data Stewardship and Workflows",
+      "subtopics": [
+        "Introduction to data stewardship",
+        "Stewardship responsibilities",
+        "Record review and approval",
+        "Exception handling",
+        "Data correction workflows",
+        "Business rule validation",
+        "Approval and task management concepts",
+        "Managing data quality exceptions",
+        "Audit and governance fundamentals"
+      ]
+    },
+    {
+      "module": "Hierarchy and Relationship Management",
+      "subtopics": [
+        "Hierarchy management concepts",
+        "Parent-child relationships",
+        "Customer relationships",
+        "Product hierarchies",
+        "Organization structures",
+        "Supplier relationships",
+        "Reference data management",
+        "Maintaining consistent relationships",
+        "Business use cases for hierarchical data"
+      ]
+    },
+    {
+      "module": "Data Governance and Master Data Management",
+      "subtopics": [
+        "Data governance fundamentals",
+        "Data ownership and accountability",
+        "Data stewardship practices",
+        "Master data lifecycle",
+        "Data consistency and accuracy",
+        "Data access and security concepts",
+        "Auditability and traceability",
+        "Governance policies",
+        "Enterprise MDM best practices"
+      ]
+    },
+    {
+      "module": "Integration with Enterprise Systems",
+      "subtopics": [
+        "Source and target system integration",
+        "Batch integration concepts",
+        "ETL and data integration fundamentals",
+        "Informatica PowerCenter integration concepts, where applicable",
+        "API-based integration fundamentals",
+        "Publishing master data",
+        "Downstream data synchronization",
+        "Data migration scenarios",
+        "Integration monitoring and troubleshooting"
+      ]
+    },
+    {
+      "module": "Advanced Informatica MDM Concepts",
+      "subtopics": [
+        "Multidomain MDM implementation concepts",
+        "Advanced matching strategies",
+        "Survivorship configuration",
+        "Performance considerations",
+        "Large-volume data processing",
+        "Error handling and troubleshooting",
+        "Deployment and environment management",
+        "Introduction to Informatica Intelligent Data Management Cloud (IDMC)",
+        "Cloud MDM concepts and related capabilities"
+      ]
+    },
+    {
+      "module": "Testing and Implementation Best Practices",
+      "subtopics": [
+        "MDM testing fundamentals",
+        "Data validation and reconciliation",
+        "Testing match and merge results",
+        "Verifying golden records",
+        "Testing data quality rules",
+        "Integration testing",
+        "Troubleshooting common issues",
+        "Implementation documentation",
+        "Deployment considerations",
+        "End-to-end MDM project review"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the fee for Informatica MDM training in Chennai?",
+      "answer": "The course fee depends on the syllabus, duration, training format, and practical coverage. Contact ICLP Technologies for the current fee and available offers."
+    },
+    {
+      "question": "How long does it take to learn Informatica MDM?",
+      "answer": "The duration depends on your existing database knowledge and the selected syllabus. A program covering architecture, data modeling, match and merge, data quality, integration, and projects requires more learning time than a fundamentals-only program."
+    },
+    {
+      "question": "What are the prerequisites for Informatica MDM?",
+      "answer": "Basic database knowledge and SQL are recommended. Understanding ETL and data integration can also help learners understand MDM implementation concepts."
+    },
+    {
+      "question": "Can freshers learn Informatica MDM?",
+      "answer": "Yes. Freshers can begin with database fundamentals, SQL, and master data concepts before progressing to MDM configuration and practical exercises."
+    },
+    {
+      "question": "Is Informatica MDM training available online?",
+      "answer": "Online training may be available according to the current batch schedule. Contact ICLP Technologies to confirm the training format and session timings."
+    },
+    {
+      "question": "Does the course include certification?",
+      "answer": "Certification availability depends on the training plan. Confirm whether the program includes a course completion certificate or guidance for an external certification."
+    },
+    {
+      "question": "What jobs can I apply for after Informatica MDM training?",
+      "answer": "Depending on your experience and technical skills, you can explore Informatica MDM Developer, MDM Consultant, Data Quality Analyst, Data Governance Analyst, and related data integration roles."
+    },
+    {
+      "question": "Is Informatica MDM a good career option?",
+      "answer": "It can be a relevant specialization for professionals interested in enterprise data quality, data governance, master data consolidation, and data integration. Career opportunities depend on employer demand and your practical expertise."
+    },
+    {
+      "question": "Is SQL required for Informatica MDM?",
+      "answer": "SQL is strongly recommended because database queries and relational data concepts are useful for understanding data models, validating records, and troubleshooting data issues."
+    },
+    {
+      "question": "What is a golden record in Informatica MDM?",
+      "answer": "A golden record is a consolidated, trusted representation of an entity created from relevant source records according to matching, merging, survivorship, and validation rules."
+    },
+    {
+      "question": "What is the difference between Informatica MDM and PowerCenter?",
+      "answer": "Informatica MDM focuses on managing and consolidating trusted master data. Informatica PowerCenter is primarily a data integration and ETL platform used to extract, transform, and load data. They can be used together in certain enterprise implementations."
+    },
+    {
+      "question": "Does the course include real-time projects?",
+      "answer": "The selected syllabus may include practical exercises and enterprise-style projects. Ask the training team to confirm the project list and whether a suitable MDM environment is available."
+    },
+    {
+      "question": "Where can I learn Informatica MDM in Chennai?",
+      "answer": "You can contact ICLP Technologies to enquire about Informatica MDM Training in Chennai, online training options, syllabus coverage, fees, and upcoming batches. You can also explore related courses: <a href='https://iclptech.in/courses/data-management/collibra-online-training/'>Collibra Training Online</a>, <a href='https://iclptech.in/courses/data-management/informatica-powercenter-training-in-chennai/'>Informatica PowerCenter Training</a>, and <a href='https://iclptech.in/courses/database/sql-training-in-chennai/'>SQL Training</a>."
+    }
+  ]
+},
       {
   "name": "Data Analytics Training in Chennai",
   "course_name": "Data Analytics Course",
