@@ -9,7 +9,6 @@ import ProcessChart from "./components/ProcessChart/processChart";
 import ExpertConnectBanner from "./components/ExpertConnectBanner/ExpertConnectBanner";
 import TrainingBanner from "./components/TrainingBanner/TrainingBanner";
 import RelatedCoursesSlider from "./components/RelatedCoursesSlider/RelatedCoursesSlider";
-import ChatBot from "./components/ChatBot/chatBot";
 import "./css/home.css";
 import HomeAboutDialog from "./components/Dialogbox/dialog";
 import HomeChennaiIntroduction from "./components/HomeSections/HomeChennaiIntroduction";
@@ -55,7 +54,6 @@ export default function Home() {
 
       </main>
 
-      <ChatBot />
     </div>
   );
 }
