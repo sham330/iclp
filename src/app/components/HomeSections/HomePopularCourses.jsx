@@ -66,7 +66,7 @@ const popularCourses = [
     description: "Develop foundational AI skills and understand practical applications of modern AI technologies.",
     icon: BrainCircuit,
     category: "Data & AI",
-    href: "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai",
+    href: "/courses/data-science-artificial-intelligence/artificialintelligence-course-online-training-in-chennai",
   },
   {
     title: "SAP FICO",

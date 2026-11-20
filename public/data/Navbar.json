@@ -62,7 +62,7 @@
           { "name": "MERN Stack", "path": "/courses/full-stack-development/mern-stack-training-in-chennnai" },
           { "name": "MEAN Stack", "path": "/courses/full-stack-development/mean-stack-training-in-chennnai" },
           { "name": "Java Full Stack", "path": "/courses/full-stack-development/full-stack-java-training-in-chennai" },
-          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/full-stack-development/python-full-stack-developer-training-in-chennai" },
+          { "name": "Python Full Stack (Django / Flask)", "path": "/courses/full-stack-development/python-full-stack-developer-online-training-in-chennai" },
           { "name": "React.js", "path": "/courses/full-stack-development/react-js-training-in-chennai" },
           { "name": "Node.js", "path": "/courses/full-stack-development/node-js-training-in-chennai" },
           { "name": "Angular", "path": "/courses/full-stack-development/angular-developer-training-in-chennai" },
@@ -147,12 +147,12 @@
         "courses": [
           { "name": "Data Science Master Program", "path": "/courses/data-science-artificial-intelligence/data-science-training-in-chennai" },
           { "name": "Machine Learning", "path": "/courses/data-science-artificial-intelligence/machine-learning-training-in-chennai" },
-          { "name": "AI Fundamentals", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
+          { "name": "AI Fundamentals", "path": "/courses/data-science-artificial-intelligence/artificialintelligence-course-online-training-in-chennai" },
           { "name": "Data Analytics", "path": "/courses/data-science-artificial-intelligence/data-analytics-training-in-chennai" },
           { "name": "Power BI", "path": "/courses/data-science-artificial-intelligence/power-bi-training-in-chennai" },
           { "name": "Tableau", "path": "/courses/data-science-artificial-intelligence/tableau-certification-training-in-chennai" },
           { "name": "Big Data (Hadoop, Spark)", "path": "/courses/data-science-artificial-intelligence/hadoop-online-training-in-chennai" },
-          { "name": "Generative AI", "path": "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
+          { "name": "Generative AI", "path": "/courses/data-science-artificial-intelligence/artificialintelligence-course-online-training-in-chennai" },
           { "name": "ChatGPT + Prompt Engineering", "path": "/courses/data-science-artificial-intelligence/chatgpt-online-course-training-in-chennai" },
           { "name": "RAG Systems", "path": "/courses/data-science-artificial-intelligence/rag-systems-ai-certification-course-training-in-chennai" },
           { "name": "AI for Automation", "path": "/courses/data-science-artificial-intelligence/ai-for-automation-course-training-in-chennai" }

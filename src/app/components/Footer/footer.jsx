@@ -84,7 +84,7 @@ const Footer = () => {
     { name: "Selenium", url: "/courses/software-testing-quality-assurance/selenium-training-in-chennai" },
     { name: "Manual Testing", url: "/courses/software-testing-quality-assurance/manual-testing-training-in-chennai" },
     { name: "JMeter", url: "/courses/software-testing-quality-assurance/jmeter-training-in-chennai" },
-    { name: "Artificial Intelligence", url: "/courses/data-science-artificial-intelligence/artificial-intelligence-training-in-chennai" },
+    { name: "Artificial Intelligence", url: "/courses/data-science-artificial-intelligence/artificialintelligence-course-online-training-in-chennai" },
     { name: "Machine Learning", url: "/courses/data-science-artificial-intelligence/machine-learning-training-in-chennai" },
     { name: "Data Science", url: "/courses/data-science-artificial-intelligence/data-science-training-in-chennai" },
     { name: "Power BI", url: "/courses/data-science-artificial-intelligence/power-bi-training-in-chennai" },

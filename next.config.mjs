@@ -31,7 +31,22 @@ const nextConfig = {
       },
       {
         source: '/course/workday-financial-training',
-        destination: '/courses/digital-marketing-business-tools/workday-financial-training-in-chennai',
+        destination: '/courses/digital-marketing-business-tools/workday-finance-training-in-chennai',
+        permanent: true,
+      },
+      {
+        source: '/courses/data-science-artificial-intelligence/artificialintelligence-training-in-chennai',
+        destination: '/courses/data-science-artificial-intelligence/artificialintelligence-course-online-training-in-chennai',
+        permanent: true,
+      },
+      {
+        source: '/courses/full-stack-development/python-full-stackdeveloper-training-in-chennai',
+        destination: '/courses/full-stack-development/python-full-stackdeveloper-online-training-in-chennai',
+        permanent: true,
+      },
+      {
+        source: '/courses/digital-marketing-business-tools/workdayfinancial-training-in-chennai',
+        destination: '/courses/cloud-computing-devops/workday-finance-training-in-chennai',
         permanent: true,
       },
     ];

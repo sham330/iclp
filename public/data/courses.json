@@ -17452,11 +17452,11 @@
 },
       {
   "course_name": "Python Full Stack",
-  "name":"Python Full Stack Developer Training in Chennai",
-  "path": "python-full-stack-developer-training-in-chennai",
-  "description": "ICLP Technologies offers industry-focused Python Full Stack Developer Online Training designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Full Stack Web Development. Our Python Full Stack Course in Chennai provides practical learning with real-time projects, live application development, frontend and backend integration, database management, and deployment techniques used in modern software development companies. Students gain hands-on experience in Python programming, Django framework, React JS, HTML, CSS, JavaScript, REST APIs, SQL databases, GitHub, and full stack application deployment.",
-  "meta_title": "Python Full Stack Developer Training in Chennai| Python Full Stack Course in Chennai with Placement | ICLP Technologies",
-  "meta_description": "Start programming with Python Training in Chennai, covering core concepts, automation, data handling, OOP and application development.",
+  "name":"Python Full Stack Developer Online Training in Chennai",
+  "path": "python-full-stack-developer-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented Python Full Stack Developer Online Training in Chennai designed for freshers, graduates, IT professionals, and working professionals who want to build a successful career in full stack development. Our comprehensive online training program covers both frontend and backend development using Python, Django, HTML, CSS, JavaScript, React, and database technologies. Our Python Full Stack Developer course focuses on practical learning, real-time project development, and industry-relevant programming skills. Learn how to build dynamic websites, develop web applications, integrate databases, create REST APIs, and manage complete application development processes with guidance from experienced trainers. Whether you are starting your programming journey or upgrading your technical skills, our online Python Full Stack training helps you gain the knowledge and confidence required to explore software development career opportunities.",
+  "meta_title": "Python Full Stack Developer Online Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Python Full Stack Developer Online Training in Chennai at ICLP Technologies. Learn Python, Django, ReactJS, SQL, and real-time projects with expert trainers and placement assistance.",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -17490,8 +17490,8 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/#service",
-        "name": "Python Full Stack Developer Online Training",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#service",
+        "name": "Python Full Stack Developer Online Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -17500,9 +17500,9 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/#course",
-        "name": "Python Full Stack Developer Online Training",
-        "description": "Join Python Full Stack Developer Online Training at ICLP Technologies with Python, Django, React JS, SQL, APIs, real-time projects, and placement assistance.",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#course",
+        "name": "Python Full Stack Developer Online Training in Chennai",
+        "description": "Join Python Full Stack Developer Online Training in Chennai at ICLP Technologies. Learn Python, Django, ReactJS, SQL, and real-time projects with expert trainers and placement assistance.",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -17512,9 +17512,9 @@
         ],
         "inLanguage": "English",
         "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Python Full Stack Course Completion Certificate",
+        "occupationalCredentialAwarded": "ICLP Python Full Stack Course Completion Certificate",
         "timeRequired": "PT40H",
-        "keywords": "Python Full Stack Developer Online Training, Python Full Stack Course in Chennai, Python Full Stack Training, Full Stack Developer Course with Placement, Best Python Full Stack Institute in Chennai, Python Full Stack Certification Training, Python Django Training, React JS Training",
+        "keywords": "Python Full Stack Developer Online Training in Chennai, Python Full Stack Developer Course, Python Full Stack Online Training, Python Django Training, ReactJS Training, Full Stack Developer Course with Placement, Python Full Stack Certification Training",
         "about": [
           {
             "@type": "Thing",
@@ -17526,7 +17526,7 @@
           },
           {
             "@type": "Thing",
-            "name": "React JS"
+            "name": "ReactJS"
           },
           {
             "@type": "Thing",
@@ -17544,7 +17544,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/",
+          "url": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
@@ -17557,7 +17557,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/#breadcrumb",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -17575,68 +17575,60 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Python Full Stack Developer Online Training",
-            "item": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/"
+            "item": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/python-full-stack-developer-training-in-chennai/#faq",
+        "@id": "https://iclptech.in/course/python-full-stack-developer-online-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is Python Full Stack Training?",
+            "name": "What is Python Full Stack Developer Online Training?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+              "text": "Python Full Stack Developer Online Training teaches learners how to develop complete web applications using frontend technologies such as HTML, CSS, JavaScript, and ReactJS, along with backend technologies such as Python and Django. It also covers database management, API integration, and application development."
             }
           },
           {
             "@type": "Question",
-            "name": "Is Python Full Stack good for freshers?",
+            "name": "Is Python Full Stack Development suitable for freshers?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+              "text": "Yes. Python Full Stack Development is suitable for freshers and graduates who want to start a career in software development. Beginners can learn Python programming from the fundamentals and gradually progress to frontend, backend, and database development."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you provide placement assistance?",
+            "name": "Does ICLP Technologies provide placement assistance?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant IT job opportunities."
             }
           },
           {
             "@type": "Question",
-            "name": "Is online Python Full Stack training available?",
+            "name": "Is Python Full Stack Developer online training available?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+              "text": "Yes. ICLP Technologies offers online Python Full Stack Developer training with instructor-led classes, practical coding sessions, flexible batch timings, recorded learning resources, and expert guidance."
             }
           },
           {
             "@type": "Question",
-            "name": "Do I need coding knowledge?",
+            "name": "What are the career opportunities after Python Full Stack Training?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Beginners can learn Python Full Stack Development from basic concepts."
+              "text": "After completing Python Full Stack training, learners can explore opportunities as Python Developers, Full Stack Developers, Django Developers, Backend Developers, and Web Application Developers."
             }
           },
           {
             "@type": "Question",
-            "name": "Can non-IT students learn Python Full Stack?",
+            "name": "Do I need prior programming knowledge to learn Python Full Stack Development?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the salary after Python Full Stack course?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+              "text": "No. Beginners can start learning Python Full Stack Development without prior professional programming experience. Basic computer knowledge and an interest in software development are helpful."
             }
           }
         ]
@@ -17645,158 +17637,206 @@
   },
   "faqs": [
     {
-      "question": "What is Python Full Stack Training?",
-      "answer": "Python Full Stack Training helps students learn frontend and backend web development using Python, Django, React JS, HTML, CSS, JavaScript, and SQL."
+      "question": "What is Python Full Stack Developer Online Training?",
+      "answer": "Python Full Stack Developer Online Training teaches learners how to develop complete web applications using frontend technologies such as HTML, CSS, JavaScript, and ReactJS, along with backend technologies such as Python and Django. It also covers database management, API integration, and application development."
     },
     {
-      "question": "Is Python Full Stack good for freshers?",
-      "answer": "Yes. Freshers from IT and non-IT backgrounds can start a successful career in Full Stack Development."
+      "question": "Is Python Full Stack Development suitable for freshers?",
+      "answer": "Yes. Python Full Stack Development is suitable for freshers and graduates who want to start a career in software development. Beginners can learn Python programming from the fundamentals and gradually progress to frontend, backend, and database development."
     },
     {
-      "question": "Do you provide placement assistance?",
-      "answer": "Yes. ICLP Technologies provides placement support, coding interview preparation, and career guidance."
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant IT job opportunities."
     },
     {
-      "question": "Is online Python Full Stack training available?",
-      "answer": "Yes. We provide online Python Full Stack Training with live instructor-led sessions and recorded classes."
+      "question": "Is Python Full Stack Developer online training available?",
+      "answer": "Yes. ICLP Technologies offers online Python Full Stack Developer training with instructor-led classes, practical coding sessions, flexible batch timings, recorded learning resources, and expert guidance."
     },
     {
-      "question": "Do I need coding knowledge?",
-      "answer": "No. Beginners can learn Python Full Stack Development from basic concepts."
+      "question": "What are the career opportunities after Python Full Stack Training?",
+      "answer": "After completing Python Full Stack training, learners can explore opportunities as Python Developers, Full Stack Developers, Django Developers, Backend Developers, and Web Application Developers."
     },
     {
-      "question": "Can non-IT students learn Python Full Stack?",
-      "answer": "Yes. Non-IT candidates can easily learn Full Stack Development with practical coding and project guidance."
-    },
-    {
-      "question": "What is the salary after Python Full Stack course?",
-      "answer": "Salary depends on skills, project knowledge, certifications, and company requirements. Skilled Full Stack Developers receive attractive salary packages."
+      "question": "Do I need prior programming knowledge to learn Python Full Stack Development?",
+      "answer": "No. Beginners can start learning Python Full Stack Development without prior professional programming experience. Basic computer knowledge and an interest in software development are helpful."
     }
   ],
   "what_youll_learn": [
-    "HTML5",
-    "CSS3",
-    "Bootstrap",
-    "JavaScript",
-    "React JS",
+    "Python Programming Fundamentals",
+    "Object-Oriented Programming (OOP)",
+    "Python Data Structures and Functions",
+    "HTML5 and CSS3",
+    "JavaScript Programming",
     "Responsive Web Design",
-    "Python Programming",
+    "Bootstrap Framework",
+    "ReactJS Fundamentals",
     "Django Framework",
+    "Django Models and Views",
+    "Django Templates and URL Routing",
     "REST API Development",
-    "Authentication & Authorization",
-    "API Integration",
-    "SQL",
-    "MySQL Database",
-    "Database Design",
-    "CRUD Operations",
-    "Git & GitHub",
-    "VS Code",
-    "Deployment Techniques",
-    "Debugging & Testing"
+    "SQL and Database Management",
+    "MySQL Database Integration",
+    "Frontend and Backend Integration",
+    "Git and GitHub",
+    "Web Application Development",
+    "Debugging and Testing",
+    "Application Deployment",
+    "Real-Time Full Stack Projects"
   ],
   "syllabus": [
     {
-      "module": "Frontend Development Fundamentals",
+      "module": "Introduction to Python Programming",
       "subtopics": [
-        "HTML5 structure and semantic tags",
-        "CSS3 styling and layouts",
-        "Bootstrap components and responsive design",
-        "JavaScript basics and DOM manipulation"
+        "Introduction to Python",
+        "Python Installation and Development Environment",
+        "Variables and Data Types",
+        "Operators and Conditional Statements",
+        "Loops and Functions",
+        "Lists, Tuples, Sets, and Dictionaries"
       ]
     },
     {
-      "module": "Advanced Frontend with React JS",
+      "module": "Advanced Python Programming",
       "subtopics": [
-        "React JS fundamentals",
-        "Components, props, and state",
-        "React forms and event handling",
-        "Responsive UI development"
+        "Object-Oriented Programming",
+        "Classes and Objects",
+        "Inheritance and Polymorphism",
+        "Exception Handling",
+        "File Handling",
+        "Modules and Packages"
       ]
     },
     {
-      "module": "Python Programming",
+      "module": "HTML and CSS Development",
       "subtopics": [
-        "Python syntax and core programming concepts",
-        "Functions, modules, and file handling",
-        "Object-oriented programming",
-        "Error handling and debugging"
+        "HTML Fundamentals",
+        "HTML5 Elements",
+        "CSS Properties and Selectors",
+        "Layout and Positioning",
+        "Flexbox and Grid",
+        "Responsive Web Design"
       ]
     },
     {
-      "module": "Django Framework",
+      "module": "JavaScript Programming",
       "subtopics": [
-        "Introduction to Django architecture",
-        "Models, views, and templates",
-        "URL routing and app structure",
-        "Admin panel and project setup"
+        "JavaScript Fundamentals",
+        "Variables and Functions",
+        "DOM Manipulation",
+        "Events and Event Handling",
+        "ES6 Concepts",
+        "Asynchronous JavaScript"
       ]
     },
     {
-      "module": "Backend Development and APIs",
+      "module": "Frontend Development with ReactJS",
       "subtopics": [
-        "REST API development",
-        "Authentication and authorization",
-        "API integration techniques",
-        "Backend business logic implementation"
+        "ReactJS Introduction",
+        "Components and JSX",
+        "Props and State",
+        "React Hooks",
+        "Event Handling",
+        "API Integration",
+        "Building Interactive User Interfaces"
+      ]
+    },
+    {
+      "module": "Backend Development with Django",
+      "subtopics": [
+        "Introduction to Django",
+        "Django Project and App Structure",
+        "URL Routing",
+        "Views and Templates",
+        "Django Models",
+        "Forms and Validation",
+        "Authentication and Authorization"
       ]
     },
     {
       "module": "Database Management",
       "subtopics": [
-        "SQL fundamentals",
-        "MySQL database setup and usage",
-        "Database design concepts",
-        "CRUD operations with backend integration"
+        "Introduction to Database Concepts",
+        "SQL Fundamentals",
+        "MySQL Database",
+        "CRUD Operations",
+        "Joins and Queries",
+        "Database Integration with Python"
       ]
     },
     {
-      "module": "Version Control and Developer Tools",
+      "module": "REST API Development",
       "subtopics": [
-        "Git basics and version control workflow",
-        "GitHub repository management",
-        "VS Code productivity setup",
-        "Testing and debugging practices"
+        "Introduction to REST APIs",
+        "HTTP Methods",
+        "API Requests and Responses",
+        "Django REST Framework",
+        "API Authentication",
+        "Frontend and Backend Integration"
       ]
     },
     {
-      "module": "Deployment and Real-Time Projects",
+      "module": "Git, GitHub and Deployment",
       "subtopics": [
-        "Full stack application deployment",
-        "Project structure and production setup",
-        "Live web application development",
-        "Portfolio and dashboard application projects"
+        "Version Control Fundamentals",
+        "Git Commands",
+        "GitHub Repository Management",
+        "Application Configuration",
+        "Deployment Fundamentals",
+        "Project Hosting"
       ]
     },
     {
-      "module": "Career Preparation",
+      "module": "Real-Time Projects and Career Preparation",
       "subtopics": [
-        "Resume building for developer roles",
-        "Coding interview questions and mock interviews",
-        "GitHub portfolio guidance",
-        "LinkedIn optimization and placement assistance"
+        "Full Stack Web Application Development",
+        "Frontend and Backend Integration",
+        "Database Connectivity",
+        "Practical Coding Assignments",
+        "Project Development",
+        "Resume Preparation",
+        "Technical Interview Preparation"
       ]
     }
   ],
-  "duration": "40+ Hours of Mastery",
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Python Full Stack Developer Online Training</strong>?",
+    "intro": "ICLP Technologies provides career-focused Python Full Stack Developer training with practical demonstrations, experienced trainers, flexible online classes, real-time projects, and placement assistance. Our training approach helps learners understand programming concepts, develop technical skills, and gain practical experience in modern web application development.",
+    "instructor_expertise": {
+      "heading": "Experienced Python Full Stack Trainers",
+      "description": "Learn from experienced trainers with practical knowledge of Python programming, Django, frontend development, database management, and full stack application development. Our trainers explain concepts step by step, from basic programming to advanced development topics, with practical demonstrations and coding exercises."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Python Full Stack Developer online training is designed for students, freshers, and working professionals:",
+      "options": [
+        "<strong>Live Online Instructor-Led Classes:</strong> Attend interactive online sessions with experienced trainers, practical explanations, and coding demonstrations",
+        "<strong>Real-Time Project Training:</strong> Develop practical applications and understand how frontend, backend, and databases work together",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday and weekend learning schedules",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions and learning resources for revision and better understanding",
+        "<strong>Doubt-Clearing Support:</strong> Get expert guidance to understand programming concepts and resolve technical questions"
+      ]
+    }
+  },
+  "duration": "Practical, Structured Training Program",
   "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
-  "image": "/CourseDetails/python-full-stack-developer-training-in-chennai.png",
+  "image": "/CourseDetails/python-full-stack-developer-online-training-in-chennai.png",
   "placement_assurance": true,
   "projects": [
-    "Full Stack Web Applications",
-    "E-Commerce Projects",
-    "Portfolio Projects",
-    "Dashboard Applications"
+    "Full Stack Web Application Development",
+    "Frontend and Backend Integration Project",
+    "Database Connectivity Project",
+    "REST API Development Project"
   ],
   "career_benefits": {
-    "heading": "Career Benefits of <strong>Python Full Stack Training</strong> in Chennai",
-    "description": "Python Full Stack Development is one of the fastest-growing career opportunities in the software industry. Build job-ready skills in frontend and backend technologies, work on real-time projects, and prepare for developer roles in startups, product companies, and global IT firms.",
+    "heading": "Career Benefits of <strong>Python Full Stack Developer Online Training</strong> in Chennai",
+    "description": "Python Full Stack Development is a valuable technology skill in today's software development industry. Organizations use Python-based frameworks and modern frontend technologies to build scalable websites, business applications, web platforms, and enterprise solutions. Our Python Full Stack Developer Online Training helps learners develop frontend and backend programming skills and prepare for opportunities in the IT industry.",
     "points": [
-      "<strong>High Demand in IT Companies:</strong> Companies actively hire Full Stack Developers to build scalable web applications and business platforms",
-      "<strong>Attractive Salary Packages:</strong> Skilled Python Full Stack Developers receive competitive compensation based on project and technical skills",
-      "<strong>Strong Career Growth:</strong> Progress into roles such as Python Developer, Django Developer, React JS Developer, and Software Engineer",
-      "<strong>Global Job Opportunities:</strong> Companies across India, USA, UAE, Canada, Singapore, and Europe are hiring Full Stack Developers",
-      "<strong>Freelancing and Remote Work:</strong> Full stack skills open opportunities for freelance web development and remote software roles",
-      "<strong>Exposure to Frontend and Backend:</strong> Learn end-to-end development including UI, APIs, databases, authentication, and deployment"
+      "<strong>High Demand in the IT Industry:</strong> Companies across India and international markets hire developers with Python, Django, frontend, and database development skills",
+      "<strong>Multiple Career Opportunities:</strong> Explore job opportunities as a Python Developer, Full Stack Developer, Backend Developer, Django Developer, and Web Application Developer",
+      "<strong>Strong Salary Growth:</strong> Develop practical programming and application development skills to improve your career opportunities and professional growth",
+      "<strong>Complete Development Knowledge:</strong> Learn both frontend and backend technologies to understand the complete web application development lifecycle",
+      "<strong>Freelancing Opportunities:</strong> Build websites and web applications for businesses, startups, and clients through freelance development projects",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and graduates can start learning Python programming from the fundamentals and gradually progress towards full stack development"
     ]
   }
 },
@@ -18470,6 +18510,368 @@
       "category_name": "Cloud Computing & DevOps",
       "path": "cloud-computing-devops",
       "sub_categories": [
+         {
+  "course_name": "Workday Finance",
+ "name":"Workday Finance Training in Chennai", 
+  "path": "workday-finance-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented Workday Finance Training in Chennai designed for freshers, finance professionals, ERP consultants, and working professionals who want to build a successful career in Workday Finance. Our comprehensive training program provides practical knowledge of Workday Financial Management, including financial accounting, journal processing, supplier accounts, customer accounts, reporting, security, settlements, and expense management. Our Workday Finance Online Training is delivered by experienced industry professionals with real-time project exposure and practical implementation knowledge. From fundamental concepts to advanced financial management processes, learners gain the skills required to work confidently on real-world business scenarios and prepare for Workday Finance job opportunities.",
+  "meta_title": "Workday Finance Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Workday Finance Training in Chennai at ICLP Technologies. Learn Workday Financial Management, accounting, reporting, and real-time projects with expert trainers and placement assistance.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/workday-finance-training-in-chennai/#service",
+        "name": "Workday Finance Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Workday Finance Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/workday-finance-training-in-chennai/#course",
+        "name": "Workday Finance Training in Chennai",
+        "description": "Join Workday Finance Training in Chennai at ICLP Technologies. Learn Workday Financial Management, accounting, reporting, and real-time projects with expert trainers and placement assistance.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "ICLP Workday Finance Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Workday Finance Training in Chennai, Workday Finance Online Training, Workday Finance Course, Workday Finance Certification Training, Workday Finance Placement Training, Workday ERP Finance Training, Workday Finance Functional Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Workday Financial Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "ERP Finance Training"
+          },
+          {
+            "@type": "Thing",
+            "name": "Workday Reporting"
+          },
+          {
+            "@type": "Thing",
+            "name": "Expense Management"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/workday-finance-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "2983"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/workday-finance-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Workday Finance Training",
+            "item": "https://iclptech.in/course/workday-finance-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/workday-finance-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Workday Finance Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Workday Finance Training teaches learners how to use Workday Financial Management for enterprise accounting, financial operations, journal processing, supplier management, customer accounts, reporting, settlements, and expense management. It helps learners develop functional knowledge for Workday Finance-related career opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Workday Finance a good career option for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Workday Finance can be a good career option for freshers interested in finance, accounting, ERP, and enterprise technology. Candidates from commerce, finance, accounting, and related educational backgrounds can start with the fundamentals and gradually develop advanced functional skills."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Workday Finance online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers online Workday Finance training with instructor-led sessions, practical demonstrations, flexible batch timings, recorded class access, and expert guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after completing Workday Finance Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Workday Finance salaries depend on experience, technical knowledge, job role, location, and employer. Candidates with relevant finance or ERP experience and practical Workday knowledge can explore opportunities as Workday Finance Consultants, Functional Consultants, and Financial Systems Analysts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn Workday Finance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No advanced programming knowledge is generally required to learn the functional aspects of Workday Finance. Basic computer knowledge and an understanding of accounting or finance can be helpful."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Workday Finance Training?",
+      "answer": "Workday Finance Training teaches learners how to use Workday Financial Management for enterprise accounting, financial operations, journal processing, supplier management, customer accounts, reporting, settlements, and expense management. It helps learners develop functional knowledge for Workday Finance-related career opportunities."
+    },
+    {
+      "question": "Is Workday Finance a good career option for freshers?",
+      "answer": "Yes. Workday Finance can be a good career option for freshers interested in finance, accounting, ERP, and enterprise technology. Candidates from commerce, finance, accounting, and related educational backgrounds can start with the fundamentals and gradually develop advanced functional skills."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+    },
+    {
+      "question": "Is Workday Finance online training available?",
+      "answer": "Yes. ICLP Technologies offers online Workday Finance training with instructor-led sessions, practical demonstrations, flexible batch timings, recorded class access, and expert guidance."
+    },
+    {
+      "question": "What is the salary after completing Workday Finance Training?",
+      "answer": "Workday Finance salaries depend on experience, technical knowledge, job role, location, and employer. Candidates with relevant finance or ERP experience and practical Workday knowledge can explore opportunities as Workday Finance Consultants, Functional Consultants, and Financial Systems Analysts."
+    },
+    {
+      "question": "Do I need coding knowledge to learn Workday Finance?",
+      "answer": "No advanced programming knowledge is generally required to learn the functional aspects of Workday Finance. Basic computer knowledge and an understanding of accounting or finance can be helpful."
+    }
+  ],
+  "what_youll_learn": [
+    "Workday Core Concepts and Navigation",
+    "Organization Setup and Worktags",
+    "Financial Accounting Configuration",
+    "Journal Processing and EIB Management",
+    "Supplier and Customer Account Management",
+    "Supplier Invoices and Customer Receipts",
+    "Settlement and Bank Reconciliation",
+    "Security Configuration and Domain Policies",
+    "Workday Expense Management",
+    "Financial Reporting and Dashboards",
+    "Advanced Workday Reporting",
+    "Financial Period Close Activities",
+    "Allocations and Revaluation",
+    "Consolidation and Currency Translation"
+  ],
+  "syllabus": [
+    {
+      "module": "Workday Core Concepts",
+      "subtopics": [
+        "Introduction to Workday and its architecture",
+        "Workday navigation and user interface",
+        "Financial management fundamentals",
+        "Overview of finance and ERP use cases"
+      ]
+    },
+    {
+      "module": "Organization Setup and Worktags",
+      "subtopics": [
+        "Organizations and organizational structures",
+        "Worktags and financial dimensions",
+        "Company and ledger setup concepts",
+        "Configuration basics for financial structure"
+      ]
+    },
+    {
+      "module": "Financial Accounting Configuration",
+      "subtopics": [
+        "Financial accounting concepts",
+        "Accounting setup and configuration",
+        "Ledger accounts and posting logic",
+        "Essential financial management processes"
+      ]
+    },
+    {
+      "module": "Journal Processing and EIB",
+      "subtopics": [
+        "Journal creation and processing",
+        "Journal validations and approvals",
+        "Enterprise Interface Builder (EIB) and data uploads",
+        "Practical journal transaction scenarios"
+      ]
+    },
+    {
+      "module": "Supplier and Customer Management",
+      "subtopics": [
+        "Supplier account setup",
+        "Customer account configuration",
+        "Supplier invoice processing",
+        "Customer transactions and receipts"
+      ]
+    },
+    {
+      "module": "Settlement and Expense Management",
+      "subtopics": [
+        "Settlement processing workflows",
+        "Bank reconciliation concepts",
+        "Expense management setup",
+        "Related financial transactions"
+      ]
+    },
+    {
+      "module": "Security and Domain Policies",
+      "subtopics": [
+        "Security groups and roles",
+        "Domain security policies",
+        "Access management concepts",
+        "Permission management in Workday"
+      ]
+    },
+    {
+      "module": "Financial Reporting and Dashboards",
+      "subtopics": [
+        "Standard reports",
+        "Custom reports and dashboards",
+        "Advanced Workday reporting",
+        "Financial data analysis"
+      ]
+    },
+    {
+      "module": "Period Close and Advanced Finance",
+      "subtopics": [
+        "Financial period close activities",
+        "Allocations and revaluation",
+        "Consolidation processes",
+        "Currency translation"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Practical real-time scenarios",
+        "Understanding business requirements",
+        "Case studies and practical assignments",
+        "Workday Finance interview preparation"
+      ]
+    }
+  ],
+ 
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Workday Finance Training</strong>?",
+    "intro": "ICLP Technologies provides career-oriented Workday Finance Training in Chennai with practical learning, experienced trainers, flexible batches, certification guidance, and placement assistance. Our training approach focuses on helping freshers, finance professionals, ERP consultants, and career changers develop the technical and functional knowledge required for Workday Finance-related roles.",
+    "instructor_expertise": {
+      "heading": "Experienced Workday Finance Trainers",
+      "description": "Learn from experienced industry trainers with practical knowledge of Workday Financial Management, financial accounting, journal processing, supplier and customer accounts, reporting, security, and expense management. Get step-by-step guidance covering basic to advanced concepts with practical demonstrations and real-world business scenarios."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Workday Finance training program is designed for students and working professionals who prefer flexible and career-focused learning:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Attend interactive sessions with expert explanations, practical demonstrations, and question-and-answer discussions",
+        "<strong>Real-Time Project Training:</strong> Gain practical exposure through implementation scenarios involving accounting, reporting, expenses, settlements, and financial business processes",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday or weekend batches based on your professional and personal schedule",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions, learning materials, and course resources for better understanding and revision"
+      ]
+    }
+  },
+  "duration": "40+ Hours",
+  "skill_level": "Beginner to Advanced (No Coding Required)",
+  "image": "/CourseDetails/workday-finance-training-in-chennai-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Workday Finance Configuration Project",
+    "Journal Processing and EIB Implementation",
+    "Supplier and Customer Management Scenario",
+    "Expense Management and Settlement Workflow",
+    "Financial Reporting and Dashboard Project"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Workday Finance Training</strong> in Chennai",
+    "description": "Workday Finance is an advanced cloud-based financial management solution used by organizations worldwide to manage accounting, financial operations, reporting, and business processes. Learning Workday Finance can help you explore career opportunities in ERP consulting, financial systems, and enterprise technology. Our job-oriented course combines practical training, real-time project scenarios, and career guidance to help learners develop industry-relevant skills.",
+    "points": [
+      "<strong>High Demand in Global Companies:</strong> Organizations across India, the USA, Canada, Singapore, UAE, and the UK use Workday solutions and seek professionals with relevant Workday Finance skills",
+      "<strong>Attractive Salary Opportunities:</strong> Develop specialized Workday Finance knowledge and explore competitive career opportunities in ERP and financial technology",
+      "<strong>Strong Career Growth:</strong> Prepare for roles such as Workday Finance Consultant, Workday Functional Consultant, Financial Systems Analyst, and Workday Reporting Analyst",
+      "<strong>Cloud ERP Technology Exposure:</strong> Understand modern cloud-based financial management processes and enterprise business operations",
+      "<strong>International Career Opportunities:</strong> Workday expertise can open career opportunities with multinational companies and global consulting organizations",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and professionals from commerce, accounting, finance, and ERP backgrounds can start learning Workday Finance without advanced programming knowledge"
+    ]
+  }
+},
         {
           "course_name": "Workday HCM",
                     "name": "Workday HCM Training in Chennai",
@@ -28005,13 +28407,13 @@
   ]
 },
 
-       {
+      {
   "course_name": "Artificial Intelligence",
-  "name":"Artificial Intelligence Training in Chennai",
-  "path": "artificial-intelligence-training-in-chennai",
-  "description": "ICLP Technologies offers industry-focused Artificial Intelligence Course Online designed for freshers, software professionals, non-IT candidates, and working professionals who want to build a successful career in Artificial Intelligence and Machine Learning. Our AI Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Machine Learning, Deep Learning, Python, ChatGPT, Prompt Engineering, Generative AI, NLP, and AI automation tools.",
-  "meta_title": "Artificial Intelligence Training in Chennai | AI Training in Chennai with Placement | ICLP Technologies",
-  "meta_description": "Discover the future of technology with Artificial Intelligence Training in Chennai covering ML, deep learning, NLP, computer vision and Generative AI.",
+  "name":"Artificial Intelligence Course Online Training in Chennai",
+  "path": "artificial-intelligence-course-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented Artificial Intelligence Course Online Training in Chennai for freshers, graduates, IT professionals, and working professionals who want to build a successful career in Artificial Intelligence. Our comprehensive online AI training program introduces learners to essential AI technologies, Python programming, Machine Learning, Deep Learning, Generative AI, and real-world AI applications. Our Artificial Intelligence online training focuses on practical learning, hands-on exercises, and real-time project development. Learn how AI systems work, understand machine learning algorithms, explore neural networks, work with AI tools, and develop intelligent applications under the guidance of experienced trainers. Whether you are a beginner or an experienced professional looking to upgrade your technical skills, our AI course helps you understand modern artificial intelligence technologies and prepare for emerging career opportunities.",
+  "meta_title": "Artificial Intelligence Course Online Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Artificial Intelligence Course Online Training in Chennai at ICLP Technologies. Learn Python, Machine Learning, Deep Learning, Generative AI, and real-time AI projects with expert trainers.",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -28045,8 +28447,8 @@
       },
       {
         "@type": "Service",
-        "@id": "https://iclptech.in/course/artificial-intelligence-training-in-chennai/#service",
-        "name": "Artificial Intelligence Course Online",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/#service",
+        "name": "Artificial Intelligence Course Online Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -28055,9 +28457,9 @@
       },
       {
         "@type": "Course",
-        "@id": "https://iclptech.in/course/artificial-intelligence-training-in-chennai/#course",
-        "name": "Artificial Intelligence Course Online",
-        "description": "Join Artificial Intelligence Course Online at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/#course",
+        "name": "Artificial Intelligence Course Online Training in Chennai",
+        "description": "Join Artificial Intelligence Course Online Training in Chennai at ICLP Technologies. Learn Python, Machine Learning, Deep Learning, Generative AI, and real-time AI projects with expert trainers.",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -28067,9 +28469,8 @@
         ],
         "inLanguage": "English",
         "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Artificial Intelligence Course Completion Certificate",
-        "timeRequired": "PT60H",
-        "keywords": "Artificial Intelligence Course Online, AI Training in Chennai, Artificial Intelligence Course, AI Certification Training, Artificial Intelligence Placement Training, AI Course with Placement, AI Online Course, Machine Learning Training, Deep Learning Course, Gen AI Training, ChatGPT Training",
+        "occupationalCredentialAwarded": "ICLP Artificial Intelligence Course Completion Certificate",
+        "keywords": "Artificial Intelligence Course Online Training in Chennai, Artificial Intelligence Course, AI Online Training, Machine Learning Training, Deep Learning Training, Generative AI Training, Python for AI Training, AI Course with Placement",
         "about": [
           {
             "@type": "Thing",
@@ -28099,20 +28500,15 @@
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://iclptech.in/course/artificial-intelligence-training-in-chennai/",
+          "url": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/",
           "price": "Contact for fees",
           "priceCurrency": "INR",
           "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "2610"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/artificial-intelligence-course-online/#breadcrumb",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -28129,69 +28525,61 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Artificial Intelligence Course Online",
-            "item": "https://iclptech.in/course/artificial-intelligence-training-in-chennai/"
+            "name": "Artificial Intelligence Course Online Training",
+            "item": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/artificial-intelligence-training-in-chennai/#faq",
+        "@id": "https://iclptech.in/course/artificial-intelligence-course-online-training-in-chennai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is Artificial Intelligence Training?",
+            "name": "What is Artificial Intelligence Course Online Training?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Artificial Intelligence Training helps students learn AI technologies including Machine Learning, Deep Learning, NLP, ChatGPT, Python, and Generative AI."
+              "text": "Artificial Intelligence Course Online Training teaches learners how intelligent systems work and how AI technologies are used to solve real-world problems. The course covers AI fundamentals, Python programming, Machine Learning, Deep Learning, Generative AI, and practical AI applications."
             }
           },
           {
             "@type": "Question",
-            "name": "Is AI good for freshers?",
+            "name": "Is Artificial Intelligence suitable for beginners?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in Artificial Intelligence."
+              "text": "Yes. Beginners and freshers can learn Artificial Intelligence by starting with basic programming concepts and gradually progressing towards Machine Learning, Deep Learning, and advanced AI technologies. Basic mathematics and programming knowledge can be helpful."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you provide placement assistance?",
+            "name": "Does ICLP Technologies provide placement assistance?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant technology job opportunities."
             }
           },
           {
             "@type": "Question",
-            "name": "Is online AI training available?",
+            "name": "Is Artificial Intelligence online training available?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We provide Artificial Intelligence Online Training with live instructor-led sessions and recorded classes."
+              "text": "Yes. ICLP Technologies offers online Artificial Intelligence training with instructor-led classes, practical exercises, flexible batch timings, recorded learning resources, and expert trainer guidance."
             }
           },
           {
             "@type": "Question",
-            "name": "Do I need coding knowledge?",
+            "name": "What are the career opportunities after completing an Artificial Intelligence course?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Basic programming knowledge is helpful but not mandatory for beginners."
+              "text": "After completing AI training and developing the required practical skills, learners can explore opportunities as AI Developers, Machine Learning Engineers, AI Application Developers, Data Scientists, and related technology professionals."
             }
           },
           {
             "@type": "Question",
-            "name": "Can non-IT students learn AI?",
+            "name": "Do I need coding knowledge to learn Artificial Intelligence?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Non-IT candidates can learn Artificial Intelligence with proper training and practical project guidance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the salary after AI course?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AI professionals receive attractive salary packages depending on skills, projects, and experience."
+              "text": "Prior professional programming experience is not mandatory for beginners. However, learning Python programming is important for understanding and implementing many AI and Machine Learning concepts."
             }
           }
         ]
@@ -28200,191 +28588,211 @@
   },
   "faqs": [
     {
-      "question": "What is Artificial Intelligence Training?",
-      "answer": "Artificial Intelligence Training helps students learn AI technologies including Machine Learning, Deep Learning, NLP, ChatGPT, Python, and Generative AI."
+      "question": "What is Artificial Intelligence Course Online Training?",
+      "answer": "Artificial Intelligence Course Online Training teaches learners how intelligent systems work and how AI technologies are used to solve real-world problems. The course covers AI fundamentals, Python programming, Machine Learning, Deep Learning, Generative AI, and practical AI applications."
     },
     {
-      "question": "Is AI good for freshers?",
-      "answer": "Yes. Freshers from engineering, IT, non-IT, and programming backgrounds can start a successful career in Artificial Intelligence."
+      "question": "Is Artificial Intelligence suitable for beginners?",
+      "answer": "Yes. Beginners and freshers can learn Artificial Intelligence by starting with basic programming concepts and gradually progressing towards Machine Learning, Deep Learning, and advanced AI technologies. Basic mathematics and programming knowledge can be helpful."
     },
     {
-      "question": "Do you provide placement assistance?",
-      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant technology job opportunities."
     },
     {
-      "question": "Is online AI training available?",
-      "answer": "Yes. We provide Artificial Intelligence Online Training with live instructor-led sessions and recorded classes."
+      "question": "Is Artificial Intelligence online training available?",
+      "answer": "Yes. ICLP Technologies offers online Artificial Intelligence training with instructor-led classes, practical exercises, flexible batch timings, recorded learning resources, and expert trainer guidance."
     },
     {
-      "question": "Do I need coding knowledge?",
-      "answer": "Basic programming knowledge is helpful but not mandatory for beginners."
+      "question": "What are the career opportunities after completing an Artificial Intelligence course?",
+      "answer": "After completing AI training and developing the required practical skills, learners can explore opportunities as AI Developers, Machine Learning Engineers, AI Application Developers, Data Scientists, and related technology professionals."
     },
     {
-      "question": "Can non-IT students learn AI?",
-      "answer": "Yes. Non-IT candidates can learn Artificial Intelligence with proper training and practical project guidance."
-    },
-    {
-      "question": "What is the salary after AI course?",
-      "answer": "AI professionals receive attractive salary packages depending on skills, projects, and experience."
+      "question": "Do I need coding knowledge to learn Artificial Intelligence?",
+      "answer": "Prior professional programming experience is not mandatory for beginners. However, learning Python programming is important for understanding and implementing many AI and Machine Learning concepts."
     }
   ],
   "what_youll_learn": [
     "Introduction to Artificial Intelligence",
-    "Python for AI",
-    "Machine Learning Algorithms",
-    "Deep Learning Concepts",
-    "Natural Language Processing",
+    "AI Fundamentals and Applications",
+    "Python Programming for AI",
+    "Python Libraries for AI and Data Science",
+    "NumPy and Pandas",
+    "Data Preprocessing and Data Analysis",
+    "Machine Learning Fundamentals",
+    "Supervised Learning",
+    "Unsupervised Learning",
+    "Regression and Classification Algorithms",
+    "Model Training and Evaluation",
+    "Deep Learning Fundamentals",
     "Neural Networks",
-    "Generative AI",
-    "ChatGPT and Prompt Engineering",
-    "AI Automation Tools",
-    "Computer Vision Basics",
-    "AI Model Deployment",
-    "AI Real-Time Projects",
-    "Data Visualization",
-    "AI Project Implementation",
-    "Interview Preparation"
+    "Natural Language Processing (NLP)",
+    "Computer Vision Fundamentals",
+    "Generative AI Concepts",
+    "Large Language Models (LLMs)",
+    "Prompt Engineering Fundamentals",
+    "AI Application Development",
+    "Real-Time AI Project Implementation"
   ],
   "syllabus": [
     {
       "module": "Introduction to Artificial Intelligence",
       "subtopics": [
-        "Overview of Artificial Intelligence",
-        "AI applications across industries",
-        "Types of AI and intelligent systems",
-        "Foundations of machine intelligence"
+        "Introduction to Artificial Intelligence",
+        "History and Evolution of AI",
+        "Types of Artificial Intelligence",
+        "AI Applications Across Industries",
+        "AI Problem-Solving Techniques",
+        "Understanding Intelligent Systems"
       ]
     },
     {
-      "module": "Python for AI",
+      "module": "Python Programming for Artificial Intelligence",
       "subtopics": [
-        "Python basics for AI development",
-        "Working with data structures and functions",
-        "NumPy, Pandas, and data handling",
-        "Python environments and AI libraries"
+        "Introduction to Python",
+        "Variables and Data Types",
+        "Operators and Conditional Statements",
+        "Loops and Functions",
+        "Lists, Tuples, Sets, and Dictionaries",
+        "Object-Oriented Programming",
+        "Python Libraries for AI"
+      ]
+    },
+    {
+      "module": "Data Analysis and Preprocessing",
+      "subtopics": [
+        "Introduction to Data Analysis",
+        "NumPy Fundamentals",
+        "Pandas for Data Manipulation",
+        "Data Cleaning and Transformation",
+        "Handling Missing Values",
+        "Exploratory Data Analysis",
+        "Data Visualization Fundamentals"
+      ]
+    },
+    {
+      "module": "Machine Learning Fundamentals",
+      "subtopics": [
+        "Introduction to Machine Learning",
+        "Types of Machine Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Regression Algorithms",
+        "Classification Algorithms",
+        "Clustering Techniques"
       ]
     },
     {
       "module": "Machine Learning Algorithms",
       "subtopics": [
-        "Supervised and unsupervised learning",
-        "Regression and classification algorithms",
-        "Model training and evaluation",
-        "Feature engineering and model improvement"
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision Trees",
+        "Random Forest",
+        "K-Nearest Neighbors",
+        "Support Vector Machines",
+        "Model Training and Evaluation"
       ]
     },
     {
-      "module": "Deep Learning Concepts",
+      "module": "Deep Learning",
       "subtopics": [
-        "Introduction to deep learning",
-        "Layers, activation functions, and optimization",
-        "Training deep learning models",
-        "Deep learning use cases"
+        "Introduction to Deep Learning",
+        "Artificial Neural Networks",
+        "Neural Network Architecture",
+        "Activation Functions",
+        "Forward and Backpropagation",
+        "Deep Learning Applications"
       ]
     },
     {
       "module": "Natural Language Processing",
       "subtopics": [
-        "Text preprocessing and tokenization",
-        "NLP workflows and language models",
-        "Sentiment analysis and text classification",
-        "Applications of NLP in AI systems"
+        "Introduction to NLP",
+        "Text Processing",
+        "Tokenization",
+        "Text Classification",
+        "Sentiment Analysis",
+        "NLP Applications"
       ]
     },
     {
-      "module": "Neural Networks",
+      "module": "Computer Vision",
       "subtopics": [
-        "Artificial neural network concepts",
-        "Forward and backward propagation",
-        "Building neural network models",
-        "Performance tuning basics"
+        "Introduction to Computer Vision",
+        "Image Processing Fundamentals",
+        "Image Classification",
+        "Object Detection Concepts",
+        "Image Recognition Applications"
       ]
     },
     {
-      "module": "Generative AI and ChatGPT",
+      "module": "Generative AI and Large Language Models",
       "subtopics": [
         "Introduction to Generative AI",
-        "ChatGPT use cases and workflows",
-        "Prompt Engineering fundamentals",
-        "Content and automation use cases with Gen AI"
+        "Understanding Large Language Models",
+        "Generative AI Applications",
+        "Prompt Engineering",
+        "AI-Powered Content Generation",
+        "Introduction to AI Assistants",
+        "Practical Generative AI Use Cases"
       ]
     },
     {
-      "module": "AI Automation and Computer Vision",
+      "module": "Real-Time AI Projects and Career Preparation",
       "subtopics": [
-        "AI automation tools overview",
-        "Workflow automation with AI tools",
-        "Computer vision basics",
-        "Image-related AI implementation concepts"
-      ]
-    },
-    {
-      "module": "Model Deployment and Visualization",
-      "subtopics": [
-        "AI model deployment basics",
-        "Real-world implementation workflows",
-        "Data visualization for AI insights",
-        "Presenting model outputs and dashboards"
-      ]
-    },
-    {
-      "module": "Real-Time Projects and Career Preparation",
-      "subtopics": [
-        "AI real-time project implementation",
-        "Case studies and project assignments",
-        "Interview preparation and mock sessions",
-        "Certification guidance and placement assistance"
+        "Practical AI Project Development",
+        "Machine Learning Model Implementation",
+        "Data Analysis Projects",
+        "AI Application Development",
+        "Project Demonstrations",
+        "Resume Preparation",
+        "Technical Interview Preparation"
       ]
     }
   ],
-  "duration": "Flexible Batches",
-  "skill_level": "Beginner to Advanced (Basic Programming Helpful but Not Mandatory)",
-  "image": "/CourseDetails/artificial-intelligence-course-online.png",
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Artificial Intelligence Course Online Training</strong>?",
+    "intro": "ICLP Technologies provides career-focused Artificial Intelligence training with practical learning, experienced trainers, flexible online classes, project exposure, and placement assistance. Our training approach helps learners understand AI concepts, develop technical skills, and gain practical knowledge of artificial intelligence applications.",
+    "instructor_expertise": {
+      "heading": "Experienced Artificial Intelligence Trainers",
+      "description": "Learn from experienced trainers with knowledge of Python programming, Machine Learning, Deep Learning, Generative AI, and AI application development. Our trainers explain concepts step by step, from fundamental AI principles to advanced topics, using practical demonstrations and real-world examples."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Artificial Intelligence online training is designed for students, freshers, and working professionals:",
+      "options": [
+        "<strong>Live Online Instructor-Led Classes:</strong> Attend interactive sessions with expert explanations, practical demonstrations, and question-and-answer discussions",
+        "<strong>Hands-On Practical Training:</strong> Understand AI concepts through programming exercises, machine learning implementations, and practical assignments",
+        "<strong>Real-Time Project Training:</strong> Work on AI-based project scenarios to understand how artificial intelligence technologies are applied in real business environments",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday and weekend learning schedules based on your availability",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions and learning materials for revision and better understanding",
+        "<strong>Doubt-Clearing Support:</strong> Get guidance from trainers to resolve technical questions and improve your understanding of AI concepts"
+      ]
+    }
+  },
+  "duration": "Practical, Structured Training Program",
+  "skill_level": "Beginner to Advanced (No Professional Programming Experience Required)",
+  "image": "/CourseDetails/artificial-intelligence-course-online-training-in-chennai.png",
   "placement_assurance": true,
   "projects": [
-    "Machine Learning Prediction Project",
-    "Deep Learning Model Implementation",
-    "ChatGPT and Prompt Engineering Use Case",
-    "NLP Text Processing Project",
-    "AI Model Deployment and Visualization Project"
+    "Practical AI Project Development",
+    "Machine Learning Model Implementation",
+    "Data Analysis Project",
+    "AI Application Development"
   ],
   "career_benefits": {
-    "heading": "Career Benefits of <strong>Artificial Intelligence Training</strong> in Chennai",
-    "description": "Artificial Intelligence is one of the fastest-growing technologies used by multinational companies across healthcare, finance, IT, automation, retail, and cloud computing industries. Build a future-ready career with practical AI skills, real-time projects, and placement-focused learning.",
+    "heading": "Career Benefits of <strong>Artificial Intelligence Course Online Training</strong> in Chennai",
+    "description": "Artificial Intelligence is transforming industries by helping businesses automate processes, analyze large amounts of data, improve decision-making, and develop intelligent applications. Organizations across IT, healthcare, finance, manufacturing, retail, and other industries are adopting AI technologies to improve operational efficiency and business performance. Our Artificial Intelligence Course Online Training helps learners develop foundational and practical AI knowledge to explore opportunities in the growing technology industry.",
     "points": [
-      "<strong>High Demand in Global Industries:</strong> Organizations are actively hiring AI professionals for automation, analytics, predictive systems, and intelligent business solutions",
-      "<strong>Attractive Salary Packages:</strong> AI professionals receive strong salary potential based on skills, project exposure, and experience",
-      "<strong>Future-Proof Career Path:</strong> Artificial Intelligence continues to expand across software, analytics, automation, and enterprise systems",
-      "<strong>Wide Career Opportunities:</strong> Students can move into AI Engineer, Machine Learning Engineer, Data Scientist, NLP Engineer, and Generative AI roles",
-      "<strong>Real-Time Project Exposure:</strong> Hands-on training builds practical confidence in implementation, deployment, and AI workflows",
-      "<strong>Global Job Opportunities:</strong> Companies across India, USA, Canada, UAE, Singapore, and Europe are actively hiring AI talent"
-    ]
-  },"why_institute": {
-  "heading": "Why Choose ICLP Technologies for Artificial Intelligence Training?",
-  "intro": "ICLP Technologies provides industry-focused Artificial Intelligence Course Online with practical learning, real-time projects, certification guidance, and placement support, designed for freshers, software professionals, non-IT candidates, and working professionals.",
-  "instructor_expertise": {
-    "heading": "Industry Expert Trainers",
-    "description": "Learn from experienced AI professionals with real-time project and corporate training exposure. Get personalized guidance and doubt-clearing sessions throughout the course."
-  },
-  "training_modes": {
-    "heading": "Flexible Learning Options",
-    "description": "Tailored for Chennai students and IT professionals at all levels:",
-    "options": [
-      "<strong>Online Training:</strong> Learn from anywhere with live instructor-led sessions and recorded access.",
-      "<strong>Classroom Training:</strong> In‑center practical training in Chennai.",
-      "<strong>Weekday & Weekend Batches:</strong> Fit working professionals, fresh graduates, and beginners.",
-      "<strong>Real-Time Projects:</strong> Hands-on AI, ML, and Gen AI projects to build a strong portfolio."
-    ]
-  },
-  "support_features": {
-    "heading": "Placement & Learning Support",
-    "points": [
-      "<strong>Placement Assistance:</strong> Resume preparation, mock interviews, LinkedIn optimization, and job referral support.",
-      "<strong>Practical Learning Methodology:</strong> Lecture + hands-on implementation with AI/ML lab sessions.",
-      "<strong>Lifetime Learning Support:</strong> Access to recordings, project files, interview materials, and study documents even after course completion."
+      "<strong>High Demand for AI Skills:</strong> Organizations are increasingly adopting artificial intelligence, machine learning, and generative AI technologies to improve business operations and develop innovative solutions",
+      "<strong>Multiple Career Opportunities:</strong> Explore career paths such as AI Developer, Machine Learning Engineer, Artificial Intelligence Engineer, Data Scientist, and AI Application Developer, depending on your skills and experience",
+      "<strong>Future-Ready Technology Skills:</strong> Develop knowledge of modern AI technologies, machine learning algorithms, deep learning concepts, and generative AI applications",
+      "<strong>Industry-Oriented Practical Learning:</strong> Gain practical exposure through AI exercises, programming assignments, demonstrations, and real-world project scenarios",
+      "<strong>Opportunities Across Industries:</strong> AI technologies are used in healthcare, banking, finance, education, e-commerce, manufacturing, and many other business sectors",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and graduates can start learning Artificial Intelligence with programming fundamentals and gradually progress towards advanced AI concepts"
     ]
   }
-}
 }
       ]
     },
@@ -35098,368 +35506,7 @@
             "Inbound Integration: Employee Leave Loader"
           ]
         },
-       {
-  "course_name": "Workday Finance",
- "name":"Workday Finance Training in Chennai", 
-  "path": "workday-financial-training-in-chennai",
-  "description": "ICLP Technologies offers industry-focused Workday Financial Training in Chennai designed for freshers, finance professionals, ERP consultants, and working professionals who want to build a successful career in Workday Financial Management. Our practical training program helps students gain hands-on experience in Workday Financials, accounting setup, journals, security, reporting, suppliers, customers, settlements, and expense management. Our Workday Financial Online Training program is created by experienced industry experts with real-time project exposure and interview-focused learning. Students receive complete guidance from basic to advanced concepts with practical implementation scenarios.",
-  "meta_title": "Workday Finance Training in Chennai | Workday Finance Online Course with Placement | ICLP Technologies",
-  "meta_description": "Develop cloud finance expertise through Workday Finance Training in Chennai covering accounting, expenses, reporting and financial business processes.",
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "EducationalOrganization",
-        "@id": "https://iclptech.in/#organization",
-        "name": "ICLP Technologies",
-        "url": "https://iclptech.in",
-        "logo": "https://iclptech.in/favicon.png",
-        "sameAs": [
-          "https://www.instagram.com/iclp_technologies",
-          "https://facebook.com/iclp-technologies",
-          "http://linkedin.com/company/iclp-technologies",
-          "https://twitter.com/iclp_tech",
-          "https://youtube.com/@iclp_technologies"
-        ],
-        "areaServed": {
-          "@type": "Place",
-          "name": "Chennai"
-        },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+91-8681026181",
-          "contactType": "customer support",
-          "areaServed": "IN",
-          "availableLanguage": [
-            "English",
-            "Tamil"
-          ]
-        }
-      },
-      {
-        "@type": "Service",
-        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai/#service",
-        "name": "Workday Financial Training in Chennai",
-        "provider": {
-          "@id": "https://iclptech.in/#organization"
-        },
-        "areaServed": "India",
-        "serviceType": "Workday Financial Course with Placement Support"
-      },
-      {
-        "@type": "Course",
-        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai/#course",
-        "name": "Workday Financial Training in Chennai",
-        "description": "Join Workday Financial Training in Chennai at ICLP Technologies with real-time projects, certification guidance, online classes, and placement assistance.",
-        "provider": {
-          "@id": "https://iclptech.in/#organization"
-        },
-        "courseMode": [
-          "Online",
-          "Classroom"
-        ],
-        "inLanguage": "English",
-        "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Workday Financial Course Completion Certificate",
-        "timeRequired": "PT40H",
-        "keywords": "Workday Financial Training in Chennai, Workday Financial Online Training, Workday Financial Course, Workday Financial Certification Training, Workday Financial Placement Training, Workday ERP Financial Training, Workday Financial Functional Training",
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Workday Financial Management"
-          },
-          {
-            "@type": "Thing",
-            "name": "ERP Financial Training"
-          },
-          {
-            "@type": "Thing",
-            "name": "Workday Reporting"
-          },
-          {
-            "@type": "Thing",
-            "name": "Expense Management"
-          }
-        ],
-        "audience": {
-          "@type": "EducationalAudience",
-          "educationalRole": "student"
-        },
-        "hasCourseInstance": {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "inLanguage": "English"
-        },
-        "offers": {
-          "@type": "Offer",
-          "url": "https://iclptech.in/course/workday-financial-training-in-chennai/",
-          "price": "Contact for fees",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "2983"
-        }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://iclptech.in/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Courses",
-            "item": "https://iclptech.in/course/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Workday Financial Training",
-            "item": "https://iclptech.in/course/workday-financial-training-in-chennai/"
-          }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://iclptech.in/course/workday-financial-training-in-chennai/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Workday Financial Training?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Workday Financial Training helps students learn Workday ERP Financial Management modules including accounting setup, reporting, journals, suppliers, customers, expenses, security, and settlements."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Workday Financial good for freshers?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Freshers from commerce, finance, accounting, and ERP backgrounds can start a career in Workday Financial Management."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide placement assistance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is online training available?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Online Workday Financial Training with live instructor-led sessions is available."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the salary after Workday Financial Training?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Salary depends on skills, experience, and company requirements. Skilled Workday professionals receive attractive salary packages in ERP and finance domains."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do I need coding knowledge to learn Workday Financial?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Workday Financial Training mainly focuses on finance, ERP processes, business workflows, reporting, and configuration concepts."
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "faqs": [
-    {
-      "question": "What is Workday Financial Training?",
-      "answer": "Workday Financial Training helps students learn Workday ERP Financial Management modules including accounting setup, reporting, journals, suppliers, customers, expenses, security, and settlements."
-    },
-    {
-      "question": "Is Workday Financial good for freshers?",
-      "answer": "Yes. Freshers from commerce, finance, accounting, and ERP backgrounds can start a career in Workday Financial Management."
-    },
-    {
-      "question": "Do you provide placement assistance?",
-      "answer": "Yes. ICLP Technologies provides placement support, resume preparation, interview guidance, and career assistance."
-    },
-    {
-      "question": "Is online training available?",
-      "answer": "Yes. Online Workday Financial Training with live instructor-led sessions is available."
-    },
-    {
-      "question": "What is the salary after Workday Financial Training?",
-      "answer": "Salary depends on skills, experience, and company requirements. Skilled Workday professionals receive attractive salary packages in ERP and finance domains."
-    },
-    {
-      "question": "Do I need coding knowledge?",
-      "answer": "No. Workday Financial Training mainly focuses on finance, ERP processes, business workflows, reporting, and configuration concepts."
-    }
-  ],
-  "what_youll_learn": [
-    "Workday Core Concepts and Navigation",
-    "Organization Setup and Worktags",
-    "Financial Accounting Configuration",
-    "Journal Processing and EIB Management",
-    "Supplier and Customer Management",
-    "Supplier Invoices and Customer Receipts",
-    "Settlement and Bank Reconciliation",
-    "Security and Domain Policies",
-    "Workday Expense Management",
-    "Financial Reporting and Dashboards",
-    "Advanced Workday Reporting",
-    "Period Close Activities",
-    "Allocation and Revaluation",
-    "Consolidation and Translation"
-  ],
-  "syllabus": [
-    {
-      "module": "Workday Core Concepts",
-      "subtopics": [
-        "Introduction to Workday Financial Management",
-        "Workday navigation and user interface",
-        "Core concepts and business process flow",
-        "Overview of finance and ERP use cases"
-      ]
-    },
-    {
-      "module": "Organization Setup and Worktags",
-      "subtopics": [
-        "Organization structure in Workday",
-        "Worktags and financial dimensions",
-        "Company and ledger setup concepts",
-        "Configuration basics for financial structure"
-      ]
-    },
-    {
-      "module": "Financial Accounting Configuration",
-      "subtopics": [
-        "Accounting setup and configuration",
-        "Ledger accounts and posting logic",
-        "Financial business process alignment",
-        "Configuration best practices"
-      ]
-    },
-    {
-      "module": "Journal Processing and EIB",
-      "subtopics": [
-        "Journal creation and processing",
-        "Journal validations and approvals",
-        "EIB management and data uploads",
-        "Practical journal transaction scenarios"
-      ]
-    },
-    {
-      "module": "Supplier and Customer Management",
-      "subtopics": [
-        "Supplier account setup",
-        "Customer account configuration",
-        "Supplier invoice processing",
-        "Customer receipts and settlements"
-      ]
-    },
-    {
-      "module": "Settlement and Expense Management",
-      "subtopics": [
-        "Settlement processing workflows",
-        "Bank reconciliation concepts",
-        "Expense management setup",
-        "Employee expense process handling"
-      ]
-    },
-    {
-      "module": "Security and Domain Policies",
-      "subtopics": [
-        "Security groups and roles",
-        "Domain security policies",
-        "Access control concepts",
-        "Permission management in Workday"
-      ]
-    },
-    {
-      "module": "Reporting and Dashboards",
-      "subtopics": [
-        "Financial reporting fundamentals",
-        "Custom reports and dashboards",
-        "Advanced Workday reporting",
-        "Report analysis and business insights"
-      ]
-    },
-    {
-      "module": "Period Close and Advanced Finance",
-      "subtopics": [
-        "Period close activities",
-        "Allocation and revaluation",
-        "Consolidation processes",
-        "Translation and closing workflows"
-      ]
-    },
-    {
-      "module": "Real-Time Projects and Career Preparation",
-      "subtopics": [
-        "Real-time implementation scenarios",
-        "Case studies and practical assignments",
-        "Certification guidance and interview preparation",
-        "Placement assistance and resume support"
-      ]
-    }
-  ],
- 
-  "why_institute": {
-    "heading": "Why Choose ICLP Technologies for <strong>Workday Financial Training</strong>?",
-    "intro": "ICLP Technologies offers industry-focused Workday Financial Training in Chennai with practical learning, expert mentorship, certification guidance, and placement support for freshers, finance professionals, ERP consultants, and career switchers.",
-    "instructor_expertise": {
-      "heading": "Experienced Workday Financial Trainers",
-      "description": "Learn from experienced trainers with real-time exposure to Workday Financials, accounting setup, journals, supplier and customer management, reporting, security, and expense management. Get hands-on guidance from basic to advanced concepts."
-    },
-    "training_modes": {
-      "heading": "Flexible Online Learning",
-      "description": "Our Workday Financial training is designed for both students and professionals who need flexible, practical, and job-oriented learning:",
-      "options": [
-        "<strong>Live Instructor-Led Classes:</strong> Real-time sessions with interactive explanations, Q&amp;A, and practical demonstrations",
-        "<strong>Real-Time Project Training:</strong> Hands-on learning with implementation scenarios in accounting, reporting, expenses, settlements, and business processes",
-        "<strong>Flexible Batch Timings:</strong> Suitable for freshers, finance professionals, and working candidates with weekday and weekend options",
-        "<strong>Recorded Access:</strong> Access class recordings, supporting materials, and ongoing doubt-clearing assistance anytime"
-      ]
-    }
-  },
-  "duration": "Flexible Batches",
-  "skill_level": "Beginner to Advanced (No Coding Required)",
-  "image": "/CourseDetails/workday-financial-training-in-chennai-chennai.png",
-  "placement_assurance": true,
-  "projects": [
-    "Workday Financial Configuration Project",
-    "Journal Processing and EIB Implementation",
-    "Supplier and Customer Management Scenario",
-    "Expense Management and Settlement Workflow",
-    "Financial Reporting and Dashboard Project"
-  ],
-  "career_benefits": {
-    "heading": "Career Benefits of <strong>Workday Financial Training</strong> in Chennai",
-    "description": "Workday Financial Management is one of the fastest-growing cloud ERP technologies used by global organizations for finance and accounting operations. Build a strong career with placement-focused training, practical exposure, and opportunities in ERP, finance, and Workday consulting domains.",
-    "points": [
-      "<strong>High Demand in Global Companies:</strong> Companies across India, the USA, Canada, Singapore, UAE, and the UK are actively hiring skilled Workday Financial professionals",
-      "<strong>Attractive Salary Packages:</strong> Skilled Workday professionals receive competitive salaries in ERP and finance-related roles",
-      "<strong>Strong Career Growth:</strong> Move into roles like Workday Financial Consultant, Functional Consultant, Reporting Analyst, and Financial Systems Consultant",
-      "<strong>Cloud ERP Technology Exposure:</strong> Gain practical experience in one of the fastest-growing cloud-based financial management platforms",
-      "<strong>International Job Opportunities:</strong> Workday skills are valuable across multinational consulting and enterprise environments",
-      "<strong>Beginner-Friendly Path:</strong> Freshers from commerce, accounting, finance, and ERP backgrounds can start without advanced coding knowledge"
-    ]
-  }
-},
+   
  {
   "course_name": "Digital Marketing Training",
   "name":"Digital Marketing Training in Chennai ",
