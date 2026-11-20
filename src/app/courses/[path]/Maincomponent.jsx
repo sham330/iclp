@@ -891,7 +891,7 @@ const CourseDetails = () => {
 </section>
 
 
-      <RelatedCourses currentCourseName={course.course_name} />
+      <RelatedCourses currentCourseName={course.course_name} currentCategory={params?.path} />
 
 
       {/* Modal */}

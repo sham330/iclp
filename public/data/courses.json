@@ -393,6 +393,408 @@
       "path":"oracle",
       "sub_categories": [
         {
+  "course_name": "Oracle Fusion CX",
+  "name":"Oracle Fusion CX Online Training in Chennai",
+  "path": "oracle-fusion-cx-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented Oracle Fusion CX Online Training in Chennai designed for freshers, graduates, CRM professionals, IT professionals, and working professionals who want to build a successful career in Oracle Customer Experience (CX) applications. Our online instructor-led training program covers Oracle Sales Cloud, Oracle Service Cloud, Oracle Marketing, application configuration, integration, reporting, security, and real-time project scenarios. Our Oracle Fusion CX course focuses on practical learning, hands-on configuration, and real-time project implementation. Learn how to manage leads, opportunities, service requests, campaigns, and customer data while gaining the skills required to work confidently on real-world business scenarios with guidance from experienced trainers.",
+  "meta_title": "Oracle Fusion CX Online Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Oracle Fusion CX Online Training in Chennai at ICLP Technologies. Learn Sales Cloud, Service, Marketing, OTBI, and real-time projects with expert trainers.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/#service",
+        "name": "Oracle Fusion CX Online Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Oracle Fusion CX Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/#course",
+        "name": "Oracle Fusion CX Online Training in Chennai",
+        "description": "Join Oracle Fusion CX Online Training in Chennai at ICLP Technologies. Learn Sales Cloud, Service, Marketing, OTBI, and real-time projects with expert trainers.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "ICLP Oracle Fusion CX Course Completion Certificate",
+        "keywords": "Oracle Fusion CX Online Training in Chennai, Oracle Fusion CX Course, Oracle Sales Cloud Training, Oracle Service Cloud Training, Oracle Marketing Training, Oracle CX Training, Oracle Fusion CX Placement Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Oracle Fusion CX"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle Sales Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle Service Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oracle Marketing"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Oracle Fusion CX Online Training",
+            "item": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/oracle-fusion-cx-online-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Oracle Fusion CX Online Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oracle Fusion CX Online Training teaches learners how to use Oracle Customer Experience applications, including Oracle Sales Cloud, Oracle Service Cloud, and Oracle Marketing. The course also covers configuration, integration, reporting, security, and real-time project implementation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Oracle Fusion CX suitable for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers and graduates can start learning Oracle Fusion CX from the fundamentals and gradually progress towards configuration, integration, and reporting concepts. Basic computer knowledge and an interest in CRM and business processes are helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Oracle Fusion CX online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers online Oracle Fusion CX training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the career opportunities after Oracle Fusion CX training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "After completing Oracle Fusion CX training and developing the required practical skills, learners can explore opportunities as Oracle Fusion CX Consultants, Oracle Sales Cloud Consultants, Oracle Service Cloud Consultants, CRM Functional Analysts, and related professionals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn Oracle Fusion CX?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No advanced programming knowledge is generally required to learn the functional and configuration aspects of Oracle Fusion CX. Basic computer knowledge and an understanding of CRM or business processes can be helpful."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Oracle Fusion CX Online Training?",
+      "answer": "Oracle Fusion CX Online Training teaches learners how to use Oracle Customer Experience applications, including Oracle Sales Cloud, Oracle Service Cloud, and Oracle Marketing. The course also covers configuration, integration, reporting, security, and real-time project implementation."
+    },
+    {
+      "question": "Is Oracle Fusion CX suitable for freshers?",
+      "answer": "Yes. Freshers and graduates can start learning Oracle Fusion CX from the fundamentals and gradually progress towards configuration, integration, and reporting concepts. Basic computer knowledge and an interest in CRM and business processes are helpful."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+    },
+    {
+      "question": "Is Oracle Fusion CX online training available?",
+      "answer": "Yes. ICLP Technologies offers online Oracle Fusion CX training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+    },
+    {
+      "question": "What are the career opportunities after Oracle Fusion CX training?",
+      "answer": "After completing Oracle Fusion CX training and developing the required practical skills, learners can explore opportunities as Oracle Fusion CX Consultants, Oracle Sales Cloud Consultants, Oracle Service Cloud Consultants, CRM Functional Analysts, and related professionals."
+    },
+    {
+      "question": "Do I need coding knowledge to learn Oracle Fusion CX?",
+      "answer": "No advanced programming knowledge is generally required to learn the functional and configuration aspects of Oracle Fusion CX. Basic computer knowledge and an understanding of CRM or business processes can be helpful."
+    }
+  ],
+  "what_youll_learn": [
+    "Oracle Fusion CX Architecture and Navigation",
+    "Oracle Cloud Applications Fundamentals",
+    "Lead and Opportunity Management",
+    "Account and Contact Management",
+    "Sales Forecasting and Territory Management",
+    "Sales Pipeline Management",
+    "Service Request and Case Management",
+    "Knowledge Management",
+    "SLA, Service Entitlements and Contracts",
+    "Campaign Management and Marketing Automation",
+    "Customer Segmentation and Lead Nurturing",
+    "Application Composer and Page Customization",
+    "Custom Objects, Fields and Dynamic Layouts",
+    "Workflows, Approval Rules and Business Rules",
+    "Sandbox Configuration and Deployment",
+    "REST APIs and SOAP Web Services",
+    "Oracle Integration Cloud (OIC) Basics",
+    "OTBI Reporting and BI Publisher",
+    "Security and Role Management",
+    "Real-Time Oracle Fusion CX Projects"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Oracle Fusion CX",
+      "subtopics": [
+        "Introduction to Oracle Cloud Applications",
+        "Understanding Oracle Fusion CX architecture",
+        "Overview of CRM and CX applications",
+        "Oracle Fusion CX modules and functionalities",
+        "Navigation of Oracle Fusion applications",
+        "Roles, users, and security basics",
+        "Understanding business processes"
+      ]
+    },
+    {
+      "module": "Oracle Sales Cloud",
+      "subtopics": [
+        "Introduction to Oracle Sales Cloud",
+        "Lead management",
+        "Opportunity management",
+        "Account and contact management",
+        "Sales forecasting",
+        "Territory management",
+        "Sales quotas and targets",
+        "Activities and task management",
+        "Sales pipeline management",
+        "Sales dashboards and reports"
+      ]
+    },
+    {
+      "module": "Oracle Service Cloud",
+      "subtopics": [
+        "Introduction to Oracle Service",
+        "Customer service management",
+        "Service requests and case management",
+        "Service request lifecycle",
+        "Queues and assignment rules",
+        "Knowledge management",
+        "Service entitlements",
+        "Service contracts",
+        "SLA management",
+        "Customer support workflows"
+      ]
+    },
+    {
+      "module": "Oracle Marketing",
+      "subtopics": [
+        "Introduction to Oracle Marketing",
+        "Campaign management",
+        "Customer segmentation",
+        "Marketing automation",
+        "Email marketing concepts",
+        "Lead generation",
+        "Lead nurturing",
+        "Campaign performance analysis",
+        "Marketing analytics"
+      ]
+    },
+    {
+      "module": "Oracle Fusion CX Configuration",
+      "subtopics": [
+        "Application Composer",
+        "Page customization",
+        "Custom objects and fields",
+        "Dynamic layouts",
+        "Validation rules",
+        "Workflows and approval rules",
+        "Business rules",
+        "Lookups and value sets",
+        "Sandbox configuration and deployment"
+      ]
+    },
+    {
+      "module": "Oracle CX Integration",
+      "subtopics": [
+        "Introduction to REST APIs",
+        "SOAP web services overview",
+        "Oracle Integration Cloud (OIC) basics",
+        "Data import and export",
+        "File-Based Data Import (FBDI), where applicable",
+        "Integration with ERP and HCM",
+        "Customer data synchronization",
+        "Integration troubleshooting"
+      ]
+    },
+    {
+      "module": "Reporting and Analytics",
+      "subtopics": [
+        "OTBI reporting",
+        "BI Publisher fundamentals",
+        "Standard and custom reports",
+        "Dashboards",
+        "Sales performance reports",
+        "Customer service analytics",
+        "Report scheduling and exporting"
+      ]
+    },
+    {
+      "module": "Security and Administration",
+      "subtopics": [
+        "User and role management",
+        "Job roles and duty roles",
+        "Security policies",
+        "Data access security",
+        "Privileges and permissions",
+        "Application administration",
+        "Troubleshooting and monitoring"
+      ]
+    },
+    {
+      "module": "Real-Time Project",
+      "subtopics": [
+        "Sales lead-to-opportunity implementation",
+        "Account and contact configuration",
+        "Sales pipeline management",
+        "Service request implementation",
+        "Custom object creation",
+        "Reporting and dashboard development",
+        "End-to-end business scenario"
+      ]
+    },
+    {
+      "module": "Interview and Career Preparation",
+      "subtopics": [
+        "Oracle Fusion CX interview questions",
+        "Real-time scenario-based questions",
+        "Configuration-based interview preparation",
+        "Project explanation",
+        "Resume preparation",
+        "Interview support"
+      ]
+    }
+  ],
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Oracle Fusion CX Online Training</strong>?",
+    "intro": "ICLP Technologies provides career-focused Oracle Fusion CX training with practical learning, experienced trainers, flexible online classes, real-time project exposure, and placement assistance. Our training approach helps learners understand Oracle CX applications, develop configuration and functional skills, and gain practical experience in real business scenarios.",
+    "instructor_expertise": {
+      "heading": "Experienced Oracle Fusion CX Trainers",
+      "description": "Learn from experienced trainers with practical knowledge of Oracle Sales Cloud, Oracle Service Cloud, Oracle Marketing, application configuration, integration, reporting, and security. Our trainers explain concepts step by step, from fundamentals to advanced topics, using practical demonstrations and real-world business scenarios."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Oracle Fusion CX online training is designed for students, freshers, and working professionals:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Attend interactive online sessions with expert explanations, practical demonstrations, and question-and-answer discussions",
+        "<strong>Real-Time Project Training:</strong> Work on end-to-end scenarios covering lead-to-opportunity, service requests, custom objects, reporting, and dashboards",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday or weekend learning schedules based on your availability",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions and learning materials for revision and better understanding",
+        "<strong>Interview Support:</strong> Prepare with Oracle Fusion CX interview questions, scenario-based questions, and project explanation guidance"
+      ]
+    }
+  },
+  "duration": "30–45 Hours",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/oracle-fusion-cx-online-training-in-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Sales Lead-to-Opportunity Implementation",
+    "Account and Contact Configuration",
+    "Service Request Implementation",
+    "Custom Object Creation",
+    "Reporting and Dashboard Development"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Oracle Fusion CX Online Training</strong> in Chennai",
+    "description": "Oracle Fusion CX helps organizations manage sales, customer service, and marketing activities on a single cloud platform. Learning Oracle Fusion CX can help you explore career opportunities in CRM consulting, cloud applications, and enterprise technology.",
+    "points": [
+      "<strong>High Demand for Oracle CX Skills:</strong> Organizations using Oracle Cloud applications look for professionals with relevant Oracle Fusion CX skills",
+      "<strong>Multiple Career Opportunities:</strong> Explore roles such as Oracle Fusion CX Consultant, Sales Cloud Consultant, Service Cloud Consultant, and CRM Functional Analyst, depending on your skills and experience",
+      "<strong>Complete CX Knowledge:</strong> Learn Sales, Service, and Marketing applications along with configuration, integration, reporting, and security",
+      "<strong>Practical Configuration Skills:</strong> Gain hands-on exposure to Application Composer, custom objects, workflows, and sandbox deployment",
+      "<strong>Cloud Application Exposure:</strong> Understand Oracle Cloud applications and how they connect with ERP and HCM through integration concepts",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and graduates can start learning Oracle Fusion CX from the fundamentals and gradually progress towards advanced topics"
+    ]
+  }
+},
+        {
           "course_name": "Oracle Financials",
             "name":"Oracle Financials Training in Chennai ",
           "path": "oracle-financials-training-in-chennai",
@@ -36986,6 +37388,442 @@
         "<strong>Recorded Access:</strong> Access to recorded classes, learning materials, certification guidance, and continuous doubt-clearing support"
       ]
     }
+  }
+},{
+  "course_name": "IBM Cloud",
+  "name":"IBM Cloud Online Training in Chennai",
+  "path": "ibm-cloud-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented IBM Cloud Online Training in Chennai designed for freshers, graduates, IT professionals, system administrators, and working professionals who want to build a successful career in cloud computing. Our comprehensive online training program covers IBM Cloud fundamentals, Identity and Access Management, compute, storage, networking, databases, Kubernetes, Red Hat OpenShift, application services, security, monitoring, DevOps, and Infrastructure as Code. Our IBM Cloud course focuses on practical learning and hands-on exercises. Learn how to provision and manage cloud resources, deploy containerized applications, automate infrastructure, secure cloud environments, and design resilient cloud architectures with guidance from experienced trainers.",
+  "meta_title": "IBM Cloud Online Training in Chennai | ICLP Technologies",
+  "meta_description": "Join IBM Cloud Online Training in Chennai at ICLP Technologies. Learn IBM Cloud, Kubernetes, OpenShift, DevOps, Terraform, and security with expert trainers.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/#service",
+        "name": "IBM Cloud Online Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "IBM Cloud Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/#course",
+        "name": "IBM Cloud Online Training in Chennai",
+        "description": "Join IBM Cloud Online Training in Chennai at ICLP Technologies. Learn IBM Cloud, Kubernetes, OpenShift, DevOps, Terraform, and security with expert trainers.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "ICLP IBM Cloud Course Completion Certificate",
+        "keywords": "IBM Cloud Online Training in Chennai, IBM Cloud Course, IBM Cloud Training, IBM Cloud Kubernetes Service Training, Red Hat OpenShift on IBM Cloud, IBM Cloud DevOps Training, IBM Cloud Terraform Training, IBM Cloud Placement Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "IBM Cloud"
+          },
+          {
+            "@type": "Thing",
+            "name": "Kubernetes and Red Hat OpenShift"
+          },
+          {
+            "@type": "Thing",
+            "name": "DevOps and CI/CD"
+          },
+          {
+            "@type": "Thing",
+            "name": "Infrastructure as Code"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "IBM Cloud Online Training",
+            "item": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/ibm-cloud-online-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is IBM Cloud Online Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "IBM Cloud Online Training teaches learners how to use IBM Cloud services for compute, storage, networking, databases, containers, security, monitoring, DevOps, and automation. The course also covers cloud computing fundamentals and cloud architecture concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is IBM Cloud suitable for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers and graduates can start with cloud computing fundamentals and gradually progress towards IBM Cloud services, containers, DevOps, and automation. Basic computer and networking knowledge can be helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is IBM Cloud online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers online IBM Cloud training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the career opportunities after IBM Cloud training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "After completing IBM Cloud training and developing the required practical skills, learners can explore opportunities as Cloud Engineers, Cloud Administrators, DevOps Engineers, Cloud Support Engineers, and Cloud Solution Architects."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn IBM Cloud?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No advanced programming knowledge is generally required to start learning IBM Cloud. Basic computer knowledge and an understanding of IT infrastructure or networking can be helpful, especially for the DevOps and automation topics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is IBM Cloud Online Training?",
+      "answer": "IBM Cloud Online Training teaches learners how to use IBM Cloud services for compute, storage, networking, databases, containers, security, monitoring, DevOps, and automation. The course also covers cloud computing fundamentals and cloud architecture concepts."
+    },
+    {
+      "question": "Is IBM Cloud suitable for freshers?",
+      "answer": "Yes. Freshers and graduates can start with cloud computing fundamentals and gradually progress towards IBM Cloud services, containers, DevOps, and automation. Basic computer and networking knowledge can be helpful."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+    },
+    {
+      "question": "Is IBM Cloud online training available?",
+      "answer": "Yes. ICLP Technologies offers online IBM Cloud training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+    },
+    {
+      "question": "What are the career opportunities after IBM Cloud training?",
+      "answer": "After completing IBM Cloud training and developing the required practical skills, learners can explore opportunities as Cloud Engineers, Cloud Administrators, DevOps Engineers, Cloud Support Engineers, and Cloud Solution Architects."
+    },
+    {
+      "question": "Do I need coding knowledge to learn IBM Cloud?",
+      "answer": "No advanced programming knowledge is generally required to start learning IBM Cloud. Basic computer knowledge and an understanding of IT infrastructure or networking can be helpful, especially for the DevOps and automation topics."
+    }
+  ],
+  "what_youll_learn": [
+    "Cloud Computing Fundamentals",
+    "IBM Cloud Platform and Architecture",
+    "Identity and Access Management (IAM)",
+    "Compute Services and Virtual Server Instances",
+    "Object, Block and File Storage",
+    "VPC Networking and Security Groups",
+    "Managed Databases and Data Services",
+    "Docker and Containerization",
+    "IBM Cloud Kubernetes Service (IKS)",
+    "Red Hat OpenShift on IBM Cloud",
+    "Code Engine and Serverless Computing",
+    "Microservices and Event-Driven Architecture",
+    "Cloud Security and Governance",
+    "Key Protect and Secrets Manager",
+    "Monitoring and Observability",
+    "DevOps and CI/CD Pipelines",
+    "Terraform and IBM Cloud Schematics",
+    "Ansible and Configuration Management",
+    "High Availability and Disaster Recovery",
+    "Cloud Migration and Application Modernization"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Cloud Computing",
+      "subtopics": [
+        "Cloud computing fundamentals and evolution",
+        "Traditional IT infrastructure vs. cloud infrastructure",
+        "Benefits, limitations, and business use cases",
+        "Cloud deployment models: public, private, hybrid, and multicloud",
+        "Cloud service models: IaaS, PaaS, and SaaS",
+        "Cloud architecture fundamentals"
+      ]
+    },
+    {
+      "module": "Introduction to IBM Cloud",
+      "subtopics": [
+        "IBM Cloud platform overview, architecture, and global infrastructure",
+        "Regions, availability zones, and service availability",
+        "IBM Cloud account setup and dashboard navigation",
+        "IBM Cloud Catalog, resource groups, projects, and workspaces",
+        "IBM Cloud CLI fundamentals",
+        "IBM Cloud documentation, support, and service selection"
+      ]
+    },
+    {
+      "module": "IBM Cloud Identity and Access Management (IAM)",
+      "subtopics": [
+        "Users, groups, service IDs, and access groups",
+        "Platform roles, service roles, and access policies",
+        "Resource-based access control",
+        "API keys, authentication, and service credentials",
+        "Multifactor authentication and identity federation fundamentals",
+        "IAM security best practices"
+      ]
+    },
+    {
+      "module": "IBM Cloud Compute Services",
+      "subtopics": [
+        "Compute fundamentals and virtual server instances",
+        "Bare metal servers and compute options",
+        "Provisioning instances, selecting profiles, and operating systems",
+        "CPU, memory, and storage configuration",
+        "SSH key management and virtual server networking",
+        "Monitoring, scaling, backup, recovery, and troubleshooting"
+      ]
+    },
+    {
+      "module": "IBM Cloud Storage Services",
+      "subtopics": [
+        "IBM Cloud Object Storage: buckets, classes, and use cases",
+        "Object upload/download and bucket access policies",
+        "Lifecycle management, versioning, and retention",
+        "Block storage and file storage fundamentals",
+        "Data encryption, backup, recovery, monitoring, and cost management"
+      ]
+    },
+    {
+      "module": "IBM Cloud Networking",
+      "subtopics": [
+        "Cloud networking fundamentals and VPC architecture",
+        "Subnets, IP addressing, and virtual network interfaces",
+        "Public and private gateways",
+        "Security groups and network ACLs",
+        "Load balancers, VPN connectivity, and Transit Gateway",
+        "DNS, routing, connectivity, and network troubleshooting"
+      ]
+    },
+    {
+      "module": "IBM Cloud Databases and Data Services",
+      "subtopics": [
+        "Managed database services overview",
+        "IBM Db2 on Cloud and database service options",
+        "Databases for PostgreSQL, MongoDB, and Redis (service availability dependent)",
+        "Database provisioning, connectivity, and security",
+        "Backup, recovery, monitoring, and data migration fundamentals"
+      ]
+    },
+    {
+      "module": "IBM Cloud Kubernetes Service (IKS)",
+      "subtopics": [
+        "Containerization and Docker fundamentals",
+        "Docker images, containers, and container registries",
+        "IBM Cloud Kubernetes Service architecture",
+        "Cluster creation, worker nodes, and worker pools",
+        "Pods, deployments, services, ConfigMaps, and Secrets",
+        "Persistent volumes, storage classes, and ingress",
+        "Application deployment, scaling, monitoring, and troubleshooting"
+      ]
+    },
+    {
+      "module": "Red Hat OpenShift on IBM Cloud",
+      "subtopics": [
+        "OpenShift architecture and cluster provisioning",
+        "Projects, namespaces, routes, and services",
+        "Build and deployment configurations",
+        "Image streams, operators, and Operator Lifecycle Manager",
+        "OpenShift networking and security",
+        "Application deployment, monitoring, and cluster management"
+      ]
+    },
+    {
+      "module": "IBM Cloud Application Services",
+      "subtopics": [
+        "IBM Cloud Code Engine and serverless computing",
+        "IBM Cloud Functions and Cloud Foundry fundamentals",
+        "Application runtime environments and deployment",
+        "Containerized applications and microservices architecture",
+        "IBM API Connect introduction",
+        "Event-driven architecture and IBM Event Streams (Kafka)"
+      ]
+    },
+    {
+      "module": "IBM Cloud Security and Governance",
+      "subtopics": [
+        "IBM Cloud security architecture and shared responsibility",
+        "IAM, Key Protect, Secrets Manager, and Hyper Protect Crypto Services overview",
+        "Encryption at rest and in transit",
+        "Network security, compliance, and governance policies",
+        "Activity Tracker, security monitoring, and vulnerability management",
+        "Disaster recovery planning and security best practices"
+      ]
+    },
+    {
+      "module": "IBM Cloud Monitoring and Observability",
+      "subtopics": [
+        "Cloud monitoring and observability fundamentals",
+        "IBM Cloud Monitoring and IBM Cloud Logs",
+        "Activity Tracker and Sysdig monitoring",
+        "Metrics, dashboards, and alert configuration",
+        "Log management and application performance monitoring",
+        "Infrastructure health, incident management, and optimization"
+      ]
+    },
+    {
+      "module": "IBM Cloud DevOps and CI/CD",
+      "subtopics": [
+        "DevOps principles and Git/GitHub source control",
+        "IBM Cloud Continuous Delivery and toolchains",
+        "Delivery pipelines, builds, and deployment automation",
+        "Continuous integration and continuous deployment",
+        "Jenkins integration and container image management",
+        "Kubernetes deployment, release management, and DevOps best practices"
+      ]
+    },
+    {
+      "module": "IBM Cloud Automation and Infrastructure as Code",
+      "subtopics": [
+        "Infrastructure as Code concepts",
+        "Terraform fundamentals and IBM Cloud provider",
+        "Terraform configuration, variables, outputs, and state",
+        "IBM Cloud Schematics workspaces",
+        "Infrastructure provisioning and resource automation",
+        "Ansible fundamentals and configuration management",
+        "Automated deployment and troubleshooting"
+      ]
+    },
+    {
+      "module": "Advanced IBM Cloud Architecture",
+      "subtopics": [
+        "IBM Cloud architecture design principles",
+        "High availability and multi-zone deployments",
+        "Disaster recovery and resilience architecture",
+        "Hybrid cloud and multicloud integration",
+        "Enterprise cloud migration and application modernization",
+        "Microservices deployment, scalability, and performance",
+        "Cost optimization, governance, and architecture best practices"
+      ]
+    }
+  ],
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>IBM Cloud Online Training</strong>?",
+    "intro": "ICLP Technologies provides career-focused IBM Cloud training with practical learning, experienced trainers, flexible online classes, hands-on exercises, and placement assistance. Our training approach helps learners understand cloud concepts, develop technical skills, and gain practical experience with IBM Cloud services.",
+    "instructor_expertise": {
+      "heading": "Experienced IBM Cloud Trainers",
+      "description": "Learn from experienced trainers with practical knowledge of IBM Cloud, Kubernetes, Red Hat OpenShift, DevOps, security, and Infrastructure as Code. Our trainers explain concepts step by step, from cloud fundamentals to advanced architecture topics, using practical demonstrations and real-world scenarios."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our IBM Cloud online training is designed for students, freshers, and working professionals:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Attend interactive online sessions with expert explanations, practical demonstrations, and question-and-answer discussions",
+        "<strong>Hands-On Practical Training:</strong> Practice provisioning compute, storage, networking, Kubernetes clusters, and automation workflows",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday or weekend learning schedules based on your availability",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions and learning materials for revision and better understanding",
+        "<strong>Doubt-Clearing Support:</strong> Get guidance from trainers to resolve technical questions and improve your understanding of cloud concepts"
+      ]
+    }
+  },
+  "duration": "Comprehensive 15-Module Training Program",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/ibm-cloud-online-training-in-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "IBM Cloud VPC and Networking Setup",
+    "Containerized Application Deployment on IBM Cloud Kubernetes Service",
+    "CI/CD Pipeline with IBM Cloud Continuous Delivery",
+    "Infrastructure Provisioning with Terraform and Schematics"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>IBM Cloud Online Training</strong> in Chennai",
+    "description": "Cloud computing is a core part of modern IT, and organizations use cloud platforms to host applications, manage data, automate infrastructure, and improve scalability and security. Learning IBM Cloud can help you explore career opportunities in cloud engineering, DevOps, and enterprise cloud architecture.",
+    "points": [
+      "<strong>High Demand for Cloud Skills:</strong> Organizations adopting cloud, hybrid cloud, and multicloud strategies look for professionals with relevant cloud skills",
+      "<strong>Multiple Career Opportunities:</strong> Explore roles such as Cloud Engineer, Cloud Administrator, DevOps Engineer, Cloud Support Engineer, and Cloud Solution Architect, depending on your skills and experience",
+      "<strong>Container and Kubernetes Expertise:</strong> Gain knowledge of Docker, Kubernetes, and Red Hat OpenShift used in modern application deployment",
+      "<strong>DevOps and Automation Skills:</strong> Learn CI/CD, Terraform, and Ansible to automate infrastructure provisioning and application delivery",
+      "<strong>Security and Governance Knowledge:</strong> Understand IAM, encryption, compliance, and monitoring practices for secure cloud environments",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and graduates can start with cloud fundamentals and gradually progress towards advanced IBM Cloud architecture"
+    ]
   }
 },
 {

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const RelatedCoursesSlider = ({ currentCourseName = "" }) => {
+const RelatedCoursesSlider = ({ currentCourseName = "", currentCategory = "" }) => {
   const [allCourses, setAllCourses] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(4);
@@ -18,6 +18,7 @@ const RelatedCoursesSlider = ({ currentCourseName = "" }) => {
             courses.push({
               name: sub.course_name,
               category: cat.category_name,
+              categoryPath: cat.path,
               route: `/courses/${cat.path}/${sub.path}`,
               description: sub.description || "",
             });
@@ -30,6 +31,11 @@ const RelatedCoursesSlider = ({ currentCourseName = "" }) => {
 
   const filteredCourses = allCourses
     .filter((c) => c.name !== currentCourseName)
+    .sort((a, b) => {
+      const aMatch = a.categoryPath === currentCategory ? -1 : 1;
+      const bMatch = b.categoryPath === currentCategory ? -1 : 1;
+      return aMatch - bMatch;
+    })
     .slice(0, 12);
 
   useEffect(() => {
