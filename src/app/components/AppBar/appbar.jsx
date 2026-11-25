@@ -219,6 +219,7 @@ const AppBar = () => {
       { name: "Unix Shell Scripting", path: "unix-shell-scripting-training-in-chennai" },
       { name: "C and C++", path: "c-cpp-programming-training-in-chennai" },
       {path: "finops-training-in-chennai", name: "FinOps Training"},
+      {  path: "atlan-online-training-in-chennai", name: "Atlan Online Training" },
       { name: "Corel Draw", path: "coreldraw-masterclass-training-in-chennai" },
       { name: "Alation Data Catalog", path: "alation-data-catalog-training-in-chennai", },
       { "name": "IBM DataPower", "path": "ibm-data-power-training-in-chennai" },

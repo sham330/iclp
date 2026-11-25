@@ -384,6 +384,484 @@
 "Data Quality Scorecard Dashboard",
 "Governance Workflow Automation"
 ]
+},{
+  "course_name": "Atlan",
+  "name":"Atlan Online Training in Chennai",
+  "path": "atlan-online-training-in-chennai",
+  "description": "ICLP Technologies offers industry-oriented Atlan Online Training in Chennai designed for freshers, graduates, data professionals, IT professionals, and working professionals who want to build a successful career in data cataloging, metadata management, and data governance. Our comprehensive online training program covers the Atlan data intelligence platform, data catalog management, metadata management, data source integration, data lineage, data governance, data quality, workflows and automation, and Atlan APIs. Our Atlan course focuses on practical learning and hands-on exercises. Learn how to catalog data assets, manage metadata, trace data lineage, implement governance policies, and automate workflows with guidance from experienced trainers.",
+  "meta_title": "Atlan Online Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Atlan Online Training in Chennai at ICLP Technologies. Learn data catalog, metadata management, lineage, governance, and real-time projects with expert trainers.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://iclptech.in/#organization",
+        "name": "ICLP Technologies",
+        "url": "https://iclptech.in",
+        "logo": "https://iclptech.in/favicon.png",
+        "sameAs": [
+          "https://www.instagram.com/iclp_technologies",
+          "https://facebook.com/iclp-technologies",
+          "http://linkedin.com/company/iclp-technologies",
+          "https://twitter.com/iclp_tech",
+          "https://youtube.com/@iclp_technologies"
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8681026181",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": [
+            "English",
+            "Tamil"
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://iclptech.in/course/atlan-online-training-in-chennai/#service",
+        "name": "Atlan Online Training in Chennai",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "areaServed": "India",
+        "serviceType": "Atlan Course with Placement Support"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://iclptech.in/course/atlan-online-training-in-chennai/#course",
+        "name": "Atlan Online Training in Chennai",
+        "description": "Join Atlan Online Training in Chennai at ICLP Technologies. Learn data catalog, metadata management, lineage, governance, and real-time projects with expert trainers.",
+        "provider": {
+          "@id": "https://iclptech.in/#organization"
+        },
+        "courseMode": [
+          "Online",
+          "Classroom"
+        ],
+        "inLanguage": "English",
+        "educationalLevel": "Beginner to Advanced",
+        "occupationalCredentialAwarded": "ICLP Atlan Course Completion Certificate",
+        "keywords": "Atlan Online Training in Chennai, Atlan Course, Atlan Training, Atlan Data Catalog Training, Metadata Management Training, Data Lineage Training, Data Governance Training, Atlan Placement Training",
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Atlan Data Intelligence Platform"
+          },
+          {
+            "@type": "Thing",
+            "name": "Metadata Management"
+          },
+          {
+            "@type": "Thing",
+            "name": "Data Lineage"
+          },
+          {
+            "@type": "Thing",
+            "name": "Data Governance"
+          }
+        ],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "inLanguage": "English"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://iclptech.in/course/atlan-online-training-in-chennai/",
+          "price": "Contact for fees",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://iclptech.in/course/atlan-online-training-in-chennai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://iclptech.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Courses",
+            "item": "https://iclptech.in/course/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Atlan Online Training",
+            "item": "https://iclptech.in/course/atlan-online-training-in-chennai/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://iclptech.in/course/atlan-online-training-in-chennai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Atlan Online Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atlan Online Training teaches learners how to use the Atlan data intelligence platform for data cataloging, metadata management, data lineage, data governance, data quality, workflows, and automation. The course also covers data source integrations and Atlan APIs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Atlan suitable for freshers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Freshers and graduates interested in data and analytics can start with metadata and data governance fundamentals and gradually progress towards integrations, lineage, and automation. Basic knowledge of databases and SQL can be helpful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ICLP Technologies provide placement assistance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Atlan online training available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ICLP Technologies offers online Atlan training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the career opportunities after Atlan training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "After completing Atlan training and developing the required practical skills, learners can explore opportunities such as Data Catalog Analyst, Data Governance Analyst, Metadata Management Specialist, Data Steward, and Data Platform Engineer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn Atlan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No advanced programming knowledge is generally required to learn the cataloging and governance aspects of Atlan. Basic knowledge of databases and SQL is helpful, and Python and REST API basics are useful for the API and automation topics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Atlan Online Training?",
+      "answer": "Atlan Online Training teaches learners how to use the Atlan data intelligence platform for data cataloging, metadata management, data lineage, data governance, data quality, workflows, and automation. The course also covers data source integrations and Atlan APIs."
+    },
+    {
+      "question": "Is Atlan suitable for freshers?",
+      "answer": "Yes. Freshers and graduates interested in data and analytics can start with metadata and data governance fundamentals and gradually progress towards integrations, lineage, and automation. Basic knowledge of databases and SQL can be helpful."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides career assistance, resume preparation guidance, interview preparation, and placement support to help learners explore relevant job opportunities."
+    },
+    {
+      "question": "Is Atlan online training available?",
+      "answer": "Yes. ICLP Technologies offers online Atlan training with instructor-led classes, practical demonstrations, flexible batch timings, recorded learning resources, and expert trainer guidance."
+    },
+    {
+      "question": "What are the career opportunities after Atlan training?",
+      "answer": "After completing Atlan training and developing the required practical skills, learners can explore opportunities such as Data Catalog Analyst, Data Governance Analyst, Metadata Management Specialist, Data Steward, and Data Platform Engineer."
+    },
+    {
+      "question": "Do I need coding knowledge to learn Atlan?",
+      "answer": "No advanced programming knowledge is generally required to learn the cataloging and governance aspects of Atlan. Basic knowledge of databases and SQL is helpful, and Python and REST API basics are useful for the API and automation topics."
+    }
+  ],
+  "what_youll_learn": [
+    "Atlan Data Intelligence Platform Fundamentals",
+    "Modern Data Stack Concepts",
+    "Atlan Architecture and Workspace Setup",
+    "Data Catalog Management",
+    "Business Glossary and Data Dictionary",
+    "Technical, Business and Operational Metadata",
+    "Metadata Ingestion and Enrichment",
+    "Data Source Integration (Snowflake, Databricks, BigQuery and more)",
+    "BI and dbt Integration",
+    "Table-Level and Column-Level Data Lineage",
+    "Impact Analysis and Root Cause Analysis",
+    "Data Governance Frameworks and Policies",
+    "PII and Sensitive Data Classification",
+    "Data Quality Management",
+    "Role-Based Access Control and Access Requests",
+    "Workflows and Automation",
+    "Atlan REST APIs and Python Integration",
+    "Webhooks and Event-Driven Integrations",
+    "Atlan Administration and Monitoring",
+    "Real-Time Data Catalog Implementation"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Atlan",
+      "subtopics": [
+        "What is Atlan?",
+        "Overview of the Atlan data intelligence platform",
+        "Evolution of data catalog platforms",
+        "Importance of metadata management",
+        "Data governance fundamentals",
+        "Data catalog vs data warehouse vs data lake",
+        "Atlan architecture and components",
+        "Atlan use cases and industry applications",
+        "Introduction to modern data stack"
+      ]
+    },
+    {
+      "module": "Atlan Architecture and Environment Setup",
+      "subtopics": [
+        "Atlan platform architecture",
+        "Understanding Atlan workspaces",
+        "Atlan account and user setup",
+        "Workspace navigation",
+        "Understanding assets and metadata",
+        "Roles and permissions",
+        "User groups and access management",
+        "Introduction to Atlan APIs",
+        "Connecting data sources"
+      ]
+    },
+    {
+      "module": "Data Catalog Management",
+      "subtopics": [
+        "Introduction to data catalogs",
+        "Data asset discovery",
+        "Database and schema discovery",
+        "Table and column metadata",
+        "Asset search and filtering",
+        "Asset descriptions and documentation",
+        "Business glossary management",
+        "Custom metadata fields",
+        "Asset ownership management",
+        "Data asset organization"
+      ]
+    },
+    {
+      "module": "Metadata Management",
+      "subtopics": [
+        "Introduction to metadata",
+        "Technical metadata",
+        "Business metadata",
+        "Operational metadata",
+        "Metadata extraction and ingestion",
+        "Metadata synchronization",
+        "Metadata enrichment",
+        "Custom metadata configuration",
+        "Metadata automation",
+        "Metadata management best practices"
+      ]
+    },
+    {
+      "module": "Data Source Integration",
+      "subtopics": [
+        "Connecting databases to Atlan",
+        "Snowflake integration",
+        "Databricks integration",
+        "Amazon Redshift integration",
+        "Google BigQuery integration",
+        "Azure Synapse integration",
+        "PostgreSQL integration",
+        "Tableau integration",
+        "Power BI integration",
+        "dbt integration",
+        "Data source connection troubleshooting"
+      ]
+    },
+    {
+      "module": "Data Lineage Management",
+      "subtopics": [
+        "Introduction to data lineage",
+        "Understanding end-to-end data flow",
+        "Table-level lineage",
+        "Column-level lineage",
+        "Upstream and downstream dependencies",
+        "Automated lineage extraction",
+        "SQL-based lineage",
+        "dbt lineage integration",
+        "Data transformation tracking",
+        "Impact analysis",
+        "Root cause analysis",
+        "Lineage visualization and troubleshooting"
+      ]
+    },
+    {
+      "module": "Data Governance",
+      "subtopics": [
+        "Introduction to data governance",
+        "Data governance framework",
+        "Data ownership and stewardship",
+        "Data policies and standards",
+        "Data access governance",
+        "Data classification",
+        "Sensitive data identification",
+        "Personally Identifiable Information (PII)",
+        "Data privacy management",
+        "Governance workflows",
+        "Data governance implementation"
+      ]
+    },
+    {
+      "module": "Business Glossary and Data Dictionary",
+      "subtopics": [
+        "Introduction to business glossary",
+        "Creating business terms",
+        "Defining business terminology",
+        "Linking business terms to data assets",
+        "Data dictionary creation",
+        "Business term ownership",
+        "Term relationships and hierarchies",
+        "Glossary approval workflows",
+        "Maintaining business definitions",
+        "Business glossary best practices"
+      ]
+    },
+    {
+      "module": "Data Quality Management",
+      "subtopics": [
+        "Introduction to data quality",
+        "Data quality dimensions",
+        "Accuracy, completeness and consistency",
+        "Data profiling fundamentals",
+        "Data quality rules and validation",
+        "Data quality monitoring",
+        "Identifying data anomalies",
+        "Data quality issue management",
+        "Integration with data quality tools",
+        "Data quality reporting"
+      ]
+    },
+    {
+      "module": "Classification and Access Management",
+      "subtopics": [
+        "Data classification policies",
+        "Creating classification tags",
+        "Sensitive data classification",
+        "PII classification",
+        "Tag propagation",
+        "Role-based access control (RBAC)",
+        "User and group management",
+        "Asset-level permissions",
+        "Access request workflows",
+        "Permission auditing"
+      ]
+    },
+    {
+      "module": "Workflows and Automation",
+      "subtopics": [
+        "Introduction to Atlan workflows",
+        "Workflow configuration",
+        "Metadata automation",
+        "Asset approval processes",
+        "Governance workflow automation",
+        "Ownership assignment automation",
+        "Task management",
+        "Notifications and alerts",
+        "Workflow monitoring",
+        "Automation use cases"
+      ]
+    },
+    {
+      "module": "Atlan API and Advanced Integrations",
+      "subtopics": [
+        "Introduction to Atlan APIs",
+        "REST API fundamentals",
+        "Authentication and authorization",
+        "API tokens and credentials",
+        "Searching assets using APIs",
+        "Retrieving metadata through APIs",
+        "Creating and updating assets",
+        "Metadata ingestion through APIs",
+        "Python integration with Atlan",
+        "API-based automation",
+        "Webhooks and event-driven integrations",
+        "API troubleshooting"
+      ]
+    },
+    {
+      "module": "Advanced Atlan Administration",
+      "subtopics": [
+        "Workspace administration",
+        "User and group administration",
+        "Role and permission configuration",
+        "Custom metadata configuration",
+        "Custom asset types and relationships",
+        "Connection management",
+        "Metadata ingestion monitoring",
+        "Audit logs and activity monitoring",
+        "Platform maintenance",
+        "Performance optimization",
+        "Troubleshooting and best practices"
+      ]
+    },
+    {
+      "module": "Real-Time Projects",
+      "subtopics": [
+        "Project 1: Enterprise Data Catalog Implementation",
+        "Connect Snowflake or another supported data source",
+        "Import database metadata",
+        "Organize tables and columns",
+        "Create asset descriptions",
+        "Assign data owners"
+      ]
+    }
+  ],
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Atlan Online Training</strong>?",
+    "intro": "ICLP Technologies provides career-focused Atlan training with practical learning, experienced trainers, flexible online classes, hands-on exercises, and placement assistance. Our training approach helps learners understand data catalog and governance concepts, develop technical skills, and gain practical experience with the Atlan platform.",
+    "instructor_expertise": {
+      "heading": "Experienced Atlan Trainers",
+      "description": "Learn from experienced trainers with practical knowledge of Atlan, metadata management, data lineage, data governance, data quality, and API integrations. Our trainers explain concepts step by step, from fundamentals to advanced administration topics, using practical demonstrations and real-world scenarios."
+    },
+    "training_modes": {
+      "heading": "Flexible Online Learning",
+      "description": "Our Atlan online training is designed for students, freshers, and working professionals:",
+      "options": [
+        "<strong>Live Instructor-Led Classes:</strong> Attend interactive online sessions with expert explanations, practical demonstrations, and question-and-answer discussions",
+        "<strong>Real-Time Project Training:</strong> Work on an enterprise data catalog implementation covering metadata import, asset organization, documentation, and ownership",
+        "<strong>Flexible Batch Timings:</strong> Choose suitable weekday or weekend learning schedules based on your availability",
+        "<strong>Recorded Class Access:</strong> Revisit recorded sessions and learning materials for revision and better understanding",
+        "<strong>Doubt-Clearing Support:</strong> Get guidance from trainers to resolve technical questions and improve your understanding of Atlan concepts"
+      ]
+    }
+  },
+  "duration": "Comprehensive 14-Module Training Program",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/atlan-online-training-in-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Enterprise Data Catalog Implementation"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Atlan Online Training</strong> in Chennai",
+    "description": "Atlan is a modern data intelligence platform that helps organizations discover, understand, govern, and trust their data. Learning Atlan can help you explore career opportunities in data cataloging, metadata management, data governance, and the modern data stack.",
+    "points": [
+      "<strong>Growing Demand for Data Governance Skills:</strong> Organizations investing in data platforms look for professionals who can manage metadata, lineage, and data governance",
+      "<strong>Multiple Career Opportunities:</strong> Explore roles such as Data Catalog Analyst, Data Governance Analyst, Metadata Management Specialist, Data Steward, and Data Platform Engineer, depending on your skills and experience",
+      "<strong>Modern Data Stack Exposure:</strong> Learn how Atlan connects with Snowflake, Databricks, BigQuery, dbt, Tableau, Power BI, and other data tools",
+      "<strong>Data Lineage and Quality Skills:</strong> Understand lineage, impact analysis, root cause analysis, and data quality management",
+      "<strong>Automation and API Knowledge:</strong> Gain practical exposure to workflows, REST APIs, Python integration, and event-driven automation",
+      "<strong>Beginner-Friendly Learning:</strong> Freshers and graduates can start with metadata and governance fundamentals and gradually progress towards advanced administration"
+    ]
+  }
 }
 
       ]
