@@ -40880,263 +40880,13 @@
     }
   ]
 },
-      {
-  "name": "Data Analytics Training in Chennai",
-  "course_name": "Data Analytics Course",
+{
+  "course_name": "Data Analytics",
+  "name":"Data Analytics Training in Chennai",
   "path": "data-analytics-training-in-chennai",
-  "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools. Students gain practical exposure through real-time analytics projects, dashboard creation, report automation, and business data analysis techniques used by top multinational companies. Whether you are looking for Data Analytics Online Training, Power BI Training, Tableau Certification Course, or placement-oriented Data Analyst Training, ICLP Technologies helps you become industry-ready with practical learning and career guidance.",
-  "meta_title": "Data Analytics Training in Chennai ",
-  "meta_description": "Learn to transform information into insights with Data Analytics Training in Chennai covering visualization, reporting, statistics and business analysis.",
-  "career_benefits": {
-    "heading": "Career Benefits of <strong>Data Analytics Training</strong> in Chennai",
-    "description": "Data Analytics is one of the fastest-growing career opportunities worldwide. Organizations use analytics tools to make business decisions, improve operations, increase revenue, and understand customer behavior, creating strong demand for skilled analysts across industries.",
-    "points": [
-      "<strong>High Demand in All Industries:</strong> Companies actively hire analysts in IT, finance, retail, healthcare, logistics, and consulting",
-      "<strong>Attractive Salary Packages:</strong> Skilled Data Analysts, BI professionals, and reporting specialists earn strong compensation based on tools and project exposure",
-      "<strong>Strong Career Growth:</strong> Data Analytics creates a pathway into Business Intelligence, Data Science, Reporting, and decision-support roles",
-      "<strong>Global Job Opportunities:</strong> Organizations across India, USA, UAE, Singapore, Canada, and Europe hire analytics professionals",
-      "<strong>Work-from-Home Opportunities:</strong> Many analytics and dashboard-related roles support hybrid or remote work models",
-      "<strong>Business Intelligence Exposure:</strong> Learn in-demand tools like Power BI, Tableau, SQL, Excel, and Python used in modern reporting environments"
-    ]
-  },
-  "curriculum_overview": {
-    "heading": "Comprehensive Data Analytics Curriculum",
-    "intro": "Our Data Analytics Training program focuses on practical, job-oriented learning through live instructor-led sessions, dashboard development, reporting automation, business case studies, and real-time analytics project implementation."
-  },
-  "track_overview_primary": {
-    "heading": "Core Analytics and Reporting Track",
-    "description": "Build strong fundamentals in analytics, reporting, and dashboard development:",
-    "topics": [
-      "<strong>Introduction to Data Analytics:</strong> Core analytics concepts, business use cases, and data-driven decision making",
-      "<strong>Advanced Excel for Analytics:</strong> Data cleaning, formulas, pivot tables, lookup functions, and reporting techniques",
-      "<strong>SQL for Data Analysis:</strong> Queries, joins, aggregations, filtering, and business data extraction",
-      "<strong>Power BI Dashboard Development:</strong> Dashboard building, KPI tracking, visualization, and interactive reports",
-      "<strong>Tableau Visualization:</strong> Storytelling through data, chart creation, and business insight presentation",
-      "<strong>Data Visualization:</strong> Best practices for charts, reports, dashboards, and visual business communication"
-    ]
-  },
-  "track_overview_secondary": {
-    "heading": "Advanced Tools, Python and Career Readiness Track",
-    "description": "Apply analytics tools in real-world scenarios and become placement-ready:",
-    "topics": [
-      "<strong>Python for Data Analytics:</strong> Python basics, data handling, analysis workflows, and reporting support",
-      "<strong>Data Cleaning Techniques:</strong> Preparing raw business data for analysis and dashboarding",
-      "<strong>Business Intelligence Concepts:</strong> Reporting frameworks, performance tracking, and insight generation",
-      "<strong>Reporting & Dashboard Automation:</strong> Automated reporting processes and recurring analytics workflows",
-      "<strong>Statistical Analysis Basics:</strong> Introductory analytical concepts for interpreting trends and performance",
-      "<strong>Interview Preparation & Placement Support:</strong> Resume building, mock interviews, LinkedIn optimization, and job guidance"
-    ]
-  },
-  "certification_info": {
-    "heading": "Data Analytics Certification & Recognition",
-    "intro": "Receive a course completion certificate along with practical project exposure and industry-oriented learning designed to strengthen your profile for analytics, reporting, BI, and entry-level data roles.",
-    "highlights": [
-      "<strong>Course Completion Certificate:</strong> Validates practical learning in Excel, SQL, Power BI, Tableau, Python, and analytics workflows",
-      "<strong>Project Portfolio:</strong> Build dashboards, reports, and analytics case studies to showcase to employers",
-      "<strong>Interview Preparation:</strong> Get support for analytics interviews, reporting questions, and BI tool discussions",
-      "<strong>Placement Assistance:</strong> Resume building, job referral support, mock interviews, and career guidance sessions",
-      "<strong>Practical Assignments:</strong> Work on hands-on reporting and dashboard tasks to strengthen job readiness",
-      "<strong>Flexible Learning Support:</strong> Access recorded sessions, assignments, templates, and interview materials"
-    ]
-  },
-  "why_institute": {
-    "heading": "Why Choose ICLP Technologies for Data Analytics Training?",
-    "intro": "ICLP Technologies provides industry-focused Data Analytics Training with practical implementation, real-time projects, live dashboards, business reporting exercises, and placement-oriented learning for freshers, non-IT learners, and working professionals.",
-    "instructor_expertise": {
-      "heading": "Experienced Industry Trainers",
-      "description": "Learn from experienced Data Analytics professionals with real-time project and corporate training exposure. Get mentor support for dashboarding, reporting, analytics workflows, and business interpretation techniques."
-    },
-    "training_modes": {
-      "heading": "Flexible Learning Options",
-      "description": "Designed for students, job seekers, and professionals across Chennai and beyond:",
-      "options": [
-        "<strong>Online Training:</strong> Live instructor-led sessions with recorded access and interactive practical classes",
-        "<strong>Classroom Training:</strong> In-person sessions for learners who prefer direct trainer support",
-        "<strong>Weekday & Weekend Batches:</strong> Suitable for freshers, career switchers, and working professionals",
-        "<strong>Real-Time Project Training:</strong> Gain hands-on exposure through dashboard development, analytics case studies, and reporting exercises"
-      ]
-    }
-  },
-  "what_youll_learn": [
-    "Introduction to Data Analytics",
-    "Advanced Excel for Analytics",
-    "SQL for Data Analysis",
-    "Power BI Dashboard Development",
-    "Tableau Visualization",
-    "Python for Data Analytics",
-    "Data Cleaning Techniques",
-    "Data Visualization",
-    "Business Intelligence Concepts",
-    "Reporting & Dashboard Automation",
-    "Statistical Analysis Basics",
-    "KPI Reporting",
-    "Data Interpretation",
-    "Real-Time Analytics Projects",
-    "Analytics Case Studies",
-    "Interview Preparation"
-  ],
-  "who_can_learn": [
-    "Freshers",
-    "Non-IT Candidates",
-    "Engineering Students",
-    "Commerce Graduates",
-    "MBA Students",
-    "Working Professionals",
-    "Career Gap Candidates",
-    "Finance Professionals",
-    "IT Professionals"
-  ],
-  "syllabus": [
-    {
-      "module": "Introduction to Data Analytics",
-      "subtopics": [
-        "Overview of data analytics and business intelligence",
-        "Importance of analytics in decision making",
-        "Types of analytics and industry applications",
-        "Analytics workflow and project lifecycle"
-      ]
-    },
-    {
-      "module": "Advanced Excel for Analytics",
-      "subtopics": [
-        "Data cleaning and formatting in Excel",
-        "Advanced formulas and functions",
-        "Pivot tables and dashboards",
-        "Excel-based reporting techniques"
-      ]
-    },
-    {
-      "module": "SQL for Data Analysis",
-      "subtopics": [
-        "SQL basics and database concepts",
-        "Filtering, sorting, and grouping data",
-        "Joins, subqueries, and aggregations",
-        "SQL queries for reporting and analytics"
-      ]
-    },
-    {
-      "module": "Power BI Dashboard Development",
-      "subtopics": [
-        "Power BI interface and data loading",
-        "Data transformation and modeling",
-        "Dashboard creation and KPI tracking",
-        "Interactive reports and data storytelling"
-      ]
-    },
-    {
-      "module": "Tableau Visualization",
-      "subtopics": [
-        "Tableau fundamentals",
-        "Charts, dashboards, and storytelling",
-        "Business visualizations and filters",
-        "Insight presentation techniques"
-      ]
-    },
-    {
-      "module": "Python for Data Analytics",
-      "subtopics": [
-        "Python basics for analytics",
-        "Working with datasets",
-        "Data manipulation and analysis concepts",
-        "Using Python in reporting workflows"
-      ]
-    },
-    {
-      "module": "Data Cleaning and Preparation",
-      "subtopics": [
-        "Handling missing and duplicate data",
-        "Data transformation basics",
-        "Preparing structured datasets",
-        "Improving data quality for analysis"
-      ]
-    },
-    {
-      "module": "Business Intelligence and Reporting",
-      "subtopics": [
-        "BI concepts and business use cases",
-        "Reporting frameworks and performance tracking",
-        "KPI reporting and interpretation",
-        "Dashboard automation concepts"
-      ]
-    },
-    {
-      "module": "Statistical Analysis and Interpretation",
-      "subtopics": [
-        "Basic statistical concepts",
-        "Trend and pattern analysis",
-        "Data interpretation methods",
-        "Business insight generation"
-      ]
-    },
-    {
-      "module": "Real-Time Projects and Career Preparation",
-      "subtopics": [
-        "Real-time analytics projects",
-        "Dashboard and case study implementation",
-        "Interview preparation and mock sessions",
-        "Resume building, LinkedIn optimization, and placement support"
-      ]
-    }
-  ],
-  "faqs": [
-    {
-      "question": "What is Data Analytics Training?",
-      "answer": "Data Analytics Training helps students learn data analysis, dashboard creation, reporting, visualization, Power BI, Tableau, SQL, and analytics tools."
-    },
-    {
-      "question": "Is Data Analytics good for freshers?",
-      "answer": "Yes. Freshers from engineering, commerce, IT, and non-IT backgrounds can start a successful career in Data Analytics."
-    },
-    {
-      "question": "Do you provide placement assistance?",
-      "answer": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
-    },
-    {
-      "question": "Is online Data Analytics training available?",
-      "answer": "Yes. We provide online Data Analytics Training with live instructor-led sessions and recorded classes."
-    },
-    {
-      "question": "Do I need coding knowledge?",
-      "answer": "No. Basic knowledge is helpful but not mandatory for beginners."
-    },
-    {
-      "question": "Can non-IT students learn Data Analytics?",
-      "answer": "Yes. Non-IT candidates can easily learn Data Analytics with proper practical training and project guidance."
-    },
-    {
-      "question": "What is the salary after Data Analytics course?",
-      "answer": "Salary depends on skills, experience, certifications, and company requirements. Skilled Data Analysts receive attractive salary packages."
-    }
-  ],
-  "duration": "Flexible Batches",
-  "skill_level": "Beginner to Advanced (No Advanced Coding Required)",
-  "image": "/CourseDetails/data-analytics-course.png",
-  "placement_assurance": true,
-  "projects": [
-    "Power BI Dashboard Development Project",
-    "Tableau Visualization Project",
-    "SQL Reporting and Data Analysis Project",
-    "Excel Analytics and KPI Reporting Project",
-    "Python-Based Data Analytics Project"
-  ],
-  "student_benefits": {
-    "heading": "Student Benefits",
-    "points": [
-      "Course Completion Certificate",
-      "Practical Assignments",
-      "Real-Time Projects",
-      "Dashboard Development Experience",
-      "Expert Mentor Support",
-      "Career Guidance",
-      "Placement Preparation",
-      "Interview Materials"
-    ]
-  },
-  "cta": {
-    "heading": "🚀 Start Your Data Analytics Career Today",
-    "subheading": "Become a Job-Ready Data Analyst with Real-Time Training, Live Projects, Certification Guidance, and Placement Assistance.",
-    "link": "https://iclptech.in/contact/"
-  },
+  "description": "ICLP Technologies offers industry-oriented Data Analytics training for freshers, graduates, working professionals and non-IT candidates who want to develop their careers in data analytics and business intelligence. Our Data Analytics Training program provides practical knowledge of Advanced Excel, SQL, Python, Power BI, Tableau and Data Visualization. Learn how to work with business data, perform data analysis, create interactive dashboards and generate meaningful insights through hands-on exercises and real-world projects. With experienced trainers, structured learning, practical assignments and placement assistance, we help learners develop the technical skills required to explore opportunities in the data analytics industry.",
+  "meta_title": "Data Analytics Training in Chennai | ICLP Technologies",
+  "meta_description": "Join Data Analytics Training in Chennai at ICLP Technologies. Learn Excel, SQL, Python, Power BI and Tableau through practical projects and placement assistance.",
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -41153,6 +40903,10 @@
           "https://twitter.com/iclp_tech",
           "https://youtube.com/@iclp_technologies"
         ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Chennai"
+        },
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8681026181",
@@ -41167,7 +40921,7 @@
       {
         "@type": "Service",
         "@id": "https://iclptech.in/course/data-analytics-training-in-chennai/#service",
-        "name": "Data Analytics Course in Chennai",
+        "name": "Data Analytics Training in Chennai",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -41177,8 +40931,8 @@
       {
         "@type": "Course",
         "@id": "https://iclptech.in/course/data-analytics-training-in-chennai/#course",
-        "name": "Data Analytics Course in Chennai",
-        "description": "ICLP Technologies offers industry-focused Data Analytics Course in Chennai designed for freshers, working professionals, non-IT candidates, and career switchers who want to build a successful career in Data Analytics and Business Intelligence. Our Data Analytics Training program provides practical learning with real-time projects, live implementation scenarios, and hands-on experience in Excel, SQL, Power BI, Tableau, Python, Data Visualization, Business Analytics, and Reporting tools.",
+        "name": "Data Analytics Training in Chennai",
+        "description": "Join Data Analytics Training in Chennai at ICLP Technologies. Learn Excel, SQL, Python, Power BI and Tableau through practical projects and placement assistance.",
         "provider": {
           "@id": "https://iclptech.in/#organization"
         },
@@ -41188,9 +40942,9 @@
         ],
         "inLanguage": "English",
         "educationalLevel": "Beginner to Advanced",
-        "occupationalCredentialAwarded": "Data Analytics Course Completion Certificate",
-        "timeRequired": "PT60H",
-        "keywords": "Data Analytics Course in Chennai, Data Analyst Training, Data Analytics Online Training, Data Analytics Course with Placement, Power BI Training, Tableau Training, SQL Training, Excel for Data Analytics, Python Data Analytics Course",
+        "occupationalCredentialAwarded": "ICLP Data Analytics Course Completion Certificate",
+        "timeRequired": "PT40H",
+        "keywords": "Data Analytics Training in Chennai, Data Analytics Course in Chennai, Data Analyst Training in Chennai, Data Analytics Institute in Chennai, Data Analytics Classes in Chennai, Power BI Training in Chennai, SQL Training in Chennai",
         "about": [
           {
             "@type": "Thing",
@@ -41198,11 +40952,11 @@
           },
           {
             "@type": "Thing",
-            "name": "Power BI"
+            "name": "Power BI and Tableau"
           },
           {
             "@type": "Thing",
-            "name": "Tableau"
+            "name": "SQL and Python"
           },
           {
             "@type": "Thing",
@@ -41227,8 +40981,8 @@
         },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "1800"
+          "ratingValue": "4.8",
+          "ratingCount": "1463"
         }
       },
       {
@@ -41250,7 +41004,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Data Analytics Course",
+            "name": "Data Analytics Training",
             "item": "https://iclptech.in/course/data-analytics-training-in-chennai/"
           }
         ]
@@ -41264,35 +41018,285 @@
             "name": "What is Data Analytics Training?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Data Analytics Training helps students learn data analysis, dashboard creation, reporting, visualization, Power BI, Tableau, SQL, and analytics tools."
+              "text": "Data Analytics Training teaches you how to collect, clean, process, analyze and visualize data using tools such as Excel, SQL, Python, Power BI and Tableau."
             }
           },
           {
             "@type": "Question",
-            "name": "Is Data Analytics good for freshers?",
+            "name": "Is Data Analytics a good career option for freshers?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Freshers from engineering, commerce, IT, and non-IT backgrounds can start a successful career in Data Analytics."
+              "text": "Yes. Data Analytics can be a suitable career path for freshers interested in working with data, business reporting, dashboards and analytical problem-solving."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you provide placement assistance?",
+            "name": "Does ICLP Technologies provide placement assistance?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. ICLP Technologies provides placement support, interview preparation, and career guidance."
+              "text": "Yes. ICLP Technologies provides placement assistance, resume guidance, interview preparation and career support."
             }
           },
           {
             "@type": "Question",
-            "name": "Can non-IT students learn Data Analytics?",
+            "name": "Is online Data Analytics training available in Chennai?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Non-IT candidates can easily learn Data Analytics with practical training and project guidance."
+              "text": "Yes. Online training options are available for learners who prefer instructor-led sessions from their preferred location. Contact our team for batch details."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need coding knowledge to learn Data Analytics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No advanced coding knowledge is required to get started. You can begin with Excel and SQL fundamentals before learning Python."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can non-IT students join Data Analytics Training?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Non-IT graduates and candidates from different educational backgrounds can learn Data Analytics by starting with the fundamentals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the duration of the Data Analytics Training program?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The training program offers 40+ hours of structured learning. The schedule depends on the selected batch and learning mode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which tools are covered in the Data Analytics course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The training covers Advanced Excel, SQL, Python, Power BI, Tableau, data visualization and business intelligence concepts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the salary after completing a Data Analytics course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salary depends on educational qualifications, technical skills, practical experience, job role and employer. Developing strong analytical and project skills can help candidates prepare for relevant opportunities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I join Data Analytics Training in Chennai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can contact ICLP Technologies at +91 8681026181 to enquire about available classroom locations, online batches and upcoming schedules."
             }
           }
         ]
       }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Data Analytics Training?",
+      "answer": "Data Analytics Training teaches you how to collect, clean, process, analyze and visualize data using tools such as Excel, SQL, Python, Power BI and Tableau."
+    },
+    {
+      "question": "Is Data Analytics a good career option for freshers?",
+      "answer": "Yes. Data Analytics can be a suitable career path for freshers interested in working with data, business reporting, dashboards and analytical problem-solving."
+    },
+    {
+      "question": "Does ICLP Technologies provide placement assistance?",
+      "answer": "Yes. ICLP Technologies provides placement assistance, resume guidance, interview preparation and career support."
+    },
+    {
+      "question": "Is online Data Analytics training available in Chennai?",
+      "answer": "Yes. Online training options are available for learners who prefer instructor-led sessions from their preferred location. Contact our team for batch details."
+    },
+    {
+      "question": "Do I need coding knowledge to learn Data Analytics?",
+      "answer": "No advanced coding knowledge is required to get started. You can begin with Excel and SQL fundamentals before learning Python."
+    },
+    {
+      "question": "Can non-IT students join Data Analytics Training?",
+      "answer": "Yes. Non-IT graduates and candidates from different educational backgrounds can learn Data Analytics by starting with the fundamentals."
+    },
+    {
+      "question": "What is the duration of the Data Analytics Training program?",
+      "answer": "The training program offers 40+ hours of structured learning. The schedule depends on the selected batch and learning mode."
+    },
+    {
+      "question": "Which tools are covered in the Data Analytics course?",
+      "answer": "The training covers Advanced Excel, SQL, Python, Power BI, Tableau, data visualization and business intelligence concepts."
+    },
+    {
+      "question": "What is the salary after completing a Data Analytics course?",
+      "answer": "Salary depends on educational qualifications, technical skills, practical experience, job role and employer. Developing strong analytical and project skills can help candidates prepare for relevant opportunities."
+    },
+    {
+      "question": "Where can I join Data Analytics Training in Chennai?",
+      "answer": "You can contact ICLP Technologies at +91 8681026181 to enquire about available classroom locations, online batches and upcoming schedules."
+    }
+  ],
+  "what_youll_learn": [
+    "Introduction to Data Analytics",
+    "Advanced Excel and Reporting",
+    "SQL Queries and Database Analysis",
+    "Python Programming",
+    "Power BI Dashboard Development",
+    "Tableau Visualization",
+    "Data Cleaning and Preparation",
+    "Exploratory Data Analysis",
+    "Business Intelligence Concepts",
+    "Statistical Analysis",
+    "KPI Monitoring and Reporting",
+    "Data Interpretation",
+    "Business Analytics",
+    "Dashboard Development",
+    "Real-Time Analytics Projects",
+    "Analytical Problem-Solving"
+  ],
+  "syllabus": [
+    {
+      "module": "Introduction to Data Analytics",
+      "subtopics": [
+        "Fundamentals and types of Data Analytics",
+        "Data Analytics Life Cycle",
+        "Data-Driven Decision Making",
+        "Business Intelligence Fundamentals",
+        "Applications of Data Analytics"
+      ]
+    },
+    {
+      "module": "Advanced Excel for Data Analytics",
+      "subtopics": [
+        "Excel Fundamentals",
+        "Advanced Formulas and Functions",
+        "VLOOKUP, XLOOKUP and INDEX MATCH",
+        "Pivot Tables and Pivot Charts",
+        "Data Cleaning, Formatting and Reporting"
+      ]
+    },
+    {
+      "module": "SQL for Data Analysis",
+      "subtopics": [
+        "Database Management",
+        "SQL Commands and Queries",
+        "SELECT, WHERE and ORDER BY",
+        "Aggregate Functions",
+        "GROUP BY, HAVING, Joins and Subqueries"
+      ]
+    },
+    {
+      "module": "Power BI Dashboard Development",
+      "subtopics": [
+        "Connecting Multiple Data Sources",
+        "Power Query and Data Transformation",
+        "Data Modeling and DAX Fundamentals",
+        "Interactive Dashboard Creation",
+        "Reports, Data Visualization and KPI Monitoring"
+      ]
+    },
+    {
+      "module": "Tableau Data Visualization",
+      "subtopics": [
+        "Connecting Data Sources",
+        "Data Preparation",
+        "Charts and Graphs",
+        "Calculated Fields",
+        "Interactive Dashboards and Data Storytelling"
+      ]
+    },
+    {
+      "module": "Python for Data Analytics",
+      "subtopics": [
+        "Python Fundamentals",
+        "Variables and Data Types",
+        "Conditional Statements and Loops",
+        "Lists, Tuples and Dictionaries",
+        "NumPy, Pandas and Data Exploration"
+      ]
+    },
+    {
+      "module": "Data Cleaning and Preparation",
+      "subtopics": [
+        "Understanding Raw Data",
+        "Handling Missing Values",
+        "Removing Duplicate Records",
+        "Data Transformation",
+        "Exploratory Data Analysis"
+      ]
+    },
+    {
+      "module": "Business Intelligence and Reporting",
+      "subtopics": [
+        "Business Intelligence Concepts",
+        "Key Performance Indicators",
+        "Business Performance Analysis",
+        "Reporting Techniques",
+        "Dashboard Development and Automation Concepts"
+      ]
+    },
+    {
+      "module": "Statistical Analysis and Interpretation",
+      "subtopics": [
+        "Statistical Fundamentals",
+        "Descriptive Statistics",
+        "Understanding Data Distribution",
+        "Identifying Trends and Patterns",
+        "Data Interpretation"
+      ]
+    },
+    {
+      "module": "Real-Time Projects and Career Preparation",
+      "subtopics": [
+        "Practical Data Analysis Assignments",
+        "Business Analytics Case Studies",
+        "SQL and Excel Projects",
+        "Power BI Dashboard Projects",
+        "Interview Preparation, Resume Development and Mock Interviews"
+      ]
+    }
+  ],
+  "why_institute": {
+    "heading": "Why Choose ICLP Technologies for <strong>Data Analytics Training</strong>?",
+    "intro": "Choosing the right training institute is an important step towards developing your technical skills. ICLP Technologies focuses on practical learning, industry-relevant course content and career preparation to help students build a foundation in Data Analytics.",
+    "instructor_expertise": {
+      "heading": "Experienced Data Analytics Trainers",
+      "description": "Learn important analytics concepts with trainer guidance, practical demonstrations and structured training sessions. Understand how analytics tools work through assignments, data analysis exercises, dashboard creation and reporting activities."
+    },
+    "training_modes": {
+      "heading": "Flexible Online and Classroom Training",
+      "description": "Choose an available learning mode that suits your schedule and learning preferences:",
+      "options": [
+        "<strong>Online Data Analytics Training:</strong> Attend instructor-led online sessions and learn analytics concepts through practical demonstrations, assignments and trainer interaction",
+        "<strong>Classroom Data Analytics Training:</strong> Learn in a classroom environment with direct trainer guidance and practical learning activities",
+        "<strong>Weekday and Weekend Training:</strong> Explore available batch schedules to balance your learning with academic and professional commitments",
+        "<strong>Practical Project Training:</strong> Strengthen your understanding through data analysis exercises, dashboard development and business case studies"
+      ]
+    }
+  },
+  "duration": "40+ Hours",
+  "skill_level": "Beginner to Advanced (No Advanced Coding Knowledge Required)",
+  "image": "/CourseDetails/data-analytics-training-in-chennai.png",
+  "placement_assurance": true,
+  "projects": [
+    "Practical Data Analysis Assignments",
+    "Business Analytics Case Studies",
+    "SQL and Excel Projects",
+    "Power BI Dashboard Projects"
+  ],
+  "career_benefits": {
+    "heading": "Career Benefits of <strong>Data Analytics Training</strong> in Chennai",
+    "description": "Data Analytics has become an important part of modern business operations. Companies use data to identify trends, understand customer requirements, measure performance and make better business decisions.",
+    "points": [
+      "<strong>Growing Demand for Data Analytics Professionals:</strong> Businesses across IT, banking, healthcare, finance, retail, e-commerce and logistics use data analytics to improve their operations",
+      "<strong>Multiple Career Opportunities:</strong> Develop the knowledge required to explore roles such as Data Analyst, Business Analyst, MIS Analyst, Reporting Analyst and Business Intelligence Analyst",
+      "<strong>Learn Industry-Relevant Tools:</strong> Gain practical knowledge of Excel, SQL, Python, Power BI and Tableau for data processing, reporting and visualization",
+      "<strong>Develop Business Intelligence Skills:</strong> Understand how to work with business data, create interactive dashboards, monitor KPIs and communicate analytical findings",
+      "<strong>Opportunities Across Industries:</strong> Data analytics skills are applicable in technology companies, financial institutions, healthcare providers and retail businesses",
+      "<strong>Build a Strong Professional Profile:</strong> Combine technical learning, practical assignments and project experience to strengthen your profile for analytics-related job opportunities"
     ]
   }
 },  {
